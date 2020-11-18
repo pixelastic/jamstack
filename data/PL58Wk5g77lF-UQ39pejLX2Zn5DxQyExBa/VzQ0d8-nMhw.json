@@ -1,0 +1,36 @@
+[
+  {
+    "content": "Hello",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 1234,
+    "video": {
+      "description": "Recorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "VzQ0d8-nMhw",
+      "position": 14,
+      "publishedAt": "2018-11-19T05:52:48Z",
+      "title": "Matt Biilmann - How We Talk About the JAMstack"
+    }
+  },
+  {
+    "content": "World",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 5678,
+    "video": {
+      "description": "Recorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "VzQ0d8-nMhw",
+      "position": 14,
+      "publishedAt": "2018-11-19T05:52:48Z",
+      "title": "Matt Biilmann - How We Talk About the JAMstack"
+    }
+  }
+]

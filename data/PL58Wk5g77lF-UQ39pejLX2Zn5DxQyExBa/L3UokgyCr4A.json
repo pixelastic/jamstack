@@ -1,0 +1,36 @@
+[
+  {
+    "content": "Hello",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 1234,
+    "video": {
+      "description": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski recorded a live version of their weekly podcast including audience participation, web development trivia, terrible jokes and prizes to be won.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "L3UokgyCr4A",
+      "position": 8,
+      "publishedAt": "2018-11-19T05:47:50Z",
+      "title": "Scott Tolinski and Wes Bos - Syntax FM Live!"
+    }
+  },
+  {
+    "content": "World",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 5678,
+    "video": {
+      "description": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski recorded a live version of their weekly podcast including audience participation, web development trivia, terrible jokes and prizes to be won.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "L3UokgyCr4A",
+      "position": 8,
+      "publishedAt": "2018-11-19T05:47:50Z",
+      "title": "Scott Tolinski and Wes Bos - Syntax FM Live!"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "content": "Hello",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 1234,
+    "video": {
+      "description": "The internet is, without metaphor, just a bunch of servers tied together with wires. Without servers, we'd have no way to share our creations with the world.\n\nYet, in a bit of a paradox, servers are less essential to our work than they've ever been. We can now do things on the front-end that used to require a back end. When we do need a back end, our front-end skills can be put to work, giving us some surprisingly powerful new abilities. Join Chris on a whirlwind tour of the tools, tech, and code that puts more power than ever into our front-end hands.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn more at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "grSxHfGoaeg",
+      "position": 5,
+      "publishedAt": "2018-11-19T05:46:40Z",
+      "title": "Chris Coyier - The All Powerful Front End Developer"
+    }
+  },
+  {
+    "content": "World",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 5678,
+    "video": {
+      "description": "The internet is, without metaphor, just a bunch of servers tied together with wires. Without servers, we'd have no way to share our creations with the world.\n\nYet, in a bit of a paradox, servers are less essential to our work than they've ever been. We can now do things on the front-end that used to require a back end. When we do need a back end, our front-end skills can be put to work, giving us some surprisingly powerful new abilities. Join Chris on a whirlwind tour of the tools, tech, and code that puts more power than ever into our front-end hands.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn more at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "grSxHfGoaeg",
+      "position": 5,
+      "publishedAt": "2018-11-19T05:46:40Z",
+      "title": "Chris Coyier - The All Powerful Front End Developer"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "content": "Hello",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 1234,
+    "video": {
+      "description": "This talk will be about Preact-cli’s third major release. Every PWA built or started with preact-cli so far has been promised with a perfect 💯lighthouse score. This talk will be about how the next version will improve the perf of the web apps even further.\n\nIn the next version, preact-cli will give you much more than perfect 💯 lighthouse score. It will do this by boosting all the existing high-scoring metrics like TTI, first paint time etc by adding a bunch of features.\n\nIn this talk Prateek will demo how does cli enables stuff like modern js delivery, better compression, asset inlings and bunch of more advanced web techniques with simple steps. Also how does it safeguard you from making most common mistakes in web dev.\n\nThis talk will also showcase how preact-cli is not only a bootstrap tool but prevents the dev from using any anti perf practices throughout the development.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "-KVm3tRlqg4",
+      "position": 3,
+      "publishedAt": "2018-11-19T05:45:53Z",
+      "title": "Prateek Bhatnagar - Supercharged PWAs With Preact CLI"
+    }
+  },
+  {
+    "content": "World",
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 5678,
+    "video": {
+      "description": "This talk will be about Preact-cli’s third major release. Every PWA built or started with preact-cli so far has been promised with a perfect 💯lighthouse score. This talk will be about how the next version will improve the perf of the web apps even further.\n\nIn the next version, preact-cli will give you much more than perfect 💯 lighthouse score. It will do this by boosting all the existing high-scoring metrics like TTI, first paint time etc by adding a bunch of features.\n\nIn this talk Prateek will demo how does cli enables stuff like modern js delivery, better compression, asset inlings and bunch of more advanced web techniques with simple steps. Also how does it safeguard you from making most common mistakes in web dev.\n\nThis talk will also showcase how preact-cli is not only a bootstrap tool but prevents the dev from using any anti perf practices throughout the development.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "-KVm3tRlqg4",
+      "position": 3,
+      "publishedAt": "2018-11-19T05:45:53Z",
+      "title": "Prateek Bhatnagar - Supercharged PWAs With Preact CLI"
+    }
+  }
+]
