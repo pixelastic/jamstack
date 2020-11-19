@@ -1,13 +1,14 @@
 [
   {
-    "content": "Hello",
+    "content": "[Music] so our next speaker is bud power who's",
+    "duration": 5.68,
     "playlist": {
       "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
       "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
       "publishedAt": "2018-11-19T05:38:20Z",
       "title": "JAMstack Conf 2018 - San Francisco"
     },
-    "start": 1234,
+    "start": 0.29,
     "video": {
       "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
       "id": "SIUYsPnhGcM",
@@ -17,14 +18,2139 @@
     }
   },
   {
-    "content": "World",
+    "content": "traveled here from New York and we're delighted to have him sorry",
+    "duration": 4.97,
     "playlist": {
       "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
       "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
       "publishedAt": "2018-11-19T05:38:20Z",
       "title": "JAMstack Conf 2018 - San Francisco"
     },
-    "start": 5678,
+    "start": 5.97,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "boisterous - yeah he was early wrong there was a oh there they are again the",
+    "duration": 5.65,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 10.94,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "New York table ah you can always support them they're a little bit rowdy but yeah",
+    "duration": 5.34,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 16.59,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "so but is responsible for an excellent publication called the new dynamic if",
+    "duration": 6.089,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 21.93,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "you search for the new dynamic you'll find all kinds of interesting material",
+    "duration": 3.121,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 28.02,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "on exactly this kind of this kind of content around static generation Jam",
+    "duration": 5.939,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 31.14,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "stack all all of that all good stuff and that's gonna do a talk to it for us",
+    "duration": 4.681,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 37.08,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "today about Hugo I'm a massive static site generator nerd as I think I've",
+    "duration": 4.44,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 41.76,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "mentioned so I'm excited about this take it away but but Peregrine bud thank you",
+    "duration": 7.129,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 46.2,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "so the name of my talk is gogo Hugo and Phil actually helped me name this and",
+    "duration": 6.04,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 55.64,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "it's a lot more exciting of a name that I would have come up with myself but as",
+    "duration": 4.47,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 61.68,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "he said my name is bud Parr and I've run a site called a new dynamic if you don't",
+    "duration": 6.27,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 66.15,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "know me you wouldn't know that how excited I am to be here and how and how",
+    "duration": 9.42,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 72.42,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "excited I am even that this conference exists I built my first static site for",
+    "duration": 6.3,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 81.84,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "a client in 2013 and I've never looked back and I've built hundreds of site",
+    "duration": 4.71,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 88.14,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "since then using this paradigm in 2014 feeling a little bit lonely in the space",
+    "duration": 6,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 92.85,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "I built the new dynamic org which originally the name was static as the",
+    "duration": 4.14,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 98.85,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "new dynamic and I've since lost the static because now we call it gem stack",
+    "duration": 3.419,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 102.99,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "but so that site I originally collected links and that sort of thing now we have",
+    "duration": 4.801,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 106.41,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "a database of tools with a hundred and eighty items or possibly even closer to",
+    "duration": 5.729,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 111.21,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "200 now hundreds of articles showcase videos that sort of thing I've been",
+    "duration": 5.04,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 116.94,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "promising to put a job board on there for a while but side projects so I'm",
+    "duration": 5.67,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 121.98,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "also a Hugo maintainer and I run a meet-up in New York City called a",
+    "duration": 4.441,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 127.65,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "tech meetup and and a slack for people to chat about these topics and that sort",
+    "duration": 5.58,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 132.09,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "of thing and so you can find the link the slack on the new dynamic work so",
+    "duration": 5.55,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 137.67,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "Hugo is what we call the world's fastest framework for building sites and it's",
+    "duration": 5.7,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 143.22,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "written go which is partly why it's so fast it was created in 2014 by Steve",
+    "duration": 5.94,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 148.92,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "France yeah who is now actually on the Google's on Google's go team he goes a",
+    "duration": 6.15,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 154.86,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "very popular tool as 30,000 stars on github over 275 themes and a lot of",
+    "duration": 7.53,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 161.01,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "contributors over 440 at last count that I saw so but a lot of people don't like",
+    "duration": 6.72,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 168.54,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "Hugo I talked to a lot of people about it and they the first thing that comes",
+    "duration": 5.369,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 175.26,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "up is well it's not JavaScript ok fair enough so it's not and I can only shrug",
+    "duration": 5.881,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 180.63,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "it that there's nothing I can do about that but it's also opinionated and a lot",
+    "duration": 4.08,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 186.51,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "of people complain about it being a penny native but it's a framework so as",
+    "duration": 5.13,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 190.59,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "frameworks go it does a lot for you and that comes at the cost of opinions and",
+    "duration": 5.96,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 195.72,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "then people don't like those nested booshka templates and they're just a",
+    "duration": 4.66,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 201.68,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "little bit weird and they take a lot of getting used to and you can see kind of",
+    "duration": 4.47,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 206.34,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "an example here right from the docs and it's just weird you know so thinking",
+    "duration": 4.86,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 210.81,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "about this I thought well maybe I'll just rename the talk and call it Hugo",
+    "duration": 3.39,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 215.67,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "the good parts you know just focus on the things that that I like about Hugo",
+    "duration": 6.679,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 219.06,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "so the first thing that we talked about so the people that like you though the",
+    "duration": 3.941,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 225.74,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "first thing that we talked about with Hugo is performance and of course it's",
+    "duration": 5.76,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 229.68,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "very fast while other tools are just kind of thinking about what they want to",
+    "duration": 4.5,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 235.44,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "do Hugo is done and you know for me my sites ranged from say 2,000 to 10,000",
+    "duration": 7.409,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 239.94,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "pages or something like that and and the average build time for one of my sites",
+    "duration": 3.92,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 247.35,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "with a fair amount of logic and it is about three and a half seconds some can",
+    "duration": 4.661,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 251.27,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "go higher a small site is going to build within a second and it's getting faster",
+    "duration": 5.22,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 255.93,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "all the time the latest release this is a this is a measurement from the",
+    "duration": 3.55,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 261.15,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "it's release and and the change has actually been pretty dramatic from what",
+    "duration": 3.42,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 264.7,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "I've seen in builds but not only is you go fast in its build time but Hugo wants",
+    "duration": 5.01,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 268.12,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "you to build your sights faster it gives you some tools like these template",
+    "duration": 5.22,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 273.13,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "template metrics that will help you identify places that you know you're",
+    "duration": 5.37,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 278.35,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "experiencing bottlenecks and show you opportunities for caching templates so",
+    "duration": 5.04,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 283.72,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "that you can improve your overall performance and of course sometimes even",
+    "duration": 6.59,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 288.76,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "as three seconds is too long so Hugo has a faster inner feature that will just",
+    "duration": 6.7,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 295.35,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "build whatever that you're working on right now and I don't know how well you",
+    "duration": 3.6,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 302.05,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "can see that or not but I've added just a piece of content here for a",
+    "duration": 3.09,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 305.65,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "demonstration and it shows up and and the timing on that is 478 milliseconds",
+    "duration": 5.97,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 308.74,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "so about a half of a second so the other thing that we talk about when we talk",
+    "duration": 8.52,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 314.71,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "about Hugo is is it for simple sites or is it for complex sites well it is",
+    "duration": 6.54,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 323.23,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "actually good for simple sites because it's a framework and it does a lot for",
+    "duration": 3.84,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 329.77,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "you right there's minimal configuration and you can see here I put the file",
+    "duration": 5.43,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 333.61,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "structure of a basic site that I put up it has one page of content and then I",
+    "duration": 5.97,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 339.04,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "added a theme and you're good to go you have a website you can see that there",
+    "duration": 3.75,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 345.01,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "are a lot of built in templates that you can use put the metadata templates here",
+    "duration": 4.41,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 348.76,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "and that sort of thing and with all the themes and that sort of thing you can",
+    "duration": 2.76,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 353.17,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "get you can get going with minimal effort but it's also very good for",
+    "duration": 5.4,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 355.93,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "complex sites because it allows you particularly with the build types it",
+    "duration": 4.65,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 361.33,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "allows you to build whatever kind of queries that you need to in your",
+    "duration": 3.15,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 365.98,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "templates no matter how complex they are you're still gonna have some pretty good",
+    "duration": 3.42,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 369.13,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "build times it can consume data files it can also consume external data files",
+    "duration": 6.27,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 372.55,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "within your templates and it plays nice with web pack like if I have mustache",
+    "duration": 4.65,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 378.82,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "templates or something like that I'd need for for some tool or another I can",
+    "duration": 3.42,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 383.47,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "I I can put those into my hugo site and in hugo relationships are pretty easy so",
+    "duration": 8.21,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 386.89,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "you he will allows you to index any of and then access that with a simple query",
+    "duration": 5.26,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 395.1,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "and it's a lot easier to write and a lot easy and a lot faster on your build",
+    "duration": 4.889,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 400.36,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "so everything that Hugo does is about having being very efficient in your",
+    "duration": 4.35,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 405.25,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "builds in in your coding and you can transform your content to anything so as",
+    "duration": 7.021,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 409.6,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "you can't use your websites get more complicated maybe just outputting HTML",
+    "duration": 5.19,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 416.62,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "is not going to be enough so hugo natively supports output two formats",
+    "duration": 5.46,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 421.81,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "like javascript and json xml we use json quite a bit but you can also output to",
+    "duration": 6.989,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 427.27,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "amp and all of my sites i output header and redirects files for Netta phi so",
+    "duration": 5.071,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 434.26,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "that I can control my server from there I can add caching in content security",
+    "duration": 3.959,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 439.33,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "policies and that sort of thing right from my building control it there and",
+    "duration": 5.91,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 443.29,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "Hugo has bundles feature which because there is no configuration Hugo just",
+    "duration": 6.9,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 449.2,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "wants to take your content from a content folder and output it into a",
+    "duration": 4.111,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 456.1,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "public folder and what bundles allow you to do is to give take some control over",
+    "duration": 7.56,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 460.21,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "that content so if you have assets or some of the content that you may not",
+    "duration": 5.609,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 467.77,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "want to output or anything like that you can control it with you though and then",
+    "duration": 6.121,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 473.38,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "an asset pipeline so now if you need to build CSS and JavaScript what you do you",
+    "duration": 8.819,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 479.5,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "can build those right in Hugo and it's very fast it's faster than anything",
+    "duration": 3.481,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 488.32,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "you're gonna get in node and you can do that having no external dependencies so",
+    "duration": 5.639,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 491.8,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "if you want a very tightly and capsulated site you can do that with",
+    "duration": 3.9,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 497.44,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "Hugo it also you know minify some fingerprints your assets and that sort",
+    "duration": 5.341,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 501.34,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "of thing you can use CSS and your templates and that sort of thing your",
+    "duration": 5.009,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 506.68,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "your asset files can read from templates so that's very thorough and then the",
+    "duration": 6.301,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 511.69,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "last thing that people don't appreciate about Hugo is the binary so Hugo ships",
+    "duration": 10.26,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 517.99,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "as a single binary you could this is an example of a script a friend of mine",
+    "duration": 3.6,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 528.25,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "that you can just add to your site and then just add bring in any kind of",
+    "duration": 5.669,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 531.85,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "binary or any binary for any machine into your site and ship that with your",
+    "duration": 4.471,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 537.52,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "site so that your site you can build it today as as Eric was just saying build",
+    "duration": 6.539,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 541.99,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "things that last you can ship the binary with your site and it's going to be the",
+    "duration": 3.36,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 548.53,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "same build today as it is in ten years it also makes upgrades painless because",
+    "duration": 7.76,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 551.89,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "with that single binary we just upload a new binary we run our site no errors we",
+    "duration": 5.62,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 559.65,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "push it we're good and then this is a new feature in Hugo is error handling",
+    "duration": 6.63,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 565.27,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "so now error handling is in the browser and you can see it everything is very",
+    "duration": 4.201,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 571.9,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "clear here where the weather error is and what template and you can link right",
+    "duration": 6,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 576.1,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "to the air from your from your command line and then lastly all the CMS's so",
+    "duration": 9.09,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 582.1,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "this part is very important from the very beginning of course if you have",
+    "duration": 4.139,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 591.19,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "clients or marketing people or anything like that they need to access the site",
+    "duration": 3.06,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 595.33,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "from a from a CMS and so now there are a lot of CMS's that we use I use forestry",
+    "duration": 7.111,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 598.39,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "quite a bit because it's a very elegant solution but there's also dado CMS natla",
+    "duration": 4.41,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 605.5,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "fie CMS which is open source as well as a couple of newer players APRA netic and",
+    "duration": 4.95,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 609.91,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "Hocus so you know it's one-stop shopping we have a pretty good community on the",
+    "duration": 7.01,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 614.86,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "discourse site and if you go on there and need help or anything like that",
+    "duration": 5.4,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 624.16,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "people are always there to help you and I think that's it and I have 24 seconds",
+    "duration": 5.009,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 629.56,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "left that's good yeah [Applause]",
+    "duration": 8.98,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 634.57,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "[Music] [Applause]",
+    "duration": 5.59,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 643.9,
+    "video": {
+      "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "SIUYsPnhGcM",
+      "position": 12,
+      "publishedAt": "2018-11-19T05:50:24Z",
+      "title": "Bud Parr - Go Go Hugo!"
+    }
+  },
+  {
+    "content": "you [Music]",
+    "duration": 6.219,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 651.15,
     "video": {
       "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
       "id": "SIUYsPnhGcM",

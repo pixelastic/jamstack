@@ -1,13 +1,14 @@
 [
   {
-    "content": "Hello",
+    "content": "[Music] okay so so why are we all here",
+    "duration": 5.2,
     "playlist": {
       "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
       "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
       "publishedAt": "2018-11-19T05:38:20Z",
       "title": "JAMstack Conf 2018 - San Francisco"
     },
-    "start": 1234,
+    "start": 0.29,
     "video": {
       "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
       "id": "Opye_qcRdUo",
@@ -17,14 +18,1725 @@
     }
   },
   {
-    "content": "World",
+    "content": "well hopefully we're here cuz we're if you see a stick about the jam stack and",
+    "duration": 4.41,
     "playlist": {
       "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
       "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
       "publishedAt": "2018-11-19T05:38:20Z",
       "title": "JAMstack Conf 2018 - San Francisco"
     },
-    "start": 5678,
+    "start": 5.49,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "curious about the jam stack and before we kick off and get Matt Cartman and",
+    "duration": 4.199,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 9.9,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "stop start the day with the keynote I just wanted to give almost like a tiny",
+    "duration": 3.871,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 14.1,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "primer about the jam stack so many of us will be familiar but let's not assume",
+    "duration": 4.649,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 17.97,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "that everyone is 100% familiar and let's just talk very very briefly about what",
+    "duration": 4.201,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 22.62,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "the jam stack is and the Jam stands for JavaScript API sand markup but this is",
+    "duration": 6.3,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 26.82,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "you know this is a name this is a convenient label we've found it's had",
+    "duration": 3.959,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 33.12,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "names in the past you know you might you might be able to argue that well this is",
+    "duration": 3.57,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 37.08,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "an approach to building sites which has been around for a while you know you",
+    "duration": 2.881,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 40.65,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "might have in addition to being talking about Jam stack sites you might have",
+    "duration": 3.9,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 43.53,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "talked about or heard about pre-rendered sites or static sites or you might have",
+    "duration": 4.949,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 47.43,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "heard about CDN ready site sites that can get to a CDN straight straightaway",
+    "duration": 4.461,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 52.38,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "the term Jam stack came along at a convenient time for me because I was",
+    "duration": 3.76,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 56.84,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "starting to describe exactly this kind of thing as the short stack you know a",
+    "duration": 3.299,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 60.6,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "stack which is shorter than that doesn't include so many moving parts as a",
+    "duration": 4.951,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 63.9,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "traditional web development stack and also pancakes also you may have heard",
+    "duration": 6.659,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 68.85,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "people talk about web server lists it's it's pretty much all describing the same",
+    "duration": 3.72,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 75.51,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "thing and it's a way of building sites a way of hosting sites and getting sites",
+    "duration": 4.471,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 79.23,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "out into the world that we're enthusiastic about and I think we'll see",
+    "duration": 3.989,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 83.7,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "a lot of that throughout the day but let's just go into a tiny bit more",
+    "duration": 4.921,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 87.69,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "detail you know this kind of site is something that's able to be served",
+    "duration": 3.45,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 92.61,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "directly from a CDN you know we don't have logic at play on a server that you",
+    "duration": 4.65,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 96.06,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "have to maintain we can kind of remove the origin server if you like which",
+    "duration": 3.299,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 100.71,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "sounds scary but those opportunities abound as a result of that it also means",
+    "duration": 4.951,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 104.01,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "that this is a site that you can then enrich with additional services so the a",
+    "duration": 4.86,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 108.96,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "and in Jam stack being api's and the J being JavaScript we can now start in the",
+    "duration": 6.72,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 113.82,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "client enrich sites further with JavaScript and pull more content and",
+    "duration": 4.289,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 120.54,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "functionality through things like progressive enhancement right in the",
+    "duration": 2.881,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 124.83,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "client-side and that's another attribute that you can you can associate with gem",
+    "duration": 3.69,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 127.71,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "stack sites so if just to compare very quickly a",
+    "duration": 5.53,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 131.4,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "traditional stack to the jam stack let's just break it down just for a moment and",
+    "duration": 4.8,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 136.93,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "think about you know how something comes from the browser gets into the users",
+    "duration": 5.64,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 141.73,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "eyes within the browser so from the browser making a request this is a",
+    "duration": 3.929,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 147.37,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "simplification but perhaps we're getting some resources that are on a CDN but",
+    "duration": 4.111,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 151.3,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "probably more likely we're hitting an origin server which is potentially",
+    "duration": 3.84,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 155.41,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "sitting behind some load balances that we that we manage there's logic on those",
+    "duration": 3.69,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 159.25,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "load balancers that will then route the request to one of several web service",
+    "duration": 5.01,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 162.94,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "that we've got to make sure that we can handle the load distribute the load we",
+    "duration": 2.879,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 167.95,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "manage the logic on those those those web servers aren't necessarily ready to",
+    "duration": 4.111,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 170.83,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "return the request right away we might be making further requests to a database",
+    "duration": 4.23,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 174.94,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "somewhere on one of a number of database servers to figure out what content we",
+    "duration": 4.47,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 179.17,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "need to put into a template to enrich it we pass that back to the web server",
+    "duration": 3.599,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 183.64,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "assemble that view in a template pass that back through the load balancer",
+    "duration": 3.961,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 187.24,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "perhaps cache some of that on a CDN make it available for the subsequent visits",
+    "duration": 4.8,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 191.2,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "but you know if these are dynamic requests we might be doing this route",
+    "duration": 2.7,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 196,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "every time and then finally we return a view to the user in into the users eyes",
+    "duration": 5.629,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 198.7,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "through their web browser so this is kind of obviously a fairly big",
+    "duration": 5.111,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 204.33,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "simplification and generalization of that kind of traditional stack but when",
+    "duration": 4.079,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 209.44,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "we're comparing that to the lamp stack so that the gem stack sorry",
+    "duration": 2.851,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 213.52,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "oh I shouldn't have happened we compare that to the the Jam stack no we're",
+    "duration": 10.619,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 216.37,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "making a request and then we're going to the CDN which has the the view already",
+    "duration": 4.291,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 226.99,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "they're prepared and sitting there on the CDN waiting for the user and then it",
+    "duration": 3.78,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 231.28,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "returns it and we're done so this kind of simplification is something that",
+    "duration": 3.84,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 235.06,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "really excites me I look for simplification wherever possible that",
+    "duration": 3.449,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 238.9,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "was something I thing that I heard a couple of times in the agency day",
+    "duration": 3.211,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 242.35,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "yesterday that really challenges me and so you can see some advantages here of",
+    "duration": 3.929,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 245.56,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "fewer moving parts and kind of left fewer things that could potentially go",
+    "duration": 4.08,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 249.49,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "wrong let's just unpack that a tiny bit more you'll be rid of me soon we'll be",
+    "duration": 4.081,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 253.57,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "we'll be onto the talks but I just want to just describe a tiny bit more about",
+    "duration": 3.78,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 257.65,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "this now if we're looking at this request that goes through a CDN and then",
+    "duration": 3.539,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 261.43,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "gets returned on top of that we can that further I mentioned this enrichment",
+    "duration": 4.17,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 264.97,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "and we can be doing that with requests other services and to micro services",
+    "duration": 3.721,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 269.14,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "maybe we manage elsewhere maybe there are other vendors and other services out",
+    "duration": 4.08,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 272.86,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "there we can leverage and those requests can go you know directly from the client",
+    "duration": 3.83,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 276.94,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "or you know they could be going through the CDN Matt showed a really nice",
+    "duration": 4.75,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 280.77,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "demonstration of that yesterday and indeed these services in these micro",
+    "duration": 4.86,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 285.52,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "services might be things that we leverage at Build time you know the",
+    "duration": 3.39,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 290.38,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "build is what we need to look after in order to get things out to the CDN and",
+    "duration": 5.19,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 293.77,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "in this kind of environment there's still a lot of moving parts there that",
+    "duration": 3,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 298.96,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "you might you might think of but this is really the only piece of infrastructure",
+    "duration": 3.299,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 301.96,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "we necessarily need to control and so the overhead for us is is quite",
+    "duration": 4.771,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 305.26,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "different and I think that's where lots of opportunities come into play so the",
+    "duration": 5.88,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 310.03,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "idea that that we have this set up really means that we can empower",
+    "duration": 3.509,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 315.91,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "front-end developers because we've shortened that stack there are fewer",
+    "duration": 3.541,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 319.42,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "things that the front-end developer needs to needs to manage in order to be",
+    "duration": 3.929,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 322.96,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "a very powerful web developer and empowering front-end developers as a",
+    "duration": 3.9,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 326.89,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "theme we'll hear from Chris coy a bit later on in his talk this kind of",
+    "duration": 4.5,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 330.79,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "approach is really powered by modern browsers and the capabilities that they",
+    "duration": 3.901,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 335.29,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "have and we're gonna hear content as well about that from a romana current",
+    "duration": 5.49,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 339.19,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "from others throughout the day I mentioned this kind of this term",
+    "duration": 4.41,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 344.68,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "enhanced and we can enhance the experience we can enrich that through",
+    "duration": 4.44,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 349.09,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "the gray ecosystem of tools and services that are now blossoming around the jam",
+    "duration": 5.4,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 353.53,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "stack some of the sponsors here are involved in that and there are many many",
+    "duration": 3.66,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 358.93,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "more tools and services that we can leverage it it's a really exciting time",
+    "duration": 3.24,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 362.59,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "and all of this kind of impacts our processes the way we build things even",
+    "duration": 4.769,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 365.83,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "the culture around the web development landscape we're gonna hear things to do",
+    "duration": 3.871,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 370.6,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "with that from Jessica throughout the day and this kind of culminates in a",
+    "duration": 4.65,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 374.47,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "really effective and efficient way of building sites a really effective way of",
+    "duration": 3.21,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 379.12,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "getting results that are very performance out of the world and I hope",
+    "duration": 2.61,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 382.33,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "it will show that along the ways today's world will hear from from Quincy and I",
+    "duration": 3.93,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 384.94,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "think this theme might come up a few times throughout throughout the day okay",
+    "duration": 4.53,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 388.87,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "so primer done intro done code of conduct done",
+    "duration": 4.5,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 393.4,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "you found the refreshments I think we're probably ready to start",
+    "duration": 3.3,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 397.9,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "with the day yes okay I'm getting a thumbs-up approval - lon okay",
+    "duration": 6.62,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 401.2,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "[Music] you",
+    "duration": 4.159,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 409.11,
+    "video": {
+      "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+      "id": "Opye_qcRdUo",
+      "position": 0,
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "Phil Hawksworth - What is the JAMstack?"
+    }
+  },
+  {
+    "content": "[Music]",
+    "duration": 4,
+    "playlist": {
+      "description": "With engineers from Netlify, Microsoft, Google, Contentful, and more, the first annual JAMstack Conf featured talks and workshops on building real-world applications with the JAMstack. Watch all the talks from the conference, agency day, and lightning talks during the welcome reception in this playlist!",
+      "id": "PL58Wk5g77lF-UQ39pejLX2Zn5DxQyExBa",
+      "publishedAt": "2018-11-19T05:38:20Z",
+      "title": "JAMstack Conf 2018 - San Francisco"
+    },
+    "start": 415.6,
     "video": {
       "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
       "id": "Opye_qcRdUo",
