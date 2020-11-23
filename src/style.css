@@ -19,3 +19,10 @@
     }
   }
 }
+
+.ais-Hits-list {
+  @apply flex flex-row flex-wrap;
+}
+.ais-Hits-item {
+  @apply w-33p p-1 flex;
+}
