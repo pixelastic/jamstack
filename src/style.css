@@ -24,5 +24,19 @@
   @apply flex flex-row flex-wrap;
 }
 .ais-Hits-item {
-  @apply w-33p p-1 flex;
+  @apply w-33p pr-1 pb-1 flex;
+}
+
+.captions .ais-highlight {
+  @apply bg-transparent yellow;
+}
+
+.text-shadow-outline {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.bg-youtube {
+  background-image: url('./assets/youtube-overlay.png');
+  background-size: 150px 100px;
 }

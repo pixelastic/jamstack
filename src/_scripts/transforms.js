@@ -1,5 +1,7 @@
 module.exports = {
-  custom(item) {
-    return item.video.title;
+  raw(item) {
+    const raw = JSON.stringify(item, null, 4);
+    console.info(raw);
+    return raw;
   },
 };
