@@ -1,1 +1,21 @@
 @import 'theme:style.css';
+
+/**
+* Main searchbox
+**/
+.ais-SearchBox {
+  @apply py-01 px-1 rounded w-100p bg-blue;
+}
+.ais-SearchBox-input {
+  @apply h-6 text-5 w-100p bg-transparent;
+  @apply white text-opacity-75p;
+  &::placeholder {
+    @apply white text-opacity-75p italic;
+  }
+  &:focus {
+    @apply outline-none gray-9 text-opacity-90p;
+    &::placeholder {
+      @apply gray-9 text-opacity-50p;
+    }
+  }
+}
