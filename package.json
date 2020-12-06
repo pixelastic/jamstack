@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "norska": "1.5.2"
+    "norska": "1.6.0"
   },
   "devDependencies": {
     "aberlaas": "1.14.0",
     "algolia-indexing": "1.1.1",
-    "firost": "2.1.0",
+    "firost": "2.2.0",
     "golgoth": "1.5.0",
     "youtinx": "0.0.2"
   },
