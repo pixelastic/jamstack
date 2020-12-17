@@ -6949,7 +6949,7 @@ golgoth@1.5.0:
 
 golgoth@2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-2.0.0.tgz#29bb68398b57c4558fca2cc57f2ddcdf1bf03323"
+  resolved "https://registry.npmjs.org/golgoth/-/golgoth-2.0.0.tgz#29bb68398b57c4558fca2cc57f2ddcdf1bf03323"
   integrity sha512-LJmQuGMdm+Hh7b8UBpstnfhjswzLA30WfKHPvMm+NTZUSq0y4YQ3mr3Nbj49Qs9sac2DT5Qw99g2djfvdyeilA==
   dependencies:
     chalk "4.1.0"
