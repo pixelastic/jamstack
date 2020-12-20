@@ -2063,11 +2063,6 @@
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-2.1.1.tgz#ceff6a28a5b4867c2dd4a1ba513de278ccbe8bb1"
   integrity sha512-/aPsuoj/1Dw/kzhkgz+ES6TxG0zfTMGLwuK2ZG00k/iJzYHTLCE8mVU8EPqEOp/lmxPoq1C1C9RYToRKb2KEfg==
 
-"@sindresorhus/is@^3.1.1":
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-3.1.2.tgz#548650de521b344e3781fbdb0ece4aa6f729afb8"
-  integrity sha512-JiX9vxoKMmu8Y3Zr2RVathBL1Cdu4Nt4MuNWemt1Nc06A0RAin9c5FArkhGsyMBWfCu4zj+9b+GxtjAnE4qqLQ==
-
 "@sindresorhus/is@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.0.tgz#2ff674e9611b45b528896d820d3d7a812de2f0e4"
@@ -3944,21 +3939,6 @@ chokidar@3.4.0:
   optionalDependencies:
     fsevents "~2.1.2"
 
-chokidar@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.4.2.tgz#38dc8e658dec3809741eb3ef7bb0a47fe424232d"
-  integrity sha512-IZHaDeBeI+sZJRX7lGcXsdzgvZqKv6sECqsbErJA4mHWfpRrD8B97kSFN4cQz6nGBGiuFia1MKR4d6c1o8Cv7A==
-  dependencies:
-    anymatch "~3.1.1"
-    braces "~3.0.2"
-    glob-parent "~5.1.0"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.4.0"
-  optionalDependencies:
-    fsevents "~2.1.2"
-
 chokidar@3.4.3, chokidar@^3.0.2, chokidar@^3.2.2, chokidar@^3.3.0, chokidar@^3.4.1:
   version "3.4.3"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
@@ -4786,11 +4766,6 @@ dayjs@1.8.23:
   version "1.8.23"
   resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.8.23.tgz#07b5a8e759c4d75ae07bdd0ad6977f851c01e510"
   integrity sha512-NmYHMFONftoZbeOhVz6jfiXI4zSiPN6NoVWJgC0aZQfYVwzy/ZpESPHuCcI0B8BUMpSJQ08zenHDbofOLKq8hQ==
-
-dayjs@1.8.36:
-  version "1.8.36"
-  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.8.36.tgz#be36e248467afabf8f5a86bae0de0cdceecced50"
-  integrity sha512-3VmRXEtw7RZKAf+4Tv1Ym9AGeo8r8+CjDi26x+7SYQil1UqtqdaokhzoEJohqlzt0m5kacJSDhJQkG/LWhpRBw==
 
 dayjs@1.9.6:
   version "1.9.6"
@@ -5803,21 +5778,6 @@ execa@4.0.2:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.npmjs.org/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
-  integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
 execa@4.1.0, execa@^4.0.0, execa@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
@@ -6278,14 +6238,6 @@ find-cache-dir@^2.1.0:
     make-dir "^2.0.0"
     pkg-dir "^3.0.0"
 
-find-up@4.1.0, find-up@^4.0.0, find-up@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
-  integrity sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
-  dependencies:
-    locate-path "^5.0.0"
-    path-exists "^4.0.0"
-
 find-up@5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz#4c92819ecb7083561e4f4a240a86be5198f536fc"
@@ -6300,6 +6252,14 @@ find-up@^3.0.0:
   integrity sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg==
   dependencies:
     locate-path "^3.0.0"
+
+find-up@^4.0.0, find-up@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+  integrity sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
+  dependencies:
+    locate-path "^5.0.0"
+    path-exists "^4.0.0"
 
 find-versions@^3.2.0:
   version "3.2.0"
@@ -6328,32 +6288,6 @@ firost@1.5.1:
     nanoid "2.1.11"
     ora "4.0.4"
     shelljs "0.8.4"
-    which "2.0.2"
-
-firost@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.npmjs.org/firost/-/firost-2.0.6.tgz#f4cb3d7eeced9efe173abd409af7e5515cabb141"
-  integrity sha512-5ey78AMz9O2Al12oG2pRm4A4ihpmj39/RnNFEavGLa3DbOIvv8doTA17chyO6gFzJ1gT0NzMfjFGkhk7mlGHFA==
-  dependencies:
-    callsites "3.1.0"
-    chokidar "3.4.2"
-    clear-module "4.1.1"
-    eventemitter2 "6.4.3"
-    execa "4.0.3"
-    find-up "4.1.0"
-    fs-extra "9.0.1"
-    globby "11.0.1"
-    golgoth "1.5.0"
-    inquirer "7.3.3"
-    is-glob "4.0.1"
-    json-stable-stringify "1.0.1"
-    nanoid "3.1.12"
-    normalize-url "5.1.0"
-    ora "4.1.1"
-    std-mocks "1.0.1"
-    strip-ansi "6.0.0"
-    tempy "0.6.0"
-    untildify "4.0.0"
     which "2.0.2"
 
 firost@2.1.0:
@@ -6973,26 +6907,6 @@ golgoth@1.2.0:
     query-string "6.11.1"
     time-span "3.1.0"
 
-golgoth@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.npmjs.org/golgoth/-/golgoth-1.5.0.tgz#3883c6ab62fa5932bed33e4ff7eec116055bf634"
-  integrity sha512-6wATkgFkQr+EqmBbYFImBWdnQ2gXESOMuUTi/pdh0m4lCS1V4nji7C/HplDJF+PYnd/eClrdvfXNgJP/TEfzHQ==
-  dependencies:
-    chalk "4.1.0"
-    dayjs "1.8.36"
-    dedent "0.7.0"
-    esm "3.2.25"
-    flat "5.0.2"
-    got "11.7.0"
-    lodash "4.17.20"
-    p-all "3.0.0"
-    p-map "4.0.0"
-    p-map-series "2.1.0"
-    p-props "4.0.0"
-    pify "5.0.0"
-    query-string "6.13.2"
-    time-span "4.0.0"
-
 golgoth@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/golgoth/-/golgoth-2.0.0.tgz#29bb68398b57c4558fca2cc57f2ddcdf1bf03323"
@@ -7040,23 +6954,6 @@ got@10.7.0, got@^10.6.0:
     responselike "^2.0.0"
     to-readable-stream "^2.0.0"
     type-fest "^0.10.0"
-
-got@11.7.0:
-  version "11.7.0"
-  resolved "https://registry.npmjs.org/got/-/got-11.7.0.tgz#a386360305571a74548872e674932b4ef70d3b24"
-  integrity sha512-7en2XwH2MEqOsrK0xaKhbWibBoZqy+f1RSUoIeF1BLcnf+pyQdDsljWMfmOh+QKJwuvDIiKx38GtPh5wFdGGjg==
-  dependencies:
-    "@sindresorhus/is" "^3.1.1"
-    "@szmarczak/http-timer" "^4.0.5"
-    "@types/cacheable-request" "^6.0.1"
-    "@types/responselike" "^1.0.0"
-    cacheable-lookup "^5.0.3"
-    cacheable-request "^7.0.1"
-    decompress-response "^6.0.0"
-    http2-wrapper "^1.0.0-beta.5.2"
-    lowercase-keys "^2.0.0"
-    p-cancelable "^2.0.0"
-    responselike "^2.0.0"
 
 got@11.8.0:
   version "11.8.0"
@@ -10192,11 +10089,6 @@ nanoid@2.1.11:
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
   integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
 
-nanoid@3.1.12:
-  version "3.1.12"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.12.tgz#6f7736c62e8d39421601e4a0c77623a97ea69654"
-  integrity sha512-1qstj9z5+x491jfiC4Nelk+f8XBad7LN20PmyWINJEMRSf3wcAjAWysw1qaA8z6NSKe2sjq1hRSDpBH5paCb6A==
-
 nanoid@3.1.20:
   version "3.1.20"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
@@ -10577,11 +10469,6 @@ normalize-url@2.0.1:
     prepend-http "^2.0.0"
     query-string "^5.0.1"
     sort-keys "^2.0.0"
-
-normalize-url@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-5.1.0.tgz#04b8f1b34ea49ff713fc20b2218eba41fb9974a3"
-  integrity sha512-UxHuSWsSAmzSqN+DSjasaZWQ3QPtEisHdlr4y9MJ5zg0RcImv5fQt8QM0izJSCdsdmhJGK+ubcTpJXwVDmwSVQ==
 
 normalize-url@5.3.0:
   version "5.3.0"
@@ -11084,20 +10971,6 @@ ora@4.0.4:
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
-ora@4.1.1, ora@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/ora/-/ora-4.1.1.tgz#566cc0348a15c36f5f0e979612842e02ba9dddbc"
-  integrity sha512-sjYP8QyVWBpBZWD6Vr1M/KwknSw6kJOz41tvGMlwWeClHBtYKTbHMki1PsLZnxKpXMPbTKv9b3pjQu3REib96A==
-  dependencies:
-    chalk "^3.0.0"
-    cli-cursor "^3.1.0"
-    cli-spinners "^2.2.0"
-    is-interactive "^1.0.0"
-    log-symbols "^3.0.0"
-    mute-stream "0.0.8"
-    strip-ansi "^6.0.0"
-    wcwidth "^1.0.1"
-
 ora@5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/ora/-/ora-5.1.0.tgz#b188cf8cd2d4d9b13fd25383bc3e5cba352c94f8"
@@ -11108,6 +10981,20 @@ ora@5.1.0:
     cli-spinners "^2.4.0"
     is-interactive "^1.0.0"
     log-symbols "^4.0.0"
+    mute-stream "0.0.8"
+    strip-ansi "^6.0.0"
+    wcwidth "^1.0.1"
+
+ora@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/ora/-/ora-4.1.1.tgz#566cc0348a15c36f5f0e979612842e02ba9dddbc"
+  integrity sha512-sjYP8QyVWBpBZWD6Vr1M/KwknSw6kJOz41tvGMlwWeClHBtYKTbHMki1PsLZnxKpXMPbTKv9b3pjQu3REib96A==
+  dependencies:
+    chalk "^3.0.0"
+    cli-cursor "^3.1.0"
+    cli-spinners "^2.2.0"
+    is-interactive "^1.0.0"
+    log-symbols "^3.0.0"
     mute-stream "0.0.8"
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
@@ -12207,15 +12094,6 @@ query-string@6.11.1:
   version "6.11.1"
   resolved "https://registry.npmjs.org/query-string/-/query-string-6.11.1.tgz#ab021f275d463ce1b61e88f0ce6988b3e8fe7c2c"
   integrity sha512-1ZvJOUl8ifkkBxu2ByVM/8GijMIPx+cef7u3yroO3Ogm4DOdZcF5dcrWTIlSHe3Pg/mtlt6/eFjObDfJureZZA==
-  dependencies:
-    decode-uri-component "^0.2.0"
-    split-on-first "^1.0.0"
-    strict-uri-encode "^2.0.0"
-
-query-string@6.13.2:
-  version "6.13.2"
-  resolved "https://registry.npmjs.org/query-string/-/query-string-6.13.2.tgz#3585aa9412c957cbd358fd5eaca7466f05586dda"
-  integrity sha512-BMmDaUiLDFU1hlM38jTFcRt7HYiGP/zt1sRzrIWm5zpeEuO1rkbPS0ELI3uehoLuuhHDCS8u8lhFN3fEN4JzPQ==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
@@ -13883,16 +13761,6 @@ temp-dir@^2.0.0:
   resolved "https://registry.npmjs.org/temp-dir/-/temp-dir-2.0.0.tgz#bde92b05bdfeb1516e804c9c00ad45177f31321e"
   integrity sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==
 
-tempy@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/tempy/-/tempy-0.6.0.tgz#65e2c35abc06f1124a97f387b08303442bde59f3"
-  integrity sha512-G13vtMYPT/J8A4X2SjdtBTphZlrp1gKv6hZiOjw14RCWg6GbHuQBGtjlx75xLbYV/wEc0D7G5K4rxKP/cXk8Bw==
-  dependencies:
-    is-stream "^2.0.0"
-    temp-dir "^2.0.0"
-    type-fest "^0.16.0"
-    unique-string "^2.0.0"
-
 tempy@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tempy/-/tempy-1.0.0.tgz#4f192b3ee3328a2684d0e3fc5c491425395aab65"
@@ -15202,13 +15070,14 @@ yauzl@^2.4.2:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
 
-youtinx@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/youtinx/-/youtinx-0.0.2.tgz#29406a0dc26816cefa726439e2894e158a04b7ed"
-  integrity sha512-xiM7aZanNMcfwt0a4LUIkvuuoa3un2WRjpf7fmQjZa5zJRijTlbicic+JwlmItN80z+srvWQw0gOPVUidAJIrQ==
+youtinx@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/youtinx/-/youtinx-0.1.0.tgz#cddd0f4c8c19da0494ea124e89347a03e92ac75d"
+  integrity sha512-ZzfVibMbRhgwu6M9mhIUJGnQjWbumLb07XDqQdy4LC5V7wjlV9lHM2UcvtEfa2shYhGlexAnlMO2sH0DHCJdng==
   dependencies:
-    firost "2.0.6"
-    golgoth "1.5.0"
+    algolia-indexing "1.1.1"
+    firost "2.3.0"
+    golgoth "2.0.0"
     he "1.2.0"
     minimist "1.2.5"
     xml-js "1.6.11"
