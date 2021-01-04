@@ -1,0 +1,1362 @@
+[
+  {
+    "content": "I just wanted to let you know I used to be a front-end developer once upon a",
+    "start": 0
+  },
+  {
+    "content": "time you know I kind of counted myself as a web developer I know there are lots",
+    "start": 7
+  },
+  {
+    "content": "and lots of titles in web development I felt like I was good enough at web",
+    "start": 10
+  },
+  {
+    "content": "development and to be able to kind of get my SQL running and get things in and",
+    "start": 15
+  },
+  {
+    "content": "out of a database with ASP and then that was it really from that part of the",
+    "start": 20
+  },
+  {
+    "content": "stack I could get things and out I could make I could do very very basic things",
+    "start": 25
+  },
+  {
+    "content": "but heaven helped me if I ever would want to try and take that to production",
+    "start": 28
+  },
+  {
+    "content": "I would need an army of people to help me with that and I think there's lots of",
+    "start": 32
+  },
+  {
+    "content": "people in the web development arena who have worked in one particular area and",
+    "start": 36
+  },
+  {
+    "content": "considered themselves experts there but you know it's a big stack there's a lot",
+    "start": 40
+  },
+  {
+    "content": "going on and I think databases is you know an area that not all of us are",
+    "start": 44
+  },
+  {
+    "content": "necessarily experts in it's definitely an area that I found that when I've been",
+    "start": 50
+  },
+  {
+    "content": "talking to potential clients about using the jam stack people have said great but",
+    "start": 54
+  },
+  {
+    "content": "what about data you know I need I need to operate that because I'm the expert",
+    "start": 58
+  },
+  {
+    "content": "in it in that they knew how to get a database up and running but scaling it",
+    "start": 62
+  },
+  {
+    "content": "might be a different different matter and so for that reason I'm really",
+    "start": 66
+  },
+  {
+    "content": "excited that we've got Tim from M lab to come and talk to us today a little bit",
+    "start": 69
+  },
+  {
+    "content": "because you know there are options for having databases as a service where we",
+    "start": 74
+  },
+  {
+    "content": "don't have to own all of the expertise ourselves so so Tim Tim Fogarty Tim do",
+    "start": 78
+  },
+  {
+    "content": "you want to do you want to come and join us on the stage I think you're I think",
+    "start": 83
+  },
+  {
+    "content": "you're good to go Tim Fogarty for mm lab is going to talk",
+    "start": 86
+  },
+  {
+    "content": "to us about exactly that or to us about finally the best for home for your data",
+    "start": 89
+  },
+  {
+    "content": "databases on the jam stack please make him very welcome",
+    "start": 93
+  },
+  {
+    "content": "Tim thanks Tim hey everybody really happy to be here",
+    "start": 96
+  },
+  {
+    "content": "and so my name is Tim and I work for M lab and M lab we're a database as a",
+    "start": 103
+  },
+  {
+    "content": "service for MongoDB and we host nearly 1 million deployments of MongoDB across a",
+    "start": 110
+  },
+  {
+    "content": "gos Asher and Google I think we're at something like nine hundred fifty",
+    "start": 117
+  },
+  {
+    "content": "thousand currently so hopefully we'll hit a million real soon",
+    "start": 121
+  },
+  {
+    "content": "and we're trusted by companies such as lyft Whole Foods Verizon the New York",
+    "start": 125
+  },
+  {
+    "content": "Times so a lot of companies are out there using database as a service and",
+    "start": 131
+  },
+  {
+    "content": "obviously I care a lot about data since I work for a database company but",
+    "start": 137
+  },
+  {
+    "content": "arguably data is the most important aspect of most applications it's the",
+    "start": 142
+  },
+  {
+    "content": "data in you know that are being used by applications that make them really",
+    "start": 148
+  },
+  {
+    "content": "powerful so it's really important to find a good home for it so that that",
+    "start": 151
+  },
+  {
+    "content": "data is safe and secure but it's also easy to access like efficiently quickly",
+    "start": 157
+  },
+  {
+    "content": "and easily for those of you not acquainted with Star Trek this character",
+    "start": 163
+  },
+  {
+    "content": "here is called data and data is an Android so you'll be seeing more of data",
+    "start": 169
+  },
+  {
+    "content": "throughout the presentation so we're gonna take a quick look at kind of how",
+    "start": 174
+  },
+  {
+    "content": "to choose a database because there are a lot of different options out there so",
+    "start": 179
+  },
+  {
+    "content": "we're gonna take a look at some of the options available and also what kind of",
+    "start": 182
+  },
+  {
+    "content": "criteria you want to look at when deciding what database technology to use",
+    "start": 185
+  },
+  {
+    "content": "but it's not all about database in order to run a reliable and robust data layer",
+    "start": 190
+  },
+  {
+    "content": "you need extra components on top of that and we're going to make sure that it's",
+    "start": 195
+  },
+  {
+    "content": "going to be you know safe secure so we're gonna talk about those kinds of",
+    "start": 199
+  },
+  {
+    "content": "extra components and what else you need besides database order to make sure that",
+    "start": 204
+  },
+  {
+    "content": "the data layer is reliable and after talking about that we'll say hey rather",
+    "start": 208
+  },
+  {
+    "content": "than building all that yourself you should maybe consider using database as",
+    "start": 211
+  },
+  {
+    "content": "a service and and how you can kind of convince people that using databases",
+    "start": 215
+  },
+  {
+    "content": "surface is a good way in order to get all of that extra those actually",
+    "start": 219
+  },
+  {
+    "content": "components easily and quickly and then finally you know we're going to talk a",
+    "start": 223
+  },
+  {
+    "content": "little bit about a few tips that have kind of gained",
+    "start": 229
+  },
+  {
+    "content": "from working at em lab before I worked at em lab I you know was very much like",
+    "start": 231
+  },
+  {
+    "content": "Phil I you know did kind of front-end development and I knew very little about",
+    "start": 236
+  },
+  {
+    "content": "how did a basis worked or the importance of databases I was just like hey I'm",
+    "start": 242
+  },
+  {
+    "content": "gonna throw my data in there I'm just gonna work and actually you know even",
+    "start": 245
+  },
+  {
+    "content": "when working on the client-side you need to be very cognizant of how your",
+    "start": 250
+  },
+  {
+    "content": "application is talking to the data a database and making sure that you're",
+    "start": 255
+  },
+  {
+    "content": "kind of working with it in a in a way that isn't gonna overload it or make it",
+    "start": 259
+  },
+  {
+    "content": "less efficient in some way so I'm gonna kind of share a few tips that I've",
+    "start": 264
+  },
+  {
+    "content": "gained throughout working at M lab so first of all in choosing a database it",
+    "start": 266
+  },
+  {
+    "content": "can be pretty intimidating because there's a lot of different technologies",
+    "start": 273
+  },
+  {
+    "content": "out there to choose from you've got your relational databases",
+    "start": 276
+  },
+  {
+    "content": "you've got a lot of new no sequel databases like document stores and key",
+    "start": 281
+  },
+  {
+    "content": "value stores and you've got some very specialized databases as well and we're",
+    "start": 285
+  },
+  {
+    "content": "also going to talk a little bit about kind of backends as a service where",
+    "start": 290
+  },
+  {
+    "content": "they're packaging up databases with an API layer as well",
+    "start": 294
+  },
+  {
+    "content": "so obviously the most variable type of database out there is the relational",
+    "start": 298
+  },
+  {
+    "content": "database so for example my sequel Postgres and the benefits of those or",
+    "start": 304
+  },
+  {
+    "content": "that you know it's very well documented and they're very mature databases",
+    "start": 309
+  },
+  {
+    "content": "they've been around for decades so they're very well understood and also",
+    "start": 313
+  },
+  {
+    "content": "you know they mostly use sequel and everybody and their mothers use sequel",
+    "start": 318
+  },
+  {
+    "content": "so any kind of tools you want to work with your data but with your database",
+    "start": 322
+  },
+  {
+    "content": "are most likely going to be able to talk to your database and in sequel so that's",
+    "start": 328
+  },
+  {
+    "content": "really really useful but also when you're dealing with relational databases",
+    "start": 332
+  },
+  {
+    "content": "the kind of data stored in tables is not the way that you want to work with your",
+    "start": 339
+  },
+  {
+    "content": "data in your actual application so you have to map the relational database role",
+    "start": 345
+  },
+  {
+    "content": "model to the objects in your application and if anybody can live has done a lot",
+    "start": 350
+  },
+  {
+    "content": "of object relational mapping you know there's extremely tedious and",
+    "start": 355
+  },
+  {
+    "content": "frustrating at times so that can be very very awkward and it's also not great for",
+    "start": 357
+  },
+  {
+    "content": "unstructured data because you do need to have",
+    "start": 362
+  },
+  {
+    "content": "a schema there so those are some of the kind of a down sides the relational",
+    "start": 365
+  },
+  {
+    "content": "world so then kind of more recently there have been some no sequel",
+    "start": 370
+  },
+  {
+    "content": "technologies coming along to try out some different paradigms in the base",
+    "start": 375
+  },
+  {
+    "content": "world and kind of chief among them have been document stores where you're",
+    "start": 380
+  },
+  {
+    "content": "storing JSON documents MongoDB is probably the best known of the document",
+    "start": 384
+  },
+  {
+    "content": "stores and MongoDB is absolutely fantastic for the jam stack because you",
+    "start": 389
+  },
+  {
+    "content": "are going to be storing JSON directly in the database as is so the way that you",
+    "start": 397
+  },
+  {
+    "content": "want to work with your data in your application is the exact same way that",
+    "start": 401
+  },
+  {
+    "content": "you want to that you'll be storing your data inside of you know a document store",
+    "start": 404
+  },
+  {
+    "content": "like a MongoDB so that means that you no longer have to do this object relational",
+    "start": 409
+  },
+  {
+    "content": "mapping that's fantastic like that goes out the window it's very easy just throw",
+    "start": 413
+  },
+  {
+    "content": "it in and take it out and also it's very easy to kind of reason the back your",
+    "start": 418
+  },
+  {
+    "content": "data because when you're looking at the data in the database it's exactly the",
+    "start": 423
+  },
+  {
+    "content": "same as you know how you're looking at it in flowing through application and",
+    "start": 426
+  },
+  {
+    "content": "flowing through your API and they also generally have flexible schema so that",
+    "start": 430
+  },
+  {
+    "content": "works really well for unstructured data like kind of maybe some IOT data which",
+    "start": 436
+  },
+  {
+    "content": "is unstructured bringing in data from different sources is great and it makes",
+    "start": 440
+  },
+  {
+    "content": "it very easy to iterate quickly because you don't have to constantly be doing",
+    "start": 444
+  },
+  {
+    "content": "database migrations you can just change the schema and it you know it'll be like",
+    "start": 447
+  },
+  {
+    "content": "yeah that's fine okay one thing there is that you know with document stores you",
+    "start": 451
+  },
+  {
+    "content": "do have to model your data differently so if you're kind of very used to the",
+    "start": 459
+  },
+  {
+    "content": "relational world of databases then you'll know hey I have to normalize my",
+    "start": 463
+  },
+  {
+    "content": "data that's it's really really important that everything has to be in third",
+    "start": 469
+  },
+  {
+    "content": "normal form and you can have all these different relations but in the kind of",
+    "start": 474
+  },
+  {
+    "content": "document world who want to embed all the information so it's all denormalized so",
+    "start": 478
+  },
+  {
+    "content": "it's kind of these rich JSON documents which all holds a lot of kind of rich",
+    "start": 482
+  },
+  {
+    "content": "data inside of them so it's important to kind of think about how you're modeling",
+    "start": 487
+  },
+  {
+    "content": "your data to if you're if you're doing it this way I'm just really curious like",
+    "start": 491
+  },
+  {
+    "content": "so how many people here like you know would their go-to database would be like",
+    "start": 495
+  },
+  {
+    "content": "a MongoDB if you like how many you're like kind of sequel post grass or my",
+    "start": 499
+  },
+  {
+    "content": "sequel okay and some people are like total hipsters and they're doing totally",
+    "start": 505
+  },
+  {
+    "content": "different things oh whoops there we go so there are also",
+    "start": 510
+  },
+  {
+    "content": "key value stores at Redis is a really good example of a popular key value",
+    "start": 519
+  },
+  {
+    "content": "store and key value stores are very kind of simple very great for like kind of",
+    "start": 522
+  },
+  {
+    "content": "your simple workloads right in particular isn't in-memory store so it's",
+    "start": 527
+  },
+  {
+    "content": "really good as a cache but the cons there can be maybe it's a little bit too",
+    "start": 530
+  },
+  {
+    "content": "simple and you want something a little bit more complex and then for the",
+    "start": 534
+  },
+  {
+    "content": "database hipsters out there there is some specialized databases which are",
+    "start": 538
+  },
+  {
+    "content": "maybe a little bit more niche so you've got like your graph databases like neo4j",
+    "start": 542
+  },
+  {
+    "content": "you've got text search databases like elastic search you've got like time",
+    "start": 546
+  },
+  {
+    "content": "series database like influx DB and you've got other kind of more niche",
+    "start": 550
+  },
+  {
+    "content": "databases and they're really good - they're for specific use cases but they",
+    "start": 554
+  },
+  {
+    "content": "might not be as generally applicable as kind of the the more standard like post",
+    "start": 558
+  },
+  {
+    "content": "grass or [ __ ] and then finally we have backends as a service and here they kind",
+    "start": 564
+  },
+  {
+    "content": "of take a different approach with with you know usually with a database you can",
+    "start": 574
+  },
+  {
+    "content": "have like a three-tier architecture where you have your client and you've",
+    "start": 576
+  },
+  {
+    "content": "got some sort of API layer that is gonna then talk to the database or the back",
+    "start": 580
+  },
+  {
+    "content": "end of the service they kind of will just mash together those API layer and",
+    "start": 585
+  },
+  {
+    "content": "the database into one single back-end that you can treat as a single unit so",
+    "start": 591
+  },
+  {
+    "content": "really common example is Google's firebase but also MongoDB came out with",
+    "start": 596
+  },
+  {
+    "content": "one recently called mungry to be stitch which is pretty cool and should check",
+    "start": 602
+  },
+  {
+    "content": "that out too and the pros there is that maybe it's a little bit simpler that",
+    "start": 606
+  },
+  {
+    "content": "you're just working with all of your logic on the client side and you kind of",
+    "start": 610
+  },
+  {
+    "content": "push this all everything into the front end and also they usually have a server",
+    "start": 615
+  },
+  {
+    "content": "list component to them where you can run functions so if you do need to do some",
+    "start": 619
+  },
+  {
+    "content": "sort of back-end logic that ability is still there for you however you know",
+    "start": 622
+  },
+  {
+    "content": "they are kind of a service so there is a with a vendor lock-in there and I've",
+    "start": 628
+  },
+  {
+    "content": "heard that like firebase costs can get kind of high but you know those are kind",
+    "start": 633
+  },
+  {
+    "content": "of things that you need to you know weigh on your own see if it makes sense",
+    "start": 636
+  },
+  {
+    "content": "for yourself so those are kind of the options available in terms of like",
+    "start": 642
+  },
+  {
+    "content": "technologies that are out there so how can go about actually choosing a good",
+    "start": 647
+  },
+  {
+    "content": "database so I think there are a couple of things that you want to keep in mind",
+    "start": 651
+  },
+  {
+    "content": "I think the most obvious thing is team expertise if your team has a lot of",
+    "start": 656
+  },
+  {
+    "content": "expertise and certain technology then you probably want to go with that but if",
+    "start": 660
+  },
+  {
+    "content": "you are trying to look into checking out something new then there's kind of",
+    "start": 663
+  },
+  {
+    "content": "different set of criteria that you can look at to see if something is going to",
+    "start": 667
+  },
+  {
+    "content": "make sense and the first thing is you generally want to choose something which",
+    "start": 670
+  },
+  {
+    "content": "is going to be general-purpose so rather than having half a dozen different",
+    "start": 674
+  },
+  {
+    "content": "specialized databases they're each doing like a single thing choose one that can",
+    "start": 678
+  },
+  {
+    "content": "do many different things you know reasonably well because otherwise you",
+    "start": 681
+  },
+  {
+    "content": "know you're gonna split the focus of your team and you know it's a little bit",
+    "start": 686
+  },
+  {
+    "content": "better to have one technology that you can focus on and become experts in it's",
+    "start": 693
+  },
+  {
+    "content": "also good to choose an open-source technology to kind of prevent any kind",
+    "start": 697
+  },
+  {
+    "content": "of vendor lock-in so you don't have to be working with a particular vendor in",
+    "start": 702
+  },
+  {
+    "content": "order to you know like a you don't have to host my own particular cloud in order",
+    "start": 706
+  },
+  {
+    "content": "to use it being able to move between clouds might be really useful later on",
+    "start": 710
+  },
+  {
+    "content": "if you want to kind of save costs or or do some other you know move clouds for a",
+    "start": 714
+  },
+  {
+    "content": "different reason also looking into how large the community is really important",
+    "start": 718
+  },
+  {
+    "content": "so that you know that there is going to be some help and support out there if",
+    "start": 725
+  },
+  {
+    "content": "you do you know need to learn how to fix problems or get some training for your",
+    "start": 730
+  },
+  {
+    "content": "team that kind of thing so those have all been kind of philosophical things",
+    "start": 735
+  },
+  {
+    "content": "when we get down to like the technical nitty-gritty of what how you want to",
+    "start": 740
+  },
+  {
+    "content": "choose your database like the first thing is you want to make sure that's",
+    "start": 743
+  },
+  {
+    "content": "gonna be highly available so that means that you can set up a replica set of",
+    "start": 746
+  },
+  {
+    "content": "your database databases really really easily and secondly that it's going to",
+    "start": 750
+  },
+  {
+    "content": "be easily scalable maybe to start out with you're not going to have a lot of",
+    "start": 757
+  },
+  {
+    "content": "data but making sure that it's not going to become a pain point in the future",
+    "start": 760
+  },
+  {
+    "content": "seeing like okay well you know is it is it easy to kind of upgrade the you know",
+    "start": 764
+  },
+  {
+    "content": "the database is it easy to scale horizontally like can I create a shot of",
+    "start": 768
+  },
+  {
+    "content": "your cluster very easily is is something to check at it and then finally even if",
+    "start": 773
+  },
+  {
+    "content": "you are planning on hosting your database yourself",
+    "start": 779
+  },
+  {
+    "content": "then it's still a good idea to see like are there hosted solutions out there",
+    "start": 782
+  },
+  {
+    "content": "because if you do decide in the future in order to maybe add source that work",
+    "start": 786
+  },
+  {
+    "content": "to a third party it's good to know that there are options there available for",
+    "start": 791
+  },
+  {
+    "content": "you just in case it's necessary so this is kind of some things to think about",
+    "start": 794
+  },
+  {
+    "content": "when choosing database but it's not just about database and we run a lot reliable",
+    "start": 802
+  },
+  {
+    "content": "data layer you need a lot of different picture components in order to make sure",
+    "start": 808
+  },
+  {
+    "content": "that everything is going to be robust and safe so we're going to share a",
+    "start": 811
+  },
+  {
+    "content": "little bit with you about how at M lab we are philosophy to running databases",
+    "start": 818
+  },
+  {
+    "content": "for all of our customers and we've got us other priorities and I think a lot of",
+    "start": 824
+  },
+  {
+    "content": "people they go into looking for a database or do some sort of solution and",
+    "start": 830
+  },
+  {
+    "content": "they think how fast is it what's the performance like how fast can it scale",
+    "start": 833
+  },
+  {
+    "content": "that kind of stuff but when it comes to data the number one priority for us is",
+    "start": 838
+  },
+  {
+    "content": "data integrity and security if you lose if a business loses data or if it leaks",
+    "start": 842
+  },
+  {
+    "content": "then that can be absolutely catastrophic for a company unless you're Equifax and",
+    "start": 850
+  },
+  {
+    "content": "you know you have golf with a centered around the weekend or something but",
+    "start": 856
+  },
+  {
+    "content": "barring that it can be pretty terrible so the most important thing that we",
+    "start": 860
+  },
+  {
+    "content": "always look at is making sure that you don't lose data and that the data is",
+    "start": 865
+  },
+  {
+    "content": "secure then after that it becomes availability so it will be better to",
+    "start": 870
+  },
+  {
+    "content": "have a slow but available database than having a database which is theoretically",
+    "start": 876
+  },
+  {
+    "content": "fast but just you know can't connect to it for some reason so prefer like some",
+    "start": 881
+  },
+  {
+    "content": "performance degradation a little bit over like totally cutting things off and",
+    "start": 886
+  },
+  {
+    "content": "then finally it's about performance and making sure that you have a",
+    "start": 890
+  },
+  {
+    "content": "smooth kind of smooth fast experience there so in order to make all this",
+    "start": 894
+  },
+  {
+    "content": "happen in order to make sure that your data is going to be safe and secure and",
+    "start": 902
+  },
+  {
+    "content": "it's not going to get lost in order to monitor the performance and availability",
+    "start": 907
+  },
+  {
+    "content": "you need a lot of different extra components with your data layer so it's",
+    "start": 910
+  },
+  {
+    "content": "not just a database there's a lot of other things that go along with it so",
+    "start": 914
+  },
+  {
+    "content": "say you have your de layer and you've got a database with three replicas but",
+    "start": 918
+  },
+  {
+    "content": "on top of that you've got extra components so for example kind of the",
+    "start": 923
+  },
+  {
+    "content": "biggest and most obvious one is probably backups that's obviously really",
+    "start": 928
+  },
+  {
+    "content": "reemployment to make sure you get right and sometimes it can be very hard for",
+    "start": 933
+  },
+  {
+    "content": "even quite large companies to get right so I talked a little bit about an outage",
+    "start": 937
+  },
+  {
+    "content": "that get lab had in 2017 with their database and this is a really",
+    "start": 943
+  },
+  {
+    "content": "interesting case study by the way and I recommend maybe looking up the",
+    "start": 949
+  },
+  {
+    "content": "post-mortem afterwards and having a read because it's very very interesting they",
+    "start": 952
+  },
+  {
+    "content": "go into a lot of detail it's a really really good postmortem",
+    "start": 955
+  },
+  {
+    "content": "so on January 31st 2017 gitlab were start to have issues with their database",
+    "start": 958
+  },
+  {
+    "content": "they won't run Postgres they have a primary and a secondary node for their",
+    "start": 967
+  },
+  {
+    "content": "post quest database and while they were trying to fix these issues they",
+    "start": 971
+  },
+  {
+    "content": "accidentally deleted the data on both the primary and the secondary node so",
+    "start": 978
+  },
+  {
+    "content": "that sucks but these things happen yeah that's you know that's kind of bound to",
+    "start": 983
+  },
+  {
+    "content": "happen at some point so they think okay that's terrible we're you know we're",
+    "start": 989
+  },
+  {
+    "content": "down for a while but we luckily enough we take daily backups so they use PG",
+    "start": 996
+  },
+  {
+    "content": "dump in order to take daily backup to their database every 24 hours and they",
+    "start": 1002
+  },
+  {
+    "content": "go into the s3 bucket where their backups are stored and they suddenly",
+    "start": 1007
+  },
+  {
+    "content": "find that there is nothing there they and it turns out that they were using a",
+    "start": 1011
+  },
+  {
+    "content": "version of PG dump that was not compatible with the version of Postgres",
+    "start": 1018
+  },
+  {
+    "content": "that they were running and it turns out that they thought that",
+    "start": 1021
+  },
+  {
+    "content": "they were running daily backups and it was silently failing every single day",
+    "start": 1025
+  },
+  {
+    "content": "and they had no backups so yeah and you know it was it was actually so like",
+    "start": 1029
+  },
+  {
+    "content": "really like it was a it was a series of unfortunate events there were like a",
+    "start": 1038
+  },
+  {
+    "content": "bunch of small bugs that just kind of made this happen for them that it just",
+    "start": 1042
+  },
+  {
+    "content": "turned out that they weren't alerted about this and that the wrong version of",
+    "start": 1045
+  },
+  {
+    "content": "BG dump was used and was really really unlucky but you know in the end of the",
+    "start": 1049
+  },
+  {
+    "content": "day they managed to get it back up and running they had an L VM snapshot six i",
+    "start": 1056
+  },
+  {
+    "content": "from six hours prior to the data being deleted so that was very lucky but it",
+    "start": 1060
+  },
+  {
+    "content": "did take them 18 hours to restore that snapshot so throughout the course of",
+    "start": 1065
+  },
+  {
+    "content": "this outage they lost data on five thousand projects five thousand comments",
+    "start": 1072
+  },
+  {
+    "content": "and seven hundred users so it was pretty pretty damaging so that's why it's",
+    "start": 1077
+  },
+  {
+    "content": "important to make sure that you have a really robust backup system and that",
+    "start": 1084
+  },
+  {
+    "content": "it's well tested and kind of beyond backups it's really important to have a",
+    "start": 1088
+  },
+  {
+    "content": "monitoring system so that you can make sure that you're able to have kind of",
+    "start": 1094
+  },
+  {
+    "content": "running telemetry about the health of your database M lab this is a screenshot",
+    "start": 1099
+  },
+  {
+    "content": "of the telemetry that we offer users and it goes into some internal statistics",
+    "start": 1106
+  },
+  {
+    "content": "about the running of the database and the like storage engine underneath and",
+    "start": 1112
+  },
+  {
+    "content": "also about the underlying machine that the database is running on and having",
+    "start": 1117
+  },
+  {
+    "content": "this kind of marking is really really useful to make sure that you're able to",
+    "start": 1124
+  },
+  {
+    "content": "properly diagnose any issues that might arise so if you do see something you can",
+    "start": 1127
+  },
+  {
+    "content": "go into the slammer tree and immediately say okay CPU Iowa is spiking why is that",
+    "start": 1132
+  },
+  {
+    "content": "happening oh I ops are really really high why is",
+    "start": 1136
+  },
+  {
+    "content": "that happening you can go down and very easily diagnose",
+    "start": 1140
+  },
+  {
+    "content": "problems that way and in general is just handy to have to",
+    "start": 1143
+  },
+  {
+    "content": "see if there are any kind of ways that you can maybe make Statistics a little",
+    "start": 1149
+  },
+  {
+    "content": "better to increase the health of your every deployment",
+    "start": 1154
+  },
+  {
+    "content": "I'll tell monitoring having good logging is important most databases will log you",
+    "start": 1159
+  },
+  {
+    "content": "know everything necessary by default but you might want to tweak some settings",
+    "start": 1166
+  },
+  {
+    "content": "there and make sure you you have extra logging or get extra information that",
+    "start": 1171
+  },
+  {
+    "content": "you might need also you can have some kind of interesting log and analysis",
+    "start": 1176
+  },
+  {
+    "content": "tools at M lab we have something called a slow query analyzer which will go",
+    "start": 1180
+  },
+  {
+    "content": "through your logs line by line and we'll pick out slow queries which is being",
+    "start": 1184
+  },
+  {
+    "content": "kind of logged and it will analyze them and tell you exactly what we need to do",
+    "start": 1188
+  },
+  {
+    "content": "in order to optimize those queries so we'll say hey Bill this index or hey you",
+    "start": 1193
+  },
+  {
+    "content": "need to restructure this query in this way or this is you know being affected",
+    "start": 1197
+  },
+  {
+    "content": "by a particular book you need to maybe upgrade to a new patch so there's lots",
+    "start": 1202
+  },
+  {
+    "content": "of kind of cool tools that you're able to work with logging and then kind of",
+    "start": 1206
+  },
+  {
+    "content": "maintenance if you're going on to a box in order to do maintenance your assets",
+    "start": 1214
+  },
+  {
+    "content": "etching in and you're doing it all manually then that definitely sucks",
+    "start": 1217
+  },
+  {
+    "content": "that's gonna be a waste of time and also it's prone to error so having some sort",
+    "start": 1220
+  },
+  {
+    "content": "of automated maintenance system is useful and there's a lot of other like",
+    "start": 1227
+  },
+  {
+    "content": "small things that you need to do in order to make sure your data layers is",
+    "start": 1230
+  },
+  {
+    "content": "kind of looking good so you make sure the networking is there that you're",
+    "start": 1233
+  },
+  {
+    "content": "paired to the VPC you need to be paired to or that you know you're a [ __ ] ssin",
+    "start": 1237
+  },
+  {
+    "content": "is on your whitelist is there and maybe you've got like a data pipeline that you",
+    "start": 1241
+  },
+  {
+    "content": "need to set up that you know is extracting from your database and",
+    "start": 1246
+  },
+  {
+    "content": "putting into somewhere else there's a lot of different things that go on in",
+    "start": 1249
+  },
+  {
+    "content": "the data layer so there's a lot there so when we come to the question of why",
+    "start": 1253
+  },
+  {
+    "content": "you should use database as a service hopefully now like the answer should be",
+    "start": 1259
+  },
+  {
+    "content": "pretty obvious but first of all it's gonna save a lot of time so you won't",
+    "start": 1264
+  },
+  {
+    "content": "have to build at all as different those different components yourself you're",
+    "start": 1272
+  },
+  {
+    "content": "also going to have maybe more components available to you so something like that",
+    "start": 1276
+  },
+  {
+    "content": "slow query analyzer that I mentioned is going through all the log lines you",
+    "start": 1280
+  },
+  {
+    "content": "know maybe that's something that you you might not kind of write for yourself",
+    "start": 1285
+  },
+  {
+    "content": "because who would write it for one deployment but a company who's running",
+    "start": 1290
+  },
+  {
+    "content": "like a million deployments that's it's kind of useful for them to put time into",
+    "start": 1293
+  },
+  {
+    "content": "that and also like it's built by database experts so hopefully you know",
+    "start": 1297
+  },
+  {
+    "content": "they won't make any of like small mistakes that maybe like say gitlab",
+    "start": 1305
+  },
+  {
+    "content": "we're used with their database they're like backup system that's the hope at",
+    "start": 1310
+  },
+  {
+    "content": "least and then as part of that of course you can leverage that expert support",
+    "start": 1316
+  },
+  {
+    "content": "that if you do need help with your database they're gonna be there to to",
+    "start": 1321
+  },
+  {
+    "content": "kind of hold your hand through any issues so you know should be pretty",
+    "start": 1325
+  },
+  {
+    "content": "clear that like if you wanted to say to somebody hey I want to use database as a",
+    "start": 1331
+  },
+  {
+    "content": "service that you can kind of list off like okay well they have all of these",
+    "start": 1334
+  },
+  {
+    "content": "different things that otherwise we'd have to build for ourselves or hook up",
+    "start": 1339
+  },
+  {
+    "content": "you know the tools for ourselves selves so it would make a lot easier to just",
+    "start": 1343
+  },
+  {
+    "content": "use database observers so even if you are using a database of the service",
+    "start": 1347
+  },
+  {
+    "content": "that's really not the kind of end of it you can't just say hey you take care of",
+    "start": 1353
+  },
+  {
+    "content": "the database and I won't think about it ever again",
+    "start": 1356
+  },
+  {
+    "content": "you do need to make sure that you're doing a few things proactively to",
+    "start": 1359
+  },
+  {
+    "content": "maintain the health of your database and making sure that you know your",
+    "start": 1363
+  },
+  {
+    "content": "application isn't going to cause performance degradation unexpectedly so",
+    "start": 1366
+  },
+  {
+    "content": "kind of the first thing that you know we've seen is that the largest cause of",
+    "start": 1374
+  },
+  {
+    "content": "performance problems that from customers that we see at emmab is poor indexing so",
+    "start": 1379
+  },
+  {
+    "content": "just kind of like not indexing their data so the queries are just inefficient",
+    "start": 1386
+  },
+  {
+    "content": "so it's important to kind of think through indexing before you know you're",
+    "start": 1392
+  },
+  {
+    "content": "adding queries to your application but also regularly reviewing logs and seeing",
+    "start": 1397
+  },
+  {
+    "content": "like any different spikes in telemetry like it's an easy role from the out do",
+    "start": 1402
+  },
+  {
+    "content": "we suddenly see oh my god there's extra CPUs is you know what's happening",
+    "start": 1406
+  },
+  {
+    "content": "thing so using those tools available to you a second thing that can kind of",
+    "start": 1411
+  },
+  {
+    "content": "impact the database is connection pooling so every connection to the",
+    "start": 1418
+  },
+  {
+    "content": "debase database is going to take up memory so application servers should",
+    "start": 1423
+  },
+  {
+    "content": "really pool those connections to the database so you aren't constantly",
+    "start": 1428
+  },
+  {
+    "content": "opening new connections that you aren't opening like way too many connections",
+    "start": 1433
+  },
+  {
+    "content": "and with that like particularly with say the jam stack if you're using kind of",
+    "start": 1437
+  },
+  {
+    "content": "service functions like lambda or something need to pay special attention",
+    "start": 1441
+  },
+  {
+    "content": "to how connection pooling works there because you just set it up in specific",
+    "start": 1444
+  },
+  {
+    "content": "way and also in general with something like lambda connection pooling is not as",
+    "start": 1448
+  },
+  {
+    "content": "efficient as with like a long-running process and then finally and perhaps",
+    "start": 1453
+  },
+  {
+    "content": "most importantly is that you don't want to do the same thing to get lab did",
+    "start": 1458
+  },
+  {
+    "content": "where they didn't test when something goes wrong so those issues that get lab",
+    "start": 1463
+  },
+  {
+    "content": "had when they were trying to restore their data they wouldn't have had those",
+    "start": 1468
+  },
+  {
+    "content": "issues if they had previously tested they're kind of disaster recovery",
+    "start": 1472
+  },
+  {
+    "content": "process and get lab has made a huge number of changes and we ready to",
+    "start": 1477
+  },
+  {
+    "content": "improve their backup system the post-mortem goes through it really",
+    "start": 1481
+  },
+  {
+    "content": "really well they've they've sure they're pretty solid now and one of the changes",
+    "start": 1485
+  },
+  {
+    "content": "they made was they made it so that they would automatically test the backup",
+    "start": 1490
+  },
+  {
+    "content": "recovery system so that they knew like they could anytime they made a change",
+    "start": 1495
+  },
+  {
+    "content": "they knew whether or not like the backup system was still working so it's",
+    "start": 1501
+  },
+  {
+    "content": "important to test the fail States of your application test failing over like",
+    "start": 1506
+  },
+  {
+    "content": "take down their primary node in your replica set and see does my application",
+    "start": 1510
+  },
+  {
+    "content": "gracefully failover to a secondary as it should do and test the restoration of",
+    "start": 1516
+  },
+  {
+    "content": "backups you know are my backups there and can I restore them and how easy is",
+    "start": 1522
+  },
+  {
+    "content": "the process is it gonna take a really long time is it going to take too long a",
+    "start": 1528
+  },
+  {
+    "content": "time or something happens yeah hopefully when that all goes well you'll be pretty",
+    "start": 1532
+  },
+  {
+    "content": "solid and you'll know that you have like a really solid assist",
+    "start": 1538
+  },
+  {
+    "content": "and have a healthy database layer so kind of those are the three like little",
+    "start": 1541
+  },
+  {
+    "content": "tips that at the end is that you need to make sure you index efficiently and",
+    "start": 1546
+  },
+  {
+    "content": "they're using connection pooling and that you test your disaster recovery so",
+    "start": 1549
+  },
+  {
+    "content": "we spoke a little bit about how to choose a database and kind of the",
+    "start": 1555
+  },
+  {
+    "content": "options available and what extra components that you need a rather",
+    "start": 1557
+  },
+  {
+    "content": "reliable data layer and how you can kind of offload all of that awkward like work",
+    "start": 1561
+  },
+  {
+    "content": "to a database as a service in order to make sure that you don't have to spend a",
+    "start": 1568
+  },
+  {
+    "content": "bunch of time building up all those extra components and we spoken a little",
+    "start": 1573
+  },
+  {
+    "content": "bit about some best practices that even if you do offload all that to a third",
+    "start": 1576
+  },
+  {
+    "content": "party you still need to think about you know some of these things about how your",
+    "start": 1580
+  },
+  {
+    "content": "application is working with the database so that's it for me",
+    "start": 1584
+  },
+  {
+    "content": "I hope that was helpful and I'll be around for a little bit so you have any",
+    "start": 1592
+  },
+  {
+    "content": "questions feel free to come [Applause]",
+    "start": 1596
+  },
+  {
+    "content": "you",
+    "start": 1607
+  },
+  {
+    "content": "",
+    "start": 1614
+  }
+]

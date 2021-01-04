@@ -1,0 +1,1230 @@
+[
+  {
+    "content": "so next up we have just the Lord I'm so",
+    "start": 0
+  },
+  {
+    "content": "excited that Jessica could come and have him speak here today traveling all the",
+    "start": 5
+  },
+  {
+    "content": "way across the country from New York even though she did you know he used to",
+    "start": 10
+  },
+  {
+    "content": "reside here back in the day when Jessica worked to github",
+    "start": 13
+  },
+  {
+    "content": "you can't azar you've you've used some application that Jessica's sticky",
+    "start": 18
+  },
+  {
+    "content": "fingers were involved in making along the way Jessica let up let the electron",
+    "start": 24
+  },
+  {
+    "content": "team or started the electron team at github and so you know if you've been",
+    "start": 30
+  },
+  {
+    "content": "working on anything that's had been built as a desktop application that uses",
+    "start": 34
+  },
+  {
+    "content": "JavaScript HTML CSS all of those good things has been packaged up and used on",
+    "start": 38
+  },
+  {
+    "content": "the desktop app there are lots of them around we are we going to all go to",
+    "start": 43
+  },
+  {
+    "content": "lunch okay thanks for your talk Jessica so yes that",
+    "start": 47
+  },
+  {
+    "content": "you may well have encountered Jessica's work already also just going now works",
+    "start": 55
+  },
+  {
+    "content": "in New Yorkers a company called splice who do kind of tooling and resources for",
+    "start": 59
+  },
+  {
+    "content": "musicians heard it described as github for musicians so the mind kind of",
+    "start": 64
+  },
+  {
+    "content": "boggles there I've seen Jessica talk a bunch of times before and always really",
+    "start": 70
+  },
+  {
+    "content": "enjoy her take on like culture and the the way teams work together and so I'm",
+    "start": 74
+  },
+  {
+    "content": "very very excited to be also welcome here to Jam stack conference please make",
+    "start": 81
+  },
+  {
+    "content": "a very very welcome Jessica Lord [Applause]",
+    "start": 87
+  },
+  {
+    "content": "thank you so much Phil um yeah thank you that's Phil said my name is Jessica Lord",
+    "start": 92
+  },
+  {
+    "content": "I work at a company called splice in New York City I work on the backend and a",
+    "start": 99
+  },
+  {
+    "content": "bunch of very not jammy stuff at all and but I'm so I'm not talking about any of",
+    "start": 105
+  },
+  {
+    "content": "that today today I'm gonna share some stories about very jammy things I worked",
+    "start": 113
+  },
+  {
+    "content": "on when I github and I Code for America and github is a code sharing site and",
+    "start": 119
+  },
+  {
+    "content": "Code for America if you don't know is a non-profit based here in San Francisco",
+    "start": 125
+  },
+  {
+    "content": "for writing open source software for city governments that city governments",
+    "start": 129
+  },
+  {
+    "content": "can use and be better at governing but first I want to go into the statement",
+    "start": 135
+  },
+  {
+    "content": "and and really why I'm thrilled to be here and a part of the dam snack Kampf",
+    "start": 144
+  },
+  {
+    "content": "and really love this area of the web the most and excites me is because I really",
+    "start": 149
+  },
+  {
+    "content": "truly believe that everyone is a developer that everyone could be a",
+    "start": 156
+  },
+  {
+    "content": "developer that everyone might be a developer they might be on their way",
+    "start": 160
+  },
+  {
+    "content": "they will be a developer soon or they actually already are a developer but",
+    "start": 166
+  },
+  {
+    "content": "they're afraid to call themselves that our profession is really special that",
+    "start": 170
+  },
+  {
+    "content": "way for those of us who do this professionally it's it's different that",
+    "start": 176
+  },
+  {
+    "content": "we actually have people not doing it professionally doing the stuff that we",
+    "start": 181
+  },
+  {
+    "content": "do professionally that's different it's not like rocket science or heart surgery",
+    "start": 184
+  },
+  {
+    "content": "and I don't mean in terms of complexity right because that's not to say that the",
+    "start": 191
+  },
+  {
+    "content": "work we do isn't important revolutionary remarkable it is and",
+    "start": 196
+  },
+  {
+    "content": "that's what's really exciting for me about it and it's not to say that there",
+    "start": 201
+  },
+  {
+    "content": "aren't really brilliant people doing amazing things but you don't need to be",
+    "start": 205
+  },
+  {
+    "content": "on the bleeding edge fringe of web development to make something meaningful",
+    "start": 210
+  },
+  {
+    "content": "and empowering and there aren't heart surgery hobbyists there actually might",
+    "start": 214
+  },
+  {
+    "content": "be and it's definitely illegal but it's one of these ways in which our",
+    "start": 221
+  },
+  {
+    "content": "profession is different than other people's and I might really regret this",
+    "start": 228
+  },
+  {
+    "content": "metaphor later so we'll see because unlike heart surgery the web is",
+    "start": 232
+  },
+  {
+    "content": "bigger than what we do professionally and unlike heart surgery the web is",
+    "start": 238
+  },
+  {
+    "content": "better when it's approachable for more people the work we do every day is also",
+    "start": 244
+  },
+  {
+    "content": "done by tinkerers by activists by people on their weekends by people teaching",
+    "start": 251
+  },
+  {
+    "content": "themselves by community leaders all these people who aren't considering",
+    "start": 256
+  },
+  {
+    "content": "themselves a professional developer they're still using the tools that we",
+    "start": 262
+  },
+  {
+    "content": "have built and contributed and are using but I think it's important that when we",
+    "start": 266
+  },
+  {
+    "content": "build the tools we do and create the environments we do for web development",
+    "start": 273
+  },
+  {
+    "content": "we think about these tools in the context not just of other developers",
+    "start": 279
+  },
+  {
+    "content": "exactly like us but for people not developers but aren't developers people",
+    "start": 283
+  },
+  {
+    "content": "yes but they're a subset of people who could would and should be developing and",
+    "start": 290
+  },
+  {
+    "content": "so for me and why I love the jam stack and a lot of the work I do is because I",
+    "start": 297
+  },
+  {
+    "content": "want to build things so that there's more people building things and I think",
+    "start": 305
+  },
+  {
+    "content": "it's inflates everyone it is better experience on the web when more people",
+    "start": 310
+  },
+  {
+    "content": "can use the web there's this quote I love from Anil - who is the CEO of glich",
+    "start": 315
+  },
+  {
+    "content": "formerly Fahd Creek but now fully and on glich it seems more important than ever",
+    "start": 322
+  },
+  {
+    "content": "to encourage a diverse community of creators to experiment with their",
+    "start": 328
+  },
+  {
+    "content": "broadest set of ideas I think that's so true and to me it's really important",
+    "start": 332
+  },
+  {
+    "content": "because coding is a powerful literacy and and it's not just the broadest",
+    "start": 340
+  },
+  {
+    "content": "people out there who might be developers or who aren't developers but I mean it's",
+    "start": 345
+  },
+  {
+    "content": "also the people you work with because you probably work with people who aren't",
+    "start": 350
+  },
+  {
+    "content": "developers or people who haven't been developers their whole lives or people",
+    "start": 354
+  },
+  {
+    "content": "who are too purrs but came from a totally different",
+    "start": 359
+  },
+  {
+    "content": "stack than what you're working on now and so I think it's really important",
+    "start": 361
+  },
+  {
+    "content": "that we don't think of a professional developer as the only kind of developer",
+    "start": 367
+  },
+  {
+    "content": "and that everyone can benefit from building things on the web because HTML",
+    "start": 371
+  },
+  {
+    "content": "CMS and JavaScript they still work and like Monica has showed us browsers do",
+    "start": 377
+  },
+  {
+    "content": "amazing things like we have these tools already and it kind of doesn't need to",
+    "start": 383
+  },
+  {
+    "content": "be more complex than that so where's my screen I have this kind of",
+    "start": 388
+  },
+  {
+    "content": "scale of web things where if you imagine the two extremes of a single page site",
+    "start": 396
+  },
+  {
+    "content": "and then a really big web app I think we focus on this far end and we make it",
+    "start": 402
+  },
+  {
+    "content": "seem like this is web development this is where you need to be to be putting",
+    "start": 410
+  },
+  {
+    "content": "stuff online and it's just not true there's all this spot in space in the",
+    "start": 414
+  },
+  {
+    "content": "middle and I've actually used this diagram before but now it's really clear",
+    "start": 421
+  },
+  {
+    "content": "to me that this is the jam spot of things and so this is the area full of",
+    "start": 426
+  },
+  {
+    "content": "things you can do that don't have to be super complex and I want there to be",
+    "start": 436
+  },
+  {
+    "content": "more activity here because sometimes our projects make it out into the world and",
+    "start": 442
+  },
+  {
+    "content": "other people interface with them and those other people need less overhead",
+    "start": 448
+  },
+  {
+    "content": "and then sometimes a project doesn't it stays internal but your teammates need",
+    "start": 453
+  },
+  {
+    "content": "less overhead too so all right the first part is the story of",
+    "start": 458
+  },
+  {
+    "content": "making an electron a thing electron is a library that github maintains that is",
+    "start": 465
+  },
+  {
+    "content": "for building desktop apps that work on Mac Windows and Linux using web",
+    "start": 471
+  },
+  {
+    "content": "technology but it used to be called atom shell and it was a dependency an atom",
+    "start": 477
+  },
+  {
+    "content": "which is github text editor and it lived there and github didn't want to do",
+    "start": 483
+  },
+  {
+    "content": "anything with it there was no vision for it there was no plan and",
+    "start": 489
+  },
+  {
+    "content": "I had been at github and recently had moved on to the atom team and as I dove",
+    "start": 492
+  },
+  {
+    "content": "deeper into the atom code and on-boarded and learns a the thing making everything",
+    "start": 498
+  },
+  {
+    "content": "happened was this thing called atom shell I started to think it was actually",
+    "start": 505
+  },
+  {
+    "content": "more game-changing than atom itself I think atom is a great text editor but",
+    "start": 511
+  },
+  {
+    "content": "HUD himself felt really game-changing to me and so I started to fight for it",
+    "start": 517
+  },
+  {
+    "content": "uh-huh and you might be surprised that there was pushback because there was",
+    "start": 524
+  },
+  {
+    "content": "really no vision for this to ever be anything like atom was the dream and",
+    "start": 528
+  },
+  {
+    "content": "there was just like no there was no plan for this and I kept pushing and I wrote",
+    "start": 532
+  },
+  {
+    "content": "up road plans and reasons why it should be its own thing and I finally as the",
+    "start": 540
+  },
+  {
+    "content": "first step got the okay to spend my full time working on electron stuff and the",
+    "start": 545
+  },
+  {
+    "content": "stuff that I had put on my roadmap and so atom shell the core library that is",
+    "start": 551
+  },
+  {
+    "content": "now electron was built and maintained by a guy named Chang and so he still worked",
+    "start": 557
+  },
+  {
+    "content": "on the core library and then I worked on all this other stuff that I had put on",
+    "start": 562
+  },
+  {
+    "content": "my road map as is sort of like prove to github that electron could be a thing",
+    "start": 567
+  },
+  {
+    "content": "that was worthy in stand on its own and the first thing I started with was",
+    "start": 572
+  },
+  {
+    "content": "documentation I wanted there to be one source of truth and luckily there was",
+    "start": 578
+  },
+  {
+    "content": "already pretty good documentation in the electron project but I didn't want to",
+    "start": 583
+  },
+  {
+    "content": "over complicate that I wanted there to be one source of truth for documentation",
+    "start": 588
+  },
+  {
+    "content": "I wanted to standardize it with a style guide because it needed standardizing",
+    "start": 592
+  },
+  {
+    "content": "and I want to make the most of markdown and CSS and HTML I've been on projects",
+    "start": 597
+  },
+  {
+    "content": "that have like Adam where documentation is this whole other thing it lives in",
+    "start": 603
+  },
+  {
+    "content": "another repo it's dependent on a whole other tool chain for documentation and a",
+    "start": 609
+  },
+  {
+    "content": "whole other templating library and there's a whole other hurdle into",
+    "start": 615
+  },
+  {
+    "content": "onboarding just to fix the documentation and I wanted to make the most of what",
+    "start": 619
+  },
+  {
+    "content": "exists now which I felt words good enough and then of",
+    "start": 625
+  },
+  {
+    "content": "course a static site generator I was like github so I used Jekyll and what I",
+    "start": 629
+  },
+  {
+    "content": "ended up doing was the electron documentation lives inside of electron",
+    "start": 636
+  },
+  {
+    "content": "the repo and so whenever you download electron you get a copy of the",
+    "start": 641
+  },
+  {
+    "content": "documentation it's all marked down and so I wanted to start from there that is",
+    "start": 646
+  },
+  {
+    "content": "the one source of truth all changes to documentation happen there and then so I",
+    "start": 651
+  },
+  {
+    "content": "never learned Ruby at github so I put a bunch of node scripts into my Jekyll",
+    "start": 657
+  },
+  {
+    "content": "site that basically took the tar file from an electron release which stream",
+    "start": 662
+  },
+  {
+    "content": "out the docs folder read the file path read the content of it which had now",
+    "start": 669
+  },
+  {
+    "content": "been standardized so it was predictable and then generate the frontmatter and",
+    "start": 674
+  },
+  {
+    "content": "all the things that Jekyll needed so that it could then take all of those",
+    "start": 678
+  },
+  {
+    "content": "things stream them out of the repo and then put them nicely into a Jekyll site",
+    "start": 682
+  },
+  {
+    "content": "in the way that Jekyll wants them and so yeah like I mentioned the style guide",
+    "start": 687
+  },
+  {
+    "content": "was really important so that the format of the documentation could be",
+    "start": 694
+  },
+  {
+    "content": "predictable so that incoming changes could maintain",
+    "start": 699
+  },
+  {
+    "content": "the same the same format and also because of wanting to make the most of",
+    "start": 703
+  },
+  {
+    "content": "CSS knowing that I was going to be putting it on this Jekyll site and I",
+    "start": 710
+  },
+  {
+    "content": "would have the benefit of CSS so it could make the legibility of the",
+    "start": 715
+  },
+  {
+    "content": "documentation a little bit better than just reading the markdown files and so",
+    "start": 720
+  },
+  {
+    "content": "the style of all the documentation had to be really thought through and",
+    "start": 724
+  },
+  {
+    "content": "predictable and so on the documentation on the site there's also a few things",
+    "start": 729
+  },
+  {
+    "content": "that are a little bit electron specific but because it's pulling the docs from",
+    "start": 735
+  },
+  {
+    "content": "the releases of electron we get to have versioned documentation on the site and",
+    "start": 742
+  },
+  {
+    "content": "then there is a tldr line on all of the pages because I feel like documentation",
+    "start": 749
+  },
+  {
+    "content": "often times you go to the page and you have to read through to long paragraphs",
+    "start": 754
+  },
+  {
+    "content": "to even figure out if you're on the right page",
+    "start": 758
+  },
+  {
+    "content": "you're not so I wanted people to have right at the start a place to go and",
+    "start": 760
+  },
+  {
+    "content": "know if they're in the wrong place or not and then electron blurs the lines",
+    "start": 765
+  },
+  {
+    "content": "between what's fronting and what's back end and then introduces new complexity",
+    "start": 771
+  },
+  {
+    "content": "with having to processes and so there's a main process and a renderer process",
+    "start": 777
+  },
+  {
+    "content": "and so each of the documentation tells what process it belongs to and then",
+    "start": 781
+  },
+  {
+    "content": "because when we're on the site and we have the power of CSS to improve",
+    "start": 788
+  },
+  {
+    "content": "readability we can do things like make it more clear when a method or an event",
+    "start": 793
+  },
+  {
+    "content": "is something that only happens on a Mac system or a Windows system but it's",
+    "start": 798
+  },
+  {
+    "content": "really important to do this without forsaking the original markdown because",
+    "start": 804
+  },
+  {
+    "content": "I didn't want to do something so that it looked good on the site but then was",
+    "start": 809
+  },
+  {
+    "content": "horrible to read as marked down because the markdown is the source of truth and",
+    "start": 814
+  },
+  {
+    "content": "it's what ships with every download of electron and so everything that had to",
+    "start": 818
+  },
+  {
+    "content": "be done and like pushing the limits of markdown and thinking about how I'm",
+    "start": 824
+  },
+  {
+    "content": "going to style this in CSS but have it not look terrible in the markdown and so",
+    "start": 829
+  },
+  {
+    "content": "that was the bulk of the documentation the next thing I worked on was what was",
+    "start": 836
+  },
+  {
+    "content": "going to be people's first electron app and there are some other people at work",
+    "start": 843
+  },
+  {
+    "content": "will like of course we'll do an electron in it and it should be a scaffolding",
+    "start": 847
+  },
+  {
+    "content": "system and I pushback on that first of all electron apps can be anything they",
+    "start": 851
+  },
+  {
+    "content": "can be a menu bar app that does one tiny thing with a window this big that I mean",
+    "start": 856
+  },
+  {
+    "content": "that tells you the time or the weather it can also be slack so there's a huge",
+    "start": 863
+  },
+  {
+    "content": "gulf and the kind of electron apps you can build not to mention you can pick",
+    "start": 868
+  },
+  {
+    "content": "your flavor of front-end framework and all of this stuff and so I felt like",
+    "start": 872
+  },
+  {
+    "content": "that's a huge undertaking to build a scaffolding tool that's going to support",
+    "start": 877
+  },
+  {
+    "content": "all these permeations of an electron app and even if it",
+    "start": 882
+  },
+  {
+    "content": "doesn't support all of them then who are we to say like well we think you should",
+    "start": 887
+  },
+  {
+    "content": "use react we don't and if you have a tiny",
+    "start": 891
+  },
+  {
+    "content": "noubar applic you don't need any framework at all and so I went with the",
+    "start": 894
+  },
+  {
+    "content": "cupid simple approach and you clone it it's a bare-bones electron app with an",
+    "start": 898
+  },
+  {
+    "content": "almost empty starting window you clone the repo you npm install you npm start",
+    "start": 904
+  },
+  {
+    "content": "and you get an almost blank electron app you can open up the dev tools and you",
+    "start": 910
+  },
+  {
+    "content": "can start to poke around in it and you can especially I wanted to think about",
+    "start": 915
+  },
+  {
+    "content": "people who weren't coming from the desktop app space because people who are",
+    "start": 920
+  },
+  {
+    "content": "already in this space who are maybe working at a startup that used like",
+    "start": 927
+  },
+  {
+    "content": "chromium embedded framework and things like this they already got it so I don't",
+    "start": 930
+  },
+  {
+    "content": "care about them like I care about the people who were front-end developers or",
+    "start": 934
+  },
+  {
+    "content": "people who didn't think that they could ever build a desktop app I wanted people",
+    "start": 939
+  },
+  {
+    "content": "to know that an electron it's HTML you can open it up you can use the chrome",
+    "start": 943
+  },
+  {
+    "content": "dev tools like you're used to and start doing the things that you already know",
+    "start": 949
+  },
+  {
+    "content": "how to do and so with this little easy to clone and launch app you like very",
+    "start": 953
+  },
+  {
+    "content": "instantly almost instantly nothing it's not that instant um you can start",
+    "start": 961
+  },
+  {
+    "content": "digging around and changing an electron app but I wanted to go beyond that",
+    "start": 967
+  },
+  {
+    "content": "because it still was really hard to get across to people what is electron why",
+    "start": 972
+  },
+  {
+    "content": "would I use it what are the kind of things that I can do with it and so the",
+    "start": 977
+  },
+  {
+    "content": "next thing I did was build an electron app that demos the electron API um and I",
+    "start": 983
+  },
+  {
+    "content": "think it worked out really great it was actually a really good tool for this so",
+    "start": 992
+  },
+  {
+    "content": "that you can you can download this app and you can go through it and you can",
+    "start": 997
+  },
+  {
+    "content": "view the demos of the different kind of common things that you would do",
+    "start": 1003
+  },
+  {
+    "content": "interfacing with the different desktop system you eyes and demo things like",
+    "start": 1006
+  },
+  {
+    "content": "opening a new window and so that it makes really clear like what this stuff",
+    "start": 1012
+  },
+  {
+    "content": "means like what what's a dialog if you're not coming from that does have",
+    "start": 1016
+  },
+  {
+    "content": "application world like what you might not know exactly what a native dialog is",
+    "start": 1021
+  },
+  {
+    "content": "so this applet you go in and start actually seeing",
+    "start": 1026
+  },
+  {
+    "content": "these things in real time and I also wanted this app to be a learning tool",
+    "start": 1030
+  },
+  {
+    "content": "inside and out and so the code itself is structured in a way where everything is",
+    "start": 1036
+  },
+  {
+    "content": "organized and named so that you can match it up so when I mentioned earlier",
+    "start": 1043
+  },
+  {
+    "content": "about there being the two processes an electron here when you open up the code",
+    "start": 1047
+  },
+  {
+    "content": "for the app you can find exactly the name the matching name for a feature",
+    "start": 1053
+  },
+  {
+    "content": "that happened and find the corresponding renderer and main process files and",
+    "start": 1058
+  },
+  {
+    "content": "because it's an electron app and because we have no Devey LeBeau in our HTML what",
+    "start": 1064
+  },
+  {
+    "content": "each page does is actually uses all of the sample code the app gives you is the",
+    "start": 1072
+  },
+  {
+    "content": "code itself so we use know to read the file and then append it to the Dom and",
+    "start": 1078
+  },
+  {
+    "content": "so there's also one source of truth here so once you update the apps code the",
+    "start": 1084
+  },
+  {
+    "content": "demo app is updated there's not they're not ever gonna be out of sync and so",
+    "start": 1089
+  },
+  {
+    "content": "that was huge for me being one person doing a bunch of the stuff and so that",
+    "start": 1094
+  },
+  {
+    "content": "is essentially all of the groundwork that was done and to me this the jam",
+    "start": 1100
+  },
+  {
+    "content": "stack was essentially keeping it simple from the start was essential so that I",
+    "start": 1107
+  },
+  {
+    "content": "could advocate for the project so that I could actually build these things so",
+    "start": 1113
+  },
+  {
+    "content": "that I can maintain these things and there was easy to onboard people once it",
+    "start": 1116
+  },
+  {
+    "content": "became a real team and we got more people on it it was easy to grow from",
+    "start": 1120
+  },
+  {
+    "content": "there you might find yourself in a position like this too so it's not it's",
+    "start": 1124
+  },
+  {
+    "content": "not always an altruistic thing of like I'm doing this for the good of humankind",
+    "start": 1132
+  },
+  {
+    "content": "but you might find yourself in a position where you need to maintain less",
+    "start": 1136
+  },
+  {
+    "content": "and on board people faster all right so the second part is about spreadsheets",
+    "start": 1141
+  },
+  {
+    "content": "something I love to talk about and this goes back to my background is actually",
+    "start": 1147
+  },
+  {
+    "content": "urban design and architecture and I was an urban designer at the city of Boston",
+    "start": 1155
+  },
+  {
+    "content": "in their urban design technology group and from there I went to do the Code for",
+    "start": 1160
+  },
+  {
+    "content": "America fellowship which I mentioned earlier for building open source",
+    "start": 1166
+  },
+  {
+    "content": "software for city governments and something I took with me from City Hall",
+    "start": 1169
+  },
+  {
+    "content": "into this fellowship was a real desire to make it so that people could edit",
+    "start": 1173
+  },
+  {
+    "content": "their own content so there wasn't this bottleneck places where IT had to do",
+    "start": 1180
+  },
+  {
+    "content": "everything because I felt like the web was further than that the web was at a",
+    "start": 1185
+  },
+  {
+    "content": "place where people shouldn't be so afraid to edit their own content and so",
+    "start": 1189
+  },
+  {
+    "content": "after that year and a grant from Mozilla I ended up with a little library called",
+    "start": 1195
+  },
+  {
+    "content": "sheets ejs for visualizing google spreadsheets on a website but I'm not",
+    "start": 1200
+  },
+  {
+    "content": "gonna go into sheets II really I just want to talk about how Gracie",
+    "start": 1207
+  },
+  {
+    "content": "spreadsheets are and so back to this diagram again and I think this space is",
+    "start": 1210
+  },
+  {
+    "content": "such a great space for spreadsheets because spreadsheets are a database with",
+    "start": 1218
+  },
+  {
+    "content": "no setup that almost everyone already knows how to use and if you just sit",
+    "start": 1223
+  },
+  {
+    "content": "with that for a second like how many libraries like we talked",
+    "start": 1229
+  },
+  {
+    "content": "about the hurdles of learning the modern web stack and all the tool chains and",
+    "start": 1233
+  },
+  {
+    "content": "all of this stuff and even if you're already a developer you have to onboard",
+    "start": 1239
+  },
+  {
+    "content": "into a new system and learn how everything works and so something that",
+    "start": 1243
+  },
+  {
+    "content": "exists with no setup and you don't have to teach people how to use it that's",
+    "start": 1247
+  },
+  {
+    "content": "amazing and so I am mostly talking about Google Spreadsheets here when I say",
+    "start": 1253
+  },
+  {
+    "content": "spreadsheets but really a lot of the stuff you could do if you're I mean if",
+    "start": 1260
+  },
+  {
+    "content": "your spreadsheet is in Microsoft Office on excel like if you can get it to JSON",
+    "start": 1264
+  },
+  {
+    "content": "you can still do a lot of these things so websites they have problems and so",
+    "start": 1269
+  },
+  {
+    "content": "even if you're a professional developer who knows how to do all of this stuff",
+    "start": 1277
+  },
+  {
+    "content": "there are certain projects where these become hurdles even for you and their",
+    "start": 1282
+  },
+  {
+    "content": "hurdles for people who aren't full-time developers and spreadsheets",
+    "start": 1286
+  },
+  {
+    "content": "make a lot of this easier or not a problem at all especially when you think",
+    "start": 1291
+  },
+  {
+    "content": "about our am I gonna have a collaborator am I gonna be working with someone who's",
+    "start": 1296
+  },
+  {
+    "content": "not a developer and that's one of my favorite things about spreadsheets is",
+    "start": 1300
+  },
+  {
+    "content": "because they are so approachable that people are using them to do radical",
+    "start": 1305
+  },
+  {
+    "content": "awesome things in the very scary times in which we live and so I think there's",
+    "start": 1310
+  },
+  {
+    "content": "so much untapped potential about what we can do that involve so many people with",
+    "start": 1316
+  },
+  {
+    "content": "spreadsheets okay one library I want to talk about is called tabletop j/s and",
+    "start": 1322
+  },
+  {
+    "content": "tabletop basically gives you the data you would expect from the Google API",
+    "start": 1328
+  },
+  {
+    "content": "which the Google API doesn't give you if you tried it if you use it directly to",
+    "start": 1332
+  },
+  {
+    "content": "get your spreadsheet stuff you get a bunch of extra stuff that you don't want",
+    "start": 1337
+  },
+  {
+    "content": "and so tabletop clears cleans that all up for you and returns your columns and",
+    "start": 1342
+  },
+  {
+    "content": "your cells to you as JSON in a way that seems reasonable and it's on NPM you can",
+    "start": 1348
+  },
+  {
+    "content": "also just use a client-side it's on the CDN and it's pretty simple but it has",
+    "start": 1354
+  },
+  {
+    "content": "some few some options so you can use multiple sheets if your spreadsheet has",
+    "start": 1359
+  },
+  {
+    "content": "multiple sheets you can also only use some of the sheets if you have multiple",
+    "start": 1363
+  },
+  {
+    "content": "sheets you can use an auth key so you don't necessarily have to make your",
+    "start": 1367
+  },
+  {
+    "content": "spreadsheet public for everybody you can use proxies and so it is a great and",
+    "start": 1372
+  },
+  {
+    "content": "handy library and I loved that that's because sometimes I feel like I'm just",
+    "start": 1378
+  },
+  {
+    "content": "the spreadsheet loving person in my own corner and the docs for tabletops say",
+    "start": 1384
+  },
+  {
+    "content": "like imagine it's a read-only JavaScript CMS that you can edit through Google",
+    "start": 1392
+  },
+  {
+    "content": "Docs it's like Christmas or any other gift",
+    "start": 1396
+  },
+  {
+    "content": "giving celebration up in here and that's how I feel at least and I want to be",
+    "start": 1398
+  },
+  {
+    "content": "clear that I'm not talking about using a spreadsheet to just make a website",
+    "start": 1407
+  },
+  {
+    "content": "that's a better design table or a grid of cells because once you have it as",
+    "start": 1411
+  },
+  {
+    "content": "JSON all your data you can go wild with your CSS and do whatever you want and",
+    "start": 1417
+  },
+  {
+    "content": "represent it and really cool ways so this for example is",
+    "start": 1423
+  },
+  {
+    "content": "a tool lending library site and if you use a Google Form",
+    "start": 1427
+  },
+  {
+    "content": "you also can one prevent people from messing up your spreadsheet if that's a",
+    "start": 1435
+  },
+  {
+    "content": "concern but you can also make it even more approachable to people if you don't",
+    "start": 1441
+  },
+  {
+    "content": "want people to have to look at a spreadsheet a Google form will feed into",
+    "start": 1447
+  },
+  {
+    "content": "a spreadsheet and then you can hook that spreadsheet up to a website and there's",
+    "start": 1451
+  },
+  {
+    "content": "also no deploying like anytime someone visits your site they're getting the",
+    "start": 1456
+  },
+  {
+    "content": "latest from the spreadsheet I'm not fantastic you can do mapping you",
+    "start": 1459
+  },
+  {
+    "content": "can turn your spreadsheet data if you have if you have Latin long data in your",
+    "start": 1467
+  },
+  {
+    "content": "spreadsheet you can turn it to do JSON which sheet C will do for you you can",
+    "start": 1473
+  },
+  {
+    "content": "also go to geo JSON dot IO if you want to learn more about that format but then",
+    "start": 1478
+  },
+  {
+    "content": "you can feed your spreadsheet data into matte box Maps or use leaflet or Google",
+    "start": 1483
+  },
+  {
+    "content": "Maps you can also just avoid other libraries altogether and just like use",
+    "start": 1489
+  },
+  {
+    "content": "query strings and this isn't just for mapping but anybody that has a query",
+    "start": 1495
+  },
+  {
+    "content": "string that matches the data you have you can start using and then you can do",
+    "start": 1502
+  },
+  {
+    "content": "totally static data to which I have done for projects if you have a spreadsheet",
+    "start": 1509
+  },
+  {
+    "content": "that isn't going to change that often and doesn't have that many editors you",
+    "start": 1513
+  },
+  {
+    "content": "might want to do this you can use the version of tabletop and know to pull",
+    "start": 1518
+  },
+  {
+    "content": "down the spreadsheet JSON write it to a file and then use it as static data with",
+    "start": 1523
+  },
+  {
+    "content": "your site you can also use it to backup things that way there's also a site",
+    "start": 1527
+  },
+  {
+    "content": "called if this than that that lets you turn like almost anything you do today",
+    "start": 1534
+  },
+  {
+    "content": "into data on a spreadsheet and I what I like the most is that you can kind of",
+    "start": 1538
+  },
+  {
+    "content": "have your own copy of your data essentially and like there could be",
+    "start": 1545
+  },
+  {
+    "content": "another discussion because technically it's like on Google and I don't know the",
+    "start": 1550
+  },
+  {
+    "content": "legalities of that but in a way you have your own data",
+    "start": 1554
+  },
+  {
+    "content": "and so you can do things like totally display your social media in the way",
+    "start": 1557
+  },
+  {
+    "content": "that you want and or just archive it like you will have a copy of everything",
+    "start": 1564
+  },
+  {
+    "content": "you've done and a space that I think is also really interesting and to me could",
+    "start": 1569
+  },
+  {
+    "content": "just expand is the spreadsheet as the CMS right like a spreadsheet can be a",
+    "start": 1578
+  },
+  {
+    "content": "CMS you could write blog posts in a spreadsheet you could have CSS",
+    "start": 1583
+  },
+  {
+    "content": "properties saved in the spreadsheet and it can all feed and alter to a website",
+    "start": 1588
+  },
+  {
+    "content": "and lastly I wanted to just mention the site glitch which Monica mentioned too",
+    "start": 1595
+  },
+  {
+    "content": "if you have not played around with glitch it is a great way to put your",
+    "start": 1602
+  },
+  {
+    "content": "projects in a space where people can avoid a dev setup can just go straight",
+    "start": 1607
+  },
+  {
+    "content": "into your code start playing with it and making their own version of it and so",
+    "start": 1612
+  },
+  {
+    "content": "it's really approachable onboarding experience for people I have the",
+    "start": 1617
+  },
+  {
+    "content": "spreadsheet URL on glitch so that's mine but check out glitch and lastly I hope",
+    "start": 1622
+  },
+  {
+    "content": "that these have been some interesting ideas and that you think about keeping",
+    "start": 1632
+  },
+  {
+    "content": "it simple from the start because you might be in a position where it benefits",
+    "start": 1638
+  },
+  {
+    "content": "you to keep it simple from the start it will benefit your teammates and it will",
+    "start": 1642
+  },
+  {
+    "content": "benefit the people outside too as we grow this space for all the people who",
+    "start": 1647
+  },
+  {
+    "content": "don't think they are developers but they are because everyone thank you",
+    "start": 1653
+  },
+  {
+    "content": "[Applause]",
+    "start": 1665
+  },
+  {
+    "content": "",
+    "start": 1673
+  }
+]

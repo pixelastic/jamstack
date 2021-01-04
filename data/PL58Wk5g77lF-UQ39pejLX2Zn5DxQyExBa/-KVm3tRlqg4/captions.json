@@ -1,0 +1,1046 @@
+[
+  {
+    "content": "okay so I'm really delighted to be able",
+    "start": 0
+  },
+  {
+    "content": "to introduce our next speaker pratik bat Naga who has been working at Google for",
+    "start": 6
+  },
+  {
+    "content": "a little while works on the amp team they're doing lots",
+    "start": 11
+  },
+  {
+    "content": "of work to try and make the web faster on mobile devices and has a great",
+    "start": 14
+  },
+  {
+    "content": "heritage in that as well because pratik was also part of the team that worked on",
+    "start": 18
+  },
+  {
+    "content": "Flipkart I don't know if anyone came across Flipkart that's incredible",
+    "start": 21
+  },
+  {
+    "content": "bending a shopping site based in India that was like the canonical reference",
+    "start": 25
+  },
+  {
+    "content": "for me for progressive Web Apps offline first and I saw that at the chrome dev",
+    "start": 32
+  },
+  {
+    "content": "summit a few years ago and was just blown away I was showing everybody how",
+    "start": 38
+  },
+  {
+    "content": "how things could could behave offline first and on mobile just a superb piece",
+    "start": 41
+  },
+  {
+    "content": "of work and so really delighted the police here joining us today um Matt",
+    "start": 47
+  },
+  {
+    "content": "mentioned at the beginning in his keynote some talk about the kind of",
+    "start": 52
+  },
+  {
+    "content": "tooling built you know we sing running through the builds on that the fie and",
+    "start": 57
+  },
+  {
+    "content": "the different popularity of different tooling and build tools and frameworks",
+    "start": 61
+  },
+  {
+    "content": "and so on and there's no doubt that the evolution of frameworks and this kind of",
+    "start": 65
+  },
+  {
+    "content": "tooling is helping us squeeze out more and more performance from the browser",
+    "start": 70
+  },
+  {
+    "content": "and pre-act is a great example of that that's evolving at quite a rate and it's",
+    "start": 74
+  },
+  {
+    "content": "interesting to see where it's gonna go next and pratik has some skills right",
+    "start": 81
+  },
+  {
+    "content": "there so please make him very very welcome is Prateek back now go everyone",
+    "start": 86
+  },
+  {
+    "content": "thank you hey everyone thanks for ok ok yay nice beer up",
+    "start": 92
+  },
+  {
+    "content": "ok I'm 30 port Nagar and I am an engineer on the Google am team but they",
+    "start": 108
+  },
+  {
+    "content": "and in my free time I go back to this another awesome project called free",
+    "start": 114
+  },
+  {
+    "content": "axial I and that's what this con this was going to be about you can find me as",
+    "start": 120
+  },
+  {
+    "content": "underscore pratik ph on twitter and without the underscore on the rest of",
+    "start": 125
+  },
+  {
+    "content": "the internet because twitter cool so this talk will be about building apps",
+    "start": 130
+  },
+  {
+    "content": "web apps specifically that fly in terms of user experience built with triaxial i",
+    "start": 136
+  },
+  {
+    "content": "cool so sorry in case you're wondering what's that building on the screen",
+    "start": 143
+  },
+  {
+    "content": "that's just a hangout place from the city that I'm from and back at home this",
+    "start": 151
+  },
+  {
+    "content": "used to be place where friends used to get together and like any group of tech",
+    "start": 156
+  },
+  {
+    "content": "friends we used to discuss the next billion-dollar idea and I'm really happy",
+    "start": 163
+  },
+  {
+    "content": "like some of my friends did there to go out and build their own companies and",
+    "start": 168
+  },
+  {
+    "content": "the only reason why I used to be excited about was that I would get to do web",
+    "start": 173
+  },
+  {
+    "content": "development on somebody else's money yeah and once I start seeing what kind",
+    "start": 178
+  },
+  {
+    "content": "of products they made they were like really great ideas but as soon as I have",
+    "start": 185
+  },
+  {
+    "content": "been to their web apps I cringed a little because they were not performing",
+    "start": 190
+  },
+  {
+    "content": "and it was like it was really really easy to build poor websites even back",
+    "start": 195
+  },
+  {
+    "content": "then even now so I started looking at the problems like why exactly are",
+    "start": 201
+  },
+  {
+    "content": "there's so many why is it so easy to make poor performant websites out there",
+    "start": 206
+  },
+  {
+    "content": "and the problems are they at the very very first step",
+    "start": 213
+  },
+  {
+    "content": "it's in your face the web development setup like it's not easy and the reason",
+    "start": 217
+  },
+  {
+    "content": "is I wish it would have been dead by chocolate because",
+    "start": 222
+  },
+  {
+    "content": "we could have just eaten it but it's actually dead by tooling so if you are",
+    "start": 225
+  },
+  {
+    "content": "like starting a project starting a web app like you have to just figure out a",
+    "start": 230
+  },
+  {
+    "content": "bunch of stuff you're like going to build a big web app there's gonna be",
+    "start": 236
+  },
+  {
+    "content": "some CSS preprocessors you might want because you don't want your entire CSS",
+    "start": 241
+  },
+  {
+    "content": "just to put out there in one bundle so like maybe you have to like configure",
+    "start": 245
+  },
+  {
+    "content": "less or sass or something else which is like not really bad and not really tough",
+    "start": 250
+  },
+  {
+    "content": "it's it's something but that you have to go through but then also game-like CSS",
+    "start": 256
+  },
+  {
+    "content": "preprocessors because nobody likes writing vendor prefixed CSS by their",
+    "start": 260
+  },
+  {
+    "content": "hand so like let's something take care of this okay enough next con bundlers",
+    "start": 265
+  },
+  {
+    "content": "some of the very famous bundle bundler require a sacrifice of an engineer on",
+    "start": 273
+  },
+  {
+    "content": "your team infused with energy things I get I guess bad reaction we all know",
+    "start": 280
+  },
+  {
+    "content": "then came the fourth thing called modern JavaScript okay's we are now all writing",
+    "start": 286
+  },
+  {
+    "content": "here six but this is this thing's not working for my clients because they're",
+    "start": 292
+  },
+  {
+    "content": "using some older browsers and they don't understand es6",
+    "start": 295
+  },
+  {
+    "content": "okay well we'll throw in babel there then can assert compression oh you",
+    "start": 300
+  },
+  {
+    "content": "forgot you deployed here web app you you've done good thing but you forgot to",
+    "start": 304
+  },
+  {
+    "content": "do gzip or your providers not doing it if you are like if you're not using a",
+    "start": 309
+  },
+  {
+    "content": "server listing or if your web hosting is not doing a gzipping for your for you",
+    "start": 314
+  },
+  {
+    "content": "you might have just skipped this so I said compression is one more thing that",
+    "start": 321
+  },
+  {
+    "content": "you have to take care of then came serviceworker tooling because we are not",
+    "start": 325
+  },
+  {
+    "content": "building for the 90s we are building for the new mobile age and if like if you",
+    "start": 330
+  },
+  {
+    "content": "really want to want your product to be there performing and in the hands of",
+    "start": 335
+  },
+  {
+    "content": "people everywhere you really need to take care of spotty networks maybe even",
+    "start": 340
+  },
+  {
+    "content": "offline scenarios because a lot of your users might be travelling into trains in",
+    "start": 346
+  },
+  {
+    "content": "subways and lifts and in basements like all I know even IKEA cash counters does",
+    "start": 350
+  },
+  {
+    "content": "not get networks even in Palo Alto so you have",
+    "start": 356
+  },
+  {
+    "content": "to take care of spotty networks then come like performance plugins okay",
+    "start": 360
+  },
+  {
+    "content": "everything is done everything is working but you someone will come to you and",
+    "start": 365
+  },
+  {
+    "content": "they'll tell you like hey this is not really fast",
+    "start": 369
+  },
+  {
+    "content": "this is this still slow and then you have to throw in some performance",
+    "start": 372
+  },
+  {
+    "content": "plugins like critical CSS do your score Cheung core splitting and more of those",
+    "start": 376
+  },
+  {
+    "content": "things so I quit you just had an idea you wanted to build an app and you",
+    "start": 382
+  },
+  {
+    "content": "wanted like you want your idea to land to your users but you have to like take",
+    "start": 387
+  },
+  {
+    "content": "care of so many things that's actually where 3x CLI comes in so last year at",
+    "start": 391
+  },
+  {
+    "content": "Google i/o we launched pre X CLI the first version and what it does like it",
+    "start": 398
+  },
+  {
+    "content": "took care of everything it as soon as you use 3x CLI it gives you support for",
+    "start": 404
+  },
+  {
+    "content": "less whatever you choose to use sets up a good optimal babel configuration for",
+    "start": 409
+  },
+  {
+    "content": "you configures web pack for you thank God for that also like puts in some",
+    "start": 415
+  },
+  {
+    "content": "performance plugins like okay I'll do automatically in line automatically I'll",
+    "start": 422
+  },
+  {
+    "content": "in line your critical CSS I'll make a serviceworker for you I'll also give you",
+    "start": 427
+  },
+  {
+    "content": "a firebase JSON so why if you go and use firebase like here is how you can use",
+    "start": 431
+  },
+  {
+    "content": "HTTP - here is how you can do custom headers which will make your apps even",
+    "start": 438
+  },
+  {
+    "content": "faster so before like without any more 30 on the stuff like let's get into the",
+    "start": 442
+  },
+  {
+    "content": "juice like how do you install 3x CLI it's a small command just do NPM I",
+    "start": 451
+  },
+  {
+    "content": "global of react CLI and it will be installed for you and there will be like",
+    "start": 456
+  },
+  {
+    "content": "bunch of commands commands for you to be used I'm using a next version for it",
+    "start": 459
+  },
+  {
+    "content": "because I'm demoing what's coming next into the third version we are like very",
+    "start": 465
+  },
+  {
+    "content": "close to publish the third version of react CL and it'll bring a lot of",
+    "start": 469
+  },
+  {
+    "content": "goodness with it so far it has been a great scaffolding tool and it has it",
+    "start": 475
+  },
+  {
+    "content": "sets you up to a great start with hundred lighthouse core and everything",
+    "start": 482
+  },
+  {
+    "content": "with this next version we are trying to be more with you during again",
+    "start": 486
+  },
+  {
+    "content": "development process so it's like whenever you are trying to do something",
+    "start": 490
+  },
+  {
+    "content": "which is non-performing excl I will come and step in and tell you that hey you",
+    "start": 494
+  },
+  {
+    "content": "can do things better here so it's no more just a scaffolding tool it's going",
+    "start": 498
+  },
+  {
+    "content": "beyond that and trying to be there with you for the entire development cycle",
+    "start": 501
+  },
+  {
+    "content": "cool so the first and the most basic thing is react create so like this is",
+    "start": 507
+  },
+  {
+    "content": "how you bootstrap your project with react CLI you just do pre a create it",
+    "start": 512
+  },
+  {
+    "content": "asks you a bunch of questions like what kind of app do you want so we have a",
+    "start": 516
+  },
+  {
+    "content": "bunch of templates which I'll be discussing in some time so you can",
+    "start": 521
+  },
+  {
+    "content": "choose one of them you can choose one of your own as well the directory that you",
+    "start": 525
+  },
+  {
+    "content": "want the name and just some basic questions and it will create a project",
+    "start": 530
+  },
+  {
+    "content": "for you next up is react watch what this thing does is basically sets up a hot",
+    "start": 534
+  },
+  {
+    "content": "module replacement get back to dev server for you so let me show you later",
+    "start": 543
+  },
+  {
+    "content": "Lister's quickly jump to a demo this visible is this mr. foreign fine okay",
+    "start": 547
+  },
+  {
+    "content": "that's good so okay I have done like I have created some react projects for you",
+    "start": 561
+  },
+  {
+    "content": "because by the nature of it it has to install NPM dependencies and I don't",
+    "start": 571
+  },
+  {
+    "content": "want to do that on the stage so yeah so we are we are in one of the demo and we",
+    "start": 576
+  },
+  {
+    "content": "have if you do PF watch it just spins up web pack there's over for you with hot",
+    "start": 584
+  },
+  {
+    "content": "module replacement let's just okay yes okay you're up and running you can do",
+    "start": 591
+  },
+  {
+    "content": "your code as you want let's just do this home page and just a basic demo of",
+    "start": 599
+  },
+  {
+    "content": "everything is working fine without refresh everything is being replay being",
+    "start": 606
+  },
+  {
+    "content": "replaced so this is react watch the next up is pre act build so pre add bill is",
+    "start": 612
+  },
+  {
+    "content": "another command which builds production-ready bundles for you so all",
+    "start": 621
+  },
+  {
+    "content": "you have to do is react bill and there will be a base bill folder for you with",
+    "start": 626
+  },
+  {
+    "content": "okay yeah and the good thing about this command is like it will show you the",
+    "start": 632
+  },
+  {
+    "content": "gzip versions the gzip sizes of your bundles it'll also tell you if your but",
+    "start": 643
+  },
+  {
+    "content": "if one of your bundle is like really inflating up and might hurt your user",
+    "start": 649
+  },
+  {
+    "content": "experience it might just tell you that hey you might want to do a code",
+    "start": 652
+  },
+  {
+    "content": "splitting here so with that's like this is oh you can just use this folder and",
+    "start": 656
+  },
+  {
+    "content": "deploy to whatever web hosting you have and this will just work okay okay and",
+    "start": 664
+  },
+  {
+    "content": "another thing that we have offline support by offline support out of the",
+    "start": 675
+  },
+  {
+    "content": "box like you can just go offline and everything is working as is ok so that",
+    "start": 682
+  },
+  {
+    "content": "was like react watch and react well as as I said it gives you production ready",
+    "start": 692
+  },
+  {
+    "content": "bundles next up the templates like hey now we",
+    "start": 696
+  },
+  {
+    "content": "have 4 templates for you one like material the default and widget and the",
+    "start": 703
+  },
+  {
+    "content": "simple so like the default templates gives you our web app and gives you a no",
+    "start": 709
+  },
+  {
+    "content": "strain with two routes so a home just a normal demo app whereas the simple is",
+    "start": 715
+  },
+  {
+    "content": "like your simple hello world with like no routes no course meeting set up for",
+    "start": 722
+  },
+  {
+    "content": "you you can just start from the very stretch you can choose your own tools",
+    "start": 726
+  },
+  {
+    "content": "next is the material component so this is like a material template sorry",
+    "start": 732
+  },
+  {
+    "content": "so this template is build with the MVC web implementation of pre-act bindings",
+    "start": 739
+  },
+  {
+    "content": "so you your web app will be ready to use MVC web and the material design on the",
+    "start": 743
+  },
+  {
+    "content": "very first go so like you can just use create create material and then",
+    "start": 751
+  },
+  {
+    "content": "name and this is ready for you to use okay focus of widget so there have been",
+    "start": 756
+  },
+  {
+    "content": "times where you don't really building an app you're rather building a widget so",
+    "start": 763
+  },
+  {
+    "content": "it's like hey I'll I'll build a clock widget because until very recently the",
+    "start": 769
+  },
+  {
+    "content": "UI that browser gave gave us was dropdowns to select time so it's like",
+    "start": 774
+  },
+  {
+    "content": "hey let my user this was better than this I will build a widget let's say a",
+    "start": 779
+  },
+  {
+    "content": "clock widget so this is the template that you go to in case if you are",
+    "start": 784
+  },
+  {
+    "content": "building a widget instead of an app yeah so and makes they're like there is the",
+    "start": 788
+  },
+  {
+    "content": "ability to do custom templates so you can focus templates add your own",
+    "start": 796
+  },
+  {
+    "content": "functionality to it so if you have a favorite way of bootstrapping your",
+    "start": 801
+  },
+  {
+    "content": "project this is the way to go so I have my personal favorite is like a project",
+    "start": 805
+  },
+  {
+    "content": "which has material design on it and has some reduction on it so like I fought",
+    "start": 810
+  },
+  {
+    "content": "the may I'll poke the base repo and created my own repo called material",
+    "start": 816
+  },
+  {
+    "content": "docks so all I have to do is like create react create the predict VA slash",
+    "start": 821
+  },
+  {
+    "content": "material docks and the app app name so it'll scaffold the entire app still",
+    "start": 827
+  },
+  {
+    "content": "guarantee all the best performances from best web performance practices and I'm",
+    "start": 833
+  },
+  {
+    "content": "good to go from there I can just start writing my app logic without worrying",
+    "start": 839
+  },
+  {
+    "content": "about the entire tooling so this is a lot about scaffolding so like what's",
+    "start": 843
+  },
+  {
+    "content": "what's the big deal so here's here's a few things that out-of-the-box pre-act",
+    "start": 850
+  },
+  {
+    "content": "brings to you we just call it like out-of-the-box magic every app that you",
+    "start": 856
+  },
+  {
+    "content": "create with react CLI guarantees you a hundred light score on all the four",
+    "start": 861
+  },
+  {
+    "content": "pillars of lighthouse next up code splitting like every route that you make",
+    "start": 867
+  },
+  {
+    "content": "with react CLI is guaranteed to have its own bundle code slated automatically",
+    "start": 872
+  },
+  {
+    "content": "without you doing anything no imports no require dot ensure no any fancy things",
+    "start": 877
+  },
+  {
+    "content": "you just have to create your route inside their out folder and we",
+    "start": 883
+  },
+  {
+    "content": "automatically go through it for you okay next up like offline support as we",
+    "start": 886
+  },
+  {
+    "content": "just discussed every app built with the default templates will have our",
+    "start": 893
+  },
+  {
+    "content": "serviceworker supporting the offline capable shell you obviously cannot",
+    "start": 897
+  },
+  {
+    "content": "predict all your API so there's a way to configure it which we will discuss but",
+    "start": 903
+  },
+  {
+    "content": "by default your shell will be available offline to your users thanks to the",
+    "start": 908
+  },
+  {
+    "content": "purple pattern so pre-act CLI also gives you HTTP push headers like whenever your",
+    "start": 915
+  },
+  {
+    "content": "user lands on a page all the assets needed to build that page are pushed",
+    "start": 922
+  },
+  {
+    "content": "from the server if your server just supports HTTP 2 and the bundles sizing",
+    "start": 926
+  },
+  {
+    "content": "as I showed you like there is a tractor of how big of each of your bundle is so",
+    "start": 936
+  },
+  {
+    "content": "if your bundle is really inflating there will be warnings in your on your console",
+    "start": 941
+  },
+  {
+    "content": "saying that hey we think that this route is really really has gotten really",
+    "start": 945
+  },
+  {
+    "content": "really big and maybe it's time to just split this in my code splitting by using",
+    "start": 950
+  },
+  {
+    "content": "a dynamic import there are various ways to do it maybe like a viewport based in",
+    "start": 955
+  },
+  {
+    "content": "viewport and out of the viewport chunking that that's all up to you but",
+    "start": 961
+  },
+  {
+    "content": "will help you step we'll help you by stepping in and saying that hey this is",
+    "start": 965
+  },
+  {
+    "content": "where you need to split your JavaScript next so like what's under the hood and",
+    "start": 970
+  },
+  {
+    "content": "like whatever is after this slide you can really use even on your web apps",
+    "start": 977
+  },
+  {
+    "content": "it's like those are all best practices for grab build big into pre XLI but ok",
+    "start": 982
+  },
+  {
+    "content": "we are if you are not using pre XLI you can still do these things first webs",
+    "start": 988
+  },
+  {
+    "content": "like es modules which shape whatever is built with react CLI ships with es",
+    "start": 993
+  },
+  {
+    "content": "module support we build both versions of it like diversion which is transpile",
+    "start": 997
+  },
+  {
+    "content": "only to es2015 and a shift with strip type module and usual es5 module es5",
+    "start": 1004
+  },
+  {
+    "content": "bundle which is shipped to all the older browsers so like if you can write as",
+    "start": 1011
+  },
+  {
+    "content": "much es6 code as you want without right without worrying about how much we",
+    "start": 1016
+  },
+  {
+    "content": "this transfer get transferred to when it becomes es5 so like you can use endless",
+    "start": 1021
+  },
+  {
+    "content": "number of classes and this number of cons let's and less number of us Inc",
+    "start": 1027
+  },
+  {
+    "content": "awaits and it will just be fine because they don't have to be trans trans file",
+    "start": 1031
+  },
+  {
+    "content": "to es5 anymore if you are using strip type modules browsers can just",
+    "start": 1035
+  },
+  {
+    "content": "understand that we support the new version and can use this strip instead",
+    "start": 1040
+  },
+  {
+    "content": "of the es5 one okay for compression like we are going beyond the usual uglify",
+    "start": 1045
+  },
+  {
+    "content": "agra fire was really really good up until es5 then came occupy es uglify es6",
+    "start": 1052
+  },
+  {
+    "content": "which promised to be good about es6 but then it's no longer maintained Souter",
+    "start": 1059
+  },
+  {
+    "content": "says this new project which not only supports compression of es6 but also for",
+    "start": 1065
+  },
+  {
+    "content": "the Equestria fortune so it does optimizations for you like hey if you",
+    "start": 1070
+  },
+  {
+    "content": "are doing object be structuring let's just keep that in that format and not do",
+    "start": 1075
+  },
+  {
+    "content": "it and and not add babel polyfills for it next up in line critical CSS we can",
+    "start": 1081
+  },
+  {
+    "content": "free render all your routes and we go into those routes and see this year the",
+    "start": 1090
+  },
+  {
+    "content": "CSS files that you are given to those routes take out all the CSS from those",
+    "start": 1095
+  },
+  {
+    "content": "files see whichever is actually critical for this page and inline that on your",
+    "start": 1099
+  },
+  {
+    "content": "head so this this really really really boosts your first pains for your web",
+    "start": 1104
+  },
+  {
+    "content": "apps we also do like there are no script ah there are no link rel stylesheet tags",
+    "start": 1108
+  },
+  {
+    "content": "on your document there are only just preload tags and when those free loads",
+    "start": 1117
+  },
+  {
+    "content": "are completed we just switch them to become a stylesheet tags network",
+    "start": 1121
+  },
+  {
+    "content": "resiliency as we have like just discussed pre axial I bring our builds",
+    "start": 1127
+  },
+  {
+    "content": "to service Oh occurs for you so like one is for one is which caches your es6",
+    "start": 1133
+  },
+  {
+    "content": "files one is which caches your older es5 quotes so according to whichever bundle",
+    "start": 1138
+  },
+  {
+    "content": "you use a proper pre-caching is already done for you and polyfills we Bishop",
+    "start": 1143
+  },
+  {
+    "content": "promises and fetch polyfills but we only download it",
+    "start": 1152
+  },
+  {
+    "content": "when it's actually needed by the browser so like you can be sure that while",
+    "start": 1155
+  },
+  {
+    "content": "developing your web app which will always be there you can use promises you",
+    "start": 1159
+  },
+  {
+    "content": "can use I think awaits and we'll take care of the rest",
+    "start": 1165
+  },
+  {
+    "content": "h1 support so like we know that a few people are not there yet they are in",
+    "start": 1169
+  },
+  {
+    "content": "like on the h2 bandwagon yet so we still support with the with a small flag",
+    "start": 1175
+  },
+  {
+    "content": "called pre-act bill - - preload you can still instead of doing the edge to push",
+    "start": 1181
+  },
+  {
+    "content": "you can get all that goodness with the help of link rel 3 loads okay",
+    "start": 1186
+  },
+  {
+    "content": "next come pre axial I plugin so we like if there is one species on this planet",
+    "start": 1193
+  },
+  {
+    "content": "is the engineers who don't like magic they really need to know what's going on",
+    "start": 1199
+  },
+  {
+    "content": "in their code and we understand this like and we'd never want it to be a wall",
+    "start": 1204
+  },
+  {
+    "content": "box where everything has to be has to happen according to us soap react CLI",
+    "start": 1209
+  },
+  {
+    "content": "plugins is a way of taking over the entire setup of pre XA Li in your own",
+    "start": 1215
+  },
+  {
+    "content": "hands there's a small all you have to do is in a file called pre act or config",
+    "start": 1220
+  },
+  {
+    "content": "dot GS you have to just declare a function that's it and this function",
+    "start": 1225
+  },
+  {
+    "content": "will have helpers config and environment variables given to you as arguments with",
+    "start": 1229
+  },
+  {
+    "content": "helpers you can just take over the entire web pack config",
+    "start": 1234
+  },
+  {
+    "content": "you can remove stuff that we did for you you can add more stuff you can as soon",
+    "start": 1238
+  },
+  {
+    "content": "like as soon as you get time from building your product to get more and",
+    "start": 1242
+  },
+  {
+    "content": "more like to do more performance enhancement thing just use this function",
+    "start": 1247
+  },
+  {
+    "content": "take over the entire web pack plug-in and go crazy over next like here's a",
+    "start": 1251
+  },
+  {
+    "content": "sample of default pre axial a plugin so this plugin gives replaces the default",
+    "start": 1259
+  },
+  {
+    "content": "as the service worker toolbox with the work box the new work box library",
+    "start": 1265
+  },
+  {
+    "content": "all you have to do is less like import a function from this plugin and use this",
+    "start": 1272
+  },
+  {
+    "content": "pre act not conflict dot J's to initialize this plugin and will",
+    "start": 1278
+  },
+  {
+    "content": "automatically modify the web pack config under hood there are more plugins to",
+    "start": 1283
+  },
+  {
+    "content": "help you like there's a plug-in to help you with types",
+    "start": 1288
+  },
+  {
+    "content": "trip there's a plug-in to help you with more a different kind of a sink await so",
+    "start": 1291
+  },
+  {
+    "content": "that's that's on the time of compile build time instead of the run time the",
+    "start": 1297
+  },
+  {
+    "content": "default Babel generator we also do pre-rendering for your app so all you",
+    "start": 1302
+  },
+  {
+    "content": "have to do is like give us a title give us the URL and we'll go to that URL and",
+    "start": 1309
+  },
+  {
+    "content": "pre-render that page for you and keep that keep it in that particular folder",
+    "start": 1314
+  },
+  {
+    "content": "as index index dot HTML so you're you you don't have to bang your head against",
+    "start": 1318
+  },
+  {
+    "content": "an SSR wall or the server-side rendering wall this if you are good with a",
+    "start": 1324
+  },
+  {
+    "content": "pre-render like at a build time pre-render this is this just happens out",
+    "start": 1329
+  },
+  {
+    "content": "for you out of the box you just have to give us a JSON as an array and give us",
+    "start": 1334
+  },
+  {
+    "content": "the title and the URL you can give more custom props which will pass to your",
+    "start": 1339
+  },
+  {
+    "content": "components while pre-rendering so if there's like any problem eat at the time",
+    "start": 1343
+  },
+  {
+    "content": "of free rendering you can just append to this object but we do support SSR like",
+    "start": 1349
+  },
+  {
+    "content": "SSS something more complex and it's not just as down bears free rendering so",
+    "start": 1355
+  },
+  {
+    "content": "what you have to do is like you take over the index dot HTML n instead of the",
+    "start": 1362
+  },
+  {
+    "content": "one that we build you actually intercept the request process of whatever logic",
+    "start": 1366
+  },
+  {
+    "content": "you have and then you can just inject that particular body in your index dot",
+    "start": 1371
+  },
+  {
+    "content": "HTML there's a there's a very clear example on this particular repo and on",
+    "start": 1375
+  },
+  {
+    "content": "github and this has like a full set up of server-side rendering with pre-act so",
+    "start": 1385
+  },
+  {
+    "content": "with all of that goodness like we we hope that we are there for the entire",
+    "start": 1390
+  },
+  {
+    "content": "development process and there like more features that are coming in that that's",
+    "start": 1397
+  },
+  {
+    "content": "not in this particular demo because they are not ready yet but they will be",
+    "start": 1401
+  },
+  {
+    "content": "telling like hey these calls of yours are failing so maybe you can add runtime",
+    "start": 1405
+  },
+  {
+    "content": "caching and offline support for these API hey maybe more of these API is post",
+    "start": 1410
+  },
+  {
+    "content": "calls are failing you can add background fetch background sync to these APs and",
+    "start": 1416
+  },
+  {
+    "content": "with those we be there for you to help you build a",
+    "start": 1420
+  },
+  {
+    "content": "better web app throughout the process and not just as a scaffolding - thank",
+    "start": 1426
+  },
+  {
+    "content": "you [Applause]",
+    "start": 1431
+  },
+  {
+    "content": "[Applause]",
+    "start": 1441
+  },
+  {
+    "content": "you",
+    "start": 1448
+  }
+]

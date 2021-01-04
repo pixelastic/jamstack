@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "norska": "1.8.0"
+    "norska": "1.8.0",
+    "norska-theme-search": "0.0.2"
   },
   "devDependencies": {
     "aberlaas": "1.14.0",
@@ -18,6 +19,7 @@
     "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
     "cms": "./scripts/cms",
+    "data:pull": "youtinx pull",
     "data:generate": "node ./scripts/data-generate.js",
     "data:index": "node ./scripts/data-index.js",
     "husky:precommit": "./scripts/husky-precommit",

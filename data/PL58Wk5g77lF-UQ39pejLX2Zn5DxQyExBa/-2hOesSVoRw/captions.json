@@ -1,0 +1,666 @@
+[
+  {
+    "content": "so so next up we've got Eric Gardner I'm",
+    "start": 0
+  },
+  {
+    "content": "really excited to see this talk because I'm on a massive static site generator",
+    "start": 6
+  },
+  {
+    "content": "nerd who'd have thought it and and I'm really curious to see where static site",
+    "start": 10
+  },
+  {
+    "content": "generators can get used it feels like there's lots of different applications",
+    "start": 15
+  },
+  {
+    "content": "of it I love stuff that applies things and make create uses a template and",
+    "start": 19
+  },
+  {
+    "content": "create so an interesting output I'm also a big kind of nerd for print design as",
+    "start": 24
+  },
+  {
+    "content": "well I mean there are there any designers in the room anyone who would",
+    "start": 31
+  },
+  {
+    "content": "describe themselves as a designer okay a handful of those designers would you say",
+    "start": 34
+  },
+  {
+    "content": "you are designers for what meat floor for web design any of you got a",
+    "start": 40
+  },
+  {
+    "content": "background in print design Oh a smattering ok smattering interesting cuz",
+    "start": 45
+  },
+  {
+    "content": "I know it's a slightly different beast there's some slightly different",
+    "start": 51
+  },
+  {
+    "content": "constraints it's a different animal so we're gonna hear a little bit about that",
+    "start": 54
+  },
+  {
+    "content": "because you know this talk from from Eric it's going to look at static sites",
+    "start": 58
+  },
+  {
+    "content": "generators and use and like how they can be used for for books and not just",
+    "start": 63
+  },
+  {
+    "content": "digital books but potentially for print as well so I'm very very interested in",
+    "start": 69
+  },
+  {
+    "content": "hearing about this please make him very very welcome give him a warm welcome",
+    "start": 73
+  },
+  {
+    "content": "face ten minutes is Eric gardener hi everyone thanks so much for being here",
+    "start": 76
+  },
+  {
+    "content": "this evening my name is Eric Gardner and I'm a software engineer at rumors which",
+    "start": 86
+  },
+  {
+    "content": "is a design studio in Portland I've been passionate about the technology of the",
+    "start": 91
+  },
+  {
+    "content": "jam stack since before that acronym existed and tonight I'd like to talk",
+    "start": 95
+  },
+  {
+    "content": "about one application of that technology that I hope you find interesting which",
+    "start": 99
+  },
+  {
+    "content": "is using static web technology as a system for digital publishing so first",
+    "start": 102
+  },
+  {
+    "content": "some background prior to joining rumors in Portland I worked for several years",
+    "start": 106
+  },
+  {
+    "content": "as a software developer at the Getty Museum in Los Angeles has anyone heard",
+    "start": 110
+  },
+  {
+    "content": "of the Getty this was just another day at the office back when I worked there I",
+    "start": 114
+  },
+  {
+    "content": "highly recommend a visit if you're ever in LA the architecture alone is pretty",
+    "start": 119
+  },
+  {
+    "content": "amazing and the admission is free so the Getty is a world-class Art Museum and it",
+    "start": 122
+  },
+  {
+    "content": "also houses a publishing department that produces dozens of art related books",
+    "start": 127
+  },
+  {
+    "content": "each year these range from popular titles",
+    "start": 131
+  },
+  {
+    "content": "you kind of scholarly oriented things that are enormous and massive and",
+    "start": 134
+  },
+  {
+    "content": "expensive but also very beautiful so I worked within this department",
+    "start": 137
+  },
+  {
+    "content": "during my time there and when I arrived the mandate that I was given was find a",
+    "start": 140
+  },
+  {
+    "content": "way to publish the museum's collection catalogs in a digital format a",
+    "start": 146
+  },
+  {
+    "content": "collection catalog is like a scholarly tool you know mainly for art history",
+    "start": 149
+  },
+  {
+    "content": "research that would have a series of plates of all of the works in a",
+    "start": 153
+  },
+  {
+    "content": "particular collection so they're very large very expensive sell to a really",
+    "start": 157
+  },
+  {
+    "content": "limited audience so let's make these in a digital format previous attempts to",
+    "start": 160
+  },
+  {
+    "content": "shoehorn these kind of academic publications into a CMS just didn't work",
+    "start": 164
+  },
+  {
+    "content": "very well it wasn't a good match for the kind of content and these projects were",
+    "start": 169
+  },
+  {
+    "content": "very hard to maintain you know they started feeling obsolete even just a few",
+    "start": 172
+  },
+  {
+    "content": "years after they were launched so we didn't want to go down that road I was",
+    "start": 176
+  },
+  {
+    "content": "there as part of a team of two in the digital publication team so I was the",
+    "start": 180
+  },
+  {
+    "content": "developer there was also a product manager and we were embedded in a larger",
+    "start": 183
+  },
+  {
+    "content": "print publishing department but that had a lot of brilliant designers you know",
+    "start": 186
+  },
+  {
+    "content": "print production Wizards editors people that really loved the craft of making",
+    "start": 191
+  },
+  {
+    "content": "books and so because the bar was set so high we didn't want to lose the",
+    "start": 195
+  },
+  {
+    "content": "beautiful design and also the long-term availability of the printed books these",
+    "start": 201
+  },
+  {
+    "content": "are two great features that we wanted to maintain in a digital version so we",
+    "start": 204
+  },
+  {
+    "content": "found a solution based on static site generator technology or what you'd now",
+    "start": 210
+  },
+  {
+    "content": "call the jam stack so we began publishing books this way in 2016 with",
+    "start": 214
+  },
+  {
+    "content": "ancient terracotta from South Italy and Sicily since then a total of six major",
+    "start": 218
+  },
+  {
+    "content": "publications have been produced this way scholarly publications at the Museum and",
+    "start": 223
+  },
+  {
+    "content": "there are several more in the pipeline and I'm gonna talk mostly about the",
+    "start": 227
+  },
+  {
+    "content": "first trilogy that you can see here so all of these are available online at get",
+    "start": 230
+  },
+  {
+    "content": "eaten slash digital and they're also open source and all the code is",
+    "start": 234
+  },
+  {
+    "content": "available at github com slash get epubs so feel free to take a look since this",
+    "start": 239
+  },
+  {
+    "content": "is a tech conference here's a quick overview of the tech stack for these",
+    "start": 243
+  },
+  {
+    "content": "projects we built them on top of the middleman static site generator Thomas",
+    "start": 246
+  },
+  {
+    "content": "Reynolds was here speaking earlier this was a great tool there was a plain text",
+    "start": 251
+  },
+  {
+    "content": "back-end so all of the source content was in simple text files markdown and",
+    "start": 256
+  },
+  {
+    "content": "yeah Mel primarily and lived in github we used UJS and other JavaScript",
+    "start": 261
+  },
+  {
+    "content": "libraries for interactive you by elements on the front-end and then we",
+    "start": 265
+  },
+  {
+    "content": "use prints XML and css3 for PDF generation at Build time I'll talk a",
+    "start": 270
+  },
+  {
+    "content": "little bit more about this later on so I'm gonna highlight a couple of features",
+    "start": 275
+  },
+  {
+    "content": "of these projects that I think might be interesting here so first we wanted the",
+    "start": 280
+  },
+  {
+    "content": "products we were creating to feel like books we wanted a book like reading",
+    "start": 284
+  },
+  {
+    "content": "experience the simplicity of building sites on top of static generator",
+    "start": 288
+  },
+  {
+    "content": "technology allowed us to really focus on things like creating a great reading",
+    "start": 293
+  },
+  {
+    "content": "experience responsive design etc so you can see some examples of that design",
+    "start": 296
+  },
+  {
+    "content": "here we were inspired by sites like medium and we wanted to deliver an",
+    "start": 300
+  },
+  {
+    "content": "elegant distraction-free experience to the reader and so because we didn't have",
+    "start": 303
+  },
+  {
+    "content": "to worry about databases and server provisioning and all this other stuff I",
+    "start": 307
+  },
+  {
+    "content": "feel like we were able to to focus on that another key feature was making the",
+    "start": 311
+  },
+  {
+    "content": "full-text of the books searchable and we use the lunar j/s library for this",
+    "start": 315
+  },
+  {
+    "content": "feature lunar you can see an example of that UI action here so a lunar is",
+    "start": 318
+  },
+  {
+    "content": "described by by its creator as a little bit like solar but smaller and not as",
+    "start": 323
+  },
+  {
+    "content": "bright we still thought it was pretty amazing no server was required for that",
+    "start": 327
+  },
+  {
+    "content": "at all like we generated a JSON index at Build time that was consumed by the",
+    "start": 332
+  },
+  {
+    "content": "client at runtime but it provided full text search for a static site so",
+    "start": 336
+  },
+  {
+    "content": "building a JSON index of all text pages and middleman is pretty straightforward",
+    "start": 341
+  },
+  {
+    "content": "because you have all Ruby at your disposal the software has a sitemap",
+    "start": 344
+  },
+  {
+    "content": "object that you can query and manipulate in various ways so this is an",
+    "start": 348
+  },
+  {
+    "content": "abbreviated an abbreviated example of how we loop through the pages and",
+    "start": 352
+  },
+  {
+    "content": "constructed a simple data structure that contained you know all of the text of",
+    "start": 355
+  },
+  {
+    "content": "the book and some basic metadata which is then rendered as JSON on the client",
+    "start": 359
+  },
+  {
+    "content": "side we would just feed that to lunar when the user is browsing the site and",
+    "start": 363
+  },
+  {
+    "content": "you can assign a different way to different fields to you know give more",
+    "start": 367
+  },
+  {
+    "content": "emphasis to things found in the title for example another key feature was deep",
+    "start": 371
+  },
+  {
+    "content": "zoom images we provided this with the leaflet JFS library so leaflet is an",
+    "start": 376
+  },
+  {
+    "content": "open source mapping library but it also supports a deep zoom image display you",
+    "start": 380
+  },
+  {
+    "content": "can see an example here I wrote a simple Ruby script to split up high resolution",
+    "start": 384
+  },
+  {
+    "content": "images from the museum into tiles at various levels of zoom and uploaded them",
+    "start": 389
+  },
+  {
+    "content": "to s3 the catalog entry pages that you like what you're seeing here then",
+    "start": 394
+  },
+  {
+    "content": "display the images with a zoomable interface kind of like what you'd see",
+    "start": 397
+  },
+  {
+    "content": "for Google Maps so we were able to display",
+    "start": 401
+  },
+  {
+    "content": "hundreds of views of dozens and dozens of artifacts at very high levels of",
+    "start": 403
+  },
+  {
+    "content": "detail something that simply wouldn't be possible in a printed book another key",
+    "start": 406
+  },
+  {
+    "content": "feature was actually mapped so you can use leaflet to also display maps since",
+    "start": 411
+  },
+  {
+    "content": "it's a mapping tool so this will allow us to connect artifacts with the",
+    "start": 415
+  },
+  {
+    "content": "locations where they were found or manufactured like hey this thing was",
+    "start": 418
+  },
+  {
+    "content": "found in this place called Toronto this is great because in in antiquity the",
+    "start": 421
+  },
+  {
+    "content": "names of a lot of places have changed so you could just show the exact location",
+    "start": 425
+  },
+  {
+    "content": "you know ancient name modern damn side by side we also had you know dynamic UI",
+    "start": 428
+  },
+  {
+    "content": "components using view Jas so these catalogs were primarily composed of",
+    "start": 435
+  },
+  {
+    "content": "static HTML generated from middleman but sometimes more interactivity was",
+    "start": 438
+  },
+  {
+    "content": "required and view j/s was a very useful tool for building complex UI components",
+    "start": 442
+  },
+  {
+    "content": "like this it's pretty easy to drop in a view component into an otherwise static",
+    "start": 447
+  },
+  {
+    "content": "web page so this is an example from the ancient lamps catalog which contained",
+    "start": 451
+  },
+  {
+    "content": "over 600 entries so using the view Jas computed properties feature it was very",
+    "start": 455
+  },
+  {
+    "content": "easy to do things like filter and sort over a large collection of data",
+    "start": 460
+  },
+  {
+    "content": "instantaneously you know so hey I want to only see things from 50 BC to 300 AD",
+    "start": 463
+  },
+  {
+    "content": "and I only want the pots from Anatolia ok no problem",
+    "start": 469
+  },
+  {
+    "content": "view made that pretty easy but I think the killer feature of these products was",
+    "start": 472
+  },
+  {
+    "content": "the fact that we could also provide an ePub a PDF and a print on demand version",
+    "start": 478
+  },
+  {
+    "content": "of the same material automatically this is one place where middleman really",
+    "start": 483
+  },
+  {
+    "content": "shines out of all the static site generators it's the easiest one to add",
+    "start": 486
+  },
+  {
+    "content": "custom functionality to there's an extension API that lets you hook into it",
+    "start": 490
+  },
+  {
+    "content": "at Build time and you know do various things so this is where we used a",
+    "start": 494
+  },
+  {
+    "content": "command line tool called prints to basically grab a series of pages",
+    "start": 498
+  },
+  {
+    "content": "generate them hit them with this command line tool turn them into a PDF this is",
+    "start": 501
+  },
+  {
+    "content": "an example of a kind of layouts we were able to produce using CSS this book was",
+    "start": 505
+  },
+  {
+    "content": "made with CSS I'm happy to share copies with people if people want to take a",
+    "start": 510
+  },
+  {
+    "content": "look later we used the page media module to do this it's not very well known but",
+    "start": 515
+  },
+  {
+    "content": "it supports really sophisticated control over things like margins columns page",
+    "start": 520
+  },
+  {
+    "content": "breaks etc much of this spec is already implemented in major browsers but the",
+    "start": 525
+  },
+  {
+    "content": "command line tool prints which is unfortunately not open-source offers",
+    "start": 529
+  },
+  {
+    "content": "probably the best support for this part of CSS and it was instrumental in",
+    "start": 533
+  },
+  {
+    "content": "generating the print edition so just to wrap up I want to you know leave you all",
+    "start": 537
+  },
+  {
+    "content": "with a couple of takeaways that we felt were apparent after these projects so",
+    "start": 542
+  },
+  {
+    "content": "first this was an exercise in building things that last compared to traditional",
+    "start": 547
+  },
+  {
+    "content": "books most websites have a laughably short lifespan but scholarly work needs",
+    "start": 552
+  },
+  {
+    "content": "to be available for years if not decades so that future researchers can take",
+    "start": 557
+  },
+  {
+    "content": "advantage of it the jam stack in my opinion is a great way to mitigate this",
+    "start": 561
+  },
+  {
+    "content": "problem between the human readable text files and get the static web versions",
+    "start": 564
+  },
+  {
+    "content": "that require no back-end to serve up and the ePub PDF and print versions that",
+    "start": 569
+  },
+  {
+    "content": "were generated at the same time I think that at least some version of these",
+    "start": 573
+  },
+  {
+    "content": "books is going to be available decades from now another huge advantage of this",
+    "start": 577
+  },
+  {
+    "content": "approach was I think it really supported cross-disciplinary collaboration because",
+    "start": 581
+  },
+  {
+    "content": "the code was very simple the tech was so simple it kind of lowered the barrier of",
+    "start": 586
+  },
+  {
+    "content": "entry for other collaborators on the project for non-specialists non tech",
+    "start": 589
+  },
+  {
+    "content": "people so when your data looks like this instead of some like you know database",
+    "start": 593
+  },
+  {
+    "content": "or something it's a lot easier for non-technical staff like editors or",
+    "start": 597
+  },
+  {
+    "content": "designers to get in here see what's going on make changes this is what",
+    "start": 601
+  },
+  {
+    "content": "revisions to the book look like all the revisions lived in git we we were able",
+    "start": 605
+  },
+  {
+    "content": "to successfully Train editors to use tools like github and text editors to",
+    "start": 610
+  },
+  {
+    "content": "you know go in and make these changes themselves one of our editors pictured",
+    "start": 615
+  },
+  {
+    "content": "in the center here Ruth she enjoyed the process so much she wrote about it for",
+    "start": 618
+  },
+  {
+    "content": "the Getty blog so these are people with no tech background that were really kind",
+    "start": 621
+  },
+  {
+    "content": "of invited into the process and finally the development of these projects led to",
+    "start": 624
+  },
+  {
+    "content": "a open source digital publishing framework called quire that's still an",
+    "start": 629
+  },
+  {
+    "content": "active development at the getty to produce these kind of things it's kind",
+    "start": 633
+  },
+  {
+    "content": "of a toolkit to make these projects easier to build",
+    "start": 637
+  },
+  {
+    "content": "so quire builds on top of the hugo static site generator and there's",
+    "start": 639
+  },
+  {
+    "content": "there's a CLI written in node that supports building additional publication",
+    "start": 642
+  },
+  {
+    "content": "formats PDF epub etc so this project is still in the alpha stages but several",
+    "start": 647
+  },
+  {
+    "content": "museums and small publishers have already used it for things that they're",
+    "start": 651
+  },
+  {
+    "content": "you know working on in production now and there's a github repo here github",
+    "start": 655
+  },
+  {
+    "content": "calm / Getty pubs / choir q UI re before I wrap up I just want to acknowledge",
+    "start": 658
+  },
+  {
+    "content": "some of the amazing open-source tools that made these projects possible",
+    "start": 665
+  },
+  {
+    "content": "middleman UJS leaflet lunar things like that so much of what we did would not",
+    "start": 669
+  },
+  {
+    "content": "have been possible without all this amazing open-source work and finally I",
+    "start": 674
+  },
+  {
+    "content": "just want to leave you all with a challenge which is build things at last",
+    "start": 678
+  },
+  {
+    "content": "I think we have great tools at our disposal to do that so yes that's my",
+    "start": 683
+  },
+  {
+    "content": "challenge for you thanks a lot [Applause]",
+    "start": 689
+  },
+  {
+    "content": "[Applause]",
+    "start": 696
+  },
+  {
+    "content": "",
+    "start": 704
+  }
+]

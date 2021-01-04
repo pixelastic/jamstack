@@ -1,0 +1,1470 @@
+[
+  {
+    "content": "less less get Quincy up here we're so",
+    "start": 0
+  },
+  {
+    "content": "delighted that we could convince a Quincy lassen to come and speak today",
+    "start": 7
+  },
+  {
+    "content": "Quincy's been around educating people on the web for a really long time he's one",
+    "start": 12
+  },
+  {
+    "content": "of the founders of free code camp which is this resource that does incredible",
+    "start": 17
+  },
+  {
+    "content": "work teaching coding to so many many people this entire community that sprung",
+    "start": 21
+  },
+  {
+    "content": "up and it's huge and free free code camp is a great example of where the jams",
+    "start": 26
+  },
+  {
+    "content": "Tech has been applied to great effect so we wanted to try and grab some of that",
+    "start": 31
+  },
+  {
+    "content": "knowledge grab some of the stories about that from Quincy and share those with",
+    "start": 34
+  },
+  {
+    "content": "you today so I think I should get out of your way and we should we should welcome",
+    "start": 38
+  },
+  {
+    "content": "Quincy on the stage so everyone Quincy Lawson everybody thanks Phil hey",
+    "start": 44
+  },
+  {
+    "content": "everyone I'm just gonna make sure that everything works okay first of all",
+    "start": 55
+  },
+  {
+    "content": "welcome I hope you all are enjoying the jam STATCOM so far who's enjoying it",
+    "start": 63
+  },
+  {
+    "content": "raise your hand if you enjoy it yeah all right lots of hands in the air great",
+    "start": 69
+  },
+  {
+    "content": "so I'm Quincy and I'm gonna talk about how freako camp uses the jam stack to",
+    "start": 72
+  },
+  {
+    "content": "serve millions of people around the world who are learning to code first I'm",
+    "start": 79
+  },
+  {
+    "content": "gonna talk about the history of free code camp and our tooling over the years",
+    "start": 83
+  },
+  {
+    "content": "and how we gradually converged on the jam stack is the way we wanted to do",
+    "start": 88
+  },
+  {
+    "content": "things then I'm gonna talk a little bit about why we chose the jam stack and",
+    "start": 91
+  },
+  {
+    "content": "some of the new ways were applying the jam stack so first who here has heard of",
+    "start": 96
+  },
+  {
+    "content": "free code camp before okay how many people have read like a frico camp",
+    "start": 103
+  },
+  {
+    "content": "article or watched a video on our YouTube channel how many people have",
+    "start": 108
+  },
+  {
+    "content": "used the free code camp curriculum itself and the interactive coding",
+    "start": 113
+  },
+  {
+    "content": "challenges ok quite a few you great so what is free code camp all about we're",
+    "start": 117
+  },
+  {
+    "content": "all about access we want everybody in the world to be able to learn to code",
+    "start": 123
+  },
+  {
+    "content": "because we believe everyone in the world should learn to code not just the kids",
+    "start": 128
+  },
+  {
+    "content": "but the median age of people who are using",
+    "start": 133
+  },
+  {
+    "content": "freako campus 30 we want people who are anywhere in the world regardless of what",
+    "start": 135
+  },
+  {
+    "content": "kind of data plan they have what kind of access to electricity they have which is",
+    "start": 143
+  },
+  {
+    "content": "an issue in a lot of countries we want people who can learn to code on their",
+    "start": 150
+  },
+  {
+    "content": "hand-me-down phone in Mumbai or people in Auckland who can learn to code at a",
+    "start": 156
+  },
+  {
+    "content": "public library so we want everything to be browser-based",
+    "start": 162
+  },
+  {
+    "content": "we want it to be completely self-paced so that you can learn to code even if",
+    "start": 169
+  },
+  {
+    "content": "you have kids if you have a full-time job if you have a mortgage and a whole",
+    "start": 176
+  },
+  {
+    "content": "lot of other competing obligations you can still figure out a slice of time",
+    "start": 180
+  },
+  {
+    "content": "where you can learn to code so making everything browser-based self-paced and",
+    "start": 183
+  },
+  {
+    "content": "importantly completely free allows the maximum number of people to learn to",
+    "start": 189
+  },
+  {
+    "content": "code and it makes it possible for everybody to harness these mainframes",
+    "start": 195
+  },
+  {
+    "content": "that we're carrying around in our pockets and the incredibly inexpensive",
+    "start": 200
+  },
+  {
+    "content": "computational power that's all around us we want everyone to be able to do that",
+    "start": 204
+  },
+  {
+    "content": "and to be more productive as a result so I started free code camp back in 2014 I",
+    "start": 209
+  },
+  {
+    "content": "had this you know it kind of kind of pretentious I think quote but it's from",
+    "start": 215
+  },
+  {
+    "content": "lousy and I'm a huge I spent a lot of time in China and it was I just wanted",
+    "start": 221
+  },
+  {
+    "content": "to create a community where people could learn to code and I tinkered with that",
+    "start": 227
+  },
+  {
+    "content": "for years I worked as a teacher in a school director for about a decade",
+    "start": 230
+  },
+  {
+    "content": "before I eventually learned to code and the way I did it was purely driven by",
+    "start": 234
+  },
+  {
+    "content": "necessity I needed to help my my teaching staff be more productive so",
+    "start": 239
+  },
+  {
+    "content": "they could spend less time chained to their desk doing immigration paperwork",
+    "start": 243
+  },
+  {
+    "content": "and grade reports and more time actually interacting with with the learners so I",
+    "start": 247
+  },
+  {
+    "content": "just googled around and figured out how to write Excel macros I figured out how",
+    "start": 254
+  },
+  {
+    "content": "to use this tool called autohotkey to like programmatically click through",
+    "start": 260
+  },
+  {
+    "content": "government forms things like that okay I don't hockey",
+    "start": 264
+  },
+  {
+    "content": "fans great so that was my introduction to coding it and in my 30s",
+    "start": 267
+  },
+  {
+    "content": "and once I realized what an impact just a little bit of programming capability",
+    "start": 274
+  },
+  {
+    "content": "had I decided I needed to help as many people learn to code as possible not",
+    "start": 280
+  },
+  {
+    "content": "just the next generation who are getting you know millions of dollars in funding",
+    "start": 285
+  },
+  {
+    "content": "from the Bill and Melinda Gates Foundation and things like that but but",
+    "start": 290
+  },
+  {
+    "content": "working adults who are already mid-career we wanted a resource that",
+    "start": 292
+  },
+  {
+    "content": "they could use so I iterated for about two years on different adult education",
+    "start": 296
+  },
+  {
+    "content": "technology products essentially and eventually I simplified everything down",
+    "start": 303
+  },
+  {
+    "content": "in one very aggressive sprint in my closet office and I got a free coke camp",
+    "start": 309
+  },
+  {
+    "content": "live after about three days of hard work shoutout to the noun project for this",
+    "start": 316
+  },
+  {
+    "content": "landing page but I started tweeting it out people started coming people started",
+    "start": 321
+  },
+  {
+    "content": "hanging out and helping one another and initially we were just using a lot of",
+    "start": 327
+  },
+  {
+    "content": "existing resources we were using a lot of Stanford courses and mighty courses",
+    "start": 331
+  },
+  {
+    "content": "and we'd all worked through these together and we just keep each other",
+    "start": 336
+  },
+  {
+    "content": "motivated and help each other get unstuck in chat and eventually people",
+    "start": 339
+  },
+  {
+    "content": "started getting jobs and here's a snapshot from our LinkedIn Alumni",
+    "start": 345
+  },
+  {
+    "content": "Association we've got almost fifty four thousand people people working in IBM",
+    "start": 349
+  },
+  {
+    "content": "Accenture Tata Amazon Microsoft and Della Google so these people would turn",
+    "start": 354
+  },
+  {
+    "content": "around and they'd apply the skills they just learned and help improve freako",
+    "start": 362
+  },
+  {
+    "content": "camp itself so very quickly free code camp went from just being",
+    "start": 367
+  },
+  {
+    "content": "basically a list of resources to being a full-fledged interactive curriculum and",
+    "start": 372
+  },
+  {
+    "content": "we became like a legitimate fairly respectful respectable open-source",
+    "start": 378
+  },
+  {
+    "content": "project and we also had a bunch of people create freako camp study groups",
+    "start": 384
+  },
+  {
+    "content": "around the world because they wanted to be able to meet in person these were",
+    "start": 390
+  },
+  {
+    "content": "completely federated in their wasn't really any formal leadership for",
+    "start": 393
+  },
+  {
+    "content": "me because it was still just me at this point but we had people I'm just gonna",
+    "start": 398
+  },
+  {
+    "content": "click through them so you can see some of these groups cuz I mean for me it",
+    "start": 403
+  },
+  {
+    "content": "just blew my mind it still blows my mind these people are getting together often",
+    "start": 407
+  },
+  {
+    "content": "every week in their City so here's Manchester South Paulo Seoul Guangzhou",
+    "start": 411
+  },
+  {
+    "content": "Manila bueno Saturdays Vienna Ho Chi Minh City also known as Saigon Mexico",
+    "start": 422
+  },
+  {
+    "content": "City Sydney Dhaka and at this point like more and more people are using free coke",
+    "start": 434
+  },
+  {
+    "content": "camp we were getting millions of people coming to free coke camp and we became a",
+    "start": 443
+  },
+  {
+    "content": "501 C 3 non-profit which was always our goal but it takes a long time to do that",
+    "start": 449
+  },
+  {
+    "content": "in the United States so we got tax exempt status and people started",
+    "start": 453
+  },
+  {
+    "content": "donating to us and so we had resources to bring on a full-time team so I I",
+    "start": 458
+  },
+  {
+    "content": "looked out and I chose for people in the community who had been prolific",
+    "start": 462
+  },
+  {
+    "content": "contributors who were already doing all this work for free in their free time",
+    "start": 467
+  },
+  {
+    "content": "and I said come on let's just get you doing this full-time so here here the me",
+    "start": 471
+  },
+  {
+    "content": "plus these four people these are the people that run free coke games org so",
+    "start": 477
+  },
+  {
+    "content": "free coke camp at its core is really just a Content community we generate a",
+    "start": 482
+  },
+  {
+    "content": "whole lot of learning content we're not a technology company we're never going",
+    "start": 489
+  },
+  {
+    "content": "to be like riding the bleeding edge we don't want to be Facebook and have their",
+    "start": 493
+  },
+  {
+    "content": "caliber engineering team necessarily we just want stuff that works reliably that",
+    "start": 499
+  },
+  {
+    "content": "helps people learn to code for free so I'm gonna talk a little bit about the",
+    "start": 504
+  },
+  {
+    "content": "different types of content we have because that's very important to the jam",
+    "start": 509
+  },
+  {
+    "content": "stack Jam stack is in my opinion an ideal platform for delivering tons of",
+    "start": 512
+  },
+  {
+    "content": "content to tons of people so we have our open source curriculum we have which is",
+    "start": 517
+  },
+  {
+    "content": "powered by the jam stack we have the free code camp guide which I'll talk",
+    "start": 523
+  },
+  {
+    "content": "about in a minute also powered by the jam stack we have tons of videos",
+    "start": 526
+  },
+  {
+    "content": "articles podcasts and then we've got our whole portfolio and certification system",
+    "start": 530
+  },
+  {
+    "content": "so this is the curriculum it's about 1800 hours worth of coding challenges",
+    "start": 536
+  },
+  {
+    "content": "and I'll just go ahead and show you what one of them looks like if you're curious",
+    "start": 543
+  },
+  {
+    "content": "in case you haven't checked one out yet so from the landing page does it click",
+    "start": 546
+  },
+  {
+    "content": "curriculum well make it a little bit bigger you can kind of scroll through",
+    "start": 557
+  },
+  {
+    "content": "and and see we've got six different certifications we've got the the",
+    "start": 560
+  },
+  {
+    "content": "html/css certification responsive web design we have a javascript algorithms",
+    "start": 566
+  },
+  {
+    "content": "and data structures which is just JavaScript you don't have to mess with",
+    "start": 571
+  },
+  {
+    "content": "any HTML or CSS you're just writing algorithms and getting tests to pass",
+    "start": 574
+  },
+  {
+    "content": "then we have front-end libraries they covers you know react sass a couple",
+    "start": 577
+  },
+  {
+    "content": "other popular libraries data visualization a few guys and micro",
+    "start": 582
+  },
+  {
+    "content": "services and information security and quality assurance so you know we're",
+    "start": 587
+  },
+  {
+    "content": "covering all the what I view the fundamentals of web development all the",
+    "start": 591
+  },
+  {
+    "content": "way up to some basic security and testing and then we also have just",
+    "start": 596
+  },
+  {
+    "content": "thousands of hours of interview prep if anybody's going out and interviewing and",
+    "start": 601
+  },
+  {
+    "content": "they want to be able to really do well on the coding interviews like whiteboard",
+    "start": 606
+  },
+  {
+    "content": "coding interviews and stuff you can drill along here so that's the",
+    "start": 611
+  },
+  {
+    "content": "curriculum and we'll just click through into one of these challenges turn the",
+    "start": 614
+  },
+  {
+    "content": "image into a link so you can see that the interface is like super simple big",
+    "start": 620
+  },
+  {
+    "content": "text and and you know you've got the the instructions over here you've got the",
+    "start": 624
+  },
+  {
+    "content": "coding editor you've got the console for the output and then you've got a preview",
+    "start": 631
+  },
+  {
+    "content": "of what this HTML and CSS would render and if you scroll down here you can run",
+    "start": 635
+  },
+  {
+    "content": "the tests and it'll immediately tell you pretty much instantaneously and one of",
+    "start": 641
+  },
+  {
+    "content": "the reasons this is so fast is it it's all running in the client this is a",
+    "start": 648
+  },
+  {
+    "content": "static page and you can you know reset your code if you want and you can get a",
+    "start": 651
+  },
+  {
+    "content": "hint and that'll take you to the guide article you can also watch a video and",
+    "start": 657
+  },
+  {
+    "content": "pretty proud of this because we just implemented this I talk a lot about free",
+    "start": 663
+  },
+  {
+    "content": "coke camp being very data light that's very important for us we we have tons of",
+    "start": 668
+  },
+  {
+    "content": "people in Africa South Asia places that don't necessarily have the best data",
+    "start": 672
+  },
+  {
+    "content": "plans and the best telecommunication systems in the world you could",
+    "start": 679
+  },
+  {
+    "content": "definitely argue that the 20% of Americans that don't have broadband",
+    "start": 682
+  },
+  {
+    "content": "could benefit from this as well so alright so basically it's an or it's a",
+    "start": 685
+  },
+  {
+    "content": "verbal explanation and you you can see the cursor moving around and you can",
+    "start": 707
+  },
+  {
+    "content": "this can be refreshed this code can be changed if I go up here and say instead",
+    "start": 711
+  },
+  {
+    "content": "of click let's say dinglehopper here you know and then I can just resume and I",
+    "start": 720
+  },
+  {
+    "content": "can refresh this and it should automatically update so this is a cool",
+    "start": 728
+  },
+  {
+    "content": "tool called Simba and this is not something we personally built but it's",
+    "start": 732
+  },
+  {
+    "content": "it's our friends in Scandinavia who are building this project and it uses 1/100",
+    "start": 736
+  },
+  {
+    "content": "of the data that a youtube video with use 1/100 so it's two orders of",
+    "start": 741
+  },
+  {
+    "content": "magnitude smaller I think if my understanding of how my and if these",
+    "start": 747
+  },
+  {
+    "content": "work in math is right so it's really cool it just it memorizes",
+    "start": 751
+  },
+  {
+    "content": "like like it memorizes it it logs like Dom elements in their positions and",
+    "start": 756
+  },
+  {
+    "content": "stuff like that and then it just has audio track so it it renders all this in",
+    "start": 761
+  },
+  {
+    "content": "real time so this is things like this the ability to click ask for help and",
+    "start": 765
+  },
+  {
+    "content": "you go to the forum and we've got like pre-populated template of what you post",
+    "start": 770
+  },
+  {
+    "content": "in our forum so active that generally people get an answer within less than an",
+    "start": 775
+  },
+  {
+    "content": "hour even though it's a forum and the assumption is it's asynchronous so we've",
+    "start": 779
+  },
+  {
+    "content": "the coding environment completely static completely client-side you you go here",
+    "start": 784
+  },
+  {
+    "content": "and it just loads everything like the first the first time you visit it just",
+    "start": 789
+  },
+  {
+    "content": "loads everything up and then if you really drill into like some of the later",
+    "start": 793
+  },
+  {
+    "content": "challenges it may slightly sneak some additional",
+    "start": 796
+  },
+  {
+    "content": "data in there I'm not gonna open up the network and inspect it but the idea is",
+    "start": 799
+  },
+  {
+    "content": "that it's static and it immediately works and everything's amazing even if",
+    "start": 804
+  },
+  {
+    "content": "you have a horrible internet connection and there are a whole lot of other",
+    "start": 810
+  },
+  {
+    "content": "advantages which I'll talk about a minute but you've been hearing about all",
+    "start": 814
+  },
+  {
+    "content": "day so we've got the curriculum this is the core free code camps 1800 hours of",
+    "start": 816
+  },
+  {
+    "content": "coursework you can earn certifications if you complete the five required",
+    "start": 823
+  },
+  {
+    "content": "projects for each certification you can totally skip everything that's another",
+    "start": 828
+  },
+  {
+    "content": "thing we want to experience developers to be able to just parachute in and",
+    "start": 833
+  },
+  {
+    "content": "complete the required projects which all have their own test Suites and",
+    "start": 836
+  },
+  {
+    "content": "everything you can build them anywhere you can build on your local computer you",
+    "start": 840
+  },
+  {
+    "content": "can build it on code pen glitch wherever you just pull in our CDN link and you've",
+    "start": 843
+  },
+  {
+    "content": "got the tests and everything and they'll run against your code and once you get",
+    "start": 847
+  },
+  {
+    "content": "all the tests passing boom go to free code camp paste in the URL to your",
+    "start": 850
+  },
+  {
+    "content": "project and you can claim the certification put it on your LinkedIn or",
+    "start": 854
+  },
+  {
+    "content": "your CV so we've got the certifications then we've got like a portfolio",
+    "start": 858
+  },
+  {
+    "content": "essentially which is just your activity on free code camp and and we're working",
+    "start": 863
+  },
+  {
+    "content": "on a way that you can add like a timeline of everywhere you've worked and",
+    "start": 867
+  },
+  {
+    "content": "gone to school and also additional projects you've done outside of the free",
+    "start": 870
+  },
+  {
+    "content": "kokyo curriculum our hope is that people don't have to sign up for LinkedIn so",
+    "start": 873
+  },
+  {
+    "content": "then we have the free code camp guide this is something we just launched like",
+    "start": 878
+  },
+  {
+    "content": "a year ago completely static 4500 articles served through the jams tag",
+    "start": 881
+  },
+  {
+    "content": "like with Gatsby so these cover these give you good",
+    "start": 888
+  },
+  {
+    "content": "enough explanations on pretty much any programming terminology or concepts you",
+    "start": 893
+  },
+  {
+    "content": "might need you might hear about somebody talking about for example kubernetes one",
+    "start": 898
+  },
+  {
+    "content": "cubicle over you're like oh my god impostor syndrome kicks in I know",
+    "start": 903
+  },
+  {
+    "content": "nothing about kubernetes well you can go to free code camps guide and you can",
+    "start": 906
+  },
+  {
+    "content": "quickly pull up a quick and dirty explanation it's not like Wikipedia",
+    "start": 910
+  },
+  {
+    "content": "where it's like you know like an academic treatment of the topic with",
+    "start": 913
+  },
+  {
+    "content": "tons of outbound links and stuff like that no it's just a good enough quick",
+    "start": 917
+  },
+  {
+    "content": "and dirty explanation of the tool showing some implementation and all this",
+    "start": 921
+  },
+  {
+    "content": "is open source so people are constantly contributing to these and expanding them",
+    "start": 924
+  },
+  {
+    "content": "and making them better and so for example freako camp is focused we",
+    "start": 927
+  },
+  {
+    "content": "have a single monolithic curriculum that focuses on full stack JavaScript but a",
+    "start": 932
+  },
+  {
+    "content": "lot of people want a Java so we if people have come in and contributed a",
+    "start": 936
+  },
+  {
+    "content": "ton of articles and tutorials and stuff to our Java section so the the core",
+    "start": 940
+  },
+  {
+    "content": "curriculum is really the core of free kokum that's what we certify and",
+    "start": 946
+  },
+  {
+    "content": "everything but we also have a ton of video content here's our YouTube channel",
+    "start": 949
+  },
+  {
+    "content": "you can see that we just heard a great talk about graphic QL and how amazing it",
+    "start": 953
+  },
+  {
+    "content": "is we've got a seven and a half hour graph",
+    "start": 958
+  },
+  {
+    "content": "QL tutorial that we published three weeks ago if you want to watch like a",
+    "start": 961
+  },
+  {
+    "content": "video tutorial on see it implemented and you may also notice that at the top",
+    "start": 964
+  },
+  {
+    "content": "there's that code radio with code radio what is it well we have a 24/7 music",
+    "start": 968
+  },
+  {
+    "content": "stream that plays just jazzy beats and stuff that you can listen to while",
+    "start": 977
+  },
+  {
+    "content": "you're while you're coding and you can see that about 164 people are watching",
+    "start": 985
+  },
+  {
+    "content": "right now we have this cool animation loop done by this Colombian artist and",
+    "start": 989
+  },
+  {
+    "content": "that is based off saran eat of arak the founder of code newbie huge hero of mine",
+    "start": 994
+  },
+  {
+    "content": "we got our information to put her into a free code camp shirt and put her into",
+    "start": 1001
+  },
+  {
+    "content": "this animation so it's just it's just a cool thing that you can go to if you",
+    "start": 1006
+  },
+  {
+    "content": "want to listen to some music if you want to listen to something other than you",
+    "start": 1011
+  },
+  {
+    "content": "know what your normal Spotify playlist is and then",
+    "start": 1015
+  },
+  {
+    "content": "we have also got you know the YouTube channel thing about YouTube it takes",
+    "start": 1025
+  },
+  {
+    "content": "years and years of hard work to really get the YouTube channel to take off",
+    "start": 1031
+  },
+  {
+    "content": "because YouTube's algorithms are very suspicious at least in our experience so",
+    "start": 1035
+  },
+  {
+    "content": "we finally got it to take off so if you ever create like a video tutorial and",
+    "start": 1040
+  },
+  {
+    "content": "you just want a whole lot of people to see it feel free to like reach out to us",
+    "start": 1043
+  },
+  {
+    "content": "and we may be able to cross post it but you can see there's no ads on our",
+    "start": 1046
+  },
+  {
+    "content": "YouTube channel everything free code camp does is like no ads it's totally",
+    "start": 1050
+  },
+  {
+    "content": "free because we've got amazing donors who support our project then we also",
+    "start": 1055
+  },
+  {
+    "content": "have a bunch of articles this is a thirty three minute tutorial on medium",
+    "start": 1059
+  },
+  {
+    "content": "that talks about kubernetes and how to orchestrate containers this is pretty",
+    "start": 1065
+  },
+  {
+    "content": "typical of the sort of things we publish we publish a lot of in-depth articles on",
+    "start": 1069
+  },
+  {
+    "content": "different tools and technologies and text is a really good format for doing",
+    "start": 1074
+  },
+  {
+    "content": "that because you can have the commands and everything medium is a great place",
+    "start": 1078
+  },
+  {
+    "content": "to publish we are very dependent on medium I one of the things I'm going to",
+    "start": 1081
+  },
+  {
+    "content": "talk about in a minute is just not being so platform dependent on YouTube and",
+    "start": 1087
+  },
+  {
+    "content": "medium but for now you know we've got the biggest medium publication and we",
+    "start": 1092
+  },
+  {
+    "content": "are publishing thousands of articles a year on there so it's a great place if",
+    "start": 1098
+  },
+  {
+    "content": "you write like an article on your blog and you want to cross posted somewhere",
+    "start": 1102
+  },
+  {
+    "content": "where a lot of people see it we've got submissions instructions we've",
+    "start": 1106
+  },
+  {
+    "content": "got a whole team of volunteer editors so both the videos and the articles and the",
+    "start": 1109
+  },
+  {
+    "content": "podcasts are things that we'd like to move over to the jam stack and we have",
+    "start": 1116
+  },
+  {
+    "content": "some ideas for how we would do that and reduce our dependency on you know",
+    "start": 1121
+  },
+  {
+    "content": "YouTube's algorithms and mediums algorithms and so we're working on it",
+    "start": 1125
+  },
+  {
+    "content": "I'm gonna talk a little bit about our tooling over the years so we we grew",
+    "start": 1132
+  },
+  {
+    "content": "very quickly and it was very painful largely because I learned to code in my",
+    "start": 1138
+  },
+  {
+    "content": "30s and I have no formal computer science background I always making",
+    "start": 1144
+  },
+  {
+    "content": "decisions pretty ad-hoc like over here somebody at a hackerspace or meetup oh",
+    "start": 1148
+  },
+  {
+    "content": "why don't you try this okay let's try that and you know you're doing it",
+    "start": 1154
+  },
+  {
+    "content": "production with tons of people using the app and nasty stuff can happen so",
+    "start": 1158
+  },
+  {
+    "content": "version 1 I just put it up on Heroku and I used em lab to host the database and I",
+    "start": 1163
+  },
+  {
+    "content": "use my friend saw hot he had this boilerplate that already had passport",
+    "start": 1169
+  },
+  {
+    "content": "and a lot of the basic user interactions like resetting you know everything so we",
+    "start": 1172
+  },
+  {
+    "content": "use that and we were essentially dynamically rendering static content",
+    "start": 1177
+  },
+  {
+    "content": "because these were just quick articles that explain like go here and do this",
+    "start": 1183
+  },
+  {
+    "content": "and that so I think a lot of people think that they need a web server to run",
+    "start": 1187
+  },
+  {
+    "content": "apps that are largely just content apps just because they need like sessions and",
+    "start": 1192
+  },
+  {
+    "content": "stuff like that I certainly felt that we needed that at the time and like our",
+    "start": 1197
+  },
+  {
+    "content": "Heroku app would like crash and I didn't even know about p.m. to or forever or",
+    "start": 1202
+  },
+  {
+    "content": "any of these libraries and I just be running for meeting the meeting through",
+    "start": 1208
+  },
+  {
+    "content": "San Francisco streets and like I get a text hey free coking its down I'd like",
+    "start": 1211
+  },
+  {
+    "content": "navigate to Heroku and I'd like restart the dyno I did that for like two or",
+    "start": 1215
+  },
+  {
+    "content": "three days before somebody's like why don't you try this this thing that",
+    "start": 1220
+  },
+  {
+    "content": "recovers if you have crashes ah so a lot of downtime version two I thought I was",
+    "start": 1223
+  },
+  {
+    "content": "so smart has anybody heard of second system syndrome okay or also known as",
+    "start": 1230
+  },
+  {
+    "content": "the version to suck in some circles basically you think all those things I",
+    "start": 1236
+  },
+  {
+    "content": "did wrong I'm gonna do I'm gonna fix all of them and what happens you just do it",
+    "start": 1242
+  },
+  {
+    "content": "all over again but you do it usually in a much more costly way so we were like",
+    "start": 1247
+  },
+  {
+    "content": "hey let's just do our own node servers let's do our own MongoDB cluster let's",
+    "start": 1252
+  },
+  {
+    "content": "do our own elasticsearch we thought we're smart we can figure it out and of",
+    "start": 1256
+  },
+  {
+    "content": "course it was expensive as heck things were constantly crashing and I was up",
+    "start": 1261
+  },
+  {
+    "content": "til 3 a.m. looking up Linux commands as a result of",
+    "start": 1266
+  },
+  {
+    "content": "my foolishness so finally Jam stack that is where we",
+    "start": 1270
+  },
+  {
+    "content": "arrived and I'm so grateful to be on the jam stack we now have a single node loop",
+    "start": 1276
+  },
+  {
+    "content": "back web server is basically just our API server and M lab has been kind",
+    "start": 1282
+  },
+  {
+    "content": "enough to give us as an in-kind own like a cluster that we can use our",
+    "start": 1288
+  },
+  {
+    "content": "goalie has given us search and we just use searches way easier to configure",
+    "start": 1293
+  },
+  {
+    "content": "algo Leah and have it reliably work than to deal with the elastic search and then",
+    "start": 1297
+  },
+  {
+    "content": "we're using auth0 for all our authentication and 6,000 plus static",
+    "start": 1301
+  },
+  {
+    "content": "pages serve through net low five CDN so here's how it all works I'll just try to",
+    "start": 1307
+  },
+  {
+    "content": "describe it to the best of my ability so we push code to github and then that",
+    "start": 1310
+  },
+  {
+    "content": "code gets built using Gatsby which is a static site generator Gatsby build it",
+    "start": 1316
+  },
+  {
+    "content": "into a react app then natla Phi serves that react at the end user opens the",
+    "start": 1323
+  },
+  {
+    "content": "browser they open free coke camped out org that static react app that they",
+    "start": 1329
+  },
+  {
+    "content": "pulled from now Fi shows up and then their browser goes ahead and reaches out",
+    "start": 1335
+  },
+  {
+    "content": "to auto and these other API endpoints and figures out off of zero will figure",
+    "start": 1340
+  },
+  {
+    "content": "out if they are if they're authenticated and then it'll give them access to our",
+    "start": 1347
+  },
+  {
+    "content": "API of read and write access so then when they complete challenges and things",
+    "start": 1352
+  },
+  {
+    "content": "like that so data starts getting written through our API to our [ __ ] cluster so",
+    "start": 1356
+  },
+  {
+    "content": "we use the jams tag for a number of reasons first natla Phi's CDN is really",
+    "start": 1363
+  },
+  {
+    "content": "fast and it covers the entire world it even covers you know like they've got a",
+    "start": 1369
+  },
+  {
+    "content": "very specific place for Pakistan and the reason I know that is because we had a",
+    "start": 1374
+  },
+  {
+    "content": "short-term outage no no false of nullifies but basically that was when I",
+    "start": 1380
+  },
+  {
+    "content": "realized like wow how high-resolution their CDN is because it was just a very",
+    "start": 1385
+  },
+  {
+    "content": "few people who were using a very specific mobile carrier that were",
+    "start": 1390
+  },
+  {
+    "content": "affected but those people kept messaging me like crazy and so the the fact that",
+    "start": 1394
+  },
+  {
+    "content": "it's globally distributed he's great and also by choosing this Jam stack",
+    "start": 1401
+  },
+  {
+    "content": "architecture there's very little latency because you know almost all of the",
+    "start": 1406
+  },
+  {
+    "content": "requests are done in the background they get this nice static page all the",
+    "start": 1411
+  },
+  {
+    "content": "contents already there and then just some features are basically unlocked",
+    "start": 1414
+  },
+  {
+    "content": "through time as their browser has time to complete these requests so the fact",
+    "start": 1419
+  },
+  {
+    "content": "that our web servers in Virginia isn't that consequential if they're in",
+    "start": 1422
+  },
+  {
+    "content": "Pakistan okay so the second reason is scaling how many people have ever built",
+    "start": 1426
+  },
+  {
+    "content": "like a web app and then gotten the reddit death hug or producthunt",
+    "start": 1434
+  },
+  {
+    "content": "death hug or hacker news death hug okay so it's it's not pleasant because people",
+    "start": 1440
+  },
+  {
+    "content": "are like oh I can't wait to check out this amazing app that's at the top of",
+    "start": 1446
+  },
+  {
+    "content": "hacker news oh it doesn't work noobs that's what they think right and you're",
+    "start": 1449
+  },
+  {
+    "content": "just sitting there like no everybody's getting like 500 errors and refreshing",
+    "start": 1455
+  },
+  {
+    "content": "repeatedly what just makes things worse so yeah that's one of the reasons why",
+    "start": 1459
+  },
+  {
+    "content": "using jam stacks great because you're relying on other people's really good",
+    "start": 1463
+  },
+  {
+    "content": "infrastructure and you know we offload all the rendering to the clients so we",
+    "start": 1468
+  },
+  {
+    "content": "can have basically nothing in terms of infrastructure another thing that is",
+    "start": 1474
+  },
+  {
+    "content": "really important is simplicity it's so much simpler when you just load the",
+    "start": 1479
+  },
+  {
+    "content": "static pages and you're basically done and their client starts doing everything",
+    "start": 1485
+  },
+  {
+    "content": "else and you know we can use github as a collaboration tool for the content and",
+    "start": 1488
+  },
+  {
+    "content": "just have all the static files on github in markdown I'm just gonna show you what",
+    "start": 1494
+  },
+  {
+    "content": "this looks like so this is our github repository you'll note that there are a",
+    "start": 1497
+  },
+  {
+    "content": "lot of open pull requests apparently after you get 5,000 open pull requests",
+    "start": 1506
+  },
+  {
+    "content": "github just says plus and the reason for that is because we're participating in",
+    "start": 1511
+  },
+  {
+    "content": "October fest again I got my shirt who here's doing Hacksaw professor raise",
+    "start": 1519
+  },
+  {
+    "content": "your hand okay you still have like two days to get five pull requests into free",
+    "start": 1524
+  },
+  {
+    "content": "code camp or any repository that and you just have to make the request you don't",
+    "start": 1528
+  },
+  {
+    "content": "have to have the pull request q8 and merged which otherwise everybody be",
+    "start": 1533
+  },
+  {
+    "content": "screwed because there's no way we're gonna QA 11,000 pull requests by",
+    "start": 1537
+  },
+  {
+    "content": "tomorrow but the way that we're handling this and the reason why so many people",
+    "start": 1541
+  },
+  {
+    "content": "are able to productively contribute to free code camp is we've dramatically",
+    "start": 1549
+  },
+  {
+    "content": "lowered the barriers to entry so for example we",
+    "start": 1553
+  },
+  {
+    "content": "we'll just come here and we'll look at you know the guide and it's just right",
+    "start": 1558
+  },
+  {
+    "content": "here it's like really easy to traverse these directories and know where you",
+    "start": 1562
+  },
+  {
+    "content": "need to go and you can go to let's let's do the Chinese and then we'll just do",
+    "start": 1564
+  },
+  {
+    "content": "agile and then we'll do acceptance testing and we'll look at the file and",
+    "start": 1569
+  },
+  {
+    "content": "here it is this this article on acceptance testing translated into",
+    "start": 1575
+  },
+  {
+    "content": "simplified Chinese so anybody who wants to edit this if they're like oh man he",
+    "start": 1579
+  },
+  {
+    "content": "used this weird word that I would never use I'm just gonna go in here and make",
+    "start": 1584
+  },
+  {
+    "content": "it clear they just click Edit this file and boom they're editing in the markdown",
+    "start": 1589
+  },
+  {
+    "content": "they can preview the changes and then they can go ahead and commit and open up",
+    "start": 1592
+  },
+  {
+    "content": "or request right through github x' interface without even needing to clone",
+    "start": 1598
+  },
+  {
+    "content": "the repo and get it all running locally and everything it just dramatically",
+    "start": 1603
+  },
+  {
+    "content": "reduces the barriers so that's really important for us because we'd like for",
+    "start": 1608
+  },
+  {
+    "content": "free code camp to grow to be as big as Wikipedia at least the technology",
+    "start": 1612
+  },
+  {
+    "content": "related aspects of Wikipedia and the only way we're gonna get there we're not",
+    "start": 1616
+  },
+  {
+    "content": "gonna get there with a five person team we're gonna get there with tens of",
+    "start": 1620
+  },
+  {
+    "content": "thousands of contributors so that that's really like a big thing that we're",
+    "start": 1625
+  },
+  {
+    "content": "working on is just increasing the accessibility of coding and contributing",
+    "start": 1632
+  },
+  {
+    "content": "to open source itself and hex our first great opportunity to do that and have",
+    "start": 1636
+  },
+  {
+    "content": "somebody else pay to ship all the t-shirts so reason number four security",
+    "start": 1640
+  },
+  {
+    "content": "when your app is super simple it just means there are fewer things that can go",
+    "start": 1647
+  },
+  {
+    "content": "wrong fewer things to keep track of your attack surfaces we have a single API",
+    "start": 1650
+  },
+  {
+    "content": "that we need to safeguard its I don't lose sleep over security like I used to",
+    "start": 1654
+  },
+  {
+    "content": "when we had all our own infrastructure so some ways we're going to use the jam",
+    "start": 1659
+  },
+  {
+    "content": "stack we're going to finish the internationalization process if you know",
+    "start": 1665
+  },
+  {
+    "content": "we've already translated into Arabic Chinese Russian Portuguese Spanish those",
+    "start": 1671
+  },
+  {
+    "content": "languages plus English that's like three-quarters of the Earth's population",
+    "start": 1677
+  },
+  {
+    "content": "can now learn on free code camp in their native language that really reduces the",
+    "start": 1681
+  },
+  {
+    "content": "barriers and increases the access we're also trying to",
+    "start": 1686
+  },
+  {
+    "content": "reduce our dependence on on platforms like YouTube and medium by having our",
+    "start": 1691
+  },
+  {
+    "content": "own free coke amp news and I've been publishing on free coke amp news myself",
+    "start": 1698
+  },
+  {
+    "content": "for a while but we're gonna open it up to where anybody in the community can",
+    "start": 1701
+  },
+  {
+    "content": "cross post from their blogs places like that and then our editor team can go in",
+    "start": 1705
+  },
+  {
+    "content": "and say hey this is a really great article or this is a really great",
+    "start": 1710
+  },
+  {
+    "content": "podcast episode whatever the content happens to be that they post it and they",
+    "start": 1713
+  },
+  {
+    "content": "can basically bump that up to the top so everybody on free coke camp that org can",
+    "start": 1716
+  },
+  {
+    "content": "see that and be like oh let's check this out so it's kind of like an editorial",
+    "start": 1721
+  },
+  {
+    "content": "like human curated newsfeed and then really like jam stack set you up pretty",
+    "start": 1725
+  },
+  {
+    "content": "nicely for doing an offline app because you know static files you can",
+    "start": 1732
+  },
+  {
+    "content": "potentially load those onto a Raspberry Pi you can load a lot of the",
+    "start": 1738
+  },
+  {
+    "content": "functionality and our dream is to get free code camp and a whole lot of other",
+    "start": 1742
+  },
+  {
+    "content": "creative commons content and open source content put it on a raspberry pi's and",
+    "start": 1747
+  },
+  {
+    "content": "just ship it to schools in the developing world so that people who",
+    "start": 1751
+  },
+  {
+    "content": "don't necessarily have access to you know stable electricity they have",
+    "start": 1755
+  },
+  {
+    "content": "periodic outages throughout the day can just load it up we also have people and",
+    "start": 1758
+  },
+  {
+    "content": "you know people who can't get internet access we have a number of Prisons in",
+    "start": 1763
+  },
+  {
+    "content": "the United States that use free code camp is there curricula and so inmates",
+    "start": 1768
+  },
+  {
+    "content": "learn free code camp they don't have the right to get on the internet but they",
+    "start": 1773
+  },
+  {
+    "content": "can still learn to code using free code camp so right now they're doing that on",
+    "start": 1776
+  },
+  {
+    "content": "a local area network if we get these on raspberry PI's it'll be way easier for",
+    "start": 1780
+  },
+  {
+    "content": "those people to learn skills so when they get out they'll be able to have a",
+    "start": 1785
+  },
+  {
+    "content": "productive career and have marketable skills so there are a number of things",
+    "start": 1788
+  },
+  {
+    "content": "that we're doing that are related to the jam stack we're super jazzed about the",
+    "start": 1792
+  },
+  {
+    "content": "jam stack as I could tell pretty much everybody here is certainly all the",
+    "start": 1797
+  },
+  {
+    "content": "people up on stage so I would definitely encourage you all if you're interested",
+    "start": 1801
+  },
+  {
+    "content": "in participating in the October fest you still have a couple days left if you",
+    "start": 1805
+  },
+  {
+    "content": "have questions about how you can contribute your skills and your talents",
+    "start": 1808
+  },
+  {
+    "content": "to the free code camp community and help millions of people around the world",
+    "start": 1812
+  },
+  {
+    "content": "learn to code just DM me on Twitter I've got open VMs and enjoy jam stack Oh",
+    "start": 1815
+  },
+  {
+    "content": "[Applause]",
+    "start": 1821
+  },
+  {
+    "content": "[Applause]",
+    "start": 1836
+  }
+]

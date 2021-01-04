@@ -1,0 +1,1654 @@
+[
+  {
+    "content": "so we know starts today with Matt so",
+    "start": 0
+  },
+  {
+    "content": "Matt Matt Billman is CEO and the co-founders I first encountered Matt's",
+    "start": 6
+  },
+  {
+    "content": "quite a few years ago after I spoke at a conference and I was really enthusiast",
+    "start": 13
+  },
+  {
+    "content": "at excite generation and what I was calling the short stack at the time and",
+    "start": 19
+  },
+  {
+    "content": "Matt really was pushing the envelope with what the tooling and the hosting",
+    "start": 23
+  },
+  {
+    "content": "environments could could be and what they could enable so I was named",
+    "start": 29
+  },
+  {
+    "content": "checking some of the work that Matt had done there and after meeting mass and",
+    "start": 33
+  },
+  {
+    "content": "getting to know some of the work these done I've seen this kind of pushing of",
+    "start": 38
+  },
+  {
+    "content": "what hosting environments can be and what workflows can be for web developers",
+    "start": 42
+  },
+  {
+    "content": "and in the end I was so convinced that I I joined the company so I have to not",
+    "start": 46
+  },
+  {
+    "content": "mess up his intro so so Matt's gonna do a talk today like digging into this",
+    "start": 51
+  },
+  {
+    "content": "deeper he's gonna be our keynote speaker please make him very very welcome it's",
+    "start": 57
+  },
+  {
+    "content": "Matt billon a I'm okay without the planer",
+    "start": 61
+  },
+  {
+    "content": "thanks so much fill in I'm incredibly happy to to be here and it's a very",
+    "start": 82
+  },
+  {
+    "content": "special moment to see this this whole room full of people from from the whole",
+    "start": 89
+  },
+  {
+    "content": "ecosystem around the the gems tech approach from big agencies small",
+    "start": 94
+  },
+  {
+    "content": "agencies from startups from large enterprises a get together here today to",
+    "start": 100
+  },
+  {
+    "content": "talk about this approach to to to building for the weapon in in a better",
+    "start": 106
+  },
+  {
+    "content": "way in s as Phil mentioned I'm the CEO and co-founder of Natalja Phi a we're",
+    "start": 112
+  },
+  {
+    "content": "we've kind of been the first one to really try to build a coherent",
+    "start": 121
+  },
+  {
+    "content": "deployment and automation and workflow platform around this gem stack",
+    "start": 125
+  },
+  {
+    "content": "architecture and today it's Lena Levi is a serious be funded company we've raised",
+    "start": 129
+  },
+  {
+    "content": "more than 44 million dollars we unboard hundreds of thousands of developers we",
+    "start": 137
+  },
+  {
+    "content": "power a large swath of today's open source projects project like reactive",
+    "start": 143
+  },
+  {
+    "content": "you amber gets the hukou kubernetes lo des and so on we we run the websites for",
+    "start": 148
+  },
+  {
+    "content": "startups as well as for as some of the core web properties for multi-billion",
+    "start": 155
+  },
+  {
+    "content": "dollar businesses ranging from from everything from startups to established",
+    "start": 160
+  },
+  {
+    "content": "enterprises and it's been just an incredibly humbling experience to see",
+    "start": 164
+  },
+  {
+    "content": "this thing that that that me and Chris my co-founder started back in the day it",
+    "start": 170
+  },
+  {
+    "content": "grow in this way and create real value for people but also to see this this gem",
+    "start": 175
+  },
+  {
+    "content": "stack ecosystem really being something that that maybe in the beginning seemed",
+    "start": 181
+  },
+  {
+    "content": "like like a bit of a fringe or what's going on here - really - really becoming",
+    "start": 185
+  },
+  {
+    "content": "something where we're all of us a karakia today at a at the first major",
+    "start": 190
+  },
+  {
+    "content": "gem stack conference in to talk about how how we can build a",
+    "start": 195
+  },
+  {
+    "content": "better architecture for the web him but obviously all of this started with with",
+    "start": 200
+  },
+  {
+    "content": "much more humble beginnings this is an early full of me and Chris",
+    "start": 207
+  },
+  {
+    "content": "when we are figuring out what this whole thing would would be in so my background",
+    "start": 212
+  },
+  {
+    "content": "before studying all of this was was a CTO of a company that that built",
+    "start": 221
+  },
+  {
+    "content": "websites for small to medium businesses a very very large scale so we were built",
+    "start": 227
+  },
+  {
+    "content": "a hundred websites a day tens of thousands of websites in total and based",
+    "start": 231
+  },
+  {
+    "content": "on that experience I started there CMS companies sort of thing okay let's let's",
+    "start": 237
+  },
+  {
+    "content": "take the experience of building this kind of platform and making a SAS tool",
+    "start": 241
+  },
+  {
+    "content": "that other agencies other professionals can use to get some of the same",
+    "start": 244
+  },
+  {
+    "content": "efficiencies him and came to the Bay Area with that started starting working",
+    "start": 248
+  },
+  {
+    "content": "on it but then really started seeing the the architecture of the web",
+    "start": 254
+  },
+  {
+    "content": "fundamentally starting to to change and evolve in a way where I started feeling",
+    "start": 257
+  },
+  {
+    "content": "hey this this this traditional monolithic CMS application I'm building",
+    "start": 263
+  },
+  {
+    "content": "even if I even if I'm sort of happy with with the way I'm building it it seems",
+    "start": 269
+  },
+  {
+    "content": "like it's built for and an architecture of the web that's not gonna be a third",
+    "start": 272
+  },
+  {
+    "content": "that that's gonna be irrelevant in in five to ten years him so I started",
+    "start": 278
+  },
+  {
+    "content": "thinking a lot about like what what would a longer-term relevant experienced",
+    "start": 284
+  },
+  {
+    "content": "look like and and what would a flow looked like at the same time why I",
+    "start": 290
+  },
+  {
+    "content": "started prototyping some of this and reached out to to to Chris my co-founder",
+    "start": 295
+  },
+  {
+    "content": "and and best friends from my times back in Denmark we haven't served known each",
+    "start": 300
+  },
+  {
+    "content": "other for more than twenty years and we started talking and and he had taken a",
+    "start": 304
+  },
+  {
+    "content": "very different path of building a production company building these micro",
+    "start": 308
+  },
+  {
+    "content": "sites and experience sites often with interactive video and so on where I was",
+    "start": 315
+  },
+  {
+    "content": "building since a thousands of sites for small to medium businesses use typically",
+    "start": 319
+  },
+  {
+    "content": "building very a small amount of very expensive sites for very large",
+    "start": 324
+  },
+  {
+    "content": "businesses and brands in sold his company and and and became a",
+    "start": 328
+  },
+  {
+    "content": "chief technical officer of a fan of a full-service ad company really running",
+    "start": 334
+  },
+  {
+    "content": "their whole digital strategy and and in in working with with the Walmarts of",
+    "start": 341
+  },
+  {
+    "content": "Scandinavia to figure out how their online campaigns should look like and so",
+    "start": 348
+  },
+  {
+    "content": "on and I reached out and we started talking just about this architecture for",
+    "start": 351
+  },
+  {
+    "content": "the web and all the existing problems that I think anyone that's built",
+    "start": 358
+  },
+  {
+    "content": "large-scale projects a small scale project so any kind of projects for the",
+    "start": 362
+  },
+  {
+    "content": "web with with a traditional stack of monolithic applications whether it's",
+    "start": 365
+  },
+  {
+    "content": "like tools like WordPress or rails or group I'll in have experienced around",
+    "start": 369
+  },
+  {
+    "content": "like security issues with with random bot scripts overriding sites whether",
+    "start": 374
+  },
+  {
+    "content": "it's scaling issues with figuring out how you how you keep a marketing site",
+    "start": 381
+  },
+  {
+    "content": "running when the when when the CMO decides that they have to spend the",
+    "start": 387
+  },
+  {
+    "content": "remaining part of the budget at end of the year and suddenly send a huge",
+    "start": 391
+  },
+  {
+    "content": "campaign to the side or whether it's performance considerations especially in",
+    "start": 394
+  },
+  {
+    "content": "the age of mobile where everybody is getting more and more impatient or well",
+    "start": 399
+  },
+  {
+    "content": "it's the the whole developer experience of having to deal with with all this",
+    "start": 405
+  },
+  {
+    "content": "complex tooling that that that fell also just showed that rough goes into every",
+    "start": 410
+  },
+  {
+    "content": "single web request of a traditional application in so I started to thinking",
+    "start": 415
+  },
+  {
+    "content": "about this evolution of the web where we originally came from like an old pre-web",
+    "start": 422
+  },
+  {
+    "content": "UNIX model of a client-server is set up where you would have a client talking to",
+    "start": 428
+  },
+  {
+    "content": "a server opening a connection and sent data back and then we went from then",
+    "start": 434
+  },
+  {
+    "content": "built this whole legacy web stack that's powered like that that was a big",
+    "start": 438
+  },
+  {
+    "content": "revolution at the time and and and powered like the web 2.0 such as",
+    "start": 442
+  },
+  {
+    "content": "internet everything but that was also a very deep and quite complex stack where",
+    "start": 447
+  },
+  {
+    "content": "every request from a browser would go to a web server that would talk to an",
+    "start": 451
+  },
+  {
+    "content": "application server talk to a database take that data put it into template send",
+    "start": 455
+  },
+  {
+    "content": "it back to the web server and send it back to the browser",
+    "start": 460
+  },
+  {
+    "content": "and now what we're seeing with this new stack is really this movement to a",
+    "start": 464
+  },
+  {
+    "content": "client that that loads directly out of content delivery network and then no",
+    "start": 470
+  },
+  {
+    "content": "longer talks to one serve up to all these different services and we started",
+    "start": 475
+  },
+  {
+    "content": "seeing that that that approach to building websites also kind of mimicked",
+    "start": 480
+  },
+  {
+    "content": "the the approach we saw from mobile applications where when the opportunity",
+    "start": 486
+  },
+  {
+    "content": "sort of came through to reinvent a lot of the stack and say how should we build",
+    "start": 493
+  },
+  {
+    "content": "good developer tools with a with the rise of especially the iPhone right the",
+    "start": 497
+  },
+  {
+    "content": "the initial idea was actually let's just do Web Apps right like this is famous",
+    "start": 503
+  },
+  {
+    "content": "letter from Steve Jobs calling out a Toby's flash product and and essentially",
+    "start": 508
+  },
+  {
+    "content": "killing flash with one letter in and in that letter he really mentions that that",
+    "start": 514
+  },
+  {
+    "content": "the approach going forward should really just be open standards and web",
+    "start": 519
+  },
+  {
+    "content": "applications but then it turned out that that the way this whole legacy way of",
+    "start": 522
+  },
+  {
+    "content": "building like these request cycles it just didn't it just didn't match",
+    "start": 528
+  },
+  {
+    "content": "something that that worked for for a new generation of mobile applications and",
+    "start": 533
+  },
+  {
+    "content": "that gave the kind of user experience and performance that that you expected",
+    "start": 538
+  },
+  {
+    "content": "there so that we ended up with app stores and and proprietary gated a pepp",
+    "start": 543
+  },
+  {
+    "content": "publishing services but we also ended up with in with an architecture that we're",
+    "start": 550
+  },
+  {
+    "content": "now seeing being applied to the web but but what's really this like you download",
+    "start": 555
+  },
+  {
+    "content": "an app on the phone right like no one thought about like when we come up with",
+    "start": 560
+  },
+  {
+    "content": "this new way of building applications we should have the phone work in a way",
+    "start": 564
+  },
+  {
+    "content": "where every time the user does an interaction we download a new version of",
+    "start": 568
+  },
+  {
+    "content": "the app and show a new UI right that's essentially what we've been doing for",
+    "start": 572
+  },
+  {
+    "content": "the web for a very long time right when when when there was a chance of",
+    "start": 576
+  },
+  {
+    "content": "reinventing it I don't think anyone thought that's the way to do it right",
+    "start": 579
+  },
+  {
+    "content": "instead you really thought okay you download an app to the phone you have",
+    "start": 582
+  },
+  {
+    "content": "the whole UI working from there and then you call out to specific micro services",
+    "start": 586
+  },
+  {
+    "content": "and we started seeing a lot of like API is rising around that to make things",
+    "start": 590
+  },
+  {
+    "content": "like push notifications see easier to make things like payment",
+    "start": 595
+  },
+  {
+    "content": "is here and so on started seeing this the secret system grow up and then we",
+    "start": 599
+  },
+  {
+    "content": "started seeing their like all of us that worked for the web saying hey that's",
+    "start": 604
+  },
+  {
+    "content": "actually not a as such it's not a bad idea for an architecture right and we",
+    "start": 609
+  },
+  {
+    "content": "started having this this concept of a front-end application that's delivered",
+    "start": 614
+  },
+  {
+    "content": "straight from some form of globally distributed delivery network we started",
+    "start": 618
+  },
+  {
+    "content": "seeing the rise of all these built tools that essentially bundle our our code",
+    "start": 623
+  },
+  {
+    "content": "into an application whether that application is a large statically",
+    "start": 629
+  },
+  {
+    "content": "generated website or whether it's a single page app the principle is sort of",
+    "start": 632
+  },
+  {
+    "content": "the same that we take this with bundle it with distributed directly on your",
+    "start": 637
+  },
+  {
+    "content": "network and then from that network we talk to all these different services so",
+    "start": 640
+  },
+  {
+    "content": "what that also means is that when we had the large monolithic applications each",
+    "start": 645
+  },
+  {
+    "content": "of those had their own ecosystem inside right so WordPress had its plug-in",
+    "start": 651
+  },
+  {
+    "content": "ecosystem Ruby and rails had its rubygems right through Bell hats it had",
+    "start": 655
+  },
+  {
+    "content": "its own a plug-in system and so on him and instead we're now seeing like a lot",
+    "start": 660
+  },
+  {
+    "content": "of these things that used to be plugins inside one monolithic application go out",
+    "start": 666
+  },
+  {
+    "content": "and and become services that that have a life on their own services like Elko",
+    "start": 670
+  },
+  {
+    "content": "Leah for search or stripe for payments of syrup on tenth occasion or contentful",
+    "start": 675
+  },
+  {
+    "content": "for content management in that would be before be part of like one very tightly",
+    "start": 680
+  },
+  {
+    "content": "coupled ecosystem and that that has that has big benefits in terms of being able",
+    "start": 686
+  },
+  {
+    "content": "to reuse these many services it also means that that that that we do start",
+    "start": 692
+  },
+  {
+    "content": "seeing like an overhead and like how do we coordinate it all how do we plug them",
+    "start": 696
+  },
+  {
+    "content": "together how do we get to the same kind of experience that you would get from",
+    "start": 700
+  },
+  {
+    "content": "from a more monolithic application where in WordPress you could go to an admin UI",
+    "start": 704
+  },
+  {
+    "content": "and enable a plug-in and suddenly you had a new functionality so one of the",
+    "start": 709
+  },
+  {
+    "content": "things we're starting to see from an architecture perspective now is really",
+    "start": 714
+  },
+  {
+    "content": "how how we go from this like front-end app just directly having to deal with",
+    "start": 718
+  },
+  {
+    "content": "all the different services and all the different environments and to",
+    "start": 723
+  },
+  {
+    "content": "introducing this this idea of an application delivering the",
+    "start": 727
+  },
+  {
+    "content": "work that also sort of has the the gateway layer that can help coordinate",
+    "start": 730
+  },
+  {
+    "content": "the communication and and and bundle services together in in staging our",
+    "start": 734
+  },
+  {
+    "content": "development and production environments and and manage the the provisioning and",
+    "start": 739
+  },
+  {
+    "content": "so on in so Chris and I were sort of early on talking from our experience in",
+    "start": 743
+  },
+  {
+    "content": "seeing the stack emerging and seeing this architecture being possible but we",
+    "start": 749
+  },
+  {
+    "content": "were also seeing like that when Chris who at the time was was was was heading",
+    "start": 754
+  },
+  {
+    "content": "up and and an agency then doing all these projects for really large clients",
+    "start": 759
+  },
+  {
+    "content": "and so on when he was looking into how are we going to actually use this in",
+    "start": 763
+  },
+  {
+    "content": "practice how are we going to actually like take this to clients and hand it",
+    "start": 768
+  },
+  {
+    "content": "over then some of these nice architectural ideas got lost right",
+    "start": 772
+  },
+  {
+    "content": "because it became like a competent process of every project setting up like",
+    "start": 777
+  },
+  {
+    "content": "some form of delivery network a continuous deployment flow that you",
+    "start": 781
+  },
+  {
+    "content": "suddenly needed considering things like instant cash and validation and the",
+    "start": 785
+  },
+  {
+    "content": "staging environments for the cen and you started having to consider pre-rendering",
+    "start": 789
+  },
+  {
+    "content": "for some applications you started to having to figure out okay so what how am",
+    "start": 796
+  },
+  {
+    "content": "I going to plug in my content management system to this piece and in the end it",
+    "start": 800
+  },
+  {
+    "content": "often became a question of handing over like this this bundle of different",
+    "start": 804
+  },
+  {
+    "content": "services with no coherent integration points and maybe some of them were not",
+    "start": 809
+  },
+  {
+    "content": "actually maintained by companies and so on and and and that made it hard to that",
+    "start": 813
+  },
+  {
+    "content": "that made it a hot sell compared to it and a well-established monolithic",
+    "start": 819
+  },
+  {
+    "content": "architecture so our idea for for natal if I really came in in seeing how how",
+    "start": 823
+  },
+  {
+    "content": "can we sort of draw a circle around all of these things and see what what's the",
+    "start": 830
+  },
+  {
+    "content": "coherent platform we need to build to really make this architecture viable him",
+    "start": 836
+  },
+  {
+    "content": "how can we take this architecture where everything flows from a built tool onto",
+    "start": 841
+  },
+  {
+    "content": "a CDN a that a browser can talk to and how can we help coordinate this all",
+    "start": 845
+  },
+  {
+    "content": "these different micro services and how can we tie it into the way that every",
+    "start": 851
+  },
+  {
+    "content": "developer today really just works with with git and with pull request emerge",
+    "start": 857
+  },
+  {
+    "content": "requests whatever the different get writers calls them as the call workflow",
+    "start": 862
+  },
+  {
+    "content": "and collaboration flow in that that we are all using and that and that became",
+    "start": 867
+  },
+  {
+    "content": "there is the initial idea for for net Levi and they were this was before we",
+    "start": 873
+  },
+  {
+    "content": "really had a name for this category for this architecture right like everybody",
+    "start": 877
+  },
+  {
+    "content": "was talking about it in different ways but we just saw that there was a need in",
+    "start": 881
+  },
+  {
+    "content": "the beginning for for some coherent platform around it to make it viable to",
+    "start": 885
+  },
+  {
+    "content": "work with so aim we started notified Chris somehow took the decision to quit",
+    "start": 888
+  },
+  {
+    "content": "his well-paying job and moved to the most expensive area in the world join me",
+    "start": 896
+  },
+  {
+    "content": "over here is starting to bootstrap a company after a bunch of work we",
+    "start": 900
+  },
+  {
+    "content": "launched the the first version in in March 2015 a honest Joe hacker news from",
+    "start": 905
+  },
+  {
+    "content": "this old office where the two of us were hanging out and probably maybe not",
+    "start": 912
+  },
+  {
+    "content": "completely entitled to but still renting out some extra disk space in the room",
+    "start": 919
+  },
+  {
+    "content": "just to to to cover the initial rent expenses and so on",
+    "start": 924
+  },
+  {
+    "content": "we launched this and and and quickly got a great feedback and and and found that",
+    "start": 930
+  },
+  {
+    "content": "that people also found that this was something they they needed him to to to",
+    "start": 936
+  },
+  {
+    "content": "strengthen those workflows right and we started to talk to a lot of the people",
+    "start": 942
+  },
+  {
+    "content": "the early adopters the the pioneers of buildings that excite generators a",
+    "start": 946
+  },
+  {
+    "content": "framework so a third-party like first patty parts of the ecosystem like the",
+    "start": 950
+  },
+  {
+    "content": "headless CMS's and so on and at the time we all ran into the",
+    "start": 956
+  },
+  {
+    "content": "truth to the problem that there were all these different like terms around it",
+    "start": 960
+  },
+  {
+    "content": "from headless over the idea of static sites to serve a list to decoupled or",
+    "start": 965
+  },
+  {
+    "content": "shortstack or to get operations and build tools and single page applications",
+    "start": 973
+  },
+  {
+    "content": "and progressive web apps and so on him and and there wasn't really a and a name",
+    "start": 979
+  },
+  {
+    "content": "for the architecture itself or the way to building so we ran into again and",
+    "start": 985
+  },
+  {
+    "content": "again talking talking to clients and then going through a very long process",
+    "start": 990
+  },
+  {
+    "content": "of describing what they were doing and we're like yeah that's the same list as",
+    "start": 993
+  },
+  {
+    "content": "all others are doing but but but how can we",
+    "start": 997
+  },
+  {
+    "content": "how can we come up with some way of actually talking about it and having a a",
+    "start": 1000
+  },
+  {
+    "content": "nomenclature that that that that makes it a thing in and they and I actually",
+    "start": 1003
+  },
+  {
+    "content": "found this this random old old picture that is their conception of the word jam",
+    "start": 1010
+  },
+  {
+    "content": "stack him so this was just one of the people we were talking about it andreas",
+    "start": 1017
+  },
+  {
+    "content": "a Piazza who is today an engineer at uber meeting my neighbor's cat in a",
+    "start": 1023
+  },
+  {
+    "content": "sundown sofa him and they and and and we talked about like what what could we",
+    "start": 1029
+  },
+  {
+    "content": "can't call this and and he he he mentioned the term Jam stack a s like",
+    "start": 1037
+  },
+  {
+    "content": "this could be like an acronym we just need to figure out what goes in it like",
+    "start": 1043
+  },
+  {
+    "content": "maybe JavaScript et eyes and mock up and we started thinking oh yeah that",
+    "start": 1052
+  },
+  {
+    "content": "actually makes sense this actually like the tools we're building with and we",
+    "start": 1057
+  },
+  {
+    "content": "started bringing this term through to sort of like some of the early pioneers",
+    "start": 1061
+  },
+  {
+    "content": "like Thomas Reynolds for that spoke here yesterday from instrument that built",
+    "start": 1065
+  },
+  {
+    "content": "middleman or geophysical ended that somewhere around here that built roots",
+    "start": 1069
+  },
+  {
+    "content": "for carrots and Tom Freston Vernors that started github and giggle and all of",
+    "start": 1074
+  },
+  {
+    "content": "these things and and Tom was really the first that said like yeah that that term",
+    "start": 1078
+  },
+  {
+    "content": "sort of captures it because what's happened is that the stack has moved up",
+    "start": 1082
+  },
+  {
+    "content": "a little in when we talked about the lamp stack we talked about ly notes and",
+    "start": 1086
+  },
+  {
+    "content": "Apache and MySQL and like it was all these lower level components are our",
+    "start": 1091
+  },
+  {
+    "content": "data base and our programming language in our server and so on right and what's",
+    "start": 1096
+  },
+  {
+    "content": "happened now is that s developer we started working at a high level of",
+    "start": 1100
+  },
+  {
+    "content": "abstraction where the stack has really moved up right and where we have this",
+    "start": 1104
+  },
+  {
+    "content": "JavaScript based runtime in the browser we have this mock-up as the delivery",
+    "start": 1108
+  },
+  {
+    "content": "mechanism and we have this ecosystems of API and micro services that that we can",
+    "start": 1113
+  },
+  {
+    "content": "start calling out to without having to build them ourselves",
+    "start": 1118
+  },
+  {
+    "content": "him and and him and his other point was that by giving it a name and actually",
+    "start": 1121
+  },
+  {
+    "content": "having a name for it it empowers people to",
+    "start": 1128
+  },
+  {
+    "content": "to talk about it in this in the same way as just naming EDX as a thing even if",
+    "start": 1131
+  },
+  {
+    "content": "Ajax was many ways pretty bad name like how many here actually use XML from",
+    "start": 1136
+  },
+  {
+    "content": "their HTTP requests today right it's it still really defined a new way of",
+    "start": 1140
+  },
+  {
+    "content": "thinking about building applications and we hope that that that the DM stack",
+    "start": 1144
+  },
+  {
+    "content": "could sort of be an approach to helping people to talk about this category in a",
+    "start": 1148
+  },
+  {
+    "content": "more coherent manner in we launched the I checked and we actually bought the",
+    "start": 1153
+  },
+  {
+    "content": "domain all the way back in September 2014 and launched like the initial short",
+    "start": 1159
+  },
+  {
+    "content": "page here him but at that point we were still just talking to people we didn't",
+    "start": 1166
+  },
+  {
+    "content": "want to push this and on anybody but we just found again and again whenever we",
+    "start": 1170
+  },
+  {
+    "content": "talked to people that there was this need for a nomenclature and that and",
+    "start": 1174
+  },
+  {
+    "content": "that everybody were doing these things but hadn't lacked a way to talk about it",
+    "start": 1177
+  },
+  {
+    "content": "him and then in the end I wrote an article for Smashing Magazine about the",
+    "start": 1181
+  },
+  {
+    "content": "exciting areas they asked me to speak at their conference in in San Francisco",
+    "start": 1188
+  },
+  {
+    "content": "where I sort of at this point we weren't even like putting it in the title but",
+    "start": 1192
+  },
+  {
+    "content": "it's pretty obvious what this new front-end stack ended up talking about",
+    "start": 1198
+  },
+  {
+    "content": "the JavaScript API San Mac up and they ended up being sort of the point where",
+    "start": 1202
+  },
+  {
+    "content": "where where where I introduced the the gem stack term and in a in a broader",
+    "start": 1206
+  },
+  {
+    "content": "setting and and you started being a thing so there's like in in 2016 and as",
+    "start": 1212
+  },
+  {
+    "content": "a result of this talk we ended up redoing all of smashing magazines web",
+    "start": 1220
+  },
+  {
+    "content": "properties and in a TM stack approach but that's a that's another story him",
+    "start": 1225
+  },
+  {
+    "content": "but one of the most amazing things to see there is again in part by giving it",
+    "start": 1231
+  },
+  {
+    "content": "a name and part by just seeing this this rising we we can sit here together at a",
+    "start": 1236
+  },
+  {
+    "content": "conference and really talk about an an emerging ecosystem of citing readers of",
+    "start": 1242
+  },
+  {
+    "content": "hit lesya missus of built tools of content infrastructures of api's and",
+    "start": 1247
+  },
+  {
+    "content": "services and server list frameworks and so on and and see that that this is",
+    "start": 1252
+  },
+  {
+    "content": "really like a building a building movement in the industry",
+    "start": 1259
+  },
+  {
+    "content": "now we've started C which was like fascinating for us to suddenly see some",
+    "start": 1262
+  },
+  {
+    "content": "of the some of the large VC firms in in Silicon Valley start putting out texts",
+    "start": 1267
+  },
+  {
+    "content": "about the GM stack ecosystem through back there their investment thesis in in",
+    "start": 1273
+  },
+  {
+    "content": "in the whole idea that that's sort of everything in this area of the of",
+    "start": 1279
+  },
+  {
+    "content": "building the presentation layer for the web in a new way and putting together",
+    "start": 1285
+  },
+  {
+    "content": "api's in a new way it's gonna bring like huge opportunities to to companies and",
+    "start": 1290
+  },
+  {
+    "content": "startups building a building new tools reinventing the design process or",
+    "start": 1296
+  },
+  {
+    "content": "reinventing the deployment process reinventing the constant management",
+    "start": 1303
+  },
+  {
+    "content": "process so the e-commerce process and so on",
+    "start": 1306
+  },
+  {
+    "content": "so one of the things I thought would be would be really interesting to do today",
+    "start": 1309
+  },
+  {
+    "content": "was to go and look at some of the some of the data we we happen to have some",
+    "start": 1314
+  },
+  {
+    "content": "insights into just because of our place of being sort of one of the really like",
+    "start": 1319
+  },
+  {
+    "content": "central providers in terms of building and delivering a lot of the applications",
+    "start": 1326
+  },
+  {
+    "content": "and websites that that that people built with this approach so him I went in and",
+    "start": 1330
+  },
+  {
+    "content": "and and I took like a sample of data from from our build locks for each of",
+    "start": 1337
+  },
+  {
+    "content": "the last four quarters and I just matched different key words against them",
+    "start": 1343
+  },
+  {
+    "content": "to see how many of this like how many percentage of the site's built in in",
+    "start": 1348
+  },
+  {
+    "content": "each quarter used different tools in and the first thing I looked at were just",
+    "start": 1354
+  },
+  {
+    "content": "like they're the really basic built tools where it's not unsurprising to see",
+    "start": 1360
+  },
+  {
+    "content": "this kind of rise of of webpack that's really become so standard that then this",
+    "start": 1365
+  },
+  {
+    "content": "like it in in in the latest stats almost 50% of all the all the projects build",
+    "start": 1370
+  },
+  {
+    "content": "with metal if I uses web pack and at the same time we can see like God being the",
+    "start": 1375
+  },
+  {
+    "content": "initial almost this big at web web pack but but becoming a smaller percentage of",
+    "start": 1381
+  },
+  {
+    "content": "the the tools and in in the interesting trends parcel you can see is still very",
+    "start": 1386
+  },
+  {
+    "content": "small about it but but is but it's growing and it's",
+    "start": 1392
+  },
+  {
+    "content": "becoming a part of more builds the other thing I started looking at was the the",
+    "start": 1395
+  },
+  {
+    "content": "front-end frameworks themselves and they and and what what they look like",
+    "start": 1400
+  },
+  {
+    "content": "and here it's no surprise to see react obviously a rising through Tudor",
+    "start": 1405
+  },
+  {
+    "content": "dominance with like something like thirty five percent of all the projects",
+    "start": 1412
+  },
+  {
+    "content": "people built pulling and reactants some form another whether it's part of a",
+    "start": 1415
+  },
+  {
+    "content": "static output or lights building single page applications but it's also been",
+    "start": 1420
+  },
+  {
+    "content": "incredible to see this spike in interest for view that suddenly popped onto the",
+    "start": 1424
+  },
+  {
+    "content": "scene and and by now is is has has gone from being a relatively small part of",
+    "start": 1430
+  },
+  {
+    "content": "the ecosystem to being like a larger pot and then ember and angular together in",
+    "start": 1436
+  },
+  {
+    "content": "the other the other aspect I started looking at what was the static site",
+    "start": 1443
+  },
+  {
+    "content": "generators and and how and how they've evolved and here of course like not",
+    "start": 1447
+  },
+  {
+    "content": "surprisingly we're seeing like Jacob getting to a smaller percentage of the",
+    "start": 1453
+  },
+  {
+    "content": "built that in use to and and Gatsby his room emerged this as a really strong",
+    "start": 1458
+  },
+  {
+    "content": "standard among stakes I can write us him Noakes has also gradually grown in",
+    "start": 1464
+  },
+  {
+    "content": "popularity and and react static as well in has has still still has traction even",
+    "start": 1471
+  },
+  {
+    "content": "in in the percentage of built racing here another aspect I I looked at was",
+    "start": 1478
+  },
+  {
+    "content": "the different headless CMS's both their traditional one Houston headless mode so",
+    "start": 1482
+  },
+  {
+    "content": "we'll actually see that that initially in in these numbers a WordPress was what",
+    "start": 1488
+  },
+  {
+    "content": "was quite quite up there in in terms of even the size of a con central in terms",
+    "start": 1494
+  },
+  {
+    "content": "of how many actually pulled from them and and what we can see over time is",
+    "start": 1501
+  },
+  {
+    "content": "that I think people are coming more and more familiar with with with using the",
+    "start": 1505
+  },
+  {
+    "content": "tools that are built specifically for this era rather than trying to gradually",
+    "start": 1509
+  },
+  {
+    "content": "migrate off like WordPress and Drupal by running them in headless mode in so",
+    "start": 1515
+  },
+  {
+    "content": "we're seeing like a strong growth of consent fall and and data of CMS's well",
+    "start": 1520
+  },
+  {
+    "content": "purchase stuff of these tools that I actually built for this day",
+    "start": 1525
+  },
+  {
+    "content": "rather than tools that can be adapted to it but then all of these numbers kind of",
+    "start": 1528
+  },
+  {
+    "content": "kind of lies when I destroy them like here because it looks like it's some",
+    "start": 1535
+  },
+  {
+    "content": "like it's some serum game where these different tools are sort of battling",
+    "start": 1539
+  },
+  {
+    "content": "each other and trying to take market share and become the biggest and in",
+    "start": 1544
+  },
+  {
+    "content": "reality it's very different story because if we go back and then look at",
+    "start": 1548
+  },
+  {
+    "content": "how many builds have net leaf I've been processing in each of these quarters and",
+    "start": 1553
+  },
+  {
+    "content": "how many sites are being built in this way then like that chad looks more like",
+    "start": 1559
+  },
+  {
+    "content": "this right where-where-where we've just seen like",
+    "start": 1563
+  },
+  {
+    "content": "and and an exponential growth in the number of sites being built with this",
+    "start": 1567
+  },
+  {
+    "content": "approach and that means that the whole ecosystem is growing so if we take that",
+    "start": 1572
+  },
+  {
+    "content": "Chad of like how how many sites how many built are being made each month with",
+    "start": 1577
+  },
+  {
+    "content": "this approach and map it onto this tools we get a very different story when the",
+    "start": 1583
+  },
+  {
+    "content": "build tools even the amount of sites built with gulp is going up each quarter",
+    "start": 1588
+  },
+  {
+    "content": "right like it's it's not seeing less use in total it's seeing more use and when",
+    "start": 1593
+  },
+  {
+    "content": "we look at the front-end frameworks we really see the the growth of you that",
+    "start": 1597
+  },
+  {
+    "content": "looked like it's it sort of popped up and and we're there right but every",
+    "start": 1602
+  },
+  {
+    "content": "single quarter we're seeing more and more sites build with it and we see the",
+    "start": 1605
+  },
+  {
+    "content": "growth of reactors just keeping on going right and becoming a big upping a part",
+    "start": 1609
+  },
+  {
+    "content": "of the of the of the big ecosystem the same with with the site generators where",
+    "start": 1615
+  },
+  {
+    "content": "we're here we really see like the popularity of these tools going up we",
+    "start": 1620
+  },
+  {
+    "content": "see like Gatsby's rice and also notices constant rice and in the headless CMS's",
+    "start": 1626
+  },
+  {
+    "content": "we we see a similar story where we really get an idea of like how much this",
+    "start": 1634
+  },
+  {
+    "content": "popularity of the of the dedicated headless CMS's have have have meant in",
+    "start": 1639
+  },
+  {
+    "content": "any way we also see that in total like contrary to the first slide even the use",
+    "start": 1644
+  },
+  {
+    "content": "of headless work versus is increasing right like it's not it's not that that",
+    "start": 1651
+  },
+  {
+    "content": "that it's going away it's that we're seeing a whole ecosystem powering",
+    "start": 1655
+  },
+  {
+    "content": "forward that's really important for for us at at",
+    "start": 1661
+  },
+  {
+    "content": "nettle if I because a1 one of the things that's that's special with with our",
+    "start": 1665
+  },
+  {
+    "content": "position in the whole ecosystem is that we've we've managed to align very",
+    "start": 1671
+  },
+  {
+    "content": "clearly our business interest with this whole category so far as anything that",
+    "start": 1677
+  },
+  {
+    "content": "helps this category grow is is it's good right and it's really powerful to just",
+    "start": 1681
+  },
+  {
+    "content": "see so many so many different tools emerging and so many tools being",
+    "start": 1687
+  },
+  {
+    "content": "reworked in this way and and see this adoption and it's important for us",
+    "start": 1691
+  },
+  {
+    "content": "because we we are trying to do everything we can as I said to to look",
+    "start": 1696
+  },
+  {
+    "content": "at what does it take to really make this way of building for the web more viable",
+    "start": 1702
+  },
+  {
+    "content": "for for for developers everywhere what does it take to remove these hurdles",
+    "start": 1707
+  },
+  {
+    "content": "that that that that's holding back the ecosystem what does it take to get to a",
+    "start": 1712
+  },
+  {
+    "content": "point where we're spinning up a new project in this way is is it's just a",
+    "start": 1718
+  },
+  {
+    "content": "click and we're developers should not have to worry about like the",
+    "start": 1723
+  },
+  {
+    "content": "infrastructure layer the DevOps layer but also how can we help developers",
+    "start": 1728
+  },
+  {
+    "content": "worry about like this whole layer of gluing together all these different",
+    "start": 1732
+  },
+  {
+    "content": "services how can get to that point we're installing one of these services is as",
+    "start": 1738
+  },
+  {
+    "content": "easy as as as adding a plugin to a wordpress site used to be right how can",
+    "start": 1744
+  },
+  {
+    "content": "we really make this viable for everybody and give more space for for new services",
+    "start": 1751
+  },
+  {
+    "content": "to our emerging more space for new partners him so we've started really",
+    "start": 1757
+  },
+  {
+    "content": "looking at that and started figuring out how how can we help instrument this and",
+    "start": 1761
+  },
+  {
+    "content": "how can we help B be and and and and even better like hopefully even more",
+    "start": 1766
+  },
+  {
+    "content": "forceful for growing the secret system so one of the the things we've been",
+    "start": 1772
+  },
+  {
+    "content": "looking at recently is like when when you spin up and you would notify react",
+    "start": 1776
+  },
+  {
+    "content": "project with a service lambda functions and and and the front-end what options",
+    "start": 1782
+  },
+  {
+    "content": "are there out there for for persisting data without having to manually operate",
+    "start": 1789
+  },
+  {
+    "content": "databases and so on and one of the partners we've done some proof of",
+    "start": 1795
+  },
+  {
+    "content": "concepts there and we've shared already some some example repositories has been",
+    "start": 1800
+  },
+  {
+    "content": "fana DB and it was cool to see that that that when David Wells who does a lot of",
+    "start": 1804
+  },
+  {
+    "content": "work on our surrealist functions published liked it a demo of building a",
+    "start": 1810
+  },
+  {
+    "content": "to-do application where funnily we we saw we saw a lot of excitement around it",
+    "start": 1814
+  },
+  {
+    "content": "right like all of us were we're probably snap shutting this the street from from",
+    "start": 1820
+  },
+  {
+    "content": "some person who is the founder of github and built Jekyll and so on saying like",
+    "start": 1824
+  },
+  {
+    "content": "within five years you'll build your next large-scale fully featured web app with",
+    "start": 1829
+  },
+  {
+    "content": "the jam stack and deployed on little if I and this really came from seeing like",
+    "start": 1833
+  },
+  {
+    "content": "this this idea of like serverless functions and even surrealist databases",
+    "start": 1838
+  },
+  {
+    "content": "of all these different tools in the space emerging where developers don't",
+    "start": 1843
+  },
+  {
+    "content": "have to operate anything themselves so we've been working on on on taking that",
+    "start": 1847
+  },
+  {
+    "content": "in to the next to the next level let me let me show you a really early demo of",
+    "start": 1853
+  },
+  {
+    "content": "one of the things we're we're working on now that still a in private beta beta",
+    "start": 1861
+  },
+  {
+    "content": "working with with some of the different partners in the ecosystem one of the",
+    "start": 1866
+  },
+  {
+    "content": "first ones that that's that's ready to show up is finally B so for those of you",
+    "start": 1871
+  },
+  {
+    "content": "who don't know fauna it's a it's a modern no SQL database that can both be",
+    "start": 1877
+  },
+  {
+    "content": "downloaded and run on Prem but that also has a a globally distributed cloud",
+    "start": 1882
+  },
+  {
+    "content": "version that that that captures a really good balance between giving strong",
+    "start": 1889
+  },
+  {
+    "content": "consistency guarantees with being globally available and and replicated",
+    "start": 1895
+  },
+  {
+    "content": "the data across regions so I'm gonna show a little example of this to do it",
+    "start": 1899
+  },
+  {
+    "content": "that that David Wells built with natalja Phi and fauna DB and I'm gonna show how",
+    "start": 1908
+  },
+  {
+    "content": "how how easy it should be in the future to spin up these new projects with",
+    "start": 1916
+  },
+  {
+    "content": "multiple vendors involved with with multiple micro services and service",
+    "start": 1921
+  },
+  {
+    "content": "functions so if I just click on this deploy to Nedley five-button and connect",
+    "start": 1926
+  },
+  {
+    "content": "to github and let's sure that's not a name conflict you'll see that that that",
+    "start": 1932
+  },
+  {
+    "content": "now we're not just provisioning a new net leaf eyesight and creating a new",
+    "start": 1940
+  },
+  {
+    "content": "github repository notify is also going to provision in this step a new instance",
+    "start": 1943
+  },
+  {
+    "content": "of a fauna DB and we're going to set up the right environment variables and the",
+    "start": 1949
+  },
+  {
+    "content": "right routing rules that makes it directly available from from our front",
+    "start": 1953
+  },
+  {
+    "content": "end and from our end him and ending actually like this this provisioning",
+    "start": 1957
+  },
+  {
+    "content": "system in the API we've we've been running for quite a while now when we",
+    "start": 1964
+  },
+  {
+    "content": "launched our own identity service and now get gateway service those who are",
+    "start": 1968
+  },
+  {
+    "content": "initially built as as as individual open-source projects go through and get",
+    "start": 1972
+  },
+  {
+    "content": "gateway land can be camp can be downloaded and run but we run a manager",
+    "start": 1977
+  },
+  {
+    "content": "ation of those was a little provisioning service around it that that follows our",
+    "start": 1982
+  },
+  {
+    "content": "spec for further third-party add-on providers and now we're starting to to",
+    "start": 1986
+  },
+  {
+    "content": "to extend that to more partners in the industry and from all of these different",
+    "start": 1991
+  },
+  {
+    "content": "API is in the ecosystem now we'll see this initial web pack built as Phil",
+    "start": 1995
+  },
+  {
+    "content": "mentioned the NPM does need to install most of the internet it's done that now",
+    "start": 2000
+  },
+  {
+    "content": "him and the the new site is live so if I go to this newly deployed site him I",
+    "start": 2004
+  },
+  {
+    "content": "have the canonical to-do list that we all love to build for clients all the",
+    "start": 2013
+  },
+  {
+    "content": "time it's him and if I create this to do we'll see",
+    "start": 2018
+  },
+  {
+    "content": "that that it's now persisted in in in fauna TV and if I go in and and look at",
+    "start": 2031
+  },
+  {
+    "content": "these API calls in you'll see that all of all of this happens like we're now",
+    "start": 2038
+  },
+  {
+    "content": "just talking to a lambda function that this deployment mechanism also deployed",
+    "start": 2045
+  },
+  {
+    "content": "to AWS we automatically send out the routing directly from our deploy like",
+    "start": 2049
+  },
+  {
+    "content": "application delivery network to to invoke those functions on a relative",
+    "start": 2054
+  },
+  {
+    "content": "path him and him and and if i refresh the page obviously I'll see that that",
+    "start": 2059
+  },
+  {
+    "content": "that this has been persisted in a globally distributed database a and and",
+    "start": 2065
+  },
+  {
+    "content": "has been pushed in through a git repository let's now set up with a full",
+    "start": 2070
+  },
+  {
+    "content": "production quality production they the continuous deployment cycle where if I",
+    "start": 2076
+  },
+  {
+    "content": "go in and and I were to do a change in any of these small functions talking to",
+    "start": 2081
+  },
+  {
+    "content": "fauna we would immediately immediately see net if I pick up that pull request",
+    "start": 2086
+  },
+  {
+    "content": "deploy a new version and make it available globally him so that's that's",
+    "start": 2092
+  },
+  {
+    "content": "a little glimpse of of him of what's coming from from us and how we're trying",
+    "start": 2099
+  },
+  {
+    "content": "to make the secret system even more even more approachable for developers in and",
+    "start": 2104
+  },
+  {
+    "content": "and hopefully help this category that we are all gathered here to to sort of",
+    "start": 2114
+  },
+  {
+    "content": "celebrate and learn about today to grow even stronger in the in the next many",
+    "start": 2120
+  },
+  {
+    "content": "years him so welcome to the first gem stack conference",
+    "start": 2125
+  },
+  {
+    "content": "welcome to all the partners and all the developers in AI hope you'll enjoy",
+    "start": 2132
+  },
+  {
+    "content": "everybody's talk and thank you [Applause]",
+    "start": 2136
+  },
+  {
+    "content": "you",
+    "start": 2148
+  },
+  {
+    "content": "",
+    "start": 2154
+  }
+]

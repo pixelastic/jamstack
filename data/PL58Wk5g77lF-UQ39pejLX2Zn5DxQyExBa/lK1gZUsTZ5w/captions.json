@@ -1,0 +1,562 @@
+[
+  {
+    "content": "we have five talks Zoltan do you want to",
+    "start": 0
+  },
+  {
+    "content": "come up and make yourself comfortable so that you don't have to have a running",
+    "start": 5
+  },
+  {
+    "content": "start we're just going to do a running start anyway yeah so 5 talks tonight",
+    "start": 8
+  },
+  {
+    "content": "starting there Zoltan and we'll try and make this the changeover as as seamless",
+    "start": 13
+  },
+  {
+    "content": "as possible they might be a bit choppy but we're we're fine this is the circle",
+    "start": 17
+  },
+  {
+    "content": "of trust we're in it together you are you happy you kind of you plugged in",
+    "start": 22
+  },
+  {
+    "content": "seemed seems pretty good oh yeah so this is this is the microphone we're using",
+    "start": 27
+  },
+  {
+    "content": "which is great for most people but if you're tall yep there might be might be",
+    "start": 31
+  },
+  {
+    "content": "some active knee bends in order to be heard but we'll see how we do okay so",
+    "start": 36
+  },
+  {
+    "content": "Zotoh it's all time Ola is our first speaker tonight he's going to talk about",
+    "start": 40
+  },
+  {
+    "content": "that thorny issue of you know making sure that designs end up realized end up",
+    "start": 44
+  },
+  {
+    "content": "you know making out into the real world designs are lovely while they're the",
+    "start": 52
+  },
+  {
+    "content": "designs but until they're real they they're just designed so I'm very",
+    "start": 56
+  },
+  {
+    "content": "curious to see what we're gonna hear hear from Zoltan please make him very",
+    "start": 60
+  },
+  {
+    "content": "very welcome Sultan Ola everyone thanks for everyone",
+    "start": 64
+  },
+  {
+    "content": "I apologize for rushing but it sounds like I really have to rush through this",
+    "start": 74
+  },
+  {
+    "content": "so here we go it is a sprint tonight I'll be talking about the",
+    "start": 77
+  },
+  {
+    "content": "process of building out UI designs I also touch on some best practices for",
+    "start": 82
+  },
+  {
+    "content": "product teams in order to make the build-out process as painless as",
+    "start": 88
+  },
+  {
+    "content": "possible and finally I'll show off some tools to help it looks like I do need to",
+    "start": 91
+  },
+  {
+    "content": "pick this up so how many folks out there work on front-end code in their job it's",
+    "start": 95
+  },
+  {
+    "content": "a awesome that's almost everyone wicked cool so",
+    "start": 102
+  },
+  {
+    "content": "I'm the founder at chroma where we build tools for UI developers and before that",
+    "start": 106
+  },
+  {
+    "content": "I was a p.m. at Apollo and meteor working on graphic of all stuff and then",
+    "start": 111
+  },
+  {
+    "content": "before that I ran an app development consultancy he can still hear me okay",
+    "start": 116
+  },
+  {
+    "content": "great so over the years working as a front-end engineer I noticed that there",
+    "start": 121
+  },
+  {
+    "content": "are many resources teaching people how best to build complex software systems",
+    "start": 130
+  },
+  {
+    "content": "especially when it comes to building you eyes so",
+    "start": 134
+  },
+  {
+    "content": "translating visuals into fully functioning apps countless resources",
+    "start": 137
+  },
+  {
+    "content": "exist for learning the underlying technologies like JavaScript react",
+    "start": 141
+  },
+  {
+    "content": "applying to net with I you know you've all seen the tutorials they're all out",
+    "start": 145
+  },
+  {
+    "content": "there but there's very few resources to tell you how to actually put together a",
+    "start": 148
+  },
+  {
+    "content": "team and build something from idea like all the way to the UI and do that",
+    "start": 152
+  },
+  {
+    "content": "efficiently and I think it's it's sort of like on-the-job training right it's",
+    "start": 158
+  },
+  {
+    "content": "more like an apprenticeship I think at a worksite what our job is like so you",
+    "start": 165
+  },
+  {
+    "content": "landed a company and you just learn from your peers on how to do it never know",
+    "start": 170
+  },
+  {
+    "content": "every company often sort of does it a little bit differently and what that can",
+    "start": 174
+  },
+  {
+    "content": "mean is you know who knows who's who's doing you know who has the best process",
+    "start": 178
+  },
+  {
+    "content": "and you know maybe bad habits are passed on and the wheel is reinvented at every",
+    "start": 182
+  },
+  {
+    "content": "company and I think you know hopefully presentations like this will put more",
+    "start": 188
+  },
+  {
+    "content": "material out there so how might one go about building better apps more",
+    "start": 192
+  },
+  {
+    "content": "systematically well let's say we have an organization its goal is to build and",
+    "start": 196
+  },
+  {
+    "content": "sell something that people want and so to be more efficient orgs often divide",
+    "start": 201
+  },
+  {
+    "content": "themselves up into teams with specialists and these specialists have",
+    "start": 206
+  },
+  {
+    "content": "wildly different jobs typically but they must work together really well in order",
+    "start": 210
+  },
+  {
+    "content": "to build a high quality product so building an app might look something",
+    "start": 214
+  },
+  {
+    "content": "like this where every member of specializes and",
+    "start": 219
+  },
+  {
+    "content": "contributes that skill down the line to build the finished product and but this",
+    "start": 221
+  },
+  {
+    "content": "would be a really serial process and I doubt many teams in the real world",
+    "start": 226
+  },
+  {
+    "content": "actually work like this it would take a really long time to get anything done so",
+    "start": 230
+  },
+  {
+    "content": "the ideal process looks something more like this where we'd optimize product",
+    "start": 233
+  },
+  {
+    "content": "assembly and paralyze the line so that you know each team builds pieces in",
+    "start": 238
+  },
+  {
+    "content": "parallel with other teams components and then they'd all be assembled seamlessly",
+    "start": 243
+  },
+  {
+    "content": "to for the to yield the finished result unfortunately reality even with the best",
+    "start": 249
+  },
+  {
+    "content": "intentions in place looks often a bit more like that which is a tangled mass",
+    "start": 257
+  },
+  {
+    "content": "of dependencies communication gaps product inconsistencies teams end up",
+    "start": 262
+  },
+  {
+    "content": "being blah making the entire process take longer",
+    "start": 267
+  },
+  {
+    "content": "than it should to deliver and then oftentimes as a substandard result at",
+    "start": 270
+  },
+  {
+    "content": "the end for users so luckily with a better methodology we can get closer to",
+    "start": 275
+  },
+  {
+    "content": "the ideal that beautiful parallel process so you know we call this",
+    "start": 281
+  },
+  {
+    "content": "component driven development you know that other name is fret but it's",
+    "start": 287
+  },
+  {
+    "content": "basically like a systematized process for building UI and react",
+    "start": 291
+  },
+  {
+    "content": "I think taught front-end engineers how to think",
+    "start": 296
+  },
+  {
+    "content": "modular how to think in a component oriented way where components have a",
+    "start": 299
+  },
+  {
+    "content": "very clear API and can be dropped into a place and I think tools like react have",
+    "start": 305
+  },
+  {
+    "content": "sort of forced us to or urge us to think in a more systematic component driven",
+    "start": 311
+  },
+  {
+    "content": "way just at the app architecture level - so what's our goal what should you I be",
+    "start": 316
+  },
+  {
+    "content": "and and this is for both users and in terms of the development process so UI",
+    "start": 323
+  },
+  {
+    "content": "should be fast beautiful and cheap so in order to make UI fast we want to",
+    "start": 328
+  },
+  {
+    "content": "parallelize production we want to separate between UI so like your",
+    "start": 335
+  },
+  {
+    "content": "components and data and we want to write be able to write lots and lots of mark",
+    "start": 340
+  },
+  {
+    "content": "states with mark data we want to encourage reuse and discourage",
+    "start": 345
+  },
+  {
+    "content": "duplication in order to to make things cheap and we don't want to reinvent the",
+    "start": 351
+  },
+  {
+    "content": "wheel over and over again so it's about efficiency and beyond design of course",
+    "start": 355
+  },
+  {
+    "content": "we all want beautiful looking design but looking at it through the engineering",
+    "start": 362
+  },
+  {
+    "content": "lens we want to see beautiful Beauty out there and so what is beauty from the",
+    "start": 366
+  },
+  {
+    "content": "engineering point of view its reliability its consistency its speed so",
+    "start": 373
+  },
+  {
+    "content": "all those things you know relating to functionality of beautiful so how do we",
+    "start": 378
+  },
+  {
+    "content": "how do we apply CDD component driven development to get fast and beautiful",
+    "start": 383
+  },
+  {
+    "content": "well the first step is we we take our design and we just divide it right up",
+    "start": 388
+  },
+  {
+    "content": "into the smallest possible items and we look for for patents and we look for",
+    "start": 393
+  },
+  {
+    "content": "four ways to capture the items and build them up into a component",
+    "start": 397
+  },
+  {
+    "content": "hierarchy at this point what we found is naming is really really useful to get",
+    "start": 402
+  },
+  {
+    "content": "right often we'll just designate one person to be responsible for naming at",
+    "start": 409
+  },
+  {
+    "content": "this point because it goes a long way towards having consistent naming for the",
+    "start": 416
+  },
+  {
+    "content": "rest of the life of the project then we hit the build phase and so here you know",
+    "start": 420
+  },
+  {
+    "content": "now we've got components that have been divided up at least based on the design",
+    "start": 426
+  },
+  {
+    "content": "and named really well and now we've gone build them in isolation in parallel",
+    "start": 430
+  },
+  {
+    "content": "across those interdisciplinary teams and on the engineering side this is a really",
+    "start": 435
+  },
+  {
+    "content": "good chance to to leverage specialized roles right during you people versus",
+    "start": 441
+  },
+  {
+    "content": "more senior people people firk focused and more skilled at CSS versus logic so",
+    "start": 446
+  },
+  {
+    "content": "at the build phase in a component driven development approach you can like",
+    "start": 453
+  },
+  {
+    "content": "parallel eyes the work really really well even even down to the granularity",
+    "start": 457
+  },
+  {
+    "content": "of what kind of work people like to do and what their skills are best suited to",
+    "start": 461
+  },
+  {
+    "content": "and then finally we assemble all of those components and do some integration",
+    "start": 466
+  },
+  {
+    "content": "work and end up with a fully fleshed out app and sometimes we actually start",
+    "start": 472
+  },
+  {
+    "content": "doing integration work on day one and and then that way we have an app",
+    "start": 477
+  },
+  {
+    "content": "skeleton or a framework already in place that components slowly get fleshed out",
+    "start": 483
+  },
+  {
+    "content": "in one of the things that we we like to do is take wireframes and go from a kind",
+    "start": 487
+  },
+  {
+    "content": "of low fidelity wireframe and keep adding more and more detail as designs",
+    "start": 495
+  },
+  {
+    "content": "and specs are fleshed out we increase the fidelity to a higher fidelity",
+    "start": 499
+  },
+  {
+    "content": "wireframe and then finally that turns into a design and you can see the",
+    "start": 504
+  },
+  {
+    "content": "evolution of that from left to right and the really cool thing is that while",
+    "start": 508
+  },
+  {
+    "content": "design and product or iterating on producing this deliverable engineering",
+    "start": 512
+  },
+  {
+    "content": "can get started right away building out components and then adding",
+    "start": 518
+  },
+  {
+    "content": "more and more detail as soon as like design comes out with that a final",
+    "start": 521
+  },
+  {
+    "content": "quality is cheap and so parallelism and reuse but",
+    "start": 527
+  },
+  {
+    "content": "obtained via a community component driven development process yields you",
+    "start": 532
+  },
+  {
+    "content": "know UI that is cheaper to build than without a good process so when it comes",
+    "start": 538
+  },
+  {
+    "content": "to tooling there's one really important tool and that's the component Explorer",
+    "start": 544
+  },
+  {
+    "content": "and so what a component Explorer does is you install it into your app and then",
+    "start": 548
+  },
+  {
+    "content": "you use it in development to build components in isolation and to mock out",
+    "start": 554
+  },
+  {
+    "content": "their data and create various estates for that mock data and then finally",
+    "start": 559
+  },
+  {
+    "content": "integration of those components is really easy back into the main app is",
+    "start": 565
+  },
+  {
+    "content": "because you're already working in the code base of the the main app itself so",
+    "start": 569
+  },
+  {
+    "content": "tools there are just a few storybook react style guide history at cosmos so",
+    "start": 573
+  },
+  {
+    "content": "you can even build your own component Explorer but I highly recommend just",
+    "start": 579
+  },
+  {
+    "content": "having something in your app for this task and so just a quick demo of this",
+    "start": 583
+  },
+  {
+    "content": "program process and also shameless plug at chrome aware maintainer zuv storybook",
+    "start": 590
+  },
+  {
+    "content": "and so I'll use storybook for the demo so looking at this component it's a",
+    "start": 595
+  },
+  {
+    "content": "histogram component and graphs are really notorious to having states that",
+    "start": 599
+  },
+  {
+    "content": "are hard to reach inside an app and so that I'm using that component as an",
+    "start": 605
+  },
+  {
+    "content": "example so let's see what happens you install your component Explorer into",
+    "start": 611
+  },
+  {
+    "content": "your app and then as you write code here you're looking at the component live",
+    "start": 619
+  },
+  {
+    "content": "reloading in isolation and you're not working within confines of the main app",
+    "start": 624
+  },
+  {
+    "content": "itself and then you build out your list of states for every component on your on",
+    "start": 629
+  },
+  {
+    "content": "the left-hand side there and then start to compose components all the way up to",
+    "start": 635
+  },
+  {
+    "content": "the screen level we that's how we do it at chrome oh we build entire screens as",
+    "start": 639
+  },
+  {
+    "content": "components and then put the data layer on top of that and then right at the top",
+    "start": 644
+  },
+  {
+    "content": "there is also some add-ons there and that's the benefit of not building your",
+    "start": 650
+  },
+  {
+    "content": "own component Explorer so I like to wrap up my presentation with takeaways always",
+    "start": 654
+  },
+  {
+    "content": "so use a component Explorer build pure components in isolation try and parallel",
+    "start": 660
+  },
+  {
+    "content": "eyes the word as much as you can make that a key goal",
+    "start": 665
+  },
+  {
+    "content": "in your process and it sounds kind of bike shitty but established naming",
+    "start": 669
+  },
+  {
+    "content": "conventions early on that's my tip so thank you learn storybook comm if you",
+    "start": 674
+  },
+  {
+    "content": "want to try CDD that's a good way to get started and yeah please share your",
+    "start": 680
+  },
+  {
+    "content": "process let's move our craft forward together I'd love to hear how you all",
+    "start": 685
+  },
+  {
+    "content": "work thank you",
+    "start": 689
+  },
+  {
+    "content": "[Applause] you",
+    "start": 698
+  },
+  {
+    "content": "",
+    "start": 703
+  }
+]

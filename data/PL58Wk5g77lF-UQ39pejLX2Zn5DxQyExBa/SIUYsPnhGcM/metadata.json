@@ -1,0 +1,12 @@
+{
+  "description": "With hundreds of choices, why is Hugo—built in Go—one of the most popular tools in the JAMstack ecosystem? This talk will look at some of Hugo's super powers and less well known features to see how it can be used to great effect on any type of site, from the small to complex.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "id": "SIUYsPnhGcM",
+  "position": 12,
+  "publishedAt": 1542606624,
+  "thumbnails": {
+    "default": "https://i.ytimg.com/vi/SIUYsPnhGcM/sddefault.jpg",
+    "large": "https://i.ytimg.com/vi/SIUYsPnhGcM/maxresdefault.jpg",
+    "small": "https://i.ytimg.com/vi/SIUYsPnhGcM/mqdefault.jpg"
+  },
+  "title": "Bud Parr - Go Go Hugo!"
+}

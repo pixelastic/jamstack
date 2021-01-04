@@ -1,0 +1,1830 @@
+[
+  {
+    "content": "really excited that that we have Monica",
+    "start": 0
+  },
+  {
+    "content": "here to speak to you next month Monica Dinka let's go and you may well already",
+    "start": 5
+  },
+  {
+    "content": "have encountered some of her code know it or not she spent a long time working",
+    "start": 10
+  },
+  {
+    "content": "on Chrome and on the polymer team she is incredibly creative and I've seen her",
+    "start": 15
+  },
+  {
+    "content": "talk many many times no longer part of the polymer team now working at a part",
+    "start": 21
+  },
+  {
+    "content": "of Google called Google brain that which is an utterly terrifying name if I'm if",
+    "start": 26
+  },
+  {
+    "content": "I'm completely honest but now working more on like computer-generated art and",
+    "start": 32
+  },
+  {
+    "content": "music and those kind of things we're gonna hear more about some of that I'm",
+    "start": 38
+  },
+  {
+    "content": "I'm pretty sure along the way please make a very very welcome it's Monica",
+    "start": 41
+  },
+  {
+    "content": "dinkle SQL browser and more about static sites cuz I love static sites everything",
+    "start": 45
+  },
+  {
+    "content": "that I make is a static site so when I was trying to fill content for those I",
+    "start": 59
+  },
+  {
+    "content": "first had thousands of titles at the ready thirteen things you don't actually",
+    "start": 63
+  },
+  {
+    "content": "need a server for the little static site that could serve her free since 93",
+    "start": 67
+  },
+  {
+    "content": "that's a good one forty two sites that scream world domination that's an actual",
+    "start": 72
+  },
+  {
+    "content": "BuzzFeed title where I took the noun that was in the title and replaced it",
+    "start": 77
+  },
+  {
+    "content": "with static sites I don't know why we won world domination",
+    "start": 80
+  },
+  {
+    "content": "this woman stopped hosting her own content you won't believe what happened",
+    "start": 84
+  },
+  {
+    "content": "next spoilers she had an app it was great and so on and so forth and what I",
+    "start": 86
+  },
+  {
+    "content": "want to do today is sort of sell you on static sites and tell you that like",
+    "start": 92
+  },
+  {
+    "content": "they're really awesome anything that you want to build Kim via static site I'm",
+    "start": 95
+  },
+  {
+    "content": "gonna show you a little bit of how and then you can leave and get excited for",
+    "start": 99
+  },
+  {
+    "content": "the rest of the conference and build 700 Sadek sites while you're in the room",
+    "start": 101
+  },
+  {
+    "content": "today I'm Monica I'm not Waldorf on Twitter and github and Internet places I",
+    "start": 105
+  },
+  {
+    "content": "usually post about cats or music or emoji exciting year for me as as Phil",
+    "start": 109
+  },
+  {
+    "content": "said bunch of updates I am obsessed with this fine this is IBM Plex mano I will",
+    "start": 115
+  },
+  {
+    "content": "use it on absolutely everything my team is like starting to lose their patience",
+    "start": 120
+  },
+  {
+    "content": "cuz all of our demos look like this slide deck I'm doing this really weird",
+    "start": 124
+  },
+  {
+    "content": "inktober experiment right now so in Tobruk if you're not familiar",
+    "start": 129
+  },
+  {
+    "content": "with it is the thing that artists you which I am NOT and it's basically you",
+    "start": 132
+  },
+  {
+    "content": "get a prompt and you draw this like ink drawing of it every day and it's really",
+    "start": 135
+  },
+  {
+    "content": "stressful every day I haven't even done yesterday's yet so I'm already behind",
+    "start": 139
+  },
+  {
+    "content": "mine lives here on glitch and it starts with a sheriff meme of circle punch and",
+    "start": 142
+  },
+  {
+    "content": "every day I just add one dumb feature to it this was a freebie it was the day",
+    "start": 148
+  },
+  {
+    "content": "after Banksy shredded his painting so that was an easy ten minutes but some of",
+    "start": 152
+  },
+  {
+    "content": "the demos I try to like use the things that I use for work and be like how can",
+    "start": 158
+  },
+  {
+    "content": "I use this library that I work on called magenta jeaious I'll tell you about it",
+    "start": 161
+  },
+  {
+    "content": "later in like a dumb application so in this",
+    "start": 165
+  },
+  {
+    "content": "inktober I take the sheriff as he is now my best friend I see him every day and i",
+    "start": 169
+  },
+  {
+    "content": "encode him as a music drum so like vertically I have the time going by and",
+    "start": 175
+  },
+  {
+    "content": "horizontal nope the other way around horizontally it's time going around and",
+    "start": 179
+  },
+  {
+    "content": "vertically it's like different drum sounds that you can have so when I",
+    "start": 182
+  },
+  {
+    "content": "encode this drumbeat into one of our models and then I decode it a little bit",
+    "start": 185
+  },
+  {
+    "content": "noisily the drumbeat changes and I repainted as if it were a sheriff so it",
+    "start": 190
+  },
+  {
+    "content": "looks a little bit like this like a Frankenstein now up ahead this and more",
+    "start": 195
+  },
+  {
+    "content": "is my October really excited about it you should check it out if you have any",
+    "start": 207
+  },
+  {
+    "content": "ideas for lowball 20-minutes things that I can do I've got so many weekends to",
+    "start": 210
+  },
+  {
+    "content": "back fill because I try not to work weekends and finally I switch away from",
+    "start": 215
+  },
+  {
+    "content": "polymer I used to work on web components and polymer and was awesome best three",
+    "start": 219
+  },
+  {
+    "content": "years of my life but then this opportunity fell into my lap which is to",
+    "start": 222
+  },
+  {
+    "content": "make music and art with machine learning and I love music and art and also",
+    "start": 226
+  },
+  {
+    "content": "machine learning weirdly enough so I was like book it that's what I need to do so",
+    "start": 230
+  },
+  {
+    "content": "we're a team on magenta one of the things that we have is an open source",
+    "start": 234
+  },
+  {
+    "content": "library called magenta Jas which basically lets you make music like that",
+    "start": 237
+  },
+  {
+    "content": "stupid inktober that I made in your browser with robots and it's kind of",
+    "start": 241
+  },
+  {
+    "content": "badass and I'll show you a demo about this later",
+    "start": 244
+  },
+  {
+    "content": "anyway and I found me even though it's really interesting in a lot of my talks",
+    "start": 247
+  },
+  {
+    "content": "I try to teach you how to fix the specific problems my WebP on my wife",
+    "start": 252
+  },
+  {
+    "content": "wants are really slow so you know I need to make them faster you're not using",
+    "start": 255
+  },
+  {
+    "content": "enough web components on the page you need to use more but in this talk I want",
+    "start": 259
+  },
+  {
+    "content": "to teach you how to be more like me which is the world's Lee",
+    "start": 263
+  },
+  {
+    "content": "easiest developer if I can just use somebody else's product I'm absolutely",
+    "start": 265
+  },
+  {
+    "content": "gonna do that the reason why I'm here it's because the moment mental if I came",
+    "start": 269
+  },
+  {
+    "content": "out I was like excellent I never need to do anything again this is perfect for my",
+    "start": 273
+  },
+  {
+    "content": "life in this idea of laziness actually started from a very good place in",
+    "start": 277
+  },
+  {
+    "content": "polymer we used to have this motto called do lesson be lazy and what it",
+    "start": 281
+  },
+  {
+    "content": "meant is that you should never load our resource unless you actually need it",
+    "start": 284
+  },
+  {
+    "content": "don't load a component don't load a script don't load anything unless the",
+    "start": 288
+  },
+  {
+    "content": "user actually requests it because that's how your application becomes really",
+    "start": 291
+  },
+  {
+    "content": "bloated and slow so unless a user needs it don't give it to them and then you",
+    "start": 295
+  },
+  {
+    "content": "can extend this like Filas off like you know don't use a library or a pattern",
+    "start": 299
+  },
+  {
+    "content": "unless you actually need it if your application today only has one route",
+    "start": 303
+  },
+  {
+    "content": "don't install a router because like a year from now future you might need a",
+    "start": 306
+  },
+  {
+    "content": "second round just wait until you're there and then sort of do that this",
+    "start": 310
+  },
+  {
+    "content": "makes that decision but then I've taken it as a life mantra and it's like don't",
+    "start": 314
+  },
+  {
+    "content": "do anything unless you're really need why would I do extra work that nobody",
+    "start": 318
+  },
+  {
+    "content": "cares about I could nap instead I love nothing more than napping and this is",
+    "start": 322
+  },
+  {
+    "content": "exactly how I build apps I try to like build them in the simplest way possible",
+    "start": 326
+  },
+  {
+    "content": "so that I don't have to do any of the sex extra work and this is kind of what",
+    "start": 329
+  },
+  {
+    "content": "this talk is about all of like the little tiny shortcuts you can take when",
+    "start": 334
+  },
+  {
+    "content": "building an app so that you get like more free time to work on amazing",
+    "start": 337
+  },
+  {
+    "content": "projects like in October so this is what an app looks like this is me the",
+    "start": 341
+  },
+  {
+    "content": "developer I put something out there that is my user he's in a canoe all users",
+    "start": 345
+  },
+  {
+    "content": "should be in a canoe I want to build the kind of app where a user in the middle",
+    "start": 349
+  },
+  {
+    "content": "of nature instead of looking at nature goes I got to play with this thing right",
+    "start": 352
+  },
+  {
+    "content": "now and this app would be anything it could",
+    "start": 356
+  },
+  {
+    "content": "be like a dumb music sequencer that I built or it can be like a toast profesh",
+    "start": 359
+  },
+  {
+    "content": "the Smashing Magazine website a website that you give money to so it must be",
+    "start": 364
+  },
+  {
+    "content": "professional and it might surprise you that both this and my ceiling sequence",
+    "start": 368
+  },
+  {
+    "content": "Oh silly sequencer are basically the same site they're both static sites just",
+    "start": 372
+  },
+  {
+    "content": "one of them gives a useful content and the other one gives you drum patterns",
+    "start": 377
+  },
+  {
+    "content": "and behind-the-scenes all of these sites sort of looks very similar there's like",
+    "start": 381
+  },
+  {
+    "content": "a bunch of HTML and CSS which I like to call pixels because that's what they are",
+    "start": 385
+  },
+  {
+    "content": "to me you write some JavaScript on top of that they live somewhere on somebody",
+    "start": 389
+  },
+  {
+    "content": "is get server because we don't sort code on a floppy disk anymore that's a joke",
+    "start": 393
+  },
+  {
+    "content": "for the older and and then you have to test it somehow",
+    "start": 398
+  },
+  {
+    "content": "we don't like testing in production and it has to leave on a server and a load",
+    "start": 401
+  },
+  {
+    "content": "balancer because me and my friend from like Japan can't possibly hit the same",
+    "start": 404
+  },
+  {
+    "content": "server but I only care about this part this is the part that I like and because",
+    "start": 408
+  },
+  {
+    "content": "that's what I do I'm a friend and engineer the this is also called the jam",
+    "start": 415
+  },
+  {
+    "content": "stack the stack of jams you're gonna see this around a lot there's actual stacks",
+    "start": 419
+  },
+  {
+    "content": "of jam outside so this is biggest victory of my life and in this talk I'm",
+    "start": 423
+  },
+  {
+    "content": "not even going to talk about the JavaScript bits like the JavaScript",
+    "start": 430
+  },
+  {
+    "content": "complexity in a gem stack app could be huge right because you can have any",
+    "start": 433
+  },
+  {
+    "content": "framework you want any library you want you can like do thousands and thousands",
+    "start": 437
+  },
+  {
+    "content": "of lines of code in there but we're not even talking about cuz the rest of it is",
+    "start": 441
+  },
+  {
+    "content": "really complicated this get in CI server it's kind of",
+    "start": 445
+  },
+  {
+    "content": "complicated we take github for granted but like remember before github was",
+    "start": 449
+  },
+  {
+    "content": "there it was kind of a pain in the ass and we all had subversion under our",
+    "start": 452
+  },
+  {
+    "content": "desks and when that's bent down whoa that was a good time and then it lives",
+    "start": 455
+  },
+  {
+    "content": "on a server and here honestly I have no idea what happens I understand all of my",
+    "start": 460
+  },
+  {
+    "content": "code has to obviously live in a server but if I had to maintain that I've been",
+    "start": 465
+  },
+  {
+    "content": "screwed because there is like you're maintaining a whole different computer",
+    "start": 469
+  },
+  {
+    "content": "I'm basically struggling with my Mac to like keep it up-to-date all the time but",
+    "start": 473
+  },
+  {
+    "content": "if I had to update servers and databases because that's what happens behind the",
+    "start": 476
+  },
+  {
+    "content": "screen there's like your hosting provider and there's like databases you",
+    "start": 480
+  },
+  {
+    "content": "have to apply and like databases have security concerns you have to like apply",
+    "start": 484
+  },
+  {
+    "content": "security patches to them or else the teenagers are gonna hack your SQL is I'm",
+    "start": 487
+  },
+  {
+    "content": "gonna steal all of your secrets that's what teenagers do don't trust them they",
+    "start": 491
+  },
+  {
+    "content": "grew up on the internet and there's caching and of course this is an N right",
+    "start": 495
+  },
+  {
+    "content": "because you can test in production there's the meme that told you you're",
+    "start": 499
+  },
+  {
+    "content": "not allowed to test in production so there's staging environments for this",
+    "start": 502
+  },
+  {
+    "content": "and you have to do all of this setup over and over again or your UI and your",
+    "start": 506
+  },
+  {
+    "content": "staging or wherever you want and this is an absolute nightmare I don't have time",
+    "start": 509
+  },
+  {
+    "content": "for this I have to make music on the Internet",
+    "start": 513
+  },
+  {
+    "content": "Frank Tober every freaking day I'm not gonna update my servers every day tragic",
+    "start": 515
+  },
+  {
+    "content": "life and all of this is behind that like little tiny box that I just call it",
+    "start": 520
+  },
+  {
+    "content": "server and I don't know how to do any of that and the problem with this diagram",
+    "start": 525
+  },
+  {
+    "content": "is that it's really skewed towards the left hand side",
+    "start": 530
+  },
+  {
+    "content": "I only care about the pixel pixels the user is absolutely only care about the",
+    "start": 532
+  },
+  {
+    "content": "pixels they don't care about your hardships you know putting reacts to",
+    "start": 537
+  },
+  {
+    "content": "work on your site they don't give a they just want to like see the pretty",
+    "start": 540
+  },
+  {
+    "content": "thing and at most interact with it and give you money but the problem is all of",
+    "start": 543
+  },
+  {
+    "content": "the work is actually on this other side this is really complicated and somebody",
+    "start": 547
+  },
+  {
+    "content": "still needs to do it and there has to be an entire team to do it look at github",
+    "start": 552
+  },
+  {
+    "content": "get up is an enormous company that god bless him got a card for four billion",
+    "start": 557
+  },
+  {
+    "content": "dollars they have hundreds of people working ops and last week they had an",
+    "start": 560
+  },
+  {
+    "content": "outage for 24 hours because one of the databases fell over if their entire team",
+    "start": 563
+  },
+  {
+    "content": "had 24 hours to deal with it with it can you imagine like me and my cat",
+    "start": 567
+  },
+  {
+    "content": "having to fix our database problems it would take like four months and I have",
+    "start": 572
+  },
+  {
+    "content": "the whole application took like one day to write or four months and I have to",
+    "start": 576
+  },
+  {
+    "content": "like maintain every day so there's no chance a small company or a small team",
+    "start": 579
+  },
+  {
+    "content": "or like a person who has an idea for a product it's any chance to maintain any",
+    "start": 584
+  },
+  {
+    "content": "of this you have to hire teams you have to copy bash commands from Stack",
+    "start": 588
+  },
+  {
+    "content": "Overflow I'm not gonna do that I don't as a user of your toast professor up",
+    "start": 591
+  },
+  {
+    "content": "site I really don't want to know what bash commands you you've pasted your",
+    "start": 596
+  },
+  {
+    "content": "script and your server and the course of the problem here is that the more",
+    "start": 599
+  },
+  {
+    "content": "complex your setup is the more likely is that you're gonna break it it's not a",
+    "start": 603
+  },
+  {
+    "content": "question of if you're gonna break it it's an absolute question of when you're",
+    "start": 607
+  },
+  {
+    "content": "gonna break it and then who's gonna deal with this",
+    "start": 610
+  },
+  {
+    "content": "breakage is gonna be you the person who was really good at styling HTML or he's",
+    "start": 612
+  },
+  {
+    "content": "gonna be a person who's literally their entire job is to look at an SQL database",
+    "start": 617
+  },
+  {
+    "content": "failing and be like I know exactly what that is it's like a weird SQL er you",
+    "start": 620
+  },
+  {
+    "content": "can't be an expert on all of these things you're most gonna be slightly",
+    "start": 625
+  },
+  {
+    "content": "below average at all of these things if you try to like distribute your",
+    "start": 628
+  },
+  {
+    "content": "attention to everything and the opposite of this is really true the less complex",
+    "start": 631
+  },
+  {
+    "content": "your setup is the more you can deliver if you can just focus on one thing for a",
+    "start": 636
+  },
+  {
+    "content": "hundred percent of your time that one thing is gonna be badass and in the case",
+    "start": 640
+  },
+  {
+    "content": "of an app that the user uses that thing is you know the geums the stack of jams",
+    "start": 644
+  },
+  {
+    "content": "because that's what they see so that's that's what that's what this talk is",
+    "start": 650
+  },
+  {
+    "content": "about why what if we treated every single thing that we built as a static",
+    "start": 654
+  },
+  {
+    "content": "site and we did away with that yellow part that yellow part is somebody else's",
+    "start": 658
+  },
+  {
+    "content": "problem it's a team that I'm gonna give them seven dollars a month so they're",
+    "start": 661
+  },
+  {
+    "content": "gonna be great because everything is cheap",
+    "start": 664
+  },
+  {
+    "content": "nowadays maybe it's even free because it's 2018 it's wonderful but could we",
+    "start": 666
+  },
+  {
+    "content": "actually do this could we take all of the problems that we have when we build",
+    "start": 671
+  },
+  {
+    "content": "an app and can we make it into a static site and the answer is pretty much yeah",
+    "start": 675
+  },
+  {
+    "content": "kind of but first I disclaimer I hom list all the possible options and all",
+    "start": 679
+  },
+  {
+    "content": "the possible solutions I'm just gonna mention some I've used before and they",
+    "start": 684
+  },
+  {
+    "content": "may not be the ones you've used before and all of that is fine just please",
+    "start": 687
+  },
+  {
+    "content": "don't tell me about it on Twitter because I really don't care there's",
+    "start": 690
+  },
+  {
+    "content": "thousands of cloud providers out there you like some of them I like some of",
+    "start": 694
+  },
+  {
+    "content": "them the reason why I like them is because they have like a cats and cute",
+    "start": 699
+  },
+  {
+    "content": "pixels and images on it you like them because they're fast I don't know we",
+    "start": 702
+  },
+  {
+    "content": "have different opinions pick the one you like it's like you know tastes of jam we",
+    "start": 706
+  },
+  {
+    "content": "all we don't all like who liked that joke really we like different jams also",
+    "start": 712
+  },
+  {
+    "content": "and this is actually super important this will obviously not work for",
+    "start": 719
+  },
+  {
+    "content": "everything not every single setup is a successful static site you might have",
+    "start": 723
+  },
+  {
+    "content": "had this like I don't know WordPress install that you've like been grooming",
+    "start": 728
+  },
+  {
+    "content": "for the last five years and it works really well and you don't want to break",
+    "start": 731
+  },
+  {
+    "content": "it don't keep your keep your WordPress",
+    "start": 734
+  },
+  {
+    "content": "server it's gonna be great it's working great as it is now you might I don't",
+    "start": 737
+  },
+  {
+    "content": "know be Morgan Stanley and you're running COBOL code code that somebody",
+    "start": 740
+  },
+  {
+    "content": "wrote in the 80 is that's just never gonna run in the cloud keep your servers",
+    "start": 743
+  },
+  {
+    "content": "you're doing great you might be like you might literally be Ned lava you're like",
+    "start": 746
+  },
+  {
+    "content": "providing cloud solutions for other people you need your own servers great",
+    "start": 750
+  },
+  {
+    "content": "but for everybody else if you're like today and you're starting a new product",
+    "start": 753
+  },
+  {
+    "content": "and it isn't like a cloud provider product there's like a good 99 percent",
+    "start": 757
+  },
+  {
+    "content": "chance that you're the thing that you're envisioning is a static site and the",
+    "start": 761
+  },
+  {
+    "content": "reason why you're not looking at it is because to you the word static is bad",
+    "start": 764
+  },
+  {
+    "content": "it's like it doesn't do any I looked it up on the void of the conference on",
+    "start": 768
+  },
+  {
+    "content": "Wikipedia and it's like a static site is a site that I surf from the server and",
+    "start": 771
+  },
+  {
+    "content": "it has nothing dynamic like JavaScript I was like what no everything is John was",
+    "start": 775
+  },
+  {
+    "content": "good right he's me of course is dynamic everything's a static site",
+    "start": 779
+  },
+  {
+    "content": "anyway so and this is like a David Letterman rule for reasons why I think",
+    "start": 782
+  },
+  {
+    "content": "you think you need a server for what probably don't number one to host your",
+    "start": 787
+  },
+  {
+    "content": "app this is the weakest of takes literally everybody wants to host her",
+    "start": 792
+  },
+  {
+    "content": "app for free to destroy your data and real problem if your application is more",
+    "start": 795
+  },
+  {
+    "content": "than a toy project it probably has things to store that are of importance",
+    "start": 800
+  },
+  {
+    "content": "and it wants to remember them later this usually has to happen somewhere can this",
+    "start": 803
+  },
+  {
+    "content": "be done in the cloud most of the time yes three you need to talk to it at some",
+    "start": 808
+  },
+  {
+    "content": "point in the life of a website it gets a little bit lonely and it needs to talk",
+    "start": 814
+  },
+  {
+    "content": "to somebody and it's not really to the users because they talk back so it's",
+    "start": 818
+  },
+  {
+    "content": "like a back end maybe needs to submit a form maybe needs to talk to somebody's",
+    "start": 822
+  },
+  {
+    "content": "API does this need to be on a server or can it be done in the cloud most of the",
+    "start": 825
+  },
+  {
+    "content": "time again it can be in a cloud and finally because you think the browser",
+    "start": 830
+  },
+  {
+    "content": "can't do it and this is my favorite section because I get to show you demos",
+    "start": 834
+  },
+  {
+    "content": "of like really badass the browser can do so if your app is also badass",
+    "start": 838
+  },
+  {
+    "content": "your browser can do it it's gonna be really great and the point of the demos",
+    "start": 843
+  },
+  {
+    "content": "that I'm going to show you is that all of them are static they're like",
+    "start": 847
+  },
+  {
+    "content": "absolutely just HTML and JavaScript they don't even connect to any like",
+    "start": 849
+  },
+  {
+    "content": "cloud functions or anything so imagine how powerful your website could be if it",
+    "start": 852
+  },
+  {
+    "content": "also did extra cloud stuff so let's go through all of those four sections",
+    "start": 856
+  },
+  {
+    "content": "number one hosting really boring everybody wants to do it",
+    "start": 860
+  },
+  {
+    "content": "here is like all of the providers that I could put on the screen there's like 700",
+    "start": 863
+  },
+  {
+    "content": "more github firebase mental vws as your glitch value cloud anybody a Google",
+    "start": 866
+  },
+  {
+    "content": "cloud and a billion others and all of them do everything for you they give you",
+    "start": 873
+  },
+  {
+    "content": "HTTP and redirects and certificates and like some of them give you custom domain",
+    "start": 877
+  },
+  {
+    "content": "names some of them give you funny randomly generated names which I might",
+    "start": 882
+  },
+  {
+    "content": "argue is better than whatever name you had in mind which one you pick here is a",
+    "start": 885
+  },
+  {
+    "content": "religious matter I have no advice for you other than if you need other",
+    "start": 890
+  },
+  {
+    "content": "features pick the provider that gives you the other features since everybody",
+    "start": 893
+  },
+  {
+    "content": "gives you this one this is like a barrier table stakes for the internet",
+    "start": 898
+  },
+  {
+    "content": "hosting your if you need something like a pre deploy script to a little",
+    "start": 901
+  },
+  {
+    "content": "script that lives in between when you submit your code and when it like goes",
+    "start": 906
+  },
+  {
+    "content": "to the user these are my favorite this are my favorites here there's probably",
+    "start": 909
+  },
+  {
+    "content": "more but again I wasn't gonna research every single cloud provider I only had",
+    "start": 913
+  },
+  {
+    "content": "like a week to write this talk and in this script what I what you should do is",
+    "start": 916
+  },
+  {
+    "content": "like bundle your application don't serve on minified code to your user install a",
+    "start": 921
+  },
+  {
+    "content": "serviceworker there's a lot of like tools like work box that install a",
+    "start": 925
+  },
+  {
+    "content": "service for the serviceworker for you automatically",
+    "start": 928
+  },
+  {
+    "content": "all of and you in an NPM script which means you",
+    "start": 930
+  },
+  {
+    "content": "can do it and one of these providers my favorite here is neckla because you can",
+    "start": 933
+  },
+  {
+    "content": "do you can set up all of this in their UI you don't have to install a weird CLI",
+    "start": 938
+  },
+  {
+    "content": "and any life or I don't have to install your weird CLI is my favorite kind of",
+    "start": 942
+  },
+  {
+    "content": "life so this is Asus so that one's easy those are about databasing or the act of",
+    "start": 947
+  },
+  {
+    "content": "having a database as defined in the Webster dictionary so here again the",
+    "start": 953
+  },
+  {
+    "content": "decision is really religious because not only is which cloud provider you pick",
+    "start": 958
+  },
+  {
+    "content": "but like what kind of database you like I like none of them if you like SQL",
+    "start": 962
+  },
+  {
+    "content": "there's Azure in the cloud if you like no SQL there's firebase in the cloud if",
+    "start": 967
+  },
+  {
+    "content": "your data looks like a spreadsheet air table is really dope Jessica Lauren",
+    "start": 973
+  },
+  {
+    "content": "wrote cheat C which is literally like a Google Excel file where you put all your",
+    "start": 977
+  },
+  {
+    "content": "data there why not do that I don't know it's great I've used it all it if you",
+    "start": 982
+  },
+  {
+    "content": "have a different club provider I'm sure sorry a different like flavor that you",
+    "start": 986
+  },
+  {
+    "content": "want in your database I'm sure it has a cloud option",
+    "start": 990
+  },
+  {
+    "content": "my favorite databases is the what SQL it's local storage is where I like to",
+    "start": 993
+  },
+  {
+    "content": "hold all of my data that is a joke don't put your secrets in the browser cache I",
+    "start": 998
+  },
+  {
+    "content": "should just goes away all the time it's not secure in any case pick whatever you",
+    "start": 1003
+  },
+  {
+    "content": "want there's a cloud provider out there just needing a database isn't a reason",
+    "start": 1008
+  },
+  {
+    "content": "to be like well I'm just gonna set up my own server it isn't to talk to it is a",
+    "start": 1011
+  },
+  {
+    "content": "very good problem like you need to submit forms historically the way we've",
+    "start": 1017
+  },
+  {
+    "content": "done you know front-end development is that your client has to submit a form we",
+    "start": 1021
+  },
+  {
+    "content": "absolutely use them whenever we want to collect money from users so forums are",
+    "start": 1025
+  },
+  {
+    "content": "real part of our life because we want to collect money from",
+    "start": 1029
+  },
+  {
+    "content": "everyone you could be those people you could have a forum but as you saw I",
+    "start": 1031
+  },
+  {
+    "content": "think you saw maybe a bunch of these cloud providers already have for of",
+    "start": 1037
+  },
+  {
+    "content": "integration so these are the ones that I've checked with and I'm not going to",
+    "start": 1041
+  },
+  {
+    "content": "show you code because the code is very personal to how that cloud provider",
+    "start": 1046
+  },
+  {
+    "content": "decides to implement it they all have tutorials this is a metal fire tutorial",
+    "start": 1050
+  },
+  {
+    "content": "where the punchline is you click some buttons give them nine dollars and then",
+    "start": 1054
+  },
+  {
+    "content": "put an attribute on your form and then magically all of your data goes to the",
+    "start": 1058
+  },
+  {
+    "content": "right place and this is really great because again you haven't had to set up",
+    "start": 1061
+  },
+  {
+    "content": "anything you had to like design your forum and then the data just magically",
+    "start": 1065
+  },
+  {
+    "content": "goes to the right place which is exactly what I want when I build an application",
+    "start": 1069
+  },
+  {
+    "content": "the other thing you might have to do that's a little bit harder is to do a",
+    "start": 1073
+  },
+  {
+    "content": "pinkie swear that the user is who they say they they are and obviously we can",
+    "start": 1077
+  },
+  {
+    "content": "do this in the client side because if you store everybody's passwords on the",
+    "start": 1082
+  },
+  {
+    "content": "client then you know the teenagers can read all the passwords so this is why",
+    "start": 1085
+  },
+  {
+    "content": "we've done servers because teenagers can't read servers they can only read",
+    "start": 1089
+  },
+  {
+    "content": "browsers but even that holding people's usernames and passwords is a little",
+    "start": 1092
+  },
+  {
+    "content": "sketchy to me so I really like this idea where you do this federated",
+    "start": 1096
+  },
+  {
+    "content": "authentication where somebody has to go to Google and Google goes I think he's",
+    "start": 1100
+  },
+  {
+    "content": "where Monica is Monica and then your application goes sweet I think this is",
+    "start": 1104
+  },
+  {
+    "content": "Monica and again a lot of these cloud providers already do this for you so",
+    "start": 1107
+  },
+  {
+    "content": "then you don't even have to write this who here has written Oh F code before",
+    "start": 1112
+  },
+  {
+    "content": "yeah it's this that's I was correct it is not great fam so other people do this",
+    "start": 1116
+  },
+  {
+    "content": "for you and it is awesome this is how you set it up for example on a firebase",
+    "start": 1123
+  },
+  {
+    "content": "it's literally like two clicks when you're like I want authenticate with",
+    "start": 1127
+  },
+  {
+    "content": "Google or a phone number and then they give you like a little snippet of",
+    "start": 1130
+  },
+  {
+    "content": "JavaScript people on your client side and then I don't know what happens",
+    "start": 1134
+  },
+  {
+    "content": "afterwards all I know it's my users authenticate and I have a token where",
+    "start": 1137
+  },
+  {
+    "content": "that token goes I don't know it's wonderful",
+    "start": 1141
+  },
+  {
+    "content": "so if you need to authenticate your users absolutely don't spin up a server",
+    "start": 1143
+  },
+  {
+    "content": "for this just use an already existing solution the other reason why you might",
+    "start": 1147
+  },
+  {
+    "content": "have to spin up a server actually write server code and this one is real it's to",
+    "start": 1152
+  },
+  {
+    "content": "do a cross origin ritual sacrifice and this this happens when your website is",
+    "start": 1157
+  },
+  {
+    "content": "trying to do a post request to somebody else's API that was written 473 years",
+    "start": 1164
+  },
+  {
+    "content": "ago and hasn't set up cores on it so it's not ready for your original",
+    "start": 1169
+  },
+  {
+    "content": "sacrifice and your browser understandably goes no I'm not gonna let",
+    "start": 1172
+  },
+  {
+    "content": "you send data to the sketchy-ass website what are you doing so you can do this so",
+    "start": 1177
+  },
+  {
+    "content": "normally we have like five lines of node where no one can obviously get the data",
+    "start": 1181
+  },
+  {
+    "content": "from the unsecured website why not and then it's just gonna return that data to",
+    "start": 1185
+  },
+  {
+    "content": "to your site and then everybody's happy and this can usually be like I roll",
+    "start": 1189
+  },
+  {
+    "content": "around all of this into like do the work there is a bunch of dirty work that the",
+    "start": 1194
+  },
+  {
+    "content": "browser doesn't want to do it sometimes this work has to happen before the the",
+    "start": 1198
+  },
+  {
+    "content": "browser actually gets it like maybe you want to like serve some conditional HTML",
+    "start": 1202
+  },
+  {
+    "content": "or something obviously needs to be like before it gets to the browser and for",
+    "start": 1205
+  },
+  {
+    "content": "this we usually spin up like note or go or Python or whatever your favorite",
+    "start": 1210
+  },
+  {
+    "content": "sicknesses and that still doesn't mean it has to be on a server because",
+    "start": 1215
+  },
+  {
+    "content": "serverless function functions are this magical thing that are basically like",
+    "start": 1219
+  },
+  {
+    "content": "little servers that live for you in the cloud they're incredibly poorly named",
+    "start": 1223
+  },
+  {
+    "content": "they are not server list by any means they just mean not on your server it's",
+    "start": 1227
+  },
+  {
+    "content": "on somebody else's server and they're like these zombie functions like little",
+    "start": 1232
+  },
+  {
+    "content": "bits of JavaScript where they just sort of stay asleep on your server and",
+    "start": 1236
+  },
+  {
+    "content": "whatever you need them you go you poke at them and you go hey bun-chan I need",
+    "start": 1240
+  },
+  {
+    "content": "you to do something and it wakes up does the work and then goes back to sleep",
+    "start": 1243
+  },
+  {
+    "content": "there's a whole bunch of providers for this there's cloud functions there's",
+    "start": 1247
+  },
+  {
+    "content": "metal file lambda functions there's a sir functions everybody is doing service",
+    "start": 1250
+  },
+  {
+    "content": "functions today how you write them again depends on where you're gonna use them",
+    "start": 1254
+  },
+  {
+    "content": "and what you want them to do and there's entire talks about the Sarah Dresner has",
+    "start": 1258
+  },
+  {
+    "content": "a great talk about using service functions in view which I recommend",
+    "start": 1262
+  },
+  {
+    "content": "watching it and all of her other talks cuz she's fantastic",
+    "start": 1266
+  },
+  {
+    "content": "I also found is good every phone call awesome less service which has a whole",
+    "start": 1269
+  },
+  {
+    "content": "bunch of solutions and resources and services for no back-end applications",
+    "start": 1273
+  },
+  {
+    "content": "and it's huge it's like it has so much information and has links to like",
+    "start": 1279
+  },
+  {
+    "content": "courses and providers so if you have any questions about like can I do this with",
+    "start": 1283
+  },
+  {
+    "content": "their server list function I would absolutely start here and he has told",
+    "start": 1287
+  },
+  {
+    "content": "probably yes there is also server this library dog net with shared Rosner",
+    "start": 1290
+  },
+  {
+    "content": "launched recently which is a collection of like snippets for Azure surrealist",
+    "start": 1295
+  },
+  {
+    "content": "functions and there's things like you know text me when something happens or",
+    "start": 1299
+  },
+  {
+    "content": "track this UPS shipment and like put it on slack when it arrives and all of",
+    "start": 1305
+  },
+  {
+    "content": "those sorts of things in like a bunch of IOT integrations and they're really dope",
+    "start": 1309
+  },
+  {
+    "content": "so if you want to use any of them that's a great place for it",
+    "start": 1312
+  },
+  {
+    "content": "now serverless functions are amazing and eschewed use them for everything but",
+    "start": 1315
+  },
+  {
+    "content": "they don't actually work for everything for example if your function is gonna",
+    "start": 1320
+  },
+  {
+    "content": "take four minutes to scrape somebody's website your browser is not going to",
+    "start": 1323
+  },
+  {
+    "content": "maintain a format a long connection with this",
+    "start": 1328
+  },
+  {
+    "content": "like function it's gonna it's gonna give up and be like this is obviously timed",
+    "start": 1330
+  },
+  {
+    "content": "out I'm gonna do something else now so several eyes function might not work in",
+    "start": 1333
+  },
+  {
+    "content": "that case you might also know working the case where you're building like a",
+    "start": 1337
+  },
+  {
+    "content": "real-time game and you need to ping it all the time and be really fast it might",
+    "start": 1340
+  },
+  {
+    "content": "not actually be really fast if it's asleep cause you have to wake it up so",
+    "start": 1344
+  },
+  {
+    "content": "it's not gonna work in that case either and this is the point where we actually",
+    "start": 1347
+  },
+  {
+    "content": "have to write the server code and that's fine we can still do this on somebody",
+    "start": 1350
+  },
+  {
+    "content": "else's server if you really really really need to write those five lines of",
+    "start": 1354
+  },
+  {
+    "content": "note or whatever just use somebody else's solution put it on Heroku or",
+    "start": 1358
+  },
+  {
+    "content": "digitalocean or App Engine where somebody else maintains your actual",
+    "start": 1362
+  },
+  {
+    "content": "server it makes the security updates make sure that it's behind a load",
+    "start": 1367
+  },
+  {
+    "content": "balancer probably you know has backups so that when you accidentally delete",
+    "start": 1370
+  },
+  {
+    "content": "your server you can somehow go back in time and fix it so there's an actual",
+    "start": 1374
+  },
+  {
+    "content": "solution for this but please note that this was like at the bottom of my",
+    "start": 1378
+  },
+  {
+    "content": "interest level here like we went for like 14 other problems we had when we",
+    "start": 1381
+  },
+  {
+    "content": "built a static site before we got to the part where like fine write your five",
+    "start": 1385
+  },
+  {
+    "content": "lines of Java JavaScript is gonna be great so when you're building your",
+    "start": 1388
+  },
+  {
+    "content": "static site pretty much any problem that you have we've already like addressed on",
+    "start": 1392
+  },
+  {
+    "content": "one way or another without you ever having to maintain your own server or",
+    "start": 1397
+  },
+  {
+    "content": "ever having to deal with any like infrastructure or hardware so that's",
+    "start": 1400
+  },
+  {
+    "content": "really awesome the only section that we have left is the fun section because the",
+    "start": 1405
+  },
+  {
+    "content": "browser can't do it and this is where I'm gonna fight you because I'm like the",
+    "start": 1409
+  },
+  {
+    "content": "biggest cheerleader for the web I used to work on Chrome as a chrome engineer",
+    "start": 1412
+  },
+  {
+    "content": "so I built the browser and then I worked on the web platform so I think that the",
+    "start": 1416
+  },
+  {
+    "content": "web platform can literally do everything and browsers can literally do everything",
+    "start": 1419
+  },
+  {
+    "content": "we build entire operating systems out of a browser we have like editors and",
+    "start": 1423
+  },
+  {
+    "content": "electron a platform to build other people's apps on top of a browser so I",
+    "start": 1428
+  },
+  {
+    "content": "think browsers have got you now and they're gonna be great so in this",
+    "start": 1432
+  },
+  {
+    "content": "section I'm gonna show you demos because I've bored you with like cloud providers",
+    "start": 1434
+  },
+  {
+    "content": "so I need you to like remember that I had a fun talk so you can tell everybody",
+    "start": 1438
+  },
+  {
+    "content": "about it but first I want to tell you about WebGL shaders because I'm a giant",
+    "start": 1442
+  },
+  {
+    "content": "dork and they're really really dope so this is a selfie that I think I took of",
+    "start": 1446
+  },
+  {
+    "content": "my CPU this morning and I say I think because I can't tell if it has 46 cores",
+    "start": 1451
+  },
+  {
+    "content": "I swear to god I can't figure it out and your cores are really happy and they're",
+    "start": 1455
+  },
+  {
+    "content": "really powerful and your CPU is there to like run long",
+    "start": 1458
+  },
+  {
+    "content": "things like wrong sequential tests it's really good at running Chrome and slack",
+    "start": 1463
+  },
+  {
+    "content": "and like Photoshop not all three of them at once and you can have multiple",
+    "start": 1467
+  },
+  {
+    "content": "threads on all of these CPU is not like too many like maybe ten on each so maybe",
+    "start": 1471
+  },
+  {
+    "content": "I can do like sixty things in parallel on my computer the more things I do in",
+    "start": 1475
+  },
+  {
+    "content": "parallel the slower it gets one of those threads is like permanently dedicated to",
+    "start": 1479
+  },
+  {
+    "content": "ship posting on Twitter so I can't really use it so this is really good for",
+    "start": 1483
+  },
+  {
+    "content": "like having powerful applications but turns out CPUs are really bad for",
+    "start": 1488
+  },
+  {
+    "content": "anything that has to do with graphics because when you're painting an entire",
+    "start": 1493
+  },
+  {
+    "content": "screen especially if it's a 3d scene you have to calculate the value of every",
+    "start": 1496
+  },
+  {
+    "content": "single pixel and the way you do this is a horrifying combination of matrices",
+    "start": 1500
+  },
+  {
+    "content": "where you do a lot of matrix math to be like well I have like this transform",
+    "start": 1504
+  },
+  {
+    "content": "that decides how far go into the into the the distance is this pixel and then",
+    "start": 1508
+  },
+  {
+    "content": "it has like some lights and some shadows you have to multiply all of these",
+    "start": 1513
+  },
+  {
+    "content": "matrices and on a CPU it's kind of hard because you have to queue a lot of this",
+    "start": 1516
+  },
+  {
+    "content": "math because you can't do all of it in parallel so it's really slow and a whole",
+    "start": 1520
+  },
+  {
+    "content": "bunch of smart people came up with GPUs which are mainly like thousands of",
+    "start": 1524
+  },
+  {
+    "content": "little tiny cores that are way less powerful than anything that's in a CPU",
+    "start": 1530
+  },
+  {
+    "content": "but because there's so many of them they can basically calculate all of the",
+    "start": 1534
+  },
+  {
+    "content": "things at once and that's why they're really fast so the more snow the more",
+    "start": 1537
+  },
+  {
+    "content": "GPUs you have the more of this parallelism you get from math so this is",
+    "start": 1540
+  },
+  {
+    "content": "how we get really badass games like destiny that like look better than you",
+    "start": 1544
+  },
+  {
+    "content": "know real life this is way better than whatever is happening in this room right",
+    "start": 1548
+  },
+  {
+    "content": "now really sorry everyone and in order to be able to run this you need like the",
+    "start": 1552
+  },
+  {
+    "content": "super beefed-up GPU computer not this baby this doesn't even install destiny",
+    "start": 1556
+  },
+  {
+    "content": "so we've had you views for a while but what people were like we kind of have",
+    "start": 1561
+  },
+  {
+    "content": "images on the web - could we maybe get some of this magic also and then we did",
+    "start": 1565
+  },
+  {
+    "content": "we have WebGL shaders so web GL shaders are still like normal shader is because",
+    "start": 1570
+  },
+  {
+    "content": "you write them in like GL language but they use the though web GI a P I a the",
+    "start": 1574
+  },
+  {
+    "content": "WebGL API so they can actually run on the web so you basically write very",
+    "start": 1579
+  },
+  {
+    "content": "similar code that can run both on her like beefed-up machine and on the GPUs",
+    "start": 1583
+  },
+  {
+    "content": "on the web the GPUs are any computer on the web so you can get awesome",
+    "start": 1587
+  },
+  {
+    "content": "experiences now on the web - this is a little",
+    "start": 1591
+  },
+  {
+    "content": "called out the goat where you're a little goat called out and then you go",
+    "start": 1594
+  },
+  {
+    "content": "on this adventure you're climbing a mountain you're gonna meet some sheep in",
+    "start": 1599
+  },
+  {
+    "content": "the in the next in the next screen you're finding yourself in your family",
+    "start": 1601
+  },
+  {
+    "content": "history and this looks beautiful this like looks almost as beautiful as like",
+    "start": 1606
+  },
+  {
+    "content": "the new Zelda game that I've been playing on this switch it has sounds it",
+    "start": 1609
+  },
+  {
+    "content": "has interaction and it's wonderful if you don't want a silly one a lot of the",
+    "start": 1613
+  },
+  {
+    "content": "game engines have been porting their engines to the web which is really",
+    "start": 1617
+  },
+  {
+    "content": "exciting this is a game built with unity3d",
+    "start": 1620
+  },
+  {
+    "content": "and the I only played whatever is in the demo here but basically I'm like",
+    "start": 1623
+  },
+  {
+    "content": "telekinesis and you're like it's a puzzle game and you shoots things",
+    "start": 1628
+  },
+  {
+    "content": "outwards and it's beautiful like if you showed me a video of this I'd be like",
+    "start": 1630
+  },
+  {
+    "content": "yeah how do I install it on Steam but you don't it's on the web it's just a",
+    "start": 1634
+  },
+  {
+    "content": "website it doesn't have any server bits it's literally just like HTML and",
+    "start": 1637
+  },
+  {
+    "content": "JavaScript that make this go and that's wonderful so WebGL is are really good at",
+    "start": 1641
+  },
+  {
+    "content": "matrix math which is why we get these like beautiful games but you know what",
+    "start": 1646
+  },
+  {
+    "content": "else is matrix math machine learning very exciting so tensorflow Jas is the",
+    "start": 1651
+  },
+  {
+    "content": "equivalent to tensorflow that tensorflow is a giant framework for writing machine",
+    "start": 1657
+  },
+  {
+    "content": "learning where it obstructs a lot of the nightmares that you actually have on",
+    "start": 1660
+  },
+  {
+    "content": "writing machine learning and like all of the tensor math and stuff like that so",
+    "start": 1664
+  },
+  {
+    "content": "doesn't flow Jas is that equivalent put on the web and it's almost as fast as",
+    "start": 1668
+  },
+  {
+    "content": "you know I thought the Python won or whatever but most importantly it's right",
+    "start": 1672
+  },
+  {
+    "content": "there in your website the user can use it as they're using your application",
+    "start": 1677
+  },
+  {
+    "content": "which is really exciting for example you can have a postman which is a library",
+    "start": 1681
+  },
+  {
+    "content": "from the tensorflow GS folds which this is real-time camera feed in the detects",
+    "start": 1686
+  },
+  {
+    "content": "skeletons which you can use for all sorts of things like making music with",
+    "start": 1691
+  },
+  {
+    "content": "your face so this is a new experiment that was made with Google it's called",
+    "start": 1696
+  },
+  {
+    "content": "creativity creative millet II and they have a whole bunch of different music",
+    "start": 1701
+  },
+  {
+    "content": "and art demos where the whole point is that you're not using traditional input",
+    "start": 1704
+  },
+  {
+    "content": "mechanism you use like your body to like touch different synthesizers you're",
+    "start": 1708
+  },
+  {
+    "content": "using like your face here and all of this is done you can play music live",
+    "start": 1713
+  },
+  {
+    "content": "because tensorflow jeaious is running live in your browser and it's doing all",
+    "start": 1716
+  },
+  {
+    "content": "of the machine learning abit in the browser this is a demo made by the",
+    "start": 1720
+  },
+  {
+    "content": "tensorflow team where it's doing person",
+    "start": 1724
+  },
+  {
+    "content": "segmentation using using that so it can basically tell where the person ends and",
+    "start": 1728
+  },
+  {
+    "content": "the background begins and this is how you can do things like portrait mode on",
+    "start": 1732
+  },
+  {
+    "content": "the web portrait mode with software it's not just on your phone you can just do",
+    "start": 1735
+  },
+  {
+    "content": "it on the web or like green screen dinosaurs in the background and you can",
+    "start": 1739
+  },
+  {
+    "content": "also make music and this is what I'm excited about this is what I work on so",
+    "start": 1744
+  },
+  {
+    "content": "this is an app that one of our community contributors taroko built with magenta",
+    "start": 1748
+  },
+  {
+    "content": "so magenta one of the things that we have we do both art and music but for",
+    "start": 1752
+  },
+  {
+    "content": "music we have all of these models that have looked a lot of real music and can",
+    "start": 1756
+  },
+  {
+    "content": "sort of create new music based on it so the robots will just make new songs that",
+    "start": 1761
+  },
+  {
+    "content": "they know sound like music because they know what music sounds like or they can",
+    "start": 1766
+  },
+  {
+    "content": "continue songs that you've made in this style that you've made them or they can",
+    "start": 1769
+  },
+  {
+    "content": "make just like interpolate between different songs and melodies and sort of",
+    "start": 1773
+  },
+  {
+    "content": "change the sounds so in this demo what taroko does is with Hort I can get",
+    "start": 1776
+  },
+  {
+    "content": "horizontal and vertically ever correctly so horizontally it's the same slightly",
+    "start": 1783
+  },
+  {
+    "content": "different melodies that change a little bit as you move and vertically it's the",
+    "start": 1788
+  },
+  {
+    "content": "same melody but it changes the key that it's in so what you get is this really",
+    "start": 1792
+  },
+  {
+    "content": "weird instrument where you can actually make music and it sounds beautiful and",
+    "start": 1796
+  },
+  {
+    "content": "this is a song that he made with this instrument",
+    "start": 1799
+  },
+  {
+    "content": "and all of the scores on glitch and you",
+    "start": 1810
+  },
+  {
+    "content": "can check it out and it's all just running in your browser and it's like",
+    "start": 1823
+  },
+  {
+    "content": "the static list of sites it's literally just HTML and JavaScript and it's",
+    "start": 1826
+  },
+  {
+    "content": "wonderful and it's powerful it's not static at all it's literally moving and",
+    "start": 1830
+  },
+  {
+    "content": "making music so I hope that I've convinced you that I like whatever you",
+    "start": 1834
+  },
+  {
+    "content": "think a static site is isn't actually what a static site is a static site is",
+    "start": 1839
+  },
+  {
+    "content": "just like a super badass site where you don't have to care about infrastructure",
+    "start": 1843
+  },
+  {
+    "content": "which is really awesome and if you take anything from this it's just be lazier",
+    "start": 1845
+  },
+  {
+    "content": "as a developer use somebody else's stuff you're using their libraries use their",
+    "start": 1850
+  },
+  {
+    "content": "entire infrastructure while while you're out there and make really awesome static",
+    "start": 1853
+  },
+  {
+    "content": "sites for everybody [Applause]",
+    "start": 1857
+  },
+  {
+    "content": "you",
+    "start": 1864
+  },
+  {
+    "content": "[Applause]",
+    "start": 1867
+  }
+]

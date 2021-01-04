@@ -1,0 +1,12 @@
+{
+  "description": "Get Ready for a jam packed hour of tasty web development treats. Wes Bos and Scott Tolinski recorded a live version of their weekly podcast including audience participation, web development trivia, terrible jokes and prizes to be won.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "id": "L3UokgyCr4A",
+  "position": 8,
+  "publishedAt": 1542606470,
+  "thumbnails": {
+    "default": "https://i.ytimg.com/vi/L3UokgyCr4A/sddefault.jpg",
+    "large": "https://i.ytimg.com/vi/L3UokgyCr4A/maxresdefault.jpg",
+    "small": "https://i.ytimg.com/vi/L3UokgyCr4A/mqdefault.jpg"
+  },
+  "title": "Scott Tolinski and Wes Bos - Syntax FM Live!"
+}

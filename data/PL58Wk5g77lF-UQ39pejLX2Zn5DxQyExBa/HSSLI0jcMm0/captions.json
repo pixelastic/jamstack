@@ -1,0 +1,1494 @@
+[
+  {
+    "content": "so one of the things that I was drawn to",
+    "start": 0
+  },
+  {
+    "content": "about the jam stack was decide to hear of abstraction discard decoupling notion",
+    "start": 7
+  },
+  {
+    "content": "I again onwards I don't wanna turn this call make this all about me but you know",
+    "start": 11
+  },
+  {
+    "content": "from my days at an agency I had lots of projects I worked on that would really",
+    "start": 17
+  },
+  {
+    "content": "really give me a headache you know we had at front-end development",
+    "start": 21
+  },
+  {
+    "content": "team who took a real pride in the kind of experience that they could create the",
+    "start": 25
+  },
+  {
+    "content": "performance all of those kind of good things and then at the point that we got",
+    "start": 28
+  },
+  {
+    "content": "to integrate it with a content management system or a same as platform",
+    "start": 32
+  },
+  {
+    "content": "that would how can I probably put it it would go to",
+    "start": 36
+  },
+  {
+    "content": "it's often the way that that would happen it was very very challenging to",
+    "start": 41
+  },
+  {
+    "content": "integrate you know the front-end code into a CMS platform then deliver it",
+    "start": 45
+  },
+  {
+    "content": "appropriately and it got to the extent you know I was so bothered by this that",
+    "start": 50
+  },
+  {
+    "content": "I ended up talking about it a lot and I I wrote a talk once called I can smell",
+    "start": 54
+  },
+  {
+    "content": "your CMS because you know you know we're kind of thickest it stinks someone",
+    "start": 58
+  },
+  {
+    "content": "shouted was that was that a comment on your own experience it wasn't my title",
+    "start": 63
+  },
+  {
+    "content": "list okay but yeah it certainly stinks you know we know about code smells and",
+    "start": 67
+  },
+  {
+    "content": "you know that we that they find their way through to the wrong places and that",
+    "start": 71
+  },
+  {
+    "content": "was very much my observation with content management systems they left",
+    "start": 75
+  },
+  {
+    "content": "they're kind of sticky fingerprints in the code that we we ended up shipping to",
+    "start": 78
+  },
+  {
+    "content": "the clients whether we wanted to or not so that's why I was delighted when like",
+    "start": 82
+  },
+  {
+    "content": "this headless CMS model started to gain popularity and I think contentful is",
+    "start": 85
+  },
+  {
+    "content": "just been at the forefront of that from kind of from the outset really and",
+    "start": 90
+  },
+  {
+    "content": "certainly made my life a lot a lot easier and it's a model that I've",
+    "start": 95
+  },
+  {
+    "content": "enjoyed since so you know it's been a little bit of a rocky road trying to",
+    "start": 99
+  },
+  {
+    "content": "convince clients along the way that this new model is is viable and I know that",
+    "start": 104
+  },
+  {
+    "content": "some of us have had success some of us are still kind of fighting that fight",
+    "start": 109
+  },
+  {
+    "content": "and trying to convince people to work that way and so I'm delighted that we've",
+    "start": 113
+  },
+  {
+    "content": "got Taylor Gilbert here from contentful who is director of their partnerships",
+    "start": 116
+  },
+  {
+    "content": "team there and so I'm sure has got some insights and some stories good and bad",
+    "start": 122
+  },
+  {
+    "content": "who can tell from along the way so please make him very very welcome is",
+    "start": 127
+  },
+  {
+    "content": "Taylor Gilbert blugh can we hear you guys hear me yeah",
+    "start": 131
+  },
+  {
+    "content": "I can hear myself how many of your conversations generally have some",
+    "start": 137
+  },
+  {
+    "content": "profanity when talking about your content management system yeah a good",
+    "start": 140
+  },
+  {
+    "content": "portion of our sales conversations go that way actually and it helps us",
+    "start": 145
+  },
+  {
+    "content": "actually speak with our customers and just everybody just level down for a",
+    "start": 148
+  },
+  {
+    "content": "second like we're all humans we hate our content management system so let's start",
+    "start": 151
+  },
+  {
+    "content": "talking cool so we're gonna get started here and what we're gonna be talking",
+    "start": 155
+  },
+  {
+    "content": "today about is three troost these are three observations that we've seen it",
+    "start": 161
+  },
+  {
+    "content": "contentful from our customers and our agencies and other conversations that",
+    "start": 167
+  },
+  {
+    "content": "we've had around the ecosystem that we're betting on and so we wanted to",
+    "start": 171
+  },
+  {
+    "content": "share that with you during this time together so first if you don't know who",
+    "start": 175
+  },
+  {
+    "content": "contentful is despite all of the very thankfull speakers mentioning contentful",
+    "start": 182
+  },
+  {
+    "content": "and speaking and relatively positive positively about us most folks know us",
+    "start": 186
+  },
+  {
+    "content": "as a headless content management system some of us will call us a decoupled",
+    "start": 192
+  },
+  {
+    "content": "content management system we'd like to call ourselves a Content infrastructure",
+    "start": 198
+  },
+  {
+    "content": "technology but basically what we are is a set of api's that enables developers",
+    "start": 202
+  },
+  {
+    "content": "to manage and deliver content and we also have a have a web application so",
+    "start": 206
+  },
+  {
+    "content": "our editors can go enter content manage content as well so that's a little bit",
+    "start": 213
+  },
+  {
+    "content": "about us in who we are and setting up for this conversation here today and",
+    "start": 218
+  },
+  {
+    "content": "meeting many of you I was thinking a lot about my conversations over the past six",
+    "start": 224
+  },
+  {
+    "content": "months within the ecosystem and what would be most valuable and I don't think",
+    "start": 230
+  },
+  {
+    "content": "that me coming up here I don't have any best practices for anybody necessarily",
+    "start": 236
+  },
+  {
+    "content": "you're gonna get a lot of best practices and ways in which to set things up over",
+    "start": 240
+  },
+  {
+    "content": "the next few days nor am I the most qualified person for that either",
+    "start": 244
+  },
+  {
+    "content": "but I was remembering a lot of my conversations and I've been traveling a",
+    "start": 248
+  },
+  {
+    "content": "lot too throughout North America and Europe I've been to Helsinki Amsterdam",
+    "start": 253
+  },
+  {
+    "content": "Stockholm London Berlin other places over there and then over here and",
+    "start": 258
+  },
+  {
+    "content": "York and Portland Seattle and Chicago I just got back from last week and rarely",
+    "start": 265
+  },
+  {
+    "content": "is it that I walk into the technical office of an agency and somebody on the",
+    "start": 271
+  },
+  {
+    "content": "other side says I don't think you guys are onto something I don't think that",
+    "start": 276
+  },
+  {
+    "content": "the world is gonna go that way now I've every single one of our",
+    "start": 281
+  },
+  {
+    "content": "conversations is the technical office of an organization is already saying yes we",
+    "start": 284
+  },
+  {
+    "content": "believe in jam stack yes we believe in decoupled bestand service architectures",
+    "start": 290
+  },
+  {
+    "content": "and we're starting to see this more and more but when we drill down into more of",
+    "start": 295
+  },
+  {
+    "content": "the conversation we'll ask well how many of these projects and are you doing or",
+    "start": 302
+  },
+  {
+    "content": "how many clients were talking about this on your end and it'll be like not a lot",
+    "start": 307
+  },
+  {
+    "content": "but I dunno if I can never do a set core project again I'd be a happy human right",
+    "start": 311
+  },
+  {
+    "content": "yeah we us too but this is the fundamental problem that we're seeing",
+    "start": 315
+  },
+  {
+    "content": "with a lot of a lot of our agencies and what they're struggling with is it's not",
+    "start": 321
+  },
+  {
+    "content": "necessarily that the technical office of of an agency is not exposed to these",
+    "start": 325
+  },
+  {
+    "content": "tools hasn't discovered these tools on their own it's more so that these tools",
+    "start": 331
+  },
+  {
+    "content": "haven't been communicated in an effective way to the business side of",
+    "start": 335
+  },
+  {
+    "content": "the organization of the agency and now Thomas said this earlier that's also on",
+    "start": 339
+  },
+  {
+    "content": "us as the vendors of these organizations to be able to communicate with some of",
+    "start": 343
+  },
+  {
+    "content": "the business folks and your organization's that can then communicate",
+    "start": 348
+  },
+  {
+    "content": "to your customers about the benefits here and a lot of us as you know and",
+    "start": 350
+  },
+  {
+    "content": "some of our marketing is here we're talking a lot to just developers and",
+    "start": 355
+  },
+  {
+    "content": "this doesn't really help us build this vision so anyway that's that's a little",
+    "start": 361
+  },
+  {
+    "content": "bit about how I came with some of the content and the ethos of which I'm",
+    "start": 365
+  },
+  {
+    "content": "coming to you guys today I'm coming from some experience of just meeting with a",
+    "start": 370
+  },
+  {
+    "content": "lot of different agencies on the road and how they've used our technology or",
+    "start": 373
+  },
+  {
+    "content": "talked about our technology with others and Jam stack and a lot of these modern",
+    "start": 377
+  },
+  {
+    "content": "frameworks or tools that they aspire to use in every digital engagement however",
+    "start": 382
+  },
+  {
+    "content": "might be belaboured by the tools that are already in place so forgive me we",
+    "start": 387
+  },
+  {
+    "content": "have to start this conversation out with with a person that is unfortunately",
+    "start": 393
+  },
+  {
+    "content": "every single conversation that that you're gonna have and that's with mr.",
+    "start": 398
+  },
+  {
+    "content": "Jeff you can't hardly have a conversation with a customer these days",
+    "start": 402
+  },
+  {
+    "content": "without referencing Jeff or something that he has done to your clients",
+    "start": 407
+  },
+  {
+    "content": "industry or or anything else but Jeff has a some really good insight a few",
+    "start": 411
+  },
+  {
+    "content": "years ago he was being interviewed and he was asked by a set of reporters you",
+    "start": 418
+  },
+  {
+    "content": "know what guidance do you have for entrepreneurs you know what should we",
+    "start": 423
+  },
+  {
+    "content": "build what's gonna change in the next ten years that we can rally around and",
+    "start": 427
+  },
+  {
+    "content": "build products around to then go capture and I got to read this quote because",
+    "start": 431
+  },
+  {
+    "content": "it's it's absolutely awesome and this was Jeff's response he said I very",
+    "start": 435
+  },
+  {
+    "content": "frequently get the question what's going to change in the next ten years and",
+    "start": 444
+  },
+  {
+    "content": "that's an interesting question it's a it's a common one but I almost never get",
+    "start": 449
+  },
+  {
+    "content": "the question what's not going to change in the next ten years and I submit to",
+    "start": 454
+  },
+  {
+    "content": "you that that second question is actually the more important of the two",
+    "start": 458
+  },
+  {
+    "content": "because you can build a business around the things that are stable in time in",
+    "start": 462
+  },
+  {
+    "content": "our retail business we know that customers want low prices and I know",
+    "start": 468
+  },
+  {
+    "content": "that's going to be true ten years from now unless any of you wants to pay more",
+    "start": 472
+  },
+  {
+    "content": "they want fast delivery they want bass selection and it's impossible to imagine",
+    "start": 476
+  },
+  {
+    "content": "a future ten years from now where a customer comes up to me and says hey",
+    "start": 482
+  },
+  {
+    "content": "Jeff I love Amazon I just wish the prices were a little higher or you know",
+    "start": 485
+  },
+  {
+    "content": "hey Jeff I love Amazon I just wish you deliver my products a little more slowly",
+    "start": 491
+  },
+  {
+    "content": "impossible Jeff says and so the effort we put into those things spinning up",
+    "start": 496
+  },
+  {
+    "content": "those that spinning those things up we know the energy that we put in into it",
+    "start": 500
+  },
+  {
+    "content": "today will be paying dividends for our customers ten years from now when you",
+    "start": 505
+  },
+  {
+    "content": "have some things that are true even over the long term you can afford to put a",
+    "start": 509
+  },
+  {
+    "content": "lot of energy into those things and I think this is a really cool theme that",
+    "start": 514
+  },
+  {
+    "content": "we're hearing a lot of our customers talk about because they're living in a",
+    "start": 519
+  },
+  {
+    "content": "different world today and we'll talk a little bit about that world in how we",
+    "start": 522
+  },
+  {
+    "content": "get into it so by the end of this time here in our conversations today my home",
+    "start": 526
+  },
+  {
+    "content": "and ambition is that you guys have the ability to then go internally to your",
+    "start": 532
+  },
+  {
+    "content": "business partners and others to say hey these are going to be some truths over",
+    "start": 537
+  },
+  {
+    "content": "the next three to five years that you either business people or customer or",
+    "start": 541
+  },
+  {
+    "content": "anybody else in the organization that we should bet on and start orienting our",
+    "start": 546
+  },
+  {
+    "content": "customers around and we believe that contentful that jam stack is one of",
+    "start": 551
+  },
+  {
+    "content": "those things we believe micro service based architectures are those things and",
+    "start": 555
+  },
+  {
+    "content": "the reason why we believe that is because a lot of our customers do so",
+    "start": 559
+  },
+  {
+    "content": "let's get into it so if we if we think about the framework that Jeff just gave",
+    "start": 564
+  },
+  {
+    "content": "us it is what is true what can we bet on to be a little bit cheeky we're gonna",
+    "start": 568
+  },
+  {
+    "content": "have a few truths and maybe one lie towards the end but that's what we're",
+    "start": 573
+  },
+  {
+    "content": "gonna get into as we set this up so as we continue the conversation around some",
+    "start": 578
+  },
+  {
+    "content": "of these truths we'll also discuss a little bit of the context here as well",
+    "start": 583
+  },
+  {
+    "content": "we're not working are we time for a break",
+    "start": 588
+  },
+  {
+    "content": "so what okay I wasn't the whole thing you guys want me to go back and just",
+    "start": 605
+  },
+  {
+    "content": "redo this let me it's very fun for a speaker to do all that stuff but yeah of",
+    "start": 612
+  },
+  {
+    "content": "course are you guys seeing the screen up there",
+    "start": 619
+  },
+  {
+    "content": "not so much huh I don't have any jokes I wish I did",
+    "start": 622
+  },
+  {
+    "content": "it's rule number one could be our chance to just start the Q&A early",
+    "start": 642
+  },
+  {
+    "content": "oh no this looks this looks cool okay I think we're again there we go it's got",
+    "start": 657
+  },
+  {
+    "content": "some music going yeah there we go we could always switch to another machine",
+    "start": 665
+  },
+  {
+    "content": "if we need yeah alright we might we might take a moment to switch to another",
+    "start": 674
+  },
+  {
+    "content": "another machine your honor fantastic every speakers dream right here on CNET",
+    "start": 680
+  },
+  {
+    "content": "for everybody that loves speaking here we are it's difficult to to pick up from",
+    "start": 685
+  },
+  {
+    "content": "exactly that point as well cause you're starting to talk about you know what",
+    "start": 693
+  },
+  {
+    "content": "things are going to be they're either staying the same I'm gonna be stable",
+    "start": 696
+  },
+  {
+    "content": "this is the irony is thick with the stability of the laptop can i grab",
+    "start": 700
+  },
+  {
+    "content": "another dongle from the michael a USC bc dongle in the house yeah Wow",
+    "start": 710
+  },
+  {
+    "content": "HDMI please amazing this is the community at work yeah this is the",
+    "start": 724
+  },
+  {
+    "content": "audience participation part of the program wow this is a whopper as well is",
+    "start": 732
+  },
+  {
+    "content": "this a was that a dongle was that an entire laptop you just handed up it was",
+    "start": 739
+  },
+  {
+    "content": "it was massive here we go thank you thank you so much I think",
+    "start": 742
+  },
+  {
+    "content": "we're I think we're in good shape I think we're in good shape now I just",
+    "start": 749
+  },
+  {
+    "content": "have to remember where we were yeah all right cool okay three truths 1 lie",
+    "start": 752
+  },
+  {
+    "content": "cheeky we're here all right so some context before we get into it and then",
+    "start": 757
+  },
+  {
+    "content": "we're going to speed it up so we can get to happy hour and the other good things",
+    "start": 764
+  },
+  {
+    "content": "some something that we talk about with our customers and that we're seeing and",
+    "start": 767
+  },
+  {
+    "content": "across the ecosystem and what we acknowledge is that the market has",
+    "start": 771
+  },
+  {
+    "content": "shifted gears and we're talking about a fundamental shift where hamburger",
+    "start": 775
+  },
+  {
+    "content": "companies need to become software companies where Jim companies need to",
+    "start": 779
+  },
+  {
+    "content": "become software companies where insurance companies and a function of or",
+    "start": 784
+  },
+  {
+    "content": "everything our customers want to do is a function of developing some kind of",
+    "start": 789
+  },
+  {
+    "content": "software whether that's entering new markets or generating new revenue",
+    "start": 792
+  },
+  {
+    "content": "streams or building brands or retaining customers over time it is a function of",
+    "start": 797
+  },
+  {
+    "content": "developing software and this is a massive shift in which our customers",
+    "start": 802
+  },
+  {
+    "content": "have acknowledged that they're coming to us and saying hey there's got to be a",
+    "start": 806
+  },
+  {
+    "content": "better way of developing software and when we talk about what keeps the the C",
+    "start": 810
+  },
+  {
+    "content": "suite up at night what our customers will generally generally say and what",
+    "start": 815
+  },
+  {
+    "content": "they'll get to is I just don't want to get you bird and I just don't want to",
+    "start": 819
+  },
+  {
+    "content": "get Amazon and we hear that you know over and over again and that's",
+    "start": 822
+  },
+  {
+    "content": "ultimately the fear of what comes down a lot of folks say there's a lot of",
+    "start": 825
+  },
+  {
+    "content": "opportunity but essentially nobody wants to get you bird which is when if",
+    "start": 829
+  },
+  {
+    "content": "somebody comes up out of your industry and completely flattens you within days",
+    "start": 833
+  },
+  {
+    "content": "and I was having a conversation a few years ago or a year ago now time flies",
+    "start": 837
+  },
+  {
+    "content": "and this organization they're they're a fitness company they sell videos and",
+    "start": 842
+  },
+  {
+    "content": "infomercials and they put a ton of marketing into those infomercials and",
+    "start": 848
+  },
+  {
+    "content": "they're kind of like a multi-level marketing scheme in my opinion but we",
+    "start": 851
+  },
+  {
+    "content": "were on the phone with them and discussing we're in the office talking",
+    "start": 856
+  },
+  {
+    "content": "about why they wanted to move to a modern architecture and they said well",
+    "start": 859
+  },
+  {
+    "content": "we have a competitor out there and our competitors are actually growing but",
+    "start": 865
+  },
+  {
+    "content": "there's one that we have our eye on that were we're terrified that in our heads",
+    "start": 869
+  },
+  {
+    "content": "we're thinking well it's got to be one of those gym companies or or something",
+    "start": 873
+  },
+  {
+    "content": "else and they they they were speaking very fearfully of this particular",
+    "start": 877
+  },
+  {
+    "content": "organization so it was ironic when they they pulled up a picture like this which",
+    "start": 880
+  },
+  {
+    "content": "was a yoga mat company like a yoga mat company there because you guys were",
+    "start": 884
+  },
+  {
+    "content": "peaceful right like talking yoga here and you know they said yes but this yoga",
+    "start": 887
+  },
+  {
+    "content": "retail mat company is now developing software and they are developing",
+    "start": 894
+  },
+  {
+    "content": "subscription-based services for a lot of their customers and they're eating away",
+    "start": 898
+  },
+  {
+    "content": "at our customer share and they're going to continue to grow over time they're",
+    "start": 902
+  },
+  {
+    "content": "mobile they're on Apple TV they have all of these different places in which",
+    "start": 905
+  },
+  {
+    "content": "they're interacting with customers and this was this is a really interesting",
+    "start": 910
+  },
+  {
+    "content": "theme of what we see and a lot of our customers that come to us they they kind",
+    "start": 914
+  },
+  {
+    "content": "of feel like this gentleman here that's sprinting away from a very fast cheetah",
+    "start": 918
+  },
+  {
+    "content": "and they're to compete but there's a lot of these",
+    "start": 922
+  },
+  {
+    "content": "different cheetahs chasing them down developing products and capturing",
+    "start": 926
+  },
+  {
+    "content": "customers very very quickly and this is just one of the best gifts on the",
+    "start": 929
+  },
+  {
+    "content": "internet so you have to weave it into every talk no matter what and so the",
+    "start": 934
+  },
+  {
+    "content": "first truth given that we understand this context that organizations are",
+    "start": 938
+  },
+  {
+    "content": "speeding up places in which they want to meet their customers retain customers or",
+    "start": 943
+  },
+  {
+    "content": "grow customers there's one truth that contentful that we're betting on as far",
+    "start": 948
+  },
+  {
+    "content": "as our products go and what some of you may be betting on too and it's actually",
+    "start": 952
+  },
+  {
+    "content": "something that Jeff said in the future we don't think anybody's gonna sit there",
+    "start": 957
+  },
+  {
+    "content": "and say hey I just wish you'd deliver slower I don't think you guys are gonna",
+    "start": 961
+  },
+  {
+    "content": "get customers that are gonna come to you and say you know what take your time on",
+    "start": 965
+  },
+  {
+    "content": "that build take whatever whatever you deliver we're happy I don't think that's",
+    "start": 969
+  },
+  {
+    "content": "the case and so what we're seeing is that speed is radically important for",
+    "start": 975
+  },
+  {
+    "content": "for all of our customers and why because they have to compete in this new world",
+    "start": 980
+  },
+  {
+    "content": "where there are interaction points all over the customer journey multi-layered",
+    "start": 984
+  },
+  {
+    "content": "ways to engage with brands etc etc and what's becoming more and more important",
+    "start": 990
+  },
+  {
+    "content": "is the adoption of a speed based architecture and I think that's what",
+    "start": 996
+  },
+  {
+    "content": "we're here here for as well when we're thinking about gem stack when we're",
+    "start": 1000
+  },
+  {
+    "content": "thinking about these modern tools we're enabling our customers not to have to do",
+    "start": 1004
+  },
+  {
+    "content": "all those you know versioning of different products maintain mate",
+    "start": 1008
+  },
+  {
+    "content": "maintenance security etc etc what our customers are really looking for speed",
+    "start": 1012
+  },
+  {
+    "content": "based architectures or speed oriented architectures as Lucas would say from",
+    "start": 1016
+  },
+  {
+    "content": "one of our customers tui and I think what's also important is as our",
+    "start": 1021
+  },
+  {
+    "content": "customers are continuing to adopt these different technologies and stack them",
+    "start": 1028
+  },
+  {
+    "content": "together stitch them together one of the main components that they're grading is",
+    "start": 1032
+  },
+  {
+    "content": "not necessarily revenue at all times but moreso organizational agility this is a",
+    "start": 1036
+  },
+  {
+    "content": "insurance company that we work with they're based in Australia but they have",
+    "start": 1042
+  },
+  {
+    "content": "they have a few offices here I believe but they're measuring success here in",
+    "start": 1046
+  },
+  {
+    "content": "the amount of deploys per month and they're they're also measuring success",
+    "start": 1050
+  },
+  {
+    "content": "in speed of deployments and the amount of",
+    "start": 1056
+  },
+  {
+    "content": "Spearman's they can run per year and I think this is a really interesting thing",
+    "start": 1058
+  },
+  {
+    "content": "that they weren't able to deal with their legacy tech stack before but this",
+    "start": 1061
+  },
+  {
+    "content": "is their measures of success in this new world of speed oriented architectures so",
+    "start": 1066
+  },
+  {
+    "content": "for you know hearing Thomas in terms of you know hey hey vendors hey agencies",
+    "start": 1070
+  },
+  {
+    "content": "how should we communicate with our customers and our business partners",
+    "start": 1077
+  },
+  {
+    "content": "within the agency I think we can dumb it down from hey shipping software to just",
+    "start": 1081
+  },
+  {
+    "content": "speed if you want to compete in this new world you need to have products that",
+    "start": 1086
+  },
+  {
+    "content": "increase your velocity and speed so speeds number one number two is another",
+    "start": 1089
+  },
+  {
+    "content": "truth that we're seeing is I don't think in five years anybody's gonna say yeah",
+    "start": 1095
+  },
+  {
+    "content": "those all-in-one solutions those monoliths they they helped me get the",
+    "start": 1100
+  },
+  {
+    "content": "job done more and more of our customers are coming to us and they're saying hey",
+    "start": 1104
+  },
+  {
+    "content": "we're we're actually putting together best-in-class stocks we don't believe in",
+    "start": 1108
+  },
+  {
+    "content": "these monolithic solutions anymore because of the pain that they've gone",
+    "start": 1112
+  },
+  {
+    "content": "through and I kind of bring this metaphor back up and when I think about",
+    "start": 1115
+  },
+  {
+    "content": "it I agree how many of you have been to one of these diners which serve",
+    "start": 1119
+  },
+  {
+    "content": "breakfast lunch dinner and late-night fun recently do they do any one of those",
+    "start": 1123
+  },
+  {
+    "content": "right you know you're kind of like are you good at breakfast or is it dinner",
+    "start": 1127
+  },
+  {
+    "content": "steaks or nobody really knows and what we're seeing is even the restaurant",
+    "start": 1131
+  },
+  {
+    "content": "industry and everywhere else is specialization I tried to do a Google",
+    "start": 1136
+  },
+  {
+    "content": "search for one of those restaurants that had multiple cuisines you know American",
+    "start": 1139
+  },
+  {
+    "content": "food Chinese food and Italian food and I remember seeing these in a past life but",
+    "start": 1145
+  },
+  {
+    "content": "you can't even get a search result for any of these restaurants anymore because",
+    "start": 1150
+  },
+  {
+    "content": "everything is so specialized and we're starting to see the same thing with",
+    "start": 1153
+  },
+  {
+    "content": "these software stacks that you guys are all working into why well because this",
+    "start": 1157
+  },
+  {
+    "content": "is what a modern-day developers actually going through some digital teams that we",
+    "start": 1163
+  },
+  {
+    "content": "work with their customers have they're all in one solution that they've",
+    "start": 1168
+  },
+  {
+    "content": "procured a number of years ago and they're on one single stack that is very",
+    "start": 1171
+  },
+  {
+    "content": "hard to work with and then either the agency or some of the folks that are our",
+    "start": 1177
+  },
+  {
+    "content": "customers are given a task that says hey why don't you go build this IKEA table",
+    "start": 1182
+  },
+  {
+    "content": "in three weeks by Thanksgiving and by the way here's your Swiss Army knife get",
+    "start": 1186
+  },
+  {
+    "content": "started and that Swiss Army knife doesn't",
+    "start": 1191
+  },
+  {
+    "content": "necessarily help this person build that table within three weeks and so many",
+    "start": 1193
+  },
+  {
+    "content": "more of our customers are moving to are rebuilding their core architectures of",
+    "start": 1200
+  },
+  {
+    "content": "the services that they have why so they can enable different business units and",
+    "start": 1206
+  },
+  {
+    "content": "teams to roll out digital products faster whether those be websites micro",
+    "start": 1210
+  },
+  {
+    "content": "sites web apps we've been seeing some customers rollout on new products out on",
+    "start": 1214
+  },
+  {
+    "content": "Alexa as well and I had to add this in here because I think it was pretty cool",
+    "start": 1220
+  },
+  {
+    "content": "when we were discussing this with one of our agency partners down in Australia",
+    "start": 1226
+  },
+  {
+    "content": "they said wow you guys are kind of like the Avengers you know coming together",
+    "start": 1229
+  },
+  {
+    "content": "with all these different software technologies to actually help our",
+    "start": 1234
+  },
+  {
+    "content": "development teams ship products faster we're like yeah actually that sounds",
+    "start": 1237
+  },
+  {
+    "content": "pretty cool we're gonna add that into our sales slides we're there so this is",
+    "start": 1241
+  },
+  {
+    "content": "this is from that had to give them a shout but going back to nib this is what",
+    "start": 1245
+  },
+  {
+    "content": "their world looks like as they were presenting some of their results and",
+    "start": 1249
+  },
+  {
+    "content": "you've seen the way in which they've modernized their software in services as",
+    "start": 1252
+  },
+  {
+    "content": "well and you know one piece here is that as we're communicating with both our",
+    "start": 1257
+  },
+  {
+    "content": "customers on the business side and our internal partners we need to be very",
+    "start": 1264
+  },
+  {
+    "content": "open in saying hey we are going to be building best-in-class stocks and we do",
+    "start": 1268
+  },
+  {
+    "content": "need to modernize our core architectures here for our customers so we can ship",
+    "start": 1272
+  },
+  {
+    "content": "products pages sites much faster but that might sound a little hairy that",
+    "start": 1275
+  },
+  {
+    "content": "might sound like a okay we have to do a big reap lat forming and procurement big",
+    "start": 1282
+  },
+  {
+    "content": "procurement process but we're also seeing an evolution in the way in which",
+    "start": 1287
+  },
+  {
+    "content": "customers are procuring these technologies and using them many of the",
+    "start": 1291
+  },
+  {
+    "content": "folks in this room natla PHY contentful and others included we enable our",
+    "start": 1294
+  },
+  {
+    "content": "customers to get started in phased rollout these things very very quickly",
+    "start": 1299
+  },
+  {
+    "content": "so you know one of the things that we enable at least it contentful for our",
+    "start": 1303
+  },
+  {
+    "content": "agencies our agency accounts so you guys can easily get started build prototypes",
+    "start": 1307
+  },
+  {
+    "content": "really fast for your customers and then gradually roll this out over time and I",
+    "start": 1311
+  },
+  {
+    "content": "think this is also a big evolution so when you're discussing with your with",
+    "start": 1317
+  },
+  {
+    "content": "either your client or some of the folks in your agency they're respond",
+    "start": 1321
+  },
+  {
+    "content": "to the RFPs etc etc it's really important to let them know hey we can",
+    "start": 1325
+  },
+  {
+    "content": "start small and grow over time we don't have to you know reap lat form",
+    "start": 1328
+  },
+  {
+    "content": "everything at this moment we can we can grow too and I think this is one of",
+    "start": 1332
+  },
+  {
+    "content": "those myths that we talked about earlier where you know customers believe they",
+    "start": 1336
+  },
+  {
+    "content": "have to put a big capital investment up right away to get started that's that's",
+    "start": 1341
+  },
+  {
+    "content": "not the case in this new modern world so next truth is I don't think in the next",
+    "start": 1345
+  },
+  {
+    "content": "five years anybody's gonna say limited and expensive talent pools sounds great",
+    "start": 1353
+  },
+  {
+    "content": "we have a lot of our customers actually coming to us and saying yeah actually",
+    "start": 1360
+  },
+  {
+    "content": "we're losing developers at a pretty significant rate because we're not using",
+    "start": 1365
+  },
+  {
+    "content": "modern tools anymore and not only that if we still have to maintain our site",
+    "start": 1369
+  },
+  {
+    "content": "whether it be on site cord OB or you know something some other stack those",
+    "start": 1373
+  },
+  {
+    "content": "resources are actually becoming much more expensive because they're almost",
+    "start": 1378
+  },
+  {
+    "content": "coming more and more extinct more of the development community is moving towards",
+    "start": 1381
+  },
+  {
+    "content": "modern products in front-end application and front-end technologies that that",
+    "start": 1385
+  },
+  {
+    "content": "we're just not using and set up for and so this has been a really big pain point",
+    "start": 1392
+  },
+  {
+    "content": "for a lot of our customers and they're thinking about their future in that",
+    "start": 1396
+  },
+  {
+    "content": "world with all those different screens and everything else and they're thinking",
+    "start": 1399
+  },
+  {
+    "content": "how am I going to attract talent how am I going to retain that talent if I don't",
+    "start": 1402
+  },
+  {
+    "content": "give you know developers and my team's tools that will make them successful or",
+    "start": 1406
+  },
+  {
+    "content": "will help them ship products on time how am I going to survive in this new world",
+    "start": 1410
+  },
+  {
+    "content": "and this is true for a lot of our customers this is this is a customer in",
+    "start": 1415
+  },
+  {
+    "content": "particular that is navigating and moving everything over to jam stack and this is",
+    "start": 1419
+  },
+  {
+    "content": "a not a small organization but that it was key on their mind it wasn't",
+    "start": 1424
+  },
+  {
+    "content": "necessarily the you know the cool features and everything else it was more",
+    "start": 1429
+  },
+  {
+    "content": "so on developer retention and talent so as you're talking to your customers and",
+    "start": 1433
+  },
+  {
+    "content": "teams and setting them up for the future you want to enable them to recruit",
+    "start": 1437
+  },
+  {
+    "content": "talent in the future as well and I think this is an important thing and many of",
+    "start": 1441
+  },
+  {
+    "content": "you may have responded to this or see it as well one of the key drivers right",
+    "start": 1445
+  },
+  {
+    "content": "under pay for developers assessing whether or not they should join an",
+    "start": 1451
+  },
+  {
+    "content": "organization are the tools and frameworks in which",
+    "start": 1455
+  },
+  {
+    "content": "that clients environment is actually set up and so if we're thinking about how do",
+    "start": 1458
+  },
+  {
+    "content": "we guide our clients to the future we actually need to create a little bit",
+    "start": 1463
+  },
+  {
+    "content": "more inertia around some of these modern tools and adoption as well why well a",
+    "start": 1466
+  },
+  {
+    "content": "lot of organizations are now capitalizing on this we have a few",
+    "start": 1473
+  },
+  {
+    "content": "customers tell us who's a telco up in Canada and then Scotiabank as well that",
+    "start": 1476
+  },
+  {
+    "content": "are competing for for talent up there and the way in which they're doing that",
+    "start": 1482
+  },
+  {
+    "content": "is they are bringing in new modern technologies that will create that will",
+    "start": 1486
+  },
+  {
+    "content": "bring in also the modern developer and some of the folks were the best skills",
+    "start": 1491
+  },
+  {
+    "content": "in the world and so as we are as we are kind of talking about these three",
+    "start": 1494
+  },
+  {
+    "content": "different themes here what we went over so far was some of the truths will be",
+    "start": 1500
+  },
+  {
+    "content": "speed is number one organisations will need to always deliver fast the second",
+    "start": 1505
+  },
+  {
+    "content": "is that organisations are moving from solutions to stacks so we should feel",
+    "start": 1513
+  },
+  {
+    "content": "very comfortable talking with our customers about modernizing their",
+    "start": 1517
+  },
+  {
+    "content": "technology frameworks and it's okay to start small and grow into it and then",
+    "start": 1521
+  },
+  {
+    "content": "lastly this is very important for them in their survival in this new world to",
+    "start": 1525
+  },
+  {
+    "content": "be able to retain and hire talent over time - nothing worse than delivering a",
+    "start": 1530
+  },
+  {
+    "content": "project and nobody touches it for the next you know three years because your",
+    "start": 1535
+  },
+  {
+    "content": "customer can't recruit anybody into the organization so one of the things that I",
+    "start": 1538
+  },
+  {
+    "content": "hear a lot in going back to my travels meeting with a lot of different folks in",
+    "start": 1544
+  },
+  {
+    "content": "the technical office a lot of a lot of folks said you know I just I just work",
+    "start": 1548
+  },
+  {
+    "content": "on whatever the requirements are I respond if the requirements say do this",
+    "start": 1555
+  },
+  {
+    "content": "I'm gonna do that or use this technology I'm gonna use that technology or that",
+    "start": 1559
+  },
+  {
+    "content": "framework of that language or whatever it may be and this is where I get a",
+    "start": 1563
+  },
+  {
+    "content": "little bit skeptical I do think it's time for some organizations to stand up",
+    "start": 1567
+  },
+  {
+    "content": "and say hey we want to help help you grow over time customer along these",
+    "start": 1573
+  },
+  {
+    "content": "parameters of success and these three truths that we believe and I think it",
+    "start": 1576
+  },
+  {
+    "content": "takes us educating both our internal teams that we have at the agency as well",
+    "start": 1580
+  },
+  {
+    "content": "as our customers on this and some of the organizations that we work with are",
+    "start": 1584
+  },
+  {
+    "content": "really leading the charge here they are make",
+    "start": 1588
+  },
+  {
+    "content": "taking specific strides and movements to to educate their internal business teams",
+    "start": 1592
+  },
+  {
+    "content": "on these modern technologies and the benefits of them and I don't think this",
+    "start": 1598
+  },
+  {
+    "content": "is something that all agencies do a lot of the times some of the business teams",
+    "start": 1601
+  },
+  {
+    "content": "at agencies are kind of stuck just pressing the easy button which was",
+    "start": 1606
+  },
+  {
+    "content": "whatever the last RFP just said and I think we're doing a little bit of",
+    "start": 1610
+  },
+  {
+    "content": "disservice to ourselves if we're not educating folks on the business side",
+    "start": 1614
+  },
+  {
+    "content": "that are responding to business and projects that come down the pipeline",
+    "start": 1619
+  },
+  {
+    "content": "with these with these different tools and frameworks and the benefits of those",
+    "start": 1623
+  },
+  {
+    "content": "and so we started with Jeff Bezos we have to end with somebody a little bit",
+    "start": 1628
+  },
+  {
+    "content": "better in my opinion Sir Isaac Newton said in his basic laws of motion that an",
+    "start": 1632
+  },
+  {
+    "content": "object at rest will remain at rest unless acted upon by an external force",
+    "start": 1638
+  },
+  {
+    "content": "and I think this is true for a lot of agencies and a lot of clients out there",
+    "start": 1642
+  },
+  {
+    "content": "where if we don't create some inertia within within our client based around",
+    "start": 1645
+  },
+  {
+    "content": "some of these tools frameworks and ways in which they can be successful in this",
+    "start": 1650
+  },
+  {
+    "content": "new world we're not going to see a lot of change we're still going to be handed",
+    "start": 1655
+  },
+  {
+    "content": "those Sitecore projects or some of those tougher projects that are really",
+    "start": 1659
+  },
+  {
+    "content": "difficult to deliver and very painful over time and so when we talk to our",
+    "start": 1663
+  },
+  {
+    "content": "agencies some of them are putting together these different different terms",
+    "start": 1669
+  },
+  {
+    "content": "but some will call it like an internal ear to the ground series we're coming",
+    "start": 1673
+  },
+  {
+    "content": "off of this conference the tech teams will meet with the business teams",
+    "start": 1677
+  },
+  {
+    "content": "account directors project leads whatever the vernacular is in your particular",
+    "start": 1681
+  },
+  {
+    "content": "organization and they'll review some of the content from this particular",
+    "start": 1686
+  },
+  {
+    "content": "conference and say this is what we talked about here are the benefits and",
+    "start": 1690
+  },
+  {
+    "content": "based on these truths of what our customers will experience this is how we",
+    "start": 1693
+  },
+  {
+    "content": "can incorporate this into our conversations similarly we have a lot of",
+    "start": 1698
+  },
+  {
+    "content": "partners that actually run these same sessions with their customers so that",
+    "start": 1705
+  },
+  {
+    "content": "they're proactive and in market in saying on a monthly or bimonthly or",
+    "start": 1708
+  },
+  {
+    "content": "quarterly cadence hey these are new modern technologies out there these are",
+    "start": 1715
+  },
+  {
+    "content": "new modern frameworks let us set up a prototype for you so you're at least",
+    "start": 1718
+  },
+  {
+    "content": "aware we don't want you to travel into this world",
+    "start": 1721
+  },
+  {
+    "content": "and all of a sudden be stuck five years from now in a very archaic system that's",
+    "start": 1725
+  },
+  {
+    "content": "very difficult to manage and even difficult to recruit talent to so that's",
+    "start": 1730
+  },
+  {
+    "content": "it for me but the point here is there's a lot of great movement around Jam stack",
+    "start": 1736
+  },
+  {
+    "content": "around the different tools and usage of these products but I hope that we can",
+    "start": 1740
+  },
+  {
+    "content": "also create some inertia within our organizations and with our business",
+    "start": 1745
+  },
+  {
+    "content": "partners to help set ourselves up for fun projects down the line than our",
+    "start": 1749
+  },
+  {
+    "content": "customers up for success so that's all we got here wonderful",
+    "start": 1753
+  },
+  {
+    "content": "[Applause]",
+    "start": 1763
+  },
+  {
+    "content": "you",
+    "start": 1770
+  }
+]

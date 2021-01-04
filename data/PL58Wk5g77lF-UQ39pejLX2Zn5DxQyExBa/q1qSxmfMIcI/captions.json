@@ -1,0 +1,474 @@
+[
+  {
+    "content": "so so Steve Gardner is his talking about",
+    "start": 0
+  },
+  {
+    "content": "something that I really love this idea you know about making things I love this",
+    "start": 9
+  },
+  {
+    "content": "notion because in making things we learn so much and I love that and also there's",
+    "start": 16
+  },
+  {
+    "content": "just so much joy to be had and I think deep down we're all creative people as",
+    "start": 20
+  },
+  {
+    "content": "well and we like making things so I'm gonna get out of the way let's let's",
+    "start": 25
+  },
+  {
+    "content": "hear it from the right person please make him very very welcome it's our last",
+    "start": 29
+  },
+  {
+    "content": "speaker of the evening is Steve Gardner hi so I'm hoping to convince you in the",
+    "start": 32
+  },
+  {
+    "content": "next 10 minutes to make more pointless things but before I do I'm actually",
+    "start": 42
+  },
+  {
+    "content": "pretty excited because I've got a brand new app that I think is going to change",
+    "start": 47
+  },
+  {
+    "content": "your life it's going to it's gonna change the web development process for",
+    "start": 50
+  },
+  {
+    "content": "everyone it's gonna blow your mind I hope that one sitting it's called stick",
+    "start": 55
+  },
+  {
+    "content": "Drori you ready I'm gonna give you a live demo",
+    "start": 59
+  },
+  {
+    "content": "all right right and you can draw a stick left-click into a big stick enjoy a",
+    "start": 66
+  },
+  {
+    "content": "little stick and draw a wiggly stick the the the possibilities are endless except",
+    "start": 72
+  },
+  {
+    "content": "that's all it does so a lot of you are now thinking yes finally finally stick",
+    "start": 81
+  },
+  {
+    "content": "drawer the app that I've been waiting for my whole life you're welcome",
+    "start": 86
+  },
+  {
+    "content": "but some of you are thinking why why am i up here trying to convince you that",
+    "start": 89
+  },
+  {
+    "content": "making to make pointless things and it's not a it's a non-trivial amount of time",
+    "start": 94
+  },
+  {
+    "content": "as well you need to spend some time in the evenings because you rarely get time",
+    "start": 101
+  },
+  {
+    "content": "to do these sort of things that work well I actually think there's many good",
+    "start": 105
+  },
+  {
+    "content": "reasons why you should build pointless things but I only have time to talk",
+    "start": 111
+  },
+  {
+    "content": "through one so I'm going to talk about say how it's the it's the best ways to",
+    "start": 113
+  },
+  {
+    "content": "learn and first off its active learning so it's learning by doing and we're all",
+    "start": 117
+  },
+  {
+    "content": "familiar with this we all do this almost every day at work we but making",
+    "start": 124
+  },
+  {
+    "content": "pointless and weird and silly things has an advanced",
+    "start": 130
+  },
+  {
+    "content": "over the kind of learning you do at work and I'm going to give you example so say",
+    "start": 132
+  },
+  {
+    "content": "you want to build something in view an image gallery example and say you don't",
+    "start": 137
+  },
+  {
+    "content": "know how to do it so you type into Google and you say how do I build an",
+    "start": 142
+  },
+  {
+    "content": "image gallery and Google gives you pretty much the answer right",
+    "start": 147
+  },
+  {
+    "content": "you'll get tutorials you'll get you know examples and code like that and then",
+    "start": 150
+  },
+  {
+    "content": "you'll also get an NPM install so that's what you're likely to do right and",
+    "start": 155
+  },
+  {
+    "content": "that's probably that's what you should do that's not wrong but you're not",
+    "start": 160
+  },
+  {
+    "content": "really learning fundamentally how to build an image gallery and view so let's",
+    "start": 163
+  },
+  {
+    "content": "say you like me and you want to build something pointless say you want to",
+    "start": 167
+  },
+  {
+    "content": "build a credit card input the rather than just showing the numbers that's",
+    "start": 171
+  },
+  {
+    "content": "boring you want to you want it to look like Amazon it's delivering you those",
+    "start": 175
+  },
+  {
+    "content": "numbers all right it's definitely pointless don't add this",
+    "start": 179
+  },
+  {
+    "content": "to your site but how would you how would you go out like building that so you can",
+    "start": 185
+  },
+  {
+    "content": "ask Google and Google just not helpful in fact is it's almost telling you not",
+    "start": 192
+  },
+  {
+    "content": "to it's like oh you know what here's some information art forms and perhaps",
+    "start": 197
+  },
+  {
+    "content": "no the second thing like maybe you want to disable that you definitely don't",
+    "start": 201
+  },
+  {
+    "content": "want to build that some might know Google I'm going to build it NPM install",
+    "start": 205
+  },
+  {
+    "content": "is probably not going to help either but I am tempted to make that so that",
+    "start": 210
+  },
+  {
+    "content": "works but it doesn't in a minute so you're forced to break it down on your",
+    "start": 214
+  },
+  {
+    "content": "own and this is actually one of the most important skills I think a developer",
+    "start": 218
+  },
+  {
+    "content": "should have because once you've mastered this skill",
+    "start": 222
+  },
+  {
+    "content": "there aren't many problems that you can become at the scale you like if the",
+    "start": 225
+  },
+  {
+    "content": "client comes to you and says I really want to build like this bizarre or",
+    "start": 230
+  },
+  {
+    "content": "complicated website you know you've been trained you've been practicing this",
+    "start": 233
+  },
+  {
+    "content": "skill for a long time but you also have a better idea of how long these things",
+    "start": 236
+  },
+  {
+    "content": "will take which often when when it's a bespoke tool you often don't know but",
+    "start": 241
+  },
+  {
+    "content": "you also you you understand what's going on under the hood better you know things",
+    "start": 247
+  },
+  {
+    "content": "like as an amazing as NPM is you often are taking a level up you know you",
+    "start": 251
+  },
+  {
+    "content": "really react in view and all these libraries but we don't necessarily",
+    "start": 255
+  },
+  {
+    "content": "understand what's going on underneath we don't understand necessarily how SVG",
+    "start": 258
+  },
+  {
+    "content": "works or WebGL or can't so having this understanding under the",
+    "start": 262
+  },
+  {
+    "content": "hood though sort of this you gain extra context you're not only know how but you",
+    "start": 267
+  },
+  {
+    "content": "also know why and you gain the context and you map it out clearly in your mind",
+    "start": 271
+  },
+  {
+    "content": "and that has a nice side effect once you've gone through this process you and",
+    "start": 275
+  },
+  {
+    "content": "you're building little pointless projects it takes you on an unexpected",
+    "start": 280
+  },
+  {
+    "content": "journey because pointless projects tend to be small like two or three evenings",
+    "start": 285
+  },
+  {
+    "content": "it's about it it's not like a big long project you do at work so you can",
+    "start": 289
+  },
+  {
+    "content": "iterate quickly so I'm gonna give you an example so I built stick drawer I mean",
+    "start": 292
+  },
+  {
+    "content": "it all its magnificence and I learn how to but I built it not but for any reason",
+    "start": 297
+  },
+  {
+    "content": "I just wanted to a good challenge but then I learned I got a fairly good",
+    "start": 303
+  },
+  {
+    "content": "understanding of how SVG pass work so I got me inspired I kind of finished down",
+    "start": 306
+  },
+  {
+    "content": "and moved on and I built Wiggly squiggly and it's important to name your silly",
+    "start": 311
+  },
+  {
+    "content": "project silly names that's an important part of this process then Wiggly",
+    "start": 315
+  },
+  {
+    "content": "squiggly taught me how to do the curves and that moved me on to flowery which is",
+    "start": 319
+  },
+  {
+    "content": "basically the same code but now I'm learning how to place points along the",
+    "start": 324
+  },
+  {
+    "content": "path and then I moved on to Zippity zappity as if he's aptly I'm now",
+    "start": 328
+  },
+  {
+    "content": "learning how to work out the angle and which a point on Picon the curve and so",
+    "start": 333
+  },
+  {
+    "content": "I can push those particles in the right direction and then I made out see fire",
+    "start": 337
+  },
+  {
+    "content": "and out of fire is basically now that I have good understanding how SVG password",
+    "start": 342
+  },
+  {
+    "content": "I'm now saying okay let's knit this builder let's build a dynamic flame",
+    "start": 348
+  },
+  {
+    "content": "shape and transformation to a sine wave and it gets to the point where you're",
+    "start": 352
+  },
+  {
+    "content": "like well ass you've done it's quite a few times now already and I can probably",
+    "start": 357
+  },
+  {
+    "content": "turn this into a library which what I did so I built top SVG and the pop",
+    "start": 360
+  },
+  {
+    "content": "stands for path on path SVG and allows you to take one path and simply",
+    "start": 365
+  },
+  {
+    "content": "transform it onto another with very minimal code and actually gives you the",
+    "start": 370
+  },
+  {
+    "content": "quite a lot of power to do fairly complicated animations or transforms",
+    "start": 375
+  },
+  {
+    "content": "very really relatively easy now I wouldn't have got to pop SVG if my",
+    "start": 380
+  },
+  {
+    "content": "mission was to build pop SVG the pointless journey I went on is what got",
+    "start": 386
+  },
+  {
+    "content": "me here and I don't think any other process would have led me to this this",
+    "start": 390
+  },
+  {
+    "content": "point I think it's pretty powerful I'm",
+    "start": 394
+  },
+  {
+    "content": "actually going way fast at my office I'm gonna be way under I'm gonna make her",
+    "start": 398
+  },
+  {
+    "content": "forever one thing ever and there's loads of other reasons why I think you should",
+    "start": 402
+  },
+  {
+    "content": "build pointless things but today I want to end actually on on Jam stack because",
+    "start": 409
+  },
+  {
+    "content": "I think it's actually one of the best places to build these sort of pointless",
+    "start": 413
+  },
+  {
+    "content": "projects and I want to give you an example this is the final example this",
+    "start": 416
+  },
+  {
+    "content": "is my website it's Sam this is it this is all it shows you it's as pointless as",
+    "start": 420
+  },
+  {
+    "content": "you would expect and but what I've done is I've drawn 50 unique versions of my",
+    "start": 426
+  },
+  {
+    "content": "avatar and I've hid them I've hid them in the real world and I've hid them",
+    "start": 434
+  },
+  {
+    "content": "online and if you find one you get a unique URL and if you find then when you",
+    "start": 437
+  },
+  {
+    "content": "go to that URL you get to claim it as yours so some people have tamed this one",
+    "start": 442
+  },
+  {
+    "content": "let's have a look where's just missing my favorite so Kevin Kevin found that",
+    "start": 447
+  },
+  {
+    "content": "one back in August so if I'd have built this the old way I would have needed a",
+    "start": 453
+  },
+  {
+    "content": "database I'd had needed a server to render that page and he did something to",
+    "start": 461
+  },
+  {
+    "content": "validate the codes and somebody to manage the print the claim process but",
+    "start": 465
+  },
+  {
+    "content": "it's a silly project I don't want to spend a huge amount of time on it so",
+    "start": 470
+  },
+  {
+    "content": "this bit bothers me like I don't really want to set up and maintain a database I",
+    "start": 473
+  },
+  {
+    "content": "don't want to have to set up and maintain a server but so Jam stack",
+    "start": 477
+  },
+  {
+    "content": "really helps you here so I first of all I'd get rid of database oh don't need",
+    "start": 481
+  },
+  {
+    "content": "that because I can store the found faces and they're valid well date codes are",
+    "start": 484
+  },
+  {
+    "content": "static files in in git and I can use then net the fight to free render that",
+    "start": 489
+  },
+  {
+    "content": "and then I can change that last bit into a service function so when someone finds",
+    "start": 494
+  },
+  {
+    "content": "it runs that service servants function validates it and then pushes that",
+    "start": 498
+  },
+  {
+    "content": "directly to get that which then triggers an update so I don't need a server and I",
+    "start": 503
+  },
+  {
+    "content": "don't need a database so I can run this for free I don't have to manage any",
+    "start": 508
+  },
+  {
+    "content": "hardware I have less moving parts to maintain like 90% of this is just the",
+    "start": 511
+  },
+  {
+    "content": "fun bit that I wanted to build it's quickly for the end user and mostly most",
+    "start": 515
+  },
+  {
+    "content": "important to me John stack gives me more time to draw silly faces",
+    "start": 521
+  },
+  {
+    "content": "so hopefully I've inspired you to make some pointless things on Jam stack and",
+    "start": 525
+  },
+  {
+    "content": "if you have I really love it if you would send me a link they do genuinely",
+    "start": 531
+  },
+  {
+    "content": "in love [Applause]",
+    "start": 534
+  },
+  {
+    "content": "[Applause]",
+    "start": 543
+  },
+  {
+    "content": "[Applause]",
+    "start": 549
+  },
+  {
+    "content": "",
+    "start": 550
+  }
+]

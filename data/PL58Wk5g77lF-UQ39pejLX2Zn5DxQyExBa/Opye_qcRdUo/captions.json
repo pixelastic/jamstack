@@ -1,0 +1,390 @@
+[
+  {
+    "content": "okay so so why are we all here",
+    "start": 0
+  },
+  {
+    "content": "well hopefully we're here cuz we're if you see a stick about the jam stack and",
+    "start": 5
+  },
+  {
+    "content": "curious about the jam stack and before we kick off and get Matt Cartman and",
+    "start": 10
+  },
+  {
+    "content": "stop start the day with the keynote I just wanted to give almost like a tiny",
+    "start": 14
+  },
+  {
+    "content": "primer about the jam stack so many of us will be familiar but let's not assume",
+    "start": 18
+  },
+  {
+    "content": "that everyone is 100% familiar and let's just talk very very briefly about what",
+    "start": 23
+  },
+  {
+    "content": "the jam stack is and the Jam stands for JavaScript API sand markup but this is",
+    "start": 27
+  },
+  {
+    "content": "you know this is a name this is a convenient label we've found it's had",
+    "start": 33
+  },
+  {
+    "content": "names in the past you know you might you might be able to argue that well this is",
+    "start": 37
+  },
+  {
+    "content": "an approach to building sites which has been around for a while you know you",
+    "start": 41
+  },
+  {
+    "content": "might have in addition to being talking about Jam stack sites you might have",
+    "start": 44
+  },
+  {
+    "content": "talked about or heard about pre-rendered sites or static sites or you might have",
+    "start": 47
+  },
+  {
+    "content": "heard about CDN ready site sites that can get to a CDN straight straightaway",
+    "start": 52
+  },
+  {
+    "content": "the term Jam stack came along at a convenient time for me because I was",
+    "start": 57
+  },
+  {
+    "content": "starting to describe exactly this kind of thing as the short stack you know a",
+    "start": 61
+  },
+  {
+    "content": "stack which is shorter than that doesn't include so many moving parts as a",
+    "start": 64
+  },
+  {
+    "content": "traditional web development stack and also pancakes also you may have heard",
+    "start": 69
+  },
+  {
+    "content": "people talk about web server lists it's it's pretty much all describing the same",
+    "start": 76
+  },
+  {
+    "content": "thing and it's a way of building sites a way of hosting sites and getting sites",
+    "start": 79
+  },
+  {
+    "content": "out into the world that we're enthusiastic about and I think we'll see",
+    "start": 84
+  },
+  {
+    "content": "a lot of that throughout the day but let's just go into a tiny bit more",
+    "start": 88
+  },
+  {
+    "content": "detail you know this kind of site is something that's able to be served",
+    "start": 93
+  },
+  {
+    "content": "directly from a CDN you know we don't have logic at play on a server that you",
+    "start": 96
+  },
+  {
+    "content": "have to maintain we can kind of remove the origin server if you like which",
+    "start": 101
+  },
+  {
+    "content": "sounds scary but those opportunities abound as a result of that it also means",
+    "start": 104
+  },
+  {
+    "content": "that this is a site that you can then enrich with additional services so the a",
+    "start": 109
+  },
+  {
+    "content": "and in Jam stack being api's and the J being JavaScript we can now start in the",
+    "start": 114
+  },
+  {
+    "content": "client enrich sites further with JavaScript and pull more content and",
+    "start": 121
+  },
+  {
+    "content": "functionality through things like progressive enhancement right in the",
+    "start": 125
+  },
+  {
+    "content": "client-side and that's another attribute that you can you can associate with gem",
+    "start": 128
+  },
+  {
+    "content": "stack sites so if just to compare very quickly a",
+    "start": 131
+  },
+  {
+    "content": "traditional stack to the jam stack let's just break it down just for a moment and",
+    "start": 137
+  },
+  {
+    "content": "think about you know how something comes from the browser gets into the users",
+    "start": 142
+  },
+  {
+    "content": "eyes within the browser so from the browser making a request this is a",
+    "start": 147
+  },
+  {
+    "content": "simplification but perhaps we're getting some resources that are on a CDN but",
+    "start": 151
+  },
+  {
+    "content": "probably more likely we're hitting an origin server which is potentially",
+    "start": 155
+  },
+  {
+    "content": "sitting behind some load balances that we that we manage there's logic on those",
+    "start": 159
+  },
+  {
+    "content": "load balancers that will then route the request to one of several web service",
+    "start": 163
+  },
+  {
+    "content": "that we've got to make sure that we can handle the load distribute the load we",
+    "start": 168
+  },
+  {
+    "content": "manage the logic on those those those web servers aren't necessarily ready to",
+    "start": 171
+  },
+  {
+    "content": "return the request right away we might be making further requests to a database",
+    "start": 175
+  },
+  {
+    "content": "somewhere on one of a number of database servers to figure out what content we",
+    "start": 179
+  },
+  {
+    "content": "need to put into a template to enrich it we pass that back to the web server",
+    "start": 184
+  },
+  {
+    "content": "assemble that view in a template pass that back through the load balancer",
+    "start": 187
+  },
+  {
+    "content": "perhaps cache some of that on a CDN make it available for the subsequent visits",
+    "start": 191
+  },
+  {
+    "content": "but you know if these are dynamic requests we might be doing this route",
+    "start": 196
+  },
+  {
+    "content": "every time and then finally we return a view to the user in into the users eyes",
+    "start": 199
+  },
+  {
+    "content": "through their web browser so this is kind of obviously a fairly big",
+    "start": 204
+  },
+  {
+    "content": "simplification and generalization of that kind of traditional stack but when",
+    "start": 209
+  },
+  {
+    "content": "we're comparing that to the lamp stack so that the gem stack sorry",
+    "start": 214
+  },
+  {
+    "content": "oh I shouldn't have happened we compare that to the the Jam stack no we're",
+    "start": 216
+  },
+  {
+    "content": "making a request and then we're going to the CDN which has the the view already",
+    "start": 227
+  },
+  {
+    "content": "they're prepared and sitting there on the CDN waiting for the user and then it",
+    "start": 231
+  },
+  {
+    "content": "returns it and we're done so this kind of simplification is something that",
+    "start": 235
+  },
+  {
+    "content": "really excites me I look for simplification wherever possible that",
+    "start": 239
+  },
+  {
+    "content": "was something I thing that I heard a couple of times in the agency day",
+    "start": 242
+  },
+  {
+    "content": "yesterday that really challenges me and so you can see some advantages here of",
+    "start": 246
+  },
+  {
+    "content": "fewer moving parts and kind of left fewer things that could potentially go",
+    "start": 249
+  },
+  {
+    "content": "wrong let's just unpack that a tiny bit more you'll be rid of me soon we'll be",
+    "start": 254
+  },
+  {
+    "content": "we'll be onto the talks but I just want to just describe a tiny bit more about",
+    "start": 258
+  },
+  {
+    "content": "this now if we're looking at this request that goes through a CDN and then",
+    "start": 261
+  },
+  {
+    "content": "gets returned on top of that we can that further I mentioned this enrichment",
+    "start": 265
+  },
+  {
+    "content": "and we can be doing that with requests other services and to micro services",
+    "start": 269
+  },
+  {
+    "content": "maybe we manage elsewhere maybe there are other vendors and other services out",
+    "start": 273
+  },
+  {
+    "content": "there we can leverage and those requests can go you know directly from the client",
+    "start": 277
+  },
+  {
+    "content": "or you know they could be going through the CDN Matt showed a really nice",
+    "start": 281
+  },
+  {
+    "content": "demonstration of that yesterday and indeed these services in these micro",
+    "start": 286
+  },
+  {
+    "content": "services might be things that we leverage at Build time you know the",
+    "start": 290
+  },
+  {
+    "content": "build is what we need to look after in order to get things out to the CDN and",
+    "start": 294
+  },
+  {
+    "content": "in this kind of environment there's still a lot of moving parts there that",
+    "start": 299
+  },
+  {
+    "content": "you might you might think of but this is really the only piece of infrastructure",
+    "start": 302
+  },
+  {
+    "content": "we necessarily need to control and so the overhead for us is is quite",
+    "start": 305
+  },
+  {
+    "content": "different and I think that's where lots of opportunities come into play so the",
+    "start": 310
+  },
+  {
+    "content": "idea that that we have this set up really means that we can empower",
+    "start": 316
+  },
+  {
+    "content": "front-end developers because we've shortened that stack there are fewer",
+    "start": 319
+  },
+  {
+    "content": "things that the front-end developer needs to needs to manage in order to be",
+    "start": 323
+  },
+  {
+    "content": "a very powerful web developer and empowering front-end developers as a",
+    "start": 327
+  },
+  {
+    "content": "theme we'll hear from Chris coy a bit later on in his talk this kind of",
+    "start": 331
+  },
+  {
+    "content": "approach is really powered by modern browsers and the capabilities that they",
+    "start": 335
+  },
+  {
+    "content": "have and we're gonna hear content as well about that from a romana current",
+    "start": 339
+  },
+  {
+    "content": "from others throughout the day I mentioned this kind of this term",
+    "start": 345
+  },
+  {
+    "content": "enhanced and we can enhance the experience we can enrich that through",
+    "start": 349
+  },
+  {
+    "content": "the gray ecosystem of tools and services that are now blossoming around the jam",
+    "start": 354
+  },
+  {
+    "content": "stack some of the sponsors here are involved in that and there are many many",
+    "start": 359
+  },
+  {
+    "content": "more tools and services that we can leverage it it's a really exciting time",
+    "start": 363
+  },
+  {
+    "content": "and all of this kind of impacts our processes the way we build things even",
+    "start": 366
+  },
+  {
+    "content": "the culture around the web development landscape we're gonna hear things to do",
+    "start": 371
+  },
+  {
+    "content": "with that from Jessica throughout the day and this kind of culminates in a",
+    "start": 374
+  },
+  {
+    "content": "really effective and efficient way of building sites a really effective way of",
+    "start": 379
+  },
+  {
+    "content": "getting results that are very performance out of the world and I hope",
+    "start": 382
+  },
+  {
+    "content": "it will show that along the ways today's world will hear from from Quincy and I",
+    "start": 385
+  },
+  {
+    "content": "think this theme might come up a few times throughout throughout the day okay",
+    "start": 389
+  },
+  {
+    "content": "so primer done intro done code of conduct done",
+    "start": 393
+  },
+  {
+    "content": "you found the refreshments I think we're probably ready to start",
+    "start": 398
+  },
+  {
+    "content": "with the day yes okay I'm getting a thumbs-up approval - lon okay",
+    "start": 401
+  },
+  {
+    "content": "you",
+    "start": 409
+  },
+  {
+    "content": "",
+    "start": 416
+  }
+]

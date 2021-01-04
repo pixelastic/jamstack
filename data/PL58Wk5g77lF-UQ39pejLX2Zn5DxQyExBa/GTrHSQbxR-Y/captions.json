@@ -1,0 +1,1254 @@
+[
+  {
+    "content": "our next speaker Simona who you've seen",
+    "start": 0
+  },
+  {
+    "content": "getting ready on the stage Simona curtain is just a wonderful speaker I've",
+    "start": 7
+  },
+  {
+    "content": "seen handful of times and I've always really really enjoyed it the timing of",
+    "start": 11
+  },
+  {
+    "content": "this is perfect after Chrysostom's kind of primer for service to go a little bit",
+    "start": 15
+  },
+  {
+    "content": "deeper um also if you would have noticed during chrises talk there was an example",
+    "start": 19
+  },
+  {
+    "content": "one of several sarah dress they're examples we've seen throughout the day",
+    "start": 24
+  },
+  {
+    "content": "of the globe with the developer advocate teams like the little lights on the",
+    "start": 27
+  },
+  {
+    "content": "globe tracking where they are there was one right here Vika Simone as part of",
+    "start": 32
+  },
+  {
+    "content": "that team so she's been tracked remotely so it's kind of gratifying to see so",
+    "start": 36
+  },
+  {
+    "content": "I've seen Simona give these talks about serverless and using as your functions",
+    "start": 41
+  },
+  {
+    "content": "for bringing serverless to life but we're going to go I think a little bit",
+    "start": 46
+  },
+  {
+    "content": "deeper into some minutes today and start to look also at things like graph QL",
+    "start": 50
+  },
+  {
+    "content": "which is another puzzle a buzzword I haven't heard once today which I'm",
+    "start": 53
+  },
+  {
+    "content": "surprised about so we're gonna hear a little bit about that now so delighted",
+    "start": 57
+  },
+  {
+    "content": "that Simona could come all the way from London to give this talk and join us",
+    "start": 61
+  },
+  {
+    "content": "today so please make her incredibly welcome Samara cotton those KPIs using",
+    "start": 64
+  },
+  {
+    "content": "graph QL and cyrillus so this is my second time in San Francisco and it's a",
+    "start": 80
+  },
+  {
+    "content": "fantastic City I love it it's one of my favorite cities in the world together",
+    "start": 88
+  },
+  {
+    "content": "with answer them in London and Dublin but one of the things that I love about",
+    "start": 92
+  },
+  {
+    "content": "San Francisco is that it's so creative and as soon as I stepped out I stepped",
+    "start": 96
+  },
+  {
+    "content": "out of the airplane I called myself an uber and the cool but the thing that",
+    "start": 100
+  },
+  {
+    "content": "really amused me and kind of surprised me was the fact that my uber car was",
+    "start": 106
+  },
+  {
+    "content": "represented as a bath so what did I do I basically sat",
+    "start": 112
+  },
+  {
+    "content": "yesterday and rewrote my entire slides he's doing a Halloween theme so I hope",
+    "start": 120
+  },
+  {
+    "content": "you're gonna enjoy that it's coming right and I hope that everyone enjoys",
+    "start": 128
+  },
+  {
+    "content": "Halloween here I've seen a lot of yeah fun stuff cool so - throughout our",
+    "start": 136
+  },
+  {
+    "content": "Halloween and surveillance and graphical adventure we're gonna have Agnes here",
+    "start": 143
+  },
+  {
+    "content": "join us and kind of try to understand this mystery of what what what do you",
+    "start": 149
+  },
+  {
+    "content": "graph QL and Surrealists have in common right because there they seem kind of",
+    "start": 155
+  },
+  {
+    "content": "unrelated but in fact both of them just as Phil mentioned are actually on a high",
+    "start": 160
+  },
+  {
+    "content": "train and they they're basically graph QL they're probably at the edge or at",
+    "start": 166
+  },
+  {
+    "content": "the peak of their popularity because as we speak right now probably there's",
+    "start": 176
+  },
+  {
+    "content": "someone writing a new library either for service or for graph QL that will enable",
+    "start": 182
+  },
+  {
+    "content": "us to build all the amazing stuff that Chris just mentioned and by the way he",
+    "start": 187
+  },
+  {
+    "content": "stole all my favorite stuff stuff so you're probably not alone anything new",
+    "start": 191
+  },
+  {
+    "content": "for me but yeah we've seen it from Chris and that's great",
+    "start": 196
+  },
+  {
+    "content": "so the high strain that's one thing that they have in common the next thing that",
+    "start": 200
+  },
+  {
+    "content": "I have in common is the fact that probably most JavaScript developers are",
+    "start": 204
+  },
+  {
+    "content": "absolutely in love with them so first of all with graph QL we as front-end",
+    "start": 210
+  },
+  {
+    "content": "developers are empowered to build applications that will require the data",
+    "start": 217
+  },
+  {
+    "content": "in a very meaningful way so we are empowered to shape to shape that data",
+    "start": 224
+  },
+  {
+    "content": "and to request it just the way we need it and at the same time with serverless",
+    "start": 232
+  },
+  {
+    "content": "we are empowered to create all those amazing applications and api's that we",
+    "start": 237
+  },
+  {
+    "content": "were not able to create in the past so definitely",
+    "start": 243
+  },
+  {
+    "content": "Afghanistan village they're super appealing to JavaScript developers the",
+    "start": 247
+  },
+  {
+    "content": "next thing that we have in common is a time line",
+    "start": 251
+  },
+  {
+    "content": "both of them have kind of appeared around the same time so graph QL has",
+    "start": 256
+  },
+  {
+    "content": "been released into the open source or early 2015 and then simulus probably",
+    "start": 261
+  },
+  {
+    "content": "late 2014 that's the first time when the the term kind of started of hearing as a",
+    "start": 269
+  },
+  {
+    "content": "buzzy word and there's one more thing that's super important that we're going",
+    "start": 274
+  },
+  {
+    "content": "to try to find out today with the help of agnus that connects the two together",
+    "start": 279
+  },
+  {
+    "content": "okay so grass QL I'm gonna make use of all these animations that were not",
+    "start": 285
+  },
+  {
+    "content": "allowed to make yourself normally so graph 12 graph QL came to be at Facebook",
+    "start": 294
+  },
+  {
+    "content": "around 2012 when they started rewriting their mobile applications and what they",
+    "start": 302
+  },
+  {
+    "content": "really wanted to do was to define a data fetching API powerful enough to describe",
+    "start": 308
+  },
+  {
+    "content": "all of Facebook I'll let that sink in for a second all the Facebook Facebook",
+    "start": 315
+  },
+  {
+    "content": "is huge right how do you do that well it seems that graph kill was the solution",
+    "start": 321
+  },
+  {
+    "content": "for that and if we were to look at my an example of what all of Facebook looks",
+    "start": 326
+  },
+  {
+    "content": "like this is a screenshot from my my time line on Facebook and the kind of",
+    "start": 333
+  },
+  {
+    "content": "data that we're retrieving here is on the left hand side we have information",
+    "start": 340
+  },
+  {
+    "content": "about my own user like my my picture my name a link to my messenger some of the",
+    "start": 343
+  },
+  {
+    "content": "groups and events that I I might have been invited to and then in the center I",
+    "start": 350
+  },
+  {
+    "content": "have the list of posts that my friend have published and then on the right",
+    "start": 355
+  },
+  {
+    "content": "hand side we have stories that have been published by our friends by my friends",
+    "start": 360
+  },
+  {
+    "content": "events their birthdays and friends suggestions so this is something that",
+    "start": 365
+  },
+  {
+    "content": "looks very similar to all of you but if we were to take this and think of how",
+    "start": 369
+  },
+  {
+    "content": "would we retrieve the data from this from a risk perspective",
+    "start": 376
+  },
+  {
+    "content": "so we would probably have to make a couple of requests here remember that in",
+    "start": 380
+  },
+  {
+    "content": "rest everything is and must be a resource and we must have all the",
+    "start": 385
+  },
+  {
+    "content": "information returned within that with that resource so we would make request",
+    "start": 390
+  },
+  {
+    "content": "like give me the information for this user based on the ID that we've probably",
+    "start": 395
+  },
+  {
+    "content": "retrieved when we've logged in also the list of events that they're gonna",
+    "start": 400
+  },
+  {
+    "content": "they're been they've been invited to friend suggestions and maybe friends",
+    "start": 403
+  },
+  {
+    "content": "birthdays so a lot of requests here and if we take for example the events",
+    "start": 409
+  },
+  {
+    "content": "request because given that this is a resource that self-contained we would",
+    "start": 415
+  },
+  {
+    "content": "retrieve information like what's the name of the event jam stack the location",
+    "start": 420
+  },
+  {
+    "content": "San Francisco some of the attendees feel would probably be one and he wrote his",
+    "start": 425
+  },
+  {
+    "content": "role is the chief of avocados and he has tons of fun doing that so this is the",
+    "start": 431
+  },
+  {
+    "content": "kind of information that we would reach free it's a JSON object but if we look",
+    "start": 437
+  },
+  {
+    "content": "back at that page we actually just need the number of events we don't need any",
+    "start": 443
+  },
+  {
+    "content": "of that information like what's the name of the event or the list of attendees so",
+    "start": 448
+  },
+  {
+    "content": "what does that mean it means that if we were to retrieve all that data we would",
+    "start": 457
+  },
+  {
+    "content": "be over fetching and over fetching means that we are retrieving data that we",
+    "start": 462
+  },
+  {
+    "content": "don't need so that means that we are actually making our users pay for all",
+    "start": 466
+  },
+  {
+    "content": "that data that's being transferred over the wire and while we can do when we're",
+    "start": 472
+  },
+  {
+    "content": "on a Wi-Fi that doesn't really matter we all know that when it comes to mobile it",
+    "start": 478
+  },
+  {
+    "content": "actually it's very important especially in countries where mobile data is very",
+    "start": 483
+  },
+  {
+    "content": "expensive or in my case where I'm actually on roaming and that data costs",
+    "start": 489
+  },
+  {
+    "content": "me a lot of money so that's one option we're overfitting all that data for the",
+    "start": 495
+  },
+  {
+    "content": "users were basically kind of stealing money from the user or we create a new",
+    "start": 501
+  },
+  {
+    "content": "endpoint or we update an endpoint including only the",
+    "start": 506
+  },
+  {
+    "content": "of events and whereas that can be compared compelling and that's something",
+    "start": 511
+  },
+  {
+    "content": "that most of the teams do that actually adds complexity because now if we've",
+    "start": 518
+  },
+  {
+    "content": "added that new information to a new endpoint what we're doing now in the",
+    "start": 522
+  },
+  {
+    "content": "cases where that endpoint is cold and we don't need that information we'll have",
+    "start": 528
+  },
+  {
+    "content": "to process on the front end we're gonna have to process that data and filter out",
+    "start": 532
+  },
+  {
+    "content": "the data that we don't need so that's one problem the other problem is that",
+    "start": 537
+  },
+  {
+    "content": "our back-end and our front-end teams will now have to communicate again and",
+    "start": 541
+  },
+  {
+    "content": "they kind of depend on each other so even though the front-end team has",
+    "start": 547
+  },
+  {
+    "content": "finished implementing the feature if it's not available on the backend that",
+    "start": 550
+  },
+  {
+    "content": "means that it cannot be released so it adds complexity within our development",
+    "start": 555
+  },
+  {
+    "content": "process the other use case is where we have the list of friends that I mind",
+    "start": 560
+  },
+  {
+    "content": "people that I might know so I'm being suggested to become friends with Gomez",
+    "start": 567
+  },
+  {
+    "content": "and from a risk perspective that means that I'm making when I were displaying",
+    "start": 573
+  },
+  {
+    "content": "all that data we are making a request for all the lists of people that are",
+    "start": 579
+  },
+  {
+    "content": "being suggested but you've seen there that there's also the number of mutual",
+    "start": 585
+  },
+  {
+    "content": "friends so this means that I will have to retrieve a list of mutual friends as",
+    "start": 589
+  },
+  {
+    "content": "well so that I can display all that information and this is what we call",
+    "start": 594
+  },
+  {
+    "content": "under fetching and it's also known as the n plus 1 problem where we're",
+    "start": 598
+  },
+  {
+    "content": "basically in order to display a single resource or a common resource like the",
+    "start": 603
+  },
+  {
+    "content": "person the mutual friend and the number of no they suggested for a friend and",
+    "start": 611
+  },
+  {
+    "content": "the number of mutual friends we have to make a request only to make other n",
+    "start": 617
+  },
+  {
+    "content": "requests so to retrieve those mutual friends and there's two options here we",
+    "start": 623
+  },
+  {
+    "content": "can either retrieve the list itself or we can retrieve each individual friend",
+    "start": 627
+  },
+  {
+    "content": "and that's problematic because that means that we make tons of round trips",
+    "start": 633
+  },
+  {
+    "content": "to the server and that means that we are spending a lot of time doing that before",
+    "start": 639
+  },
+  {
+    "content": "we can actually so valuable information so that's that's",
+    "start": 645
+  },
+  {
+    "content": "it not ideal for our users and the other option is either adding a new endpoint",
+    "start": 650
+  },
+  {
+    "content": "or modifying an endpoint and again that's not ideal because of the",
+    "start": 655
+  },
+  {
+    "content": "complexity that it brings into our team and one of the reasons why we have to",
+    "start": 660
+  },
+  {
+    "content": "consider why over over fetching and under fetching is it's because because",
+    "start": 666
+  },
+  {
+    "content": "of the user experience that we're we're developing and basically all these route",
+    "start": 671
+  },
+  {
+    "content": "round trips they add delay to our websites and you can see here that when",
+    "start": 677
+  },
+  {
+    "content": "we're returning data or were displaying data in more than one second already our",
+    "start": 683
+  },
+  {
+    "content": "user is going to is going to is likely go into context which as we increase",
+    "start": 690
+  },
+  {
+    "content": "that to more than 10 seconds that the task is going to be abandoned and even",
+    "start": 695
+  },
+  {
+    "content": "though that sounds like a very big number imagine when you have tons of",
+    "start": 701
+  },
+  {
+    "content": "resources that you are retrieving you are also parsing all that are parsing",
+    "start": 705
+  },
+  {
+    "content": "out all that data that you don't need that becomes complex and this can",
+    "start": 709
+  },
+  {
+    "content": "actually happen all this information comes from this",
+    "start": 714
+  },
+  {
+    "content": "amazing book that I highly recommend reading it's called high performance",
+    "start": 719
+  },
+  {
+    "content": "browser networking and if you're interested in web performance that's",
+    "start": 723
+  },
+  {
+    "content": "something that I highly recommend reading it's available open source on",
+    "start": 729
+  },
+  {
+    "content": "the web and it's amazing and one thing that the author of this book mentions",
+    "start": 734
+  },
+  {
+    "content": "ilya grigorik is that the fastest network request is a request not made",
+    "start": 740
+  },
+  {
+    "content": "and that's so true right because we're not spending any resources there and",
+    "start": 745
+  },
+  {
+    "content": "that's exactly what graph QL helps us with so with graph QL we were no longer",
+    "start": 750
+  },
+  {
+    "content": "in the situation where we have to retrieve data that we don't need or make",
+    "start": 755
+  },
+  {
+    "content": "more requests than we need we can actually query the data that we need and",
+    "start": 759
+  },
+  {
+    "content": "we can do that using this type of language that's specific to graph QL",
+    "start": 766
+  },
+  {
+    "content": "where we basically define the query that we want to execute so the data that we",
+    "start": 771
+  },
+  {
+    "content": "want to retrieve in this case want to get information about this user",
+    "start": 777
+  },
+  {
+    "content": "with the ID one so well free we're filtering on the users that are",
+    "start": 781
+  },
+  {
+    "content": "available and then we actually want to retrieve the name of that user the",
+    "start": 785
+  },
+  {
+    "content": "events but only the count for those events as well as the friend suggestions",
+    "start": 790
+  },
+  {
+    "content": "with their name their mutual friends but only the count as well and then what we",
+    "start": 795
+  },
+  {
+    "content": "get back is there's JSON object that mirrors the data that we've just",
+    "start": 802
+  },
+  {
+    "content": "requested and that's the beauty of graph QL we know exactly what to expect as a",
+    "start": 808
+  },
+  {
+    "content": "response to a query that we're making so when we start working with graph QL we",
+    "start": 814
+  },
+  {
+    "content": "tend to have this schema driven development approach where basically the",
+    "start": 823
+  },
+  {
+    "content": "front-end teams and the back-end teams sit together and they define the this",
+    "start": 828
+  },
+  {
+    "content": "contract where they they define the operations required to retrieve the data",
+    "start": 832
+  },
+  {
+    "content": "and schemas are a strongly typed so we have to specify types for the data that",
+    "start": 838
+  },
+  {
+    "content": "we're retrieving and normally we do that by using the type keyword and then we",
+    "start": 845
+  },
+  {
+    "content": "give it a name this is a custom type that graticule allows us to define so we",
+    "start": 850
+  },
+  {
+    "content": "can define the type people and then on this type we can we have feels like ID",
+    "start": 855
+  },
+  {
+    "content": "name and avatar and you can see that ID string in URL there type there are types",
+    "start": 863
+  },
+  {
+    "content": "that we have available in graph here so ID and string are scalar types they're",
+    "start": 869
+  },
+  {
+    "content": "also known as primitive types and you can see that exclamation mark there it",
+    "start": 874
+  },
+  {
+    "content": "says that this field is required and then URL is also another way is another",
+    "start": 881
+  },
+  {
+    "content": "scalar type but that's a custom type so we can do that as well defined custom",
+    "start": 887
+  },
+  {
+    "content": "types for ourselves we can also have nested types so in this case the team",
+    "start": 891
+  },
+  {
+    "content": "type has a list of people that will return and then we also have these query",
+    "start": 897
+  },
+  {
+    "content": "and mutation types which are essential in",
+    "start": 906
+  },
+  {
+    "content": "graph QL because they allow us to define the operations that we can run on our",
+    "start": 909
+  },
+  {
+    "content": "data so in this case we can retrieve the list of teams and that will return an",
+    "start": 915
+  },
+  {
+    "content": "array of type team or we can execute a mutation that will allow us to increase",
+    "start": 919
+  },
+  {
+    "content": "points and we can filter that on an ID and return a team type and these two are",
+    "start": 927
+  },
+  {
+    "content": "the equivalent if you think of query that's the equivalent of the get",
+    "start": 935
+  },
+  {
+    "content": "operation and then the mutation is the equivalent of the post or put operation",
+    "start": 938
+  },
+  {
+    "content": "so we're mutations we can modify data on the server and with queries we can",
+    "start": 946
+  },
+  {
+    "content": "retrieve data we can read data but here everything is very static so the next",
+    "start": 952
+  },
+  {
+    "content": "thing that we need to do is define our behavior and define how exactly are we",
+    "start": 958
+  },
+  {
+    "content": "actually going to retrieve that data and in this case I'm calling to separate",
+    "start": 964
+  },
+  {
+    "content": "endpoints which are two rest endpoints and these two are functions our service",
+    "start": 969
+  },
+  {
+    "content": "functions and I'm just retrieving data from there our synchronously so you can",
+    "start": 975
+  },
+  {
+    "content": "see the team's retrieval and then increment points there another cool",
+    "start": 983
+  },
+  {
+    "content": "thing would break you all that we have available is graphical and we can use",
+    "start": 989
+  },
+  {
+    "content": "graphical because or we can we have access to graphical because our schemas",
+    "start": 993
+  },
+  {
+    "content": "are strongly typed and because graph QL allows us to to do this thing called",
+    "start": 1000
+  },
+  {
+    "content": "introspection which allows us to see exactly how our schema looks like and",
+    "start": 1005
+  },
+  {
+    "content": "what operations we have available so with graph q graphical",
+    "start": 1011
+  },
+  {
+    "content": "we can inspect the documentation here that will tell us everything that we've",
+    "start": 1015
+  },
+  {
+    "content": "defined and all the operations that are available on our back-end again with",
+    "start": 1023
+  },
+  {
+    "content": "graphical we can also run operations we can run queries or run mutations and",
+    "start": 1030
+  },
+  {
+    "content": "we're gonna see the results on the right hand side as well so this is very useful",
+    "start": 1037
+  },
+  {
+    "content": "because we actually test our applications we can",
+    "start": 1042
+  },
+  {
+    "content": "debug our applications using graphical and this is wonderful tooling it also",
+    "start": 1044
+  },
+  {
+    "content": "allows us gives us like errors whenever we're executing queries that are not",
+    "start": 1050
+  },
+  {
+    "content": "valid or we're using types that are not available on our server we're going to",
+    "start": 1056
+  },
+  {
+    "content": "immediately be prompted that and told that this is not correct I don't have",
+    "start": 1062
+  },
+  {
+    "content": "this available so why would you go ahead and use graph QL well because it",
+    "start": 1065
+  },
+  {
+    "content": "increases the performance of our websites because it allows us to query",
+    "start": 1074
+  },
+  {
+    "content": "only the data that we need and make a single request for that that increases",
+    "start": 1079
+  },
+  {
+    "content": "the performance of our websites it also increases our flexibility as developers",
+    "start": 1086
+  },
+  {
+    "content": "because we only request the data that we need so we define that shape and then",
+    "start": 1092
+  },
+  {
+    "content": "the tooling that we have available for us is fantastic as I mentioned probably",
+    "start": 1098
+  },
+  {
+    "content": "as I'm speaking someone else is building a wonderful tool for graph QL there's",
+    "start": 1104
+  },
+  {
+    "content": "tons of things available for for us okay what about cyrillus we've seen today a",
+    "start": 1110
+  },
+  {
+    "content": "lot of talks about surrealist monica has has talked a bit about the benefits of",
+    "start": 1119
+  },
+  {
+    "content": "using or creating several applications and so has Chris and I'm gonna dive just",
+    "start": 1126
+  },
+  {
+    "content": "a little bit and that as well so this is something that Steve Jobs has probably",
+    "start": 1132
+  },
+  {
+    "content": "said in 97 the line of code that's the fastest to write that never breaks that",
+    "start": 1141
+  },
+  {
+    "content": "doesn't mean maintenance is the line you never had to write so it's serverless we",
+    "start": 1148
+  },
+  {
+    "content": "are empowered to do that because with service we we don't have to write",
+    "start": 1155
+  },
+  {
+    "content": "configuration files we don't have to configure our servers and we also don't",
+    "start": 1162
+  },
+  {
+    "content": "have to we are able to query third party API s which means that we don't have to",
+    "start": 1167
+  },
+  {
+    "content": "write code it's not specific to our application so",
+    "start": 1174
+  },
+  {
+    "content": "a simple hello world kind of function in service is just this we have a",
+    "start": 1179
+  },
+  {
+    "content": "synchronous function that receives a context and the request as a parameter",
+    "start": 1186
+  },
+  {
+    "content": "and then we can return a response object saying hello and then we can run this in",
+    "start": 1190
+  },
+  {
+    "content": "our local and I'm actually going to demo this if I still have some time I think I",
+    "start": 1201
+  },
+  {
+    "content": "do I'm going to demo this locally I've created this function and I just want to",
+    "start": 1206
+  },
+  {
+    "content": "show you this because it's very powerful so we have our favorite IDE right here",
+    "start": 1213
+  },
+  {
+    "content": "oh I think we're not saying okay so we have vs code here and this is",
+    "start": 1218
+  },
+  {
+    "content": "this is the hello world function we've seen before",
+    "start": 1234
+  },
+  {
+    "content": "and I also have the function CLI installed in my local and then I can go",
+    "start": 1238
+  },
+  {
+    "content": "ahead and run this and debug this locally so I can do that by going to",
+    "start": 1243
+  },
+  {
+    "content": "this debug button and then run and this will start the azure function CLI and as",
+    "start": 1247
+  },
+  {
+    "content": "that's happening it will give me the URL that Chris was mentioning and I can",
+    "start": 1254
+  },
+  {
+    "content": "access that and I can include that in my local development in the website that",
+    "start": 1260
+  },
+  {
+    "content": "I'm running just as easily so you can see it here and then I can just click",
+    "start": 1264
+  },
+  {
+    "content": "and it should say hello I didn't add any tests here so it's hello undefined but I",
+    "start": 1272
+  },
+  {
+    "content": "can say that name is John sack and then hello John stack and the the most",
+    "start": 1279
+  },
+  {
+    "content": "powerful thing is that I can debug this here so if i refresh my page it will now",
+    "start": 1284
+  },
+  {
+    "content": "break at the breakpoint that I've just added and I can go ahead and inspect",
+    "start": 1291
+  },
+  {
+    "content": "these variables and I can even maybe step through let's say I'm debugging",
+    "start": 1295
+  },
+  {
+    "content": "this and then I want you actually modify the response to say happy Halloween",
+    "start": 1302
+  },
+  {
+    "content": "and as I'm running this and we'll say happy Halloween",
+    "start": 1312
+  },
+  {
+    "content": "so it took me just maybe 30 seconds to have this function running and debugging",
+    "start": 1316
+  },
+  {
+    "content": "it in our local that's pretty impressive and I can not only run it and debug it",
+    "start": 1323
+  },
+  {
+    "content": "in my local local I can also deploy it using right-click deploy so I have this",
+    "start": 1330
+  },
+  {
+    "content": "extension for Azure where I can I can deploy to an existing function or a",
+    "start": 1336
+  },
+  {
+    "content": "function that or create a new function and this will tell me that",
+    "start": 1344
+  },
+  {
+    "content": "do I want to override or do I want to maybe cancel this operation I chose",
+    "start": 1349
+  },
+  {
+    "content": "overwrite so then the logs will tell me that this is happening and it will give",
+    "start": 1355
+  },
+  {
+    "content": "me the URL of the function that's available in the cloud",
+    "start": 1360
+  },
+  {
+    "content": "so this is just to give you a very quick taste of what you have available in your",
+    "start": 1367
+  },
+  {
+    "content": "typical environment as a front-end developer and colleague of mine likes to",
+    "start": 1374
+  },
+  {
+    "content": "say that friends don't let other friends right click deploy because as you might",
+    "start": 1385
+  },
+  {
+    "content": "imagine this can actually go very very wrong because if Phil here has written",
+    "start": 1394
+  },
+  {
+    "content": "an amazing function that there's tons of things and then I right-click deploying",
+    "start": 1401
+  },
+  {
+    "content": "my hello world function to exactly the same location that's not fantastic right",
+    "start": 1406
+  },
+  {
+    "content": "I've just over in all his work with serverless both with agile functions or",
+    "start": 1410
+  },
+  {
+    "content": "natla file lambda functions or many other functions we can actually",
+    "start": 1417
+  },
+  {
+    "content": "implement this github deployment and kind of hand back to Monica's",
+    "start": 1421
+  },
+  {
+    "content": "presentation where we implement a continuous integration flow so we have",
+    "start": 1427
+  },
+  {
+    "content": "all of that available for us I just want to make sure that this has finished",
+    "start": 1432
+  },
+  {
+    "content": "deployment that's correct I have this function here this URL and then I can",
+    "start": 1437
+  },
+  {
+    "content": "pass in the name John stack and there you go it's in the cloud with",
+    "start": 1444
+  },
+  {
+    "content": "that was very shy okay but the true power of service is not just being able",
+    "start": 1453
+  },
+  {
+    "content": "to create functions in the code that were writing functions it's actually the",
+    "start": 1467
+  },
+  {
+    "content": "data sources that we can connect to and the third party API that we can call -",
+    "start": 1472
+  },
+  {
+    "content": "we can call in - and this is just an example of how of things we can connect",
+    "start": 1476
+  },
+  {
+    "content": "to using Azure functions things like static storage or databases or even like",
+    "start": 1482
+  },
+  {
+    "content": "files that we have on onedrive and to access this we need to define in a JSON",
+    "start": 1490
+  },
+  {
+    "content": "file just these six lines of code that allow us to define the type of",
+    "start": 1496
+  },
+  {
+    "content": "connection the tied where are we reading the data from and also the connection",
+    "start": 1503
+  },
+  {
+    "content": "string setting that's very important that defines that allows us to connect",
+    "start": 1508
+  },
+  {
+    "content": "to that data source and then in order to use it in our code we only need the",
+    "start": 1511
+  },
+  {
+    "content": "single line where we're accessing that particular object that we define in the",
+    "start": 1517
+  },
+  {
+    "content": "JSON object so I think that's very powerful so why would we use several as",
+    "start": 1522
+  },
+  {
+    "content": "well because it enables us to create reusable API and that's part of jump",
+    "start": 1528
+  },
+  {
+    "content": "stack right reusable api's and then we can also use our our low our typical",
+    "start": 1533
+  },
+  {
+    "content": "environment like this code to develop and debug and also deploy but that's not",
+    "start": 1539
+  },
+  {
+    "content": "recommended and we also have easy integration with other data sources and",
+    "start": 1544
+  },
+  {
+    "content": "finally there's no servers to manage should I do that again",
+    "start": 1551
+  },
+  {
+    "content": "so graph QL and cyrillus together when Samuel started",
+    "start": 1561
+  },
+  {
+    "content": "we tend we used to have a either a micro service or a monolith and we slowly",
+    "start": 1568
+  },
+  {
+    "content": "migrated to very small functions that use to execute things in the background",
+    "start": 1575
+  },
+  {
+    "content": "not very risky there as we moved on and time passed by and more communities",
+    "start": 1581
+  },
+  {
+    "content": "adopted surrealists we started being much more brave and we implemented more",
+    "start": 1586
+  },
+  {
+    "content": "and more functionality of our project in serverless functions and nowadays it",
+    "start": 1594
+  },
+  {
+    "content": "kind of looks like this where you have your your micro service and your",
+    "start": 1601
+  },
+  {
+    "content": "monolith is somewhere there and then there's tons of functions that implement",
+    "start": 1606
+  },
+  {
+    "content": "different types of functionality and while this is super grade and it enables",
+    "start": 1611
+  },
+  {
+    "content": "us to build amazing stuff it's also super confusing because you have things",
+    "start": 1616
+  },
+  {
+    "content": "all over the place and it's hard to manage and it's hard to kind of have a",
+    "start": 1621
+  },
+  {
+    "content": "clear idea of where things are and that's what graph QL helps us with it",
+    "start": 1627
+  },
+  {
+    "content": "helps us to add that single interface and that single end point where we can",
+    "start": 1632
+  },
+  {
+    "content": "query and we can understand how our API looks like so then to add graph QL into",
+    "start": 1637
+  },
+  {
+    "content": "our functions what we need to do is to use a graph QL JavaScript module and",
+    "start": 1646
+  },
+  {
+    "content": "this is just because I'm using nodejs functions but you can use other",
+    "start": 1653
+  },
+  {
+    "content": "languages as well and then we we use a graphical entry point to validate",
+    "start": 1658
+  },
+  {
+    "content": "queries and to execute them and the only required parameters here are the schema",
+    "start": 1665
+  },
+  {
+    "content": "and also the the request the actual request and then we return whatever",
+    "start": 1672
+  },
+  {
+    "content": "graph QL has retrieved for us so right here we have a browser and then",
+    "start": 1678
+  },
+  {
+    "content": "the graphic you endpoint can call in two maybe two functions or more functions",
+    "start": 1686
+  },
+  {
+    "content": "and those go and retrieve data from a database but it doesn't necessarily have",
+    "start": 1691
+  },
+  {
+    "content": "to be like that we press Q L we can directly query our database as well as",
+    "start": 1697
+  },
+  {
+    "content": "query from other rest endpoints and not only that we can actually add a caching",
+    "start": 1704
+  },
+  {
+    "content": "caching layer before querying into our database in this case Redis but you can",
+    "start": 1711
+  },
+  {
+    "content": "use other caching resources and you would do that just to add more",
+    "start": 1716
+  },
+  {
+    "content": "performance and graph QL is really powerful when we have different clients",
+    "start": 1721
+  },
+  {
+    "content": "calling into our endpoints because they use different data sources and they use",
+    "start": 1727
+  },
+  {
+    "content": "different shapes for our data so why what what are the server listen graph QL",
+    "start": 1733
+  },
+  {
+    "content": "type of advantages well with service we get is the integration of data sources",
+    "start": 1740
+  },
+  {
+    "content": "but graph QL we get is the abstraction of data sources with service we get auto",
+    "start": 1746
+  },
+  {
+    "content": "scalability so from one user to a million users there will be enough",
+    "start": 1753
+  },
+  {
+    "content": "servers for us to respond to those users and with graph QL we get a single",
+    "start": 1759
+  },
+  {
+    "content": "endpoint that will allow us to query all kinds of data and with server less will",
+    "start": 1764
+  },
+  {
+    "content": "write less code because we can we use all these api's that are available for",
+    "start": 1772
+  },
+  {
+    "content": "us and with graph QL we make a smaller number of requests because we can define",
+    "start": 1776
+  },
+  {
+    "content": "we can request all the data that we need in a single request so truly what graph",
+    "start": 1784
+  },
+  {
+    "content": "QL and servers have in common is increased developer productivity they",
+    "start": 1790
+  },
+  {
+    "content": "allow us to do all these build all these amazing api's by just combining them",
+    "start": 1796
+  },
+  {
+    "content": "together so we can achieve more by doing less",
+    "start": 1804
+  },
+  {
+    "content": "this is something that if Monica has brought brought into her presentation as",
+    "start": 1809
+  },
+  {
+    "content": "well so I think that's very important for the lazy developer and not only",
+    "start": 1816
+  },
+  {
+    "content": "that's what all we should try to be so I encourage you to go build something with",
+    "start": 1822
+  },
+  {
+    "content": "graphical and service and do you share that with me please thank you",
+    "start": 1829
+  },
+  {
+    "content": "[Applause]",
+    "start": 1834
+  },
+  {
+    "content": "you",
+    "start": 1850
+  }
+]

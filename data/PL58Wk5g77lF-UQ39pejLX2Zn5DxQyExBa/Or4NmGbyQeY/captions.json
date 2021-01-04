@@ -1,0 +1,2342 @@
+[
+  {
+    "content": "there are four people I'm gonna bring",
+    "start": 0
+  },
+  {
+    "content": "back to the stage so we're gonna have a bit of a discussion now I mentioned",
+    "start": 5
+  },
+  {
+    "content": "earlier on that if you want to ask questions you can certainly do so via",
+    "start": 10
+  },
+  {
+    "content": "Twitter I'll have my phone in my hand I'm not on Facebook I'm watching to see",
+    "start": 13
+  },
+  {
+    "content": "if anyone asks any questions otherwise I have some of my own also we might be",
+    "start": 19
+  },
+  {
+    "content": "able to open up the conversation a tiny bit to people in the room if people want",
+    "start": 22
+  },
+  {
+    "content": "to engage a little bit as we go we'll we'll play it a little bit by ear so I'm",
+    "start": 25
+  },
+  {
+    "content": "going to invite back to the stage Matt Billman from you'll remember from",
+    "start": 31
+  },
+  {
+    "content": "earlier on also we're going to have Taylor Gilbert joining us back on the",
+    "start": 35
+  },
+  {
+    "content": "stage from contentful Thomas Reynolds you will remember from earlier on invite",
+    "start": 39
+  },
+  {
+    "content": "him back and then we're also going to bring up Chris back the other co-founder",
+    "start": 43
+  },
+  {
+    "content": "and notify so I can have a warm welcome as we bring them all back up onto the",
+    "start": 47
+  },
+  {
+    "content": "stage please it's like a really awkward coffee morning alright so um so I I had",
+    "start": 51
+  },
+  {
+    "content": "a question to kind of kick things off I don't know where this is going to land",
+    "start": 68
+  },
+  {
+    "content": "I'll see whose eyes twitch as I asked the question but as you might might",
+    "start": 71
+  },
+  {
+    "content": "imagine I evangelize I guess about the jam stack a lot I talk about it a lot",
+    "start": 76
+  },
+  {
+    "content": "and one of the push backs I often get is okay that's great you're going to depend",
+    "start": 80
+  },
+  {
+    "content": "on all of this infrastructure a load of it you don't own a load of it isn't",
+    "start": 86
+  },
+  {
+    "content": "under your control that's not safe to do I believe it is but I'd love to hear if",
+    "start": 90
+  },
+  {
+    "content": "people have got thoughts on if it's safe if it's wise what's what what are the",
+    "start": 97
+  },
+  {
+    "content": "thoughts on that Matt do you want to kick that off yes sure as as someone",
+    "start": 102
+  },
+  {
+    "content": "running a lot of infrastructure a lot of the times when I when I hear that",
+    "start": 107
+  },
+  {
+    "content": "question anymore things like well yeah I could run this infrastructure right like",
+    "start": 111
+  },
+  {
+    "content": "rather than like oh we really need to own more infrastructure in-house right I",
+    "start": 115
+  },
+  {
+    "content": "don't think anybody really want to like be stripes operations team in your own",
+    "start": 120
+  },
+  {
+    "content": "company right and and I think in the same way",
+    "start": 125
+  },
+  {
+    "content": "if if people are using metal if I of course we are their operations team for",
+    "start": 129
+  },
+  {
+    "content": "the whole front end layer right and we'd spend a lot of resources on that in the",
+    "start": 135
+  },
+  {
+    "content": "same way when you have content full right like there's there's a dedicated",
+    "start": 139
+  },
+  {
+    "content": "team watching that whole part of the pipeline and of course like it reminds",
+    "start": 143
+  },
+  {
+    "content": "me like like I said like I think we're seeing something a little similar like",
+    "start": 147
+  },
+  {
+    "content": "how it's more normal now to not have co-located stuff than to have co-located",
+    "start": 150
+  },
+  {
+    "content": "stuff initially I remember when when when the cloud providers came out it was",
+    "start": 156
+  },
+  {
+    "content": "very much like the similar discussion of like how can you like oh no now MSM is",
+    "start": 160
+  },
+  {
+    "content": "down if only we had been running this ourselves we wouldn't be down and I",
+    "start": 165
+  },
+  {
+    "content": "think over time people have sort of come around to like maybe we would still also",
+    "start": 169
+  },
+  {
+    "content": "sometimes have been down because Amazon's operations team is pretty damn",
+    "start": 173
+  },
+  {
+    "content": "good and most in-house teams are well well",
+    "start": 178
+  },
+  {
+    "content": "struggled to get to the same level even if there's some time out reduce right",
+    "start": 182
+  },
+  {
+    "content": "and I think it's the same with with with these third parties who will - of course",
+    "start": 185
+  },
+  {
+    "content": "people have to evaluate the tools in their history and the quality of the",
+    "start": 189
+  },
+  {
+    "content": "service but in general like not owning infrastructure seems to be like better",
+    "start": 194
+  },
+  {
+    "content": "for an organization than spending a lot of time maintaining infrastructure and I",
+    "start": 200
+  },
+  {
+    "content": "mean I that makes sense to me but I still have come across people who are",
+    "start": 205
+  },
+  {
+    "content": "just uneasy at the idea of it's not under our control I mean Thomas you've",
+    "start": 209
+  },
+  {
+    "content": "worked as a technical director at an agency we like working with clients is",
+    "start": 214
+  },
+  {
+    "content": "that the kind of conversation you've had in the past if you you know to kind of",
+    "start": 218
+  },
+  {
+    "content": "make people feel a little bit more at ease about that",
+    "start": 221
+  },
+  {
+    "content": "yeah so I think kind of like I alluded to in my slides that every single",
+    "start": 224
+  },
+  {
+    "content": "external service is a point of failure and there you need to judge and make",
+    "start": 229
+  },
+  {
+    "content": "sure that you can survive at that failure so for a lot of the big software",
+    "start": 234
+  },
+  {
+    "content": "service you can get SLA agreements you are guaranteed very legally and",
+    "start": 239
+  },
+  {
+    "content": "monetarily for these kind of things but there are things that are probably still",
+    "start": 244
+  },
+  {
+    "content": "some pieces of the you know if you're not putting that slide with all the",
+    "start": 248
+  },
+  {
+    "content": "different different platforms together for the same platform maybe one of those",
+    "start": 252
+  },
+  {
+    "content": "is maybe you know less reliable maybe you're commenting platform isn't as",
+    "start": 256
+  },
+  {
+    "content": "reliable as your hosting so treat him with fear I guess and plan",
+    "start": 260
+  },
+  {
+    "content": "ahead we built some stuff on parse and firebase before they were both gobbled",
+    "start": 266
+  },
+  {
+    "content": "up parse was completely shut down and it cost a lot of money to move off of it",
+    "start": 272
+  },
+  {
+    "content": "because it was a pretty custom framework firebase is still over at Google but we",
+    "start": 276
+  },
+  {
+    "content": "decided that we were just so scared at that point that we started moving to",
+    "start": 281
+  },
+  {
+    "content": "even more simpler things and this I mean that's there's a kind of classic",
+    "start": 284
+  },
+  {
+    "content": "examples that people cite to me thinking Taylor as someone who's maybe it's like",
+    "start": 288
+  },
+  {
+    "content": "the other side of the fence they're kind of working at a vendor who provides",
+    "start": 293
+  },
+  {
+    "content": "these these services certainly an integration point that I would I would",
+    "start": 296
+  },
+  {
+    "content": "use often and kind of consume do you have conversations with people about you",
+    "start": 300
+  },
+  {
+    "content": "know giving them assurance that yeah we're fine we'll be here a while is that",
+    "start": 305
+  },
+  {
+    "content": "the kind of conversation you've you've had in the past how does contentful",
+    "start": 309
+  },
+  {
+    "content": "handle that yeah I think this is a conversation we get we we talk about all",
+    "start": 312
+  },
+  {
+    "content": "the time with our customers actually and we have to address it upfront because",
+    "start": 318
+  },
+  {
+    "content": "there is skepticism and everybody has a lot of baggage from where they've came",
+    "start": 322
+  },
+  {
+    "content": "from the main thing we talk about is every decision is really a trade-off",
+    "start": 325
+  },
+  {
+    "content": "like you have to make that decision we're gonna be very transparent around",
+    "start": 331
+  },
+  {
+    "content": "our SLA s what we provide to our customers what we're working on how",
+    "start": 335
+  },
+  {
+    "content": "often we're going through different security measures with our organization",
+    "start": 338
+  },
+  {
+    "content": "as well and it's up to you to make that decision and trade-off but here's all",
+    "start": 342
+  },
+  {
+    "content": "the information that we have and our customers generally really appreciate",
+    "start": 346
+  },
+  {
+    "content": "that and once they once we're pretty upfront with it it actually develops a",
+    "start": 350
+  },
+  {
+    "content": "lot of trust between our organization too and so I think how we address it is",
+    "start": 355
+  },
+  {
+    "content": "it's going to be a trade off but we're gonna give you all the information and",
+    "start": 360
+  },
+  {
+    "content": "it's we have all these other customers we have thousands of customers so",
+    "start": 363
+  },
+  {
+    "content": "nothing too bad recently or yet or whatever maybe you can see yeah and and",
+    "start": 366
+  },
+  {
+    "content": "yeah it does it does feel like yeah there are s LA's that are available and",
+    "start": 372
+  },
+  {
+    "content": "sure we can negotiate that and we will get the assurance of that but just just",
+    "start": 377
+  },
+  {
+    "content": "that just shift the complexity from being a technical one to being a legal",
+    "start": 382
+  },
+  {
+    "content": "one or a contractual one I mean is that still a problem",
+    "start": 386
+  },
+  {
+    "content": "it's not a fun conversation to have playing mm to get to a little bit yeah I",
+    "start": 392
+  },
+  {
+    "content": "think you're definitely right and that's again why we try to be very upfront and",
+    "start": 398
+  },
+  {
+    "content": "transparent with exactly what those essays are our security measures how we",
+    "start": 401
+  },
+  {
+    "content": "built our core infrastructure of our technology and everything in between",
+    "start": 404
+  },
+  {
+    "content": "and that is not the fun conversation to be having but what we're basically",
+    "start": 408
+  },
+  {
+    "content": "telling customers is look here is what you don't have to do here is what we are",
+    "start": 411
+  },
+  {
+    "content": "doing that you do not have to do and at that same point we try to shift them",
+    "start": 416
+  },
+  {
+    "content": "back to here are the benefits here are the faster ways in which you can now",
+    "start": 421
+  },
+  {
+    "content": "deploy your different either sites pages or content wherever it is in the things",
+    "start": 425
+  },
+  {
+    "content": "that you do not have to do an account for along the way and so again we get",
+    "start": 429
+  },
+  {
+    "content": "back to that trade-off conversation and we try to make the trade-off look you",
+    "start": 433
+  },
+  {
+    "content": "know relatively small and we believe it is relatively small based on all the",
+    "start": 436
+  },
+  {
+    "content": "things that we're doing and so yeah it's definitely not a fun conversation to",
+    "start": 439
+  },
+  {
+    "content": "fixate ourselves on because that's really not the benefit there is",
+    "start": 443
+  },
+  {
+    "content": "maintaining I mean it is a benefit that we have all of our security measures in",
+    "start": 446
+  },
+  {
+    "content": "place but that's not the main benefit of reusable content infrastructure and I",
+    "start": 449
+  },
+  {
+    "content": "think there's also this long tail as well on the all these projects because",
+    "start": 454
+  },
+  {
+    "content": "yes we're trying to get them built and deployed and out into the world but then",
+    "start": 457
+  },
+  {
+    "content": "they need to live on as well right so I mean some projects are longer than",
+    "start": 461
+  },
+  {
+    "content": "others some projects so maybe for a campaign and they have a very limited",
+    "start": 464
+  },
+  {
+    "content": "shelf life others will live on for a very very long time and I think I think",
+    "start": 467
+  },
+  {
+    "content": "you you sorry tell you um you brought up the issue of skills in the in the",
+    "start": 473
+  },
+  {
+    "content": "workforce and you know how long they stick around and how exotic they are and",
+    "start": 481
+  },
+  {
+    "content": "the longer a project lives the more kind of technologies and skills you might",
+    "start": 485
+  },
+  {
+    "content": "need to have in place Chris I know that you kind of worked at an agency for a",
+    "start": 489
+  },
+  {
+    "content": "long time and have kind of got lots of projects out into the world I think you",
+    "start": 493
+  },
+  {
+    "content": "know maybe you've you've got thoughts on like the value in like being able to",
+    "start": 498
+  },
+  {
+    "content": "keep a site alive and and maintained longer and you know and the kind of",
+    "start": 503
+  },
+  {
+    "content": "skills that are involved in that I mean it feels like this is an area that we",
+    "start": 510
+  },
+  {
+    "content": "could be shielded from some of those risks rather than like having to kind of",
+    "start": 513
+  },
+  {
+    "content": "grab the the thorny issue own ourselves yeah absolutely if you work if you move",
+    "start": 516
+  },
+  {
+    "content": "a little long from whether or not you run your own",
+    "start": 521
+  },
+  {
+    "content": "infrastructure where would that Commack insane the less you the less you run the",
+    "start": 525
+  },
+  {
+    "content": "better and talk a little bit more about you know security a lot I would say the",
+    "start": 528
+  },
+  {
+    "content": "jambs thing has some huge inherent benefits because if you run a wordpress",
+    "start": 532
+  },
+  {
+    "content": "site where you might have more of a single point of access for your gluco to",
+    "start": 537
+  },
+  {
+    "content": "build tools and template engine and CMS it's not that's rolling to one the",
+    "start": 541
+  },
+  {
+    "content": "problem is as everyone knows right it takes eleven days before there's a 50%",
+    "start": 545
+  },
+  {
+    "content": "chance of something bad happen if you haven't updated you know you know to the",
+    "start": 549
+  },
+  {
+    "content": "last version of Apache PHP you know your custom plugins or whatever and and and I",
+    "start": 552
+  },
+  {
+    "content": "think for agencies specifically this is relevant right because so many agencies",
+    "start": 557
+  },
+  {
+    "content": "out there and I realize that there's so many different kinds right but if we",
+    "start": 561
+  },
+  {
+    "content": "just talk generally speaking you you have so many agencies that are paid to",
+    "start": 564
+  },
+  {
+    "content": "and want to build sites and applications right it's the communication that goes",
+    "start": 569
+  },
+  {
+    "content": "into this the design is the work around it it's not maintaining a website after",
+    "start": 573
+  },
+  {
+    "content": "his life but at the same time they have clients that on the other hand just want",
+    "start": 578
+  },
+  {
+    "content": "this service right just once these conversions and and and and be done with",
+    "start": 582
+  },
+  {
+    "content": "it right and it's sort of ends up in between and if you were decoupling which",
+    "start": 585
+  },
+  {
+    "content": "is what is hot at the gems like you're decoupling the front-end for the Mac and",
+    "start": 590
+  },
+  {
+    "content": "you're decoupling building from hosting right so if you leave a site alone on a",
+    "start": 594
+  },
+  {
+    "content": "service like magnifier or something similar for 20 years they'll still be",
+    "start": 598
+  },
+  {
+    "content": "there there is no surface area attack there's no moveable paths your built",
+    "start": 603
+  },
+  {
+    "content": "will be broken as right it's my language right but but it will be broken",
+    "start": 607
+  },
+  {
+    "content": "on your developers computer and that's a really really big plus and once you sort",
+    "start": 612
+  },
+  {
+    "content": "of set it into the framework off of how you work as as an agency it is really a",
+    "start": 617
+  },
+  {
+    "content": "huge advantage right the fact that you don't have to worry about these things",
+    "start": 622
+  },
+  {
+    "content": "once it's live you can say that you still have to cater some micro services",
+    "start": 626
+  },
+  {
+    "content": "and ap ice and anything that's the first party because you don't have to make",
+    "start": 631
+  },
+  {
+    "content": "sure that it stripe is up to date stripe will make sure that right but but of",
+    "start": 634
+  },
+  {
+    "content": "course if you're doing your own first first person database of the first party",
+    "start": 638
+  },
+  {
+    "content": "databases and so on you you'll have to upgrade that but mind you you do that",
+    "start": 642
+  },
+  {
+    "content": "anyway where the monolithic app it's not like",
+    "start": 647
+  },
+  {
+    "content": "you you know more than 90% of anything that needs real-time updating in a",
+    "start": 649
+  },
+  {
+    "content": "legacy one other thing this is like three or four years ago was",
+    "start": 654
+  },
+  {
+    "content": "all had already migrated out to be using ap is right I mean 20 years ago you",
+    "start": 657
+  },
+  {
+    "content": "wanted to have a payment gateway you might build it out and put on your own",
+    "start": 661
+  },
+  {
+    "content": "website it's a day that would be like straight-up masochistic you use like two",
+    "start": 664
+  },
+  {
+    "content": "lines of JavaScript and you connect to stripe right so I mean we have into this",
+    "start": 668
+  },
+  {
+    "content": "API economy right and and once that's said and done it just makes so much more",
+    "start": 672
+  },
+  {
+    "content": "sense to not have to worry about running your friend in on the fly but free",
+    "start": 677
+  },
+  {
+    "content": "building it right for the love of God I think you've mentioned things like",
+    "start": 682
+  },
+  {
+    "content": "integrations with stripe there it feels to me like once upon a time that would",
+    "start": 687
+  },
+  {
+    "content": "have felt really exotic and unusual and a bit of a gamble and now confidence is",
+    "start": 692
+  },
+  {
+    "content": "growing and growing and growing I'm kind of curious particularly from anyone",
+    "start": 697
+  },
+  {
+    "content": "who's worked with agencies or work with clients who've been doing this if we if",
+    "start": 700
+  },
+  {
+    "content": "we've been seeing is that instinct true is that interesting right our people",
+    "start": 705
+  },
+  {
+    "content": "getting more comfortable with the notion of using just something like stripe and",
+    "start": 708
+  },
+  {
+    "content": "dropping in e-commerce a little bit more simply or do is there still a real",
+    "start": 713
+  },
+  {
+    "content": "appetite to build things ourselves like that I saw a number of Braintree",
+    "start": 717
+  },
+  {
+    "content": "and I don't think we ever really built it the interface was just worse so the",
+    "start": 722
+  },
+  {
+    "content": "DX are using stripe is way better than it used to be Matthew I mean I know the",
+    "start": 727
+  },
+  {
+    "content": "net if I have been projects I know I think you were sighting earlier on like",
+    "start": 735
+  },
+  {
+    "content": "the work with Smashing and the kind of integrations that happen there I mean is",
+    "start": 739
+  },
+  {
+    "content": "do you think that's a good indication of people's appetite to work in this way or",
+    "start": 743
+  },
+  {
+    "content": "do you think that's still at an outlier I think I think of course we're seeing",
+    "start": 750
+  },
+  {
+    "content": "this API economy approach just becoming more and more common in and more popular",
+    "start": 754
+  },
+  {
+    "content": "I also think we're seeing like pretty at the same time strong a strong need for",
+    "start": 760
+  },
+  {
+    "content": "also having like standards that makes these API is hopefully interoperable or",
+    "start": 766
+  },
+  {
+    "content": "based on open source that like we've seen that in many cases right like that",
+    "start": 771
+  },
+  {
+    "content": "in general the infrastructure that we've built around and sort of the pipeline",
+    "start": 777
+  },
+  {
+    "content": "we've built around it it's it's not sort of identify specific proprietors that",
+    "start": 781
+  },
+  {
+    "content": "that couldn't use without Ned Levi right like",
+    "start": 787
+  },
+  {
+    "content": "in general we've tried to take like I could take drill principles and so on",
+    "start": 789
+  },
+  {
+    "content": "that people were already building with in other ways and then just saying how",
+    "start": 793
+  },
+  {
+    "content": "how can we make the process and the workflow around it",
+    "start": 796
+  },
+  {
+    "content": "come together in a way where where it's just as smooth as using it big",
+    "start": 801
+  },
+  {
+    "content": "monolithic app application right and I think we'll see that in many ways with",
+    "start": 805
+  },
+  {
+    "content": "with these different services that hopefully we can build out more",
+    "start": 808
+  },
+  {
+    "content": "standards around like the schemas for content that we consume in different",
+    "start": 811
+  },
+  {
+    "content": "places or around the the way the different the way the different API is",
+    "start": 816
+  },
+  {
+    "content": "interoperate and work and at our at our end we are also trying to build like",
+    "start": 822
+  },
+  {
+    "content": "more more glue layers that that makes it easier to use these together and and and",
+    "start": 827
+  },
+  {
+    "content": "also makes it easier to to maybe change between them because in the end in the",
+    "start": 833
+  },
+  {
+    "content": "end that that drives adoption for all of them because it lowers like the fear",
+    "start": 838
+  },
+  {
+    "content": "upfront of here are we getting into something like like",
+    "start": 843
+  },
+  {
+    "content": "past there was like a very specific very tailored experience but locked down to",
+    "start": 846
+  },
+  {
+    "content": "like if if you want to get off it you can't really right so I do think that",
+    "start": 851
+  },
+  {
+    "content": "that that there's concerns around that and on the Smashing project we we made",
+    "start": 856
+  },
+  {
+    "content": "several API is open source for this reason right like to really try to",
+    "start": 860
+  },
+  {
+    "content": "bolster them but then again at the same time like in the traditional like world",
+    "start": 864
+  },
+  {
+    "content": "of WordPress plug-in so a rails Jim's and so on right then you have the flip",
+    "start": 870
+  },
+  {
+    "content": "side of that where where it might be open but it's also just like you don't",
+    "start": 875
+  },
+  {
+    "content": "really have any company behind it that's accountable for it which I think often -",
+    "start": 879
+  },
+  {
+    "content": "the enterprise is more more terrifying right because there's no one you can",
+    "start": 884
+  },
+  {
+    "content": "actually like getting this away from it all apart from your own ops team that",
+    "start": 887
+  },
+  {
+    "content": "need an own surgery I might comment one more I think the question was are we",
+    "start": 891
+  },
+  {
+    "content": "seeing more energy here in confidence in this API economy and I can say from my",
+    "start": 897
+  },
+  {
+    "content": "perspective at least my journey in enjoining contentful I was at an agency",
+    "start": 902
+  },
+  {
+    "content": "telling them about my former technology company Optimizely and we're doing some",
+    "start": 906
+  },
+  {
+    "content": "training and all this stuff and I always ask groups",
+    "start": 910
+  },
+  {
+    "content": "hey what's coming up next what are you excited about how are you orienting your",
+    "start": 912
+  },
+  {
+    "content": "organization and to very large agencies pulled up these slides that",
+    "start": 916
+  },
+  {
+    "content": "said we are moving into the API economy this is how we are going to be",
+    "start": 923
+  },
+  {
+    "content": "delivering projects this is how we are going to enhance developer experience I",
+    "start": 927
+  },
+  {
+    "content": "don't want to make my humans work on all of these legacy technologies anymore I'm",
+    "start": 930
+  },
+  {
+    "content": "losing I'm losing people and I'm losing time and delivering projects and I",
+    "start": 935
+  },
+  {
+    "content": "thought yeah that's cool okay I'll join this company called contentful I'll bet",
+    "start": 940
+  },
+  {
+    "content": "on that myself and this has been very very true and I just got done with a",
+    "start": 943
+  },
+  {
+    "content": "very large Road Roadshow as we launched her in a partner program at contentful",
+    "start": 949
+  },
+  {
+    "content": "and I can't tell you actually I can fifty percent of the agencies and",
+    "start": 952
+  },
+  {
+    "content": "Gartner's top right-hand magic quadrant have this strategy of building",
+    "start": 958
+  },
+  {
+    "content": "best-in-class services on top of these different api's and connecting these",
+    "start": 962
+  },
+  {
+    "content": "services and making them interoperable and this is wildly important and I",
+    "start": 966
+  },
+  {
+    "content": "thought oh that's cool you all are telling me that you're you know CTO of",
+    "start": 970
+  },
+  {
+    "content": "managing thousands of people and then we got on the phone with Forrester and this",
+    "start": 974
+  },
+  {
+    "content": "has even gotten to their world as well and so they're talking to us about these",
+    "start": 978
+  },
+  {
+    "content": "same exact things and this is top of mind for how they're looking at this",
+    "start": 983
+  },
+  {
+    "content": "future modern architecture from all these different companies and the",
+    "start": 986
+  },
+  {
+    "content": "confidence in energy is there I think there are better days ahead for all of",
+    "start": 990
+  },
+  {
+    "content": "us that are still stuck using some legacy technologies is more top-level",
+    "start": 994
+  },
+  {
+    "content": "energy becomes recognized but at least from the ground and indicators that I've",
+    "start": 997
+  },
+  {
+    "content": "seen and the project's coming in it's there's a wildfire coming this this",
+    "start": 1001
+  },
+  {
+    "content": "phrase about the API economy and just the this approach of building things",
+    "start": 1008
+  },
+  {
+    "content": "there's leveraging lots of api's kind of leads you to a place where you have to",
+    "start": 1013
+  },
+  {
+    "content": "design your your your site your your architecture or with the assumption that",
+    "start": 1017
+  },
+  {
+    "content": "some of these things no they are abstracted they're decoupled so they you",
+    "start": 1023
+  },
+  {
+    "content": "know you can switch them out right the idea of kind of small pieces loosely",
+    "start": 1027
+  },
+  {
+    "content": "joined kind of applies here again and I've always been attracted to companies",
+    "start": 1030
+  },
+  {
+    "content": "that prove that you can move away from easily and it's a it's a strange thing",
+    "start": 1035
+  },
+  {
+    "content": "to build in as a benefit to say it's easy to leave us but it kind of",
+    "start": 1040
+  },
+  {
+    "content": "demonstrates I think that that there is a future after after us you know as as a",
+    "start": 1044
+  },
+  {
+    "content": "vendor which is really makes it very attractive",
+    "start": 1051
+  },
+  {
+    "content": "so it feels like a strange balance to take it sometimes but being easily",
+    "start": 1053
+  },
+  {
+    "content": "replaced is kind of key I think I would even add to that I think it's critical",
+    "start": 1058
+  },
+  {
+    "content": "now at least in the executive world people are now graded on the decisions",
+    "start": 1063
+  },
+  {
+    "content": "that they make and their capital investments of technologies and by",
+    "start": 1068
+  },
+  {
+    "content": "leveraging an API economy that's interchangeable executives massively",
+    "start": 1071
+  },
+  {
+    "content": "reduced their risk in exposure we've we've talked to so many different folks",
+    "start": 1076
+  },
+  {
+    "content": "that have gone through the side of I'm buying at that massive monolith then you",
+    "start": 1080
+  },
+  {
+    "content": "know pushing all my chips on on that thing and people get fired for that but",
+    "start": 1084
+  },
+  {
+    "content": "we are moving into a world where you can do risk a lot of the technology",
+    "start": 1088
+  },
+  {
+    "content": "decisions that you're making by procuring solutions or using solutions",
+    "start": 1091
+  },
+  {
+    "content": "that are easily interchangeable I'm I would say like just as you sit there",
+    "start": 1095
+  },
+  {
+    "content": "right like it's a lot easier to switch out stripe for brainfreeze and just",
+    "start": 1102
+  },
+  {
+    "content": "switch out adobe experience manager for cycle right and yet some of these you",
+    "start": 1105
+  },
+  {
+    "content": "know these these technologies that people experience some of these pages",
+    "start": 1112
+  },
+  {
+    "content": "around there and you know i think some of these like giant technology companies",
+    "start": 1117
+  },
+  {
+    "content": "have such momentum though and have such kind of mind share particularly in the",
+    "start": 1124
+  },
+  {
+    "content": "big enterprise clients know it's it's almost like they're to use a horrible",
+    "start": 1127
+  },
+  {
+    "content": "expression they're kind of reassuringly expensive do you do you think that the",
+    "start": 1133
+  },
+  {
+    "content": "fact that some of these like newer newer approaches these decoupled",
+    "start": 1140
+  },
+  {
+    "content": "infrastructures these this API economy can be much more affordable do you think",
+    "start": 1144
+  },
+  {
+    "content": "that is holding us back from getting into the enterprises and we've got any",
+    "start": 1149
+  },
+  {
+    "content": "thoughts on that or should we all just make everything that we make just that",
+    "start": 1153
+  },
+  {
+    "content": "little bit more expensive anyone I can briefly comment on this when I first",
+    "start": 1157
+  },
+  {
+    "content": "started that contentful and I've had a few conversations folks",
+    "start": 1163
+  },
+  {
+    "content": "today around pricing which is always a sensitive topic no matter who you talk",
+    "start": 1165
+  },
+  {
+    "content": "to but when I first joined contentful I was",
+    "start": 1168
+  },
+  {
+    "content": "working with a few different agencies and just asking them hey what's what are",
+    "start": 1172
+  },
+  {
+    "content": "your thoughts on contentful and you know getting to know them and this one",
+    "start": 1176
+  },
+  {
+    "content": "gentleman made this comment he was first it was a comment then we had a long",
+    "start": 1179
+  },
+  {
+    "content": "detailed discussion and he said I just need you guys",
+    "start": 1184
+  },
+  {
+    "content": "to have a price on your website that says a million dollars that's",
+    "start": 1187
+  },
+  {
+    "content": "interesting why and he said I can't walk you into you know these conversations in",
+    "start": 1192
+  },
+  {
+    "content": "which I want to put you up against Adobe I want to put you up against psych or in",
+    "start": 1197
+  },
+  {
+    "content": "these other groups that are out there with that same message we had a very",
+    "start": 1200
+  },
+  {
+    "content": "very long conversation around this and I don't know that there is a a right",
+    "start": 1205
+  },
+  {
+    "content": "solution here because I do think the total cost of ownership and especially",
+    "start": 1209
+  },
+  {
+    "content": "when you are splitting out your technology investments across multiple",
+    "start": 1212
+  },
+  {
+    "content": "different solutions I don't think it's advantageous for anybody to totally say",
+    "start": 1215
+  },
+  {
+    "content": "hey we want to be the most expensive and you know keep driving that cost out but",
+    "start": 1220
+  },
+  {
+    "content": "I do think it's on the vendors to actually coordinate a little bit better",
+    "start": 1223
+  },
+  {
+    "content": "and on the agencies for packaging these things together to make it easy on",
+    "start": 1226
+  },
+  {
+    "content": "clients I do think there is something there where people are like well if it's",
+    "start": 1229
+  },
+  {
+    "content": "expensive I trust it and if I'm going golfing with somebody I trust them so",
+    "start": 1233
+  },
+  {
+    "content": "I'm gonna make that decision I don't think we need to go all the way there I",
+    "start": 1237
+  },
+  {
+    "content": "do think the clients in the ecosystem are actually becoming a lot more savvy",
+    "start": 1241
+  },
+  {
+    "content": "and there's a lot of reading on this in terms of the the modern CEO and the",
+    "start": 1244
+  },
+  {
+    "content": "modern CMO and how product managers are now operating these different businesses",
+    "start": 1249
+  },
+  {
+    "content": "so I think we are going to be in a place in the next three to five years we have",
+    "start": 1253
+  },
+  {
+    "content": "a lot more practical leadership that will actually be looking at it stuff and",
+    "start": 1256
+  },
+  {
+    "content": "not making decisions based on golf yeah I have some experience with that not go",
+    "start": 1260
+  },
+  {
+    "content": "yeah some of our clients use software that's a million-dollar license a month",
+    "start": 1267
+  },
+  {
+    "content": "like that's incredible and kind of just saying oh no don't worry we'll get your",
+    "start": 1271
+  },
+  {
+    "content": "bill down to 200 bucks a month they're like okay so what's the catch you had",
+    "start": 1277
+  },
+  {
+    "content": "the money I don't care but yeah it's always there's a",
+    "start": 1282
+  },
+  {
+    "content": "perception that's a certain like CT level that money equals success which we",
+    "start": 1287
+  },
+  {
+    "content": "know is not true but yeah but that million dollar went on there if you like",
+    "start": 1292
+  },
+  {
+    "content": "a sell it okay I think that that when you talk prize and really like of course",
+    "start": 1297
+  },
+  {
+    "content": "there's a that's a end game in surprise play where where you know you can't sell",
+    "start": 1302
+  },
+  {
+    "content": "something to achieve if you want to be taken seriously in the hole the idea of",
+    "start": 1307
+  },
+  {
+    "content": "perceived value changes right but I think as a category and",
+    "start": 1310
+  },
+  {
+    "content": "and then we're moving to a new stack that in itself doesn't entail that we",
+    "start": 1314
+  },
+  {
+    "content": "have to rise in low prices a big part of this for example is like we're talking",
+    "start": 1317
+  },
+  {
+    "content": "agencies here right and and and Western agencies we over vision hosting cost on",
+    "start": 1321
+  },
+  {
+    "content": "average by seven hundred percent when it comes to monolithic applications we do",
+    "start": 1325
+  },
+  {
+    "content": "that because we have to buffer for potential traffic right if we",
+    "start": 1329
+  },
+  {
+    "content": "accidentally successful but we need to have make sure that whatever",
+    "start": 1333
+  },
+  {
+    "content": "infrastructure were press site or whatever is running on is large enough",
+    "start": 1336
+  },
+  {
+    "content": "to actually cater to it right and and I remember I spent 14 years in agencies as",
+    "start": 1340
+  },
+  {
+    "content": "well and it sucked when I had to sort of guess right it's a guessing game like",
+    "start": 1345
+  },
+  {
+    "content": "how much traffic we're gonna get are know a lot I hope and so 99% you know",
+    "start": 1348
+  },
+  {
+    "content": "sort of Bulba provision right and then three to four times a year for",
+    "start": 1354
+  },
+  {
+    "content": "medium-size agency that's not enough right and just getting rid of that by",
+    "start": 1357
+  },
+  {
+    "content": "default because you're no longer building your friend and on the fly for",
+    "start": 1361
+  },
+  {
+    "content": "every single visitor but but rather you pre-built everything right so so you",
+    "start": 1364
+  },
+  {
+    "content": "have a million visitors and you have your distributed directly in that",
+    "start": 1369
+  },
+  {
+    "content": "application delivery network which has endless amount of notes that I can just",
+    "start": 1372
+  },
+  {
+    "content": "keep post falling over to right then mmm that's you know that makes the",
+    "start": 1375
+  },
+  {
+    "content": "jams like so much more scalable and of course way more cost efficient the same",
+    "start": 1381
+  },
+  {
+    "content": "time like we have clients where Neto Feist is an adn that's that's built on",
+    "start": 1385
+  },
+  {
+    "content": "all the major cloud providers so it's actually a virtual application delivery",
+    "start": 1389
+  },
+  {
+    "content": "network that by Apache traffic service built there and the redundancy and",
+    "start": 1392
+  },
+  {
+    "content": "Enterprise get from having seven failover sort of Amazon ever went down",
+    "start": 1396
+  },
+  {
+    "content": "yours at Google computer Rackspace and so on and and the very advanced cases he",
+    "start": 1399
+  },
+  {
+    "content": "of having completely merit fallback instances running next to it and so on",
+    "start": 1404
+  },
+  {
+    "content": "of course those are big set ups and of course that they expensive for finding",
+    "start": 1409
+  },
+  {
+    "content": "surprises that that and it would be probably really weird if we sold it very",
+    "start": 1413
+  },
+  {
+    "content": "cheaply it's also expensive to run right but but of course that will probably be",
+    "start": 1417
+  },
+  {
+    "content": "a perception with with you know a problem with value perception but I",
+    "start": 1422
+  },
+  {
+    "content": "really don't think that that part of the gems thing is actually the simplicity",
+    "start": 1426
+  },
+  {
+    "content": "right is not having to run all this on the fly",
+    "start": 1429
+  },
+  {
+    "content": "but being able to pre build it in the same way we do with mobile applications",
+    "start": 1432
+  },
+  {
+    "content": "right you pre build your app you download to your phone you speak to",
+    "start": 1435
+  },
+  {
+    "content": "micro services from the images this is the same architects texture generally",
+    "start": 1438
+  },
+  {
+    "content": "speaking but for the website there's a lot of cost benefits too",
+    "start": 1443
+  },
+  {
+    "content": "associated with that right obviously we should you know that's that's a selling",
+    "start": 1447
+  },
+  {
+    "content": "point of the jam site right you literally about to chime in no okay so",
+    "start": 1451
+  },
+  {
+    "content": "at the I think I've heard a couple of times throughout the day talk about are",
+    "start": 1458
+  },
+  {
+    "content": "we we just build what the client asks us to build or you know we've got this RFP",
+    "start": 1464
+  },
+  {
+    "content": "and they've they've said yeah we'd we'd like this WordPress thing to to solve",
+    "start": 1469
+  },
+  {
+    "content": "the solution there I've seen I've encountered this a lot of times where",
+    "start": 1474
+  },
+  {
+    "content": "then already a client doesn't describe the problem they'd like to solve they",
+    "start": 1477
+  },
+  {
+    "content": "describe the solution that they've heard of and have been comfortable buying",
+    "start": 1481
+  },
+  {
+    "content": "before challenging that and saying actually this is the stack that we",
+    "start": 1484
+  },
+  {
+    "content": "recommend can be a little unnerving at times of Thomas of you for instance had",
+    "start": 1489
+  },
+  {
+    "content": "experience and that way I mean especially since they you have your own",
+    "start": 1496
+  },
+  {
+    "content": "that's excite donator that you that you've you built and you know it's",
+    "start": 1500
+  },
+  {
+    "content": "that's something that you could deploy and you have deployed successfully is it",
+    "start": 1504
+  },
+  {
+    "content": "challenging to actually say you don't need the thing that you think you need",
+    "start": 1508
+  },
+  {
+    "content": "we can help you in a better way yeah it definitely has been in the past I think",
+    "start": 1511
+  },
+  {
+    "content": "we have been trending in that direction for a couple years now so we try to get",
+    "start": 1516
+  },
+  {
+    "content": "ahead of those conversations and check them and reset them as quickly as",
+    "start": 1520
+  },
+  {
+    "content": "possible to be able to make you know we're gonna an agency is gonna make far",
+    "start": 1523
+  },
+  {
+    "content": "more websites and web installations than any individual company ever will we will",
+    "start": 1528
+  },
+  {
+    "content": "always have more experience and a wider array of skills and knowledge so we're",
+    "start": 1531
+  },
+  {
+    "content": "actually the experts who can point out this is good this is bad that didn't",
+    "start": 1536
+  },
+  {
+    "content": "work last time whereas someone will just you know use wordpress over and over",
+    "start": 1539
+  },
+  {
+    "content": "again may not have that experience so we're super empowered to be able to make",
+    "start": 1543
+  },
+  {
+    "content": "those calls and try to convince people to come along with us in my day-to-day",
+    "start": 1546
+  },
+  {
+    "content": "actually work at the Google 95% of the time so that's locked down that's not",
+    "start": 1551
+  },
+  {
+    "content": "going anywhere that's GCP but for the rest of the agency we've had some really",
+    "start": 1555
+  },
+  {
+    "content": "success we got sequoia onto middleman and lfi",
+    "start": 1561
+  },
+  {
+    "content": "which was really an contentful I believe and that was a huge huge sell because",
+    "start": 1564
+  },
+  {
+    "content": "those guys know technology pretty well and telling them that they didn't need",
+    "start": 1569
+  },
+  {
+    "content": "active admin they were using it wasn't too hard of a",
+    "start": 1573
+  },
+  {
+    "content": "self but that was a pretty successful one and we've done so with a bunch of",
+    "start": 1577
+  },
+  {
+    "content": "NGOs and stuff bringing them off-site corny em and moving them over to Django",
+    "start": 1581
+  },
+  {
+    "content": "in most cases there's it's that that one is along the lines of it's really easy",
+    "start": 1587
+  },
+  {
+    "content": "to hire Python but it's um one of the more popular languages now so pythons a",
+    "start": 1591
+  },
+  {
+    "content": "really good target if you're gonna have it back end yeah I mean that the that",
+    "start": 1596
+  },
+  {
+    "content": "kind of touches closely on this idea of okay we we accept this new stack you're",
+    "start": 1602
+  },
+  {
+    "content": "talking about but really we need everything on Prem you know we're",
+    "start": 1608
+  },
+  {
+    "content": "comfortable with all the things you're talking about but can we just run it on",
+    "start": 1612
+  },
+  {
+    "content": "our own surface then we'll we'll manage ourselves so this I think people",
+    "start": 1615
+  },
+  {
+    "content": "sometimes grasp some of the idea but they're not happy relinquishing control",
+    "start": 1619
+  },
+  {
+    "content": "I think I had a few conversations in the early days of talking about content well",
+    "start": 1623
+  },
+  {
+    "content": "for instance about there's this great decoupled experience what I feel and",
+    "start": 1628
+  },
+  {
+    "content": "people say that's wonderful but we don't trust the data unless it lives on our",
+    "start": 1631
+  },
+  {
+    "content": "servers how do we how do we convince people that we can move beyond that any",
+    "start": 1636
+  },
+  {
+    "content": "anybody I'm really asking I mean we we have that conversation and I can't say",
+    "start": 1641
+  },
+  {
+    "content": "that we win that conversation every time usually if people are at least our",
+    "start": 1649
+  },
+  {
+    "content": "customers that we're talking to or prospects I should say that have that",
+    "start": 1654
+  },
+  {
+    "content": "point of view and they hold it very very strongly we're just gonna lose that we",
+    "start": 1657
+  },
+  {
+    "content": "can't convince them hey this is this is the cloud here's you know your Amazon",
+    "start": 1663
+  },
+  {
+    "content": "delivery networks is where everything's hosted these are s3 buckets where all",
+    "start": 1667
+  },
+  {
+    "content": "your content is and everything else we can't go explain the cloud to them",
+    "start": 1670
+  },
+  {
+    "content": "necessarily and nor do we nor do we want to be condescending in that in that way",
+    "start": 1674
+  },
+  {
+    "content": "either but again we just humbly walk through the trade-offs of hosting all of",
+    "start": 1679
+  },
+  {
+    "content": "your own on-premise solutions versus leveraging cloud services and you can",
+    "start": 1684
+  },
+  {
+    "content": "make the decision but if you're still thinking on Prem then you know we should",
+    "start": 1687
+  },
+  {
+    "content": "just cut cut ties right now I think we're talking a little high level",
+    "start": 1692
+  },
+  {
+    "content": "because like I think that's what we interact with no those are the questions",
+    "start": 1696
+  },
+  {
+    "content": "we get a lot of the time but the truth of it is like not everyone's at Google",
+    "start": 1698
+  },
+  {
+    "content": "scale like the number of companies we all work with that aren't at that scale",
+    "start": 1702
+  },
+  {
+    "content": "and would never want to have and in colonel team to manage their database",
+    "start": 1706
+  },
+  {
+    "content": "fail at versa migrations is probably 95% of the ones out there so it may be the",
+    "start": 1709
+  },
+  {
+    "content": "wrong target for the question because you could probably replace we have",
+    "start": 1714
+  },
+  {
+    "content": "replaced entire Department set mid-sized companies with hosted solutions and the",
+    "start": 1720
+  },
+  {
+    "content": "clients happier database engineers less so it's the whole so on Prem versus vs.",
+    "start": 1725
+  },
+  {
+    "content": "not on print I think you touched upon something super interesting for agencies",
+    "start": 1732
+  },
+  {
+    "content": "we in like you're saying how often do the clients decide I think take what",
+    "start": 1735
+  },
+  {
+    "content": "stack it is right and that's there's a huge group of agencies I don't think",
+    "start": 1740
+  },
+  {
+    "content": "there's a lot of them represented here today because then they wouldn't be here",
+    "start": 1743
+  },
+  {
+    "content": "right but but where they say well you know we choose whatever stack that the",
+    "start": 1747
+  },
+  {
+    "content": "clients asked for and if they ask us which is WordPress because it's 30",
+    "start": 1751
+  },
+  {
+    "content": "percent 2% over the Internet and then one got five for using that right and",
+    "start": 1755
+  },
+  {
+    "content": "also you know this is easy to find developer so whatever the reason may be",
+    "start": 1758
+  },
+  {
+    "content": "right and and and and and I think like if you're here it's because you actually",
+    "start": 1762
+  },
+  {
+    "content": "care about this right and you want to find out how can you be more performant",
+    "start": 1767
+  },
+  {
+    "content": "and so on right but I also do see that there's there's a need for not all",
+    "start": 1770
+  },
+  {
+    "content": "agencies but but a lot of agencies in the way they pitch their clients right",
+    "start": 1775
+  },
+  {
+    "content": "so let's say you're up against five others traditionally there's sort of",
+    "start": 1780
+  },
+  {
+    "content": "like four boxes you pick pitching right one is how good can you make it look",
+    "start": 1783
+  },
+  {
+    "content": "right and and you know whatever the sign your pitch and whether let's say it's a",
+    "start": 1787
+  },
+  {
+    "content": "it's a website right and and the other is like you know what what can you add",
+    "start": 1790
+  },
+  {
+    "content": "strategically communication-wise you know have you worked with Pharma before",
+    "start": 1796
+  },
+  {
+    "content": "whatever right the fit box can be a multitude of thing you be what the CMS",
+    "start": 1799
+  },
+  {
+    "content": "you you know you use a lose does it look shiny or you know price and stuff like",
+    "start": 1802
+  },
+  {
+    "content": "that and the fourth is interesting because it's infrastructure and that",
+    "start": 1806
+  },
+  {
+    "content": "traditionally has been and not for everyone",
+    "start": 1809
+  },
+  {
+    "content": "of course the ton of exceptions but generally speaking just make it work",
+    "start": 1811
+  },
+  {
+    "content": "right if we're live afterwards we're good and that is not only is it changing",
+    "start": 1815
+  },
+  {
+    "content": "right and it's changed because it has to change because so many has touched a",
+    "start": 1820
+  },
+  {
+    "content": "wordpress site that all of a sudden got hacked they went down or Drupal are the",
+    "start": 1823
+  },
+  {
+    "content": "same right and more and more just becoming aware of performance being part",
+    "start": 1826
+  },
+  {
+    "content": "of the scope right like if you know we won't pay you if you don't deliver on",
+    "start": 1831
+  },
+  {
+    "content": "time it won't pay you if the front page loads in more than 10 seconds or",
+    "start": 1834
+  },
+  {
+    "content": "whatever it might be right but another thing it's also and this is something at",
+    "start": 1837
+  },
+  {
+    "content": "least to me that that is you know this close to hottest",
+    "start": 1841
+  },
+  {
+    "content": "is that I see missing often is that when you pitch someone you're pitching",
+    "start": 1843
+  },
+  {
+    "content": "someone in the marketing department right and you're differentiating to ones",
+    "start": 1848
+  },
+  {
+    "content": "to competitors by very abstract things like how good the sturm at the sign",
+    "start": 1851
+  },
+  {
+    "content": "login is this the right way of communicating and so on right but these",
+    "start": 1854
+  },
+  {
+    "content": "markets here's I actually measured in turn very absolutely right I mean like",
+    "start": 1858
+  },
+  {
+    "content": "it they measured by the conversion of whatever it is they do it's a numbers",
+    "start": 1862
+  },
+  {
+    "content": "thing right it's reported in spreadsheets so if you can have your",
+    "start": 1866
+  },
+  {
+    "content": "pitch more married to that it's better right and and so back in the agency they",
+    "start": 1869
+  },
+  {
+    "content": "attract this myself right and and and I work with a bunch of agencies doing this",
+    "start": 1874
+  },
+  {
+    "content": "later on and metla fire level and it's amazing how well it works right getting",
+    "start": 1877
+  },
+  {
+    "content": "the infrastructure or not from page four but all the way up top right and say and",
+    "start": 1882
+  },
+  {
+    "content": "and making it differentiator like the fact of the matter is that when you have",
+    "start": 1886
+  },
+  {
+    "content": "a time to first byte of serve seven thousands of a second instead of a",
+    "start": 1890
+  },
+  {
+    "content": "second it means tremendous amounts for your conversion rate and it's not my",
+    "start": 1893
+  },
+  {
+    "content": "word for it but Amazon Google Yahoo that's been so many published surveys of",
+    "start": 1897
+  },
+  {
+    "content": "this right and in a world where we're one cent pricing difference will kill",
+    "start": 1902
+  },
+  {
+    "content": "you because you can just google it and going by the cheeba everywhere else",
+    "start": 1906
+  },
+  {
+    "content": "right it what you would you differentiate pond just to take",
+    "start": 1909
+  },
+  {
+    "content": "ecommerce as an example it's volume right so so if you can get something",
+    "start": 1912
+  },
+  {
+    "content": "that has a conversion rate of 10% higher out the gate just because your bounce",
+    "start": 1916
+  },
+  {
+    "content": "rate goes down just because you load that much faster right that's the",
+    "start": 1921
+  },
+  {
+    "content": "difference between being in Atlantic the black and being in the red right that",
+    "start": 1925
+  },
+  {
+    "content": "differentiates really successful businesses for the ones that actually",
+    "start": 1928
+  },
+  {
+    "content": "have to close I mean it's a huge differentiator right and the fact that",
+    "start": 1931
+  },
+  {
+    "content": "you could just leave stuff alone and it doesn't break it's not those a huge",
+    "start": 1935
+  },
+  {
+    "content": "selling documents right and they should be right and once you really place it up",
+    "start": 1939
+  },
+  {
+    "content": "front I've seen it again and again it worked right and I think is gonna free",
+    "start": 1943
+  },
+  {
+    "content": "from the people that really get it and talk about this infrastructure is part",
+    "start": 1946
+  },
+  {
+    "content": "of what differentiate their bid it's going to be hiding everyone's going to",
+    "start": 1950
+  },
+  {
+    "content": "do it right but right now there's still a lot of benefits to be had from this",
+    "start": 1953
+  },
+  {
+    "content": "approach right I'm simply of how agencies for existing clients and new",
+    "start": 1958
+  },
+  {
+    "content": "clients that trying to pitch put this in the front in the driver seat right and",
+    "start": 1962
+  },
+  {
+    "content": "then of course you have a kick-ass presentation with a beautiful design and",
+    "start": 1965
+  },
+  {
+    "content": "communication after what's right it's not instead of that but but really I",
+    "start": 1968
+  },
+  {
+    "content": "truly believe that right because that's the way and and and",
+    "start": 1971
+  },
+  {
+    "content": "that's how we're gonna change away from just saying you know they'll ask us will",
+    "start": 1975
+  },
+  {
+    "content": "build whatever they ask you is Fault otherwise we just choose WordPress right",
+    "start": 1979
+  },
+  {
+    "content": "because you can't just do that anymore if there's a client that has",
+    "start": 1982
+  },
+  {
+    "content": "expectancies for performance and security and so on yeah I think also to",
+    "start": 1985
+  },
+  {
+    "content": "to to go back to that yeah fun print versus not on print right like I think",
+    "start": 1991
+  },
+  {
+    "content": "again similar to the way what I said that it's easy to switch striped brain",
+    "start": 1995
+  },
+  {
+    "content": "trees and then one huge monolithic experience manager from another one",
+    "start": 2003
+  },
+  {
+    "content": "basically when when all of these different components that's being in",
+    "start": 2006
+  },
+  {
+    "content": "decoupled and running individually it also becomes much more easier to say",
+    "start": 2011
+  },
+  {
+    "content": "which of these do we really need on prim and which which ones does it make more",
+    "start": 2016
+  },
+  {
+    "content": "sense to have with a with a SAS provider right and as I mentioned in in in my",
+    "start": 2020
+  },
+  {
+    "content": "truck earlier today I've never really heard any companies saying we need our",
+    "start": 2026
+  },
+  {
+    "content": "CDN on print because it's like the whole like the whole purpose of the CDN is to",
+    "start": 2029
+  },
+  {
+    "content": "get it out there right and you don't really want your like your public web",
+    "start": 2033
+  },
+  {
+    "content": "content to only live inside your firewall right like you're actually",
+    "start": 2037
+  },
+  {
+    "content": "publishing it to get it outside your firewall out to the people right in the",
+    "start": 2040
+  },
+  {
+    "content": "same team in the same vein probably most of the content that people have in their",
+    "start": 2045
+  },
+  {
+    "content": "content database for their website it's meant for public consumption it's not",
+    "start": 2050
+  },
+  {
+    "content": "like super keen that it's like inside their company firewall because it's",
+    "start": 2054
+  },
+  {
+    "content": "actually meant to get outside it right on the other hand maybe their version",
+    "start": 2057
+  },
+  {
+    "content": "control system with with the source code for their whole software stack and with",
+    "start": 2063
+  },
+  {
+    "content": "their secret token since on me maybe that they will want in you know get up",
+    "start": 2068
+  },
+  {
+    "content": "enterprise so get lab install right and maybe we have to connect there and run",
+    "start": 2074
+  },
+  {
+    "content": "it and maybe they all have specific micro services that interacts with their",
+    "start": 2078
+  },
+  {
+    "content": "customer database and there's no way they're gonna ship that anywhere else",
+    "start": 2082
+  },
+  {
+    "content": "but maybe that just runs in that kubernetes cluster it's a very specific",
+    "start": 2086
+  },
+  {
+    "content": "micro service behind that firewall and in the CDN can be or the applications",
+    "start": 2089
+  },
+  {
+    "content": "Learning Network can be configured to to have a very fine-grained access to that",
+    "start": 2094
+  },
+  {
+    "content": "right but I think this decoupling also means that you also can decouple to a",
+    "start": 2098
+  },
+  {
+    "content": "much finer degree what should be on prim and what should be assess provide aware",
+    "start": 2102
+  },
+  {
+    "content": "if everything is 1 pikmin 1 of this then then it's like a binary decision right",
+    "start": 2106
+  },
+  {
+    "content": "like then it's like should I put it somewhere else or should I have it in",
+    "start": 2110
+  },
+  {
+    "content": "the house yep absolutely weird like hearing about my measurement",
+    "start": 2113
+  },
+  {
+    "content": "performance we're hearing about the ease of moving these things around",
+    "start": 2120
+  },
+  {
+    "content": "the one part of the jam stack that really appeals to me is the developer",
+    "start": 2126
+  },
+  {
+    "content": "experience that this creates right and I think that's another aspect of",
+    "start": 2131
+  },
+  {
+    "content": "performance developer experience really needs to become second to user",
+    "start": 2134
+  },
+  {
+    "content": "experience of course it should always be in the service of the user experience",
+    "start": 2139
+  },
+  {
+    "content": "but I feel like the the the greater the developer experience the more were",
+    "start": 2142
+  },
+  {
+    "content": "liberated to create the right kind of user experience I think like part of",
+    "start": 2147
+  },
+  {
+    "content": "that is ease of deployment like turnaround getting things out into the",
+    "start": 2154
+  },
+  {
+    "content": "world but how do we convince clients that that is important as well because",
+    "start": 2157
+  },
+  {
+    "content": "I've that is feels a lot less tangible it feels like oh well that's something",
+    "start": 2161
+  },
+  {
+    "content": "that we can enjoy the benefit of rather than something that you get like a",
+    "start": 2165
+  },
+  {
+    "content": "numerical financial reward for how do we take that part of that benefit and use",
+    "start": 2170
+  },
+  {
+    "content": "that as a way to convince clients that this is a better approach as well can we",
+    "start": 2178
+  },
+  {
+    "content": "can we demonstrate that better as anyone had any experience with that nobody",
+    "start": 2181
+  },
+  {
+    "content": "anyone anyone have any experience with that I think often we've seen people",
+    "start": 2187
+  },
+  {
+    "content": "just do initials spikes right like sometimes people will have these big",
+    "start": 2201
+  },
+  {
+    "content": "projects and it's a bit like you mentioned right like some of these",
+    "start": 2205
+  },
+  {
+    "content": "companies will be like you have to use our infrastructure and some of them you",
+    "start": 2208
+  },
+  {
+    "content": "might find a team that's more like it's not your said right and sometimes you'll",
+    "start": 2212
+  },
+  {
+    "content": "see some of those teams manage to just just do something right like they'll",
+    "start": 2216
+  },
+  {
+    "content": "they'll just get an agency to to build something on a more efficient",
+    "start": 2221
+  },
+  {
+    "content": "infrastructure and then quite quickly I think that will tend to make waves right",
+    "start": 2225
+  },
+  {
+    "content": "because as you mentioned in your talk right like we still give this is healthy",
+    "start": 2230
+  },
+  {
+    "content": "right like no one will be there saying like",
+    "start": 2235
+  },
+  {
+    "content": "emwi I I like I wish this went slow I wish our developer team developed slow I",
+    "start": 2238
+  },
+  {
+    "content": "wish we pushed the feature more less frequently right like everybody wants",
+    "start": 2245
+  },
+  {
+    "content": "that so one should demonstrate that with some little project and and just start",
+    "start": 2249
+  },
+  {
+    "content": "showing the difference in speed to the big monolithic projects next to it I",
+    "start": 2253
+  },
+  {
+    "content": "think it creates waves pretty fast yeah you can start poking holes in the",
+    "start": 2258
+  },
+  {
+    "content": "existing system because they people are still stuck on a are looking over and",
+    "start": 2264
+  },
+  {
+    "content": "they're saying this other organization is somehow is putting out a new thing",
+    "start": 2268
+  },
+  {
+    "content": "every single month or every single day on that no we have a we have a customer",
+    "start": 2271
+  },
+  {
+    "content": "and their chief digital officer is a very big contentful advocate and a micro",
+    "start": 2280
+  },
+  {
+    "content": "service economy active advocate as well and when he describes his role",
+    "start": 2285
+  },
+  {
+    "content": "particularly his business he says his job is just to be an enabler of",
+    "start": 2291
+  },
+  {
+    "content": "everybody else at the company and what that means to him is providing both a",
+    "start": 2297
+  },
+  {
+    "content": "workplace in which their development teams are encouraged and challenged and",
+    "start": 2302
+  },
+  {
+    "content": "then also giving them the tools that they need to go be successful in",
+    "start": 2307
+  },
+  {
+    "content": "whatever it is that they do and I'm starting to see a few more of these",
+    "start": 2311
+  },
+  {
+    "content": "executives actually stand up and kind of take this leadership approach of I'm",
+    "start": 2315
+  },
+  {
+    "content": "sitting here to enable they're not you know folks with a gavel like beating",
+    "start": 2319
+  },
+  {
+    "content": "their chests saying you know I'm me and all this all this stuff I'm certainly",
+    "start": 2323
+  },
+  {
+    "content": "seeing more and more leaders talk about enable man but going back to developer",
+    "start": 2327
+  },
+  {
+    "content": "experience I think this is an area where contentful has actually done pretty well",
+    "start": 2331
+  },
+  {
+    "content": "and that's that's our main customer mostly when we get into deals it's a",
+    "start": 2334
+  },
+  {
+    "content": "bunch of developers getting very excited and trying to tell marketers why this is",
+    "start": 2339
+  },
+  {
+    "content": "so important the marketers are like I don't know what you're saying but it",
+    "start": 2342
+  },
+  {
+    "content": "sounds good and they see the energy let's let's keep this going and so where",
+    "start": 2345
+  },
+  {
+    "content": "I think we can actually start to talk about this is both on retention of",
+    "start": 2351
+  },
+  {
+    "content": "development staffs and then attraction of talent and I think in this new world",
+    "start": 2354
+  },
+  {
+    "content": "where every single company is a software company or it needs to be developing",
+    "start": 2358
+  },
+  {
+    "content": "software in some way shape or form to capture a new customer retain a customer",
+    "start": 2363
+  },
+  {
+    "content": "or open a new revenue stream you have to feed your teams with the things that",
+    "start": 2366
+  },
+  {
+    "content": "they need to be successful in the amount of",
+    "start": 2372
+  },
+  {
+    "content": "time do you want them to be successful and so I actually think that should be",
+    "start": 2373
+  },
+  {
+    "content": "top of mind for every single agency the vendor company no matter who you are as",
+    "start": 2377
+  },
+  {
+    "content": "developer experience and I do think that we can start to measure how fast folks",
+    "start": 2382
+  },
+  {
+    "content": "are hiring talent retaining talent and everything in between I am starting to",
+    "start": 2386
+  },
+  {
+    "content": "see that a lot in some of our customers which is really encouraging I think",
+    "start": 2391
+  },
+  {
+    "content": "that's actually a really nice note to wrap up on this notion of enablement and",
+    "start": 2396
+  },
+  {
+    "content": "kind of the way that the JumpStart can empower a lot of different ways of",
+    "start": 2401
+  },
+  {
+    "content": "building and putting control in the places that it can do the most good so I",
+    "start": 2404
+  },
+  {
+    "content": "think will probably wrap it up there so you'll join me in thanking Matt John",
+    "start": 2409
+  },
+  {
+    "content": "Thomas Taylor and Chris thanks ever so much so I'm gonna finish this just",
+    "start": 2415
+  },
+  {
+    "content": "sittin feel like I'm allowing true singer so I mean tomorrow we're gonna be",
+    "start": 2427
+  },
+  {
+    "content": "kind of launching off a bit further on some of these themes you know there are",
+    "start": 2432
+  },
+  {
+    "content": "gonna be talks about putting taking this power the empowerment of the front-end",
+    "start": 2436
+  },
+  {
+    "content": "developer when and how much we now bring to those skill sets how these things",
+    "start": 2440
+  },
+  {
+    "content": "impact the culture of the development how the more powerful technologies in",
+    "start": 2446
+  },
+  {
+    "content": "browser can now take us even further so some of these themes I think will pick",
+    "start": 2451
+  },
+  {
+    "content": "up and we'll see that thread carrying out through tomorrow however we are done",
+    "start": 2455
+  },
+  {
+    "content": "for today thank you so much when we decided that we would do in an agency",
+    "start": 2459
+  },
+  {
+    "content": "day our thought was that we would probably get know 50 or so people who",
+    "start": 2464
+  },
+  {
+    "content": "might want to go a little bit deeper into some of these things and think",
+    "start": 2469
+  },
+  {
+    "content": "about the the agency perspective and some of the things that we've covered",
+    "start": 2472
+  },
+  {
+    "content": "today we didn't really anticipate it would be quite as many people from the",
+    "start": 2475
+  },
+  {
+    "content": "conference that would join us as did so we're delighted that that's that's the",
+    "start": 2478
+  },
+  {
+    "content": "way it's worked out we're gonna continue the conversations this evening there's",
+    "start": 2483
+  },
+  {
+    "content": "the reception drinks for the event this evening people who are joining us for",
+    "start": 2487
+  },
+  {
+    "content": "tomorrow will probably be coming and registering and collecting their badges",
+    "start": 2491
+  },
+  {
+    "content": "and they'll be joining us just outside where we've had refreshments already we",
+    "start": 2494
+  },
+  {
+    "content": "have a bar that will be opening in seven minutes so I mean I don't know",
+    "start": 2498
+  },
+  {
+    "content": "what on earth you'll do with yourselves for seven minutes but but yeah we have a",
+    "start": 2507
+  },
+  {
+    "content": "bar outside which again our sponsors are very kindly helping us with so there's",
+    "start": 2511
+  },
+  {
+    "content": "beer and wine and there's also mocktails as well outside I encourage you to hang",
+    "start": 2515
+  },
+  {
+    "content": "around and chat people also this evening from 7:30 we have the lightning talks",
+    "start": 2521
+  },
+  {
+    "content": "which is going to be happening right here so thanks so much for joining us",
+    "start": 2526
+  },
+  {
+    "content": "today looking forward to seeing you all here tomorrow and later on this evening",
+    "start": 2530
+  },
+  {
+    "content": "and we'll talk to you later on so thanks have as much thanks",
+    "start": 2535
+  },
+  {
+    "content": "[Applause]",
+    "start": 2540
+  },
+  {
+    "content": "[Applause]",
+    "start": 2548
+  }
+]

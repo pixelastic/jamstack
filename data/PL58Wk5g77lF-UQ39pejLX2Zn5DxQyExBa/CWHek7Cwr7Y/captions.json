@@ -1,0 +1,638 @@
+[
+  {
+    "content": "so I asked about who might think of",
+    "start": 0
+  },
+  {
+    "content": "themselves as a designer early on who in the room would call themselves a",
+    "start": 6
+  },
+  {
+    "content": "developer understand self development and who of you has built something with",
+    "start": 10
+  },
+  {
+    "content": "it that uses a database who of you have made that database integration",
+    "start": 17
+  },
+  {
+    "content": "yourselves who of you is a database expert that's what I thought perhaps of",
+    "start": 23
+  },
+  {
+    "content": "what I thought that's it's like looking in a mirror",
+    "start": 31
+  },
+  {
+    "content": "yeah I also have made things with databases and goodness me if they were",
+    "start": 35
+  },
+  {
+    "content": "ever to go out into the wild I'd be in a world of hurt so so luckily",
+    "start": 39
+  },
+  {
+    "content": "we're going to hear something a little bit about that about that now",
+    "start": 45
+  },
+  {
+    "content": "so 10y gopal we're very lucky to have here there are certain things that you",
+    "start": 48
+  },
+  {
+    "content": "look for when people submit a proposal for a talk and the expression you will",
+    "start": 54
+  },
+  {
+    "content": "witness the raw awesomeness oops the bar is set very high now but you",
+    "start": 59
+  },
+  {
+    "content": "certainly have our attention so so yeah hearing about data database driven Jam",
+    "start": 69
+  },
+  {
+    "content": "stack please make him very very welcome it's done my gopal everyone hey everyone",
+    "start": 74
+  },
+  {
+    "content": "I'm gonna zoom through this super fast the whole thing is a live demo so cool",
+    "start": 80
+  },
+  {
+    "content": "so I'm gonna talk about building dynamic sites with static sites which is gem",
+    "start": 87
+  },
+  {
+    "content": "stack right I'm one of the founders at Hofstra we build a graph QL engine a",
+    "start": 92
+  },
+  {
+    "content": "real-time graph QL engine on Postgres I'm one of the founders there",
+    "start": 97
+  },
+  {
+    "content": "more on that later so we're all here because static code encode websites are",
+    "start": 100
+  },
+  {
+    "content": "awesome these are not actually static they're jan and i'm going to start this",
+    "start": 104
+  },
+  {
+    "content": "off with a simple gatsby plus gatsby website deployed or notify right which",
+    "start": 110
+  },
+  {
+    "content": "is kind of what we're all familiar with something of your love so that's what my",
+    "start": 116
+  },
+  {
+    "content": "directory looks like that's my gatsby site I have a page here that says hey",
+    "start": 121
+  },
+  {
+    "content": "there I'm just gonna add a space I'm going to commit this and deploy",
+    "start": 126
+  },
+  {
+    "content": "so that's my Gatsby side and I'm deploying the Gatsby side I've set up",
+    "start": 135
+  },
+  {
+    "content": "the configuration with notify so that's actually the git repo behind this and",
+    "start": 139
+  },
+  {
+    "content": "that's the deploy that's the deployment that's happening on metal if I right so",
+    "start": 144
+  },
+  {
+    "content": "you can see that there's a building tag that goes there we won't wait for this",
+    "start": 149
+  },
+  {
+    "content": "to build because I already have a built version so that I can get on to the rest",
+    "start": 153
+  },
+  {
+    "content": "of the talk and that's my simple simple Gatsby plus notify side right so static",
+    "start": 156
+  },
+  {
+    "content": "side that Gatsby oh hi Kyle and then you have and then",
+    "start": 162
+  },
+  {
+    "content": "you have the URL which is deployed in an idle fire right okay so this is nice",
+    "start": 167
+  },
+  {
+    "content": "because I now have a awesome website that can scale forever and can scale to",
+    "start": 171
+  },
+  {
+    "content": "the entire planet and it's great but databases are also kind of Awesome",
+    "start": 176
+  },
+  {
+    "content": "because because kind of that's where all the data is right that's where dynamic",
+    "start": 181
+  },
+  {
+    "content": "frequently changing data is so if you have a CMS that might talk to a database",
+    "start": 186
+  },
+  {
+    "content": "you might have other applications that are talking to a database you might be",
+    "start": 189
+  },
+  {
+    "content": "doing data science data analytics stuff especially if you're in the media",
+    "start": 193
+  },
+  {
+    "content": "industry you might have a team that's kind of doing or churning data doing",
+    "start": 196
+  },
+  {
+    "content": "some data science stuff chucking that back into database right so you want to",
+    "start": 200
+  },
+  {
+    "content": "read from that database and then build your site and that would be a fairly",
+    "start": 203
+  },
+  {
+    "content": "common use case and so that's kind of what we want to see right so what we're",
+    "start": 207
+  },
+  {
+    "content": "going to do is we're going to use graph QL and we are going to pull data from a",
+    "start": 212
+  },
+  {
+    "content": "Postgres database and then we're going to render that in our Gatsby site and",
+    "start": 216
+  },
+  {
+    "content": "that's what we're gonna deploy so it'll be like having dynamic data on a static",
+    "start": 221
+  },
+  {
+    "content": "side right I'm going to be using hosta for doing this surprise which is open",
+    "start": 225
+  },
+  {
+    "content": "source so that's a completely open source stack cool so let me quickly",
+    "start": 230
+  },
+  {
+    "content": "deploy a database I'm gonna do the whole thing right now so good",
+    "start": 234
+  },
+  {
+    "content": "so let's call this app on Heroku jam stack lave so I'm deploying this on",
+    "start": 242
+  },
+  {
+    "content": "Heroku what is happening is that Heroku is giving us a free Postgres database",
+    "start": 248
+  },
+  {
+    "content": "bless their hearts and what they're also doing is that they're giving us a place",
+    "start": 251
+  },
+  {
+    "content": "where we can run a container and that's where we're running the open source",
+    "start": 257
+  },
+  {
+    "content": "autograph ql engine which will sit on top of the database and let us query the",
+    "start": 260
+  },
+  {
+    "content": "database securely with graph QL the deployment is super fast",
+    "start": 265
+  },
+  {
+    "content": "thank God the loaded okay cool so let me go create a table quickly so that I can",
+    "start": 272
+  },
+  {
+    "content": "show you what this is like so I'm creating a table called author I'm going",
+    "start": 278
+  },
+  {
+    "content": "to give it an ID and a name so let's say this is like some dynamic data that's",
+    "start": 282
+  },
+  {
+    "content": "there you have a list of authors that you want to have in your app right let",
+    "start": 287
+  },
+  {
+    "content": "me insert some data I can see Kyle there in the corner Kyle is the creator of",
+    "start": 292
+  },
+  {
+    "content": "gatsby Phil got me up on stage Thank You Phil and Randall's out there taking",
+    "start": 295
+  },
+  {
+    "content": "photographs Thank You Randall so so these are the three people we have in a",
+    "start": 300
+  },
+  {
+    "content": "database and these are the three things that we want in our gatsby site right as",
+    "start": 304
+  },
+  {
+    "content": "soon as we have this data what I can do is I can start querying that in rough QL",
+    "start": 308
+  },
+  {
+    "content": "so I don't need to do much here so that's my graphical query ready now I",
+    "start": 312
+  },
+  {
+    "content": "want to integrate this in my gatsby site so let's head back here and let us use",
+    "start": 318
+  },
+  {
+    "content": "the awesome gatsby source plug-in called gatsby sauce graph QL this came out",
+    "start": 324
+  },
+  {
+    "content": "recently and you should definitely check this out this lets you take any graph QL",
+    "start": 328
+  },
+  {
+    "content": "server or API and use that as a data source for a Gatsby app so I'm going to",
+    "start": 332
+  },
+  {
+    "content": "use that plugin and what I'm doing here is I'm setting the URL to jam stack live",
+    "start": 337
+  },
+  {
+    "content": "so that's the graph QL URL where that's my graph QL endpoint that I can run",
+    "start": 343
+  },
+  {
+    "content": "queries on and I'm going to call this or I'm going to create the route field",
+    "start": 349
+  },
+  {
+    "content": "called house row so every single graph QL query will be inside that root field",
+    "start": 353
+  },
+  {
+    "content": "called house row five minutes left cool so now let's actually put that",
+    "start": 356
+  },
+  {
+    "content": "together in our app so pages and let's save it when instead of having gatsby",
+    "start": 362
+  },
+  {
+    "content": "saying hi we're going to say also lists and I have a component here called",
+    "start": 367
+  },
+  {
+    "content": "author list so that's my list of that's going to",
+    "start": 373
+  },
+  {
+    "content": "render the list of authors once I have it so let's do author list authors and",
+    "start": 376
+  },
+  {
+    "content": "this will take some data that will come in through a graphical query",
+    "start": 382
+  },
+  {
+    "content": "so let's specify that graph your query so export Const query graph QL and so",
+    "start": 385
+  },
+  {
+    "content": "we'll create a query now whenever you use the gas resource plugin you need to",
+    "start": 394
+  },
+  {
+    "content": "set a root level node that describes that you can name whatever so I'm gonna",
+    "start": 400
+  },
+  {
+    "content": "call that root node Hazara and then I'm going to copy that graphical query that",
+    "start": 404
+  },
+  {
+    "content": "I've shown you earlier which is author ID name let's set that cool and so",
+    "start": 407
+  },
+  {
+    "content": "that's so every time when gas rebuilds this data will be kind of pulled and",
+    "start": 420
+  },
+  {
+    "content": "this will be given to our react component as data and so I can call this",
+    "start": 425
+  },
+  {
+    "content": "data dot cos Rho dot author that's the path at which our data will be right",
+    "start": 429
+  },
+  {
+    "content": "because I trusted myself I'm going to come at this and deploy this don't do",
+    "start": 435
+  },
+  {
+    "content": "this deploy a life and then get pushed to our",
+    "start": 438
+  },
+  {
+    "content": "side cool the slowest part of this demo is",
+    "start": 447
+  },
+  {
+    "content": "having nettle if I build so all right so so let me just reload",
+    "start": 453
+  },
+  {
+    "content": "this and you can see that it's building that's nice it's good that it's building",
+    "start": 464
+  },
+  {
+    "content": "and I have this available locally as well so I can have localhost:8080 so",
+    "start": 467
+  },
+  {
+    "content": "that's available locally and in 45 seconds this will go live here right but",
+    "start": 474
+  },
+  {
+    "content": "we don't need to wait for that so so this is nice this is cute because I",
+    "start": 480
+  },
+  {
+    "content": "could take data from my database hook it up with graph QL put it in Gatsby and",
+    "start": 483
+  },
+  {
+    "content": "then I had this app life and three minutes left what is also nice about the",
+    "start": 486
+  },
+  {
+    "content": "development mode is that I can add more data here as well so I can go in and say",
+    "start": 492
+  },
+  {
+    "content": "Anton man that's my name and as soon as I do that because during in development",
+    "start": 497
+  },
+  {
+    "content": "mode Gatsby keeps trying to refresh the data source it will pull that and then",
+    "start": 503
+  },
+  {
+    "content": "it will read under that and you can see that goes life but this won't happen in",
+    "start": 509
+  },
+  {
+    "content": "our production version on net if I because when net if I built it it pulled",
+    "start": 513
+  },
+  {
+    "content": "the three items in the data source right it didn't pull everything so what we",
+    "start": 517
+  },
+  {
+    "content": "want to do is if the database changes we want to build our app automatically like",
+    "start": 520
+  },
+  {
+    "content": "two minutes so we want to build this automatically and have that refresh so",
+    "start": 526
+  },
+  {
+    "content": "let's set up an event trigger so I go to notify I'm going to go to",
+    "start": 530
+  },
+  {
+    "content": "deploy settings and I'm going to create I'm going to delete this folder web app",
+    "start": 533
+  },
+  {
+    "content": "that I had when I practice saying and then I'm going to create a new hook",
+    "start": 538
+  },
+  {
+    "content": "called Jan stack live hook so that's my web hook that if I call it will read",
+    "start": 541
+  },
+  {
+    "content": "trigger the build right so let me copy that here and now let me go to Hofstra",
+    "start": 549
+  },
+  {
+    "content": "which has event trigger I squat and then I can say offer change and so I can say",
+    "start": 554
+  },
+  {
+    "content": "what tables I won't listen on so I won't listen to the author table and if there",
+    "start": 560
+  },
+  {
+    "content": "are inserts updates or deletes I wanted to call this web book right that's what",
+    "start": 564
+  },
+  {
+    "content": "I want to do so now what I can do is I can go in and I can insert some data",
+    "start": 570
+  },
+  {
+    "content": "here I could say been because I know been hi Ben",
+    "start": 574
+  },
+  {
+    "content": "and then if I go to events here you'll see that that event gets delivered right",
+    "start": 579
+  },
+  {
+    "content": "and if I go to deploys here you'll see that this builds got triggered we",
+    "start": 584
+  },
+  {
+    "content": "again have to wait for five seconds for this to build and to show up here but",
+    "start": 590
+  },
+  {
+    "content": "this will show up here right so if we take a step back right what what I kind",
+    "start": 597
+  },
+  {
+    "content": "of did was I said that will also use will also listen to changes in the",
+    "start": 602
+  },
+  {
+    "content": "database and use that to trigger or rebuild on Natalja file so now we have",
+    "start": 608
+  },
+  {
+    "content": "like a dynamic database powered site but it's actually a jam stack static site",
+    "start": 612
+  },
+  {
+    "content": "right and any any change in the database will call this trigger so you can even",
+    "start": 617
+  },
+  {
+    "content": "have api's that will go and call this trigger and that will kind of bust the",
+    "start": 623
+  },
+  {
+    "content": "cache so this is kind of like heavily caching your website but the other way",
+    "start": 626
+  },
+  {
+    "content": "around right you actually build a static site and then whenever something changes",
+    "start": 631
+  },
+  {
+    "content": "you rebuild the static site this was sky as analogy that he told me a few months",
+    "start": 635
+  },
+  {
+    "content": "ago and so I have shamelessly used that but I but this style of building",
+    "start": 638
+  },
+  {
+    "content": "applications with graph QL and events and then serverless which are like api's",
+    "start": 642
+  },
+  {
+    "content": "or functions that you might call or - we call that style the three-factor or app",
+    "start": 647
+  },
+  {
+    "content": "style is something that we start talking about recently do check it out it fits",
+    "start": 650
+  },
+  {
+    "content": "in really well with the API part of jam stack so let me go back to this and cool",
+    "start": 653
+  },
+  {
+    "content": "it works just to show you that it works so now if anything changes in the",
+    "start": 661
+  },
+  {
+    "content": "database this refresh is 15 seconds left alright now what if the database changes",
+    "start": 664
+  },
+  {
+    "content": "too frequently right because Natalja Phi for example allows you to change has a",
+    "start": 670
+  },
+  {
+    "content": "200 per minute rate limit I'm going to go 5 minutes 5 seconds extra so allows",
+    "start": 674
+  },
+  {
+    "content": "you to change allows you to deploy only like 200 times a minute right so what",
+    "start": 679
+  },
+  {
+    "content": "happens if you are changing stuff in your database faster than that so what",
+    "start": 683
+  },
+  {
+    "content": "you actually do is you write a simple serverless function and the server is",
+    "start": 687
+  },
+  {
+    "content": "function is like addy bouncer right so every time you every time you hit the",
+    "start": 690
+  },
+  {
+    "content": "server this function for deploying the server this function doesn't actually",
+    "start": 693
+  },
+  {
+    "content": "deploy it just goes back to the database and says I will deploy in a minute or",
+    "start": 696
+  },
+  {
+    "content": "I'll deploy five minutes later anything that happens within that time you don't",
+    "start": 700
+  },
+  {
+    "content": "deploy if you have a scheduled job and then finally if this five minutes have",
+    "start": 704
+  },
+  {
+    "content": "passed you actually go ahead and deploy it so I have this D bounds to builder",
+    "start": 708
+  },
+  {
+    "content": "which is a JavaScript function if I'd also done a Google Cloud function demo",
+    "start": 712
+  },
+  {
+    "content": "this demo would have never gotten done because that is super slow but but that",
+    "start": 715
+  },
+  {
+    "content": "also that also works and so you can look at the source code for",
+    "start": 721
+  },
+  {
+    "content": "that so now instead of calling out to the net if I trigger directly if I call",
+    "start": 724
+  },
+  {
+    "content": "out to this JavaScript serverless function that I have it will be bounced",
+    "start": 728
+  },
+  {
+    "content": "with a frequency of a minute so either your change goes live instantly or if",
+    "start": 731
+  },
+  {
+    "content": "they're too many changes then you go live with maximum per minute so that's",
+    "start": 735
+  },
+  {
+    "content": "my demo my name is Stan man please come and chat with me about three factors",
+    "start": 739
+  },
+  {
+    "content": "stuff graph QL serverless please go check out ha cerrado we're open source",
+    "start": 743
+  },
+  {
+    "content": "we're on we're on github if you like this talk please start us it makes me",
+    "start": 747
+  },
+  {
+    "content": "feel like I'm in kindergarten and I'm getting more stuff and this demo is also",
+    "start": 752
+  },
+  {
+    "content": "available on cocoa 98 slash Jam stack if you'd like to check it out thank you for",
+    "start": 757
+  },
+  {
+    "content": "having me and sorry [Applause]",
+    "start": 760
+  },
+  {
+    "content": "[Applause]",
+    "start": 766
+  },
+  {
+    "content": "you",
+    "start": 773
+  }
+]
