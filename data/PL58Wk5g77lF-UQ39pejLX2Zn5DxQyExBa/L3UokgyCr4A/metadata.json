@@ -4,9 +4,11 @@
   "position": 8,
   "publishedAt": 1542606470,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/L3UokgyCr4A/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/L3UokgyCr4A/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/L3UokgyCr4A/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/L3UokgyCr4A/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/L3UokgyCr4A/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/L3UokgyCr4A/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/L3UokgyCr4A/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/L3UokgyCr4A/default.jpg"
   },
   "title": "Scott Tolinski and Wes Bos - Syntax FM Live!"
 }

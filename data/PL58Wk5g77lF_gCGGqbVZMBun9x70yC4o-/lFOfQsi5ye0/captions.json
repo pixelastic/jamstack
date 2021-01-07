@@ -1,0 +1,1754 @@
+[
+  {
+    "content": "ah yeah all right let's do this",
+    "start": 0
+  },
+  {
+    "content": "uh uh they told the camera crew that I'm a walker which i think is hilarious I'm",
+    "start": 16
+  },
+  {
+    "content": "gonna do the thing where I walk around kind of chill like in a way yeah there's",
+    "start": 22
+  },
+  {
+    "content": "there's gonna be some audio might as well prep for that a little bit",
+    "start": 27
+  },
+  {
+    "content": "feel free to slide that volume slider up if you need to we're gonna talk this",
+    "start": 29
+  },
+  {
+    "content": "whole rest of the time about front-end development this is literally the only",
+    "start": 33
+  },
+  {
+    "content": "thing I know about that's it so we're gonna talk about that and the changing",
+    "start": 36
+  },
+  {
+    "content": "landscape of it because I think it's interesting it's changed a lot and it's",
+    "start": 40
+  },
+  {
+    "content": "changed in a way that like makes people a little like there's a little like",
+    "start": 44
+  },
+  {
+    "content": "earthquake under the skill set of front-end development I think which at",
+    "start": 47
+  },
+  {
+    "content": "best makes people uncomfortable sometimes and this is you know a",
+    "start": 52
+  },
+  {
+    "content": "long-term thing but you know let's get into it I'm gonna do the cliche thing",
+    "start": 55
+  },
+  {
+    "content": "where we were defined what front-end developer is a little bit when we start",
+    "start": 60
+  },
+  {
+    "content": "just because I there's kind of a point to it in a way Phil already mentioned",
+    "start": 65
+  },
+  {
+    "content": "these things but yeah one of them is a shop talk show thing which we're going",
+    "start": 69
+  },
+  {
+    "content": "to do hate they stayed in the back Dave's here days my co-host on the show",
+    "start": 72
+  },
+  {
+    "content": "which is fantastic okay yeah we're gonna define it what is the front end",
+    "start": 75
+  },
+  {
+    "content": "developer well the front end part a front end developer is a browser that's",
+    "start": 79
+  },
+  {
+    "content": "the whole point of the thing we'll get to that in a minute but what else is it",
+    "start": 84
+  },
+  {
+    "content": "it's a job and that's kind of clutch because when it's a job that means",
+    "start": 89
+  },
+  {
+    "content": "that's how you make your living in the world and it's kind of personal",
+    "start": 94
+  },
+  {
+    "content": "that's kind of the whole vibe with this thing we're not really gonna come back",
+    "start": 97
+  },
+  {
+    "content": "to this point I just think the rest of the stuff kind of matters a little bit",
+    "start": 100
+  },
+  {
+    "content": "because it's how a lot of us make our money it's like literally on our",
+    "start": 103
+  },
+  {
+    "content": "business card in a way I know that because it's you know you bounced around",
+    "start": 106
+  },
+  {
+    "content": "to job boards and you just see it right and left it's all over the place so",
+    "start": 111
+  },
+  {
+    "content": "you're a browser person right you deal with the browser it's not that anybody",
+    "start": 114
+  },
+  {
+    "content": "else you know like your back-end devs don't have their browser open all day",
+    "start": 117
+  },
+  {
+    "content": "too but you especially do and you care about the",
+    "start": 120
+  },
+  {
+    "content": "whole landscape of browsers and you have dev tools open all the time and you're",
+    "start": 123
+  },
+  {
+    "content": "just you care about the experience of people using the browser it's just",
+    "start": 126
+  },
+  {
+    "content": "that's what you are you're a browser person that hasn't changed all that much",
+    "start": 132
+  },
+  {
+    "content": "but browsers there's a whole landscape of them they don't live by themselves",
+    "start": 135
+  },
+  {
+    "content": "though they run on devices we all know that too and there's a whole landscape",
+    "start": 138
+  },
+  {
+    "content": "of devices to just those two things combined make this",
+    "start": 142
+  },
+  {
+    "content": "kind of a hard job but more importantly it's about the people who use those",
+    "start": 146
+  },
+  {
+    "content": "browsers on those devices so like the human beings who interact and click and",
+    "start": 152
+  },
+  {
+    "content": "tap and do this stuff use the browser or assistive technology that's what the",
+    "start": 157
+  },
+  {
+    "content": "front-end part of front-end developer is cool lock that in because you're a",
+    "start": 161
+  },
+  {
+    "content": "browser person that means you need to care about the languages that the",
+    "start": 167
+  },
+  {
+    "content": "browser runs in which hasn't changed all that much it hasn't changed in my whole",
+    "start": 169
+  },
+  {
+    "content": "career anyway HTML CSS and JavaScript they changed they evolved there's all",
+    "start": 174
+  },
+  {
+    "content": "kinds of tooling that helps us ultimately craft these things but those",
+    "start": 180
+  },
+  {
+    "content": "come and go and these don't kind of interesting you know way another thing",
+    "start": 184
+  },
+  {
+    "content": "about them is that not all front-end developers know them all equally well I",
+    "start": 189
+  },
+  {
+    "content": "know lots of front-end developers who are kind of just the first to HTML and",
+    "start": 194
+  },
+  {
+    "content": "CSS that's how they like it that's what they focus on and prefer and are",
+    "start": 198
+  },
+  {
+    "content": "gainfully and happily employed just doing those two maybe getting a little",
+    "start": 202
+  },
+  {
+    "content": "more rare it'll be a little harder to find a job in just HTML and CSS these",
+    "start": 206
+  },
+  {
+    "content": "days it's always kind of been HTML and CSS plus anyway like what what else you",
+    "start": 210
+  },
+  {
+    "content": "got married or what anyway a lot more of the last one these days so be it",
+    "start": 215
+  },
+  {
+    "content": "JavaScript people this is an essay I wrote earlier this year about that",
+    "start": 223
+  },
+  {
+    "content": "possible divide like really heavily JavaScript JavaScript focus developers",
+    "start": 227
+  },
+  {
+    "content": "and the rest of us I guess the rest of this talk isn't about that but it's more",
+    "start": 233
+  },
+  {
+    "content": "about the JavaScript side because I feel like I'm kind of kind of sit in the",
+    "start": 239
+  },
+  {
+    "content": "middle anyway but I lean JavaScript Eeyore these days I'd say and that's",
+    "start": 243
+  },
+  {
+    "content": "certainly where things are going and we're talking about the future mostly in",
+    "start": 247
+  },
+  {
+    "content": "this talk here's some example of some job boards with a bunch of obviously",
+    "start": 250
+  },
+  {
+    "content": "there's a bunch of jobs in front-end development oops okay just a recap of",
+    "start": 254
+  },
+  {
+    "content": "what we just talked about they're still a meaningful term I think we're not",
+    "start": 259
+  },
+  {
+    "content": "trying to redefine in front developers and I think in the program or whatever",
+    "start": 262
+  },
+  {
+    "content": "it says oops we're full stack developers now we are we're gonna get to that but I",
+    "start": 265
+  },
+  {
+    "content": "don't think that we need to like cross out the word front-end developers still",
+    "start": 269
+  },
+  {
+    "content": "kind of a real and meaningful thing you know bread frost was on our show shop",
+    "start": 272
+  },
+  {
+    "content": "talk show and he has a knack for saying kind of funny",
+    "start": 276
+  },
+  {
+    "content": "things that people relate to in a way this is another way of Perry who this is",
+    "start": 279
+  },
+  {
+    "content": "a big sound moment that's gonna happen let's see",
+    "start": 282
+  },
+  {
+    "content": "sound up I don't figure web Packer like gulp like workflows and stuff like that",
+    "start": 285
+  },
+  {
+    "content": "and so I found that I'm sort of on the more design you know the front of the",
+    "start": 292
+  },
+  {
+    "content": "front end and then sort of having somebody else that's more on like the",
+    "start": 297
+  },
+  {
+    "content": "back of the front end as a nice sort of complementary role even that back-end",
+    "start": 301
+  },
+  {
+    "content": "development anymore it's just back of the front it's just this is awesome I",
+    "start": 308
+  },
+  {
+    "content": "think and a lot of people feel that I think these days and bread wasn't even",
+    "start": 314
+  },
+  {
+    "content": "saying that it's a bad thing either I hope that never gets painted is that",
+    "start": 318
+  },
+  {
+    "content": "there's these divides between us are necessarily negative he was even",
+    "start": 321
+  },
+  {
+    "content": "painting it in a good light and like I am strengthened they have strengths and",
+    "start": 324
+  },
+  {
+    "content": "sit us together and we'll Voltron out and be better between us pretty cool I",
+    "start": 328
+  },
+  {
+    "content": "you know in the aftermath of some of that Great Divide stuff that I wrote I",
+    "start": 332
+  },
+  {
+    "content": "heard that Google has two different tracks that are pretty much split right",
+    "start": 336
+  },
+  {
+    "content": "along these same lines and they have different criteria for advancement and",
+    "start": 340
+  },
+  {
+    "content": "they get paid the same so there's it's like happening for real anyway most of",
+    "start": 344
+  },
+  {
+    "content": "what I want to talk about in this talk is this expansion of what front-end",
+    "start": 350
+  },
+  {
+    "content": "development is in a lot of concepts that were at least in my experience we're",
+    "start": 353
+  },
+  {
+    "content": "back in things or that I counted on back-end people to work with me on that",
+    "start": 358
+  },
+  {
+    "content": "I've kind of picked up and moved and landed in the laps of front-end",
+    "start": 363
+  },
+  {
+    "content": "developers there's kind of a good amount of it which has been interesting to",
+    "start": 367
+  },
+  {
+    "content": "watch I think so one of those things and this is just I don't know if it's talked",
+    "start": 372
+  },
+  {
+    "content": "about that much because it's kind of just already happened but it's the idea",
+    "start": 376
+  },
+  {
+    "content": "that we build you eyes with components now and that's largely the you know the",
+    "start": 379
+  },
+  {
+    "content": "because of the arrival of modern JavaScript you know you know it's huge",
+    "start": 384
+  },
+  {
+    "content": "react huge you know it's really huge all of the frameworks together Cooper here",
+    "start": 390
+  },
+  {
+    "content": "that's why all front-end development is done these days not all you know but a",
+    "start": 397
+  },
+  {
+    "content": "lot I'm just talking about general trends even the native web components",
+    "start": 401
+  },
+  {
+    "content": "you know the stuff that's built into the browser's yeah they're a whoo for native",
+    "start": 405
+  },
+  {
+    "content": "yeah that's cool I will with you a little bit I want a whoo",
+    "start": 410
+  },
+  {
+    "content": "anyway that's another that's enough it's another day and it's kind of cuz of this",
+    "start": 415
+  },
+  {
+    "content": "like I want to writes good semantic HTML and and and clean CSS and intelligent",
+    "start": 421
+  },
+  {
+    "content": "JavaScript I don't want to write all that I'm not gonna stop doing that but I",
+    "start": 428
+  },
+  {
+    "content": "want to chunk it together cuz it's too complicated to just write it wherever it",
+    "start": 431
+  },
+  {
+    "content": "lands I want to like think about little chunks of responsibility and write those",
+    "start": 436
+  },
+  {
+    "content": "things there I want to make like little things that are just described that our",
+    "start": 440
+  },
+  {
+    "content": "representative of my team thinks about our app and how we work together I want",
+    "start": 446
+  },
+  {
+    "content": "I want to choose how I chunk that technology so they're like chunks of",
+    "start": 451
+  },
+  {
+    "content": "responsibility that kind of isolate some of these things because modern you eyes",
+    "start": 455
+  },
+  {
+    "content": "end up like this they end up like nested chunks of responsibility that your team",
+    "start": 459
+  },
+  {
+    "content": "decides that isn't mandated by a tag or a particular technology it's like I want",
+    "start": 465
+  },
+  {
+    "content": "to do that chunking myself let's look at how this expresses itself in an app I",
+    "start": 471
+  },
+  {
+    "content": "work on code pen talk about myself because that's what I know about what",
+    "start": 475
+  },
+  {
+    "content": "could be a component on the code pen UI if we zoom in and look just this little",
+    "start": 480
+  },
+  {
+    "content": "just this little guy's a component you know we can get pretty small it's inline",
+    "start": 485
+  },
+  {
+    "content": "SVG and in the Dom if you're to look at it it would be inline SVG sitting there",
+    "start": 490
+  },
+  {
+    "content": "which is totally fine but that's not what we wrote to make that happen from",
+    "start": 495
+  },
+  {
+    "content": "as a developer as a developer we made it into an SVG icon component in our code",
+    "start": 499
+  },
+  {
+    "content": "base this has kind of nice developer ergonomics you know you just put SVG",
+    "start": 504
+  },
+  {
+    "content": "icon on there and say which icon and it puts the icon there it's really easy to",
+    "start": 508
+  },
+  {
+    "content": "use easy to use who did this easy to use is nice but it's it's not why we do it",
+    "start": 512
+  },
+  {
+    "content": "we do it because it brings up all the SPG best practices with it like it's all",
+    "start": 519
+  },
+  {
+    "content": "exert complete G best practices in it like sizing and default colors and",
+    "start": 524
+  },
+  {
+    "content": "accessibility stuff then whenever we need to use it we just plop it in them",
+    "start": 531
+  },
+  {
+    "content": "wherever we need to use it and it uses like a responsibility chunk that makes",
+    "start": 535
+  },
+  {
+    "content": "sense to us and if any of that changes you change the component",
+    "start": 539
+  },
+  {
+    "content": "changes that everywhere it's just a nice way to work right what else is the",
+    "start": 543
+  },
+  {
+    "content": "component well you don't have to zoom out very far just the heart and the",
+    "start": 547
+  },
+  {
+    "content": "number next to each other is a totally different component in our world it's a",
+    "start": 550
+  },
+  {
+    "content": "meta icon it's different because it's got a little piece of CSS it's a little",
+    "start": 554
+  },
+  {
+    "content": "tiny CSS grid that makes those things sit next to each other and it has data",
+    "start": 558
+  },
+  {
+    "content": "in the past it has data handling now which is a totally different",
+    "start": 563
+  },
+  {
+    "content": "responsibility not only does it need to get that data but it has a click handler",
+    "start": 566
+  },
+  {
+    "content": "on it so when you click it it does something changes data puts it back in",
+    "start": 570
+  },
+  {
+    "content": "the database that's a little responsibility chunk that makes sense to",
+    "start": 574
+  },
+  {
+    "content": "just put together so components everywhere you wider than that there's",
+    "start": 578
+  },
+  {
+    "content": "this row that's a component the previews a component the header is a component",
+    "start": 583
+  },
+  {
+    "content": "you know it just isn't it's just how we think about how we built this UI you",
+    "start": 587
+  },
+  {
+    "content": "group it all together into an item component sure you know wider than that",
+    "start": 592
+  },
+  {
+    "content": "is an item grid component literally CSS grid is laying these things out but an",
+    "start": 596
+  },
+  {
+    "content": "item grid now has the responsibility of pagination so it's those two things",
+    "start": 601
+  },
+  {
+    "content": "combined which are why would you combine CSS grid and pagination well it's",
+    "start": 605
+  },
+  {
+    "content": "they're unrelated technologies but it's still how they're combined and how we",
+    "start": 609
+  },
+  {
+    "content": "think of building the UI so there's that cool components front-end developers are",
+    "start": 613
+  },
+  {
+    "content": "like this is just how we do things now components is shaken out as just like",
+    "start": 618
+  },
+  {
+    "content": "the way things are done now designers are like congratulations on catching up",
+    "start": 622
+  },
+  {
+    "content": "this is how we think of things around and other developers look at it and be",
+    "start": 626
+  },
+  {
+    "content": "like components I get it so cool good job if we're talking about like how",
+    "start": 630
+  },
+  {
+    "content": "to think like a front-end developer these days it's kind of that it's kind",
+    "start": 635
+  },
+  {
+    "content": "of like you're expected to think and work and chunk your work into components",
+    "start": 639
+  },
+  {
+    "content": "which is relevant I think so this kind of keeps going as we think about",
+    "start": 643
+  },
+  {
+    "content": "components all the way up to some some kind of higher levels here let's just",
+    "start": 648
+  },
+  {
+    "content": "keep looking at the UIs that's the most important thing okay so we left off",
+    "start": 651
+  },
+  {
+    "content": "there what else could be a component well the title the buttons well up so at",
+    "start": 656
+  },
+  {
+    "content": "ABS component we'll have a search component and make our sidebar a",
+    "start": 659
+  },
+  {
+    "content": "component eventually of course the whole page just comes a component maybe you",
+    "start": 662
+  },
+  {
+    "content": "already think in that way fine googoo good once you've done that then what",
+    "start": 666
+  },
+  {
+    "content": "you've really done is made the URL a component you're saying at that URL",
+    "start": 671
+  },
+  {
+    "content": "render whatever that makes sense for that URL to happen and once you've done",
+    "start": 675
+  },
+  {
+    "content": "that you're the architect of the entire site at that point because this is these",
+    "start": 680
+  },
+  {
+    "content": "remember these are front-end responsibilities that we're talking",
+    "start": 685
+  },
+  {
+    "content": "about how these components get built and chunked and decided what renders and",
+    "start": 687
+  },
+  {
+    "content": "what doesn't render and if you're bringing it all the way up to the URL",
+    "start": 691
+  },
+  {
+    "content": "level that's a whole bucket of responsibility that is picked up from",
+    "start": 694
+  },
+  {
+    "content": "the backend and has been dropped off on the front-end responsibility fascinating",
+    "start": 698
+  },
+  {
+    "content": "become the architects of the entire site in a way which is fine that's totally",
+    "start": 702
+  },
+  {
+    "content": "fine do we get a raise at that point or what do you think cool so a bunch of",
+    "start": 708
+  },
+  {
+    "content": "jobs getting dropped off on the old haystack of jobs cool what about data",
+    "start": 715
+  },
+  {
+    "content": "and stuff like that's a big deal a lot of the reason that these frameworks have",
+    "start": 721
+  },
+  {
+    "content": "arrived at all is because we need to do state management locally on the page",
+    "start": 725
+  },
+  {
+    "content": "it's just a thing these days a nice way to work but let's just talk about just",
+    "start": 729
+  },
+  {
+    "content": "like getting the data that you need to render the page if we look at it in the",
+    "start": 733
+  },
+  {
+    "content": "context of what we are already looking at there's this grid of stuff when you",
+    "start": 736
+  },
+  {
+    "content": "look at that I think a lot of us are like there's avatars in titles and",
+    "start": 742
+  },
+  {
+    "content": "authors and numbers and stuff of course that stuff is in a database and of",
+    "start": 746
+  },
+  {
+    "content": "course to get stuff out of a database you query the database for the stuff it",
+    "start": 751
+  },
+  {
+    "content": "comes across and you build the UI out of that as a front-end developer I'm like I",
+    "start": 755
+  },
+  {
+    "content": "got it I'm gonna mock this out and do all the HTML and CSS and just get it",
+    "start": 760
+  },
+  {
+    "content": "perfect and then at some point a back-end developer gets involved and it",
+    "start": 766
+  },
+  {
+    "content": "fills it out with data that's how I worked for a decade it feels like and",
+    "start": 769
+  },
+  {
+    "content": "it's changing a little bit because it's like some technologies have arrived that",
+    "start": 773
+  },
+  {
+    "content": "are like making that easier for front-end developers so a query",
+    "start": 778
+  },
+  {
+    "content": "component not a visual component but still a responsibility component could",
+    "start": 783
+  },
+  {
+    "content": "wrap all of that with this old sole job of like go get some data and come back",
+    "start": 790
+  },
+  {
+    "content": "to populate this area with stuff now I'd love to sit around and talk about the",
+    "start": 794
+  },
+  {
+    "content": "merits of graph QL we're not really going to do that I just think it's",
+    "start": 799
+  },
+  {
+    "content": "interesting that that graph QL is the technology and kind",
+    "start": 801
+  },
+  {
+    "content": "of referencing here the point being it's just like this really pretty easy to",
+    "start": 805
+  },
+  {
+    "content": "look at shopping lists of data that you need to make this UI happen and it's so",
+    "start": 809
+  },
+  {
+    "content": "kind of easy and intuitive looking you know with like the one graph",
+    "start": 815
+  },
+  {
+    "content": "presentation earlier was was great at showing the the virtues of how easy it",
+    "start": 819
+  },
+  {
+    "content": "is to to play around with and a tool like graphical but even looking at it in",
+    "start": 824
+  },
+  {
+    "content": "code you're just like oh I get it it's a bunch of data and because I'm familiar",
+    "start": 828
+  },
+  {
+    "content": "with this project I know exactly what that data is and how to use it it's just",
+    "start": 832
+  },
+  {
+    "content": "like its back-end of saying like graph QL is really cool trust us and here you",
+    "start": 836
+  },
+  {
+    "content": "go you want some data just ask for it you do it front-end devs you do it which",
+    "start": 841
+  },
+  {
+    "content": "is cool what the querying makes more intuitive sense to me like I need this",
+    "start": 846
+  },
+  {
+    "content": "data and personally I'm just like a little bit more afraid when it's like",
+    "start": 851
+  },
+  {
+    "content": "well then change that data and like put it back to a little scarier but in graph",
+    "start": 855
+  },
+  {
+    "content": "QL and it really isn't that bad it's kind of like I'm gonna set up a query",
+    "start": 862
+  },
+  {
+    "content": "you know I'm gonna attach that mutation to some kind of event in the you know",
+    "start": 866
+  },
+  {
+    "content": "what it looks like to write a mutation really isn't that different than what it",
+    "start": 872
+  },
+  {
+    "content": "looks like to write a query so it's kind of like now that onus is on me to not",
+    "start": 876
+  },
+  {
+    "content": "only do I get the data but I think about when and how to change that data and",
+    "start": 880
+  },
+  {
+    "content": "execute the execute the data going back to the database - holy crap",
+    "start": 884
+  },
+  {
+    "content": "all kinds of more work we have to do this is Kyle of Gatsby this is a part of",
+    "start": 889
+  },
+  {
+    "content": "a documentary about graph QL I don't know why that absolutely needs to exist",
+    "start": 895
+  },
+  {
+    "content": "a little early maybe but I thought this part was this was nice though is about",
+    "start": 901
+  },
+  {
+    "content": "about react solving problems for the UI as well as graph QL I started over so",
+    "start": 907
+  },
+  {
+    "content": "you can hear it for real what if I crank it to me graph kill feels a lot like",
+    "start": 918
+  },
+  {
+    "content": "react to just you know you look at react just like a whole bunch of a whole class",
+    "start": 924
+  },
+  {
+    "content": "of problems that you had when you're building UI is just disappear then with",
+    "start": 928
+  },
+  {
+    "content": "graph QL a whole class of problems around what is my data",
+    "start": 931
+  },
+  {
+    "content": "and how do I get it in the form that he and you know into the into the into the",
+    "start": 935
+  },
+  {
+    "content": "website just disappear and it really solves a lot of front-end problems it's",
+    "start": 938
+  },
+  {
+    "content": "a really short way of saying all the crap I just said I guess like you know",
+    "start": 943
+  },
+  {
+    "content": "not everybody's super loves react I get it you know but it did kind of wipe away",
+    "start": 948
+  },
+  {
+    "content": "a certain class of front-end problems maybe it caused some other ones too we",
+    "start": 952
+  },
+  {
+    "content": "can debate about that with beers or whatever but it's interesting and the",
+    "start": 956
+  },
+  {
+    "content": "problems that it solved it's no wonder that all of those JavaScript platforms",
+    "start": 961
+  },
+  {
+    "content": "are as huge as they are and I've totally taken over front-end development because",
+    "start": 965
+  },
+  {
+    "content": "of the problems that they solve and graph QL is kind of in that category too",
+    "start": 968
+  },
+  {
+    "content": "of wiping away a class of weird problems we have with data very satisfying I",
+    "start": 972
+  },
+  {
+    "content": "think so we're talking about chunking together those responsibilities in",
+    "start": 978
+  },
+  {
+    "content": "front-end this just happens to be like a react web packed CSS modules graph QL",
+    "start": 981
+  },
+  {
+    "content": "kind of project but the you know and the so you have some freedom and how you",
+    "start": 986
+  },
+  {
+    "content": "structure things but I mean code pen codebase generally we have a folder and",
+    "start": 991
+  },
+  {
+    "content": "we split up their responsibilities into individual files but you know view is",
+    "start": 995
+  },
+  {
+    "content": "notable for having single file components where it's scripts and styles",
+    "start": 999
+  },
+  {
+    "content": "and templating all together in one file and angular has folder components and",
+    "start": 1003
+  },
+  {
+    "content": "stuff too but it's just kind of cool to see notice there's styling information",
+    "start": 1008
+  },
+  {
+    "content": "just living right alongside the component a little weird especially for",
+    "start": 1013
+  },
+  {
+    "content": "kind of an old-school CSS guy like me but it's sass which is kind of familiar",
+    "start": 1016
+  },
+  {
+    "content": "but really the interesting technology here to me as CSS modules which is kind",
+    "start": 1020
+  },
+  {
+    "content": "of the lightest toe tip you can take into CSS in JavaScript a little I don't",
+    "start": 1025
+  },
+  {
+    "content": "know it's not that weird it's just regular CSS or in our case",
+    "start": 1030
+  },
+  {
+    "content": "sass but look at the class name root root is an awful class name don't root",
+    "start": 1033
+  },
+  {
+    "content": "root of what you know don't use that but it doesn't matter it's just a convention",
+    "start": 1038
+  },
+  {
+    "content": "in our case because roots just saying whatever it's the Dib that's the main",
+    "start": 1043
+  },
+  {
+    "content": "div of this component like we intentionally make it kind of a bad",
+    "start": 1047
+  },
+  {
+    "content": "class name because it just gets obfuscated anyway when it ends up in the",
+    "start": 1051
+  },
+  {
+    "content": "Dom whether you like that or hate that whatever it's interesting to me and",
+    "start": 1055
+  },
+  {
+    "content": "useful to us as a company because it it kind of gives some safety to the people",
+    "start": 1059
+  },
+  {
+    "content": "that hop in and out of these files they can like hop in there and look at styles",
+    "start": 1063
+  },
+  {
+    "content": "and change tiles and they know styles are really super isolated to just",
+    "start": 1067
+  },
+  {
+    "content": "that little component and there's just some safety there there's not some like",
+    "start": 1071
+  },
+  {
+    "content": "oh if I change the root file am I gonna kick over a bar stool in a different bar",
+    "start": 1074
+  },
+  {
+    "content": "whatever is the joke oh yeah anyway just we're not gonna talk too much about CSS",
+    "start": 1079
+  },
+  {
+    "content": "but I like that I can I think scoping is kind of a big deal it's",
+    "start": 1083
+  },
+  {
+    "content": "almost like it seems like the future of CSS is gonna be am i writing a style",
+    "start": 1087
+  },
+  {
+    "content": "that's supposed to be isolated or am I on purpose writing a style that's",
+    "start": 1094
+  },
+  {
+    "content": "supposed to cascade and go everywhere and like it's gonna be both of those",
+    "start": 1098
+  },
+  {
+    "content": "things there's people are really strongly on both sides of it and I like",
+    "start": 1102
+  },
+  {
+    "content": "anything else there's there's beauty in the gray so okay we talked about",
+    "start": 1106
+  },
+  {
+    "content": "component driven design and site level architecture which is just more and more",
+    "start": 1110
+  },
+  {
+    "content": "components and getting data and mutating that data and dealing with state and all",
+    "start": 1114
+  },
+  {
+    "content": "that stuff all new stuff that it's just arrived that feels like new to me as a",
+    "start": 1119
+  },
+  {
+    "content": "responsibility as a front-end developer there's even tons more new stuff on this",
+    "start": 1124
+  },
+  {
+    "content": "list another one I think of is like how a page loads in this new world of",
+    "start": 1128
+  },
+  {
+    "content": "components and stuff can often be a lot different than just a server-side",
+    "start": 1133
+  },
+  {
+    "content": "rendered page but anyway big new list of stuff that kind of arrived from back-end",
+    "start": 1136
+  },
+  {
+    "content": "over to front-end but what's interesting about that it's a lot of new responses",
+    "start": 1142
+  },
+  {
+    "content": "only none of the old responsibilities left you still have to figure out how to",
+    "start": 1145
+  },
+  {
+    "content": "design on an infinite unknown canvas which is already the hardest thing ever",
+    "start": 1149
+  },
+  {
+    "content": "you have to think systemically about the design and feel like can I apply a",
+    "start": 1154
+  },
+  {
+    "content": "system to this design that's kind of on my shoulders accessibility is firmly on",
+    "start": 1158
+  },
+  {
+    "content": "my shoulders that's where accessibility happens and as executed it is in the",
+    "start": 1163
+  },
+  {
+    "content": "browser you know I have to care about performance probably whatever they say",
+    "start": 1168
+  },
+  {
+    "content": "80% of performance is my job as front-end developer how things load all",
+    "start": 1172
+  },
+  {
+    "content": "the resources that are being used testing across browsers testing across",
+    "start": 1176
+  },
+  {
+    "content": "devices caring about the user sweating the UX of the usage of the website all",
+    "start": 1181
+  },
+  {
+    "content": "stuff we've always done forever as front-end developers just in addition to",
+    "start": 1186
+  },
+  {
+    "content": "all the new stuff that arise that's why it feels like this blossoming of stuff",
+    "start": 1190
+  },
+  {
+    "content": "that we need to do the front-end haystack",
+    "start": 1193
+  },
+  {
+    "content": "I've used this as the metaphor before this are kind of a fun job front-end",
+    "start": 1199
+  },
+  {
+    "content": "development because we have these kind of core stuff that we share we're all",
+    "start": 1202
+  },
+  {
+    "content": "like we all know some HTML and CSS and some JavaScript and stuff starting to",
+    "start": 1205
+  },
+  {
+    "content": "break out but some of us are like gdpr nerds and some of us are like",
+    "start": 1210
+  },
+  {
+    "content": "illustrators and photographers or you're an accessibility expert or a design",
+    "start": 1215
+  },
+  {
+    "content": "system expert and what's cool about those jobs we all we had to bring that",
+    "start": 1220
+  },
+  {
+    "content": "stuff to work you know it's not like we have this one really super specific job",
+    "start": 1224
+  },
+  {
+    "content": "that we execute and that's it we have all these other skills and we get to",
+    "start": 1230
+  },
+  {
+    "content": "bring them to work which is cool and then maybe it starts to feel a little",
+    "start": 1234
+  },
+  {
+    "content": "bit more like this when there is still some stuff that we share but some people",
+    "start": 1239
+  },
+  {
+    "content": "go down the like hardcore JavaScript side like I'm just all JavaScript all",
+    "start": 1243
+  },
+  {
+    "content": "the time and the people that aren't are still and just so we're all interesting",
+    "start": 1249
+  },
+  {
+    "content": "in our own ways but it kind of feels like a divide in a way but it's the",
+    "start": 1252
+  },
+  {
+    "content": "frontward front-end developer still meaningful in a way I thought Peggy",
+    "start": 1256
+  },
+  {
+    "content": "explains it pretty well I think like front-end developer is such a broad term",
+    "start": 1259
+  },
+  {
+    "content": "it's hard to really define like what exactly a front-end developer is because",
+    "start": 1264
+  },
+  {
+    "content": "there's so many different specialties right like you can be a specialty a",
+    "start": 1268
+  },
+  {
+    "content": "specialist in SVG animations and be a front-end developer and not write any",
+    "start": 1273
+  },
+  {
+    "content": "JavaScript at all or you could be more working on the data layer like I am and",
+    "start": 1277
+  },
+  {
+    "content": "not writing any CSS for example and still be considered a front-end",
+    "start": 1282
+  },
+  {
+    "content": "developer so I think it's kind of you know as long as you're touching UI or",
+    "start": 1286
+  },
+  {
+    "content": "touching something like a data layer that's tangentially related to UI I",
+    "start": 1291
+  },
+  {
+    "content": "think you know you can identify as a front-end developer rock and roll",
+    "start": 1295
+  },
+  {
+    "content": "another thing that's interesting here is the way that we just like hallway talk",
+    "start": 1303
+  },
+  {
+    "content": "about websites or blog about websites and like just generically terms that we",
+    "start": 1307
+  },
+  {
+    "content": "apply to the websites we work on and build so here's a spectrum of tech",
+    "start": 1312
+  },
+  {
+    "content": "front-end back-end but just stuff that gets placed on that spectrum somewhere",
+    "start": 1318
+  },
+  {
+    "content": "and then that let's talk about the terms how we used to and currently and",
+    "start": 1323
+  },
+  {
+    "content": "sometimes talk about websites as a stack so here's a stack we're at a stret",
+    "start": 1328
+  },
+  {
+    "content": "a certain kind of stack conference aren't we I just thought of that really",
+    "start": 1333
+  },
+  {
+    "content": "lamp is a I'd say it's old-school it is kind of old-school but it's still powers",
+    "start": 1337
+  },
+  {
+    "content": "like a ton of the Internet so it's not exactly old-school but Linux Apache",
+    "start": 1343
+  },
+  {
+    "content": "MySQL PHP all those things are pretty specifically back-end technology so if",
+    "start": 1346
+  },
+  {
+    "content": "I'm a front-end developer listening to a conversation about the lamp stack I'm",
+    "start": 1353
+  },
+  {
+    "content": "just like over here or in the construction of that website I'm not",
+    "start": 1357
+  },
+  {
+    "content": "like a part of that conversation it's not not talked about it the front end is",
+    "start": 1360
+  },
+  {
+    "content": "irrelevant somehow to that stack weird time goes on a popular stack becomes the",
+    "start": 1364
+  },
+  {
+    "content": "mean stack which is Express angular node you can see I'm starting to",
+    "start": 1371
+  },
+  {
+    "content": "overlap with some of those words it's moved to the right a little bit it's",
+    "start": 1376
+  },
+  {
+    "content": "stretched to the right but it's moved to the right also because we're not talking",
+    "start": 1380
+  },
+  {
+    "content": "about operating system anymore always somehow somewhere along the line we",
+    "start": 1382
+  },
+  {
+    "content": "stopped carrying what the operating system that runs our say I've never",
+    "start": 1385
+  },
+  {
+    "content": "known what operating system runs my site ever",
+    "start": 1389
+  },
+  {
+    "content": "Linux serverless is a stack that's a narrow",
+    "start": 1392
+  },
+  {
+    "content": "stack kind of in the middle we're definitely not carrying about operating",
+    "start": 1399
+  },
+  {
+    "content": "system and and servers and stuff it's just like a way to put some server-side",
+    "start": 1402
+  },
+  {
+    "content": "code somewhere and execute it through an API of some kind a URL I guess and so my",
+    "start": 1407
+  },
+  {
+    "content": "front-end stack especially since it's somewhat modern overlaps with it because",
+    "start": 1413
+  },
+  {
+    "content": "now maybe not super directly but because I we want the JavaScript way with our",
+    "start": 1418
+  },
+  {
+    "content": "learning and a lot of us there's baby front-end devs these days are like all",
+    "start": 1424
+  },
+  {
+    "content": "all JavaScript all if you come out of a boot skin come out of a boot camp you're",
+    "start": 1428
+  },
+  {
+    "content": "just a JavaScript Deb these days you might not be so afraid of node I feel",
+    "start": 1432
+  },
+  {
+    "content": "like almost observer list maybe is node stuff so to like look at node maybe even",
+    "start": 1436
+  },
+  {
+    "content": "write some node debug some know it isn't so weird especially if you're a nullify",
+    "start": 1442
+  },
+  {
+    "content": "land where they're just that JavaScript lives right alongside the rest of your",
+    "start": 1446
+  },
+  {
+    "content": "codebase pretty naturally feels like server Alyssa's word of a part of",
+    "start": 1450
+  },
+  {
+    "content": "front-end these days weirdly enough Swick's you know Shawn Wang now if I",
+    "start": 1454
+  },
+  {
+    "content": "dude wrote an article for CSS tricks of ways back called star stack he just kind",
+    "start": 1458
+  },
+  {
+    "content": "of invented that acronym but design systems typescript Apollo graphical just",
+    "start": 1463
+  },
+  {
+    "content": "cuz he was seeing a lot of big companies kind of adopt those technologies as a",
+    "start": 1467
+  },
+  {
+    "content": "way to build a stack so that's what I mean by that's how we talk about",
+    "start": 1471
+  },
+  {
+    "content": "websites if that's the acronym we're using to talk about how the website is",
+    "start": 1475
+  },
+  {
+    "content": "built it's all friggin now it's just fascinating and as a front-end developer",
+    "start": 1479
+  },
+  {
+    "content": "I'm like sweet I'm totally involved hyper involved my skills even stop early",
+    "start": 1483
+  },
+  {
+    "content": "of star because I might not be super involved with the design part of the",
+    "start": 1488
+  },
+  {
+    "content": "design system anyway let's do some a little bit of that server list stuff",
+    "start": 1491
+  },
+  {
+    "content": "quick I mentioned the nullify thing real quick I made a website called well the",
+    "start": 1496
+  },
+  {
+    "content": "power observer list for front-end developers it's at that URL you can see",
+    "start": 1501
+  },
+  {
+    "content": "it whatever here's another both of those sites",
+    "start": 1505
+  },
+  {
+    "content": "happen to be gem stack sites the one you just saw and this one but this is the",
+    "start": 1511
+  },
+  {
+    "content": "one that I wanted to build some functionality for so anyway I was like I",
+    "start": 1514
+  },
+  {
+    "content": "wanted this listing of conference sites and I'm not gonna use I'm not gonna like",
+    "start": 1518
+  },
+  {
+    "content": "spin up WordPress or something I was a pretty simple data model and it's really",
+    "start": 1521
+  },
+  {
+    "content": "just for me right now so I'm gonna keep it really simple and just put the con",
+    "start": 1526
+  },
+  {
+    "content": "and markdown and then just use eleventy or whatever to smash it together into a",
+    "start": 1529
+  },
+  {
+    "content": "site so it's really easy in that way so I just have a folder full of markdown",
+    "start": 1533
+  },
+  {
+    "content": "files bootleg it's mashed together with 11 teams all of you 11 be loved",
+    "start": 1536
+  },
+  {
+    "content": "you want a picture Zack I got stickers you gotta hit me up Zacks no longer the",
+    "start": 1541
+  },
+  {
+    "content": "only source of the Lebanese sticker but I put it on github - that's obvious",
+    "start": 1549
+  },
+  {
+    "content": "right everybody talks about github but one of the reasons it's there is so that",
+    "start": 1553
+  },
+  {
+    "content": "I can take PRS for content in a way that not all CMS's offer that to you you",
+    "start": 1556
+  },
+  {
+    "content": "can't take a PR for content on a wordpress site not a thing and I was",
+    "start": 1561
+  },
+  {
+    "content": "very interested in having other people do the work of this site for me you know",
+    "start": 1565
+  },
+  {
+    "content": "so thanks PRS that's kind of cool chuck it on Matloff I obviously cuz you know",
+    "start": 1569
+  },
+  {
+    "content": "static files plus 11 T is absolutely nullify land it could have been on",
+    "start": 1574
+  },
+  {
+    "content": "github pages too cuz like why not leave it there do you get all this great crap",
+    "start": 1579
+  },
+  {
+    "content": "on that laughs I just the deploy previews alone is a reason to use",
+    "start": 1582
+  },
+  {
+    "content": "nullify you know a PR comes in you click the little preview button and you go",
+    "start": 1586
+  },
+  {
+    "content": "look at a build of your site with the PR in it what that's sick anyway just",
+    "start": 1590
+  },
+  {
+    "content": "that's worth it but of course then it's like super CD and out and you get all",
+    "start": 1596
+  },
+  {
+    "content": "this other cool stuff with it I can throw a nut loaf is on top of it so if I",
+    "start": 1599
+  },
+  {
+    "content": "want to edit content I don't really feel like doing a PR to myself and I can just",
+    "start": 1604
+  },
+  {
+    "content": "go to this special URL just edit some content hit save and what happens is",
+    "start": 1610
+  },
+  {
+    "content": "like this is like a one look at single file that lives on this site this boots",
+    "start": 1614
+  },
+  {
+    "content": "up this little react app and I've taught it how my markdown files are formatted",
+    "start": 1618
+  },
+  {
+    "content": "and it makes a git commit for me of the files I changed it's just like a CMS",
+    "start": 1622
+  },
+  {
+    "content": "that's amazing to me I gotta ask somebody I'm not laughs I about that",
+    "start": 1628
+  },
+  {
+    "content": "that's a weird does like a note to myself whatever there's anybody watching",
+    "start": 1633
+  },
+  {
+    "content": "from Matloff ICMS I'm interested in that because I want PRS from people that can",
+    "start": 1638
+  },
+  {
+    "content": "use nullify CMS you get it anyway let's talk about something else I wanted this",
+    "start": 1643
+  },
+  {
+    "content": "feature email you click that you type in an email and it sends an email that",
+    "start": 1647
+  },
+  {
+    "content": "reminds me of that conference there's no browser API for sending an",
+    "start": 1652
+  },
+  {
+    "content": "email it's not a thing that it exists you need a server to send an email it's",
+    "start": 1657
+  },
+  {
+    "content": "just the way it is you know so how do I do that I would",
+    "start": 1661
+  },
+  {
+    "content": "stop as a front-end developer I just like I don't know how to do that so I'll",
+    "start": 1666
+  },
+  {
+    "content": "get it already and then have a back-end developer help me do that not so much",
+    "start": 1669
+  },
+  {
+    "content": "these days I can find some server that has like node api's that has like some",
+    "start": 1673
+  },
+  {
+    "content": "simple docks that's like just pull in our node thing require spark post and",
+    "start": 1678
+  },
+  {
+    "content": "then just hit this API input and I look at that code and I'm not like a master",
+    "start": 1683
+  },
+  {
+    "content": "of node but I can see what's going on there especially as a JavaScript",
+    "start": 1686
+  },
+  {
+    "content": "developer I'm not scared of that throw that file and a functions folder on net",
+    "start": 1689
+  },
+  {
+    "content": "liffe i and it just works that's awesome to me that's spreading my wings as a",
+    "start": 1694
+  },
+  {
+    "content": "front-end developer dramatically I think so here's like the new spectrum for me I",
+    "start": 1698
+  },
+  {
+    "content": "don't care about operating systems and servers and stuff I just can't so I'm",
+    "start": 1703
+  },
+  {
+    "content": "just just just me here no so let's wipe those away from my skill set I don't",
+    "start": 1708
+  },
+  {
+    "content": "really care about databases either I do but like maybe somebody else sets it up",
+    "start": 1712
+  },
+  {
+    "content": "for me or like I'll use a flat file CMS or a headless CMS or firebase so it's",
+    "start": 1716
+  },
+  {
+    "content": "just api's or fauna or something so like I'm not directly dealing with databases",
+    "start": 1722
+  },
+  {
+    "content": "I'm just doing API is the deal with databases so here's my spectrum of stuff",
+    "start": 1727
+  },
+  {
+    "content": "server-side languages I can do a little bit as long as it snowed because it's",
+    "start": 1732
+  },
+  {
+    "content": "kind of in my JavaScript wheelhouse a little bit those middle three things are",
+    "start": 1736
+  },
+  {
+    "content": "my purview as a JavaScript focus developer thank you and their things on",
+    "start": 1740
+  },
+  {
+    "content": "the right are just fundamental front-end technology so now I'm a front-end",
+    "start": 1745
+  },
+  {
+    "content": "developer but I really have this rainbow of skills that stretched pretty wide",
+    "start": 1749
+  },
+  {
+    "content": "which is really nice cool cool and then you add on to that more like all the ten",
+    "start": 1753
+  },
+  {
+    "content": "gentle skills that you just know be from being in the industry in your boot camp",
+    "start": 1761
+  },
+  {
+    "content": "or whatever like design and get you know you went to oh get and gotta figure",
+    "start": 1765
+  },
+  {
+    "content": "it out and you you know you can write tests and you know about build processes",
+    "start": 1771
+  },
+  {
+    "content": "and you can set up a pipeline kind of thing and all this other like tangential",
+    "start": 1775
+  },
+  {
+    "content": "skills of building websites if you know some or all of that stuff and the",
+    "start": 1779
+  },
+  {
+    "content": "spectrum yeah yes that's full-stack that's my point here",
+    "start": 1783
+  },
+  {
+    "content": "is that like you can absolutely build and deploy a website with those skills",
+    "start": 1792
+  },
+  {
+    "content": "probably not even you don't even need to know all of them like I feel like that's",
+    "start": 1796
+  },
+  {
+    "content": "why people are thinking of themselves as full-stack because what they're doing",
+    "start": 1799
+  },
+  {
+    "content": "touches all kinds of crap and they they just feel kind of powerful across the",
+    "start": 1803
+  },
+  {
+    "content": "whole surface area of a website so they're like in a full-stack I'll",
+    "start": 1808
+  },
+  {
+    "content": "introduce myself as full-stack I'll apply for full-stack jobs you feel full",
+    "start": 1811
+  },
+  {
+    "content": "stachy when it's kind of largely just an evolution of front-end development",
+    "start": 1816
+  },
+  {
+    "content": "interesting Amazon's on board they're hiring full stack front-end atrophic",
+    "start": 1820
+  },
+  {
+    "content": "just call them up they'll hire you up a huge haystack though right they all",
+    "start": 1826
+  },
+  {
+    "content": "those add-on skills all kinds of stuff there's stuff we didn't even talk about",
+    "start": 1835
+  },
+  {
+    "content": "in there what's funny is that that's so wide of stuff that you need to know that",
+    "start": 1839
+  },
+  {
+    "content": "you're gonna specialize anyway like you just won't know it all equally well so",
+    "start": 1845
+  },
+  {
+    "content": "you might not consider yourself a specialist but you just will be one cuz",
+    "start": 1849
+  },
+  {
+    "content": "you're just better at some of the stuff than other things and one of the things",
+    "start": 1852
+  },
+  {
+    "content": "is when you go full full stack and you're like wanna be full stack cuz you",
+    "start": 1855
+  },
+  {
+    "content": "want to be hired as full stack and there's money in full stack and all that",
+    "start": 1858
+  },
+  {
+    "content": "that one of the criticisms is that a lot of full stack developers lose a little",
+    "start": 1861
+  },
+  {
+    "content": "bit of that like quarry tml and CSS stuff maybe they're old-school front",
+    "start": 1865
+  },
+  {
+    "content": "Dendy stuff maybe falls off a little bit you turn into the horse though oh the",
+    "start": 1870
+  },
+  {
+    "content": "horse is like at least it's still a horse you know I can get around but it's",
+    "start": 1876
+  },
+  {
+    "content": "the front nd stuff is pretty bad I think that's hilarious",
+    "start": 1882
+  },
+  {
+    "content": "and kind of empowering still but I'm not like that me and my rudimentary node",
+    "start": 1885
+  },
+  {
+    "content": "skills aren't taking me very far anyway but my front-end skills I feel very",
+    "start": 1889
+  },
+  {
+    "content": "confident I'm more like a dragon like Mara with Michael that's me trying to do",
+    "start": 1892
+  },
+  {
+    "content": "graph QL or whatever back there cool but what I think is powerful is like that",
+    "start": 1898
+  },
+  {
+    "content": "Brad Frost stuff in the beanie like put me next to a horse then you know like",
+    "start": 1904
+  },
+  {
+    "content": "managers get involved here figure out where the peaks and valleys of the",
+    "start": 1908
+  },
+  {
+    "content": "skills are figure it out make us a sweet-ass dragon horse you know that's",
+    "start": 1912
+  },
+  {
+    "content": "what we would need to be that's probably what we're doing anyway but still like",
+    "start": 1916
+  },
+  {
+    "content": "you know let's full stack it all out together",
+    "start": 1920
+  },
+  {
+    "content": "we're still browser people we're still the people that make the design happen",
+    "start": 1922
+  },
+  {
+    "content": "we're the Shepherd's of design and the UX and the performance and the",
+    "start": 1926
+  },
+  {
+    "content": "accessibility that's all still on our plate and fundamental to the job of",
+    "start": 1930
+  },
+  {
+    "content": "being a front-end developer let's just do right by the people who use our",
+    "start": 1933
+  },
+  {
+    "content": "websites so I have no idea how to end this so stay fresh cheese bags",
+    "start": 1938
+  },
+  {
+    "content": "[Applause]",
+    "start": 1944
+  },
+  {
+    "content": "[Applause] you",
+    "start": 1952
+  },
+  {
+    "content": "",
+    "start": 1957
+  }
+]

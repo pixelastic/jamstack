@@ -1,0 +1,14 @@
+{
+  "description": "GROQ (Graph-Relational Object Queries) is a query language for JSON documents designed by Sanity.io. In this talk, Knut Melvær (Head of Developer Relations) announces that it’s now open source and does a short demo of the new CLI tool. Check out the specification and tooling at github.com/sanity-io/GROQ.\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
+  "id": "3Yd-I1aW88Q",
+  "position": 6,
+  "publishedAt": 1564509323,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/3Yd-I1aW88Q/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/3Yd-I1aW88Q/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/3Yd-I1aW88Q/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/3Yd-I1aW88Q/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/3Yd-I1aW88Q/default.jpg"
+  },
+  "title": "Knut Melvaer - We're Open-Sourcing GROQ"
+}

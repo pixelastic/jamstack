@@ -1,0 +1,2794 @@
+[
+  {
+    "content": "well yes thank you everyone so much for coming I'm really excited to chat with",
+    "start": 11
+  },
+  {
+    "content": "everybody because this is there's just a lot to talk about so hopefully we have",
+    "start": 15
+  },
+  {
+    "content": "time to get through everything because I'm excited but really we're here to",
+    "start": 20
+  },
+  {
+    "content": "talk about just the massive growth of jam stack from relative obscurity to",
+    "start": 25
+  },
+  {
+    "content": "becoming just this massive architecture that is great for building secure fast",
+    "start": 30
+  },
+  {
+    "content": "websites and it makes hosting things much faster and and has really great",
+    "start": 35
+  },
+  {
+    "content": "results and and its really helps the API economy flourish and we have some great",
+    "start": 43
+  },
+  {
+    "content": "people today that I was going to introduce you but I think you're better",
+    "start": 50
+  },
+  {
+    "content": "off introducing yourselves and so why don't we go around I don't know if",
+    "start": 53
+  },
+  {
+    "content": "everyone is in the same order on my screen Sarah is first on my screen who's",
+    "start": 57
+  },
+  {
+    "content": "first you you are first okay um my name is",
+    "start": 62
+  },
+  {
+    "content": "Sarah Dresner I'm VP of developer experience at nullify and I'm excited to",
+    "start": 66
+  },
+  {
+    "content": "be here Matt you go next I met Bill Mann I'm the",
+    "start": 71
+  },
+  {
+    "content": "CEO and co-founder of maybe five Tom hey Tom Preston Warner I am currently the",
+    "start": 81
+  },
+  {
+    "content": "chief product officer at a company called shutterbug doing language",
+    "start": 88
+  },
+  {
+    "content": "learning formerly I was CEO and founder of github and I'm working on a framework",
+    "start": 91
+  },
+  {
+    "content": "that you have stack full stack framework right now called redwood Jas and I live",
+    "start": 97
+  },
+  {
+    "content": "in San Francisco oh and I made Jekyll which you may be familiar with yes oh",
+    "start": 102
+  },
+  {
+    "content": "good hi I'm uh oh hi San Francisco",
+    "start": 109
+  },
+  {
+    "content": "co-founder and CEO of stack bit and early investor in that laughs I as is",
+    "start": 114
+  },
+  {
+    "content": "Tom cool I think I'll forget to mention I'm also in the view core team oh yeah",
+    "start": 119
+  },
+  {
+    "content": "that's not a big deal no Sarah so and yeah I'm Cassidy I'm a developer",
+    "start": 126
+  },
+  {
+    "content": "experience engineer at nullify on Sarah's team I'm excited to have you all",
+    "start": 134
+  },
+  {
+    "content": "here today this Jam STATCOM virtual has over 7,000 developers and businesses",
+    "start": 139
+  },
+  {
+    "content": "scheduled to attend and I think we haven't we haven't had that much live",
+    "start": 146
+  },
+  {
+    "content": "and that happens with online events but we have had a pretty significant amount",
+    "start": 150
+  },
+  {
+    "content": "but I know that we've had at least like 40% ish show up live and I'm sure people",
+    "start": 154
+  },
+  {
+    "content": "come and go so I'll be curious to see the numbers later but I'm just to to the",
+    "start": 162
+  },
+  {
+    "content": "folks here what what factors and drivers led to Jam stag gaining popularity and",
+    "start": 168
+  },
+  {
+    "content": "the recognition it's had so far and culminating at this event and onwards I",
+    "start": 174
+  },
+  {
+    "content": "mean maybe I can start with initially like just why we started even talking",
+    "start": 182
+  },
+  {
+    "content": "with Tim stick and I remember trauma duck so I'm traumatized started talking",
+    "start": 188
+  },
+  {
+    "content": "really early on before it was really a term and we're just looking at a lot of",
+    "start": 192
+  },
+  {
+    "content": "like the architectural things that we're going on in the web landscape like both",
+    "start": 198
+  },
+  {
+    "content": "around like its static site generators and the whole concept of static sites",
+    "start": 204
+  },
+  {
+    "content": "but also at the same time around single page applications and just this general",
+    "start": 209
+  },
+  {
+    "content": "decoupling of the front end and the back end and this larger and larger usage of",
+    "start": 214
+  },
+  {
+    "content": "EP is directly from the browser and companies building like plugins that",
+    "start": 220
+  },
+  {
+    "content": "could people pull directly into the browser and we just started noticing",
+    "start": 225
+  },
+  {
+    "content": "like we started recognizing that a lot of people were doing similar things and",
+    "start": 230
+  },
+  {
+    "content": "a lot of us like architectural patterns were emerging but everybody had to sort",
+    "start": 236
+  },
+  {
+    "content": "of explain all of it from the ground up every time they wanted to talk about it",
+    "start": 242
+  },
+  {
+    "content": "and that was sort of where we started just figuring out like we need some way",
+    "start": 246
+  },
+  {
+    "content": "of giving this a name so people don't have to do that every time and so we can",
+    "start": 251
+  },
+  {
+    "content": "actually just not building some best practices around this new architecture",
+    "start": 256
+  },
+  {
+    "content": "for the weapon and then sort of coined the term gem ii and and it started",
+    "start": 260
+  },
+  {
+    "content": "spreading fairly organic le at first and i think the big like the big",
+    "start": 265
+  },
+  {
+    "content": "adoption has just come as more and more and as more and more people in the indus",
+    "start": 271
+  },
+  {
+    "content": "that I actually already like building stuff in this way and already thinking",
+    "start": 277
+  },
+  {
+    "content": "this way found out that that this gave them a common language to talk about it",
+    "start": 281
+  },
+  {
+    "content": "in a common way to to put into like a more systematic way the practices around",
+    "start": 287
+  },
+  {
+    "content": "this way of building for the web yeah I kind of noticed how the abstraction",
+    "start": 293
+  },
+  {
+    "content": "layers keep going in terms of all of computer programming as well you get",
+    "start": 298
+  },
+  {
+    "content": "infrastructure as a service platform as a service functions as a service and so",
+    "start": 303
+  },
+  {
+    "content": "the natural coalescing of these different pieces that people used to",
+    "start": 306
+  },
+  {
+    "content": "have to kind of structurally manage and combine as a kind of kit of parts but",
+    "start": 311
+  },
+  {
+    "content": "now you can put it together because you know that people are going to be solving",
+    "start": 315
+  },
+  {
+    "content": "those problems are gonna get in and again one of the things that I notice is",
+    "start": 319
+  },
+  {
+    "content": "like some of the really amazing advents of technology weren't like boom",
+    "start": 323
+  },
+  {
+    "content": "something new came out of nowhere it was really things that were combined in a",
+    "start": 328
+  },
+  {
+    "content": "really interesting and unique way that people needed and needed that kind of",
+    "start": 333
+  },
+  {
+    "content": "access like I used the example of the iPhone sometimes because that that was a",
+    "start": 337
+  },
+  {
+    "content": "camera and email and a phone we had those things right but the reason why it",
+    "start": 342
+  },
+  {
+    "content": "became so important and impressive in terms of the industry was because that",
+    "start": 348
+  },
+  {
+    "content": "convenience of having everything in one and really that you know experience for",
+    "start": 352
+  },
+  {
+    "content": "the person using it you got the sense that this is like really elegant and",
+    "start": 358
+  },
+  {
+    "content": "sophisticated but anyone could use it and I think Jam stack offers a similar",
+    "start": 362
+  },
+  {
+    "content": "thing right it's not that you can't combine all of these things by hand it's",
+    "start": 366
+  },
+  {
+    "content": "just that it used to take so long to and it used to take so many more developers",
+    "start": 370
+  },
+  {
+    "content": "to and it has it offers a lot of really great developer experience which I",
+    "start": 374
+  },
+  {
+    "content": "really enjoy and that it's it's it's kind of funny right when we think about",
+    "start": 379
+  },
+  {
+    "content": "the Jam stack I mean when when I was a kid I made web pages and they were",
+    "start": 383
+  },
+  {
+    "content": "static files right and and it was just the web was a bunch of static files and",
+    "start": 389
+  },
+  {
+    "content": "that was easy to understand and beautiful and fast and and anyone could",
+    "start": 393
+  },
+  {
+    "content": "do it and then you get into the era of web applications and servers and",
+    "start": 397
+  },
+  {
+    "content": "WordPress servers and rails and PHP and perl and I like everything in that world",
+    "start": 402
+  },
+  {
+    "content": "and then everything gets really complicated and you've got data and then",
+    "start": 408
+  },
+  {
+    "content": "you have issues where now everyone's getting",
+    "start": 410
+  },
+  {
+    "content": "hacking update data breaches all over the place costing companies zillions of",
+    "start": 412
+  },
+  {
+    "content": "dollars costing customers a bunch of fraudulent behavior that's being enacted",
+    "start": 416
+  },
+  {
+    "content": "upon them and then 10 years ago 12 years ago you start seeing these ideas of",
+    "start": 420
+  },
+  {
+    "content": "static coming back but obviously they can't come back in exactly the same way",
+    "start": 428
+  },
+  {
+    "content": "because like what can you do with a static page not that much interesting",
+    "start": 431
+  },
+  {
+    "content": "stuff but we now have the technology to be able to say why don't we merge data",
+    "start": 435
+  },
+  {
+    "content": "and static files because if you look at a weblog or something",
+    "start": 440
+  },
+  {
+    "content": "like what is what is dynamic about it almost nothing right maybe comments and",
+    "start": 444
+  },
+  {
+    "content": "then there's things like discuss that was one of the earliest players in in",
+    "start": 448
+  },
+  {
+    "content": "what I would now call a jam stack service provider like a third party API",
+    "start": 452
+  },
+  {
+    "content": "where you could tack on comments to a blog and it was like wait a second you",
+    "start": 457
+  },
+  {
+    "content": "could have a static file that still is dynamic by calling into a third party",
+    "start": 461
+  },
+  {
+    "content": "API and then people started thinking that maybe we can have the old web that",
+    "start": 466
+  },
+  {
+    "content": "was secure and fast and understandable but still get the dynamic bits that we",
+    "start": 471
+  },
+  {
+    "content": "want and that that now has come to full fruition like to do that well now the",
+    "start": 475
+  },
+  {
+    "content": "scale of the internet is so much vastly huger than it used to be but now you",
+    "start": 479
+  },
+  {
+    "content": "need really good CDN technology now javascript finally is extremely capable",
+    "start": 483
+  },
+  {
+    "content": "language and a really good language and all these services service providers",
+    "start": 489
+  },
+  {
+    "content": "start popping up and the net Lafite eyes them all together and makes it available",
+    "start": 493
+  },
+  {
+    "content": "to the enterprises and now we have this beautiful merging of the good old days",
+    "start": 496
+  },
+  {
+    "content": "and the modern possibilities of the web so with the merging of the good old days",
+    "start": 501
+  },
+  {
+    "content": "and the modern things it's one of those things where you can be like ah Jim",
+    "start": 509
+  },
+  {
+    "content": "stack can do that with with most applications that that people bring up",
+    "start": 514
+  },
+  {
+    "content": "but regarding that and someone kind of mentioned this in the questions and I",
+    "start": 518
+  },
+  {
+    "content": "was curious about a - what would you say are things that Jam stack is not best",
+    "start": 524
+  },
+  {
+    "content": "built for and and on the flip side of that what things are is it best for I",
+    "start": 529
+  },
+  {
+    "content": "mean it's versus is one of the most exciting pieces because it changes the",
+    "start": 535
+  },
+  {
+    "content": "shape of that right like it used to be that if",
+    "start": 541
+  },
+  {
+    "content": "you want it your pre building so much and you're putting it them on edge nodes",
+    "start": 544
+  },
+  {
+    "content": "and then if you needed anything dynamic you need to make several other calls but",
+    "start": 548
+  },
+  {
+    "content": "with edge functions that kind of changes the game and I think that's why we're",
+    "start": 552
+  },
+  {
+    "content": "all really excited because some of the limitations get lifted because you're in",
+    "start": 556
+  },
+  {
+    "content": "you're able to programmatically change the shape of the page without pulling",
+    "start": 559
+  },
+  {
+    "content": "back and rebuilding the whole application so that's one thing that I",
+    "start": 563
+  },
+  {
+    "content": "think is can be a limitation and we're starting to see the edges of that lift",
+    "start": 567
+  },
+  {
+    "content": "no I was gonna say yeah it's it's a it's a question for which the answer kind of",
+    "start": 572
+  },
+  {
+    "content": "changes rapidly because you know the jam stack more than being a framework it's",
+    "start": 580
+  },
+  {
+    "content": "it's not really frenemies you know more of a philosophy and I believe that the",
+    "start": 586
+  },
+  {
+    "content": "buy-in to this philosophy is growing rapidly you know we're seeing that",
+    "start": 590
+  },
+  {
+    "content": "evident by you know like many indicators but also just a gut feeling of of the",
+    "start": 595
+  },
+  {
+    "content": "developers kind of flocking to this approach because all of the reasons that",
+    "start": 600
+  },
+  {
+    "content": "I'm you know Matt and Tom and Sarah brought up you know but the you know one",
+    "start": 603
+  },
+  {
+    "content": "of the reasons that jams that may be ideal for a certain you know kind of",
+    "start": 609
+  },
+  {
+    "content": "website or application and not necessarily for another one is is more",
+    "start": 613
+  },
+  {
+    "content": "the the prevalence of the developers working on it and the availability of",
+    "start": 617
+  },
+  {
+    "content": "tools and so you know two three years ago or maybe a little longer it took",
+    "start": 622
+  },
+  {
+    "content": "someone like Matt to go out and kind of rebuild Smashing Magazine as a jam stack",
+    "start": 627
+  },
+  {
+    "content": "site required a lot of technical effort today you know a random developer can",
+    "start": 632
+  },
+  {
+    "content": "potentially pick it up and do it and who knows what's gonna be possible with the",
+    "start": 638
+  },
+  {
+    "content": "jam stack in three years we're very confident that a lot a lot more than",
+    "start": 641
+  },
+  {
+    "content": "what we can do today because the the the actual frameworks like redwood which Tom",
+    "start": 645
+  },
+  {
+    "content": "is working on are are popping up and getting better and empowering developers",
+    "start": 650
+  },
+  {
+    "content": "with with abstractions to come in and build full-fledged applications tools",
+    "start": 654
+  },
+  {
+    "content": "like stack bid and team CMS and other tools are going to make it easier for",
+    "start": 661
+  },
+  {
+    "content": "people to work on content website without getting into the weeds so",
+    "start": 666
+  },
+  {
+    "content": "basically getting the benefits of static sites and the speed and the security but",
+    "start": 669
+  },
+  {
+    "content": "the kind of manageability and editability that consumer",
+    "start": 673
+  },
+  {
+    "content": "website editing experiences like wigs and Squarespace have kind of gotten less",
+    "start": 677
+  },
+  {
+    "content": "accustomed to and there's a lot of initiatives that are basically going to",
+    "start": 682
+  },
+  {
+    "content": "to make it easier so today there's probably a certain type of crop of you",
+    "start": 688
+  },
+  {
+    "content": "know websites and applications which well that's definitely possible but it's",
+    "start": 695
+  },
+  {
+    "content": "gonna require a little work but as you know Sara mentioned just the",
+    "start": 699
+  },
+  {
+    "content": "introduction of edge functions today by nullify really introduces a massive",
+    "start": 702
+  },
+  {
+    "content": "opportunity first of all personalization you know more advanced a/b testing and",
+    "start": 707
+  },
+  {
+    "content": "things like that are now at the you know at the reach of developers so it's it's",
+    "start": 712
+  },
+  {
+    "content": "it's a it's an interesting question for a very very rapidly changing landscape",
+    "start": 718
+  },
+  {
+    "content": "because of its changing so much I think Tim has a really good question there",
+    "start": 724
+  },
+  {
+    "content": "because it's changing so much does that blur the definition of Jam stack at all",
+    "start": 730
+  },
+  {
+    "content": "is there is there really one solid definition because everything is",
+    "start": 735
+  },
+  {
+    "content": "changing so much I'm definitely trying to change what Jam stack means with",
+    "start": 739
+  },
+  {
+    "content": "redwood and I've talked with Matt and Matt and Chris about this it's so as to",
+    "start": 744
+  },
+  {
+    "content": "not sort of go rogue but I think you know Chris I talked with Chris a year",
+    "start": 748
+  },
+  {
+    "content": "ago and I said you know does what we're doing with redwood maybe wasn't quite a",
+    "start": 753
+  },
+  {
+    "content": "year ago does what we're doing with redwood even count as Jam stack because",
+    "start": 760
+  },
+  {
+    "content": "it's full stack it's got a database like these are these are kind of outside what",
+    "start": 764
+  },
+  {
+    "content": "Jam stack has kind of really stood for so far and he said absolutely it counts",
+    "start": 768
+  },
+  {
+    "content": "I mean it's still the letters are all still relevant it's still JavaScript",
+    "start": 773
+  },
+  {
+    "content": "like end to end it's api's like that is how the",
+    "start": 778
+  },
+  {
+    "content": "front-end talks to the backend and it is markup minimally really but we'll still",
+    "start": 781
+  },
+  {
+    "content": "do pre rendering so that you can pre render your sort of marketing pages or",
+    "start": 785
+  },
+  {
+    "content": "if you're creating something that has a blog like behavior where you've got",
+    "start": 789
+  },
+  {
+    "content": "content that needs to be pre baked into static pages like that'll all be part of",
+    "start": 793
+  },
+  {
+    "content": "it to me it's just an extension of what Jam stack comprises and I think a lot of",
+    "start": 797
+  },
+  {
+    "content": "technologies operate in exactly the same way it's like what is you know when when",
+    "start": 802
+  },
+  {
+    "content": "browser comes out like what can the browser do well not that",
+    "start": 807
+  },
+  {
+    "content": "much but eventually the browser can do a lot more does that make it not the",
+    "start": 811
+  },
+  {
+    "content": "browser no it just means that the browser matured and is more capable or",
+    "start": 814
+  },
+  {
+    "content": "any think of any platform or technology that's often the case",
+    "start": 819
+  },
+  {
+    "content": "it ends up eating more and more as the technology becomes more sophisticated I",
+    "start": 823
+  },
+  {
+    "content": "think one thing that in Creede like some some confusion is like in general I",
+    "start": 829
+  },
+  {
+    "content": "think when we envisioned again is like one really cool component is this idea",
+    "start": 835
+  },
+  {
+    "content": "of in of not having like your server being at runtime that generates like the",
+    "start": 839
+  },
+  {
+    "content": "UI on the fly for you right like that was sort of saying like that's not",
+    "start": 848
+  },
+  {
+    "content": "really like when people invented a whole new platform because mobile development",
+    "start": 852
+  },
+  {
+    "content": "came along and thought like how are we going to build mobile applications no",
+    "start": 857
+  },
+  {
+    "content": "one at that point fought like let's have it so every time the user clicks a",
+    "start": 861
+  },
+  {
+    "content": "button they will download a new version of the UI and display that right like it",
+    "start": 865
+  },
+  {
+    "content": "was kind of like no that's like from a rethinking things sort of from first",
+    "start": 870
+  },
+  {
+    "content": "principles that doesn't seem like like the ideal way of building applications",
+    "start": 874
+  },
+  {
+    "content": "right the made sense you get the application doctor data right in and",
+    "start": 878
+  },
+  {
+    "content": "then and I think now there's some some frameworks that are working on blurring",
+    "start": 884
+  },
+  {
+    "content": "the boundaries between like doing old-school dynamic sites almost like",
+    "start": 888
+  },
+  {
+    "content": "with PHP or something like that while also somewhat caching them and so on",
+    "start": 894
+  },
+  {
+    "content": "right and and and that might be an interesting approach but I don't really",
+    "start": 899
+  },
+  {
+    "content": "think it's it's at 9 with like that you have simplicity of understanding the",
+    "start": 903
+  },
+  {
+    "content": "model of like you're either like free building and making it available",
+    "start": 907
+  },
+  {
+    "content": "straightaway or you're using a runtime in the browser",
+    "start": 911
+  },
+  {
+    "content": "so that's that that's one area where we're we're probably we are in a period",
+    "start": 916
+  },
+  {
+    "content": "of figuring out like exactly yeah how to best clarify and as I think we mentioned",
+    "start": 921
+  },
+  {
+    "content": "previously you know gems Tech is a very almost philosophical approach and so it",
+    "start": 927
+  },
+  {
+    "content": "encompasses a very large breadth of of actual implementations and it's not tied",
+    "start": 933
+  },
+  {
+    "content": "into a specific type of web server it doesn't mention JavaScript the",
+    "start": 939
+  },
+  {
+    "content": "JavaScript was so prevalent and like not going away and if we replace it with",
+    "start": 942
+  },
+  {
+    "content": "something like typescript nobody's really gonna it's not gonna care but",
+    "start": 946
+  },
+  {
+    "content": "yeah I think one of the one of the tag lines and Elif I used early on agreed",
+    "start": 949
+  },
+  {
+    "content": "was something like you know websites without web servers and I think that",
+    "start": 954
+  },
+  {
+    "content": "really touches on on the pain that developer the mental pain that",
+    "start": 957
+  },
+  {
+    "content": "developers had and the reason why we were all seeking a better alternative",
+    "start": 962
+  },
+  {
+    "content": "because we as Tom you know mentioned earlier we had all these websites they",
+    "start": 965
+  },
+  {
+    "content": "were kind of producing the same result whenever anyone visited we had this",
+    "start": 970
+  },
+  {
+    "content": "massive dependency on a web server in tens of thousands or hundreds of",
+    "start": 974
+  },
+  {
+    "content": "thousands of lines of code that are being attacked that are being deployed",
+    "start": 978
+  },
+  {
+    "content": "that are being managed and kind of unnecessarily and so you know developers",
+    "start": 981
+  },
+  {
+    "content": "really like to abstract and optimize and look for problems and and I think that's",
+    "start": 986
+  },
+  {
+    "content": "one of the roots elements of it and you know doing that shift and definitely",
+    "start": 992
+  },
+  {
+    "content": "brings with it this you know all these massive benefits of security and speed",
+    "start": 997
+  },
+  {
+    "content": "but now we also need you know an ecosystem to support people who actually",
+    "start": 1001
+  },
+  {
+    "content": "build jam stack sites that kind of goes hand in hand yeah I just real quickly",
+    "start": 1006
+  },
+  {
+    "content": "that to me the the dynamic part of it comes in with serverless and nullify",
+    "start": 1011
+  },
+  {
+    "content": "embrace this early on by having the functions capabilities where it's like",
+    "start": 1016
+  },
+  {
+    "content": "we we still need to do dynamic things obviously and jam stack is all about",
+    "start": 1020
+  },
+  {
+    "content": "that it's just what is the method that you layer that on top of your web",
+    "start": 1024
+  },
+  {
+    "content": "application and this speaks to security as well right it's like in the in the in",
+    "start": 1028
+  },
+  {
+    "content": "the middle days of web applications you handle all your own servers you're",
+    "start": 1032
+  },
+  {
+    "content": "responsible for upgrading the operating system you're responsible for upgrading",
+    "start": 1037
+  },
+  {
+    "content": "the software you're responsible for doing pen testing on everything and it's",
+    "start": 1040
+  },
+  {
+    "content": "just it's it's horrible it's expensive it's really hard to do well and you'll",
+    "start": 1045
+  },
+  {
+    "content": "never get full coverage and so with this more mature approach using Jam stack you",
+    "start": 1048
+  },
+  {
+    "content": "move your business logic to a server less environment like AWS lambda and now",
+    "start": 1055
+  },
+  {
+    "content": "you have the the might and scale of Amazon doing that work for you right",
+    "start": 1060
+  },
+  {
+    "content": "it's like they'll do the pen testing they'll do the security assessments",
+    "start": 1066
+  },
+  {
+    "content": "they'll upgrading the operating system everything is handled for you and all",
+    "start": 1069
+  },
+  {
+    "content": "you have to do is write your code and that to me is what the jam stack also is",
+    "start": 1073
+  },
+  {
+    "content": "about is about not worrying about the server's",
+    "start": 1077
+  },
+  {
+    "content": "yeah I know once I started getting more into just Jim stachy code but before",
+    "start": 1082
+  },
+  {
+    "content": "even being at nullify I was realizing man the fact that I don't have to worry",
+    "start": 1088
+  },
+  {
+    "content": "about servers and configuring roles and all kinds of stuff I can just put it",
+    "start": 1092
+  },
+  {
+    "content": "online and it's done right my functions as done is spectacular as a developer I",
+    "start": 1097
+  },
+  {
+    "content": "love just not having to care about that and focus on what I actually want to",
+    "start": 1103
+  },
+  {
+    "content": "build it means that an individual can go a lot farther they don't need you don't",
+    "start": 1107
+  },
+  {
+    "content": "need a whole team of people you don't need a friend in person in a back-end",
+    "start": 1112
+  },
+  {
+    "content": "person and a server administration person you can all you can just be this",
+    "start": 1115
+  },
+  {
+    "content": "one person and you can do all of it because you're just writing code you",
+    "start": 1118
+  },
+  {
+    "content": "just write your whole application and you deploy it to nullify and Nell if I",
+    "start": 1121
+  },
+  {
+    "content": "can do basically everything - maybe setting up the database right but that",
+    "start": 1125
+  },
+  {
+    "content": "will come with time and and just is it's it's something that I've heard here and",
+    "start": 1128
+  },
+  {
+    "content": "there it's like giving front-end developers superpowers because it's like",
+    "start": 1133
+  },
+  {
+    "content": "if you can if you can design a website and then you know enough to start coding",
+    "start": 1136
+  },
+  {
+    "content": "the website then you can do the whole thing because you don't have to be a",
+    "start": 1141
+  },
+  {
+    "content": "server administrator which is which is where really the the deep deep",
+    "start": 1143
+  },
+  {
+    "content": "complexities and the the possibilities for very severe failures come from I",
+    "start": 1147
+  },
+  {
+    "content": "think through FinCEN's question on on the findings from the gem stack survey",
+    "start": 1153
+  },
+  {
+    "content": "like one of them for sure which is this ranking of like what's the hottest being",
+    "start": 1158
+  },
+  {
+    "content": "of building an application where deployment was like the last pot right",
+    "start": 1163
+  },
+  {
+    "content": "like oh that's not a big problem right whereas when I think back to the days of",
+    "start": 1168
+  },
+  {
+    "content": "like when when I started I don't think Ruby and rails and so on right like that",
+    "start": 1172
+  },
+  {
+    "content": "was pretty much the opposite like story right like we're sure you could write",
+    "start": 1175
+  },
+  {
+    "content": "the application but actually getting it out there is that that was challenging",
+    "start": 1181
+  },
+  {
+    "content": "so that being said with these like separation of roles and stuff what do",
+    "start": 1186
+  },
+  {
+    "content": "you think that means for like the title of full stack developer then problematic",
+    "start": 1191
+  },
+  {
+    "content": "I think that there's been a meme on Twitter of like full stack developer and",
+    "start": 1198
+  },
+  {
+    "content": "it shows like half the horse-drawn kind of from fidelity and then not",
+    "start": 1204
+  },
+  {
+    "content": "yeah I mean it's interesting because you know I've worked at a lot of companies",
+    "start": 1210
+  },
+  {
+    "content": "that you know distributed systems companies and places that were more",
+    "start": 1214
+  },
+  {
+    "content": "front-end focused and different types of developers at each and I've noticed that",
+    "start": 1218
+  },
+  {
+    "content": "that you know framing of what full stack means shifts based on who you're",
+    "start": 1221
+  },
+  {
+    "content": "speaking with because yeah generally speaking if you're talking about all the",
+    "start": 1226
+  },
+  {
+    "content": "way full stack are we talking about like a stack of pancakes where you were",
+    "start": 1232
+  },
+  {
+    "content": "taking a very small sliver of each one it it's very tough to know each",
+    "start": 1235
+  },
+  {
+    "content": "discipline extremely extremely well I like the phrase more that it gives",
+    "start": 1240
+  },
+  {
+    "content": "powers to front ends because it it's not requiring that you learn all the way",
+    "start": 1246
+  },
+  {
+    "content": "down to like Scala level right that's that is no longer what is necessary in",
+    "start": 1252
+  },
+  {
+    "content": "order to get a site online even at scale like we talked today about a lot of",
+    "start": 1257
+  },
+  {
+    "content": "things that were quite at scale and I think even in the jam stack service I'm",
+    "start": 1261
+  },
+  {
+    "content": "one of the more interesting findings to me was that people were operating these",
+    "start": 1265
+  },
+  {
+    "content": "sites at such large scales I mean we kind of know that working and malifaux",
+    "start": 1269
+  },
+  {
+    "content": "because we serve people like that but that's that's kind of not what you",
+    "start": 1274
+  },
+  {
+    "content": "expect of something that as Thomas mentioned is static in nature right that",
+    "start": 1278
+  },
+  {
+    "content": "you would use it for such large enterprises but you absolutely can so I",
+    "start": 1283
+  },
+  {
+    "content": "think that it changes the nature of what development development is necessary for",
+    "start": 1288
+  },
+  {
+    "content": "large enterprise applications and what you can do really rapidly and it doesn't",
+    "start": 1293
+  },
+  {
+    "content": "necessarily mean that developers who are you know deeper into the stack or DevOps",
+    "start": 1298
+  },
+  {
+    "content": "don't participate they participate in a very different way they're managing",
+    "start": 1303
+  },
+  {
+    "content": "databases and creating the api's that those are attaching to they're using",
+    "start": 1306
+  },
+  {
+    "content": "services to create monitoring systems that might not be as intrinsic to the",
+    "start": 1311
+  },
+  {
+    "content": "server as it used to be so it's not that those things are going away they're just",
+    "start": 1316
+  },
+  {
+    "content": "they're kind of shifting focus more and so we can get a full stack application",
+    "start": 1320
+  },
+  {
+    "content": "much more rapidly with less people of different skill sets really agree Sarah",
+    "start": 1326
+  },
+  {
+    "content": "and I I think the way that I would put it mostly is everyone I mean being a",
+    "start": 1332
+  },
+  {
+    "content": "full stack developer is great the proof is can you as a single individual",
+    "start": 1338
+  },
+  {
+    "content": "create an entire web application I guess right like if you can do that then you",
+    "start": 1344
+  },
+  {
+    "content": "are a full-stack developer okay so if that's true then what the jam stack does",
+    "start": 1349
+  },
+  {
+    "content": "is make it possible for a lot more people to be full stack developers yeah",
+    "start": 1354
+  },
+  {
+    "content": "so that being said what's what's next then for for these developers and for",
+    "start": 1360
+  },
+  {
+    "content": "the ecosystem itself what's next for not only just developers to figure out what",
+    "start": 1367
+  },
+  {
+    "content": "to do but what's next for the ecosystem to figure out what like what are the",
+    "start": 1373
+  },
+  {
+    "content": "next major areas of innovation for the jam stack ecosystem I mean to some",
+    "start": 1377
+  },
+  {
+    "content": "extent we still have to work on catching people up from the Fudd from before like",
+    "start": 1383
+  },
+  {
+    "content": "there I think there is once Fudd Sarah I'm sorry here wait now I don't remember",
+    "start": 1388
+  },
+  {
+    "content": "fear uncertainty and doubt so I think that anytime something new comes along",
+    "start": 1394
+  },
+  {
+    "content": "JavaScript developers we tend to express our care for things with with yelling",
+    "start": 1404
+  },
+  {
+    "content": "and so one of the things that happens is when something new comes along people",
+    "start": 1410
+  },
+  {
+    "content": "are really examining it from every side what does this mean what is you know",
+    "start": 1415
+  },
+  {
+    "content": "even as you're asking about the shape of jam stack of saying like okay well what",
+    "start": 1419
+  },
+  {
+    "content": "what really is the definition of this thing I think that there's a lot of",
+    "start": 1423
+  },
+  {
+    "content": "figuring that out still there's a lot of like people really just coming around",
+    "start": 1427
+  },
+  {
+    "content": "and even yet the jam stack survey again showed that a lot of people were new to",
+    "start": 1432
+  },
+  {
+    "content": "James like they weren't new to development they were they're",
+    "start": 1436
+  },
+  {
+    "content": "experienced engineers who are coming over to jam stack as a new type of",
+    "start": 1439
+  },
+  {
+    "content": "approach so that's one thing and I keep on going off on the edge handlers but I",
+    "start": 1443
+  },
+  {
+    "content": "think as edge handlers become a little bit more accessible again to the",
+    "start": 1448
+  },
+  {
+    "content": "everyday death we're going to start to see a lot of different development in",
+    "start": 1452
+  },
+  {
+    "content": "areas of authentication personalization there's going to be all sorts of new",
+    "start": 1456
+  },
+  {
+    "content": "types of applications that people didn't even previously imagined and then",
+    "start": 1461
+  },
+  {
+    "content": "abstraction layers on top of those because whatever what always ends up",
+    "start": 1465
+  },
+  {
+    "content": "happening is people experiment and then they build on top of those things and",
+    "start": 1468
+  },
+  {
+    "content": "then offer those in a kind of open source way as well",
+    "start": 1473
+  },
+  {
+    "content": "yeah it's a I see two main types of you know kind of directions for the jam SEC",
+    "start": 1477
+  },
+  {
+    "content": "one is Sara mentioned it developers creating more api's more approaches more",
+    "start": 1486
+  },
+  {
+    "content": "abstractions of data the challenges that your developers bump into because like",
+    "start": 1494
+  },
+  {
+    "content": "any new platform a lot of people everyday are asking oh how do I do X",
+    "start": 1499
+  },
+  {
+    "content": "with Y life is more often than but not becoming the jam stack and so that's",
+    "start": 1503
+  },
+  {
+    "content": "that's that's one big piece right which is is going to enable technologically",
+    "start": 1509
+  },
+  {
+    "content": "what can be achieved with the jam stack which again at the at the edge of the",
+    "start": 1514
+  },
+  {
+    "content": "spectrum where you have you know the best developers in the world little data",
+    "start": 1518
+  },
+  {
+    "content": "they can do anything right you give them the jam stack it doesn't you know",
+    "start": 1522
+  },
+  {
+    "content": "doesn't limit them from doing anything but if if you look at the the average",
+    "start": 1525
+  },
+  {
+    "content": "developer at a large company there's still you know kind of here and we want",
+    "start": 1530
+  },
+  {
+    "content": "to get them you know up there and that is and that's gonna be driven basically",
+    "start": 1534
+  },
+  {
+    "content": "by a lot of innovation from all of the all of the all the developers working on",
+    "start": 1539
+  },
+  {
+    "content": "the on building sections or parts of the ecosystem the other side is just tools",
+    "start": 1543
+  },
+  {
+    "content": "for other stakeholders or less technical people right because as the Jam stick",
+    "start": 1551
+  },
+  {
+    "content": "becomes more prevalent it's it's not just developers who need to interact",
+    "start": 1555
+  },
+  {
+    "content": "with Jam stack websites or modify jams text website or run experiments on Jam",
+    "start": 1560
+  },
+  {
+    "content": "stack websites and where we are today is you know developers can can achieve a",
+    "start": 1565
+  },
+  {
+    "content": "lot even the you know the more junior developers can can now do a lot with",
+    "start": 1570
+  },
+  {
+    "content": "CMS's that they can easily set up in templates and and whatnot but more often",
+    "start": 1577
+  },
+  {
+    "content": "than not there's stakeholders and companies and business people marketing",
+    "start": 1582
+  },
+  {
+    "content": "people sales people whomever needs to work on you know on websites and on",
+    "start": 1586
+  },
+  {
+    "content": "content those people are still are still limited and you know we're going to see",
+    "start": 1591
+  },
+  {
+    "content": "the site core for the jam stack we're going to see the web flow for the jam",
+    "start": 1598
+  },
+  {
+    "content": "stack we're going to see the WordPress for the chance deck if you will you know",
+    "start": 1603
+  },
+  {
+    "content": "it so you can look at that from a couple of different directions but if you think",
+    "start": 1606
+  },
+  {
+    "content": "about the tools that technical people use on a daily basis to",
+    "start": 1609
+  },
+  {
+    "content": "build the web that's going to kind of get recreated to a certain extent for",
+    "start": 1613
+  },
+  {
+    "content": "this whole Legos ecosystem those are two main kind of directions I personally see",
+    "start": 1619
+  },
+  {
+    "content": "this whole space growing into it feels like really early days still as much as",
+    "start": 1625
+  },
+  {
+    "content": "the gem stack has matured in the last five years it still feels so early like",
+    "start": 1632
+  },
+  {
+    "content": "you're saying it's we have the fundamental building blocks and now the",
+    "start": 1638
+  },
+  {
+    "content": "polish comes on top like ohad saying all of these tools all of these things that",
+    "start": 1641
+  },
+  {
+    "content": "the enterprise comes to expect and the larger companies want",
+    "start": 1646
+  },
+  {
+    "content": "I checked it takes time to build any new platform always takes time to build out",
+    "start": 1649
+  },
+  {
+    "content": "those things but directionally you can often predict whether that's in a good",
+    "start": 1654
+  },
+  {
+    "content": "place or not and with jam stack it's it's obviously on an upswing like it's",
+    "start": 1659
+  },
+  {
+    "content": "just a tremendous growth factor right now I am actually I'm it's funny because",
+    "start": 1663
+  },
+  {
+    "content": "we were we're hoping to share this earlier today but we couldn't make it",
+    "start": 1670
+  },
+  {
+    "content": "make it a time this is interesting for the I'm just for the media to get a",
+    "start": 1674
+  },
+  {
+    "content": "perspective so we're launching a website called Jam stack Transcom in a couple of",
+    "start": 1679
+  },
+  {
+    "content": "days and what it does is it basically analyzes a breadth of websites across",
+    "start": 1684
+  },
+  {
+    "content": "the internet something like twenty five thousand websites and it looks for",
+    "start": 1689
+  },
+  {
+    "content": "markers grid of different technologies right so if you give it that liffe Icom",
+    "start": 1693
+  },
+  {
+    "content": "it'll tell you that it's currently you know running on eleventeen and",
+    "start": 1696
+  },
+  {
+    "content": "previously and perhaps still currently uses now if I see Mazen obviously runs",
+    "start": 1700
+  },
+  {
+    "content": "on that will fly and it gives us an interesting perspective on the adoption",
+    "start": 1704
+  },
+  {
+    "content": "of the jam stack and the various technologies across different cohorts of",
+    "start": 1709
+  },
+  {
+    "content": "websites and one thing which is extremely evident so you know we're",
+    "start": 1713
+  },
+  {
+    "content": "looking at a list like Alexa Alexa top 10,000 will just probably predominantly",
+    "start": 1716
+  },
+  {
+    "content": "enterprise companies and on the other side of the spectrum we're looking at",
+    "start": 1721
+  },
+  {
+    "content": "you know website is created and posted on indie hackers which is a forum of you",
+    "start": 1724
+  },
+  {
+    "content": "know bootstrappers very kind of hands-on and build chains themselves and in the",
+    "start": 1730
+  },
+  {
+    "content": "middle we look at you know vc-backed companies or like all the Y Combinator",
+    "start": 1734
+  },
+  {
+    "content": "companies and the the adoption is pretty fascinating you know for Alexa top ten",
+    "start": 1737
+  },
+  {
+    "content": "we're already seeing between 2 and 3% of these enterprise businesses utilizing at",
+    "start": 1744
+  },
+  {
+    "content": "least one James tech technology so they're either using a static site",
+    "start": 1750
+  },
+  {
+    "content": "generator or a headless CMS or deployed to a modern platform like nanofied but",
+    "start": 1753
+  },
+  {
+    "content": "if you look at the Indy hackers cohort it's 20% so you VCS are 12% Y Combinator",
+    "start": 1759
+  },
+  {
+    "content": "is at 13% web sites created by agencies are at around 7% and I you know it's you",
+    "start": 1768
+  },
+  {
+    "content": "can really see this progression where the more bleeding-edge the developers",
+    "start": 1774
+  },
+  {
+    "content": "are and the more early adopters the more prevalent this approaches which you know",
+    "start": 1777
+  },
+  {
+    "content": "makes me really excited about the future of the gem stack because as these tools",
+    "start": 1782
+  },
+  {
+    "content": "show up and as these abstractions show up and as more developers wake up in the",
+    "start": 1786
+  },
+  {
+    "content": "morning and and go learn how to become a gem stack developer this is going to",
+    "start": 1790
+  },
+  {
+    "content": "further trickle into the enterprise which is not necessarily the goal you",
+    "start": 1794
+  },
+  {
+    "content": "know a lot of these companies and approaches our bottoms up so Indy",
+    "start": 1798
+  },
+  {
+    "content": "hackers a 20% for Jam stack is actually pretty exciting but I just wanted to",
+    "start": 1803
+  },
+  {
+    "content": "share that to give you a perspective just of this isn't a survey by this is",
+    "start": 1808
+  },
+  {
+    "content": "true adoption this is talking to the web server and looking at the generated",
+    "start": 1812
+  },
+  {
+    "content": "sites and and looking for the markers for these different technologies that's",
+    "start": 1816
+  },
+  {
+    "content": "super interesting so with it with it growing and everything and because it's",
+    "start": 1821
+  },
+  {
+    "content": "still a young baby in terms of technologies what are the threats to it",
+    "start": 1826
+  },
+  {
+    "content": "becoming an adult well what are the threats to the ecosystem are there any",
+    "start": 1831
+  },
+  {
+    "content": "like players that are a threat to the jam stack right now as it's being",
+    "start": 1834
+  },
+  {
+    "content": "defined and changing and I think there's always a thread of just getting getting",
+    "start": 1838
+  },
+  {
+    "content": "confused right like in like from the from the beginning part of the",
+    "start": 1845
+  },
+  {
+    "content": "principles behind the gem stick has really been around like how can we make",
+    "start": 1848
+  },
+  {
+    "content": "sure that architecture Lee thinks as simple right and there's always a risk",
+    "start": 1852
+  },
+  {
+    "content": "of overtime falling away from that and ending up with a lot of additional",
+    "start": 1856
+  },
+  {
+    "content": "complexity that that could make things happen to build with right so I think",
+    "start": 1861
+  },
+  {
+    "content": "the the important part is to constantly keep that architectural simplicity in",
+    "start": 1865
+  },
+  {
+    "content": "mind and remember that even if some parts some things can be really powerful",
+    "start": 1870
+  },
+  {
+    "content": "if they are not architectural II simple over time the they will create a lot of",
+    "start": 1875
+  },
+  {
+    "content": "people wait for developers working with right like so sticking to that",
+    "start": 1880
+  },
+  {
+    "content": "particular simplicity is is important apart from that I think what we've seen",
+    "start": 1884
+  },
+  {
+    "content": "over the last year is really going from the gem sector of maybe being a",
+    "start": 1890
+  },
+  {
+    "content": "probability as something to now really seeing it as pretty much inevitable",
+    "start": 1895
+  },
+  {
+    "content": "right like Tom had a question on Easter launching their offering in the space",
+    "start": 1899
+  },
+  {
+    "content": "and so I'm the big cloud providers is sort of called like seeing that that",
+    "start": 1903
+  },
+  {
+    "content": "this is happening and so on right and I think that that's in general what we are",
+    "start": 1907
+  },
+  {
+    "content": "seeing right like that by now everybody is realizing that this is going to play",
+    "start": 1912
+  },
+  {
+    "content": "a big role in in the future of the web in so I think now it's up to all of us",
+    "start": 1916
+  },
+  {
+    "content": "that are like driving it and innovating in the space to make sure that we keep",
+    "start": 1923
+  },
+  {
+    "content": "that kind of architectural simplicity around that that that makes it easy to",
+    "start": 1928
+  },
+  {
+    "content": "build with it but also will maintain and manage and and build upon industry yeah",
+    "start": 1932
+  },
+  {
+    "content": "I mean I think it's a great question from Tom can you comment on the latest",
+    "start": 1939
+  },
+  {
+    "content": "Microsoft Azure static web apps offering I think it's really an amazing thing",
+    "start": 1942
+  },
+  {
+    "content": "that at Microsoft build one of their biggest releases was a jam stack site",
+    "start": 1948
+  },
+  {
+    "content": "right now we have you know Amazon as a major player we have a juror as a major",
+    "start": 1952
+  },
+  {
+    "content": "player a few years back we wouldn't have seen that right Jim stock had just not",
+    "start": 1957
+  },
+  {
+    "content": "come into fruition and now and I think it's really solidified in the category",
+    "start": 1961
+  },
+  {
+    "content": "as you see that the ecosystem grow that there are so many different solutions in",
+    "start": 1965
+  },
+  {
+    "content": "this space now that really show that this is a you know a direction that the",
+    "start": 1970
+  },
+  {
+    "content": "industry is ready to adopt it's ready to embrace and it's ready to have a really",
+    "start": 1976
+  },
+  {
+    "content": "strong economy of just different choices the real question is how quickly can the",
+    "start": 1980
+  },
+  {
+    "content": "jam stack offerings mature and I don't know that there is I don't see a lot of",
+    "start": 1989
+  },
+  {
+    "content": "danger there it's like you've got your traditional way of running servers and",
+    "start": 1994
+  },
+  {
+    "content": "serving up content and you've got this new kind of server list CDN pre building",
+    "start": 2000
+  },
+  {
+    "content": "using javascript as an API thing and like those are your those are",
+    "start": 2006
+  },
+  {
+    "content": "your choices and and so I don't think the danger lies in in a competitor as",
+    "start": 2011
+  },
+  {
+    "content": "much as like Matt was saying can things keep improving quickly enough that",
+    "start": 2018
+  },
+  {
+    "content": "people continue to want to move to it at some point there becomes an equilibrium",
+    "start": 2023
+  },
+  {
+    "content": "between people wanting to run their own servers and do their own things and",
+    "start": 2027
+  },
+  {
+    "content": "people wanting Jam stack functionality to where a lot of those things are",
+    "start": 2030
+  },
+  {
+    "content": "happening for them from a vendor perspective but architectural II for Jam",
+    "start": 2034
+  },
+  {
+    "content": "stack as a whole it's just going to become a possible architecture one of",
+    "start": 2039
+  },
+  {
+    "content": "the two major architectures like you either run all your own stuff and have a",
+    "start": 2045
+  },
+  {
+    "content": "lot of dynamic things going on or you do as much aesthetically as possible and",
+    "start": 2048
+  },
+  {
+    "content": "deployment happens in this method methodologically deployments and",
+    "start": 2052
+  },
+  {
+    "content": "development happen in a certain way so it's really how fast can we make it more",
+    "start": 2056
+  },
+  {
+    "content": "awesome like how fast can Jam stack gain market share from a more traditional way",
+    "start": 2061
+  },
+  {
+    "content": "yeah and the more awesome part is the part that I'm really interested in I",
+    "start": 2066
+  },
+  {
+    "content": "mean with the title like developer experience you probably would gather",
+    "start": 2070
+  },
+  {
+    "content": "that but one of the things that the Jam stack offers that I really appreciate",
+    "start": 2073
+  },
+  {
+    "content": "and love about it is the developer experience which is a part that I I'd",
+    "start": 2077
+  },
+  {
+    "content": "really hope it doesn't lose right like that's a real reason why I wanted to",
+    "start": 2082
+  },
+  {
+    "content": "come work in Elif I was because I thought that the developer experience at",
+    "start": 2085
+  },
+  {
+    "content": "the platform was so nice and that's that's a piece of the richness of this",
+    "start": 2089
+  },
+  {
+    "content": "category it's not just like okay this is how we cobbled everything together it's",
+    "start": 2094
+  },
+  {
+    "content": "also this other piece of like we cobbled it together so that you don't have to",
+    "start": 2099
+  },
+  {
+    "content": "but also your experience moving through it is really smooth so that you can",
+    "start": 2103
+  },
+  {
+    "content": "focus on the things you need to write it's not saying like ok we're not going",
+    "start": 2107
+  },
+  {
+    "content": "to do that type of development anymore it's saying like you want to do this",
+    "start": 2112
+  },
+  {
+    "content": "type of development now you can focus on that and I just love that part of it",
+    "start": 2115
+  },
+  {
+    "content": "yeah I'm curious what it would even mean to lose though Sarah in your mind like",
+    "start": 2121
+  },
+  {
+    "content": "like I was saying it's sort of the path of web app development it's like first",
+    "start": 2127
+  },
+  {
+    "content": "there's static and then there's dynamic and now there's static plus dynamic",
+    "start": 2132
+  },
+  {
+    "content": "right and like those are the those are the pieces those are your your choices",
+    "start": 2137
+  },
+  {
+    "content": "so like what is it what would it mean for Joe",
+    "start": 2141
+  },
+  {
+    "content": "stacked to be like to lose I'm curious in your mind like me I think that there",
+    "start": 2144
+  },
+  {
+    "content": "are a lot of outcomes that are the same that don't feel the same when you're",
+    "start": 2150
+  },
+  {
+    "content": "working with them right like I don't feel the same working with Microsoft",
+    "start": 2155
+  },
+  {
+    "content": "Office that I do with Google sheets that I don't with notion that I don't and",
+    "start": 2158
+  },
+  {
+    "content": "they do similar things right like I'm just making a word doc or whatever but",
+    "start": 2163
+  },
+  {
+    "content": "there's there's a different type of experience and moving through those as",
+    "start": 2167
+  },
+  {
+    "content": "I'm focused on the developer experience because I'm okay so it's like the whole",
+    "start": 2170
+  },
+  {
+    "content": "methodology to you is the but I'm very interested in that part I'm very",
+    "start": 2174
+  },
+  {
+    "content": "interested in keeping things keeping people focused on their work so that",
+    "start": 2179
+  },
+  {
+    "content": "they can be as productive as possible I think that's just a genius part of it",
+    "start": 2185
+  },
+  {
+    "content": "yeah that's something that we haven't really talked about much either is that",
+    "start": 2188
+  },
+  {
+    "content": "along with jam stack along with the the letters in Jam comes along this idea of",
+    "start": 2192
+  },
+  {
+    "content": "a development methodology that would include",
+    "start": 2197
+  },
+  {
+    "content": "a git repository and committing to a git repository and having that kickoff a",
+    "start": 2199
+  },
+  {
+    "content": "build and these other things that are in the lifecycle of development that aren't",
+    "start": 2203
+  },
+  {
+    "content": "expressed as a list of technologies as such and that is that is such a hugely",
+    "start": 2207
+  },
+  {
+    "content": "powerful part of it to me from the developer experience where it's like you",
+    "start": 2211
+  },
+  {
+    "content": "just write code you commit it to a repository and then boom like you're",
+    "start": 2215
+  },
+  {
+    "content": "done and I think yeah sorry I'm just gonna say that I I really like Tom's",
+    "start": 2219
+  },
+  {
+    "content": "kind of breakdown where well you know it's either Jam stack or self",
+    "start": 2229
+  },
+  {
+    "content": "architecting and managing servers which a certain proportion of you know the the",
+    "start": 2233
+  },
+  {
+    "content": "the population is going to prefer to do but with the jam stack is right now it",
+    "start": 2238
+  },
+  {
+    "content": "feels like it's on the path to become the you know the prevalent option and",
+    "start": 2243
+  },
+  {
+    "content": "the and the dynamic now is more how does it expand to to include things that that",
+    "start": 2248
+  },
+  {
+    "content": "may be currently people don't associate with the jam stack because there doesn't",
+    "start": 2255
+  },
+  {
+    "content": "seem to be a kind of like contending significantly different approach that",
+    "start": 2259
+  },
+  {
+    "content": "would you know the jams egg would butt heads to heads with and again to Tom's",
+    "start": 2264
+  },
+  {
+    "content": "point I don't think that Jam stack versus self hosting is really these are",
+    "start": 2268
+  },
+  {
+    "content": "just like that jams like doesn't you know look to replace a so",
+    "start": 2273
+  },
+  {
+    "content": "hosted and self-managed you know application and even the self management",
+    "start": 2278
+  },
+  {
+    "content": "host and one can still constitute as a jam stack one not to mention the the you",
+    "start": 2283
+  },
+  {
+    "content": "know all of the other philosophical concepts that are you know that the jam",
+    "start": 2290
+  },
+  {
+    "content": "stack popularizes without talking to get you know the get centric workflow right",
+    "start": 2294
+  },
+  {
+    "content": "which is prevalent way outside of the jam ii helps helps propel this because",
+    "start": 2299
+  },
+  {
+    "content": "it's it's a foundational way that people are are doing thing and so perhaps a jam",
+    "start": 2305
+  },
+  {
+    "content": "stack is the first approach that embraces this as the foundational way of",
+    "start": 2310
+  },
+  {
+    "content": "doing thing and that's why it clicks for so many people yeah well i do want to",
+    "start": 2314
+  },
+  {
+    "content": "get to audience questions before we run out of time we've been talking so much I",
+    "start": 2321
+  },
+  {
+    "content": "was just like oh my gosh we're almost out of time already",
+    "start": 2325
+  },
+  {
+    "content": "um Fenton Ryan said edge handlers are very interesting but do you see",
+    "start": 2327
+  },
+  {
+    "content": "traditional CDN providers challenging for enterprise users in those cases for",
+    "start": 2331
+  },
+  {
+    "content": "example well CloudFlare and fastly are doing of course of course right like and",
+    "start": 2336
+  },
+  {
+    "content": "of course we'll we'll see a lot of different solutions in this space and",
+    "start": 2343
+  },
+  {
+    "content": "our when we've been building out it change let's it's it's also actually in",
+    "start": 2347
+  },
+  {
+    "content": "a process like based on talking to a lot of our customers and especially larger",
+    "start": 2353
+  },
+  {
+    "content": "enterprise users of people building with this kind of stack in different forms",
+    "start": 2357
+  },
+  {
+    "content": "and and working on delegating more load to the edge and one of the things we",
+    "start": 2362
+  },
+  {
+    "content": "learned a lot about when talking to them was that if you have if you're starting",
+    "start": 2369
+  },
+  {
+    "content": "to do more work on the edge in terms of personalization or localization",
+    "start": 2374
+  },
+  {
+    "content": "authentication or things like that that's actually pretty integral to to",
+    "start": 2381
+  },
+  {
+    "content": "how your website or application is experienced then you start coupling the",
+    "start": 2386
+  },
+  {
+    "content": "front-end layer with this itch layer quite closely in terms of the code and",
+    "start": 2391
+  },
+  {
+    "content": "the way the code into X but with traditional CDN providers typically like",
+    "start": 2396
+  },
+  {
+    "content": "when we talk to any of these teams they have a very different workflow and very",
+    "start": 2402
+  },
+  {
+    "content": "different even a different team the the its rules on the CDN versus the",
+    "start": 2407
+  },
+  {
+    "content": "team that actually built the web applications right and typically like",
+    "start": 2413
+  },
+  {
+    "content": "the CDN teams are more like traditional asorio operations teams or",
+    "start": 2417
+  },
+  {
+    "content": "infrastructure teams and then you have the web teams and and often those teams",
+    "start": 2422
+  },
+  {
+    "content": "don't communicate a lot and they use very different workflows and so on so",
+    "start": 2426
+  },
+  {
+    "content": "what we learned when we talk to a lot of them was really often their their",
+    "start": 2431
+  },
+  {
+    "content": "applications would would break down or suffer from from outages or errors one",
+    "start": 2435
+  },
+  {
+    "content": "really large company reported that they commonly lost all ad revenue for and we",
+    "start": 2442
+  },
+  {
+    "content": "get a time when one of the media properties because they were using like",
+    "start": 2447
+  },
+  {
+    "content": "fastly vanish configurations to inject banner ads and then a developer would",
+    "start": 2451
+  },
+  {
+    "content": "change an HTML tag and suddenly the tech the itch layer was looking for was",
+    "start": 2458
+  },
+  {
+    "content": "completely different and things broke down right so we heard a lot of these",
+    "start": 2463
+  },
+  {
+    "content": "stories of things breaking down not because of the architectural or the",
+    "start": 2467
+  },
+  {
+    "content": "technical approach but because of like the whole organizational differences",
+    "start": 2471
+  },
+  {
+    "content": "right so I think one of the insights we've had and that we've built towards",
+    "start": 2475
+  },
+  {
+    "content": "is like how can we make this architectural approach available",
+    "start": 2479
+  },
+  {
+    "content": "directly through the front-end web developer right like how can we make",
+    "start": 2484
+  },
+  {
+    "content": "sure that they can just in the same way as we took serve others functions right",
+    "start": 2487
+  },
+  {
+    "content": "there was a little bit the same like lambda had this huge promise of like you",
+    "start": 2491
+  },
+  {
+    "content": "can just write code and then not worry about running it but if you had to every",
+    "start": 2496
+  },
+  {
+    "content": "time you wrote a lambda put up an API gateway in point and figure out a",
+    "start": 2501
+  },
+  {
+    "content": "separate employment process and now you have like one deployment process for the",
+    "start": 2505
+  },
+  {
+    "content": "front-end and your deployment for the lambda talks to and what about staging",
+    "start": 2509
+  },
+  {
+    "content": "environments and so on it became pretty unwieldy for for developers to actually",
+    "start": 2514
+  },
+  {
+    "content": "work with right giving them this concept of like now you can just have it in the",
+    "start": 2519
+  },
+  {
+    "content": "same repository you have one get centric workflow commit code and it goes live",
+    "start": 2523
+  },
+  {
+    "content": "what if we could do the same to this concept of it it's endless right and see",
+    "start": 2528
+  },
+  {
+    "content": "it's just part of your code in the same repository as your friend in when you",
+    "start": 2533
+  },
+  {
+    "content": "open up a pull request you you will get both the itch and",
+    "start": 2538
+  },
+  {
+    "content": "and the front end coat departs Gila you can always verify that everything is",
+    "start": 2542
+  },
+  {
+    "content": "working at once you can use like our see lights rule to run it all together",
+    "start": 2547
+  },
+  {
+    "content": "locally and so Andre so that that's been the driving vision behind it no you",
+    "start": 2551
+  },
+  {
+    "content": "first I was just gonna say that one of the nice pieces of working at net LeFay",
+    "start": 2560
+  },
+  {
+    "content": "is watching you know art our team is a developer experience team it has a lot",
+    "start": 2566
+  },
+  {
+    "content": "of you know full Stucky front ends on it and and we're able to work very closely",
+    "start": 2570
+  },
+  {
+    "content": "with david Calavera and his team on like proposing the api is talking through how",
+    "start": 2576
+  },
+  {
+    "content": "a developer would use them how we wouldn't use them and you know the that",
+    "start": 2582
+  },
+  {
+    "content": "you know piece of coordination and conversation has been really open",
+    "start": 2587
+  },
+  {
+    "content": "through this process so that's part of the reason I'm excited again about the",
+    "start": 2590
+  },
+  {
+    "content": "developer experience angle just because I think when you take something that",
+    "start": 2594
+  },
+  {
+    "content": "that's that's that powerful and you put it in the hands of people who are going",
+    "start": 2600
+  },
+  {
+    "content": "to need it structurally in order to change things like personalization then",
+    "start": 2604
+  },
+  {
+    "content": "you give people really really great powers to make a lot of things happen on",
+    "start": 2608
+  },
+  {
+    "content": "front-end what Matt was saying made me think of there was a blog post recently",
+    "start": 2612
+  },
+  {
+    "content": "where someone was like here's the architecture for my sort of typical",
+    "start": 2619
+  },
+  {
+    "content": "serverless web site and it was like 35 AWS services like you know hooked",
+    "start": 2623
+  },
+  {
+    "content": "together and you look at the like the architectural diagram and you're like I",
+    "start": 2630
+  },
+  {
+    "content": "didn't I thought this was supposed to be easier like what this does not look",
+    "start": 2634
+  },
+  {
+    "content": "easier and in some senses that's not fair right like if you're doing",
+    "start": 2638
+  },
+  {
+    "content": "something in a big monolithic app you're probably doing a lot of those pieces",
+    "start": 2642
+  },
+  {
+    "content": "yourself just you have to write them and orchestrate them internal link to the",
+    "start": 2645
+  },
+  {
+    "content": "app but at the same time like this is the challenge and in developer",
+    "start": 2648
+  },
+  {
+    "content": "experience like Sarah talks about it can be overwhelming for people to to",
+    "start": 2652
+  },
+  {
+    "content": "comprehend these new architectures if like AWS you break everything out into",
+    "start": 2657
+  },
+  {
+    "content": "these tiny little pieces and you're like alright now it's up to you to string",
+    "start": 2661
+  },
+  {
+    "content": "them all together and like good luck figuring out how to get the permissions",
+    "start": 2663
+  },
+  {
+    "content": "between Amazon services to work properly right and the opportunity of net liffe I",
+    "start": 2667
+  },
+  {
+    "content": "and similar Jam stack companies I think is to allow you to do those",
+    "start": 2671
+  },
+  {
+    "content": "same types of things but not make you do all of that setup work that is that is",
+    "start": 2676
+  },
+  {
+    "content": "step I mean you're just you're still doing all the same work you've just",
+    "start": 2680
+  },
+  {
+    "content": "shifted from one one way of doing it to another way of doing it and the",
+    "start": 2683
+  },
+  {
+    "content": "complexity is still the same like the goal from me with redwood and I think",
+    "start": 2687
+  },
+  {
+    "content": "Matt and Chris's goal with nullify and Sarah's you know deep goals as developer",
+    "start": 2691
+  },
+  {
+    "content": "experience had are can you have all that same power but do it faster and easier",
+    "start": 2695
+  },
+  {
+    "content": "sorry I thought you're gonna say something Matt we have another question",
+    "start": 2707
+  },
+  {
+    "content": "from the audience Fenton Ryan said the accessibility build plug-in is really",
+    "start": 2710
+  },
+  {
+    "content": "welcome I agree I just used it yesterday and it was awesome do you see a wider",
+    "start": 2714
+  },
+  {
+    "content": "set of a compliance oriented build plugins as potential commercial",
+    "start": 2718
+  },
+  {
+    "content": "offerings in the future or is this something for the ecosystem I think",
+    "start": 2721
+  },
+  {
+    "content": "it'll be a combination will we'll see something starting in the ecosystem and",
+    "start": 2727
+  },
+  {
+    "content": "that will validate what right approaches really work I think we'll also see and a",
+    "start": 2731
+  },
+  {
+    "content": "on the sort of enterprise tier internal compliance plugins right like it's easy",
+    "start": 2736
+  },
+  {
+    "content": "to imagine large enterprises that that just have like the these are our",
+    "start": 2741
+  },
+  {
+    "content": "standards sort of have their own built log in that you just always get",
+    "start": 2746
+  },
+  {
+    "content": "installed in all the projects and we'll just tell their developers is is this up",
+    "start": 2750
+  },
+  {
+    "content": "just fake or not I feel like that has a lot of power and it can really like help",
+    "start": 2755
+  },
+  {
+    "content": "larger organizations regulate what they want to do and especially if they have",
+    "start": 2762
+  },
+  {
+    "content": "just a lot of repos instead of one mono repo be able to kind of make sure",
+    "start": 2767
+  },
+  {
+    "content": "everybody's following the same rules and everything yeah there's also a really",
+    "start": 2772
+  },
+  {
+    "content": "interesting plug-in that's kind of similar it's an applet tools plugin that",
+    "start": 2777
+  },
+  {
+    "content": "allows you to do visual testing and it pauses the build if you see something",
+    "start": 2780
+  },
+  {
+    "content": "that's really wrong so that I'm interested in those types of testing",
+    "start": 2787
+  },
+  {
+    "content": "capabilities I mean the accessibility is definitely one one direction and there's",
+    "start": 2791
+  },
+  {
+    "content": "a few others that are really interesting yeah the visual testing one I thought",
+    "start": 2796
+  },
+  {
+    "content": "was so cool there is a talk I think Sara and I both went to it this past winter",
+    "start": 2800
+  },
+  {
+    "content": "at J's come Hawaii where there's a whole talk on visual testing and how there are",
+    "start": 2803
+  },
+  {
+    "content": "some things that tests you like humans can see that it's wrong",
+    "start": 2808
+  },
+  {
+    "content": "but the test sees that all the tests pass and so having something like that",
+    "start": 2812
+  },
+  {
+    "content": "that could pause your builds is game-changing and I'm sure there's so",
+    "start": 2816
+  },
+  {
+    "content": "many things that were not even thinking of that developers will come up with for",
+    "start": 2820
+  },
+  {
+    "content": "the ecosystem for that if there's any other questions please share them but I",
+    "start": 2823
+  },
+  {
+    "content": "have more questions so I'll just keep going if they're stopped but this was",
+    "start": 2828
+  },
+  {
+    "content": "kind of generic just how our companies using Jam stack but I also would like to",
+    "start": 2834
+  },
+  {
+    "content": "ask what are what are some of your favorite use cases that you've seen and",
+    "start": 2838
+  },
+  {
+    "content": "how companies have used Jam stack I mean right now a couple of them like one of",
+    "start": 2842
+  },
+  {
+    "content": "them were at the conference right like seeing Co with tracking building this",
+    "start": 2849
+  },
+  {
+    "content": "way which was amazing right and just an example of this concept when you chuck",
+    "start": 2853
+  },
+  {
+    "content": "full stack developers or whatever right like this was an example of saying okay",
+    "start": 2858
+  },
+  {
+    "content": "we have a small group of developers just working distributed from home and we",
+    "start": 2863
+  },
+  {
+    "content": "want to solve a really big problem and deal with really important data and put",
+    "start": 2869
+  },
+  {
+    "content": "something up that could potentially get hit by really massive traffic spikes and",
+    "start": 2874
+  },
+  {
+    "content": "interests and so on and and and seeing out today like just a small team sitting",
+    "start": 2880
+  },
+  {
+    "content": "at home collaborating over github github was totally able to pull that off and",
+    "start": 2886
+  },
+  {
+    "content": "and scale it and run it in that to me is a big validation of what the stake is",
+    "start": 2891
+  },
+  {
+    "content": "all about yeah the I I was watching the talk right before this and the fact that",
+    "start": 2898
+  },
+  {
+    "content": "she was saying how there is a point where they just had a really giant spike",
+    "start": 2903
+  },
+  {
+    "content": "in traffic and they didn't notice because there is no latency and there",
+    "start": 2909
+  },
+  {
+    "content": "are no issues nothing went down and I think that speaks to it perfectly and",
+    "start": 2913
+  },
+  {
+    "content": "and it's a problem that everybody has and you don't realize that it could just",
+    "start": 2917
+  },
+  {
+    "content": "be solved and and I thought that was the coolest the coolest point among all of",
+    "start": 2922
+  },
+  {
+    "content": "the other points of course but just to jam stack in particular example which is",
+    "start": 2927
+  },
+  {
+    "content": "you link to some article on Hacker News and it goes to a page that's it's got",
+    "start": 2934
+  },
+  {
+    "content": "some error header returning like five Oh something you know",
+    "start": 2938
+  },
+  {
+    "content": "like you broke it like the traffic broke it and it's like come on it's mm you",
+    "start": 2942
+  },
+  {
+    "content": "know it's 20/20 like we have solutions for what are essentially content sites",
+    "start": 2947
+  },
+  {
+    "content": "should be resilient to traffic with without even lifting a finger and then",
+    "start": 2952
+  },
+  {
+    "content": "it like when you see a site that's done with you know some old version of",
+    "start": 2958
+  },
+  {
+    "content": "WordPress or something you're just like we've come so far in that used to happen",
+    "start": 2961
+  },
+  {
+    "content": "all the time you're running your own blog or something you get a little bit",
+    "start": 2966
+  },
+  {
+    "content": "of traffic and you're just done for or your your service provider shuts you off",
+    "start": 2969
+  },
+  {
+    "content": "right it's like at your moment at your one moment of glory it should be yours",
+    "start": 2973
+  },
+  {
+    "content": "site we don't anymore but it's maybe the you know if we try to think about you",
+    "start": 2980
+  },
+  {
+    "content": "know interesting examples it's kind of funny because I think the most you know",
+    "start": 2989
+  },
+  {
+    "content": "the the usage examples that are the most meaningful and send the strongest",
+    "start": 2994
+  },
+  {
+    "content": "message are the ones that we now just take for granted with the jambs tech",
+    "start": 2998
+  },
+  {
+    "content": "we're not getting hit by the hacker news crowd and crashing the site is one",
+    "start": 3002
+  },
+  {
+    "content": "example and not having your site get hacked and suddenly have links to",
+    "start": 3007
+  },
+  {
+    "content": "gambling sites at the bottom injected you know and things like that I mean I",
+    "start": 3013
+  },
+  {
+    "content": "did a test a couple of months ago went to digitalocean which is one of the most",
+    "start": 3018
+  },
+  {
+    "content": "popular kind of let's get started put something on the internet for developers",
+    "start": 3023
+  },
+  {
+    "content": "service provider and they have a custom built installers for WordPress II like I",
+    "start": 3028
+  },
+  {
+    "content": "want to be server click I wanted to run the latest version of WordPress click I",
+    "start": 3033
+  },
+  {
+    "content": "went to fiend forest which is a very popular theme marketplace and I",
+    "start": 3036
+  },
+  {
+    "content": "purchased the number one you know WordPress theme and I installed it and",
+    "start": 3040
+  },
+  {
+    "content": "clicked and I don't want even I don't even want to get to the fact that it",
+    "start": 3045
+  },
+  {
+    "content": "took me 20 minutes and a lot of clicks and a lot of messages and editing",
+    "start": 3048
+  },
+  {
+    "content": "configuration files but at any rate I had my site up yes guess what happens a",
+    "start": 3052
+  },
+  {
+    "content": "week or two later I get an automated email from digitalocean telling me that",
+    "start": 3057
+  },
+  {
+    "content": "because my little server is now spiking with traffic it's an indication of a",
+    "start": 3061
+  },
+  {
+    "content": "distributed denial of attack service emanating from my little server and they",
+    "start": 3066
+  },
+  {
+    "content": "had to shut it down right which is basically you",
+    "start": 3072
+  },
+  {
+    "content": "take the the most up-to-date version of these monolithic technologies you put",
+    "start": 3076
+  },
+  {
+    "content": "them on the Internet and they automatically get hacked and so I think",
+    "start": 3080
+  },
+  {
+    "content": "those are like the the clear examples but that we don't get to bump into them",
+    "start": 3086
+  },
+  {
+    "content": "anymore because they're not issues anymore so it's kind of funny it's like",
+    "start": 3091
+  },
+  {
+    "content": "it'd be cool if we had like says that well you wouldn't believe you know NASA",
+    "start": 3095
+  },
+  {
+    "content": "is using Jam static on the when it's launching but it's you know it's",
+    "start": 3098
+  },
+  {
+    "content": "not it's like it's everything and it's everywhere and we just took away all the",
+    "start": 3101
+  },
+  {
+    "content": "problems look at your server logs and see how many requests you have to slash",
+    "start": 3104
+  },
+  {
+    "content": "WP dash admin or whatever right like this is still hackers favorite yeah yeah",
+    "start": 3110
+  },
+  {
+    "content": "yeah I think everybody that enables magnify analytics since not seeing the",
+    "start": 3118
+  },
+  {
+    "content": "full full reports that noticing nature oh I'm killing a lot of force for like",
+    "start": 3122
+  },
+  {
+    "content": "we had were WP admin you're just like ha good luck hackers I think I put a page",
+    "start": 3126
+  },
+  {
+    "content": "there I think we should put a honeypot there I think you use like net device",
+    "start": 3136
+  },
+  {
+    "content": "redirect rules to put in it like what a Bitcoin miner on that page we have one",
+    "start": 3143
+  },
+  {
+    "content": "more question here is angular essentially in the past for most jamps",
+    "start": 3158
+  },
+  {
+    "content": "tech developers it was an interesting data point in lorries state of the jam",
+    "start": 3162
+  },
+  {
+    "content": "stack talk yeah and not it not at all actually the future for a lot of angular",
+    "start": 3165
+  },
+  {
+    "content": "developers I think what happened was that angular was a little slow to the",
+    "start": 3170
+  },
+  {
+    "content": "party angular tends to be used for large you",
+    "start": 3174
+  },
+  {
+    "content": "know enterprise applications and for a little while they weren't really aware",
+    "start": 3179
+  },
+  {
+    "content": "you know that community wasn't super aware of the jam stack and it wasn't",
+    "start": 3184
+  },
+  {
+    "content": "until this last year that they started thinking about you know ng schematics",
+    "start": 3187
+  },
+  {
+    "content": "for that static site generation and scully which is like they're kind of",
+    "start": 3192
+  },
+  {
+    "content": "gatsby ish type of thing just came out this year so they're moving towards I",
+    "start": 3196
+  },
+  {
+    "content": "think what we're seeing in the low numbers is actually like the rising tide",
+    "start": 3202
+  },
+  {
+    "content": "of people coming to the jam stack not people",
+    "start": 3206
+  },
+  {
+    "content": "fading away from the gym stack it's kind of interesting to see because we see",
+    "start": 3209
+  },
+  {
+    "content": "clients coming in you know at first it was slow and then more and more clients",
+    "start": 3213
+  },
+  {
+    "content": "come in on the millah facade - yeah sorry but I just wanna say it is worth",
+    "start": 3218
+  },
+  {
+    "content": "mentioning though that in terms of static site generator adoption it is",
+    "start": 3225
+  },
+  {
+    "content": "very very very clear from the actual data coming coming from the web is that",
+    "start": 3231
+  },
+  {
+    "content": "next jsm Ghats they are kind of leading the pack with regards to to adoption and",
+    "start": 3236
+  },
+  {
+    "content": "and kind of broadcasting that those are the ways you know that the ways forward",
+    "start": 3243
+  },
+  {
+    "content": "sure they're they're very far you know a big group so we'll probably see more",
+    "start": 3248
+  },
+  {
+    "content": "adoption in the future I know Nokia also just announced a funding ground right",
+    "start": 3255
+  },
+  {
+    "content": "and this like that keeps being more and more tools in this piece that gets",
+    "start": 3264
+  },
+  {
+    "content": "around this very thing we'll also see that change the landscape from from all",
+    "start": 3268
+  },
+  {
+    "content": "of these different differentials right like I don't I expect to keep seeing",
+    "start": 3272
+  },
+  {
+    "content": "like a very rich ecosystem in sort of the JavaScript framework area I'll keep",
+    "start": 3277
+  },
+  {
+    "content": "your eyes on redwood for next year yeah I think there's there's so many there's",
+    "start": 3283
+  },
+  {
+    "content": "so many enterprise developers out there who don't have a lot of options because",
+    "start": 3291
+  },
+  {
+    "content": "the people upstairs said ok we're using angular in-house and that's it or we're",
+    "start": 3295
+  },
+  {
+    "content": "using X in house and that's it and if anything jams that gives them an",
+    "start": 3299
+  },
+  {
+    "content": "opportunity to modernize without having to change everything and they can still",
+    "start": 3304
+  },
+  {
+    "content": "say the people upstairs oh yeah we're still using angular but",
+    "start": 3308
+  },
+  {
+    "content": "now skully is involved and now we can we can have this this different way of",
+    "start": 3311
+  },
+  {
+    "content": "doing it that's better for developers and not have to worry about getting",
+    "start": 3316
+  },
+  {
+    "content": "people mad or anything yeah if you're interested in the angular community in",
+    "start": 3322
+  },
+  {
+    "content": "terms of jam stack tera on my staff is a really knowledgeable person she's she's",
+    "start": 3326
+  },
+  {
+    "content": "Kara minik minik 6re and she does all sorts of manners of you know content",
+    "start": 3331
+  },
+  {
+    "content": "posts and educational material about angular on the gemstone she's doing the",
+    "start": 3338
+  },
+  {
+    "content": "workshop tomorrow - that's right that's right geez I think",
+    "start": 3342
+  },
+  {
+    "content": "we are starting to run out of time and we don't have any more questions but was",
+    "start": 3348
+  },
+  {
+    "content": "there anything anyone wanted to say to kind of close us out for the day they",
+    "start": 3352
+  },
+  {
+    "content": "thank you all for doing this this was so fun for me to just hear the different",
+    "start": 3362
+  },
+  {
+    "content": "perspectives from everyone but I appreciate it thank you all for",
+    "start": 3366
+  },
+  {
+    "content": "attending I had fun and I hope you did too",
+    "start": 3369
+  },
+  {
+    "content": "and until next time I hope you enjoyed the rest of the conference",
+    "start": 3374
+  }
+]

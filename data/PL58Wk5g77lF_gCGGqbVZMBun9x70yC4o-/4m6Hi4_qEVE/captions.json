@@ -1,0 +1,526 @@
+[
+  {
+    "content": "all right how's everybody doing",
+    "start": 0
+  },
+  {
+    "content": "all right it's cool so uh yeah my name is David Wells I'm a technical product",
+    "start": 16
+  },
+  {
+    "content": "manager here at nullify I'm here today to talk to you about building to the",
+    "start": 23
+  },
+  {
+    "content": "future so nullify the platform we all know and love is made up of three these",
+    "start": 29
+  },
+  {
+    "content": "three components build dev and edge dev is bringing the nail file at form down",
+    "start": 35
+  },
+  {
+    "content": "onto your local machine in your local development environment build is",
+    "start": 42
+  },
+  {
+    "content": "connecting your git repo giving us your build command and we'll set up that CI",
+    "start": 46
+  },
+  {
+    "content": "CD pipeline for you and deploy whenever there's a commit and then edge is our",
+    "start": 50
+  },
+  {
+    "content": "distributed CDN that puts your app or site as close to the user as possible to",
+    "start": 56
+  },
+  {
+    "content": "deliver the kind of fastest experience to the user today though we're going to",
+    "start": 63
+  },
+  {
+    "content": "talk about now if I build and zoom in on that and look under the hood of how that",
+    "start": 70
+  },
+  {
+    "content": "actually works when you give us your your build command so the lifecycle of a",
+    "start": 75
+  },
+  {
+    "content": "build the build starts when there's a commit or you push a button the cache",
+    "start": 80
+  },
+  {
+    "content": "gets fetched and this is to optimize from previous builds dependencies get",
+    "start": 86
+  },
+  {
+    "content": "installed all of your NPM packages and what have you your build command is then",
+    "start": 92
+  },
+  {
+    "content": "run serverless functions get built and deployed into AWS the cache gets saved",
+    "start": 96
+  },
+  {
+    "content": "again to optimize future deployments and builds the site gets deployed and then",
+    "start": 103
+  },
+  {
+    "content": "we do post-processing optimization on your files shrinking images processing",
+    "start": 109
+  },
+  {
+    "content": "forms etc and your site's live on the internet so there's a lot of stuff",
+    "start": 114
+  },
+  {
+    "content": "happening under the hood when you actually connect your repo and you know",
+    "start": 118
+  },
+  {
+    "content": "you get this feeling when you use nella fie I've been in now if I user for for",
+    "start": 123
+  },
+  {
+    "content": "many years before I even join the company and this is the feeling I get so",
+    "start": 126
+  },
+  {
+    "content": "looking at that lifecycle you know there's a lot of stuff going on that",
+    "start": 132
+  },
+  {
+    "content": "complexity is under the hood and really the only place",
+    "start": 138
+  },
+  {
+    "content": "you as a developer can access that right right now is in the build commands when",
+    "start": 142
+  },
+  {
+    "content": "the build commands are run all these other steps are basically behind the",
+    "start": 147
+  },
+  {
+    "content": "scenes happening behind the scenes and and the build command is okay but it's",
+    "start": 153
+  },
+  {
+    "content": "really only one slice of the deployment lifecycle of that build lifecycle and",
+    "start": 158
+  },
+  {
+    "content": "Matt kind of alluded to some stuff earlier in his keynote that will jump in",
+    "start": 163
+  },
+  {
+    "content": "to you so this got us thinking like what what you know how could we extend this",
+    "start": 168
+  },
+  {
+    "content": "how could we make this a little bit better you know what if we want to",
+    "start": 172
+  },
+  {
+    "content": "customize how our dependencies are installed what if we want to use",
+    "start": 176
+  },
+  {
+    "content": "typescript to bundle our functions what if we want to run accessibility tests to",
+    "start": 179
+  },
+  {
+    "content": "ensure we're you know compliant before we actually push something live to",
+    "start": 183
+  },
+  {
+    "content": "production so today I'm really happy to introduce nullified build plugins it's a",
+    "start": 188
+  },
+  {
+    "content": "a new way to kind of extend your build and we'll take a look at a demo in a",
+    "start": 196
+  },
+  {
+    "content": "second so now if I build plug-ins are a programmable way a programmable",
+    "start": 201
+  },
+  {
+    "content": "interface for your site build they run both locally and inside of the remote CI",
+    "start": 206
+  },
+  {
+    "content": "system so they transform this into this and how does that work so there's a",
+    "start": 212
+  },
+  {
+    "content": "build lifecycle and plugins the lifecycle exposes all those hooks that",
+    "start": 222
+  },
+  {
+    "content": "we've seen before there's an open source repo links down there I'm not going to",
+    "start": 227
+  },
+  {
+    "content": "go through these in the interest of time in the lifecycle you you you define the",
+    "start": 232
+  },
+  {
+    "content": "lifecycle inside of your net will fight configuration which we'll take a look at",
+    "start": 237
+  },
+  {
+    "content": "and you also can define plugins plugins are plain old JavaScript objects that",
+    "start": 240
+  },
+  {
+    "content": "run on a given life cycle that you can do stuff to optimize your build",
+    "start": 244
+  },
+  {
+    "content": "so let's actually jump into the demo so here I have a normal metal Phi site that",
+    "start": 249
+  },
+  {
+    "content": "is just static HTML I have a tamil file as we're all familiar with but with a",
+    "start": 262
+  },
+  {
+    "content": "new build system I'm actually going to duplicate this",
+    "start": 269
+  },
+  {
+    "content": "we're gonna use the amyl because we now support the animal",
+    "start": 273
+  },
+  {
+    "content": "so let's actually you know add our build configuration in yeah Mille and what I",
+    "start": 277
+  },
+  {
+    "content": "can do is actually run the mattified build command locally and see that life",
+    "start": 283
+  },
+  {
+    "content": "cycle in action so the the life cycle out-of-the-box is you know we build your",
+    "start": 289
+  },
+  {
+    "content": "site we run your build command and we build your service functions but let's",
+    "start": 295
+  },
+  {
+    "content": "say we wanted to extend this life cycle and actually add functionality to that",
+    "start": 300
+  },
+  {
+    "content": "so lets you know transform our command into a life cycle so instead of using",
+    "start": 304
+  },
+  {
+    "content": "the command block i can use an inline life cycle here where i'm saying like",
+    "start": 314
+  },
+  {
+    "content": "hey on the knit phase run these commands on the build run these on finally run",
+    "start": 319
+  },
+  {
+    "content": "these again there's a lot of different lifecycle hooks that you can hook into",
+    "start": 324
+  },
+  {
+    "content": "and run custom functionality so if i run this this is the plan command to",
+    "start": 327
+  },
+  {
+    "content": "actually dry run my build so what we can see if i save this file is the let me",
+    "start": 335
+  },
+  {
+    "content": "get rid of this real quick live demos so what we can see if i run that now it's",
+    "start": 345
+  },
+  {
+    "content": "reading that yam will file and we see we have our our life cycle commands",
+    "start": 355
+  },
+  {
+    "content": "actually running in in that given order so that's cool we can extend the the",
+    "start": 360
+  },
+  {
+    "content": "build life cycle in many different ways before and after things happen but let's",
+    "start": 366
+  },
+  {
+    "content": "actually add a plug-in so maybe we want some prepackaged functionality to add to",
+    "start": 371
+  },
+  {
+    "content": "our site let's actually do that so i'm going to add a new field here which is",
+    "start": 377
+  },
+  {
+    "content": "the plugins field and your net 5 configuration file I'm defining a",
+    "start": 384
+  },
+  {
+    "content": "plug-in and this is a local plugin plugins can live locally in your",
+    "start": 388
+  },
+  {
+    "content": "projects or they can be installed from NPM and they might take some config",
+    "start": 392
+  },
+  {
+    "content": "let's write a plug-in real quick with the magic of autocomplete so again",
+    "start": 397
+  },
+  {
+    "content": "plugins are just javascript objects that you tell nullify",
+    "start": 406
+  },
+  {
+    "content": "what to run and when to run it and you export that and we will go ahead and run",
+    "start": 410
+  },
+  {
+    "content": "that so if I run this again what we can see is we're now loading that plug-in",
+    "start": 416
+  },
+  {
+    "content": "and it's it's running it's it's thing on the post buildin what-have-you if I",
+    "start": 423
+  },
+  {
+    "content": "actually run the build we'll see it step through and run each",
+    "start": 427
+  },
+  {
+    "content": "command in order and execute our build and then tell us they have a nice day",
+    "start": 432
+  },
+  {
+    "content": "that's so nice cool so so that's like writing a plug-in locally let's say we",
+    "start": 438
+  },
+  {
+    "content": "wanted to install a plug-in from NPM so what I can do is actually I can",
+    "start": 446
+  },
+  {
+    "content": "I've already npm installed this plug-in from NPM but this is a sitemap plug-in",
+    "start": 455
+  },
+  {
+    "content": "what this will do is on the post build will automatically read my build by",
+    "start": 460
+  },
+  {
+    "content": "built HTML files and build a sitemap so now that I've installed that plug-in I'm",
+    "start": 465
+  },
+  {
+    "content": "just going to run the dry command here we can see on that post build step the",
+    "start": 471
+  },
+  {
+    "content": "sitemap plug-in is executing or will execute and actually output a sitemap",
+    "start": 477
+  },
+  {
+    "content": "for us cool so now there we go there's our build and there's our new sitemap so",
+    "start": 482
+  },
+  {
+    "content": "that's that's one example of what you could do with a build plug-in let's do",
+    "start": 491
+  },
+  {
+    "content": "let's go one step further so let's actually deploy and provision a",
+    "start": 495
+  },
+  {
+    "content": "third-party service a third-party resource so what I've just done here is",
+    "start": 502
+  },
+  {
+    "content": "added one more plugin and that's the server list plug-in so this is using the",
+    "start": 507
+  },
+  {
+    "content": "service framework and it's going to deploy things into my own AWS account",
+    "start": 511
+  },
+  {
+    "content": "mm-hmm so I'll go back here and run this the plugins loaded I can run the build",
+    "start": 516
+  },
+  {
+    "content": "command so we're pre provisioning",
+    "start": 524
+  },
+  {
+    "content": "I have interesting alright um well that's no good",
+    "start": 533
+  },
+  {
+    "content": "let me save this make sure this is saved I know it what it is demo so my back-end",
+    "start": 546
+  },
+  {
+    "content": "it wasn't actually added so my back-end files my service back-end code was not",
+    "start": 554
+  },
+  {
+    "content": "yet added so let's go ahead and run that one more time",
+    "start": 561
+  },
+  {
+    "content": "and as we can see here now it's executing another binary in our build",
+    "start": 566
+  },
+  {
+    "content": "which is deploying our service function into an AWS account and if we go and",
+    "start": 572
+  },
+  {
+    "content": "look at that it's actually provisional live API endpoint for us",
+    "start": 579
+  },
+  {
+    "content": "hi Jam stack I've just been deployed with an elf i plug in we can join the",
+    "start": 583
+  },
+  {
+    "content": "beta at this URL and yeah so provisioning third-party resources or",
+    "start": 587
+  },
+  {
+    "content": "really anything you want to do is now possible in that build lifecycle one",
+    "start": 595
+  },
+  {
+    "content": "other thing to note here is the configuration here we're actually",
+    "start": 600
+  },
+  {
+    "content": "referencing environment variables with this new variable syntax in the",
+    "start": 606
+  },
+  {
+    "content": "configuration so we no longer have to hard code secrets into our configuration",
+    "start": 611
+  },
+  {
+    "content": "so that's kind of a new feature with this build system and that's it for kind",
+    "start": 615
+  },
+  {
+    "content": "of a live code demo and um running dangerously low on time so I'll",
+    "start": 622
+  },
+  {
+    "content": "go back into slides and we'll wrap up so yeah mo you got yeah mo you get yeah mo",
+    "start": 628
+  },
+  {
+    "content": "you get yeah mo Tamil is also supported all JSON is also supported the build",
+    "start": 636
+  },
+  {
+    "content": "system is backwards compatible so you can run it against your existing Tamil",
+    "start": 642
+  },
+  {
+    "content": "file today and everything should just work out of the box",
+    "start": 645
+  },
+  {
+    "content": "but if you do want to use a different kind of syntax you can and those",
+    "start": 649
+  },
+  {
+    "content": "environment that environment variables support so features it runs locally on",
+    "start": 652
+  },
+  {
+    "content": "your machine so you can test stuff out before you deploy it into nullify you",
+    "start": 658
+  },
+  {
+    "content": "can also run this remotely it's extendable with the build life psych",
+    "start": 662
+  },
+  {
+    "content": "and plugins there's an improved configuration support mono repo support",
+    "start": 667
+  },
+  {
+    "content": "we're working on on this to make faster more intelligent builds and really this",
+    "start": 673
+  },
+  {
+    "content": "is adding a programmatic interface on top of your the way that you build your",
+    "start": 678
+  },
+  {
+    "content": "sites to just kind of make that easier to use some plug-in examples you know",
+    "start": 683
+  },
+  {
+    "content": "running integration tests with Cypress or you know building a notification",
+    "start": 690
+  },
+  {
+    "content": "plug-in doing performance testing with lighthouse really the sky's the limit",
+    "start": 694
+  },
+  {
+    "content": "and we're really excited to see what what people start developing special",
+    "start": 700
+  },
+  {
+    "content": "thanks to that like everyone who really made this possible on the team couldn't",
+    "start": 706
+  },
+  {
+    "content": "have done it without them and and you like everyone here at Jam Kampf like",
+    "start": 711
+  },
+  {
+    "content": "really paving the way on how people are building stuff in this new way that with",
+    "start": 717
+  },
+  {
+    "content": "the jam stack making things as fast as possible especially for these new",
+    "start": 723
+  },
+  {
+    "content": "emerging markets that Matt was talking about we can't wait to see what you",
+    "start": 727
+  },
+  {
+    "content": "build and you can you can join the early access beta program to actually get this",
+    "start": 732
+  },
+  {
+    "content": "up and running on your local machine and inside of your live nullify sites today",
+    "start": 739
+  },
+  {
+    "content": "so thank you [Applause]",
+    "start": 745
+  },
+  {
+    "content": "you",
+    "start": 751
+  },
+  {
+    "content": "[Applause]",
+    "start": 754
+  }
+]

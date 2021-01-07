@@ -1,0 +1,14 @@
+{
+  "description": "WordPress is a CMS powering over a third of the web. With the power of it's REST API, it is possible to implement a decoupled and headless architecture.\n\nThis talk will demonstrate how to setup and use a WordPress site as a back-end for a static front-end. This talk will compare headless WordPress to other solutions, outlining the major advantages and disadvantages.",
+  "id": "g0OfnWCcBk4",
+  "position": 3,
+  "publishedAt": 1571424546,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/g0OfnWCcBk4/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/g0OfnWCcBk4/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/g0OfnWCcBk4/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/g0OfnWCcBk4/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/g0OfnWCcBk4/default.jpg"
+  },
+  "title": "JAMstack with WordPress"
+}

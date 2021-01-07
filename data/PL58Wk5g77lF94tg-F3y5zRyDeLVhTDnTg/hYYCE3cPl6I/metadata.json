@@ -1,0 +1,14 @@
+{
+  "description": "In this JamSnack, Obinna Ekwuno, Dev Advocate from Gatsby, talks about exciting Gatsby.js feature improvements such as create pages API and new filesystem API. Be the first to try out experimental Gatsby Admin feature and give feedback. \n\nLearn more about Gatsby.js: https://twitter.com/gatsbyjs, https://jamstack.org/generators/gatsby/\n\nPresented by: Obinna Ekwuno, Developer Advocate, Gatsby https://twitter.com/Obinnaspeaks, https://www.obinnaspeaks.dev/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "id": "hYYCE3cPl6I",
+  "position": 18,
+  "publishedAt": 1603202879,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/hYYCE3cPl6I/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/hYYCE3cPl6I/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/hYYCE3cPl6I/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/hYYCE3cPl6I/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/hYYCE3cPl6I/default.jpg"
+  },
+  "title": "JamSnack - What's New in Gatsby.js"
+}

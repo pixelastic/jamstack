@@ -4,9 +4,11 @@
   "position": 13,
   "publishedAt": 1542606645,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/q1qSxmfMIcI/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/q1qSxmfMIcI/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/q1qSxmfMIcI/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/q1qSxmfMIcI/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/q1qSxmfMIcI/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/q1qSxmfMIcI/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/q1qSxmfMIcI/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/q1qSxmfMIcI/default.jpg"
   },
   "title": "Steve Gardner - Make More Pointless Things"
 }

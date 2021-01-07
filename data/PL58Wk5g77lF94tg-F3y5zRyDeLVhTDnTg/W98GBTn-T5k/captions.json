@@ -1,0 +1,1066 @@
+[
+  {
+    "content": "hi everyone",
+    "start": 0
+  },
+  {
+    "content": "welcome today we're going to be talking about digital experiences",
+    "start": 12
+  },
+  {
+    "content": "and crm a jam stack love story my name is zack katoff i am a product",
+    "start": 17
+  },
+  {
+    "content": "manager building digital experiences at salesforce but i",
+    "start": 24
+  },
+  {
+    "content": "used to be a developer at salesforce working on those same products",
+    "start": 27
+  },
+  {
+    "content": "outside of the work outside of work the stack i'm playing with",
+    "start": 32
+  },
+  {
+    "content": "the most actually has been vue next netlify and tailwind css",
+    "start": 35
+  },
+  {
+    "content": "if you're interested you can follow me on linkedin that's where i am more than",
+    "start": 43
+  },
+  {
+    "content": "twitter these days and while normally i'm holed up in san",
+    "start": 46
+  },
+  {
+    "content": "francisco today i'm actually in la visiting my mom certainly embracing",
+    "start": 50
+  },
+  {
+    "content": "the work from anywhere lifestyle i always start every presentation with a",
+    "start": 55
+  },
+  {
+    "content": "thank you and i know you and i just met but a big thank you",
+    "start": 62
+  },
+  {
+    "content": "to you for taking a a a lot of time out of your day to learn",
+    "start": 65
+  },
+  {
+    "content": "more about the jam stack and also crm and a big thank you to the",
+    "start": 69
+  },
+  {
+    "content": "organizers for inviting me here and actually putting on this whole digital",
+    "start": 73
+  },
+  {
+    "content": "conference it is a ton of work and we know there is a lot",
+    "start": 77
+  },
+  {
+    "content": "going on behind the scenes so big thank you to netlify and all the sponsors for",
+    "start": 80
+  },
+  {
+    "content": "doing this conference today i could not be more excited to be here",
+    "start": 85
+  },
+  {
+    "content": "bringing the two worlds of crm and jamstack closer together",
+    "start": 90
+  },
+  {
+    "content": "here's a glimpse of what we'll be covering today if you're watching me on",
+    "start": 97
+  },
+  {
+    "content": "youtube at this point you'll know exactly where",
+    "start": 101
+  },
+  {
+    "content": "to click in order to speed ahead but if you're watching this live then",
+    "start": 103
+  },
+  {
+    "content": "you'll be interested in learning what we're covering",
+    "start": 108
+  },
+  {
+    "content": "so one we'll be looking at the importance of building",
+    "start": 110
+  },
+  {
+    "content": "a powerful customer experience two we'll look at the relationship",
+    "start": 113
+  },
+  {
+    "content": "between crm and those digital experiences and then",
+    "start": 119
+  },
+  {
+    "content": "thirdly i'll give you kind of an intro on how companies like salesforce are",
+    "start": 124
+  },
+  {
+    "content": "thinking about the future of digital experience platforms",
+    "start": 130
+  },
+  {
+    "content": "so we're going to start with a question that seems easy but is not",
+    "start": 134
+  },
+  {
+    "content": "and you'll learn soon why so what is a crm",
+    "start": 138
+  },
+  {
+    "content": "well crm is and hold on to something when i go to this next slide",
+    "start": 141
+  },
+  {
+    "content": "boom crm is it stands for customer relationship management but it",
+    "start": 147
+  },
+  {
+    "content": "represents everything about building and enhancing",
+    "start": 151
+  },
+  {
+    "content": "customer journeys across sales service marketing",
+    "start": 156
+  },
+  {
+    "content": "commerce analytics integrations and so much more",
+    "start": 160
+  },
+  {
+    "content": "i mean just to give you an example salesforce actually now builds a contact",
+    "start": 164
+  },
+  {
+    "content": "tracing application whether it's for your actual customers",
+    "start": 169
+  },
+  {
+    "content": "your partners even your employees we can think of",
+    "start": 173
+  },
+  {
+    "content": "everyone as a customer about to embrace a journey",
+    "start": 176
+  },
+  {
+    "content": "and we can use a crm to build processes that better improve",
+    "start": 180
+  },
+  {
+    "content": "their lifestyle okay so we're back to a non-threatening",
+    "start": 184
+  },
+  {
+    "content": "slide trust me i'm not going to throw any big",
+    "start": 190
+  },
+  {
+    "content": "digital pictures on front of there again but",
+    "start": 193
+  },
+  {
+    "content": "what does any of this have to do with jam stack why",
+    "start": 196
+  },
+  {
+    "content": "why am i here talking about crm if this is a conference",
+    "start": 199
+  },
+  {
+    "content": "about web development and jam stack and digital agencies",
+    "start": 203
+  },
+  {
+    "content": "where do where does crm get involved well this is a slide from uh the last",
+    "start": 206
+  },
+  {
+    "content": "conference in may that laurie voss presented and i swear i",
+    "start": 213
+  },
+  {
+    "content": "didn't touch anything about this this slide i just",
+    "start": 217
+  },
+  {
+    "content": "took it as is but that big red arrow that's pointing",
+    "start": 220
+  },
+  {
+    "content": "right there that says that 35 of developers",
+    "start": 224
+  },
+  {
+    "content": "are either interested or are building in jam stack today",
+    "start": 229
+  },
+  {
+    "content": "for the enterprise and to be honest this is not a huge surprise to me",
+    "start": 233
+  },
+  {
+    "content": "because when it comes down to that scale performance security and availability",
+    "start": 238
+  },
+  {
+    "content": "nobody needs it more than the enterprise when we actually look into the data from",
+    "start": 244
+  },
+  {
+    "content": "salesforce research it becomes even more evident",
+    "start": 251
+  },
+  {
+    "content": "across all participants in this survey 75",
+    "start": 255
+  },
+  {
+    "content": "75 expect the usage of new technologies and when you actually drill in on b2b",
+    "start": 259
+  },
+  {
+    "content": "buyers essentially those purchasing on behalf",
+    "start": 266
+  },
+  {
+    "content": "of a company the demand is even higher than",
+    "start": 269
+  },
+  {
+    "content": "consumer behavior companies and consumers but especially companies are",
+    "start": 272
+  },
+  {
+    "content": "asking all of these various vendors including salesforce",
+    "start": 277
+  },
+  {
+    "content": "to deliver not only new technology but highly performant customer",
+    "start": 282
+  },
+  {
+    "content": "experiences so that's where we at salesforce are",
+    "start": 288
+  },
+  {
+    "content": "starting to look at you know products and technologies like jamstack",
+    "start": 292
+  },
+  {
+    "content": "and recognizing the value of them for our enterprise solutions",
+    "start": 295
+  },
+  {
+    "content": "another slide that captured my attention at the last conference",
+    "start": 302
+  },
+  {
+    "content": "was this slide and it demonstrates some of the areas where jam stack alone",
+    "start": 305
+  },
+  {
+    "content": "might fall a bit short those three items being a dynamic",
+    "start": 311
+  },
+  {
+    "content": "headless cms a powerful session identity platform",
+    "start": 315
+  },
+  {
+    "content": "and this last one which says hard-coded flow logic but",
+    "start": 321
+  },
+  {
+    "content": "i really read this as crm and business process",
+    "start": 325
+  },
+  {
+    "content": "and one of the biggest reasons a tool like crm",
+    "start": 332
+  },
+  {
+    "content": "is needed is because customers expect if not demand a connected experience",
+    "start": 336
+  },
+  {
+    "content": "everywhere they go across any touch point they have",
+    "start": 342
+  },
+  {
+    "content": "with your company what's most interesting is when you look at actually",
+    "start": 345
+  },
+  {
+    "content": "who expects or demands that connected",
+    "start": 349
+  },
+  {
+    "content": "experience you don't end up finding that millennials are the",
+    "start": 352
+  },
+  {
+    "content": "ones asking for you know the highly connected digital world",
+    "start": 355
+  },
+  {
+    "content": "it's it's actually the baby boomers and i think the reason we can look behind",
+    "start": 359
+  },
+  {
+    "content": "this is you know a lot over the history of the world",
+    "start": 364
+  },
+  {
+    "content": "everything was a personal connection everything was about human connection",
+    "start": 368
+  },
+  {
+    "content": "whether you were in person or on the phone",
+    "start": 372
+  },
+  {
+    "content": "these were individual connections that we were making and when we moved to a",
+    "start": 375
+  },
+  {
+    "content": "digital world it became very static we lost all that",
+    "start": 378
+  },
+  {
+    "content": "dynamicism of being able to have an understanding of our customer and as we",
+    "start": 382
+  },
+  {
+    "content": "look to the future we're trying to bring that back",
+    "start": 388
+  },
+  {
+    "content": "into our all digital world so that's kind of where we're seeing",
+    "start": 390
+  },
+  {
+    "content": "the the evolution of the digital landscape is moving not just into",
+    "start": 395
+  },
+  {
+    "content": "you know these static websites but into digital experiences",
+    "start": 399
+  },
+  {
+    "content": "where the experience actually has some strong understanding",
+    "start": 403
+  },
+  {
+    "content": "and even personalization to the end user to the consumer of that product",
+    "start": 407
+  },
+  {
+    "content": "when you actually look and say okay how do companies",
+    "start": 415
+  },
+  {
+    "content": "think about how they're doing with customer experience",
+    "start": 419
+  },
+  {
+    "content": "you quickly find that they say customer experience is a high priority",
+    "start": 422
+  },
+  {
+    "content": "but when they actually define their customer experience you only find that",
+    "start": 427
+  },
+  {
+    "content": "42 percent have said that their customer strategy",
+    "start": 432
+  },
+  {
+    "content": "is even defined well there's a big gap between that 87",
+    "start": 435
+  },
+  {
+    "content": "percent and that 42 percent and this is really where crm can come",
+    "start": 439
+  },
+  {
+    "content": "into play to not only build in that that understanding of your",
+    "start": 444
+  },
+  {
+    "content": "customer but actually allow your customer to interact on their own",
+    "start": 448
+  },
+  {
+    "content": "self-service approach with your digital experience",
+    "start": 452
+  },
+  {
+    "content": "so this is where we come back to a big question of",
+    "start": 458
+  },
+  {
+    "content": "how do we build customer-centric engineering",
+    "start": 462
+  },
+  {
+    "content": "into our digital experiences while a static website can be visually stunning",
+    "start": 466
+  },
+  {
+    "content": "and contain infinitely creative elements we just displayed that our users our",
+    "start": 471
+  },
+  {
+    "content": "customers want more they want those static",
+    "start": 476
+  },
+  {
+    "content": "websites to be transformed into digital experiences that understand that",
+    "start": 479
+  },
+  {
+    "content": "them and their needs but at the same time this comes at a cost",
+    "start": 483
+  },
+  {
+    "content": "right having incredibly dynamic experiences can put us at risk in terms",
+    "start": 486
+  },
+  {
+    "content": "of scale performance security and availability how do we make",
+    "start": 491
+  },
+  {
+    "content": "sure to balance the two of these between each other",
+    "start": 494
+  },
+  {
+    "content": "and that's where i think the jam stack and crm",
+    "start": 497
+  },
+  {
+    "content": "do come into play and this is really a powerful combination",
+    "start": 501
+  },
+  {
+    "content": "when you look at it between having that crm centric mindset",
+    "start": 505
+  },
+  {
+    "content": "and incorporating powerful tools like the jam stack",
+    "start": 509
+  },
+  {
+    "content": "that allows you to deliver performant enterprise sites without compromising",
+    "start": 512
+  },
+  {
+    "content": "on any of the user experience and this allows you to bring together",
+    "start": 516
+  },
+  {
+    "content": "both your technology platform and your product goals into the same",
+    "start": 523
+  },
+  {
+    "content": "sphere so you can build those amazing static websites but also deliver the",
+    "start": 527
+  },
+  {
+    "content": "dynamic customer experiences and here's where i want to take a quick",
+    "start": 531
+  },
+  {
+    "content": "pause and say why now what took so long for us to reach this",
+    "start": 534
+  },
+  {
+    "content": "connection well i think for a long time jam stack has been perceived as a",
+    "start": 538
+  },
+  {
+    "content": "framework for smaller projects and marketing landing pages but i'm here",
+    "start": 543
+  },
+  {
+    "content": "today to tell you it is it is imperative that companies both big",
+    "start": 548
+  },
+  {
+    "content": "and small start recognizing the value for",
+    "start": 552
+  },
+  {
+    "content": "delivering enterprise grade solutions that together these two",
+    "start": 556
+  },
+  {
+    "content": "platforms crm and jamstack i guess mindsets i should even say that",
+    "start": 559
+  },
+  {
+    "content": "bringing those two things together not only from a technology standpoint",
+    "start": 564
+  },
+  {
+    "content": "but even from a product and deliverable standpoint",
+    "start": 568
+  },
+  {
+    "content": "there are immense gains that can be seen so here at salesforce we are doing",
+    "start": 572
+  },
+  {
+    "content": "exactly that with our newly introduced experience cloud which actually was just",
+    "start": 578
+  },
+  {
+    "content": "announced at a different conference to mexico just",
+    "start": 583
+  },
+  {
+    "content": "the other day we are looking to see not only how we can focus on building those",
+    "start": 587
+  },
+  {
+    "content": "pixel perfect sites but also how to deliver them",
+    "start": 591
+  },
+  {
+    "content": "quickly with both clicks and code having a static website can only",
+    "start": 594
+  },
+  {
+    "content": "take us so far and our mission is to build powerful",
+    "start": 599
+  },
+  {
+    "content": "digital experiences that bring companies and customers closer together some of",
+    "start": 602
+  },
+  {
+    "content": "the awesome areas we get to work on are not only in the programmatic space",
+    "start": 607
+  },
+  {
+    "content": "but or like you know with jam stack and site generation but we also get to work",
+    "start": 611
+  },
+  {
+    "content": "on drag and drop site builders to really bring citizen",
+    "start": 614
+  },
+  {
+    "content": "developers you know forward on the platform",
+    "start": 618
+  },
+  {
+    "content": "omni-channel and headless cms so they're not just building",
+    "start": 620
+  },
+  {
+    "content": "sites but you're building for all digital channels",
+    "start": 624
+  },
+  {
+    "content": "uh real-time user personalization having the understanding that one-to-one",
+    "start": 627
+  },
+  {
+    "content": "connection with that user with that persona on your",
+    "start": 631
+  },
+  {
+    "content": "site and these there are a bunch of other",
+    "start": 635
+  },
+  {
+    "content": "products that we are delivering to make sure that it's not just",
+    "start": 638
+  },
+  {
+    "content": "you know a product it's a successful digital product",
+    "start": 641
+  },
+  {
+    "content": "so just to give you an example of what we use experience cloud for today well a",
+    "start": 647
+  },
+  {
+    "content": "good example is doordash who if you're like me doordash has become a",
+    "start": 652
+  },
+  {
+    "content": "pretty integral part of your life i mean you you might be ordering food on",
+    "start": 656
+  },
+  {
+    "content": "doordash right now as we speak so probably but anyway with doordash",
+    "start": 660
+  },
+  {
+    "content": "uh you know everything is a digital mindset right everything is moved",
+    "start": 665
+  },
+  {
+    "content": "digitally and now doordash has kind of hit the forefront of",
+    "start": 669
+  },
+  {
+    "content": "being able to have access to all restaurants in your local area",
+    "start": 673
+  },
+  {
+    "content": "and with that great power comes a lot of responsibility and to be able to manage",
+    "start": 677
+  },
+  {
+    "content": "all of the different users and all of their various situations they might be",
+    "start": 681
+  },
+  {
+    "content": "in doordash came to salesforce to build out a very powerful help center",
+    "start": 685
+  },
+  {
+    "content": "and with this help center they're able to to push knowledge to their users but",
+    "start": 690
+  },
+  {
+    "content": "also for those unique cases where a customer",
+    "start": 693
+  },
+  {
+    "content": "might not be able to get that that connection that they need based on",
+    "start": 696
+  },
+  {
+    "content": "the data that they're given they're able to actually form a case",
+    "start": 700
+  },
+  {
+    "content": "through our salesforce service console so that a",
+    "start": 704
+  },
+  {
+    "content": "real human being can go in interact and send out to that doordash",
+    "start": 707
+  },
+  {
+    "content": "customer across any digital touch point the",
+    "start": 712
+  },
+  {
+    "content": "answers that they might need so doordash is a great example of a",
+    "start": 714
+  },
+  {
+    "content": "customer that has used not just a digital experience but a",
+    "start": 718
+  },
+  {
+    "content": "crm to actually bring together that customer and that",
+    "start": 722
+  },
+  {
+    "content": "experience even closer and salesforce is working on building a",
+    "start": 725
+  },
+  {
+    "content": "tool set to enable developers designers and admins",
+    "start": 730
+  },
+  {
+    "content": "to deliver these digital experiences essentially building our own",
+    "start": 734
+  },
+  {
+    "content": "jam stack on salesforce we have an accessible design system to build",
+    "start": 738
+  },
+  {
+    "content": "quick you know to build components quickly we use lightning web components",
+    "start": 742
+  },
+  {
+    "content": "which is actually our own web component framework using",
+    "start": 746
+  },
+  {
+    "content": "the latest standards we have salesforce functions so heroku",
+    "start": 750
+  },
+  {
+    "content": "is part of our digital portfolio and heroku serverless platform allows",
+    "start": 754
+  },
+  {
+    "content": "us to build scalable crm workflows and lastly we have a new product with",
+    "start": 758
+  },
+  {
+    "content": "lightning web runtime which my teams at salesforce are helping",
+    "start": 763
+  },
+  {
+    "content": "to contribute to that will allow us to build in that static site generation",
+    "start": 766
+  },
+  {
+    "content": "so we can deliver the performance that every crm digital experience might need",
+    "start": 771
+  },
+  {
+    "content": "we're trying to empower all business users with the latest web standards and",
+    "start": 776
+  },
+  {
+    "content": "bringing the enterprise forward this tool set when put into action",
+    "start": 780
+  },
+  {
+    "content": "allows us to cleanly separate the client-side experience of various",
+    "start": 785
+  },
+  {
+    "content": "components on the page but also allow them to securely interact",
+    "start": 789
+  },
+  {
+    "content": "with one another remember we are working with",
+    "start": 792
+  },
+  {
+    "content": "mission-critical digital experiences now everything needs to be wrapped up",
+    "start": 795
+  },
+  {
+    "content": "tightly to ensure we are protecting not just our customers but",
+    "start": 799
+  },
+  {
+    "content": "salesforce and the many vendors that might be participating in that",
+    "start": 802
+  },
+  {
+    "content": "customer's digital journey but on the back end we're making",
+    "start": 806
+  },
+  {
+    "content": "continuous calls into the crm to access and write important data",
+    "start": 810
+  },
+  {
+    "content": "about our users to ensure we are delivering the best experience on the",
+    "start": 815
+  },
+  {
+    "content": "page or any other future touch point that",
+    "start": 818
+  },
+  {
+    "content": "they might interact with oops well we",
+    "start": 820
+  },
+  {
+    "content": "like a lot of enterprises have the unique problem of ecosystem",
+    "start": 828
+  },
+  {
+    "content": "so this is one of my friends and co-workers diego val",
+    "start": 832
+  },
+  {
+    "content": "elaborating at a web components conference",
+    "start": 835
+  },
+  {
+    "content": "on the business requirements of our new lwc component framework",
+    "start": 838
+  },
+  {
+    "content": "i think it really aptly ties back into why jam stack also plays a huge part",
+    "start": 843
+  },
+  {
+    "content": "with maintainability when there are multiple versions and",
+    "start": 848
+  },
+  {
+    "content": "backwards compatibility is required out of your framework ensuring that all",
+    "start": 852
+  },
+  {
+    "content": "the components on the page whether their sales forces",
+    "start": 856
+  },
+  {
+    "content": "our customer or even the vendors can continue interacting with",
+    "start": 859
+  },
+  {
+    "content": "one another becomes a very interesting problem to solve",
+    "start": 862
+  },
+  {
+    "content": "this is where jam stack provides a ton of value in terms of static site",
+    "start": 865
+  },
+  {
+    "content": "generation to bring all of this together so",
+    "start": 869
+  },
+  {
+    "content": "when there are multiple stakeholders on that single page how do you ensure the",
+    "start": 873
+  },
+  {
+    "content": "experience being delivered is exactly what you expect especially as",
+    "start": 876
+  },
+  {
+    "content": "these components the salesforce components the customer",
+    "start": 881
+  },
+  {
+    "content": "components and partner components are all interacting with each other as well",
+    "start": 884
+  },
+  {
+    "content": "as evolving over time how do we make sure we can continue",
+    "start": 888
+  },
+  {
+    "content": "maintaining them while also increasing their value",
+    "start": 891
+  },
+  {
+    "content": "so coming back to static site generation this is where",
+    "start": 896
+  },
+  {
+    "content": "we can now deliver not just performant experiences but also ones that are",
+    "start": 899
+  },
+  {
+    "content": "incredibly maintainable we're able to define cash ability for a",
+    "start": 904
+  },
+  {
+    "content": "global delivery for a global market we can build maintainability directly",
+    "start": 908
+  },
+  {
+    "content": "into the technology so that every time we generate things are frozen in time",
+    "start": 913
+  },
+  {
+    "content": "we can improve the performance of these components",
+    "start": 917
+  },
+  {
+    "content": "because we've generated them because we push them out to cdn",
+    "start": 920
+  },
+  {
+    "content": "we've moved to an api first paradigm so that everything on the data layer and",
+    "start": 924
+  },
+  {
+    "content": "the component layer are actually separate and finally the key one here",
+    "start": 928
+  },
+  {
+    "content": "that i think we've been really stressing is all that live crm and cms data",
+    "start": 932
+  },
+  {
+    "content": "to deliver those dynamic customer experiences can still",
+    "start": 937
+  },
+  {
+    "content": "come from the crm but now it's maintained in a separate state",
+    "start": 940
+  },
+  {
+    "content": "so just a little bit more on how we do this",
+    "start": 946
+  },
+  {
+    "content": "we use that tool lightning web runtime and that plug-and-play toolbelt of the",
+    "start": 949
+  },
+  {
+    "content": "salesforce ui platform to create these experiences of web",
+    "start": 953
+  },
+  {
+    "content": "components on the client by doing the generation when we actually",
+    "start": 957
+  },
+  {
+    "content": "publish the site our product takes all of these components from salesforce",
+    "start": 961
+  },
+  {
+    "content": "vendors and the customer and locks them in place for a performant",
+    "start": 965
+  },
+  {
+    "content": "consistent and durable experience that does not compromise on crm",
+    "start": 969
+  },
+  {
+    "content": "so as we finish up this talk i want to highlight the journey",
+    "start": 976
+  },
+  {
+    "content": "we at salesforce are on and probably many of you as well",
+    "start": 980
+  },
+  {
+    "content": "as we look to build out the next great technology of web development",
+    "start": 984
+  },
+  {
+    "content": "we're focused on security and performance but also all the flexibility",
+    "start": 988
+  },
+  {
+    "content": "that we were able to get with few with the frameworks of of past so",
+    "start": 992
+  },
+  {
+    "content": "when we look to the future that's where jam stack and crm really come into play",
+    "start": 997
+  },
+  {
+    "content": "because you're not only able to build and",
+    "start": 1001
+  },
+  {
+    "content": "deliver highly performant experiences but",
+    "start": 1004
+  },
+  {
+    "content": "able to still get that flexibility to connect with crm data",
+    "start": 1007
+  },
+  {
+    "content": "and focus on that customer experience so once again to cover what we just",
+    "start": 1011
+  },
+  {
+    "content": "learned today we learned that it's really important to build a",
+    "start": 1017
+  },
+  {
+    "content": "powerful customer experience your customers expect this of you",
+    "start": 1021
+  },
+  {
+    "content": "they demand it of you so look forward to trying to learn more about your customer",
+    "start": 1025
+  },
+  {
+    "content": "and building more of their workflow into your site",
+    "start": 1030
+  },
+  {
+    "content": "we learned about the relationship between crm customer relationship",
+    "start": 1033
+  },
+  {
+    "content": "management and digital experiences and how to connect the two",
+    "start": 1037
+  },
+  {
+    "content": "and this week we also gave you a sneak peek into how companies like salesforce",
+    "start": 1040
+  },
+  {
+    "content": "are looking at building digital experience",
+    "start": 1045
+  },
+  {
+    "content": "platforms to ensure that as we look to the future",
+    "start": 1047
+  },
+  {
+    "content": "we're not just building that performance but also that fully connected experience",
+    "start": 1050
+  },
+  {
+    "content": "i know there was a ton of content but if you're always interested in learning",
+    "start": 1055
+  },
+  {
+    "content": "more you should go check out some of these fault",
+    "start": 1059
+  },
+  {
+    "content": "defaults some of the following links if you want to learn about crm",
+    "start": 1062
+  },
+  {
+    "content": "salesforce or any of our of our products go check out trailhead",
+    "start": 1065
+  },
+  {
+    "content": "it's a free self-service training tool to learn anything there is to know about",
+    "start": 1069
+  },
+  {
+    "content": "crm and how it might work we recently announced the experience",
+    "start": 1073
+  },
+  {
+    "content": "cloud we have a blog post right here go check this out and learn more about",
+    "start": 1077
+  },
+  {
+    "content": "what we are doing here at salesforce and then finally a lot of the data",
+    "start": 1082
+  },
+  {
+    "content": "i used for this presentation comes from a ton of researchers that we",
+    "start": 1086
+  },
+  {
+    "content": "we have but this data is all public so go check it out if any of those",
+    "start": 1090
+  },
+  {
+    "content": "infographics are cool go learn more about how customers are thinking",
+    "start": 1094
+  },
+  {
+    "content": "and how you can build stronger experiences for your site",
+    "start": 1098
+  },
+  {
+    "content": "so thank you for having me and hopefully you're enjoying this conference i",
+    "start": 1102
+  },
+  {
+    "content": "sure am and i'll be here answering any of your questions",
+    "start": 1107
+  },
+  {
+    "content": "thank you you",
+    "start": 1110
+  }
+]

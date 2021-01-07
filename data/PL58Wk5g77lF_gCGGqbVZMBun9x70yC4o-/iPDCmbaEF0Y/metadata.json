@@ -1,0 +1,14 @@
+{
+  "description": "The CMS editing experience hasn't changed much in the last decade. However, site building tools like Squarespace, Webflow, Carrd, and Cargo have become much more sophisticated. CMSs optimize for developer experience (DX) while site-builders optimize for the user experience (UX). \n\nIn the future, DX and UX will merge and content management will be more visual while giving devs the control they need. In this talk, learn about the future of content management for the JAMstack followed by a demo of an experimental editing UI from the Forestry.io team.",
+  "id": "iPDCmbaEF0Y",
+  "position": 9,
+  "publishedAt": 1571424546,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/iPDCmbaEF0Y/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/iPDCmbaEF0Y/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/iPDCmbaEF0Y/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/iPDCmbaEF0Y/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/iPDCmbaEF0Y/default.jpg"
+  },
+  "title": "The visual future of content editing"
+}

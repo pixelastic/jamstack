@@ -1,0 +1,35 @@
+{
+  "description": "Recorded at JAMstack SF Meetup, November 10th 2016",
+  "duration": {
+    "minutes": 38,
+    "seconds": 0
+  },
+  "id": "lRg99MH6rhw",
+  "publishedAt": 1480509209,
+  "ranking": {
+    "likes": 26,
+    "views": 1669
+  },
+  "tags": [
+    "jamstack",
+    "meetup",
+    "san francisco",
+    "phil hawksworth",
+    "rendering",
+    "netlify",
+    "isomorphich",
+    "presentation",
+    "talk",
+    "web",
+    "modern",
+    "static website"
+  ],
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/lRg99MH6rhw/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/lRg99MH6rhw/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/lRg99MH6rhw/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/lRg99MH6rhw/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/lRg99MH6rhw/default.jpg"
+  },
+  "title": "Easy Isomorphic Rendering on the JAMstack – Phil Hawksworth"
+}

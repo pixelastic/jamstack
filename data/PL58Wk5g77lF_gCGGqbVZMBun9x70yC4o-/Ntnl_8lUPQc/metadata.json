@@ -1,0 +1,14 @@
+{
+  "description": "Breaking news, announcements and releases from the JAMstack ecosystem",
+  "id": "Ntnl_8lUPQc",
+  "position": 20,
+  "publishedAt": 1571424546,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/Ntnl_8lUPQc/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/Ntnl_8lUPQc/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/Ntnl_8lUPQc/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/Ntnl_8lUPQc/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/Ntnl_8lUPQc/default.jpg"
+  },
+  "title": "Lightning launch - Uniform"
+}

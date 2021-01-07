@@ -1,0 +1,1426 @@
+[
+  {
+    "content": "position gun yeah see if I can figure out how this thing works as well hey",
+    "start": 3
+  },
+  {
+    "content": "everybody hey I'm Matt Dillman from Ned Levi's and I'm going to talk today about",
+    "start": 9
+  },
+  {
+    "content": "the the rise of the jam stack so I had this presentation I did a yeah go ahead",
+    "start": 13
+  },
+  {
+    "content": "at Smashing Magazine and then I had today planned and I had the busiest week",
+    "start": 24
+  },
+  {
+    "content": "ever the last seven days so I had this conundrum should take my presentation",
+    "start": 30
+  },
+  {
+    "content": "from last year and then just give it again true and tried but should I sit",
+    "start": 34
+  },
+  {
+    "content": "down last night at 1:00 a.m. and make a new one and whenever there's like a safe",
+    "start": 39
+  },
+  {
+    "content": "choice and and another choice I probably have a tendency to not so often go for",
+    "start": 46
+  },
+  {
+    "content": "the safe choice so here's a brand new presentation point so if I met Billman",
+    "start": 52
+  },
+  {
+    "content": "and I'll start by just telling a little bit about myself and where it got to",
+    "start": 60
+  },
+  {
+    "content": "this whole very gem stack approach from I'm the CEO of net defy and net if I as",
+    "start": 64
+  },
+  {
+    "content": "hopefully some of you know is a publishing platform for the modern web",
+    "start": 71
+  },
+  {
+    "content": "we take it from when you push to get to when your site is live on a globally",
+    "start": 76
+  },
+  {
+    "content": "distributed content delivery network we handle the whole continuous deployment",
+    "start": 82
+  },
+  {
+    "content": "process and and we try to build everything that it takes to make this",
+    "start": 85
+  },
+  {
+    "content": "new stack a viable a way of building large production quality websites or",
+    "start": 91
+  },
+  {
+    "content": "personal blogs or anything you want right but to really make it a solid",
+    "start": 97
+  },
+  {
+    "content": "alternative to the way we've been building websites for a very long time",
+    "start": 102
+  },
+  {
+    "content": "way too long in so to talk a little bit about building websites for a long time",
+    "start": 106
+  },
+  {
+    "content": "and where where I came from nearly five space year in here in San Francisco and",
+    "start": 113
+  },
+  {
+    "content": "but before I got here I spent seven years in in Spain in Madrid where I",
+    "start": 120
+  },
+  {
+    "content": "worked as a CTO for companies that built websites for small to medium businesses",
+    "start": 127
+  },
+  {
+    "content": "and we would we build a lot of websites so we build around",
+    "start": 131
+  },
+  {
+    "content": "hundred websites a week in tens of thousands of sites in total had like",
+    "start": 134
+  },
+  {
+    "content": "freelance designers doing the actual design work and then in-house we built",
+    "start": 139
+  },
+  {
+    "content": "the whole platform that that the designers would use to do the design",
+    "start": 144
+  },
+  {
+    "content": "with that the clients would use to do the content menu infinite ran this whole",
+    "start": 147
+  },
+  {
+    "content": "process from when a brief came in to a production close your website came out",
+    "start": 151
+  },
+  {
+    "content": "in yellow and then the hosting and everything and we had two generations of",
+    "start": 157
+  },
+  {
+    "content": "CMS's we developed in-house and so on so so we got to know a lot about what it",
+    "start": 162
+  },
+  {
+    "content": "means to build to build sites at a large scale and a large variety then I then I",
+    "start": 169
+  },
+  {
+    "content": "started a company called web pop in based on taking the experience of",
+    "start": 175
+  },
+  {
+    "content": "building all of the building that platform and then trying to build a",
+    "start": 181
+  },
+  {
+    "content": "fully hosted content management system that that other agencies other",
+    "start": 184
+  },
+  {
+    "content": "professionals could use to get some of the same efficiencies in their workflows",
+    "start": 188
+  },
+  {
+    "content": "am I moved to the Bay Area with with with my startup like so many others in",
+    "start": 193
+  },
+  {
+    "content": "and started working on this this project but what one of the things that that",
+    "start": 200
+  },
+  {
+    "content": "happened while I was working on that was that in the middle of it",
+    "start": 207
+  },
+  {
+    "content": "front-end development just completely changed when I started web the number",
+    "start": 214
+  },
+  {
+    "content": "one feature request without any comparison was FTP exes and and today",
+    "start": 221
+  },
+  {
+    "content": "it's it's fairly a thing right like it became a massive phenomenon not just for",
+    "start": 229
+  },
+  {
+    "content": "version control but also it's the main way that we as developers collaborate",
+    "start": 234
+  },
+  {
+    "content": "and communicate and publish and I mean how many here used to in their in their",
+    "start": 238
+  },
+  {
+    "content": "professional life work by FTP into some production server and changing stuff so",
+    "start": 245
+  },
+  {
+    "content": "solid around how many people do that today",
+    "start": 252
+  },
+  {
+    "content": "that's why that almost admitted that over there is its it was like a huge",
+    "start": 256
+  },
+  {
+    "content": "change in the workflow right at the same time browsers became incredibly more",
+    "start": 264
+  },
+  {
+    "content": "powerful they went from being simple document viewers to actually being",
+    "start": 271
+  },
+  {
+    "content": "application runtimes and we started having this whole API economy with micro",
+    "start": 274
+  },
+  {
+    "content": "services and different kind of services that you talk to directly from the",
+    "start": 279
+  },
+  {
+    "content": "browser and obviously modern JavaScript and especially the the whole world the",
+    "start": 283
+  },
+  {
+    "content": "front-end build tool to post processes preprocessors all kinds of processes",
+    "start": 289
+  },
+  {
+    "content": "exploded and completely changed how how the daily workflow of any front-end",
+    "start": 294
+  },
+  {
+    "content": "developer looks like so what I was seeing was that I was building a",
+    "start": 299
+  },
+  {
+    "content": "platform for a legacy stack essentially right for the last 15 years the the way",
+    "start": 305
+  },
+  {
+    "content": "we've been building sites has been building them on the fly anytime every",
+    "start": 310
+  },
+  {
+    "content": "quest comes in right so this is a word wave like this is the model of WordPress",
+    "start": 316
+  },
+  {
+    "content": "of rails of Grupo off of web pub in where we have like a typical stack that",
+    "start": 320
+  },
+  {
+    "content": "runs all the stuff we need every time a client comes in and makes a request that",
+    "start": 329
+  },
+  {
+    "content": "is two huge issues around security everybody probably knows these these",
+    "start": 334
+  },
+  {
+    "content": "stats right but but a funny example is that at net Wi-Fi we get around 60",
+    "start": 339
+  },
+  {
+    "content": "million requests every month starting with WP admin even though you cannot put",
+    "start": 345
+  },
+  {
+    "content": "a wordpress site on unnecessary and it's just from crawlers and the automated",
+    "start": 352
+  },
+  {
+    "content": "malware looking for holes in WordPress and just automatically infecting right",
+    "start": 357
+  },
+  {
+    "content": "and I think by now it's safe to say that if you take any normal WordPress site",
+    "start": 362
+  },
+  {
+    "content": "with a few plugins you put it on it on a host and then you don't update it the",
+    "start": 370
+  },
+  {
+    "content": "time it will take from you put it live and until something bad happens to it",
+    "start": 376
+  },
+  {
+    "content": "it's probably down to 11 days or something like that right and",
+    "start": 381
+  },
+  {
+    "content": "performance has become a huge issue also because of mobile people I insanely",
+    "start": 384
+  },
+  {
+    "content": "impatient when they when they try to load something on their phone and they",
+    "start": 392
+  },
+  {
+    "content": "don't have to move a multitasking and things like that in and and and",
+    "start": 395
+  },
+  {
+    "content": "everybody have seen all the other analysis from Google from Amazon around",
+    "start": 400
+  },
+  {
+    "content": "how much performance can impact conversion rates and so on and",
+    "start": 405
+  },
+  {
+    "content": "inherently when you have to have some origin in specific place of the world",
+    "start": 408
+  },
+  {
+    "content": "that runs your whole thing every time someone comes in your performance",
+    "start": 412
+  },
+  {
+    "content": "surface right scalability is another issue the web has gotten a lot bigger",
+    "start": 416
+  },
+  {
+    "content": "than it was a while ago that means that that when something",
+    "start": 420
+  },
+  {
+    "content": "suddenly gets popular it can get very popular and if you have to run a program",
+    "start": 424
+  },
+  {
+    "content": "every time something come into something popular things tends to blow up and we",
+    "start": 429
+  },
+  {
+    "content": "keep like everybody knows it's going through head on using a popular link and",
+    "start": 433
+  },
+  {
+    "content": "clicking through just to get a database error so what we are what we are like",
+    "start": 437
+  },
+  {
+    "content": "the reason we're here and talking about games like is that we believe that",
+    "start": 446
+  },
+  {
+    "content": "there's like it's shift happening in the architecture of the web and if we go way",
+    "start": 449
+  },
+  {
+    "content": "back to before the web we had this relatively simple client-server model of",
+    "start": 453
+  },
+  {
+    "content": "unique systems where where you would run a fairly heavy client locally you would",
+    "start": 458
+  },
+  {
+    "content": "connect to some work stage like some some big mainframe or the like and get",
+    "start": 464
+  },
+  {
+    "content": "you a logic flood and you would you would work and and and it would be this",
+    "start": 469
+  },
+  {
+    "content": "very clean client-server world model then as we moved into to the modern web",
+    "start": 472
+  },
+  {
+    "content": "or sort of to the to the initial face of the web and build out web 2.0 and all of",
+    "start": 478
+  },
+  {
+    "content": "that we started building out this model where where instead we had like a client",
+    "start": 485
+  },
+  {
+    "content": "that lets the browser talking to a web server that would talk to an app server",
+    "start": 489
+  },
+  {
+    "content": "they would talk to a database and then to actually make it work we would need",
+    "start": 494
+  },
+  {
+    "content": "to start introducing all these layers of caching between each of those different",
+    "start": 498
+  },
+  {
+    "content": "elements memcache running and and and so on and what we're starting to see now is",
+    "start": 502
+  },
+  {
+    "content": "a switch from from that approach to a model let's not client server but client",
+    "start": 509
+  },
+  {
+    "content": "services where we start fragmenting the the instead of having this monolithic",
+    "start": 515
+  },
+  {
+    "content": "orgy we're citing to be able to take the main",
+    "start": 521
+  },
+  {
+    "content": "application distributed directly all over the world and a content delivery",
+    "start": 525
+  },
+  {
+    "content": "network and then chalk straight from the browser to true to lots of different",
+    "start": 528
+  },
+  {
+    "content": "small services in and that's something we think that will lead to a fairly big",
+    "start": 532
+  },
+  {
+    "content": "change in in how we build websites and how we think about web platforms in",
+    "start": 539
+  },
+  {
+    "content": "basically a a new stack right where you pre-built as much as you can prove",
+    "start": 545
+  },
+  {
+    "content": "through build tools in you decoupled the front-end and back-end completely aim to",
+    "start": 551
+  },
+  {
+    "content": "integrate very closely with this get driven workflow that we're all starting",
+    "start": 559
+  },
+  {
+    "content": "to work with forever folks like I mean it's just heaven right like it's become",
+    "start": 563
+  },
+  {
+    "content": "the main way we work as developers we check in we create pull requests we",
+    "start": 567
+  },
+  {
+    "content": "create branches so the logical step is to hook that up to a continuous delivery",
+    "start": 571
+  },
+  {
+    "content": "process and every time we work and get it just reflected in this automated",
+    "start": 577
+  },
+  {
+    "content": "build process and pushed to a content delivery all the work world and then",
+    "start": 581
+  },
+  {
+    "content": "we'll see this economy of all these small micro services where some of them",
+    "start": 585
+  },
+  {
+    "content": "will be things we build ourselves some of them will be managed services by",
+    "start": 589
+  },
+  {
+    "content": "other people and some of them will be traditional larger api's and so on but",
+    "start": 593
+  },
+  {
+    "content": "but they'll be laterite yet and if we do this right we can get a with web there",
+    "start": 598
+  },
+  {
+    "content": "will be many many times fast as it will really deal at a much more profound",
+    "start": 602
+  },
+  {
+    "content": "level with the issues of malware and the will out of the box",
+    "start": 607
+  },
+  {
+    "content": "BBB easy to handle essentially any amount of traffic you can you can throw",
+    "start": 611
+  },
+  {
+    "content": "at it so that's what we are talking about when",
+    "start": 616
+  },
+  {
+    "content": "we talk about the gem stack and there and the gem stack came about as a way to",
+    "start": 620
+  },
+  {
+    "content": "put some nomenclature on this because there was we saw that there were so many",
+    "start": 625
+  },
+  {
+    "content": "things happening in this space like it was happening the API economy was",
+    "start": 630
+  },
+  {
+    "content": "happening it's static site generators where we're exploding and some people",
+    "start": 633
+  },
+  {
+    "content": "who are talking about statics and people were talking about progressive web apps",
+    "start": 638
+  },
+  {
+    "content": "some people were talking about single page apps and we saw there were certain",
+    "start": 642
+  },
+  {
+    "content": "convergence of all of these terms under like a larger architectural shift and",
+    "start": 646
+  },
+  {
+    "content": "not a specific technological shift and and what we started to talk about",
+    "start": 651
+  },
+  {
+    "content": "with this fundamental is Trinity of JavaScript API and markup where we end",
+    "start": 657
+  },
+  {
+    "content": "up with web web architecture where we pre-built a mock-up that gets shipped",
+    "start": 663
+  },
+  {
+    "content": "all over the world to distribute it where we use JavaScript as the main",
+    "start": 667
+  },
+  {
+    "content": "runtime in the browser in the client and talk to all these different services in",
+    "start": 673
+  },
+  {
+    "content": "for all the dynamic functionalities we need so this is there's not going to be",
+    "start": 678
+  },
+  {
+    "content": "a super long presentation but I want to just put some something concrete on the",
+    "start": 686
+  },
+  {
+    "content": "architectural talk as well so how many has seen the new version of Smashing",
+    "start": 691
+  },
+  {
+    "content": "Magazine quite a few so Smashing Magazine how many know Smashing Magazine",
+    "start": 696
+  },
+  {
+    "content": "hey let's look so Smashing Magazine is is probably the largest digital",
+    "start": 702
+  },
+  {
+    "content": "publication for front-end developers and so on and then they they came to me",
+    "start": 708
+  },
+  {
+    "content": "after after I gave my my talk last year when I decided not to just do they give",
+    "start": 715
+  },
+  {
+    "content": "give you guys today him and ask me so if we took Smashing Magazine and we wanted",
+    "start": 722
+  },
+  {
+    "content": "to build it with this new stack how how would that look like like how would that",
+    "start": 729
+  },
+  {
+    "content": "actually be be doable and in Smashing Magazine at the time and and still in",
+    "start": 733
+  },
+  {
+    "content": "the current version with that that's changing soon enough so about that but",
+    "start": 741
+  },
+  {
+    "content": "but at the time Smashing Magazine was not like a simple basic website right",
+    "start": 744
+  },
+  {
+    "content": "like they're they've been running for more than ten years they have thousands",
+    "start": 750
+  },
+  {
+    "content": "of articles they have a wordpress site with with around 200,000 comments",
+    "start": 754
+  },
+  {
+    "content": "aim they do a lot of their monetization by by selling ebooks and print books and",
+    "start": 759
+  },
+  {
+    "content": "conference tickets so they have it they have a Shopify shop that does that they",
+    "start": 765
+  },
+  {
+    "content": "have a job board that's an old rails application running apart from those and",
+    "start": 771
+  },
+  {
+    "content": "then they have their conferences where they have conference side made in Kirby",
+    "start": 775
+  },
+  {
+    "content": "and each of these are like traditional big monolithic chunks you can't really",
+    "start": 779
+  },
+  {
+    "content": "combine so smashing magazine had to Chane the same theme in WordPress in",
+    "start": 785
+  },
+  {
+    "content": "Shopify in rails and some modification of it in in Kirby different template",
+    "start": 790
+  },
+  {
+    "content": "languages different post processes and so on and and and and when they came to",
+    "start": 797
+  },
+  {
+    "content": "us the on the one hand they were planning a major redesign of the site",
+    "start": 804
+  },
+  {
+    "content": "imagine have it to do this across all this platform and on the other hand they",
+    "start": 808
+  },
+  {
+    "content": "wanted to introduce the concept of memberships when you have all these",
+    "start": 812
+  },
+  {
+    "content": "different platforms where where would that even live right like that's not",
+    "start": 816
+  },
+  {
+    "content": "there's no way these platforms can really talk to each other a court system",
+    "start": 820
+  },
+  {
+    "content": "just become post you just have part of your site live share part of your site",
+    "start": 824
+  },
+  {
+    "content": "lived here so we want some kind of cost cross-cutting membership concern how how",
+    "start": 828
+  },
+  {
+    "content": "do you even approach that in so so we started talking to them about like how",
+    "start": 834
+  },
+  {
+    "content": "would it look like if you were to build it with with with this new approach with",
+    "start": 840
+  },
+  {
+    "content": "with a pre-built front end with with all the content directly on a content",
+    "start": 843
+  },
+  {
+    "content": "delivery network and then small services for for the different functionalities",
+    "start": 848
+  },
+  {
+    "content": "they needed we started looking at the at the ecosystem around the gem stick and",
+    "start": 853
+  },
+  {
+    "content": "see what what's out there and we could see that at the time that wasn't like an",
+    "start": 857
+  },
+  {
+    "content": "easy way we could just go to them and say yeah sure you should just use that",
+    "start": 862
+  },
+  {
+    "content": "and that and that and then you all set go build it and and and and we'll have a",
+    "start": 866
+  },
+  {
+    "content": "look when it's ready um instead we saw that that that we would have to to do a",
+    "start": 872
+  },
+  {
+    "content": "lot of work to help them kick start that whole ecosystem and say like these are",
+    "start": 881
+  },
+  {
+    "content": "the things that we need and from my from my background building both web pop and",
+    "start": 886
+  },
+  {
+    "content": "building tens of thousands of websites and being one of the things I I could",
+    "start": 891
+  },
+  {
+    "content": "see when I talk with them is that for building like the vast majority of",
+    "start": 896
+  },
+  {
+    "content": "websites there's like five or six core services you need in reality so there's",
+    "start": 900
+  },
+  {
+    "content": "all kinds of other services that comes in handy and are useful and so on but",
+    "start": 905
+  },
+  {
+    "content": "but there's like a set of content management authentication ecommerce",
+    "start": 909
+  },
+  {
+    "content": "memberships comments and phone processing",
+    "start": 917
+  },
+  {
+    "content": "if you sort of have those covered that will allow you to build the best",
+    "start": 921
+  },
+  {
+    "content": "majority of websites in so we as a small start-up we again I mentioned something",
+    "start": 926
+  },
+  {
+    "content": "about taking the safe way or sometimes taking another way we said sure let's",
+    "start": 934
+  },
+  {
+    "content": "build all of those in so so so we launched the whole series of open-source",
+    "start": 940
+  },
+  {
+    "content": "projects that you can find a notify that come slash open source am most important",
+    "start": 946
+  },
+  {
+    "content": "probably notifies CMS in so the new architect of Smashing Magazine looks",
+    "start": 954
+  },
+  {
+    "content": "something like like this and you can all check it out up next at Smashing",
+    "start": 964
+  },
+  {
+    "content": "Magazine comments in public beta right now and I think they'll soon announce",
+    "start": 968
+  },
+  {
+    "content": "the release stage folder for the whole thing and when you visit the whole",
+    "start": 973
+  },
+  {
+    "content": "Smashing Magazine expert Smashing Magazine that coincide with e-commerce",
+    "start": 980
+  },
+  {
+    "content": "and everything involved there's no there's no runtime in voltage all",
+    "start": 984
+  },
+  {
+    "content": "distributors are content delivery network even when you go to the to the",
+    "start": 990
+  },
+  {
+    "content": "chick to the checkout of the shop or when you browse the book so when you",
+    "start": 993
+  },
+  {
+    "content": "look at the job board or anything it's all pre-built and and pushed out we one",
+    "start": 997
+  },
+  {
+    "content": "of the open source one of the first of these open source project for Victor",
+    "start": 1002
+  },
+  {
+    "content": "Hugo so there's a staged site generator called Hugo written and go that's become",
+    "start": 1005
+  },
+  {
+    "content": "very popular because it has incredibly fast build times so we built that",
+    "start": 1012
+  },
+  {
+    "content": "boilerplate around that called Victor Hugo a boilerplate for epic websites and",
+    "start": 1017
+  },
+  {
+    "content": "and and and made Loma sauce and and kick-started this matching project with",
+    "start": 1022
+  },
+  {
+    "content": "with that it's basically just to go plus a modern asset pipeline in then we have",
+    "start": 1027
+  },
+  {
+    "content": "the piece called lately five CMS so notified CMS it's a single page app made",
+    "start": 1035
+  },
+  {
+    "content": "in react it's completely agnostic to to what build tool you use so it doesn't",
+    "start": 1041
+  },
+  {
+    "content": "care if you use J color who go a middleman or here",
+    "start": 1047
+  },
+  {
+    "content": "so metalsmith or your own cup koushin or whatever",
+    "start": 1050
+  },
+  {
+    "content": "the only thing tears about is editing structured data that's persisted in a",
+    "start": 1054
+  },
+  {
+    "content": "git repository it the you typically pull it into the site it's actually editing",
+    "start": 1060
+  },
+  {
+    "content": "so in this matching case it's it's just under there slash admin test just as if",
+    "start": 1067
+  },
+  {
+    "content": "it was a SVP admin but instead of being some server-side thing that runs it's",
+    "start": 1071
+  },
+  {
+    "content": "just a react application that that that that essentially talks to a github still",
+    "start": 1076
+  },
+  {
+    "content": "a API in now what this means is that all the content editors marketing",
+    "start": 1082
+  },
+  {
+    "content": "coordinators whoever it is gets a really simple UI for going in and editing",
+    "start": 1089
+  },
+  {
+    "content": "content writing new articles and so on but when they hit save instead of",
+    "start": 1093
+  },
+  {
+    "content": "instead of making it a query to read update through some database somewhere",
+    "start": 1098
+  },
+  {
+    "content": "creates a new branch with a new file and github it creates a pull request send",
+    "start": 1104
+  },
+  {
+    "content": "editorial workflow where the people can go in and say what are the stages here",
+    "start": 1110
+  },
+  {
+    "content": "moved from draft to publish and waiting and once the content editor goes in and",
+    "start": 1115
+  },
+  {
+    "content": "hits publish we merge that pull request into master and a new version goes live",
+    "start": 1119
+  },
+  {
+    "content": "and the way specifically it's hooked up with metal if I will build all those",
+    "start": 1123
+  },
+  {
+    "content": "pull requests and branches and so on so everything can be previewed at every",
+    "start": 1127
+  },
+  {
+    "content": "time but even even with the CMS itself we build in a client-side live preview",
+    "start": 1130
+  },
+  {
+    "content": "of what the final content will look like when when you publish it in so so you",
+    "start": 1136
+  },
+  {
+    "content": "have like a lift right in experience where where content editors can always",
+    "start": 1143
+  },
+  {
+    "content": "see once I hit save what is it actually I'm going to to publish of course again",
+    "start": 1148
+  },
+  {
+    "content": "we know there'll be some delay in a build time and enter and a deployment",
+    "start": 1154
+  },
+  {
+    "content": "function so this was really important for us to give this sense of like",
+    "start": 1158
+  },
+  {
+    "content": "immediacy to to the content editors in so that's that's Nedley 5cms it's an",
+    "start": 1162
+  },
+  {
+    "content": "open source project it's not tied to our platform in any way though we think you",
+    "start": 1169
+  },
+  {
+    "content": "should absolutely use it together with with our platform in NDA and and we hope",
+    "start": 1173
+  },
+  {
+    "content": "it will be really really a useful addition to the whole community",
+    "start": 1179
+  },
+  {
+    "content": "and and make it possible to start working towards a standard for constant",
+    "start": 1183
+  },
+  {
+    "content": "editing in this news deck the other they want one of the other AP is we we made",
+    "start": 1188
+  },
+  {
+    "content": "open source in this process that's also a really interesting example of how this",
+    "start": 1196
+  },
+  {
+    "content": "architecture work is how did we solve ecommerce and because obviously before",
+    "start": 1202
+  },
+  {
+    "content": "this Smashing Magazine had a whole Shopify site just because they needed to",
+    "start": 1207
+  },
+  {
+    "content": "to sell stuff in and they had to they have several kinds of products they are",
+    "start": 1213
+  },
+  {
+    "content": "selling both physical and digital is they have to have text calculations for",
+    "start": 1220
+  },
+  {
+    "content": "different types of products even some complexities like bundled products where",
+    "start": 1226
+  },
+  {
+    "content": "you have an e-book and print book together and they have different text",
+    "start": 1231
+  },
+  {
+    "content": "rules in some countries and so on and it they also obviously Smashing",
+    "start": 1234
+  },
+  {
+    "content": "Magazine they're all about UX UI front-end development so they also",
+    "start": 1240
+  },
+  {
+    "content": "really had this urge to dive deep and being able to completely customize their",
+    "start": 1244
+  },
+  {
+    "content": "that check out flows and and the shopping experience so a we made it an",
+    "start": 1250
+  },
+  {
+    "content": "open source API called the go commerce in and and it's a it's a through micro",
+    "start": 1257
+  },
+  {
+    "content": "service in a way like if you were to to build an e-commerce with the traditional",
+    "start": 1265
+  },
+  {
+    "content": "stack it would have to be a huge amount of little gap and you would have to",
+    "start": 1269
+  },
+  {
+    "content": "solve like all these issues around how does routing work in that ad what is a",
+    "start": 1272
+  },
+  {
+    "content": "page how do you do content management in that area to implement the product",
+    "start": 1278
+  },
+  {
+    "content": "database and use of database and and the whole like all all of this and the whole",
+    "start": 1282
+  },
+  {
+    "content": "engine for driving an e-commerce website in contrast go coomer's it's it's",
+    "start": 1288
+  },
+  {
+    "content": "exaggerated but in its essence it comes down to to through API endpoints one",
+    "start": 1295
+  },
+  {
+    "content": "let's create an order and one let's create a payment so it has no product",
+    "start": 1302
+  },
+  {
+    "content": "database it has no use of database in and the way it works is that when when",
+    "start": 1307
+  },
+  {
+    "content": "in in Smashing case when you go when you put a book in your in your",
+    "start": 1313
+  },
+  {
+    "content": "shopping cart that's managed in local storage it's handled locally in your",
+    "start": 1318
+  },
+  {
+    "content": "browser right and everything is done client-side would create components when",
+    "start": 1322
+  },
+  {
+    "content": "you go to the checkout the checkout component is made in in in pre-act and",
+    "start": 1326
+  },
+  {
+    "content": "and and just takes you through the different steps filling out all your",
+    "start": 1331
+  },
+  {
+    "content": "information then when you click confirm the the client sends a simple API call",
+    "start": 1334
+  },
+  {
+    "content": "saying here are the line items that that we want to create an order form each",
+    "start": 1340
+  },
+  {
+    "content": "line item is just a path and then what go commerce does in the background is",
+    "start": 1346
+  },
+  {
+    "content": "that it will look up each of those paths on the website it will look for some",
+    "start": 1351
+  },
+  {
+    "content": "coca more specific metadata that tells go Khmers what's the price what the",
+    "start": 1355
+  },
+  {
+    "content": "product type is any special text calculations discounts as you'd apply",
+    "start": 1359
+  },
+  {
+    "content": "will calculate all the pricing in go commerce and sent back an order object",
+    "start": 1363
+  },
+  {
+    "content": "and then you can use any of these modern services like stripe or PayPal to create",
+    "start": 1369
+  },
+  {
+    "content": "a payment token and then send kokoomus another command saying she is he said",
+    "start": 1375
+  },
+  {
+    "content": "here's a payment token for this order and couplers will create a create the",
+    "start": 1380
+  },
+  {
+    "content": "payment and send out the email confirmation and all of that and and and",
+    "start": 1385
+  },
+  {
+    "content": "now you saw the product right in an interesting thing again is that there's",
+    "start": 1390
+  },
+  {
+    "content": "no product database all the products just lives on the website so that also",
+    "start": 1394
+  },
+  {
+    "content": "means that all the products are just stored in a git repository they are",
+    "start": 1398
+  },
+  {
+    "content": "edited with Netley 5 cm it's like anything else they aren't a version",
+    "start": 1401
+  },
+  {
+    "content": "control when you if you wanted edit the product and see what it looks like in",
+    "start": 1404
+  },
+  {
+    "content": "context you just do a pull request and see it and so on right in for and and in",
+    "start": 1409
+  },
+  {
+    "content": "Smashing case they were able to completely customize the checkout flow",
+    "start": 1415
+  },
+  {
+    "content": "and create three different checkout flows one at different one for tickets",
+    "start": 1418
+  },
+  {
+    "content": "where you need to gather ten degree information and so on a different ones",
+    "start": 1422
+  },
+  {
+    "content": "form for the job board where you need to fill in what you actually want to post",
+    "start": 1426
+  },
+  {
+    "content": "to the job board and so on and and and and make that and make that work always",
+    "start": 1430
+  },
+  {
+    "content": "a very small service where with the traditional stack you would have had to",
+    "start": 1437
+  },
+  {
+    "content": "have this completely different monolithic service and this make it",
+    "start": 1441
+  },
+  {
+    "content": "truly composable I don't have a lot of time to talk about how we tightly serve",
+    "start": 1444
+  },
+  {
+    "content": "is together but the trick for usage is it's a small like we made a small API",
+    "start": 1449
+  },
+  {
+    "content": "called go through which is just a simple service for a user registration sign ups",
+    "start": 1455
+  },
+  {
+    "content": "login also completely open source available for anybody and it is use JSON",
+    "start": 1462
+  },
+  {
+    "content": "web tokens but the the idea is that that any of these small micro services we've",
+    "start": 1467
+  },
+  {
+    "content": "built for this it's a way of the of the concepts of JSON web tokens and JSON web",
+    "start": 1473
+  },
+  {
+    "content": "tokens it's a way of doing a cryptographically safe stateless user",
+    "start": 1480
+  },
+  {
+    "content": "authentication so it's a way for for the front-end to be able to tell go coomer's",
+    "start": 1486
+  },
+  {
+    "content": "now I made this order I sent this requesting and buying these items and",
+    "start": 1490
+  },
+  {
+    "content": "I'm doing it on behalf of someone that has this use ID then go commerce can",
+    "start": 1494
+  },
+  {
+    "content": "keep track of this use ID without having to have its own use a database or",
+    "start": 1499
+  },
+  {
+    "content": "anything and you can later look at of it since API it's so an important concept",
+    "start": 1502
+  },
+  {
+    "content": "of how JSON web tokens is also starting to enable us to compose all these small",
+    "start": 1507
+  },
+  {
+    "content": "different services and swap them in and out as we want or use some in one",
+    "start": 1512
+  },
+  {
+    "content": "project and summon another project and and hopefully start building up this",
+    "start": 1516
+  },
+  {
+    "content": "this ecosystem around the new and use a new front and stack a smashing also had",
+    "start": 1521
+  },
+  {
+    "content": "two hundred thousand comments is so we build it small we built a small is open",
+    "start": 1528
+  },
+  {
+    "content": "source project called hotels that will essentially act as a static API for",
+    "start": 1534
+  },
+  {
+    "content": "comments every time you push post in your comment it actually creates a",
+    "start": 1540
+  },
+  {
+    "content": "little community in github that triggers a built up the comments ID and then you",
+    "start": 1544
+  },
+  {
+    "content": "just have adjacent file for each thread and its lives directly on the CDN so",
+    "start": 1547
+  },
+  {
+    "content": "it's like very fast in terms of load time to fetch those client-side and and",
+    "start": 1552
+  },
+  {
+    "content": "and again there's no runtime involved when all those comments are served it's",
+    "start": 1558
+  },
+  {
+    "content": "completely stake in so that was a bit about like the open source ecosystem and",
+    "start": 1562
+  },
+  {
+    "content": "from our path this is this is just a way of trying to kick-start it guys like",
+    "start": 1568
+  },
+  {
+    "content": "this is just a way of growing out and saying hey we think all of these things",
+    "start": 1572
+  },
+  {
+    "content": "should exist we think they should be open we think this should be as a",
+    "start": 1575
+  },
+  {
+    "content": "standard based around and and open web architecture where we where",
+    "start": 1580
+  },
+  {
+    "content": "everybody can can contribute in and we hope many others will join us in",
+    "start": 1584
+  },
+  {
+    "content": "building these kind of services and expand the secret system in so that",
+    "start": 1590
+  },
+  {
+    "content": "that's what we are talking about when we're talking about the the damn stack",
+    "start": 1595
+  },
+  {
+    "content": "and it is this a mission for how we can move towards a much better web",
+    "start": 1599
+  },
+  {
+    "content": "architecture how we can fundamentally solve these issues around performance",
+    "start": 1605
+  },
+  {
+    "content": "security reliability and scalability that's been that that's been",
+    "start": 1608
+  },
+  {
+    "content": "ever-increasing the last 15 years and in just end with with with some of the best",
+    "start": 1613
+  },
+  {
+    "content": "practices that you can read on more in-depth against tech talk in one of the",
+    "start": 1620
+  },
+  {
+    "content": "one of the huge advantages with building things with this approach is that you",
+    "start": 1627
+  },
+  {
+    "content": "can get away from the concept of having a six at a single origin so if you take",
+    "start": 1630
+  },
+  {
+    "content": "a wordpress site no matter how many caching plugins you yours and so on",
+    "start": 1635
+  },
+  {
+    "content": "you're still running that that server somewhere specifically and you still",
+    "start": 1639
+  },
+  {
+    "content": "have that single single point of failure and you still have that round-trip that",
+    "start": 1643
+  },
+  {
+    "content": "means that if that servers in New York people from New York might get fast load",
+    "start": 1647
+  },
+  {
+    "content": "times but no matter how much you optimize things people in Tokyo will",
+    "start": 1651
+  },
+  {
+    "content": "probably have to wait at least a second just before they see the initial HTML",
+    "start": 1655
+  },
+  {
+    "content": "right so if you're building with this approach you need to take advantage of",
+    "start": 1659
+  },
+  {
+    "content": "it by actually distributing your front end all over the world and you like",
+    "start": 1664
+  },
+  {
+    "content": "everything lives and get like the whole point of this that started this for me",
+    "start": 1670
+  },
+  {
+    "content": "was this switch from an old workflow and and to a completely good centric",
+    "start": 1674
+  },
+  {
+    "content": "workflow in so I think it's important that we should think about like how can",
+    "start": 1680
+  },
+  {
+    "content": "we build on top of that how can we take this workflows we're already using its",
+    "start": 1685
+  },
+  {
+    "content": "developers and expand on those and making them more powerful in modern",
+    "start": 1688
+  },
+  {
+    "content": "build tools have have have come in like the whole Smashing site would not have",
+    "start": 1693
+  },
+  {
+    "content": "been possible if it wasn't for for a build tool like Google edge but that",
+    "start": 1698
+  },
+  {
+    "content": "that's capable of taking all of those thousands of articles and build out the",
+    "start": 1703
+  },
+  {
+    "content": "whole smashing front end in around 13 seconds and that's a huge step up for",
+    "start": 1708
+  },
+  {
+    "content": "where we where we were some years ago aim obviously automated",
+    "start": 1713
+  },
+  {
+    "content": "builds like this should not be something where the individual developer have to",
+    "start": 1719
+  },
+  {
+    "content": "run those built tools locally and then push them somewhere you should just be",
+    "start": 1723
+  },
+  {
+    "content": "able to rely on that whenever you update whenever you work in your git flow",
+    "start": 1727
+  },
+  {
+    "content": "there's just some system that will pick up what you do and and build your tool",
+    "start": 1731
+  },
+  {
+    "content": "same with deploys that you just have right like when you make a pull request",
+    "start": 1736
+  },
+  {
+    "content": "you should expect it to just go live somewhere and you can see it when you",
+    "start": 1740
+  },
+  {
+    "content": "make a branch you should expect it to just live somewhere where it gets",
+    "start": 1744
+  },
+  {
+    "content": "updated where where you pull push to it and the last thing is instant cache",
+    "start": 1747
+  },
+  {
+    "content": "invalidation if you do use a content delivery network make sure that that",
+    "start": 1752
+  },
+  {
+    "content": "doesn't mean that now that you give up on actually being able to change things",
+    "start": 1757
+  },
+  {
+    "content": "right like some some people put things on a content delivery network and",
+    "start": 1762
+  },
+  {
+    "content": "suddenly they have one-hour expiration times and all of the HTML files and",
+    "start": 1766
+  },
+  {
+    "content": "every time a content editor makes a mistake and pushes it live it's going to",
+    "start": 1770
+  },
+  {
+    "content": "be like for an hour and apart from that it ruined sort of the concept of being",
+    "start": 1774
+  },
+  {
+    "content": "able to do atomic deploys because those cache times are not necessarily coherent",
+    "start": 1779
+  },
+  {
+    "content": "across your site so if you push out immediate change every time you do that",
+    "start": 1784
+  },
+  {
+    "content": "you might have a certain amount of time where the site is just in an",
+    "start": 1788
+  },
+  {
+    "content": "inconsistent state and we should not expect that to ever be the case um so",
+    "start": 1792
+  },
+  {
+    "content": "that was that was a bit about the the gem stack about the the work we've been",
+    "start": 1797
+  },
+  {
+    "content": "doing to try to build out an ecosystem around it in and then I hope you all let",
+    "start": 1804
+  },
+  {
+    "content": "us know what you think about this approach and hopefully contribute to the",
+    "start": 1812
+  },
+  {
+    "content": "to the to the open source projects that we're making in and and keep the",
+    "start": 1816
+  },
+  {
+    "content": "conversation going so thank you",
+    "start": 1820
+  },
+  {
+    "content": "[Applause]",
+    "start": 1824
+  }
+]

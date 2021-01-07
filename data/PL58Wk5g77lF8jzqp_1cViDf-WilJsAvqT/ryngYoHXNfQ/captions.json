@@ -1,0 +1,830 @@
+[
+  {
+    "content": "hi everybody thank you for being here",
+    "start": 2
+  },
+  {
+    "content": "with us wherever here is for you for me here is the Oregon coast on the edge of",
+    "start": 17
+  },
+  {
+    "content": "the woods where I am working on a huge public health data project that I never",
+    "start": 25
+  },
+  {
+    "content": "expected to be young and I'm working at home with my family like probably many",
+    "start": 30
+  },
+  {
+    "content": "of you just about you get these rad headphones",
+    "start": 37
+  },
+  {
+    "content": "I'm here because Sarah Dresner of nutloaf I asked me to come and share a",
+    "start": 41
+  },
+  {
+    "content": "little bit about what we've been up to at the kovat tracking project at the",
+    "start": 47
+  },
+  {
+    "content": "Atlantic for the last going on three months and I am very happy to do so it",
+    "start": 50
+  },
+  {
+    "content": "turns out that to tell you what we're doing there's really three stories I",
+    "start": 58
+  },
+  {
+    "content": "need to tell the first one the jam stack story is honestly really joyful and",
+    "start": 63
+  },
+  {
+    "content": "great the second story about this volunteer project that coalesced around",
+    "start": 69
+  },
+  {
+    "content": "a major gap in final public health data is also really heartening and I'm",
+    "start": 75
+  },
+  {
+    "content": "excited to share it unfortunately both of those stories rests on an underlying",
+    "start": 81
+  },
+  {
+    "content": "massive failure on the part of public health agencies at most levels in the",
+    "start": 87
+  },
+  {
+    "content": "United States to produce and publish this data and that story is a huge",
+    "start": 94
+  },
+  {
+    "content": "bummer but it's important so I'm gonna tell it anyway",
+    "start": 101
+  },
+  {
+    "content": "so over the next 20 minutes I'm going to talk a lot about kovat 19 data so I want",
+    "start": 105
+  },
+  {
+    "content": "to give you just the one minute introduction to what that means and why",
+    "start": 111
+  },
+  {
+    "content": "it's so important to fight infectious disease you need information at the",
+    "start": 114
+  },
+  {
+    "content": "absolute minimum you need to know who is sick and where they are and when they",
+    "start": 119
+  },
+  {
+    "content": "got sick and how they're doing but getting even that most basic information",
+    "start": 124
+  },
+  {
+    "content": "has been complicated in the United States by tremendously limited testing",
+    "start": 129
+  },
+  {
+    "content": "capacity from the very beginning of the outbreak and in some cases still",
+    "start": 135
+  },
+  {
+    "content": "continuing to this day for a variety of reasons I won't go into we haven't had",
+    "start": 138
+  },
+  {
+    "content": "enough testing capacity to do universal testing",
+    "start": 143
+  },
+  {
+    "content": "everyone who is symptomatic or is known to have come into contact with someone",
+    "start": 148
+  },
+  {
+    "content": "who is infected so why is that a problem in public health terms you measure an",
+    "start": 152
+  },
+  {
+    "content": "outbreak of an infectious disease in case count that's how many people have",
+    "start": 160
+  },
+  {
+    "content": "tested positive for in this case Kovan 19 so to dramatically oversimplify let's",
+    "start": 164
+  },
+  {
+    "content": "say you have a population of a thousand people and you conduct and testing and",
+    "start": 172
+  },
+  {
+    "content": "you find two people who are infected that means you have a case count of two",
+    "start": 177
+  },
+  {
+    "content": "which in a population of a thousand maybe doesn't sound too bad but if it",
+    "start": 182
+  },
+  {
+    "content": "turns out your testing capacity is so limited that you only tested ten people",
+    "start": 188
+  },
+  {
+    "content": "your tape your case count of two becomes equivalent to a positivity rate of 20%",
+    "start": 192
+  },
+  {
+    "content": "two out of ten and you can therefore infer that in your population of a",
+    "start": 200
+  },
+  {
+    "content": "thousand people your actual case count is probably closer to 200 than to two so",
+    "start": 206
+  },
+  {
+    "content": "when you don't have sufficient testing you can't use a simple case count in",
+    "start": 213
+  },
+  {
+    "content": "isolation you need to take the number of positive tests which is equivalent to",
+    "start": 218
+  },
+  {
+    "content": "the case count and put it over the denominator which is the total number of",
+    "start": 225
+  },
+  {
+    "content": "tests performed then you can calculate a positivity rate and begin to understand",
+    "start": 229
+  },
+  {
+    "content": "what you might expect to see in the population since you can't directly",
+    "start": 235
+  },
+  {
+    "content": "measure it because you don't have enough tests now the total number of tests has",
+    "start": 238
+  },
+  {
+    "content": "been what we've been missing through much of the outbreak the CDC that's the",
+    "start": 244
+  },
+  {
+    "content": "Centers for Disease Control and Prevention the US federal agency in",
+    "start": 250
+  },
+  {
+    "content": "charge of fighting a virus like the corona virus did publish the total",
+    "start": 255
+  },
+  {
+    "content": "number of tests in the very very early days of the outbreak but on February",
+    "start": 262
+  },
+  {
+    "content": "29th they removed that information from their public website and that meant that",
+    "start": 266
+  },
+  {
+    "content": "beyond that point the United States response to Kovan 19 was flying blind",
+    "start": 272
+  },
+  {
+    "content": "so as it happens right around February 29th",
+    "start": 281
+  },
+  {
+    "content": "I'd been texting a lot with a friend of mine Robinson Meyer who was a journalist",
+    "start": 286
+  },
+  {
+    "content": "at the Atlantic here in the US and outside of my immediate household",
+    "start": 291
+  },
+  {
+    "content": "Robinson was one of the only people I knew who was as concerned as I was about",
+    "start": 299
+  },
+  {
+    "content": "what we were seeing in the United States in terms of markers of community",
+    "start": 303
+  },
+  {
+    "content": "transmission and what we weren't seeing which was testing data from the CDC or",
+    "start": 310
+  },
+  {
+    "content": "some indication of positivity rates and I went back and looked at our text chain",
+    "start": 315
+  },
+  {
+    "content": "from the last few days of February in the first few days of March and it was",
+    "start": 321
+  },
+  {
+    "content": "on March 5th that I got a text from Rob saying that he and another journalist at",
+    "start": 325
+  },
+  {
+    "content": "the Atlantic Alexis Madrigal had decided to go after the data now here I have to",
+    "start": 331
+  },
+  {
+    "content": "take a step sideways and explained that in the US because we're a federated",
+    "start": 338
+  },
+  {
+    "content": "system laboratories don't have to report all of their infectious disease tests",
+    "start": 343
+  },
+  {
+    "content": "directly to a central authority they report it to a state or local health",
+    "start": 349
+  },
+  {
+    "content": "department and the local health department's roll up to the state health",
+    "start": 354
+  },
+  {
+    "content": "department's so I assumed in early March that the CDC had information from all",
+    "start": 358
+  },
+  {
+    "content": "the states but they had collected from all of the labs but just wasn't",
+    "start": 367
+  },
+  {
+    "content": "publishing it for some reason what we did know is that states had the",
+    "start": 372
+  },
+  {
+    "content": "information for sure so what Rob told me was that he and Alexis had stayed up",
+    "start": 377
+  },
+  {
+    "content": "very late one night and gone to the public websites of every public health",
+    "start": 383
+  },
+  {
+    "content": "department in the United States and looked for cover 19 testing data and",
+    "start": 388
+  },
+  {
+    "content": "only some of the states were at that time publishing any of that data but",
+    "start": 392
+  },
+  {
+    "content": "they took everything there was and they put it all",
+    "start": 396
+  },
+  {
+    "content": "piece by piece into a Google spreadsheet and that turned into an Atlantic article",
+    "start": 400
+  },
+  {
+    "content": "and after that they discovered that there was another bioscience data guy",
+    "start": 408
+  },
+  {
+    "content": "that they had sort of a connection to who had independently been doing the",
+    "start": 414
+  },
+  {
+    "content": "same thing Jeff hammer Bakker so Rob and Alexis and",
+    "start": 418
+  },
+  {
+    "content": "Jeff decided to combine their efforts and keep doing that same kind of",
+    "start": 422
+  },
+  {
+    "content": "grueling data run of going through every Public Health Department collecting all",
+    "start": 427
+  },
+  {
+    "content": "the data compiling it into a spreadsheet and trying to understand a national",
+    "start": 431
+  },
+  {
+    "content": "picture of the outbreak they realized they definitely needed help if they were",
+    "start": 436
+  },
+  {
+    "content": "going to continue doing this work so the Cova tracking project was formed on",
+    "start": 440
+  },
+  {
+    "content": "March 7th with a call for volunteers and that's where I came in this is what the",
+    "start": 445
+  },
+  {
+    "content": "Cova tracking project looked like on March 7th it was a spreadsheet it",
+    "start": 456
+  },
+  {
+    "content": "actually we still have this spreadsheet it's still there it's linked up from the",
+    "start": 462
+  },
+  {
+    "content": "website all of our information is still available in exactly this form although",
+    "start": 466
+  },
+  {
+    "content": "we have some other things going on now which I'll tell you about this is what",
+    "start": 471
+  },
+  {
+    "content": "the actual data looks like this is the information that's being collected piece",
+    "start": 475
+  },
+  {
+    "content": "by piece every single day from every single state and the District of",
+    "start": 480
+  },
+  {
+    "content": "Columbia and five territories in the United States so I'm gonna pause and",
+    "start": 485
+  },
+  {
+    "content": "mention that every time I try to describe this project to someone from",
+    "start": 493
+  },
+  {
+    "content": "the tech side the first question is usually why didn't you just build a",
+    "start": 496
+  },
+  {
+    "content": "scraper and the answer is we did we built a fleet of scrapers and trackers",
+    "start": 501
+  },
+  {
+    "content": "and had some donated to us as well the problem is that this isn't one data set",
+    "start": 507
+  },
+  {
+    "content": "this is 56 individual extremely non-standard data sets more importantly",
+    "start": 515
+  },
+  {
+    "content": "though there are things about this data that require human intelligence to",
+    "start": 522
+  },
+  {
+    "content": "interpret when the footnotes change when state or territories definition of a",
+    "start": 527
+  },
+  {
+    "content": "metric changes which happens all the time and silently without any",
+    "start": 533
+  },
+  {
+    "content": "notification you need a human brain to go through",
+    "start": 538
+  },
+  {
+    "content": "and interpret what they mean so that's the complicated gross answer to why",
+    "start": 542
+  },
+  {
+    "content": "can't you just use a scraper and I should say I come from the old Internet",
+    "start": 548
+  },
+  {
+    "content": "my first paying job out of college was webmaster for a big Internet consulting",
+    "start": 552
+  },
+  {
+    "content": "company which is where I learned to run servers and write ASP so even though a",
+    "start": 558
+  },
+  {
+    "content": "lot of my work has been on the editorial side of the internet over the last 20",
+    "start": 564
+  },
+  {
+    "content": "years I've been around for several generations of big dynamic heavy",
+    "start": 569
+  },
+  {
+    "content": "websites and I have some alarm bells about what happens to some of those",
+    "start": 576
+  },
+  {
+    "content": "kinds of websites but a whole lot of traffic hits them unexpectedly and this",
+    "start": 583
+  },
+  {
+    "content": "seemed like a project that might get some traffic so I got in contact with an",
+    "start": 586
+  },
+  {
+    "content": "old friend Ethan Marcotte whom you may know as the person who came up with",
+    "start": 593
+  },
+  {
+    "content": "responsive web design he's also just a really really lovely",
+    "start": 597
+  },
+  {
+    "content": "human and I said Ethan we have we have this problem we need a website and we",
+    "start": 601
+  },
+  {
+    "content": "need it immediately and it needs to be super fast and super stable who do you",
+    "start": 608
+  },
+  {
+    "content": "think can help me and Ethan suggested our mutual internet friend Matt Marquess",
+    "start": 614
+  },
+  {
+    "content": "so I sent an email to Matt with the subject line hi Matt I have a terrible",
+    "start": 622
+  },
+  {
+    "content": "question for you and Matt wrote back and within a few hours of receiving this",
+    "start": 627
+  },
+  {
+    "content": "email we had him into slack and he'd spun up our net by instance which we are",
+    "start": 635
+  },
+  {
+    "content": "living in to this day so our first web site launched about four days after Matt",
+    "start": 641
+  },
+  {
+    "content": "got involved and before he handed it off to some other volunteers and it looked",
+    "start": 650
+  },
+  {
+    "content": "like this and this is what alexis Madrigal our project leader had to say",
+    "start": 655
+  },
+  {
+    "content": "about it I think my actual quote was something like today we make it work and",
+    "start": 664
+  },
+  {
+    "content": "tomorrow we make it not ugly but it was functional it did the job it",
+    "start": 670
+  },
+  {
+    "content": "stayed up and while we built a design team we had something that worked so we",
+    "start": 678
+  },
+  {
+    "content": "had a website we also realized that if we were going to keep doing this work",
+    "start": 688
+  },
+  {
+    "content": "for more than a few days we needed a lot more people so a lot of our attention",
+    "start": 692
+  },
+  {
+    "content": "went into building a sustainable organization that might be able to take",
+    "start": 697
+  },
+  {
+    "content": "this project on for at least another couple of weeks although every single",
+    "start": 701
+  },
+  {
+    "content": "day we woke up thinking this might be the day that the CDC starts publishing",
+    "start": 705
+  },
+  {
+    "content": "this data and we can all go back to our normal lives as much as you can have a",
+    "start": 709
+  },
+  {
+    "content": "normal life during a pandemic but every day that kept not happening and over the",
+    "start": 714
+  },
+  {
+    "content": "course of March the United States went from a few cases to a hundred cases to a",
+    "start": 722
+  },
+  {
+    "content": "thousand cases and then on March 26th became the world leader in kovat 19",
+    "start": 729
+  },
+  {
+    "content": "cases with still a very limited testing capacity that we knew was causing the",
+    "start": 736
+  },
+  {
+    "content": "test count number to be lower than the actual infection rate so as the single",
+    "start": 742
+  },
+  {
+    "content": "source of the denominator the total test number we knew we had to keep doing the",
+    "start": 748
+  },
+  {
+    "content": "work now around this time we began to get some",
+    "start": 754
+  },
+  {
+    "content": "serious uptake in the press so we started to see our data being used by",
+    "start": 759
+  },
+  {
+    "content": "national press outlets even more meaningfully to us we started seeing",
+    "start": 764
+  },
+  {
+    "content": "dozens of local news organizations television stations and newspapers using",
+    "start": 769
+  },
+  {
+    "content": "our data which meant that these news organizations who couldn't possibly have",
+    "start": 775
+  },
+  {
+    "content": "done a giant data project like this were able to serve their communities with",
+    "start": 780
+  },
+  {
+    "content": "information they really needed about their own state and how it compared to",
+    "start": 784
+  },
+  {
+    "content": "other states so that to us felt like a great success for an interim public data",
+    "start": 788
+  },
+  {
+    "content": "rescue project which is what we considered ourselves to be at the time",
+    "start": 795
+  },
+  {
+    "content": "so in the continued absence of centralized official data from the CDC",
+    "start": 799
+  },
+  {
+    "content": "we decided we just had to keep chugging so we focused on building out the",
+    "start": 804
+  },
+  {
+    "content": "organization's capacity and we wound up with dozens and eventually hundreds of",
+    "start": 809
+  },
+  {
+    "content": "volunteers including data scientists and public health specialists",
+    "start": 815
+  },
+  {
+    "content": "epidemiologists but also designers and developers and data VA's experts and",
+    "start": 820
+  },
+  {
+    "content": "reporters and a lot of other people whose day jobs had nothing to do with",
+    "start": 826
+  },
+  {
+    "content": "this work but felt moved to devote hours of their days and evenings and weekends",
+    "start": 831
+  },
+  {
+    "content": "to filling this public health data gap as we did so we realized we needed to",
+    "start": 838
+  },
+  {
+    "content": "launch perhaps a more professional version of the website and so our design",
+    "start": 847
+  },
+  {
+    "content": "team less than one month from the launch of that first version developed the",
+    "start": 853
+  },
+  {
+    "content": "version that essentially is what we have up now although it's undergone an",
+    "start": 858
+  },
+  {
+    "content": "additional homepage refresh and it's beautiful and accessible and probably",
+    "start": 862
+  },
+  {
+    "content": "doesn't look like it was made by a lot of people staying up super late at night",
+    "start": 869
+  },
+  {
+    "content": "but it's also just solid as hell and we moved into the new stack at the same",
+    "start": 872
+  },
+  {
+    "content": "time we launched the new design we are still hosted on that if I as we have",
+    "start": 879
+  },
+  {
+    "content": "been from day one and nullify has also offered to comp even in from our very",
+    "start": 884
+  },
+  {
+    "content": "early days all of our hosting costs so we are extremely grateful to them and",
+    "start": 889
+  },
+  {
+    "content": "many of our other vendors who have extended us a lot of gracious help the",
+    "start": 893
+  },
+  {
+    "content": "site is built with Gatsby and all of our data comes from Google sheets and our",
+    "start": 900
+  },
+  {
+    "content": "CMS contentful everything goes into the API and over the course of the last",
+    "start": 905
+  },
+  {
+    "content": "three months we've gone from nothing to about 2 million API requests per day or",
+    "start": 913
+  },
+  {
+    "content": "serving millions of unique users all over the world and our API is powering",
+    "start": 919
+  },
+  {
+    "content": "not just our site but hundreds of journalism and medical research and",
+    "start": 924
+  },
+  {
+    "content": "disease modeling projects our testing data through the API now powers the",
+    "start": 930
+  },
+  {
+    "content": "Johns Hopkins University testing insights project",
+    "start": 934
+  },
+  {
+    "content": "and as it turns out has gone places we never expected it to go this is a look",
+    "start": 938
+  },
+  {
+    "content": "at what happened to our website traffic when unexpectedly for us the White House",
+    "start": 945
+  },
+  {
+    "content": "released on television and in a giant PDF their plan for reopening the country",
+    "start": 953
+  },
+  {
+    "content": "citing our testing data as opposed to official testing data from the CDC which",
+    "start": 961
+  },
+  {
+    "content": "continued not to exist and I just want to say the extraordinary thing to me as",
+    "start": 967
+  },
+  {
+    "content": "a web person from the old days is that we didn't actually notice that traffic",
+    "start": 974
+  },
+  {
+    "content": "on the website the website never so much is flinched and we also not only didn't",
+    "start": 980
+  },
+  {
+    "content": "the site crash but we didn't get to have that extremely 1990s web experience of",
+    "start": 986
+  },
+  {
+    "content": "realizing that a traffic surge had bankrupted our organization even if net",
+    "start": 991
+  },
+  {
+    "content": "if I hadn't been company our hosting we would have been talking about a very",
+    "start": 996
+  },
+  {
+    "content": "minimal set of costs associated with the jump like that as opposed to the",
+    "start": 1000
+  },
+  {
+    "content": "potentially hundreds of thousands of dollars this would have cost in the old",
+    "start": 1004
+  },
+  {
+    "content": "days throughout all of this our stock has remained tremendously stable even as",
+    "start": 1009
+  },
+  {
+    "content": "our volunteer organization has been necessarily pretty chaotic our website",
+    "start": 1015
+  },
+  {
+    "content": "team lead Kevin Miller has done an extraordinary job keeping everything as",
+    "start": 1021
+  },
+  {
+    "content": "orderly as possible he did want to mention that SAS modules have been",
+    "start": 1025
+  },
+  {
+    "content": "lifesavers for keeping CSS work from crashing but I just want to note all of",
+    "start": 1029
+  },
+  {
+    "content": "this happened in the course of 81 days with a team of volunteers working at",
+    "start": 1036
+  },
+  {
+    "content": "home often with their families in the middle of a pandemic and having our",
+    "start": 1041
+  },
+  {
+    "content": "stock be so solid so stable and so fast has been a saving grace in the middle of",
+    "start": 1046
+  },
+  {
+    "content": "this otherwise extremely complex project so we're still here",
+    "start": 1052
+  },
+  {
+    "content": "we have committed to being here as an organization until we no longer need to",
+    "start": 1060
+  },
+  {
+    "content": "do this work to recap I want to say that I don't think there's",
+    "start": 1065
+  },
+  {
+    "content": "anyway we could have done this work on the internet without the modern stock it",
+    "start": 1071
+  },
+  {
+    "content": "has been a joy to see it in action and I'm tremendously grateful to all of our",
+    "start": 1076
+  },
+  {
+    "content": "volunteers and also the companies who have supported our work by giving us",
+    "start": 1082
+  },
+  {
+    "content": "their services in this time of crisis I want to say our volunteers have done",
+    "start": 1086
+  },
+  {
+    "content": "something extraordinary rescuing this public data and building an archive that",
+    "start": 1091
+  },
+  {
+    "content": "won't go away in the middle of a pandemic I also have to say this work",
+    "start": 1097
+  },
+  {
+    "content": "should not have been done by volunteers it is a failure of the government",
+    "start": 1104
+  },
+  {
+    "content": "agencies responsible for doing this work that it had to be done in this way but I",
+    "start": 1110
+  },
+  {
+    "content": "don't want to leave you with that what I want to say instead is that it's very",
+    "start": 1117
+  },
+  {
+    "content": "easy to feel helpless in a time like this when it seems like the people whose",
+    "start": 1123
+  },
+  {
+    "content": "job it is to keep us safe have not been keeping us safe but what this project",
+    "start": 1130
+  },
+  {
+    "content": "has showed me is that even when our systems are failing us in truth we are",
+    "start": 1137
+  },
+  {
+    "content": "not helpless there are unglamorous difficult",
+    "start": 1145
+  },
+  {
+    "content": "infrastructure style projects to be done and if we choose to we can fill these",
+    "start": 1150
+  },
+  {
+    "content": "gaps and help take care of each other even when times are really dark thank",
+    "start": 1157
+  },
+  {
+    "content": "you so much to James Caan for having me here to talk about our project and thank",
+    "start": 1165
+  },
+  {
+    "content": "you to all of you who came to listen I hope you and your families stay safe and",
+    "start": 1170
+  },
+  {
+    "content": "well",
+    "start": 1175
+  },
+  {
+    "content": "you",
+    "start": 1183
+  }
+]

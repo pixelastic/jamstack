@@ -1,0 +1,1238 @@
+[
+  {
+    "content": "hi everybody",
+    "start": 0
+  },
+  {
+    "content": "and welcome to the state of the jam stack at",
+    "start": 12
+  },
+  {
+    "content": "our second virtual jam stack conference obviously 2020 has been a really",
+    "start": 15
+  },
+  {
+    "content": "challenging year for all of us with pandemic fires",
+    "start": 22
+  },
+  {
+    "content": "hurricanes turmoil recession and once again because of the",
+    "start": 26
+  },
+  {
+    "content": "pandemic we've had to take the jam sac conference",
+    "start": 30
+  },
+  {
+    "content": "virtual instead of celebrating it on location in",
+    "start": 33
+  },
+  {
+    "content": "san francisco so this is the second time that we are",
+    "start": 36
+  },
+  {
+    "content": "all together in a virtual space instead of in the real world and on the plus",
+    "start": 40
+  },
+  {
+    "content": "side this does mean that that that we can fit",
+    "start": 45
+  },
+  {
+    "content": "a lot more of us and i'm really excited to to see all of",
+    "start": 47
+  },
+  {
+    "content": "you and to be here with you um 2020 even if it's",
+    "start": 51
+  },
+  {
+    "content": "been rough it hasn't stopped the jam stack last",
+    "start": 56
+  },
+  {
+    "content": "time at the previous jam set conference we saw",
+    "start": 58
+  },
+  {
+    "content": "exciting projects like covettracking.com use the jam stack to really tackle like",
+    "start": 61
+  },
+  {
+    "content": "how do we build for a global scale during a con pandemic with small",
+    "start": 67
+  },
+  {
+    "content": "localized teams and it since then we're now",
+    "start": 72
+  },
+  {
+    "content": "running more than 465 sites on our core with planet netlify our",
+    "start": 76
+  },
+  {
+    "content": "nonprofit plan for for companies or for teams that are trying to tackle",
+    "start": 81
+  },
+  {
+    "content": "their global pandemic through research and knowledge sharing and so on",
+    "start": 85
+  },
+  {
+    "content": "at the at the same time we uh celebrated that niddlify crossing one million",
+    "start": 90
+  },
+  {
+    "content": "developers signed up to our platform just as a",
+    "start": 95
+  },
+  {
+    "content": "testament to how much traction this category and this",
+    "start": 98
+  },
+  {
+    "content": "this space we're in have right now and we've seen it just the two",
+    "start": 102
+  },
+  {
+    "content": "frameworks gatsby and next grow to a place where we're seeing more than a",
+    "start": 107
+  },
+  {
+    "content": "million npm downloads every single month we also see a really",
+    "start": 110
+  },
+  {
+    "content": "vibrant ecosystem in the framework space with",
+    "start": 116
+  },
+  {
+    "content": "new frameworks like scully or toast knox huco sapper gritsum all seeing",
+    "start": 119
+  },
+  {
+    "content": "really active development 11t toast is a fun",
+    "start": 125
+  },
+  {
+    "content": "one like really it's trying to pave the way for",
+    "start": 129
+  },
+  {
+    "content": "non-javascript based javascript build tools like it's uh",
+    "start": 133
+  },
+  {
+    "content": "based on on rust and and really interesting but just showing that",
+    "start": 136
+  },
+  {
+    "content": "there's still so much experimentation and so much development",
+    "start": 140
+  },
+  {
+    "content": "happening in this whole category and just in 2020",
+    "start": 144
+  },
+  {
+    "content": "we've seen more than a hundred million dollars in",
+    "start": 149
+  },
+  {
+    "content": "venture funding go to companies like commercially and sell",
+    "start": 152
+  },
+  {
+    "content": "fauna and ourselves at netlify and so on um and we know that there's even more",
+    "start": 156
+  },
+  {
+    "content": "funding rounds getting announced soon stay",
+    "start": 162
+  },
+  {
+    "content": "stay tuned for some interesting announcement coming up in the next",
+    "start": 164
+  },
+  {
+    "content": "couple of days but this again just shows like this",
+    "start": 167
+  },
+  {
+    "content": "really strong interest in in the jam stack space and",
+    "start": 171
+  },
+  {
+    "content": "how vibrant the ecosystem is and the jam stack is really as an",
+    "start": 174
+  },
+  {
+    "content": "architecture much bigger than any single framework or",
+    "start": 180
+  },
+  {
+    "content": "any single vendor like like ourselves when we set out to build",
+    "start": 183
+  },
+  {
+    "content": "the jam stack or when we coined the term jam stack",
+    "start": 188
+  },
+  {
+    "content": "we never talked about it as just about like static sites or",
+    "start": 192
+  },
+  {
+    "content": "simple markdown based blocks or something like that it was",
+    "start": 196
+  },
+  {
+    "content": "always about a broader direction for how we developed for the web",
+    "start": 199
+  },
+  {
+    "content": "it was always about jam stack for web applications",
+    "start": 204
+  },
+  {
+    "content": "the jam stack is sort of right in the middle",
+    "start": 209
+  },
+  {
+    "content": "of a tremendous wave of innovation that's expanding what the web is capable",
+    "start": 212
+  },
+  {
+    "content": "of and that's really changing the developer experience and changing",
+    "start": 217
+  },
+  {
+    "content": "where processing happens and how we deliver sites and applications",
+    "start": 221
+  },
+  {
+    "content": "like who would have thought just a few years ago that the fastest growing ide",
+    "start": 226
+  },
+  {
+    "content": "for developers the fastest growing office suit and the",
+    "start": 231
+  },
+  {
+    "content": "fastest growing graphics program would all be delivered as web",
+    "start": 235
+  },
+  {
+    "content": "apps today this is really remarkable and a sign of",
+    "start": 239
+  },
+  {
+    "content": "like how far we've come web development has become software",
+    "start": 242
+  },
+  {
+    "content": "development the jam stack brings a lot of the principles and",
+    "start": 246
+  },
+  {
+    "content": "practices of robust software development like",
+    "start": 250
+  },
+  {
+    "content": "git based workflows the idea of atomic deploys",
+    "start": 252
+  },
+  {
+    "content": "building lending code and so on to web developers",
+    "start": 256
+  },
+  {
+    "content": "and so it's changing how the web is built and it's also changing how the web",
+    "start": 259
+  },
+  {
+    "content": "is being delivered from going from a single",
+    "start": 263
+  },
+  {
+    "content": "origin where you have like your web server living in a specific data center",
+    "start": 266
+  },
+  {
+    "content": "to this idea of distributing your side eye application",
+    "start": 271
+  },
+  {
+    "content": "on edge nodes all over the world but the core we talked about back when",
+    "start": 274
+  },
+  {
+    "content": "we coined the term dm stack was really about this idea of reversing",
+    "start": 280
+  },
+  {
+    "content": "the flow it was a term that came about through",
+    "start": 285
+  },
+  {
+    "content": "speaking to lots of different people in the ecosystem from",
+    "start": 288
+  },
+  {
+    "content": "people that were working on site generators to",
+    "start": 291
+  },
+  {
+    "content": "people that were doing platforms as a service or people that",
+    "start": 294
+  },
+  {
+    "content": "would later go on to launch some of the exciting frameworks we're seeing today",
+    "start": 297
+  },
+  {
+    "content": "like redwood and it was really about this idea of",
+    "start": 301
+  },
+  {
+    "content": "reversing the flow away from this central request response cycle so",
+    "start": 306
+  },
+  {
+    "content": "if we dive back into sort of the traditional",
+    "start": 311
+  },
+  {
+    "content": "monolithic application the way we structured our application and the way",
+    "start": 314
+  },
+  {
+    "content": "we built for the web was always like fundamentally really",
+    "start": 319
+  },
+  {
+    "content": "centered around this idea that a request would come in",
+    "start": 323
+  },
+  {
+    "content": "to a web server in some specific data center it would",
+    "start": 326
+  },
+  {
+    "content": "talk to our application server and then that application server would",
+    "start": 329
+  },
+  {
+    "content": "connect to typically a general purpose database",
+    "start": 333
+  },
+  {
+    "content": "maybe a search engine maybe different apis and services in a resource oriented",
+    "start": 336
+  },
+  {
+    "content": "architecture and we would have these different layers",
+    "start": 341
+  },
+  {
+    "content": "of compute and data right like the web server",
+    "start": 344
+  },
+  {
+    "content": "would really be a very specialized compute layer very focused on",
+    "start": 346
+  },
+  {
+    "content": "routing redirect rules proxying things like that",
+    "start": 350
+  },
+  {
+    "content": "and then we would have a general purpose compute layer",
+    "start": 353
+  },
+  {
+    "content": "at our application server that was sort of the center of this request response",
+    "start": 356
+  },
+  {
+    "content": "cycle and if we look at like the typical like",
+    "start": 360
+  },
+  {
+    "content": "this is just from magnolia's documentation about how to run magnolia",
+    "start": 364
+  },
+  {
+    "content": "in production right like we see this whole like complex",
+    "start": 368
+  },
+  {
+    "content": "monolithic system built with the application server",
+    "start": 372
+  },
+  {
+    "content": "absolutely in the in the center of it in a similar",
+    "start": 375
+  },
+  {
+    "content": "vein this is just from wordpress like on on a",
+    "start": 378
+  },
+  {
+    "content": "guide on how to run wordpress on on aws right you really get",
+    "start": 382
+  },
+  {
+    "content": "this sense of the request coming in running through",
+    "start": 386
+  },
+  {
+    "content": "the load balancers going to the application servers",
+    "start": 389
+  },
+  {
+    "content": "the application servers really being like this monolithic compute layer",
+    "start": 392
+  },
+  {
+    "content": "in the center of everything contacting all the different",
+    "start": 397
+  },
+  {
+    "content": "services search engines and so on and then sending back a response",
+    "start": 400
+  },
+  {
+    "content": "and this was just like a good diagram i i found like of a typical",
+    "start": 405
+  },
+  {
+    "content": "like web application architecture and how we built these things right and i",
+    "start": 410
+  },
+  {
+    "content": "guess we again we have like in the center of the whole universe",
+    "start": 414
+  },
+  {
+    "content": "this idea of the web application server that's connected to general purpose",
+    "start": 418
+  },
+  {
+    "content": "database and then typically cert talks to",
+    "start": 423
+  },
+  {
+    "content": "different services to search engines and triggers background jobs and so on but",
+    "start": 426
+  },
+  {
+    "content": "again everything is oriented around this request response",
+    "start": 431
+  },
+  {
+    "content": "cycle that that goes from the user through",
+    "start": 435
+  },
+  {
+    "content": "this app server layer and with the jam stack approach what we",
+    "start": 437
+  },
+  {
+    "content": "thought back then was really like we can reverse the flow we can say like",
+    "start": 442
+  },
+  {
+    "content": "instead of building everything on the fly and",
+    "start": 447
+  },
+  {
+    "content": "having that like centralized application server",
+    "start": 450
+  },
+  {
+    "content": "as the center of everything we can detect when everything anything changes",
+    "start": 453
+  },
+  {
+    "content": "in source code or in content and then we can pre-build as much as",
+    "start": 458
+  },
+  {
+    "content": "possible in a build step and push it out to the",
+    "start": 462
+  },
+  {
+    "content": "edge layer and get it much closer to the user game",
+    "start": 466
+  },
+  {
+    "content": "and um and really like shortening the distance",
+    "start": 471
+  },
+  {
+    "content": "from the user to the pre-built front end and then also having the user just talk",
+    "start": 475
+  },
+  {
+    "content": "directly to these different apis and services",
+    "start": 480
+  },
+  {
+    "content": "like suddenly our search engine might just become a service like",
+    "start": 483
+  },
+  {
+    "content": "algolia that's like globally distributed on its network in itself and that you",
+    "start": 487
+  },
+  {
+    "content": "talk to straight from the browser instead of going through that whole",
+    "start": 491
+  },
+  {
+    "content": "request response cycle that depends on our centralized application server",
+    "start": 495
+  },
+  {
+    "content": "so we try to pre-build as much as we can and push it to the",
+    "start": 501
+  },
+  {
+    "content": "to the edge and in these typical jam stack diagrams",
+    "start": 505
+  },
+  {
+    "content": "we just no longer have an application server the edge has become",
+    "start": 508
+  },
+  {
+    "content": "like the first point of contact and we've really decoupled",
+    "start": 512
+  },
+  {
+    "content": "all these different layers that before either left within",
+    "start": 516
+  },
+  {
+    "content": "our application servers and our general purpose databases or behind them",
+    "start": 520
+  },
+  {
+    "content": "a to let the user just talk directly to them",
+    "start": 526
+  },
+  {
+    "content": "as apis and a lot of these apis like they are really rethinking in a way",
+    "start": 530
+  },
+  {
+    "content": "what what it means to have general compute in general storage right like",
+    "start": 536
+  },
+  {
+    "content": "before you would have this general compute layer and this general storage",
+    "start": 540
+  },
+  {
+    "content": "layer that might both do your search and your authentication and your",
+    "start": 543
+  },
+  {
+    "content": "subscriptions and storing users storing orders storing",
+    "start": 548
+  },
+  {
+    "content": "content all all in one monolithic application",
+    "start": 552
+  },
+  {
+    "content": "today many of those functionalities have even spun out to be independent",
+    "start": 556
+  },
+  {
+    "content": "companies like contentful for content right and",
+    "start": 560
+  },
+  {
+    "content": "again this is really sort of a couple together specialized",
+    "start": 563
+  },
+  {
+    "content": "compute layer and and specialized data layer for your",
+    "start": 567
+  },
+  {
+    "content": "content of xero right is an example of a you can store",
+    "start": 571
+  },
+  {
+    "content": "your users there in a specialized database right it's not",
+    "start": 576
+  },
+  {
+    "content": "for you don't have to do any data modeling",
+    "start": 579
+  },
+  {
+    "content": "you just put users there and they have a format for that that's",
+    "start": 582
+  },
+  {
+    "content": "tied to a special purpose compute layer for authentication",
+    "start": 585
+  },
+  {
+    "content": "sign in sign-ons the detection of fraudulent sign-ons and so on",
+    "start": 588
+  },
+  {
+    "content": "i mentioned algolia before shopify can be used in a headless mode",
+    "start": 593
+  },
+  {
+    "content": "similarly as your sort of specialized data store and compute layer for",
+    "start": 598
+  },
+  {
+    "content": "payments and orders and so on and really if we think back to to the to",
+    "start": 602
+  },
+  {
+    "content": "the old model right like if any of you have tried building",
+    "start": 608
+  },
+  {
+    "content": "something like a subscription an invoicing and billing model this is",
+    "start": 611
+  },
+  {
+    "content": "just like a a database diagram of",
+    "start": 615
+  },
+  {
+    "content": "how to model that and i can tell you like this this is really hard and it's",
+    "start": 619
+  },
+  {
+    "content": "hard to get right and you will have to go through lots of",
+    "start": 623
+  },
+  {
+    "content": "iterations lots of box lots of thinking of data structures and so on",
+    "start": 626
+  },
+  {
+    "content": "and today you would probably be much better off by just adopting stripe and",
+    "start": 631
+  },
+  {
+    "content": "saying like they've done all the data modeling for",
+    "start": 634
+  },
+  {
+    "content": "you they've done all the specialized compute around triggering subscriptions",
+    "start": 637
+  },
+  {
+    "content": "changing plans sending invoices around reporting and",
+    "start": 642
+  },
+  {
+    "content": "analytics and all of these things and then",
+    "start": 647
+  },
+  {
+    "content": "what what you have to do is just a very simple general compute layer that you",
+    "start": 652
+  },
+  {
+    "content": "can typically handle in something like a neatly five function or an aws lambda",
+    "start": 657
+  },
+  {
+    "content": "function or any anything like that that that",
+    "start": 663
+  },
+  {
+    "content": "allows you to take just small bits of general purpose compute",
+    "start": 665
+  },
+  {
+    "content": "and and write code against these more special purpose",
+    "start": 670
+  },
+  {
+    "content": "services right like so this is just a little code snippet from from from a",
+    "start": 673
+  },
+  {
+    "content": "real world nearly 5 function that that that deals with with with stripes",
+    "start": 677
+  },
+  {
+    "content": "billing portal um and if we look at this",
+    "start": 682
+  },
+  {
+    "content": "jam stack architecture of course we still have general purpose compute",
+    "start": 687
+  },
+  {
+    "content": "and general purpose data but we often see",
+    "start": 691
+  },
+  {
+    "content": "that it gets simpler it gets smaller and easier to reason about",
+    "start": 694
+  },
+  {
+    "content": "each function we deploy only have the dependencies that are needed for that",
+    "start": 698
+  },
+  {
+    "content": "function to to to run and to interact with with",
+    "start": 703
+  },
+  {
+    "content": "other services and often we're even seeing the data",
+    "start": 706
+  },
+  {
+    "content": "layer for those functions become simpler often more of a key value",
+    "start": 709
+  },
+  {
+    "content": "store when when when you're already delegating so",
+    "start": 713
+  },
+  {
+    "content": "much of the more complex data modeling to ready-made services in",
+    "start": 716
+  },
+  {
+    "content": "and um if we if we go to sort of the oral compute model",
+    "start": 723
+  },
+  {
+    "content": "on the jam stack we have this we still have this specialized compute layer just",
+    "start": 728
+  },
+  {
+    "content": "like the we had it with the web server in the",
+    "start": 732
+  },
+  {
+    "content": "old architecture that will typically handle routing and directly serving",
+    "start": 734
+  },
+  {
+    "content": "assets in simple forms of authentication",
+    "start": 739
+  },
+  {
+    "content": "then we have a general purpose compute layer in in our build step",
+    "start": 744
+  },
+  {
+    "content": "then we can do anything but it's all decoupled completely from the",
+    "start": 748
+  },
+  {
+    "content": "request response cycle and the flow is really reversed right like we built",
+    "start": 752
+  },
+  {
+    "content": "and then we push it out to the edge but in the legacy approach when we look",
+    "start": 755
+  },
+  {
+    "content": "at the application server we also we have these",
+    "start": 761
+  },
+  {
+    "content": "things that people do during the request",
+    "start": 764
+  },
+  {
+    "content": "response cycle like authentication or personalization",
+    "start": 766
+  },
+  {
+    "content": "or routing routing to authenticated",
+    "start": 770
+  },
+  {
+    "content": "services in a resource-oriented architecture",
+    "start": 773
+  },
+  {
+    "content": "that that we can't quite do with just the specialized compute in the web",
+    "start": 775
+  },
+  {
+    "content": "server it's too complex to just fit into a set of",
+    "start": 780
+  },
+  {
+    "content": "redirect or rewrite rules and it has to happen as part of this",
+    "start": 782
+  },
+  {
+    "content": "request response cycle so how can we solve for that",
+    "start": 786
+  },
+  {
+    "content": "when we're working within a jam stack approach where we've really",
+    "start": 792
+  },
+  {
+    "content": "fundamentally reversed this flow and we no longer depend on this traditional",
+    "start": 796
+  },
+  {
+    "content": "request response cycle how can we bring that to the edge and",
+    "start": 800
+  },
+  {
+    "content": "closer to the user so five years ago at niddlify we built",
+    "start": 804
+  },
+  {
+    "content": "out a whole new infrastructure for the jam",
+    "start": 810
+  },
+  {
+    "content": "stack we we saw back then that in all the",
+    "start": 812
+  },
+  {
+    "content": "traditional edge networks at the time were really",
+    "start": 816
+  },
+  {
+    "content": "just content delivery networks that were made to sit in front of your origin in",
+    "start": 818
+  },
+  {
+    "content": "front of your application server and we needed an edge network that was",
+    "start": 822
+  },
+  {
+    "content": "really meant to replace your application server where",
+    "start": 827
+  },
+  {
+    "content": "you no longer think about that where you just",
+    "start": 829
+  },
+  {
+    "content": "push to the edge and you have your assets ready for the user",
+    "start": 832
+  },
+  {
+    "content": "and since then over the last many years of course we've talked to so many",
+    "start": 835
+  },
+  {
+    "content": "customers and even potential customers and some do",
+    "start": 839
+  },
+  {
+    "content": "need that general purpose compute layer during the request response cycle for",
+    "start": 844
+  },
+  {
+    "content": "when they're doing maybe more advanced personalization uh when",
+    "start": 848
+  },
+  {
+    "content": "they're building e-commerce with with where",
+    "start": 852
+  },
+  {
+    "content": "personalization can be really critical for conversions",
+    "start": 855
+  },
+  {
+    "content": "or if they're doing more complex authentication patterns",
+    "start": 858
+  },
+  {
+    "content": "anything like that and as we worked on on this at netlify and talk to the",
+    "start": 862
+  },
+  {
+    "content": "whole ecosystem partners in the framework space or service space and",
+    "start": 867
+  },
+  {
+    "content": "so on we became increasingly aware that we had to",
+    "start": 872
+  },
+  {
+    "content": "really rethink how the jam stack was served at nilify",
+    "start": 876
+  },
+  {
+    "content": "so the result for us has been like",
+    "start": 880
+  },
+  {
+    "content": "thousands of hours later a completely new superhighway for the",
+    "start": 883
+  },
+  {
+    "content": "jam stack we've rebuilt our entire edge software",
+    "start": 886
+  },
+  {
+    "content": "completely under the code name traffic mesh and",
+    "start": 890
+  },
+  {
+    "content": "we've been building the next iteration of netify's edge and",
+    "start": 893
+  },
+  {
+    "content": "this is why we're now able to introduce edge handlers",
+    "start": 899
+  },
+  {
+    "content": "so in addition to pre-computed assets and declarative rules for routing",
+    "start": 904
+  },
+  {
+    "content": "it adds the ability to run general purpose compute directly",
+    "start": 909
+  },
+  {
+    "content": "at the edge as part of the request response cycle and we see this",
+    "start": 913
+  },
+  {
+    "content": "as really essential for handling these cases around personalization",
+    "start": 917
+  },
+  {
+    "content": "authentication routing to authenticated services",
+    "start": 922
+  },
+  {
+    "content": "we've had examples of retailers that wants to show as",
+    "start": 925
+  },
+  {
+    "content": "the closest shop to you when you access the home page",
+    "start": 929
+  },
+  {
+    "content": "in this again something that you can't just do with with a completely",
+    "start": 933
+  },
+  {
+    "content": "like a declarative rule you need some logic in place",
+    "start": 938
+  },
+  {
+    "content": "and with edge handlers we'll allow you to write that logic",
+    "start": 941
+  },
+  {
+    "content": "and again just as with netlife functions we tend to see",
+    "start": 945
+  },
+  {
+    "content": "that that this logic layer becomes simpler",
+    "start": 949
+  },
+  {
+    "content": "easier to reason about it's not about a big monolithic application",
+    "start": 953
+  },
+  {
+    "content": "handling these concerns in in a full request response cycle",
+    "start": 957
+  },
+  {
+    "content": "it's really about being able to write simply simple handlers",
+    "start": 961
+  },
+  {
+    "content": "that runs directly during the edge typically in milliseconds",
+    "start": 965
+  },
+  {
+    "content": "and it's really about shortening the distance from the user",
+    "start": 968
+  },
+  {
+    "content": "to authentication to personalization to authenticated proxying",
+    "start": 972
+  },
+  {
+    "content": "or just general compute in that at the routing layer",
+    "start": 976
+  },
+  {
+    "content": "the the imagination of what you can do with this",
+    "start": 980
+  },
+  {
+    "content": "is is something that we're really excited about exploring now that we are",
+    "start": 983
+  },
+  {
+    "content": "taking it into the world and and if we think about compute in",
+    "start": 987
+  },
+  {
+    "content": "general as a part of the netlify platform we",
+    "start": 992
+  },
+  {
+    "content": "we have these three varieties of general purpose compute for your application",
+    "start": 996
+  },
+  {
+    "content": "there's like the special purpose compute like that's pre-computed right like",
+    "start": 1000
+  },
+  {
+    "content": "anything that you get directly from our edge network",
+    "start": 1004
+  },
+  {
+    "content": "there's the edge routing and it's compute that um",
+    "start": 1007
+  },
+  {
+    "content": "that happens in in milliseconds right like um this is the this is the layer",
+    "start": 1011
+  },
+  {
+    "content": "where we're now introducing edge handlers for anything",
+    "start": 1017
+  },
+  {
+    "content": "that you can run in a few milliseconds you can push it directly to the edge and",
+    "start": 1020
+  },
+  {
+    "content": "handle it there and then of course you have the build",
+    "start": 1023
+  },
+  {
+    "content": "layer where you can do long running general purpose compute",
+    "start": 1027
+  },
+  {
+    "content": "processes to pre-build as much as possible of the whole experience",
+    "start": 1030
+  },
+  {
+    "content": "upfront for a long time now we've had netlife functions",
+    "start": 1034
+  },
+  {
+    "content": "as as as this first layer for um apis microservices blue code",
+    "start": 1039
+  },
+  {
+    "content": "anything that you can run within a request response cycle in a few seconds",
+    "start": 1046
+  },
+  {
+    "content": "so ideal for building api endpoints that",
+    "start": 1049
+  },
+  {
+    "content": "need to be close to the close to the data or in",
+    "start": 1053
+  },
+  {
+    "content": "ideal for building this glue code between your different specialized",
+    "start": 1057
+  },
+  {
+    "content": "services like stripe or contentful or any of these",
+    "start": 1060
+  },
+  {
+    "content": "that just needs to tie together a few different components",
+    "start": 1064
+  },
+  {
+    "content": "but today we're also introducing a fourth layer of general purpose compute",
+    "start": 1068
+  },
+  {
+    "content": "that we call background functions so this is really for",
+    "start": 1074
+  },
+  {
+    "content": "running async processes if you want to do batch processing",
+    "start": 1077
+  },
+  {
+    "content": "if you want to do scraping if every time someone signs up for a subscription you",
+    "start": 1081
+  },
+  {
+    "content": "need to go through a series of steps to add them to different apis and services",
+    "start": 1086
+  },
+  {
+    "content": "and you don't want that to happen within like a",
+    "start": 1090
+  },
+  {
+    "content": "request response cycle you can now delegate that to a",
+    "start": 1094
+  },
+  {
+    "content": "background function that can run asynchronously",
+    "start": 1097
+  },
+  {
+    "content": "for up to 15 minutes in with full general purpose compute available",
+    "start": 1100
+  },
+  {
+    "content": "and everything every one of these kinds of of compute",
+    "start": 1105
+  },
+  {
+    "content": "is managed just in one repository one workflow",
+    "start": 1109
+  },
+  {
+    "content": "you have your site generator or your front-end framework",
+    "start": 1112
+  },
+  {
+    "content": "for for doing all the pre-compute in this example just like a simple 11t",
+    "start": 1116
+  },
+  {
+    "content": "configuration file in your set you have your netify tomml for doing all",
+    "start": 1120
+  },
+  {
+    "content": "the declarative edge routing for all the special purpose compute at the",
+    "start": 1125
+  },
+  {
+    "content": "at the edge that you can write in a declarative format and and",
+    "start": 1129
+  },
+  {
+    "content": "easily ship together with your whole application and",
+    "start": 1133
+  },
+  {
+    "content": "now if you participate in the early access",
+    "start": 1137
+  },
+  {
+    "content": "of edge handlers you can add a folder called edge",
+    "start": 1140
+  },
+  {
+    "content": "handlers and simply write the edge functions for",
+    "start": 1143
+  },
+  {
+    "content": "general purpose edge compute there it'll get deployed",
+    "start": 1146
+  },
+  {
+    "content": "together with the rest of the site it works with deployed previews it's a",
+    "start": 1149
+  },
+  {
+    "content": "seamless part of the whole experience of working with netlify",
+    "start": 1152
+  },
+  {
+    "content": "same as with functions you just add a functions folder",
+    "start": 1156
+  },
+  {
+    "content": "and for example add a subscribe yes for signing up for someone to to a striped",
+    "start": 1160
+  },
+  {
+    "content": "subscription it's a simple serverless function it'll",
+    "start": 1164
+  },
+  {
+    "content": "get deployed with the rest of your site you can also just add a function and",
+    "start": 1166
+  },
+  {
+    "content": "append the name dash background just by doing this we'll know that it's",
+    "start": 1172
+  },
+  {
+    "content": "a background function any invocation will be asynchronous",
+    "start": 1176
+  },
+  {
+    "content": "it'll run in the background and we'll allow it to run for up to 15",
+    "start": 1180
+  },
+  {
+    "content": "minutes very powerful primitive for for building",
+    "start": 1184
+  },
+  {
+    "content": "for the web so today we're really presenting a very",
+    "start": 1188
+  },
+  {
+    "content": "complete set of primitives to take the dam stack to the next level",
+    "start": 1190
+  },
+  {
+    "content": "and make developers lives even easier and we're doing that because",
+    "start": 1195
+  },
+  {
+    "content": "we're all really big believers in the whip and we",
+    "start": 1199
+  },
+  {
+    "content": "want a strong independent web to deliver",
+    "start": 1203
+  },
+  {
+    "content": "incredible experience to to the end users and we're extremely",
+    "start": 1206
+  },
+  {
+    "content": "exciting excited to work together with framework",
+    "start": 1210
+  },
+  {
+    "content": "authors with the whole ecosystem and with web developers to make the web",
+    "start": 1214
+  },
+  {
+    "content": "an even better place and an even stronger place to publish",
+    "start": 1219
+  },
+  {
+    "content": "and create thank you everybody i'm extremely",
+    "start": 1223
+  },
+  {
+    "content": "excited about today's conference all the presentations i hope you'll all",
+    "start": 1227
+  },
+  {
+    "content": "enjoy the day and have a great event thank you",
+    "start": 1232
+  }
+]

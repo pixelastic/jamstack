@@ -1,0 +1,1606 @@
+[
+  {
+    "content": "hello everyone I'm really excited to be",
+    "start": 0
+  },
+  {
+    "content": "here today to talk about kind of you know what got us here certainly probably",
+    "start": 17
+  },
+  {
+    "content": "won't get us there right and we alluded to that you know I'm working at a larger",
+    "start": 22
+  },
+  {
+    "content": "enterprise we have sometimes a bit of a different way of doing things but first",
+    "start": 26
+  },
+  {
+    "content": "I'll tell you a bit about myself so you know my name Justin wants I'm an",
+    "start": 31
+  },
+  {
+    "content": "engineering director at la blaw digital and I specifically look after a team",
+    "start": 36
+  },
+  {
+    "content": "called engineering productivity and what the cool part about that group is they",
+    "start": 40
+  },
+  {
+    "content": "are essentially made up of developers DevOps QA and a lot of the teams that",
+    "start": 45
+  },
+  {
+    "content": "can be disenfranchised especially in like more monolithic stacks people at",
+    "start": 50
+  },
+  {
+    "content": "the end of the line where software gets handed to the last people to touch it",
+    "start": 55
+  },
+  {
+    "content": "before it goes out and so you know we're really interested in understanding how",
+    "start": 58
+  },
+  {
+    "content": "do we make engineers more productive how do we empower and we've reduced that to",
+    "start": 62
+  },
+  {
+    "content": "a mission statement which is reduced oil increase happiness and get done and",
+    "start": 67
+  },
+  {
+    "content": "oftentimes if you're doing something wrong you are increasing toil reducing",
+    "start": 72
+  },
+  {
+    "content": "happiness and getting nothing done right almost certainly and you know it's",
+    "start": 76
+  },
+  {
+    "content": "interesting to say like we're the largest food retailer the largest",
+    "start": 82
+  },
+  {
+    "content": "retailer in Canada so so let's start off with like what is Canada there are 37",
+    "start": 84
+  },
+  {
+    "content": "million of us right that's like a tenth of the amount of Americans and we",
+    "start": 93
+  },
+  {
+    "content": "affectionately are known as like America's hat we think of you as",
+    "start": 99
+  },
+  {
+    "content": "Canada's Underpants we have precisely one basketball team better than all of",
+    "start": 102
+  },
+  {
+    "content": "yours zero of us say aboot seriously it's never been said but everyone does",
+    "start": 110
+  },
+  {
+    "content": "say hey and we're kind of what I want to give a sense of air is that it is a",
+    "start": 119
+  },
+  {
+    "content": "massive country with not a lot of people you know it spans the mountains of the",
+    "start": 124
+  },
+  {
+    "content": "west coast you know all the way to the wonderful like small fairies of and in",
+    "start": 130
+  },
+  {
+    "content": "the middle in the East Coast but interestingly like 90 percent of",
+    "start": 134
+  },
+  {
+    "content": "Canadians live within a hundred miles of a US border and like forty percent of",
+    "start": 137
+  },
+  {
+    "content": "Canadians live within five major cities Toronto Montreal think",
+    "start": 141
+  },
+  {
+    "content": "/ Calgary and Edmonton and so it's a very different landscape than the United",
+    "start": 146
+  },
+  {
+    "content": "States so to work at a company like la blaw when you start to see these numbers",
+    "start": 151
+  },
+  {
+    "content": "you start to understand how impressive and crazy they are 85% of Canadian shop",
+    "start": 155
+  },
+  {
+    "content": "in one of our stores every week 85 percent right like that's an",
+    "start": 160
+  },
+  {
+    "content": "unbelievable amount of the market there are 2800 of those stores nationwide",
+    "start": 165
+  },
+  {
+    "content": "that are within 10 minutes of 80 percent of Canadians all right and when you're",
+    "start": 169
+  },
+  {
+    "content": "talking about trying to move things around there are four very serious",
+    "start": 174
+  },
+  {
+    "content": "seasons and the last slide you'll saw that negative 81 degrees Fahrenheit I",
+    "start": 177
+  },
+  {
+    "content": "converted that for you and that's tough it's really really tough to deal with",
+    "start": 180
+  },
+  {
+    "content": "Four Seasons you have those same seasons here of course right but we're not just",
+    "start": 187
+  },
+  {
+    "content": "operating in a small market like a single state right where everything is",
+    "start": 190
+  },
+  {
+    "content": "close by or trying to deal with a single thing like one city and so for us to",
+    "start": 193
+  },
+  {
+    "content": "have seven million people engages our platforms every single day that's a",
+    "start": 198
+  },
+  {
+    "content": "significant part of the population and so when we mess something up we feel",
+    "start": 202
+  },
+  {
+    "content": "like we're messing that up for all of Canada",
+    "start": 208
+  },
+  {
+    "content": "that's that's a lot of pressure and so what we try and do is figure out how to",
+    "start": 211
+  },
+  {
+    "content": "solve problems in a way that's gonna speak specifically to Canadians and",
+    "start": 217
+  },
+  {
+    "content": "ideally that comes from Loblaw Digital where I actually work right and we",
+    "start": 222
+  },
+  {
+    "content": "represent how to bring great experiences online and our mission statement overall",
+    "start": 226
+  },
+  {
+    "content": "is to create compelling omni-channel experiences to help Canadians live life",
+    "start": 232
+  },
+  {
+    "content": "well now one cool story about why I think it's important that we carry this",
+    "start": 236
+  },
+  {
+    "content": "on in this generation is that law was a hundred-year-old company and in like the",
+    "start": 242
+  },
+  {
+    "content": "late 1800s the thing that made them special was that they actually brought",
+    "start": 247
+  },
+  {
+    "content": "the shopping aisle to North America so if you ever watched like an old-timey",
+    "start": 251
+  },
+  {
+    "content": "movie back before shopping AHS or is a dude behind a counter and he would like",
+    "start": 254
+  },
+  {
+    "content": "give you your stuff and he could serve one customer at a time and then we were",
+    "start": 259
+  },
+  {
+    "content": "like what if you got your own and and life was good however many other",
+    "start": 262
+  },
+  {
+    "content": "people realize that that was awesome and then we almost went out of business and",
+    "start": 269
+  },
+  {
+    "content": "then yeah you know the rest is history but uh you know in the time since la",
+    "start": 272
+  },
+  {
+    "content": "blaw digital's been born you know we different challenges you know solving",
+    "start": 277
+  },
+  {
+    "content": "retail at scale was really tough solving digital for Canadian scale is even",
+    "start": 280
+  },
+  {
+    "content": "tougher in my mind and so what have we shipped you know what what is it that",
+    "start": 284
+  },
+  {
+    "content": "we're known for probably no one in this room has ever used any of this however",
+    "start": 288
+  },
+  {
+    "content": "if you are from Canada you'll be really excited to see this slide but we don't",
+    "start": 293
+  },
+  {
+    "content": "just do food retail actually our first thing we ever built in 2013 was a",
+    "start": 299
+  },
+  {
+    "content": "clothing retailer Joe Fresh actually does have an American presence and then",
+    "start": 303
+  },
+  {
+    "content": "we said okay well we've kind of figured out how to do ecommerce let's go after",
+    "start": 308
+  },
+  {
+    "content": "our main market let's do food let's do grocery and we brought online shop la",
+    "start": 312
+  },
+  {
+    "content": "voz CA where you could buy groceries online we also run the largest pharmacy",
+    "start": 316
+  },
+  {
+    "content": "network in Canada Shoppers Drug Mart and they have this section that when you",
+    "start": 322
+  },
+  {
+    "content": "walk into the store it's like super bright it's the beauty section and you",
+    "start": 327
+  },
+  {
+    "content": "have to like get through it to get to the other parts and I see why it's",
+    "start": 330
+  },
+  {
+    "content": "bright because you need to see yourself when you're putting on cosmetics makes",
+    "start": 334
+  },
+  {
+    "content": "sense and making a website for them was was a full of a whole different set of",
+    "start": 337
+  },
+  {
+    "content": "challenges very different than food the SKUs are different on what people expect",
+    "start": 341
+  },
+  {
+    "content": "the shopping experience is different and after that we moved into a really",
+    "start": 345
+  },
+  {
+    "content": "interesting market which is actually digital pharmacy in Canada right",
+    "start": 348
+  },
+  {
+    "content": "healthcare comes standard with birth and and and so it's interesting it's not a",
+    "start": 353
+  },
+  {
+    "content": "very it's not a predatory market to actually be in trying to help Canadians",
+    "start": 359
+  },
+  {
+    "content": "you know get the prescriptions that they need it has a very very helpful thing",
+    "start": 363
+  },
+  {
+    "content": "refill reminders ensuring that you understand how your medications work",
+    "start": 366
+  },
+  {
+    "content": "some really cool features like caregiver if you're taking care of an elderly",
+    "start": 370
+  },
+  {
+    "content": "person in your family like your grandmother being able to actually log",
+    "start": 373
+  },
+  {
+    "content": "in to their join your accounts and actually help manage their prescriptions",
+    "start": 376
+  },
+  {
+    "content": "some really interesting stuff some new challenges in 2017 we realized that you",
+    "start": 380
+  },
+  {
+    "content": "know a lot of competitions coming from companies like Walmart and Amazon",
+    "start": 385
+  },
+  {
+    "content": "especially in the major metropolitan areas Canadians expect things to be",
+    "start": 388
+  },
+  {
+    "content": "delivered they want to be able to pick things up from places that are not",
+    "start": 392
+  },
+  {
+    "content": "necessarily the store all right so we partner with instacart you might if",
+    "start": 395
+  },
+  {
+    "content": "you're on Twitter I've seen in 2018 there's no name brand is like blowing up",
+    "start": 400
+  },
+  {
+    "content": "right now in the marketing space essentially the brand is just take",
+    "start": 403
+  },
+  {
+    "content": "product packaging a very blank yellow label and just the word of what it is",
+    "start": 407
+  },
+  {
+    "content": "and so they've been like painting taxicabs that just say taxicab or like",
+    "start": 412
+  },
+  {
+    "content": "some entire subway stations to just say subway station and it's great branding",
+    "start": 416
+  },
+  {
+    "content": "it's worked really well and most recently we got into selling marijuana",
+    "start": 420
+  },
+  {
+    "content": "but specifically and in line with our brand it's actually recreation",
+    "start": 425
+  },
+  {
+    "content": "non-recreational it's medicinal only you'll know that Canada just recently",
+    "start": 429
+  },
+  {
+    "content": "legalized recreational marijuana but we see that from our perspective help wants",
+    "start": 432
+  },
+  {
+    "content": "to get helping Canadians live life well and from the medical angle and so this",
+    "start": 436
+  },
+  {
+    "content": "is kind of what you know those experiences would look like you know",
+    "start": 442
+  },
+  {
+    "content": "they have three major breakpoints at desktop that tablet that mobile view",
+    "start": 446
+  },
+  {
+    "content": "there are some mobile apps that go along with it and I was pretty proud of the",
+    "start": 450
+  },
+  {
+    "content": "fact that we built nine awesome digital experiences in seven years",
+    "start": 455
+  },
+  {
+    "content": "however we needed to build 150 more in the next two right that's the very big",
+    "start": 459
+  },
+  {
+    "content": "difference in numbers for anyone keeping count at home so what was holding us",
+    "start": 469
+  },
+  {
+    "content": "back right you know during this conference you're gonna hear a lot I",
+    "start": 474
+  },
+  {
+    "content": "think on the nitty-gritty the technical details and I'm going for breads not",
+    "start": 478
+  },
+  {
+    "content": "depth here because I think while tech stack is extremely important culture and",
+    "start": 482
+  },
+  {
+    "content": "shifting culture and actually trying to get things adopted it's a whole",
+    "start": 488
+  },
+  {
+    "content": "different barrel of fish alright you go to the the presentation you see you just",
+    "start": 491
+  },
+  {
+    "content": "write type natla phi dev and like boom you make a billion dollars right and",
+    "start": 495
+  },
+  {
+    "content": "it's really really hard when it's like bigger than one team or it's a company",
+    "start": 499
+  },
+  {
+    "content": "more than four or five people right at la blaw digital at this point we have",
+    "start": 503
+  },
+  {
+    "content": "300 developers and there are quarter-million people that work for",
+    "start": 506
+  },
+  {
+    "content": "Loblaws across the country so what did I think was holding us back well I started",
+    "start": 510
+  },
+  {
+    "content": "to look at our team structure essentially we had these lads aisle",
+    "start": 516
+  },
+  {
+    "content": "silos like very waterfall and agile mixed together and for those of you are",
+    "start": 523
+  },
+  {
+    "content": "familiar with books like the Phoenix project written by Jean Kim you'll know",
+    "start": 531
+  },
+  {
+    "content": "that the hard parts of having a setup like this where you have teams that are",
+    "start": 535
+  },
+  {
+    "content": "very role based is that it feels a bit like a factory right and and you get",
+    "start": 539
+  },
+  {
+    "content": "weird delays and as you go down the line the",
+    "start": 545
+  },
+  {
+    "content": "person holding it is holding a lot more context than what came before them and",
+    "start": 549
+  },
+  {
+    "content": "the last person holding it kind of usually gets in all the trouble when",
+    "start": 553
+  },
+  {
+    "content": "things go wrong and feedback can be really slow you know for ops to",
+    "start": 557
+  },
+  {
+    "content": "sometimes in companies can never even get to design they only get to QA and QA",
+    "start": 561
+  },
+  {
+    "content": "needs to represent them to dev and dev represents them to design and design to",
+    "start": 566
+  },
+  {
+    "content": "product and so it's not that there's anything traditionally wrong with this",
+    "start": 569
+  },
+  {
+    "content": "approach and it can work well you know if you're making pieces of hardware and",
+    "start": 574
+  },
+  {
+    "content": "you can't you know get it wrong and release another one next week right you",
+    "start": 578
+  },
+  {
+    "content": "really need to ensure that these things are perfected and you hand them down in",
+    "start": 582
+  },
+  {
+    "content": "this right order and so to visualize what that looks like it we know the",
+    "start": 585
+  },
+  {
+    "content": "concept that Jean Kim brought in finished project is this idea of lean",
+    "start": 591
+  },
+  {
+    "content": "manufacturing well truly think of this in its worst case like a factory right",
+    "start": 594
+  },
+  {
+    "content": "we actually have these teams shipping things down the line and and what I",
+    "start": 600
+  },
+  {
+    "content": "really disliked about this approach was that the things downstream are involved",
+    "start": 605
+  },
+  {
+    "content": "too late and one of the most important things if you understand Lee",
+    "start": 609
+  },
+  {
+    "content": "manufacturing is knowing your bill of materials and so if you let work into",
+    "start": 613
+  },
+  {
+    "content": "the factory right if let's say what's in that first box is just absolutely not",
+    "start": 617
+  },
+  {
+    "content": "ready it may be very late until it's found out it's not ready but you're not",
+    "start": 620
+  },
+  {
+    "content": "really sure what to do with it and so sometimes you know you could be like QA",
+    "start": 624
+  },
+  {
+    "content": "is like this isn't passing let's give it to ops anyway and it happens you know",
+    "start": 628
+  },
+  {
+    "content": "you know people just want to get things out and you're like I don't really want",
+    "start": 634
+  },
+  {
+    "content": "to hold this box anymore and and that's okay you know there's a lot of stresses",
+    "start": 636
+  },
+  {
+    "content": "at work and and but you know at least a poor decision making on prioritization",
+    "start": 642
+  },
+  {
+    "content": "and you know you might not know like is this the right bill of materials did you",
+    "start": 646
+  },
+  {
+    "content": "intend to not have French copy on this product maybe you know Shi you make",
+    "start": 649
+  },
+  {
+    "content": "decisions in isolation and doesn't necessarily work out all the time and",
+    "start": 655
+  },
+  {
+    "content": "one of my the biggest gaps is that priority information is not necessarily",
+    "start": 658
+  },
+  {
+    "content": "passed downstream the thing that's given to you the artifact doesn't necessarily",
+    "start": 663
+  },
+  {
+    "content": "have all the details of what came before it and this gets really really bad when",
+    "start": 667
+  },
+  {
+    "content": "you work in a big company because what you usually do is you add more dev teams",
+    "start": 672
+  },
+  {
+    "content": "to make more products and you have more dev teams to make more",
+    "start": 676
+  },
+  {
+    "content": "products and you add more dev teams to make more products and you add more dev",
+    "start": 681
+  },
+  {
+    "content": "teams to make more products and what happens when you do this is usually you",
+    "start": 686
+  },
+  {
+    "content": "don't scale your shared services teams QA and Ops start to get really really",
+    "start": 690
+  },
+  {
+    "content": "overloaded and those boxes at the bottom are all the things not getting shipped",
+    "start": 695
+  },
+  {
+    "content": "to customers work starts to pile up in your factory right and this is tough to",
+    "start": 700
+  },
+  {
+    "content": "break out of right and and you'll see this you know like back every team has a",
+    "start": 707
+  },
+  {
+    "content": "backlog but unfortunately this is where work really started to slow down for us",
+    "start": 710
+  },
+  {
+    "content": "you know we were able to get nine experiences out in seven years and I",
+    "start": 715
+  },
+  {
+    "content": "wouldn't say there's anything wrong right work was getting done people",
+    "start": 718
+  },
+  {
+    "content": "people were happy and we were able to get through it but there's all these",
+    "start": 721
+  },
+  {
+    "content": "inefficiencies starting to really build up right and and so we did what anyone",
+    "start": 726
+  },
+  {
+    "content": "would do we started deleting the boxes where the things were piling up let's",
+    "start": 732
+  },
+  {
+    "content": "get rid of ops who needs them let's get rid of QA who needs them let's empower",
+    "start": 738
+  },
+  {
+    "content": "the developers to do it all hand wavey magic everyone loved it we lived happily",
+    "start": 744
+  },
+  {
+    "content": "ever after end of talk just kidding it was a total",
+    "start": 753
+  },
+  {
+    "content": "trash fire serious serious trash fire so let's talk about failure right let's",
+    "start": 758
+  },
+  {
+    "content": "talk about what happens when you try to quickly solve problems that are don't",
+    "start": 767
+  },
+  {
+    "content": "you know warrant quick solutions I won't go through all of these in the longer",
+    "start": 771
+  },
+  {
+    "content": "version of this talk I tried dive into a lot of them but you know you can see",
+    "start": 776
+  },
+  {
+    "content": "behind me here things like slow times a market right quality owned by the last",
+    "start": 779
+  },
+  {
+    "content": "person who touched it when you start to try and get rid of what you know ops did",
+    "start": 784
+  },
+  {
+    "content": "for you you know and what QA did for you you have trouble scalability with",
+    "start": 789
+  },
+  {
+    "content": "stability times a recovery master all of a sudden gets a lot more broken things",
+    "start": 793
+  },
+  {
+    "content": "aren't really experiments they're just version one is the feature now",
+    "start": 799
+  },
+  {
+    "content": "right you know you're like oh wow these teams might have actually been doing",
+    "start": 803
+  },
+  {
+    "content": "something that was really really hopeful right and so essentially what you",
+    "start": 807
+  },
+  {
+    "content": "realize is that it's not a small tweak right what got us here won't get us",
+    "start": 811
+  },
+  {
+    "content": "there right we there's probably not much we can do in that way of working to",
+    "start": 815
+  },
+  {
+    "content": "really make it get to a hundred and fifty experiences right and then the",
+    "start": 819
+  },
+  {
+    "content": "real learning for us was that to get from here to there we have to do this",
+    "start": 825
+  },
+  {
+    "content": "thing called crossing the chasm right and crossing the chasm",
+    "start": 829
+  },
+  {
+    "content": "it's from Geoffrey Moore's book and it's about how people adapt to change and",
+    "start": 833
+  },
+  {
+    "content": "adopt it and I first learned about it from an awesome dude named Mike blend",
+    "start": 838
+  },
+  {
+    "content": "who worked at Google and he was actually trying to understand how to get",
+    "start": 842
+  },
+  {
+    "content": "testability up inside of Google and you know really at the end of the day change",
+    "start": 845
+  },
+  {
+    "content": "has to be deliberate and you've got to be patient so let's have a look at what",
+    "start": 851
+  },
+  {
+    "content": "crossing the chasm looks like this this curve of adoption of Technology you've",
+    "start": 856
+  },
+  {
+    "content": "got your innovators and your early adopters and essentially those are",
+    "start": 860
+  },
+  {
+    "content": "people like us try to tinker with the system like let's just delete ops and",
+    "start": 864
+  },
+  {
+    "content": "delete QA and see what happens we're like super edgy and cool right and so",
+    "start": 867
+  },
+  {
+    "content": "we're like-minded people just try to make the world a better place",
+    "start": 873
+  },
+  {
+    "content": "right we're instigators they're catalysts for change but like the",
+    "start": 875
+  },
+  {
+    "content": "unfiltered barrage of new ideas can be super upsetting and costly to an",
+    "start": 880
+  },
+  {
+    "content": "organization and and so we keep trying to make attempts to change but they're",
+    "start": 884
+  },
+  {
+    "content": "not quite getting anywhere right they get stuck at this thing called the chasm",
+    "start": 889
+  },
+  {
+    "content": "right and the people on the other side of this chasm are the early majority",
+    "start": 893
+  },
+  {
+    "content": "they're open to change but they need tools and procedures and they're also",
+    "start": 898
+  },
+  {
+    "content": "the fad filter right and shams dad could have been a Fed it's not but it could",
+    "start": 903
+  },
+  {
+    "content": "have been but the good part is that one way we started talking about these",
+    "start": 908
+  },
+  {
+    "content": "things right is that there's someone there pushing back there a sympathetic",
+    "start": 911
+  },
+  {
+    "content": "audience right but they're gonna give you direct feedback constructive",
+    "start": 915
+  },
+  {
+    "content": "feedback they're gonna care about polish they're gonna care about scale right",
+    "start": 919
+  },
+  {
+    "content": "they're there to protect and and it's a very good thing to have them all right",
+    "start": 923
+  },
+  {
+    "content": "that's what stopped us from entirely burning down a hundred-year-old company",
+    "start": 927
+  },
+  {
+    "content": "by deleting those two teams and so if you can win over the early",
+    "start": 930
+  },
+  {
+    "content": "majority though you can get to the late majority which is that stabilizing force",
+    "start": 936
+  },
+  {
+    "content": "in your market they kind of more slowly consume information they run a version",
+    "start": 940
+  },
+  {
+    "content": "of iOS you know couple behind the latest and let all of us figure out all the",
+    "start": 946
+  },
+  {
+    "content": "bugs you know and they really best serve the needs of the long-term health of an",
+    "start": 951
+  },
+  {
+    "content": "organization they're happy to adopt things you know once they're stable and",
+    "start": 956
+  },
+  {
+    "content": "then you have the laggards and this kinda like the long tail of that problem",
+    "start": 961
+  },
+  {
+    "content": "right you know like that eventual full adoption and usually as you're getting",
+    "start": 965
+  },
+  {
+    "content": "to this you're starting to cross another chasm right and so the thing is you're",
+    "start": 968
+  },
+  {
+    "content": "like all right I see the chasm but how does one cross it you've told me the",
+    "start": 973
+  },
+  {
+    "content": "problem surely there must be a better way and there is and this is a really",
+    "start": 978
+  },
+  {
+    "content": "really interesting concept that Mike bland brought up called the rainbow of",
+    "start": 983
+  },
+  {
+    "content": "death amazing name amazing name and the rainbow death attempts to explain how",
+    "start": 986
+  },
+  {
+    "content": "one crosses the chasm and it's got these interesting steps of what the team these",
+    "start": 993
+  },
+  {
+    "content": "these you know these instigators should do right and it's intervene then",
+    "start": 998
+  },
+  {
+    "content": "validate inform inspire mentor and empower and them and the goal there",
+    "start": 1002
+  },
+  {
+    "content": "right is to take this thing that is new that it's fresh this idea you have and",
+    "start": 1007
+  },
+  {
+    "content": "go from having teams that they're very dependent on you to adopt it and making",
+    "start": 1012
+  },
+  {
+    "content": "them very independent you don't have to do it in this order you can do these",
+    "start": 1017
+  },
+  {
+    "content": "steps in parallel but what I want to do is now take you through our journey of",
+    "start": 1021
+  },
+  {
+    "content": "kind of what we did with these steps so first intervene right the first team",
+    "start": 1025
+  },
+  {
+    "content": "that does that is my group engineering productivity we really care about how",
+    "start": 1031
+  },
+  {
+    "content": "things get done but we realized was you know the way we had those team",
+    "start": 1034
+  },
+  {
+    "content": "structured maybe it's not ideal and so we thought we should aren't thinking",
+    "start": 1038
+  },
+  {
+    "content": "about shared components all right when we built all these experiences we had",
+    "start": 1042
+  },
+  {
+    "content": "like nine carts like nine ways of doing a checkout button we had nine home pages",
+    "start": 1046
+  },
+  {
+    "content": "we had nine different ways of thinking about content and there were customer",
+    "start": 1051
+  },
+  {
+    "content": "differences yes pharmacy is different than grocery grocery is different than",
+    "start": 1054
+  },
+  {
+    "content": "clothing retail but doesn't necessarily mean there can't be some connection at",
+    "start": 1058
+  },
+  {
+    "content": "the base right do you really have to hard fork every time you build something",
+    "start": 1061
+  },
+  {
+    "content": "probably not right and then we build this group",
+    "start": 1065
+  },
+  {
+    "content": "called DX to do so like digital experience studio right if we're gonna",
+    "start": 1068
+  },
+  {
+    "content": "get to a hundred and fifty websites we probably need to stop spinning up a dev",
+    "start": 1072
+  },
+  {
+    "content": "team forever in treating each one like a product and start thinking about how you",
+    "start": 1076
+  },
+  {
+    "content": "can have a team that can produce products quickly and effectively not",
+    "start": 1080
+  },
+  {
+    "content": "just quickly but effectively so I started out with these three groups what",
+    "start": 1083
+  },
+  {
+    "content": "did they come up with well this is what we had right and and we knew it wasn't",
+    "start": 1088
+  },
+  {
+    "content": "really gonna work for us and the first smart idea was okay let's not delete",
+    "start": 1094
+  },
+  {
+    "content": "things okay ideally everyone should be independent founding principle right we",
+    "start": 1097
+  },
+  {
+    "content": "want to be able to have work go out without bottlenecking it to some central",
+    "start": 1103
+  },
+  {
+    "content": "group but you know if we do that we're just kind of back to where we were where",
+    "start": 1107
+  },
+  {
+    "content": "we had one dev team right and we know that that's not necessary gonna scale we",
+    "start": 1111
+  },
+  {
+    "content": "don't want to go build out a hundred and fifty dev teams and so we're like all",
+    "start": 1115
+  },
+  {
+    "content": "right let's go vertical essentially what we mean by this right is how is it that",
+    "start": 1119
+  },
+  {
+    "content": "we have each of these groups deliver value without being dependent",
+    "start": 1125
+  },
+  {
+    "content": "necessarily on the other but this slide doesn't make much sense right you're",
+    "start": 1129
+  },
+  {
+    "content": "like well I'm not really sure how each of these teams is gonna do something",
+    "start": 1133
+  },
+  {
+    "content": "individually and that's because we still had the wrong alignment right these",
+    "start": 1136
+  },
+  {
+    "content": "teams were aligned to a role instead of a unit of shippable work and so the",
+    "start": 1141
+  },
+  {
+    "content": "really big win came when we thought well what is it that these websites need to",
+    "start": 1146
+  },
+  {
+    "content": "do the initial experiences need to do what are the units of shippable value",
+    "start": 1151
+  },
+  {
+    "content": "and essentially a point boiled down to content components and features and so",
+    "start": 1154
+  },
+  {
+    "content": "this is where we really started to adopt the jam stack right we brought in",
+    "start": 1161
+  },
+  {
+    "content": "contentful for our content it's in the name without",
+    "start": 1165
+  },
+  {
+    "content": "content full right we are using a CMS made by sa P called Hybris it is",
+    "start": 1173
+  },
+  {
+    "content": "essentially WordPress way worse for enterprises for a lot more money I feel",
+    "start": 1178
+  },
+  {
+    "content": "I'm gonna get in trouble for saying that because like we're still a very big",
+    "start": 1185
+  },
+  {
+    "content": "partner of theirs and this is being recorded I'm so sorry and but you know",
+    "start": 1188
+  },
+  {
+    "content": "without it right like it was a really big pain to deal with content we kind of",
+    "start": 1195
+  },
+  {
+    "content": "had it shipped out of the boxes one way of",
+    "start": 1199
+  },
+  {
+    "content": "listing that content one way of showing it it was very hard to break free and so",
+    "start": 1201
+  },
+  {
+    "content": "when people did they really went outside of the box and no longer we're getting",
+    "start": 1206
+  },
+  {
+    "content": "the value that hybrids actually provided out of the box and so we've contentful",
+    "start": 1209
+  },
+  {
+    "content": "right we're empowering the people who cared about content to get that to",
+    "start": 1214
+  },
+  {
+    "content": "production and that might be a mix of developers product folks operation queue",
+    "start": 1218
+  },
+  {
+    "content": "it not same use team necessarily or just pure devs they could be they might not",
+    "start": 1222
+  },
+  {
+    "content": "be but the key is are the people that are on them care about that unit of",
+    "start": 1225
+  },
+  {
+    "content": "shippable work and they align themselves to get that unit of shippable work out",
+    "start": 1229
+  },
+  {
+    "content": "and so the next group is components right and the idea here was well we have",
+    "start": 1234
+  },
+  {
+    "content": "a whole lot of check out buttons we got a whole lot of home pages a whole lot of",
+    "start": 1239
+  },
+  {
+    "content": "hero banners a whole lot of like design and style components and so we thought",
+    "start": 1243
+  },
+  {
+    "content": "we should really start thinking about design libraries right we really start",
+    "start": 1247
+  },
+  {
+    "content": "thinking about share component libraries think about how if we wanted to change",
+    "start": 1250
+  },
+  {
+    "content": "our brand act we both 150 sites we're really gonna have to go make a hundred",
+    "start": 1254
+  },
+  {
+    "content": "and fifty changes or can we make one in the source of truth and have that",
+    "start": 1258
+  },
+  {
+    "content": "propagate and so it's not all around react story book but I needed a logo to",
+    "start": 1262
+  },
+  {
+    "content": "go there react story book you know starbug is a really cool tool it",
+    "start": 1267
+  },
+  {
+    "content": "definitely helped us with it it was hard to do that change across many properties",
+    "start": 1271
+  },
+  {
+    "content": "without it it was really actually mostly the the hardest thing for us was getting",
+    "start": 1276
+  },
+  {
+    "content": "an understanding of what is in your shared component library what is your",
+    "start": 1280
+  },
+  {
+    "content": "design language so being able to have a place to express that was really",
+    "start": 1284
+  },
+  {
+    "content": "valuable for this team so when you were on boarded there's actually somewhere to",
+    "start": 1288
+  },
+  {
+    "content": "go to get this information and the last key thing right was like trying to get",
+    "start": 1292
+  },
+  {
+    "content": "rid of this big monolithic stack that we had and for us we pick next Jas now it's",
+    "start": 1297
+  },
+  {
+    "content": "jams comm so I have to tell you that I love Jam stack however next jeaious does",
+    "start": 1303
+  },
+  {
+    "content": "let you do some interesting things outside of the jam stack and for us",
+    "start": 1307
+  },
+  {
+    "content": "coming from a big enterprise we're used to a working as a monolith we started",
+    "start": 1310
+  },
+  {
+    "content": "moving to service architecture it's things like isomorphic rendering",
+    "start": 1315
+  },
+  {
+    "content": "server-side rendering dealing with private services that don't have public",
+    "start": 1319
+  },
+  {
+    "content": "facing endpoints there's a fair bit to handle and next just did allow us to",
+    "start": 1323
+  },
+  {
+    "content": "kind of more easily blend in with where we were even if it wasn't necessarily",
+    "start": 1328
+  },
+  {
+    "content": "of where we wanted to end up so we do do a lot of jam stack but we we account for",
+    "start": 1333
+  },
+  {
+    "content": "a few other quirks and so you know without next Jas we were pushing two",
+    "start": 1338
+  },
+  {
+    "content": "servers we are running our own edge network we were doing everything you",
+    "start": 1343
+  },
+  {
+    "content": "could imagine to run a business and we were thinking and getting stuck so much",
+    "start": 1350
+  },
+  {
+    "content": "in the end-to-end testing the operation deployment that a lot of work wasn't",
+    "start": 1354
+  },
+  {
+    "content": "getting done it wasn't about the devs it was really about the ops right like",
+    "start": 1360
+  },
+  {
+    "content": "that's what slowed things down and so being able to compile a static bundle",
+    "start": 1363
+  },
+  {
+    "content": "and release that to a CDN right absolutely changed our life and so the",
+    "start": 1368
+  },
+  {
+    "content": "thing to bound this all together was that laughs I brought to you by net",
+    "start": 1372
+  },
+  {
+    "content": "worth I and and we were super excited right without this like I said we are",
+    "start": 1376
+  },
+  {
+    "content": "running a huge amount of the right side of the stack and spending most of our",
+    "start": 1382
+  },
+  {
+    "content": "time getting stuck there getting frustrated there",
+    "start": 1387
+  },
+  {
+    "content": "so you know with net loafie it really helped empower those development teams",
+    "start": 1389
+  },
+  {
+    "content": "to actually get their code to production so now we have a stack what's next",
+    "start": 1395
+  },
+  {
+    "content": "well we've got to validate it right that's the next step in the rainbow of",
+    "start": 1400
+  },
+  {
+    "content": "death so we built a digital experience for the biggest business and the most",
+    "start": 1404
+  },
+  {
+    "content": "profitable brand on a national holiday we built shop like a mother it was a",
+    "start": 1410
+  },
+  {
+    "content": "really awesome Mother's Day campaign I'm really proud of it and the results were",
+    "start": 1417
+  },
+  {
+    "content": "really astounding this is the old stack and that's the new stack right it was",
+    "start": 1423
+  },
+  {
+    "content": "bonkers and and I'm really really proud of this you know usually when you see",
+    "start": 1429
+  },
+  {
+    "content": "the demo they like do like a hello world page or like yeah that's easy to make",
+    "start": 1433
+  },
+  {
+    "content": "performance but we were like blown away by this you know by the numbers we're",
+    "start": 1436
+  },
+  {
+    "content": "talking about a 17.5 X faster contentful paint right 8 X on meaningful paint",
+    "start": 1443
+  },
+  {
+    "content": "9 X on time to interactive 92% better performance 26% better accessibility and",
+    "start": 1448
+  },
+  {
+    "content": "we upped our SEO somehow by 11% and I don't remember putting any effort into",
+    "start": 1455
+  },
+  {
+    "content": "it but apparently we did and so like it's it's bonkers it's",
+    "start": 1462
+  },
+  {
+    "content": "really really bonkers and we did that all with no servers right and our lead",
+    "start": 1467
+  },
+  {
+    "content": "time was way way down we we built this thing in a month and you know we've",
+    "start": 1472
+  },
+  {
+    "content": "taken a year previously to get something to production we were running",
+    "start": 1476
+  },
+  {
+    "content": "accidentally on the free plan of net low five so the first month was $38,000",
+    "start": 1480
+  },
+  {
+    "content": "cheaper it was great and you know we we eventually not didn't",
+    "start": 1487
+  },
+  {
+    "content": "you know run on the free plan and I highly suggest you don't if you care",
+    "start": 1492
+  },
+  {
+    "content": "about your website but we didn't crash and response time remained pretty",
+    "start": 1495
+  },
+  {
+    "content": "consistent but things like dynamic environments the fact that we didn't",
+    "start": 1499
+  },
+  {
+    "content": "have to rely on an ops team to go and provision you an environment people can",
+    "start": 1503
+  },
+  {
+    "content": "just throw up more nullify deployments with really really cool noun based",
+    "start": 1505
+  },
+  {
+    "content": "domains right and I was gonna write zero attack vectors but I was really afraid",
+    "start": 1510
+  },
+  {
+    "content": "that I was gonna anger a hacker and then like my site would crash during my talk",
+    "start": 1515
+  },
+  {
+    "content": "so I've just said fewer and an infinitely happier team right so our",
+    "start": 1518
+  },
+  {
+    "content": "approach is validated yay so what's next inform yell about it on Twitter you know",
+    "start": 1527
+  },
+  {
+    "content": "and that's a really important step you got to talk about a talk about your wins",
+    "start": 1533
+  },
+  {
+    "content": "you got to let people know and so we did we went to the company went to every",
+    "start": 1537
+  },
+  {
+    "content": "team we went to the Android team were like oh sorry not you went back to the",
+    "start": 1540
+  },
+  {
+    "content": "web team no you should really do this right and and and the intent there right",
+    "start": 1543
+  },
+  {
+    "content": "is to get to inspiration and how old best to inspire them to lead right so",
+    "start": 1548
+  },
+  {
+    "content": "what we did was he just built out 11 more experiences in four months and we",
+    "start": 1553
+  },
+  {
+    "content": "proved that it could be done right we didn't ask you to trust us we didn't say",
+    "start": 1558
+  },
+  {
+    "content": "if you do this life we said like we're gonna do it we're gonna show you it's",
+    "start": 1562
+  },
+  {
+    "content": "great and that is the best way to inspire anybody right we set the bar in",
+    "start": 1566
+  },
+  {
+    "content": "performance time-to-market accessibility operational expense right",
+    "start": 1569
+  },
+  {
+    "content": "we just proved it could be done and then the next step is to mentor right and",
+    "start": 1574
+  },
+  {
+    "content": "mentorship for us looked a lot like best practices lessons learned talking at",
+    "start": 1579
+  },
+  {
+    "content": "meetups talking at conferences including this one and essentially what we want to",
+    "start": 1585
+  },
+  {
+    "content": "do is remove fear doubt and unknown so we've proven that we can do it we now",
+    "start": 1590
+  },
+  {
+    "content": "want to say well isn't just all hand waving",
+    "start": 1595
+  },
+  {
+    "content": "magic or like secretly we employed like an army of minions to do this and you",
+    "start": 1598
+  },
+  {
+    "content": "know made it all up it's that it's real and here's where we",
+    "start": 1603
+  },
+  {
+    "content": "failed here's where we succeeded you need to share that information it's",
+    "start": 1606
+  },
+  {
+    "content": "really really important to share that and once you do that right it's about",
+    "start": 1609
+  },
+  {
+    "content": "empowerment and this is a step that I think is really tough and something that",
+    "start": 1614
+  },
+  {
+    "content": "you know we're talking about the talk previously this empowering of of how do",
+    "start": 1618
+  },
+  {
+    "content": "you actually help people do it themselves to be fully independent now",
+    "start": 1623
+  },
+  {
+    "content": "if I def is a great example of that right and for us in our company with",
+    "start": 1628
+  },
+  {
+    "content": "starter kits and golden paths right we're like well could we just turn this",
+    "start": 1631
+  },
+  {
+    "content": "into Heroku for la blah digital you know we don't need to like Heroku or cloud",
+    "start": 1635
+  },
+  {
+    "content": "run solve for how everyone does things we just need to solve for our way of",
+    "start": 1639
+  },
+  {
+    "content": "doing things and it's not that we wanted a hundred and fifty identical websites",
+    "start": 1642
+  },
+  {
+    "content": "but they're gonna be pretty similar right",
+    "start": 1646
+  },
+  {
+    "content": "so if you can build a starter kit that gives you next yes it gives you the",
+    "start": 1648
+  },
+  {
+    "content": "deployment pipeline it gives you how to get content into content full builds a",
+    "start": 1652
+  },
+  {
+    "content": "space for you that's a really great way to help a team get started right and do",
+    "start": 1655
+  },
+  {
+    "content": "it themselves they can fork it and go from there",
+    "start": 1659
+  },
+  {
+    "content": "and if you give them a Golden Path of how to get to production that whole",
+    "start": 1661
+  },
+  {
+    "content": "narrative that story they're gonna feel probably pretty strong that they can do",
+    "start": 1664
+  },
+  {
+    "content": "it themselves so this is the rainbow of death I think it's pretty cool I think",
+    "start": 1668
+  },
+  {
+    "content": "it's pretty useful to help get across the chasm",
+    "start": 1673
+  },
+  {
+    "content": "so we fell in love with jam stack and lived happily ever after",
+    "start": 1676
+  },
+  {
+    "content": "just kidding it was still a trash fire this slide was gonna be depending on how",
+    "start": 1681
+  },
+  {
+    "content": "much time I had left on how much I like got into digging and all the companies",
+    "start": 1688
+  },
+  {
+    "content": "that I build this awesome stuff I only have two minutes so I'll keep it short",
+    "start": 1691
+  },
+  {
+    "content": "you know in essence right there's still problems it doesn't solve everything",
+    "start": 1696
+  },
+  {
+    "content": "you know we teams now are asking can I put my API Docs here what about internal",
+    "start": 1700
+  },
+  {
+    "content": "sites you know everything seemingly is super easy so change management's",
+    "start": 1704
+  },
+  {
+    "content": "getting pretty loose someone has accidentally deleted the production",
+    "start": 1709
+  },
+  {
+    "content": "version of a website because it was right beside the non production one in",
+    "start": 1712
+  },
+  {
+    "content": "the net laughs I you I and there was no warning right people are like I want to",
+    "start": 1716
+  },
+  {
+    "content": "talk to DevOps get him on the phone and I'm just like yo nullified you got to",
+    "start": 1721
+  },
+  {
+    "content": "pick up the phone you know and also we had no experiments",
+    "start": 1725
+  },
+  {
+    "content": "and now everything's an experiment leave it all in production never delete",
+    "start": 1729
+  },
+  {
+    "content": "anything let's let it all build up and contentful and neckla fine all right and",
+    "start": 1732
+  },
+  {
+    "content": "someone did ask me how do we load test net laughs I and I'm like very",
+    "start": 1735
+  },
+  {
+    "content": "expensively you know you can throw all you want at it we're just gonna pay for",
+    "start": 1738
+  },
+  {
+    "content": "it and then someone did put Akamai back on top of natla file which I found",
+    "start": 1744
+  },
+  {
+    "content": "hilarious you know good job ops dude so yeah there's still things that need to",
+    "start": 1748
+  },
+  {
+    "content": "be fixed right and if I ever come back and talk about this again hopefully",
+    "start": 1755
+  },
+  {
+    "content": "we'll have gotten through some more of these",
+    "start": 1758
+  },
+  {
+    "content": "but essentially right we continually traverse the rainbow of death so that we",
+    "start": 1759
+  },
+  {
+    "content": "can successfully cross the chasm between what got us here and what will get us",
+    "start": 1765
+  },
+  {
+    "content": "there overall it's just really important to remember right if you fix the process",
+    "start": 1769
+  },
+  {
+    "content": "of how to shift culture how to how to engage your teams how to listen to them",
+    "start": 1775
+  },
+  {
+    "content": "get feedback and help right we're gonna see what comes after the jam stack right",
+    "start": 1780
+  },
+  {
+    "content": "there was things that came before it as well and so fixing that part of solving",
+    "start": 1785
+  },
+  {
+    "content": "problems makes adopting things like the jam stack a lot easier but prepares you",
+    "start": 1789
+  },
+  {
+    "content": "for whatever future is ahead of us so thank you very much",
+    "start": 1793
+  },
+  {
+    "content": "[Applause]",
+    "start": 1798
+  },
+  {
+    "content": "[Applause] you",
+    "start": 1805
+  },
+  {
+    "content": "[Applause]",
+    "start": 1810
+  }
+]

@@ -4,9 +4,11 @@
   "position": 9,
   "publishedAt": 1542606508,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/lK1gZUsTZ5w/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/lK1gZUsTZ5w/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/lK1gZUsTZ5w/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/lK1gZUsTZ5w/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/lK1gZUsTZ5w/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/lK1gZUsTZ5w/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/lK1gZUsTZ5w/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/lK1gZUsTZ5w/default.jpg"
   },
   "title": "Zoltan Olah - Turning Design into Code the Painless Way"
 }

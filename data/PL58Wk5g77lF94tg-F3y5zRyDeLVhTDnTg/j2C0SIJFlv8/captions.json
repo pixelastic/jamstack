@@ -1,0 +1,594 @@
+[
+  {
+    "content": "hey",
+    "start": 0
+  },
+  {
+    "content": "i'm chris and today we're going to talk a little bit about a project that i",
+    "start": 12
+  },
+  {
+    "content": "started called toast toast shortly is the best place to stack",
+    "start": 14
+  },
+  {
+    "content": "your jam it is a jam stack meta framework and",
+    "start": 19
+  },
+  {
+    "content": "we'll get into what that means but first i want to talk a little bit",
+    "start": 23
+  },
+  {
+    "content": "about why i built toast and i built toast because i do a lot of",
+    "start": 27
+  },
+  {
+    "content": "writing and for example uh in the last 30 days",
+    "start": 32
+  },
+  {
+    "content": "i've written a blog post every single day",
+    "start": 36
+  },
+  {
+    "content": "and this is not the first month in which i've done that this year and it will not",
+    "start": 38
+  },
+  {
+    "content": "be the last so one day uh i was sitting at a coffee",
+    "start": 41
+  },
+  {
+    "content": "shop writing a blog post for a friend and uh",
+    "start": 45
+  },
+  {
+    "content": "i needed to sort of like save it send it to the cloud",
+    "start": 50
+  },
+  {
+    "content": "have it do the cloudy stuff and then like get my site to build",
+    "start": 54
+  },
+  {
+    "content": "so i was done with the post messaged my friend",
+    "start": 58
+  },
+  {
+    "content": "said hey jason you know i'm done uh i'm gonna pack up and go home",
+    "start": 61
+  },
+  {
+    "content": "and then we can take a look at the blog post and see if it's good enough so",
+    "start": 66
+  },
+  {
+    "content": "close my laptop uh send it up to the cloud walk home",
+    "start": 69
+  },
+  {
+    "content": "get home uh turn on my computer and the build hasn't finished yet",
+    "start": 72
+  },
+  {
+    "content": "now i don't live that far away from this coffee shop it's only a couple blocks",
+    "start": 80
+  },
+  {
+    "content": "but i feel like my blog should be able to",
+    "start": 84
+  },
+  {
+    "content": "build in the time that it takes me to walk in between them",
+    "start": 88
+  },
+  {
+    "content": "so this was like kind of the final straw for me",
+    "start": 90
+  },
+  {
+    "content": "um it was the straw that broke the camel's back",
+    "start": 94
+  },
+  {
+    "content": "so to speak and uh i started working on this thing",
+    "start": 98
+  },
+  {
+    "content": "that is now called toast so i said some things about like",
+    "start": 102
+  },
+  {
+    "content": "hey it feels broken hey i don't like this hell the build times are too long",
+    "start": 112
+  },
+  {
+    "content": "um i was feeling a lot of pain in the setup that i had so",
+    "start": 116
+  },
+  {
+    "content": "what does the next gen look like if i'm feeling that pain",
+    "start": 123
+  },
+  {
+    "content": "and to answer this i sort of have to like talk a little bit about",
+    "start": 127
+  },
+  {
+    "content": "how i started doing uh jam stack meta framework stuff",
+    "start": 130
+  },
+  {
+    "content": "around the time that react came out um i was doing universally rendered or",
+    "start": 135
+  },
+  {
+    "content": "isomorphic as we called it at the time uh react sites for docker in 2014",
+    "start": 138
+  },
+  {
+    "content": "and that rolled into uh my static site generation prototypes",
+    "start": 143
+  },
+  {
+    "content": "at the time um i built the first like graphql powered static site generator",
+    "start": 147
+  },
+  {
+    "content": "uh and that's the reason that gatsby now has a graphql powered",
+    "start": 153
+  },
+  {
+    "content": "static site generator um i spent some time working on gatsby and other",
+    "start": 157
+  },
+  {
+    "content": "frameworks for a while as a consultant and in my free time",
+    "start": 160
+  },
+  {
+    "content": "and now i'm sitting here going what do we do what do we do next right",
+    "start": 165
+  },
+  {
+    "content": "um and i think there's a couple things that",
+    "start": 171
+  },
+  {
+    "content": "come in around uh obvious winds and then",
+    "start": 173
+  },
+  {
+    "content": "areas that were sort of unexplored right so if we look at the technical direction",
+    "start": 178
+  },
+  {
+    "content": "of the project uh and we look at things like es modules",
+    "start": 184
+  },
+  {
+    "content": "es modules are an easy like first win um we'll talk a little",
+    "start": 188
+  },
+  {
+    "content": "bit more about these in depth as we go through the talk so",
+    "start": 193
+  },
+  {
+    "content": "uh just keep it in mind uh es modules first leads to not needing",
+    "start": 196
+  },
+  {
+    "content": "webpack as much anymore so we get rid of webpack so we've",
+    "start": 203
+  },
+  {
+    "content": "removed a whole bunch of complexity we currently don't have",
+    "start": 206
+  },
+  {
+    "content": "a graphql data source like gaspi does we don't have webpack",
+    "start": 209
+  },
+  {
+    "content": "like the all of the modern jam stack meta frameworks do",
+    "start": 213
+  },
+  {
+    "content": "we do incremental compilation on a function level uh which is",
+    "start": 218
+  },
+  {
+    "content": "slightly different than the way that other frameworks do it",
+    "start": 222
+  },
+  {
+    "content": "and uh one of the things that i really wanted was",
+    "start": 225
+  },
+  {
+    "content": "first class mdx support so when we talk about esm or es modules",
+    "start": 228
+  },
+  {
+    "content": "um i believe that now is the time to do esm first if you build a new framework",
+    "start": 236
+  },
+  {
+    "content": "today it should be esm first or esm exclusive and the reason",
+    "start": 241
+  },
+  {
+    "content": "for this is that all the evergreen or modern browsers already support it",
+    "start": 246
+  },
+  {
+    "content": "so we can write code that works with static import syntax and dynamic imports",
+    "start": 250
+  },
+  {
+    "content": "in the browser and it will just run and work like without any extra ceremony",
+    "start": 257
+  },
+  {
+    "content": "which is pretty amazing because the way that we're used to doing it is kind of",
+    "start": 262
+  },
+  {
+    "content": "like throwing them through webpack and then having webpack translate that to",
+    "start": 264
+  },
+  {
+    "content": "its own like require dot resolve kind of stuff um",
+    "start": 267
+  },
+  {
+    "content": "and like writing esm and shipping it to the browser results in more readable",
+    "start": 272
+  },
+  {
+    "content": "code because we're not taking everything and",
+    "start": 277
+  },
+  {
+    "content": "bundling it up and shipping it to the browser browsers giant",
+    "start": 279
+  },
+  {
+    "content": "uh minified bundles we can now see like an error on our site and actually",
+    "start": 282
+  },
+  {
+    "content": "just dive into the source code and read it like we would normally write it",
+    "start": 289
+  },
+  {
+    "content": "the other thing about esm is that node version 14 unflagged esm support",
+    "start": 292
+  },
+  {
+    "content": "so what that means is that at the end of october 2020",
+    "start": 298
+  },
+  {
+    "content": "node 14 is going to become the active lts",
+    "start": 303
+  },
+  {
+    "content": "version of node and that gives us esm support",
+    "start": 306
+  },
+  {
+    "content": "everywhere basically everywhere that we would want it",
+    "start": 310
+  },
+  {
+    "content": "in addition any new and experimental frameworks",
+    "start": 314
+  },
+  {
+    "content": "uh or runtimes i should say javascript runtimes that come out",
+    "start": 317
+  },
+  {
+    "content": "are going esm first right um if you think of you know if you think of",
+    "start": 321
+  },
+  {
+    "content": "uh more experimental projects like jstime everybody is starting with the s",
+    "start": 326
+  },
+  {
+    "content": "modules so es modules are definitely the future",
+    "start": 329
+  },
+  {
+    "content": "now if we go with es modules we need less webpack",
+    "start": 333
+  },
+  {
+    "content": "so we just kind of get rid of webpack now webpack does a bunch of stuff for us",
+    "start": 336
+  },
+  {
+    "content": "there's a couple of things that we probably want to take back um but we",
+    "start": 342
+  },
+  {
+    "content": "don't need all of webpack right we don't need all of webpack to be",
+    "start": 346
+  },
+  {
+    "content": "able to have an import uh thing from svg and get a",
+    "start": 349
+  },
+  {
+    "content": "component right",
+    "start": 353
+  },
+  {
+    "content": "so we remove the webpack complexity we go es modules first",
+    "start": 357
+  },
+  {
+    "content": "and one of the things about incremental compilation is that everybody kind of",
+    "start": 361
+  },
+  {
+    "content": "like names this something different um because it's not like really",
+    "start": 365
+  },
+  {
+    "content": "incremental compilation at the core level",
+    "start": 369
+  },
+  {
+    "content": "it's more like tacked on the back end right so gatsby calls this incremental",
+    "start": 371
+  },
+  {
+    "content": "builds which is only available in their cloud product",
+    "start": 379
+  },
+  {
+    "content": "next calls this incremental static regeneration",
+    "start": 382
+  },
+  {
+    "content": "toast actually does incremental compilation",
+    "start": 386
+  },
+  {
+    "content": "and this is the first time that i'll mention it but toast",
+    "start": 389
+  },
+  {
+    "content": "is currently built in rust so you can write a javascript",
+    "start": 392
+  },
+  {
+    "content": "website and then it's processed through a rust pre-compiled runtime",
+    "start": 396
+  },
+  {
+    "content": "which makes everything super fast and actually the incremental compilation",
+    "start": 401
+  },
+  {
+    "content": "library that we use is the same one that they use in rust analyzer",
+    "start": 405
+  },
+  {
+    "content": "which is pretty cool and uh not something that we have access to in the",
+    "start": 410
+  },
+  {
+    "content": "javascript ecosystem and the final thing for the technical",
+    "start": 413
+  },
+  {
+    "content": "direction is kind of like mdx right mdx is really cool um i'm very",
+    "start": 418
+  },
+  {
+    "content": "biased when i say that because i'm a maintainer so a little disclaimer there",
+    "start": 423
+  },
+  {
+    "content": "but mdx lets us write these very rich very dynamic very immersive experiences",
+    "start": 427
+  },
+  {
+    "content": "um for either our readers or our students",
+    "start": 434
+  },
+  {
+    "content": "um and i want to enable that to its fullest extent",
+    "start": 438
+  },
+  {
+    "content": "right and what that means is you shouldn't just be able to like replace",
+    "start": 441
+  },
+  {
+    "content": "your components and choose what renders and what doesn't",
+    "start": 445
+  },
+  {
+    "content": "as uh with certain styles but you should also be able to",
+    "start": 448
+  },
+  {
+    "content": "insert dynamic quizzes throughout your entire blog post",
+    "start": 452
+  },
+  {
+    "content": "to make sure that people are getting what you're saying you should be able to",
+    "start": 455
+  },
+  {
+    "content": "do things like the ableton live synthesizer tutorial",
+    "start": 460
+  },
+  {
+    "content": "in your blog post you should be able to do scrolly telling and",
+    "start": 463
+  },
+  {
+    "content": "you should be able to ship like a full unity 3d game on a blog post",
+    "start": 467
+  },
+  {
+    "content": "without it weighing down the entire rest of your site",
+    "start": 473
+  },
+  {
+    "content": "so this is what first class mdx means to me",
+    "start": 477
+  },
+  {
+    "content": "we also have some political stances um toast is going to be open source um open",
+    "start": 481
+  },
+  {
+    "content": "source it's always been a political statement",
+    "start": 486
+  },
+  {
+    "content": "uh it's going to be indie backed as opposed to some other",
+    "start": 489
+  },
+  {
+    "content": "uh frameworks in the ecosystem which are vc backed",
+    "start": 492
+  },
+  {
+    "content": "and we intend to support an ecosystem on top of toast",
+    "start": 496
+  },
+  {
+    "content": "so toast doesn't need to be doesn't need to win everything",
+    "start": 500
+  },
+  {
+    "content": "to succeed here and we also want to be an inclusive community which i think",
+    "start": 503
+  },
+  {
+    "content": "rust has done a pretty good job of so that's why i have rest here uh that",
+    "start": 508
+  },
+  {
+    "content": "is personally important to me so open source is a political statement",
+    "start": 514
+  },
+  {
+    "content": "it's not a business model um there's not really much to say about",
+    "start": 520
+  },
+  {
+    "content": "that a lot of you are familiar with open source",
+    "start": 525
+  },
+  {
+    "content": "if you use open source you need a business model to go with it",
+    "start": 528
+  },
+  {
+    "content": "we are issuing open core for various reasons that",
+    "start": 532
+  },
+  {
+    "content": "you can ask me on twitter um and going with a free software product model",
+    "start": 535
+  },
+  {
+    "content": "um i can talk more about that on twitter as well",
+    "start": 540
+  },
+  {
+    "content": "and then the inclusive community means that we will have the code of conduct",
+    "start": 543
+  },
+  {
+    "content": "we will have a method of reporting to the uh community leaders in the",
+    "start": 546
+  },
+  {
+    "content": "moderation team uh and sort of like removing people from",
+    "start": 550
+  },
+  {
+    "content": "the project if they uh start abusing other members",
+    "start": 553
+  },
+  {
+    "content": "so a brief talk about speed this isn't a scientific benchmark",
+    "start": 559
+  },
+  {
+    "content": "this is my personal site that i talked about from the beginning of the talk",
+    "start": 562
+  },
+  {
+    "content": "uh the one that i was building in the coffee shop at the time i was using",
+    "start": 566
+  },
+  {
+    "content": "gatsby it was taking me anywhere from 13 to 15 minutes to do a",
+    "start": 570
+  },
+  {
+    "content": "build i switched over to a prototype version",
+    "start": 573
+  },
+  {
+    "content": "of toast that was written in javascript to prove out the idea",
+    "start": 576
+  },
+  {
+    "content": "that we could actually go es modules first and that it would work",
+    "start": 579
+  },
+  {
+    "content": "uh that brought my build time down to 40 seconds",
+    "start": 583
+  },
+  {
+    "content": "and the rest version brings it down again to 16 seconds",
+    "start": 586
+  },
+  {
+    "content": "so again this is not scientific but it is here um this is the real world",
+    "start": 590
+  },
+  {
+    "content": "effect of having built this tool which is the effect that i was trying to have",
+    "start": 597
+  },
+  {
+    "content": "um there are also benefits on the client side but i don't have time to talk about",
+    "start": 602
+  },
+  {
+    "content": "those right now either so if you're interested in toast",
+    "start": 605
+  },
+  {
+    "content": "check out joes.dev there's a beta going on right now that i invite you into",
+    "start": 611
+  },
+  {
+    "content": "it is a paid beta the ga will go open source fully",
+    "start": 615
+  },
+  {
+    "content": "and i look forward to seeing you in the",
+    "start": 620
+  },
+  {
+    "content": "community you",
+    "start": 631
+  }
+]

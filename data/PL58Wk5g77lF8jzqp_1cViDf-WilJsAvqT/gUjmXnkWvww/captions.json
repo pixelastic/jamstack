@@ -1,0 +1,378 @@
+[
+  {
+    "content": "hi my name is jonathan elements i'm a",
+    "start": 2
+  },
+  {
+    "content": "freelance web developer based near amsterdam in the netherlands you can",
+    "start": 19
+  },
+  {
+    "content": "find me mostly on twitter when I am at GFI element I've been a service and gems",
+    "start": 24
+  },
+  {
+    "content": "tech enthusiasts for some time I organized the serverless Amsterdam",
+    "start": 30
+  },
+  {
+    "content": "meetup series for a while and back in the good old days when we could actually",
+    "start": 34
+  },
+  {
+    "content": "attend conferences in person remember those I was involved in",
+    "start": 40
+  },
+  {
+    "content": "organizing a yearly conference that grew to be quite popular over the past 10",
+    "start": 45
+  },
+  {
+    "content": "years in fact it became such a popular event to attend that ticket sales were",
+    "start": 49
+  },
+  {
+    "content": "becoming a bit of a problem in 2016 a conference sold out around 600 tickets",
+    "start": 55
+  },
+  {
+    "content": "in under 2 minutes and the next year it sold out in less than 30 seconds now",
+    "start": 60
+  },
+  {
+    "content": "this is a great problem for conference organisers to have but people were",
+    "start": 66
+  },
+  {
+    "content": "getting really annoyed but not being able to obtain a ticket in a normal",
+    "start": 71
+  },
+  {
+    "content": "orderly fashion surface would be slow there will be queues and delays things",
+    "start": 75
+  },
+  {
+    "content": "would crash our previous ticketing solution was a hosted platform that it",
+    "start": 82
+  },
+  {
+    "content": "couldn't handle this load well in fact during the rush to get a limited supply",
+    "start": 90
+  },
+  {
+    "content": "of early bird tickets the service couldn't keep up with demand counters",
+    "start": 95
+  },
+  {
+    "content": "went haywire and that resulted in over selling so more early bird tickets were",
+    "start": 101
+  },
+  {
+    "content": "sold than the limit that was set and because we felt more or less compelled",
+    "start": 108
+  },
+  {
+    "content": "to honor these ticket sales we took quite substantial financial hit now",
+    "start": 113
+  },
+  {
+    "content": "there are a lot of excellent ticket selling services out there some are not",
+    "start": 119
+  },
+  {
+    "content": "so excellent and I'm sure you can find something that really works great for",
+    "start": 125
+  },
+  {
+    "content": "you and your event for me as a developer of course there's",
+    "start": 129
+  },
+  {
+    "content": "only one way to fix this problem which was to build my own ticket shop and a",
+    "start": 133
+  },
+  {
+    "content": "gem stack was my dog food a static website using as few dynamic bells and",
+    "start": 141
+  },
+  {
+    "content": "whistles as possible in JavaScript or any other language",
+    "start": 150
+  },
+  {
+    "content": "in fact I built three things a static website an API with endpoints serving",
+    "start": 153
+  },
+  {
+    "content": "JSON and a database storage normal kind of the Holy Trinity over decoupled",
+    "start": 160
+  },
+  {
+    "content": "jamjam stack website of course there's a lot more to it but these things come at",
+    "start": 166
+  },
+  {
+    "content": "build time so before you even deploy your website here's a couple of things",
+    "start": 173
+  },
+  {
+    "content": "that work really well in keeping that really fast and performed stick to a",
+    "start": 180
+  },
+  {
+    "content": "simple single purpose playing JavaScript components model you may be comfortable",
+    "start": 187
+  },
+  {
+    "content": "with a lot more going on client-side using react or view or the other one but",
+    "start": 196
+  },
+  {
+    "content": "for this application we really didn't need any of that stick to simple single",
+    "start": 202
+  },
+  {
+    "content": "purpose API handlers deployed as serverless functions on AWS lambda in",
+    "start": 209
+  },
+  {
+    "content": "our case but there are other options are available we put the whole thing",
+    "start": 214
+  },
+  {
+    "content": "together using some old school friends gulp and no jokes templating yes gulp",
+    "start": 222
+  },
+  {
+    "content": "I'm I am that old the best way to keep things fast and performant is to",
+    "start": 231
+  },
+  {
+    "content": "pre-render as much as possible a good example of that for example example for",
+    "start": 239
+  },
+  {
+    "content": "example is a list of countries in a form where you ask users to fill in their",
+    "start": 246
+  },
+  {
+    "content": "address there's usually a list of countries that they can choose from and",
+    "start": 253
+  },
+  {
+    "content": "you see these lists going back and forth over the line in",
+    "start": 258
+  },
+  {
+    "content": "HTTP responses a lot and it's always the same long list of countries so if you",
+    "start": 264
+  },
+  {
+    "content": "move that to the template which you render before you deploy it to your",
+    "start": 269
+  },
+  {
+    "content": "static website Python then you only have to build it once you can serve it fast",
+    "start": 278
+  },
+  {
+    "content": "and often after that in fact to overcome the overselling problem of the early",
+    "start": 285
+  },
+  {
+    "content": "bird tickets I kind of pre-rendered these tickets in the database as well so",
+    "start": 293
+  },
+  {
+    "content": "instead of keeping track with a counter in the queue increment in the database",
+    "start": 299
+  },
+  {
+    "content": "which you could in theory if things go wrong keep incrementing to infinity or",
+    "start": 304
+  },
+  {
+    "content": "even at an empty table that you fill with records for every ticket that you",
+    "start": 310
+  },
+  {
+    "content": "sell",
+    "start": 315
+  },
+  {
+    "content": "I had a table that had 600 records in it representing the tickets and updating",
+    "start": 317
+  },
+  {
+    "content": "those as they were sold you can't update records that don't",
+    "start": 324
+  },
+  {
+    "content": "exist and relational database models are very good at keeping these things",
+    "start": 330
+  },
+  {
+    "content": "accurate so that kind of solved the problem of over selling the tickets and",
+    "start": 338
+  },
+  {
+    "content": "kept things going quite fast from the user perspective stick to a simple flow",
+    "start": 346
+  },
+  {
+    "content": "logic you could build something that's really complex on the client-side but we",
+    "start": 356
+  },
+  {
+    "content": "kind of stuck to just the simplest things that are possible on the web",
+    "start": 362
+  },
+  {
+    "content": "links that you can click and then follow yes it's amazing to a new page for",
+    "start": 368
+  },
+  {
+    "content": "example this might look like a sophisticated complex personalized",
+    "start": 375
+  },
+  {
+    "content": "template but it's very very generic there's not much going on here and those",
+    "start": 382
+  },
+  {
+    "content": "links are just that links to another page so there's this is",
+    "start": 390
+  },
+  {
+    "content": "this was the downloading your tickets page is one of the fastest before in",
+    "start": 396
+  },
+  {
+    "content": "pages because there is really nothing going on there so simple templates no",
+    "start": 402
+  },
+  {
+    "content": "virtual dome in this case just small holes in these templates that are",
+    "start": 407
+  },
+  {
+    "content": "updated with personalized information coming in from the API and all of that",
+    "start": 414
+  },
+  {
+    "content": "makes for a super-fast website there's almost nothing easier than letting other",
+    "start": 419
+  },
+  {
+    "content": "people do the work as long as they tell you when they're done and they provide",
+    "start": 429
+  },
+  {
+    "content": "you a way to get to the result of that work Web books are your friend they're",
+    "start": 435
+  },
+  {
+    "content": "great for this we uploaded some of the work and there's still no servers to",
+    "start": 440
+  },
+  {
+    "content": "manage but we do get the benefits of that work now this super simplified",
+    "start": 445
+  },
+  {
+    "content": "approach may not work when you scale things up to enterprise level there is",
+    "start": 454
+  },
+  {
+    "content": "no CMS in this platform the content is hard-coded into HTML templates and while",
+    "start": 462
+  },
+  {
+    "content": "that's for developers something to very quickly and easily update when you have",
+    "start": 471
+  },
+  {
+    "content": "content editors they don't have access to that code and then things become",
+    "start": 480
+  },
+  {
+    "content": "quite involved even to fix simple small content issues a little typos also in",
+    "start": 488
+  },
+  {
+    "content": "the title of this talk I mentioned no cookies and this is truth so we use",
+    "start": 498
+  },
+  {
+    "content": "session identifiers being able to distinguish between users in URLs don't",
+    "start": 503
+  },
+  {
+    "content": "do that that was not a good idea and it means that I can say no cookies but it's",
+    "start": 511
+  },
+  {
+    "content": "just not a very good I think to do from a security point of view also the flow",
+    "start": 520
+  },
+  {
+    "content": "logic in this application it was hard coded so you go from A to B",
+    "start": 526
+  },
+  {
+    "content": "to C there is no way to distinguish four different users to do different things",
+    "start": 531
+  },
+  {
+    "content": "in the application so it worked really well for this but it may not work very",
+    "start": 539
+  },
+  {
+    "content": "well and you have something more complex to do one thing that you can do and that",
+    "start": 545
+  },
+  {
+    "content": "you may not want to do but that you definitely can do with a gem stack",
+    "start": 552
+  },
+  {
+    "content": "website is you can deploy to production during peak load it's something that we",
+    "start": 556
+  },
+  {
+    "content": "did once or twice when we thought that was necessary there are no services to",
+    "start": 562
+  },
+  {
+    "content": "stop and start there's no processes things that need to",
+    "start": 569
+  },
+  {
+    "content": "cycle there's no warmup time things are just files and we update them when it",
+    "start": 573
+  },
+  {
+    "content": "was the most critical to do so that works really well so go ahead deploy to",
+    "start": 579
+  },
+  {
+    "content": "production on a Friday afternoon what's the worst that can happen thank you for",
+    "start": 588
+  },
+  {
+    "content": "having me thank you for being here or there I'll be hanging around in the in",
+    "start": 596
+  },
+  {
+    "content": "the chat if there's anything you want to ask me or tell me that I did wrong",
+    "start": 601
+  },
+  {
+    "content": "Thanks bye",
+    "start": 607
+  },
+  {
+    "content": "",
+    "start": 609
+  }
+]

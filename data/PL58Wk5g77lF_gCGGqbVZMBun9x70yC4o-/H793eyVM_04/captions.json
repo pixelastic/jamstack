@@ -1,0 +1,1658 @@
+[
+  {
+    "content": "Thank You Phil for the lovely",
+    "start": 0
+  },
+  {
+    "content": "introduction hello everyone how is everyone doing whoo okay cool I am so",
+    "start": 16
+  },
+  {
+    "content": "excited to be here I've been here for five days most tourists that come here",
+    "start": 21
+  },
+  {
+    "content": "that talk about the Golden Gate Bridge the cable car",
+    "start": 25
+  },
+  {
+    "content": "my best experience my highlight of my trip was walking into the Amazon ghost",
+    "start": 27
+  },
+  {
+    "content": "or taking a chocolate mousse putting it in my bag and walking out as if I was",
+    "start": 32
+  },
+  {
+    "content": "stealing it was amazing I just liked loved it and I think that's our future",
+    "start": 35
+  },
+  {
+    "content": "it's so performant you walk in and you walk out it's performant it's our future",
+    "start": 39
+  },
+  {
+    "content": "and that's what we're gonna talk about today static sites I believe in the",
+    "start": 44
+  },
+  {
+    "content": "future they are performant and that's what we're here for so my name is Debbie",
+    "start": 47
+  },
+  {
+    "content": "O'Brien and as Phil said I'm in for an EdTech late in Patterson agency in the",
+    "start": 52
+  },
+  {
+    "content": "beautiful island of New York I'm actually Irish so I moved to Majorca cuz",
+    "start": 55
+  },
+  {
+    "content": "it's sunny and Ireland only rains and I'm a contributor to webpack and also to",
+    "start": 59
+  },
+  {
+    "content": "next so I work a lot on the documentation I write blog posts for",
+    "start": 63
+  },
+  {
+    "content": "ultimate courses I'm a teacher at view school so if you want to learn about",
+    "start": 67
+  },
+  {
+    "content": "view just go to view school and you can listen to me for the rest of your life",
+    "start": 69
+  },
+  {
+    "content": "yeah and I'm a media developer expert at cloud inari so you can follow me on",
+    "start": 73
+  },
+  {
+    "content": "Twitter Deb's underscore O'Brien and on LinkedIn Debby O'Brien so today we are",
+    "start": 78
+  },
+  {
+    "content": "going to get rid of the lump we're going to get rid of the mean and we're gonna",
+    "start": 84
+  },
+  {
+    "content": "let the jam take over whoa okay so basically what I'm going to cover today",
+    "start": 92
+  },
+  {
+    "content": "is the new front end so how we're doing things nowadays is only one actually",
+    "start": 98
+  },
+  {
+    "content": "building John stack websites are you here just learning who's here is",
+    "start": 103
+  },
+  {
+    "content": "actually building okay that's quite a few and there's still a lot of you who",
+    "start": 105
+  },
+  {
+    "content": "that need converting that's okay I'm also going to talk about static versus",
+    "start": 109
+  },
+  {
+    "content": "dynamic because this is a big problem there a lot of people don't understand",
+    "start": 113
+  },
+  {
+    "content": "the difference between static and dynamic and I'm gonna show you I'm gonna",
+    "start": 117
+  },
+  {
+    "content": "show you a case study of what we built I'm gonna give you some performance tips",
+    "start": 121
+  },
+  {
+    "content": "so then you can go and build something cool and then there's some useful links",
+    "start": 125
+  },
+  {
+    "content": "at the end I might not get time to show you but I'll upload the slides to",
+    "start": 129
+  },
+  {
+    "content": "Twitter and then you'll be able to download it and one of it includes a",
+    "start": 133
+  },
+  {
+    "content": "boilerplate project from nooks that I built and you'll be able to download it",
+    "start": 136
+  },
+  {
+    "content": "and just play around with it and see everything that I've done so basically",
+    "start": 139
+  },
+  {
+    "content": "what has changed so everything now is pre-rendered",
+    "start": 142
+  },
+  {
+    "content": "so before we were like using your servers and we were like rendering on",
+    "start": 146
+  },
+  {
+    "content": "the server rendering in the browser and now we're just rendering it at bill time",
+    "start": 150
+  },
+  {
+    "content": "its pre rendered at bill time and then we basically just send up to a CDN and",
+    "start": 153
+  },
+  {
+    "content": "it just comes straight back down again so there's no execution at request time",
+    "start": 157
+  },
+  {
+    "content": "and that makes it much more performant the functionality is client-side so we",
+    "start": 161
+  },
+  {
+    "content": "can do all these kind of like cool things in our browsers now and basically",
+    "start": 166
+  },
+  {
+    "content": "it's all about the api's so the api's are now cool and allow us to do so much",
+    "start": 170
+  },
+  {
+    "content": "that we could never do before in front-end for example search",
+    "start": 176
+  },
+  {
+    "content": "functionalities we can use things like a goalie a search functionality and now in",
+    "start": 179
+  },
+  {
+    "content": "front-end we can just have search functionality",
+    "start": 183
+  },
+  {
+    "content": "thanks to these fantastic api's payments for example we can use stripe and sniff",
+    "start": 185
+  },
+  {
+    "content": "cart just to make payments right there in the front end it's kind of cool and",
+    "start": 191
+  },
+  {
+    "content": "we have authentication with I was over out and there's so much more so thanks",
+    "start": 194
+  },
+  {
+    "content": "to all these API is we can create amazing static sites so it's kind of",
+    "start": 200
+  },
+  {
+    "content": "like superpowers for the front-end so what do we gain so going John stack",
+    "start": 206
+  },
+  {
+    "content": "improves your app security because basically we don't have to worry so much",
+    "start": 210
+  },
+  {
+    "content": "about the attack vector it's not as wide as before and it improves performance",
+    "start": 214
+  },
+  {
+    "content": "because everything's already pre-rendered it's pre-built so",
+    "start": 218
+  },
+  {
+    "content": "performance is just like automatically we are working with better performance",
+    "start": 221
+  },
+  {
+    "content": "we have a better developer experience because now we don't have to like dive",
+    "start": 226
+  },
+  {
+    "content": "into someone else's code that we don't know we work in an experience in the",
+    "start": 230
+  },
+  {
+    "content": "codebase that we're used to and that we want to work with and that just makes us",
+    "start": 234
+  },
+  {
+    "content": "happier and being happy is important and it's easy deployment so we can deploy",
+    "start": 238
+  },
+  {
+    "content": "anything because we're deploying just a front-end part and we're deploying that",
+    "start": 242
+  },
+  {
+    "content": "separate to the back-end so deployment becomes easy so now this is a problem",
+    "start": 246
+  },
+  {
+    "content": "here a definition of static so when you're like basically going to your boss",
+    "start": 252
+  },
+  {
+    "content": "and saying I want to build static sites the problem with static sites is that",
+    "start": 256
+  },
+  {
+    "content": "this is the definition it's lacking in movement action or change especially in",
+    "start": 262
+  },
+  {
+    "content": "an undesirable or uninteresting way oops yeah so that basically means I want to",
+    "start": 267
+  },
+  {
+    "content": "build a static site and they go no I don't want static site on a dynamic cool",
+    "start": 274
+  },
+  {
+    "content": "single page applications dynamic cool we don't want static so I'm here to tell",
+    "start": 277
+  },
+  {
+    "content": "you what static really is and I'm gonna show you that true Taekwondo any",
+    "start": 282
+  },
+  {
+    "content": "Taekwondo fans here today anyone do Taekwondo yes one person on the black",
+    "start": 288
+  },
+  {
+    "content": "man you're gonna have fun later okay so I'm a fourth degree Taekwondo black belt",
+    "start": 292
+  },
+  {
+    "content": "so I spend a lot of my life basically hitting people and fighting and that's",
+    "start": 296
+  },
+  {
+    "content": "great fun and I always get my own way so maybe that's why so basically I'm gonna",
+    "start": 300
+  },
+  {
+    "content": "show you the difference between static and dynamic using Taekwondo so in static",
+    "start": 306
+  },
+  {
+    "content": "for example this movement here is a punch so at the end of a competition or",
+    "start": 310
+  },
+  {
+    "content": "at the end of a when you're doing the patterns in the class you have to hold a",
+    "start": 315
+  },
+  {
+    "content": "static position so you gotta like basically stand there in that position",
+    "start": 318
+  },
+  {
+    "content": "for as long as the other person takes to finish right and you might take ages",
+    "start": 322
+  },
+  {
+    "content": "because it might be a longer powder and it might be really really slow and your",
+    "start": 326
+  },
+  {
+    "content": "basic is just holding this static position so this is pretty much how I",
+    "start": 329
+  },
+  {
+    "content": "look at static right it's static we're not moving it's just static we also have",
+    "start": 333
+  },
+  {
+    "content": "really really cool dynamic movements in Taekwondo of course cuz Tai Kuan is cool",
+    "start": 337
+  },
+  {
+    "content": "so this is basically a really cool dynamic movement yeah to see that so",
+    "start": 341
+  },
+  {
+    "content": "that's I could do that as well but no I was actually practicing in my hotel room",
+    "start": 347
+  },
+  {
+    "content": "and then I decided probably might fall off the stage so I won't do it I'll do",
+    "start": 350
+  },
+  {
+    "content": "it later at the party though so and this is a slang no actually will this is a",
+    "start": 353
+  },
+  {
+    "content": "slang sidekick and as you can see it's really dynamic right but if you think",
+    "start": 358
+  },
+  {
+    "content": "back to when I was saying in the competition or when you're doing that in",
+    "start": 362
+  },
+  {
+    "content": "the class there's no way you could hold that position I mean you're just gonna",
+    "start": 365
+  },
+  {
+    "content": "fall so you cannot that's not a static position so basically that position is",
+    "start": 368
+  },
+  {
+    "content": "dynamic but it has to land in a nice static position at the end okay so",
+    "start": 373
+  },
+  {
+    "content": "you're getting my point we have we have static and we have dynamic put it",
+    "start": 378
+  },
+  {
+    "content": "depends on when you look at it that is a static movement and it's a dynamic",
+    "start": 382
+  },
+  {
+    "content": "movement I will show you in the video instead of me just doing Taekwondo",
+    "start": 386
+  },
+  {
+    "content": "appear on the stage and basically you can see it's dynamic but it ends and",
+    "start": 389
+  },
+  {
+    "content": "static it's dynamic it ends and started you see where I'm going here yeah we",
+    "start": 393
+  },
+  {
+    "content": "could all just do this right dynamic don't know make static dynamic and the",
+    "start": 396
+  },
+  {
+    "content": "thing with the kick yeah it's dynamic but he lands down in static it's dynamic",
+    "start": 399
+  },
+  {
+    "content": "he lands down and static it's dynamic he lands down in static and that's",
+    "start": 402
+  },
+  {
+    "content": "basically what we need to keep in mind everything is static and dynamic at the",
+    "start": 405
+  },
+  {
+    "content": "same time it depends on when we look at it",
+    "start": 409
+  },
+  {
+    "content": "so static is a new dynamic that's basically what we should be thinking",
+    "start": 413
+  },
+  {
+    "content": "about we're not building websites static websites like we used to build in the",
+    "start": 417
+  },
+  {
+    "content": "90s we're building cool websites basically our static site we're just",
+    "start": 421
+  },
+  {
+    "content": "pushing everything up to a CDN the user is just taking it straight down on it's",
+    "start": 427
+  },
+  {
+    "content": "just super super fast and there's no server needed so that makes it even more",
+    "start": 431
+  },
+  {
+    "content": "performant and it's just like super power super fast so static site",
+    "start": 435
+  },
+  {
+    "content": "generators now there are many sites at static site generators out there and if",
+    "start": 442
+  },
+  {
+    "content": "you're using view to build applications you can use next you can use view press",
+    "start": 446
+  },
+  {
+    "content": "and you can use grids some if you're using react you can use next and Gatsby",
+    "start": 451
+  },
+  {
+    "content": "if you're using spelt you can use snapper J's there's also 11 T and then",
+    "start": 455
+  },
+  {
+    "content": "you have Jacqueline Hugo who've been around for many years and there's",
+    "start": 462
+  },
+  {
+    "content": "probably even many more of these that I don't even know about so there's quite a",
+    "start": 465
+  },
+  {
+    "content": "lot to choose from so basically you know one is better than the other maybe maybe",
+    "start": 468
+  },
+  {
+    "content": "not it doesn't matter just choose one that's right for you play around with it",
+    "start": 473
+  },
+  {
+    "content": "and start building static sites so again Taekwondo and static sites okay so this",
+    "start": 476
+  },
+  {
+    "content": "is what I want to explain to you is how the static sites are being built because",
+    "start": 483
+  },
+  {
+    "content": "I have a lot of people who save yeah but you can't build that because that's",
+    "start": 487
+  },
+  {
+    "content": "dynamic and you that can't be in a static site everything can be in a",
+    "start": 490
+  },
+  {
+    "content": "static site so how we do it is if we think about our API is up there okay and",
+    "start": 493
+  },
+  {
+    "content": "we have this Taekwondo person just always think of it like wonder person",
+    "start": 499
+  },
+  {
+    "content": "and what they have to do is jump up to the API flying dynamic sidekick take all",
+    "start": 502
+  },
+  {
+    "content": "that data from the API line back down again and there is your static site with",
+    "start": 507
+  },
+  {
+    "content": "all the dynamic content now every time we change the content and we make a new",
+    "start": 511
+  },
+  {
+    "content": "build that Taekwondo person jumps back up CPI gets the data jumps back down",
+    "start": 516
+  },
+  {
+    "content": "again we have our static site again so do you see where I'm coming from okay so",
+    "start": 521
+  },
+  {
+    "content": "if we click a button something on the page that we need more data we then send",
+    "start": 525
+  },
+  {
+    "content": "that Taekwondo person back up to the API get the data back down again and you",
+    "start": 530
+  },
+  {
+    "content": "have your dynamic static side so it's just like this yeah jump up data back",
+    "start": 533
+  },
+  {
+    "content": "down again jump up data back down again okay it's kind of cool I want to do that",
+    "start": 537
+  },
+  {
+    "content": "later it'll be fun okay so now do we all understand the difference between",
+    "start": 541
+  },
+  {
+    "content": "in dynamic yes okay great let's move on so so pushing and deploying very easy we",
+    "start": 547
+  },
+  {
+    "content": "just basically we have increased confidence because as soon as we've",
+    "start": 554
+  },
+  {
+    "content": "built something we just get push and deploy it's like fantastic and the",
+    "start": 557
+  },
+  {
+    "content": "staging is the same as production so it's basically we don't have to worry",
+    "start": 561
+  },
+  {
+    "content": "about anything when we're building it we can deploy anywhere anytime so you",
+    "start": 565
+  },
+  {
+    "content": "should be able to sit on a plane deploy get on that plane for 11 hours come here",
+    "start": 569
+  },
+  {
+    "content": "and not worry about oh my god did it deploy right",
+    "start": 573
+  },
+  {
+    "content": "you remember those Fridays when you're like I just deployed on a Friday and now",
+    "start": 575
+  },
+  {
+    "content": "it's returned oh no yeah we don't have to worry about that anymore",
+    "start": 578
+  },
+  {
+    "content": "so that's kind of really cool and then you've got web hooks on content change",
+    "start": 582
+  },
+  {
+    "content": "so if your content changes if you change something in the air in your admin for",
+    "start": 585
+  },
+  {
+    "content": "example in the backend you just use a hook to basically rebuild and rebuild a",
+    "start": 589
+  },
+  {
+    "content": "whole website so that's a kind of a lot of generation with static sites right",
+    "start": 594
+  },
+  {
+    "content": "you're thinking every time I've got to change a content I've got to regenerate",
+    "start": 600
+  },
+  {
+    "content": "the site and change something and regenerate it's a lot of generation but",
+    "start": 603
+  },
+  {
+    "content": "you know don't worry about it take it easy let that static generator do its",
+    "start": 608
+  },
+  {
+    "content": "job that's what's there to do you don't have to worry about how many times",
+    "start": 612
+  },
+  {
+    "content": "you've got to generate the page just build it do it and leave that up to the",
+    "start": 616
+  },
+  {
+    "content": "static site generator so going next so nukes is not just a static site",
+    "start": 620
+  },
+  {
+    "content": "generator it's actually a progressive UJS framework who here is actually using",
+    "start": 625
+  },
+  {
+    "content": "nooks ok quite a few okay but not too many so I've got a lot of work in",
+    "start": 629
+  },
+  {
+    "content": "convincing you all at the end of this talk you're gonna walk out of here and",
+    "start": 634
+  },
+  {
+    "content": "you're all gonna want to build next web sites that's my aim here okay so next",
+    "start": 637
+  },
+  {
+    "content": "basically has a lot of benefits so you're basically building everything in",
+    "start": 643
+  },
+  {
+    "content": "view it's just view files so you build everything in view but nukes gives you a",
+    "start": 647
+  },
+  {
+    "content": "little bit more for example it gives you file based routing so everything that",
+    "start": 651
+  },
+  {
+    "content": "you put in the pages folder will be a page and will automatically get a Rooter",
+    "start": 655
+  },
+  {
+    "content": "j/s file for you so you're gonna have that all the routes basically done for",
+    "start": 660
+  },
+  {
+    "content": "you you don't have to like I build a course on on view Rooter and I'm like oh",
+    "start": 664
+  },
+  {
+    "content": "my god so much work maintaining a routed AS VAL nukes does it all for you you",
+    "start": 667
+  },
+  {
+    "content": "just put it in the pages folder and you also get automatically code spreading of",
+    "start": 672
+  },
+  {
+    "content": "your routes so now you don't even have to worry about code splitting of those",
+    "start": 676
+  },
+  {
+    "content": "routes it's all for youths magic it's cool so I love it",
+    "start": 679
+  },
+  {
+    "content": "prefetching it also prefetches all the links for you so next knows what you",
+    "start": 684
+  },
+  {
+    "content": "what the user might click on and basically will prefetch them so that",
+    "start": 689
+  },
+  {
+    "content": "they are ready to go and the user clicks on those links they're already prefetch",
+    "start": 692
+  },
+  {
+    "content": "and that makes it really really fast and there's like more than 50 modules so",
+    "start": 695
+  },
+  {
+    "content": "you've got a module for everything for Google Analytics sitemaps progressive",
+    "start": 700
+  },
+  {
+    "content": "web apps etc so there's so much you can do it nooks you've just got to dive in",
+    "start": 704
+  },
+  {
+    "content": "and check it out and see what's what's there so no quit nukes you can do",
+    "start": 708
+  },
+  {
+    "content": "server-side rendering single page application or static websites so I'm",
+    "start": 714
+  },
+  {
+    "content": "going to talk about the mole just to show you the kind of difference and just",
+    "start": 718
+  },
+  {
+    "content": "just to show you what you can do it next so its server-side rendering so next was",
+    "start": 720
+  },
+  {
+    "content": "created basically for server-side rendering and to get server-side",
+    "start": 725
+  },
+  {
+    "content": "rendering you just put mode Universal once you put mode Universal you now are",
+    "start": 729
+  },
+  {
+    "content": "using the server to render the page okay so that's all you've got to do to get a",
+    "start": 733
+  },
+  {
+    "content": "server rendered page in next for a single page application you just put",
+    "start": 738
+  },
+  {
+    "content": "mode sba and now you've got a single page application so the difference",
+    "start": 743
+  },
+  {
+    "content": "between them is very simple just one little change and now you can move from",
+    "start": 747
+  },
+  {
+    "content": "one to the other so what about static sites all you got to do is next generate",
+    "start": 751
+  },
+  {
+    "content": "in your build command so nukes generate so if you're using yarn at the yarn",
+    "start": 757
+  },
+  {
+    "content": "generate or NPM run generate and in your build command that's all you've got to",
+    "start": 760
+  },
+  {
+    "content": "do if you've got the mode Universal and your static site nukes generate on build",
+    "start": 765
+  },
+  {
+    "content": "you now have a static site now what that's cool is that basically you can",
+    "start": 769
+  },
+  {
+    "content": "just get any of your single page applications that you've previously",
+    "start": 773
+  },
+  {
+    "content": "built in nooks and just make them a static site by changing one command I",
+    "start": 776
+  },
+  {
+    "content": "mean that's kind of cool so you should play around with that so",
+    "start": 781
+  },
+  {
+    "content": "yeah so I'm gonna show you a case study so Patterson travel and you can check",
+    "start": 785
+  },
+  {
+    "content": "this out on your mobile in your laptop Patterson travel is a travel agency",
+    "start": 791
+  },
+  {
+    "content": "website that we built and it's Bill completely whit next so just to give you",
+    "start": 795
+  },
+  {
+    "content": "an idea of what it is it's in three languages and it has a blog events case",
+    "start": 800
+  },
+  {
+    "content": "studies quite another few pages and it's it's in three languages and has a",
+    "start": 806
+  },
+  {
+    "content": "hundred and forty-four generated pages so when we generate that because of the",
+    "start": 811
+  },
+  {
+    "content": "languages were generating 144 pages and it takes 74 seconds to generate all",
+    "start": 815
+  },
+  {
+    "content": "those pages so it doesn't take a lot of time to statically generate a site and",
+    "start": 821
+  },
+  {
+    "content": "to give you an idea of like the build up of the site it's not a massive company",
+    "start": 826
+  },
+  {
+    "content": "it's not a massive site but it's not a small site either but it does have a lot",
+    "start": 830
+  },
+  {
+    "content": "of content so we have five layouts five different layouts we have 32 page",
+    "start": 834
+  },
+  {
+    "content": "components so in our pages folder there's 32 pages we have 38 components",
+    "start": 839
+  },
+  {
+    "content": "that make up those pages and we have eight plugins that we're using we have",
+    "start": 844
+  },
+  {
+    "content": "nine modules on there are 21 pages of documentation so it's quite a not as I",
+    "start": 850
+  },
+  {
+    "content": "said not a big site but it's a kind of a middle sized site and it takes only 74",
+    "start": 857
+  },
+  {
+    "content": "seconds to generate all that so that's kind of cool now we also have a booking",
+    "start": 861
+  },
+  {
+    "content": "engine so we have a booking engine for this site that basically means you can",
+    "start": 866
+  },
+  {
+    "content": "reserve an event you can search for hotels you can add in a hotel you can",
+    "start": 871
+  },
+  {
+    "content": "add extra such as like a t-shirt that you want to buy for the event you can",
+    "start": 876
+  },
+  {
+    "content": "checkout you can receive the confirmation of the purchase so all this",
+    "start": 879
+  },
+  {
+    "content": "also happens in our static site and now you're probably thinking but hang on a",
+    "start": 883
+  },
+  {
+    "content": "minute you can't do that right because how can I statically generate the page",
+    "start": 889
+  },
+  {
+    "content": "because I don't know what the user is going to choose what hotel is he going",
+    "start": 894
+  },
+  {
+    "content": "to use how many children do they have what room were they want to choose so we",
+    "start": 898
+  },
+  {
+    "content": "cannot statically generate that and you're right it's not possible to",
+    "start": 901
+  },
+  {
+    "content": "statically generate that so that basically has to be a single page",
+    "start": 904
+  },
+  {
+    "content": "application but can we have a single page application inside a static site",
+    "start": 908
+  },
+  {
+    "content": "next you can so this is basically what you should be doing if you're building a",
+    "start": 915
+  },
+  {
+    "content": "single page application for your booking engine you can mix it in your static",
+    "start": 921
+  },
+  {
+    "content": "site so you can have both you can have your whole page your whole website is a",
+    "start": 926
+  },
+  {
+    "content": "static site and the booking engine as a single page application mm-hmm how do",
+    "start": 928
+  },
+  {
+    "content": "you do that it's actually really easy you just use a spa fallback so basically",
+    "start": 935
+  },
+  {
+    "content": "in the generate command you just put fallback equals to true so fallback true",
+    "start": 940
+  },
+  {
+    "content": "based basically means when you're not generating this",
+    "start": 945
+  },
+  {
+    "content": "fall back into single page application mode and basically with the exclude you",
+    "start": 948
+  },
+  {
+    "content": "can tell it what you want excluded what you do not want generated so we're using",
+    "start": 952
+  },
+  {
+    "content": "booking here everything is of my booking engine is in a booking folder so",
+    "start": 957
+  },
+  {
+    "content": "basically we're saying everything that's in the booking folder excluded do not",
+    "start": 961
+  },
+  {
+    "content": "statically generate it I want it to be a single page application and that's it so",
+    "start": 965
+  },
+  {
+    "content": "you can use a regex expression there you can put in whatever you want and it's",
+    "start": 970
+  },
+  {
+    "content": "very easy then to mix a single page application inside a static site you",
+    "start": 973
+  },
+  {
+    "content": "don't have to build two things separate of each other that's kind of cool so how",
+    "start": 976
+  },
+  {
+    "content": "does it work so your site is pre-rendered okay your pre rendering the",
+    "start": 982
+  },
+  {
+    "content": "static website hydration kicks in which is where the dynamic mistakes over view",
+    "start": 986
+  },
+  {
+    "content": "basically hydrates at all for you and it's now acting like a single page",
+    "start": 991
+  },
+  {
+    "content": "application even though it is a static site it acts like a single page",
+    "start": 995
+  },
+  {
+    "content": "application when the hydration process kicks in and the content is kept",
+    "start": 998
+  },
+  {
+    "content": "up-to-date because of the API calls and navigation now this is really important",
+    "start": 1003
+  },
+  {
+    "content": "so you basically have your website that's static everything is pre-rendered",
+    "start": 1008
+  },
+  {
+    "content": "when you go to the homes page or whichever page you land on you just have",
+    "start": 1013
+  },
+  {
+    "content": "pre-rendered content but every time I change a page I now call the API again",
+    "start": 1016
+  },
+  {
+    "content": "so if I go to a different page I'm gonna call the API now why would you want that",
+    "start": 1024
+  },
+  {
+    "content": "but think of our booking engine think of an e-commerce site for example that",
+    "start": 1028
+  },
+  {
+    "content": "basically you might want to statically generate something but you might want to",
+    "start": 1033
+  },
+  {
+    "content": "change the price so if you change the price of something you're gonna go now",
+    "start": 1036
+  },
+  {
+    "content": "it's I have to rebuild the whole site and deploy it before I see the price",
+    "start": 1040
+  },
+  {
+    "content": "change well you don't because in next everything is kept up to date because",
+    "start": 1044
+  },
+  {
+    "content": "you're calling the API on every single page so every time you you change the",
+    "start": 1048
+  },
+  {
+    "content": "new page or you go into the next process of the booking engine you're basically",
+    "start": 1052
+  },
+  {
+    "content": "going to see that updated content so we're calling the API on navigation",
+    "start": 1056
+  },
+  {
+    "content": "every time we're next it's really important to remember so it's kinda like",
+    "start": 1060
+  },
+  {
+    "content": "yeah call UPI call the API call the API call the API and you can see that in the",
+    "start": 1065
+  },
+  {
+    "content": "network tab so you can um you can check that out and see how it works",
+    "start": 1068
+  },
+  {
+    "content": "and basically as you can see it just calls the API every time you're changing",
+    "start": 1071
+  },
+  {
+    "content": "the page so you kind of think any of it I just want full static I don't want it",
+    "start": 1077
+  },
+  {
+    "content": "to call the API time I mean that's great for an",
+    "start": 1081
+  },
+  {
+    "content": "e-commerce site and it's great for like a booking engine but maybe you just have",
+    "start": 1083
+  },
+  {
+    "content": "like a blog side or other content that's not changing that often so why do you",
+    "start": 1087
+  },
+  {
+    "content": "want to change and call the API every single time well that's basically how",
+    "start": 1092
+  },
+  {
+    "content": "next works but we also have a full static module so full static basically",
+    "start": 1098
+  },
+  {
+    "content": "means it's fully static I like it and basically all you got to do if",
+    "start": 1104
+  },
+  {
+    "content": "you've got one API call on built so it calls the API and builds remember the",
+    "start": 1109
+  },
+  {
+    "content": "Taekwon a person jumps up gets everything comes back down again and",
+    "start": 1113
+  },
+  {
+    "content": "basically then every time you change the page you call the payload on navigation",
+    "start": 1117
+  },
+  {
+    "content": "instead of the API so now instead of having to jump up at every navigation",
+    "start": 1122
+  },
+  {
+    "content": "and go to the API and get the data I now have it all in my payload and I just",
+    "start": 1127
+  },
+  {
+    "content": "jump in there and just get it it's just right there so I don't have to jump so",
+    "start": 1131
+  },
+  {
+    "content": "it's super super performant so the static module in next basically you just",
+    "start": 1134
+  },
+  {
+    "content": "have to add the static module it's as simple as that and then just generate",
+    "start": 1140
+  },
+  {
+    "content": "your page and then you have the full static module but it's coming soon so it",
+    "start": 1145
+  },
+  {
+    "content": "should have been released around this week maybe it's gonna release next week",
+    "start": 1151
+  },
+  {
+    "content": "this is coming very very soon you guys are the first to hear about it",
+    "start": 1154
+  },
+  {
+    "content": "so watch out for the next release of nooks that's gonna have this static",
+    "start": 1158
+  },
+  {
+    "content": "module and I'm really excited about it because I got to play around with it so",
+    "start": 1161
+  },
+  {
+    "content": "I'm gonna show you how it works a little bit more and basically here it creates",
+    "start": 1165
+  },
+  {
+    "content": "in the dist folder when you generate stuff everything goes into the dist",
+    "start": 1170
+  },
+  {
+    "content": "folder you open the nuke folder and you now have a payloads folder inside that",
+    "start": 1173
+  },
+  {
+    "content": "payloads folder you've got a folder with loads of numbers and digits and then you",
+    "start": 1177
+  },
+  {
+    "content": "have every single page so you can see there they're all the pages I have or",
+    "start": 1181
+  },
+  {
+    "content": "they're in a folder and inside that folder is the payload JSON of every",
+    "start": 1185
+  },
+  {
+    "content": "single page so we're not calling the whole list like the whole cache of",
+    "start": 1189
+  },
+  {
+    "content": "everything of your data you're just calling the page that you want to go to",
+    "start": 1193
+  },
+  {
+    "content": "so basically like I showed before in the network hub you now have the payload",
+    "start": 1197
+  },
+  {
+    "content": "JSON and you can see it's calling the payload this is calling the events",
+    "start": 1203
+  },
+  {
+    "content": "payload and every time you change the page you're navigating to the API is",
+    "start": 1206
+  },
+  {
+    "content": "going to the payload instead of going to the API except for the ones",
+    "start": 1211
+  },
+  {
+    "content": "exclude because then they're going to be a single page application mode and they",
+    "start": 1216
+  },
+  {
+    "content": "will call the API so you can have both okay so that's coming very very soon so",
+    "start": 1219
+  },
+  {
+    "content": "watch out for that one that should be released I hopefully this month so",
+    "start": 1224
+  },
+  {
+    "content": "static sites is equal to great performance and this is basically the",
+    "start": 1229
+  },
+  {
+    "content": "performance that we have with Paterson dot travel so we're really really really",
+    "start": 1234
+  },
+  {
+    "content": "excited and proud of this we have ninety four which is not bad I didn't have",
+    "start": 1237
+  },
+  {
+    "content": "ninety nine and then I added loads of content and now I've got 94 and I've got",
+    "start": 1242
+  },
+  {
+    "content": "to get better at it you know so this this kills me it's like but I did this",
+    "start": 1245
+  },
+  {
+    "content": "two days ago in my in the motel I was staying in and it's still pretty good",
+    "start": 1249
+  },
+  {
+    "content": "but I know how we can fix this and I'm going to show you as well how you can",
+    "start": 1254
+  },
+  {
+    "content": "fix this and get great performance accessibility 100 best practice 100",
+    "start": 1257
+  },
+  {
+    "content": "search engine optimization 100 and we're using a progressive web app so this is",
+    "start": 1261
+  },
+  {
+    "content": "what you should be all aiming for if you don't aim for perfection you'll never",
+    "start": 1265
+  },
+  {
+    "content": "get there so just try your best and make sure you get there and try and be as",
+    "start": 1269
+  },
+  {
+    "content": "performant as possible so next talk that I do is gonna be a",
+    "start": 1273
+  },
+  {
+    "content": "hundred you're gonna like whatever this okay you have promised you accessibility",
+    "start": 1277
+  },
+  {
+    "content": "so make sure you're working with accessibility and getting this because",
+    "start": 1282
+  },
+  {
+    "content": "this will also help your performance the lighthouse test will check",
+    "start": 1284
+  },
+  {
+    "content": "everything so it's very simple make sure you got semantic HTML use a button for a",
+    "start": 1287
+  },
+  {
+    "content": "button for example make sure you got your labels for your forms so always use",
+    "start": 1293
+  },
+  {
+    "content": "labels area tags make sure you're using them correctly as well and this one's",
+    "start": 1297
+  },
+  {
+    "content": "really important all types make sure you have alt tags now Google will allow you",
+    "start": 1301
+  },
+  {
+    "content": "to just put an alt tag in there with ABC and that will go yeah you're very",
+    "start": 1305
+  },
+  {
+    "content": "accessible and you are super cool because you've got alt tags but that's",
+    "start": 1309
+  },
+  {
+    "content": "really not how it should be so make sure you're putting the right content for",
+    "start": 1312
+  },
+  {
+    "content": "your alt tags and use chrome dev tools for accessibility so don't have you know",
+    "start": 1314
+  },
+  {
+    "content": "this but also they look at your color contrasts so this is gonna help people",
+    "start": 1319
+  },
+  {
+    "content": "who who don't have as good a vision as some of us here and basically just by",
+    "start": 1324
+  },
+  {
+    "content": "like hovering over it in inspect mode you can actually see if your contrast is",
+    "start": 1328
+  },
+  {
+    "content": "making it or not and you can see my a a mark there so I'm getting you know good",
+    "start": 1333
+  },
+  {
+    "content": "results there and if you're not then just go to your designer and say look",
+    "start": 1337
+  },
+  {
+    "content": "this color this gray just just make it a little bit tiny bit darker a tiny bit",
+    "start": 1341
+  },
+  {
+    "content": "lighter nobody's no gonna notice a difference so",
+    "start": 1344
+  },
+  {
+    "content": "just do it because somebody else will and it will make a difference",
+    "start": 1346
+  },
+  {
+    "content": "to accessibility and it will improve your performance as well so Oh to",
+    "start": 1349
+  },
+  {
+    "content": "optimize your images so we use cloud and airy for everything if you haven't heard",
+    "start": 1353
+  },
+  {
+    "content": "a cloud I read they do have a booth out there you go your get your photograph",
+    "start": 1357
+  },
+  {
+    "content": "taken for free and chat to them all about it and what I love about cloud and",
+    "start": 1360
+  },
+  {
+    "content": "area is it helps my performance and just by writing Q underscore Auto or F",
+    "start": 1363
+  },
+  {
+    "content": "underscore Auto I now get automatically optimized images I don't have to do",
+    "start": 1368
+  },
+  {
+    "content": "anything no more Photoshop work anymore I get automatically optimized images and",
+    "start": 1373
+  },
+  {
+    "content": "it will also choose the best image for me so if I'm using Chrome it's gonna",
+    "start": 1377
+  },
+  {
+    "content": "give me a web page I'm using Internet Explorer it's gonna use just a JPEG so",
+    "start": 1382
+  },
+  {
+    "content": "that's all you've got to do and it does so much more as well that I won't go",
+    "start": 1387
+  },
+  {
+    "content": "into but basically for performance just check out cloud and airy and it's free",
+    "start": 1390
+  },
+  {
+    "content": "for developers so just check it out and have fun with that lazy load your images",
+    "start": 1395
+  },
+  {
+    "content": "so this is kind of like you know you can use Chrome's one loading equals lazy or",
+    "start": 1399
+  },
+  {
+    "content": "you can you know build something if you want and basically lazy load them so",
+    "start": 1403
+  },
+  {
+    "content": "that really does help your performance as well progressive web app now this is",
+    "start": 1407
+  },
+  {
+    "content": "my favorite so I wanted to build a progressive web app and I was like I",
+    "start": 1411
+  },
+  {
+    "content": "don't know how to do that I need to do a course on serviceworkers I need to learn",
+    "start": 1415
+  },
+  {
+    "content": "about this it's gonna take me about three weeks so I put it off for ages and",
+    "start": 1418
+  },
+  {
+    "content": "then I sat down I said right now is a time I'm gonna build a progressive web",
+    "start": 1422
+  },
+  {
+    "content": "app and what do I do I just basically put in my modules Knox",
+    "start": 1425
+  },
+  {
+    "content": "junior /pwa I put an icon dot PNG into my static folder and I had a progressive",
+    "start": 1429
+  },
+  {
+    "content": "web app it took three seconds I was like oh my god I didn't tell my boss that no",
+    "start": 1435
+  },
+  {
+    "content": "I told him it took three weeks so yeah if you're if you're using nooks check",
+    "start": 1440
+  },
+  {
+    "content": "out and make sure you put the progressive web app and it's super",
+    "start": 1446
+  },
+  {
+    "content": "simple so for CSS CSS dots you can actually run",
+    "start": 1448
+  },
+  {
+    "content": "CSS dots on your CSS on your website and see how big your CSS is remember for",
+    "start": 1454
+  },
+  {
+    "content": "performance JavaScript and CSS are what's gonna slow your website down so",
+    "start": 1460
+  },
+  {
+    "content": "the less JavaScript and the less CSS you have the more performant your website is",
+    "start": 1464
+  },
+  {
+    "content": "going to be and obviously we need a lot of JavaScript so I'm kind of like saying",
+    "start": 1468
+  },
+  {
+    "content": "okay if I have more room for JavaScript if I have less room for my CSS so how do",
+    "start": 1472
+  },
+  {
+    "content": "we do this so what I normally use is tailwind and purge CSS tailwind is",
+    "start": 1476
+  },
+  {
+    "content": "utilities color library so it's utilities first and",
+    "start": 1481
+  },
+  {
+    "content": "basically it's a bit strange if to start off with you kind of think oh my god but",
+    "start": 1485
+  },
+  {
+    "content": "I'm putting in the HTML all these like utilities instead of like having all",
+    "start": 1488
+  },
+  {
+    "content": "your classes but it's really easy to maintain and we started it off we build",
+    "start": 1492
+  },
+  {
+    "content": "this and we have 27 K bees before gzipped 7 K bees of CSS gzipped I mean",
+    "start": 1496
+  },
+  {
+    "content": "that is pretty incredible for our whole website that's all the CSS we're loading",
+    "start": 1502
+  },
+  {
+    "content": "so that is really really cool and purge CSS what purge CSS does is it",
+    "start": 1506
+  },
+  {
+    "content": "just removes all the CSS you're not using and it just chosen the bin I love",
+    "start": 1510
+  },
+  {
+    "content": "it so it's great so modern mode as well wit nukes we have a modern mold and you",
+    "start": 1514
+  },
+  {
+    "content": "basically just put nuke spills - - modern and then you basically build a",
+    "start": 1519
+  },
+  {
+    "content": "bundle for the modern browsers so chrome is gonna now have a smaller bundle",
+    "start": 1525
+  },
+  {
+    "content": "because it doesn't need so much stuff as Internet Explorer for example who need",
+    "start": 1530
+  },
+  {
+    "content": "all these polyfills etc so it's gotta build a better and quicker and more",
+    "start": 1534
+  },
+  {
+    "content": "performant site using modern so that's really easy to do make sure you code",
+    "start": 1538
+  },
+  {
+    "content": "split from the start so when you're building don't just think later on I'm",
+    "start": 1543
+  },
+  {
+    "content": "gonna go to my whole application and then I'll code split what I think",
+    "start": 1547
+  },
+  {
+    "content": "doesn't need to be shipped upfront code split from the start cuz it's really",
+    "start": 1550
+  },
+  {
+    "content": "simple so in view you just put it the component you're going to use normally",
+    "start": 1554
+  },
+  {
+    "content": "you would have an import on top of that just put the import as an arrow function",
+    "start": 1558
+  },
+  {
+    "content": "where your component is the footer for example people might never ever ever get",
+    "start": 1561
+  },
+  {
+    "content": "to the footer so you know don't load that up front",
+    "start": 1565
+  },
+  {
+    "content": "make sure it's just code split it so it gets loaded as the page gets rendered as",
+    "start": 1568
+  },
+  {
+    "content": "opposed to always being there the same with modal's or with dropdowns and as I",
+    "start": 1572
+  },
+  {
+    "content": "said wit next your routes are automatically this automatically happens",
+    "start": 1577
+  },
+  {
+    "content": "with your route so you don't need to worry about that unless you load your",
+    "start": 1581
+  },
+  {
+    "content": "translation so if you're using NOx internationalization it's actually",
+    "start": 1586
+  },
+  {
+    "content": "really easy you just put lazy true and then you have automatically lazy loaded",
+    "start": 1589
+  },
+  {
+    "content": "of your translations so that means you're not gonna load the English if",
+    "start": 1594
+  },
+  {
+    "content": "you're on the Spanish website unless someone actually clicks on the English",
+    "start": 1598
+  },
+  {
+    "content": "ok so just just do it it's really simple like I was saying before tailwind and",
+    "start": 1600
+  },
+  {
+    "content": "purge CSS it's definitely my favorite and nukes has a module for this you just",
+    "start": 1605
+  },
+  {
+    "content": "have to re until when CSS and it will automatically include the purge CSS for",
+    "start": 1610
+  },
+  {
+    "content": "you and then if you do want to like do",
+    "start": 1616
+  },
+  {
+    "content": "something like whitelist some so maybe using date pickers which is an external",
+    "start": 1619
+  },
+  {
+    "content": "library and you don't want them to remove the CSS then you just flightless",
+    "start": 1623
+  },
+  {
+    "content": "that and then purge the SS anything with date picker it's just never going to",
+    "start": 1626
+  },
+  {
+    "content": "remove those styles so definitely try out tailwind with purge the SS because",
+    "start": 1630
+  },
+  {
+    "content": "it's really cool so use the web pack analyzer wit next it's very simple you",
+    "start": 1633
+  },
+  {
+    "content": "just put build dash a and you get the web pack analyzer so when you're",
+    "start": 1638
+  },
+  {
+    "content": "analyzing your code and you should do this quite regularly and if you're",
+    "start": 1642
+  },
+  {
+    "content": "building something when we added moment as you can see the developer added",
+    "start": 1645
+  },
+  {
+    "content": "moment and we added like every single language Under the Sun and I was like",
+    "start": 1649
+  },
+  {
+    "content": "the whole my god you're killing your application so you can basically analyze",
+    "start": 1653
+  },
+  {
+    "content": "things and you can see so that then you can make better decisions",
+    "start": 1657
+  },
+  {
+    "content": "so we basically then chose looks and instead of moment and that made it",
+    "start": 1660
+  },
+  {
+    "content": "smaller and we can still make that smaller again so we can still in looks",
+    "start": 1665
+  },
+  {
+    "content": "and instead a moment take a couple of other things out and make it even more",
+    "start": 1668
+  },
+  {
+    "content": "performant but use the analyzer to basically analyze everything so",
+    "start": 1672
+  },
+  {
+    "content": "basically Jam stack do we need it hell yeah so I'm taking the fight and it's",
+    "start": 1677
+  },
+  {
+    "content": "gonna be a fight when you go back home and you're gonna say right we want to",
+    "start": 1686
+  },
+  {
+    "content": "use jam stack I want to build a jump strike a website I want to build a",
+    "start": 1689
+  },
+  {
+    "content": "static website it's gonna be a fight because people are afraid of change and",
+    "start": 1692
+  },
+  {
+    "content": "you've just got to tell them look I'm gonna build you a super dynamic website",
+    "start": 1695
+  },
+  {
+    "content": "and it's gonna be very performant just don't mention the word static and you",
+    "start": 1698
+  },
+  {
+    "content": "know you'll basically be able to do what you want and my question for you today",
+    "start": 1702
+  },
+  {
+    "content": "is are you next yes who here is gonna now go home and try out a next website",
+    "start": 1705
+  },
+  {
+    "content": "yes I got one hand on the back that's cool okay thank you very much",
+    "start": 1712
+  },
+  {
+    "content": "as I said these slides they will be on Twitter so the first one there is the",
+    "start": 1725
+  },
+  {
+    "content": "nukes boilerplate so this is a boilerplate project it's taken from",
+    "start": 1729
+  },
+  {
+    "content": "Chris Fritz's view enterprise boilerplate and I've just basically made",
+    "start": 1733
+  },
+  {
+    "content": "it a nukes to fight it and you can just like download all of that it has",
+    "start": 1736
+  },
+  {
+    "content": "everything except the static module as soon as the static module is released",
+    "start": 1739
+  },
+  {
+    "content": "I'll also add into it at the moment it's um I can't show it to you yet it's",
+    "start": 1743
+  },
+  {
+    "content": "private oh but I will add that in and everything is in the boilerplate old",
+    "start": 1746
+  },
+  {
+    "content": "approach CSS tailwind internationalization so download that",
+    "start": 1750
+  },
+  {
+    "content": "play around with it and have some fun and just test out next and build some",
+    "start": 1754
+  },
+  {
+    "content": "really cool stuff so thank you very much [Applause]",
+    "start": 1758
+  },
+  {
+    "content": "[Applause]",
+    "start": 1764
+  },
+  {
+    "content": "you",
+    "start": 1771
+  }
+]

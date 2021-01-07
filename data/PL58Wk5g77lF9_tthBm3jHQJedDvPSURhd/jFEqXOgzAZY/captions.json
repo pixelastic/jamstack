@@ -1,0 +1,2126 @@
+[
+  {
+    "content": "so next up we actually have a Bryan",
+    "start": 0
+  },
+  {
+    "content": "Douglas doing action-packed github he's currently a Beyonce advocate over github",
+    "start": 6
+  },
+  {
+    "content": "I am juiced sorry you missed the first half of that conversation he asked me if",
+    "start": 12
+  },
+  {
+    "content": "I needed power all right how's everybody doing I'm doing well but show of hands",
+    "start": 33
+  },
+  {
+    "content": "doesn't seem like you guys are doing very well that was an awesome demo huh",
+    "start": 42
+  },
+  {
+    "content": "all right cool sorry I've just solid because I want to use my phone cool",
+    "start": 46
+  },
+  {
+    "content": "so who's ready to hear about action-packed Jam stack cool all right",
+    "start": 51
+  },
+  {
+    "content": "more people that are doing well awesome well I'm just gonna jump right in I've",
+    "start": 58
+  },
+  {
+    "content": "got a lot of slides this talk literally as action-packed but I want to give a",
+    "start": 62
+  },
+  {
+    "content": "brief intro was very cool is that Gerald he's basically unloaded his his heart",
+    "start": 66
+  },
+  {
+    "content": "here and told us his first site which was the Waldo Warcraft server yeah I",
+    "start": 76
+  },
+  {
+    "content": "just wanted to make sure Twitter heard but yeah that was built on PHP and my",
+    "start": 82
+  },
+  {
+    "content": "sequel but before that I used to do a lot of tinkering especially in high",
+    "start": 87
+  },
+  {
+    "content": "school I do look really good from age but I'm slightly older than what you",
+    "start": 91
+  },
+  {
+    "content": "think and I used to make leagues HTML sites in high school and they looked all",
+    "start": 95
+  },
+  {
+    "content": "like this well it didn't look like this this Craigslist but the cool thing about",
+    "start": 99
+  },
+  {
+    "content": "Craigslist is that it's it this works there's not really much to it just about",
+    "start": 103
+  },
+  {
+    "content": "to HTML and CSS and if you ever inspected Craigslist open up the chrome",
+    "start": 107
+  },
+  {
+    "content": "dev tools so this is all the CSS that makes Craigslist work is that pretty",
+    "start": 112
+  },
+  {
+    "content": "cool yeah all that CSS to make that same site work everywhere in every single",
+    "start": 117
+  },
+  {
+    "content": "city and the weird part of it is that they would have an important in there so",
+    "start": 124
+  },
+  {
+    "content": "like there's no see it was hardly any CSS but actually using important",
+    "start": 128
+  },
+  {
+    "content": "- like and strict some colors which I discuss all that baffling but I like",
+    "start": 132
+  },
+  {
+    "content": "doing this and so if you guys don't know I don't know if you guys know I am I'm",
+    "start": 139
+  },
+  {
+    "content": "Bryan Douglas and I used to work at Matloff I and one thing I did was I took",
+    "start": 142
+  },
+  {
+    "content": "the Space Jam Space Jam comm you guys know that Space Jam it's a pretty cool",
+    "start": 146
+  },
+  {
+    "content": "movie starting Michael Jordan and Bugs Bunny and I took that site and I",
+    "start": 152
+  },
+  {
+    "content": "basically inspected it and copied all the entire page and then I host identify",
+    "start": 157
+  },
+  {
+    "content": "because I just want to see if anything broke I think the only thing that broke",
+    "start": 161
+  },
+  {
+    "content": "is the original animated gift stars that was the only thing that's not",
+    "start": 165
+  },
+  {
+    "content": "actually working there but other than that the entire site works",
+    "start": 169
+  },
+  {
+    "content": "sorry also some of the videos didn't actually link properly but regardless",
+    "start": 172
+  },
+  {
+    "content": "and I thought I was very cool because I think like when the web works like I",
+    "start": 176
+  },
+  {
+    "content": "think we all win and then going through a little more history like we had a",
+    "start": 180
+  },
+  {
+    "content": "JavaScript was a thing it got like really serious back in the 90s when it",
+    "start": 184
+  },
+  {
+    "content": "first came out not really but it got serious in the last couple years and",
+    "start": 188
+  },
+  {
+    "content": "then things started getting a little more complicated because prior to",
+    "start": 191
+  },
+  {
+    "content": "JavaScript actually being taken seriously we had these other frameworks",
+    "start": 195
+  },
+  {
+    "content": "it's web 2.0 frameworks like WordPress and Drupal and then things got really",
+    "start": 198
+  },
+  {
+    "content": "complicated and then we got into like the modern web which was a few years",
+    "start": 203
+  },
+  {
+    "content": "back and all these sort of mind infrastructure you had to like sort of",
+    "start": 207
+  },
+  {
+    "content": "deploy to get a site up and running you had to learn like the back-to-front",
+    "start": 211
+  },
+  {
+    "content": "frameworks and get stuff up and running and they nailed esight dependency",
+    "start": 216
+  },
+  {
+    "content": "management and if you're a ruby person your review person if you're a",
+    "start": 219
+  },
+  {
+    "content": "JavaScript person your JavaScript person that like never really shouldn't matter",
+    "start": 222
+  },
+  {
+    "content": "and I like where we eventually came out of this when JavaScript started",
+    "start": 225
+  },
+  {
+    "content": "demanding to be taken seriously who's a JavaScript over here anybody write",
+    "start": 229
+  },
+  {
+    "content": "JavaScript okay most of us in the room cool so this worked so Ducey's build",
+    "start": 234
+  },
+  {
+    "content": "tools and would take all that dynamic crud apps and make them entity",
+    "start": 239
+  },
+  {
+    "content": "statically built index.html so like exactly where we came from exactly we're",
+    "start": 243
+  },
+  {
+    "content": "Craigslist literally just watch the world go by it and then come back like a",
+    "start": 249
+  },
+  {
+    "content": "full circle and I think the entire web is like it's all cyclical I think most",
+    "start": 253
+  },
+  {
+    "content": "things are cyclical I think tulips are popular blue jeans",
+    "start": 256
+  },
+  {
+    "content": "they're also coming back in style I'm just kidding you guys always wear blue",
+    "start": 260
+  },
+  {
+    "content": "jeans but so we went from all these dynamic dynamically rendered",
+    "start": 263
+  },
+  {
+    "content": "web applications - now bundling all of this stuff in the static and the best",
+    "start": 268
+  },
+  {
+    "content": "part of this that we would host this all unexpensive servers and spend like 20",
+    "start": 273
+  },
+  {
+    "content": "bucks a month and then ftp into all this stuff just so we can have the benefit of",
+    "start": 279
+  },
+  {
+    "content": "having a blog right because that makes a lot of sense and then we find out no one",
+    "start": 282
+  },
+  {
+    "content": "actually is reading our blog for $25 a month that's my life you should read my",
+    "start": 287
+  },
+  {
+    "content": "blog I have it written on - like a year I just a little busy I had a second kid",
+    "start": 293
+  },
+  {
+    "content": "so babies take a lot of time thank you so now we have the on-demand build",
+    "start": 298
+  },
+  {
+    "content": "structure where now you this were an NPM run build and you can have a site ready",
+    "start": 305
+  },
+  {
+    "content": "to go you get a draw drag and drop it on the net with fire wherever you want to",
+    "start": 308
+  },
+  {
+    "content": "go and it all works and it's great and I think the real backbone of this whole",
+    "start": 311
+  },
+  {
+    "content": "Jam stack movement is around CI and integration so the fact that you can",
+    "start": 316
+  },
+  {
+    "content": "actually just get push to something and then the site starts building without",
+    "start": 321
+  },
+  {
+    "content": "you needing to watch any sort of logs or streams that's great because like one",
+    "start": 325
+  },
+  {
+    "content": "thing I'm really bad at is infrastructure and running servers and I",
+    "start": 330
+  },
+  {
+    "content": "don't have to worry about that and if I can get that for free or low cost then I",
+    "start": 333
+  },
+  {
+    "content": "am definitely going that way so we're here to talk about Jeff stack right",
+    "start": 337
+  },
+  {
+    "content": "JavaScript API is in markup right who's never heard of jam stack and you sat",
+    "start": 341
+  },
+  {
+    "content": "through the whole first talk oh wait no I saw I did it on purpose sorry who has",
+    "start": 347
+  },
+  {
+    "content": "heard of Jim stack that's what I meant to say any guys all were paying",
+    "start": 352
+  },
+  {
+    "content": "attention all right cool so I'm here to really talk about this first section of",
+    "start": 355
+  },
+  {
+    "content": "this distal architecture which is the get side the cool thing is that",
+    "start": 362
+  },
+  {
+    "content": "everybody's using it it's beneficial for me because I work for this small",
+    "start": 365
+  },
+  {
+    "content": "incubated company inside from Microsoft it's called github have you heard of",
+    "start": 370
+  },
+  {
+    "content": "that yeah cool so you guys I don't have to do my",
+    "start": 376
+  },
+  {
+    "content": "marketing pitch for you but we're a decentralized solution for asynchronous",
+    "start": 381
+  },
+  {
+    "content": "communication across web developers through the globe I think I got that",
+    "start": 386
+  },
+  {
+    "content": "right I think I think that will be really proud of me on that one but yeah",
+    "start": 390
+  },
+  {
+    "content": "this is basically it looks like we all I think most of us who's not using it",
+    "start": 394
+  },
+  {
+    "content": "maybe don't raise your hand who's using it",
+    "start": 396
+  },
+  {
+    "content": "yeah cool I just came back from GDC a couple weeks ago and there are a lot of",
+    "start": 400
+  },
+  {
+    "content": "perforce maniacs there I made for good reason they need it for the large files",
+    "start": 404
+  },
+  {
+    "content": "but I had no idea how to talk to him and like understand their issues and we had",
+    "start": 408
+  },
+  {
+    "content": "a lot of smart people there to actually solve that but this is the get the get",
+    "start": 413
+  },
+  {
+    "content": "workflow is like it's we're really there for us to communicate it's us to",
+    "start": 417
+  },
+  {
+    "content": "basically have entire versions of spacejam on our site on our site and",
+    "start": 421
+  },
+  {
+    "content": "then work with our remote employees or the employee next to us and then ship",
+    "start": 425
+  },
+  {
+    "content": "that up to github which is cool so let me introduce myself after 15 slides I'm",
+    "start": 428
+  },
+  {
+    "content": "Brad Douglass I am truly a Beyonce advocate at github",
+    "start": 433
+  },
+  {
+    "content": "she is who I talk about because usually github when I go to places people",
+    "start": 437
+  },
+  {
+    "content": "already know what github is it's one of the benefit of having a company it's",
+    "start": 442
+  },
+  {
+    "content": "been around for 11 years and sort of like in grain and most laptops but when",
+    "start": 445
+  },
+  {
+    "content": "I say beyond say advocate I actually was thinking about this when I first joined",
+    "start": 453
+  },
+  {
+    "content": "I joined github as the first developer relations hire after 10 years which is",
+    "start": 457
+  },
+  {
+    "content": "kind of weird before everybody was a developer",
+    "start": 461
+  },
+  {
+    "content": "advocate because she just happened there's like tell the person next to you",
+    "start": 464
+  },
+  {
+    "content": "and we grew up to 31 million developers and we found that we needed to scale our",
+    "start": 466
+  },
+  {
+    "content": "efforts of being out in the community as well as receiving feedback and I used",
+    "start": 471
+  },
+  {
+    "content": "Beyonce is this this analogy because Beyonce whoa",
+    "start": 476
+  },
+  {
+    "content": "github 31 million developers Beyonce has this thing called The Beehive you guys",
+    "start": 479
+  },
+  {
+    "content": "heard of that no okay let me teach you so it's like her superfan group and",
+    "start": 483
+  },
+  {
+    "content": "these are all these individuals who like really support Beyonce and what she does",
+    "start": 487
+  },
+  {
+    "content": "like they literally so the Beehive is what really renamed Coachella tube a",
+    "start": 491
+  },
+  {
+    "content": "cello last year it was like one person who like tweeted it and then like the",
+    "start": 495
+  },
+  {
+    "content": "news media picked it up and then it became Bay chela and the only reason",
+    "start": 499
+  },
+  {
+    "content": "anybody was showing up and like buying the whole last like I think Coachella",
+    "start": 502
+  },
+  {
+    "content": "sells that pretty early on but her performance the year prior was pretty",
+    "start": 506
+  },
+  {
+    "content": "intense and pretty awesome but what I'm getting at is I constantly always ask",
+    "start": 510
+  },
+  {
+    "content": "myself what would they do and that's why I'm Beyonce advocate and I'll quickly go",
+    "start": 513
+  },
+  {
+    "content": "to this gift and say that Beyonce would go to bat for the hive so if you are a",
+    "start": 518
+  },
+  {
+    "content": "github user I'd love to hear your story and your complaints or your wins on how",
+    "start": 521
+  },
+  {
+    "content": "to use github I get a lot of feature requests and I actually do pass those",
+    "start": 526
+  },
+  {
+    "content": "along but if they're doable could i distally",
+    "start": 531
+  },
+  {
+    "content": "a couple years ago I don't know if you guys are paying attention around I sort",
+    "start": 533
+  },
+  {
+    "content": "of saw this come through like about three or four years ago all these",
+    "start": 539
+  },
+  {
+    "content": "open-source developers on github had all these grievances very somewhat like",
+    "start": 542
+  },
+  {
+    "content": "Martin Luther when like nailing on the church door",
+    "start": 546
+  },
+  {
+    "content": "forgive me how I butchered that story but I wasn't there for it but I was",
+    "start": 548
+  },
+  {
+    "content": "there for for this and they basically said hey these are all the problems with",
+    "start": 553
+  },
+  {
+    "content": "open source and github like it'd be great if you started",
+    "start": 557
+  },
+  {
+    "content": "shipping features that would help to cater to like us managing large projects",
+    "start": 560
+  },
+  {
+    "content": "and get up took notice to this it actually took us two weeks to respond",
+    "start": 563
+  },
+  {
+    "content": "but mainly because internally everybody's kind of like hey what do we",
+    "start": 568
+  },
+  {
+    "content": "do how do we approach this how do we like",
+    "start": 571
+  },
+  {
+    "content": "not upset some of our best open-source contributors on github or maintainer x'",
+    "start": 573
+  },
+  {
+    "content": "for them for the matter and like solve these problems and we end up solving",
+    "start": 577
+  },
+  {
+    "content": "home actually last summer was like the last PR to close the final issue on this",
+    "start": 583
+  },
+  {
+    "content": "as well as a couple other repos that are very similar that started after this so",
+    "start": 587
+  },
+  {
+    "content": "every single feature that you've seen in the last year and you're like wow get up",
+    "start": 591
+  },
+  {
+    "content": "shipping so fast it's because like we hit the almost a finish line of this and",
+    "start": 594
+  },
+  {
+    "content": "we finally finished all those grievances for that so if you ever been on",
+    "start": 598
+  },
+  {
+    "content": "github.com in a while i know some people are really into that command line like",
+    "start": 601
+  },
+  {
+    "content": "myself and so you might have missed some of those features but let's check those",
+    "start": 605
+  },
+  {
+    "content": "out but I like to say when life gives you lemons listen the Beyonce's lemonade",
+    "start": 609
+  },
+  {
+    "content": "no seriously when you get these problems happen we had this thing through how can",
+    "start": 616
+  },
+  {
+    "content": "we solve these problems and get ahead of it rather than be reactionary you want",
+    "start": 621
+  },
+  {
+    "content": "to be pro action airy there's a better word for that for proactive that's it",
+    "start": 623
+  },
+  {
+    "content": "man these lights are hot all right so and the way I usually like to solve this",
+    "start": 629
+  },
+  {
+    "content": "and let the way if you come to me with a feature request I'll probably flip this",
+    "start": 635
+  },
+  {
+    "content": "around and say you could probably build this yourself because one you're",
+    "start": 638
+  },
+  {
+    "content": "probably a github user and two you're probably using github more than I have",
+    "start": 641
+  },
+  {
+    "content": "or better at it than I am so we have this thing called the github API so it's",
+    "start": 644
+  },
+  {
+    "content": "nothing crazy Ray J if you guys have actually used the API to build something",
+    "start": 649
+  },
+  {
+    "content": "all right this is an advanced group I've been in rooms",
+    "start": 653
+  },
+  {
+    "content": "bigger than this and like there would be one person raise their hand and I would",
+    "start": 657
+  },
+  {
+    "content": "say okay now look at the head and ask them questions after this talk no but",
+    "start": 660
+  },
+  {
+    "content": "seriously the API has been around for 11 years and github",
+    "start": 664
+  },
+  {
+    "content": "around for 11 years so shortly after github went basically launched publicly",
+    "start": 667
+  },
+  {
+    "content": "as their thing they actually opened up an API public API about three months",
+    "start": 672
+  },
+  {
+    "content": "later and this API is really what supports a lot of things like net liffe",
+    "start": 677
+  },
+  {
+    "content": "I and like Travis and circle these did everybody hooks in this API and we're",
+    "start": 680
+  },
+  {
+    "content": "here to support those integrators on our platform and really what it's about is",
+    "start": 685
+  },
+  {
+    "content": "like improving the github experience so like it's gonna be very hard for me to",
+    "start": 688
+  },
+  {
+    "content": "take all your notes of what you maybe want to see and get up I'll probably",
+    "start": 692
+  },
+  {
+    "content": "take most of them and then ship them off to the proper teams also probably if",
+    "start": 696
+  },
+  {
+    "content": "they're redundant I might tell you just go to the community forum and then fill",
+    "start": 700
+  },
+  {
+    "content": "it out especially pretty really unique ones I'll talk about some unique send",
+    "start": 703
+  },
+  {
+    "content": "the unique features people are requested after if you hit me up in the after",
+    "start": 707
+  },
+  {
+    "content": "party but I think really the backbone of what everybody is really looking for is",
+    "start": 710
+  },
+  {
+    "content": "how can you improve your workflow as a github user just to get your code done",
+    "start": 715
+  },
+  {
+    "content": "your your work done properly and again I always try to flip it around and say hey",
+    "start": 720
+  },
+  {
+    "content": "maybe you can leverage to get enough of API to build a feature on top of github",
+    "start": 724
+  },
+  {
+    "content": "it makes it work but the issue with this is they get up a if you ever been the",
+    "start": 727
+  },
+  {
+    "content": "developer talk hit get up to come the API it's nothing but reference Docs",
+    "start": 734
+  },
+  {
+    "content": "we're getting better we have a really good Doc's team and I think I just",
+    "start": 738
+  },
+  {
+    "content": "retweeted we're actually hiring for a Docs person so if you like technical",
+    "start": 741
+  },
+  {
+    "content": "writing and you want to do github Docs definitely talk to me about that one but",
+    "start": 745
+  },
+  {
+    "content": "it's all reference Docs and the best way my personal way about how I learned how",
+    "start": 749
+  },
+  {
+    "content": "to use github is actually the CTO identify I used to sit next to him and",
+    "start": 754
+  },
+  {
+    "content": "he used to work at github and I would just ask him questions all day and every",
+    "start": 757
+  },
+  {
+    "content": "time I came up with something a big hey how do you do this hey you know you know",
+    "start": 761
+  },
+  {
+    "content": "you could do this thing or whatever and it's like yeah just do it this way",
+    "start": 764
+  },
+  {
+    "content": "whatever and that's like my entire life I did at my previous job too as well if",
+    "start": 766
+  },
+  {
+    "content": "I were to learn how to use github xapi I'd have to ask the person next to me",
+    "start": 770
+  },
+  {
+    "content": "and mainly because I didn't have time to really go to reference I had to like you",
+    "start": 773
+  },
+  {
+    "content": "know ship stuff really fast and also he was right there but not everybody has",
+    "start": 777
+  },
+  {
+    "content": "somebody right there it used to work at github or knows github better so we",
+    "start": 782
+  },
+  {
+    "content": "built this thing called github apps and these getup apps are a better way for",
+    "start": 786
+  },
+  {
+    "content": "you to integrate on our platform so there's a lot of stuff that you have to",
+    "start": 791
+  },
+  {
+    "content": "know before you walk into a lot of reference stuff that you know we're",
+    "start": 795
+  },
+  {
+    "content": "basically we've prepackaged a salut for you to get it github integration",
+    "start": 799
+  },
+  {
+    "content": "really quickly and then we call those github apps and they basically walk",
+    "start": 802
+  },
+  {
+    "content": "through a path like this so if you have an action that you do every single time",
+    "start": 807
+  },
+  {
+    "content": "either to github or to get or whatever I know get hooks is another thing that's",
+    "start": 810
+  },
+  {
+    "content": "more on your it's like your github dev version I just launched I'm just kidding",
+    "start": 814
+  },
+  {
+    "content": "sorry I wasn't making a joke to the last talk alright sorry I don't know sure why",
+    "start": 820
+  },
+  {
+    "content": "I'm narrating my own talk so there's a one really good example and this like",
+    "start": 825
+  },
+  {
+    "content": "probably the best example I've seen I don't all get up apps cuz I think it's a",
+    "start": 829
+  },
+  {
+    "content": "really good way for us to get the context around this so who opens pull",
+    "start": 833
+  },
+  {
+    "content": "requests on github alright there's a couple of us actually most all of us so",
+    "start": 836
+  },
+  {
+    "content": "this one person in Chicago is named avi Noda he used to be a CTO of a start-up",
+    "start": 841
+  },
+  {
+    "content": "and when I say CTO of a start-up he was like a CTO up to a two-person company so",
+    "start": 846
+  },
+  {
+    "content": "he ended up growing the team because he happened to be the first engineer and",
+    "start": 851
+  },
+  {
+    "content": "what he noticed is every time someone opened up or quest and every time they",
+    "start": 854
+  },
+  {
+    "content": "don't 101 people complain about the fact that no one were reviewing their PRS and",
+    "start": 858
+  },
+  {
+    "content": "this is a common problem there's a problem that I have no matter where I go",
+    "start": 861
+  },
+  {
+    "content": "it's just never nobody has bandwidth to constantly look at stuff in the constant",
+    "start": 865
+  },
+  {
+    "content": "stream of information and imagine a company like github whose we have like",
+    "start": 869
+  },
+  {
+    "content": "six hundred engineers worldwide like it's a constant stream of stuff changing",
+    "start": 872
+  },
+  {
+    "content": "all the time so you can't really keep up to date but if you're in your small team",
+    "start": 876
+  },
+  {
+    "content": "all you have to do is take that PR link and then go into slack and then at",
+    "start": 880
+  },
+  {
+    "content": "mention the person you want to see your PR and then they'll look at it but that",
+    "start": 885
+  },
+  {
+    "content": "never happens because Monday comes around they're like I didn't get to it",
+    "start": 888
+  },
+  {
+    "content": "and then Tuesday comes around like ah you never looked at my PR and then",
+    "start": 892
+  },
+  {
+    "content": "Wednesday comes around you never looked at my PR and then Thursday same thing",
+    "start": 895
+  },
+  {
+    "content": "Friday it's like never mind I'm not shipping on a Friday but if you have",
+    "start": 898
+  },
+  {
+    "content": "tests you should but anyway so I'll be built this little trivial",
+    "start": 902
+  },
+  {
+    "content": "application called poor minds is that basically this takes your PR and through",
+    "start": 907
+  },
+  {
+    "content": "very like a couple lines of code he would just randomly pick somebody else",
+    "start": 912
+  },
+  {
+    "content": "on the team did then assign it to and then they would get notified in slack",
+    "start": 916
+  },
+  {
+    "content": "and then all the notifications were actually happened through this bot",
+    "start": 919
+  },
+  {
+    "content": "essentially on github which is genius and it sounds really simple because it",
+    "start": 923
+  },
+  {
+    "content": "is it's a really simple idea that he took to github marketplace and at this",
+    "start": 927
+  },
+  {
+    "content": "point actually a year from now Hindi kurz podcasts and a blog post he's",
+    "start": 932
+  },
+  {
+    "content": "making like $5,000 a month on this simple application to remind people of",
+    "start": 936
+  },
+  {
+    "content": "poor request so I'm not saying go ship something and make money like that's",
+    "start": 941
+  },
+  {
+    "content": "probably not the the the idea here I think you really should ship something",
+    "start": 945
+  },
+  {
+    "content": "to improve your workflow and there's probably a lot of have ideas so that",
+    "start": 948
+  },
+  {
+    "content": "hopefully maybe I can speak some peek some interest do this so I'll be solved",
+    "start": 951
+  },
+  {
+    "content": "his problem by every time there's a pull request go ahead and remind somebody",
+    "start": 955
+  },
+  {
+    "content": "once a day whoever's Auto signed to it to look at the pull request like there's",
+    "start": 959
+  },
+  {
+    "content": "no reason for us as humans to take brain load to then ping people and try to",
+    "start": 963
+  },
+  {
+    "content": "remember who was the last person I had on my last peak PR I shouldn't ask that",
+    "start": 967
+  },
+  {
+    "content": "add that person because I had add somebody new and it's like this oh no",
+    "start": 971
+  },
+  {
+    "content": "I'm always picking this person because they always say yes so some really cool",
+    "start": 974
+  },
+  {
+    "content": "benefits that come through our github app is web hooks so everything that you",
+    "start": 978
+  },
+  {
+    "content": "probably want to do with our features is you open a pull request does this you do",
+    "start": 983
+  },
+  {
+    "content": "a comment assist you do a push does that all these web hooks can be generated",
+    "start": 987
+  },
+  {
+    "content": "through github for free and there's all built in with with github apps as well",
+    "start": 991
+  },
+  {
+    "content": "as authentication Wiis JW tees under the hood too as well but if you aren't",
+    "start": 995
+  },
+  {
+    "content": "familiar JWT so maybe you aren't using one of our sponsors or one of the jam",
+    "start": 1000
+  },
+  {
+    "content": "stack aficionados here the companies then there's a lot of load like we're a",
+    "start": 1004
+  },
+  {
+    "content": "ruby shop we do Ruby on Rails so Jade Jade booties didn't really come out the",
+    "start": 1008
+  },
+  {
+    "content": "gate as popular with Ruby people so then now you have to teach a bunch of Ruby",
+    "start": 1013
+  },
+  {
+    "content": "people what J dubs he is and have why did it missed it why weren't you paying",
+    "start": 1017
+  },
+  {
+    "content": "attention like that's no longer a problem because as long as you have a",
+    "start": 1020
+  },
+  {
+    "content": "github account you can build a get up app as well as some other things the",
+    "start": 1023
+  },
+  {
+    "content": "biggest thing I think really is the fact that if you happen to pay for word or",
+    "start": 1027
+  },
+  {
+    "content": "organization and you don't want to hand off to an admin or somebody to basically",
+    "start": 1030
+  },
+  {
+    "content": "do the administrative work on your team do some of you triplet things because",
+    "start": 1037
+  },
+  {
+    "content": "you only pay for like five seats or ten see it sort of seats you want to pay for",
+    "start": 1041
+  },
+  {
+    "content": "get up apps take no seats they're just BOTS that's it",
+    "start": 1044
+  },
+  {
+    "content": "as a token less actor I guess is what they call them in the documentation so",
+    "start": 1047
+  },
+  {
+    "content": "they can sit in your organization and do work for you as needed and there's no",
+    "start": 1052
+  },
+  {
+    "content": "limit on how many bots you can have in your application so a couple years ago",
+    "start": 1057
+  },
+  {
+    "content": "after the the launch at github apps a solo github employee built his framework",
+    "start": 1062
+  },
+  {
+    "content": "Probot and mainly because they wanted to build a better ecosystem around the idea",
+    "start": 1067
+  },
+  {
+    "content": "of github apps they felt like it was a really cool thing that no one really",
+    "start": 1072
+  },
+  {
+    "content": "knew about actually raise your hand if you know what a github that was before I",
+    "start": 1074
+  },
+  {
+    "content": "said it two slides ago okay Wow we were in dr.",
+    "start": 1077
+  },
+  {
+    "content": "nateing everybody is it because app robot has anybody heard of robot okay",
+    "start": 1080
+  },
+  {
+    "content": "was it anybody my Probot workshop last year a cup okay I didn't know if people",
+    "start": 1084
+  },
+  {
+    "content": "you know like to jump coast like I do all right cool thanks for coming to",
+    "start": 1089
+  },
+  {
+    "content": "workshop so I didn't whole workshop on proba and this is literally it's a",
+    "start": 1093
+  },
+  {
+    "content": "node-based github application and it gets you all",
+    "start": 1096
+  },
+  {
+    "content": "bootstraps so we have creep create poor bot up if you're very familiar with",
+    "start": 1100
+  },
+  {
+    "content": "react and it gets you all the stuff you need all the bells and whistles right",
+    "start": 1103
+  },
+  {
+    "content": "away and it's built on this open-source community of tools SDK is called octo",
+    "start": 1106
+  },
+  {
+    "content": "kit so if you happen to be doing anything besides JavaScript there is an",
+    "start": 1111
+  },
+  {
+    "content": "SDK for you within the octocat ecosystem and that's literally just gets you the",
+    "start": 1114
+  },
+  {
+    "content": "bare bones of interacting with the github API without all the sort of",
+    "start": 1120
+  },
+  {
+    "content": "Krofft back and forth looking at reference documentation and essentially",
+    "start": 1123
+  },
+  {
+    "content": "what it does it this listens to web hooks through the github API so Bex was",
+    "start": 1126
+  },
+  {
+    "content": "one of my interns last summer and they actually created this very trivial",
+    "start": 1131
+  },
+  {
+    "content": "Welcome bot so every time someone opens a new issue you can now add a a needs",
+    "start": 1135
+  },
+  {
+    "content": "response to a label to that issue so if someone happens to go triage through all",
+    "start": 1139
+  },
+  {
+    "content": "your issues or you open issues you can actually just be able to filter just by",
+    "start": 1145
+  },
+  {
+    "content": "that one filter and know that someone hasn't it is they also have built",
+    "start": 1148
+  },
+  {
+    "content": "another one that which is not pictured which is so this one actually needs",
+    "start": 1152
+  },
+  {
+    "content": "response bot the other ones a welcome bot which is like hey welcome to thanks",
+    "start": 1156
+  },
+  {
+    "content": "for open an issue by the way check out this may be signed to CLA like all that",
+    "start": 1160
+  },
+  {
+    "content": "stuff that you have to do manually as like an employee or maybe install an",
+    "start": 1164
+  },
+  {
+    "content": "entire server to run by the way Probot can run and lambda functions or I think",
+    "start": 1167
+  },
+  {
+    "content": "someone actually got to work in net with I functions to I lost track of that that",
+    "start": 1172
+  },
+  {
+    "content": "repo but either they're really close or it's already out there live",
+    "start": 1176
+  },
+  {
+    "content": "but pro bots they're nothing but 10 lines of JavaScript that do interaction",
+    "start": 1179
+  },
+  {
+    "content": "with web hooks and looks like my phone's freezing so going with the finger all",
+    "start": 1184
+  },
+  {
+    "content": "right and I just explained this so github and",
+    "start": 1192
+  },
+  {
+    "content": "I want to be very cautious as well github has no CI system like we we",
+    "start": 1197
+  },
+  {
+    "content": "like to build tools for you to build stuff like CIS for yourself we don't",
+    "start": 1201
+  },
+  {
+    "content": "want to be the one one-size-fits-all for everything we prefer to be the",
+    "start": 1205
+  },
+  {
+    "content": "one-size-fits-all forget in collaboration across teams so though I",
+    "start": 1210
+  },
+  {
+    "content": "just wanted to preface that because the first question I get one second offstage",
+    "start": 1214
+  },
+  {
+    "content": "is like oh so how you guys built a CI cool we didn't build C I know there's a",
+    "start": 1217
+  },
+  {
+    "content": "public blog post out there that said we built a CI but we did it but I just",
+    "start": 1222
+  },
+  {
+    "content": "wanna talk about continuous integration real quick this is probably all familiar",
+    "start": 1226
+  },
+  {
+    "content": "and I think we just want the whole talk on this too as well of the beginnings of",
+    "start": 1229
+  },
+  {
+    "content": "this the CI pop line the first step is your code source control so we all",
+    "start": 1232
+  },
+  {
+    "content": "basically check that box because we are using github right correct nothing else",
+    "start": 1238
+  },
+  {
+    "content": "there's no other tool out there the other one is automation so the cool",
+    "start": 1243
+  },
+  {
+    "content": "thing about CI is that it automates certain things for you that you don't",
+    "start": 1248
+  },
+  {
+    "content": "wanna have to worry about how to get to your deploy running or how that you get",
+    "start": 1252
+  },
+  {
+    "content": "your code shared amongst cross teams I got all built in for you and I mentioned",
+    "start": 1255
+  },
+  {
+    "content": "source control and that the biggest part too as well between there is like the",
+    "start": 1261
+  },
+  {
+    "content": "the build pipeline so being able to run your tests asynchronously or",
+    "start": 1266
+  },
+  {
+    "content": "synchronously whichever you prefer without needing the sit there and watch",
+    "start": 1269
+  },
+  {
+    "content": "and read logs is pretty much key for the CI tool and I just quote from Beyonce if",
+    "start": 1273
+  },
+  {
+    "content": "everything was perfect you never learned you'd never grow and that's the cool",
+    "start": 1279
+  },
+  {
+    "content": "thing about having tests and build systems I have a really concrete example",
+    "start": 1282
+  },
+  {
+    "content": "that we did last summer which github now only runs on JavaScript for the",
+    "start": 1286
+  },
+  {
+    "content": "front-end there's no framework there's no jQuery we removed it and the way we",
+    "start": 1291
+  },
+  {
+    "content": "did it is that we built up in our build system we actually built the check the",
+    "start": 1294
+  },
+  {
+    "content": "check for jQuery and if you had jQuery and your PR it kindly asked you the bot",
+    "start": 1298
+  },
+  {
+    "content": "would respond and kindly ask you to write the JavaScript and actually took",
+    "start": 1302
+  },
+  {
+    "content": "that jQuery and then rewrote it in JavaScript in the PR so if you decided",
+    "start": 1306
+  },
+  {
+    "content": "not to do it it was your fault because it all you had to do is copy and paste",
+    "start": 1310
+  },
+  {
+    "content": "and then run the test again so there's a whole blog post of that or an",
+    "start": 1313
+  },
+  {
+    "content": "engineering blog if you're interested and I'll show you more details of how",
+    "start": 1316
+  },
+  {
+    "content": "that works and the next coming slides but I think the goal for all of us is",
+    "start": 1319
+  },
+  {
+    "content": "that we want to be at a point where all the trivial things that we were doing",
+    "start": 1323
+  },
+  {
+    "content": "like literally throwing logs down into a basement should be automated for us like",
+    "start": 1326
+  },
+  {
+    "content": "there's no reason for us to start breaking sweats on how to like get tests",
+    "start": 1330
+  },
+  {
+    "content": "well we should probably test but how to get your tests up and running",
+    "start": 1333
+  },
+  {
+    "content": "as a new employee that should just be get clone run the test and it works so",
+    "start": 1336
+  },
+  {
+    "content": "this is action-packed and the reason for the name is because if you didn't know",
+    "start": 1342
+  },
+  {
+    "content": "and you didn't read the description we launched a new feature called github",
+    "start": 1346
+  },
+  {
+    "content": "actions that's the actual name and it's the biggest feature since the pleura",
+    "start": 1350
+  },
+  {
+    "content": "quests and polar quest came out the same year we launched a github API to you as",
+    "start": 1355
+  },
+  {
+    "content": "well so puller quest kind of changed the way we sort of interactive our code",
+    "start": 1360
+  },
+  {
+    "content": "prior to that you like you have a thumb drive and you hand it over or you email",
+    "start": 1363
+  },
+  {
+    "content": "it I've been a joke on Twitter my older brother he was he asked me to help him",
+    "start": 1367
+  },
+  {
+    "content": "with this website I'm very happy I've upgraded from like Windows vulnerability",
+    "start": 1370
+  },
+  {
+    "content": "issues or like random hardware issues to now I can actually look at code the",
+    "start": 1376
+  },
+  {
+    "content": "problem is that he emailed me his entire source code for his website Gretta it",
+    "start": 1381
+  },
+  {
+    "content": "was just an index.html but I kindly reminded him I work that github that you",
+    "start": 1385
+  },
+  {
+    "content": "can actually just create an account and then show me that way so we did that but",
+    "start": 1390
+  },
+  {
+    "content": "what I'm getting at is that we can do a poor quest together and we could talk",
+    "start": 1393
+  },
+  {
+    "content": "about it which what we did while I was on a plane and these github actions are",
+    "start": 1396
+  },
+  {
+    "content": "pretty cool because it takes all that sort of ideas around github apps and",
+    "start": 1401
+  },
+  {
+    "content": "pre-packaging ways for you interact with github api and it builds you a platform",
+    "start": 1405
+  },
+  {
+    "content": "to take that code so whether or not you write your own code you already have",
+    "start": 1409
+  },
+  {
+    "content": "code written so you might I say write this I run the script called creeper and",
+    "start": 1412
+  },
+  {
+    "content": "every company I go to where I auto assign people to my PRS this is before",
+    "start": 1416
+  },
+  {
+    "content": "we had this as a feature at github and this is something I can run arbitrarily",
+    "start": 1420
+  },
+  {
+    "content": "in my code no matter where I go it's like one go file and there's runs no",
+    "start": 1424
+  },
+  {
+    "content": "matter where and I can set this up as a github action which honestly I haven't",
+    "start": 1428
+  },
+  {
+    "content": "done yet because I have one person on my team besides myself and so there's no",
+    "start": 1431
+  },
+  {
+    "content": "it's kind of hard to automate for a one person that's why so get up actions you",
+    "start": 1436
+  },
+  {
+    "content": "can combine so with get up apps you can you can automate one workflow would get",
+    "start": 1442
+  },
+  {
+    "content": "up actions you can automate multiple workflows together and their words I",
+    "start": 1446
+  },
+  {
+    "content": "probably should add this block side-by-side so my apologies but but",
+    "start": 1450
+  },
+  {
+    "content": "you're also run side by side between github apps but the other one whoo you",
+    "start": 1454
+  },
+  {
+    "content": "could also run code from anywhere so literally you could write JavaScript",
+    "start": 1461
+  },
+  {
+    "content": "into github and you could point that to your action and you're actually will run",
+    "start": 1464
+  },
+  {
+    "content": "that code whenever you want it to run the other cool thing to feature is sort",
+    "start": 1467
+  },
+  {
+    "content": "of pre-packed into this ting is called having secrets on github so this is huge",
+    "start": 1471
+  },
+  {
+    "content": "because who's ever shipped secrets to their code are started to github like I",
+    "start": 1476
+  },
+  {
+    "content": "do this once and it would cost me a lot of money no well then it was like",
+    "start": 1481
+  },
+  {
+    "content": "$40,000 but everybody AWS was really nice and said I didn't have to pay any",
+    "start": 1484
+  },
+  {
+    "content": "of it I'm this now I have to use AWS for everything now though it's in my",
+    "start": 1488
+  },
+  {
+    "content": "contract that I signed actually I wasn't supposed to say that one so yeah so you",
+    "start": 1493
+  },
+  {
+    "content": "can now we can provide secrets about worrying about putting those out in the",
+    "start": 1497
+  },
+  {
+    "content": "open I say this as I was going through my examples I noticed one of my secrets",
+    "start": 1501
+  },
+  {
+    "content": "were in my code so brownie points if you find it and the other cool thing is that",
+    "start": 1505
+  },
+  {
+    "content": "you get 59 minutes of runtime so with action there started with apps it's all",
+    "start": 1510
+  },
+  {
+    "content": "on demand so you can run a server and have a running forever and pay 20 bucks",
+    "start": 1514
+  },
+  {
+    "content": "a month or you can draw those in a lambda function differences actions is",
+    "start": 1517
+  },
+  {
+    "content": "that it's a docker container it's 59 minutes so if you have a long-running",
+    "start": 1522
+  },
+  {
+    "content": "something that needs to run you have that with action so you don't have that",
+    "start": 1525
+  },
+  {
+    "content": "with github apps this is the example I've removed the key in the example",
+    "start": 1528
+  },
+  {
+    "content": "because that's when I noticed it but I have a cool little gift that I give to",
+    "start": 1534
+  },
+  {
+    "content": "all my repos which is every time you do dot gift and then a word it will then",
+    "start": 1540
+  },
+  {
+    "content": "provide a gift into your comments now this is really trivial and this is like",
+    "start": 1545
+  },
+  {
+    "content": "me testing out the waters and how this thing works and the two lines of code",
+    "start": 1548
+  },
+  {
+    "content": "you really need to pay attention our high lighted in colors I'm here that's",
+    "start": 1553
+  },
+  {
+    "content": "where I'm actually sort of scraping out the gift word whatever the command that",
+    "start": 1556
+  },
+  {
+    "content": "as well as the word and then the last line is where I'm returning the actual",
+    "start": 1561
+  },
+  {
+    "content": "comment and then creating that so this is all built on aqua kit in pro bot and",
+    "start": 1565
+  },
+  {
+    "content": "the cool thing is that it's one two three seven nine maybe nine ish lines of",
+    "start": 1568
+  },
+  {
+    "content": "code and it works now the cool thing about that is since it's code that's",
+    "start": 1573
+  },
+  {
+    "content": "living on github all you had to do is actually point to my repo so my repo is",
+    "start": 1577
+  },
+  {
+    "content": "called faint pool mainly because I originally was hosting this in glitch",
+    "start": 1581
+  },
+  {
+    "content": "and glitch gives you cool names so the repo itself is right there and on the",
+    "start": 1584
+  },
+  {
+    "content": "right is the UI for action so we have a UI version and then we have a if you",
+    "start": 1589
+  },
+  {
+    "content": "just want to write code now the the left looks kind of like a mo slash JSON but",
+    "start": 1593
+  },
+  {
+    "content": "it's actually the Hashi Corp language so the HDL and that's what we're looking at",
+    "start": 1597
+  },
+  {
+    "content": "right there but again it's only a few lines a code",
+    "start": 1602
+  },
+  {
+    "content": "to put to my repo and now have an action running and this on the right here I",
+    "start": 1605
+  },
+  {
+    "content": "realized this is a gift but I took a picture of it that's a Beyonce after I",
+    "start": 1611
+  },
+  {
+    "content": "called it Beyonce command to predict to Beyonce yeah so super trivial but the",
+    "start": 1615
+  },
+  {
+    "content": "fact that I can run arbitrary code from my repo I think it's pretty cool now",
+    "start": 1620
+  },
+  {
+    "content": "just for as popularized from docker she was on docker for a while and Microsoft",
+    "start": 1625
+  },
+  {
+    "content": "and github for a few months Jes actually stood onstage last month",
+    "start": 1630
+  },
+  {
+    "content": "our sauce year and talked about how she has this this issue where she has docker",
+    "start": 1634
+  },
+  {
+    "content": "hub she has her name but then when she originally signed up for docker hub she",
+    "start": 1638
+  },
+  {
+    "content": "used a completely different name so she has to because everybody knows her by",
+    "start": 1643
+  },
+  {
+    "content": "just frosh he has to keep synchrony between all her docker hub containers so",
+    "start": 1647
+  },
+  {
+    "content": "she has an action that every time she pushes the github it updates on docker",
+    "start": 1652
+  },
+  {
+    "content": "hub on two different usernames and on top of that she also runs tests for two",
+    "start": 1656
+  },
+  {
+    "content": "different than usernames and I think she also has a whole nother github repo too",
+    "start": 1661
+  },
+  {
+    "content": "that she also keeps synchrony because of that same reason because she has two",
+    "start": 1664
+  },
+  {
+    "content": "names everywhere so this is her and I just this is an example that I could not",
+    "start": 1668
+  },
+  {
+    "content": "spend enough time to come up with a better one than this so I'm just using",
+    "start": 1672
+  },
+  {
+    "content": "hers but she's running actions an entire workflow and actions with multiple",
+    "start": 1675
+  },
+  {
+    "content": "actions synchronously I'm sorry asynchronously here synchronously and",
+    "start": 1679
+  },
+  {
+    "content": "Sandra's leaves so if you just follow the streams so I wanted to talk through",
+    "start": 1684
+  },
+  {
+    "content": "just really quickly to about this thing called the checks API because I think",
+    "start": 1688
+  },
+  {
+    "content": "most of us probably aren't using this at all if you are using the API is this",
+    "start": 1692
+  },
+  {
+    "content": "true anybody prove me wrong okay",
+    "start": 1696
+  },
+  {
+    "content": "this Annette will fight people because they use checks yeah I'll check to the",
+    "start": 1700
+  },
+  {
+    "content": "mail alright sorry I might this was supposed to be way funnier my dad jokes",
+    "start": 1705
+  },
+  {
+    "content": "are just like off the whim so checks API it's something that you guys you",
+    "start": 1710
+  },
+  {
+    "content": "probably know that you already know but the status API because every time you",
+    "start": 1715
+  },
+  {
+    "content": "open up er if you have circle or Travis on there or notify for the matter you'll",
+    "start": 1717
+  },
+  {
+    "content": "see inside your PR like deploy is ready or deploy started pretty cool checks is",
+    "start": 1721
+  },
+  {
+    "content": "like way more sophisticated it's a better way for you to get more feedback",
+    "start": 1726
+  },
+  {
+    "content": "onto your repo if that's the place you are like for example github we use a lot",
+    "start": 1730
+  },
+  {
+    "content": "of different services we have see I system that we built in-house it's",
+    "start": 1735
+  },
+  {
+    "content": "not open source called janky and that I have no idea how to install that or",
+    "start": 1738
+  },
+  {
+    "content": "where that goes or even how to get in there to look at the logs but the cool",
+    "start": 1742
+  },
+  {
+    "content": "thing about checks is that all my logs are on my repo so I don't even know what",
+    "start": 1745
+  },
+  {
+    "content": "we're using how we get there all of its there so that's what that is this is the",
+    "start": 1749
+  },
+  {
+    "content": "status API slash checks API so the status box is where you would normally",
+    "start": 1754
+  },
+  {
+    "content": "see in your PR Travis has switched over the checks as the last summer and they",
+    "start": 1757
+  },
+  {
+    "content": "also have this box too as well so if you click through you'll actually go to",
+    "start": 1762
+  },
+  {
+    "content": "another screen under the tab on your PR and if you sorry I anticipated a",
+    "start": 1766
+  },
+  {
+    "content": "different screen coming up so I created this check tap and I used Beyonce song",
+    "start": 1775
+  },
+  {
+    "content": "check on it now you probably have never heard of the song because it was a",
+    "start": 1779
+  },
+  {
+    "content": "soundtrack it was in the soundtrack of Pink Panther which was a horrible movie",
+    "start": 1783
+  },
+  {
+    "content": "but I promise you the songs really good so you should definitely check it out or",
+    "start": 1786
+  },
+  {
+    "content": "you should check on it and so I took this song and I put a lyrics MD file",
+    "start": 1790
+  },
+  {
+    "content": "into my repo and I added this linter on to my repo as well originally this",
+    "start": 1794
+  },
+  {
+    "content": "letter was a github app it's here if you want to check it out it's called linter",
+    "start": 1799
+  },
+  {
+    "content": "Alex it's also an open source project on NPM as well and basically what it does",
+    "start": 1802
+  },
+  {
+    "content": "is this checks for language so if you have any sensitive language or curse",
+    "start": 1806
+  },
+  {
+    "content": "words or stuff like that it will give you a baby like a nice little reminder",
+    "start": 1812
+  },
+  {
+    "content": "and say maybe you should use a different word than that",
+    "start": 1815
+  },
+  {
+    "content": "I'm also taps me on the shoulder for pronouns so you look take a scale you",
+    "start": 1819
+  },
+  {
+    "content": "could actually make the scale strong or less strong I would just delete it",
+    "start": 1822
+  },
+  {
+    "content": "rather and this is the slide that I was going to seep so if you weren't aware",
+    "start": 1827
+  },
+  {
+    "content": "now all of your repos have this little tab called checks so if you do have any",
+    "start": 1831
+  },
+  {
+    "content": "checks running in the background for example in lfi you will see it in there",
+    "start": 1835
+  },
+  {
+    "content": "and this is me basically adding the check on it song until my repo and then",
+    "start": 1840
+  },
+  {
+    "content": "open up pull request and then alex is basically gonna complain about my",
+    "start": 1844
+  },
+  {
+    "content": "language so here it's my first annotation that's there is asking me to",
+    "start": 1847
+  },
+  {
+    "content": "maybe use a gender-neutral pronoun which is like maybe kid or child instead of",
+    "start": 1852
+  },
+  {
+    "content": "boy or girl and super trivial but this is me to show you how checks work I also",
+    "start": 1857
+  },
+  {
+    "content": "want to point out that checks they're run through this thing called the check",
+    "start": 1864
+  },
+  {
+    "content": "sweep so if you do want to dig in an API just need to have the con",
+    "start": 1867
+  },
+  {
+    "content": "of Czech sweets or where your checks are attached to every pull request known",
+    "start": 1870
+  },
+  {
+    "content": "demand that you create as of last summer and then it runs a check run so each one",
+    "start": 1874
+  },
+  {
+    "content": "of these check runs you could actually run some code and based on pass/fail or",
+    "start": 1878
+  },
+  {
+    "content": "whatever you want to do you can go read trigger a new run one of these examples",
+    "start": 1881
+  },
+  {
+    "content": "is having adding comments to your github PRS you can actually add a comment to",
+    "start": 1885
+  },
+  {
+    "content": "your PR and say hey the codes wrong and then you could actually it's a new",
+    "start": 1890
+  },
+  {
+    "content": "feature as of this summer as well thanks to checks then you can also accept the",
+    "start": 1894
+  },
+  {
+    "content": "changes so you can write the code to fix it and then the other user on the team",
+    "start": 1897
+  },
+  {
+    "content": "can then accept those changes and then once you accept the changes it reruns",
+    "start": 1902
+  },
+  {
+    "content": "the check and then says ok cool still passing not broken so that way you",
+    "start": 1906
+  },
+  {
+    "content": "can't this write code in github calm and do it someone else wrote it for me and",
+    "start": 1909
+  },
+  {
+    "content": "it's broken so now it's their fault cuz it's your PR anyway you don't need to do",
+    "start": 1913
+  },
+  {
+    "content": "to get blame game so that's pretty much what it is and then at the end of it",
+    "start": 1917
+  },
+  {
+    "content": "you're gonna have a completed check so I just wanted to point out the fact that",
+    "start": 1920
+  },
+  {
+    "content": "actions doesn't really take too much effort it's only got two steps for you",
+    "start": 1925
+  },
+  {
+    "content": "to switch over from any sort of integration or API so I've using Pro bot",
+    "start": 1928
+  },
+  {
+    "content": "that's cool if you're not using Probot use something like your own homegrown",
+    "start": 1931
+  },
+  {
+    "content": "it's tool to interact with the github API the first thing you need to do is",
+    "start": 1934
+  },
+  {
+    "content": "add a docker file that's all you have to do",
+    "start": 1939
+  },
+  {
+    "content": "it's a our documentation if you don't know how to use docker I think it's",
+    "start": 1941
+  },
+  {
+    "content": "pretty lightweight and what you have to actually put in there so I'm just",
+    "start": 1944
+  },
+  {
+    "content": "running node and then what the very last line which I'm not gonna highlight is",
+    "start": 1947
+  },
+  {
+    "content": "pointing to the actual file what the code is so this is again going back to",
+    "start": 1950
+  },
+  {
+    "content": "like where you can run arbitrary code check it out it's really awesome you",
+    "start": 1954
+  },
+  {
+    "content": "probably get one done on the airplane on the way home the other one is the the",
+    "start": 1958
+  },
+  {
+    "content": "main that work to a file so the actual point where you actually tell to check",
+    "start": 1961
+  },
+  {
+    "content": "how to run is in this file so this is going back to the Hashi Corp the HDL if",
+    "start": 1966
+  },
+  {
+    "content": "you want to write it in code or if you want to do in the UI it's on on you",
+    "start": 1972
+  },
+  {
+    "content": "whichever way you want to do it but they both work quickly I just want to go",
+    "start": 1976
+  },
+  {
+    "content": "through just one more API what's a deployments API and there's a couple",
+    "start": 1979
+  },
+  {
+    "content": "more slides and I'm done I this idea where I wanted to every time",
+    "start": 1982
+  },
+  {
+    "content": "I put PPR I'd want to trigger a deploy and then have a staging environment to",
+    "start": 1985
+  },
+  {
+    "content": "view live on the web that was a quote by me it already exists it's called net",
+    "start": 1989
+  },
+  {
+    "content": "lo-fi so I just wanted to point out but they they're he stole my thunder back",
+    "start": 1995
+  },
+  {
+    "content": "there that will fires using checks they're also github app two so if it",
+    "start": 2000
+  },
+  {
+    "content": "asks you to install on a repo that's literally",
+    "start": 2003
+  },
+  {
+    "content": "the app being installed onto your repo that's how github apps work and this is",
+    "start": 2006
+  },
+  {
+    "content": "more of like what you if you're using meta file you've already seen a lot of",
+    "start": 2010
+  },
+  {
+    "content": "these pages but the fact that like things like redirect rules so you can",
+    "start": 2013
+  },
+  {
+    "content": "actually see that in line so if you have a failure as part of your PR and you",
+    "start": 2016
+  },
+  {
+    "content": "didn't test it with a new net Liffe ID EV then you can actually see the failure",
+    "start": 2019
+  },
+  {
+    "content": "directly in your PR through the checks API or the checks UI and this is me",
+    "start": 2022
+  },
+  {
+    "content": "basically writing bad redirects here so I just want to point out with a couple",
+    "start": 2028
+  },
+  {
+    "content": "or the sort of last thoughts and some links for you to take pictures of github",
+    "start": 2032
+  },
+  {
+    "content": "actions exist literally to empower developers we're not trying to steal",
+    "start": 2036
+  },
+  {
+    "content": "your thunder or steal your code or whatever whatever you might be scared of",
+    "start": 2040
+  },
+  {
+    "content": "or maybe you read reddit or hacker news like we're literally just providing",
+    "start": 2044
+  },
+  {
+    "content": "tools so then you can increase your workflow and then high-five your team",
+    "start": 2047
+  },
+  {
+    "content": "when you're done one last thing is a new deployments dashboard - I just wanted",
+    "start": 2051
+  },
+  {
+    "content": "the little little job to notify because they don't have this integrated so get",
+    "start": 2056
+  },
+  {
+    "content": "update pages as of today as of last summer they have a deployment dashboard",
+    "start": 2060
+  },
+  {
+    "content": "on on get-ups very similar to the neta sorry - the checks UI so now you can",
+    "start": 2064
+  },
+  {
+    "content": "actually see when your logs fail for github pages so what I did is I created",
+    "start": 2071
+  },
+  {
+    "content": "a whole new github apps less action where I can bring in all my notify logs",
+    "start": 2075
+  },
+  {
+    "content": "on the github and the cool thing is I can see that deployment so if I happen",
+    "start": 2079
+  },
+  {
+    "content": "to know if I'm new to the team I don't know one Elif is I'm not sure what this",
+    "start": 2084
+  },
+  {
+    "content": "thing is and I'm looking at you can unload the deployments tab and then",
+    "start": 2088
+  },
+  {
+    "content": "click a button and look at my deployment or my deployment log so I know if I as",
+    "start": 2091
+  },
+  {
+    "content": "well and the way I did this is about 12 lines of code pressure counted but this",
+    "start": 2094
+  },
+  {
+    "content": "is basically me using octa kit to basically look for every time there's an",
+    "start": 2100
+  },
+  {
+    "content": "event that's a deployment go ahead and add a login to our new deployments API",
+    "start": 2103
+  },
+  {
+    "content": "inside of github and if you're interested in looking this up and how",
+    "start": 2107
+  },
+  {
+    "content": "this works check out be dougie slash log low-fi and that's a mouthful on github",
+    "start": 2111
+  },
+  {
+    "content": "and you can sort of poke out the code for kit complain about it I will not",
+    "start": 2118
+  },
+  {
+    "content": "respond to issues it's just not my day job I'm just kidding but yeah and then",
+    "start": 2122
+  },
+  {
+    "content": "if you're interested to get actions access so we are in beta at least for a",
+    "start": 2127
+  },
+  {
+    "content": "little longer so you should sign up if you're interested in that idea come find",
+    "start": 2131
+  },
+  {
+    "content": "me oh sorry come find me and I can get you",
+    "start": 2137
+  },
+  {
+    "content": "access much quicker so you just have to click the button and then I can maybe",
+    "start": 2140
+  },
+  {
+    "content": "get your name in ahead of the list if you're very interested everything I",
+    "start": 2143
+  },
+  {
+    "content": "talked about to you as well as the doctor reference Docs is developer Doug",
+    "start": 2147
+  },
+  {
+    "content": "github.com and there's a whole little QuickStart that one of my teammates made",
+    "start": 2150
+  },
+  {
+    "content": "the same teammate that created the alloy slip there I created this actions",
+    "start": 2153
+  },
+  {
+    "content": "QuickStart guide so check that out if you just want to get some your feet wet",
+    "start": 2158
+  },
+  {
+    "content": "after you get the beta axis and other place too if you do this only works if",
+    "start": 2162
+  },
+  {
+    "content": "you do have actions access so the way the beta work is that you can't actually",
+    "start": 2168
+  },
+  {
+    "content": "use any of the public actions unless you have access it kind of makes sense so",
+    "start": 2171
+  },
+  {
+    "content": "but if you're interested marketplace does have it you can search for actions",
+    "start": 2175
+  },
+  {
+    "content": "there and there's all these other ideas that are better than the ones I showed",
+    "start": 2178
+  },
+  {
+    "content": "you so definitely check those out community forum just putting out of that",
+    "start": 2181
+  },
+  {
+    "content": "up there because that's a good place to ask questions if you can't get to me and",
+    "start": 2186
+  },
+  {
+    "content": "oh yeah I host a podcast is called G up stack radio that's why my voice sounds",
+    "start": 2190
+  },
+  {
+    "content": "so familiar and thank you very much that's where I'm on the Internet and",
+    "start": 2194
+  },
+  {
+    "content": "that's what Beyonce looks like thank you very much",
+    "start": 2199
+  },
+  {
+    "content": "[Applause]",
+    "start": 2201
+  },
+  {
+    "content": "you",
+    "start": 2209
+  },
+  {
+    "content": "[Applause]",
+    "start": 2213
+  },
+  {
+    "content": "",
+    "start": 2216
+  }
+]

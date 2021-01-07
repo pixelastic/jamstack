@@ -1,0 +1,1526 @@
+[
+  {
+    "content": "first up being actually have a keynote",
+    "start": 0
+  },
+  {
+    "content": "address and it's by a Mack Gilman CEO and co-founder of nullify thank you in",
+    "start": 5
+  },
+  {
+    "content": "and welcome it's amazing to see you all here in New York so welcome to the first",
+    "start": 22
+  },
+  {
+    "content": "and second conference outside of the San Francisco responding in New York City",
+    "start": 33
+  },
+  {
+    "content": "it's really exciting to see this whole ecosystem expand I see so many of you",
+    "start": 40
+  },
+  {
+    "content": "here anyone from vendors and to abilities in the space to all the people",
+    "start": 45
+  },
+  {
+    "content": "that are building websites and web applications every day is amazing to",
+    "start": 51
+  },
+  {
+    "content": "have you here and as they say if you can make it here you can make it anywhere so",
+    "start": 56
+  },
+  {
+    "content": "this might not be anywhere strictly speaking but it is to reassigned to",
+    "start": 63
+  },
+  {
+    "content": "expand this the series of into we have three animated coming",
+    "start": 67
+  },
+  {
+    "content": "thundering in July and develop you know a big Janicek conference in San",
+    "start": 73
+  },
+  {
+    "content": "Francisco at the end of the year in but their communities it's not just that and",
+    "start": 78
+  },
+  {
+    "content": "at these big events they really all over we've seen by now more than 25 meters of",
+    "start": 84
+  },
+  {
+    "content": "groups pop up all around the world - from from San Francisco to lack of us",
+    "start": 93
+  },
+  {
+    "content": "through Cincinnati to Oslo away it's been amazing to see this this community",
+    "start": 100
+  },
+  {
+    "content": "spread this in this new way of building for the web really really take off and",
+    "start": 106
+  },
+  {
+    "content": "not just for for for the community of hockey is prototypers and bloggers but",
+    "start": 112
+  },
+  {
+    "content": "also for really big broad gigs my game was fun to see they might funny kid it",
+    "start": 119
+  },
+  {
+    "content": "just do it side to popcorn it will build with this approach built with the jam",
+    "start": 125
+  },
+  {
+    "content": "stack but also like all of peloton running and with this approach seeing",
+    "start": 131
+  },
+  {
+    "content": "see tricks will be speaking later about their then they approach to the games",
+    "start": 135
+  },
+  {
+    "content": "tech building really impressive projects and getting huge time savings and I",
+    "start": 140
+  },
+  {
+    "content": "think there's a lot of people here from it least a couple of people from from we",
+    "start": 147
+  },
+  {
+    "content": "work in peloton here today so great to see all so yeah of course they're the E",
+    "start": 151
+  },
+  {
+    "content": "in indium stack we all know stands for for EP eyes and and of course that's",
+    "start": 160
+  },
+  {
+    "content": "another part of the ecosystem we really see seeing taking off all all the",
+    "start": 167
+  },
+  {
+    "content": "different providers that are starting to really build products around like a",
+    "start": 172
+  },
+  {
+    "content": "decoupled approach to building for the web in and we've seen just like this",
+    "start": 177
+  },
+  {
+    "content": "massive growth in in the whole ecosystem and you'll see a bunch of the of the",
+    "start": 181
+  },
+  {
+    "content": "sponsors here being being super super engaged but also tool builders like",
+    "start": 187
+  },
+  {
+    "content": "Tanner was building react static and the team behind gets be him and and we're",
+    "start": 193
+  },
+  {
+    "content": "just seeing like a greater and greater ecosystem being built around this",
+    "start": 199
+  },
+  {
+    "content": "category which is which is inspiring us we spin in it and it edit when when we",
+    "start": 203
+  },
+  {
+    "content": "were only a few people talking about it and starting to to talk about this this",
+    "start": 208
+  },
+  {
+    "content": "new approach for the web architecture at the at the last keynote at the gems tech",
+    "start": 214
+  },
+  {
+    "content": "conf in San Francisco I I went through our our sort of built locks and started",
+    "start": 220
+  },
+  {
+    "content": "looking at some of the numbers for the ecosystem and how it's growing and a and",
+    "start": 226
+  },
+  {
+    "content": "and since then like we've just seen this continuous growth of all the tools and",
+    "start": 231
+  },
+  {
+    "content": "of the just the pure amount of sites and builds being being built on our platform",
+    "start": 237
+  },
+  {
+    "content": "as in in our corner of the gem sex-based right and and this is just sort of a",
+    "start": 242
+  },
+  {
+    "content": "snapshot into to a few samples from the different quarters of how what what what",
+    "start": 247
+  },
+  {
+    "content": "kind of tools are people using right and of course we can just see pretty much",
+    "start": 254
+  },
+  {
+    "content": "all of these tools exploding in usage it's obviously like that that Gatsby has",
+    "start": 257
+  },
+  {
+    "content": "been a huge phenomenon and that react is growing and not just this growing but",
+    "start": 262
+  },
+  {
+    "content": "apart from that even since we we made this these slides at the last conference",
+    "start": 268
+  },
+  {
+    "content": "we've we've also seen a huge amount of Mutual's a new vendor appears that we",
+    "start": 273
+  },
+  {
+    "content": "that we didn't even think about like tracking back then tools like sanity in",
+    "start": 279
+  },
+  {
+    "content": "the hitless in his face or eleventy in the stake site generator space or stack",
+    "start": 284
+  },
+  {
+    "content": "bid and take shape commercially in and and everyday we we have more options and",
+    "start": 290
+  },
+  {
+    "content": "more possibilities so what's really driving this adoption well",
+    "start": 297
+  },
+  {
+    "content": "the popularity comes from from simplifying the stack and it comes from",
+    "start": 304
+  },
+  {
+    "content": "the performance and scalability and the gains for therefore the induces but at",
+    "start": 308
+  },
+  {
+    "content": "its core I think what's really driving the adoption is is the developer",
+    "start": 314
+  },
+  {
+    "content": "experience around actually building products and and and the developer",
+    "start": 318
+  },
+  {
+    "content": "productivity it's part of what we keep hearing back from from adopters and from",
+    "start": 321
+  },
+  {
+    "content": "from enterprises building with this deck that that they start seeing that they're",
+    "start": 326
+  },
+  {
+    "content": "simply getting more out of their developer teams and and they're able to",
+    "start": 331
+  },
+  {
+    "content": "do more there is that that that this kind of stack are sort of starting to",
+    "start": 334
+  },
+  {
+    "content": "give if friend didn't developer superpowers",
+    "start": 338
+  },
+  {
+    "content": "at the last gem state conference Chris Correra gave a fantastically inspiring",
+    "start": 341
+  },
+  {
+    "content": "talk if you haven't seen it you should go search for it not while I'm talking",
+    "start": 346
+  },
+  {
+    "content": "about the afterwards um but just about like this this this feeling of having",
+    "start": 350
+  },
+  {
+    "content": "superpowers in the terms of being able to just call out true URL and you would",
+    "start": 356
+  },
+  {
+    "content": "trigger our payment or call out true URL and do a search or call out to a URL and",
+    "start": 359
+  },
+  {
+    "content": "you send a message through Twilio to a phone somewhere all right him and and",
+    "start": 365
+  },
+  {
+    "content": "all of that has been just like an amazing like rise of all these providers",
+    "start": 370
+  },
+  {
+    "content": "and services that makes it possible to build much more while managing much less",
+    "start": 378
+  },
+  {
+    "content": "or infrastructure and operations and deployment frameworks all of that",
+    "start": 383
+  },
+  {
+    "content": "yourself if all thanks to this kind of modern distributed architecture that",
+    "start": 389
+  },
+  {
+    "content": "that the gem stag is synonym with so we all been used to this old world that",
+    "start": 395
+  },
+  {
+    "content": "that Gerald also talked about where where we had some monolithic application",
+    "start": 401
+  },
+  {
+    "content": "Lily let's let's say wordpress so Ruby and rails deploy to a server somewhere",
+    "start": 405
+  },
+  {
+    "content": "in in that case the front end was really just sort of a byproduct of this massive",
+    "start": 409
+  },
+  {
+    "content": "like back in framework right in and and that monolithic application was really",
+    "start": 416
+  },
+  {
+    "content": "like dictating everything from their technology stack the programming",
+    "start": 423
+  },
+  {
+    "content": "language you would be using the templating language the environment you",
+    "start": 428
+  },
+  {
+    "content": "would be working in and deploying to and and the performance of your application",
+    "start": 433
+  },
+  {
+    "content": "and what's really happened like from their early days of the DM stack",
+    "start": 438
+  },
+  {
+    "content": "community is that we started saying what if what if the front-end was king right",
+    "start": 443
+  },
+  {
+    "content": "what what if he started there and had this independent pipeline for the",
+    "start": 447
+  },
+  {
+    "content": "front-end and for the for this UI layer and rope throw everything from this",
+    "start": 451
+  },
+  {
+    "content": "layer which is really based on the user experience and if we start with the",
+    "start": 456
+  },
+  {
+    "content": "front-end we can pre render all of the mock up that makes that that makes up",
+    "start": 461
+  },
+  {
+    "content": "our front end and and all of our bundles and so on we can deploy that globally to",
+    "start": 466
+  },
+  {
+    "content": "to CDN for maximum performance but we can",
+    "start": 471
+  },
+  {
+    "content": "also go way beyond just having like static assets living on a CDN the modern",
+    "start": 476
+  },
+  {
+    "content": "browser environment allows us to build really powerful applications directly in",
+    "start": 481
+  },
+  {
+    "content": "the browser and there's this rich world world of epi services I mentioned",
+    "start": 486
+  },
+  {
+    "content": "available in so things like search which used to be really complex can now just",
+    "start": 491
+  },
+  {
+    "content": "be connected almost instantly it's saying with payments or a full ecommerce",
+    "start": 495
+  },
+  {
+    "content": "and then and if we need custom logic we can we can today easily roll out like",
+    "start": 502
+  },
+  {
+    "content": "custom endpoints as a service functions and and build micro services in that way",
+    "start": 509
+  },
+  {
+    "content": "David Wells is giving a whole workshop on that tomorrow in and this",
+    "start": 515
+  },
+  {
+    "content": "architecture it's when once you start changing that it can also change sort of",
+    "start": 522
+  },
+  {
+    "content": "the culture you you work within you stop being able to iterate much faster than",
+    "start": 527
+  },
+  {
+    "content": "on on the UX and as providers since we adopt this pipeline from the front and",
+    "start": 534
+  },
+  {
+    "content": "we can we can iterate much faster on the developer experience for working with",
+    "start": 539
+  },
+  {
+    "content": "this and we can really work to reduce the time to go from a concept to a URL",
+    "start": 545
+  },
+  {
+    "content": "that you can share with people or publish or launch in if-if-if we have",
+    "start": 551
+  },
+  {
+    "content": "sort of the traditional work flow around monolithic applications and so on we we",
+    "start": 558
+  },
+  {
+    "content": "have like this local work flow where we'll update the code and test locally",
+    "start": 563
+  },
+  {
+    "content": "and then we push changes to get and we go through this whole often really",
+    "start": 567
+  },
+  {
+    "content": "cumbersome release product process that requires a lot of engineering and a lot",
+    "start": 571
+  },
+  {
+    "content": "of work and a lot of time effort money and and and risk in terms of security",
+    "start": 575
+  },
+  {
+    "content": "and a weird stating to environment being left alone for a while and open to",
+    "start": 580
+  },
+  {
+    "content": "hackers and what don't know and one of the early things we we saw when we when",
+    "start": 584
+  },
+  {
+    "content": "we started building Ned Levi was that when we really decoupled the front end",
+    "start": 589
+  },
+  {
+    "content": "from the back end we could take this front-end pipeline and and and and just",
+    "start": 592
+  },
+  {
+    "content": "really make sure that every gate push turns into a deploy and and you",
+    "start": 596
+  },
+  {
+    "content": "have this immutable history of all of your deploys and that there's no effort",
+    "start": 601
+  },
+  {
+    "content": "in deploying you just push in and it happens and once we did that we saw that",
+    "start": 606
+  },
+  {
+    "content": "we could then really tap into this power of off a git based workflow where every",
+    "start": 610
+  },
+  {
+    "content": "branch gets its own line of deploys and every pull request becomes its own",
+    "start": 616
+  },
+  {
+    "content": "staging environment and we saw that again like once we really embraced these",
+    "start": 622
+  },
+  {
+    "content": "constraints of decoupling the front end and the back end that that that we were",
+    "start": 626
+  },
+  {
+    "content": "able to say that the staging environment and the production environment became",
+    "start": 632
+  },
+  {
+    "content": "exactly the same right like when you when you push to the plot review to",
+    "start": 638
+  },
+  {
+    "content": "nullify you have the full global CDN you have the same routing your rules you",
+    "start": 641
+  },
+  {
+    "content": "have the same caching rules as in your production setting there's no there's no",
+    "start": 645
+  },
+  {
+    "content": "difference and you have the same security guarantees right like there's",
+    "start": 650
+  },
+  {
+    "content": "no danger in having sort of your your staging environment that might not be as",
+    "start": 654
+  },
+  {
+    "content": "closely monitored and so on because it's it's the same setup but at the same time",
+    "start": 658
+  },
+  {
+    "content": "of course as we've gone in in this direction and we've had this whole",
+    "start": 664
+  },
+  {
+    "content": "ecosystem of vendors appear and this really smooth and automated deployment",
+    "start": 669
+  },
+  {
+    "content": "processes smooth processes around like deploying to server list functions and",
+    "start": 677
+  },
+  {
+    "content": "so on we also start having tasks so how do we actually test this locally how do",
+    "start": 681
+  },
+  {
+    "content": "we work with this on our local laptop in how do we like one of the things we've",
+    "start": 688
+  },
+  {
+    "content": "seen when when when you sort of give up the idea of having a web server and say",
+    "start": 696
+  },
+  {
+    "content": "which is going to distribute our our front-end all over the world is that you",
+    "start": 699
+  },
+  {
+    "content": "start needing sometimes a bit more advanced web logic it's logic for",
+    "start": 703
+  },
+  {
+    "content": "handling redirects a proxy Anor language based rules or so on right and how how",
+    "start": 708
+  },
+  {
+    "content": "can your about testing that without having to push our code through the city",
+    "start": 716
+  },
+  {
+    "content": "and every single time we make a change we want to test em how do we test like",
+    "start": 721
+  },
+  {
+    "content": "all their how do we distribute and manage locally all the API environment",
+    "start": 726
+  },
+  {
+    "content": "variables we need to talk to these different services and",
+    "start": 730
+  },
+  {
+    "content": "and that we need to set up every time we connect to a new service in and how do",
+    "start": 733
+  },
+  {
+    "content": "we test our server list functions locally and smooth setting how do we",
+    "start": 740
+  },
+  {
+    "content": "make sure that our environment easily mirrors what what what we are going to",
+    "start": 744
+  },
+  {
+    "content": "push live later in we used to really always have this this process and of",
+    "start": 748
+  },
+  {
+    "content": "course we still have it around localhost but once you really start taking",
+    "start": 754
+  },
+  {
+    "content": "advantage of a lot of the api's and so on this this the sort of a danger that",
+    "start": 758
+  },
+  {
+    "content": "this turns into local nope and that's that's something we've been asked about",
+    "start": 763
+  },
+  {
+    "content": "a bunch of times we've we've had at notify in people building open source",
+    "start": 770
+  },
+  {
+    "content": "simulator of our redirect engine and trying to trying to get closer to the",
+    "start": 776
+  },
+  {
+    "content": "environment we've experimented with libraries like nettle if I lambda in",
+    "start": 782
+  },
+  {
+    "content": "like how can we how can we allow people to set up some local environment for",
+    "start": 786
+  },
+  {
+    "content": "server list functions and so on him and we've been thinking a lot about like how",
+    "start": 791
+  },
+  {
+    "content": "can we make that whole situation better and how can we make it easier to to",
+    "start": 797
+  },
+  {
+    "content": "bundle applications together to have a robust local development environment in",
+    "start": 801
+  },
+  {
+    "content": "and today we have something that we have really excited to announce a huge",
+    "start": 806
+  },
+  {
+    "content": "announcement it's something that the team has worked really hard on and and",
+    "start": 811
+  },
+  {
+    "content": "has required quite a bit of for I'm D it's a build of a really exciting local",
+    "start": 815
+  },
+  {
+    "content": "development developer experience around all of nightly files tooling him and",
+    "start": 821
+  },
+  {
+    "content": "everything that we've been done to - as part of this has been done to make it",
+    "start": 827
+  },
+  {
+    "content": "faster to test and ship code on the jam stack when you work with this approach",
+    "start": 832
+  },
+  {
+    "content": "so today we're launching what we are calling Netley fight def into public",
+    "start": 837
+  },
+  {
+    "content": "beta they'll help you summarize just and so on Friday but it's out there today",
+    "start": 842
+  },
+  {
+    "content": "and you can get started like this don't everybody do it over the conference",
+    "start": 847
+  },
+  {
+    "content": "Wi-Fi at the same time that won't go well in but it's a it's an extension to",
+    "start": 852
+  },
+  {
+    "content": "our CLI tool and so today if you simply install natal if I CLI you'll get a new",
+    "start": 859
+  },
+  {
+    "content": "tool called Netley fight death that you can run inside your project",
+    "start": 865
+  },
+  {
+    "content": "folder and it basically brings our global platform through your local",
+    "start": 869
+  },
+  {
+    "content": "development environment it works with all your favorite tools and stake site",
+    "start": 875
+  },
+  {
+    "content": "generators and so on so you can continue to build with Gatsby all who go or",
+    "start": 881
+  },
+  {
+    "content": "create react app or view CLI reacts aesthetic or eleven to you or anything",
+    "start": 888
+  },
+  {
+    "content": "impotent reps around this tooling and add our edge logic our routing layer and",
+    "start": 893
+  },
+  {
+    "content": "our server list functions layer in so you can run and test it it's logic",
+    "start": 901
+  },
+  {
+    "content": "locally and this is actually like our our each logic is is it's a library",
+    "start": 907
+  },
+  {
+    "content": "built in C++ that runs across our hundreds of application delivery network",
+    "start": 912
+  },
+  {
+    "content": "it's notes all our the world so one of the big breakthroughs here was that we",
+    "start": 919
+  },
+  {
+    "content": "realized that we could we could take this whole C++ library including it the",
+    "start": 924
+  },
+  {
+    "content": "dependencies in and and get it to compile into web assembly and a lot of",
+    "start": 928
+  },
+  {
+    "content": "fields they think of web assembly as something related to browsers but web",
+    "start": 935
+  },
+  {
+    "content": "assembly is also more and more just becoming like what what the java virtual",
+    "start": 939
+  },
+  {
+    "content": "machine was was meant to be back in the day a universal runtime where you can",
+    "start": 943
+  },
+  {
+    "content": "take something and run it everywhere and you can run web assembly from from any",
+    "start": 947
+  },
+  {
+    "content": "node capable environment very easily so this meant that we could take the whole",
+    "start": 951
+  },
+  {
+    "content": "production it engine that that we run on our notes compile it down through web",
+    "start": 956
+  },
+  {
+    "content": "assembly and distributed as a node module through NPM in we we took the",
+    "start": 962
+  },
+  {
+    "content": "whole functionality we have around managing environment variables in our UI",
+    "start": 969
+  },
+  {
+    "content": "and through add-ons and brought that down to the local CLI as well so you can",
+    "start": 972
+  },
+  {
+    "content": "pull those down locally and have them injected into your environment we took",
+    "start": 978
+  },
+  {
+    "content": "there the path to to compiling dependencies for server list functions",
+    "start": 983
+  },
+  {
+    "content": "and iterating on them and shipping them brought that into the CLI as as a",
+    "start": 988
+  },
+  {
+    "content": "ready-made package so so you can use all of this straight from from that leaf I",
+    "start": 994
+  },
+  {
+    "content": "CLI so I'll do it is the risky thing of",
+    "start": 1000
+  },
+  {
+    "content": "jumping into through a live demo can you hold just verifying that you can all see",
+    "start": 1005
+  },
+  {
+    "content": "the text I'm typing okay great so this is soon Natalja feisty lie and you'll",
+    "start": 1021
+  },
+  {
+    "content": "see that we now have a new command called Nedley fight death",
+    "start": 1027
+  },
+  {
+    "content": "so just to really show how how how you can really start this from the ground up",
+    "start": 1031
+  },
+  {
+    "content": "I'm gonna build a static side completed from scratch without any tool or",
+    "start": 1036
+  },
+  {
+    "content": "anything um so I'm just gonna make a little public folder and we'll make an",
+    "start": 1042
+  },
+  {
+    "content": "index.html file and then I'll see if I can remember how true how true HTML",
+    "start": 1047
+  },
+  {
+    "content": "let's get a duck type in there need those and Seidel hey I'm forgetting the",
+    "start": 1057
+  },
+  {
+    "content": "head totally true let's get a head in there and it's also get there hit closed",
+    "start": 1073
+  },
+  {
+    "content": "and then let's get a buddy in here and say hello world because that's what",
+    "start": 1086
+  },
+  {
+    "content": "you're doing demos this is how do when you don't have mirroring",
+    "start": 1095
+  },
+  {
+    "content": "okay then I'm just gonna add a little metal if I trauma file this is just the",
+    "start": 1109
+  },
+  {
+    "content": "configuration file that we always use a little if I to tell metal if I built the",
+    "start": 1115
+  },
+  {
+    "content": "system or seal I system what to publish what built command to use in this case",
+    "start": 1120
+  },
+  {
+    "content": "I'm not gonna use a build command I'm just saying publish the public folder",
+    "start": 1125
+  },
+  {
+    "content": "and then I'm gonna start by doing an initial deploy in so many of you are",
+    "start": 1129
+  },
+  {
+    "content": "probably used to notify CIS CD workflow which is absolutely the recommended way",
+    "start": 1136
+  },
+  {
+    "content": "to work in a team but if you're just publishing a quick prototype I want to",
+    "start": 1141
+  },
+  {
+    "content": "share something you can also just write metal if I deploy from the CLI and we'll",
+    "start": 1146
+  },
+  {
+    "content": "just pick a random name and find my team so I don't mess up someone else's",
+    "start": 1150
+  },
+  {
+    "content": "account in and and now we have a live URL a one at Levis CDN here we go hello",
+    "start": 1156
+  },
+  {
+    "content": "world but we've notified deaf we don't just",
+    "start": 1167
+  },
+  {
+    "content": "have this one on our CDN so I can also just run notify deaf and it will detect",
+    "start": 1170
+  },
+  {
+    "content": "whatever tool you're using in this case there's no tool so we'll just give you a",
+    "start": 1175
+  },
+  {
+    "content": "basic static deaf server for this with the hello world and of course this works",
+    "start": 1180
+  },
+  {
+    "content": "as we would expect if I go and make some idiots let's get a little like summation",
+    "start": 1188
+  },
+  {
+    "content": "mark in here here we go but as I said we also",
+    "start": 1195
+  },
+  {
+    "content": "included the full itch ending for for nearly five so if we go in and add a",
+    "start": 1207
+  },
+  {
+    "content": "redirects file we can start with a really simple just a basic redirect to",
+    "start": 1213
+  },
+  {
+    "content": "let's go to Google and now if I go to this site and in the URL up here I go to",
+    "start": 1219
+  },
+  {
+    "content": "hello we get redirected to Google in so that all worked locally and we can add",
+    "start": 1230
+  },
+  {
+    "content": "some more advanced rules for example one of the really cool rules we support on",
+    "start": 1238
+  },
+  {
+    "content": "the itch is what we call gradual redirects so in this case I'm saying",
+    "start": 1243
+  },
+  {
+    "content": "take any path with the star and and redirected to tune it'll if I with the",
+    "start": 1247
+  },
+  {
+    "content": "same path and then do a 200 which means just proxy through and since by default",
+    "start": 1253
+  },
+  {
+    "content": "our each Indian will will respect your actual files it won't do anything when",
+    "start": 1259
+  },
+  {
+    "content": "I'm on the index page where we have an actual HTML file it'll just respect that",
+    "start": 1264
+  },
+  {
+    "content": "that there's a file there but if I go to for example the pricing page we're now",
+    "start": 1268
+  },
+  {
+    "content": "proxying you'll see that the URL up here is still my localhost but I'm now",
+    "start": 1274
+  },
+  {
+    "content": "proxying through to to nightly file and can can navigate around here within my",
+    "start": 1278
+  },
+  {
+    "content": "local host rate this this is also makes it really easy to set up local API",
+    "start": 1282
+  },
+  {
+    "content": "proxying for courts rules or anything like that",
+    "start": 1287
+  },
+  {
+    "content": "let's try and another fun little exercise here so I'm going to go in and",
+    "start": 1291
+  },
+  {
+    "content": "internationalize our our website here so let's get their original code here and",
+    "start": 1298
+  },
+  {
+    "content": "let's make it Spanish and of course now I can go to our index",
+    "start": 1313
+  },
+  {
+    "content": "yesterday HTML in and see the Spanish version but that's not that special",
+    "start": 1325
+  },
+  {
+    "content": "right so let's go in and write a little language based redirect and see if",
+    "start": 1330
+  },
+  {
+    "content": "you're at the if you hit the home page go to index in Spanish for 200 if the",
+    "start": 1337
+  },
+  {
+    "content": "language is Spanish and only if the language is Spanish so if I save this",
+    "start": 1346
+  },
+  {
+    "content": "and go here we'll still see there do that",
+    "start": 1351
+  },
+  {
+    "content": "as expected I see the English version because I normally have my language set",
+    "start": 1358
+  },
+  {
+    "content": "range but if we go in through the language menu of the browser here and",
+    "start": 1362
+  },
+  {
+    "content": "just take Spanish and move it to the top and go ahead and refresh what I'm going",
+    "start": 1366
+  },
+  {
+    "content": "to working exactly as it were at the edge now let's try to play around with",
+    "start": 1373
+  },
+  {
+    "content": "another deadly five feature so let's go in here and say let's say that functions",
+    "start": 1378
+  },
+  {
+    "content": "folder just call it functions and let's go in and see the deadly five functions",
+    "start": 1384
+  },
+  {
+    "content": "create just call the function hello now I I get a few options for scaffolding",
+    "start": 1392
+  },
+  {
+    "content": "this this time I'm just gonna choose a basic function scaffold and if I go in",
+    "start": 1400
+  },
+  {
+    "content": "and and and look here we now have functions folders with a yellow folder",
+    "start": 1405
+  },
+  {
+    "content": "and a hello dis which is just a really basic lambda function with a typical",
+    "start": 1410
+  },
+  {
+    "content": "lamp a handler there's sing-sing hello world and now if",
+    "start": 1416
+  },
+  {
+    "content": "i spin up this little dev server with mattified evigan i'll also get a server",
+    "start": 1421
+  },
+  {
+    "content": "for my for my local functions so if we go here and we follow the normal",
+    "start": 1426
+  },
+  {
+    "content": "convention of metal affiance in italy five functions hello",
+    "start": 1432
+  },
+  {
+    "content": "oops hello world here we go him and let's try to make the function a",
+    "start": 1439
+  },
+  {
+    "content": "little more interesting so I'm going to turn this into an NPM project so we get",
+    "start": 1450
+  },
+  {
+    "content": "a little package Jason and then I'm gonna install the really useful package",
+    "start": 1454
+  },
+  {
+    "content": "called random name your had used it before it's extremely useful when you",
+    "start": 1459
+  },
+  {
+    "content": "want to generate random leans in so let's go to our function here and see",
+    "start": 1464
+  },
+  {
+    "content": "random should be the random name package and then let's see hello whoops let me",
+    "start": 1473
+  },
+  {
+    "content": "say hello random and this will give us a random first name and now if I go here I",
+    "start": 1495
+  },
+  {
+    "content": "see that we've imported the package let's go into stand and combine things a",
+    "start": 1506
+  },
+  {
+    "content": "little so let's go in here and say if you go to hello then show Natalie five",
+    "start": 1512
+  },
+  {
+    "content": "functions hello with the two hundred and now it's a to see the Royal BA here but",
+    "start": 1518
+  },
+  {
+    "content": "if I go to yeah can't see anything if I go to lol",
+    "start": 1532
+  },
+  {
+    "content": "get the hello function in and if I go here and and I deploy this to production",
+    "start": 1543
+  },
+  {
+    "content": "metal if I steal I will well detect that this function has a dependency on random",
+    "start": 1553
+  },
+  {
+    "content": "name it will do trace through the ast and and figure out okay this is this",
+    "start": 1559
+  },
+  {
+    "content": "this is the dependencies that we need to bundle into the function and give us",
+    "start": 1566
+  },
+  {
+    "content": "just that just that function si in as a package so here we can go and",
+    "start": 1570
+  },
+  {
+    "content": "verify that that now this function is running in production on AWS lambda",
+    "start": 1582
+  },
+  {
+    "content": "exactly the same as it ran locally it's packaged with its local dependency and",
+    "start": 1589
+  },
+  {
+    "content": "everything just worked in so that's like building a project from scratch but most",
+    "start": 1593
+  },
+  {
+    "content": "of the time we're not building projects completely from scratch right like most",
+    "start": 1599
+  },
+  {
+    "content": "of the time we work with with different site generators of built tools or so on",
+    "start": 1603
+  },
+  {
+    "content": "so I provide a little it gets beside here and it's it's just a completely",
+    "start": 1606
+  },
+  {
+    "content": "normal it gets beside with a pretty standard to",
+    "start": 1612
+  },
+  {
+    "content": "theme and if I run Nataly fight if in this folder what will happen is",
+    "start": 1615
+  },
+  {
+    "content": "identified if well the check that this is a Gatsby project and it will spin up",
+    "start": 1621
+  },
+  {
+    "content": "the metal if I def server in the background it'll spin up our lambda",
+    "start": 1625
+  },
+  {
+    "content": "server and then it will sit in front of those as a proxy adding the whole rules",
+    "start": 1629
+  },
+  {
+    "content": "engine all the routing for functions it'll inject all the environment",
+    "start": 1633
+  },
+  {
+    "content": "variables from your site environment into this and make it work transparently",
+    "start": 1637
+  },
+  {
+    "content": "just like the normal gatsby dev server so here we are",
+    "start": 1642
+  },
+  {
+    "content": "we now have against the application running here it takes a little forget",
+    "start": 1647
+  },
+  {
+    "content": "speed to actually compile it and here we go in notified F with Gatsby and of",
+    "start": 1653
+  },
+  {
+    "content": "course live reload and everything works just just as expected in and let's try",
+    "start": 1661
+  },
+  {
+    "content": "adding some functions to this sketch site so I'm going and say nearly five",
+    "start": 1668
+  },
+  {
+    "content": "functions create and this one will call fauna so does anybody here know fauna DB",
+    "start": 1673
+  },
+  {
+    "content": "there's quite a few people yeah and and finally be as an object",
+    "start": 1680
+  },
+  {
+    "content": "it's a globally distributed in object database so I'm gonna choose a function",
+    "start": 1684
+  },
+  {
+    "content": "scaffolding here called fauna cry and just by choosing this we are installing",
+    "start": 1692
+  },
+  {
+    "content": "a set of endpoint for this function we're also installing the dependencies",
+    "start": 1697
+  },
+  {
+    "content": "for fauna DP through NPM we're also creating an add-on which is a way for",
+    "start": 1702
+  },
+  {
+    "content": "Natalja fire to actually provision and fauna DB database for you in in their",
+    "start": 1707
+  },
+  {
+    "content": "cloud in and then we're running a little setup script that actually creates the",
+    "start": 1710
+  },
+  {
+    "content": "initial schema for for this function scaffolding and sets everything up so",
+    "start": 1716
+  },
+  {
+    "content": "now just by running this I actually have authority be globally distributed",
+    "start": 1721
+  },
+  {
+    "content": "database running in the cloud and I have a set of functions for talking through",
+    "start": 1726
+  },
+  {
+    "content": "them one that's just the entry point that implements like a really standard",
+    "start": 1731
+  },
+  {
+    "content": "crud API on top of fauna that can do like a list the item post a new item",
+    "start": 1737
+  },
+  {
+    "content": "delete an item and so on and if we go and look at at the read all function",
+    "start": 1743
+  },
+  {
+    "content": "will see that it that that inside this lambda function we just depend on this",
+    "start": 1752
+  },
+  {
+    "content": "fauna DB server secret so where does that come from well when we press in",
+    "start": 1757
+  },
+  {
+    "content": "this era and fauna DB provision the new server and they gave us back this",
+    "start": 1762
+  },
+  {
+    "content": "environment secret and we now inject it into your local environment through",
+    "start": 1767
+  },
+  {
+    "content": "nullified if of course we also injected into the production environment a few",
+    "start": 1771
+  },
+  {
+    "content": "cultural production and you can use this to just directly talk to to finally be",
+    "start": 1775
+  },
+  {
+    "content": "slowly distributed database in so if I now start up in nightly fight if again",
+    "start": 1779
+  },
+  {
+    "content": "in you'll see some messages here injected there an environment variable",
+    "start": 1787
+  },
+  {
+    "content": "all of these are now available in in the local environment here",
+    "start": 1793
+  },
+  {
+    "content": "and if we go here and we go to natal if I I could really use more viewable URL",
+    "start": 1798
+  },
+  {
+    "content": "here but yeah but if we go here we see this very exciting result which is an",
+    "start": 1812
+  },
+  {
+    "content": "empty array coming from phone ID B's database because we haven't put anything",
+    "start": 1829
+  },
+  {
+    "content": "into it yet in so for this demo I went ahead and cheated a little bit in so I",
+    "start": 1833
+  },
+  {
+    "content": "created a little catch big component called yes book and it's just a little",
+    "start": 1840
+  },
+  {
+    "content": "gets which page you can see here that that it talks to this end point just",
+    "start": 1846
+  },
+  {
+    "content": "this local relative path called net if I function fauna aim and it does some post",
+    "start": 1849
+  },
+  {
+    "content": "to that and then it gets messages and listed them and so on very very basic a",
+    "start": 1854
+  },
+  {
+    "content": "crud so if I now go here and go back to my gets beside and go through the",
+    "start": 1859
+  },
+  {
+    "content": "guestbook we'll see a little messaging app for for supervillains here so we",
+    "start": 1867
+  },
+  {
+    "content": "could go in and say hello from vanna's and an ask a little question here and",
+    "start": 1872
+  },
+  {
+    "content": "now we posted this to to one of UBS database write all of this just work I",
+    "start": 1888
+  },
+  {
+    "content": "didn't really have to do any setup but I just provision the globally distributed",
+    "start": 1893
+  },
+  {
+    "content": "database got serverless functions running and installed there the NPM",
+    "start": 1896
+  },
+  {
+    "content": "dependencies for this and if I go here and do and run and it'll if I deploy to",
+    "start": 1901
+  },
+  {
+    "content": "production again notify CLI will wrap up all these service functions it'll set up",
+    "start": 1908
+  },
+  {
+    "content": "the routing everything deploy to production and and in a few seconds",
+    "start": 1914
+  },
+  {
+    "content": "we'll actually have a and you and your website online with the same",
+    "start": 1919
+  },
+  {
+    "content": "functionality as as locally it's probably actually a friend of built",
+    "start": 1926
+  },
+  {
+    "content": "first just now I deployed an empty folder but get the point in so let me",
+    "start": 1929
+  },
+  {
+    "content": "just go back here and recap yeah yeah once I can get out of this okay here we",
+    "start": 1935
+  },
+  {
+    "content": "go so what did we just see him that was a lot that happened in this demo right",
+    "start": 1951
+  },
+  {
+    "content": "what what we saw was that notify death can work with any site generator it can",
+    "start": 1959
+  },
+  {
+    "content": "wrap around gatsby it's also it works with who go it works with you press",
+    "start": 1965
+  },
+  {
+    "content": "lemon see even even if your site area doesn't have any kind of built pipeline",
+    "start": 1969
+  },
+  {
+    "content": "or anything you can suddenly take advantage of of serverless functions and",
+    "start": 1974
+  },
+  {
+    "content": "dependencies and all of that it takes all of our each logic and makes it",
+    "start": 1979
+  },
+  {
+    "content": "available locally with the production library and we are committed to true to",
+    "start": 1984
+  },
+  {
+    "content": "maintaining this in a way the way every time we push more functionality to the",
+    "start": 1990
+  },
+  {
+    "content": "edge you also get it available in your laptop locally it takes all of our",
+    "start": 1994
+  },
+  {
+    "content": "functions capabilities and gives you just like this really easy tooling",
+    "start": 2000
+  },
+  {
+    "content": "around scaffolding and compiling it with dependencies and running a local server",
+    "start": 2004
+  },
+  {
+    "content": "for it as well as handling all the proxying and routing that you would",
+    "start": 2009
+  },
+  {
+    "content": "otherwise have to set up locally in and it takes care of these kind of API",
+    "start": 2012
+  },
+  {
+    "content": "integrations it syncs and injects in viral environment variables and in it",
+    "start": 2018
+  },
+  {
+    "content": "does this with all of it running locally on your laptop so this is like a really",
+    "start": 2024
+  },
+  {
+    "content": "big step for us and and we're really excited to get feedback on it and half",
+    "start": 2030
+  },
+  {
+    "content": "you all play around with it as I said like it just went live before I went on",
+    "start": 2034
+  },
+  {
+    "content": "the stage and once you're not in conference Wi-Fi you should totally",
+    "start": 2040
+  },
+  {
+    "content": "install it and play around with it but one more thing and say thank you",
+    "start": 2044
+  },
+  {
+    "content": "thank you but we're not completely done yet as someone like I've always wanted",
+    "start": 2056
+  },
+  {
+    "content": "to do this but what what if you could take like this distance between a",
+    "start": 2061
+  },
+  {
+    "content": "concept and a URL and then make it even shorter by just streaming your",
+    "start": 2070
+  },
+  {
+    "content": "development live so there was something we thought what if you could do that",
+    "start": 2076
+  },
+  {
+    "content": "what if you could just like take this def server and then add a little flag",
+    "start": 2081
+  },
+  {
+    "content": "saying - - live and then suddenly you could get a URL on our network for this",
+    "start": 2086
+  },
+  {
+    "content": "server so I'm gonna do it a really risky experiment here and I'm gonna start",
+    "start": 2091
+  },
+  {
+    "content": "sharing my local gets B server running on my machine over conference Wi-Fi with",
+    "start": 2098
+  },
+  {
+    "content": "all of you what could possibly go wrong right um it'll be available in a moment",
+    "start": 2105
+  },
+  {
+    "content": "on this Royal best yam thought neddle if I'd live and it'll probably go really",
+    "start": 2112
+  },
+  {
+    "content": "badly but in my defense I did an even crazier experiment yesterday by by",
+    "start": 2119
+  },
+  {
+    "content": "sharing this theft server if from a plane to to our slack channel M this is",
+    "start": 2125
+  },
+  {
+    "content": "the first time I really felt like being a cloud provider um and and if we go",
+    "start": 2132
+  },
+  {
+    "content": "here if you go to Def Jam the identified I'd live and go to the guestbook you",
+    "start": 2140
+  },
+  {
+    "content": "should now all be able to Tupac each other by writing messages here life I",
+    "start": 2145
+  },
+  {
+    "content": "hope this is working it's working from my conference Wi-Fi in and it's falling",
+    "start": 2151
+  },
+  {
+    "content": "here and I can see here in my log so I can see the falling happening from",
+    "start": 2158
+  },
+  {
+    "content": "functions I can see oh here's someone posted a new message it will show up in",
+    "start": 2162
+  },
+  {
+    "content": "a moment when the polling picks it up here we go hello rabbits",
+    "start": 2168
+  },
+  {
+    "content": "here we go conference working well in so one one",
+    "start": 2176
+  },
+  {
+    "content": "the last thing I wanted to show is it's a question of like what about if I want",
+    "start": 2183
+  },
+  {
+    "content": "to to run a custom script in this environment so in sometimes you have",
+    "start": 2188
+  },
+  {
+    "content": "things like it a database migration or an update or something you want to run",
+    "start": 2194
+  },
+  {
+    "content": "as a one-time task and you obviously don't want to run that as a server list",
+    "start": 2198
+  },
+  {
+    "content": "function but you want access to the environment so metal if I def comes with",
+    "start": 2203
+  },
+  {
+    "content": "a little exit command M and that you can use to just wrap wrap any normal command",
+    "start": 2208
+  },
+  {
+    "content": "so here we're trying to get a bunch of messages now let's let's do another",
+    "start": 2215
+  },
+  {
+    "content": "thing we've all dreamt about of course if they're famous famous finger-snap so",
+    "start": 2221
+  },
+  {
+    "content": "there's a little script that that uses the font of the environment variables to",
+    "start": 2228
+  },
+  {
+    "content": "talk to fauna DB and go in and delete 50% of the messages randomly so here you",
+    "start": 2232
+  },
+  {
+    "content": "go half of half of your messages are now gone okay that was it for this demo",
+    "start": 2240
+  },
+  {
+    "content": "[Applause]",
+    "start": 2256
+  },
+  {
+    "content": "you",
+    "start": 2258
+  },
+  {
+    "content": "",
+    "start": 2262
+  }
+]

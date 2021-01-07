@@ -1,0 +1,1266 @@
+[
+  {
+    "content": "hello everybody thank you so did you",
+    "start": 0
+  },
+  {
+    "content": "tonight I just I just I know I'm not supposed to call this out okay but Phil",
+    "start": 17
+  },
+  {
+    "content": "was just being the master Staller because my slides got messed up and did",
+    "start": 20
+  },
+  {
+    "content": "his a bit can we just give it up for Phil and his abilities as a host man my",
+    "start": 26
+  },
+  {
+    "content": "goodness how many you guys were fired up about the jam stack Wow come on no oh",
+    "start": 31
+  },
+  {
+    "content": "that was weak anybody get a jam stack tattoo yet nobody any and nobody yeah we",
+    "start": 36
+  },
+  {
+    "content": "didn't come on okay a henna no all right my name is Shaun Urquhart like Phil said",
+    "start": 42
+  },
+  {
+    "content": "I work for net laughs I I work on the open-source net laughs ICMS rot that is",
+    "start": 47
+  },
+  {
+    "content": "like the Sun oh my god I'm gonna I'm gonna stand over here for a minute I",
+    "start": 52
+  },
+  {
+    "content": "work on the open source and net laughs I see MS Project",
+    "start": 56
+  },
+  {
+    "content": "my last name is difficult to spell and pronounce so naturally I used it to",
+    "start": 59
+  },
+  {
+    "content": "represent myself across the entire internet to ensure no one ever finds me",
+    "start": 66
+  },
+  {
+    "content": "but if you do that's me on Twitter github everywhere I live in the great",
+    "start": 70
+  },
+  {
+    "content": "state of North Carolina right on the coast which means we have both bears and",
+    "start": 76
+  },
+  {
+    "content": "sharks have yet to see a bear riding a shark although local wildlife experts",
+    "start": 81
+  },
+  {
+    "content": "say it's only a matter of time I've also lived in Connecticut Michigan and",
+    "start": 87
+  },
+  {
+    "content": "Wisconsin I have a lovely wife and four beautiful children",
+    "start": 90
+  },
+  {
+    "content": "nobody said aw come on okay we're gonna say on three you ready one two three",
+    "start": 96
+  },
+  {
+    "content": "Oh better we're gonna talk about get based content management's and get based",
+    "start": 101
+  },
+  {
+    "content": "content management is not a new idea but it is very much enabled as a viable",
+    "start": 108
+  },
+  {
+    "content": "approach to content management by the jam stack I hope you all enjoyed Mandy's",
+    "start": 113
+  },
+  {
+    "content": "talk because it was very beautiful and mine if you've noticed is not I am NOT a",
+    "start": 119
+  },
+  {
+    "content": "designer but here's the thing I've been listening to Kris Kuyper how many you",
+    "start": 126
+  },
+  {
+    "content": "guys heard Chris quarters awesome talk yesterday right",
+    "start": 130
+  },
+  {
+    "content": "yeah about the the new powers of the front end developer on the jam stack and",
+    "start": 133
+  },
+  {
+    "content": "how we're empowered to do things without needing to go and get a back-end",
+    "start": 138
+  },
+  {
+    "content": "developer we can write serverless functions and all these cool things",
+    "start": 142
+  },
+  {
+    "content": "you're empowered and that's good I wanted to I'm not a designer but I",
+    "start": 146
+  },
+  {
+    "content": "wanted to empower myself and and do this really well and so I I went about",
+    "start": 150
+  },
+  {
+    "content": "searching for resources that would help me empower myself and I found this",
+    "start": 156
+  },
+  {
+    "content": "fantastic design resource I don't know if you guys have heard of it it's called",
+    "start": 160
+  },
+  {
+    "content": "stock photography and it's these these photographers that are at the top of",
+    "start": 163
+  },
+  {
+    "content": "their game and they capture these moments of human emotion they're so raw",
+    "start": 168
+  },
+  {
+    "content": "and it's real you know and and they really it's just it's it's moving I said",
+    "start": 172
+  },
+  {
+    "content": "yes I want I want this and I'm gonna use this to to drive home points in my",
+    "start": 177
+  },
+  {
+    "content": "presentation and I'm some of her free and those are the best ones usually",
+    "start": 182
+  },
+  {
+    "content": "somehow so so that said here we go we're gonna talk about bridges so here's a",
+    "start": 186
+  },
+  {
+    "content": "local famous bridge I don't know if anyone recognizes it Golden Gate Bridge",
+    "start": 194
+  },
+  {
+    "content": "world famous built in the 1930s feat of modern engineering and you know I wanted",
+    "start": 198
+  },
+  {
+    "content": "to know why it was so famous it's a little too famous looked into it turns",
+    "start": 207
+  },
+  {
+    "content": "out okay the reason the Golden Gate Bridge is so famous is that it is really",
+    "start": 212
+  },
+  {
+    "content": "long due to the the longness of the of the length it's not it's longer than",
+    "start": 218
+  },
+  {
+    "content": "this it's this smaller to fit on the screen for the picture but the actual",
+    "start": 224
+  },
+  {
+    "content": "bridge is actually really like it's you know so you know I went to see this",
+    "start": 227
+  },
+  {
+    "content": "thing I wanted to find out what the big deal was what's all the fuss about I",
+    "start": 233
+  },
+  {
+    "content": "wasn't that impressed I got I mean it was you know it's it's a it's big in",
+    "start": 237
+  },
+  {
+    "content": "cars can go across it it's a very pleasant hue of red or orange or",
+    "start": 243
+  },
+  {
+    "content": "something but here's the thing when they were planning this out okay and they",
+    "start": 248
+  },
+  {
+    "content": "were trying to get people from this side to that side and you know the obvious",
+    "start": 252
+  },
+  {
+    "content": "solution is the big build a big bridge and and do all that but did anyone take",
+    "start": 257
+  },
+  {
+    "content": "a step back right and think more creatively",
+    "start": 261
+  },
+  {
+    "content": "you know how else could we do this how about for example getting rid of the",
+    "start": 265
+  },
+  {
+    "content": "water right you get rid of those see right you get rid of the water then you",
+    "start": 269
+  },
+  {
+    "content": "don't need to bridge this whole big gap because then you can just there's",
+    "start": 275
+  },
+  {
+    "content": "nothing you can just push it together right and",
+    "start": 279
+  },
+  {
+    "content": "then and then you just build this tiny bridge and look at I mean that's way",
+    "start": 281
+  },
+  {
+    "content": "easier it's simpler it's shorter probably cheaper so I mean that's that's",
+    "start": 286
+  },
+  {
+    "content": "the way to go right there but you know I wasn't there no one asked me so a CMS is",
+    "start": 290
+  },
+  {
+    "content": "a bridge and on the jam stack CMS's are bridging a smaller gap and that's really",
+    "start": 297
+  },
+  {
+    "content": "really relevant for us so I asked Siri to help me out Siri is my fountain of",
+    "start": 306
+  },
+  {
+    "content": "wisdom whenever I need information relationship advice you know those kinds",
+    "start": 313
+  },
+  {
+    "content": "of things I go straight to Siri every time said hey Siri define content",
+    "start": 318
+  },
+  {
+    "content": "management system and she said a system that manages content and I said that's",
+    "start": 321
+  },
+  {
+    "content": "best best ever Siri thank you you never disappoint but that's actually a really",
+    "start": 328
+  },
+  {
+    "content": "good answer because the term CMS content management",
+    "start": 333
+  },
+  {
+    "content": "system is such a broad term and there are so many things that content",
+    "start": 337
+  },
+  {
+    "content": "management systems do the chances are if I'm speaking with you about content",
+    "start": 343
+  },
+  {
+    "content": "management or a content management system you might be thinking of",
+    "start": 347
+  },
+  {
+    "content": "something totally different than what I'm thinking of in that moment and so if",
+    "start": 351
+  },
+  {
+    "content": "we're gonna look at the changing landscape that the Jam stack is bringing",
+    "start": 355
+  },
+  {
+    "content": "how that impacts content management solutions we need to define the terms so",
+    "start": 359
+  },
+  {
+    "content": "what is the CMS so let's go broad strokes here right these are things that",
+    "start": 363
+  },
+  {
+    "content": "are generally true about most CMS's across Stax or that might be true and",
+    "start": 368
+  },
+  {
+    "content": "first of all we have an editor interface right you're gonna have some kind of way",
+    "start": 373
+  },
+  {
+    "content": "where all the guys taking my picture I'm gonna do one of these can I do this can",
+    "start": 377
+  },
+  {
+    "content": "i boom awesome awesome so so editor interface you're gonna have some way",
+    "start": 380
+  },
+  {
+    "content": "where people are going to be able to make changes to the website that",
+    "start": 387
+  },
+  {
+    "content": "interface can look a lot of different ways we saw Scott from forestry demo",
+    "start": 390
+  },
+  {
+    "content": "Teena CMS yesterday I don't know if you guys saw that",
+    "start": 394
+  },
+  {
+    "content": "that's incredible and it's so there's there's so many different ways that that",
+    "start": 397
+  },
+  {
+    "content": "interface can look and then we have some sort of persistence layer generally it's",
+    "start": 401
+  },
+  {
+    "content": "a database but some sort of persistence layer where you're going to store input",
+    "start": 406
+  },
+  {
+    "content": "you have long live state and that content editing is being stored you",
+    "start": 410
+  },
+  {
+    "content": "have some CMS's or handling view generation so they're actually taking",
+    "start": 415
+  },
+  {
+    "content": "your templates your source your assets putting that all together with the",
+    "start": 420
+  },
+  {
+    "content": "content and creating something that a browser can actually process and some",
+    "start": 424
+  },
+  {
+    "content": "CMS's are even going to serve the site and be the origin server that user",
+    "start": 429
+  },
+  {
+    "content": "requests or respondents you and so you know that and that this is just a few of",
+    "start": 434
+  },
+  {
+    "content": "them these are just the biggies I mean we put so much on our poor beleaguered",
+    "start": 438
+  },
+  {
+    "content": "content management systems I mean content management systems",
+    "start": 442
+  },
+  {
+    "content": "sometimes I have to do search you know ecommerce caching role based access RSS",
+    "start": 446
+  },
+  {
+    "content": "feeds small business tax preparation delicious fruit smoothies",
+    "start": 452
+  },
+  {
+    "content": "some of them and my personal favorite being there for you the emotionally",
+    "start": 457
+  },
+  {
+    "content": "present content management system is a big hit we're going to focus on these",
+    "start": 462
+  },
+  {
+    "content": "big ones here so I decided to really kind of press into this my newfound",
+    "start": 466
+  },
+  {
+    "content": "calling to be an empowered designer okay for the visual thinkers and listeners I",
+    "start": 473
+  },
+  {
+    "content": "did some drawing here some very high-quality drawings so we're gonna",
+    "start": 479
+  },
+  {
+    "content": "here's our gap okay that we're gonna be bridging with the CMS we have some water",
+    "start": 483
+  },
+  {
+    "content": "down beneath or blue spikes if you're into blue spikes",
+    "start": 488
+  },
+  {
+    "content": "Yoriko I'm not gonna tell you how to think and then we have our front-end",
+    "start": 493
+  },
+  {
+    "content": "developer and he's been tasked with rolling out a Content managed app or",
+    "start": 496
+  },
+  {
+    "content": "site to thousands and thousands of users who are eagerly awaiting and he is",
+    "start": 502
+  },
+  {
+    "content": "visibly concerned because of the distance of this gap that he has to",
+    "start": 507
+  },
+  {
+    "content": "bridge also sharks and bears and so traditionally you know you're looking at",
+    "start": 513
+  },
+  {
+    "content": "a content management solution that's going to be you know a monolith is going",
+    "start": 520
+  },
+  {
+    "content": "to what okay I don't know who did that I'm gonna get rid of I still were you",
+    "start": 525
+  },
+  {
+    "content": "messing with my slides always the jokester okay so we're done with the",
+    "start": 531
+  },
+  {
+    "content": "sharks and bears so we have this gap and we have editing storing rendering",
+    "start": 536
+  },
+  {
+    "content": "serving these high-level bits that most are that a lot of content management",
+    "start": 539
+  },
+  {
+    "content": "systems are going to cover for you a monolith",
+    "start": 543
+  },
+  {
+    "content": "so WordPress Drupal the traditional content management solution is going to",
+    "start": 546
+  },
+  {
+    "content": "do every one of these things all in one box and so that efficiently bridges the",
+    "start": 551
+  },
+  {
+    "content": "gap you go from nothing to live site with just this one package now we are",
+    "start": 559
+  },
+  {
+    "content": "here at Jam stat Kampf I trust everyone understands why we believe this is not",
+    "start": 566
+  },
+  {
+    "content": "the future after all the talks we've already heard about the performance and",
+    "start": 570
+  },
+  {
+    "content": "security and developer experience benefits of the jam stack and so so this",
+    "start": 574
+  },
+  {
+    "content": "is not the way that we want to go but this is the way that we've been doing it",
+    "start": 578
+  },
+  {
+    "content": "and so your stack looks something like this it's a monolith you have a CMS that",
+    "start": 581
+  },
+  {
+    "content": "literally contains your site right you have an editing UI you have source your",
+    "start": 586
+  },
+  {
+    "content": "content the server itself it's all in that black box and your user is just",
+    "start": 591
+  },
+  {
+    "content": "interacting directly with that and there's a cache CDN in the middle maybe",
+    "start": 598
+  },
+  {
+    "content": "who knows and so how is this landscape changing how is this how if the CMS is",
+    "start": 603
+  },
+  {
+    "content": "bridging a smaller gap how does that look so first of all you no longer need",
+    "start": 610
+  },
+  {
+    "content": "a server because you're gonna have CI CD that's going to be taking care of taking",
+    "start": 617
+  },
+  {
+    "content": "your assets and putting them out to the edge so your content management system",
+    "start": 624
+  },
+  {
+    "content": "doesn't need to worry about that part of the gap you don't need to generate views",
+    "start": 628
+  },
+  {
+    "content": "anymore you have a static site generator that's going to take that take those",
+    "start": 631
+  },
+  {
+    "content": "those templates and take your content put all that together and bundle it and",
+    "start": 636
+  },
+  {
+    "content": "so what we have left here is the headless CMS model that we generally",
+    "start": 640
+  },
+  {
+    "content": "know and love right we have an editor interface we have a database probably",
+    "start": 646
+  },
+  {
+    "content": "somewhere and so if we look at how that changes our gap now we have considerably",
+    "start": 649
+  },
+  {
+    "content": "less you know GAF that we have to try to fill in with this CMS all we have to",
+    "start": 654
+  },
+  {
+    "content": "think about now is getting an editor UI in place and storing the content",
+    "start": 659
+  },
+  {
+    "content": "somewhere okay this is the changing lands landscape of the jam stack and so",
+    "start": 664
+  },
+  {
+    "content": "our front-end developer is now cracking to go as Phil would say he's feeling",
+    "start": 667
+  },
+  {
+    "content": "empowered and so your stack now looks like this you have the CMS that has a",
+    "start": 671
+  },
+  {
+    "content": "shrinking footprint it's now only concerned with",
+    "start": 677
+  },
+  {
+    "content": "the other UI in the content and now git is handling your source and get contains",
+    "start": 680
+  },
+  {
+    "content": "your static site generators now you have this kind of infrastructure as code",
+    "start": 685
+  },
+  {
+    "content": "thing going on which is awesome and now you have all that Jam stack",
+    "start": 688
+  },
+  {
+    "content": "goodness where by API calls your CI CD platform is pulling down your content it",
+    "start": 692
+  },
+  {
+    "content": "build time it's pulling down your source it's spitting out the static assets",
+    "start": 697
+  },
+  {
+    "content": "straight to the edge and then your user is just dealing with your CDN right",
+    "start": 701
+  },
+  {
+    "content": "performant safe and then you have this leg here where if someone's editing",
+    "start": 706
+  },
+  {
+    "content": "content and they can hit the UI direct to edit that so that's generally",
+    "start": 710
+  },
+  {
+    "content": "headless where does get base content management come in get base content",
+    "start": 715
+  },
+  {
+    "content": "management is taking this a step further and looking at that persistence layer",
+    "start": 719
+  },
+  {
+    "content": "and so the persistence layer is traditionally a database and get based",
+    "start": 725
+  },
+  {
+    "content": "content management says well we already have a good persistence layer that we",
+    "start": 731
+  },
+  {
+    "content": "could use and that's good itself and so if we use git we don't have to have a",
+    "start": 736
+  },
+  {
+    "content": "separate and this is especially important for anyone that's running",
+    "start": 742
+  },
+  {
+    "content": "their own database on ascend a server and a droplet somewhere if you can get",
+    "start": 744
+  },
+  {
+    "content": "rid of that and use git that's pretty fantastic and so now our gap is that",
+    "start": 749
+  },
+  {
+    "content": "much shorter and our front-end developer is ready to take over the world all you",
+    "start": 754
+  },
+  {
+    "content": "have to worry about is that editing portion at this point so that's kind of",
+    "start": 759
+  },
+  {
+    "content": "the value proposition of git based content management as a category and so",
+    "start": 764
+  },
+  {
+    "content": "if we look at that here look at what happens to the footprint of your content",
+    "start": 768
+  },
+  {
+    "content": "management solution we go from having a box of everything to having that that",
+    "start": 772
+  },
+  {
+    "content": "shrunken footprint where we're on the jam stack and we're getting all those",
+    "start": 777
+  },
+  {
+    "content": "benefits and then we kind of take it to the max here and we have this kind of",
+    "start": 780
+  },
+  {
+    "content": "minimum viable approach where we just have an editing UI for your content",
+    "start": 784
+  },
+  {
+    "content": "management system and everything else is just kind of there and it's not being",
+    "start": 788
+  },
+  {
+    "content": "controlled by the content management system anymore and of course you still",
+    "start": 792
+  },
+  {
+    "content": "have that whole Jam stack flow and now the users dealing directly with the CDN",
+    "start": 798
+  },
+  {
+    "content": "this also means that now your UI that is your content management system is",
+    "start": 802
+  },
+  {
+    "content": "actually being bundled and pushed to the edge and your content management system",
+    "start": 807
+  },
+  {
+    "content": "itself in its entirety is on the CDN which is bananas so really",
+    "start": 812
+  },
+  {
+    "content": "really really interesting stuff here and of course now our very empowered",
+    "start": 817
+  },
+  {
+    "content": "front-end developer is ready to go take on the world we salute you",
+    "start": 821
+  },
+  {
+    "content": "front-end developer so let's look at the characteristics of the new gap okay so",
+    "start": 826
+  },
+  {
+    "content": "by the new gap we mean this little guy over here and what we're looking at is a",
+    "start": 831
+  },
+  {
+    "content": "couple of things that come with this new changing landscape you know now that we",
+    "start": 838
+  },
+  {
+    "content": "have you know the CI CD doing the serving the the static site generator",
+    "start": 843
+  },
+  {
+    "content": "handling rendering and you have get in place and you have this tiny little gap",
+    "start": 847
+  },
+  {
+    "content": "now we have to look at the other players that we're working with for our content",
+    "start": 851
+  },
+  {
+    "content": "management solution and so the first thing to consider is that SSG is the new",
+    "start": 855
+  },
+  {
+    "content": "CMS now this could be a whole talk unto itself and the first thing I'll say is",
+    "start": 859
+  },
+  {
+    "content": "that I have CMS in quotes because that statement is false obviously a static",
+    "start": 865
+  },
+  {
+    "content": "site generator is not a CMS but if you consider if you're speaking with someone",
+    "start": 871
+  },
+  {
+    "content": "who or if you are someone who works on a monolithic CMS if you say that you're a",
+    "start": 878
+  },
+  {
+    "content": "wordpress developer right and so you've spent years working on WordPress sites",
+    "start": 883
+  },
+  {
+    "content": "you develop them and and if we could get a pie chart of the way that that time",
+    "start": 889
+  },
+  {
+    "content": "was spent working as a wordpress developer right we look at these kind of",
+    "start": 894
+  },
+  {
+    "content": "core things that that a monolithic CMS does you probably didn't spend most of",
+    "start": 899
+  },
+  {
+    "content": "that time dealing with the server part of WordPress directly more than likely",
+    "start": 904
+  },
+  {
+    "content": "more than likely didn't have to do that much with that on a regular basis and",
+    "start": 909
+  },
+  {
+    "content": "and you probably didn't have to do too much directly tinkering with the",
+    "start": 913
+  },
+  {
+    "content": "database and so that leaves the editor interface and the view generator the",
+    "start": 918
+  },
+  {
+    "content": "editor interface you're gonna spend some time on you have you know advanced",
+    "start": 924
+  },
+  {
+    "content": "custom fields and kind of setting things up but even still it's still going to be",
+    "start": 926
+  },
+  {
+    "content": "a smaller part of the pie the vast majority of the time that you're gonna",
+    "start": 930
+  },
+  {
+    "content": "spend as a developer working with a monolithic CMS is going to be with this",
+    "start": 933
+  },
+  {
+    "content": "view generator and that's where you're creating the templates you're creating",
+    "start": 937
+  },
+  {
+    "content": "really the site itself by the rules set by the content management system and",
+    "start": 942
+  },
+  {
+    "content": "a lot of the value that you're bringing when you say I'm a wordpress developer",
+    "start": 947
+  },
+  {
+    "content": "comes in knowing how WordPress works with that WordPress generate or with",
+    "start": 950
+  },
+  {
+    "content": "that view generation how the templates need to look what the shape of the data",
+    "start": 954
+  },
+  {
+    "content": "is the life cycles all that stuff and so that portion is now in the static site",
+    "start": 958
+  },
+  {
+    "content": "generator a lot of what you did in your CMS you're now doing with your static",
+    "start": 966
+  },
+  {
+    "content": "site generator that significant one we're considering the landscape and so",
+    "start": 970
+  },
+  {
+    "content": "now the SSG the static site generator is the new heavy so for example if I spoke",
+    "start": 974
+  },
+  {
+    "content": "with someone here who had a wordpress site but they were using WordPress",
+    "start": 980
+  },
+  {
+    "content": "headless and they were using Gatsby as a static site generator and I asked them",
+    "start": 983
+  },
+  {
+    "content": "what kind of site they had they probably wouldn't say they had a WordPress site",
+    "start": 987
+  },
+  {
+    "content": "they'd probably say I have a Gatsby site see what I'm saying the the static site",
+    "start": 991
+  },
+  {
+    "content": "generator is now the heavy it's now the big entity kind of the center of your of",
+    "start": 996
+  },
+  {
+    "content": "your stack now and it has all these opinions which are good those opinions",
+    "start": 1000
+  },
+  {
+    "content": "are meant to help streamline development help provide a happy path so that you",
+    "start": 1004
+  },
+  {
+    "content": "can get to creating something awesome and so a content management system can",
+    "start": 1009
+  },
+  {
+    "content": "approach this by looking to work the way that static site generator works how",
+    "start": 1014
+  },
+  {
+    "content": "does that excite generators work what do they look for so they can let me I'm not",
+    "start": 1020
+  },
+  {
+    "content": "really good at like fluidly drinking in between I like have to announce that I'm",
+    "start": 1025
+  },
+  {
+    "content": "doing it super awkward so how do SSDs work a static site generator is",
+    "start": 1029
+  },
+  {
+    "content": "traditionally going to work really really well with markdown files and yeah",
+    "start": 1038
+  },
+  {
+    "content": "Moe and Jason sitting right there in your repo that was always kind of the",
+    "start": 1044
+  },
+  {
+    "content": "plan with static site generators in fact if you look back to Jekyll it's kind of",
+    "start": 1048
+  },
+  {
+    "content": "our best modern OG content management system it it's still even if you look in",
+    "start": 1053
+  },
+  {
+    "content": "the docs now it says use your favorite markup language write markdown HTML and",
+    "start": 1060
+  },
+  {
+    "content": "data files and you can put up a blog and they're kind of thinking of developers",
+    "start": 1064
+  },
+  {
+    "content": "right developers usually don't have a problem writing markdown or any of that",
+    "start": 1068
+  },
+  {
+    "content": "turns out though content editors don't want to write markdown the ML files by",
+    "start": 1074
+  },
+  {
+    "content": "hand or use get for that matter and so we",
+    "start": 1079
+  },
+  {
+    "content": "want to work the way that static site generators work they they natively speak",
+    "start": 1083
+  },
+  {
+    "content": "markdown yeah Mille all these things but the content editors don't necessarily I",
+    "start": 1089
+  },
+  {
+    "content": "don't even want to write raw markdown in yeah Mille in frontmatter and all that",
+    "start": 1094
+  },
+  {
+    "content": "stuff so this then is our new gap right on the one side we have the static site",
+    "start": 1097
+  },
+  {
+    "content": "generator that just needs those files sitting there and we have content",
+    "start": 1104
+  },
+  {
+    "content": "editors that are ready to write the content just in a different format so",
+    "start": 1108
+  },
+  {
+    "content": "that's a much much smaller gap that we're dealing with there so if you",
+    "start": 1111
+  },
+  {
+    "content": "compare this tiny little gap to what we were doing before we have with the",
+    "start": 1116
+  },
+  {
+    "content": "monolithic CMS a bridge over literally everything this massive undertaking now",
+    "start": 1121
+  },
+  {
+    "content": "a content management system can be a different kind of bridge and you got I",
+    "start": 1128
+  },
+  {
+    "content": "mean you got to respect this guy right I mean here you have like the best minds",
+    "start": 1134
+  },
+  {
+    "content": "in the world and all the budget and you know that guy built that himself and",
+    "start": 1137
+  },
+  {
+    "content": "he's about to drive a four-wheeler into it I kind of wish it was a video so I'm",
+    "start": 1141
+  },
+  {
+    "content": "sure he's wearing a helmet I'm sure he's fine a bridge over I don't feel like",
+    "start": 1147
+  },
+  {
+    "content": "writing markdown is a much simpler bridge to build so what does this mean",
+    "start": 1152
+  },
+  {
+    "content": "where does this leave us a git based CMS is an adapter it's a very small almost",
+    "start": 1158
+  },
+  {
+    "content": "non entity in your stack and that in itself kind of has value as a category a",
+    "start": 1163
+  },
+  {
+    "content": "git based CMS is going to turn UI input into markdown amyl jason tamil it's",
+    "start": 1170
+  },
+  {
+    "content": "going to convert content strings to blobs",
+    "start": 1177
+  },
+  {
+    "content": "it's gonna persist blobs trees and commits to a get API so in other words",
+    "start": 1180
+  },
+  {
+    "content": "it allows a non-technical editor to write mark down and push commits it's an",
+    "start": 1185
+  },
+  {
+    "content": "adapter it's super simple and all of this is 100% doable from the browser so",
+    "start": 1192
+  },
+  {
+    "content": "that's that's a pretty different approach here and so that gives way to",
+    "start": 1200
+  },
+  {
+    "content": "the 100% client-side CMS and let me think about that I'm a front-end",
+    "start": 1204
+  },
+  {
+    "content": "developer and I am the lead for a content management system",
+    "start": 1209
+  },
+  {
+    "content": "not the not the front end of the content management system the whole thing is",
+    "start": 1213
+  },
+  {
+    "content": "front-end I lead the whole project as a front-end developer that's the most",
+    "start": 1217
+  },
+  {
+    "content": "jammed stack thing ever like a client-side CMS are you kidding and the",
+    "start": 1222
+  },
+  {
+    "content": "the ecosystem that we have right now is just absolutely incredible",
+    "start": 1228
+  },
+  {
+    "content": "we have you know markdown as a format is being supported by a collective called",
+    "start": 1232
+  },
+  {
+    "content": "unified led by titus warmer and he's doing the I once saw a quadrant where",
+    "start": 1238
+  },
+  {
+    "content": "they had like on one side they had you know how interesting a project was and",
+    "start": 1245
+  },
+  {
+    "content": "then on the other side they had how important the project was and how you",
+    "start": 1250
+  },
+  {
+    "content": "know we as developers we tend to focus on that that interesting unimportant",
+    "start": 1253
+  },
+  {
+    "content": "apex like right there so I passed the sweet spot and so it's those developers",
+    "start": 1257
+  },
+  {
+    "content": "that go straight for the important uninteresting things that are",
+    "start": 1261
+  },
+  {
+    "content": "underpinning everything that we're doing and that's the kind of work that Titus",
+    "start": 1267
+  },
+  {
+    "content": "wormers doing is unified so if you ever heard of remark rehab MDX is now a part",
+    "start": 1270
+  },
+  {
+    "content": "of the unified collective that's critical critical work and if you're",
+    "start": 1276
+  },
+  {
+    "content": "looking to dig into the jam stack and and the movement that's one really",
+    "start": 1279
+  },
+  {
+    "content": "really good place to look to contribute because there's so much to do there and",
+    "start": 1283
+  },
+  {
+    "content": "it's 100 percent critical all of these things that all these dreams we have for",
+    "start": 1286
+  },
+  {
+    "content": "doing all this cool stuff with MDX and all that it starts with this layer of",
+    "start": 1290
+  },
+  {
+    "content": "making markdown a really really viable data format and a really expressive",
+    "start": 1293
+  },
+  {
+    "content": "format and MDX is in the center of that so we have all these amazing",
+    "start": 1297
+  },
+  {
+    "content": "technologies that are really working to make this possible and I was just one",
+    "start": 1301
+  },
+  {
+    "content": "that I wanted to highlight and that runs entirely in the browser so here's a",
+    "start": 1305
+  },
+  {
+    "content": "bonus as well with this get based approach in this client-side approach",
+    "start": 1309
+  },
+  {
+    "content": "now your contents is code so if you think about it this is the way",
+    "start": 1314
+  },
+  {
+    "content": "everything else in your stack has probably already gone right you have",
+    "start": 1320
+  },
+  {
+    "content": "your templates in your repo you have your static site generator itself is in",
+    "start": 1323
+  },
+  {
+    "content": "your repo your configuration for your CI for any testing tool everything it's all",
+    "start": 1327
+  },
+  {
+    "content": "versioned in your repo and then you have content in a database and so if you can",
+    "start": 1333
+  },
+  {
+    "content": "get that content as code then you're fully versioned you're fully atomic it's",
+    "start": 1338
+  },
+  {
+    "content": "a really really interesting prospect to have everything and each commit so",
+    "start": 1344
+  },
+  {
+    "content": "here's a unique use case that we're looking into right now with with net",
+    "start": 1350
+  },
+  {
+    "content": "lo-fi CMS is open source Docs so if you've ever contributed to open source",
+    "start": 1355
+  },
+  {
+    "content": "Docs you've probably noted or read open",
+    "start": 1362
+  },
+  {
+    "content": "source Doc's you probably noticed they have this you know edit this page and",
+    "start": 1365
+  },
+  {
+    "content": "github link right and you click that and you get dropped into the github UI and",
+    "start": 1368
+  },
+  {
+    "content": "it I mean it works pretty well you have you know but you're editing the raw file",
+    "start": 1373
+  },
+  {
+    "content": "and you can make a commit without really knowing how to make commits so it kind",
+    "start": 1376
+  },
+  {
+    "content": "of does the trick but it would be really cool to be able to have a content",
+    "start": 1381
+  },
+  {
+    "content": "management system that you as an open-source maintainer can link to that",
+    "start": 1386
+  },
+  {
+    "content": "instead and then anyone that wants to contribute can be in a familiar content",
+    "start": 1390
+  },
+  {
+    "content": "management interface make their changes behind the scenes",
+    "start": 1394
+  },
+  {
+    "content": "we're forking your project if we see that they don't have write access and",
+    "start": 1397
+  },
+  {
+    "content": "then all of their changes are going into their repo and then opening a pull",
+    "start": 1401
+  },
+  {
+    "content": "request to yours and for them they don't see any of that they just see a content",
+    "start": 1405
+  },
+  {
+    "content": "management system and they're hitting buttons that say things like save so",
+    "start": 1411
+  },
+  {
+    "content": "it's all very much behind the scenes and we're hoping that this is going to open",
+    "start": 1415
+  },
+  {
+    "content": "the door more and kind of grease the skids for people that want to contribute",
+    "start": 1421
+  },
+  {
+    "content": "to open source Docs and want to write but that aren't so big on writing all",
+    "start": 1426
+  },
+  {
+    "content": "those raw files and hoping that this will kind of speed that process for them",
+    "start": 1431
+  },
+  {
+    "content": "and see an uptick in Doc's contributions so if you're an open-source maintainer",
+    "start": 1434
+  },
+  {
+    "content": "if that sounds interesting to you come chase me down I'll be I'll be around for",
+    "start": 1439
+  },
+  {
+    "content": "the rest of the day and at the net Lapham and so yeah that's and that's in",
+    "start": 1443
+  },
+  {
+    "content": "beta right now so if you're already an ella 5s user you can download the net",
+    "start": 1448
+  },
+  {
+    "content": "with ICMS beta at beta package from from NPM and and try out that we're calling",
+    "start": 1451
+  },
+  {
+    "content": "it open authoring so it's it's up in the docs and the net will 5 CMS site is net",
+    "start": 1458
+  },
+  {
+    "content": "left by CMS org so you can find the docs there check it out if you like this idea",
+    "start": 1465
+  },
+  {
+    "content": "of get based content management you want to learn more about it you basically",
+    "start": 1470
+  },
+  {
+    "content": "there's two shops in town there's nettle aficio mess which is the open source get",
+    "start": 1474
+  },
+  {
+    "content": "based approach and then again I mentioned them earlier there's",
+    "start": 1478
+  },
+  {
+    "content": "forestry and they do this as a service so if you need things like priority",
+    "start": 1481
+  },
+  {
+    "content": "support or something talk to forestry they also do get based",
+    "start": 1485
+  },
+  {
+    "content": "but it's it's a pretty new category it's really really interesting but you know",
+    "start": 1487
+  },
+  {
+    "content": "there's there's still a lot of new interesting problems to figure out and",
+    "start": 1492
+  },
+  {
+    "content": "so if you want to contribute to that as well check out an elf I see MSO org come",
+    "start": 1496
+  },
+  {
+    "content": "be a part of the conversation be a part of the community and that guy's checking",
+    "start": 1500
+  },
+  {
+    "content": "out nail if I see him I start work already he's all over it thank you so",
+    "start": 1505
+  },
+  {
+    "content": "much everybody [Applause]",
+    "start": 1508
+  },
+  {
+    "content": "[Applause]",
+    "start": 1514
+  },
+  {
+    "content": "",
+    "start": 1521
+  }
+]

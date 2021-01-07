@@ -1,0 +1,478 @@
+[
+  {
+    "content": "hi today I'm gonna introduce you to",
+    "start": 1
+  },
+  {
+    "content": "Redwood Jas I'm Tom Preston Warner you could find me online at mo jumbo on",
+    "start": 19
+  },
+  {
+    "content": "Twitter and github you may remember me as the founder of such companies as",
+    "start": 24
+  },
+  {
+    "content": "github and chatter bug the best place online to learn a foreign language you",
+    "start": 28
+  },
+  {
+    "content": "may also remember me from my projects such as Jekyll semantic versioning Tamil",
+    "start": 33
+  },
+  {
+    "content": "and Gravatar now I know what you're wondering what is Redwood well the",
+    "start": 37
+  },
+  {
+    "content": "easiest way to say it is that redwood is bringing full-stack to the jam stack I'm",
+    "start": 42
+  },
+  {
+    "content": "going to show you how that works with a little tour through a redwood",
+    "start": 47
+  },
+  {
+    "content": "application so I have here in front of me github.com slash redwood j/s slash",
+    "start": 50
+  },
+  {
+    "content": "example to do which is a simple to do effort in redwood and I'm going to just",
+    "start": 54
+  },
+  {
+    "content": "follow the instructions here I have it cloned down on my computer I've already",
+    "start": 59
+  },
+  {
+    "content": "run yarn on it to get everything installed and so I'm gonna type yarn",
+    "start": 62
+  },
+  {
+    "content": "redwood DB up which is going to use prism of migrations to bring the",
+    "start": 66
+  },
+  {
+    "content": "database up to speed for me and then I'm going to run the dev server with yarn RW",
+    "start": 73
+  },
+  {
+    "content": "short for Redwood dev this is gonna start the backend and the front-end",
+    "start": 79
+  },
+  {
+    "content": "redwood applications have two sides to them which you can see in the code",
+    "start": 83
+  },
+  {
+    "content": "browser here you have a website and an API side redwood applications are react",
+    "start": 87
+  },
+  {
+    "content": "on the front-end and their graph QL ap is on the backend that we can deploy to",
+    "start": 92
+  },
+  {
+    "content": "AWS lambda makes it really easy if you're using something like natla Phi",
+    "start": 98
+  },
+  {
+    "content": "and graph QL communicates back and forth to them so I have now my dev server",
+    "start": 101
+  },
+  {
+    "content": "running locally and so I'm gonna pull that up by going to localhost port 8 9",
+    "start": 107
+  },
+  {
+    "content": "10 and here we have my to-do app and let's buy some groceries so I need eggs",
+    "start": 112
+  },
+  {
+    "content": "milk and cheese you can see that I can tick them off or not if you want to",
+    "start": 119
+  },
+  {
+    "content": "inspect what's going on you can see that indeed these are graph QL calls in the",
+    "start": 127
+  },
+  {
+    "content": "backend here's the request mutation and here's the response the",
+    "start": 132
+  },
+  {
+    "content": "data that comes back so let's take a little bit of a tour through the code",
+    "start": 138
+  },
+  {
+    "content": "base here on the little start on the API side with a graph QL API we have in here",
+    "start": 142
+  },
+  {
+    "content": "a source directory and a graph QL directory any services directory now we",
+    "start": 148
+  },
+  {
+    "content": "call the backend organizational pattern in redwood services and those our",
+    "start": 153
+  },
+  {
+    "content": "organizational chunks that you can use to keep yourself from getting in trouble",
+    "start": 159
+  },
+  {
+    "content": "so in a simple to do app you might only have one service but in other more",
+    "start": 163
+  },
+  {
+    "content": "complicated apps you might have many services so we're gonna split up our",
+    "start": 168
+  },
+  {
+    "content": "graph QL API into multiple chunks and that you can have it split into as many",
+    "start": 172
+  },
+  {
+    "content": "files as you want here we just have to do Z is inside the graph QL directory",
+    "start": 177
+  },
+  {
+    "content": "this is your graph QL STL file schema definition language here we have a to do",
+    "start": 181
+  },
+  {
+    "content": "type with an ID a body and a status we have a to Do's query to get a list of",
+    "start": 186
+  },
+  {
+    "content": "the to-do items and then we have mutations to create it to do update it",
+    "start": 192
+  },
+  {
+    "content": "to do and rename it to do another nice thing about Redwood is that it comes",
+    "start": 196
+  },
+  {
+    "content": "with a graph QL browser inspector here so this is running whenever your app is",
+    "start": 201
+  },
+  {
+    "content": "running and so if we want to do a query and just get a list of to do's and get",
+    "start": 209
+  },
+  {
+    "content": "the ID the body and the status we can run that and you'll see here's our",
+    "start": 213
+  },
+  {
+    "content": "information in graph QL form so the way that these are implemented we decided to",
+    "start": 219
+  },
+  {
+    "content": "do away with the boilerplate and simply map a set of functions that you export",
+    "start": 225
+  },
+  {
+    "content": "from this services file with the same names as they are in the graph QL schema",
+    "start": 231
+  },
+  {
+    "content": "file and Redwood will do this mapping for you so instead of writing a resolver",
+    "start": 236
+  },
+  {
+    "content": "map all you have to do is export functions with the write names so here",
+    "start": 240
+  },
+  {
+    "content": "we have the to do list that's going to use Prisma to Prisma to to pull the",
+    "start": 244
+  },
+  {
+    "content": "information out of the database so here we have DB to define many to get your to",
+    "start": 251
+  },
+  {
+    "content": "Do's here's how you created to do you can update it to do or rename it to do",
+    "start": 255
+  },
+  {
+    "content": "and though as you can see over here in the docs tab or you can get a full list",
+    "start": 259
+  },
+  {
+    "content": "of the schema that's all stitched together from",
+    "start": 265
+  },
+  {
+    "content": "various files that you would have in a more complex application now on the",
+    "start": 267
+  },
+  {
+    "content": "front side let's see how we consume this so on the web side we have a route CAS",
+    "start": 273
+  },
+  {
+    "content": "file this is where everything starts a request comes in it needs to know what",
+    "start": 279
+  },
+  {
+    "content": "page to load so we've written our own router and it makes this really easy",
+    "start": 282
+  },
+  {
+    "content": "it's just gonna go down this list of routes and find the first match so when",
+    "start": 286
+  },
+  {
+    "content": "we go to the home page it's gonna match slash to the home page so let's look at",
+    "start": 291
+  },
+  {
+    "content": "home page that's in the pages directory home page and here's that file all it's",
+    "start": 295
+  },
+  {
+    "content": "doing is using some style components for styling and gives it a title and a to do",
+    "start": 300
+  },
+  {
+    "content": "cell list and now let's look at what this to do list cell is doing a cell in",
+    "start": 305
+  },
+  {
+    "content": "redwood is a special pattern that we've created to make data fetching",
+    "start": 313
+  },
+  {
+    "content": "declarative so that lives in components to do this cell and here we have this",
+    "start": 316
+  },
+  {
+    "content": "the the cell up here at the top you can see the query that it's doing so this is",
+    "start": 322
+  },
+  {
+    "content": "the same as a query I just ran in the inspector to News ID body status and",
+    "start": 327
+  },
+  {
+    "content": "whatever this is called you have the ability to pass that the results on",
+    "start": 331
+  },
+  {
+    "content": "success into a component that you export called success you also have other",
+    "start": 337
+  },
+  {
+    "content": "states loading you can also export a failure state or an empty state here we",
+    "start": 342
+  },
+  {
+    "content": "just have a loading and success state and in that success state we are showing",
+    "start": 347
+  },
+  {
+    "content": "our list of to-do items right here those are a list of to-do item components",
+    "start": 352
+  },
+  {
+    "content": "which live right here and in here you can see that we're just listing out the",
+    "start": 357
+  },
+  {
+    "content": "body and we have a certain check for the status which you can also find in the",
+    "start": 361
+  },
+  {
+    "content": "components list so very standard react programming here if you know react this",
+    "start": 366
+  },
+  {
+    "content": "should all feel very familiar so it's the cell that's doing the heavy lifting",
+    "start": 371
+  },
+  {
+    "content": "on the data fetching for us and so I'd like to very quickly show you how to",
+    "start": 376
+  },
+  {
+    "content": "implement a page real quick so what we're gonna do is we're going to",
+    "start": 381
+  },
+  {
+    "content": "implement a page that is going to show you a count of how many to-do items",
+    "start": 386
+  },
+  {
+    "content": "there are so for that in redwood we have generators that make this really easy so",
+    "start": 392
+  },
+  {
+    "content": "we can run yarn redwood generate or just G",
+    "start": 398
+  },
+  {
+    "content": "for short page and I'm going to call this page count and in the routes file",
+    "start": 401
+  },
+  {
+    "content": "you'll notice that we now have a count page and that's going to go to the count",
+    "start": 410
+  },
+  {
+    "content": "page that has been created for us and right now it's just a little placeholder",
+    "start": 417
+  },
+  {
+    "content": "but we can go to the URL and see it right here so that's how we get a page",
+    "start": 424
+  },
+  {
+    "content": "very simple let's start now on the back side and make sure that we have a query",
+    "start": 429
+  },
+  {
+    "content": "that we can go call to get the information that we need so I'm going to",
+    "start": 434
+  },
+  {
+    "content": "start in the graph QL SDL file and I'm going to add a query called to dues",
+    "start": 438
+  },
+  {
+    "content": "count and it's going to return an integer now we can immediately see in",
+    "start": 444
+  },
+  {
+    "content": "the inspector over here that we have that available to us to do is count but",
+    "start": 452
+  },
+  {
+    "content": "there's no implementation yet the implementation happens in the services",
+    "start": 456
+  },
+  {
+    "content": "file and so I'm just going to export Const to dues count that's going to be a",
+    "start": 460
+  },
+  {
+    "content": "function and it's going to use Prisma to do a count like so so now we have the",
+    "start": 467
+  },
+  {
+    "content": "implementation let's make sure it works to dues count execute that and here we",
+    "start": 475
+  },
+  {
+    "content": "go to do is count is 3 so now we need to pull that into the front end so we",
+    "start": 482
+  },
+  {
+    "content": "already have our count page and now we need to create a component that's going",
+    "start": 488
+  },
+  {
+    "content": "to fetch that information luckily we have a redwood generator for cells so",
+    "start": 492
+  },
+  {
+    "content": "I'm gonna iron read would generate sell I'm just gonna call it to do is count",
+    "start": 499
+  },
+  {
+    "content": "and that's going to generate for me the correct components to do a to dues count",
+    "start": 503
+  },
+  {
+    "content": "cell and in there it's going to guess what I want but this isn't quite right",
+    "start": 510
+  },
+  {
+    "content": "I'm just going to modify this to be the correct query and then I'm going to",
+    "start": 514
+  },
+  {
+    "content": "display it in fact it has some some suggestions here my before what I might",
+    "start": 520
+  },
+  {
+    "content": "want to do and string of fiying it JSON string of fiying it that'll be a good",
+    "start": 523
+  },
+  {
+    "content": "first start so there should be a complete data fetching cell and now I'm",
+    "start": 527
+  },
+  {
+    "content": "going to use that in the count Paige so let's go back to count Paige I",
+    "start": 532
+  },
+  {
+    "content": "have that cell component so let's import that to dues count cell from source",
+    "start": 536
+  },
+  {
+    "content": "components to do is count cell in red wood you can always just reference",
+    "start": 545
+  },
+  {
+    "content": "everything from the source directory it makes it really easy to find where",
+    "start": 550
+  },
+  {
+    "content": "everything is and now this cell I'm gonna use instead of this to do count",
+    "start": 553
+  },
+  {
+    "content": "cell hold on and when we do that we should see we now have our results all",
+    "start": 560
+  },
+  {
+    "content": "the way through with a minimum amount of effort if we want to fancy that up a",
+    "start": 569
+  },
+  {
+    "content": "little bit we can modify how this works so we can say let's return a string",
+    "start": 573
+  },
+  {
+    "content": "instead of just that that stringify adverse in there so you have to do z'",
+    "start": 578
+  },
+  {
+    "content": "count to use in a string I'll save that and we'll see that reflected immediately",
+    "start": 585
+  },
+  {
+    "content": "and there we go that's end to end all the way through with a complete graph QL",
+    "start": 592
+  },
+  {
+    "content": "API in Redwood it's that easy now this is just a simple fetching without any",
+    "start": 596
+  },
+  {
+    "content": "parameters but it's just graph QL we just make it really easy for you set to",
+    "start": 601
+  },
+  {
+    "content": "set the whole thing up we've only scratched the surface of what redwood",
+    "start": 606
+  },
+  {
+    "content": "j/s can do if you want to find out more go to Redwood Jas comm if you want free",
+    "start": 610
+  },
+  {
+    "content": "stickers shipped anywhere in the world go to Redwood Jas calm slash stickers",
+    "start": 616
+  },
+  {
+    "content": "thanks for watching",
+    "start": 621
+  },
+  {
+    "content": "you",
+    "start": 626
+  }
+]

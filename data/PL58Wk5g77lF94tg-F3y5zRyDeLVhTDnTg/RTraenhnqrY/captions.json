@@ -1,0 +1,130 @@
+[
+  {
+    "content": "hi",
+    "start": 0
+  },
+  {
+    "content": "my name is stephen fluin and i'm on the angular team at google",
+    "start": 10
+  },
+  {
+    "content": "i'm really excited to give you a really brief update on some of the things that",
+    "start": 14
+  },
+  {
+    "content": "are going on in the world of angular we recently published a roadmap for the",
+    "start": 16
+  },
+  {
+    "content": "first time this is actually a really big deal for",
+    "start": 21
+  },
+  {
+    "content": "us because while we aim to have a twice yearly release cycle we don't",
+    "start": 23
+  },
+  {
+    "content": "actually know what's going to be in these releases because we try and do",
+    "start": 28
+  },
+  {
+    "content": "time-based releases instead of feature-based releases so i can't",
+    "start": 30
+  },
+  {
+    "content": "promise you what's going to be in version 11 or 12 etc",
+    "start": 33
+  },
+  {
+    "content": "but by comparing and looking at the roadmap you can understand what we're",
+    "start": 36
+  },
+  {
+    "content": "working on and some of the things that we see as",
+    "start": 39
+  },
+  {
+    "content": "part of the future of angular when it comes specifically to the",
+    "start": 41
+  },
+  {
+    "content": "jamstack there's a couple really really exciting innovations that are going on",
+    "start": 45
+  },
+  {
+    "content": "the first you've probably heard of is scully which is a fantastic open source",
+    "start": 49
+  },
+  {
+    "content": "tool being built by the folks over at hero devs",
+    "start": 52
+  },
+  {
+    "content": "where scully takes any angular application and allows you to",
+    "start": 55
+  },
+  {
+    "content": "take advantage of things like pre-rendering in order to",
+    "start": 59
+  },
+  {
+    "content": "make your application work using a stack that can optionally use puppeteer",
+    "start": 63
+  },
+  {
+    "content": "or can also use another piece of technology from the angular team called",
+    "start": 67
+  },
+  {
+    "content": "angular universal angular universal is the way that we can",
+    "start": 70
+  },
+  {
+    "content": "load angular applications into the browser within a node context",
+    "start": 73
+  },
+  {
+    "content": "so you're not actually using a browser at all",
+    "start": 78
+  },
+  {
+    "content": "and by doing this we can very very quickly without having to spin up any",
+    "start": 80
+  },
+  {
+    "content": "sort of headless environment or using chrome",
+    "start": 84
+  },
+  {
+    "content": "whatsoever we can have isomorphic javascript running",
+    "start": 86
+  },
+  {
+    "content": "we can pre-render thousands of pages very very quickly and so",
+    "start": 89
+  },
+  {
+    "content": "in one of our recent releases of angular we actually added our own",
+    "start": 92
+  },
+  {
+    "content": "pre-rendering support into angular universal so if you haven't checked out",
+    "start": 96
+  },
+  {
+    "content": "scully or angular universal and our relatively recent pre-rendering",
+    "start": 99
+  },
+  {
+    "content": "sport i recommend you do it thank you so much and have a wonderful",
+    "start": 103
+  },
+  {
+    "content": "event",
+    "start": 107
+  },
+  {
+    "content": "you",
+    "start": 121
+  }
+]

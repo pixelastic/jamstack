@@ -1,0 +1,658 @@
+[
+  {
+    "content": "hello",
+    "start": 0
+  },
+  {
+    "content": "jam statcomp i'm excited to talk to you today about migrating your website to",
+    "start": 13
+  },
+  {
+    "content": "netlify one page at a time my name is taylor mcdonald i am partner",
+    "start": 16
+  },
+  {
+    "content": "and cto at ample we're a jam stack focused digital agency",
+    "start": 20
+  },
+  {
+    "content": "located in downtown cincinnati so by now you're already familiar with",
+    "start": 23
+  },
+  {
+    "content": "the advantages of the jam stack security scale speed and developer experience",
+    "start": 28
+  },
+  {
+    "content": "but if you're dealing with a monolithic application one that's probably been",
+    "start": 32
+  },
+  {
+    "content": "around for a few years migrating your site to this new modern architecture can",
+    "start": 35
+  },
+  {
+    "content": "feel a little overwhelming so today i want to focus on the least",
+    "start": 38
+  },
+  {
+    "content": "painful path off that monolithic app and onto the jam stack something i like",
+    "start": 41
+  },
+  {
+    "content": "to call gradual migration now this strategy simply refers to",
+    "start": 45
+  },
+  {
+    "content": "standing up a new site and selectively moving over pages one by one over time",
+    "start": 49
+  },
+  {
+    "content": "now when i say page i'm referring to any accessible path on your site",
+    "start": 53
+  },
+  {
+    "content": "the benefit of this strategy when compared to other approaches like a big",
+    "start": 57
+  },
+  {
+    "content": "bang cut over for example is that it carries much lower risk for",
+    "start": 60
+  },
+  {
+    "content": "your organization and allows you to ease into the new solution at your own pace",
+    "start": 63
+  },
+  {
+    "content": "while paying down technical debt as you go",
+    "start": 66
+  },
+  {
+    "content": "let me show you how it works so imagine this is an illustration of traffic",
+    "start": 69
+  },
+  {
+    "content": "coming into your website you've got ninj user on the right making connection to",
+    "start": 72
+  },
+  {
+    "content": "the site on the left let's also consider that each page or",
+    "start": 75
+  },
+  {
+    "content": "path on your site is represented by this little html icon",
+    "start": 79
+  },
+  {
+    "content": "now building on this analogy we imagine more users and more pages",
+    "start": 83
+  },
+  {
+    "content": "obviously this is an oversimplification but let's assume that the engine",
+    "start": 87
+  },
+  {
+    "content": "powering the creation of these pages is a monolithic framework like drupal",
+    "start": 91
+  },
+  {
+    "content": "wordpress or magento now the first step towards gradual",
+    "start": 94
+  },
+  {
+    "content": "migration is to stand up a new site and stick it in between the end user and the",
+    "start": 98
+  },
+  {
+    "content": "old site you can see our traffic patterns haven't",
+    "start": 102
+  },
+  {
+    "content": "changed here they're now just being routed through this new system before",
+    "start": 104
+  },
+  {
+    "content": "they get passed off to the old site then starting with the highest priority",
+    "start": 107
+  },
+  {
+    "content": "pages we're going to move those over one by one to the new website",
+    "start": 111
+  },
+  {
+    "content": "now any pages migrated to the new system will be served from there and any pages",
+    "start": 114
+  },
+  {
+    "content": "not yet migrated are going to remain where they are",
+    "start": 118
+  },
+  {
+    "content": "served from the older system now the critical takeaway is that as traffic",
+    "start": 120
+  },
+  {
+    "content": "comes into the new site it's automatically passed through",
+    "start": 124
+  },
+  {
+    "content": "to the old site as necessary so eventually once you've migrated",
+    "start": 127
+  },
+  {
+    "content": "everything over there's no more traffic being routed back to your old system you",
+    "start": 131
+  },
+  {
+    "content": "can dismantle that infrastructure and call it a day",
+    "start": 134
+  },
+  {
+    "content": "now let's take a look at a real world example so let's pretend that we're",
+    "start": 137
+  },
+  {
+    "content": "going to redesign jamstack.org now the first thing i'm going to do",
+    "start": 140
+  },
+  {
+    "content": "is create an index.html file now there's nothing special about this file i'm just",
+    "start": 143
+  },
+  {
+    "content": "going to paste in some markup basically a logo",
+    "start": 147
+  },
+  {
+    "content": "and some links and then i'm going to create a",
+    "start": 149
+  },
+  {
+    "content": "text file called underscore redirects now inside this file i'm going to put a",
+    "start": 153
+  },
+  {
+    "content": "single line of code which will tell netlify how to route traffic",
+    "start": 156
+  },
+  {
+    "content": "relative to the pass-through pattern that we just discussed",
+    "start": 159
+  },
+  {
+    "content": "okay and now i'm going to use the netlify cli tool",
+    "start": 171
+  },
+  {
+    "content": "to link this project up to a nullify site that i've created earlier",
+    "start": 175
+  },
+  {
+    "content": "okay and then i'm going to use the same cli tool to deploy this project directly",
+    "start": 181
+  },
+  {
+    "content": "to the cdn okay it should be done now let's open",
+    "start": 185
+  },
+  {
+    "content": "this up in a web browser okay so you can see my html rendered",
+    "start": 190
+  },
+  {
+    "content": "here now don't judge my design it's just a proof of concept after all",
+    "start": 195
+  },
+  {
+    "content": "obviously there's nothing special here but check out what happens when i start",
+    "start": 199
+  },
+  {
+    "content": "clicking through the navigation the first thing you'll notice is that",
+    "start": 202
+  },
+  {
+    "content": "when i click on links for pages that i haven't created yet",
+    "start": 205
+  },
+  {
+    "content": "i'm not getting four or four responses from the server i'm actually being",
+    "start": 208
+  },
+  {
+    "content": "served content from the site that we specified in our redirects file",
+    "start": 211
+  },
+  {
+    "content": "also notice the hostname didn't change as far as the end user is concerned this",
+    "start": 214
+  },
+  {
+    "content": "is just one big website okay so",
+    "start": 218
+  },
+  {
+    "content": "what just happened by adding the redirect file to our publish directory",
+    "start": 224
+  },
+  {
+    "content": "we told netlify to serve physical pages that were deployed to the cdn",
+    "start": 227
+  },
+  {
+    "content": "first and then for any request it can't handle instead of returning a 404 to the",
+    "start": 231
+  },
+  {
+    "content": "end user we're going to pass that traffic off to jamstack.org",
+    "start": 235
+  },
+  {
+    "content": "now remember the navigation continued to function across both sites",
+    "start": 238
+  },
+  {
+    "content": "the hostname didn't change regardless of whether i was on my new netlife project",
+    "start": 242
+  },
+  {
+    "content": "or i was on jamstack.org now we've got a solution that will allow",
+    "start": 245
+  },
+  {
+    "content": "us to selectively override individual pages at our own",
+    "start": 249
+  },
+  {
+    "content": "pace so how exactly does this work well it's",
+    "start": 253
+  },
+  {
+    "content": "all thanks to this thing called the reverse proxy",
+    "start": 257
+  },
+  {
+    "content": "now not surprisingly a reverse proxy is the opposite of a forward proxy",
+    "start": 259
+  },
+  {
+    "content": "a forward proxy is designed to hide the client's identity if you've ever used a",
+    "start": 264
+  },
+  {
+    "content": "proxy server to access a youtube video from another geographic location for",
+    "start": 268
+  },
+  {
+    "content": "example then you know what i'm talking about so",
+    "start": 272
+  },
+  {
+    "content": "if the forward proxy shields the client from the server the reverse proxy",
+    "start": 274
+  },
+  {
+    "content": "pattern shields the server's identity from the client",
+    "start": 278
+  },
+  {
+    "content": "it's a simple concept but it gives us a ton of control over handling our traffic",
+    "start": 280
+  },
+  {
+    "content": "now i should note that this pattern is not unique to netlify they just happen",
+    "start": 284
+  },
+  {
+    "content": "to create a super elegant solution for the implementation of the same concept",
+    "start": 288
+  },
+  {
+    "content": "now sending users to different applications based on the request",
+    "start": 292
+  },
+  {
+    "content": "is trivial and this approach can even help us defend against things like ddos",
+    "start": 295
+  },
+  {
+    "content": "attacks and since the server side details are",
+    "start": 299
+  },
+  {
+    "content": "hidden the end user has no clue that they're accessing a completely different",
+    "start": 301
+  },
+  {
+    "content": "website the hostname never changed and also we",
+    "start": 304
+  },
+  {
+    "content": "can keep our redirect rules in the repository so we get the benefits of",
+    "start": 308
+  },
+  {
+    "content": "visibility revision control and our team now has",
+    "start": 311
+  },
+  {
+    "content": "access to manipulate traffic patterns right alongside our code",
+    "start": 315
+  },
+  {
+    "content": "and once we got this solution in place we can start talking about even cooler",
+    "start": 318
+  },
+  {
+    "content": "concepts like microfrontends so what the heck is a micro front end",
+    "start": 321
+  },
+  {
+    "content": "well the idea of microphone in architecture really has more to do with",
+    "start": 325
+  },
+  {
+    "content": "how you structure your teams than anything in",
+    "start": 328
+  },
+  {
+    "content": "the interest of time i'm not going to be able to dig",
+    "start": 331
+  },
+  {
+    "content": "too deep into that concept but i would like to illustrate how this plays out",
+    "start": 333
+  },
+  {
+    "content": "architecturally so following our early analogy let's say",
+    "start": 336
+  },
+  {
+    "content": "that this is an illustration of web traffic coming into your website",
+    "start": 339
+  },
+  {
+    "content": "you've got some products for sale a blog maybe a handful of other random",
+    "start": 342
+  },
+  {
+    "content": "marketing pages let's also assume that these pages are",
+    "start": 345
+  },
+  {
+    "content": "driven by one big monolithic application that does everything",
+    "start": 349
+  },
+  {
+    "content": "and now that we know how to proxy web traffic under a single host name we can",
+    "start": 352
+  },
+  {
+    "content": "start applying the same strategy here so instead of one big application we can",
+    "start": 356
+  },
+  {
+    "content": "start thinking about our infrastructure like this",
+    "start": 359
+  },
+  {
+    "content": "where each distinct section of our website is a different application",
+    "start": 362
+  },
+  {
+    "content": "entirely the end user still just sees a single hostname and can traverse the",
+    "start": 365
+  },
+  {
+    "content": "entire site as if it were just one big project but",
+    "start": 369
+  },
+  {
+    "content": "now we have greater flexibility to evolve our infrastructure over time",
+    "start": 373
+  },
+  {
+    "content": "and the cool part is is that since the kpis and ux concerns for a blog are",
+    "start": 376
+  },
+  {
+    "content": "distinctively different than e-commerce for example we can assign",
+    "start": 380
+  },
+  {
+    "content": "ownership of each application to different teams who have the skills to",
+    "start": 384
+  },
+  {
+    "content": "meet those objectives and since these are all individual",
+    "start": 386
+  },
+  {
+    "content": "projects we don't have to worry about teams stepping on each other's toes we",
+    "start": 389
+  },
+  {
+    "content": "can deploy at will or we can use different technologies",
+    "start": 392
+  },
+  {
+    "content": "that may be better suited for the needs of that particular team",
+    "start": 395
+  },
+  {
+    "content": "so this is great especially because now we know we can accomplish this level of",
+    "start": 398
+  },
+  {
+    "content": "flexibility with a single line in a text file but the solution is not",
+    "start": 402
+  },
+  {
+    "content": "without its challenges either so probably the first thing you'll",
+    "start": 407
+  },
+  {
+    "content": "notice is that page speed specifically our time to interactive metric",
+    "start": 409
+  },
+  {
+    "content": "takes a slight hit with this strategy now the severity of this problem will",
+    "start": 413
+  },
+  {
+    "content": "scale depending on the choices you make and how many different frameworks you're",
+    "start": 416
+  },
+  {
+    "content": "using now while some of this is accepted risk there's a few options available to",
+    "start": 420
+  },
+  {
+    "content": "us performance budgets are a great first",
+    "start": 424
+  },
+  {
+    "content": "step particularly when plugged directly into your ci pipeline",
+    "start": 426
+  },
+  {
+    "content": "there's a ton of benchmarking tools that can deliver near real-time feedback for",
+    "start": 429
+  },
+  {
+    "content": "your qa team so you can ensure that any updates keep page speed within an",
+    "start": 432
+  },
+  {
+    "content": "acceptable range if you're using a module bundler",
+    "start": 436
+  },
+  {
+    "content": "like webpack or parcel you're going to get code splitting for free",
+    "start": 439
+  },
+  {
+    "content": "and now that http 2 is a thing this approach dove extreme",
+    "start": 442
+  },
+  {
+    "content": "dovetails extremely well as it encourages smaller bundles delivered to",
+    "start": 445
+  },
+  {
+    "content": "the client on an as needed basis lastly consider vendoring shared",
+    "start": 448
+  },
+  {
+    "content": "libraries or packages together so you get the benefit of cachability while",
+    "start": 453
+  },
+  {
+    "content": "also reducing the footprint of any one endpoint",
+    "start": 457
+  },
+  {
+    "content": "second challenge how do we ensure the products present consistent user",
+    "start": 460
+  },
+  {
+    "content": "experience well we could start by implementing a",
+    "start": 463
+  },
+  {
+    "content": "global style sheet across everything this is a good idea for baseline styles",
+    "start": 466
+  },
+  {
+    "content": "but in practice this approach gets pretty brittle pretty fast",
+    "start": 469
+  },
+  {
+    "content": "there's also this idea of server-side page composition and there's a couple",
+    "start": 473
+  },
+  {
+    "content": "node.js projects to address the need podium and single spa are two such",
+    "start": 476
+  },
+  {
+    "content": "examples now these solutions require a node process to work so while it's not",
+    "start": 480
+  },
+  {
+    "content": "really jam stacky i figured it was worth a mention",
+    "start": 483
+  },
+  {
+    "content": "lastly the solution we found to be the most scalable is this idea of js-based",
+    "start": 486
+  },
+  {
+    "content": "component libraries you can keep your markup style and functionality all in",
+    "start": 490
+  },
+  {
+    "content": "one place and reuse it everywhere there's a lot of benefits to this",
+    "start": 493
+  },
+  {
+    "content": "approach everything from tooling to automation to maintainability",
+    "start": 496
+  },
+  {
+    "content": "it's also a great segue into the concept of design systems which you could think",
+    "start": 500
+  },
+  {
+    "content": "of as a single source of truth for your user interface",
+    "start": 503
+  },
+  {
+    "content": "now lastly you may need to deploy your work to several different",
+    "start": 506
+  },
+  {
+    "content": "environments staging qa production etc as revolutionary as deployment previews",
+    "start": 510
+  },
+  {
+    "content": "are some clients aren't quite ready to make the jump to a true continuous",
+    "start": 515
+  },
+  {
+    "content": "delivery environment and while i love the redirect solution",
+    "start": 518
+  },
+  {
+    "content": "that lfi is engineered it does have some limitations particularly if you need to",
+    "start": 521
+  },
+  {
+    "content": "swap out redirect rules based on your environmental context",
+    "start": 524
+  },
+  {
+    "content": "so one option is to maintain a copy of redirects for each environment and swap",
+    "start": 528
+  },
+  {
+    "content": "them out at build time another idea is to create a simple bash",
+    "start": 531
+  },
+  {
+    "content": "or set script that could rewrite that field file at build time",
+    "start": 534
+  },
+  {
+    "content": "and we found both of these approaches to be a little clunky so we came up with",
+    "start": 537
+  },
+  {
+    "content": "another solution custom build plugins of course this only",
+    "start": 541
+  },
+  {
+    "content": "applies if you're hosting via nullify now meet the newest member",
+    "start": 544
+  },
+  {
+    "content": "of the official netlify plug-in registry netlify plugin replace",
+    "start": 549
+  },
+  {
+    "content": "now this is actually just a glorified string replacement library for",
+    "start": 553
+  },
+  {
+    "content": "environment variables but allows you to swap out these types of values post",
+    "start": 556
+  },
+  {
+    "content": "build before your project is deployed and this",
+    "start": 559
+  },
+  {
+    "content": "example shows the syntax for specifying variables inside a redirects file",
+    "start": 561
+  },
+  {
+    "content": "but it's configurable too if you don't like this format check it out in the",
+    "start": 565
+  },
+  {
+    "content": "netlify admin ui or visit us at apple.co netlifepluginreplace to learn more and",
+    "start": 569
+  },
+  {
+    "content": "that's it thank you so much for your time to learn",
+    "start": 575
+  },
+  {
+    "content": "more about any of the things i've covered today",
+    "start": 577
+  },
+  {
+    "content": "please come visit us at ample.com you",
+    "start": 579
+  }
+]

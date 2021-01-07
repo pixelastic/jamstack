@@ -4,9 +4,11 @@
   "position": 18,
   "publishedAt": 1542606826,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/Or4NmGbyQeY/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/Or4NmGbyQeY/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/Or4NmGbyQeY/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/Or4NmGbyQeY/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/Or4NmGbyQeY/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/Or4NmGbyQeY/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/Or4NmGbyQeY/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/Or4NmGbyQeY/default.jpg"
   },
   "title": "Round Table Discussion"
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Shifting from a monolithic CMS approach to a JAMstack setup comes with an abundance of choice. On the other hand, all that choice can come with indecision paralysis. Where’s a dev to start? Thankfully, there’s a thriving ecosystem of frameworks offering varying flexibility and structure, different approaches to performance and delivery, etc. We’ll talk about some ways to evaluate available tools, using Gatsby as an example.\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
+  "id": "WVoh9uNOUMk",
+  "position": 5,
+  "publishedAt": 1556317259,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/WVoh9uNOUMk/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/WVoh9uNOUMk/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/WVoh9uNOUMk/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/WVoh9uNOUMk/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/WVoh9uNOUMk/default.jpg"
+  },
+  "title": "Amberley Romo - What's your JAM(stack)?"
+}

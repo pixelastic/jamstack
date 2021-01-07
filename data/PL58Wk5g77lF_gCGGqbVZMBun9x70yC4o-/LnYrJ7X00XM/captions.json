@@ -1,0 +1,1630 @@
+[
+  {
+    "content": "[Applause]",
+    "start": 0
+  },
+  {
+    "content": "welcome everybody to gem tech' San Francisco it's fantastic to see so many",
+    "start": 16
+  },
+  {
+    "content": "people so many companies participating and such a great energy in the room as",
+    "start": 23
+  },
+  {
+    "content": "Phil said it's it's it's amazing to think about that the first a San",
+    "start": 29
+  },
+  {
+    "content": "Francisco DM stag event was just a year ago and then see how how everything has",
+    "start": 33
+  },
+  {
+    "content": "grown since then in today we around 550 attendees and there's so many people",
+    "start": 40
+  },
+  {
+    "content": "from the from the ecosystem here from established players like contentful",
+    "start": 50
+  },
+  {
+    "content": "that's been talking about like decoupling the front end from the back",
+    "start": 56
+  },
+  {
+    "content": "end and building like with an epi based approach for for very long time here our",
+    "start": 60
+  },
+  {
+    "content": "new players like like sanity that we're here yeah go with just a couple of",
+    "start": 65
+  },
+  {
+    "content": "founders and today's like a really established company with funding and",
+    "start": 70
+  },
+  {
+    "content": "some amazing projects to show open source participants like people from",
+    "start": 74
+  },
+  {
+    "content": "gatsby eleventy and who go that are building these site builders all the",
+    "start": 79
+  },
+  {
+    "content": "sponsors that helped us make this event a even possible and that's building so",
+    "start": 86
+  },
+  {
+    "content": "many exciting things in the whole ecosystem him and the themes of this",
+    "start": 92
+  },
+  {
+    "content": "conference is really gem stack at scale right like even the conference itself",
+    "start": 99
+  },
+  {
+    "content": "has been scaling off and and the whole category has really moved from it from a",
+    "start": 103
+  },
+  {
+    "content": "point where him in the in the early days there were gem tech projects like the",
+    "start": 108
+  },
+  {
+    "content": "act like the early Obama campaign that to have a rebuilt before the term was",
+    "start": 113
+  },
+  {
+    "content": "even coined right but they filled more like one of a engineering efforts right",
+    "start": 118
+  },
+  {
+    "content": "like figuring out okay if we if we follow these patterns we can get better",
+    "start": 123
+  },
+  {
+    "content": "performance better scale and so on but it was like very very custom engineered",
+    "start": 128
+  },
+  {
+    "content": "in and today what we're seeing is is is this really emerging as a sort of an",
+    "start": 132
+  },
+  {
+    "content": "industry practice and and as a set of tools that that that real companies",
+    "start": 139
+  },
+  {
+    "content": "adopting that developers have tooling around that makes it like a viable and",
+    "start": 146
+  },
+  {
+    "content": "and an accessible best practice in today right after I speak we're gonna see",
+    "start": 151
+  },
+  {
+    "content": "Justin from from Loblaws it talked about using use introducing a damp stacking",
+    "start": 157
+  },
+  {
+    "content": "like the latches to retailer in Canada and right which like big company lots of",
+    "start": 163
+  },
+  {
+    "content": "developers lots of real work works like that that relies on on solid and robust",
+    "start": 168
+  },
+  {
+    "content": "practices that that that might not have been in place for this kind of approach",
+    "start": 174
+  },
+  {
+    "content": "some years ago and we're going to see at this conference also terry from from a",
+    "start": 179
+  },
+  {
+    "content": "bi that for those that don't know them at the net name either at the company",
+    "start": 187
+  },
+  {
+    "content": "their own spur cooking and Poppi's and a lot of these kind of businesses right",
+    "start": 192
+  },
+  {
+    "content": "that's also really taken this approach and said like okay we we can use this to",
+    "start": 196
+  },
+  {
+    "content": "build everything from it signs that show whoppers to to web applications him and",
+    "start": 201
+  },
+  {
+    "content": "and we've really seen this ecosystem again right like grow from from early",
+    "start": 209
+  },
+  {
+    "content": "adopters from hobbyists developers building things to getting adoption",
+    "start": 215
+  },
+  {
+    "content": "amongst like a large part of all the major open source projects right like",
+    "start": 219
+  },
+  {
+    "content": "view and react and kubernetes will all be using this approach to build their",
+    "start": 224
+  },
+  {
+    "content": "public properties and their web sites the same for for all the site builders",
+    "start": 228
+  },
+  {
+    "content": "themselves sets emerge but also going into to anything from really latch",
+    "start": 232
+  },
+  {
+    "content": "established traditional enterprises like citrix or cisco or in paypal or fancy",
+    "start": 237
+  },
+  {
+    "content": "branch like Nike or unicorn startups like flex port again this is this is",
+    "start": 246
+  },
+  {
+    "content": "really something that we've seen getting getting wide adoption today across the",
+    "start": 251
+  },
+  {
+    "content": "industry and that's why we felt like this conference should should be about",
+    "start": 255
+  },
+  {
+    "content": "that aspect of like the the gem stack is really starting to to be a real thing",
+    "start": 259
+  },
+  {
+    "content": "and it's starting to scale from from everything to small teams to really",
+    "start": 264
+  },
+  {
+    "content": "large teams and it's starting to like prod processes and workflows and tools",
+    "start": 267
+  },
+  {
+    "content": "are starting to emerge that that makes it viable to build a large part of",
+    "start": 272
+  },
+  {
+    "content": "tomorrow's web with this approach so in we most people you probably",
+    "start": 276
+  },
+  {
+    "content": "already know that that the gem is it's made out of JavaScript API sand mock-ups",
+    "start": 283
+  },
+  {
+    "content": "right and that when you have this fundamental idea of decoupling the",
+    "start": 289
+  },
+  {
+    "content": "front-end a layer from the backend the backend itself is splitting into all",
+    "start": 293
+  },
+  {
+    "content": "these different micro services and api's where some are your own and some other",
+    "start": 298
+  },
+  {
+    "content": "people's services like stripe or content full of fauna DB that that they could",
+    "start": 304
+  },
+  {
+    "content": "just connect to without worrying about running them in we try to pre build",
+    "start": 308
+  },
+  {
+    "content": "markup ship it directly to a globally distributed network and and and then use",
+    "start": 312
+  },
+  {
+    "content": "JavaScript as the SMN runtime in the browser and I think a lot of the talk",
+    "start": 317
+  },
+  {
+    "content": "around this aspect is it tends tends to focus a lot on on the JavaScript layer",
+    "start": 324
+  },
+  {
+    "content": "and the API layer that's obviously been like through through a ton of",
+    "start": 329
+  },
+  {
+    "content": "development the JavaScript itself has evolved a lot as a language and the",
+    "start": 334
+  },
+  {
+    "content": "ecosystem around it has exploded the whole API economy has really become a",
+    "start": 338
+  },
+  {
+    "content": "real thing in service functions to sort of meet building ad-hoc small API is",
+    "start": 343
+  },
+  {
+    "content": "extremely simple and so on but what I want to talk touch more about in in this",
+    "start": 349
+  },
+  {
+    "content": "talk it's sort of the mock-up aspect of the of the gems tagging this idea of",
+    "start": 354
+  },
+  {
+    "content": "pre-built markup specifically in so another another sort of scaling event",
+    "start": 359
+  },
+  {
+    "content": "that that we've reached is this point where the web itself today reaches 50%",
+    "start": 368
+  },
+  {
+    "content": "of all people on on earth like we've reached this point where around half of",
+    "start": 376
+  },
+  {
+    "content": "the whole population is connected in in one way or the other which is in itself",
+    "start": 381
+  },
+  {
+    "content": "a big scaling milestone but obviously a lot of people are connected through",
+    "start": 387
+  },
+  {
+    "content": "mobile devices and new types of devices and and not through the traditional like",
+    "start": 394
+  },
+  {
+    "content": "desktop computers that initially define define the web and we're seeing today's",
+    "start": 399
+  },
+  {
+    "content": "sort of the the overall traffic on the web sort of being a mix between like",
+    "start": 404
+  },
+  {
+    "content": "half of it from mobile devices half from this",
+    "start": 410
+  },
+  {
+    "content": "devices have from from all over right in and when we look at at all of those",
+    "start": 412
+  },
+  {
+    "content": "people that that have come online like probably if we look at this room",
+    "start": 418
+  },
+  {
+    "content": "everybody has already gotten then you i phone 11 or pixel four and everybody are",
+    "start": 422
+  },
+  {
+    "content": "adopting new devices with high computational power really fast with",
+    "start": 427
+  },
+  {
+    "content": "with with extremely advanced capabilities really really making this",
+    "start": 432
+  },
+  {
+    "content": "part of the gem stick through that there that the browser has gone from being",
+    "start": 437
+  },
+  {
+    "content": "more of a document view it's really becoming an operating system running",
+    "start": 440
+  },
+  {
+    "content": "javascript and web assembly and so on but while that's true and while that's",
+    "start": 444
+  },
+  {
+    "content": "really happening and while areas like these are really pushing that forward",
+    "start": 449
+  },
+  {
+    "content": "it's also really important to remember that that when we look at sort of the",
+    "start": 453
+  },
+  {
+    "content": "really broad ecosystem like even the the amount of budget Android phones with a",
+    "start": 458
+  },
+  {
+    "content": "single core CPU is still like really accelerating and growing people are",
+    "start": 465
+  },
+  {
+    "content": "buying these right and love people that's that's their access point to the",
+    "start": 468
+  },
+  {
+    "content": "web in how many here this conference has a single core budget Android phone",
+    "start": 472
+  },
+  {
+    "content": "that's a couple less couple but it's not exactly dominating right and the reality",
+    "start": 481
+  },
+  {
+    "content": "is said that that that for years is out there the these devices are really",
+    "start": 487
+  },
+  {
+    "content": "important this like a chat from from Alex Russell that's that's part of the",
+    "start": 493
+  },
+  {
+    "content": "chrome team that's really passionate about saying like remember that a lot of",
+    "start": 496
+  },
+  {
+    "content": "the web needs to be accessible from from these kind of devices and also when we",
+    "start": 500
+  },
+  {
+    "content": "look about like more of the world coming online more people getting connected of",
+    "start": 506
+  },
+  {
+    "content": "course not all are getting connected at the fastest speeds like obviously if",
+    "start": 510
+  },
+  {
+    "content": "you're in a place like a Scandinavia where I'm from you'll have a great",
+    "start": 515
+  },
+  {
+    "content": "connection if you're like in a place like a US might be a little is great and",
+    "start": 519
+  },
+  {
+    "content": "if you're some other places in the world like just the basic fundamentals of like",
+    "start": 523
+  },
+  {
+    "content": "what speed can you get him might might be very very different and might really",
+    "start": 527
+  },
+  {
+    "content": "define the experience you get when you go online and and of course this whole",
+    "start": 533
+  },
+  {
+    "content": "move to to mobile and through different types of devices is nothing new and it's",
+    "start": 539
+  },
+  {
+    "content": "something like started talking like tackling long time",
+    "start": 545
+  },
+  {
+    "content": "ago through through this idea of responsive design where we started",
+    "start": 548
+  },
+  {
+    "content": "saying like we can no longer assume that when we have some pixel perfect design",
+    "start": 551
+  },
+  {
+    "content": "and implemented on a webpage we know what kind of screen formats it's even",
+    "start": 557
+  },
+  {
+    "content": "going to be displayed on right like we have to start just assuming that there's",
+    "start": 561
+  },
+  {
+    "content": "all these different sizes and dimensions and pixel densities and so on and start",
+    "start": 565
+  },
+  {
+    "content": "building parents where we where we think about like building for the web in a",
+    "start": 573
+  },
+  {
+    "content": "very different way than then then then then we did back when you really just",
+    "start": 576
+  },
+  {
+    "content": "would take like a PSD and say okay we have this design we'll implement it in",
+    "start": 581
+  },
+  {
+    "content": "HTML and we'll then ship it to to FTP it to a server somewhere and and now we",
+    "start": 585
+  },
+  {
+    "content": "have like our our one view of this web page right like we've really gone from",
+    "start": 592
+  },
+  {
+    "content": "this world of saying okay we have to just think about like the content first",
+    "start": 597
+  },
+  {
+    "content": "think about the elements and think about how they adapt to different view formats",
+    "start": 601
+  },
+  {
+    "content": "how they shrink down when you view them on a on a smaller screen and shrink up",
+    "start": 605
+  },
+  {
+    "content": "when you really don't agree among the screen and and end in and flow with the",
+    "start": 610
+  },
+  {
+    "content": "grain of whatever device you're using and that's of course been been an",
+    "start": 615
+  },
+  {
+    "content": "incredible practice that that that that still has lots of momentum behind it and",
+    "start": 621
+  },
+  {
+    "content": "let's spin like a completely common I think no one today would would want to",
+    "start": 626
+  },
+  {
+    "content": "like even consider building a web site without thinking like responsiveness or",
+    "start": 630
+  },
+  {
+    "content": "adaptability or something into the design from the beginning but at the",
+    "start": 635
+  },
+  {
+    "content": "same time sometimes we see and Francis Berryman who coined the term single page",
+    "start": 641
+  },
+  {
+    "content": "applications and and who I'm extremely fortunate to work with it at little if I",
+    "start": 647
+  },
+  {
+    "content": "put up a blog post the other day about like sort of where did we end up with",
+    "start": 652
+  },
+  {
+    "content": "with with responsive design right because sometimes we're just thinking",
+    "start": 656
+  },
+  {
+    "content": "this kind of visceral element to it and we're thinking okay we need to adapt to",
+    "start": 660
+  },
+  {
+    "content": "to screen sizes to pixel densities to show world of devices but sometimes it",
+    "start": 664
+  },
+  {
+    "content": "happens in this in this way where we put a hamburger menu and then like this",
+    "start": 670
+  },
+  {
+    "content": "massive assets of hamburgers that that add like single core Android budget",
+    "start": 674
+  },
+  {
+    "content": "phone it's probably not gonna liking where we",
+    "start": 680
+  },
+  {
+    "content": "may be ship like a massive JavaScript bundle for every page load that again on",
+    "start": 681
+  },
+  {
+    "content": "your iPhone 11 it's just gonna make everything smooth and enjoyable but that",
+    "start": 686
+  },
+  {
+    "content": "on a lot of people's smaller devices with slower Network collections are",
+    "start": 691
+  },
+  {
+    "content": "going to fundamentally ruin the experience and we see this when when we",
+    "start": 696
+  },
+  {
+    "content": "look at cross sort of all of the web this is some stats from the HTTP archive",
+    "start": 701
+  },
+  {
+    "content": "for those that don't know that it's EP archive they they sort of take these web",
+    "start": 706
+  },
+  {
+    "content": "performance tests they they just take a bunch of header information and so on",
+    "start": 712
+  },
+  {
+    "content": "they just crawl lots watch us the web to just gather statistics on how are we",
+    "start": 715
+  },
+  {
+    "content": "doing right and the reality is that we're probably not doing that well right",
+    "start": 722
+  },
+  {
+    "content": "like best practices and accessibility has a lot of room to improvement and the",
+    "start": 726
+  },
+  {
+    "content": "basic like the basic measurement of like performance it's just not at a great",
+    "start": 731
+  },
+  {
+    "content": "place and it's in a much worse place whenever you're connecting from from",
+    "start": 737
+  },
+  {
+    "content": "from a region that might not have the best connectivity whenever you're on a",
+    "start": 742
+  },
+  {
+    "content": "device that might struggle more in and in and this is this is obviously",
+    "start": 746
+  },
+  {
+    "content": "something that over time if we don't address it will hurt the weapon will",
+    "start": 752
+  },
+  {
+    "content": "hurt adoption will make people and those kind of devices have avoid going online",
+    "start": 756
+  },
+  {
+    "content": "on on websites and use other forms so how do we make the web faster in so",
+    "start": 761
+  },
+  {
+    "content": "identified we've always been focusing and saying like how can we make it a",
+    "start": 769
+  },
+  {
+    "content": "great experience for developers to build great experience for users and that sort",
+    "start": 773
+  },
+  {
+    "content": "of been one of the the angles like that that we saw when when we started seeing",
+    "start": 779
+  },
+  {
+    "content": "these architectural patterns around the gem stack emerging when we saw these",
+    "start": 782
+  },
+  {
+    "content": "patterns around pre building mock-ups shipping it to a globally distributed",
+    "start": 786
+  },
+  {
+    "content": "network in starting starting to to delegate the right amount of logic to to",
+    "start": 789
+  },
+  {
+    "content": "javascript in the browser and so on right that that it had these amazing",
+    "start": 795
+  },
+  {
+    "content": "potentials to to increase their performance of site to get the time to",
+    "start": 799
+  },
+  {
+    "content": "first byte much lower to get something in front of the user much faster in to",
+    "start": 804
+  },
+  {
+    "content": "build much more enjoyable users as well by being able to reiterate",
+    "start": 810
+  },
+  {
+    "content": "really fast on the front-end layer and and and and built a interactive",
+    "start": 815
+  },
+  {
+    "content": "experiences that work directly in the browser without allure from round trips",
+    "start": 820
+  },
+  {
+    "content": "to servers and so on but we also saw that that that without real tooling",
+    "start": 824
+  },
+  {
+    "content": "around it it was a great promise it was a fundamentally sound architecture but",
+    "start": 830
+  },
+  {
+    "content": "it's not really viable for developers to work with right if you had to stitch",
+    "start": 835
+  },
+  {
+    "content": "everything together for every project and figure it out at hoc so we saw that",
+    "start": 838
+  },
+  {
+    "content": "okay if we can make it a great experience to build in this way we'll",
+    "start": 843
+  },
+  {
+    "content": "make it possible for developers to give their users better experiences and part",
+    "start": 847
+  },
+  {
+    "content": "of this was like this move away from this old sort of Wild West of like okay",
+    "start": 853
+  },
+  {
+    "content": "you just ship some code to a server and it runs and and and and that's the main",
+    "start": 858
+  },
+  {
+    "content": "sort of flow we built some tooling around deployments and so on but they're",
+    "start": 864
+  },
+  {
+    "content": "still basically just like going from one version of the code running to the other",
+    "start": 868
+  },
+  {
+    "content": "and then to this kind of world where we have this whole word workflow that that",
+    "start": 872
+  },
+  {
+    "content": "really started when when when github took like a lot of the open-source best",
+    "start": 877
+  },
+  {
+    "content": "practices around version control and how to work with distributed versioning",
+    "start": 882
+  },
+  {
+    "content": "systems and collaborate and so on and build an actual developer experience",
+    "start": 886
+  },
+  {
+    "content": "around that that suddenly took it out of Linux kernel groups and so on and into",
+    "start": 890
+  },
+  {
+    "content": "the hand of lots of developers and today it's just like that's the standard right",
+    "start": 895
+  },
+  {
+    "content": "like that's how we work as developers right again because they experience off",
+    "start": 899
+  },
+  {
+    "content": "it got cut cut raise to step right and what what we and others have tried to do",
+    "start": 904
+  },
+  {
+    "content": "has really been to take that next step of saying like let's take this build",
+    "start": 908
+  },
+  {
+    "content": "step of like pre generating markup of pre generating something connected to",
+    "start": 912
+  },
+  {
+    "content": "this deployment universe of a globally distributed deployment environment and",
+    "start": 917
+  },
+  {
+    "content": "built the same kind of experience around and make it equally smooth through two",
+    "start": 921
+  },
+  {
+    "content": "connector git repository half this whole workflow and have your end result get",
+    "start": 926
+  },
+  {
+    "content": "distributed on on each networks around the world in and start tackling like",
+    "start": 931
+  },
+  {
+    "content": "these these performance metrics that we all know like there's the first pain",
+    "start": 936
+  },
+  {
+    "content": "that requires like that that's so dependent on like what's the time to",
+    "start": 941
+  },
+  {
+    "content": "first byte how fast can you get something through the browser",
+    "start": 945
+  },
+  {
+    "content": "we can start painting anything the first like sort of visually ready that depends",
+    "start": 947
+  },
+  {
+    "content": "a lot of like what are you actually sending to the brows or how long does it",
+    "start": 952
+  },
+  {
+    "content": "actually take like take the brows or two to get something the the user can can",
+    "start": 955
+  },
+  {
+    "content": "look at and then this whole time trains are active that's more dependent on like",
+    "start": 959
+  },
+  {
+    "content": "how much of a dynamic runtime in the browser do you have that requires to",
+    "start": 964
+  },
+  {
+    "content": "pass JavaScript and start rehydrating elements and so on before a user can",
+    "start": 968
+  },
+  {
+    "content": "actually touch a button and expect it to do anything right and and for the user",
+    "start": 972
+  },
+  {
+    "content": "it sort of translates into these phases of like you you you go to a URL and",
+    "start": 978
+  },
+  {
+    "content": "there's like this white page like this this loading element where you're just",
+    "start": 982
+  },
+  {
+    "content": "wondering is it happening at all right and again they're the worst your device",
+    "start": 985
+  },
+  {
+    "content": "the worst recurring activity speak the more critical that moment is gonna be",
+    "start": 990
+  },
+  {
+    "content": "but even on really fast devices like sure it gets faster but the fastest of",
+    "start": 994
+  },
+  {
+    "content": "the devices become the more impatient we also get read because we just get used",
+    "start": 1000
+  },
+  {
+    "content": "to like everything should be instant in heaven now right and then there's like",
+    "start": 1004
+  },
+  {
+    "content": "this face of you get something in front about you in that sort of the moment to",
+    "start": 1007
+  },
+  {
+    "content": "give the user an idea the moment something shows up on the page is this",
+    "start": 1011
+  },
+  {
+    "content": "gonna be useful well I am I just kind of want to jump away real fast and surf",
+    "start": 1015
+  },
+  {
+    "content": "somewhere else and then there's like this let this this last question of like",
+    "start": 1020
+  },
+  {
+    "content": "is it actually usable can actually like touch things and do things and make it",
+    "start": 1024
+  },
+  {
+    "content": "make it work for me in if we think about like what we're delivering when we have",
+    "start": 1028
+  },
+  {
+    "content": "like that like ideally I hope you're all deploying to something that that runs",
+    "start": 1034
+  },
+  {
+    "content": "globally distributed and gets something into the browser really fast but what",
+    "start": 1038
+  },
+  {
+    "content": "does it get into the browser right it'll need to if you want it to be really fast",
+    "start": 1042
+  },
+  {
+    "content": "it'll need to be something that's already pre-built right like as soon as",
+    "start": 1046
+  },
+  {
+    "content": "you have sort of this old server-side rendering setup you typically have to",
+    "start": 1049
+  },
+  {
+    "content": "give up delivering its right from a niche nodes because like the rendering",
+    "start": 1053
+  },
+  {
+    "content": "will depend on some data that typically doesn't live in the itch anyway right so",
+    "start": 1057
+  },
+  {
+    "content": "we have this concept of either like a content based patron for fundamental",
+    "start": 1061
+  },
+  {
+    "content": "just an app shell right that's like pre-built markup that you give to the",
+    "start": 1065
+  },
+  {
+    "content": "browser and it needs to get there the use of this idea of like is this going",
+    "start": 1069
+  },
+  {
+    "content": "to be usable in and in you can think about this app shell as essentially like",
+    "start": 1074
+  },
+  {
+    "content": "having to build stages right like there's a built stage that happens",
+    "start": 1081
+  },
+  {
+    "content": "before we ship anything through the itch right that happens every time we make a",
+    "start": 1085
+  },
+  {
+    "content": "change and we make it rebuilt and then it's sort of with the gem tech' approach",
+    "start": 1089
+  },
+  {
+    "content": "another built face that happens in the browser in the client that's when you've",
+    "start": 1092
+  },
+  {
+    "content": "gotten that absol you start running JavaScript you start rendering sir like",
+    "start": 1097
+  },
+  {
+    "content": "client-side templates and rehydrating stuff and so on which is sort of it",
+    "start": 1102
+  },
+  {
+    "content": "another built face that's just distributed to everybody's device right",
+    "start": 1105
+  },
+  {
+    "content": "and anything we can put into the app shell into the server-side build process",
+    "start": 1109
+  },
+  {
+    "content": "is sort of moving like computation time from the client-side build step on to",
+    "start": 1114
+  },
+  {
+    "content": "our and which in the end is better for the user in and then once that absol is",
+    "start": 1120
+  },
+  {
+    "content": "there we can start personalizing we can start calling API is running JavaScript",
+    "start": 1125
+  },
+  {
+    "content": "getting actual information in front of users and and making it a fully usable",
+    "start": 1129
+  },
+  {
+    "content": "aim and with like when we take this approach and generate deceptions right",
+    "start": 1135
+  },
+  {
+    "content": "like we we're also starting to get used to this idea if we have this build step",
+    "start": 1140
+  },
+  {
+    "content": "right we have to get repository that's essentially a series of layered versions",
+    "start": 1143
+  },
+  {
+    "content": "of data right and each of those we can surf map onto a specific immutable",
+    "start": 1149
+  },
+  {
+    "content": "deploy that we can roll back that we can go back and and and and evaluate that we",
+    "start": 1154
+  },
+  {
+    "content": "can run tests against to see sis deploy actually fast enough does it live up to",
+    "start": 1159
+  },
+  {
+    "content": "performance budget so what should it just be automatically rolled back should",
+    "start": 1163
+  },
+  {
+    "content": "we test a couple of these different deploys against each other and see which",
+    "start": 1168
+  },
+  {
+    "content": "performs best with Knittle if I anyone that's use notify will be familiar with",
+    "start": 1171
+  },
+  {
+    "content": "this kind of screen that just like gives you any deploy you've ever made while",
+    "start": 1176
+  },
+  {
+    "content": "aids from a branch or a pull request or relates your production deploys and let",
+    "start": 1180
+  },
+  {
+    "content": "you go back to any of them in time that you roll forward let you roll backward",
+    "start": 1185
+  },
+  {
+    "content": "and so on in so the power of this build step in the gem stack is that if if we",
+    "start": 1189
+  },
+  {
+    "content": "can do the heavy lifting on generate on generating the mock up if we can take",
+    "start": 1199
+  },
+  {
+    "content": "all our content and fetch it from an API during build time build out all the HTML",
+    "start": 1205
+  },
+  {
+    "content": "pages upfront and make sure they already have like everything that's that",
+    "start": 1210
+  },
+  {
+    "content": "users will care about then we take the the heavy-lifting that would otherwise",
+    "start": 1214
+  },
+  {
+    "content": "be done either at runtime fry it by a server-side rendering and and slow",
+    "start": 1219
+  },
+  {
+    "content": "things down to before people even get anything after the time to first byte or",
+    "start": 1225
+  },
+  {
+    "content": "we will have to delegate that work through the useless device after",
+    "start": 1231
+  },
+  {
+    "content": "everything is is after the initial like time to first byte has happened right so",
+    "start": 1235
+  },
+  {
+    "content": "the power of the of the build step in all of this is that it give us gives us",
+    "start": 1242
+  },
+  {
+    "content": "opportunities to take processing time out of the actual requests and pull them",
+    "start": 1246
+  },
+  {
+    "content": "into our like to make them our problem instead of our users problem and use way",
+    "start": 1252
+  },
+  {
+    "content": "less compute in the in the process M so if we go and sort of just look at how do",
+    "start": 1257
+  },
+  {
+    "content": "we make performance better how do we improve quality of life for our users",
+    "start": 1266
+  },
+  {
+    "content": "and device it's like everybody will sort of end up like what's the like with the",
+    "start": 1270
+  },
+  {
+    "content": "basic set of like then there's implicit cases and optimizing is Radice and like",
+    "start": 1274
+  },
+  {
+    "content": "things you can dive into forever right but there's sort of a common set of",
+    "start": 1279
+  },
+  {
+    "content": "performance optimization that that everybody will just say that you should",
+    "start": 1283
+  },
+  {
+    "content": "do right like obviously like get the browser to cache everything it can",
+    "start": 1286
+  },
+  {
+    "content": "between requests right like when you move from one page to another if if the",
+    "start": 1290
+  },
+  {
+    "content": "browser is reloading all the JavaScript and CSS and assets and images every time",
+    "start": 1295
+  },
+  {
+    "content": "you you navigate that's that's just gonna be horrible right so that's like",
+    "start": 1300
+  },
+  {
+    "content": "the basics and enable gzip compression broadly or image compression and so on",
+    "start": 1303
+  },
+  {
+    "content": "Lisa things like weight mostly by now delegated surf to the itch networks we",
+    "start": 1310
+  },
+  {
+    "content": "use right that where we have sort of this expectation that once it's pulled",
+    "start": 1314
+  },
+  {
+    "content": "out there like the actual leg shell system that serves our page will",
+    "start": 1318
+  },
+  {
+    "content": "well-well will take care that that this is done properly and that we are not",
+    "start": 1323
+  },
+  {
+    "content": "that we're not doing something stupid at least in but then there's like all these",
+    "start": 1327
+  },
+  {
+    "content": "things around like how do we minimize its DP requests can we inline some of",
+    "start": 1332
+  },
+  {
+    "content": "the CSS can we inline some mini images is it even good to minimize them or",
+    "start": 1336
+  },
+  {
+    "content": "should we use multiplexing with HTTP to and so on right where it's more much",
+    "start": 1340
+  },
+  {
+    "content": "more a question of like what are we actually delivering to the you",
+    "start": 1345
+  },
+  {
+    "content": "how much can we can we make sure that what we delivered to the user is pre",
+    "start": 1348
+  },
+  {
+    "content": "built and optimized in how can we minimize the the response time from our",
+    "start": 1353
+  },
+  {
+    "content": "web service right like again this there that's the fundamental constraint that",
+    "start": 1358
+  },
+  {
+    "content": "if your server side rendering it'll take time to render and that'll make things",
+    "start": 1363
+  },
+  {
+    "content": "slower but there's also the the geographical distribution right like how",
+    "start": 1366
+  },
+  {
+    "content": "can we get whatever surfs a piece of content as close to the user as possible",
+    "start": 1370
+  },
+  {
+    "content": "and how can we make sure that our actual HTML pages gets distributed to to to the",
+    "start": 1375
+  },
+  {
+    "content": "edge and get served in a prebuilt form close to that again both of these two",
+    "start": 1382
+  },
+  {
+    "content": "steps really depends so much and having a bill to layer right it depends on",
+    "start": 1387
+  },
+  {
+    "content": "having this opportunity to just automate and do a bunch of optimizations of pre",
+    "start": 1391
+  },
+  {
+    "content": "building everything you can of running up to my sessions against your your",
+    "start": 1397
+  },
+  {
+    "content": "images of running image optimization and so on in a step that happens before we",
+    "start": 1400
+  },
+  {
+    "content": "ship anything to the edge and before we even like get the get to use a",
+    "start": 1406
+  },
+  {
+    "content": "possibility to download something the same with minifying resources right like",
+    "start": 1411
+  },
+  {
+    "content": "we should just automate those processes of minifying HTML CSS javascript to code",
+    "start": 1416
+  },
+  {
+    "content": "splitting and so and again it's it's something that before we had in our",
+    "start": 1422
+  },
+  {
+    "content": "workflow we're built layer I just it was just not viable to really do it with",
+    "start": 1427
+  },
+  {
+    "content": "like a manual action right now we can start saying this is something that",
+    "start": 1431
+  },
+  {
+    "content": "should just be best practice and of course just like again minimizing a web",
+    "start": 1435
+  },
+  {
+    "content": "server response time and improving latency with a CDN like traditionally",
+    "start": 1440
+  },
+  {
+    "content": "Sirians was something we just used for like for assets right like we would",
+    "start": 1444
+  },
+  {
+    "content": "delegate maybe the the JavaScript so the fonts or something to true sealians but",
+    "start": 1449
+  },
+  {
+    "content": "we would still expect every actual request to a website to go right through",
+    "start": 1453
+  },
+  {
+    "content": "the CDN and go back to some origin server where we had our actual web",
+    "start": 1458
+  },
+  {
+    "content": "servers right and that's that's part of what we are like trying to act",
+    "start": 1461
+  },
+  {
+    "content": "architectural II say that if you really adopt this gem stack approach you should",
+    "start": 1465
+  },
+  {
+    "content": "not still have an Origin server right like it like if you're really pre",
+    "start": 1469
+  },
+  {
+    "content": "building the mock-up you should be able to just distribute that globally to your",
+    "start": 1473
+  },
+  {
+    "content": "users and and and and improve the latency not just for images so far",
+    "start": 1477
+  },
+  {
+    "content": "so javascript files but for everything in but there's also more possibilities",
+    "start": 1482
+  },
+  {
+    "content": "in the in the build step right like initially I think people just thought",
+    "start": 1489
+  },
+  {
+    "content": "about it this this like let's bundle some JavaScript and CSS and maybe do",
+    "start": 1493
+  },
+  {
+    "content": "some image up to my stations right and then our time we've seen it grow for",
+    "start": 1497
+  },
+  {
+    "content": "example to to really often include this concept of pulling in data from remote",
+    "start": 1501
+  },
+  {
+    "content": "services in services like contentful that might be where all your content is",
+    "start": 1505
+  },
+  {
+    "content": "this work and at every build we just pull in the new content if we make it",
+    "start": 1511
+  },
+  {
+    "content": "available to the build tools and we can build out HTML pages for it it can it",
+    "start": 1517
+  },
+  {
+    "content": "can be services like fana DB that might take data from the client and and and",
+    "start": 1521
+  },
+  {
+    "content": "store it and during build use that data to pre-fill really common paths that we",
+    "start": 1526
+  },
+  {
+    "content": "know which we should use oh it could be ecommerce services or crm or RSS feeds",
+    "start": 1531
+  },
+  {
+    "content": "from other web pages you need information for and the interesting",
+    "start": 1538
+  },
+  {
+    "content": "thing is that we can shape and combine that data in a way that we probably",
+    "start": 1542
+  },
+  {
+    "content": "wouldn't be able to do if we if if we wanted to do it purely you know in a",
+    "start": 1546
+  },
+  {
+    "content": "server-side rendering approach or sometimes even in a client-side approach",
+    "start": 1551
+  },
+  {
+    "content": "because taking data from from three different sources doing custom joints",
+    "start": 1554
+  },
+  {
+    "content": "against them in a system that's like three disparaged like it's a CMS and",
+    "start": 1560
+  },
+  {
+    "content": "Shopify or things like that that might just not be viable to do at runtime but",
+    "start": 1564
+  },
+  {
+    "content": "at build time it's not that important if it takes like 10 seconds right like 10",
+    "start": 1569
+  },
+  {
+    "content": "seconds in in in a device is it's like you've lost everybody but 10 seconds in",
+    "start": 1573
+  },
+  {
+    "content": "a build is just it's nothing right so it opens up really interesting",
+    "start": 1577
+  },
+  {
+    "content": "possibilities to to combine lots of different API is at build times and in",
+    "start": 1581
+  },
+  {
+    "content": "way that we wouldn't be able to do at runtime it allows us to to transpile",
+    "start": 1586
+  },
+  {
+    "content": "javascript it allowed all of us to start using a lot of JavaScript features way",
+    "start": 1590
+  },
+  {
+    "content": "before the browsers had implemented them through tools like babel and so on but",
+    "start": 1594
+  },
+  {
+    "content": "it's also in like it's also allowed this whole new ecosystem of of languages that",
+    "start": 1599
+  },
+  {
+    "content": "transpile into javascript like typescript has been become really well I",
+    "start": 1605
+  },
+  {
+    "content": "accept the standard today and that would not even have happened if we hadn't",
+    "start": 1610
+  },
+  {
+    "content": "started just thinking of this built as a natural part of our development",
+    "start": 1614
+  },
+  {
+    "content": "process and I think we haven't even seen the beginning of what that can even mean",
+    "start": 1617
+  },
+  {
+    "content": "in terms of what languages can do at that build step and I know there's some",
+    "start": 1624
+  },
+  {
+    "content": "founders in this space tonight that are thinking interesting things about like",
+    "start": 1627
+  },
+  {
+    "content": "if we if we extend even further from like what a language can do if if we",
+    "start": 1632
+  },
+  {
+    "content": "think about there is this built face around it like credit credit provision",
+    "start": 1637
+  },
+  {
+    "content": "databases during that build step could has run out migrations and so on just",
+    "start": 1641
+  },
+  {
+    "content": "from from from as a part of the build it's totally possible and we'll see a",
+    "start": 1646
+  },
+  {
+    "content": "lot of interesting movement in that space we can do things like take C",
+    "start": 1651
+  },
+  {
+    "content": "libraries and compile them into web assembly and so yep ship them through",
+    "start": 1655
+  },
+  {
+    "content": "the browser and suddenly we can run rust or see your gold programs in the browser",
+    "start": 1658
+  },
+  {
+    "content": "again because we have this built step we can also start enforcing guide like",
+    "start": 1663
+  },
+  {
+    "content": "guidelines are now call code on our style sheet or even our content that",
+    "start": 1668
+  },
+  {
+    "content": "identify if like when we have updates to our documentation site and so on we'll",
+    "start": 1673
+  },
+  {
+    "content": "run them through lenders that will check for language and make sure we use the",
+    "start": 1678
+  },
+  {
+    "content": "right kind of terms internally that we are consistent and so on we can we can",
+    "start": 1682
+  },
+  {
+    "content": "use tools at the build phase to make sure our sites are accessible there's",
+    "start": 1688
+  },
+  {
+    "content": "more and more tooling that will that will help us like with that and we can",
+    "start": 1693
+  },
+  {
+    "content": "make performance tests against the built output and say like half we minimize the",
+    "start": 1698
+  },
+  {
+    "content": "number of HTTP requests in the right way yeah we are we living up to our own",
+    "start": 1704
+  },
+  {
+    "content": "internal in performance budget and and verify that and even decide like do we",
+    "start": 1707
+  },
+  {
+    "content": "roll out a built at all or do we say like this this is gonna make the",
+    "start": 1713
+  },
+  {
+    "content": "experience worse for uses so if we think sort of more architectural II about like",
+    "start": 1716
+  },
+  {
+    "content": "the build layer and what the role is and and why it's such an important part of",
+    "start": 1722
+  },
+  {
+    "content": "the gem stack if we have like the old server-side rendered world of monolithic",
+    "start": 1726
+  },
+  {
+    "content": "WordPress applications or something right like every time there is a request",
+    "start": 1732
+  },
+  {
+    "content": "we'll see a lot of work done by a server like there's a server running every time",
+    "start": 1736
+  },
+  {
+    "content": "and doing a lot of work and then it's like relatively little work done by the",
+    "start": 1740
+  },
+  {
+    "content": "browser in in return on the other end of the spectrum we have like sort of sure",
+    "start": 1744
+  },
+  {
+    "content": "single page applications where we'll see that there's almost no work done by the",
+    "start": 1749
+  },
+  {
+    "content": "server right like we just give an empty HTML file in some some JavaScript and",
+    "start": 1753
+  },
+  {
+    "content": "it's a very powerful approach like app deadly fighter comm it's a single page",
+    "start": 1758
+  },
+  {
+    "content": "application running and notify that's built-in that way right like it's it",
+    "start": 1761
+  },
+  {
+    "content": "says sometimes it's right solution right but the trade-off is you do a lot of",
+    "start": 1765
+  },
+  {
+    "content": "work on the server and very almost no work on the server you can get that app",
+    "start": 1769
+  },
+  {
+    "content": "shell into the browser instantly and then there's a lot of work to be done in",
+    "start": 1774
+  },
+  {
+    "content": "the browser on the other end but if we can take this this like in the ideal",
+    "start": 1778
+  },
+  {
+    "content": "sort of jam stack approach we see how much of all of this work can we take out",
+    "start": 1783
+  },
+  {
+    "content": "of both the server layer and out of the browser layer and put it into a separate",
+    "start": 1787
+  },
+  {
+    "content": "build step that we can do just once for for every update instead of once for",
+    "start": 1791
+  },
+  {
+    "content": "every visitor and how can we use that to fundamentally save on compute to save on",
+    "start": 1797
+  },
+  {
+    "content": "resources to make the web way more performant for our inducers and to build",
+    "start": 1802
+  },
+  {
+    "content": "much better user experiences in and in and and and make sure that the web",
+    "start": 1808
+  },
+  {
+    "content": "really stays like the ideal platform to build on and to and and to consume from",
+    "start": 1814
+  },
+  {
+    "content": "rather than walled gardens then like like app stores or are those kind of",
+    "start": 1819
+  },
+  {
+    "content": "alternatives right and this has been sort of one of the driving forces around",
+    "start": 1825
+  },
+  {
+    "content": "the whole gems take approach to see like how how can we make the developer",
+    "start": 1828
+  },
+  {
+    "content": "experience of working in this way so great that they that that that we can",
+    "start": 1833
+  },
+  {
+    "content": "deliver the kind of user experience that the web needs to win so so what's next",
+    "start": 1838
+  },
+  {
+    "content": "at this build layer just some some loose thoughts around that right like when we",
+    "start": 1846
+  },
+  {
+    "content": "started building metal if I just just just from the unsaid and we started",
+    "start": 1851
+  },
+  {
+    "content": "seeing this this architectural approach like being there right and we saw like",
+    "start": 1856
+  },
+  {
+    "content": "okay if you take up a friend in the backend you use these different API and",
+    "start": 1860
+  },
+  {
+    "content": "so on you ship everything to ricean you could have all of these benefits there's",
+    "start": 1865
+  },
+  {
+    "content": "some people that's proven that it works but it's been like one of projects and",
+    "start": 1869
+  },
+  {
+    "content": "very costly we started saying okay what can we do to make viable work clothes to",
+    "start": 1873
+  },
+  {
+    "content": "just automate all their all the repeatable stuff away",
+    "start": 1879
+  },
+  {
+    "content": "and say as a developer you just write your code and the rest work so there so",
+    "start": 1883
+  },
+  {
+    "content": "the next pass for us is of course also to start looking at in this builds stage",
+    "start": 1888
+  },
+  {
+    "content": "all these things we do if it's lending code if it's running performance budgets",
+    "start": 1892
+  },
+  {
+    "content": "if it's generating sitemaps so if it turns out to be syncing database",
+    "start": 1896
+  },
+  {
+    "content": "migrations so pulling content and so on what will be the common patterns around",
+    "start": 1902
+  },
+  {
+    "content": "there what will be the things that that all the developers building with this",
+    "start": 1907
+  },
+  {
+    "content": "stack in sub ad-hoc improvising over and over again when it should actually just",
+    "start": 1912
+  },
+  {
+    "content": "be there for them and and and what are those layers where we can see here we",
+    "start": 1917
+  },
+  {
+    "content": "can all together build like viable workflows that that automates the common",
+    "start": 1922
+  },
+  {
+    "content": "steps and just a and and just makes them available as SS plugin so it's a shared",
+    "start": 1926
+  },
+  {
+    "content": "libraries or as shared steps in a build phase right so this is something that",
+    "start": 1933
+  },
+  {
+    "content": "that we're thinking of and I think many others will be thinking about in the",
+    "start": 1937
+  },
+  {
+    "content": "space and that will see more around in late on this conference so with that I",
+    "start": 1940
+  },
+  {
+    "content": "just want to say thank you everybody for being here and listening to this and for",
+    "start": 1947
+  },
+  {
+    "content": "being part of the gem stack ecosystem and for being developers and all the",
+    "start": 1953
+  },
+  {
+    "content": "other roles involved in building for the web and making all of this happen thank",
+    "start": 1958
+  },
+  {
+    "content": "you [Applause]",
+    "start": 1962
+  },
+  {
+    "content": "[Applause]",
+    "start": 1964
+  },
+  {
+    "content": "you [Applause]",
+    "start": 1971
+  },
+  {
+    "content": "",
+    "start": 1974
+  }
+]

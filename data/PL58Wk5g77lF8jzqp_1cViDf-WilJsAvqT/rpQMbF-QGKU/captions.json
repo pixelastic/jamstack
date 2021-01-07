@@ -1,0 +1,618 @@
+[
+  {
+    "content": "hi there",
+    "start": 2
+  },
+  {
+    "content": "my name is Jimmy Bradley and I'm a developer from the North East of England",
+    "start": 14
+  },
+  {
+    "content": "in the United Kingdom today I'm here to talk to you about how I manage diabetes",
+    "start": 17
+  },
+  {
+    "content": "with jump stock if you'd like to ask any questions outside of the talk then",
+    "start": 22
+  },
+  {
+    "content": "please feel free to catch me on Twitter at Jared Li two three four and you can",
+    "start": 26
+  },
+  {
+    "content": "also find my website which is at JB Bradley dev so first we're going to talk",
+    "start": 29
+  },
+  {
+    "content": "about what diabetes is we're not going to spend too long talking about this",
+    "start": 34
+  },
+  {
+    "content": "because we don't have a lot of time but what I would like you to do if you want",
+    "start": 38
+  },
+  {
+    "content": "to find out more information is please check out my post on my website and the",
+    "start": 43
+  },
+  {
+    "content": "link is below there so diabetes is a lifelong condition that causes a",
+    "start": 47
+  },
+  {
+    "content": "person's blood sugar level to become too high and diabetes is categorized into",
+    "start": 51
+  },
+  {
+    "content": "two groups I personally suffer from type 1 diabetes",
+    "start": 55
+  },
+  {
+    "content": "and this means that my body is unable to create a hormone called insulin insulin",
+    "start": 58
+  },
+  {
+    "content": "is a hormone that we need to regulate blood sugar levels inside of our",
+    "start": 64
+  },
+  {
+    "content": "bloodstream type 2 diabetics are able to create some insulin but not enough in",
+    "start": 68
+  },
+  {
+    "content": "comparison to a healthier individual if we don't have insulin and our blood",
+    "start": 73
+  },
+  {
+    "content": "sugar levels become too high then we can get really ill and this means that we",
+    "start": 78
+  },
+  {
+    "content": "can get something called ketoacidosis or ketones and it's effectively your poison",
+    "start": 83
+  },
+  {
+    "content": "in your blood and it's not a very nice thing so how do we treat type type 1",
+    "start": 87
+  },
+  {
+    "content": "diabetes how do we keep the blood sugars regulated well we do this with a",
+    "start": 91
+  },
+  {
+    "content": "comparison of testing and taken medication what you can see here on",
+    "start": 95
+  },
+  {
+    "content": "these pictures on the main picture on the left hand side a person is injecting",
+    "start": 99
+  },
+  {
+    "content": "insulin into their body within it with an injection and we call this an insulin",
+    "start": 103
+  },
+  {
+    "content": "pen on the bottom right hand side that individual has a machine like what I",
+    "start": 107
+  },
+  {
+    "content": "have and this is called an insulin pump it's basically a machine that gradually",
+    "start": 111
+  },
+  {
+    "content": "inject insulin into my body just by your machine rather than a physical injection",
+    "start": 116
+  },
+  {
+    "content": "this person also has something called a continuous glucose monitor and I'm not",
+    "start": 120
+  },
+  {
+    "content": "sure if you can see it but I have a lot of pink tape here to keep it down but I",
+    "start": 126
+  },
+  {
+    "content": "have a continuous glucose monitor as well and what's happening is this",
+    "start": 129
+  },
+  {
+    "content": "machine is continuously checking my blood sugar levels and",
+    "start": 133
+  },
+  {
+    "content": "sending it over to this machine via bluetooth the machine is then Kim will",
+    "start": 136
+  },
+  {
+    "content": "have taken those results and adjusting my insulin levels accordingly in the",
+    "start": 140
+  },
+  {
+    "content": "background when we eat regardless of whether we're taking injection pens or",
+    "start": 144
+  },
+  {
+    "content": "were on a machine like this we need to get an accurate blood sugar reading and",
+    "start": 149
+  },
+  {
+    "content": "we do this with a blood sugar test so on the picture on the top right hand side",
+    "start": 154
+  },
+  {
+    "content": "of the screen you can see that this is the machine that we would use to test",
+    "start": 157
+  },
+  {
+    "content": "blood Sugar's individual would prick their fingers get the blood and put it",
+    "start": 161
+  },
+  {
+    "content": "onto the strip the machine would then read the readings and we then have to",
+    "start": 165
+  },
+  {
+    "content": "work out how much insulin we need to take based off that reading and based on",
+    "start": 169
+  },
+  {
+    "content": "the amount of carbohydrates that we're about to eat in order to understand how",
+    "start": 173
+  },
+  {
+    "content": "much insulin we need now treatment for diabetes is improved by looking at test",
+    "start": 177
+  },
+  {
+    "content": "results from our blood sugar tests spotting trends and making changes now",
+    "start": 183
+  },
+  {
+    "content": "I've kind of alluded to the fact that my machine is already doing this but once",
+    "start": 187
+  },
+  {
+    "content": "upon a time I never had access to that technology and a lot of people across",
+    "start": 191
+  },
+  {
+    "content": "the world don't have access to that technology so they would have to do it",
+    "start": 195
+  },
+  {
+    "content": "manually and we can do that with a handful of tools you know there are apps",
+    "start": 198
+  },
+  {
+    "content": "out there on Apple App Store Google Play Store but some of them require in-app",
+    "start": 202
+  },
+  {
+    "content": "purchases to get premium features and that kind of sucks a little bit and it",
+    "start": 207
+  },
+  {
+    "content": "would be nice if there was a maybe an open-source system where we could come",
+    "start": 211
+  },
+  {
+    "content": "together as a community and put together features that we really need and a",
+    "start": 215
+  },
+  {
+    "content": "system that we know will really work for us does the technology available to us",
+    "start": 219
+  },
+  {
+    "content": "that I've already talked about which costs a lot of money so this machine",
+    "start": 223
+  },
+  {
+    "content": "here itself cost three thousand pounds or three thousand you know British",
+    "start": 226
+  },
+  {
+    "content": "pounds and the the monitor that I was talking about this little transmitter is",
+    "start": 232
+  },
+  {
+    "content": "five hundred pounds very expensive especially if you you know unable to get",
+    "start": 236
+  },
+  {
+    "content": "the funding in the UK or you know you don't have a National Health Service the",
+    "start": 241
+  },
+  {
+    "content": "other alternative is to go back to basics which is what they told us to do",
+    "start": 246
+  },
+  {
+    "content": "sixteen years ago which was to have a logbook where you would write down your",
+    "start": 249
+  },
+  {
+    "content": "results in a table and then look at them which I found really hard I quite liked",
+    "start": 253
+  },
+  {
+    "content": "the idea of having a graph in front of me so at the start of this year I",
+    "start": 256
+  },
+  {
+    "content": "decided to take on a challenge I wanted to develop a community-driven blood",
+    "start": 260
+  },
+  {
+    "content": "sugar management application because there isn't one there at the moment",
+    "start": 265
+  },
+  {
+    "content": "and I wanted it to meet the following criteria I wanted to avoid these in-app",
+    "start": 268
+  },
+  {
+    "content": "purchases I wanted to avoid these you know premium features I just wanted to",
+    "start": 272
+  },
+  {
+    "content": "create an application that I knew would work for other diabetics and it would",
+    "start": 276
+  },
+  {
+    "content": "give an opportunity for diabetics to come forward and contribute to the",
+    "start": 280
+  },
+  {
+    "content": "application the application needs to be easy to host and deploy and I want you",
+    "start": 283
+  },
+  {
+    "content": "to think of the experience as the one-click installers for WordPress that",
+    "start": 289
+  },
+  {
+    "content": "you get on certain horse you just click the button and it's deployed and it",
+    "start": 292
+  },
+  {
+    "content": "works it needs to be secured and it needs to be fast and of course I turn to",
+    "start": 296
+  },
+  {
+    "content": "my good friends the John stuck because jump stock websites allow us to develop",
+    "start": 302
+  },
+  {
+    "content": "websites and web applications that are fast secure easy to host and scalable as",
+    "start": 307
+  },
+  {
+    "content": "well so this slide kind of gives you a high-level idea of how this is going to",
+    "start": 312
+  },
+  {
+    "content": "work and we'll start by talking about the tooling we're going to use sanity as",
+    "start": 316
+  },
+  {
+    "content": "the data management platform now a lot of people tend to use sanity is a",
+    "start": 321
+  },
+  {
+    "content": "content management system but sunday is so flexible that you can create all",
+    "start": 325
+  },
+  {
+    "content": "kinds of different applications with it and as we've proven here we're able to",
+    "start": 328
+  },
+  {
+    "content": "create a blood sugar management application through it sanity will give",
+    "start": 332
+  },
+  {
+    "content": "us the interface for the diabetics to go in and input their results it will also",
+    "start": 336
+  },
+  {
+    "content": "take care of managing the data and storing the data as well for us we're",
+    "start": 341
+  },
+  {
+    "content": "going to create a theme on Gatsby and use that as the front end of our website",
+    "start": 346
+  },
+  {
+    "content": "this means that if we need to make changes and then release it so the",
+    "start": 351
+  },
+  {
+    "content": "you're not suited to the user base then users can acquire updates by doing a",
+    "start": 354
+  },
+  {
+    "content": "yarn off grid or an NPM upgrade and then the dependency will just get update it",
+    "start": 359
+  },
+  {
+    "content": "accordingly which is really seamless and easy likewise on the sanity side we'll",
+    "start": 364
+  },
+  {
+    "content": "do the same thing for the schema will create a sanity plug-in that will host",
+    "start": 368
+  },
+  {
+    "content": "on NPM and then once we make changes and release them people can just perform the",
+    "start": 371
+  },
+  {
+    "content": "necessary command to get hold of those changes we're also going to horse the",
+    "start": 376
+  },
+  {
+    "content": "website on net Liffe I will also consider other alternatives as well but",
+    "start": 380
+  },
+  {
+    "content": "to start with I decided that I wanted to go without the fie because it's the one",
+    "start": 384
+  },
+  {
+    "content": "I'm most comfortable with and the one that I've worked with the most in terms",
+    "start": 387
+  },
+  {
+    "content": "of getting the deployment together so we talked about this one click installation",
+    "start": 393
+  },
+  {
+    "content": "method before we're going to look at the idea of incorporating the",
+    "start": 396
+  },
+  {
+    "content": "incorporating the website with a net worth I'd deploy button on the github",
+    "start": 401
+  },
+  {
+    "content": "readme file and then I'm also in the process of putting together a template",
+    "start": 407
+  },
+  {
+    "content": "for sanity's create tool which means that you could go to Sun either I or",
+    "start": 411
+  },
+  {
+    "content": "create and basically pick the template from a list and it would distribute the",
+    "start": 415
+  },
+  {
+    "content": "application accordingly for you so this gives us a wide range of",
+    "start": 420
+  },
+  {
+    "content": "benefits you're not doing it this way it means that we have an application that's",
+    "start": 424
+  },
+  {
+    "content": "easy to deploy in horse through those one-click installers it's easy to manage",
+    "start": 427
+  },
+  {
+    "content": "because we can use the upgrade commands from our appropriate packages package",
+    "start": 432
+  },
+  {
+    "content": "manager sorry it's going to be open source so it means that the community",
+    "start": 436
+  },
+  {
+    "content": "can come together and put ideas forward and make contributions the application",
+    "start": 441
+  },
+  {
+    "content": "will be easy to use it would be easy to customize it will be secure it will be",
+    "start": 445
+  },
+  {
+    "content": "fast and then if we move away from the technical aspects of it this means that",
+    "start": 451
+  },
+  {
+    "content": "we will have an application that we can host on the internet and it will be easy",
+    "start": 456
+  },
+  {
+    "content": "to share this data with healthcare professionals this is brilliant it means",
+    "start": 459
+  },
+  {
+    "content": "that we don't have to sit there and you're not sure they did through a",
+    "start": 463
+  },
+  {
+    "content": "mobile phone application or pull out the book and start going through all of the",
+    "start": 465
+  },
+  {
+    "content": "different pages we can say to our doctors go to this link and filter down",
+    "start": 469
+  },
+  {
+    "content": "this data and that's the this is where I'm having the problem and that means",
+    "start": 473
+  },
+  {
+    "content": "that it's easy to visualize the data and spot the trends which makes a big",
+    "start": 477
+  },
+  {
+    "content": "difference to the way that individuals manage their diabetes and of course it's",
+    "start": 480
+  },
+  {
+    "content": "been built by a diabetic and hopefully more diabetics for diabetics so you you",
+    "start": 485
+  },
+  {
+    "content": "know people who are behind it understand the problems that diabetics are facing",
+    "start": 490
+  },
+  {
+    "content": "now this application is called hey sugar and if you'd like to find out more",
+    "start": 494
+  },
+  {
+    "content": "information about the application you can go to the website which is hey sugar",
+    "start": 497
+  },
+  {
+    "content": "dot health and the next few slides here I'm just going to show you some",
+    "start": 501
+  },
+  {
+    "content": "screenshots of the application this is typically what the dash pod would look",
+    "start": 504
+  },
+  {
+    "content": "like the idea is that it will show results from the last 30 days and it",
+    "start": 509
+  },
+  {
+    "content": "will give you an average blood sugar so you can see what your average blood",
+    "start": 514
+  },
+  {
+    "content": "sugar is going to be over the last 30 days it's very similar to the",
+    "start": 518
+  },
+  {
+    "content": "functionality that we get with this machine here we can also see how many of",
+    "start": 521
+  },
+  {
+    "content": "the results were clusters hyper which is a high reading and we can also see how",
+    "start": 525
+  },
+  {
+    "content": "many results were clusters high poor which is a low reading finally the table",
+    "start": 529
+  },
+  {
+    "content": "below will sure a list of all of the readings from",
+    "start": 534
+  },
+  {
+    "content": "from the last 30 days and eventually we will be able to give users the ability",
+    "start": 537
+  },
+  {
+    "content": "to switch that between a table view and a graph view moving on to the sunny side",
+    "start": 541
+  },
+  {
+    "content": "of things we've given users the ability to configure the application through a",
+    "start": 546
+  },
+  {
+    "content": "settings panel here you can see that this is where users would go to change",
+    "start": 550
+  },
+  {
+    "content": "their measurement unit because it differs between different countries in",
+    "start": 554
+  },
+  {
+    "content": "the across the globe you can also set a high limit which is the hyper limit and",
+    "start": 557
+  },
+  {
+    "content": "you can set a low limit which is the hyper limit",
+    "start": 562
+  },
+  {
+    "content": "I've also created this idea of a food bank so if you've ever used something",
+    "start": 564
+  },
+  {
+    "content": "like MyFitnessPal you will know that you can create a bank of foods so that",
+    "start": 569
+  },
+  {
+    "content": "instead of having to manually input all of the information over and over again",
+    "start": 573
+  },
+  {
+    "content": "you can just reference a particular food from there and I want it to bring that",
+    "start": 576
+  },
+  {
+    "content": "functionality into the application using some of these reference fields in the",
+    "start": 581
+  },
+  {
+    "content": "schema design we're able to do that quite easily next this is the reading",
+    "start": 586
+  },
+  {
+    "content": "screen so this is the screen where a user would come in to to put in their",
+    "start": 590
+  },
+  {
+    "content": "blood sugars you can see that to be able to put the reading in the time in the",
+    "start": 594
+  },
+  {
+    "content": "day it was logged that can see how they feed felt at the time of doing the test",
+    "start": 598
+  },
+  {
+    "content": "because that makes a big difference on your blood Sugar's and that can say",
+    "start": 601
+  },
+  {
+    "content": "whether they would take in the test before a meal after a meal or neither",
+    "start": 605
+  },
+  {
+    "content": "another important factor is the alcohol flag because alcohol plays a big part in",
+    "start": 608
+  },
+  {
+    "content": "an individual's blood sugar as well so the final screen that I wanted to show",
+    "start": 614
+  },
+  {
+    "content": "you is this result screen so this is the screen that users would be able to go",
+    "start": 619
+  },
+  {
+    "content": "into to see an individual results and you can see in the bottom left hand side",
+    "start": 624
+  },
+  {
+    "content": "this is where the alcohol flag would appear if they tick the flag and that",
+    "start": 627
+  },
+  {
+    "content": "takes me bung onto the 10-minute mark so thank you very much for coming along and",
+    "start": 631
+  },
+  {
+    "content": "listening to my talk again i'm on twitter at gerry bradley two three four",
+    "start": 635
+  },
+  {
+    "content": "if you'd like to find speak to me about any of this and also head over to heishi",
+    "start": 639
+  },
+  {
+    "content": "without health for more information on the project thank you very much",
+    "start": 643
+  },
+  {
+    "content": "you",
+    "start": 648
+  }
+]

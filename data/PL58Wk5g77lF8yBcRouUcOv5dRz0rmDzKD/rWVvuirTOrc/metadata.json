@@ -1,0 +1,14 @@
+{
+  "description": "You’ve been there: big bang redesigns are usually a very, very bad idea. Redesigning and rebuilding an existing website from scratch is risky and unpredictable, and in many cases the level of complexity is highly underrated and underestimated. In mid-2016, Smashing Magazine has decided to make a big switch from the existing WordPress setup to an entirely new design, entirely new architecture (JAM Stack) and an entirely new, GitHub-based, editorial workflow.\n\nIn this talk, Vitaly Friedman, co-founder and creative lead of Smashing Magazine, will share some of the insights into Smashing Magazine’s Relaunch — with decisions made, failures, successes and lessons learned along the way. You’ll learn which challenges the transition from WordPress to a Netlify setup posed, how the team solved them and how things have evolved over years, and how switching a seemingly simple system with a job board, subscription, shop and magazine might slowly turn into a little beast that has to be tamed and cared for.\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
+  "id": "rWVvuirTOrc",
+  "position": 3,
+  "publishedAt": 1564509323,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/rWVvuirTOrc/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/rWVvuirTOrc/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/rWVvuirTOrc/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/rWVvuirTOrc/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/rWVvuirTOrc/default.jpg"
+  },
+  "title": "Vitaly Friedman - Big Bang Redesign: Smashing Magazine’s Relaunch, a Case Study"
+}

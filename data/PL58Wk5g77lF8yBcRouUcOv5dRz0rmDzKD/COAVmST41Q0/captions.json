@@ -1,0 +1,1146 @@
+[
+  {
+    "content": "thanks I'm I'm so excited to be here",
+    "start": 0
+  },
+  {
+    "content": "everyone give a round of applause for Hawk Phil's worth said not it okay so",
+    "start": 14
+  },
+  {
+    "content": "before we get started I recently taught my stepkids how to troll this is",
+    "start": 24
+  },
+  {
+    "content": "ill-advised lately they found out that I don't like the sound of my own voice so",
+    "start": 32
+  },
+  {
+    "content": "they've been playing my conference videos every time I walk out of the room",
+    "start": 38
+  },
+  {
+    "content": "and I can't turn it off so Megan if you're doing that right now stomp great",
+    "start": 41
+  },
+  {
+    "content": "today we're gonna talk about the state of jam stack nation in many ways the",
+    "start": 47
+  },
+  {
+    "content": "iPhone was not original these concepts everything that it was comprised of",
+    "start": 55
+  },
+  {
+    "content": "existed before the phones at the time had keyboards they could email people",
+    "start": 60
+  },
+  {
+    "content": "the iPod existed to store songs internet browsing was possible on mobile the",
+    "start": 65
+  },
+  {
+    "content": "iPhone didn't create something out of nothing",
+    "start": 73
+  },
+  {
+    "content": "so three things a widescreen iPod with touch controls a revolutionary mobile",
+    "start": 75
+  },
+  {
+    "content": "phone and a breakthrough internet communications device an iPod a phone",
+    "start": 83
+  },
+  {
+    "content": "and an Internet communicator an iPod a phone",
+    "start": 94
+  },
+  {
+    "content": "these are not three separate devices this is one device",
+    "start": 107
+  },
+  {
+    "content": "and they are calling it iPhone today today Apple is going to reinvent the",
+    "start": 116
+  },
+  {
+    "content": "phone what it did was combine many pieces of functionality into one",
+    "start": 129
+  },
+  {
+    "content": "easy-to-use device one device that was so powerful but so simple that it",
+    "start": 134
+  },
+  {
+    "content": "reduced the back barrier to entry to almost nothing",
+    "start": 139
+  },
+  {
+    "content": "it did all of this but it was still something that you could hold in your",
+    "start": 142
+  },
+  {
+    "content": "hands and feel like it was sophisticated it didn't pander in any of its",
+    "start": 146
+  },
+  {
+    "content": "abstractions so what does it take to make something new and elegant out of",
+    "start": 150
+  },
+  {
+    "content": "things that exist already how do we create a seismic shift out of things",
+    "start": 155
+  },
+  {
+    "content": "that existed before so let's look at the history of Ethernet and subsequently",
+    "start": 160
+  },
+  {
+    "content": "Wi-Fi before Ethernet there was a series of net which is a series of networks",
+    "start": 165
+  },
+  {
+    "content": "they were token ring networks and they're explicitly planned system so the",
+    "start": 170
+  },
+  {
+    "content": "packets are lined up and coordinated and you can think about that a little bit",
+    "start": 175
+  },
+  {
+    "content": "like kindergarten when you have a talking stick and you pass the talking",
+    "start": 179
+  },
+  {
+    "content": "stick to the next person so you speak and then you talk and then you pass it",
+    "start": 182
+  },
+  {
+    "content": "along and then the next person speaks and so on and so forth what Ethernet did",
+    "start": 186
+  },
+  {
+    "content": "was question this what if we don't wait what if we use an emergent system where",
+    "start": 191
+  },
+  {
+    "content": "computers can do the same thing at the same time and if it sees another",
+    "start": 196
+  },
+  {
+    "content": "computer speaking it will back off just kind of like normal communication and",
+    "start": 201
+  },
+  {
+    "content": "this system might seem chaotic but actually it was really effective and",
+    "start": 205
+  },
+  {
+    "content": "this kind of harks back to a loja net and they used radio waves for a loja net",
+    "start": 211
+  },
+  {
+    "content": "and it's its creators use the term ether because they wanted to evoke that",
+    "start": 216
+  },
+  {
+    "content": "presence in physics where like everything is omnipresent and it's",
+    "start": 221
+  },
+  {
+    "content": "passive and that you're going everywhere at the same time so what changed here",
+    "start": 225
+  },
+  {
+    "content": "was not a fundamental rebuild of the entire technology stack right top to",
+    "start": 231
+  },
+  {
+    "content": "bottom that's not what happened just like the iPhone what happened here then",
+    "start": 237
+  },
+  {
+    "content": "this groundbreaking shift that allowed for so much communication across the",
+    "start": 242
+  },
+  {
+    "content": "planet and it boiled down to people rethinking the base premise you might",
+    "start": 246
+  },
+  {
+    "content": "see where I'm going with this when I hear people curious about Jam stack",
+    "start": 253
+  },
+  {
+    "content": "which is you know javascript api is and markup they'll say",
+    "start": 257
+  },
+  {
+    "content": "things like well but all of this existed before someone did a poll where they're",
+    "start": 262
+  },
+  {
+    "content": "like what do you think jam stack is and someone said i'm confused by the",
+    "start": 267
+  },
+  {
+    "content": "question serverless api's are just api's and javascript is everywhere so isn't",
+    "start": 271
+  },
+  {
+    "content": "that the term for a normal website this intermingling of javascript api zijn",
+    "start": 276
+  },
+  {
+    "content": "markup has been present in the industry for a very long time so what's the",
+    "start": 281
+  },
+  {
+    "content": "difference to see where this shift occurred what we",
+    "start": 286
+  },
+  {
+    "content": "have to do is revisit what came before it",
+    "start": 289
+  },
+  {
+    "content": "previously in order to build web experiences we create something like",
+    "start": 292
+  },
+  {
+    "content": "this and this is still how it works under the hood but the new direction of",
+    "start": 296
+  },
+  {
+    "content": "computing is headed towards elegant abstractions and when we're using a jam",
+    "start": 301
+  },
+  {
+    "content": "stack model for development this becomes this in dynamic content well that's",
+    "start": 306
+  },
+  {
+    "content": "obstructed as well and now we have serverless functions or functions as a",
+    "start": 314
+  },
+  {
+    "content": "service to create rich server-side experiences people don't think of static",
+    "start": 318
+  },
+  {
+    "content": "as having dynamic functionality but it totally does it can completely have that",
+    "start": 323
+  },
+  {
+    "content": "so what is the shift here Jam stack is a modern architecture where we can create",
+    "start": 329
+  },
+  {
+    "content": "fast and secure sites and dynamic apps with JavaScript API is in markup I love",
+    "start": 334
+  },
+  {
+    "content": "these keynote and vision sorry served without the web servers and that's",
+    "start": 343
+  },
+  {
+    "content": "really the crux of it right Jam stack can include any of JavaScript",
+    "start": 347
+  },
+  {
+    "content": "API is in markup but it doesn't need to write the important part is that it's",
+    "start": 353
+  },
+  {
+    "content": "served without web servers it doesn't need those three things to qualify you",
+    "start": 357
+  },
+  {
+    "content": "see where previously we built from the ground up Jam stack questions what the",
+    "start": 362
+  },
+  {
+    "content": "ground is previously we focused on what the stack contained and the paradigm",
+    "start": 369
+  },
+  {
+    "content": "shift here is abstraction we no longer talk about operating system specific web",
+    "start": 376
+  },
+  {
+    "content": "servers back in programming languages databases not about specific",
+    "start": 382
+  },
+  {
+    "content": "technologies we're solving a lot of the same problems an abstraction",
+    "start": 386
+  },
+  {
+    "content": "can be really useful when we spend a lot of time doing the same thing again and",
+    "start": 392
+  },
+  {
+    "content": "again so now we have a new way of building websites and apps that delivers",
+    "start": 397
+  },
+  {
+    "content": "better performance better security lower cost of scaling and a better developer",
+    "start": 403
+  },
+  {
+    "content": "experience my name is Sarah Dresner I'm Sarah Otto on Twitter I work for CSS",
+    "start": 408
+  },
+  {
+    "content": "tricks I'm on the view core team in him head of developer experience at Netta",
+    "start": 413
+  },
+  {
+    "content": "Phi which is yeah which is which is not Netflix or Shopify as as confusing as",
+    "start": 417
+  },
+  {
+    "content": "that is for my parents and I'm so pleased to be here today to talk about",
+    "start": 425
+  },
+  {
+    "content": "this monumental shift in this industry and how it can empower all of us to",
+    "start": 430
+  },
+  {
+    "content": "create beautiful experiences on the web okay so we mentioned before that Jam",
+    "start": 435
+  },
+  {
+    "content": "stack is particularly known for static sites and what's often missed in this",
+    "start": 440
+  },
+  {
+    "content": "definition is that that concept of static can actually be dynamic so take",
+    "start": 444
+  },
+  {
+    "content": "this ecommerce site that I built for instance this is built with next and net",
+    "start": 449
+  },
+  {
+    "content": "liffe I and uses natla Phi functions to connect to stripe to process payments",
+    "start": 454
+  },
+  {
+    "content": "now just because it's built with next in view and net liffe ID doesn't mean that",
+    "start": 459
+  },
+  {
+    "content": "that's the only way we could write this in order to qualify as Jam stack and you",
+    "start": 463
+  },
+  {
+    "content": "can see here I'm like adding things to a cart and then I'm adding another thing",
+    "start": 468
+  },
+  {
+    "content": "to a cart and then if we go to that cart you can see here that I actually have a",
+    "start": 473
+  },
+  {
+    "content": "forum where I can process these payments and this is all available online you can",
+    "start": 480
+  },
+  {
+    "content": "actually go to this URL and play with it and there's like the fake credit card",
+    "start": 484
+  },
+  {
+    "content": "number there you can see it's loading it's processing and then it's received",
+    "start": 488
+  },
+  {
+    "content": "and then it clears the cart so in fact Jam stack can be built with",
+    "start": 492
+  },
+  {
+    "content": "next as you see with view next with reacts gatsby 11d Jekyll Hugo more and",
+    "start": 497
+  },
+  {
+    "content": "more this is not even a restriction there's just tons of things that you can",
+    "start": 506
+  },
+  {
+    "content": "build Jam second experiences with and that's not all there's many CMS options",
+    "start": 510
+  },
+  {
+    "content": "as well like content full forestry sanity net Liffe ICMS craft CMS",
+    "start": 514
+  },
+  {
+    "content": "decoupled WordPress decoupled Drupal and more and more this is just a really",
+    "start": 520
+  },
+  {
+    "content": "really rich ecosystem so for those of you",
+    "start": 525
+  },
+  {
+    "content": "curious how static and Jam stack can make functionality as rich as an",
+    "start": 529
+  },
+  {
+    "content": "e-commerce store let's dig in so here's a bird's eye view of that project you",
+    "start": 533
+  },
+  {
+    "content": "might not be able to see it but there's like a line going through these are all",
+    "start": 538
+  },
+  {
+    "content": "the things that are in the app in this like slow steady curve on the bottom so",
+    "start": 541
+  },
+  {
+    "content": "all of those tiny pieces are dot view components dot view components are",
+    "start": 545
+  },
+  {
+    "content": "single file components and I'll show you what that looks like in a second so",
+    "start": 549
+  },
+  {
+    "content": "pages are view components components are view components layouts are view",
+    "start": 553
+  },
+  {
+    "content": "components the view ik store is just a JavaScript file that's like the brains",
+    "start": 558
+  },
+  {
+    "content": "of the matter so it's kind of like Redux if you've ever used react it holds all",
+    "start": 561
+  },
+  {
+    "content": "the state for the application and then that net low-five function we're going",
+    "start": 566
+  },
+  {
+    "content": "to talk about in a minute and we're going to communicate to stripe so if",
+    "start": 569
+  },
+  {
+    "content": "you're not familiar with you single file components this is what they look like",
+    "start": 573
+  },
+  {
+    "content": "in the template we have all of our HTML in the script we have all of our you",
+    "start": 577
+  },
+  {
+    "content": "know anything dynamic anything with script and with the style you can you",
+    "start": 581
+  },
+  {
+    "content": "can add this scope tag you don't have to it's optional but when you add the scope",
+    "start": 586
+  },
+  {
+    "content": "tag all of the styles are scoped to the components so it's a little bit close to",
+    "start": 591
+  },
+  {
+    "content": "how we used to work with CSS modules so all of those things are self-contained",
+    "start": 597
+  },
+  {
+    "content": "in that dot view component and you there's not a lot of context switching",
+    "start": 602
+  },
+  {
+    "content": "you can work between all of those things so when you're working with next you use",
+    "start": 606
+  },
+  {
+    "content": "a CLI tool to spin up this kind of whole kind of template area and you'll be",
+    "start": 612
+  },
+  {
+    "content": "given an index page in the pages directory any view file that you put in",
+    "start": 617
+  },
+  {
+    "content": "the pages directory becomes a page and it will automatically route everything",
+    "start": 622
+  },
+  {
+    "content": "for you which is really nice so it has server-side rendering code splitting",
+    "start": 626
+  },
+  {
+    "content": "automatic routing page transitions right out of the box so you're given an index",
+    "start": 630
+  },
+  {
+    "content": "page in the pages directory if you could create a simple view of file with an X",
+    "start": 635
+  },
+  {
+    "content": "link create a duplicate and have the links point to each other you get this",
+    "start": 639
+  },
+  {
+    "content": "which is a single with a fully routed server-side rendered application that's",
+    "start": 643
+  },
+  {
+    "content": "already ready to go and without ever stepping outside of a view file which is",
+    "start": 648
+  },
+  {
+    "content": "how we normally write components anyway cool so then if we log in to nullify we",
+    "start": 653
+  },
+  {
+    "content": "can go find that Reap so I've you know added it to a repo with",
+    "start": 658
+  },
+  {
+    "content": "which next we'll already you know kind of help you create it already has does",
+    "start": 661
+  },
+  {
+    "content": "it get and get in it for you and so I can find that repo right there",
+    "start": 666
+  },
+  {
+    "content": "and I can create a new site and I'm gonna deploy from master I'm gonna say",
+    "start": 670
+  },
+  {
+    "content": "yarn generate as my build command I'm gonna say the dist folder in order to",
+    "start": 674
+  },
+  {
+    "content": "create that and with that not only is it fully routed server-side rendered and",
+    "start": 679
+  },
+  {
+    "content": "deployed but we also set up a CI CD pipeline automatically so now every time",
+    "start": 684
+  },
+  {
+    "content": "I pushed a master this is gonna automatically be updated cool we've",
+    "start": 689
+  },
+  {
+    "content": "already done a lot and that was not a lot of code okay so now let's turn our",
+    "start": 695
+  },
+  {
+    "content": "attention to the function so if we're working with this function maybe you can",
+    "start": 698
+  },
+  {
+    "content": "see the line so then that'll if I function will live within our app and",
+    "start": 703
+  },
+  {
+    "content": "it's going to communicate over to stripe so before we do that let's talk about",
+    "start": 707
+  },
+  {
+    "content": "what we need just to have an elephant at all our very basic function looks like",
+    "start": 711
+  },
+  {
+    "content": "this I stored mine in a folder called functions and gave it a name of index J",
+    "start": 716
+  },
+  {
+    "content": "s you can call it whatever you want we'll also need to create an elephant",
+    "start": 721
+  },
+  {
+    "content": "Ammal and really that will point to the whatever folder that I'm using so if I",
+    "start": 727
+  },
+  {
+    "content": "decided to call this the lambda folder I would point to lambda here in the string",
+    "start": 731
+  },
+  {
+    "content": "so here I'm going to give a very normal log message which is hi there tacos as",
+    "start": 735
+  },
+  {
+    "content": "you do and also log the events and if we push the master and go back to the net",
+    "start": 742
+  },
+  {
+    "content": "Liffe i dashboard we're gonna see that function right there already and you can",
+    "start": 748
+  },
+  {
+    "content": "you can see the end point there as well so now if we hit that end point that it",
+    "start": 754
+  },
+  {
+    "content": "provides us will see this will see the message that says hi there tacos and",
+    "start": 758
+  },
+  {
+    "content": "will see all of the event and so we're done with our first function that was",
+    "start": 763
+  },
+  {
+    "content": "all we already made her for some serverless function the thing to",
+    "start": 769
+  },
+  {
+    "content": "understand about serverless functions is it's not so different from the",
+    "start": 773
+  },
+  {
+    "content": "JavaScript that you write every day if you haven't used them before it's",
+    "start": 776
+  },
+  {
+    "content": "literally a JavaScript function that you're executing on the server that",
+    "start": 779
+  },
+  {
+    "content": "executes a bit of event-driven logic so okay let's work on hooking up to strike",
+    "start": 784
+  },
+  {
+    "content": "now so first we're going to go into the stripe dashboard and get our keys",
+    "start": 789
+  },
+  {
+    "content": "for anyone scandalized by this these are my testing keys it's okay you can use",
+    "start": 793
+  },
+  {
+    "content": "them it's no big deal so we're gonna get our keys and you can see the publishable",
+    "start": 798
+  },
+  {
+    "content": "key and the secret key right there so first we're gonna install a package",
+    "start": 805
+  },
+  {
+    "content": "called da 10th where we store our key and then we'll use the will historic our",
+    "start": 811
+  },
+  {
+    "content": "key to a stripe variable for and say it's stripe secret key but you could",
+    "start": 816
+  },
+  {
+    "content": "actually call that anything right that's kind of industry standard of what we use",
+    "start": 821
+  },
+  {
+    "content": "to describe that so process and dot stripe stripe secret key then if we go",
+    "start": 825
+  },
+  {
+    "content": "back into the neck natla fie dashboard you can see that we go into build and",
+    "start": 830
+  },
+  {
+    "content": "deploy continuous deployment and environment environment variables and we",
+    "start": 835
+  },
+  {
+    "content": "set it has to be the same name right stripe secret key and then we can put",
+    "start": 840
+  },
+  {
+    "content": "our key right in there cool now we're not storing that in our git repo so if",
+    "start": 844
+  },
+  {
+    "content": "people are like committing to the git repo they don't have access to all of",
+    "start": 848
+  },
+  {
+    "content": "those things ok so now we'll really make our function we'll make sure that we",
+    "start": 853
+  },
+  {
+    "content": "handle the case that the HTTP method is not what we're expecting and then we'll",
+    "start": 858
+  },
+  {
+    "content": "also get some information and then we'll also deal with what when we don't have",
+    "start": 863
+  },
+  {
+    "content": "information missing information and you can already see here that the data that",
+    "start": 869
+  },
+  {
+    "content": "we're going to be sending to stripe so we're checking what we don't have at",
+    "start": 874
+  },
+  {
+    "content": "this point but we're going to use this in a second so we'll need the token the",
+    "start": 878
+  },
+  {
+    "content": "total amount and a word I can't pronounce which is in demand and see",
+    "start": 882
+  },
+  {
+    "content": "them doing something like that but what's not important is whether or not I",
+    "start": 886
+  },
+  {
+    "content": "can pronounce it what's important is that it allows us to safely retry",
+    "start": 892
+  },
+  {
+    "content": "requests without accidentally performing the same action twice so this is useful",
+    "start": 899
+  },
+  {
+    "content": "when an API call is disrupted if there's like a network error or something like",
+    "start": 905
+  },
+  {
+    "content": "that so that's a nice thing that we're providing with stripe so now whilst it",
+    "start": 909
+  },
+  {
+    "content": "will kick off the stripe payment processing will create a stripe customer",
+    "start": 914
+  },
+  {
+    "content": "first and then we'll use an AP an email and a token for that and then we'll",
+    "start": 918
+  },
+  {
+    "content": "create the stripe charge and for the stripe charge what they're",
+    "start": 925
+  },
+  {
+    "content": "expecting us to show is the currency that it's expecting the amount the",
+    "start": 928
+  },
+  {
+    "content": "receipt email the customer ID and the description cool",
+    "start": 934
+  },
+  {
+    "content": "after that we're gonna log that it's successful and not shown here we'll do",
+    "start": 939
+  },
+  {
+    "content": "some erroring as well so if we look back at our application you can see that we",
+    "start": 943
+  },
+  {
+    "content": "have pages and components that live inside the pages and we're going to",
+    "start": 948
+  },
+  {
+    "content": "connect to that stripe function using this vehicle view X store",
+    "start": 952
+  },
+  {
+    "content": "so again if you're used to redux similar kind of concept this is where this is",
+    "start": 956
+  },
+  {
+    "content": "kind of like the brains of the operations so we're not gonna have the",
+    "start": 961
+  },
+  {
+    "content": "client all of the components do all of that we're gonna commit to the store or",
+    "start": 963
+  },
+  {
+    "content": "dispatch to the store and let the the store do all of that great and so but we",
+    "start": 968
+  },
+  {
+    "content": "still have to have those things on the client right we need to have the form we",
+    "start": 974
+  },
+  {
+    "content": "need to be able to accept the credit card data from someone and that will all",
+    "start": 977
+  },
+  {
+    "content": "happen in app card dot view so here remember we had that payment processing",
+    "start": 981
+  },
+  {
+    "content": "so this is what we're talking about right now is this like filling out this",
+    "start": 987
+  },
+  {
+    "content": "part this little form detail this loading state and success and in order",
+    "start": 991
+  },
+  {
+    "content": "to create something that's embedded into the page because you might have used",
+    "start": 997
+  },
+  {
+    "content": "stripe before where you have this like little button and it goes to a modal and",
+    "start": 1001
+  },
+  {
+    "content": "then it's a little stripe detail thing but that stripes UI right and so",
+    "start": 1004
+  },
+  {
+    "content": "sometimes when you're working on an e-commerce site you don't want stripes",
+    "start": 1009
+  },
+  {
+    "content": "UI popping up in your face you want to embed the form into the page and make it",
+    "start": 1012
+  },
+  {
+    "content": "look like the rest of the site so it feels natural it feels like your site",
+    "start": 1016
+  },
+  {
+    "content": "and in order to do that you'll use a thing called stripe elements so I've",
+    "start": 1020
+  },
+  {
+    "content": "tried a bunch of different ones that integrate with view the one that I like",
+    "start": 1025
+  },
+  {
+    "content": "the most is view stripe elements plus that's a really really nice one and what",
+    "start": 1028
+  },
+  {
+    "content": "happens is they give us a card and some boilerplate to work with and it looks a",
+    "start": 1033
+  },
+  {
+    "content": "little bit like this so this is the kind of HTML which is bound in a couple of",
+    "start": 1038
+  },
+  {
+    "content": "places with directives so we've got you know the place for email we've got you",
+    "start": 1043
+  },
+  {
+    "content": "know the card component and there were adding in that you know stripe key one",
+    "start": 1048
+  },
+  {
+    "content": "of the stripe keys and then we're also going to have a button that has a pay",
+    "start": 1053
+  },
+  {
+    "content": "method that pay method is really important",
+    "start": 1057
+  },
+  {
+    "content": "as soon as you click that button you know after you've filled out the form",
+    "start": 1059
+  },
+  {
+    "content": "that pay method is what's going to execute all the logic for us to start to",
+    "start": 1063
+  },
+  {
+    "content": "do things with our server list function so if we go into the app card view that",
+    "start": 1068
+  },
+  {
+    "content": "pay method you can see that creates hookin actually resolves in a promise",
+    "start": 1072
+  },
+  {
+    "content": "and we're gonna dispatch that to the store we're going to send it over to the",
+    "start": 1076
+  },
+  {
+    "content": "view X store so it can process all of it and send it to the function in the view",
+    "start": 1080
+  },
+  {
+    "content": "X store itself you can see that we're hitting that endpoint remember that was",
+    "start": 1085
+  },
+  {
+    "content": "that first endpoint where we saw hello tacos or whatever um and so we're",
+    "start": 1090
+  },
+  {
+    "content": "hitting that endpoint and we're passing in all the data it was expecting so the",
+    "start": 1095
+  },
+  {
+    "content": "email the amount the token the andaman imminency somebody teach me how to say",
+    "start": 1099
+  },
+  {
+    "content": "that later and then you know that way we can do all of the that kind of logic",
+    "start": 1107
+  },
+  {
+    "content": "also one kind of small note sometimes I see people holding the UI I have the UI",
+    "start": 1112
+  },
+  {
+    "content": "status which means like whether or not it's idle whether or not it's loading",
+    "start": 1119
+  },
+  {
+    "content": "whether or not it's successful the payments successful whether or not the",
+    "start": 1124
+  },
+  {
+    "content": "payment is a failure sometimes people use boolean for that and I'll use one",
+    "start": 1127
+  },
+  {
+    "content": "single value that I'm storing as a string because I find that it's very",
+    "start": 1131
+  },
+  {
+    "content": "very rare that a UI kind of UX situation where it's only two states you know",
+    "start": 1135
+  },
+  {
+    "content": "usually it's more than that and then if it's if you're using bullying's you have",
+    "start": 1142
+  },
+  {
+    "content": "to check multiple things so in this case I'm updating it to success I also have a",
+    "start": 1146
+  },
+  {
+    "content": "loading state which where you saw the loader I have a failure state I have an",
+    "start": 1150
+  },
+  {
+    "content": "idle state so storing it as a string can be super helpful that's not really the",
+    "start": 1154
+  },
+  {
+    "content": "service function point but side note okay and so we try to do this in the",
+    "start": 1159
+  },
+  {
+    "content": "dashboard we try to do this one on our deployed site and what we have is a",
+    "start": 1164
+  },
+  {
+    "content": "success we log into the stripe dashboard and we see the successful payment we",
+    "start": 1168
+  },
+  {
+    "content": "have a customer it's exactly the amount that we were expecting and we set it all",
+    "start": 1173
+  },
+  {
+    "content": "up we just set up an e-commerce store with stripe server lists and deployed",
+    "start": 1178
+  },
+  {
+    "content": "created a CI CD pipeline and it wasn't even that complicated we did that in",
+    "start": 1184
+  },
+  {
+    "content": "like ten minutes that's so cool with such a",
+    "start": 1189
+  },
+  {
+    "content": "low barrier to entry you can see how you can make something really special and",
+    "start": 1192
+  },
+  {
+    "content": "surprising without it and without an expensive infrastructure you know we",
+    "start": 1197
+  },
+  {
+    "content": "just did that in ten minutes it's super awesome",
+    "start": 1202
+  },
+  {
+    "content": "so we ran through that all pretty quickly if you'd like to play with the",
+    "start": 1206
+  },
+  {
+    "content": "code or fork it and make it your own you can make your own e-commerce store out",
+    "start": 1209
+  },
+  {
+    "content": "of this or what have you you can go ahead and grab it there the demo is in",
+    "start": 1212
+  },
+  {
+    "content": "that repo and oh actually the demo should be on top those are switched you",
+    "start": 1217
+  },
+  {
+    "content": "get the point you can go to those two URLs and play with the code as you like",
+    "start": 1223
+  },
+  {
+    "content": "cool so we've now seen that aside from Jam stack being really fun it's centered",
+    "start": 1228
+  },
+  {
+    "content": "around a developer friendly get get based workflow it's designed modular lis",
+    "start": 1235
+  },
+  {
+    "content": "consuming other services as api's it's pre-built and optimized before being",
+    "start": 1241
+  },
+  {
+    "content": "served and it's globally distributed and resilient to heavy traffic but those are",
+    "start": 1247
+  },
+  {
+    "content": "all the developer experience things which I super get down with but like",
+    "start": 1253
+  },
+  {
+    "content": "there also needs to be business implications of this too so what are the",
+    "start": 1257
+  },
+  {
+    "content": "business implications of moving to this kind of tech stack one thing is that it",
+    "start": 1261
+  },
+  {
+    "content": "has way better performance and you've probably seen all of the data around",
+    "start": 1266
+  },
+  {
+    "content": "better performance but you know kind of the TLDR is that if customers are",
+    "start": 1269
+  },
+  {
+    "content": "waiting too long on your site they're gonna bounce and then they're not your",
+    "start": 1274
+  },
+  {
+    "content": "customers right so better performance is super super valuable if you're trying to",
+    "start": 1277
+  },
+  {
+    "content": "make money it has reduced operations costs you don't have a whole DevOps team",
+    "start": 1282
+  },
+  {
+    "content": "taking care of all of those pieces for you you might not have licensing costs",
+    "start": 1288
+  },
+  {
+    "content": "there's a ton of cost that are you know not incurred because it's so easy to get",
+    "start": 1292
+  },
+  {
+    "content": "started and it's all obstructed away you have things like increased security",
+    "start": 1298
+  },
+  {
+    "content": "security breaches can be incredibly expensive especially once they've",
+    "start": 1302
+  },
+  {
+    "content": "already happened and you have cheaper easier scaling so to look at a couple of",
+    "start": 1307
+  },
+  {
+    "content": "case studies out there in this first case study PayPal saw a four time",
+    "start": 1313
+  },
+  {
+    "content": "increase in site speed after converting their site to jam stack",
+    "start": 1318
+  },
+  {
+    "content": "all olds monolithic architecture Citrix move their massive documentation site",
+    "start": 1323
+  },
+  {
+    "content": "off of a monolith over to a jam stack site powered by net loaf I it's now 65%",
+    "start": 1331
+  },
+  {
+    "content": "less expensive than their legacy CMS in part because of those light licensing",
+    "start": 1336
+  },
+  {
+    "content": "costs that I talked about earlier and far less infrastructure requirements and",
+    "start": 1341
+  },
+  {
+    "content": "so on they also saw increased performance",
+    "start": 1345
+  },
+  {
+    "content": "average server connection time improved by 57% it's amazing",
+    "start": 1347
+  },
+  {
+    "content": "Smashing Magazine who is here today and helping us run this wonderful conference",
+    "start": 1352
+  },
+  {
+    "content": "made the move to jam stack after learning that their site could be six",
+    "start": 1357
+  },
+  {
+    "content": "times faster and what we found was that the the time to first load dropped from",
+    "start": 1361
+  },
+  {
+    "content": "800 milliseconds to 80 milliseconds low - which you probably know went from a",
+    "start": 1367
+  },
+  {
+    "content": "PHP stack to us using a serviceworker to down light load the entire site offline",
+    "start": 1374
+  },
+  {
+    "content": "so that when you first visit it everything is available to you offline",
+    "start": 1380
+  },
+  {
+    "content": "then and it also uses resource hints like prefetch pre connects preload and",
+    "start": 1383
+  },
+  {
+    "content": "pre-render and something that I think is really interesting is that they also",
+    "start": 1389
+  },
+  {
+    "content": "store the redirects in there so even the redirects work offline which is super",
+    "start": 1392
+  },
+  {
+    "content": "cool so if we look back at this and see what rich experiences we need we can",
+    "start": 1396
+  },
+  {
+    "content": "make now with such little configuration it truly is dizzying what how much we",
+    "start": 1402
+  },
+  {
+    "content": "can accomplish so my question is with all of these tools at your fingertips",
+    "start": 1408
+  },
+  {
+    "content": "and nothing in your way what are you going to build thank you",
+    "start": 1412
+  },
+  {
+    "content": "you",
+    "start": 1423
+  }
+]

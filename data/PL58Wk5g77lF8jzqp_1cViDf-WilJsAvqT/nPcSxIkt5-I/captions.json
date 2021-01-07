@@ -1,0 +1,890 @@
+[
+  {
+    "content": "hello everybody I am Lorie I am Natalja",
+    "start": 2
+  },
+  {
+    "content": "Phi's senior data analyst my job is basically to plug my brain into",
+    "start": 18
+  },
+  {
+    "content": "everything that's happening in that the Phi and then look for weird things I",
+    "start": 22
+  },
+  {
+    "content": "previously worked in some other places including NPM and Yahoo and if you want",
+    "start": 27
+  },
+  {
+    "content": "to reach me you can find me on Twitter at Seldon today I'm gonna be talking",
+    "start": 31
+  },
+  {
+    "content": "about nano Phi's Jam stack Community Survey we ran a survey from March 16th",
+    "start": 36
+  },
+  {
+    "content": "to April 19th and we collected responses from over 3,000 people people who work",
+    "start": 41
+  },
+  {
+    "content": "on Jam stack websites we learned a lot of interesting things but a good",
+    "start": 46
+  },
+  {
+    "content": "question to ask is why should you care about this data the biggest reason is",
+    "start": 50
+  },
+  {
+    "content": "that it can help you knowing the landscape of the community",
+    "start": 56
+  },
+  {
+    "content": "that you're in can give you valuable context about yourself if some part of",
+    "start": 59
+  },
+  {
+    "content": "your stack is giving you trouble it can give you a sense of what else you might",
+    "start": 64
+  },
+  {
+    "content": "try it can open your eyes up to whole new possibilities of new technologies",
+    "start": 68
+  },
+  {
+    "content": "that are just coming up then you might not have heard of yet or if you need to",
+    "start": 72
+  },
+  {
+    "content": "justify technical choices internally it can give you some ammunition to do that",
+    "start": 76
+  },
+  {
+    "content": "or it could just give you a warm fuzzy feeling that you made the right call the",
+    "start": 80
+  },
+  {
+    "content": "second reason is comedy my favourite recent thing to find in data is",
+    "start": 86
+  },
+  {
+    "content": "ridiculous things I love finding truth and stereotypes or contradictory results",
+    "start": 90
+  },
+  {
+    "content": "I live for that stuff so my main goal today is to help you out but a secondary",
+    "start": 95
+  },
+  {
+    "content": "but very important goal is to make you laugh at a graph but first some quick",
+    "start": 101
+  },
+  {
+    "content": "disclaimers 3,000 people is a decent size of survey we believe it's enough to",
+    "start": 107
+  },
+  {
+    "content": "draw conclusions about the jam stack community but what it's not claimed what",
+    "start": 112
+  },
+  {
+    "content": "it's not true what we can't do what we're not claiming is that this is true",
+    "start": 117
+  },
+  {
+    "content": "of web developers generally figuring out what data means is tricky",
+    "start": 121
+  },
+  {
+    "content": "it means drawing facts together to tell a story and stories can be instructive",
+    "start": 125
+  },
+  {
+    "content": "but they can also mislead so let's get into all of these things we learned and",
+    "start": 130
+  },
+  {
+    "content": "try and figure out what they really mean first who are we",
+    "start": 133
+  },
+  {
+    "content": "demographically damn stacked developers look pretty much the same as web",
+    "start": 139
+  },
+  {
+    "content": "developers generally and that's reassuring it's a sign that the jam",
+    "start": 142
+  },
+  {
+    "content": "stack is seeing mainstream adoption jams tech developers show up in every",
+    "start": 145
+  },
+  {
+    "content": "industry but the largest is unsurprisingly pure tech but the jam SEC",
+    "start": 150
+  },
+  {
+    "content": "is by no means a tech only phenomenon the top 5 industries were advertising",
+    "start": 156
+  },
+  {
+    "content": "education media finance and logistics those are not industries that I",
+    "start": 160
+  },
+  {
+    "content": "associate with jumping on the latest bandwagon jams tech developers also a",
+    "start": 164
+  },
+  {
+    "content": "wide range of experience this is not a tech just for new devs 25% of job site",
+    "start": 169
+  },
+  {
+    "content": "developers said that they had more than 10 years of experience relative to their",
+    "start": 174
+  },
+  {
+    "content": "current role relevant to your current role is a subtle question though right",
+    "start": 178
+  },
+  {
+    "content": "that's not quite the same as how much experience do you have",
+    "start": 182
+  },
+  {
+    "content": "so next year we should ask that question more directly but apart from general",
+    "start": 186
+  },
+  {
+    "content": "experience how much experience do jams tech developers have working on the jam",
+    "start": 190
+  },
+  {
+    "content": "stack itself it turns out most people are pretty new to jam stack which is",
+    "start": 194
+  },
+  {
+    "content": "unsurprising because it's pretty new 44% of jams tech developers have been doing",
+    "start": 198
+  },
+  {
+    "content": "it for less than a year and 22% showed up in just the last six months so jams",
+    "start": 203
+  },
+  {
+    "content": "tech is seeing a huge wave of adoption right now that's what that huge bunch of",
+    "start": 211
+  },
+  {
+    "content": "new starters tells us it's no longer early adopters and it's definitely not",
+    "start": 216
+  },
+  {
+    "content": "late adopters these are the on-time adopters we also asked people where they",
+    "start": 220
+  },
+  {
+    "content": "work and twelve people said twelve percent of people said at agencies",
+    "start": 226
+  },
+  {
+    "content": "that's a lot that's way more than agencies represent in the general",
+    "start": 229
+  },
+  {
+    "content": "workforce natla fine makes it easy to launch lots of websites easily so it's",
+    "start": 233
+  },
+  {
+    "content": "not surprising agencies which have that model like it one of our more fun",
+    "start": 238
+  },
+  {
+    "content": "results was when we asked people what teams they were on and then asked them",
+    "start": 243
+  },
+  {
+    "content": "what teams they interact with most as a way of finding out how workflows work",
+    "start": 248
+  },
+  {
+    "content": "this was interesting mostly because the answers mostly matched marketing talks",
+    "start": 252
+  },
+  {
+    "content": "to Doc's as often as dogs talks to marketing sales talks to support as",
+    "start": 257
+  },
+  {
+    "content": "often as support talks to sales but in a small number of cases there was a big",
+    "start": 260
+  },
+  {
+    "content": "disparity where one team would say that they talked to another team",
+    "start": 265
+  },
+  {
+    "content": "that other team would not say that they talked back I debated what to call this",
+    "start": 268
+  },
+  {
+    "content": "thing the circle of suck the tree of sorrow I settled on the mushroom of",
+    "start": 274
+  },
+  {
+    "content": "sadness product talks to design but design doesn't get back to them design",
+    "start": 279
+  },
+  {
+    "content": "talks to Docs but they never reply support talks to marketing but they",
+    "start": 285
+  },
+  {
+    "content": "don't reply and sales support Docs and marketing all talk to ng and ang never",
+    "start": 289
+  },
+  {
+    "content": "gets back to them it's funny because obviously these are stereotypes of how",
+    "start": 294
+  },
+  {
+    "content": "departments that some companies don't communicate well and this isn't what we",
+    "start": 298
+  },
+  {
+    "content": "were going for when we asked this question but here are the stereotypes",
+    "start": 302
+  },
+  {
+    "content": "just sitting in the data reported by those people themselves so enough about",
+    "start": 306
+  },
+  {
+    "content": "who we are what our damn stack developers doing what are we building",
+    "start": 311
+  },
+  {
+    "content": "using the jam stack our first question on this front was to ask what type of",
+    "start": 315
+  },
+  {
+    "content": "software people were building a big surprise to me was that fully 36% of",
+    "start": 320
+  },
+  {
+    "content": "people said they were writing enterprise software that is so many that I broke",
+    "start": 325
+  },
+  {
+    "content": "them out as a sample and analyze them separately and discover that they're",
+    "start": 329
+  },
+  {
+    "content": "different in a bunch of ways for one thing they are more experienced",
+    "start": 333
+  },
+  {
+    "content": "enterprise developers have on average 1.1 years more of experience relevant to",
+    "start": 337
+  },
+  {
+    "content": "their job than the average respondents in our survey there's a couple of other",
+    "start": 342
+  },
+  {
+    "content": "places that they differ and I'm gonna mention those as I go to get another",
+    "start": 346
+  },
+  {
+    "content": "kind of sense of what we're doing we asked people about the size of the",
+    "start": 350
+  },
+  {
+    "content": "audience the sites that they were working on were built for these answers",
+    "start": 354
+  },
+  {
+    "content": "were really interesting first 32% of developers said that they worked on",
+    "start": 358
+  },
+  {
+    "content": "sites for that serve millions of users jam stack sites work at an enormous",
+    "start": 363
+  },
+  {
+    "content": "scale that is one of the things that we like about them and this is a great",
+    "start": 367
+  },
+  {
+    "content": "endorsement of that and also that jam stack is in general built for grown-up",
+    "start": 370
+  },
+  {
+    "content": "use cases but 83% of people said that the sites that they were building were",
+    "start": 374
+  },
+  {
+    "content": "built for just thousands of users you don't need giant scaling for that of",
+    "start": 380
+  },
+  {
+    "content": "course damn stack is still very fast and that matters even when you have only a",
+    "start": 384
+  },
+  {
+    "content": "few thousand users but 63% of people said that they are building sites just",
+    "start": 387
+  },
+  {
+    "content": "for tens of users when you have only a few dozen users you don't need",
+    "start": 391
+  },
+  {
+    "content": "performance or scale you know every user by name right you can",
+    "start": 395
+  },
+  {
+    "content": "DM them and say please wait for the page to load my conclusion from this is that",
+    "start": 399
+  },
+  {
+    "content": "developers don't just like the jam stack because of the scaling and the",
+    "start": 404
+  },
+  {
+    "content": "performance they also like the tooling they like the work is that a real",
+    "start": 407
+  },
+  {
+    "content": "conclusion can I back that up well one way that I could try to back that up is",
+    "start": 412
+  },
+  {
+    "content": "if I ask people directly what do you like about the jam stack and I did that",
+    "start": 416
+  },
+  {
+    "content": "it's hard to summarize free text data but I did the most obvious thing which",
+    "start": 420
+  },
+  {
+    "content": "was to create a word cloud and there's a lot of unsurprising words in there",
+    "start": 426
+  },
+  {
+    "content": "people like the speed of the site of development itself they like that it's",
+    "start": 430
+  },
+  {
+    "content": "easy that it's simple easy deploys and security also show up down the bottom",
+    "start": 434
+  },
+  {
+    "content": "left you can see four words that randomly showed up in perfect sequence",
+    "start": 439
+  },
+  {
+    "content": "which was really like just love using and that is how we feel about the jam",
+    "start": 442
+  },
+  {
+    "content": "stack we really just love using it another point of evidence in favor of",
+    "start": 447
+  },
+  {
+    "content": "the idea that the jam stack workflow is key is when we ask developers about",
+    "start": 452
+  },
+  {
+    "content": "their priorities as expected performance and uptime are right at the top but next",
+    "start": 456
+  },
+  {
+    "content": "it comes speed of development the data suggests that people use the jam stack",
+    "start": 462
+  },
+  {
+    "content": "because it helps them ship it also has some less flattering conclusions you can",
+    "start": 466
+  },
+  {
+    "content": "draw from this for instance we prefer to ship fast than to make a site secure and",
+    "start": 470
+  },
+  {
+    "content": "we don't give a about compliance those aren't flattering conclusions but",
+    "start": 475
+  },
+  {
+    "content": "they're also hard to argue against from my own experience at least and to Perez",
+    "start": 479
+  },
+  {
+    "content": "devs were different by the way they did prioritize security over shipping fast",
+    "start": 484
+  },
+  {
+    "content": "another fascinating set of results came when we asked people to rank the hardest",
+    "start": 489
+  },
+  {
+    "content": "part of shipping a website I personally would have expected that coding the",
+    "start": 493
+  },
+  {
+    "content": "thing would be up there and maybe deploying it would come second but no it",
+    "start": 497
+  },
+  {
+    "content": "was the opposite way round Jam stack developers think that deploying is the",
+    "start": 502
+  },
+  {
+    "content": "easiest part of shipping a website and that coding it is the second easiest",
+    "start": 505
+  },
+  {
+    "content": "part the hardest part according to Jam stack developers is defining the product",
+    "start": 509
+  },
+  {
+    "content": "in the first place and the second hardest part is designing it that is a",
+    "start": 514
+  },
+  {
+    "content": "really surprising result enterprise developers again had a notable",
+    "start": 518
+  },
+  {
+    "content": "difference here which is that they think deploying is harder than coding which if",
+    "start": 522
+  },
+  {
+    "content": "you are familiar with deploying in an enterprise environment is not a",
+    "start": 525
+  },
+  {
+    "content": "surprising result incidentally if you are trying to come",
+    "start": 528
+  },
+  {
+    "content": "up with a startup idea you're trying to think of something to build this is a",
+    "start": 534
+  },
+  {
+    "content": "ranked list of the problems that depths want help with they think coding is easy",
+    "start": 537
+  },
+  {
+    "content": "so maybe don't write another framework they think deploying is easy so please",
+    "start": 541
+  },
+  {
+    "content": "not another kubernetes service people want help defining products and",
+    "start": 546
+  },
+  {
+    "content": "designing them they want help with QA with testing with managing copy think",
+    "start": 550
+  },
+  {
+    "content": "about how you could make those tasks easier for developers so we've covered",
+    "start": 554
+  },
+  {
+    "content": "who we are and what we're doing so the last thing to talk about is how we do it",
+    "start": 560
+  },
+  {
+    "content": "what tools are we using before we get into this I want to briefly explain a",
+    "start": 564
+  },
+  {
+    "content": "metric you're going to see me using here called satisfaction for several of these",
+    "start": 569
+  },
+  {
+    "content": "questions we asked people two things how much do you use this tech today and",
+    "start": 573
+  },
+  {
+    "content": "do you want to use it more or less for a bunch of these questions we took the",
+    "start": 577
+  },
+  {
+    "content": "ratio of people who want to use it more versus people who want to use it less",
+    "start": 582
+  },
+  {
+    "content": "and we called that the satisfaction score so if people on average want to",
+    "start": 585
+  },
+  {
+    "content": "use something more than their satisfaction scores over one and if on",
+    "start": 590
+  },
+  {
+    "content": "average they want to stop using it then their satisfaction score dips below one",
+    "start": 593
+  },
+  {
+    "content": "note that satisfaction and popularity are not the same often new technologies",
+    "start": 598
+  },
+  {
+    "content": "have very high satisfaction scores because their users are still",
+    "start": 604
+  },
+  {
+    "content": "enthusiastic early adopters and vice versa often very popular technologies",
+    "start": 607
+  },
+  {
+    "content": "have a lot of people who are not very satisfied so a key question to find out",
+    "start": 611
+  },
+  {
+    "content": "what we're doing and how we're doing it is what programming languages are we",
+    "start": 618
+  },
+  {
+    "content": "using many people in fact most people use lots of programming languages so we",
+    "start": 621
+  },
+  {
+    "content": "first asked what your primary programming language was it's no",
+    "start": 626
+  },
+  {
+    "content": "surprise that javascript was a runaway winner here but there were two surprises",
+    "start": 630
+  },
+  {
+    "content": "to me first was that typescript is sitting there at 10% I put that question",
+    "start": 636
+  },
+  {
+    "content": "in there in the first place because I keep running into this phenomenon of",
+    "start": 641
+  },
+  {
+    "content": "people who think people who write typescript thinking of themselves as",
+    "start": 645
+  },
+  {
+    "content": "typescript devs not JavaScript developers which is strange because",
+    "start": 648
+  },
+  {
+    "content": "typescript itself describes itself as being just JavaScript but clearly not",
+    "start": 651
+  },
+  {
+    "content": "all typescript developers see it that way",
+    "start": 657
+  },
+  {
+    "content": "the second surprise is that even with typescript and JavaScript together 37",
+    "start": 660
+  },
+  {
+    "content": "percent of Java of jam stack developers consider their primary language to be",
+    "start": 665
+  },
+  {
+    "content": "something other than JavaScript there were some variations in there when I",
+    "start": 669
+  },
+  {
+    "content": "split developers by how much experience they had the newer less experienced",
+    "start": 673
+  },
+  {
+    "content": "developers were far more likely to have JavaScript as a primary language while",
+    "start": 677
+  },
+  {
+    "content": "other developers had other languages most frequently PHP when we moved away",
+    "start": 682
+  },
+  {
+    "content": "from primary language question to what languages in general people use there",
+    "start": 687
+  },
+  {
+    "content": "were some obvious answers PHP is up there nearly 50 percent typescript is",
+    "start": 693
+  },
+  {
+    "content": "also a huge deal at 46% obviously people are using all these things at the same",
+    "start": 697
+  },
+  {
+    "content": "time Python makes a good showing Java less so SQL is really surprisingly high",
+    "start": 702
+  },
+  {
+    "content": "more on that later and everybody uses bash whether they like it or not so",
+    "start": 709
+  },
+  {
+    "content": "here's our first use of that satisfaction score that I talked about",
+    "start": 716
+  },
+  {
+    "content": "this is programming languages ranked by satisfaction not too many people use",
+    "start": 719
+  },
+  {
+    "content": "rust it didn't make our top ten by usage but the ones who do really love doing it",
+    "start": 725
+  },
+  {
+    "content": "javascript and typescript were also quite loved but down at the bottom you",
+    "start": 731
+  },
+  {
+    "content": "can see some sad scores below one the Visual Basic users really hate using",
+    "start": 735
+  },
+  {
+    "content": "Visual Basic and Perl and Java and PHP are not doing much better even though by",
+    "start": 739
+  },
+  {
+    "content": "usage they are extremely popular of course it wouldn't be a developer survey",
+    "start": 745
+  },
+  {
+    "content": "if we didn't ask you what web framework you prefer we have some great data here",
+    "start": 749
+  },
+  {
+    "content": "because we don't just have how many people use each framework the further to",
+    "start": 754
+  },
+  {
+    "content": "the right you are the more people use it we also have their satisfaction scores",
+    "start": 759
+  },
+  {
+    "content": "on the vertical axis so the higher you are the happier people are and the size",
+    "start": 763
+  },
+  {
+    "content": "of each bubble is the number of enthusiastic users people who say they",
+    "start": 768
+  },
+  {
+    "content": "use it all the time and want to use it more react score is great on all of",
+    "start": 772
+  },
+  {
+    "content": "those react is big and popular and loved it's high up and off to the right and",
+    "start": 776
+  },
+  {
+    "content": "big bubble jQuery is extremely widely used but not at all loved Gatsby is the",
+    "start": 782
+  },
+  {
+    "content": "biggest full framework in terms of popularity next and next to show up",
+    "start": 789
+  },
+  {
+    "content": "right next to each other which is not surprising given how similar they",
+    "start": 793
+  },
+  {
+    "content": "are in their use cases but both flavors of angular are less than loved",
+    "start": 796
+  },
+  {
+    "content": "angularjs in fact scores lower than jquery in satisfaction and there are two",
+    "start": 802
+  },
+  {
+    "content": "other outliers in this data the first is eleventy it had a surprisingly strong",
+    "start": 808
+  },
+  {
+    "content": "showing in our data it has tons of satisfaction but also the smallest user",
+    "start": 813
+  },
+  {
+    "content": "base it's gonna be interesting to see if next year it has grown and whether or",
+    "start": 818
+  },
+  {
+    "content": "not it managed to hold on to that level of satisfaction spelt was small and had",
+    "start": 822
+  },
+  {
+    "content": "middling satisfaction but it had the biggest percentage of people who say",
+    "start": 827
+  },
+  {
+    "content": "that they don't use it much right now but they want to start that is a good",
+    "start": 831
+  },
+  {
+    "content": "sign for the future growth of spelt and the last thing that I noted is when I",
+    "start": 835
+  },
+  {
+    "content": "slip developers by experience is that nobody who had less than five years of",
+    "start": 840
+  },
+  {
+    "content": "experience has even heard of dojo we ask people how they like to store persistent",
+    "start": 844
+  },
+  {
+    "content": "data databases markdown files plain old JSON because that's important for static",
+    "start": 851
+  },
+  {
+    "content": "websites and understanding them the winner here was markdown 58% of people",
+    "start": 857
+  },
+  {
+    "content": "say they use it sometimes or frequently and also want to use it more",
+    "start": 862
+  },
+  {
+    "content": "that is impressive customer satisfaction JSON Postgres s3 and mangu are also way",
+    "start": 865
+  },
+  {
+    "content": "up there but if instead of by raw popularity you instead rank my",
+    "start": 871
+  },
+  {
+    "content": "satisfaction score you get quite a different picture Redis rises to second",
+    "start": 876
+  },
+  {
+    "content": "place pushing down JSON and Postgres climbs over JSON as well so to me this",
+    "start": 881
+  },
+  {
+    "content": "suggests that JSON is very convenient and so a lot of people use it but",
+    "start": 886
+  },
+  {
+    "content": "full-featured databases are preferred in the long term we also ask people how",
+    "start": 889
+  },
+  {
+    "content": "their app talks to the server there were three big options and again usage versus",
+    "start": 895
+  },
+  {
+    "content": "satisfaction are telling us different stories rest has a strong edge in usage",
+    "start": 899
+  },
+  {
+    "content": "obviously lots of people are using more than one of these but on satisfaction",
+    "start": 902
+  },
+  {
+    "content": "graph QL just runs away with it there is that's a strong sign for future growth",
+    "start": 907
+  },
+  {
+    "content": "in graph QL and one final question was about collaboration tools we are",
+    "start": 911
+  },
+  {
+    "content": "interested in people how people work together there was no surprise and that",
+    "start": 917
+  },
+  {
+    "content": "everybody loved github but what was surprising was how many people loved",
+    "start": 921
+  },
+  {
+    "content": "figma I said that collaborating on design is what",
+    "start": 924
+  },
+  {
+    "content": "people describe is the second hardest part of launching a site and figma seems",
+    "start": 928
+  },
+  {
+    "content": "to be taking a real shot at a solution this data also reveals that people",
+    "start": 932
+  },
+  {
+    "content": "really hate email like wow we really hate email but there's one thing we hate",
+    "start": 937
+  },
+  {
+    "content": "more than email and that is Yammer ouch so what should you take away from all of",
+    "start": 943
+  },
+  {
+    "content": "this first the jam stack is a tool for",
+    "start": 950
+  },
+  {
+    "content": "grown-ups enterprise adoptions at 36% the user base is experienced big",
+    "start": 952
+  },
+  {
+    "content": "established industries are on board this is not a fad the second is that jab",
+    "start": 958
+  },
+  {
+    "content": "stack is not done growing on time adopters are arriving in droves at every",
+    "start": 964
+  },
+  {
+    "content": "experienced level in every industry building every kind of software building",
+    "start": 969
+  },
+  {
+    "content": "apps of every kind for mobile for desktop Jam stack is a big and growing",
+    "start": 972
+  },
+  {
+    "content": "deal everywhere and we also saw evidence that people value more about gem stack",
+    "start": 976
+  },
+  {
+    "content": "then building sites that are fast and scale well although they do care about",
+    "start": 982
+  },
+  {
+    "content": "those things people want to ship quickly and they like the tools that Jam stack",
+    "start": 986
+  },
+  {
+    "content": "provides to do that also man we hate email and if you're using Yammer",
+    "start": 990
+  },
+  {
+    "content": "you should probably just stop it's making you miserable just stop so I hope",
+    "start": 996
+  },
+  {
+    "content": "you feel you've gained some context about the landscape you're in I hope",
+    "start": 1003
+  },
+  {
+    "content": "you've got some warm fuzzy feelings about the stuff that you're using I hope",
+    "start": 1007
+  },
+  {
+    "content": "I made you laugh at least once and thank you all so much for your time and",
+    "start": 1010
+  },
+  {
+    "content": "attention",
+    "start": 1013
+  },
+  {
+    "content": "you",
+    "start": 1017
+  }
+]

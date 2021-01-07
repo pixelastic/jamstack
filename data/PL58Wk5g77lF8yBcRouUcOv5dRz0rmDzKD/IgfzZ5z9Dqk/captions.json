@@ -1,0 +1,1162 @@
+[
+  {
+    "content": "all right so yeah Thank You Phil thanks",
+    "start": 0
+  },
+  {
+    "content": "net LaFave smashing mag and everyone all the sponsors for for this conference um",
+    "start": 15
+  },
+  {
+    "content": "I've been following Jam stack for quite a while now just like with jelly I met",
+    "start": 20
+  },
+  {
+    "content": "Chris and Matt at a conference in 2013 or 14 in in San Francisco might have",
+    "start": 24
+  },
+  {
+    "content": "been the same conference and where he introduced the idea of net lo-fi and",
+    "start": 30
+  },
+  {
+    "content": "static sites and it's just been stuck when my brain since then I've been",
+    "start": 35
+  },
+  {
+    "content": "trying to get it into wework stack for quite some time and I think in the past",
+    "start": 39
+  },
+  {
+    "content": "year or so it's starting to pick up some traction so I'm currently an engineering",
+    "start": 42
+  },
+  {
+    "content": "Directorate we work labs we work labs is a small smaller part of we work that",
+    "start": 49
+  },
+  {
+    "content": "will form about a year ago previously I was a part of the growth engineering",
+    "start": 53
+  },
+  {
+    "content": "team at we work before that at C Bloomberg and whatnot",
+    "start": 57
+  },
+  {
+    "content": "I'm a full-stack developer by trade preferred a front-end obviously and I'm",
+    "start": 62
+  },
+  {
+    "content": "also a manager these days doing a little bit of everything and I've been doing",
+    "start": 69
+  },
+  {
+    "content": "hacking away at web stuff for the past 12 15 years I'm old enough to know what",
+    "start": 73
+  },
+  {
+    "content": "nested tables are and had to deal with ie6 so if you had to deal with that I'm",
+    "start": 77
+  },
+  {
+    "content": "sorry first of all thank you London this was a",
+    "start": 82
+  },
+  {
+    "content": "beautiful city we're having such a great time my wife is here as well with her",
+    "start": 87
+  },
+  {
+    "content": "cousin but one thing it kind of works me is that uh what's up with the plugs here",
+    "start": 91
+  },
+  {
+    "content": "if that's the only qualm that you guys hear no problem",
+    "start": 98
+  },
+  {
+    "content": "we'll make it work so like I said I would join we work in 2012 as one of the",
+    "start": 102
+  },
+  {
+    "content": "first two engineers my counterpart was Paul we were good friends and we we got",
+    "start": 107
+  },
+  {
+    "content": "a we sort of crossed paths at Bloomberg at some points I didn't have a beard",
+    "start": 113
+  },
+  {
+    "content": "back then oops that's fine so we work in 2012 you know",
+    "start": 118
+  },
+  {
+    "content": "we had two engineers about a couple thousand members only handful locations",
+    "start": 127
+  },
+  {
+    "content": "and when we entered there one huge rails monolith that ever did",
+    "start": 131
+  },
+  {
+    "content": "everything from the marketing website to the billing invoicing system to the room",
+    "start": 135
+  },
+  {
+    "content": "booking system it was just one system and what would happen is that you know",
+    "start": 140
+  },
+  {
+    "content": "your marketing site would go down then you can build your members your room",
+    "start": 144
+  },
+  {
+    "content": "booking system would break your website was broken it was it was a bad place to",
+    "start": 148
+  },
+  {
+    "content": "be we were tasked with two two main things at the time rebuild the website",
+    "start": 151
+  },
+  {
+    "content": "and break up this monolith just a little bit of comparison today we work about a",
+    "start": 157
+  },
+  {
+    "content": "thousand plus engineers over for 60,000 members a lot of locations around the",
+    "start": 166
+  },
+  {
+    "content": "world so it's grown quite a bit since since I joined no longer really a",
+    "start": 170
+  },
+  {
+    "content": "start-up but in many ways it still has the same startup energy in the smaller",
+    "start": 176
+  },
+  {
+    "content": "teams that you know formed a company we're more like a community of startups",
+    "start": 180
+  },
+  {
+    "content": "all towards the same goal and which was unique to my next slide which is my main",
+    "start": 185
+  },
+  {
+    "content": "focus these days we work labs so like I said we were gloves is the innovation",
+    "start": 190
+  },
+  {
+    "content": "platform to support early-stage startups and corporations seeking transform their",
+    "start": 195
+  },
+  {
+    "content": "industries I thought it'd be good to explain that because it's a lot of",
+    "start": 199
+  },
+  {
+    "content": "people don't know what we work Labs is you know we support 1,400 startups",
+    "start": 202
+  },
+  {
+    "content": "across 34 cities and 17 countries in the world and one of the challenges when I",
+    "start": 207
+  },
+  {
+    "content": "joined his team was that because of you know we were glass being parted we work",
+    "start": 211
+  },
+  {
+    "content": "we were a global team from day one so whatever we were building had to be",
+    "start": 214
+  },
+  {
+    "content": "translated in 2,000 languages and available across the world but let's",
+    "start": 217
+  },
+  {
+    "content": "start from the beginning so these are all the different systems we had to",
+    "start": 224
+  },
+  {
+    "content": "build when I joined with a team of about three or four people and you know when I",
+    "start": 229
+  },
+  {
+    "content": "like I mentioned the monolith did a lot of this in a single application we",
+    "start": 238
+  },
+  {
+    "content": "started to break it all up into smaller applications my main focus was the room",
+    "start": 241
+  },
+  {
+    "content": "booking system guest registration and marketing website and Paul took over id",
+    "start": 247
+  },
+  {
+    "content": "location management billing invoicing and around that time we hired a few more",
+    "start": 251
+  },
+  {
+    "content": "people but yeah very small team building a lot of stuff we were essentially doing",
+    "start": 254
+  },
+  {
+    "content": "this all the time so I'm gonna focus a little bit on the",
+    "start": 261
+  },
+  {
+    "content": "marketing website so back in 2012-2013 the standard options for building a",
+    "start": 266
+  },
+  {
+    "content": "website were pretty much this you know you chose your rails or node or one of",
+    "start": 275
+  },
+  {
+    "content": "these frameworks or you went with a wordpress drupal type offering or some",
+    "start": 279
+  },
+  {
+    "content": "other MVC type framework nothing wrong with these like WordPress is great a lot",
+    "start": 285
+  },
+  {
+    "content": "of companies you know build their sites on WordPress and it works with them a",
+    "start": 289
+  },
+  {
+    "content": "lot of agencies use work for us we actually went back and forth between use",
+    "start": 293
+  },
+  {
+    "content": "of options a few times I think since 2012 - today we've had seven different",
+    "start": 296
+  },
+  {
+    "content": "versions of we work on different stacks and there are still pages that are",
+    "start": 301
+  },
+  {
+    "content": "running on each of these a little bit here and there",
+    "start": 306
+  },
+  {
+    "content": "we're you know slowly migrating over so the different variations of we were calm",
+    "start": 308
+  },
+  {
+    "content": "you know due to shifting priorities and the growth of the company you know we",
+    "start": 317
+  },
+  {
+    "content": "took a stab at building a few things ourselves internally using rails and",
+    "start": 321
+  },
+  {
+    "content": "jQuery and sass and all the cool tools back then at some point we got to hand",
+    "start": 325
+  },
+  {
+    "content": "things over to a marketing team I need to a an agency who was using WordPress",
+    "start": 329
+  },
+  {
+    "content": "to build a site and all this was great it worked fine for a while but you know",
+    "start": 333
+  },
+  {
+    "content": "everything has its time and we got to a point where we needed to have more",
+    "start": 337
+  },
+  {
+    "content": "control over what we were putting on the website we were entering a global market",
+    "start": 342
+  },
+  {
+    "content": "the website was becoming too important of a tool and we decided to bring it",
+    "start": 348
+  },
+  {
+    "content": "in-house I don't know if anyone's familiar with roots phrase your hand if",
+    "start": 352
+  },
+  {
+    "content": "you've heard of roots before yeah good ok so we took a stab at the static thing",
+    "start": 357
+  },
+  {
+    "content": "back in 2014 2015 like I said it was around the same time I'd met Matt and",
+    "start": 363
+  },
+  {
+    "content": "and neckla fire was was you know just starting out and is there was a creative",
+    "start": 367
+  },
+  {
+    "content": "agency in the Brooklyn called Kara creative and their engineering team",
+    "start": 373
+  },
+  {
+    "content": "actually built this really cool tool called roots and have you got a lot of",
+    "start": 376
+  },
+  {
+    "content": "homework and looking to different different solutions one thing that stuck",
+    "start": 379
+  },
+  {
+    "content": "out about roots was that they had really they had a really interesting plugin",
+    "start": 383
+  },
+  {
+    "content": "called roots records and the idea was and I mean today is not it's nothing",
+    "start": 387
+  },
+  {
+    "content": "special but back then not a lot of static site generators offered this was",
+    "start": 390
+  },
+  {
+    "content": "the ability to hit different API during your build process ingest data",
+    "start": 395
+  },
+  {
+    "content": "and just power the the building of your of your site this is sort of a novel",
+    "start": 399
+  },
+  {
+    "content": "idea and I I personally couldn't find a lot of different frameworks that did",
+    "start": 403
+  },
+  {
+    "content": "this and Bruce did it pretty well and we tried this we you know we did it on the",
+    "start": 407
+  },
+  {
+    "content": "website and I even wrote a blog post about it it's in our engineering block",
+    "start": 413
+  },
+  {
+    "content": "from 2015 this is sort of a line now we don't use static sites for we work time",
+    "start": 418
+  },
+  {
+    "content": "anymore but hopefully soon we do for we were glass but not the main site so it",
+    "start": 423
+  },
+  {
+    "content": "was an experiment and it worked pretty well as far as the outcome the",
+    "start": 430
+  },
+  {
+    "content": "performance was really fast it worked really what well during build time what",
+    "start": 433
+  },
+  {
+    "content": "was lacking was community support local development was a little painful at",
+    "start": 437
+  },
+  {
+    "content": "times and it it was a little hard to get to gain traction across the board",
+    "start": 441
+  },
+  {
+    "content": "so we we sort of abandoned debt and as the saying goes sooner or later the debt",
+    "start": 447
+  },
+  {
+    "content": "is paid and at this point you know we had a we had a ton of tech debt we were",
+    "start": 454
+  },
+  {
+    "content": "basically managing three different versions of the site WordPress rails the",
+    "start": 458
+  },
+  {
+    "content": "static experiment thing and the team wasn't having a good time with it local",
+    "start": 463
+  },
+  {
+    "content": "development was becoming painful future development had slowed down we were",
+    "start": 468
+  },
+  {
+    "content": "spending more time maintaining the stack then then building products basically",
+    "start": 471
+  },
+  {
+    "content": "and features so we just needed a better strategy around the same time we hired",
+    "start": 476
+  },
+  {
+    "content": "some new talent engineers would experience with node and and react and",
+    "start": 484
+  },
+  {
+    "content": "web pack and that builds you know somewhat large you know sites using",
+    "start": 489
+  },
+  {
+    "content": "these things and our design team was going through a design overhaul were",
+    "start": 493
+  },
+  {
+    "content": "reinventing the design language for calm they didn't need a good five or six",
+    "start": 499
+  },
+  {
+    "content": "months to go through this process and it would gave us an opportunity to try",
+    "start": 503
+  },
+  {
+    "content": "something new and I put the word simplified and quotes here because you",
+    "start": 506
+  },
+  {
+    "content": "know in some ways the stack you see here could be seen as more complicated but",
+    "start": 511
+  },
+  {
+    "content": "what's simplified it for us is that we we decided on a single path we we",
+    "start": 516
+  },
+  {
+    "content": "decided to build our own isomorphic react application so we pulled the",
+    "start": 521
+  },
+  {
+    "content": "brakes on we were doing we took that opportunity the design team",
+    "start": 526
+  },
+  {
+    "content": "was taking two we think how we were calm was gonna look",
+    "start": 529
+  },
+  {
+    "content": "and we build this thing which had JavaScript running on the server side",
+    "start": 533
+  },
+  {
+    "content": "driver-side on a client-side and it was pretty cool and we liked it and some of",
+    "start": 537
+  },
+  {
+    "content": "you might be asking why didn't you use one of these you know these are great",
+    "start": 543
+  },
+  {
+    "content": "technologies they do all those things none of this existed this is I think",
+    "start": 546
+  },
+  {
+    "content": "Gatsby came around 2016 maybe react static a lot of these were either not",
+    "start": 550
+  },
+  {
+    "content": "available or just coming out so you guys have it easy today it's awesome and",
+    "start": 555
+  },
+  {
+    "content": "things were good for a while the team was happy we were on a single stack we",
+    "start": 563
+  },
+  {
+    "content": "had some legacy pages that we were supporting which was fine but we were",
+    "start": 568
+  },
+  {
+    "content": "able to iterate pretty quickly we had the full power react to build rich you",
+    "start": 572
+  },
+  {
+    "content": "know interfaces we had hot module reloading which is pretty new and novel",
+    "start": 578
+  },
+  {
+    "content": "attack then and things were going good like I mentioned but around the same",
+    "start": 582
+  },
+  {
+    "content": "time these questions were just hovering in my mind and some of the team members",
+    "start": 587
+  },
+  {
+    "content": "lines you know that we really need a server running for mostly static content",
+    "start": 591
+  },
+  {
+    "content": "the site was relatively fast but could it be make you faster there's still a",
+    "start": 596
+  },
+  {
+    "content": "server powering this thing even though we had a CDN in front of it interesting",
+    "start": 600
+  },
+  {
+    "content": "things would happen were we would run a marketing campaign and the UTM parameter",
+    "start": 604
+  },
+  {
+    "content": "in the URL would completely throw off our caching strategy and bring the",
+    "start": 610
+  },
+  {
+    "content": "entire server down which was not fun I'm again we got to a point where we were",
+    "start": 615
+  },
+  {
+    "content": "dealing with these little nuances that you it's hard to see ahead of time and",
+    "start": 620
+  },
+  {
+    "content": "we decided that we just need to be a little smarter we were trying to brute",
+    "start": 624
+  },
+  {
+    "content": "force the solution I just wasn't working and here's a",
+    "start": 630
+  },
+  {
+    "content": "here's a funny thing that you hear a lot you know what why is it so complicated",
+    "start": 635
+  },
+  {
+    "content": "it's just the website like why you know as I Talley mentioned you know it",
+    "start": 639
+  },
+  {
+    "content": "becomes a platform it's more than just a website",
+    "start": 644
+  },
+  {
+    "content": "one of the recent engineers we hired by a year ago question had the same",
+    "start": 646
+  },
+  {
+    "content": "questions like you know this is just a marketing website this is a brochure",
+    "start": 652
+  },
+  {
+    "content": "website why why is there such a complicated fact why can't we just you",
+    "start": 654
+  },
+  {
+    "content": "know build in an X it's just a feature up on feature comes up and",
+    "start": 657
+  },
+  {
+    "content": "especially when you're trying to support a global website with you know soon",
+    "start": 664
+  },
+  {
+    "content": "we're gonna we have checkout features we have ability to search and filter we",
+    "start": 669
+  },
+  {
+    "content": "have regional content all these things content editors need to see previews so",
+    "start": 673
+  },
+  {
+    "content": "in some ways I do agree it doesn't have to be so complicated but I also don't",
+    "start": 679
+  },
+  {
+    "content": "think you need to be the one in charge of that complication you can offload a",
+    "start": 683
+  },
+  {
+    "content": "lot of this to others it's better for you to focus on what makes your business",
+    "start": 688
+  },
+  {
+    "content": "unique and stand on the shoulder Giants really so around this time we decided to",
+    "start": 695
+  },
+  {
+    "content": "take another look at the jam stack I had joined I just joined the we were glass",
+    "start": 702
+  },
+  {
+    "content": "team this is about a year ago I was looking for an opportunity to start a",
+    "start": 707
+  },
+  {
+    "content": "new project bringing in new new fresh blood and see what we can build so many",
+    "start": 711
+  },
+  {
+    "content": "of the existing technologies we were using things like content full and react",
+    "start": 718
+  },
+  {
+    "content": "and note we're already in place we just needed a way to bring it all together",
+    "start": 722
+  },
+  {
+    "content": "we'd also started using that low 5'4 but a lot of side projects so there wasn't a",
+    "start": 726
+  },
+  {
+    "content": "lot of pushback on the technology stack itself it was just more we needed the",
+    "start": 731
+  },
+  {
+    "content": "green light to try something and I really personally just wanted to see",
+    "start": 736
+  },
+  {
+    "content": "this work I want to prove it out and show other teams that it's possible so",
+    "start": 739
+  },
+  {
+    "content": "the front ecosystem was really developing in the past year I would say",
+    "start": 745
+  },
+  {
+    "content": "a lot of interesting things have been coming up from from these projects and",
+    "start": 750
+  },
+  {
+    "content": "these are these are projects basically that are catered towards marketing",
+    "start": 757
+  },
+  {
+    "content": "websites and teams like ourselves and the best part is I think these these",
+    "start": 761
+  },
+  {
+    "content": "tools work really well together you're able to plug plug these things together",
+    "start": 765
+  },
+  {
+    "content": "in a nice way and they all have built-in support and the end result is something",
+    "start": 769
+  },
+  {
+    "content": "that you would spend a lot more time and less hours just building on your own and",
+    "start": 773
+  },
+  {
+    "content": "like I mentioned nettle if I was officially sanctum as a sanction as part",
+    "start": 783
+  },
+  {
+    "content": "of our stack we actually just joined a signed a contract and it's it's we got",
+    "start": 787
+  },
+  {
+    "content": "the green light so it's no longer hobby and this was this was great momentum",
+    "start": 792
+  },
+  {
+    "content": "this was great movement in the direction initially we were using using",
+    "start": 796
+  },
+  {
+    "content": "it mostly to host a lot of static documentation sites and side projects",
+    "start": 800
+  },
+  {
+    "content": "and whatnot but once we explained the benefits to our ops team there wasn't a",
+    "start": 805
+  },
+  {
+    "content": "lot of pushback there were a few teams who took it upon themselves to try to",
+    "start": 809
+  },
+  {
+    "content": "recreate a lot of the functionalities that provided and based on their own",
+    "start": 813
+  },
+  {
+    "content": "research they came out with the conclusion that this tool can do all the",
+    "start": 819
+  },
+  {
+    "content": "things we can do probably better and faster so the new set up what did it",
+    "start": 823
+  },
+  {
+    "content": "look like so we started with you know where where our content lives most like",
+    "start": 831
+  },
+  {
+    "content": "most of your projects our code lives in github our content lives in contentful",
+    "start": 840
+  },
+  {
+    "content": "what we're doing today is we have a",
+    "start": 846
+  },
+  {
+    "content": "setup where our PRS and pull requests generate preview apps annette liffe i",
+    "start": 852
+  },
+  {
+    "content": "contentful set up to show drafts you know drafts of changes at the same time",
+    "start": 857
+  },
+  {
+    "content": "these are all atomic deploys so like something goes wrong you know ad",
+    "start": 863
+  },
+  {
+    "content": "campaign goes out it doesn't really crash the site anymore just the build",
+    "start": 868
+  },
+  {
+    "content": "fails given that we're a global company",
+    "start": 872
+  },
+  {
+    "content": "translations are a little tricky with a statically generated site if you imagine",
+    "start": 881
+  },
+  {
+    "content": "you have even on a relatively like a medium-sized site let's say you have I",
+    "start": 886
+  },
+  {
+    "content": "don't know 100 pages and you're supporting 20 30 languages it quickly",
+    "start": 890
+  },
+  {
+    "content": "bubbles up and every time you make a change whether in translation or content",
+    "start": 895
+  },
+  {
+    "content": "or something you need to regenerate the entire site now take a large site like",
+    "start": 898
+  },
+  {
+    "content": "Smashing Magazine with over 2,000 pages and you need to support 2,000 languages",
+    "start": 903
+  },
+  {
+    "content": "it gets pretty tricky for us we right now our page size is pretty small we",
+    "start": 909
+  },
+  {
+    "content": "were only other handful of sizes we're supporting many languages this is an",
+    "start": 916
+  },
+  {
+    "content": "area that I want to dig into a little bit more there are other creative",
+    "start": 920
+  },
+  {
+    "content": "solutions SmartLink is a translation service they offer",
+    "start": 924
+  },
+  {
+    "content": "something called a gdn it's basically a translation proxy where you're not",
+    "start": 927
+  },
+  {
+    "content": "really translating strings in your projects everything's in English and it",
+    "start": 931
+  },
+  {
+    "content": "runs through so like a proxy server and translates on-the-fly so with the setup",
+    "start": 935
+  },
+  {
+    "content": "like that you only ever have to really deal with your English translated",
+    "start": 939
+  },
+  {
+    "content": "content and then the rest gets translated to set up we have today is we",
+    "start": 943
+  },
+  {
+    "content": "have we're using the smart Lang github and contentful connectors what these",
+    "start": 949
+  },
+  {
+    "content": "connectors do is that anytime content updates in content focus Stanfill itself",
+    "start": 954
+  },
+  {
+    "content": "has localization support it triggers a web hook in SmartLink smart legos and",
+    "start": 958
+  },
+  {
+    "content": "grabs the strings automatically same thing in github but it's monitoring your",
+    "start": 962
+  },
+  {
+    "content": "github repository for new strings it picks up new stuff and it creates a PR",
+    "start": 966
+  },
+  {
+    "content": "for you and it's it's a nice set up it automates a lot of that process for you",
+    "start": 970
+  },
+  {
+    "content": "and of course all of it put together using Gatsby's build process deployed to",
+    "start": 974
+  },
+  {
+    "content": "nutloaf I these systems work very harmoniously together and the end result",
+    "start": 980
+  },
+  {
+    "content": "is happy engineers and product people so how about local development it's",
+    "start": 986
+  },
+  {
+    "content": "pretty much the same I mean we didn't have to do much the advent of some of",
+    "start": 996
+  },
+  {
+    "content": "these newer tools like next yes and Gatsby and you made this process very",
+    "start": 1002
+  },
+  {
+    "content": "simple you know you're you're running a webpack development server locally",
+    "start": 1007
+  },
+  {
+    "content": "there's still some caveats you know your production builder there might be some",
+    "start": 1011
+  },
+  {
+    "content": "discrepancies in different differences between your local development so it's",
+    "start": 1015
+  },
+  {
+    "content": "always a good idea to do a local bill just to see what yeah and output looks",
+    "start": 1018
+  },
+  {
+    "content": "like but for the most part it just works and it gives you peace of mind so yeah",
+    "start": 1022
+  },
+  {
+    "content": "like I mentioned you know anytime we create a PR that's become a big part of",
+    "start": 1031
+  },
+  {
+    "content": "our review process the pr general auto generates this preview app it's it's as",
+    "start": 1035
+  },
+  {
+    "content": "close to production as you can get and we're able to share that URL and and",
+    "start": 1041
+  },
+  {
+    "content": "have people leave comments and feedbacks on it what about live preview so this is",
+    "start": 1046
+  },
+  {
+    "content": "this is one of those other hard hard things to get right so with with a",
+    "start": 1052
+  },
+  {
+    "content": "server running you know whenever you hit a URL especially on that staging or pre",
+    "start": 1056
+  },
+  {
+    "content": "fraud in instance you can grab data from a back end and see it on a statically",
+    "start": 1061
+  },
+  {
+    "content": "generated site it's gets a little bit trickier you could set up some sort of",
+    "start": 1065
+  },
+  {
+    "content": "process where like you have a client version that's running that's you know",
+    "start": 1069
+  },
+  {
+    "content": "hitting client side getting the data but that's just more development working",
+    "start": 1073
+  },
+  {
+    "content": "more things to maintain it's luckily gatsby has come up with something called",
+    "start": 1077
+  },
+  {
+    "content": "gasps we preview and I think other other vendors are starting to come out with",
+    "start": 1083
+  },
+  {
+    "content": "stuff like this is essentially a live running server hosted but for you that's",
+    "start": 1085
+  },
+  {
+    "content": "listening for changes so it's listening for changes and github listing changes",
+    "start": 1091
+  },
+  {
+    "content": "for contentful and it's real it's near real-time so when you when you can",
+    "start": 1094
+  },
+  {
+    "content": "update in your content you hit publish or draft or auto-saves it shows up right",
+    "start": 1099
+  },
+  {
+    "content": "away in this and this preview server and this is a server that you can share with",
+    "start": 1104
+  },
+  {
+    "content": "your content editors you can share around your organization and it's a nice",
+    "start": 1107
+  },
+  {
+    "content": "way to for them to see their changes one of the one of the push backs we got",
+    "start": 1110
+  },
+  {
+    "content": "initially with their initial static setup was that content editors were",
+    "start": 1114
+  },
+  {
+    "content": "we're not happy with with waiting for bill to happen anytime you made it made",
+    "start": 1118
+  },
+  {
+    "content": "a little change and we didn't really have a good nice way to preview our",
+    "start": 1121
+  },
+  {
+    "content": "changes I know contentful has ago thats you know",
+    "start": 1124
+  },
+  {
+    "content": "preview option where you can point it to a URL you still again again you have to",
+    "start": 1127
+  },
+  {
+    "content": "build out all that infrastructure this is pretty built for you which is nice so",
+    "start": 1133
+  },
+  {
+    "content": "we've been using this for a few months it's been pretty smooth so far haven't",
+    "start": 1138
+  },
+  {
+    "content": "seen any hiccups the team is it's in beta they're still working on it so",
+    "start": 1143
+  },
+  {
+    "content": "hopefully uh it'll just keep getting better so here's the biggest thing for",
+    "start": 1146
+  },
+  {
+    "content": "me I was surprised when I saw these numbers and these are under certain",
+    "start": 1153
+  },
+  {
+    "content": "conditions you know this is I think on a desktop connection we we didn't have to",
+    "start": 1157
+  },
+  {
+    "content": "do much for this to happen this is you know the chrome lighthouse scores on our",
+    "start": 1162
+  },
+  {
+    "content": "new website we were calm / laughs on my previous team when we were working on we",
+    "start": 1165
+  },
+  {
+    "content": "were calm we would spend endless iterations just on performance on each",
+    "start": 1169
+  },
+  {
+    "content": "one of these performance accessibility best practices SEO you know we deployed",
+    "start": 1174
+  },
+  {
+    "content": "the site small little tweaks in that here and there I'm perfect score without",
+    "start": 1180
+  },
+  {
+    "content": "much work in some ways this is great you know it's great from a product",
+    "start": 1184
+  },
+  {
+    "content": "perspective because you get the end result in some ways it's not so great",
+    "start": 1187
+  },
+  {
+    "content": "because you don't know you don't feel the pain of what it takes to get to this",
+    "start": 1190
+  },
+  {
+    "content": "point so kudos to the teams who worked on this to make it happen same with the",
+    "start": 1193
+  },
+  {
+    "content": "web page test you know these are sub to second load times pretty great all",
+    "start": 1200
+  },
+  {
+    "content": "around and this has had a huge impact that at some point when we were",
+    "start": 1206
+  },
+  {
+    "content": "launching this new site I wanted to make sure I team want to make sure we were",
+    "start": 1210
+  },
+  {
+    "content": "able to measure the the performance differences so we ran an a/b test you",
+    "start": 1213
+  },
+  {
+    "content": "know driving half of traffic half of US traffic to this new set up versus the",
+    "start": 1217
+  },
+  {
+    "content": "old set up it was in a complete apples apples comparisons the old site had",
+    "start": 1221
+  },
+  {
+    "content": "different slightly different content slightly different layout but I think",
+    "start": 1225
+  },
+  {
+    "content": "the the performance gains definitely had an impact on the end result and we saw",
+    "start": 1230
+  },
+  {
+    "content": "to 3x increasingly conversion and you read this a lot you you know about",
+    "start": 1235
+  },
+  {
+    "content": "companies saying how performance makes a huge impact on conversion and it's true",
+    "start": 1239
+  },
+  {
+    "content": "you know the old site wasn't slow it was medium performance I would say but this",
+    "start": 1245
+  },
+  {
+    "content": "new one is just it just blew it out of the water",
+    "start": 1250
+  },
+  {
+    "content": "and just to highlight some a few other systems internally that have been",
+    "start": 1256
+  },
+  {
+    "content": "starting to migrate over to the jam stack we work we work labs obviously the",
+    "start": 1260
+  },
+  {
+    "content": "design system is a new design to some teams coming up with to power ala we",
+    "start": 1266
+  },
+  {
+    "content": "were calm and a lot of miscellaneous you know Storybrooke dock sites that are",
+    "start": 1270
+  },
+  {
+    "content": "still happening so I also want to talk about some ulterior motives or selfish",
+    "start": 1277
+  },
+  {
+    "content": "reasons for choosing Jam stack as someone who's been doing this for I",
+    "start": 1289
+  },
+  {
+    "content": "don't know 10 to 15 years now you go through these cycles where you you build",
+    "start": 1293
+  },
+  {
+    "content": "something you iterate on it it's awesome then it's it's crap and tech debt you",
+    "start": 1298
+  },
+  {
+    "content": "start over buh-bah and you get to a point where it just get fatigued it's",
+    "start": 1303
+  },
+  {
+    "content": "like technology fatigue it's like I just want someone else to solve this problem",
+    "start": 1306
+  },
+  {
+    "content": "for me I'm done with it and I feel like it's gotten to that point was at least",
+    "start": 1309
+  },
+  {
+    "content": "for certain things so one of the main reasons I chose Jam stack to be honest",
+    "start": 1313
+  },
+  {
+    "content": "was it just helps me sleep better at night you know we we use these services",
+    "start": 1318
+  },
+  {
+    "content": "there's nothing wrong with Pingdom or New Relic or page of duty and they're",
+    "start": 1323
+  },
+  {
+    "content": "used all all the costs we work for different services but I haven't had a",
+    "start": 1325
+  },
+  {
+    "content": "need for them at all for the new stuff maybe some of the micro services that",
+    "start": 1330
+  },
+  {
+    "content": "are running still in the background to process some things but the website it",
+    "start": 1334
+  },
+  {
+    "content": "just works in fact you know my wife and family been",
+    "start": 1336
+  },
+  {
+    "content": "on vacation for the past couple of weeks before we came here I had had a single",
+    "start": 1340
+  },
+  {
+    "content": "call or alert or anything about something being down and it's nice it's",
+    "start": 1344
+  },
+  {
+    "content": "just nice to have that confidence and also more quality time with family",
+    "start": 1349
+  },
+  {
+    "content": "friends you know spending time with these little suckers so ultimately it",
+    "start": 1355
+  },
+  {
+    "content": "comes down to this you know technology is a tool it shouldn't be the bottleneck",
+    "start": 1364
+  },
+  {
+    "content": "it should enable you to each reach your goal emissions you should stand on the",
+    "start": 1368
+  },
+  {
+    "content": "shoulder of giants when you can and focus on the things that make your",
+    "start": 1374
+  },
+  {
+    "content": "business unique if you're spending more more than half your time you know",
+    "start": 1378
+  },
+  {
+    "content": "wrestling with the technology that's powering your business something's wrong",
+    "start": 1382
+  },
+  {
+    "content": "it's good good time to reevaluate it's hard to you know throw out",
+    "start": 1385
+  },
+  {
+    "content": "everything and start over but there's always ways to migrate over thank you",
+    "start": 1391
+  },
+  {
+    "content": "[Applause]",
+    "start": 1400
+  }
+]

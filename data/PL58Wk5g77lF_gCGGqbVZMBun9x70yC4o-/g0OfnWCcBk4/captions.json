@@ -1,0 +1,1282 @@
+[
+  {
+    "content": "how's everyone doing I'm a little",
+    "start": 0
+  },
+  {
+    "content": "nervous talk about WordPress at a jam stack conference you know even when I",
+    "start": 19
+  },
+  {
+    "content": "submitted the talk I still can't believe I submitted that talk but the truth is",
+    "start": 24
+  },
+  {
+    "content": "I've been working with WordPress for just well over half a decade building",
+    "start": 30
+  },
+  {
+    "content": "building websites like marketing marketing websites blogs ecommerce",
+    "start": 37
+  },
+  {
+    "content": "what-have-you and I've had to use WordPress whether willingly or not and",
+    "start": 43
+  },
+  {
+    "content": "so I'm excited to share just the rabbit hole that has become trying to implement",
+    "start": 48
+  },
+  {
+    "content": "Jam stack while still trying to leverage a lot of things that I actually enjoy",
+    "start": 55
+  },
+  {
+    "content": "using WordPress for so a bit about my background I for the last year I've been",
+    "start": 62
+  },
+  {
+    "content": "freelancing just taking on projects based on startups or content creators",
+    "start": 71
+  },
+  {
+    "content": "and building websites so a lot of the time say about 67% of the work that I've",
+    "start": 80
+  },
+  {
+    "content": "been doing has been wordpress based providing them an admin dashboard that I",
+    "start": 86
+  },
+  {
+    "content": "don't have to manage or build but also just giving them a very high-performance",
+    "start": 91
+  },
+  {
+    "content": "front-end to reach their mess mess user base the for a before I started",
+    "start": 96
+  },
+  {
+    "content": "freelancing I've I've spent five six years working at marketing and",
+    "start": 105
+  },
+  {
+    "content": "advertising agencies small and big we're sort of the smaller shops there their",
+    "start": 110
+  },
+  {
+    "content": "clients are small business owners and so for them WordPress is something that",
+    "start": 116
+  },
+  {
+    "content": "they've heard of and it was easy to really sell WordPress solutions for",
+    "start": 122
+  },
+  {
+    "content": "these for the clientele because of that I've been I was thrown into some",
+    "start": 129
+  },
+  {
+    "content": "projects were a lot of googling to figure out how to hack a lot of the core",
+    "start": 135
+  },
+  {
+    "content": "features to really extend it's true functionality and build some",
+    "start": 141
+  },
+  {
+    "content": "big big powerful web apps to a point where I wasn't using WordPress as",
+    "start": 146
+  },
+  {
+    "content": "content management solution I was really using it as a back-end framework where",
+    "start": 151
+  },
+  {
+    "content": "my skill my skill sets are in PHP in sequel so getting really deep into",
+    "start": 156
+  },
+  {
+    "content": "WordPress is framework and making it work for me is pretty much where I excel",
+    "start": 161
+  },
+  {
+    "content": "in front-end is something that I've recently been transitioned into learning",
+    "start": 167
+  },
+  {
+    "content": "JavaScript learning CSS and working with those languages I will say I'm probably",
+    "start": 173
+  },
+  {
+    "content": "still more bias towards using PHP JavaScript it seems like even after",
+    "start": 178
+  },
+  {
+    "content": "spending two to three years trying to learn it it's like I haven't felt like",
+    "start": 186
+  },
+  {
+    "content": "I've made a dent in it you know I I come from the WordPress world so you know",
+    "start": 190
+  },
+  {
+    "content": "most of the sites that are using jQuery so to to learn react to learn web hack",
+    "start": 196
+  },
+  {
+    "content": "to learn es6 it's been I'd like to say fun but it's been everything but in",
+    "start": 201
+  },
+  {
+    "content": "terms of just what I like to do I usually spend a lot of time a lot of",
+    "start": 211
+  },
+  {
+    "content": "time reading articles on medium attending meetups and pretty much",
+    "start": 216
+  },
+  {
+    "content": "sharing great memes because that's what what I strive for my handle is at the",
+    "start": 220
+  },
+  {
+    "content": "bottom that's pretty much where you can find me on all social LinkedIn Twitter",
+    "start": 226
+  },
+  {
+    "content": "Facebook Instagram github code pen what-have-you",
+    "start": 230
+  },
+  {
+    "content": "so I know I know after this talk there won't be a chance to ask questions or",
+    "start": 236
+  },
+  {
+    "content": "provide me comments but please find me and reach out if you have any thing to",
+    "start": 241
+  },
+  {
+    "content": "say so my goal today is not to sell you on using WordPress frig the chance tag",
+    "start": 246
+  },
+  {
+    "content": "my goal is to just show that it can be a viable solution depending on your your",
+    "start": 254
+  },
+  {
+    "content": "own technical constraints for for me personally and even when I worked at a",
+    "start": 262
+  },
+  {
+    "content": "small business it it was just easy to sell WordPress because people recognize",
+    "start": 267
+  },
+  {
+    "content": "the name so it was it was or expensive to try to switch away from",
+    "start": 272
+  },
+  {
+    "content": "that platform especially when like hosting plugins and other licenses that",
+    "start": 278
+  },
+  {
+    "content": "we've had to acquire and use to to switch from that completely just was not",
+    "start": 282
+  },
+  {
+    "content": "feasible at the end of the day most of our clients they care about development",
+    "start": 290
+  },
+  {
+    "content": "time getting things out quickly so a marketing advertising agencies you know",
+    "start": 295
+  },
+  {
+    "content": "I mean I'm used to the velocity of trying to knock out two to three sites a",
+    "start": 298
+  },
+  {
+    "content": "week and so to build those it's just a stack of jQuery plugins and you're just",
+    "start": 302
+  },
+  {
+    "content": "rolling you're rolling it out quickly you're not worried about performance",
+    "start": 308
+  },
+  {
+    "content": "you're just you're well you're more focused on making sure you hit the",
+    "start": 311
+  },
+  {
+    "content": "deadlines because that's pretty much how how projects are sold so today's talk",
+    "start": 316
+  },
+  {
+    "content": "I'm going to be just talking specifically about WordPress not so much",
+    "start": 322
+  },
+  {
+    "content": "like the jam stack or the the Jo or the M of jam stack where if you trying to",
+    "start": 325
+  },
+  {
+    "content": "use a static site generator or if you're just building a static site and you want",
+    "start": 331
+  },
+  {
+    "content": "to just pull from WordPress API I think there's a lot of great talks at this",
+    "start": 336
+  },
+  {
+    "content": "conference on that side so for my goal it's going to be speaking about",
+    "start": 340
+  },
+  {
+    "content": "WordPress the REST API how to set that up if you have a site and how to work",
+    "start": 344
+  },
+  {
+    "content": "with it how to get to a headless sea a CMS approach with WordPress are there",
+    "start": 349
+  },
+  {
+    "content": "issues and if there aren't issues are there solutions so spoiler alert there",
+    "start": 355
+  },
+  {
+    "content": "are some caveats so why use WordPress alright so over a third of the world's",
+    "start": 361
+  },
+  {
+    "content": "web is powered by WordPress over a third that's a big market share on top of that",
+    "start": 369
+  },
+  {
+    "content": "it's translated fully into over 65 languages and this may be a benefit or a",
+    "start": 376
+  },
+  {
+    "content": "concern but there's a ton of plugins out there that just speed up the development",
+    "start": 385
+  },
+  {
+    "content": "time from form builders page builders fields what have you - and really for",
+    "start": 391
+  },
+  {
+    "content": "the target user they're not necessarily tech savvy I deal with content creators",
+    "start": 400
+  },
+  {
+    "content": "they've I'm doing with digital marketers editors their use of the word",
+    "start": 405
+  },
+  {
+    "content": "interface so to have them change having them to learn a whole interface is",
+    "start": 410
+  },
+  {
+    "content": "difficult my life at my first job which was I was a sales rep updating them from",
+    "start": 416
+  },
+  {
+    "content": "windows 7 to Windows 8 was a nightmare so I can't imagine trying to provide",
+    "start": 423
+  },
+  {
+    "content": "these content creators or editors a whole new dashboard that they have to",
+    "start": 429
+  },
+  {
+    "content": "learn even even even if it's not a big difference for them it it can be night",
+    "start": 433
+  },
+  {
+    "content": "and day so to not have to change that admin experience but still try to",
+    "start": 439
+  },
+  {
+    "content": "leverage some up-and-coming web standards to get the best performance",
+    "start": 443
+  },
+  {
+    "content": "scalability and security that's what I strive for and the biggest thing of why",
+    "start": 449
+  },
+  {
+    "content": "I'm probably more attached to WordPress is I actually attend work camps which",
+    "start": 455
+  },
+  {
+    "content": "are their conferences they have one that's national it's called work mus and",
+    "start": 460
+  },
+  {
+    "content": "I've been attending the last three and it's it's been a great experience from",
+    "start": 466
+  },
+  {
+    "content": "seeing people like the last day of those conferences is that contributor day so",
+    "start": 470
+  },
+  {
+    "content": "people from all over the world will get together and it's kind of like a giant",
+    "start": 475
+  },
+  {
+    "content": "hackathon where people are contributing not just via code but they're",
+    "start": 478
+  },
+  {
+    "content": "contributing documentation I made a contribution by just editing an error on",
+    "start": 481
+  },
+  {
+    "content": "a Google Doc you know I contributed 1/3 of the web so it's for me seeing seeing",
+    "start": 486
+  },
+  {
+    "content": "that really made me grow to like appreciate the community made me",
+    "start": 493
+  },
+  {
+    "content": "appreciate the platform and the truth is it's not all pretty you know I hear it",
+    "start": 499
+  },
+  {
+    "content": "all the time WordPress is bloated WordPress is not",
+    "start": 506
+  },
+  {
+    "content": "secure or press sucks I I hear it all the funniest thing is when people",
+    "start": 509
+  },
+  {
+    "content": "telling me that they hate WordPress a lot of the times I ask them why and they",
+    "start": 515
+  },
+  {
+    "content": "cannot give me a more specific question like response than just the speed and",
+    "start": 520
+  },
+  {
+    "content": "performance and those are things that you can actually modify so the truth is",
+    "start": 525
+  },
+  {
+    "content": "if you are stuck with WordPress would like for most of the jobs that I've been",
+    "start": 532
+  },
+  {
+    "content": "stuck with with those agencies they they just know how to sell WordPress sites",
+    "start": 537
+  },
+  {
+    "content": "based on its branding and awareness if you don't have to use WordPress don't",
+    "start": 541
+  },
+  {
+    "content": "use it there are great headless CMS's out there so if you do",
+    "start": 548
+  },
+  {
+    "content": "not have to use it don't use it but like there that's that's really it you can",
+    "start": 552
+  },
+  {
+    "content": "get to a hell of CMS with it and I've had to deal with that rabbit hole and",
+    "start": 559
+  },
+  {
+    "content": "struggle but you know with sanity with we've talked content fool like you can",
+    "start": 564
+  },
+  {
+    "content": "accomplish all the same things that you'd want from any other headless CMS",
+    "start": 571
+  },
+  {
+    "content": "but if you're stuck with someone else selling website development and they say",
+    "start": 575
+  },
+  {
+    "content": "oh yeah we just sold this great spa that we're gonna build and it's gonna be back",
+    "start": 582
+  },
+  {
+    "content": "the backend is gonna be wordpress and as a junior dev you don't really have a say",
+    "start": 586
+  },
+  {
+    "content": "in a matter so your choices do you stay there or do you do not and you know for",
+    "start": 592
+  },
+  {
+    "content": "a good portion of my career I just toughed it out and hacked on top of what",
+    "start": 598
+  },
+  {
+    "content": "I had and then eventually I branched out on my own and still as a solo freelancer",
+    "start": 605
+  },
+  {
+    "content": "it's still hard to sell anything that's not a wordpress bound website and the",
+    "start": 612
+  },
+  {
+    "content": "truth is I can I can knock WordPress sites out pretty quickly like that I've",
+    "start": 617
+  },
+  {
+    "content": "I'm good at taking a static site because even at an agency that's what I was",
+    "start": 622
+  },
+  {
+    "content": "given I was given the HTML CSS and JavaScript and then my goal was to just",
+    "start": 627
+  },
+  {
+    "content": "turn that static site into a dynamic site with PHP so it's really hard to",
+    "start": 631
+  },
+  {
+    "content": "sell the opposite now where I'm gonna take their dynamic site and now I'm",
+    "start": 636
+  },
+  {
+    "content": "gonna turn it into a static lead generated site of course they don't",
+    "start": 642
+  },
+  {
+    "content": "really understand that it's still gonna be statically dynamic when they see when",
+    "start": 646
+  },
+  {
+    "content": "they hear static sites they're thinking nothing's gonna change but that's you",
+    "start": 651
+  },
+  {
+    "content": "know far from the truth so a little bit of housekeeping when I refer to",
+    "start": 655
+  },
+  {
+    "content": "WordPress I'm referring to their org which is their open-source platform",
+    "start": 661
+  },
+  {
+    "content": "where you can host it on anywhere that you like the dot-com is their hosted",
+    "start": 665
+  },
+  {
+    "content": "solution the interfaces are very different",
+    "start": 672
+  },
+  {
+    "content": "the dot-com is using a lot of latest standard JavaScript frameworks whereas",
+    "start": 677
+  },
+  {
+    "content": "the org is still a lamp stack with PHP and my sequel as its back-end however I",
+    "start": 683
+  },
+  {
+    "content": "will be addressing a couple things that have come in from com that are",
+    "start": 689
+  },
+  {
+    "content": "interesting and exciting to me and very relevant to the jam stack community so",
+    "start": 693
+  },
+  {
+    "content": "let's just look at the monolithic WordPress you had a server you had",
+    "start": 701
+  },
+  {
+    "content": "database you've had WordPress on top of it and whether you're accessing it from",
+    "start": 706
+  },
+  {
+    "content": "a website or mobile device like a laptop or mobile device you you process the",
+    "start": 711
+  },
+  {
+    "content": "WordPress CMS every time you hit the website for the most part that worked",
+    "start": 719
+  },
+  {
+    "content": "until you know you realize you need to scale if you've ever seen a website",
+    "start": 724
+  },
+  {
+    "content": "crash especially a WordPress website it's a nightmare getting those service",
+    "start": 731
+  },
+  {
+    "content": "service tickets is not fun and so decoupling was still something that had",
+    "start": 735
+  },
+  {
+    "content": "an agency we always talked about and we really wanted to but we just didn't know",
+    "start": 743
+  },
+  {
+    "content": "how to do it we like how to break out of that repo where do we host the front-end",
+    "start": 748
+  },
+  {
+    "content": "a lot of a lot of web agencies even for myself like I host and that allows me to",
+    "start": 754
+  },
+  {
+    "content": "have multiple installs so to have to pay for more hosting that's not WordPress",
+    "start": 760
+  },
+  {
+    "content": "just didn't make sense especially if you see some of the premium hosting costs",
+    "start": 767
+  },
+  {
+    "content": "that we have to pay for so there was a lot of like just not knowing what to do",
+    "start": 771
+  },
+  {
+    "content": "in the situation that we kind of just get the bull and just stuck everything",
+    "start": 777
+  },
+  {
+    "content": "with WordPress CMS so you know where you hear the concerns of security and",
+    "start": 781
+  },
+  {
+    "content": "performance a lot of websites if they're if they don't if the developers don't",
+    "start": 786
+  },
+  {
+    "content": "have a know-how of the backend and how to like really validate plug-in usage",
+    "start": 789
+  },
+  {
+    "content": "they're gonna just add every single plug-in activate them they might not",
+    "start": 794
+  },
+  {
+    "content": "delete some plugins that they're not using it so that that becomes bloated",
+    "start": 798
+  },
+  {
+    "content": "software I've seen sites that have 50 plugins that only are utilizing 12 and",
+    "start": 803
+  },
+  {
+    "content": "there's just no way around it because there's",
+    "start": 808
+  },
+  {
+    "content": "I just have to deactivate but I don't want to lead it cuz I just in case I",
+    "start": 811
+  },
+  {
+    "content": "might want to use it again but they don't realize every plugin that you have",
+    "start": 814
+  },
+  {
+    "content": "added to your site that's not active is just another backdoor to your website",
+    "start": 818
+  },
+  {
+    "content": "and then that goes security concerns vulnerabilities and and everything",
+    "start": 823
+  },
+  {
+    "content": "between but by default WordPress actually came out with a REST API I",
+    "start": 829
+  },
+  {
+    "content": "think like version 4.7 I don't know how long ago that is but any new WordPress",
+    "start": 837
+  },
+  {
+    "content": "install comes with a REST API now so you don't even have to deal with the",
+    "start": 842
+  },
+  {
+    "content": "WordPress admin if you don't want to well that's actually a lie you will have",
+    "start": 847
+  },
+  {
+    "content": "to to do some configurations but if you just spun up a whole new install you",
+    "start": 852
+  },
+  {
+    "content": "would have access to an endpoint and then this allows you to build a desktop",
+    "start": 857
+  },
+  {
+    "content": "app or mobile app progressive web app or like anything for IOT because it's just",
+    "start": 862
+  },
+  {
+    "content": "REST API that gives out JSON data so it is somewhat possible to get to a",
+    "start": 869
+  },
+  {
+    "content": "headless WordPress approach and build these mobile apps or any web app back in",
+    "start": 876
+  },
+  {
+    "content": "with WordPress why would you do this going back to a similar point a lot of",
+    "start": 887
+  },
+  {
+    "content": "the a lot of the people who are administrating the CMS they're used to",
+    "start": 896
+  },
+  {
+    "content": "the admin dashboard they don't want to learn something new so for a Content",
+    "start": 900
+  },
+  {
+    "content": "Manager you want them to have the same admin experience that they know and love",
+    "start": 905
+  },
+  {
+    "content": "or just no and and then you want to just take off load the client-side whether",
+    "start": 911
+  },
+  {
+    "content": "you're using a static site generator or if you want to build the static site on",
+    "start": 920
+  },
+  {
+    "content": "real time just based on some of the topics that we heard today if depending",
+    "start": 925
+  },
+  {
+    "content": "on the solution that you use you want the end user not to see any difference",
+    "start": 930
+  },
+  {
+    "content": "between it you just want to build this bridge between the admin dashboard and",
+    "start": 935
+  },
+  {
+    "content": "then the client-side and however you do but that's really just more of a design",
+    "start": 941
+  },
+  {
+    "content": "decision or an architectural decision but this is like the ideal user flow",
+    "start": 946
+  },
+  {
+    "content": "that I've been striving for is end user they don't care they don't care what",
+    "start": 951
+  },
+  {
+    "content": "what the stack is on the website they just want to consume the content or",
+    "start": 956
+  },
+  {
+    "content": "engage engage with the the product the admin they also do not really care what",
+    "start": 959
+  },
+  {
+    "content": "the stack is they just don't want the interface to change so those are the two",
+    "start": 967
+  },
+  {
+    "content": "two key user cases that we have to just keep happy everything in between us",
+    "start": 970
+  },
+  {
+    "content": "really just you know choose-your-own-adventure",
+    "start": 976
+  },
+  {
+    "content": "kind of other benefits to the dashboard WordPress has been making a lot of",
+    "start": 979
+  },
+  {
+    "content": "changes they release Guttenberg which is their new content creating plugin it's",
+    "start": 986
+  },
+  {
+    "content": "built with react it's it's using the REST API so it's Jam stack inside of",
+    "start": 992
+  },
+  {
+    "content": "WordPress but it's you know it's a more of a what what you see is what you get",
+    "start": 1000
+  },
+  {
+    "content": "experience and you know even when that came live there's a lot of people that",
+    "start": 1004
+  },
+  {
+    "content": "still have backlash because it is a whole new interface that they have to",
+    "start": 1010
+  },
+  {
+    "content": "learn I personally think it's great because yeah being able to build exactly",
+    "start": 1013
+  },
+  {
+    "content": "how you want your content to look without having to like refresh the page",
+    "start": 1019
+  },
+  {
+    "content": "that's kind of what we strive for and then on top of that the dot-com is",
+    "start": 1025
+  },
+  {
+    "content": "actually built with another open source project called Calypso which is a full",
+    "start": 1030
+  },
+  {
+    "content": "admin experience built entirely in JavaScript it's using node it's using",
+    "start": 1036
+  },
+  {
+    "content": "MongoDB react and Express I think and it's completely open-source but it works",
+    "start": 1041
+  },
+  {
+    "content": "with a.com so I personally haven't played with it as well but it's a",
+    "start": 1047
+  },
+  {
+    "content": "growing new project and with the WordPress open source that I think could",
+    "start": 1053
+  },
+  {
+    "content": "potentially replace the PHP a lot of PHP developers do not want that but I mean",
+    "start": 1060
+  },
+  {
+    "content": "look at the experience compared to the old the outdated org in my opinion it",
+    "start": 1066
+  },
+  {
+    "content": "looks better it's more mobile-friendly like I said the WordPress WordPress",
+    "start": 1071
+  },
+  {
+    "content": "latest versions will come with a REST API it's pretty much the domain / WP -",
+    "start": 1079
+  },
+  {
+    "content": "JSON you can change it but by default if you have a new WordPress install you're",
+    "start": 1085
+  },
+  {
+    "content": "gonna have REST API and like there's there's quite a few endpoints that are",
+    "start": 1090
+  },
+  {
+    "content": "like reserved so posts revisions categories tags themes menus there",
+    "start": 1097
+  },
+  {
+    "content": "they're constantly updating endpoints but they have a certain specific set",
+    "start": 1104
+  },
+  {
+    "content": "that is reserved to be used with any wordpress install so it is actually even",
+    "start": 1109
+  },
+  {
+    "content": "possible to just build a whole admin experience completely without having to",
+    "start": 1116
+  },
+  {
+    "content": "work with a PHP if you're able to personally I think that's just revenge",
+    "start": 1122
+  },
+  {
+    "content": "in the wheel for no reason but if you really want to get away from PHP you",
+    "start": 1126
+  },
+  {
+    "content": "have the capacity to do so and then on top of the reserved endpoints it's",
+    "start": 1131
+  },
+  {
+    "content": "pretty easy to add your own endpoint now before I change slides I'm warning you",
+    "start": 1139
+  },
+  {
+    "content": "you're gonna see some PHP so you've been warned to add a custom API endpoint",
+    "start": 1144
+  },
+  {
+    "content": "there's like a simple PHP snippet that really is you can you can choose the",
+    "start": 1151
+  },
+  {
+    "content": "versioning as you'd like and then you can build the endpoints as as you choose",
+    "start": 1157
+  },
+  {
+    "content": "and you have full full control of course you have to pay attention to what is",
+    "start": 1163
+  },
+  {
+    "content": "reserved under WordPress is core but beyond that like for this example this",
+    "start": 1170
+  },
+  {
+    "content": "is a snippet that I used when I built a a sinking plug-in with clients Spotify",
+    "start": 1175
+  },
+  {
+    "content": "play like playlist into WordPress and instead of just building a like a static",
+    "start": 1184
+  },
+  {
+    "content": "site that like consumed from his Spotify playlist like via API",
+    "start": 1190
+  },
+  {
+    "content": "I want it well he wanted the ability to choose which playlist became featured",
+    "start": 1195
+  },
+  {
+    "content": "and he wanted the ability to change that so sinking it into WordPress and then",
+    "start": 1200
+  },
+  {
+    "content": "allowing him to choose which ones would be featured and which ones aren't giving",
+    "start": 1204
+  },
+  {
+    "content": "him that full control but you know for him to upload the playlist",
+    "start": 1208
+  },
+  {
+    "content": "through WordPress and then get it to Spotify didn't wanna I didn't want to",
+    "start": 1212
+  },
+  {
+    "content": "facilitate mp3 files I don't want to facilitate the disc content distribution",
+    "start": 1215
+  },
+  {
+    "content": "I just wanted to make it more of a central hub and a content management",
+    "start": 1219
+  },
+  {
+    "content": "solution for for this specific client so really it's just registering a rest",
+    "start": 1224
+  },
+  {
+    "content": "route like it's it's in the name and it it has the ability to set set",
+    "start": 1230
+  },
+  {
+    "content": "authentication if you choose they have callbacks and everything so with this",
+    "start": 1235
+  },
+  {
+    "content": "snippet you can add as many endpoints that you like to the WordPress install",
+    "start": 1243
+  },
+  {
+    "content": "and you can literally use it as a REST API you hit the that URL and you'll",
+    "start": 1247
+  },
+  {
+    "content": "you'll have the JSON data so you don't have to work within that admin dashboard",
+    "start": 1253
+  },
+  {
+    "content": "at all if you don't want to but there are caveats even with the REST API being",
+    "start": 1259
+  },
+  {
+    "content": "in every install it every time you hit the rest endpoints the entire WordPress",
+    "start": 1268
+  },
+  {
+    "content": "core has to execute to serve the JSON data so if you have a lot of plugins on",
+    "start": 1276
+  },
+  {
+    "content": "your install yeah you're gonna run into some latency for the response time and",
+    "start": 1283
+  },
+  {
+    "content": "then the other part you know we're at Jam stack the whole concept or the whole",
+    "start": 1288
+  },
+  {
+    "content": "appeal of Jam stack is not having to manage or maintain servers but to to",
+    "start": 1292
+  },
+  {
+    "content": "work with WordPress you're gonna have to manage or maintain servers or pay for",
+    "start": 1298
+  },
+  {
+    "content": "that managed hosting and so hence the meme for a nearly headless solution yes",
+    "start": 1302
+  },
+  {
+    "content": "so so without it there's there's this constant called short in it and",
+    "start": 1313
+  },
+  {
+    "content": "WordPress which allows you to disable core core core functionality from",
+    "start": 1318
+  },
+  {
+    "content": "loading but if you were just hitting a REST API like I I listed the four",
+    "start": 1324
+  },
+  {
+    "content": "plugins that I pretty much use on any any site advanced custom feels gravity",
+    "start": 1329
+  },
+  {
+    "content": "forms migrate DB Pro and then Yoast SEO I can't imagine building a site without",
+    "start": 1333
+  },
+  {
+    "content": "these plugins mostly because I forget how to do meta tags so using using Yoast",
+    "start": 1341
+  },
+  {
+    "content": "SEO for all all that and then advanced custom fields for building custom field",
+    "start": 1346
+  },
+  {
+    "content": "players like they they have a lot of great data structures created and",
+    "start": 1352
+  },
+  {
+    "content": "gravity forms with these four plugins I can pretty much build anything from a",
+    "start": 1357
+  },
+  {
+    "content": "complex members membership ecommerce website to a simple blog but you know",
+    "start": 1362
+  },
+  {
+    "content": "with these four plugins you know I used something called Apache",
+    "start": 1371
+  },
+  {
+    "content": "bench which allows you to simulate requests and get like a benchmark on",
+    "start": 1375
+  },
+  {
+    "content": "numbers and really after 100 requests we're looking at over 200 milliseconds",
+    "start": 1381
+  },
+  {
+    "content": "as the average response time which is kind of slow if you look at postman most",
+    "start": 1385
+  },
+  {
+    "content": "requests should be 200 milliseconds or less and so this was this works but",
+    "start": 1390
+  },
+  {
+    "content": "you'll see latency and this is just with 4 plugin so you can imagine if you're",
+    "start": 1397
+  },
+  {
+    "content": "dealing with 6 or 7 plugins that's not 50 plugins you're gonna see see worse",
+    "start": 1401
+  },
+  {
+    "content": "request time served so obviously something needs to be",
+    "start": 1407
+  },
+  {
+    "content": "changed a solution like like in the previous slide there is a there is a",
+    "start": 1412
+  },
+  {
+    "content": "variable a constant that you can define inside WordPress s core that will",
+    "start": 1418
+  },
+  {
+    "content": "disable wordpress the score files from being loaded it's called short in it and",
+    "start": 1423
+  },
+  {
+    "content": "by setting it true you can literally tell WordPress to load as little as",
+    "start": 1428
+  },
+  {
+    "content": "possible the design and development decision comes from where you set this",
+    "start": 1432
+  },
+  {
+    "content": "parameter you can put it as a simple in inside a config file and not run any",
+    "start": 1439
+  },
+  {
+    "content": "WordPress core files or you can move into a plug-in so that you can still let",
+    "start": 1447
+  },
+  {
+    "content": "some core files run but you want to hijack the plugins from loading so if",
+    "start": 1452
+  },
+  {
+    "content": "only load what you need those design decisions really come down to how how",
+    "start": 1459
+  },
+  {
+    "content": "how much you need to rely on WordPress WordPress has things like WP query",
+    "start": 1465
+  },
+  {
+    "content": "which is their core functionality for like getting data from a data the",
+    "start": 1472
+  },
+  {
+    "content": "database so if you need that to return data to the JSON like endpoint you're",
+    "start": 1478
+  },
+  {
+    "content": "going to want some of the core files to be run so I'm gonna show where you can",
+    "start": 1485
+  },
+  {
+    "content": "set this variable how you can kind of configure it some approaches that I",
+    "start": 1491
+  },
+  {
+    "content": "don't recommend doing in production but you can do if you would like to get",
+    "start": 1496
+  },
+  {
+    "content": "better response times so by default you can you can throw this and what",
+    "start": 1501
+  },
+  {
+    "content": "WordPress has is WP config file you can throw it there and pretty much this is a",
+    "start": 1509
+  },
+  {
+    "content": "great solution if you really want nothing to do with WordPress besides its",
+    "start": 1515
+  },
+  {
+    "content": "API this this basically just says load as little as possible because we're",
+    "start": 1519
+  },
+  {
+    "content": "gonna be doing ajax requests every every request that's going to be coming to the",
+    "start": 1525
+  },
+  {
+    "content": "WordPress site it's gonna be like a nice asynchronous call so tell WordPress to",
+    "start": 1530
+  },
+  {
+    "content": "load Lillis first and then load the files as necessary or you can you can",
+    "start": 1536
+  },
+  {
+    "content": "load it with a custom parameter saying any time I make a specific request to",
+    "start": 1548
+  },
+  {
+    "content": "the WordPress site I'm going to set a different flag and then I want this I",
+    "start": 1555
+  },
+  {
+    "content": "can toggle this variable on and off this this kind of allows you to handle cost a",
+    "start": 1561
+  },
+  {
+    "content": "custom requests as you want and but still leverage WordPress correct the",
+    "start": 1570
+  },
+  {
+    "content": "main difference between these is if you do not want any of core files to be",
+    "start": 1576
+  },
+  {
+    "content": "loaded or not in this approach the WordPress core will still run it's just",
+    "start": 1581
+  },
+  {
+    "content": "depending on the request it may not load everything as needed by doing it this",
+    "start": 1587
+  },
+  {
+    "content": "way by by doing it the first approach or a second when when you're disabling the",
+    "start": 1598
+  },
+  {
+    "content": "the core files you can get like 30 milliseconds in",
+    "start": 1604
+  },
+  {
+    "content": "terms of response time that's you know like 90% faster than what I had just",
+    "start": 1609
+  },
+  {
+    "content": "shown you and so the way that works is because you're not loading any of the",
+    "start": 1614
+  },
+  {
+    "content": "core files which which is the bloated we're but again if you're relying on",
+    "start": 1619
+  },
+  {
+    "content": "some of the query logic or relying on the database if you're relying on the",
+    "start": 1627
+  },
+  {
+    "content": "admin experience this isn't really a practical approach and this also",
+    "start": 1631
+  },
+  {
+    "content": "requires you to maintain config files and setting files that like if you do if",
+    "start": 1635
+  },
+  {
+    "content": "you do your own hosting or WordPress great you have access to those files for",
+    "start": 1641
+  },
+  {
+    "content": "me I do not want to host anyone's WordPress site I I thought I did when I",
+    "start": 1646
+  },
+  {
+    "content": "first started freelancing I did like a reseller business and it was a nightmare",
+    "start": 1650
+  },
+  {
+    "content": "so I personally will always pay for like a managed hosting provider and for that",
+    "start": 1654
+  },
+  {
+    "content": "they really disable the ability to edit their config files so I had to come up",
+    "start": 1661
+  },
+  {
+    "content": "with a better solution to turn off the core files when I needed and still",
+    "start": 1667
+  },
+  {
+    "content": "leverage the API to do that it's a simple plugin this way any site that has",
+    "start": 1675
+  },
+  {
+    "content": "this plug-in active and anytime I want it want this this configuration active I",
+    "start": 1684
+  },
+  {
+    "content": "can I can do so this allows me to keep the admin keep core files users many",
+    "start": 1690
+  },
+  {
+    "content": "plugins as I want and and not affect the rest API because I can still get the",
+    "start": 1697
+  },
+  {
+    "content": "performance because based on the requests if the site has its plugin on",
+    "start": 1702
+  },
+  {
+    "content": "it's going to handle the requests without all the core files being loaded",
+    "start": 1706
+  },
+  {
+    "content": "this gets me the best of both worlds in terms of performance it's in between",
+    "start": 1710
+  },
+  {
+    "content": "it's in between it's still under 200 milliseconds I'm like on an average",
+    "start": 1717
+  },
+  {
+    "content": "speed so it's about 50 percent better than the like just using the traditional",
+    "start": 1721
+  },
+  {
+    "content": "REST API like out-of-the-box solution it's obviously slower than if you just",
+    "start": 1727
+  },
+  {
+    "content": "disabled all core files but again if you're going to disable all the core",
+    "start": 1735
+  },
+  {
+    "content": "core at that point just don't use WordPress",
+    "start": 1738
+  },
+  {
+    "content": "that I think that's the better solution but if you're stuck with WordPress this",
+    "start": 1741
+  },
+  {
+    "content": "is kind of the best solution to get very performant rest api and still leverage a",
+    "start": 1746
+  },
+  {
+    "content": "lot of its tools and plugins I attached some links where I'm gonna share these",
+    "start": 1752
+  },
+  {
+    "content": "slides where there's a lot of tutorials there's a company called strata",
+    "start": 1761
+  },
+  {
+    "content": "where they're actually a one-click solution they're in beta right now and",
+    "start": 1766
+  },
+  {
+    "content": "pretty much a little turn your WordPress site into a static site so if you don't",
+    "start": 1771
+  },
+  {
+    "content": "want to deal with all that PHP code that I just showed you you could just install",
+    "start": 1775
+  },
+  {
+    "content": "their plug-in and and click a button which you know that's usually what",
+    "start": 1778
+  },
+  {
+    "content": "people strive for the other thing is Gatsby themes they've actually built",
+    "start": 1782
+  },
+  {
+    "content": "some WordPress themes that work great with a stack site generator so again if",
+    "start": 1787
+  },
+  {
+    "content": "you do not want to configure anything yourself you can just use those two",
+    "start": 1792
+  },
+  {
+    "content": "options and you could have have a jam stack headless WordPress approach as you",
+    "start": 1795
+  },
+  {
+    "content": "want and then I've attached a couple of tutorials additionally for for ongoing",
+    "start": 1802
+  },
+  {
+    "content": "resources and for questions and comments please just reach out to me on Twitter",
+    "start": 1809
+  },
+  {
+    "content": "LinkedIn whatever and that's really it you",
+    "start": 1814
+  },
+  {
+    "content": "[Applause]",
+    "start": 1825
+  },
+  {
+    "content": "",
+    "start": 1833
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "content": "oh my word all right here we go",
+    "start": 0
+  },
+  {
+    "content": "I gots speaker notes thank you okay fall off the stage right the beginning all",
+    "start": 18
+  },
+  {
+    "content": "right hi on Christmas Eve December 24th 1968 approximately six months prior to",
+    "start": 24
+  },
+  {
+    "content": "the first human steps on the moon Apollo 8 astronauts William Anders took a very",
+    "start": 35
+  },
+  {
+    "content": "important photograph of planet Earth why lunar orbit the photograph was called",
+    "start": 40
+  },
+  {
+    "content": "Earthrise armed with the power to change our",
+    "start": 45
+  },
+  {
+    "content": "perspective this masterpiece became known as the most influential",
+    "start": 48
+  },
+  {
+    "content": "environmental photograph ever taken today together we are embarking on what",
+    "start": 52
+  },
+  {
+    "content": "I believe measured in Silicon Valley scale will be just as influential of a",
+    "start": 60
+  },
+  {
+    "content": "journey a product launch so ambitious that with all of your support and the",
+    "start": 66
+  },
+  {
+    "content": "support of billions of people around the world it has the power to change one",
+    "start": 72
+  },
+  {
+    "content": "person's life and that life is mine today I would like to introduce you to a",
+    "start": 76
+  },
+  {
+    "content": "world-class user experience yes I'm talking about my space book my space",
+    "start": 83
+  },
+  {
+    "content": "book will have everything from day one it will have the longest and most",
+    "start": 91
+  },
+  {
+    "content": "restrictive approval process of any App Store in existence it has a",
+    "start": 95
+  },
+  {
+    "content": "cryptocurrency so hyped up that financial regulators are already calling",
+    "start": 100
+  },
+  {
+    "content": "it very troublesome oh and sorry that last point is actually wrong sorry not",
+    "start": 103
+  },
+  {
+    "content": "data mining at launch we will be supporting accounts from six major space",
+    "start": 109
+  },
+  {
+    "content": "agencies NASA ESA C NSA is ro j ax a and the russian so fellow astronauts i hope",
+    "start": 116
+  },
+  {
+    "content": "you will join me on myspace book dot info can you believe I got that domain",
+    "start": 128
+  },
+  {
+    "content": "name extension that TLD amazing don't be terrestrial be extraterrestrial",
+    "start": 134
+  },
+  {
+    "content": "thank you that's a real sight check it out alright so today we're gonna talk",
+    "start": 141
+  },
+  {
+    "content": "about how to own your content on social media my name is Zack I hadn't I did not",
+    "start": 149
+  },
+  {
+    "content": "hear Phil's second introduction so I have no idea what he said about me",
+    "start": 154
+  },
+  {
+    "content": "that's fine whatever he said it's fine I'm sure it's true I created 11d the",
+    "start": 157
+  },
+  {
+    "content": "static site generator and I work for filament group Phil my group is great we",
+    "start": 162
+  },
+  {
+    "content": "make websites that work for everyone performance accessibility worldwide",
+    "start": 165
+  },
+  {
+    "content": "ubiquity that's great the first thing you might be tempted to do if you're",
+    "start": 171
+  },
+  {
+    "content": "trying to own your your content on social media is to create your own",
+    "start": 177
+  },
+  {
+    "content": "social media site I've shown you today that it is possible",
+    "start": 180
+  },
+  {
+    "content": "obviously MySpace book dot info you can check it out if you own the entire site",
+    "start": 186
+  },
+  {
+    "content": "you own all the content on the site it is an incredible amount of work as you",
+    "start": 190
+  },
+  {
+    "content": "might not know from the UI of the site's that I've built but it is a lot of work",
+    "start": 196
+  },
+  {
+    "content": "the other thing you might be attempt to do is buy a social media site",
+    "start": 202
+  },
+  {
+    "content": "do I have sound okay sorry sorry this I know this is super unprofessional yeah",
+    "start": 209
+  },
+  {
+    "content": "yeah yep it's sorry it's alright it's our CTO yep oh wait no sorry do you know",
+    "start": 225
+  },
+  {
+    "content": "I'm right in the middle of a talk right my Facebook yeah someone made an offer",
+    "start": 232
+  },
+  {
+    "content": "how much 15 wait what no 15 no we can do better than that all right I'll have to",
+    "start": 237
+  },
+  {
+    "content": "call you back so the tark might might also be known as",
+    "start": 243
+  },
+  {
+    "content": "how to own your content on someone else's website so I built this archive",
+    "start": 249
+  },
+  {
+    "content": "it's called Zack leets Twitter archive it's an archive of all my tweets I'm",
+    "start": 253
+  },
+  {
+    "content": "going to talk about it a little bit today and how to build this on the jam",
+    "start": 257
+  },
+  {
+    "content": "stack and you might be asking why if some of you follow me on Twitter you",
+    "start": 260
+  },
+  {
+    "content": "might have seen the quality of my tweets why are they actually worth saving is",
+    "start": 265
+  },
+  {
+    "content": "that true and I guess you have a point on the",
+    "start": 271
+  },
+  {
+    "content": "spectrum of none to all in terms of my content that's worth saving it's more",
+    "start": 275
+  },
+  {
+    "content": "than none and I would argue that it's more than one unit of content that's",
+    "start": 280
+  },
+  {
+    "content": "worth saving so really my content has value to me I don't know if it has value",
+    "start": 286
+  },
+  {
+    "content": "to other people that's kind of irrelevant to this project but it does",
+    "start": 291
+  },
+  {
+    "content": "have value to me because things that I post on the Internet Act is like a",
+    "start": 295
+  },
+  {
+    "content": "supplemental brain for me I've often gone back and looked at my",
+    "start": 299
+  },
+  {
+    "content": "own blog posts how many people have searched on Google to solve a problem",
+    "start": 303
+  },
+  {
+    "content": "and their own blog comes up and you're like oh I forgot I wrote that that's",
+    "start": 306
+  },
+  {
+    "content": "nice and tweets are kind of the same thing for me and the other thing you we",
+    "start": 310
+  },
+  {
+    "content": "have to recognize is that all social media is inevitably doomed",
+    "start": 318
+  },
+  {
+    "content": "except my space book of course it will live on forever oh sorry oh all right",
+    "start": 322
+  },
+  {
+    "content": "wait one more second yeah Oh yep yep yep Oh 15 million all right yeah we'll take",
+    "start": 334
+  },
+  {
+    "content": "it awesome do they know that this is just a joke phone call and not actually",
+    "start": 347
+  },
+  {
+    "content": "a real thing they do okay all right yep okay yep I'll talk to you later bye",
+    "start": 352
+  },
+  {
+    "content": "beep all right wow what an incredible journey I'm glad you guys came with me",
+    "start": 358
+  },
+  {
+    "content": "on that we're just I'm just so delighted to announce that effective immediately",
+    "start": 365
+  },
+  {
+    "content": "my space book will be ending any Content associated with your count it's going to",
+    "start": 369
+  },
+  {
+    "content": "be deleted and I'm just really really happy about this transition thank you",
+    "start": 375
+  },
+  {
+    "content": "all nothing on this world is certain except the death of social media and",
+    "start": 380
+  },
+  {
+    "content": "taxes some sites like vinyl Orkut exist in read-only mode whether you can't",
+    "start": 387
+  },
+  {
+    "content": "delete your content even if you wanted to maybe you know someone that works at",
+    "start": 394
+  },
+  {
+    "content": "the company and might be able to go back and delete it for you manually myspace",
+    "start": 398
+  },
+  {
+    "content": "has relaunched a couple of times every time they relaunch its",
+    "start": 402
+  },
+  {
+    "content": "like they wipeout previous user data that existed and Google+ has shut down",
+    "start": 406
+  },
+  {
+    "content": "and taken everything with them there's another more insidious form of death",
+    "start": 412
+  },
+  {
+    "content": "that might be a play here it's kind of a race to the bottom in terms of user",
+    "start": 419
+  },
+  {
+    "content": "experience we can slowly destroy the user experience in a race even if we're",
+    "start": 424
+  },
+  {
+    "content": "fumbling around for profitability let's show some notifications right give me",
+    "start": 430
+  },
+  {
+    "content": "your location see some more advertisements awesome this is a big one",
+    "start": 438
+  },
+  {
+    "content": "right give me your cookies I don't want to show you everything let's show you",
+    "start": 445
+  },
+  {
+    "content": "let's give you a login modal get you authenticated and really this is let's",
+    "start": 453
+  },
+  {
+    "content": "be honest it's better on the app because it doesn't have all the other junk that",
+    "start": 460
+  },
+  {
+    "content": "we just showed and I'm absolutely not arguing today that everything on the web",
+    "start": 463
+  },
+  {
+    "content": "should last forever and I'm certainly not saying that I should host everything",
+    "start": 469
+  },
+  {
+    "content": "that I post on the Internet and I'm absolutely not saying that you should",
+    "start": 475
+  },
+  {
+    "content": "not use cloud services or third-party services now I'm not at a gem stock",
+    "start": 481
+  },
+  {
+    "content": "conference right okay yeah I'm saying that my content should exist on my terms",
+    "start": 486
+  },
+  {
+    "content": "if I'm done with it I can delete it it can go away if I'm not done with it it",
+    "start": 493
+  },
+  {
+    "content": "should stick around I don't want to be beholden to someone else for that so how",
+    "start": 498
+  },
+  {
+    "content": "do I maintain control of my content and it's all comes back to the URL URLs are",
+    "start": 503
+  },
+  {
+    "content": "really a public API to everything we post online and I want to own the",
+    "start": 511
+  },
+  {
+    "content": "canonical URL of the home base for the content and especially this is not this",
+    "start": 515
+  },
+  {
+    "content": "does not include vanity URLs you reserved your username on MySpace book",
+    "start": 520
+  },
+  {
+    "content": "that info great oh I forgot to put down I forgot to launch our our shutdown",
+    "start": 525
+  },
+  {
+    "content": "notice wait we're doing it on stage right now",
+    "start": 531
+  },
+  {
+    "content": "so if you control the full URL you control the content some services allow",
+    "start": 538
+  },
+  {
+    "content": "you to do this better than others tumblr is a nice one you can use a custom",
+    "start": 544
+  },
+  {
+    "content": "domain medium used to allow this until they realized that that was giving up",
+    "start": 548
+  },
+  {
+    "content": "too much power I stopped offering it in 2017",
+    "start": 554
+  },
+  {
+    "content": "and net liffe I amazing obviously that let you very easily add a custom domain",
+    "start": 558
+  },
+  {
+    "content": "to your site and I'm not joking around when I say I want net Liffe I to be the",
+    "start": 564
+  },
+  {
+    "content": "new and improved future proof geo cities everybody get a site put it on that",
+    "start": 568
+  },
+  {
+    "content": "laughs I it's awesome they did not pay me to say that well they kind of did cuz",
+    "start": 575
+  },
+  {
+    "content": "I'm here yeah so we want simple creation for the web we want to empower people to",
+    "start": 579
+  },
+  {
+    "content": "create their own stuff it doesn't really matter what tools you",
+    "start": 585
+  },
+  {
+    "content": "use behind the scenes right you could just dump an HTML file up there you",
+    "start": 589
+  },
+  {
+    "content": "could use eleven you use a gasp you could use Hugo you can have a CMS backed",
+    "start": 593
+  },
+  {
+    "content": "behind it but really it comes down to URLs URLs are power unfortunately",
+    "start": 597
+  },
+  {
+    "content": "they're also under attack pew pew amp is a big one I know Dave is",
+    "start": 604
+  },
+  {
+    "content": "a big fan of ampules talking really nice things about it not too long ago so when",
+    "start": 611
+  },
+  {
+    "content": "you when you click through something on the Google search engine from the",
+    "start": 617
+  },
+  {
+    "content": "carousel you get this google.com slash amp that's not the real URL then it's",
+    "start": 620
+  },
+  {
+    "content": "not the connect canonical URL of the content they try and hide the domain",
+    "start": 626
+  },
+  {
+    "content": "here somewhere that's the little domain there yeah",
+    "start": 630
+  },
+  {
+    "content": "awesome but that's really not great some more attacks on the URLs and app",
+    "start": 636
+  },
+  {
+    "content": "stores obviously you certainly don't necessarily go to a URL to download an",
+    "start": 641
+  },
+  {
+    "content": "app but by god if you start at their URL they'll try and get you to download the",
+    "start": 647
+  },
+  {
+    "content": "app as hard as possible and I would also argue that UX the UX of web browsers",
+    "start": 651
+  },
+  {
+    "content": "especially embedded browsers inside of native apps have really attacked the URL",
+    "start": 657
+  },
+  {
+    "content": "minimizing the prominence in the UI just a few other quick ones like us on",
+    "start": 665
+  },
+  {
+    "content": "Facebook see the a lot of that and marketing",
+    "start": 671
+  },
+  {
+    "content": "materials I would also ordered QR codes are an attack on the URL it's really",
+    "start": 673
+  },
+  {
+    "content": "kind of funny to think of Q are seeing QR codes around and I don't know who",
+    "start": 679
+  },
+  {
+    "content": "posted this tweet but they thought of just printing QR code stickers where you",
+    "start": 686
+  },
+  {
+    "content": "just put it over someone else's QR code and send it to your own site I thought",
+    "start": 690
+  },
+  {
+    "content": "that was kind of interesting and the nice physical man-in-the-middle attack",
+    "start": 693
+  },
+  {
+    "content": "and everyone's favorite America Online keywords we really love those really",
+    "start": 696
+  },
+  {
+    "content": "relevant this is a super relevant talk right now so I I really love the indie",
+    "start": 702
+  },
+  {
+    "content": "web and any web is sort of a people focused alternative to sort of the",
+    "start": 710
+  },
+  {
+    "content": "corporate centralized controlled web the one that has been sort of espoused by",
+    "start": 714
+  },
+  {
+    "content": "giant Internet companies and big social media companies and I went to an indie",
+    "start": 722
+  },
+  {
+    "content": "web camp last year and it was really really kind of nice they right at the",
+    "start": 728
+  },
+  {
+    "content": "beginning they went around and everybody demoed their personal site and I thought",
+    "start": 733
+  },
+  {
+    "content": "that was a really amazing thing how have your own content owned your own content",
+    "start": 737
+  },
+  {
+    "content": "Andy Bell has a site called personal City s I don't know how to say that out",
+    "start": 742
+  },
+  {
+    "content": "loud without it sounding super awkward but it's personal sites are awesome you",
+    "start": 747
+  },
+  {
+    "content": "can go up and put your own site on this and they have a nice tag there for any",
+    "start": 752
+  },
+  {
+    "content": "web sites as well but just personal sites are awesome they are awesome here",
+    "start": 755
+  },
+  {
+    "content": "a couple of my favorite ones that include some indie web stuff",
+    "start": 761
+  },
+  {
+    "content": "max bulk Mattias OTT Jeremy Keith Charlie Owen Erin Pirozhki and Paul Paul",
+    "start": 764
+  },
+  {
+    "content": "Robert Lloyd I've really done a nice job with their sites but it's not just for",
+    "start": 772
+  },
+  {
+    "content": "personal content right you can take these same principles and apply them to",
+    "start": 778
+  },
+  {
+    "content": "your business as well so adam conover is really big internet presence he's a",
+    "start": 782
+  },
+  {
+    "content": "internet celebrity as it were he weren't used to work for a college humor and",
+    "start": 789
+  },
+  {
+    "content": "college humor used to have videos on their site and fans used to watch videos",
+    "start": 795
+  },
+  {
+    "content": "on their site they controlled everything about that experience that was great",
+    "start": 799
+  },
+  {
+    "content": "then when Facebook sort of came out with their video platform everybody was very",
+    "start": 805
+  },
+  {
+    "content": "tempted to switch to Facebook video because the the viewership metrics were",
+    "start": 809
+  },
+  {
+    "content": "off the charts and so CollegeHumor switched there's no way to monetize",
+    "start": 813
+  },
+  {
+    "content": "videos that were on Facebook but they switched and this sentence is just",
+    "start": 818
+  },
+  {
+    "content": "burned in my brain we started posting videos natively to",
+    "start": 823
+  },
+  {
+    "content": "Facebook instead why instead so the holy grail of indie web is a posse approach",
+    "start": 828
+  },
+  {
+    "content": "it's called posse because it's initialism it stands for publish on your",
+    "start": 839
+  },
+  {
+    "content": "own site and syndicate elsewhere so you have the canonical URL and then you post",
+    "start": 843
+  },
+  {
+    "content": "a copy of that to social media Jeremy Keith has a really nice set up for this",
+    "start": 850
+  },
+  {
+    "content": "he has a little widget on his side he goes to it he types in what he wants to",
+    "start": 855
+  },
+  {
+    "content": "post on social media he selects the social media sites he wants to post to",
+    "start": 860
+  },
+  {
+    "content": "he can include photos he hits post and it will send the k2 whatever he wants",
+    "start": 864
+  },
+  {
+    "content": "really kind of awesome so he controls the home base for that content",
+    "start": 873
+  },
+  {
+    "content": "I've been violating those rules for 13 years I joined Twitter com in 2006 I",
+    "start": 878
+  },
+  {
+    "content": "have about 27,000 tweets my website is Zack Lee calm I've",
+    "start": 885
+  },
+  {
+    "content": "established a little bit a few months before that get about a 243 posts on",
+    "start": 890
+  },
+  {
+    "content": "there so how do i bridge the gap between I have this giant database of existing",
+    "start": 895
+  },
+  {
+    "content": "content that I have not used posse on I don't I don't have copies of that on my",
+    "start": 901
+  },
+  {
+    "content": "own site so there's an alternative approach to posse they call pesos and I",
+    "start": 906
+  },
+  {
+    "content": "did not name these I'm sorry they're awkward they're weird I don't like them",
+    "start": 911
+  },
+  {
+    "content": "but they are what exists and I don't want to make a 14th standard so pesos",
+    "start": 916
+  },
+  {
+    "content": "stands for published elsewhere syndicate to my own site so you the the social",
+    "start": 923
+  },
+  {
+    "content": "media site is the is the initial point of contact and then I will backfill that",
+    "start": 927
+  },
+  {
+    "content": "to my own site and Aaron Pirozhki one of the founders of indie web has said that",
+    "start": 932
+  },
+  {
+    "content": "Posse has our pesos is really a band-aid for the problem and I kind of agree with",
+    "start": 936
+  },
+  {
+    "content": "that but I think it's also a good like intermediate step to get it get me where",
+    "start": 940
+  },
+  {
+    "content": "I'm going and maybe I'll implement Posse on my site later so this is just what",
+    "start": 945
+  },
+  {
+    "content": "it's like I go to Twitter I post my stuff and then I get a tweet ID whenever",
+    "start": 951
+  },
+  {
+    "content": "I post a tweet and then I want that URL to also exist on my own site and URL",
+    "start": 956
+  },
+  {
+    "content": "parody here is really important to me because when Twitter goes down and",
+    "start": 963
+  },
+  {
+    "content": "ceases to be a service because all social media is doomed as we've already",
+    "start": 968
+  },
+  {
+    "content": "established and with our one data point of MySpace book it's proved at beyond",
+    "start": 972
+  },
+  {
+    "content": "the shadow of a doubt I want URL parody between the two sites so Twitter calm",
+    "start": 977
+  },
+  {
+    "content": "calm slash Twitter and like I said when Twitter dies I want to be able to still",
+    "start": 984
+  },
+  {
+    "content": "easily translate the URLs that I've lost to URLs that are on my site Jeremy Keith",
+    "start": 990
+  },
+  {
+    "content": "puts it really well he's really I think he's really talking about web",
+    "start": 998
+  },
+  {
+    "content": "architecture here not necessarily third party services but I think it's also",
+    "start": 1001
+  },
+  {
+    "content": "applicable right how well does it fail I don't want all of my supplementary brain",
+    "start": 1004
+  },
+  {
+    "content": "stuff to just disappear so in an ideal world I would go to twitter.com open up",
+    "start": 1010
+  },
+  {
+    "content": "their source code and just inject my own canonical you rel right and right into",
+    "start": 1019
+  },
+  {
+    "content": "their source code and save it but unfortunately they don't allow me to do",
+    "start": 1023
+  },
+  {
+    "content": "that I don't know why they should I could really help them with their site",
+    "start": 1027
+  },
+  {
+    "content": "so I'm forced to sort of think of to make canonical of mors it's more of a",
+    "start": 1031
+  },
+  {
+    "content": "state of mind man you know what I mean it's just kind of like yeah I said I got",
+    "start": 1039
+  },
+  {
+    "content": "to change I would think about it so Zell Lew wrote this amazing article",
+    "start": 1043
+  },
+  {
+    "content": "about designing a focus style and it's awesome you should read it it's",
+    "start": 1049
+  },
+  {
+    "content": "irrelevant to the point of this talk but at the bottom he says this article is",
+    "start": 1053
+  },
+  {
+    "content": "also originally posted on my blog so if I want to share something I want to find",
+    "start": 1057
+  },
+  {
+    "content": "the home base for the content that the author has established so if you're",
+    "start": 1062
+  },
+  {
+    "content": "sharing links on social media try do the courtesy to the author of",
+    "start": 1068
+  },
+  {
+    "content": "finding the home base for the content finding their idea of the canonical URL",
+    "start": 1072
+  },
+  {
+    "content": "and and share that instead because it's often a better user experience and I",
+    "start": 1078
+  },
+  {
+    "content": "think it's more tailored to a person's personality too so now you and let's",
+    "start": 1084
+  },
+  {
+    "content": "let's build your Twitter archives it's not right let's do it",
+    "start": 1091
+  },
+  {
+    "content": "so going to it so to do this we're gonna do I'm just going to do a quick demo of",
+    "start": 1094
+  },
+  {
+    "content": "how to build this in eleven D just to get you started what I did is I went",
+    "start": 1097
+  },
+  {
+    "content": "into my settings you click through to what is it account sorry I can really",
+    "start": 1102
+  },
+  {
+    "content": "read that as you can tell you click through your user data there at the",
+    "start": 1112
+  },
+  {
+    "content": "bottom you put in your password and this is my real password as you can tell by",
+    "start": 1115
+  },
+  {
+    "content": "the clipping there on the text you hit the download archive button and they'll",
+    "start": 1119
+  },
+  {
+    "content": "eventually give you a giant zip file full of all of your data and inside that",
+    "start": 1124
+  },
+  {
+    "content": "file will be a tweet J s file mine is a thirty one megabyte JavaScript array so",
+    "start": 1129
+  },
+  {
+    "content": "it's pretty big for just plain text stuff in there so you'll want to open",
+    "start": 1138
+  },
+  {
+    "content": "that up there's this weird awkward like variable declaration at the top I don't",
+    "start": 1144
+  },
+  {
+    "content": "know why they're using that legacy code I'm sure change it to module export so",
+    "start": 1150
+  },
+  {
+    "content": "we can use it a node and then it'll be ready for us to use in 11 D how many",
+    "start": 1155
+  },
+  {
+    "content": "people actually use they'll have used 11 D oh wow that's awesome all right cool",
+    "start": 1161
+  },
+  {
+    "content": "and I showed this website to my boss and his first feedback was where's the",
+    "start": 1167
+  },
+  {
+    "content": "documentation button so I made a huge and even if you have like a super wide",
+    "start": 1173
+  },
+  {
+    "content": "screen monitor it will still be it will be as wide as you give it and I guess I",
+    "start": 1181
+  },
+  {
+    "content": "don't know I'm kind of proud of the project because it's really had some",
+    "start": 1189
+  },
+  {
+    "content": "really cool sites picked it up and started to use it a lot of people are",
+    "start": 1194
+  },
+  {
+    "content": "using it for personal sites and some more bigger businesses are starting to",
+    "start": 1198
+  },
+  {
+    "content": "use it as well I don't know if you know these two guys they",
+    "start": 1202
+  },
+  {
+    "content": "have some clout in the performance game Mathias uses it for v8 dev and he really",
+    "start": 1206
+  },
+  {
+    "content": "likes the build times really fast and Alex Russell noted performance grump he",
+    "start": 1214
+  },
+  {
+    "content": "says that the output is often faster than other sites that he's traced which",
+    "start": 1222
+  },
+  {
+    "content": "i think is kind of cool and then I don't know who this guy is but he also thinks",
+    "start": 1227
+  },
+  {
+    "content": "it's fast the other kind of cool thing about eleventy is that it's sort of",
+    "start": 1230
+  },
+  {
+    "content": "decoupled from the front-end rat-race entirely we don't really have any",
+    "start": 1235
+  },
+  {
+    "content": "opinions about what javascript frameworks you should use and we don't",
+    "start": 1240
+  },
+  {
+    "content": "tie into one of those you can use one that's fine if you don't want to use one",
+    "start": 1243
+  },
+  {
+    "content": "that's also fine and what goes in was what comes out you have full control",
+    "start": 1248
+  },
+  {
+    "content": "over the output of this site so if I go to a site that exists on the web and I",
+    "start": 1254
+  },
+  {
+    "content": "try and look at their source code there's no way for me to know if it's",
+    "start": 1259
+  },
+  {
+    "content": "using eleventy it's impossible there's no we don't do any transformation that",
+    "start": 1262
+  },
+  {
+    "content": "says oh there's an 11 JavaScript variable there I could use 2 to really",
+    "start": 1266
+  },
+  {
+    "content": "make myself really vain so I could see what people are using it no there's no",
+    "start": 1270
+  },
+  {
+    "content": "way for me to know who's using it Lebanon who isn't using 11e and you can",
+    "start": 1274
+  },
+  {
+    "content": "also sort of choose your own templating languages we support xi that was not",
+    "start": 1279
+  },
+  {
+    "content": "intentional but we support eleven different languages right now and there",
+    "start": 1284
+  },
+  {
+    "content": "are more to come I'm gonna democratize that so I'm not the arbiter of those and",
+    "start": 1290
+  },
+  {
+    "content": "other people have told me because I don't think I should be able to say and",
+    "start": 1296
+  },
+  {
+    "content": "it's simple and approachable because I wrote most of it other people have told",
+    "start": 1300
+  },
+  {
+    "content": "me that it's simple and approachable Nick Weaver who I just met yesterday",
+    "start": 1306
+  },
+  {
+    "content": "launched this awesome site University of Wisconsin that's really cool I was",
+    "start": 1311
+  },
+  {
+    "content": "excited to see that the CERN World Wide Web rebuild this site is written in 11 D",
+    "start": 1315
+  },
+  {
+    "content": "which I thought was like it made my life that a thing that I built exists on a",
+    "start": 1321
+  },
+  {
+    "content": "cern domain oh my god that's amazing like I said earlier it's used on VA dev",
+    "start": 1327
+  },
+  {
+    "content": "web dev also uses it so a couple Google properties",
+    "start": 1334
+  },
+  {
+    "content": "so let's get back to building our twitter archive after that minor little",
+    "start": 1340
+  },
+  {
+    "content": "11 D sales pitch there so that we're gonna use one template to build this and",
+    "start": 1343
+  },
+  {
+    "content": "there's when it comes to 11 T templates I my favorite thing is just used raw",
+    "start": 1351
+  },
+  {
+    "content": "JavaScript so I'll have a I have a JavaScript class here if you don't like",
+    "start": 1355
+  },
+  {
+    "content": "classes you can use functions or you could return a string you could return a",
+    "start": 1360
+  },
+  {
+    "content": "buffer it doesn't really matter what your turn but if you use a class it has",
+    "start": 1364
+  },
+  {
+    "content": "to have a render function and that can be a sync or not a sync",
+    "start": 1368
+  },
+  {
+    "content": "I'm gonna duck down here so you can actually so renders down there and then",
+    "start": 1373
+  },
+  {
+    "content": "if you want to fetch data that's the other method and you can do a sync here",
+    "start": 1379
+  },
+  {
+    "content": "if you want everything can be a sync so yeah what this will do as you can see",
+    "start": 1384
+  },
+  {
+    "content": "it's using the pagination API which is a very clumsy way to say I want to",
+    "start": 1391
+  },
+  {
+    "content": "generate multiple templates from a single template file I want a multiple",
+    "start": 1397
+  },
+  {
+    "content": "output files from a single input file so I've included my tweet j/s data source",
+    "start": 1402
+  },
+  {
+    "content": "here that I got from my zip file I want one single output file per",
+    "start": 1408
+  },
+  {
+    "content": "iteration of my tweets and I want to a leas at to the tweet variable and so",
+    "start": 1413
+  },
+  {
+    "content": "really all I'm doing here is making for every single tweet that I posted it",
+    "start": 1419
+  },
+  {
+    "content": "makes one file that exists at that URL so I get URL parity between my Twitter",
+    "start": 1423
+  },
+  {
+    "content": "URLs and tweets on my site so with these two files to ejs and then tweets to file",
+    "start": 1429
+  },
+  {
+    "content": "9/11 das I can now build my Twitter archive and you don't even necessarily",
+    "start": 1437
+  },
+  {
+    "content": "need to do it in PNM's NPM install here if you don't want you can use npx to",
+    "start": 1446
+  },
+  {
+    "content": "just run it and that's what I've done here just to simplify this demo and kind",
+    "start": 1451
+  },
+  {
+    "content": "of the cool thing about this I was really I give myself a pat on the back",
+    "start": 1456
+  },
+  {
+    "content": "27,000 files and 23 seconds which I think I thought was pretty good 23",
+    "start": 1461
+  },
+  {
+    "content": "seconds is still a long time to wait but 27,000 files that's that's pretty solid",
+    "start": 1467
+  },
+  {
+    "content": "performance",
+    "start": 1472
+  },
+  {
+    "content": "all right so it makes like I said it makes a file it generates all these URLs",
+    "start": 1476
+  },
+  {
+    "content": "for all my tweets a single file for every tweet and it puts it by default in",
+    "start": 1481
+  },
+  {
+    "content": "the site folder and so I can just upload that genell afire I can run this build",
+    "start": 1485
+  },
+  {
+    "content": "on that live fire I could do whatever I want with them so really that's all you",
+    "start": 1489
+  },
+  {
+    "content": "need to do to have a canonical backup of all of your tweets backup complete hey",
+    "start": 1493
+  },
+  {
+    "content": "I've kind of made mine a little bit fancier since then I have a nice index",
+    "start": 1500
+  },
+  {
+    "content": "page that has some stuff on and I built some extra analytics so I know like mmm",
+    "start": 1507
+  },
+  {
+    "content": "what's my most common emoji like what swear words do I like to put up how many",
+    "start": 1512
+  },
+  {
+    "content": "accidents will amp URLs have I posted and really the thing that kind of blew",
+    "start": 1518
+  },
+  {
+    "content": "me away here is that 60% of my tweets are replies so I guess I'm super chatty",
+    "start": 1524
+  },
+  {
+    "content": "on there I didn't realize that before I posted this night before I built this",
+    "start": 1529
+  },
+  {
+    "content": "well that's fine I also made like a highlights page so I",
+    "start": 1533
+  },
+  {
+    "content": "can convince people to follow me based on my like highlight reel of tweets my",
+    "start": 1537
+  },
+  {
+    "content": "most successful tweets one of the most embarrassing things that I found out",
+    "start": 1543
+  },
+  {
+    "content": "from this is that so when I looked at my most retweeted people my most mentioned",
+    "start": 1548
+  },
+  {
+    "content": "people and my most replied to people every single blacked-out name here is a",
+    "start": 1553
+  },
+  {
+    "content": "white dude so that was not good I kind of confront some things in my life and",
+    "start": 1559
+  },
+  {
+    "content": "I'm also a white dude so there's like a black another box there yeah not great",
+    "start": 1568
+  },
+  {
+    "content": "but at least I'm aware of it now and I can start like not doing that as much or",
+    "start": 1572
+  },
+  {
+    "content": "diversifying the people that I replied to and retweet so yeah that was very",
+    "start": 1577
+  },
+  {
+    "content": "humbling another thing I built was threading which was kind of nice",
+    "start": 1582
+  },
+  {
+    "content": "backwards and forwards so I go to a tweet and I'll show me all my personal",
+    "start": 1587
+  },
+  {
+    "content": "replies to my own tweets so if I have a big giant thread of tweets that I won I",
+    "start": 1594
+  },
+  {
+    "content": "can make a nice single page representation of that I don't include",
+    "start": 1599
+  },
+  {
+    "content": "other people's tweets because I don't necessarily feel like I own those on if",
+    "start": 1602
+  },
+  {
+    "content": "people want to delete their tweets I don't want to maintain a copy",
+    "start": 1606
+  },
+  {
+    "content": "of those without their permission so it's just my tweets on my site but I do",
+    "start": 1609
+  },
+  {
+    "content": "provide links to to the replies so you can get to those on Twitter comm and",
+    "start": 1614
+  },
+  {
+    "content": "after I built threading I posted this tweet which says on a static website no",
+    "start": 1620
+  },
+  {
+    "content": "one can tell you use Big O of N squared to build it because I mean the fastest",
+    "start": 1626
+  },
+  {
+    "content": "thing for that but that's one of the my favorite things about the jam stack",
+    "start": 1634
+  },
+  {
+    "content": "right is that you can have shitty build code and it doesn't it doesn't affect",
+    "start": 1637
+  },
+  {
+    "content": "your end users the the end users just see amazing performance right it's",
+    "start": 1643
+  },
+  {
+    "content": "really great not necessarily like my proudest moment but I think it's great I",
+    "start": 1649
+  },
+  {
+    "content": "also built the thing so I could self host my media so this is like a new this",
+    "start": 1656
+  },
+  {
+    "content": "is not an unreleased 11d shortcode that's coming and this is kind of cool",
+    "start": 1661
+  },
+  {
+    "content": "too because it will go out and fetch any remote URL that you fill you that you",
+    "start": 1666
+  },
+  {
+    "content": "feed into it if it's a local URL just use the local copy but if it's a remote",
+    "start": 1671
+  },
+  {
+    "content": "URL it will cache it locally on my own site so I can set a max width on it so",
+    "start": 1675
+  },
+  {
+    "content": "I'm not downloading like these huge images and I can add an eyetie of them",
+    "start": 1681
+  },
+  {
+    "content": "like a nice duration option here as well so if I want it to refresh I'll get a",
+    "start": 1684
+  },
+  {
+    "content": "new image every hour or day or week or month or whatever I can do that as well",
+    "start": 1689
+  },
+  {
+    "content": "and so I use this on 11 D Daioh our documentation site for avatars and so I",
+    "start": 1694
+  },
+  {
+    "content": "can refresh those more easily and for my Twitter images I just keep a copy of",
+    "start": 1699
+  },
+  {
+    "content": "forever because those aren't changing so apparently you can't edit tweets so yeah",
+    "start": 1704
+  },
+  {
+    "content": "this is kind of what it looks like and it's kind of cool in terms of",
+    "start": 1710
+  },
+  {
+    "content": "performance because it will actually go out download the image create a ping a",
+    "start": 1713
+  },
+  {
+    "content": "JPEG and a web P version of it and find the best combinatoric",
+    "start": 1717
+  },
+  {
+    "content": "performance versions of those of those images and then it will use a picture or",
+    "start": 1721
+  },
+  {
+    "content": "an image depending on if it if it needs to use web P for the fastest one I don't",
+    "start": 1727
+  },
+  {
+    "content": "know it's kind of proud of that and if you go to 1180 oh there's actually 136",
+    "start": 1732
+  },
+  {
+    "content": "images on our homepage for user avatars and",
+    "start": 1737
+  },
+  {
+    "content": "only 315 kilobytes total page weight for the for our home page so it's still like",
+    "start": 1740
+  },
+  {
+    "content": "really really quick and this is I mean I can I can edit my local copy of my",
+    "start": 1745
+  },
+  {
+    "content": "tweets please and I have this is like a super successful tweet and I'm like",
+    "start": 1753
+  },
+  {
+    "content": "super a shame that it exists but please enter a password that has six characters",
+    "start": 1757
+  },
+  {
+    "content": "or less it should be six characters or fewer and that phrasing still feels",
+    "start": 1762
+  },
+  {
+    "content": "really awkward but at least it's less wrong I mean fewer wrong I mean you know",
+    "start": 1768
+  },
+  {
+    "content": "whatever all right so the other thing I can do is show real links no TCO URLs I",
+    "start": 1772
+  },
+  {
+    "content": "can show new tweets I can get all my new tweets using the Twitter API so I have",
+    "start": 1778
+  },
+  {
+    "content": "to redownload my archive every time I can hide like in retreat counts I can",
+    "start": 1783
+  },
+  {
+    "content": "make more reliable embeds because Firefox will actually block Twitter's",
+    "start": 1787
+  },
+  {
+    "content": "third-party JavaScript embed so yeah the 119 kilobyte for theirs and four",
+    "start": 1791
+  },
+  {
+    "content": "kilobyte for mine which is kind of nice and my Arc I was faster right so if I",
+    "start": 1799
+  },
+  {
+    "content": "may I build a one HTML file with the text of every single tweet on it and",
+    "start": 1807
+  },
+  {
+    "content": "then I compared it to one tweet on a twitter.com site and 8.5 megabyte file",
+    "start": 1811
+  },
+  {
+    "content": "with all of my Twitter tweets text on it was actually faster when it comes to",
+    "start": 1818
+  },
+  {
+    "content": "first meaningful paint which yeah that's not great",
+    "start": 1824
+  },
+  {
+    "content": "all right and also I can I maintain the right to be forgotten ish like if I want",
+    "start": 1829
+  },
+  {
+    "content": "since I haven't mean yeah I maintain a local copy of all my tweets I could go",
+    "start": 1834
+  },
+  {
+    "content": "back and delete all my old tweets from Twitter calm and not be necessarily",
+    "start": 1839
+  },
+  {
+    "content": "beholden to the specter of the Twitter search engine that seems to be haunting",
+    "start": 1843
+  },
+  {
+    "content": "people lately so really all this comes back to control we want to maintain",
+    "start": 1848
+  },
+  {
+    "content": "creative control hosting our content allows us to do that getting our own",
+    "start": 1854
+  },
+  {
+    "content": "local copies of our social media content allows us to do that I can edit my",
+    "start": 1859
+  },
+  {
+    "content": "content right I can delete my content if I want and I maintain full UX control so",
+    "start": 1863
+  },
+  {
+    "content": "really it's all about taking back control from social media companies",
+    "start": 1870
+  },
+  {
+    "content": "and having my own control of the content and jam SEC really empowers front-end",
+    "start": 1873
+  },
+  {
+    "content": "developers to do that and I think that's really cool and if you want to build",
+    "start": 1878
+  },
+  {
+    "content": "this I really love this quote from its eyes he says don't do it like me do it",
+    "start": 1882
+  },
+  {
+    "content": "do it like you thank you [Applause]",
+    "start": 1887
+  },
+  {
+    "content": "[Applause]",
+    "start": 1893
+  },
+  {
+    "content": "you [Applause]",
+    "start": 1899
+  },
+  {
+    "content": "",
+    "start": 1903
+  }
+]

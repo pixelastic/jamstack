@@ -1,0 +1,430 @@
+[
+  {
+    "content": "you",
+    "start": 0
+  },
+  {
+    "content": "hi everybody",
+    "start": 9
+  },
+  {
+    "content": "Phil I'm wearing my new net lafha socks I just want you to know they're very",
+    "start": 19
+  },
+  {
+    "content": "comfortable my name's Scott I'm the CEO of forestry IO where we build a headless",
+    "start": 22
+  },
+  {
+    "content": "CMS for the gym stack it's backed by kit but today I'm going to talk about the UX",
+    "start": 27
+  },
+  {
+    "content": "of these two editing experiences one is the traditional CMS and the other is a",
+    "start": 34
+  },
+  {
+    "content": "site builder like wicks or Squarespace and then I'm going to demo a new",
+    "start": 40
+  },
+  {
+    "content": "open-source project from our team that are really excited to announce hey I",
+    "start": 44
+  },
+  {
+    "content": "need to bring up my speaker notes guys I'm really sorry about this major fail",
+    "start": 49
+  },
+  {
+    "content": "and I think we're good okay cool yeah so I'm going to demo a new open source",
+    "start": 59
+  },
+  {
+    "content": "project and we're really excited to announce today and curious to see what",
+    "start": 66
+  },
+  {
+    "content": "you guys think when when when we developers build a website we typically",
+    "start": 70
+  },
+  {
+    "content": "choose a CMS like one of these and we often choose headless CMS's nowadays but",
+    "start": 74
+  },
+  {
+    "content": "we do so because we can be super productive focus on building fast sites",
+    "start": 79
+  },
+  {
+    "content": "that are extensible and with structured content and we could hand off a UI like",
+    "start": 83
+  },
+  {
+    "content": "one of these to the content creator but this is WordPress in 2008 and honestly",
+    "start": 88
+  },
+  {
+    "content": "not much has changed from like the you the user experience of editing content",
+    "start": 98
+  },
+  {
+    "content": "in a CMS in the last decade or two to the content editor they just have a",
+    "start": 102
+  },
+  {
+    "content": "collection of form fields that they map to a web page on their site and there's",
+    "start": 108
+  },
+  {
+    "content": "a Save button and there's not much context of what they're editing and now",
+    "start": 113
+  },
+  {
+    "content": "that we have the jam stacks the development experience is just so much",
+    "start": 117
+  },
+  {
+    "content": "better but to the content creator they often",
+    "start": 120
+  },
+  {
+    "content": "lose the ability to preview and if they don't it's still that clunky two-step",
+    "start": 124
+  },
+  {
+    "content": "process I was just talking to a team that has to wait 15 minutes every time",
+    "start": 129
+  },
+  {
+    "content": "there they save their site to see it meanwhile tools like Wixon Squarespace",
+    "start": 133
+  },
+  {
+    "content": "are offering their users amazing live editing experiences",
+    "start": 140
+  },
+  {
+    "content": "this is what I mean by the visual future of content editing people love this",
+    "start": 145
+  },
+  {
+    "content": "because they get the context they need to create great things but of course we",
+    "start": 150
+  },
+  {
+    "content": "developers hate them because a site builder is a black box and we can't hack",
+    "start": 156
+  },
+  {
+    "content": "on it we don't know what's going on under the hood so if we were to plot",
+    "start": 159
+  },
+  {
+    "content": "these two products on this graph here with content creator love on the",
+    "start": 163
+  },
+  {
+    "content": "vertical axis and developer productivity on the horizontal axis site builders",
+    "start": 168
+  },
+  {
+    "content": "would be somewhere around here like high on the content for the content person",
+    "start": 173
+  },
+  {
+    "content": "and low for the developer person CMS's would be somewhere around here low",
+    "start": 178
+  },
+  {
+    "content": "for the low content at or love high developer productivity but what if we",
+    "start": 183
+  },
+  {
+    "content": "could give our editors an experience that they love without sacrificing the",
+    "start": 188
+  },
+  {
+    "content": "productivity that we need as developers and what if we could head in a tool kit",
+    "start": 193
+  },
+  {
+    "content": "to build editing functionality into her a site that was open source and",
+    "start": 199
+  },
+  {
+    "content": "extensible well we're laying the foundation for this vision today with",
+    "start": 204
+  },
+  {
+    "content": "Tina's CMS Tina's an open source toolkit for real-time editing and I'm really",
+    "start": 209
+  },
+  {
+    "content": "excited for you to see what it looks like so I'm going to switch over to demo",
+    "start": 216
+  },
+  {
+    "content": "mode here okay so I'm gonna install Tina on this",
+    "start": 219
+  },
+  {
+    "content": "default gatsby starter blog this could be any site but I'm just gonna use this",
+    "start": 230
+  },
+  {
+    "content": "one because it's one that we're all familiar with and I'll bump up the",
+    "start": 235
+  },
+  {
+    "content": "resolution a little bit here let's that's probably pretty good so if I flip",
+    "start": 238
+  },
+  {
+    "content": "over to vs code all I'm gonna do is add the Gatsby Tina's CMS plug-in to the",
+    "start": 243
+  },
+  {
+    "content": "Gatsby config file what I which I already did I guess before the call or",
+    "start": 254
+  },
+  {
+    "content": "before the talk it's in you know an open source package i npm installed it so",
+    "start": 257
+  },
+  {
+    "content": "we're good to go if i refresh the page you should notice one difference we've",
+    "start": 262
+  },
+  {
+    "content": "got an editing icon in the bottom left hand corner clicking that opens up Tina",
+    "start": 267
+  },
+  {
+    "content": "CMS so now this is editing mode we're going to populate this CMS with fields",
+    "start": 272
+  },
+  {
+    "content": "but this is just a react UI that sits on top of your site and interacts with the",
+    "start": 277
+  },
+  {
+    "content": "page you know we're not setting up a separate CMS we're building coding",
+    "start": 281
+  },
+  {
+    "content": "functionality into our site so let's add some fields I think what we'll do is go",
+    "start": 286
+  },
+  {
+    "content": "to a blog post because that will be more interesting so if I could open up this",
+    "start": 291
+  },
+  {
+    "content": "blog post and I import remark form from Tina CMS which is just a higher-order",
+    "start": 297
+  },
+  {
+    "content": "component and I add it and I wrap the template with remark form and just add a",
+    "start": 301
+  },
+  {
+    "content": "few things to my graph QL query you're going to see a few fields and Tina let's",
+    "start": 308
+  },
+  {
+    "content": "go back refresh the page and there we have it so we're just bringing in all",
+    "start": 314
+  },
+  {
+    "content": "the data these these are just the defaults for Tina right now if I go to a",
+    "start": 321
+  },
+  {
+    "content": "different page you'll see the context changes the like the content of forums",
+    "start": 325
+  },
+  {
+    "content": "changes change and let's say hello Jim stack we get real live updating right on",
+    "start": 329
+  },
+  {
+    "content": "our Gatsby site here so one thing that's cool is if I show you what's happening",
+    "start": 338
+  },
+  {
+    "content": "this is what hello world if I saw your show you what's happening in the",
+    "start": 344
+  },
+  {
+    "content": "markdown file it's got to be I just is powered by markdown you'll see that Tina",
+    "start": 348
+  },
+  {
+    "content": "is writing to the file system so I can say this is",
+    "start": 356
+  },
+  {
+    "content": "writing to the file system cool so that's a simple use case as t9 I'm gonna",
+    "start": 360
+  },
+  {
+    "content": "show you wanted to just slit like slightly more configured super",
+    "start": 369
+  },
+  {
+    "content": "Vacationland this is a real resort just kidding",
+    "start": 374
+  },
+  {
+    "content": "but maybe we'll say super vacation land 2.0 and instead of this image we'll drag",
+    "start": 377
+  },
+  {
+    "content": "in another image you can you can completely configure these fields",
+    "start": 383
+  },
+  {
+    "content": "there's a default set of fields you can use and play with but you can build your",
+    "start": 386
+  },
+  {
+    "content": "own or extend these in any way you want if I scroll down a bit we have these",
+    "start": 390
+  },
+  {
+    "content": "different blocks here let's click into pineapple and we'll call it I don't know",
+    "start": 394
+  },
+  {
+    "content": "apples and then say we want it to be the second item and at the first there we",
+    "start": 399
+  },
+  {
+    "content": "have it it's live updating in real time now we decided to take this one step",
+    "start": 406
+  },
+  {
+    "content": "further and we noticed for writing long-form content like a blog post",
+    "start": 412
+  },
+  {
+    "content": "you're kind of doesn't feel great to be limited to that narrow window so I'll",
+    "start": 418
+  },
+  {
+    "content": "click on one of these we and we're giving developers the ability to drop in",
+    "start": 425
+  },
+  {
+    "content": "editable regions on their page so if you're in edit mode you can edit in page",
+    "start": 428
+  },
+  {
+    "content": "clicking this again it's more like editing a medium post hello",
+    "start": 433
+  },
+  {
+    "content": "GM stack and less like using a separate CMS and we find that this combination of",
+    "start": 440
+  },
+  {
+    "content": "additional UI is like the sidebar and others to come in the future as well as",
+    "start": 448
+  },
+  {
+    "content": "in page editing gives editors the best experience to create content so let's",
+    "start": 454
+  },
+  {
+    "content": "just reflect on what happened here we registered some packet or we sorry we",
+    "start": 461
+  },
+  {
+    "content": "added some packages to our site and registered some fields and we",
+    "start": 465
+  },
+  {
+    "content": "essentially replaced the need for a CMS with inline inline editing experience",
+    "start": 469
+  },
+  {
+    "content": "that still meets the needs of developers it still writes to external data sources",
+    "start": 475
+  },
+  {
+    "content": "but you probably don't want an edit button on your live site and you don't",
+    "start": 480
+  },
+  {
+    "content": "want you know your editing team to have to run a development environment locally",
+    "start": 484
+  },
+  {
+    "content": "so if you're interested in a collaborative hosted version of Tina you",
+    "start": 489
+  },
+  {
+    "content": "can Tina CMS org and get early access to the",
+    "start": 493
+  },
+  {
+    "content": "hosted version so I'm just gonna flip back over to our slides here can you",
+    "start": 498
+  },
+  {
+    "content": "guys see this yeah Tina currently supports react based",
+    "start": 504
+  },
+  {
+    "content": "sites like Gatsby and next Jay s Oh No but we have plans to open it up to view",
+    "start": 509
+  },
+  {
+    "content": "based systems ooh and it currently writes to markdown files but what if you",
+    "start": 517
+  },
+  {
+    "content": "could put Tina like on top of that WordPress site and instead of writing to",
+    "start": 523
+  },
+  {
+    "content": "that markdown file it's writing to an external data source like a like a",
+    "start": 526
+  },
+  {
+    "content": "wordpress database or air table or a Google sheet we feel like we're coming",
+    "start": 531
+  },
+  {
+    "content": "out of a monolithic CMS era and next-gen sites need a next-gen CMS and that's",
+    "start": 539
+  },
+  {
+    "content": "what we're trying to lay the foundation with Tina so if you're curious go to",
+    "start": 546
+  },
+  {
+    "content": "Tina's CMS org if you go to slash jams Kampf will bump you to the top of the",
+    "start": 551
+  },
+  {
+    "content": "list for to test the the cloud hosted product if you're interested but it's",
+    "start": 555
+  },
+  {
+    "content": "all open source it's available now you can customize it in many different ways",
+    "start": 559
+  },
+  {
+    "content": "thanks very much [Applause]",
+    "start": 563
+  },
+  {
+    "content": "[Applause]",
+    "start": 567
+  },
+  {
+    "content": "you",
+    "start": 572
+  }
+]

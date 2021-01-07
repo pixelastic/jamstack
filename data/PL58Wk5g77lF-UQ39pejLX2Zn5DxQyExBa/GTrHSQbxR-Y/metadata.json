@@ -4,9 +4,11 @@
   "position": 6,
   "publishedAt": 1542606421,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/GTrHSQbxR-Y/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/GTrHSQbxR-Y/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/GTrHSQbxR-Y/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/GTrHSQbxR-Y/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/GTrHSQbxR-Y/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/GTrHSQbxR-Y/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/GTrHSQbxR-Y/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/GTrHSQbxR-Y/default.jpg"
   },
   "title": "Simona Cotin - Build Scalable APIs Using GraphQL and Serverless"
 }

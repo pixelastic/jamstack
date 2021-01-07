@@ -1,0 +1,962 @@
+[
+  {
+    "content": "there we go okay technical difficulties",
+    "start": 0
+  },
+  {
+    "content": "Wow good thing we work in tech all right so I'm gonna be talking okay I'm gonna",
+    "start": 16
+  },
+  {
+    "content": "be talking about building an e-commerce store friends on the jam stack",
+    "start": 25
+  },
+  {
+    "content": "particularly with big commerce and the jam stock first I'm gonna start with",
+    "start": 28
+  },
+  {
+    "content": "some intros though so what is big commerce big commerce is an e-commerce",
+    "start": 32
+  },
+  {
+    "content": "platform we're an open SAS API first flexible platform and what does that",
+    "start": 36
+  },
+  {
+    "content": "mean so SAS as you guys are all probably familiar is software as a service so",
+    "start": 42
+  },
+  {
+    "content": "we're hosted but because we're API first we make it easy for developers and",
+    "start": 47
+  },
+  {
+    "content": "merchants to use their tools of their choice and",
+    "start": 52
+  },
+  {
+    "content": "get that really custom flexible build Who am I I'm Ashley McKinney I'm a",
+    "start": 54
+  },
+  {
+    "content": "product manager at big Commerce these are the three products that I focus on",
+    "start": 60
+  },
+  {
+    "content": "third-party storefronts channels and web hooks primarily what I'll be talking",
+    "start": 64
+  },
+  {
+    "content": "today about are the third-party storefronts and channels which is how is",
+    "start": 68
+  },
+  {
+    "content": "the product that enables developers to build sales channels I'm off of the big",
+    "start": 73
+  },
+  {
+    "content": "commerce platform so that includes any custom storefront but also things like",
+    "start": 77
+  },
+  {
+    "content": "marketplaces Amazon POS is like Square clover etc okay and I'm hoping this",
+    "start": 82
+  },
+  {
+    "content": "works and of course on my first time I'm doing a live demo so demo gods be with",
+    "start": 88
+  },
+  {
+    "content": "me so we're gonna do a I'm gonna show you how quick and easy it is to spin up",
+    "start": 94
+  },
+  {
+    "content": "a headless storefront with gatsby nutloaf I and BigCommerce so first this",
+    "start": 98
+  },
+  {
+    "content": "is a starter app that we built with the gracious help of a partner of ours third",
+    "start": 104
+  },
+  {
+    "content": "in Grove and this is the github repo that you can access it's available now",
+    "start": 108
+  },
+  {
+    "content": "it's open source and we will also have it on the net lafay templates as well",
+    "start": 113
+  },
+  {
+    "content": "there's also a Gatsby source plugin and for bid commerce as well okay so alright",
+    "start": 118
+  },
+  {
+    "content": "perfect so I did in an effort to keep things quicker I did already do a lot of",
+    "start": 126
+  },
+  {
+    "content": "things just to spin it up including for 3po which you're gonna obviously have to",
+    "start": 132
+  },
+  {
+    "content": "do I have set up don't run all the dependencies set up a",
+    "start": 137
+  },
+  {
+    "content": "Gatsby and natla Phi CLI and also created a big commerce",
+    "start": 141
+  },
+  {
+    "content": "instance which you're going to need so that you can get the API keys and then a",
+    "start": 145
+  },
+  {
+    "content": "lot of the e-commerce functionality but what I'm going to start with is right",
+    "start": 148
+  },
+  {
+    "content": "here and you'll see just hopefully how easy it is to spend this up all right so",
+    "start": 155
+  },
+  {
+    "content": "what I'm doing right now is copying the my air entering my big commerce API",
+    "start": 165
+  },
+  {
+    "content": "credentials into here this is going to be obviously very important otherwise",
+    "start": 173
+  },
+  {
+    "content": "the the gots the app and site is not going to be able to connect to the",
+    "start": 176
+  },
+  {
+    "content": "bigcommerce api and so next thing I'm gonna be using the nutloaf I CLI",
+    "start": 183
+  },
+  {
+    "content": "obviously there's a lot of different ways that you can spend up an apple if I",
+    "start": 193
+  },
+  {
+    "content": "cite some of the easy ones obviously are you know you can go here and spend up",
+    "start": 196
+  },
+  {
+    "content": "from get I'm actually going to just link it to a connecting site that I already",
+    "start": 200
+  },
+  {
+    "content": "have which is this one and then we also have instructions there if you want to",
+    "start": 204
+  },
+  {
+    "content": "run it locally with Nell if I dive or even just a local build ok so connecting",
+    "start": 210
+  },
+  {
+    "content": "alright and then next and this is going to take a second but I'm running the npm",
+    "start": 220
+  },
+  {
+    "content": "build commands and hopefully while that goes what I want to do show you is what",
+    "start": 226
+  },
+  {
+    "content": "this is the big commerce admin control panel where merchants and",
+    "start": 234
+  },
+  {
+    "content": "developers will go in set up the store this is important because you're gonna",
+    "start": 237
+  },
+  {
+    "content": "have to set up a couple things initially just to get a store live so that the so",
+    "start": 241
+  },
+  {
+    "content": "it can process transactions for the headless storefront there's a couple",
+    "start": 245
+  },
+  {
+    "content": "things that as its building I'll show you what you need to set up primarily",
+    "start": 249
+  },
+  {
+    "content": "payments kind of important as a merchant you want to make sure you get paid when",
+    "start": 255
+  },
+  {
+    "content": "you send people products right now all be commerce storefronts come",
+    "start": 259
+  },
+  {
+    "content": "pre-configured and setup with PayPal by Braintree you will need to connect your",
+    "start": 263
+  },
+  {
+    "content": "account or create one if you don't have one but it's really simple you can see",
+    "start": 267
+  },
+  {
+    "content": "it's already there toggled on I've so I set up test card credit card",
+    "start": 270
+  },
+  {
+    "content": "payments so that when I actually process a transaction in just a little bit I",
+    "start": 275
+  },
+  {
+    "content": "don't actually have to pay for it we also need to set up shipping and tax",
+    "start": 279
+  },
+  {
+    "content": "just so that whenever the price or the total cost we ordered is shown to the",
+    "start": 284
+  },
+  {
+    "content": "shopper it has those two calculate it into it all right",
+    "start": 289
+  },
+  {
+    "content": "it is built so now I'm going to deploy it and so I just want to say that I",
+    "start": 295
+  },
+  {
+    "content": "didn't do anything like this was literally just pulled from the master",
+    "start": 302
+  },
+  {
+    "content": "and has all the out-of-the-box functionality so I'm going to talk a",
+    "start": 305
+  },
+  {
+    "content": "little bit more about how like what you can do to customize it and all that but",
+    "start": 310
+  },
+  {
+    "content": "so if you were to spend this pull the same thing down you would see the same",
+    "start": 314
+  },
+  {
+    "content": "ecommerce store front and hopefully it will go live soon all right so let's",
+    "start": 317
+  },
+  {
+    "content": "take a look at what this e-commerce site looks like all right awesome",
+    "start": 329
+  },
+  {
+    "content": "it worked well so out of the box the big commerce gatsby niala five starter comes",
+    "start": 334
+  },
+  {
+    "content": "with a couple of main pages that are really critical for you as a developer",
+    "start": 340
+  },
+  {
+    "content": "set up for a merchant if you're building an e-commerce site things like the main",
+    "start": 343
+  },
+  {
+    "content": "home page where the shoppers getting their very first introduction to the",
+    "start": 346
+  },
+  {
+    "content": "brand experience and about page which tells you know it gives you the",
+    "start": 350
+  },
+  {
+    "content": "opportunity as a merchant to tell the shopper what you are about but the one",
+    "start": 355
+  },
+  {
+    "content": "that we really care about is the products page where what are you selling",
+    "start": 359
+  },
+  {
+    "content": "and how do you discover those products as a shopper so and this is where a lot",
+    "start": 362
+  },
+  {
+    "content": "of the meeted the functionality in our starter is right now what it's doing is",
+    "start": 366
+  },
+  {
+    "content": "pulling from the big commerce catalog API and these are every big commerce",
+    "start": 371
+  },
+  {
+    "content": "store comes preceded with sample products so these are what are in there",
+    "start": 375
+  },
+  {
+    "content": "obviously as if you're launching a real in commerce site you input their",
+    "start": 379
+  },
+  {
+    "content": "products so a couple things that are included is Add to Cart we have a mini",
+    "start": 382
+  },
+  {
+    "content": "cart already built again this is all out-of-the-box functionality and then",
+    "start": 387
+  },
+  {
+    "content": "another core page is what we call the PDP product detail page and this is",
+    "start": 392
+  },
+  {
+    "content": "where again it's pulling a lot more detailed information from the big",
+    "start": 397
+  },
+  {
+    "content": "commerce catalog api here's where you could add a",
+    "start": 401
+  },
+  {
+    "content": "lot of configuration for example if you're in a pair",
+    "start": 404
+  },
+  {
+    "content": "merchant or developer building and apparel site you would pull in options",
+    "start": 407
+  },
+  {
+    "content": "you could pull in things like color sizes patterns etc and show those with",
+    "start": 411
+  },
+  {
+    "content": "images and swatches here Add to Cart functionality also works out of the box",
+    "start": 416
+  },
+  {
+    "content": "on this page and let's go maybe I didn't click on it there we go all right and so",
+    "start": 421
+  },
+  {
+    "content": "there's also you can remove it built in again and what I'm going to do is walk",
+    "start": 434
+  },
+  {
+    "content": "through a quick checkout so what comes we have a couple options for checkout",
+    "start": 438
+  },
+  {
+    "content": "especially for a building headless PWA websites what this first one is is",
+    "start": 442
+  },
+  {
+    "content": "called redirected checkout it takes you from the headless storefront to the",
+    "start": 446
+  },
+  {
+    "content": "hosted bigcommerce one this is ideal if you guys don't have a lot of developer",
+    "start": 449
+  },
+  {
+    "content": "experience or lift or budget or just want to use what is already PC ice and",
+    "start": 454
+  },
+  {
+    "content": "secure from bigcommerce but I will talk about other options that allow you to",
+    "start": 458
+  },
+  {
+    "content": "keep the shopper on the merchants site or you know build a fully custom",
+    "start": 462
+  },
+  {
+    "content": "checkout as you want and so going through this is what the shopper",
+    "start": 467
+  },
+  {
+    "content": "experience would look like you can see the free shipping and again this is all",
+    "start": 474
+  },
+  {
+    "content": "functionality that like I literally spun up in five minutes",
+    "start": 479
+  },
+  {
+    "content": "test card it does tell you this in the big commerce control panels that you",
+    "start": 484
+  },
+  {
+    "content": "don't need to memorize that or know you can use any values and order should go",
+    "start": 488
+  },
+  {
+    "content": "through alright so that was as easy it is to set up a pretty functioning",
+    "start": 498
+  },
+  {
+    "content": "ecommerce site obviously you probably wanted to look more like the brand",
+    "start": 502
+  },
+  {
+    "content": "experience and have a lot more complex or a bus functionality so let's talk",
+    "start": 506
+  },
+  {
+    "content": "about some ways that you can get to that so in addition to what comes out of the",
+    "start": 511
+  },
+  {
+    "content": "box there's a lot of ways that with big Hummer so you can extend this ecommerce",
+    "start": 518
+  },
+  {
+    "content": "storefront pretty as I mentioned where API first so all of this functionality",
+    "start": 521
+  },
+  {
+    "content": "can be added via our api's and SDKs now obviously this is not a comprehensive",
+    "start": 526
+  },
+  {
+    "content": "list but these are some of the more common ecommerce pieces of functionality",
+    "start": 531
+  },
+  {
+    "content": "that people are gonna want to add to their website and all of these again are",
+    "start": 535
+  },
+  {
+    "content": "available via API okay so what would you want to do with",
+    "start": 538
+  },
+  {
+    "content": "the bigcommerce headless options and what you spaces are we enabling our",
+    "start": 544
+  },
+  {
+    "content": "biggest focus is on building differentiated shopper experiences and",
+    "start": 549
+  },
+  {
+    "content": "this is really where we're leaning into the jam stock and headless storefronts",
+    "start": 552
+  },
+  {
+    "content": "now the first two options show a different configuration of how you can",
+    "start": 557
+  },
+  {
+    "content": "set up ecommerce with BigCommerce we do have our own native stencil storefront",
+    "start": 561
+  },
+  {
+    "content": "which works really well for certain merchants but obviously we're we're",
+    "start": 565
+  },
+  {
+    "content": "interested is the PWA and the jam stack so what this diagram is really showing",
+    "start": 569
+  },
+  {
+    "content": "is just how easy or how we're leaning in to this and allowing you to configure a",
+    "start": 574
+  },
+  {
+    "content": "pw8 store PWA storefront with your front-end technology tools and",
+    "start": 581
+  },
+  {
+    "content": "frameworks of choice obviously I showed Gatsby but you can do it with next-next",
+    "start": 586
+  },
+  {
+    "content": "any of view deity anything that you want and then you can connect it into your",
+    "start": 591
+  },
+  {
+    "content": "own out of our own out of the box product management order management or",
+    "start": 597
+  },
+  {
+    "content": "sass or open source functionality whatever makes sense for the merchants",
+    "start": 600
+  },
+  {
+    "content": "business use case okay so a couple like actual use cases what can you really do",
+    "start": 605
+  },
+  {
+    "content": "and like what kind of sophisticated functionality can you build for",
+    "start": 611
+  },
+  {
+    "content": "e-commerce merchants so with Headless it makes it really easy",
+    "start": 614
+  },
+  {
+    "content": "because of the technology that we've exposed via api's which I'll go into in",
+    "start": 618
+  },
+  {
+    "content": "a little bit to build multi-site ecommerce sites so this can be b2c and",
+    "start": 622
+  },
+  {
+    "content": "b2b so if a merchant wants one storefront that's targeting the you know",
+    "start": 627
+  },
+  {
+    "content": "you and I and then one that's targeting businesses or you can also build multi",
+    "start": 631
+  },
+  {
+    "content": "region and international which is really really nice we also are working on our",
+    "start": 636
+  },
+  {
+    "content": "own native multi-region functionality but with headless you can do this out of",
+    "start": 641
+  },
+  {
+    "content": "the box as is today and what you're seeing in these videos are on the top",
+    "start": 645
+  },
+  {
+    "content": "it's actually being able to set the different what we call listings so",
+    "start": 651
+  },
+  {
+    "content": "different catalog data so as a merchant if you want to have an English catalog",
+    "start": 655
+  },
+  {
+    "content": "and then also a Spanish one you can do that without making overwriting your",
+    "start": 660
+  },
+  {
+    "content": "data essentially and then on the bottom you're seeing an actual site that's",
+    "start": 664
+  },
+  {
+    "content": "built this happens to be on WordPress but it's using the same API is under the",
+    "start": 668
+  },
+  {
+    "content": "hood you a storefront would use and you can",
+    "start": 672
+  },
+  {
+    "content": "see how based on the shoppers location or their choice they can see wine the",
+    "start": 675
+  },
+  {
+    "content": "different the product details in different languages but also in",
+    "start": 680
+  },
+  {
+    "content": "different prices in the currency of their choice okay so going beyond the",
+    "start": 683
+  },
+  {
+    "content": "Gatsby starter what else are we doing we don't only have a Gatsby necklace I",
+    "start": 689
+  },
+  {
+    "content": "starter we've tried to lean into the damn stock in our continuing to do so in",
+    "start": 693
+  },
+  {
+    "content": "other ways and there's three main ways that I want to talk about today so one",
+    "start": 696
+  },
+  {
+    "content": "is partners and connectors we've really started the process in the last year of",
+    "start": 701
+  },
+  {
+    "content": "leaning in and partnering with leading PWA storefront",
+    "start": 704
+  },
+  {
+    "content": "making the goal of having big commerce be the perfer duay to build these",
+    "start": 707
+  },
+  {
+    "content": "websites especially for e-commerce so these three diety view and gatsby are",
+    "start": 713
+  },
+  {
+    "content": "three that we actually have had partners are have partnerships with deity and",
+    "start": 718
+  },
+  {
+    "content": "gatsby we have starter applications that one i just demoed that you can get that",
+    "start": 722
+  },
+  {
+    "content": "really quick build and which was nice for as a developer and then view we're",
+    "start": 726
+  },
+  {
+    "content": "actually doing a webinar on november 13th but you can sign up for we have",
+    "start": 730
+  },
+  {
+    "content": "some technology leaders from view and from big commerce talking about how to",
+    "start": 734
+  },
+  {
+    "content": "build an e-commerce site using both of those technologies so I want to thank",
+    "start": 738
+  },
+  {
+    "content": "Amit for bringing up WordPress first so I wasn't the first one to you but we",
+    "start": 744
+  },
+  {
+    "content": "also have a lot of CMS connectors this is going to be more you know depending",
+    "start": 748
+  },
+  {
+    "content": "on if your merchants or whoever your client is needs one of these CMS's maybe",
+    "start": 753
+  },
+  {
+    "content": "they're to use it or they just want something that's a little bit more",
+    "start": 757
+  },
+  {
+    "content": "self-serve we do offer six headless can our headless CMS connectors that",
+    "start": 761
+  },
+  {
+    "content": "depending on which one it is WordPress Drupal bloom reach they're gonna have",
+    "start": 767
+  },
+  {
+    "content": "some slightly different functionality but again under the hood all connect to",
+    "start": 771
+  },
+  {
+    "content": "the same BC API is that you would build with a PW a storefront alright but this",
+    "start": 775
+  },
+  {
+    "content": "is the one that's really interesting I think to all of you guys is how do you",
+    "start": 781
+  },
+  {
+    "content": "build a custom storefront especially if you aren't wanting to use the Gatsby",
+    "start": 784
+  },
+  {
+    "content": "starter that I just demoed we wanted to make sure a big commerce that we weren't",
+    "start": 788
+  },
+  {
+    "content": "limiting you to existing connectors or start our apps we wanted to make sure",
+    "start": 792
+  },
+  {
+    "content": "that we built platform and API first so you can take those api's and that data",
+    "start": 795
+  },
+  {
+    "content": "and build using your tools and frameworks of choice so I have I'm going",
+    "start": 799
+  },
+  {
+    "content": "to talk about these four different api's and SDK",
+    "start": 804
+  },
+  {
+    "content": "of course there's a lot more api's that you'll want to pull data from a full",
+    "start": 807
+  },
+  {
+    "content": "list of public api's that are available is noted there on the URL so let's talk",
+    "start": 811
+  },
+  {
+    "content": "about the channel in listings API you'll see the postman and the data requests",
+    "start": 818
+  },
+  {
+    "content": "them on the right and this is court any building any headless storefront because",
+    "start": 822
+  },
+  {
+    "content": "what's really important here is that you're registering as a channel so that",
+    "start": 828
+  },
+  {
+    "content": "when a merchant is managing that catalog they can easily denote which products",
+    "start": 832
+  },
+  {
+    "content": "they want to be sent to which channel and even if it's just one it makes it",
+    "start": 837
+  },
+  {
+    "content": "easy for them to correlate their catalog with the appropriate sales channel and",
+    "start": 840
+  },
+  {
+    "content": "as I talked about earlier listings allows you to differentiate those",
+    "start": 844
+  },
+  {
+    "content": "catalogs so you may decide like in this example that there's a b2b and you and",
+    "start": 848
+  },
+  {
+    "content": "then a b2c website and you want a merchandise that data differently you",
+    "start": 854
+  },
+  {
+    "content": "would use the listings cattle are listening the API to do that ok sites",
+    "start": 858
+  },
+  {
+    "content": "and routes this is super important because if you as developer are building",
+    "start": 864
+  },
+  {
+    "content": "a site and you want to make sure that the shopper gets the right links when",
+    "start": 869
+  },
+  {
+    "content": "they've ordered a product or are doing returns or let's say abandoned cart",
+    "start": 872
+  },
+  {
+    "content": "notifications you want to make sure they get the URL to the headless storefront",
+    "start": 875
+  },
+  {
+    "content": "and URL not to let's say that a BC store URL that comes out of the box you can",
+    "start": 880
+  },
+  {
+    "content": "register those sites and the different routes this isn't be things like your",
+    "start": 886
+  },
+  {
+    "content": "product pages your account like customer login pages so sites allows you to",
+    "start": 891
+  },
+  {
+    "content": "register the domain and routes gives you the flexibility and customized",
+    "start": 895
+  },
+  {
+    "content": "customization to set whatever path on the URL that you want alright and also",
+    "start": 899
+  },
+  {
+    "content": "super exciting is our storefront graph graph QL API which was recently an open",
+    "start": 906
+  },
+  {
+    "content": "beta yay team this elevates all the data that used to come from the back end to",
+    "start": 913
+  },
+  {
+    "content": "serve aren't just this our stencil native storefront but now is available",
+    "start": 918
+  },
+  {
+    "content": "for you to use and for any storefront a tool or framework of your choice and",
+    "start": 922
+  },
+  {
+    "content": "it's going to include all of the data that's necessary to serve the date serve",
+    "start": 927
+  },
+  {
+    "content": "the products and shopper experience on a front end right and so like I mentioned",
+    "start": 932
+  },
+  {
+    "content": "earlier we do have three main crowd options this is we wanted to make",
+    "start": 938
+  },
+  {
+    "content": "sure that not only are we serving those developers and merchants who don't want",
+    "start": 943
+  },
+  {
+    "content": "to worry about security and compliance but and then also those who do want to",
+    "start": 948
+  },
+  {
+    "content": "create a totally custom checkout experience that keeps the shopper and",
+    "start": 953
+  },
+  {
+    "content": "the branded ecommerce experience and it really just depends your choice of these",
+    "start": 958
+  },
+  {
+    "content": "is gonna depend like I said on the development lift the customization",
+    "start": 964
+  },
+  {
+    "content": "budget all those factors that play into like what technology you choose so the",
+    "start": 967
+  },
+  {
+    "content": "first one is redirected that's the one I demoed earlier in the Gatsby starter app",
+    "start": 971
+  },
+  {
+    "content": "there's also self hosted checkout which means that you use our server to server",
+    "start": 975
+  },
+  {
+    "content": "cart and check-out api's to take a order or sorry an order from cart all the way",
+    "start": 981
+  },
+  {
+    "content": "to checkout and returns and all of that you can do that worth noting and I guess",
+    "start": 987
+  },
+  {
+    "content": "this one is completely customizable so it's pixel for pixel what you would want",
+    "start": 992
+  },
+  {
+    "content": "to create that on your website worth noting though that in if you do choose",
+    "start": 997
+  },
+  {
+    "content": "this one you do have to main to maintain security and PCI compliance so that's",
+    "start": 1003
+  },
+  {
+    "content": "just something you'd need to consider and then finally kind of the happy",
+    "start": 1007
+  },
+  {
+    "content": "middle one isn't better check out that's actually our hosted checkout but I",
+    "start": 1010
+  },
+  {
+    "content": "framed into the headless storefront so this gives you the ability to keep the",
+    "start": 1014
+  },
+  {
+    "content": "shopper on the storefront without having to maintain security and PCI compliance",
+    "start": 1019
+  },
+  {
+    "content": "okay and so last piece is developer enablement and I wouldn't be here",
+    "start": 1024
+  },
+  {
+    "content": "talking to you if we didn't care about our developer users that's what I focus",
+    "start": 1029
+  },
+  {
+    "content": "on day in a day out I used to be a developer so I know just how important",
+    "start": 1033
+  },
+  {
+    "content": "it is to make sure that it's easy to find the data you need the info you need",
+    "start": 1036
+  },
+  {
+    "content": "and the resources and get started quickly so we know ecommerce is complex",
+    "start": 1040
+  },
+  {
+    "content": "but we want to make sure that building in a headless store front is not for you",
+    "start": 1045
+  },
+  {
+    "content": "so we're definitely there's always room to grow but we're really investing in",
+    "start": 1049
+  },
+  {
+    "content": "this heavily and this is by no means a comprehensive list but I wanted to",
+    "start": 1054
+  },
+  {
+    "content": "provide you guys because I'll be sending this presentation out on Twitter and",
+    "start": 1058
+  },
+  {
+    "content": "also there's a Jam stock a slack channel that I'll share this so that you guys",
+    "start": 1061
+  },
+  {
+    "content": "can get these links and so based on what you're looking to build we have a full",
+    "start": 1066
+  },
+  {
+    "content": "headless implementation guide that really goes a lot more into detail than",
+    "start": 1070
+  },
+  {
+    "content": "what I'm able to however in this presentation tutorials",
+    "start": 1073
+  },
+  {
+    "content": "on every part of building a headless storefront and then there's awesome API",
+    "start": 1076
+  },
+  {
+    "content": "client libraries depending on your language of choice you can get spun up",
+    "start": 1080
+  },
+  {
+    "content": "really quickly with our API and then there's a lot of open source projects",
+    "start": 1083
+  },
+  {
+    "content": "code samples reference implementations so if for example you're building let's",
+    "start": 1088
+  },
+  {
+    "content": "say I got the Gatsby starter or building off the Gatsby starter and you want to",
+    "start": 1092
+  },
+  {
+    "content": "add some functionality that's not in there it's likely that we have good",
+    "start": 1097
+  },
+  {
+    "content": "reference implementations within another one of our headless builds like",
+    "start": 1100
+  },
+  {
+    "content": "WordPress for example all right so that was it and I think I made it in almost a",
+    "start": 1104
+  },
+  {
+    "content": "little over time but thank you guys so much for your time I appreciate your",
+    "start": 1110
+  },
+  {
+    "content": "patience with the technical difficulties this is the link like I mentioned to the",
+    "start": 1113
+  },
+  {
+    "content": "Gatsby starter some more resources if you want and if you have any follow-up",
+    "start": 1118
+  },
+  {
+    "content": "questions or thoughts or anything feel free to reach out to me thank you",
+    "start": 1123
+  },
+  {
+    "content": "[Applause]",
+    "start": 1127
+  },
+  {
+    "content": "[Applause] you",
+    "start": 1132
+  },
+  {
+    "content": "",
+    "start": 1138
+  }
+]

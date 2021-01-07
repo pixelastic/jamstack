@@ -4,9 +4,11 @@
   "position": 0,
   "publishedAt": 1542605900,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/Opye_qcRdUo/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/Opye_qcRdUo/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/Opye_qcRdUo/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/Opye_qcRdUo/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/Opye_qcRdUo/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/Opye_qcRdUo/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/Opye_qcRdUo/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/Opye_qcRdUo/default.jpg"
   },
   "title": "Phil Hawksworth - What is the JAMstack?"
 }

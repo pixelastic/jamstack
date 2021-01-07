@@ -4,9 +4,11 @@
   "position": 12,
   "publishedAt": 1542606624,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/SIUYsPnhGcM/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/SIUYsPnhGcM/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/SIUYsPnhGcM/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/SIUYsPnhGcM/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/SIUYsPnhGcM/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/SIUYsPnhGcM/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/SIUYsPnhGcM/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/SIUYsPnhGcM/default.jpg"
   },
   "title": "Bud Parr - Go Go Hugo!"
 }

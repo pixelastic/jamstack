@@ -1,0 +1,558 @@
+[
+  {
+    "content": "hi everybody it's great being here ten",
+    "start": 0
+  },
+  {
+    "content": "minutes is a short amount of time I can't see any of you which I don't know",
+    "start": 19
+  },
+  {
+    "content": "if that's good or bad but let's make this happen so today I'm gonna try and",
+    "start": 23
+  },
+  {
+    "content": "give you a sneak peek of the future of managing modern websites stack bit as a",
+    "start": 27
+  },
+  {
+    "content": "company is focused on this space and we make tools for managing modern websites",
+    "start": 33
+  },
+  {
+    "content": "our ecosystem is in a place or it's phenomenal for developers and we're yet",
+    "start": 38
+  },
+  {
+    "content": "we get really excited about all of the benefits that we get from that but",
+    "start": 43
+  },
+  {
+    "content": "there's still a lot to accomplish on a user experience side and non-technical",
+    "start": 47
+  },
+  {
+    "content": "people in larger organizations and so that's what we're focusing on I'll give",
+    "start": 51
+  },
+  {
+    "content": "you a quick run-through of what stack that offers today and so we started with",
+    "start": 56
+  },
+  {
+    "content": "what we call create and it's easiest way to create a jam stack website which is",
+    "start": 63
+  },
+  {
+    "content": "already pre hooked into a CMS of your choice and deploy to netwo Phi so you",
+    "start": 67
+  },
+  {
+    "content": "can literally build modern jam stack website in minutes I'm gonna give you a",
+    "start": 73
+  },
+  {
+    "content": "quick demo of that but that's more I'm gonna have to increase the size of all",
+    "start": 77
+  },
+  {
+    "content": "of these so you pick a theme you pick a CMS you deploy to github in that laughs",
+    "start": 82
+  },
+  {
+    "content": "I my accounts are likely connected you create a project boom you're done this",
+    "start": 89
+  },
+  {
+    "content": "may take 30 to 60 seconds and this is a 10 minute talk so we are not gonna wait",
+    "start": 94
+  },
+  {
+    "content": "that time this is what the website looks like you can go to a CMS and edit it and",
+    "start": 99
+  },
+  {
+    "content": "everything is pre-wired and pre worked for you and so that's how stack bit",
+    "start": 103
+  },
+  {
+    "content": "started now I have 12 tabs you can see them and ice let's mix let's see if this",
+    "start": 107
+  },
+  {
+    "content": "works so basically we really want to improve both the developer and the user",
+    "start": 115
+  },
+  {
+    "content": "experience of managing these sites and what we've done initially is focused on",
+    "start": 121
+  },
+  {
+    "content": "the developer experience of setting these sites up and did I mention that we",
+    "start": 125
+  },
+  {
+    "content": "really like making tools what I like to show you now is something that we call",
+    "start": 131
+  },
+  {
+    "content": "the stack bit widget so here's the web site that we were looking at just a",
+    "start": 137
+  },
+  {
+    "content": "moment ago but you'll notice that there's a widget on the top hand side",
+    "start": 141
+  },
+  {
+    "content": "this is only visible if you are signed in to stack so regular visitors to",
+    "start": 146
+  },
+  {
+    "content": "your website are not going to see this and this is kind of a control panel that",
+    "start": 150
+  },
+  {
+    "content": "ties together all of the various services that you use to build and",
+    "start": 154
+  },
+  {
+    "content": "manage and run your website I'm gonna give you a quick preview let's see if",
+    "start": 158
+  },
+  {
+    "content": "side-by-side works here is that reasonable that's reasonable okay so",
+    "start": 163
+  },
+  {
+    "content": "that's our website on the left-hand side and on the right-hand side is sanity dot",
+    "start": 168
+  },
+  {
+    "content": "IO which is a fantastic headless CMS I'm gonna make a change can't type and talk",
+    "start": 172
+  },
+  {
+    "content": "at the same time I'm gonna make and change and publish it and see what",
+    "start": 181
+  },
+  {
+    "content": "happens the control panel immediately tells you what's happening that liffe I",
+    "start": 188
+  },
+  {
+    "content": "build status is my website building is it done are you guys familiar with that",
+    "start": 193
+  },
+  {
+    "content": "notion refresh refresh refresh refresh refresh and so we're trying to solve",
+    "start": 199
+  },
+  {
+    "content": "that to a certain extent I'm gonna give this a couple more seconds just because",
+    "start": 202
+  },
+  {
+    "content": "I really want to take you through the whole process but we're really excited",
+    "start": 206
+  },
+  {
+    "content": "about the widget we're not sure if we're gonna call it the widget or the on-site",
+    "start": 212
+  },
+  {
+    "content": "UI or what not a centralized way to manage everything that happens with your",
+    "start": 216
+  },
+  {
+    "content": "modern Jam stack website I have a video of this in case of like",
+    "start": 222
+  },
+  {
+    "content": "complete Wi-Fi failure but we're not there yet I may come back to this a",
+    "start": 230
+  },
+  {
+    "content": "little later but at any rate off to the next step so the stack bit widget is",
+    "start": 236
+  },
+  {
+    "content": "going to be available to everyone within the next couple of weeks",
+    "start": 242
+  },
+  {
+    "content": "so both two users of stack bit people who have created projects with stack bit",
+    "start": 247
+  },
+  {
+    "content": "people who are going to create new projects with stack bit but more",
+    "start": 252
+  },
+  {
+    "content": "importantly any net lafay user is going to be able to come in connect their",
+    "start": 255
+  },
+  {
+    "content": "account and get the widget and so suddenly you're going to have a control",
+    "start": 258
+  },
+  {
+    "content": "panel oh look it's building beautiful so at any rate refresh the header is",
+    "start": 262
+  },
+  {
+    "content": "supposed to change the title there beautiful okay thank you very much",
+    "start": 272
+  },
+  {
+    "content": "however there is more so a stack with widget as I mentioned will be available",
+    "start": 280
+  },
+  {
+    "content": "to everyone so like if you have an outlet I project today and you have",
+    "start": 287
+  },
+  {
+    "content": "never heard of stack bit we're gonna ask you to do free clicks and you're gonna",
+    "start": 290
+  },
+  {
+    "content": "get the widget on your website let's see next what about the non developers who",
+    "start": 294
+  },
+  {
+    "content": "need to contribute to these sites what about them so as I mentioned we started",
+    "start": 301
+  },
+  {
+    "content": "by experimenting with how easy it can be to create these modern websites and",
+    "start": 307
+  },
+  {
+    "content": "you're all you've all heard of unbundling and the way that we think",
+    "start": 313
+  },
+  {
+    "content": "about the unbundling is that it offers a lot of benefits to developers right it's",
+    "start": 315
+  },
+  {
+    "content": "fantastic the separate presentation from content from deployment workflows but it",
+    "start": 319
+  },
+  {
+    "content": "often sacrifices things like the editing experience and other common workflows",
+    "start": 324
+  },
+  {
+    "content": "that people who are less technical usually rely on and so that's a major",
+    "start": 328
+  },
+  {
+    "content": "area of focus for us with stack bit and we really want to alleviate a lot of",
+    "start": 334
+  },
+  {
+    "content": "that and enable people to do more so as you surely know website creation is",
+    "start": 338
+  },
+  {
+    "content": "something that has been consumer eyes by you know companies like wicks and",
+    "start": 345
+  },
+  {
+    "content": "Squarespace and so the average person has a certain set of expectations when",
+    "start": 349
+  },
+  {
+    "content": "it comes to building a website and so it's hard to come to them with command",
+    "start": 354
+  },
+  {
+    "content": "line and in finicky preview capabilities and",
+    "start": 358
+  },
+  {
+    "content": "npm install' and things like that and so the tooling for regular users around the",
+    "start": 362
+  },
+  {
+    "content": "jam stack is really going to take a couple of big steps forward not just",
+    "start": 368
+  },
+  {
+    "content": "with us but with the whole industry and again we really love building tools so",
+    "start": 371
+  },
+  {
+    "content": "off we go to the next demo what I want to show you is how we want to make",
+    "start": 377
+  },
+  {
+    "content": "editing easier and so again this is a sackbut widget but this is a more",
+    "start": 383
+  },
+  {
+    "content": "advanced version of it we're looking at the life side I updated it around an",
+    "start": 388
+  },
+  {
+    "content": "hour ago okay let's get into edit mode now we've we've done a lot of research",
+    "start": 392
+  },
+  {
+    "content": "to understand the relationship between content and static side generation and",
+    "start": 397
+  },
+  {
+    "content": "the output of all of those things and so this specific website is powered by",
+    "start": 401
+  },
+  {
+    "content": "contentful and we can tell you and deep link you exactly into the area in",
+    "start": 406
+  },
+  {
+    "content": "contentful that controls what you're looking at right so if we go into",
+    "start": 411
+  },
+  {
+    "content": "landing page here we go we can go in and change cannot type and",
+    "start": 416
+  },
+  {
+    "content": "talk the same time we can easily go to contentful and make a change and if we",
+    "start": 429
+  },
+  {
+    "content": "go back to our website you'll notice that the widget now tells us that",
+    "start": 440
+  },
+  {
+    "content": "there's content changes pending right now I forgot to mention this is",
+    "start": 443
+  },
+  {
+    "content": "completely CMS and static site generator stick so this will work with any static",
+    "start": 447
+  },
+  {
+    "content": "site generator out there and with every CMS with which we've partnered and we've",
+    "start": 451
+  },
+  {
+    "content": "already integrated with contentful sanity dado CMS for CIO nullify CMS and",
+    "start": 455
+  },
+  {
+    "content": "there's a bunch of other ones in the pipeline so there's a content change",
+    "start": 461
+  },
+  {
+    "content": "available you'll notice this is a big hero headline let's look at the changes",
+    "start": 464
+  },
+  {
+    "content": "two minutes two minutes okay hello from",
+    "start": 470
+  },
+  {
+    "content": "jank Stamp can't fantastic remember we're looking at a previews right and",
+    "start": 480
+  },
+  {
+    "content": "previews are basically how we work and collaborate with other people",
+    "start": 485
+  },
+  {
+    "content": "so the interesting thing that comes with preview is you",
+    "start": 489
+  },
+  {
+    "content": "know the ability to share them whether you want to share a real-time link to",
+    "start": 494
+  },
+  {
+    "content": "the most recent version of your content or whether you want to take a snapshot",
+    "start": 497
+  },
+  {
+    "content": "of what you're looking at right now and get a link to that and send it to a",
+    "start": 501
+  },
+  {
+    "content": "co-worker a CEO or whomever to get feedback on your work publishing is also",
+    "start": 504
+  },
+  {
+    "content": "something that comes with content changes and previews and so other people",
+    "start": 513
+  },
+  {
+    "content": "in the organization can be appointed to be the ones who can actually publish and",
+    "start": 517
+  },
+  {
+    "content": "publishing workflows are something that we're working on and at any weight I'm",
+    "start": 521
+  },
+  {
+    "content": "gonna hit publish and we're gonna see the change come up quickly quickly",
+    "start": 525
+  },
+  {
+    "content": "quickly okay fantastic fantastic so one minute 18 seconds left I am not done my",
+    "start": 531
+  },
+  {
+    "content": "friends if we go here I want to show you I didn't do it as smooth enough but it's",
+    "start": 538
+  },
+  {
+    "content": "like one more thing we've done as I mentioned we've done a lot of research",
+    "start": 545
+  },
+  {
+    "content": "to understand the relationship between schemas content management systems",
+    "start": 551
+  },
+  {
+    "content": "static site generators and the output which is obviously web sites and we like",
+    "start": 557
+  },
+  {
+    "content": "to be a tool that's agnostic of the different technical choices that you've",
+    "start": 563
+  },
+  {
+    "content": "made and what I'd like to show you today is on page editing on page editing works",
+    "start": 567
+  },
+  {
+    "content": "again with the CMS's that I've mentioned and so this in particular is gonna be",
+    "start": 573
+  },
+  {
+    "content": "working on contentful okay this change I made it hold on my mother won't be proud",
+    "start": 579
+  },
+  {
+    "content": "if I don't fix this instant preview and if I go to content fall you'll notice",
+    "start": 587
+  },
+  {
+    "content": "that we update that as well and so we tie the whole experience together",
+    "start": 596
+  },
+  {
+    "content": "non-technical people when they need to go to your CMS they can always go there",
+    "start": 599
+  },
+  {
+    "content": "because we don't change anything about that but if you just want to change a",
+    "start": 604
+  },
+  {
+    "content": "string and in the future will support more things like reordering in images",
+    "start": 607
+  },
+  {
+    "content": "and things like that you're gonna be able to do it from a nice interface that",
+    "start": 611
+  },
+  {
+    "content": "is not scary for non-technical people and you can instantly publish and it",
+    "start": 617
+  },
+  {
+    "content": "ties into all of the workflows that I previously showed you guys so we're",
+    "start": 622
+  },
+  {
+    "content": "pretty excited about on page editing and and we think",
+    "start": 625
+  },
+  {
+    "content": "it's a step into the future it's not the end we're all gonna get to WYSIWYG at",
+    "start": 629
+  },
+  {
+    "content": "the end of it but that's basically what I wanted to show you so we're calling",
+    "start": 632
+  },
+  {
+    "content": "these new set of capabilities stack bit live because you have to give it a name",
+    "start": 639
+  },
+  {
+    "content": "so people can refer to it and so this is stack bit live and my wrap-up is that",
+    "start": 643
+  },
+  {
+    "content": "everything you saw is coming soon and the definition of soon is kind of like",
+    "start": 649
+  },
+  {
+    "content": "an eyes of the beholder but we're working on it the widget the simpler",
+    "start": 654
+  },
+  {
+    "content": "version of the widget that you saw is coming hopefully before the end of next",
+    "start": 658
+  },
+  {
+    "content": "week and again every net lafay user and stack",
+    "start": 662
+  },
+  {
+    "content": "the user is gonna be able to take advantage of that we work with all SSDs",
+    "start": 665
+  },
+  {
+    "content": "for example who go Jekyll Gatsby necks jazz grid some 11 D and all the others",
+    "start": 669
+  },
+  {
+    "content": "we work with headless CMS's like contentful sanity dado CMS as well as",
+    "start": 673
+  },
+  {
+    "content": "good Bates CMS's like natla fie CMS and forestry and the integration is minimal",
+    "start": 678
+  },
+  {
+    "content": "you do not need to update your workflows you do not need to mark up your",
+    "start": 683
+  },
+  {
+    "content": "templates right it's gonna be magical to learn more and sign up for early access",
+    "start": 687
+  },
+  {
+    "content": "you're invited to go to stack bit comm slash live we'd love to hear from you me",
+    "start": 693
+  },
+  {
+    "content": "and my co-founder Dan are walking around with big fancy stack bit shirts so come",
+    "start": 698
+  },
+  {
+    "content": "us and come up and talk to us we'd love to set you up with early access to",
+    "start": 702
+  },
+  {
+    "content": "everything that we just showed you today thank you very much",
+    "start": 706
+  },
+  {
+    "content": "[Applause]",
+    "start": 710
+  },
+  {
+    "content": "you [Applause]",
+    "start": 716
+  },
+  {
+    "content": "",
+    "start": 720
+  }
+]

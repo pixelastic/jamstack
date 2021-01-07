@@ -1,0 +1,938 @@
+[
+  {
+    "content": "so hello and welcome to one of our",
+    "start": 1
+  },
+  {
+    "content": "conversations with our speakers and smashing cones and just generally nice",
+    "start": 16
+  },
+  {
+    "content": "people you might remember those times when FTP",
+    "start": 20
+  },
+  {
+    "content": "was a big thing and maybe actually you're still deploying why FTP that's a",
+    "start": 24
+  },
+  {
+    "content": "perfectly safe space so you don't have to worry about that but chances are high",
+    "start": 28
+  },
+  {
+    "content": "that you're not using FTP anymore and instead moved to get based workflows and",
+    "start": 31
+  },
+  {
+    "content": "probably in a continuous deployment all this fancy whistles and bells and so",
+    "start": 36
+  },
+  {
+    "content": "today I'm very happy to welcome I feel hoaxford who is actually working",
+    "start": 41
+  },
+  {
+    "content": "at nullified develop a relationship team hello Phil how are you doing today I'm",
+    "start": 46
+  },
+  {
+    "content": "great how are you doing with leaves nice to see you oh I'm doing great it's",
+    "start": 51
+  },
+  {
+    "content": "always pleasure to see you you're like a sunshine streaming necklace I and Jeff",
+    "start": 54
+  },
+  {
+    "content": "stack and everything I tried I'm not even branded up what a missed",
+    "start": 58
+  },
+  {
+    "content": "opportunity that's okay that's okay but you have to tell me so that gem or Jen",
+    "start": 63
+  },
+  {
+    "content": "or sheet like gem is a gem Jam Jam okay all about the jam so Jam so the gem",
+    "start": 69
+  },
+  {
+    "content": "steak from for developers or designers actually never heard the term before if",
+    "start": 76
+  },
+  {
+    "content": "you wanted to maybe sum up like what it is and why it's good and what are the",
+    "start": 82
+  },
+  {
+    "content": "benefits of it in the first place and why would you ever want to move from",
+    "start": 86
+  },
+  {
+    "content": "your traditional good alt tag to gem stack maybe could sum it up briefly let",
+    "start": 89
+  },
+  {
+    "content": "me let me see if I can try because it's tempting just to say well Jam stack the",
+    "start": 94
+  },
+  {
+    "content": "J am in that stands for JavaScript API is and markup but that in itself doesn't",
+    "start": 99
+  },
+  {
+    "content": "really explain very much just knowing what it stands for",
+    "start": 105
+  },
+  {
+    "content": "so really you know Jam stack is all about a way of deploying and serving",
+    "start": 107
+  },
+  {
+    "content": "websites that don't rely on an origin server they don't rely on requests",
+    "start": 113
+  },
+  {
+    "content": "hitting an active server all the time so you might be more familiar with stacks",
+    "start": 117
+  },
+  {
+    "content": "like the lamp stack which was Linux Apache MySQL and PHP that was the kind",
+    "start": 122
+  },
+  {
+    "content": "of stack that was serving your site there with gem stack is a bit different",
+    "start": 128
+  },
+  {
+    "content": "because we've kind of moved up a level away from the server and closer to the",
+    "start": 131
+  },
+  {
+    "content": "browser so it's thinking a lot about getting into a browser as fast as",
+    "start": 135
+  },
+  {
+    "content": "possible and then using technologies in the browser turn to enhance it and",
+    "start": 138
+  },
+  {
+    "content": "augmenting later on so Jam stack is all about pre",
+    "start": 142
+  },
+  {
+    "content": "during sites getting it into the browser and then maybe enhancing it augmenting",
+    "start": 146
+  },
+  {
+    "content": "it the experience with JavaScript running in your browser maybe making",
+    "start": 151
+  },
+  {
+    "content": "requests api's and that kind of thing so that's the model trying to get away from",
+    "start": 155
+  },
+  {
+    "content": "having a server that you need to maintain because I know maintaining a",
+    "start": 160
+  },
+  {
+    "content": "server is difficult I don't like you but I've got lots of sites that kind of went",
+    "start": 164
+  },
+  {
+    "content": "away when I just turned my back on them for a few years I needed to upgrade PHP",
+    "start": 168
+  },
+  {
+    "content": "which meant I needed to upgrade the version of Linux which I've done once in",
+    "start": 173
+  },
+  {
+    "content": "a blue moon so you know maintaining service is difficult so the idea of the",
+    "start": 178
+  },
+  {
+    "content": "jam stack is to try make it simple as possible to serve sites as static assets",
+    "start": 182
+  },
+  {
+    "content": "and then make the most of all of the api's and the abilities in the browser",
+    "start": 187
+  },
+  {
+    "content": "to do kind of augmentation and do more things with them there well in fact of",
+    "start": 190
+  },
+  {
+    "content": "course we moved to gem stack two years ago two years you know it",
+    "start": 195
+  },
+  {
+    "content": "feels like it was a quite a journey for us and of course you know we learned a",
+    "start": 200
+  },
+  {
+    "content": "few lessons along the way but I'm wondering would you say that mmm",
+    "start": 204
+  },
+  {
+    "content": "essentially every project could benefit somehow from moving or moving some parts",
+    "start": 209
+  },
+  {
+    "content": "of it to gem stack like what do you see its limitations these are something that",
+    "start": 214
+  },
+  {
+    "content": "no potentially every developer could use in a project or is it something that's",
+    "start": 218
+  },
+  {
+    "content": "kind of dedicated to a particular group of websites a group of projects yeah I",
+    "start": 221
+  },
+  {
+    "content": "mean it's tempting to say oh yeah you can use it for everything but I think",
+    "start": 225
+  },
+  {
+    "content": "you should be careful saying that about any technology you know you really need",
+    "start": 230
+  },
+  {
+    "content": "to kind of pick the use cases and make sure it's tailored well I would say that",
+    "start": 234
+  },
+  {
+    "content": "you know the first instinct when you think about a jam spec site and maybe",
+    "start": 238
+  },
+  {
+    "content": "think about something which is served as static assets maybe directly from a CDN",
+    "start": 242
+  },
+  {
+    "content": "you might think well that's only really good for sites which don't change very",
+    "start": 246
+  },
+  {
+    "content": "often you know they're their quote unquote static you know they don't",
+    "start": 250
+  },
+  {
+    "content": "change but in actual fact that's not really the case because so many tools",
+    "start": 254
+  },
+  {
+    "content": "exist now that can reduce the friction in deploying things you can deploy many",
+    "start": 258
+  },
+  {
+    "content": "many times a day or many times an hour if you want and actually make things",
+    "start": 262
+  },
+  {
+    "content": "feel a lot more dynamic than they might have done before so some of those kind",
+    "start": 265
+  },
+  {
+    "content": "of use cases where you think well they wouldn't be appropriate those actually",
+    "start": 269
+  },
+  {
+    "content": "come into the fold as well the time that it gets challenging perhaps though is",
+    "start": 272
+  },
+  {
+    "content": "when we're creating sites that have many many pages many hundreds of",
+    "start": 277
+  },
+  {
+    "content": "thousands or many millions of pages because the jambs type model really",
+    "start": 281
+  },
+  {
+    "content": "makes makes a lot of sense when you can pre generate your site so you might be",
+    "start": 285
+  },
+  {
+    "content": "using a static site generator those are really kind of in vogue at the moment as",
+    "start": 290
+  },
+  {
+    "content": "a really really popular but of course they have to do a piece of",
+    "start": 293
+  },
+  {
+    "content": "work every time they deploy an update so if you have a site maybe like a",
+    "start": 296
+  },
+  {
+    "content": "newspaper site that has many millions of pages the work that's required to",
+    "start": 300
+  },
+  {
+    "content": "regenerate that can be quite you know that can take a long time so that's when",
+    "start": 305
+  },
+  {
+    "content": "you start bumping into some of the limitations of where Jam stack can be",
+    "start": 309
+  },
+  {
+    "content": "kind of simply used you can start to get a bit crafty and start to work around",
+    "start": 313
+  },
+  {
+    "content": "that if you you know if you're if you're very very crafty but it definitely",
+    "start": 318
+  },
+  {
+    "content": "introduces some challenges one of the things I'm starting to see from a",
+    "start": 321
+  },
+  {
+    "content": "variety of different static site generators like gaps be for instance or",
+    "start": 326
+  },
+  {
+    "content": "react static and also Hugo is you know the the team behind those those static",
+    "start": 330
+  },
+  {
+    "content": "site generators are starting to explore ways that you can do kind of progressive",
+    "start": 336
+  },
+  {
+    "content": "generation of the pages so in other words you don't redeploy the entire site",
+    "start": 341
+  },
+  {
+    "content": "or regenerate the entire site every time something changes but try and find ways",
+    "start": 345
+  },
+  {
+    "content": "to do you to do incremental builds it's kind of a challenging problem to",
+    "start": 349
+  },
+  {
+    "content": "overcome but there's work being done on that at the moment so that will help to",
+    "start": 354
+  },
+  {
+    "content": "try and break down that barrier as well but certainly at the moment finding ways",
+    "start": 357
+  },
+  {
+    "content": "to use a jam stack site for a website that has many millions of pages or many",
+    "start": 362
+  },
+  {
+    "content": "hundreds of thousands of pages that's where it can be a little bit challenging",
+    "start": 367
+  },
+  {
+    "content": "right now that's interesting so actually the idea being then to serve a diff of",
+    "start": 370
+  },
+  {
+    "content": "the state that you have and essentially that whatever you have to build like the",
+    "start": 375
+  },
+  {
+    "content": "new part that has to be kind of patched into it so interesting to see this",
+    "start": 379
+  },
+  {
+    "content": "happening because he also just recently I think two weeks ago there was an",
+    "start": 382
+  },
+  {
+    "content": "article by Jason Pominville coming up where the idea was actually very similar",
+    "start": 386
+  },
+  {
+    "content": "where you would lecture a lot of the fonts and then you load the first patch",
+    "start": 390
+  },
+  {
+    "content": "that you need and then you load the second and then you actually merge them",
+    "start": 393
+  },
+  {
+    "content": "in a way to create a new form like also incremental font loading but actually",
+    "start": 396
+  },
+  {
+    "content": "now we're really interesting to explore that yeah and it's not just so much of",
+    "start": 400
+  },
+  {
+    "content": "the loading it's it's the generation areas the build-out yeah yeah exactly I",
+    "start": 405
+  },
+  {
+    "content": "understand but what do you think are kind of the",
+    "start": 410
+  },
+  {
+    "content": "current challenges that most developers have I mean what maybe let me move back",
+    "start": 414
+  },
+  {
+    "content": "move back first if you are not if never worked on Jeb's tank before and you are",
+    "start": 420
+  },
+  {
+    "content": "very much comfortable and happy with your lamp stack and you wanted maybe to",
+    "start": 425
+  },
+  {
+    "content": "explore the possibilities and advantages like you know security and performance",
+    "start": 430
+  },
+  {
+    "content": "of gem stack how would you actually start what would you move what does it",
+    "start": 434
+  },
+  {
+    "content": "mean in terms of the workflow change so I mean the changes to the workflow can",
+    "start": 438
+  },
+  {
+    "content": "actually be quite profound because you're taking away a lot of the",
+    "start": 444
+  },
+  {
+    "content": "infrastructure that you would normally depend on and saying actually we can do",
+    "start": 447
+  },
+  {
+    "content": "away with that and start deploying things directly to a CDN but in terms of",
+    "start": 451
+  },
+  {
+    "content": "how someone might get started experimenting with this chances are they",
+    "start": 456
+  },
+  {
+    "content": "might be using some of the aspects of this already you know even on kind of",
+    "start": 460
+  },
+  {
+    "content": "traditional ways of building things for the web if you think about how you might",
+    "start": 465
+  },
+  {
+    "content": "build something on the lamp stack chances are you know in your PHP there",
+    "start": 469
+  },
+  {
+    "content": "you're doing things like you know writing a template that grabs data from",
+    "start": 473
+  },
+  {
+    "content": "a data source in this case the PHP sorry the MySQL database or some kind of",
+    "start": 478
+  },
+  {
+    "content": "database now rendering those things into a view and then getting them served and",
+    "start": 483
+  },
+  {
+    "content": "that's kind of similar to how static site generators work you know they have",
+    "start": 487
+  },
+  {
+    "content": "templates they grab data from somewhere that might become structured data in",
+    "start": 491
+  },
+  {
+    "content": "files or it might be hitting some kind of database or a content API by the way",
+    "start": 494
+  },
+  {
+    "content": "it's grabbing data combining that data with templates generating views and the",
+    "start": 500
+  },
+  {
+    "content": "only difference is that it's not doing that on demand it's doing that ahead of",
+    "start": 504
+  },
+  {
+    "content": "time so that some of the logical steps and that kind of cognitive steps for a",
+    "start": 508
+  },
+  {
+    "content": "developer might not actually be that huge the biggest change is in thinking",
+    "start": 513
+  },
+  {
+    "content": "about how you deploy things because really what you're deploying is you're",
+    "start": 517
+  },
+  {
+    "content": "built you know rendered assets in entirety every time you want to do a",
+    "start": 521
+  },
+  {
+    "content": "deployment that starts to bring things like the management of the content and",
+    "start": 526
+  },
+  {
+    "content": "the management of the code all into the same place so that things like the",
+    "start": 530
+  },
+  {
+    "content": "version control across all of those things together so it starts to be a",
+    "start": 534
+  },
+  {
+    "content": "slightly different way of thinking about how you might make to kind of develop",
+    "start": 538
+  },
+  {
+    "content": "and manage a site and the content within it",
+    "start": 541
+  },
+  {
+    "content": "so there are a few little kind of changes there but the nice thing is that",
+    "start": 545
+  },
+  {
+    "content": "a lot of static site generators can be quite straightforward to start",
+    "start": 548
+  },
+  {
+    "content": "experimenting with and the nice thing is you don't need a ton of infrastructure",
+    "start": 554
+  },
+  {
+    "content": "to do this so the nice thing is that you can really start to build things out",
+    "start": 558
+  },
+  {
+    "content": "right on your local machine you know you're you're running a static site",
+    "start": 562
+  },
+  {
+    "content": "generator right on your machine and you can get a really good sense of what the",
+    "start": 565
+  },
+  {
+    "content": "outcome is going to be without needing to lean on lots of other infrastructure",
+    "start": 570
+  },
+  {
+    "content": "so that kind of first step the on-ramp can be quite shallow for you to start to",
+    "start": 573
+  },
+  {
+    "content": "say well I'll try this particular set of tools I can run them locally and you'll",
+    "start": 577
+  },
+  {
+    "content": "have good confidence that then when you deploy the output of that somewhere",
+    "start": 582
+  },
+  {
+    "content": "that'll be exactly the same where you deploy it as it would be locally that's",
+    "start": 585
+  },
+  {
+    "content": "one of the things I love about rendering things that are static because you're",
+    "start": 589
+  },
+  {
+    "content": "not depending a loss of infrastructure and moving parts to serve them you can",
+    "start": 593
+  },
+  {
+    "content": "look at them on a static server on your own machine and think yeah this is how",
+    "start": 597
+  },
+  {
+    "content": "it'll work when it goes off to a CDN and also in terms of infrastructure and",
+    "start": 600
+  },
+  {
+    "content": "we'll look for example into the way we build single page applications and there",
+    "start": 605
+  },
+  {
+    "content": "is a huge you know number of options of what you could do like fully server",
+    "start": 608
+  },
+  {
+    "content": "fully client and everything in between yeah so I think in our case because we",
+    "start": 613
+  },
+  {
+    "content": "are kind of building out a scout and then it's we're serving it straight",
+    "start": 619
+  },
+  {
+    "content": "through Cydia with the content and all and then we kind of enhancing with",
+    "start": 622
+  },
+  {
+    "content": "JavaScript it was actually quite reasonable and quite I wouldn't say it",
+    "start": 625
+  },
+  {
+    "content": "was easy but made sense to move to that kind of setup because in the end it's",
+    "start": 630
+  },
+  {
+    "content": "just content that leaves you know on the page it's just you know HTML with a",
+    "start": 634
+  },
+  {
+    "content": "friend you know comments area and search box and you know a few other things but",
+    "start": 639
+  },
+  {
+    "content": "if you're moving towards like really let's say standalone application maybe",
+    "start": 643
+  },
+  {
+    "content": "even out of financial application online banking this kind of thing do you think",
+    "start": 648
+  },
+  {
+    "content": "steal that gem stack would be a good option to consider there or if you're",
+    "start": 653
+  },
+  {
+    "content": "having something like requires a lot of logic why should it all leave kind of",
+    "start": 657
+  },
+  {
+    "content": "you know doesn't need a server or not and trying to push you in the corner",
+    "start": 662
+  },
+  {
+    "content": "here yeah well I hate to trot out that old phrase it depends but it kind of",
+    "start": 667
+  },
+  {
+    "content": "does depend a little bit that said you know there are lots of applications",
+    "start": 673
+  },
+  {
+    "content": "which work just as well being a JavaScript application is actually",
+    "start": 678
+  },
+  {
+    "content": "having a server side component to them now I say that with a certain amount of",
+    "start": 682
+  },
+  {
+    "content": "caution because you know I'm I'm a little bit old-school when it comes to",
+    "start": 685
+  },
+  {
+    "content": "web development and I really like getting things into the browser as HTML",
+    "start": 689
+  },
+  {
+    "content": "as much as possible and then having a really high kind of a watermark from",
+    "start": 692
+  },
+  {
+    "content": "where you progressively enhanced from so I don't personally like doing everything",
+    "start": 698
+  },
+  {
+    "content": "in JavaScript and just like shipping an empty body tag and then running",
+    "start": 701
+  },
+  {
+    "content": "everything through JavaScript that said there are some times where that's",
+    "start": 705
+  },
+  {
+    "content": "perfectly acceptable if you're thinking about a certain kind of application",
+    "start": 709
+  },
+  {
+    "content": "which of course would heavily depend on JavaScript and you know your audience",
+    "start": 712
+  },
+  {
+    "content": "that can be completely reasonable I mean there are things that have shipped",
+    "start": 716
+  },
+  {
+    "content": "recently I'm thinking actually of something that shipped at Google i/o for",
+    "start": 720
+  },
+  {
+    "content": "as an example you know the chrome team put together a game which was very",
+    "start": 724
+  },
+  {
+    "content": "heavily JavaScript and that worked beautifully kind of serve statically so",
+    "start": 729
+  },
+  {
+    "content": "that there are plenty of use cases where that can work who kind of going back to",
+    "start": 732
+  },
+  {
+    "content": "your financial example um you know I used to work my very first job actually",
+    "start": 736
+  },
+  {
+    "content": "was putting numbers on screens for traders to trade off using web",
+    "start": 741
+  },
+  {
+    "content": "technologies and this was before WebSockets it was before Ajax it's",
+    "start": 745
+  },
+  {
+    "content": "before anything really that was useful to help you do that and it's kind of",
+    "start": 750
+  },
+  {
+    "content": "challenging but more recently you would do a lot of that kind of thing in",
+    "start": 754
+  },
+  {
+    "content": "JavaScript and that makes perfect sense you can start to make secure request to",
+    "start": 757
+  },
+  {
+    "content": "api's right from the browser there's plenty of models now for doing",
+    "start": 762
+  },
+  {
+    "content": "authentication and authorization directly from your browser so many ways",
+    "start": 766
+  },
+  {
+    "content": "this can simplify the stack for financial institutions that want to",
+    "start": 770
+  },
+  {
+    "content": "build some of these things out because the way that they can decouple some of",
+    "start": 775
+  },
+  {
+    "content": "these things can make them much more manageable so I'd certainly think that",
+    "start": 778
+  },
+  {
+    "content": "the gem stack kind of model can perfectly work in that scenario as well",
+    "start": 782
+  },
+  {
+    "content": "okay so maybe coming back now to just to explore that world of gems tag and from",
+    "start": 787
+  },
+  {
+    "content": "that what are you most excited about these days feel like if you're looking",
+    "start": 795
+  },
+  {
+    "content": "like gems like I like front-end in general is this something that really",
+    "start": 799
+  },
+  {
+    "content": "keeps you awake at night we wake up and you know in the morning hoping that yes",
+    "start": 802
+  },
+  {
+    "content": "I'm going to work on that some day one day I will get it done",
+    "start": 806
+  },
+  {
+    "content": "do you have fun well it kind yeah and this is the kind of thing where your",
+    "start": 811
+  },
+  {
+    "content": "answer could be different day by day because it feels like this world moves",
+    "start": 815
+  },
+  {
+    "content": "so quickly and then itself is one of the things that excites me so much you know",
+    "start": 818
+  },
+  {
+    "content": "now that we're starting to see you know really that the browser API start to",
+    "start": 822
+  },
+  {
+    "content": "really progress and the kind of things that we can do directly in the browser",
+    "start": 828
+  },
+  {
+    "content": "without having to implement them ourselves that's kind of exciting to me",
+    "start": 831
+  },
+  {
+    "content": "I'm still very much a duffer when it comes to SVG's I should explain the word",
+    "start": 835
+  },
+  {
+    "content": "duffer if anyone who's not English and watching",
+    "start": 842
+  },
+  {
+    "content": "this it means a fool I means I'm way behind the curve but I find myself",
+    "start": 845
+  },
+  {
+    "content": "really wanting to do more with SVG's and animations kind of things that I'm just",
+    "start": 850
+  },
+  {
+    "content": "way behind on and I want to play with that but things like the browser API is",
+    "start": 854
+  },
+  {
+    "content": "whether that's things for offline or for improving performance and particularly",
+    "start": 860
+  },
+  {
+    "content": "at the moment the way that font loading seems to be getting more and more",
+    "start": 865
+  },
+  {
+    "content": "accessible and so that we can start to really create things that visually are",
+    "start": 868
+  },
+  {
+    "content": "very rich and kind of closer to what we might want to make with typography I'm",
+    "start": 873
+  },
+  {
+    "content": "bit of a nerd for that stuff I like that kind stuff so I want to play more and",
+    "start": 877
+  },
+  {
+    "content": "more with that so feel talking about you know I'm gems Techcon from London I'm",
+    "start": 881
+  },
+  {
+    "content": "can you maybe also explain in a few words like what is it going to be about",
+    "start": 887
+  },
+  {
+    "content": "what's the focus and who is it for and what is your role there I just you know",
+    "start": 890
+  },
+  {
+    "content": "behind the scenes taking care of the content and all what's your all there",
+    "start": 896
+  },
+  {
+    "content": "well um so I've had the fun part of the job so I've had the opportunity to go",
+    "start": 900
+  },
+  {
+    "content": "out and find speakers and find interesting content so I'm really",
+    "start": 907
+  },
+  {
+    "content": "excited about how the programs come together you know we've got people like",
+    "start": 911
+  },
+  {
+    "content": "Chris Koya who's gonna talk about you know empowering front-end developers and",
+    "start": 916
+  },
+  {
+    "content": "how much we can do with front-end takes on technologies now based on this kind",
+    "start": 920
+  },
+  {
+    "content": "of gem step model we've got people like Jake Archibald and Surma from from",
+    "start": 924
+  },
+  {
+    "content": "Google from the google chrome team who are going to talk about things like",
+    "start": 930
+  },
+  {
+    "content": "performance in the front-end and ways that we can really drive very performant",
+    "start": 933
+  },
+  {
+    "content": "experiences either with like static hosting or infrastructure that or code",
+    "start": 937
+  },
+  {
+    "content": "that runs right in the browser and we're also gonna have you know Kravitz talking",
+    "start": 942
+  },
+  {
+    "content": "about things to do with CSS and Houdini and all of those kind of things and much",
+    "start": 947
+  },
+  {
+    "content": "much more besides we'll also be talking about things to do with the kind of",
+    "start": 951
+  },
+  {
+    "content": "cultural change that a jam stack model can have on your organization and on",
+    "start": 955
+  },
+  {
+    "content": "your projects so it really reaches all over the place so I'm kind of excited",
+    "start": 959
+  },
+  {
+    "content": "about that I'll get the chance also to introduce all of these people because",
+    "start": 963
+  },
+  {
+    "content": "they've let me go wild and be the emcee as well so that means I get to talk to",
+    "start": 967
+  },
+  {
+    "content": "these people and you know ask a few questions and those kind of things so um",
+    "start": 972
+  },
+  {
+    "content": "yeah I think it should be very interesting for anyone who's interested",
+    "start": 975
+  },
+  {
+    "content": "in front-end development and also new models of delivering projects on the web",
+    "start": 978
+  },
+  {
+    "content": "in a really efficient way so you do like the spotlight on stage huh I'm I'm an",
+    "start": 982
+  },
+  {
+    "content": "attention-seeker you should know that by now Italy you're very humble and",
+    "start": 988
+  },
+  {
+    "content": "Byzantine okay it's an apparently I was in AK okay",
+    "start": 993
+  },
+  {
+    "content": "that's fine Phil we'll meet like what and if you Oh actually tomorrow I'll see",
+    "start": 997
+  },
+  {
+    "content": "I'll see you soon for another event but otherwise I'll see you in July July the",
+    "start": 1004
+  },
+  {
+    "content": "9th and 10th and in June on for smashing comes Toronto so with this in mind Thank",
+    "start": 1008
+  },
+  {
+    "content": "You Phil and signing off bye bye everyone see you see",
+    "start": 1013
+  },
+  {
+    "content": "",
+    "start": 1021
+  }
+]

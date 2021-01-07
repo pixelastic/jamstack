@@ -1,0 +1,1626 @@
+[
+  {
+    "content": "thanks phil",
+    "start": 0
+  },
+  {
+    "content": "uh so yeah um as phil said you know kind of a",
+    "start": 14
+  },
+  {
+    "content": "a bit of a performance not um and if there's one thing we performance",
+    "start": 17
+  },
+  {
+    "content": "advocates love to complain about it's javascript uh but it's not without good",
+    "start": 21
+  },
+  {
+    "content": "reason like the thing is javascript isn't the heaviest resource on the web",
+    "start": 25
+  },
+  {
+    "content": "uh images are typically heavier and when they're used sort of video and audio",
+    "start": 29
+  },
+  {
+    "content": "but none of those resources are quite as capable of wreaking havoc on performance",
+    "start": 33
+  },
+  {
+    "content": "in the same variety of ways that javascript is",
+    "start": 37
+  },
+  {
+    "content": "javascript can block the browser from parsing html and rendering the page",
+    "start": 40
+  },
+  {
+    "content": "it can keep the browser's main thread so occupied that it can't respond to user",
+    "start": 44
+  },
+  {
+    "content": "interaction or do important layout or paint work",
+    "start": 48
+  },
+  {
+    "content": "add to that the fact that memory leaks are now starting to run rampant all over",
+    "start": 51
+  },
+  {
+    "content": "our new single page architecture driven web",
+    "start": 54
+  },
+  {
+    "content": "and it's clear that javascript has no shortage of ways to mess with our page's",
+    "start": 57
+  },
+  {
+    "content": "performance now you could literally spend days quite",
+    "start": 61
+  },
+  {
+    "content": "literally days digging into all the different performance considerations",
+    "start": 64
+  },
+  {
+    "content": "about how to use javascript effectively and efficiently",
+    "start": 67
+  },
+  {
+    "content": "but today i wanted to zero in on one that at least at first blush",
+    "start": 70
+  },
+  {
+    "content": "sounds very very simple how to load a script",
+    "start": 74
+  },
+  {
+    "content": "now before you tune out entirely i promise you that there's more going on",
+    "start": 78
+  },
+  {
+    "content": "it's more interesting than it sounds um so at its most basic form you include",
+    "start": 82
+  },
+  {
+    "content": "a script through one of two methods you do it either as an internal script",
+    "start": 86
+  },
+  {
+    "content": "inlined on the page or an external script using the source",
+    "start": 90
+  },
+  {
+    "content": "attribute uh and more or less you know this gets the job done but it doesn't do",
+    "start": 93
+  },
+  {
+    "content": "it particularly well i mentioned that there's a large variety",
+    "start": 97
+  },
+  {
+    "content": "of ways that javascript can mess up performance but",
+    "start": 101
+  },
+  {
+    "content": "for now throughout this talk i want to kind of focus on two basic ones",
+    "start": 104
+  },
+  {
+    "content": "how javascript ends up competing with other resources on the network for",
+    "start": 108
+  },
+  {
+    "content": "bandwidth availability and what it does in terms of impacting",
+    "start": 112
+  },
+  {
+    "content": "the browser's parser and eventually ultimately how we render the page",
+    "start": 116
+  },
+  {
+    "content": "um our goal should be to use no more higher priority on the network than",
+    "start": 120
+  },
+  {
+    "content": "needed and to not delay the display of the page",
+    "start": 124
+  },
+  {
+    "content": "in any way shape or form uh that default script element as",
+    "start": 127
+  },
+  {
+    "content": "innocent as it looks kind of messes up on both of them",
+    "start": 131
+  },
+  {
+    "content": "so to show you what i mean um i wanted to take a look at just you know a",
+    "start": 135
+  },
+  {
+    "content": "completely random page from the internet um and just roll the die and see what",
+    "start": 138
+  },
+  {
+    "content": "comes up and i thought you know this one this one might work um",
+    "start": 143
+  },
+  {
+    "content": "i've actually seen him do the moves live it's even better when it when it's live",
+    "start": 147
+  },
+  {
+    "content": "uh so so thank you to jason for another for building this and letting me",
+    "start": 152
+  },
+  {
+    "content": "use this for the talk actually but i wanted to show you kind of what's in the",
+    "start": 155
+  },
+  {
+    "content": "document itself so it's not particularly complex",
+    "start": 159
+  },
+  {
+    "content": "we have inside the head we're going to be loading two different resources",
+    "start": 163
+  },
+  {
+    "content": "we have a style sheet that we're pulling in and then we have a javascript file",
+    "start": 167
+  },
+  {
+    "content": "coming in from a service called slow files which i'll explain in a second",
+    "start": 171
+  },
+  {
+    "content": "in the body there's an image of phil doing his dance uh",
+    "start": 175
+  },
+  {
+    "content": "there's another script element that pulls in a youtube script and then",
+    "start": 178
+  },
+  {
+    "content": "there's an inline script that jason was using for the pause and the play of sort",
+    "start": 181
+  },
+  {
+    "content": "of this dynamic inclusion of background music",
+    "start": 184
+  },
+  {
+    "content": "so i mentioned that slow file service slow files if you're not familiar it's a",
+    "start": 189
+  },
+  {
+    "content": "fantastic website built by two of my friends ryan townsend and harry roberts",
+    "start": 192
+  },
+  {
+    "content": "what it does is it it lets you generate either a javascript request or a css",
+    "start": 197
+  },
+  {
+    "content": "request with some sort of an artificial delay imposed",
+    "start": 202
+  },
+  {
+    "content": "that's all it does and it does it very very well so the idea being that",
+    "start": 205
+  },
+  {
+    "content": "you know in this example here this delay of 2500 milliseconds or 2.5 seconds",
+    "start": 209
+  },
+  {
+    "content": "i can now drop this into a page and kind of experiment with different ways to",
+    "start": 213
+  },
+  {
+    "content": "load scripts or load css or structure the page",
+    "start": 216
+  },
+  {
+    "content": "and see how uh how that impacts the performance",
+    "start": 219
+  },
+  {
+    "content": "so throughout the talk we're going to be using this we're going to be using a",
+    "start": 223
+  },
+  {
+    "content": "script from slow files that has a 2.5 second",
+    "start": 226
+  },
+  {
+    "content": "delay attached to it um so let's start here let's start with",
+    "start": 228
+  },
+  {
+    "content": "this basic script element uh if we load this up inside of chrome",
+    "start": 232
+  },
+  {
+    "content": "dev tools and we look at the network panel we'll see that",
+    "start": 235
+  },
+  {
+    "content": "in the our script is requested it's the third request there",
+    "start": 238
+  },
+  {
+    "content": "under the time column we can see it takes 2.67 seconds that's that nice",
+    "start": 242
+  },
+  {
+    "content": "artificial delay being imposed so we can kind of",
+    "start": 245
+  },
+  {
+    "content": "exaggerate the impact and see what's going on but most notably",
+    "start": 248
+  },
+  {
+    "content": "i want to zero in on this priority column so you'll see that the script has",
+    "start": 252
+  },
+  {
+    "content": "a high priority now browsers have again a lot of",
+    "start": 256
+  },
+  {
+    "content": "different resources that they need to load",
+    "start": 259
+  },
+  {
+    "content": "and they need to be able to figure out which of these are most important",
+    "start": 261
+  },
+  {
+    "content": "in order to get the page to progress and load efficiently",
+    "start": 264
+  },
+  {
+    "content": "and the way they do this is they give some level of priority to these",
+    "start": 267
+  },
+  {
+    "content": "resources they have uh different resources get different network",
+    "start": 271
+  },
+  {
+    "content": "priorities and the higher the priority the higher",
+    "start": 274
+  },
+  {
+    "content": "up in the loading queue that that resource gets placed so here we can see",
+    "start": 277
+  },
+  {
+    "content": "chrome is giving a high priority to the script",
+    "start": 280
+  },
+  {
+    "content": "which puts it just a half step behind the document in the css which both get",
+    "start": 283
+  },
+  {
+    "content": "the highest priority now this isn't unique to chrome every",
+    "start": 287
+  },
+  {
+    "content": "browser has priorities they use the sometimes different",
+    "start": 291
+  },
+  {
+    "content": "verbiage and sometimes the priorities certainly",
+    "start": 294
+  },
+  {
+    "content": "change in terms of what the browsers are doing um so for example in safari if we",
+    "start": 297
+  },
+  {
+    "content": "look inside of devtools we can see that our script gets a high network priority",
+    "start": 301
+  },
+  {
+    "content": "again in this case it actually puts us right",
+    "start": 305
+  },
+  {
+    "content": "on even footing with the css and the html and in firefox you can't get it",
+    "start": 307
+  },
+  {
+    "content": "directly in the dev tools but if you run the firefox profiler",
+    "start": 311
+  },
+  {
+    "content": "you can find out that we're getting a normal priority theirs is mostly about",
+    "start": 315
+  },
+  {
+    "content": "word change they do have a highest priority that",
+    "start": 319
+  },
+  {
+    "content": "they assign to the document but for all intensive purposes you can",
+    "start": 321
+  },
+  {
+    "content": "consider their normal to be roughly equivalent to the high",
+    "start": 324
+  },
+  {
+    "content": "that we're seeing in safari in the blink-based browsers",
+    "start": 328
+  },
+  {
+    "content": "so again the the words are different but in each case they're actually javascript",
+    "start": 331
+  },
+  {
+    "content": "gets a significantly higher priority than many other types of resources",
+    "start": 335
+  },
+  {
+    "content": "which means that if it's up you know head to head against that in a low",
+    "start": 339
+  },
+  {
+    "content": "resource you know low priority resource",
+    "start": 342
+  },
+  {
+    "content": "javascript is going to win every time so why is it so high in the pecking",
+    "start": 344
+  },
+  {
+    "content": "order well it's because javascript is capable of doing things like",
+    "start": 349
+  },
+  {
+    "content": "document.write the document object model is",
+    "start": 352
+  },
+  {
+    "content": "foundational like it is absolutely critical to get that done",
+    "start": 355
+  },
+  {
+    "content": "correctly and efficiently to for the rest of the page to progress",
+    "start": 359
+  },
+  {
+    "content": "without the document object model this representation of all the content on a",
+    "start": 363
+  },
+  {
+    "content": "page and the structure that goes with it there's nothing for the css to apply to",
+    "start": 367
+  },
+  {
+    "content": "there's nothing for javascript to manipulate like",
+    "start": 370
+  },
+  {
+    "content": "you need to get this right and you need to get it right early",
+    "start": 373
+  },
+  {
+    "content": "javascript because it can mess with this kind of stuff it could cause",
+    "start": 376
+  },
+  {
+    "content": "the browser to potentially have to undo all the work it's done",
+    "start": 380
+  },
+  {
+    "content": "and recreate the document object model so instead of having to go through that",
+    "start": 384
+  },
+  {
+    "content": "expensive process of constructing parsing the html constructing the dom",
+    "start": 387
+  },
+  {
+    "content": "and then potentially throwing it out uh the browsers treat javascript as",
+    "start": 391
+  },
+  {
+    "content": "parser blocking when they come across a script by default they will pause",
+    "start": 395
+  },
+  {
+    "content": "parsing the html until that script has been downloaded",
+    "start": 399
+  },
+  {
+    "content": "and executed just in case it's going to do something nefarious",
+    "start": 402
+  },
+  {
+    "content": "so chrome devtools does a pretty good job of visualizing this",
+    "start": 406
+  },
+  {
+    "content": "so what you see here is uh this is the performance panel there's a lot going on",
+    "start": 409
+  },
+  {
+    "content": "but we'll break it down kind of step by step",
+    "start": 413
+  },
+  {
+    "content": "um the first thing that we want to zero in on here is in the network section of",
+    "start": 415
+  },
+  {
+    "content": "the panel we can see again the request that's that",
+    "start": 419
+  },
+  {
+    "content": "2.67 second request that high priority for our javascript file",
+    "start": 422
+  },
+  {
+    "content": "um what we want to do is we want to see what was the browser doing when it found",
+    "start": 427
+  },
+  {
+    "content": "that request like how did it cue that off so we're going to zoom in",
+    "start": 430
+  },
+  {
+    "content": "and go to the very beginning of that request to where it all started",
+    "start": 433
+  },
+  {
+    "content": "and then we're going to come down to the main thread activity now the main thread",
+    "start": 437
+  },
+  {
+    "content": "is where user interaction painting calculation of styles all that",
+    "start": 439
+  },
+  {
+    "content": "kind of stuff happens on the main thread and what we can see here is that right",
+    "start": 443
+  },
+  {
+    "content": "when that script gets identified the main thread the browser is parsing",
+    "start": 447
+  },
+  {
+    "content": "the html so that 0.6 in the brackets that's",
+    "start": 451
+  },
+  {
+    "content": "telling us it was parsing from line 0 to line 6. so the browser parses the",
+    "start": 455
+  },
+  {
+    "content": "first six lines of html and then it stops",
+    "start": 460
+  },
+  {
+    "content": "and it stops because it found this script and the script can potentially",
+    "start": 463
+  },
+  {
+    "content": "mess with everything so it's going to sit there and wait uh",
+    "start": 466
+  },
+  {
+    "content": "until we're ready to the script has been downloaded so now",
+    "start": 470
+  },
+  {
+    "content": "let's move to the other end we're going to go back to the uh when",
+    "start": 473
+  },
+  {
+    "content": "this request has been completed find the end of that and then come down",
+    "start": 477
+  },
+  {
+    "content": "to the main thread again and see what's going on once that script",
+    "start": 480
+  },
+  {
+    "content": "arrives so uh here what we can see is uh that",
+    "start": 483
+  },
+  {
+    "content": "we start parsing the html again uh this time at line",
+    "start": 489
+  },
+  {
+    "content": "seven so for that entire 2.7 seconds or so that that file is being downloaded",
+    "start": 492
+  },
+  {
+    "content": "nothing happens we haven't downloaded or we haven't parsed anything other than",
+    "start": 497
+  },
+  {
+    "content": "those first six lines of the document uh and the impact on the user experience",
+    "start": 501
+  },
+  {
+    "content": "is as you would expect not exactly great uh so chrome records",
+    "start": 506
+  },
+  {
+    "content": "these film strips uh these little screenshots as the the",
+    "start": 511
+  },
+  {
+    "content": "page is progressing and we can see for the first three",
+    "start": 514
+  },
+  {
+    "content": "seconds or so of of the page load process we're staring at a white screen",
+    "start": 516
+  },
+  {
+    "content": "it isn't until around three seconds or so that we finally get to see phil dance",
+    "start": 520
+  },
+  {
+    "content": "and if we go down to the timings the timings confirm that first paint is",
+    "start": 524
+  },
+  {
+    "content": "fired off pretty late um until then it's a blank screen now",
+    "start": 527
+  },
+  {
+    "content": "for anybody who's ever wanted to see phil dance you know",
+    "start": 531
+  },
+  {
+    "content": "waiting three seconds isn't gonna cut it when we say dance",
+    "start": 534
+  },
+  {
+    "content": "you dance phil so three seconds is not tolerable what we're doing from a user",
+    "start": 536
+  },
+  {
+    "content": "experience perspective here is not great um so there are these undesirable",
+    "start": 540
+  },
+  {
+    "content": "characteristics that come along with the default script element",
+    "start": 544
+  },
+  {
+    "content": "it blocks the parser it blocks the rendering of the page",
+    "start": 548
+  },
+  {
+    "content": "and it competes with critical resources because it has such a high network",
+    "start": 551
+  },
+  {
+    "content": "priority if we're building our pages in a way",
+    "start": 554
+  },
+  {
+    "content": "that we're not dependent on javascript for critical content to display which is",
+    "start": 556
+  },
+  {
+    "content": "the goal uh then that network priority is not necessarily something we want we",
+    "start": 561
+  },
+  {
+    "content": "want to get those other image there's other assets out faster",
+    "start": 565
+  },
+  {
+    "content": "so let's try to improve on this so the first thing we might do our take two so",
+    "start": 569
+  },
+  {
+    "content": "to speak is to try and put those scripts at the bottom of the html",
+    "start": 573
+  },
+  {
+    "content": "now this is something that has been said you know for years now and and",
+    "start": 576
+  },
+  {
+    "content": "like as i perform its best practice like put the script at the bottom instead of",
+    "start": 581
+  },
+  {
+    "content": "it in the head so why does that matter well remember",
+    "start": 584
+  },
+  {
+    "content": "when we're talking about parsing and blocking the parser",
+    "start": 587
+  },
+  {
+    "content": "the browser is able to parse the html up until the point it finds that script",
+    "start": 590
+  },
+  {
+    "content": "element if we have it at the bottom of the page",
+    "start": 594
+  },
+  {
+    "content": "that means it can parse much more html so if we look at the performance panel",
+    "start": 596
+  },
+  {
+    "content": "again for this with our script now at the bottom",
+    "start": 601
+  },
+  {
+    "content": "what you'll see here is if you look at the film strip we're getting that hawk",
+    "start": 604
+  },
+  {
+    "content": "dance out really early first paint fires very",
+    "start": 607
+  },
+  {
+    "content": "quickly long before our javascript arrives",
+    "start": 610
+  },
+  {
+    "content": "and if we go to the end of this request and zero in again on the main thread",
+    "start": 613
+  },
+  {
+    "content": "activity we'll see that once that request is completed and it",
+    "start": 617
+  },
+  {
+    "content": "starts parsing html it's starting on line 71. so in contrast",
+    "start": 620
+  },
+  {
+    "content": "to the last time where because it was in the head we could only",
+    "start": 624
+  },
+  {
+    "content": "parse the first six lines we're now able to parse the majority of the",
+    "start": 627
+  },
+  {
+    "content": "document before that script ever arrives and as a result we get a faster paint",
+    "start": 630
+  },
+  {
+    "content": "out now this also impacts uh script priority",
+    "start": 635
+  },
+  {
+    "content": "uh on the network chrome will now give this a medium priority they demote it",
+    "start": 639
+  },
+  {
+    "content": "you'll see it's in line with that youtube script which was",
+    "start": 642
+  },
+  {
+    "content": "included further down the page as well this means it's less likely to compete",
+    "start": 645
+  },
+  {
+    "content": "with some of those higher priority resources for bandwidth",
+    "start": 649
+  },
+  {
+    "content": "safari firefox they actually don't do anything interesting here at all",
+    "start": 654
+  },
+  {
+    "content": "they keep the same prioritization as before so",
+    "start": 657
+  },
+  {
+    "content": "at first blush this is looking a little better right we have a little bit",
+    "start": 660
+  },
+  {
+    "content": "reduced priority and we also are able to parse most of",
+    "start": 663
+  },
+  {
+    "content": "the document and and get something painted out on the screen",
+    "start": 667
+  },
+  {
+    "content": "but this is one of those situations where the simplicity of our demo page is",
+    "start": 670
+  },
+  {
+    "content": "kind of hiding a few issues uh so the code that",
+    "start": 673
+  },
+  {
+    "content": "you see on the left here that's the entire html markup for this",
+    "start": 676
+  },
+  {
+    "content": "demo page that's it that's all that's going on the",
+    "start": 680
+  },
+  {
+    "content": "code that you see on the right that is the entire markup for the",
+    "start": 683
+  },
+  {
+    "content": "walmart.com home page now walmart is not a particularly terrible offender they're",
+    "start": 686
+  },
+  {
+    "content": "actually very middle of the road when you look at this",
+    "start": 690
+  },
+  {
+    "content": "you know aggregate data from http archive or anything like that",
+    "start": 693
+  },
+  {
+    "content": "but the difference here is between 2.2 kilobytes of raw code",
+    "start": 696
+  },
+  {
+    "content": "and 198 kilobytes of raw code now if the browser has to parse",
+    "start": 700
+  },
+  {
+    "content": "almost 200 kilobytes before it finds that script element",
+    "start": 705
+  },
+  {
+    "content": "that means that we're being discovering that script element very very late in",
+    "start": 708
+  },
+  {
+    "content": "the game and as a result it's starting the",
+    "start": 711
+  },
+  {
+    "content": "download process and starting the parsing process",
+    "start": 714
+  },
+  {
+    "content": "much later than it potentially could be otherwise",
+    "start": 716
+  },
+  {
+    "content": "so we're getting that lower priority but we're also getting that late discovery",
+    "start": 720
+  },
+  {
+    "content": "which pushes it off and could potentially negatively impact our",
+    "start": 723
+  },
+  {
+    "content": "performance so we're in a little bit better position",
+    "start": 726
+  },
+  {
+    "content": "but we are getting you know in terms of competing with critical resources we're",
+    "start": 729
+  },
+  {
+    "content": "a little better there but it is discovered very late and we",
+    "start": 732
+  },
+  {
+    "content": "can do better than this so let's try take three let's try",
+    "start": 735
+  },
+  {
+    "content": "dynamically injecting the script so in this case we've got an inline",
+    "start": 739
+  },
+  {
+    "content": "script that's going to create a script element",
+    "start": 743
+  },
+  {
+    "content": "set the source attribute and then append that to",
+    "start": 745
+  },
+  {
+    "content": "the head the nice thing about dynamically inserted scripts is that",
+    "start": 748
+  },
+  {
+    "content": "they are treated as asynchronous by default",
+    "start": 752
+  },
+  {
+    "content": "which means that while that script is being downloaded and requested it's not",
+    "start": 754
+  },
+  {
+    "content": "going to block our html parser anymore it also means because we've told it it's",
+    "start": 758
+  },
+  {
+    "content": "it's basically treated as async so it's not quite as",
+    "start": 763
+  },
+  {
+    "content": "important as a blocking chrome can give it an even lower",
+    "start": 765
+  },
+  {
+    "content": "priority so blink-based browsers will push this down to a low priority now",
+    "start": 768
+  },
+  {
+    "content": "means it's even less likely to contend with bandwidth for more higher priority",
+    "start": 772
+  },
+  {
+    "content": "resources again safari and firefox don't do",
+    "start": 776
+  },
+  {
+    "content": "anything interesting here they keep it the same as it was",
+    "start": 779
+  },
+  {
+    "content": "but because we have that async behavior you can see the main thread is doing all",
+    "start": 782
+  },
+  {
+    "content": "sorts of work here we're able to actually parse the entire",
+    "start": 786
+  },
+  {
+    "content": "document we're not you know delayed in any way the film strip shows that we're",
+    "start": 789
+  },
+  {
+    "content": "getting that first paint out nice and quick",
+    "start": 792
+  },
+  {
+    "content": "um again we're looking like we're doing much much better with this approach",
+    "start": 795
+  },
+  {
+    "content": "but we'd still have a couple of gotchas so first off if we zero in on this",
+    "start": 800
+  },
+  {
+    "content": "network activity and we notice the order things are being",
+    "start": 804
+  },
+  {
+    "content": "requested we've got our css we've got our gif of uh phil dancing",
+    "start": 807
+  },
+  {
+    "content": "we've got the youtube request and then the fourth",
+    "start": 812
+  },
+  {
+    "content": "file being pulled in or queued up is the slow javascript file we've requested",
+    "start": 814
+  },
+  {
+    "content": "but if you look at the markup that inline snippet that",
+    "start": 820
+  },
+  {
+    "content": "triggers that dynamically injected script comes before all of that it",
+    "start": 823
+  },
+  {
+    "content": "should actually be running before any the document even gets to parse the rest",
+    "start": 826
+  },
+  {
+    "content": "of the stuff the browser gets to parse the rest of",
+    "start": 830
+  },
+  {
+    "content": "the page so what's going on like why are we still seeing the image and the",
+    "start": 833
+  },
+  {
+    "content": "youtube script and things like that that's because browsers have what's",
+    "start": 836
+  },
+  {
+    "content": "called a look ahead or speculative parser",
+    "start": 839
+  },
+  {
+    "content": "and its job is to look ahead and not really construct anything about the",
+    "start": 842
+  },
+  {
+    "content": "dom or anything like that we're specifically",
+    "start": 846
+  },
+  {
+    "content": "looking for other resources that we know we're going to need to load",
+    "start": 849
+  },
+  {
+    "content": "so that the browser can start loading those proactively",
+    "start": 853
+  },
+  {
+    "content": "so that's where it looks and it finds this image it says hey we're going to",
+    "start": 856
+  },
+  {
+    "content": "need that let's grab that keep looking up we've got a youtube",
+    "start": 859
+  },
+  {
+    "content": "script let's queue that up for download 2.",
+    "start": 862
+  },
+  {
+    "content": "the preloader which is fantastic but it can only",
+    "start": 864
+  },
+  {
+    "content": "find things that are in the markup and our script is not in the markup",
+    "start": 868
+  },
+  {
+    "content": "our script you have to execute javascript to be able to get to it",
+    "start": 872
+  },
+  {
+    "content": "um to be able to find ours you have to evaluate and compile that inline script",
+    "start": 876
+  },
+  {
+    "content": "then you have to run it and then you see that send request happen finally for our",
+    "start": 879
+  },
+  {
+    "content": "dynamically injected script so as a result uh it's queued up pretty",
+    "start": 883
+  },
+  {
+    "content": "late it's actually discovered even later than our def uh our script at",
+    "start": 887
+  },
+  {
+    "content": "the bottom example that we just looked at",
+    "start": 891
+  },
+  {
+    "content": "because now we have to run the exec uh execute the javascript as well",
+    "start": 893
+  },
+  {
+    "content": "to get to it it also surfaces another problem that we've actually been able to",
+    "start": 897
+  },
+  {
+    "content": "ignore so far if you look at the network in terms of",
+    "start": 901
+  },
+  {
+    "content": "when things are lining up this pink line shows you when the css",
+    "start": 905
+  },
+  {
+    "content": "has been arrived and applied it also shows you when the request for",
+    "start": 909
+  },
+  {
+    "content": "our slow file javascript is kicked off",
+    "start": 914
+  },
+  {
+    "content": "that javascript snippet doesn't run until all the css arrives",
+    "start": 918
+  },
+  {
+    "content": "the reason is we mentioned that javascript can mess with the dom",
+    "start": 922
+  },
+  {
+    "content": "javascript can also mess with the css object model it can add and change",
+    "start": 925
+  },
+  {
+    "content": "styles and again this is an expensive process",
+    "start": 928
+  },
+  {
+    "content": "so once again browsers would rather not have to construct the entire css object",
+    "start": 931
+  },
+  {
+    "content": "model only to throw it all out the window",
+    "start": 935
+  },
+  {
+    "content": "because of something javascript did so when there is a css request on the",
+    "start": 937
+  },
+  {
+    "content": "network when we're downloading css and there's javascript that needs to be",
+    "start": 942
+  },
+  {
+    "content": "executed the browser will not execute that javascript",
+    "start": 946
+  },
+  {
+    "content": "until the css has been arrived and parsed so the css blocks our javascript",
+    "start": 950
+  },
+  {
+    "content": "execution and the javascript execution blocks our parser",
+    "start": 954
+  },
+  {
+    "content": "so to make this a little clearer again chrome devtools we can look at this we",
+    "start": 959
+  },
+  {
+    "content": "can add a slow file request for a css as well",
+    "start": 962
+  },
+  {
+    "content": "that's that nice long purple bar in the network section here",
+    "start": 965
+  },
+  {
+    "content": "and you can see that we parsed html through line 12",
+    "start": 969
+  },
+  {
+    "content": "and then we stop and nothing happens that main thread is",
+    "start": 972
+  },
+  {
+    "content": "empty until that purple bar is complete until we've got our css",
+    "start": 976
+  },
+  {
+    "content": "only at that point do we execute the inline script which then triggers the",
+    "start": 980
+  },
+  {
+    "content": "request for the dynamically injected script and then we",
+    "start": 984
+  },
+  {
+    "content": "get to go on with our lives this is actually the case for script",
+    "start": 987
+  },
+  {
+    "content": "behavior by default this isn't unique to dynamically injected scripts",
+    "start": 991
+  },
+  {
+    "content": "it's just that the way we were loading it before we were able to ignore that",
+    "start": 995
+  },
+  {
+    "content": "performance issue because it just wasn't rearing its head the fun",
+    "start": 998
+  },
+  {
+    "content": "thing about performance issues is often it's a little bit like",
+    "start": 1002
+  },
+  {
+    "content": "whack-a-mole you never know when they're going to pop up",
+    "start": 1004
+  },
+  {
+    "content": "but in this case so what happens is we've got we've turned css now into a",
+    "start": 1007
+  },
+  {
+    "content": "parser blocking thing and for the record i see this a ton in",
+    "start": 1011
+  },
+  {
+    "content": "production like this is all over the place with inline snippets right after",
+    "start": 1014
+  },
+  {
+    "content": "style sheets that end up blocking parsing so in this approach we're",
+    "start": 1018
+  },
+  {
+    "content": "blocking the parser we're discovering it very late",
+    "start": 1022
+  },
+  {
+    "content": "we've got work to do so let's try the next approach take four",
+    "start": 1024
+  },
+  {
+    "content": "let's use the async attribute so async again gives us that same low priority in",
+    "start": 1028
+  },
+  {
+    "content": "chrome excitedly we actually get a low priority",
+    "start": 1033
+  },
+  {
+    "content": "in safari we get another browser changing a priority which is fantastic",
+    "start": 1037
+  },
+  {
+    "content": "um so firefox doesn't do anything but we",
+    "start": 1041
+  },
+  {
+    "content": "get the low price low network priority in safari and in the blink-based",
+    "start": 1044
+  },
+  {
+    "content": "browsers um so the contention against other",
+    "start": 1048
+  },
+  {
+    "content": "critical resources is very low it's in the markup",
+    "start": 1050
+  },
+  {
+    "content": "so you can see if you look at the network they're all lined up they're all",
+    "start": 1053
+  },
+  {
+    "content": "being requested around the same time things are and because it's async it",
+    "start": 1056
+  },
+  {
+    "content": "means that that again we have we're able to parse all that",
+    "start": 1060
+  },
+  {
+    "content": "html things are looking great but again we've got a couple gotchas so",
+    "start": 1063
+  },
+  {
+    "content": "uh our example so far has been one script",
+    "start": 1067
+  },
+  {
+    "content": "but what if we add another script um in this case uh another javascript",
+    "start": 1070
+  },
+  {
+    "content": "file from slow files that's gonna arrive a little bit faster",
+    "start": 1074
+  },
+  {
+    "content": "now if you care at all about execution order async is",
+    "start": 1077
+  },
+  {
+    "content": "out the window because what async does is as soon as that file arrives whenever",
+    "start": 1080
+  },
+  {
+    "content": "it was whenever it arrives regardless of what",
+    "start": 1085
+  },
+  {
+    "content": "order it was requested it's going to execute so in this case",
+    "start": 1087
+  },
+  {
+    "content": "we've got the second file arriving much earlier",
+    "start": 1091
+  },
+  {
+    "content": "it gets executed as soon as it's there without regard to anything else that was",
+    "start": 1093
+  },
+  {
+    "content": "requested async does not guarantee loading order in any way shape or form",
+    "start": 1098
+  },
+  {
+    "content": "and that's because with an async attribute",
+    "start": 1102
+  },
+  {
+    "content": "what we're telling the browser is we're telling it",
+    "start": 1105
+  },
+  {
+    "content": "put the downloading of that script in parallel with html parsing",
+    "start": 1108
+  },
+  {
+    "content": "but then pause as soon as the script arrives",
+    "start": 1112
+  },
+  {
+    "content": "i want you to stop whatever you're doing and execute that script",
+    "start": 1116
+  },
+  {
+    "content": "and then move on with your life so if that async script is arriving partly",
+    "start": 1120
+  },
+  {
+    "content": "through html parsing like we haven't completely parsed the html document",
+    "start": 1124
+  },
+  {
+    "content": "we're still parser blocking at this point because we're telling the browser",
+    "start": 1128
+  },
+  {
+    "content": "execute this script as soon as it's there",
+    "start": 1131
+  },
+  {
+    "content": "so async scripts also block the parser when the script arrives",
+    "start": 1133
+  },
+  {
+    "content": "so i've seen countless stories of folks who have started with a large async",
+    "start": 1136
+  },
+  {
+    "content": "script made that script smaller and their paint",
+    "start": 1140
+  },
+  {
+    "content": "metrics ended up getting worse like their first paint",
+    "start": 1144
+  },
+  {
+    "content": "times go down and it speak i guess go up the other way um but it's",
+    "start": 1147
+  },
+  {
+    "content": "because what's happened is even though they've made the script",
+    "start": 1152
+  },
+  {
+    "content": "lighter which seems like a great thing it's now arriving earlier which means",
+    "start": 1155
+  },
+  {
+    "content": "it's not letting the browser parse all the html",
+    "start": 1158
+  },
+  {
+    "content": "which means we're blocking the rendering of our page",
+    "start": 1161
+  },
+  {
+    "content": "so again with async we've got no guarantee of order we're still blocking",
+    "start": 1164
+  },
+  {
+    "content": "that parser potentially render we got to do better than this so take",
+    "start": 1168
+  },
+  {
+    "content": "five uh the defer attribute so the defer",
+    "start": 1173
+  },
+  {
+    "content": "attribute is like the nuclear option here",
+    "start": 1176
+  },
+  {
+    "content": "with defer we're saying move everything in parallel and don't",
+    "start": 1178
+  },
+  {
+    "content": "execute the script at all until you're completely done parsing the html and",
+    "start": 1182
+  },
+  {
+    "content": "creating the document object model basically we're doing this right before",
+    "start": 1186
+  },
+  {
+    "content": "dom content loaded so if we look at chrome dev tools here",
+    "start": 1190
+  },
+  {
+    "content": "we see the file arrive and we see that it's executing right",
+    "start": 1193
+  },
+  {
+    "content": "away because of how long it took but it is the last literally the last",
+    "start": 1197
+  },
+  {
+    "content": "thing that has to happen before the browser can fire the load and dom",
+    "start": 1201
+  },
+  {
+    "content": "content loaded events so with defer we're basically saying",
+    "start": 1204
+  },
+  {
+    "content": "it's even less of a priority than async async interrupt the parsing to execute",
+    "start": 1208
+  },
+  {
+    "content": "defer just wait until the end as you would expect then chrome gives us",
+    "start": 1212
+  },
+  {
+    "content": "a low priority still safari gives it a high priority",
+    "start": 1217
+  },
+  {
+    "content": "i i don't get it i honestly i don't understand",
+    "start": 1224
+  },
+  {
+    "content": "i it possibly is a bug um you know i have to chat with him and see what's",
+    "start": 1227
+  },
+  {
+    "content": "going on there um or there could be some reason for this that",
+    "start": 1231
+  },
+  {
+    "content": "makes sense to somebody smarter than me um but on the surface it doesn't seem",
+    "start": 1235
+  },
+  {
+    "content": "super clear so unfortunately we lose a little bit of",
+    "start": 1239
+  },
+  {
+    "content": "our network priority the niceness here um because safari bumps that back up to",
+    "start": 1242
+  },
+  {
+    "content": "a high but we do get the preservation of order like",
+    "start": 1246
+  },
+  {
+    "content": "if we've got two deferred scripts um the browser is going to wait until",
+    "start": 1249
+  },
+  {
+    "content": "execution you can see there's no execution here when the first script",
+    "start": 1252
+  },
+  {
+    "content": "arrives because it knows not to execute until",
+    "start": 1255
+  },
+  {
+    "content": "dom content loaded is right ready to be fired which means",
+    "start": 1258
+  },
+  {
+    "content": "it can cue up that execution in a nice orderly fashion",
+    "start": 1262
+  },
+  {
+    "content": "so we're certainly better here we can guarantee order it doesn't block the",
+    "start": 1265
+  },
+  {
+    "content": "parser or the render it's discovered early because it's in the markup",
+    "start": 1268
+  },
+  {
+    "content": "and because of that low network priority at least in blink-based browsers it",
+    "start": 1271
+  },
+  {
+    "content": "doesn't compete with other critical resources",
+    "start": 1275
+  },
+  {
+    "content": "but what if we wanted to there what if we want that network priority and the",
+    "start": 1279
+  },
+  {
+    "content": "parser benefits and this isn't a hypothetical let's say that you're doing",
+    "start": 1283
+  },
+  {
+    "content": "server-side rendering and you've got a client-side framework that's going to",
+    "start": 1286
+  },
+  {
+    "content": "kick in on top of that you don't want to delay render you want",
+    "start": 1289
+  },
+  {
+    "content": "that to happen as quickly as possible but you also want the script to be",
+    "start": 1293
+  },
+  {
+    "content": "downloaded quickly so that as soon as that first render happens",
+    "start": 1296
+  },
+  {
+    "content": "as soon as we're ready that script can execute immediately and get that",
+    "start": 1299
+  },
+  {
+    "content": "interactivity kicked in that's where you do take seven that's",
+    "start": 1303
+  },
+  {
+    "content": "where we do the preload uh paired with the defer so what preload",
+    "start": 1307
+  },
+  {
+    "content": "is is it tells the browser hey there's this resource",
+    "start": 1311
+  },
+  {
+    "content": "uh you're gonna find it we're gonna need it eventually why don't you get a head",
+    "start": 1313
+  },
+  {
+    "content": "start download it right now and give it a little bit of a bump in priority",
+    "start": 1316
+  },
+  {
+    "content": "so in chrome we see that bump up to a high priority again",
+    "start": 1320
+  },
+  {
+    "content": "safari and firefox again just keep it as always with that high and normal",
+    "start": 1323
+  },
+  {
+    "content": "but now we get sort of that best of both worlds if we want that to be prioritized",
+    "start": 1328
+  },
+  {
+    "content": "a bit more we can see that everything is queued up",
+    "start": 1332
+  },
+  {
+    "content": "on the network right the main thread is able to go we get the benefits of defer",
+    "start": 1334
+  },
+  {
+    "content": "but we also have that higher priority so it means that it's going to be",
+    "start": 1338
+  },
+  {
+    "content": "downloaded right away and arrive a little bit earlier so we",
+    "start": 1341
+  },
+  {
+    "content": "can load it right away as soon as that page has been rendered or",
+    "start": 1344
+  },
+  {
+    "content": "ready to be rendered and displayed so loading scripts",
+    "start": 1347
+  },
+  {
+    "content": "it's it's all about understanding the trade-offs the way that we load scripts",
+    "start": 1351
+  },
+  {
+    "content": "dictate network priority and how the browser parser behaves",
+    "start": 1354
+  },
+  {
+    "content": "and it seems like a simple thing but it can have massive consequences for",
+    "start": 1357
+  },
+  {
+    "content": "performance and honestly there's no it's not a",
+    "start": 1360
+  },
+  {
+    "content": "one-size-fits-all like sometimes you want the blocking behavior of a script",
+    "start": 1363
+  },
+  {
+    "content": "if you're using client-side rendering or client-side a b testing you know",
+    "start": 1366
+  },
+  {
+    "content": "hopefully you're not doing either of those things",
+    "start": 1369
+  },
+  {
+    "content": "but if you are then you want the script to block that initial display you don't",
+    "start": 1371
+  },
+  {
+    "content": "want to display something and then change it all",
+    "start": 1375
+  },
+  {
+    "content": "up um if you have you know stuff that's not critical to that user",
+    "start": 1377
+  },
+  {
+    "content": "experience maybe third-party scripts that you can push off to defer and keep",
+    "start": 1381
+  },
+  {
+    "content": "that low priority that's where defer works and again we mentioned the",
+    "start": 1384
+  },
+  {
+    "content": "server-side rendering approach with a client-side framework where",
+    "start": 1387
+  },
+  {
+    "content": "that's where a deferred preload comes into play",
+    "start": 1390
+  },
+  {
+    "content": "um it's all about experimenting and believe it or not this is just",
+    "start": 1393
+  },
+  {
+    "content": "scratching the service chrome in particular has a ton of",
+    "start": 1396
+  },
+  {
+    "content": "different ways that javascript gets prioritized on the network and on the",
+    "start": 1399
+  },
+  {
+    "content": "main thread and we're experimenting with new methods",
+    "start": 1402
+  },
+  {
+    "content": "all the time it really comes down to the same thing i tell folks for any",
+    "start": 1404
+  },
+  {
+    "content": "performance optimization don't take whatever you hear is gospel",
+    "start": 1408
+  },
+  {
+    "content": "there's always going to be trade-offs so when you're tweaking the way that",
+    "start": 1411
+  },
+  {
+    "content": "you're loading scripts or applying any optimization for that matter",
+    "start": 1415
+  },
+  {
+    "content": "you know make sure that you take the time to experiment to measure the impact",
+    "start": 1418
+  },
+  {
+    "content": "of that experiment and then always always iterate on it to",
+    "start": 1421
+  },
+  {
+    "content": "ensure that we're providing the best experience possible to our users",
+    "start": 1424
+  },
+  {
+    "content": "thank you",
+    "start": 1428
+  },
+  {
+    "content": "you",
+    "start": 1890
+  }
+]

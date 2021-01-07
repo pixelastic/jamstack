@@ -1,0 +1,1298 @@
+[
+  {
+    "content": "so this next talk is is called",
+    "start": 0
+  },
+  {
+    "content": "delivering more to customers with less overhead and is by Beth Pollak and Luis",
+    "start": 5
+  },
+  {
+    "content": "Ugarte both of them are from Citrix okay finally I think we're ready here hello",
+    "start": 10
+  },
+  {
+    "content": "everybody my name is Luis Ugarte I'm systems programmer for Citrix Systems",
+    "start": 26
+  },
+  {
+    "content": "along with me here is my associate Beth Pollak she is senior principal",
+    "start": 30
+  },
+  {
+    "content": "information development very long title I'll be back in a few minutes to chat",
+    "start": 37
+  },
+  {
+    "content": "with you a little bit more but for now I will leave it with Beth thanks Liz",
+    "start": 43
+  },
+  {
+    "content": "hello Jim SEC New York City thanks for being here",
+    "start": 50
+  },
+  {
+    "content": "as Lewis said I'm Beth Pollak and my role at Citrix is the site owner for",
+    "start": 55
+  },
+  {
+    "content": "docs Citrix calm as the site owner I set priorities for development and I make",
+    "start": 61
+  },
+  {
+    "content": "decisions about our roadmap and our immediate priorities Lewis manages the",
+    "start": 68
+  },
+  {
+    "content": "site and all of the tools and systems that keep it running from making sure",
+    "start": 73
+  },
+  {
+    "content": "it's up and running day to day to troubleshooting issues",
+    "start": 78
+  },
+  {
+    "content": "with deployment to helping develop test and deploy site features Luis and I are",
+    "start": 83
+  },
+  {
+    "content": "based in Fort Lauderdale Florida and I do want to give a shout out to hash out",
+    "start": 88
+  },
+  {
+    "content": "technologies they're a consulting firm based in Bangalore India and they've",
+    "start": 94
+  },
+  {
+    "content": "been instrumental in this transition and they provide a bulk of our the bulk of",
+    "start": 99
+  },
+  {
+    "content": "our architecture and development work they're an integral part of our team and",
+    "start": 104
+  },
+  {
+    "content": "our success so to give you some background about what we deliver and",
+    "start": 108
+  },
+  {
+    "content": "manage doxed out Citrix comm is the home of citrix product documentation people",
+    "start": 116
+  },
+  {
+    "content": "still commonly refer to this as admin guides and our content is business",
+    "start": 121
+  },
+  {
+    "content": "critical for our tech support and partners we host admin facing",
+    "start": 127
+  },
+  {
+    "content": "documentation for 15 products and all of the related",
+    "start": 132
+  },
+  {
+    "content": "components which I think comes out to about 80 individual Docs sets we also",
+    "start": 135
+  },
+  {
+    "content": "support more than 50 content contributors who live around the world",
+    "start": 142
+  },
+  {
+    "content": "and our content is localized in to as many as 8 languages that's not a huge",
+    "start": 146
+  },
+  {
+    "content": "number of languages compared to a lot of sites but given the amount of content we",
+    "start": 152
+  },
+  {
+    "content": "have it gives us a rule of thumb for our scalability requirements and we have",
+    "start": 158
+  },
+  {
+    "content": "about three and a quarter million users on our site",
+    "start": 164
+  },
+  {
+    "content": "annually our history of publishing and hosting a Docs dedicated website goes",
+    "start": 167
+  },
+  {
+    "content": "back to 2007 when we started using data with the component content management",
+    "start": 174
+  },
+  {
+    "content": "system that's a really common set up for technical authoring and then in 2015 we",
+    "start": 180
+  },
+  {
+    "content": "moved to a web management system as part of a company initiative for all web",
+    "start": 187
+  },
+  {
+    "content": "properties to use the same tools our development work at the time was done by",
+    "start": 192
+  },
+  {
+    "content": "an agency that specialized in the web management system the research",
+    "start": 199
+  },
+  {
+    "content": "development migration and rollout took more than a year and frankly it was just",
+    "start": 203
+  },
+  {
+    "content": "not agile at all and the final migration of the web",
+    "start": 209
+  },
+  {
+    "content": "management system was just done in one massive effort one day we were on the",
+    "start": 213
+  },
+  {
+    "content": "old platform the next day we were on the new platform and we noticed results",
+    "start": 218
+  },
+  {
+    "content": "immediately unfortunately they were not the results we'd hoped for there was a",
+    "start": 224
+  },
+  {
+    "content": "huge requirements gap between the web management system and what our technical",
+    "start": 233
+  },
+  {
+    "content": "documentation team needed the web management system required significant",
+    "start": 238
+  },
+  {
+    "content": "ongoing financial investment after that initial development effort frequent",
+    "start": 244
+  },
+  {
+    "content": "platform releases and upgrade requirements by the manufacturer were",
+    "start": 250
+  },
+  {
+    "content": "just not supportable for us every time there was an upgrade we had to basically",
+    "start": 255
+  },
+  {
+    "content": "stand up the new version of the software and then migrate our old system onto it",
+    "start": 261
+  },
+  {
+    "content": "there was no real support for producing PDFs and I'll freely admit I'm not a",
+    "start": 268
+  },
+  {
+    "content": "huge fan but that is a major customer expectation for our content we had no",
+    "start": 274
+  },
+  {
+    "content": "useful audit trails and there were search integration problems but bottom",
+    "start": 281
+  },
+  {
+    "content": "line was we just had to fix it so we looked at the problem and we decided",
+    "start": 287
+  },
+  {
+    "content": "that a phased approach made sense because we had so much content and such",
+    "start": 295
+  },
+  {
+    "content": "a large authoring community we needed to fix the situation even if only",
+    "start": 300
+  },
+  {
+    "content": "temporarily and the idea was that we would use phase one - just shore up the",
+    "start": 305
+  },
+  {
+    "content": "system and buy ourselves enough time so we could search for the right solution",
+    "start": 311
+  },
+  {
+    "content": "and the right tools in our second phase so phase one we found a new agency to",
+    "start": 316
+  },
+  {
+    "content": "help us fix that platform we had and that process was expensive and it took",
+    "start": 324
+  },
+  {
+    "content": "more than six months but the goals for that project were to upgrade the",
+    "start": 330
+  },
+  {
+    "content": "platform fix our localization workflows improve load balancing and fix the",
+    "start": 334
+  },
+  {
+    "content": "author experience we also installed app monitoring tools to detect and fix",
+    "start": 340
+  },
+  {
+    "content": "issues like cache problems and a disappearing CSS which was happening at",
+    "start": 346
+  },
+  {
+    "content": "least once a day good times good times so for phase 2 our biggest goals",
+    "start": 352
+  },
+  {
+    "content": "included finding something that had lower total cost of ownership and we",
+    "start": 364
+  },
+  {
+    "content": "wanted to improve the user experience both for the English and the non-english",
+    "start": 369
+  },
+  {
+    "content": "content when I say improving it for the non-english that means just providing a",
+    "start": 373
+  },
+  {
+    "content": "bit smoother and nicer internationalized experience we also needed to improve the",
+    "start": 379
+  },
+  {
+    "content": "content development experience for our authors and for the translation project",
+    "start": 387
+  },
+  {
+    "content": "managers and we had to facilitate crowdsourcing that had been requested by",
+    "start": 392
+  },
+  {
+    "content": "our customers colleagues and our leadership for",
+    "start": 397
+  },
+  {
+    "content": "several years so we needed something that would facilitate that we wanted to",
+    "start": 401
+  },
+  {
+    "content": "use common tools within Citrix engineering and we also wanted common",
+    "start": 407
+  },
+  {
+    "content": "tools within the industry we didn't want a lot of specialized tools that nobody",
+    "start": 412
+  },
+  {
+    "content": "ever heard of and didn't know how to use and we needed to automate QA and",
+    "start": 417
+  },
+  {
+    "content": "publishing another really important requirement for us was the multi-channel",
+    "start": 422
+  },
+  {
+    "content": "output like I said before the customers really need to read our content offline",
+    "start": 427
+  },
+  {
+    "content": "and PDF is one option but customers have been asking for other formats like mobi",
+    "start": 433
+  },
+  {
+    "content": "and epub for many years and we want to be sure that we can support any output",
+    "start": 439
+  },
+  {
+    "content": "format that might come along not just PDF suite a really good idea what we",
+    "start": 444
+  },
+  {
+    "content": "wanted we needed something better more agile and easier to use our original",
+    "start": 452
+  },
+  {
+    "content": "idea was to use tools most common to technical authors and manage the source",
+    "start": 458
+  },
+  {
+    "content": "files in the engineering source control system those were all robust proven",
+    "start": 464
+  },
+  {
+    "content": "tools and since many of those tools were common to engineering our team wouldn't",
+    "start": 469
+  },
+  {
+    "content": "incur extra costs having to have custom tools and the authoring team would be",
+    "start": 474
+  },
+  {
+    "content": "able to work in well-known tools and that reduces the amount of time we need",
+    "start": 479
+  },
+  {
+    "content": "for training and with so many content contributors there were some problems on",
+    "start": 483
+  },
+  {
+    "content": "the web management system with creative content development practices we had no",
+    "start": 491
+  },
+  {
+    "content": "real guidelines standards or testing and being left to their own devices and",
+    "start": 497
+  },
+  {
+    "content": "doing the best they could authors sometimes used approaches that resulted",
+    "start": 503
+  },
+  {
+    "content": "in poor customer experience and we knew we needed to automate the QA so we could",
+    "start": 507
+  },
+  {
+    "content": "help the authors do the right thing and ensure the best user experience on our",
+    "start": 513
+  },
+  {
+    "content": "site publishing on the old system was sometimes a nightmare at the best of",
+    "start": 518
+  },
+  {
+    "content": "times it was challenging and things broke so often and so badly that we only",
+    "start": 525
+  },
+  {
+    "content": "allowed admins Louis and me",
+    "start": 531
+  },
+  {
+    "content": "to do the publishing and that was really impractical for teams who are located in",
+    "start": 534
+  },
+  {
+    "content": "other Gio's so the new system needed to automate publishing so teams could",
+    "start": 540
+  },
+  {
+    "content": "publish their own work in in their own schedule when it needed to be published",
+    "start": 545
+  },
+  {
+    "content": "we wanted the jam stack we just didn't know that's what we wanted so I think",
+    "start": 553
+  },
+  {
+    "content": "many of you might have heard of the philosophy and tech writing called",
+    "start": 562
+  },
+  {
+    "content": "DOCSIS code and DOCSIS code advocates treating your documentation the waste",
+    "start": 565
+  },
+  {
+    "content": "developers treat the source code and not long after we'd rolled out that original",
+    "start": 570
+  },
+  {
+    "content": "web management system we got a new team member in Bangalore and he'd used the",
+    "start": 576
+  },
+  {
+    "content": "DOCSIS code approach very effectively at a startup before he joined Citrix so we",
+    "start": 582
+  },
+  {
+    "content": "asked him to show us using our developer Docs and he got markdown output from the",
+    "start": 587
+  },
+  {
+    "content": "source code hosted the source on github and then he used MK Docs to build the",
+    "start": 593
+  },
+  {
+    "content": "site read the docs provided the hosting and he chose that toolset because he was",
+    "start": 598
+  },
+  {
+    "content": "familiar with it and he knew he could get that site up and running much faster",
+    "start": 605
+  },
+  {
+    "content": "using tools that he already knew and we were really impressed with his results",
+    "start": 609
+  },
+  {
+    "content": "right away we expected this method to be a lot lighter weight than the legacy",
+    "start": 615
+  },
+  {
+    "content": "platform and it really was the automation worked great we did need to",
+    "start": 622
+  },
+  {
+    "content": "plan for scalability on the main dock site and anything we do on the dock site",
+    "start": 627
+  },
+  {
+    "content": "has to be really robust the developer Docs pilot provided the groundwork for",
+    "start": 633
+  },
+  {
+    "content": "our phase 2 research so we tried out a lot of different tools and we want",
+    "start": 638
+  },
+  {
+    "content": "weighed a lot of different options we decided on Visual Studio code for",
+    "start": 646
+  },
+  {
+    "content": "authoring the content it runs on Mac or Windows it's well supported commonly",
+    "start": 650
+  },
+  {
+    "content": "used easy to learn and it's free for our markup we use markdown and that",
+    "start": 657
+  },
+  {
+    "content": "caused some disappointment among some of the writers because they were eager to",
+    "start": 664
+  },
+  {
+    "content": "use data again but we have this organizational requirement to",
+    "start": 668
+  },
+  {
+    "content": "crowdsource which made markdown a better choice",
+    "start": 673
+  },
+  {
+    "content": "because it's easier to learn it's much more common and it doesn't require a lot",
+    "start": 676
+  },
+  {
+    "content": "of specialized knowledge to get up and working fast the version control system",
+    "start": 680
+  },
+  {
+    "content": "was a bit more difficult but we went with the tool our engineering team uses",
+    "start": 687
+  },
+  {
+    "content": "and using bitbucket gives us extremely useful integrations into the engineering",
+    "start": 691
+  },
+  {
+    "content": "process and helps facilitate communication with the engineers and",
+    "start": 697
+  },
+  {
+    "content": "since it's a tool common to all of engineering we don't have to buy or",
+    "start": 701
+  },
+  {
+    "content": "support it separately there are a lot of fantastic static site generators out",
+    "start": 705
+  },
+  {
+    "content": "there and it was really challenging to pick one but our developer Docs pilot",
+    "start": 713
+  },
+  {
+    "content": "had used MK Docs and we ultimately went with jekyll because it has a",
+    "start": 719
+  },
+  {
+    "content": "demonstrated track record it's well supported and we saw some examples of",
+    "start": 724
+  },
+  {
+    "content": "other sites who are using Jekyll to do some complicated things with their",
+    "start": 729
+  },
+  {
+    "content": "content at scale we use Jenkins in-house for builds so we went with that for the",
+    "start": 733
+  },
+  {
+    "content": "same reasons we went with bitbucket and then for hosting we went with net",
+    "start": 742
+  },
+  {
+    "content": "liffe I the other alternatives we looked at just didn't even come close",
+    "start": 746
+  },
+  {
+    "content": "we weighed a lot of different hosting options and only net Liffe I supported",
+    "start": 751
+  },
+  {
+    "content": "the scale that we needed in terms of pageviews data or the number of deploys",
+    "start": 756
+  },
+  {
+    "content": "per day net worth I also offered the best support options which for us",
+    "start": 761
+  },
+  {
+    "content": "supporting a global team that's really critical",
+    "start": 766
+  },
+  {
+    "content": "the initial proof of concept involved one author and just one tiny doc set she",
+    "start": 772
+  },
+  {
+    "content": "was blown away by how much faster and more efficient she could be the new",
+    "start": 779
+  },
+  {
+    "content": "proof-of-concept site had a different look and feel because that reflected the",
+    "start": 784
+  },
+  {
+    "content": "design that we wanted for the new site we made some navigational in hand",
+    "start": 789
+  },
+  {
+    "content": "to that and they were that were just too time-consuming and expensive to add to",
+    "start": 794
+  },
+  {
+    "content": "the old platform and we were able to run this microsite right alongside our main",
+    "start": 799
+  },
+  {
+    "content": "legacy site without disruption to the customers or to the authoring teams the",
+    "start": 806
+  },
+  {
+    "content": "initial pilot kicked off in January of 2018 and our goal then was just to see",
+    "start": 813
+  },
+  {
+    "content": "if we could make the tools that work end to end and it worked way beyond any of",
+    "start": 818
+  },
+  {
+    "content": "our expectations the original goal pending a successful",
+    "start": 823
+  },
+  {
+    "content": "pilot was to be completely migrated and to decommission the legacy platform by",
+    "start": 828
+  },
+  {
+    "content": "October 1st and remember that initial migration to the web management system",
+    "start": 832
+  },
+  {
+    "content": "took a full year of course seeing the success of the early migrations our",
+    "start": 839
+  },
+  {
+    "content": "leadership asked us to accelerate and be off the legacy platform by July 1st a",
+    "start": 845
+  },
+  {
+    "content": "whole quarter ahead of when we planned to be off but even though that was",
+    "start": 851
+  },
+  {
+    "content": "aggressive we still made it after that pilot the teams were just pushing and",
+    "start": 856
+  },
+  {
+    "content": "shoving to be next then we got three or four dock sets on the new system and",
+    "start": 862
+  },
+  {
+    "content": "word started to spread about how great this worked normally nobody wants to do",
+    "start": 869
+  },
+  {
+    "content": "the extra work for a migration but in this case most of the teams were",
+    "start": 874
+  },
+  {
+    "content": "clamoring for information about what they needed to do to prep and how soon",
+    "start": 879
+  },
+  {
+    "content": "after they were prepped could we get them moved and Lewises and my slack",
+    "start": 883
+  },
+  {
+    "content": "diems started lighting up like crazy from",
+    "start": 888
+  },
+  {
+    "content": "people who wanted to be next and while we were doing all of this migration and",
+    "start": 891
+  },
+  {
+    "content": "straddling two systems we had one admin Louis",
+    "start": 896
+  },
+  {
+    "content": "[Applause] all right Thank You Beth great job",
+    "start": 905
+  },
+  {
+    "content": "explaining the history of the citrix product documentation and its ongoing",
+    "start": 912
+  },
+  {
+    "content": "evolution as Beth was mentioning we migrated from our legacy system in 2018",
+    "start": 916
+  },
+  {
+    "content": "so some quick migration of facts here more than 150,000 files are migrated",
+    "start": 924
+  },
+  {
+    "content": "into 8 different languages we supported 50 authors and six translation project",
+    "start": 929
+  },
+  {
+    "content": "managers the content is now divided into about 80 repositories for English",
+    "start": 935
+  },
+  {
+    "content": "content and dozens more for other languages and with metla Phi we have",
+    "start": 940
+  },
+  {
+    "content": "about 120 micro sites in production creating a seamless integration this",
+    "start": 945
+  },
+  {
+    "content": "setup allows each content team to work in their own repo without interference",
+    "start": 950
+  },
+  {
+    "content": "from other teams and we also have 120 micro sites in staging where we build",
+    "start": 954
+  },
+  {
+    "content": "these sites from dedicated work-in-progress branches last year we",
+    "start": 958
+  },
+  {
+    "content": "went from a pilot test in January to having over 50% of our content migrated",
+    "start": 964
+  },
+  {
+    "content": "within five months could have been over 75% but due to a release cadence we",
+    "start": 969
+  },
+  {
+    "content": "decided to publish that last release on the legacy system now that was five",
+    "start": 974
+  },
+  {
+    "content": "months at a conservative pace compared that to the rollout going to our legacy",
+    "start": 979
+  },
+  {
+    "content": "web management system which took well over a year to deploy and as Beth",
+    "start": 982
+  },
+  {
+    "content": "mentioned as we did all of this while our production site straddled the two",
+    "start": 987
+  },
+  {
+    "content": "environments and a site still looked like it had a single origin giving our",
+    "start": 991
+  },
+  {
+    "content": "site visitors a seamless experience so getting into a little more detail on our",
+    "start": 995
+  },
+  {
+    "content": "setup we have our authoring community using Visual Studio code this is our",
+    "start": 1001
+  },
+  {
+    "content": "recommended and supported editing tool the teams have a flexibility to use",
+    "start": 1006
+  },
+  {
+    "content": "whatever text editing software they like but we like Visual Studio code because",
+    "start": 1010
+  },
+  {
+    "content": "it allows us to use certain plugins to help keep things keep the integrity of",
+    "start": 1014
+  },
+  {
+    "content": "our code the two plugins that we use our markdown lint and Accra Lynx markdown",
+    "start": 1018
+  },
+  {
+    "content": "lint is a markdown validation tool that ensures the code adheres to our",
+    "start": 1025
+  },
+  {
+    "content": "specifications we've configured the rules",
+    "start": 1029
+  },
+  {
+    "content": "so as an author's editing the content they will see if they have introduced",
+    "start": 1032
+  },
+  {
+    "content": "any markdown errors and Accra Lynx is an automated editing tool which checks the",
+    "start": 1036
+  },
+  {
+    "content": "content for proper grammar spelling errors it also checks the readability of",
+    "start": 1041
+  },
+  {
+    "content": "the content we use on Prem bitbucket for our source control we have over 100",
+    "start": 1045
+  },
+  {
+    "content": "repositories for different doc sets in multiple languages we only provide",
+    "start": 1050
+  },
+  {
+    "content": "support using command line terminal for our Mac users and git bash for our",
+    "start": 1054
+  },
+  {
+    "content": "Windows users and although some of our authors prefer to use source tree",
+    "start": 1059
+  },
+  {
+    "content": "instead of command line that's fine by me they you know they have their own",
+    "start": 1063
+  },
+  {
+    "content": "little crowdsource support going and it makes it life a little easier for me we",
+    "start": 1068
+  },
+  {
+    "content": "have a pre-commit hook that does markdown validations so if the code has",
+    "start": 1074
+  },
+  {
+    "content": "any markdown errors the commit will be denied and all markdown errors would",
+    "start": 1078
+  },
+  {
+    "content": "need to be fixed before that commit is able to be completed we use Jenkins for",
+    "start": 1082
+  },
+  {
+    "content": "our automation each microsite has its own Jenkins job and we have separate",
+    "start": 1087
+  },
+  {
+    "content": "jobs for production at stage sites the build jobs are automatically triggered",
+    "start": 1091
+  },
+  {
+    "content": "based on commits or merges two dedicated branches in the remote bitbucket",
+    "start": 1096
+  },
+  {
+    "content": "repository and as I mentioned earlier we have about 120 micro sites in production",
+    "start": 1099
+  },
+  {
+    "content": "each microsite is created from its own Jenkins job and within within the job we",
+    "start": 1104
+  },
+  {
+    "content": "use a custom docker image to build a site using Jekyll and then we use the",
+    "start": 1110
+  },
+  {
+    "content": "meta Phi C TL to deploy our sites directly from Jenkins so during the",
+    "start": 1114
+  },
+  {
+    "content": "billing process the markdown was converted and the static site is",
+    "start": 1121
+  },
+  {
+    "content": "generated using Jekyll we chose Jekyll because well-known and",
+    "start": 1124
+  },
+  {
+    "content": "commonly used in the docs community some of the others showed some of the other",
+    "start": 1127
+  },
+  {
+    "content": "tools we chose specifically because of a tool unification process we went through",
+    "start": 1131
+  },
+  {
+    "content": "internally this was a blessing for us because we have teams throughout Citrix",
+    "start": 1135
+  },
+  {
+    "content": "that I've been using these tools much longer than we have so we have experts",
+    "start": 1140
+  },
+  {
+    "content": "we can easily consult with if needed in our legacy system we didn't have the",
+    "start": 1144
+  },
+  {
+    "content": "luxury to be able to easily roll out front-end or back-end changes well we",
+    "start": 1149
+  },
+  {
+    "content": "could have but it would have required a developer specialized in the system some",
+    "start": 1155
+  },
+  {
+    "content": "downtime and likely a have the price tag from our vendor we now have this luxury",
+    "start": 1159
+  },
+  {
+    "content": "we can make changes to the front or back end without causing interruptions for",
+    "start": 1165
+  },
+  {
+    "content": "our content developers and we don't have to jump through hoops to get funding",
+    "start": 1169
+  },
+  {
+    "content": "not being able to work offline in our legacy system was it was a bit of a pain",
+    "start": 1175
+  },
+  {
+    "content": "point we would constantly live in fear if our author server went down this is",
+    "start": 1178
+  },
+  {
+    "content": "the single point of failure meant no one could get to access the authoring",
+    "start": 1182
+  },
+  {
+    "content": "environment to make edits and nothing could be published and then we have the",
+    "start": 1186
+  },
+  {
+    "content": "painstaking task of you know debugging and possibly rebuilding a server with a",
+    "start": 1190
+  },
+  {
+    "content": "backup that was hopefully only a few hours old but as a global company with",
+    "start": 1194
+  },
+  {
+    "content": "authors around the world even a backup that's only a few hours old meant lots",
+    "start": 1199
+  },
+  {
+    "content": "of lost work and lots of work that had to be done again we said no more with",
+    "start": 1203
+  },
+  {
+    "content": "the jam staff working offline in our new infrastructure is not an issue as part",
+    "start": 1209
+  },
+  {
+    "content": "of our legacy system we would have to maintain dozens of servers in multiple",
+    "start": 1215
+  },
+  {
+    "content": "Geo's again we said no more we only maintain one server for our feedback",
+    "start": 1218
+  },
+  {
+    "content": "mechanism to work the way we wanted to the site searched on our legacy system",
+    "start": 1223
+  },
+  {
+    "content": "left a lot to be desired site indexing had to be initiated",
+    "start": 1229
+  },
+  {
+    "content": "manually and search results were subpar no more we said we now leverage the",
+    "start": 1232
+  },
+  {
+    "content": "power of Google and use custom search for a search functionality along before",
+    "start": 1239
+  },
+  {
+    "content": "a legacy system came a hefty price and not just for the licenses but the cost",
+    "start": 1244
+  },
+  {
+    "content": "of maintenance the cost of servers they run on and like Roberto durán said No",
+    "start": 1248
+  },
+  {
+    "content": "Mas like I said earlier some of the tools we",
+    "start": 1253
+  },
+  {
+    "content": "use are already in use spiked teams within Citrix so the cost to use these",
+    "start": 1256
+  },
+  {
+    "content": "tools are drastically reduced we officially shut down our legacy system",
+    "start": 1260
+  },
+  {
+    "content": "in September of 2018 eight months after the pilot and three months after",
+    "start": 1266
+  },
+  {
+    "content": "reaching our 50% mark we talked about the lower costs much lower in fact and",
+    "start": 1271
+  },
+  {
+    "content": "def will be right back out in a few minutes and she'll provide more insight",
+    "start": 1278
+  },
+  {
+    "content": "on the savings that we've we've seen the user experience is much improved CDN",
+    "start": 1281
+  },
+  {
+    "content": "keeps our page load times quick search is much improved then we now have",
+    "start": 1288
+  },
+  {
+    "content": "beautiful PDFs using a free library called open PDF we gave ourselves the",
+    "start": 1292
+  },
+  {
+    "content": "ability to add a banner to our site to relay important information to our site",
+    "start": 1298
+  },
+  {
+    "content": "visitors we did not have this flexibility before you probably get",
+    "start": 1301
+  },
+  {
+    "content": "where I'm going with this it's just been better for us",
+    "start": 1306
+  },
+  {
+    "content": "I didn't mention this before but some of our writers on the other side of the",
+    "start": 1307
+  },
+  {
+    "content": "globe experienced horribly low at long loading times of our authoring",
+    "start": 1312
+  },
+  {
+    "content": "environment to load in some cases it didn't load nowadays it's as easy",
+    "start": 1316
+  },
+  {
+    "content": "opening your favorite text editor online or offline making it easier and more",
+    "start": 1321
+  },
+  {
+    "content": "efficient for our authors to work and flexibility this is this setup is so",
+    "start": 1324
+  },
+  {
+    "content": "flexible we now have the capability to implement ideas that were thought up",
+    "start": 1330
+  },
+  {
+    "content": "years ago but we weren't able to do so because of limitations that we had on",
+    "start": 1333
+  },
+  {
+    "content": "our legacy system we have some numbers here to help quantify our experiences",
+    "start": 1336
+  },
+  {
+    "content": "here so our average page load time has improved by seven percent and our most",
+    "start": 1343
+  },
+  {
+    "content": "frequented visitors can tell the difference so these numbers and the",
+    "start": 1348
+  },
+  {
+    "content": "numbers to follow are based on the six months our first six months on our damn",
+    "start": 1353
+  },
+  {
+    "content": "stack compared to the same time period the previous year on our legacy system",
+    "start": 1356
+  },
+  {
+    "content": "average page download time improved by 9%",
+    "start": 1362
+  },
+  {
+    "content": "average server connection time improved by a whopping 57% in our average",
+    "start": 1365
+  },
+  {
+    "content": "redirection time 71% I can't speak highly enough of using Jam stack with",
+    "start": 1371
+  },
+  {
+    "content": "metal if I and these numbers prove it our publishing times averaged around",
+    "start": 1376
+  },
+  {
+    "content": "five minutes we have some smaller repos that can build a little little quicker",
+    "start": 1381
+  },
+  {
+    "content": "and some larger repos that might take a minute or two more on our legacy system",
+    "start": 1386
+  },
+  {
+    "content": "we had one notorious release that took 14 hours to publish even with the",
+    "start": 1390
+  },
+  {
+    "content": "refracted legacy system bills often took 20 minutes and sometimes we have to stop",
+    "start": 1394
+  },
+  {
+    "content": "all work on the system until the published content have been released I",
+    "start": 1399
+  },
+  {
+    "content": "saw some reactions from the net left flight crew over there but even if we",
+    "start": 1402
+  },
+  {
+    "content": "ever do decide to kind of bring those build times even lower we could reduce",
+    "start": 1409
+  },
+  {
+    "content": "the time by just breaking out those repositories into multiple repositories",
+    "start": 1413
+  },
+  {
+    "content": "so we're more than a year in on our Jam stack with net Liffe I and we couldn't",
+    "start": 1418
+  },
+  {
+    "content": "be happier and with that I'd like to invite Beth back on the stage she's",
+    "start": 1423
+  },
+  {
+    "content": "gonna provide some great insight from our customers",
+    "start": 1427
+  },
+  {
+    "content": "so as you can see louis and i and the",
+    "start": 1431
+  },
+  {
+    "content": "whole team are much happier with the jam stack we're getting a lot more done and",
+    "start": 1439
+  },
+  {
+    "content": "it is so much easier to work but we don't just work to please ourselves the",
+    "start": 1443
+  },
+  {
+    "content": "real question is are we making the right difference for our customers so we",
+    "start": 1449
+  },
+  {
+    "content": "measure customer satisfaction on the site annually and in 2017 when we ask",
+    "start": 1455
+  },
+  {
+    "content": "customers what one thing can we do to improve the site 41% mentioned user",
+    "start": 1460
+  },
+  {
+    "content": "experience ouch when we asked again in 2018 only",
+    "start": 1465
+  },
+  {
+    "content": "25% of customers mentioned UX and we also asked what customers liked most",
+    "start": 1471
+  },
+  {
+    "content": "about the site in 2017 only 20% of the customers mentioned that they liked the",
+    "start": 1477
+  },
+  {
+    "content": "layout the most in 2018 that number increased to 35% so these are just a few",
+    "start": 1483
+  },
+  {
+    "content": "representative quotes from the customer feedback that we we heard over and over",
+    "start": 1491
+  },
+  {
+    "content": "again people have responded they recognize that the site is faster and",
+    "start": 1495
+  },
+  {
+    "content": "they appreciate that they can find what they need faster and they like the fact",
+    "start": 1500
+  },
+  {
+    "content": "that the PDFs are always in sync with the HTML that really helps them out and",
+    "start": 1506
+  },
+  {
+    "content": "our technical marketing team noticed what we were doing and they asked if",
+    "start": 1513
+  },
+  {
+    "content": "they could join it was the agility that appealed to them before when they wanted",
+    "start": 1518
+  },
+  {
+    "content": "to make an update to one of their Docs they had to engage an agency who would",
+    "start": 1524
+  },
+  {
+    "content": "put the content into a specialized publishing app and then they would get",
+    "start": 1528
+  },
+  {
+    "content": "that published on the website and it could take weeks for them to just make a",
+    "start": 1534
+  },
+  {
+    "content": "simple update and it was expensive there was no difference in cost between doing",
+    "start": 1539
+  },
+  {
+    "content": "a new document totally new or just updating an existing one but now the",
+    "start": 1546
+  },
+  {
+    "content": "technical marketing team has their own area on our site and they couldn't be",
+    "start": 1552
+  },
+  {
+    "content": "happier they can create edit and publish content themselves and their turnaround",
+    "start": 1557
+  },
+  {
+    "content": "times for updates were reduced from weeks to men",
+    "start": 1562
+  },
+  {
+    "content": "the cost for an agency designer has been eliminated and they just go right into",
+    "start": 1566
+  },
+  {
+    "content": "the tool make the change submit the pull request and then when that pull request",
+    "start": 1572
+  },
+  {
+    "content": "is merged their content is built and published so the savings have been",
+    "start": 1575
+  },
+  {
+    "content": "adding up and I took a look at the numbers and our legacy system required",
+    "start": 1583
+  },
+  {
+    "content": "expensive licenses for the web management platform and now our tools",
+    "start": 1589
+  },
+  {
+    "content": "are part of the engineering organization's overall operating expense",
+    "start": 1594
+  },
+  {
+    "content": "and those are tools we'd have had licenses for anyway with the legacy",
+    "start": 1597
+  },
+  {
+    "content": "system we had to maintain 24 servers in the cloud to support dev staging and",
+    "start": 1602
+  },
+  {
+    "content": "production environments and then we had to make sure that the environment was",
+    "start": 1608
+  },
+  {
+    "content": "load balanced for a global user community and for a customer our",
+    "start": 1613
+  },
+  {
+    "content": "customer base IT was providing us with a dedicated team member and the team of",
+    "start": 1617
+  },
+  {
+    "content": "five including their manager backed him up so they could help us keep everything",
+    "start": 1624
+  },
+  {
+    "content": "running and then we had additional costs for the Search Appliance and monitoring",
+    "start": 1628
+  },
+  {
+    "content": "tools any time we want to development work we had to hire an agency that had",
+    "start": 1633
+  },
+  {
+    "content": "developers with specialized skills and now we have one admin we don't need IT",
+    "start": 1638
+  },
+  {
+    "content": "support and the skill sets required to support our development work are easier",
+    "start": 1644
+  },
+  {
+    "content": "to find we have one agency partner who makes sure we have the right developers",
+    "start": 1649
+  },
+  {
+    "content": "or architects and the right skills we estimate that our annual savings to run",
+    "start": 1654
+  },
+  {
+    "content": "the site properly is 65 percent I'll restate that annually we're only",
+    "start": 1659
+  },
+  {
+    "content": "spending about 35 percent of what it would have taken to properly run on our",
+    "start": 1665
+  },
+  {
+    "content": "old platform that's not counting the soft costs in efficiency author",
+    "start": 1670
+  },
+  {
+    "content": "productivity extra support from other departments customer dissatisfaction and",
+    "start": 1675
+  },
+  {
+    "content": "to summarize the gem stack gives us what we need the jam stack gives helps us",
+    "start": 1682
+  },
+  {
+    "content": "give customers what they need we have agility we have scalability we have",
+    "start": 1688
+  },
+  {
+    "content": "performance and to borrow from Matt Billman this morning it's not just our",
+    "start": 1693
+  },
+  {
+    "content": "developers who have soup powers our whole team has superpowers",
+    "start": 1698
+  },
+  {
+    "content": "now and we're sticking with it thank you",
+    "start": 1702
+  },
+  {
+    "content": "[Applause]",
+    "start": 1717
+  }
+]

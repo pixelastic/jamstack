@@ -4,9 +4,11 @@
   "position": 4,
   "publishedAt": 1542606373,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/x9a6poSXJIA/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/x9a6poSXJIA/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/x9a6poSXJIA/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/x9a6poSXJIA/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/x9a6poSXJIA/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/x9a6poSXJIA/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/x9a6poSXJIA/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/x9a6poSXJIA/default.jpg"
   },
   "title": "Jessica Lord - Everyone is a Developer"
 }

@@ -1,0 +1,4206 @@
+[
+  {
+    "content": "hello everyone and welcome to another episode of learn with a Jason today on",
+    "start": 7
+  },
+  {
+    "content": "the show I have Zach Gordon Zach thank you so much for coming on I am so",
+    "start": 12
+  },
+  {
+    "content": "excited to be here we've been planning this for a long time so a real pleasure",
+    "start": 19
+  },
+  {
+    "content": "Jason thanks for all you've done and thanks for inviting me Wow that happened",
+    "start": 24
+  },
+  {
+    "content": "fast oh I just did that to myself well I'm gonna have to fix that okay so I",
+    "start": 28
+  },
+  {
+    "content": "love it I love it okay so alright so yeah so Zach I have been following your",
+    "start": 42
+  },
+  {
+    "content": "work for a while you you're doing really cool things in the and like across the",
+    "start": 49
+  },
+  {
+    "content": "JavaScript in WordPress kind of boundary if if you can call it that and for those",
+    "start": 52
+  },
+  {
+    "content": "of us who aren't familiar with your work do you want to talk a little bit about",
+    "start": 59
+  },
+  {
+    "content": "kind of your background what you are what you do and all that",
+    "start": 61
+  },
+  {
+    "content": "sure well I'm an educator by training and crafts so I taught high school",
+    "start": 65
+  },
+  {
+    "content": "college university level taught some in-person boot camps for awhile and",
+    "start": 72
+  },
+  {
+    "content": "number of years ago started at a company treehouse which was like a leading",
+    "start": 77
+  },
+  {
+    "content": "online learning site really cool space and did all their WordPress courses so",
+    "start": 82
+  },
+  {
+    "content": "that's what I began to be siloed in the WordPress world but I've taught",
+    "start": 86
+  },
+  {
+    "content": "everything from robotics the JavaScript drupal the doula a dotnet you know just",
+    "start": 90
+  },
+  {
+    "content": "all over the place and I've really found a sweet home with WordPress have been",
+    "start": 96
+  },
+  {
+    "content": "involved in the community for since WordPress to do like 10 plus years now",
+    "start": 99
+  },
+  {
+    "content": "easily and since WordPress kind of started this javascript focus I've been",
+    "start": 104
+  },
+  {
+    "content": "focused on teaching javascript to WordPress developers so vanilla",
+    "start": 110
+  },
+  {
+    "content": "JavaScript and now that react has come into WordPress and we have this whole",
+    "start": 114
+  },
+  {
+    "content": "goober project with the new drag-and-drop editor yeah and we have",
+    "start": 119
+  },
+  {
+    "content": "graft keep on taking off and cats be taken off there's just and a lot of",
+    "start": 122
+  },
+  {
+    "content": "thing I did just a little bit later but what we're talking about but got to be",
+    "start": 132
+  },
+  {
+    "content": "in WordPress and just it's a lot of work in general with it so really excited to",
+    "start": 142
+  },
+  {
+    "content": "be here because I've learned so much from your videos as well there's good",
+    "start": 147
+  },
+  {
+    "content": "stuff I couldn't figure out or find on the internet and i lo and behold digging",
+    "start": 150
+  },
+  {
+    "content": "into a rabbit hole i find the video from jason everything you could do it it's",
+    "start": 155
+  },
+  {
+    "content": "been really cool to see and that Congrats on all the successful yeah yeah",
+    "start": 162
+  },
+  {
+    "content": "i appreciate that cool so yeah we we look like we had a",
+    "start": 167
+  },
+  {
+    "content": "little bit of a lag there with the we lost you for a hot second but we got",
+    "start": 171
+  },
+  {
+    "content": "ninety five percent of what you just said yeah i'm in a teeny home in two",
+    "start": 178
+  },
+  {
+    "content": "canyons so Wi-Fi here is a little spotty but uh yeah no it looks like we're we",
+    "start": 186
+  },
+  {
+    "content": "should we should be able to make this work all right so so one of the reasons",
+    "start": 194
+  },
+  {
+    "content": "that i wanted to have you on why i was so excited to do this show with you is",
+    "start": 200
+  },
+  {
+    "content": "because like you said like wordpress is making a big push toward like javascript",
+    "start": 202
+  },
+  {
+    "content": "like with between the Gutenberg editor and the the ability to go headless",
+    "start": 208
+  },
+  {
+    "content": "whether that's through the WordPress API or through using jason balls WP graph QL",
+    "start": 213
+  },
+  {
+    "content": "we now have the ability to like use WordPress as a content management system",
+    "start": 219
+  },
+  {
+    "content": "without having the use of as a front-end and that opens the door to the jam stack",
+    "start": 225
+  },
+  {
+    "content": "which is something that surprised I'm actually really into and so I I think",
+    "start": 230
+  },
+  {
+    "content": "that that what's really cool here is that it's no longer this kind of big",
+    "start": 236
+  },
+  {
+    "content": "ambitious project to run WordPress on the jam stack it's now actually",
+    "start": 242
+  },
+  {
+    "content": "something that is I it almost feels like it's starting to become community best",
+    "start": 247
+  },
+  {
+    "content": "practice like that's the way you you should really consider building",
+    "start": 252
+  },
+  {
+    "content": "WordPress and I find that really really exciting and so on what I thought would",
+    "start": 256
+  },
+  {
+    "content": "be fun today is actually to dig into how you do that for real like how do you",
+    "start": 261
+  },
+  {
+    "content": "migrate an existing WordPress site to the jam stack and so I have a friend",
+    "start": 267
+  },
+  {
+    "content": "site my friend Nate Greene I've built his site years ago it's a wordpress site",
+    "start": 274
+  },
+  {
+    "content": "and I thought that it would be fun to see if we can like make it into a jam",
+    "start": 279
+  },
+  {
+    "content": "stack site now fair warning I haven't looked at this site since probably 2017",
+    "start": 285
+  },
+  {
+    "content": "so I made sure that my logins still worked but like I don't remember where",
+    "start": 289
+  },
+  {
+    "content": "the like I don't remember where the files are stored or where things are",
+    "start": 293
+  },
+  {
+    "content": "hosted so I this is gonna be an adventure",
+    "start": 296
+  },
+  {
+    "content": "but yeah so if you're if you're ready we can we can flip over and I know you also",
+    "start": 301
+  },
+  {
+    "content": "wanted to show that we'll have a couple websites up here um but so you just",
+    "start": 308
+  },
+  {
+    "content": "started a new job right you're at Stratton now I lose you I lost you for a",
+    "start": 312
+  },
+  {
+    "content": "second you can hear me okay I think I'm good now yeah yeah so we what I was",
+    "start": 321
+  },
+  {
+    "content": "saying is we I just switched over to the the web view and we're looking at the",
+    "start": 326
+  },
+  {
+    "content": "Stratus ID so you just started here right yeah so I just started here and",
+    "start": 330
+  },
+  {
+    "content": "this is really exciting for me because you know I'm an educator first and",
+    "start": 336
+  },
+  {
+    "content": "trying to help the community has been what I I really enjoy and been able to",
+    "start": 340
+  },
+  {
+    "content": "support myself on but teaching javascript to WordPress developers is a",
+    "start": 345
+  },
+  {
+    "content": "niche in a niche and then teaching gatsby and you know headless WordPress",
+    "start": 350
+  },
+  {
+    "content": "to WordPress developers is a niche within the niche within a niche and so I",
+    "start": 356
+  },
+  {
+    "content": "really began to feel that in order for Headless to move forward for WordPress",
+    "start": 360
+  },
+  {
+    "content": "we need to bring all these users up as well",
+    "start": 364
+  },
+  {
+    "content": "so strategy is a really cool company they're a hosting provider that hosts",
+    "start": 366
+  },
+  {
+    "content": "super WordPress site and with the click of a button it will convert it into a",
+    "start": 372
+  },
+  {
+    "content": "jam stack site now it's not using Gatsby specifically but it is giving the same",
+    "start": 377
+  },
+  {
+    "content": "end result as you endeavor the tool it got to be but its users who don't want",
+    "start": 382
+  },
+  {
+    "content": "to build all of that so my job here is going to be on pushing education forward",
+    "start": 387
+  },
+  {
+    "content": "educating people about what headless is about what the jam stack is about what",
+    "start": 392
+  },
+  {
+    "content": "the content meshes because for a lot of WordPress users they come from this",
+    "start": 397
+  },
+  {
+    "content": "monolith system of everything should be a wordpress plugin but we",
+    "start": 401
+  },
+  {
+    "content": "exist in a Content mesh world now where we're kind of using the best tools for",
+    "start": 405
+  },
+  {
+    "content": "the job and mixing and matching the best overall experience so bringing up",
+    "start": 409
+  },
+  {
+    "content": "education of us and I can easily see 30 you know they say WordPress is thirty",
+    "start": 414
+  },
+  {
+    "content": "percent of the web I can see 30 percent of WordPress over the next coming years",
+    "start": 418
+  },
+  {
+    "content": "becoming headless becoming Jam stocky either through a service like strata or",
+    "start": 423
+  },
+  {
+    "content": "developers helping people to build out stuff with gatsby so yeah really excited",
+    "start": 427
+  },
+  {
+    "content": "about that and the cool thing is is you can use static to build a Gatsby site so",
+    "start": 432
+  },
+  {
+    "content": "you still need WordPress somewhere but it raises this question of should",
+    "start": 437
+  },
+  {
+    "content": "WordPress stay online when Gatsby isn't talking to it so one",
+    "start": 442
+  },
+  {
+    "content": "of the things that Stronach does is we take your site offline when you're not",
+    "start": 445
+  },
+  {
+    "content": "editing it so once you have that static site out there there's no reason for",
+    "start": 450
+  },
+  {
+    "content": "that database to be exposed if you don't need it so getting some cool security",
+    "start": 453
+  },
+  {
+    "content": "benefits there so as we're going it's something to consider that like yeah",
+    "start": 457
+  },
+  {
+    "content": "we've got this super secure great gatsby site but your WordPress site is still",
+    "start": 464
+  },
+  {
+    "content": "sitting on a shared host somewhere completely open mul normal you might",
+    "start": 467
+  },
+  {
+    "content": "have some risks there that you're not so yeah thanks for bringing up strata can",
+    "start": 471
+  },
+  {
+    "content": "really yeah and then you also run javascript for grabba thread for Mike oh",
+    "start": 477
+  },
+  {
+    "content": "wait Adam lost him boy this episode is gonna get real interesting if I've got",
+    "start": 494
+  },
+  {
+    "content": "to teach myself I am going to use my this this moment to let the chat know",
+    "start": 500
+  },
+  {
+    "content": "first of all welcome chat thank you all for showing up it's it's hopping in here",
+    "start": 508
+  },
+  {
+    "content": "I really appreciate you all coming out I see some new faces in the chat so hello",
+    "start": 512
+  },
+  {
+    "content": "thank you for stopping by and also there are some fun fun things",
+    "start": 517
+  },
+  {
+    "content": "that I've done in in the chat so we've got some of our are tried and true sound",
+    "start": 523
+  },
+  {
+    "content": "effects so we can play with goofy stuff like",
+    "start": 528
+  },
+  {
+    "content": "this but I also added some new ones so this is a and that's just not something",
+    "start": 532
+  },
+  {
+    "content": "I'm willing to do that's a clip from Gant Laborde when he was on the show",
+    "start": 536
+  },
+  {
+    "content": "we've also got a new one that longtime viewers of the show are gonna love this",
+    "start": 540
+  },
+  {
+    "content": "you know me potato salad that one still makes me very happy",
+    "start": 546
+  },
+  {
+    "content": "and what else do we have in here we have oh yeah if you are telling me how to do",
+    "start": 552
+  },
+  {
+    "content": "something and you have the answer and I'm not paying attention and also do",
+    "start": 558
+  },
+  {
+    "content": "this now Zack you are still frozen I don't know if you can hear us but maybe",
+    "start": 562
+  },
+  {
+    "content": "maybe this will just be this is actually an opportune time for this so always a",
+    "start": 581
+  },
+  {
+    "content": "good one frozen Easter sitting very still also if",
+    "start": 590
+  },
+  {
+    "content": "we're gonna need that here's a here's a new one this is the new one I think I",
+    "start": 606
+  },
+  {
+    "content": "need a adult supervision here also it looks like I need to fix my overlay",
+    "start": 609
+  },
+  {
+    "content": "because it's it I think I hard-coded something oh no he's gone okay well um",
+    "start": 616
+  },
+  {
+    "content": "while we're waiting for that let's let's switch over to solo and I'm gonna just",
+    "start": 627
+  },
+  {
+    "content": "look at this site and hopefully we'll see Zach back in just a second here let",
+    "start": 633
+  },
+  {
+    "content": "me wiggle my way into the center of the frame so this is this is my friend Nate",
+    "start": 638
+  },
+  {
+    "content": "greensight and Nate is a he's a journalist he's a writer he works in in",
+    "start": 643
+  },
+  {
+    "content": "fitness he's written for a bunch of companies but you know he's got some",
+    "start": 651
+  },
+  {
+    "content": "some feature-length articles in in men's health and he's worked with you know",
+    "start": 655
+  },
+  {
+    "content": "also all sorts of fun stuff but this is his blog which is old",
+    "start": 661
+  },
+  {
+    "content": "we built this a few years back and he hasn't been doing a lot with it but we",
+    "start": 668
+  },
+  {
+    "content": "wanted to make it more accessible for him to use and right now he's you know",
+    "start": 673
+  },
+  {
+    "content": "going in through WordPress and and kind of doing all of that manually but so we",
+    "start": 678
+  },
+  {
+    "content": "thought that to make this site a little bit snappier to to upgrade the",
+    "start": 685
+  },
+  {
+    "content": "experience a little bit on the for for people who are using it and also just",
+    "start": 689
+  },
+  {
+    "content": "for his his ability to UM you know work with it we were gonna update WordPress",
+    "start": 694
+  },
+  {
+    "content": "so that he's got the the new experience which we probably won't do on stream",
+    "start": 701
+  },
+  {
+    "content": "honestly because I have an updated WordPress in a long time I think this is",
+    "start": 706
+  },
+  {
+    "content": "on like four point five versus something like that let's see this is the",
+    "start": 710
+  },
+  {
+    "content": "dashboard yeah four point five point three so this is way out of date right",
+    "start": 714
+  },
+  {
+    "content": "we haven't and I just I'm percent sure that something is going to",
+    "start": 720
+  },
+  {
+    "content": "go wrong when I try to do this because I haven't used it in a very long time and",
+    "start": 726
+  },
+  {
+    "content": "I just don't feel like that's gonna be a fun stream to watch to watch me trying",
+    "start": 730
+  },
+  {
+    "content": "to dig for FTP credentials for wherever I put this um okay I'm still missing Zak",
+    "start": 735
+  },
+  {
+    "content": "so we may have to reschedule see if I can oh here he is",
+    "start": 742
+  },
+  {
+    "content": "let's get him hey let's go back to here there we are",
+    "start": 749
+  },
+  {
+    "content": "all right man I I was filling time like a pro don't worry about it",
+    "start": 760
+  },
+  {
+    "content": "oh I'm so glad to hear that man people spinach ah develop waiting for WordPress",
+    "start": 766
+  },
+  {
+    "content": "we got this all right so so I was just giving a quick tour this is the site",
+    "start": 781
+  },
+  {
+    "content": "that I thought it would be fun to transition over this is uh this is my",
+    "start": 786
+  },
+  {
+    "content": "friend Nate mayn't I have been friends for years",
+    "start": 790
+  },
+  {
+    "content": "like to the to the point that I have a blog post about this called best friends",
+    "start": 792
+  },
+  {
+    "content": "look at this guy look at this guy Nate Greene",
+    "start": 799
+  },
+  {
+    "content": "all right so we we've known each other since we were like 10 years old but",
+    "start": 802
+  },
+  {
+    "content": "anyways so if we want to get started like I what my goal is for this site is",
+    "start": 807
+  },
+  {
+    "content": "we want to we want to move Nate over to a jam stack front end he's got some",
+    "start": 815
+  },
+  {
+    "content": "ideas for what he wants to do with the site he he really wants to go a little",
+    "start": 819
+  },
+  {
+    "content": "more minimal a lot a lot snappier and just make his publishing process a",
+    "start": 823
+  },
+  {
+    "content": "little bit smoother so if we want to do that where do we start oh my god I love",
+    "start": 827
+  },
+  {
+    "content": "this question I got your answer buddy every single time we start new gatsby",
+    "start": 835
+  },
+  {
+    "content": "and wordpress project by i i start with two things i install WP graph QL and I",
+    "start": 842
+  },
+  {
+    "content": "installed WP graphical and these two will create a graph QL endpoint in",
+    "start": 848
+  },
+  {
+    "content": "WordPress and the tricky thing is is we can't do it from",
+    "start": 856
+  },
+  {
+    "content": "within plugins so we need to actually go to the WP graph QL and github and",
+    "start": 859
+  },
+  {
+    "content": "download and up them upload them from there so I could send you the link to",
+    "start": 866
+  },
+  {
+    "content": "speed it up but if you just okay WP graph queue so I think they're just as",
+    "start": 871
+  },
+  {
+    "content": "well I think we immediately hit a non-starter then because I'm relatively",
+    "start": 876
+  },
+  {
+    "content": "certain that in order to get to the code of this site I'm gonna have to do some",
+    "start": 880
+  },
+  {
+    "content": "some archeology I think you can upload a plugin from here right I think you",
+    "start": 885
+  },
+  {
+    "content": "should be able to go to plugins add new and upload it I think I might have done",
+    "start": 891
+  },
+  {
+    "content": "some security stuff cuz I'm not seeing my add new button I'm not seeing either",
+    "start": 896
+  },
+  {
+    "content": "I think I put this on WP engine and I think that means that I have to do code",
+    "start": 902
+  },
+  {
+    "content": "which means I think maybe maybe we start with a different WordPress site and",
+    "start": 908
+  },
+  {
+    "content": "we'll go through the process and then I'll do this later for Nate alright I",
+    "start": 914
+  },
+  {
+    "content": "have no yeah let me check what what what role do I have all users now I'm an",
+    "start": 922
+  },
+  {
+    "content": "administrator like this is I'm pretty sure this is I changed my role to",
+    "start": 939
+  },
+  {
+    "content": "developer what happens now can I judge how can I change plug-ins no still can't",
+    "start": 946
+  },
+  {
+    "content": "do it okay so I'm pretty sure this has to be done through right well yeah all",
+    "start": 956
+  },
+  {
+    "content": "right no problem I've got I'm gonna send you a link to a site I just keep up and",
+    "start": 962
+  },
+  {
+    "content": "running and we could use that if you want it's kind of a little bit",
+    "start": 968
+  },
+  {
+    "content": "configured yeah better than I could add you as these are here can I safely the",
+    "start": 972
+  },
+  {
+    "content": "ads stuff here in the chat without everybody the password it's going to get",
+    "start": 980
+  },
+  {
+    "content": "complicated if everybody tries to log in if you send it",
+    "start": 986
+  },
+  {
+    "content": "in you can like send it in Twitter or something so that it's private okay I",
+    "start": 990
+  },
+  {
+    "content": "will do that right now then okay and I'm gonna answer a question in the chat so",
+    "start": 996
+  },
+  {
+    "content": "not sure I is it Yanni rocks I apologize if I'm pronouncing that incorrectly so",
+    "start": 1003
+  },
+  {
+    "content": "the question is there it's like a multi-part question is it still Jam",
+    "start": 1010
+  },
+  {
+    "content": "stack if you are hosting them back-end and so I think the the the answer to",
+    "start": 1016
+  },
+  {
+    "content": "that question is like yeah right so so what makes it Jam stack is that what",
+    "start": 1023
+  },
+  {
+    "content": "goes to the the end user is a static asset so that doesn't necessarily mean",
+    "start": 1028
+  },
+  {
+    "content": "static content like things can be dynamic in static assets but you are",
+    "start": 1034
+  },
+  {
+    "content": "you're effectively not reliant on a server so the way so what we're doing",
+    "start": 1040
+  },
+  {
+    "content": "with with WordPress when we move it to a jam stack model is we're decoupling the",
+    "start": 1044
+  },
+  {
+    "content": "data from the generated site and so what that means for us is that we are copy",
+    "start": 1049
+  },
+  {
+    "content": "this link something to come over here is that gonna work yes yes okay so when we",
+    "start": 1059
+  },
+  {
+    "content": "when we are moving a site like this to the jam stack we're making it so that",
+    "start": 1069
+  },
+  {
+    "content": "the WordPress back-end doesn't need to be up which is what Zach was talking",
+    "start": 1075
+  },
+  {
+    "content": "about with strategy we we make it so that the the backend okay sorry",
+    "start": 1079
+  },
+  {
+    "content": "Twitter formatting did weird stuff with that password there we go all right",
+    "start": 1098
+  },
+  {
+    "content": "but yeah so so what we're trying to do here is we're making it so that this",
+    "start": 1102
+  },
+  {
+    "content": "this back-end is where someone logs in to manage data but this is the same",
+    "start": 1107
+  },
+  {
+    "content": "thing as if you were using like a third party software as a service like Gatsby",
+    "start": 1114
+  },
+  {
+    "content": "is built on this idea of the content mesh right and so and this is",
+    "start": 1118
+  },
+  {
+    "content": "Zach you mentioned this as well so if you honestly if you want to jump in here",
+    "start": 1123
+  },
+  {
+    "content": "and kind of talk a little bit about this I feel like this is this is like a core",
+    "start": 1127
+  },
+  {
+    "content": "concept right of like what makes the jam stack so powerful yeah I think that what",
+    "start": 1131
+  },
+  {
+    "content": "we're presenting to folks is decoupled from WordPress because as you said so",
+    "start": 1137
+  },
+  {
+    "content": "we're presenting the raw HTML files that are built we we query the WordPress",
+    "start": 1142
+  },
+  {
+    "content": "database during the build process build that all out and get that out there so",
+    "start": 1148
+  },
+  {
+    "content": "even if your wordpress site is still up and running your gatsby site is",
+    "start": 1153
+  },
+  {
+    "content": "decoupled from it now it gets a little bit more complicated in this regard",
+    "start": 1157
+  },
+  {
+    "content": "because part of the jam stack is also all those JavaScript calls that are",
+    "start": 1162
+  },
+  {
+    "content": "making live calls everywhere either through like an API usually through an",
+    "start": 1166
+  },
+  {
+    "content": "API of some sort or some embedded code that we have there so we can still write",
+    "start": 1170
+  },
+  {
+    "content": "back to that WordPress database if we don't have it locked down just like if",
+    "start": 1175
+  },
+  {
+    "content": "you throw and discuss comments or you're using the Shopify API or you have one of",
+    "start": 1179
+  },
+  {
+    "content": "these other headless CMS's at some point your chances are you might be writing",
+    "start": 1183
+  },
+  {
+    "content": "back and having that to a dynamic conversation so like you said accurately",
+    "start": 1187
+  },
+  {
+    "content": "like a static site or a Gatsby site a jam stack site is not necessarily static",
+    "start": 1192
+  },
+  {
+    "content": "and that it can have dynamic content but yeah you could definitely use WordPress",
+    "start": 1198
+  },
+  {
+    "content": "and still be in the jam stacking in fact I'd say that most complex robust gatsby",
+    "start": 1202
+  },
+  {
+    "content": "sites are gonna have some database set up somewhere storing something if it's",
+    "start": 1209
+  },
+  {
+    "content": "not if you don't have it all flat files which is possible to do a lot the",
+    "start": 1216
+  },
+  {
+    "content": "comment forms or or contact forms or maybe you have comments stored somewhere",
+    "start": 1220
+  },
+  {
+    "content": "that isn't flat file there's there's oftentimes some other database component",
+    "start": 1225
+  },
+  {
+    "content": "that's that still we still get to call it the jam stack even if it's in the",
+    "start": 1231
+  },
+  {
+    "content": "content mesh world like that I feel like I'm kind of repeating things now but",
+    "start": 1236
+  },
+  {
+    "content": "hopefully that's clear through this person cuz they asked a great question",
+    "start": 1240
+  },
+  {
+    "content": "and the short answer is yes it's still qualifies yeah and it really kind of",
+    "start": 1242
+  },
+  {
+    "content": "comes down to like a philosophical differentiation right because what we're",
+    "start": 1248
+  },
+  {
+    "content": "what we're saying is like we're doing all the same things that we used to do",
+    "start": 1252
+  },
+  {
+    "content": "what we're what we're changing is that instead of all the code being monolithic",
+    "start": 1256
+  },
+  {
+    "content": "and part of the same app like you've got the whole app in one repo what we're",
+    "start": 1260
+  },
+  {
+    "content": "doing is we're taking out parts of it and moving them around so now our",
+    "start": 1264
+  },
+  {
+    "content": "front-end is independent of everything else once we've built the site we can",
+    "start": 1267
+  },
+  {
+    "content": "turn off all the databases turn off all the servers turn off all the third-party",
+    "start": 1272
+  },
+  {
+    "content": "services you know shut down WordPress and that site that generated asset is",
+    "start": 1276
+  },
+  {
+    "content": "that's permanent it's there and it's generated and it's done and that gives",
+    "start": 1281
+  },
+  {
+    "content": "us a lot of benefits like the first being a lot of security it's not",
+    "start": 1286
+  },
+  {
+    "content": "connected to the database it's not connected to a server if you get a",
+    "start": 1290
+  },
+  {
+    "content": "million visitors it's not going to go down from from the server being",
+    "start": 1294
+  },
+  {
+    "content": "overloaded but it also gives us like really cool things like snapshots in",
+    "start": 1297
+  },
+  {
+    "content": "history with that nullify we do this thing that we call atomic deploys where",
+    "start": 1303
+  },
+  {
+    "content": "every time you build your site we can hold on to that build and then if your",
+    "start": 1306
+  },
+  {
+    "content": "next build you notice that you don't like something about it you just click",
+    "start": 1311
+  },
+  {
+    "content": "the previous build and say now I want to use this one instead and you just roll",
+    "start": 1315
+  },
+  {
+    "content": "back so you get this idea of like time travel which with a server driven site",
+    "start": 1318
+  },
+  {
+    "content": "that's really really hard because everything is built on in",
+    "start": 1322
+  },
+  {
+    "content": "multiple places so that's the kind of the idea and I think the major benefit",
+    "start": 1326
+  },
+  {
+    "content": "here and why this is worth digging into is it really does give you like all of",
+    "start": 1330
+  },
+  {
+    "content": "the good things about using something like WordPress because you still get to",
+    "start": 1336
+  },
+  {
+    "content": "use the the content editing experience you still get to dive in and and learn",
+    "start": 1339
+  },
+  {
+    "content": "all of the or use all of the power tools for editors but then you also get to use",
+    "start": 1344
+  },
+  {
+    "content": "all these modern web development flows and you get these bonuses for developers",
+    "start": 1350
+  },
+  {
+    "content": "where you get the security you get the you get to use reactor view or you know",
+    "start": 1353
+  },
+  {
+    "content": "whatever you want really to build that front-end and you get like a get driven",
+    "start": 1359
+  },
+  {
+    "content": "workflow you get like you get to use something like like natla Phi or strata",
+    "start": 1364
+  },
+  {
+    "content": "core whatever that that lets you use your tools and it removes that that kind",
+    "start": 1368
+  },
+  {
+    "content": "of tension between like I don't know if you've ever worked in a company where",
+    "start": 1374
+  },
+  {
+    "content": "the if the content team and the developers are always kind of at odds",
+    "start": 1378
+  },
+  {
+    "content": "right like and really if the CEO is a Content person then you use the content",
+    "start": 1384
+  },
+  {
+    "content": "type to that are really friendly for them but if",
+    "start": 1389
+  },
+  {
+    "content": "the CEO is a developer then everybody's got to use like github right and and so",
+    "start": 1391
+  },
+  {
+    "content": "this this allows you to have your cake and eat it to the content team gets to",
+    "start": 1396
+  },
+  {
+    "content": "use the tool they want the developers get to use the tool they want and",
+    "start": 1399
+  },
+  {
+    "content": "everything still works together and you get this really nice this really good",
+    "start": 1403
+  },
+  {
+    "content": "workflow okay so with all of that I think now I have access I'm I'm in it",
+    "start": 1406
+  },
+  {
+    "content": "looks like we've got a tool good weave so this one already has WP graphical and",
+    "start": 1415
+  },
+  {
+    "content": "WP graph QL installed so these are the the plugins that you would actually",
+    "start": 1421
+  },
+  {
+    "content": "create so let me pull these up and share them in the chat so this is WP yeah",
+    "start": 1425
+  },
+  {
+    "content": "those are our go-to who required plugins and shout out to Jason who has been on",
+    "start": 1430
+  },
+  {
+    "content": "the show before so go back and watch his episode I was just rewatching it last",
+    "start": 1436
+  },
+  {
+    "content": "night yes double Jason show and basically this is just a graph QL server",
+    "start": 1439
+  },
+  {
+    "content": "for WordPress and he did a lot of work building this up yeah that's the one",
+    "start": 1445
+  },
+  {
+    "content": "right there and then he also got brought into the Gatsby team so they're working",
+    "start": 1450
+  },
+  {
+    "content": "full time to build this out even further so everything going forward the kind of",
+    "start": 1457
+  },
+  {
+    "content": "joke in the WordPress community is we got a REST API in core right when REST",
+    "start": 1465
+  },
+  {
+    "content": "API were going out of fashion right so we finally got a REST API and now like",
+    "start": 1468
+  },
+  {
+    "content": "graph 12 so there's not this isn't in core and you can build a gatsby site",
+    "start": 1474
+  },
+  {
+    "content": "with the REST API out-of-the-box no plugins or anything but um I I",
+    "start": 1480
+  },
+  {
+    "content": "personally support going towards graph QL and they're actually rebuilding all",
+    "start": 1485
+  },
+  {
+    "content": "the gatsby resources so that it won't use the REST API any more and it will",
+    "start": 1489
+  },
+  {
+    "content": "always require graph QL to be installed so this is a pretty good first step",
+    "start": 1495
+  },
+  {
+    "content": "install graph QL and graphical and if you go in the admin area now there's a",
+    "start": 1501
+  },
+  {
+    "content": "little graphical place and we could just kind of cruise through that and see some",
+    "start": 1506
+  },
+  {
+    "content": "of the pages and posts ahead of time nice okay so I go down here and and",
+    "start": 1510
+  },
+  {
+    "content": "there's a question in the chat so you would mention that we we couldn't",
+    "start": 1516
+  },
+  {
+    "content": "install these plugins through the regular plug-in way is",
+    "start": 1520
+  },
+  {
+    "content": "it was that just because of the goofy permissions on my site or is that is",
+    "start": 1523
+  },
+  {
+    "content": "there another reason for that no you know there is some reason why you can't",
+    "start": 1527
+  },
+  {
+    "content": "put graphical in the plug-in repo and I don't actually know the reason so I'd",
+    "start": 1534
+  },
+  {
+    "content": "take it I'd have to guess I know I knew at one point and I completely cannot",
+    "start": 1539
+  },
+  {
+    "content": "remember because I always the question comes up for me but I think there's a",
+    "start": 1544
+  },
+  {
+    "content": "low-level reason something it's doing maybe that isn't allowed or maybe",
+    "start": 1548
+  },
+  {
+    "content": "something it has included there are a lot of restrictions on what you could",
+    "start": 1552
+  },
+  {
+    "content": "put in the public repo or it might just be he didn't want to do it until version",
+    "start": 1555
+  },
+  {
+    "content": "1 was out I can't honestly remember but uh we need to go through github okay",
+    "start": 1559
+  },
+  {
+    "content": "yeah and and Jason ball is in the chat right now and he's he's saying that",
+    "start": 1565
+  },
+  {
+    "content": "they're also they're not there because developer friendly plugins tend to fare",
+    "start": 1570
+  },
+  {
+    "content": "pretty poorly on org and that's fair because dot org is is definitely",
+    "start": 1576
+  },
+  {
+    "content": "targeted toward like word presses in general is targeted toward somebody who",
+    "start": 1581
+  },
+  {
+    "content": "isn't a developer and doesn't want to think about code so putting a plug in",
+    "start": 1586
+  },
+  {
+    "content": "that that promises something and then requires development probably means that",
+    "start": 1590
+  },
+  {
+    "content": "a lot of people would be frustrated so so keeping it in github is is making it",
+    "start": 1594
+  },
+  {
+    "content": "a little more clear this is a developer friendly thing about did Jason are right",
+    "start": 1600
+  },
+  {
+    "content": "way to deliver we got all the answers today",
+    "start": 1606
+  },
+  {
+    "content": "but yeah so oh and yeah and he's saying that once they hit like a solid version",
+    "start": 1611
+  },
+  {
+    "content": "one it'll it'll go live in the the dot in the dot org plugin cat ok perfect",
+    "start": 1616
+  },
+  {
+    "content": "cool all right let me this Martin is great millyar yeah right this is this is",
+    "start": 1622
+  },
+  {
+    "content": "familiar if you click on pages or posts plural let's start there because there",
+    "start": 1629
+  },
+  {
+    "content": "we could go into the posts or paid yeah and if we go into the the nodes there we",
+    "start": 1635
+  },
+  {
+    "content": "could see that we've got all the basic info we want like the title now one",
+    "start": 1644
+  },
+  {
+    "content": "thing about WordPress is that it has this filter system so you can get a",
+    "start": 1650
+  },
+  {
+    "content": "title and content for all the filters are applied or after",
+    "start": 1656
+  },
+  {
+    "content": "and so this is what's selected under format as either raw or if you click on",
+    "start": 1660
+  },
+  {
+    "content": "format you'll get two options and we always want to choose rendered so that's",
+    "start": 1666
+  },
+  {
+    "content": "a really important thing the excerpt the content the title and WordPress have",
+    "start": 1672
+  },
+  {
+    "content": "this extra cork this is a CMS specific thing okay but you can see now we've got",
+    "start": 1676
+  },
+  {
+    "content": "we've got our data coming so if I'm can you talk a little but if you select",
+    "start": 1682
+  },
+  {
+    "content": "pronto yeah grab content is one of the fields in there and let's set that to",
+    "start": 1687
+  },
+  {
+    "content": "raw and we might even see a different okay so we can see here's all the the WP",
+    "start": 1694
+  },
+  {
+    "content": "paragraph stuff but if we go to rendered it cleans that up I get it okay cool",
+    "start": 1700
+  },
+  {
+    "content": "very cool so that's basically like if I'm remembering how WordPress works",
+    "start": 1708
+  },
+  {
+    "content": "under the hood so WordPress has kind of like metadata about content that helps",
+    "start": 1712
+  },
+  {
+    "content": "helps WordPress describe to itself what should happen plugins use that and short",
+    "start": 1718
+  },
+  {
+    "content": "codes and things like that so before it gets to the browser",
+    "start": 1724
+  },
+  {
+    "content": "WordPress is going to do a I think it's a is it just called like the content",
+    "start": 1729
+  },
+  {
+    "content": "where it runs these filters and like turns the content from the metadata into",
+    "start": 1735
+  },
+  {
+    "content": "like browser friendly anybody any browser can interpret this plain old",
+    "start": 1740
+  },
+  {
+    "content": "markup and so basically what we're doing here is we're saying we want it to be",
+    "start": 1745
+  },
+  {
+    "content": "rendered because we want the browser friendly version not the WordPress",
+    "start": 1748
+  },
+  {
+    "content": "version it's called try Swift computer screen means here okay give me one",
+    "start": 1751
+  },
+  {
+    "content": "second let's FaceTime story you you're gonna get the upshot now but I think",
+    "start": 1767
+  },
+  {
+    "content": "this will be a better connection yeah you're absolutely correct that WordPress",
+    "start": 1774
+  },
+  {
+    "content": "has some filters that it adds on to it and hold on let me say there we go get",
+    "start": 1779
+  },
+  {
+    "content": "down and third-party developers can awesome",
+    "start": 1785
+  },
+  {
+    "content": "they could add things so I could write a plug-in that says hey after the end of",
+    "start": 1791
+  },
+  {
+    "content": "every content section add some code to share this on Twitter right so that",
+    "start": 1796
+  },
+  {
+    "content": "sharing on Twitter would be something that might be added into a filter",
+    "start": 1803
+  },
+  {
+    "content": "potentially so if your is going a little bit further but if you ever need to edit",
+    "start": 1808
+  },
+  {
+    "content": "the content from the database and you choose well if you're plugging in into",
+    "start": 1813
+  },
+  {
+    "content": "an editor yeah most of the time we're gonna content thing about this is that",
+    "start": 1816
+  },
+  {
+    "content": "that means that on the react side we're going to have to use dangerously set",
+    "start": 1820
+  },
+  {
+    "content": "HTML giving us HTML so if you're not familiar with that WordPress developers",
+    "start": 1826
+  },
+  {
+    "content": "in the Gatsby we're on in the react world we get real comfortably with",
+    "start": 1833
+  },
+  {
+    "content": "dangerously setting HTML for the title and the content and all of that stuff",
+    "start": 1838
+  },
+  {
+    "content": "but you get to avoid if you're using some of the other systems out there for",
+    "start": 1842
+  },
+  {
+    "content": "sure and another note that came in from the chat Jason Paul is saying that the",
+    "start": 1846
+  },
+  {
+    "content": "rendered is the default which is good and that's public with raw we have to be",
+    "start": 1851
+  },
+  {
+    "content": "authenticated because it could technically leak implementation details",
+    "start": 1858
+  },
+  {
+    "content": "so that's another thing to consider so that means I think that if I uncheck",
+    "start": 1862
+  },
+  {
+    "content": "this box we should get we still get the rendered version so if we leave that",
+    "start": 1866
+  },
+  {
+    "content": "filter out actually by default we'll get the right thing which is good I like",
+    "start": 1872
+  },
+  {
+    "content": "that they you've you've made the right thing",
+    "start": 1876
+  },
+  {
+    "content": "the easy thing that is very much in line with my values so nice job nice very",
+    "start": 1878
+  },
+  {
+    "content": "cool way to go Jason I know that wasn't meant for me but it still made me feel",
+    "start": 1887
+  },
+  {
+    "content": "good you know take it buddy take all right so ok so we have now this this",
+    "start": 1892
+  },
+  {
+    "content": "graph QL setup where we're able to load posts so from here what would we what",
+    "start": 1902
+  },
+  {
+    "content": "would we do next yeah so from here we're gonna spin up are we basically my first",
+    "start": 1909
+  },
+  {
+    "content": "step in this is I want to duplicate this on the Gatsby side so I want to be able",
+    "start": 1915
+  },
+  {
+    "content": "to go into my local host graph graphical oh you just",
+    "start": 1920
+  },
+  {
+    "content": "went we can see your mouth moving the site and I would set up the graph QL",
+    "start": 1931
+  },
+  {
+    "content": "plug-in so I could connect my WordPress graphical with my Gatsby side so I just",
+    "start": 1944
+  },
+  {
+    "content": "spin up a basic default starter and installed the graph QL plug-in and let",
+    "start": 1950
+  },
+  {
+    "content": "me see I can all right so let me let me pull this over and we're going gasps ooh",
+    "start": 1958
+  },
+  {
+    "content": "is what it is all right so what I'm gonna do is I'm going to run npx gatsby",
+    "start": 1964
+  },
+  {
+    "content": "new is there a starter you want me to use or should I can I go hello world is",
+    "start": 1972
+  },
+  {
+    "content": "that cool yep yep just go with the default hello world let's start there so",
+    "start": 1976
+  },
+  {
+    "content": "I'm gonna do hello world so we don't get any of the extra stuff and I'm gonna put",
+    "start": 1982
+  },
+  {
+    "content": "this into let's go WordPress damn stack oh I did that backwards didn't I yes I",
+    "start": 1987
+  },
+  {
+    "content": "did I'm gonna do this one blue so WordPress",
+    "start": 2006
+  },
+  {
+    "content": "Jam stack I think that's right I can hear the",
+    "start": 2010
+  },
+  {
+    "content": "and spinning up on my computer it's all like the desk is gonna lift off now oh",
+    "start": 2025
+  },
+  {
+    "content": "yeah running video and gas speak code just dumb they bring down greatest of",
+    "start": 2031
+  },
+  {
+    "content": "machines III got the two computers going we're still struggling I would have",
+    "start": 2037
+  },
+  {
+    "content": "thought just edit text would be so resource heavy right I know it's that",
+    "start": 2048
+  },
+  {
+    "content": "modern package life you know another package life so I'll just fill some",
+    "start": 2056
+  },
+  {
+    "content": "space now well while this is running you know when you got b-roll use it buddy",
+    "start": 2062
+  },
+  {
+    "content": "when you God b-roll use it yeah so the first couple steps are a little bit",
+    "start": 2085
+  },
+  {
+    "content": "laborious these will probably get easier as time goes on and more starters are",
+    "start": 2092
+  },
+  {
+    "content": "created and things like that but basically what we",
+    "start": 2096
+  },
+  {
+    "content": "oh we lost you again you just went quiet so you're gonna say all that again cuz",
+    "start": 2107
+  },
+  {
+    "content": "you went quiet as soon as you started talking oh no okay let's skip to the",
+    "start": 2117
+  },
+  {
+    "content": "next step the next step is we'll install gatsby source graph QL and that will let",
+    "start": 2124
+  },
+  {
+    "content": "us in basically connect our WordPress to our Gatsby",
+    "start": 2130
+  },
+  {
+    "content": "so we'll kind of start with step by step okay I'm adding Gatsby source graph QL",
+    "start": 2135
+  },
+  {
+    "content": "perfect and now we come into our Gatsby config file and we'll set that up and",
+    "start": 2141
+  },
+  {
+    "content": "point it towards our WordPress site this is not the site we wanted to be looking",
+    "start": 2149
+  },
+  {
+    "content": "at what is what is happening here computer",
+    "start": 2155
+  },
+  {
+    "content": "nope not that one either why wow it's opened like every every site we've ever",
+    "start": 2166
+  },
+  {
+    "content": "done on learn with Jason is now open okay here we go Connect WordPress to",
+    "start": 2172
+  },
+  {
+    "content": "every big all right so I've got the the plugins and I say this one is gonna be",
+    "start": 2178
+  },
+  {
+    "content": "Gatsby plug-in good yeah you got it graph QL and then for the option on this",
+    "start": 2185
+  },
+  {
+    "content": "Martin I is it Gatsby plug it back to ours Graz",
+    "start": 2193
+  },
+  {
+    "content": "be source classic II well great question what did I install I installed you guys",
+    "start": 2198
+  },
+  {
+    "content": "to be source graph QL and then forgot what I was doing okay okay so options I",
+    "start": 2203
+  },
+  {
+    "content": "could tell you there's two that we need one is or three I guess type name will",
+    "start": 2208
+  },
+  {
+    "content": "come first and that's okay if we're going yes it is yeah camel cased and its",
+    "start": 2213
+  },
+  {
+    "content": "WP graph QL one word capital W PG and that's going to be what we put yeah cool",
+    "start": 2220
+  },
+  {
+    "content": "and then the next one is field name and that's the same thing all lowercase okay",
+    "start": 2230
+  },
+  {
+    "content": "and the field name is where we're gonna find all of our WordPress data and then",
+    "start": 2237
+  },
+  {
+    "content": "the final one is the URL and then we'll just paste in that development site that",
+    "start": 2242
+  },
+  {
+    "content": "we're using okay and so is it it's smart enough to know like how to get there or",
+    "start": 2247
+  },
+  {
+    "content": "if you copy that URL we need to add slash graphical to the end with an eye",
+    "start": 2255
+  },
+  {
+    "content": "there graph QL you sorry correct ah yeah just",
+    "start": 2265
+  },
+  {
+    "content": "graph QL so this from here it's smart enough to know okay so let's start it up",
+    "start": 2270
+  },
+  {
+    "content": "and so it's starting and let's see didn't say anything",
+    "start": 2287
+  },
+  {
+    "content": "let's happen to look if we did it right we should now get WP graft yeah well and",
+    "start": 2296
+  },
+  {
+    "content": "all her content there yep so let's grab these titles we'll grab the content",
+    "start": 2304
+  },
+  {
+    "content": "again I want the date and some didn't go right oh because it's preserving old",
+    "start": 2310
+  },
+  {
+    "content": "stuff let's get that out of there input ID oh I did a post and not posts",
+    "start": 2321
+  },
+  {
+    "content": "plural let's go nodes and then we'll do a title hello who's that we have some",
+    "start": 2329
+  },
+  {
+    "content": "God God's developers passing through all right let's let's try this",
+    "start": 2341
+  },
+  {
+    "content": "hey look at that there we go alright so you back you're back okay yep alright so",
+    "start": 2352
+  },
+  {
+    "content": "we've got we've got Coast we've got posts coming in these are from",
+    "start": 2362
+  },
+  {
+    "content": "graph QL but they're now loaded in my local Gatsby site so like this is pretty",
+    "start": 2366
+  },
+  {
+    "content": "straightforward right like we'd we just made this it just it just works right",
+    "start": 2374
+  },
+  {
+    "content": "and I think that's really exciting because now like when when Gatsby builds",
+    "start": 2379
+  },
+  {
+    "content": "it'll take this data and it will actually store that as like complete",
+    "start": 2386
+  },
+  {
+    "content": "flat files so that we can power down the WordPress we could password protect it",
+    "start": 2390
+  },
+  {
+    "content": "we could do whatever we need to do to lock that down and make it secure for",
+    "start": 2395
+  },
+  {
+    "content": "the people who are editing the site but without having any impact on the front",
+    "start": 2400
+  },
+  {
+    "content": "end of the website which i think is really really cool",
+    "start": 2404
+  },
+  {
+    "content": "yeah and this is super powerful to have all of our data available here if thing",
+    "start": 2408
+  },
+  {
+    "content": "to point out though is that just because it has the ability",
+    "start": 2415
+  },
+  {
+    "content": "to query it doesn't mean we have any of this in flat files so we have to go",
+    "start": 2418
+  },
+  {
+    "content": "through the process now of picking out what it is that we want to create pages",
+    "start": 2424
+  },
+  {
+    "content": "to create posts to figure out the URL structure to figure out all of that",
+    "start": 2431
+  },
+  {
+    "content": "stuff so total at that point and this point is still a very open-ended book",
+    "start": 2436
+  },
+  {
+    "content": "what I think is going to evolve you know I'm working on we didn't talk about this",
+    "start": 2442
+  },
+  {
+    "content": "earlier but a a theme project where we take WordPress themes and pour them over",
+    "start": 2446
+  },
+  {
+    "content": "we're sorry we're losing you again oh you're back yeah I can hear me now yes",
+    "start": 2453
+  },
+  {
+    "content": "okay so you said you were you were really excited you were working on",
+    "start": 2467
+  },
+  {
+    "content": "something and then you cut out working on building themes for Gatsby and",
+    "start": 2471
+  },
+  {
+    "content": "WordPress projects and we got to be team itself led by Jason is trying to build",
+    "start": 2476
+  },
+  {
+    "content": "Gatsby themes that are going to build out more the content yourself so that",
+    "start": 2484
+  },
+  {
+    "content": "you won't have to do the process that we're about to manually do which is",
+    "start": 2490
+  },
+  {
+    "content": "figure out how to create pages how to assign them a template on that so a year",
+    "start": 2493
+  },
+  {
+    "content": "from now building Gatsby WordPress themes will probably be a smoother",
+    "start": 2497
+  },
+  {
+    "content": "process but right now it's still a bit laborious but not any more laborious",
+    "start": 2500
+  },
+  {
+    "content": "than working with any other content management system that is that now we",
+    "start": 2506
+  },
+  {
+    "content": "have to go in to Gatsby's underbelly like into our Gatsby config or got to be",
+    "start": 2511
+  },
+  {
+    "content": "node yeah we'll use yes start creating our actual pages here so that would kind",
+    "start": 2518
+  },
+  {
+    "content": "of be our next step yeah thank you for this uh Brian so one",
+    "start": 2523
+  },
+  {
+    "content": "question that came through Jason already answered in the chat but I think this is",
+    "start": 2529
+  },
+  {
+    "content": "important so we should call it out we didn't have to add any auth for this so",
+    "start": 2533
+  },
+  {
+    "content": "how does that work well thank you Jason for already answering that a lot of this",
+    "start": 2538
+  },
+  {
+    "content": "stuff is public by default basically anything that you would get with a",
+    "start": 2546
+  },
+  {
+    "content": "normal WordPress theme we don't need to authenticate for",
+    "start": 2549
+  },
+  {
+    "content": "however there is a JWT off extension for WP graph QL which hopefully Jason we",
+    "start": 2552
+  },
+  {
+    "content": "keep doing these WordPress ones because there's this is like my ideas I wanted",
+    "start": 2559
+  },
+  {
+    "content": "to start with that one but I think a little bit advanced for some folks who",
+    "start": 2563
+  },
+  {
+    "content": "are seeing some of the set up for the first time where you would actually have",
+    "start": 2566
+  },
+  {
+    "content": "to set up some up and education and the cool thing about Gatsby is that you can",
+    "start": 2570
+  },
+  {
+    "content": "have a user authenticate and pull in stuff dynamically or you could hard code",
+    "start": 2575
+  },
+  {
+    "content": "that authentication into your gatsby app still some security concerns there you",
+    "start": 2580
+  },
+  {
+    "content": "got trigger for where we store this stuff right sure but you could have this",
+    "start": 2584
+  },
+  {
+    "content": "server-side authenticating for you in some instances too but like for instance",
+    "start": 2588
+  },
+  {
+    "content": "if we try to query raw data now I don't know if we're going to get that on",
+    "start": 2594
+  },
+  {
+    "content": "Gatsby sake happen of track we have enough ok nothing yeah cool it's out of",
+    "start": 2600
+  },
+  {
+    "content": "here alright that's perfect that's perfect",
+    "start": 2609
+  },
+  {
+    "content": "a thank you for the sub Henry Henry I appreciate it",
+    "start": 2613
+  },
+  {
+    "content": "I'm ready let's make some pages so so maybe the first thing that we can do the",
+    "start": 2619
+  },
+  {
+    "content": "the easiest thing would be like a blog roll right like let's get all these and",
+    "start": 2624
+  },
+  {
+    "content": "list them on a page when it would I'm frozen or we have in a staring contest",
+    "start": 2627
+  },
+  {
+    "content": "keep cutting out yeah right at the important parts of all right so I I",
+    "start": 2640
+  },
+  {
+    "content": "think if we take our index page it seems to me like probably the the best place",
+    "start": 2647
+  },
+  {
+    "content": "to start is to just list things on a page right does that seem reasonable to",
+    "start": 2653
+  },
+  {
+    "content": "you yes we could do that but what yeah let's do that",
+    "start": 2656
+  },
+  {
+    "content": "to start just to see it but what I actually like to start with is using the",
+    "start": 2664
+  },
+  {
+    "content": "create page API I and actually building out the pages not without creating",
+    "start": 2669
+  },
+  {
+    "content": "themselves which is kind of a two-part process because we'll need a template",
+    "start": 2677
+  },
+  {
+    "content": "too but I like I like to start there alright so we're gonna start by we're",
+    "start": 2681
+  },
+  {
+    "content": "getting the we're gonna use the create pages API",
+    "start": 2685
+  },
+  {
+    "content": "in Gatsby we use that by exporting a function and then that's gonna give us",
+    "start": 2688
+  },
+  {
+    "content": "what graph QL actions actually actions and then graph QL I think no I mean it's",
+    "start": 2694
+  },
+  {
+    "content": "a D structured object so it doesn't really matter both of you I like",
+    "start": 2704
+  },
+  {
+    "content": "alphabetical ah yes okay cool so then what happens next so we could go about",
+    "start": 2707
+  },
+  {
+    "content": "this a few ways I like to write my queries at the top so we do a query and",
+    "start": 2717
+  },
+  {
+    "content": "also again shout out to Jason because I wouldn't have gotten both Jason's a lot",
+    "start": 2723
+  },
+  {
+    "content": "of this before let's create a Const called get underscore pages all caps is",
+    "start": 2729
+  },
+  {
+    "content": "the naming convention I tend to use okay and then we'll set up a query that okay",
+    "start": 2736
+  },
+  {
+    "content": "this is gonna be a little bit more complicated than it needs to be because",
+    "start": 2743
+  },
+  {
+    "content": "the the issue is is that WP graph Koza is only gonna get a hundred things at a",
+    "start": 2747
+  },
+  {
+    "content": "time 100 pages now in our simple simple site it's not really an issue but the",
+    "start": 2752
+  },
+  {
+    "content": "way I tend to write this is kind of in a recursive mode so I'm looking at some",
+    "start": 2758
+  },
+  {
+    "content": "completed code I'm gonna try to figure out if we could simplify this okay",
+    "start": 2764
+  },
+  {
+    "content": "just assuming that we only have maybe five pages to gather to get through a",
+    "start": 2768
+  },
+  {
+    "content": "little bit more simply so let's let's start there and we'll I'll see if I can",
+    "start": 2773
+  },
+  {
+    "content": "simplify this on the fly okay all right so the query we're looking at is we want",
+    "start": 2782
+  },
+  {
+    "content": "to go into pages and let's start off getting any yeah I don't know what the",
+    "start": 2788
+  },
+  {
+    "content": "level of depth I'm gonna show let me show you one thing if we go into pages",
+    "start": 2796
+  },
+  {
+    "content": "one of the things you could select last year",
+    "start": 2799
+  },
+  {
+    "content": "Audio again definitely going to co-working space next time here yeah",
+    "start": 2807
+  },
+  {
+    "content": "you're just grabbing the simple stuff there let's just set up a query where",
+    "start": 2826
+  },
+  {
+    "content": "we're getting WP graph QL pages and nodes and then like you have the title",
+    "start": 2830
+  },
+  {
+    "content": "and the slug and what what do we even meet like if we're if we're creating",
+    "start": 2835
+  },
+  {
+    "content": "pages like we don't really even need the title right we need the slug and like",
+    "start": 2840
+  },
+  {
+    "content": "the ID do we need anything else yeah so that's a good point because what we're",
+    "start": 2844
+  },
+  {
+    "content": "gonna do is we're going to create the page and then pass the ID or the slug",
+    "start": 2850
+  },
+  {
+    "content": "down into that page and in the template is where we'll query all the codes and",
+    "start": 2856
+  },
+  {
+    "content": "all the fields that we actually need so I do generally the ID and/or the page ID",
+    "start": 2860
+  },
+  {
+    "content": "and maybe URI sometimes can be helpful if we're building links so we probably",
+    "start": 2868
+  },
+  {
+    "content": "do want the URI as well let me see what is it that I generally pass in with",
+    "start": 2874
+  },
+  {
+    "content": "contexts are our slug in URI going to be equivalent that might not be questions",
+    "start": 2881
+  },
+  {
+    "content": "for Jason ball yeah I don't remember the answer to that offhand complete he's in",
+    "start": 2890
+  },
+  {
+    "content": "there and gives us that slug and URI are different all right Jason putting you on",
+    "start": 2898
+  },
+  {
+    "content": "the spot in the chat can you tell us how we wait okay so the pin now the page ID",
+    "start": 2906
+  },
+  {
+    "content": "comes from WordPress and the ID comes from Gatsby maybe is that right yes",
+    "start": 2919
+  },
+  {
+    "content": "that's so the page ID is that's exactly correct",
+    "start": 2928
+  },
+  {
+    "content": "okay okay all right so what Jason is saying is that the the slug is is like",
+    "start": 2932
+  },
+  {
+    "content": "the individual page but that could be nested under something else like so if",
+    "start": 2942
+  },
+  {
+    "content": "you had a like a website and a slash about which is like about the company",
+    "start": 2946
+  },
+  {
+    "content": "and then you had a staff like subsection and an about for about the staff those",
+    "start": 2951
+  },
+  {
+    "content": "might both have the slug of about but the company page would be slash about",
+    "start": 2957
+  },
+  {
+    "content": "and the staff page would be staff slash about so that that's what the the URIs",
+    "start": 2962
+  },
+  {
+    "content": "would be so okay I get that that makes sense",
+    "start": 2967
+  },
+  {
+    "content": "okay so it looks like these should these numbers should end up being like these",
+    "start": 2970
+  },
+  {
+    "content": "will be unique these look like they're definitely you definitely unique and",
+    "start": 2977
+  },
+  {
+    "content": "either way we go about it all we're really looking for here is something to",
+    "start": 2982
+  },
+  {
+    "content": "have a unique look up for the the page right so really any one of these",
+    "start": 2988
+  },
+  {
+    "content": "probably not the slug because the slug could be a duplicate so page ID URI or",
+    "start": 2996
+  },
+  {
+    "content": "ID could all be used for for what we're trying to do here yeah yeah anything",
+    "start": 3000
+  },
+  {
+    "content": "that we could query by that's gonna be unique on this side so yeah dude your",
+    "start": 3008
+  },
+  {
+    "content": "presence I'm trying to look up what I usually would I point it by here let me",
+    "start": 3015
+  },
+  {
+    "content": "see page I think I'm using the ID is what I've been using which again is is",
+    "start": 3022
+  },
+  {
+    "content": "Gatsby specific so I'm sorry it turns out if not Jason just corrected me on",
+    "start": 3034
+  },
+  {
+    "content": "that so the the ID is all of this data is coming out of WordPress is what he",
+    "start": 3040
+  },
+  {
+    "content": "just said in the chat so I was incorrect about that but this is a nice unit",
+    "start": 3046
+  },
+  {
+    "content": "unique ID so if we take this and we can leave that part out come back over here",
+    "start": 3051
+  },
+  {
+    "content": "and we can just drop this straight in and this is all my favorite things about",
+    "start": 3059
+  },
+  {
+    "content": "fq l is that you you're able to test your queries in the browser see the",
+    "start": 3062
+  },
+  {
+    "content": "results and then once you're happy you just copy paste it right into your code",
+    "start": 3066
+  },
+  {
+    "content": "and and you know bottom about a being your done I don't know why no I",
+    "start": 3069
+  },
+  {
+    "content": "shouldn't have said that [Laughter]",
+    "start": 3074
+  },
+  {
+    "content": "okay so now we have a query so we need to execute that query and I'm gonna do",
+    "start": 3079
+  },
+  {
+    "content": "that by will get the result equals wait graph QL and we're on the get pages okay",
+    "start": 3086
+  },
+  {
+    "content": "so from here what what what should we do next",
+    "start": 3097
+  },
+  {
+    "content": "okay so assuming that this is all of our that these are all of our pages",
+    "start": 3102
+  },
+  {
+    "content": "sometimes I like to test this it's a bit laborious so maybe we won't do this at",
+    "start": 3110
+  },
+  {
+    "content": "this stage but I would do is map over each of these and then I'd create that",
+    "start": 3115
+  },
+  {
+    "content": "I'd call create page so if R so if we map over the results and that should",
+    "start": 3122
+  },
+  {
+    "content": "give us an individual page okay so this is gonna give us Rizzo data WP graph QL",
+    "start": 3129
+  },
+  {
+    "content": "pages nodes and then I'm gonna use for each since we don't need to return",
+    "start": 3138
+  },
+  {
+    "content": "anything and we'll get a page so in here brilliant then we can run create page",
+    "start": 3144
+  },
+  {
+    "content": "alright and it's been a while since I've done this so from memory I just lost you",
+    "start": 3152
+  },
+  {
+    "content": "okay you're back okay so I would generally do two things first I like to",
+    "start": 3164
+  },
+  {
+    "content": "console log out here just so that we could see when we're building and I'd",
+    "start": 3173
+  },
+  {
+    "content": "say it like create page and then give it the ID or something like that right",
+    "start": 3177
+  },
+  {
+    "content": "before we call create page I just I like that especially when you have a large",
+    "start": 3182
+  },
+  {
+    "content": "site build out it's nice to know where you yeah but that process that's a good",
+    "start": 3189
+  },
+  {
+    "content": "idea let's so let's let's stop start and we'll see those pages get get",
+    "start": 3195
+  },
+  {
+    "content": "spit out right now okay so here we go we've got our three pages and we've got",
+    "start": 3198
+  },
+  {
+    "content": "a URI and an ID and so the create page cool now create page is gonna take a",
+    "start": 3209
+  },
+  {
+    "content": "path a component and context so the path this is where it's helpful to have the",
+    "start": 3219
+  },
+  {
+    "content": "URI yep and then the component we haven't created yet so we've got to do",
+    "start": 3227
+  },
+  {
+    "content": "that and then the contexts we could pass in I like to actually just pass the",
+    "start": 3231
+  },
+  {
+    "content": "whole page in so it'll get the URI and it'll get the ID but really all we need",
+    "start": 3238
+  },
+  {
+    "content": "to pass in is the page ID okay yeah let's let's stick to just what we need",
+    "start": 3241
+  },
+  {
+    "content": "just in the in the I like this is a personal quirk that I've developed",
+    "start": 3248
+  },
+  {
+    "content": "because I've noticed that like whenever information crosses a boundary it gets",
+    "start": 3255
+  },
+  {
+    "content": "harder to decide later if you can get rid of it so I like to only include what",
+    "start": 3261
+  },
+  {
+    "content": "you need so that it's more immediately obvious that like if the data is there",
+    "start": 3265
+  },
+  {
+    "content": "then you know that you needed it somewhere instead of passing the whole",
+    "start": 3271
+  },
+  {
+    "content": "object and then saying look did we use both of these are just one so that",
+    "start": 3275
+  },
+  {
+    "content": "that's that's nitpicky but that's that's my reasoning and so on oh I love that",
+    "start": 3280
+  },
+  {
+    "content": "logic that makes a lot of sense the complete opposite of what I generally do",
+    "start": 3285
+  },
+  {
+    "content": "but so let's create a page template so I'll import react from react and we can",
+    "start": 3290
+  },
+  {
+    "content": "do page template is going to we'll get some data but for now we're going to",
+    "start": 3300
+  },
+  {
+    "content": "export default page template alright and this is going to get or wait what does",
+    "start": 3307
+  },
+  {
+    "content": "it get I'm forgetting now yes so this will get our data which will be our page",
+    "start": 3316
+  },
+  {
+    "content": "ID the design go get a data WP is it is it in",
+    "start": 3324
+  },
+  {
+    "content": "data is it in context what is it my brain is breaking down we all we have",
+    "start": 3329
+  },
+  {
+    "content": "to do a query right is that right sorry I'm cutting out yeah you X you pull out",
+    "start": 3336
+  },
+  {
+    "content": "a graph QL from Gatsby that looks correct and then the query is gonna be",
+    "start": 3350
+  },
+  {
+    "content": "graph QL so here is where we need to make a query and pass an ID as a",
+    "start": 3357
+  },
+  {
+    "content": "parameter so um I would do something like query and then duh dollar sign ID",
+    "start": 3366
+  },
+  {
+    "content": "is equal to the ID that we passed in yep okay so actually let me let me do this",
+    "start": 3377
+  },
+  {
+    "content": "then I'll set up an ID dude query ID and then is this gonna be",
+    "start": 3383
+  },
+  {
+    "content": "a string yeah it's an ID not a string like instead of strings just capital ID",
+    "start": 3391
+  },
+  {
+    "content": "exclamation point okay so then we've got this will be what gets passed in as our",
+    "start": 3403
+  },
+  {
+    "content": "ID and we can use it here to filter for our page and then I'll get let's get the",
+    "start": 3410
+  },
+  {
+    "content": "title and the slug to make sure that works perfect so test in fact we don't",
+    "start": 3417
+  },
+  {
+    "content": "need func here we could just get title and content probably that's true okay so",
+    "start": 3424
+  },
+  {
+    "content": "let's get rid of that get just the content",
+    "start": 3429
+  },
+  {
+    "content": "boom look at that so that's beautiful so we can take the pages part out so I'll",
+    "start": 3436
+  },
+  {
+    "content": "uncheck it down here I love this Explorer and then we can take this it's",
+    "start": 3444
+  },
+  {
+    "content": "straight out drop it in here okay and now we know that this was set here",
+    "start": 3449
+  },
+  {
+    "content": "this ID will get gassed to our page template and we can use it as a graph QL",
+    "start": 3460
+  },
+  {
+    "content": "variable or we can also get I think it's page context as the prop that comes in",
+    "start": 3466
+  },
+  {
+    "content": "they would give us this if we wanted to to do something with it but we don't",
+    "start": 3471
+  },
+  {
+    "content": "need to because it's up here so then this once it gets executed",
+    "start": 3475
+  },
+  {
+    "content": "becomes data here and to illustrate that that's correct",
+    "start": 3481
+  },
+  {
+    "content": "yep let's dump it this is my favorite react debugging tick just grab whatever",
+    "start": 3487
+  },
+  {
+    "content": "you got like put this little buddy out there and you've got a debugger so we",
+    "start": 3496
+  },
+  {
+    "content": "can then grab this I'm gonna use require dot resolve to get hope source templates",
+    "start": 3503
+  },
+  {
+    "content": "page template okay so this see we don't need to console.log anymore",
+    "start": 3516
+  },
+  {
+    "content": "that should work that should build this pages so let's let's give that a shot",
+    "start": 3524
+  },
+  {
+    "content": "and see what happens but should would bugging instead of outputting be",
+    "start": 3527
+  },
+  {
+    "content": "possible in Gatsby yeah there's a couple ways that you can export out the code as",
+    "start": 3534
+  },
+  {
+    "content": "you want whether you're debugging it whether you log it directly to Gatsby",
+    "start": 3540
+  },
+  {
+    "content": "whether you put it in a console of the browser or just put it on the page all",
+    "start": 3544
+  },
+  {
+    "content": "of those various options should work for you and then another debugging trick",
+    "start": 3549
+  },
+  {
+    "content": "that I love is if you just go out here and type in like 404 it'll show you all",
+    "start": 3555
+  },
+  {
+    "content": "the pages in development that are created love that trick love it this is",
+    "start": 3559
+  },
+  {
+    "content": "what is game on so I think what we're ready to ready to",
+    "start": 3564
+  },
+  {
+    "content": "make this work right yeah let's make a let's just convert this into some h1 and",
+    "start": 3574
+  },
+  {
+    "content": "and a div with some text in it okay so we've got our this here and use Italy",
+    "start": 3581
+  },
+  {
+    "content": "fragment and then inside we'll do an h1 and it'll be theta W add I'm gonna do",
+    "start": 3591
+  },
+  {
+    "content": "this we are actually let's do structure will get the title and the content out",
+    "start": 3601
+  },
+  {
+    "content": "of yeah WP graph data W grow yeah all right so",
+    "start": 3610
+  },
+  {
+    "content": "yeah we can just use it like a template it looks nice",
+    "start": 3619
+  },
+  {
+    "content": "now now the thing is is that this will work but really we want to use",
+    "start": 3622
+  },
+  {
+    "content": "dangerously set HTML yeah and I believe we want to do it for both the title and",
+    "start": 3628
+  },
+  {
+    "content": "the content and yeah you know the the format here good for you I was yeah that",
+    "start": 3636
+  },
+  {
+    "content": "looks right to me okay so we're doing this for both yeah and maybe just for",
+    "start": 3646
+  },
+  {
+    "content": "the sake of demonstration here throw out a final div and just do a div with the",
+    "start": 3653
+  },
+  {
+    "content": "content in it without dangerously setting it because sometimes it's the",
+    "start": 3660
+  },
+  {
+    "content": "same but I think it's helpful to see them side by side just to really stress",
+    "start": 3664
+  },
+  {
+    "content": "that point yeah that's a that's a great point so here's our h1 with the title",
+    "start": 3668
+  },
+  {
+    "content": "here's our dangerously set inner HTML and this is the content where the HTML",
+    "start": 3673
+  },
+  {
+    "content": "doesn't get interpreted because react by default smartly doesn't parse user code",
+    "start": 3680
+  },
+  {
+    "content": "so we have to explicitly say hey we know that this is HTML and we are aware of",
+    "start": 3685
+  },
+  {
+    "content": "the risks and therefore we are willing to take that risk to render this HTML so",
+    "start": 3691
+  },
+  {
+    "content": "it's called dangerously set but that doesn't mean don't do it it just means",
+    "start": 3698
+  },
+  {
+    "content": "make sure you know you what you're doing and why um so now I",
+    "start": 3701
+  },
+  {
+    "content": "clean that up look at us go look at us yeah who'da",
+    "start": 3707
+  },
+  {
+    "content": "thought I dig it it's not very cool so what we're done like we ship this",
+    "start": 3713
+  },
+  {
+    "content": "right we just that's a whole lot yeah I think we just deployed an elephant now",
+    "start": 3720
+  },
+  {
+    "content": "and call that a day bill the client and I think you're good",
+    "start": 3725
+  },
+  {
+    "content": "well there's you thinks to mention from this point one is that I kind of want to",
+    "start": 3729
+  },
+  {
+    "content": "talk about something that's a bit of a wordpress specific cork which is if you",
+    "start": 3738
+  },
+  {
+    "content": "bring up the editor now if you log back into WordPress and we look at that",
+    "start": 3743
+  },
+  {
+    "content": "WordPress site and page in there I want to point something out so if you go into",
+    "start": 3751
+  },
+  {
+    "content": "pages now and find our sample page and we've got our block editor here okay so",
+    "start": 3756
+  },
+  {
+    "content": "there are certain Styles like if you come down and try to add a new piece of",
+    "start": 3768
+  },
+  {
+    "content": "content let's let's create one that is going to require some of the WordPress",
+    "start": 3773
+  },
+  {
+    "content": "CSS there's one called a let's do cover I don't know if you have an image nearby",
+    "start": 3778
+  },
+  {
+    "content": "but this is a pretty cool one if we have it's kind of like a cover image here's",
+    "start": 3786
+  },
+  {
+    "content": "here's one way around a larger wider image would be good we're",
+    "start": 3794
+  },
+  {
+    "content": "doing Gatsby stuff so this seems relevant perfect okay so now type some",
+    "start": 3799
+  },
+  {
+    "content": "text in here and let's hit enter and there's a shortcut if you do forward",
+    "start": 3804
+  },
+  {
+    "content": "slash now it'll let you search through all the different blocks of WordPress",
+    "start": 3816
+  },
+  {
+    "content": "house also if you do forward slash and button and we'll add in a button here as",
+    "start": 3820
+  },
+  {
+    "content": "well and you could even just start typing the word button and it'll yeah",
+    "start": 3825
+  },
+  {
+    "content": "cool so let's do a button of some sort okay and we could just do a hash tag egg",
+    "start": 3831
+  },
+  {
+    "content": "for the URL for now and let's center a line that button see if I can figure",
+    "start": 3839
+  },
+  {
+    "content": "that out yeah you hovered over it it's that um ah okay",
+    "start": 3848
+  },
+  {
+    "content": "this is gonna do nice cool let's click on preview to preview it in WordPress",
+    "start": 3866
+  },
+  {
+    "content": "and I just want to point out that that WordPress is going to ship with the CSS",
+    "start": 3877
+  },
+  {
+    "content": "to make a lot of this work so what I'm curious is is if we save this now to go",
+    "start": 3882
+  },
+  {
+    "content": "back into the editor on that previous tab and click update and we rebuild our",
+    "start": 3887
+  },
+  {
+    "content": "site in Gatsby I want to see how much of this gets pulled over which is going to",
+    "start": 3892
+  },
+  {
+    "content": "kind of lead us into the direction I want to bring out about this okay okay I",
+    "start": 3899
+  },
+  {
+    "content": "see what happened so you see where I'm going here is that WordPress has a",
+    "start": 3911
+  },
+  {
+    "content": "default style sheet that will give us some default styles to all of the blocks",
+    "start": 3918
+  },
+  {
+    "content": "that it has out-of-the-box so if we go back to our WordPress site open up that",
+    "start": 3923
+  },
+  {
+    "content": "page I want to show you this URL and then I'm actually curious your opinion",
+    "start": 3928
+  },
+  {
+    "content": "on this because there's a couple different approaches you could take the",
+    "start": 3932
+  },
+  {
+    "content": "this one or this one yeah you had this one right here if you go to I'm sorry",
+    "start": 3934
+  },
+  {
+    "content": "the the one on the front end of the site not the editor okay yep okay so if we go",
+    "start": 3939
+  },
+  {
+    "content": "into view source code or view the Dom there's a stylesheet and if you just",
+    "start": 3946
+  },
+  {
+    "content": "start searching I think it's just search for dot CSS to start and there's one",
+    "start": 3953
+  },
+  {
+    "content": "called I think it's called block styles and to start rotating through all the",
+    "start": 3961
+  },
+  {
+    "content": "style sheets one of them is going to have I just thought it's very style dot",
+    "start": 3967
+  },
+  {
+    "content": "min next well here yeah okay so if you want to get the default WordPress styles",
+    "start": 3977
+  },
+  {
+    "content": "you actually need to copy all this CSS over into your theme so I've wondered",
+    "start": 3986
+  },
+  {
+    "content": "what the best way to do this is you could hotlink it probably not ideal you",
+    "start": 3993
+  },
+  {
+    "content": "could import it in you could save locally but if WordPress ever updates",
+    "start": 3998
+  },
+  {
+    "content": "core and changes some of the styles that it has you're kind of in an interesting",
+    "start": 4002
+  },
+  {
+    "content": "position there but what I want to start with is if we just like do a really",
+    "start": 4008
+  },
+  {
+    "content": "simple hack and include this in our yeah it should be an NPM package it's part of",
+    "start": 4012
+  },
+  {
+    "content": "an NPM package but the Styles aren't their own package Jason what's your",
+    "start": 4018
+  },
+  {
+    "content": "thoughts on best way to get this into our site and I also don't want to try it",
+    "start": 4022
+  },
+  {
+    "content": "just to see what difference it makes so if so you said this is part of an NPM",
+    "start": 4028
+  },
+  {
+    "content": "package do you know package by chance there is an NPM",
+    "start": 4037
+  },
+  {
+    "content": "package block library my honest advice from Jason don't use Gutenberg I respect",
+    "start": 4050
+  },
+  {
+    "content": "everything this meant good advice but I think it's block library from yeah okay",
+    "start": 4057
+  },
+  {
+    "content": "so I have I have a thought and that is if if our source includes styles and",
+    "start": 4066
+  },
+  {
+    "content": "those are aware here those are probably bun right okay so here's what I think we",
+    "start": 4084
+  },
+  {
+    "content": "can do so let's let's add this and I think what this will let us do is we can",
+    "start": 4095
+  },
+  {
+    "content": "just hot link the sty of the bundled styles in this package so that whenever",
+    "start": 4110
+  },
+  {
+    "content": "the package gets bumped we have those styles and they'll that'll keep them up",
+    "start": 4116
+  },
+  {
+    "content": "to date and not require us to like hot link or copy paste or anything so if we",
+    "start": 4122
+  },
+  {
+    "content": "look in here in the node modules we've got WordPress block library build now",
+    "start": 4128
+  },
+  {
+    "content": "I'll probably build style style okay yeah that looks right so then in here I",
+    "start": 4142
+  },
+  {
+    "content": "think either this or css I'm not sure which one because some of these might be",
+    "start": 4155
+  },
+  {
+    "content": "for the editor side of things we should try them both yeah let's find out what",
+    "start": 4161
+  },
+  {
+    "content": "happens here so we'll go word press block library build style and then bow",
+    "start": 4165
+  },
+  {
+    "content": "that CSS is it another point from Jason as you're coding this out that uh it",
+    "start": 4172
+  },
+  {
+    "content": "would be cool to pipe in the CSS through WP graph QL and then just have that as",
+    "start": 4178
+  },
+  {
+    "content": "something you could grab dynamically that would be really cool got to start",
+    "start": 4184
+  },
+  {
+    "content": "the server for that to work all right let's see if let's see what happens um",
+    "start": 4189
+  },
+  {
+    "content": "what would be yeah what would be really cool here is if if there was a way to",
+    "start": 4194
+  },
+  {
+    "content": "like scope this down basically um you could well I don't know how you would do",
+    "start": 4199
+  },
+  {
+    "content": "that without some pretty gnarly workarounds but would it be what would",
+    "start": 4208
+  },
+  {
+    "content": "be cool is if we could identify like which blocks were used then you could D",
+    "start": 4212
+  },
+  {
+    "content": "dou psi as part of the gatsby build process and only send in the stuff that",
+    "start": 4216
+  },
+  {
+    "content": "you actually need the reason that I don't use the terminal inside vs code to",
+    "start": 4220
+  },
+  {
+    "content": "be completely honest it varies from day to day like some days I do it and some",
+    "start": 4226
+  },
+  {
+    "content": "days I don't but hey look at that it worked",
+    "start": 4230
+  },
+  {
+    "content": "cool oh cool cool cool so that that's the way that I would",
+    "start": 4232
+  },
+  {
+    "content": "solve that problem is because now we can update this independently with a regular",
+    "start": 4237
+  },
+  {
+    "content": "update flow and we don't have to worry about the styles or anything and I think",
+    "start": 4243
+  },
+  {
+    "content": "that Gatsby will do some dead code elimination here I think that it will do",
+    "start": 4247
+  },
+  {
+    "content": "CSS minification and stuff but we'll see yeah so that and all that being said",
+    "start": 4253
+  },
+  {
+    "content": "like we can also if we if we wanted to get like really particularly would just",
+    "start": 4263
+  },
+  {
+    "content": "come in here and know that like this is the class and so we can go in and mess",
+    "start": 4269
+  },
+  {
+    "content": "with this stuff too to get it done the way we want because we do have some",
+    "start": 4274
+  },
+  {
+    "content": "issues yeah this is that's hotlinked out so we would need",
+    "start": 4277
+  },
+  {
+    "content": "to this relies on the WordPress site being up and available so there there",
+    "start": 4283
+  },
+  {
+    "content": "are a couple issues just with like what blocks are there so as a developer we",
+    "start": 4288
+  },
+  {
+    "content": "might want to just eliminate this block or add a different one that that uses",
+    "start": 4294
+  },
+  {
+    "content": "custom styles to to make sure that like the builds aren't reliant on the the",
+    "start": 4299
+  },
+  {
+    "content": "WordPress server yes so this brings up some pretty big",
+    "start": 4305
+  },
+  {
+    "content": "issues which I think are us worth addressing early on which is one like",
+    "start": 4310
+  },
+  {
+    "content": "you said there are some issues that we have to account for with images and",
+    "start": 4317
+  },
+  {
+    "content": "making sure that we rewrite anything over to our local server there is an",
+    "start": 4321
+  },
+  {
+    "content": "argument of maybe folks shouldn't be using Guttenberg the editor that's",
+    "start": 4326
+  },
+  {
+    "content": "default in WordPress however my general take is one towards trying to help",
+    "start": 4331
+  },
+  {
+    "content": "support as many people as easily as possible so I actually think that trying",
+    "start": 4337
+  },
+  {
+    "content": "to get the WordPress editor working with Gatsby is the better solution of the two",
+    "start": 4341
+  },
+  {
+    "content": "but there's a totally other approach let me see if I can get you this link real",
+    "start": 4346
+  },
+  {
+    "content": "quick where folks are trying to pull all of the block data as action will block",
+    "start": 4350
+  },
+  {
+    "content": "data as data data and not as a rendered HTML and then you basically rebuild a",
+    "start": 4358
+  },
+  {
+    "content": "component for each block you have now I think this is a bit laborious and you",
+    "start": 4364
+  },
+  {
+    "content": "have to duplicate everything that WordPress is doing on the component side",
+    "start": 4370
+  },
+  {
+    "content": "some people say I'd much rather do that approach sure and I'm looking for in an",
+    "start": 4375
+  },
+  {
+    "content": "effort that allows that but there are so we we lost you there for a second",
+    "start": 4379
+  },
+  {
+    "content": "how about now well now yeah we back so back in time Jason I'm gonna send you",
+    "start": 4395
+  },
+  {
+    "content": "something on Twitter DM here that you can maybe share out it's a pretty cool",
+    "start": 4404
+  },
+  {
+    "content": "effort to do this in a very different way and worth mentioning at this point I",
+    "start": 4410
+  },
+  {
+    "content": "think because what's happening is that all your block data is getting saved as",
+    "start": 4416
+  },
+  {
+    "content": "HTML and it is possible to D structure that and get just raw data so this",
+    "start": 4421
+  },
+  {
+    "content": "project here I met Peter at Gatsby days in LA and they're basically building out",
+    "start": 4431
+  },
+  {
+    "content": "a way so that you don't get any block data you would just get the raw data",
+    "start": 4438
+  },
+  {
+    "content": "then you could build your own components and so it's a whole larger we're not",
+    "start": 4442
+  },
+  {
+    "content": "going to have time to get into here but I do think it's at least worth bringing",
+    "start": 4447
+  },
+  {
+    "content": "up this much here adjacent pointing out that ACF is another way to do it his is",
+    "start": 4451
+  },
+  {
+    "content": "video if y'all haven't go back and watch the Jason and Jason show where Jason",
+    "start": 4456
+  },
+  {
+    "content": "ball comes on and and goes through how to use ACF because that was something",
+    "start": 4461
+  },
+  {
+    "content": "that that they did together so I didn't think it was worth us repeating today",
+    "start": 4466
+  },
+  {
+    "content": "which is why I wanted to show some of the Gutenberg stuff yeah well so I mean",
+    "start": 4471
+  },
+  {
+    "content": "so this may not be like this will be perfectly fine so there are challenges",
+    "start": 4475
+  },
+  {
+    "content": "with whatever way you do it the the nice thing about this one is that it's just",
+    "start": 4483
+  },
+  {
+    "content": "gonna work right like you you are giving your the trade-off is you are now",
+    "start": 4488
+  },
+  {
+    "content": "beholden to whatever WordPress does with its style so they could arbitrarily",
+    "start": 4493
+  },
+  {
+    "content": "break your site by updating the package so that's something that you need to be",
+    "start": 4497
+  },
+  {
+    "content": "aware of but the plus side is is that we included one file in our our page",
+    "start": 4501
+  },
+  {
+    "content": "template and I'm gonna actually move that so let's take this into a layout",
+    "start": 4507
+  },
+  {
+    "content": "file again what I'm what I'm gonna do here is just build a really simple",
+    "start": 4513
+  },
+  {
+    "content": "layout so we'll go with children and I'm going to do it",
+    "start": 4518
+  },
+  {
+    "content": "like will use a fragment and then I'm going to set up a header that header is",
+    "start": 4525
+  },
+  {
+    "content": "just going to have a we'll just do a link actually we'll do a link to the",
+    "start": 4531
+  },
+  {
+    "content": "homepage which means I need to import the link gatsby rely on Auto formatting",
+    "start": 4540
+  },
+  {
+    "content": "to fix that what's going on why doesn't it like this",
+    "start": 4550
+  },
+  {
+    "content": "oh I linked to my wordpress site Jam stack WordPress site close that link and",
+    "start": 4556
+  },
+  {
+    "content": "then down here we'll add a main and that will get the children let's write and",
+    "start": 4571
+  },
+  {
+    "content": "then we'll export default layout then in here we'll just import that and use it",
+    "start": 4578
+  },
+  {
+    "content": "import layout from components layout and then instead of a fragment will use our",
+    "start": 4584
+  },
+  {
+    "content": "layout just drop that way let like the way you work sir and now we've got a",
+    "start": 4593
+  },
+  {
+    "content": "very very simple but still we get the styles and now when we build out not",
+    "start": 4599
+  },
+  {
+    "content": "just our pages but our our posts we'll be able to actually link to those so",
+    "start": 4605
+  },
+  {
+    "content": "let's go back let's see we've got 10 minutes do you think we you're okay for",
+    "start": 4613
+  },
+  {
+    "content": "before let me show you one other thing that's really important here because",
+    "start": 4620
+  },
+  {
+    "content": "WordPress has if we go back into WordPress into the admin area and",
+    "start": 4624
+  },
+  {
+    "content": "there's two ways to get into this but if we if we go under appearance customize",
+    "start": 4631
+  },
+  {
+    "content": "WordPress has a way of determining what shows up on the home page and this is",
+    "start": 4638
+  },
+  {
+    "content": "going to get a little bit if you go home page settings down there on the",
+    "start": 4644
+  },
+  {
+    "content": "customizer on the left so see how we could have either latest posts as their",
+    "start": 4650
+  },
+  {
+    "content": "home page or a static page so right now I have my homepage set as a",
+    "start": 4656
+  },
+  {
+    "content": "static homepage and if you close out of here and go back to WP graphical and",
+    "start": 4662
+  },
+  {
+    "content": "graphical and we look under all of our pages you'll see that one of them is",
+    "start": 4672
+  },
+  {
+    "content": "called is front page so if you select is front page over there and the explorer",
+    "start": 4685
+  },
+  {
+    "content": "is front page got it and shout out to again",
+    "start": 4693
+  },
+  {
+    "content": "Jason ball for adding this we can see that the home page is set to be it's not",
+    "start": 4702
+  },
+  {
+    "content": "going to be the slug is home but the actual URL we want is just slash so what",
+    "start": 4709
+  },
+  {
+    "content": "we need to do is in our WP or know in our Gatsby node file we need to write a",
+    "start": 4715
+  },
+  {
+    "content": "little conditional statement and say hey if is front page is equal to true then",
+    "start": 4724
+  },
+  {
+    "content": "go ahead and set the URL slug to be the root violence okay um that out of here",
+    "start": 4729
+  },
+  {
+    "content": "am I getting okay here we go so Jason ball is saying that if we get",
+    "start": 4740
+  },
+  {
+    "content": "the URI it should auto do that for us which would be really cool let's see",
+    "start": 4748
+  },
+  {
+    "content": "let's check that out know that the right one did I get the wrong one I think",
+    "start": 4753
+  },
+  {
+    "content": "that's the right one don't worry about a Jason you've been you've met your been",
+    "start": 4766
+  },
+  {
+    "content": "like what nine nine fifty now it's all good yeah so we will how do we want to",
+    "start": 4775
+  },
+  {
+    "content": "do that do we want to do that in here like we'll just important I think we",
+    "start": 4782
+  },
+  {
+    "content": "wouldn't do that in inter actual Gatsby config",
+    "start": 4787
+  },
+  {
+    "content": "because when we generate the page is when we have to create what the URL for",
+    "start": 4793
+  },
+  {
+    "content": "it is going to be okay so in here we sorry it got to be note",
+    "start": 4798
+  },
+  {
+    "content": "yep so before create pool I say yep okay so",
+    "start": 4805
+  },
+  {
+    "content": "yeah if page is front page I understand I did not I was like only marginally",
+    "start": 4814
+  },
+  {
+    "content": "following where we were going and now I get it so let's let's do that now the",
+    "start": 4822
+  },
+  {
+    "content": "only thing is is I think that this might potentially conflict with having a",
+    "start": 4830
+  },
+  {
+    "content": "source pages index file look good that would be that could be interesting let's",
+    "start": 4834
+  },
+  {
+    "content": "find out it does get interesting with multiple pages does get overwritten",
+    "start": 4841
+  },
+  {
+    "content": "so let me what happen if you you go and you just delete that file now I think",
+    "start": 4848
+  },
+  {
+    "content": "that we also still have yeah we still have that page so if you just go into",
+    "start": 4853
+  },
+  {
+    "content": "your source and delete the pages index it should automatically show up but",
+    "start": 4860
+  },
+  {
+    "content": "again this is just saw some weird WordPress specific well it's probably",
+    "start": 4866
+  },
+  {
+    "content": "other CMS is too interesting yeah I guess we're honestly it might have been",
+    "start": 4870
+  },
+  {
+    "content": "just because it it might have not pulled that at all because it was a duplicate",
+    "start": 4876
+  },
+  {
+    "content": "page there we go yeah I wasn't so sure of the underlying workings there so",
+    "start": 4880
+  },
+  {
+    "content": "there you have it like now we've got some of the basic stuff set up but you",
+    "start": 4887
+  },
+  {
+    "content": "know like if we go into WordPress now you don't have to do this but we change",
+    "start": 4893
+  },
+  {
+    "content": "it to be all your blog posts on your home page and then that would not",
+    "start": 4897
+  },
+  {
+    "content": "necessarily have our blog posts show up here so what I'm really excited about is",
+    "start": 4902
+  },
+  {
+    "content": "how far how intelligently can we build Godspeed last year",
+    "start": 4907
+  },
+  {
+    "content": "ah okay okay all right how intelligent can we",
+    "start": 4915
+  },
+  {
+    "content": "build Gatsby yes how intelligently can we build Gatsby to know about WordPress",
+    "start": 4928
+  },
+  {
+    "content": "is in intricacies and check for it and that's stuff that I'm working with the",
+    "start": 4934
+  },
+  {
+    "content": "team of development building some WordPress themes to see how far we could",
+    "start": 4939
+  },
+  {
+    "content": "take that and at least for now if you're doing it on your own these are some",
+    "start": 4944
+  },
+  {
+    "content": "things to take into account so it's not going to be like you change every little",
+    "start": 4947
+  },
+  {
+    "content": "thing in WordPress and it automatically is reflected but I think that this is",
+    "start": 4952
+  },
+  {
+    "content": "some of the core stuff and from here I think we could ship it with the time we",
+    "start": 4955
+  },
+  {
+    "content": "have but from here the next step would be to build some menus because we could",
+    "start": 4959
+  },
+  {
+    "content": "pull in all of our menus in graph QL which is really powerful you can't do",
+    "start": 4963
+  },
+  {
+    "content": "that in the REST API by the way by default so yeah let's let's look at that",
+    "start": 4967
+  },
+  {
+    "content": "weekend you've got our menus nodes yeah before you go to here actually go into",
+    "start": 4972
+  },
+  {
+    "content": "appearance menus just so we could see it on the WordPress side first yeah and so",
+    "start": 4977
+  },
+  {
+    "content": "we only have one menu at the moment but you could have multiple menus in",
+    "start": 4984
+  },
+  {
+    "content": "WordPress and you know it has a soul interface so however many of these build",
+    "start": 4989
+  },
+  {
+    "content": "we can get access to them okay inside of our graphical and so I can",
+    "start": 4994
+  },
+  {
+    "content": "come in here now let me let me collapse all this for a second we don't need some",
+    "start": 5001
+  },
+  {
+    "content": "menus nodes I'm gonna get my menu items nodes and then we'll get the title",
+    "start": 5006
+  },
+  {
+    "content": "target for all those mean nope that's not what I want yeah title I think you",
+    "start": 5014
+  },
+  {
+    "content": "want Lee label title is going to be the actual title attribute applied okay so",
+    "start": 5022
+  },
+  {
+    "content": "let's get all of those out of here and we'll just stick with these two that we",
+    "start": 5029
+  },
+  {
+    "content": "need perfect so this brings up a question is there a built-in way to",
+    "start": 5033
+  },
+  {
+    "content": "manage the URL rewrites here yes our built-in way is called using vanilla",
+    "start": 5040
+  },
+  {
+    "content": "javis got it dad knows so I picked this up from Jason Paul as well like it's",
+    "start": 5049
+  },
+  {
+    "content": "just helpful to have a a helper function somewhere in your Gatsby that will",
+    "start": 5060
+  },
+  {
+    "content": "rewrite your URL now something that's interesting as we build more and more",
+    "start": 5067
+  },
+  {
+    "content": "complex stuff and eventually out of Paolo to the mix we have our URL that's",
+    "start": 5073
+  },
+  {
+    "content": "used possibly and gatsby config to set up our graph QL source but then we also",
+    "start": 5077
+  },
+  {
+    "content": "might need it on the Apollo side so what I've always wondered Jason is what great",
+    "start": 5083
+  },
+  {
+    "content": "timing for that to know last year right is it was and it was gave such a",
+    "start": 5091
+  },
+  {
+    "content": "cliffhanger what I've always wondered is and gone they got me right at the right",
+    "start": 5097
+  },
+  {
+    "content": "time there but I've always wondered is how do we write a variable that we could",
+    "start": 5105
+  },
+  {
+    "content": "use in gatsby node and in like our front-end JavaScript because it's a good",
+    "start": 5108
+  },
+  {
+    "content": "idea to save our URL in a place that we could access on both and I've always",
+    "start": 5114
+  },
+  {
+    "content": "wondered how to do that and I I'm not sure I always end up having a bear front",
+    "start": 5119
+  },
+  {
+    "content": "yeah so you can do this a few ways the the way that I think it typically gets",
+    "start": 5123
+  },
+  {
+    "content": "used is to do metadata so if you had site metadata here then you can query",
+    "start": 5130
+  },
+  {
+    "content": "that on the front end and you can import this file anywhere in the the site to",
+    "start": 5136
+  },
+  {
+    "content": "get at that data but in our case I really what we can do is is we can just",
+    "start": 5143
+  },
+  {
+    "content": "rewrite to relative because we know that we're at a truth right so we can just",
+    "start": 5151
+  },
+  {
+    "content": "replace that that URL basically and no just put that good queer read it",
+    "start": 5155
+  },
+  {
+    "content": "directly from WordPress to so anytime we need the URL but we do need at least",
+    "start": 5165
+  },
+  {
+    "content": "tell it in one place what are you or LS yeah that makes sense but yeah for this",
+    "start": 5169
+  },
+  {
+    "content": "no rewrite is the most basic thing what would that's",
+    "start": 5174
+  },
+  {
+    "content": "general settings you are all yeah all right perfect",
+    "start": 5182
+  },
+  {
+    "content": "I'm gonna conclude that get general settings and URL and then we'll have our",
+    "start": 5191
+  },
+  {
+    "content": "menu or wait is this oh man I can't remember how you static Corey works",
+    "start": 5200
+  },
+  {
+    "content": "let's just console.log it and find out and this is how I wait oh it's got to be",
+    "start": 5207
+  },
+  {
+    "content": "under WP graph QL okay so we'll do this now theoretically speaking we'll have a",
+    "start": 5220
+  },
+  {
+    "content": "console log of the menu WP graph QL menus nodes menu items nodes and there",
+    "start": 5233
+  },
+  {
+    "content": "are our menu items and then we get our general settings in the URL so from here",
+    "start": 5242
+  },
+  {
+    "content": "I can I can get the URL and that will be menu dot WP graph QL dot general",
+    "start": 5248
+  },
+  {
+    "content": "settings dot URL and then I can get the menu items which will be menu dot WP",
+    "start": 5263
+  },
+  {
+    "content": "graph QL dot menus dot nodes oh god oh god this is already going so poorly menu",
+    "start": 5273
+  },
+  {
+    "content": "items I would make this I would make this better",
+    "start": 5286
+  },
+  {
+    "content": "did I typo something up here I did menu items nodes",
+    "start": 5289
+  },
+  {
+    "content": "whoof okay that's fine that's that's okay",
+    "start": 5295
+  },
+  {
+    "content": "so then we have so now we have the the menu items oh but then I can map on so I",
+    "start": 5306
+  },
+  {
+    "content": "get an item and for each of these I'm going to return the label is going to be",
+    "start": 5317
+  },
+  {
+    "content": "the item label and the what was it the URL who are I URI our URL did I do that",
+    "start": 5326
+  },
+  {
+    "content": "wrong okay nope you're right it changes up a little bit if that's not confusing",
+    "start": 5337
+  },
+  {
+    "content": "for you killed and cooked so in theory that just works and uh I think you might",
+    "start": 5341
+  },
+  {
+    "content": "want a forward slash there for replace with yep I don't think I do cuz it looks",
+    "start": 5352
+  },
+  {
+    "content": "like this doesn't contain a trailing slash",
+    "start": 5365
+  },
+  {
+    "content": "but these will have one I think let's yeah I think the reason well let's try",
+    "start": 5367
+  },
+  {
+    "content": "it maybe uh maybe my reasoning yeah what I think probably in a perfect world what",
+    "start": 5376
+  },
+  {
+    "content": "we would do is we would like use no like a path actual URL generator to join the",
+    "start": 5382
+  },
+  {
+    "content": "path but since we're short on time I'm just gonna kind of fly through this and",
+    "start": 5390
+  },
+  {
+    "content": "get it done so we can publish this let's get menu items map and then for each",
+    "start": 5394
+  },
+  {
+    "content": "item we are going to put out a link going link to item dot URL and then",
+    "start": 5401
+  },
+  {
+    "content": "we're going to do item dot label and yes yep look at it go nope not quite Oh cuz",
+    "start": 5413
+  },
+  {
+    "content": "the blog a special thing we got to actually build",
+    "start": 5426
+  },
+  {
+    "content": "that then we've got our sample page we've got our test page we'll all right",
+    "start": 5428
+  },
+  {
+    "content": "okay that's working it doesn't look great but we're gonna keep it let's",
+    "start": 5433
+  },
+  {
+    "content": "build a blog page and for this we're gonna get react we're gonna import graph",
+    "start": 5435
+  },
+  {
+    "content": "QL from Gatsby and then we're going to have a blog yeah so what I was gonna say",
+    "start": 5446
+  },
+  {
+    "content": "here is your typing is that we get into an interesting scenario with some",
+    "start": 5458
+  },
+  {
+    "content": "hybridization we're like to build this blog page maybe we do have to build it",
+    "start": 5464
+  },
+  {
+    "content": "got to be template it got to the page or you could try building a blog page in",
+    "start": 5469
+  },
+  {
+    "content": "WordPress where you you know list all your blog posts on that one page but",
+    "start": 5476
+  },
+  {
+    "content": "then you get into pagination you get into some more complex things so the",
+    "start": 5481
+  },
+  {
+    "content": "listing pages at least that this approach I'd be curious jason balls in",
+    "start": 5486
+  },
+  {
+    "content": "there has approached listing pages I tend to create as actual Gatsby pages",
+    "start": 5490
+  },
+  {
+    "content": "and the the actual pages or posts whatever the static pages let WordPress",
+    "start": 5496
+  },
+  {
+    "content": "handle that it's just been a general take on that so so to repeat that what",
+    "start": 5503
+  },
+  {
+    "content": "you're saying that what I'm doing here this is kind of what you would consider",
+    "start": 5511
+  },
+  {
+    "content": "to be a like your recommended best practice yeah just cuz it can handle",
+    "start": 5513
+  },
+  {
+    "content": "pagination and some other things a little bit better again if you really",
+    "start": 5521
+  },
+  {
+    "content": "are dealing with Gatsby is so sweet and beautiful for the smaller sites where",
+    "start": 5527
+  },
+  {
+    "content": "maybe there's not too much content or you could really control it and your",
+    "start": 5531
+  },
+  {
+    "content": "your refined you could build around certain metrics and you don't need to",
+    "start": 5535
+  },
+  {
+    "content": "count on too much more you could do it all within WordPress but for archive",
+    "start": 5539
+  },
+  {
+    "content": "pages like this I think it makes more sense to to do what you're doing",
+    "start": 5545
+  },
+  {
+    "content": "okay so here are our tests toss those in here save it up that's gonna give us",
+    "start": 5557
+  },
+  {
+    "content": "data so our data is going to be let's get posts it's gonna be data dot WP",
+    "start": 5566
+  },
+  {
+    "content": "graph QL posts nodes and then what we can do here is we can do nodes dot map",
+    "start": 5578
+  },
+  {
+    "content": "or wait posts oops oh stop map post and then for each of",
+    "start": 5589
+  },
+  {
+    "content": "those we want to return a thing a thingy so the thingy that we want to return is",
+    "start": 5597
+  },
+  {
+    "content": "going to have a key that needs to include the ID so let's also include the",
+    "start": 5608
+  },
+  {
+    "content": "ID and then we're going to add a link this needs to be the URI not the slug so",
+    "start": 5611
+  },
+  {
+    "content": "go post URI and then we want to do post title and we'll make this into let's",
+    "start": 5625
+  },
+  {
+    "content": "call it an e2 and technically we should probably be making not a danger",
+    "start": 5636
+  },
+  {
+    "content": "dangerously set yeah once again good call",
+    "start": 5647
+  },
+  {
+    "content": "that's a that's a habit that I have definitely not built and then we can get",
+    "start": 5651
+  },
+  {
+    "content": "rid of this one yeah going nice and fast and then for",
+    "start": 5660
+  },
+  {
+    "content": "the excerpt I'm just gonna add a div will dangerously set again I'm gonna",
+    "start": 5665
+  },
+  {
+    "content": "copy paste this although I think excerpt does not have markup let's do it as",
+    "start": 5669
+  },
+  {
+    "content": "dangerously set anyways but I think by default usually enter the excerpt is",
+    "start": 5675
+  },
+  {
+    "content": "just going to be text this one has shown me a paragraph great so I don't",
+    "start": 5681
+  },
+  {
+    "content": "what I'm talking about alright so we've got is that gonna work for us didn't",
+    "start": 5689
+  },
+  {
+    "content": "care it's not import my link your ideas not defined where am I getting an ID Oh",
+    "start": 5701
+  },
+  {
+    "content": "post ID okay boom okay so then cool last step before",
+    "start": 5715
+  },
+  {
+    "content": "that'll work because this is gonna take us to the the actual blog pages but not",
+    "start": 5726
+  },
+  {
+    "content": "not correctly so we need to go into our Gatsby node and we can just do honestly",
+    "start": 5731
+  },
+  {
+    "content": "the same query more or less but we're gonna do it for the posts yep we'll",
+    "start": 5739
+  },
+  {
+    "content": "leave out that is front page as we don't need that okay and then and now what I'm",
+    "start": 5745
+  },
+  {
+    "content": "doing is generally I'll create two different actions I'll actually break",
+    "start": 5754
+  },
+  {
+    "content": "these up and store them in different files but I think that the way we're",
+    "start": 5758
+  },
+  {
+    "content": "doing this here yeah you could just go straight to posts and have two separate",
+    "start": 5764
+  },
+  {
+    "content": "queries here but technically yeah we could take out that front page stuff",
+    "start": 5769
+  },
+  {
+    "content": "okay now this is in WordPress but if all our posts are gonna be site slash post",
+    "start": 5777
+  },
+  {
+    "content": "name but what you might want to do in Gatsby is do blog slash good call so",
+    "start": 5785
+  },
+  {
+    "content": "that'll give us a blog / post URI we're gonna we're gonna duplicate this post",
+    "start": 5797
+  },
+  {
+    "content": "template so let's go in here copy paste we'll call this one post",
+    "start": 5803
+  },
+  {
+    "content": "template and this one is going to be almost exactly the same except I'm going",
+    "start": 5809
+  },
+  {
+    "content": "to call it post instead and then we'll just take these to give",
+    "start": 5817
+  },
+  {
+    "content": "them a capital P so we're pulling in data graph q all post yep otherwise",
+    "start": 5824
+  },
+  {
+    "content": "everything is exactly the same so I'm going to stop and restart Oh Chris",
+    "start": 5829
+  },
+  {
+    "content": "karinski has a good good call out you should use dangerously set innerhtml",
+    "start": 5842
+  },
+  {
+    "content": "even if you don't get markup because WordPress encodes special characters and",
+    "start": 5846
+  },
+  {
+    "content": "so that that way we would even though HTML entities would would show up right",
+    "start": 5851
+  },
+  {
+    "content": "so here our pages are christe's you're correct okay so this wait what what went",
+    "start": 5855
+  },
+  {
+    "content": "wrong oh I know what went wrong our blog page needs to include that blog call out",
+    "start": 5867
+  },
+  {
+    "content": "ah yes now one thing I'll point out here is that building the blog as a page",
+    "start": 5878
+  },
+  {
+    "content": "worked if we don't have paid donation but if we do have pagination it might it",
+    "start": 5885
+  },
+  {
+    "content": "makes more sense to build your blog archives as part of your Gatsby node",
+    "start": 5893
+  },
+  {
+    "content": "where you circle over each blog post and for every 10 blog posts you create a new",
+    "start": 5899
+  },
+  {
+    "content": "page and so those are those are like statically created on to each one might",
+    "start": 5905
+  },
+  {
+    "content": "be a better long-term approach because what's going to happen is we're just",
+    "start": 5911
+  },
+  {
+    "content": "going to have a thousand posts here if we had a super long blog and no",
+    "start": 5914
+  },
+  {
+    "content": "pagination so that could be like a next step for folks but um I'm I'm doing a",
+    "start": 5918
+  },
+  {
+    "content": "little bit of hacky hacky layout stuff here to get us right I get a little bit",
+    "start": 5925
+  },
+  {
+    "content": "of separation and then another thing that I'm gonna do because we've got the",
+    "start": 5930
+  },
+  {
+    "content": "here we go because we've got this one set what I'm",
+    "start": 5935
+  },
+  {
+    "content": "also gonna do is I'm going to filter for the item item URL does not equal",
+    "start": 5939
+  },
+  {
+    "content": "that way what'll happen is we'll only get the home blog sample test right yep",
+    "start": 5953
+  },
+  {
+    "content": "look at that we have built a wordpress powered Gatsby site and I want to make",
+    "start": 5964
+  },
+  {
+    "content": "it a thing so let's get in it I'm gonna just let's deploy this thing so we're",
+    "start": 5970
+  },
+  {
+    "content": "gonna get in it and so now we have these are our files these all look good so",
+    "start": 5974
+  },
+  {
+    "content": "let's get commit or let's add everything get out everything get em it gets your",
+    "start": 5981
+  },
+  {
+    "content": "wordpress powered that's B site and then it is co-authored by comfortable giving",
+    "start": 5992
+  },
+  {
+    "content": "out your email right it's uh email at Zach Gordon calm you're gonna get signed",
+    "start": 6005
+  },
+  {
+    "content": "up for all the spam I'm getting all the things alright we're gonna use home to",
+    "start": 6013
+  },
+  {
+    "content": "create this but Jason on there too and then we're gonna get push set origin",
+    "start": 6019
+  },
+  {
+    "content": "master all right now let's get into the net loaf I CLI so I'm going to nullify",
+    "start": 6026
+  },
+  {
+    "content": "an it and this is going to connect we're gonna create and configure a new site",
+    "start": 6032
+  },
+  {
+    "content": "I'm gonna put it on my personal we're gonna call this Jam stack WordPress and",
+    "start": 6038
+  },
+  {
+    "content": "we're gonna use yarn build and we're gonna use the public folder because",
+    "start": 6047
+  },
+  {
+    "content": "that's Gatsby's target build destination okay let's get in there and watch it",
+    "start": 6056
+  },
+  {
+    "content": "build I love it when this works on the first",
+    "start": 6065
+  },
+  {
+    "content": "is something else we could do in the future is there is there are some web",
+    "start": 6072
+  },
+  {
+    "content": "hooks that allow you every time you save something in WordPress to ping neckla",
+    "start": 6077
+  },
+  {
+    "content": "fie and let them know to rebuild and that's something that's really handy",
+    "start": 6083
+  },
+  {
+    "content": "there's a there's a plug-in maybe while this is building if you go back into the",
+    "start": 6088
+  },
+  {
+    "content": "WordPress site let's give a shout out to yes yeah am I going",
+    "start": 6092
+  },
+  {
+    "content": "awesome here geez okay plug every yeah yeah if you go under plugins there's one",
+    "start": 6098
+  },
+  {
+    "content": "the Gatsby toolkit here and oh this has already set up yep and what this will",
+    "start": 6108
+  },
+  {
+    "content": "allow you to do is basically it will there's there's a bit of a setup process",
+    "start": 6115
+  },
+  {
+    "content": "involved but you get to hook the web hook in and it will update your your",
+    "start": 6122
+  },
+  {
+    "content": "deploy every time you change something in WordPress is super powerful and kind",
+    "start": 6130
+  },
+  {
+    "content": "of the final important integration technique cool by the way what's up",
+    "start": 6133
+  },
+  {
+    "content": "Tullio friends thank you so much for rating we are - we're actually kind of",
+    "start": 6138
+  },
+  {
+    "content": "coming up on the end here but we did some really cool stuff so we took this",
+    "start": 6144
+  },
+  {
+    "content": "WordPress site here and the posts and pages we took all of that we added graph",
+    "start": 6147
+  },
+  {
+    "content": "QL what WP graph QL built by Jason ball who's in the chat today so say hi we use",
+    "start": 6157
+  },
+  {
+    "content": "that do you then hook up to a Gatsby site which we did using the Gatsby",
+    "start": 6164
+  },
+  {
+    "content": "source graph QL plug-in to hook up to our our Gatsby site and then we used",
+    "start": 6171
+  },
+  {
+    "content": "graph QL to read out our WordPress stuff and built out pages which led us to this",
+    "start": 6178
+  },
+  {
+    "content": "beautiful work of art over here and we are now deploying that site which is",
+    "start": 6184
+  },
+  {
+    "content": "live and like nothing we have built a fully live WordPress site powered by a",
+    "start": 6191
+  },
+  {
+    "content": "Gatsby site so jam stack this thing is is gonna be",
+    "start": 6203
+  },
+  {
+    "content": "you know not just because we don't have anything on it but like it's gonna be",
+    "start": 6208
+  },
+  {
+    "content": "really fast it's gonna be really you know we've got those styles coming in so",
+    "start": 6212
+  },
+  {
+    "content": "we've got really really powerful stuff going on here this took us including",
+    "start": 6216
+  },
+  {
+    "content": "technical difficulties including joking around including talking for a few",
+    "start": 6221
+  },
+  {
+    "content": "minutes this took us all of what like an hour and a half so I feel like this is a",
+    "start": 6226
+  },
+  {
+    "content": "this is a really I mean this is a simple case we're not getting into pagination",
+    "start": 6233
+  },
+  {
+    "content": "we're not getting into you know edge Casey things but we were able to build",
+    "start": 6238
+  },
+  {
+    "content": "like a proof-of-concept WordPress site we migrated it from WordPress proper",
+    "start": 6243
+  },
+  {
+    "content": "over to a jam stack WordPress site using WordPress as a headless CMS and I think",
+    "start": 6248
+  },
+  {
+    "content": "this is just it's so cool this is so powerful with that any anything else",
+    "start": 6254
+  },
+  {
+    "content": "that you want to cover before we wrap up no I think that you know you pointed out",
+    "start": 6261
+  },
+  {
+    "content": "there really good stuff from here what you're gonna see with WordPress is you",
+    "start": 6268
+  },
+  {
+    "content": "can do a lot to design the sites within WordPress itself but it's gonna be about",
+    "start": 6274
+  },
+  {
+    "content": "what plugins are you using and do they ship everything you need to your Gatsby",
+    "start": 6280
+  },
+  {
+    "content": "site and then eventually the next step is going to be making this dynamic so if",
+    "start": 6285
+  },
+  {
+    "content": "we want to add some comments having those right back to WordPress are you",
+    "start": 6290
+  },
+  {
+    "content": "choosing a third-party content mesh comment system which I'm really trying",
+    "start": 6294
+  },
+  {
+    "content": "to encourage more and more WordPress users to step out of the monolith system",
+    "start": 6298
+  },
+  {
+    "content": "and into the content mesh you know that's that's my big education push over",
+    "start": 6303
+  },
+  {
+    "content": "the next coming time until it takes place so I think a lot of folks already",
+    "start": 6308
+  },
+  {
+    "content": "watching or in that mindset and you can just find a way to wedge WordPress in",
+    "start": 6312
+  },
+  {
+    "content": "and I think it's a great option you know we're seeing more and more CMS's out",
+    "start": 6317
+  },
+  {
+    "content": "there but zooom just decided you were done they",
+    "start": 6320
+  },
+  {
+    "content": "were like you're about to recommend wordpress dude I don't know that timing",
+    "start": 6328
+  },
+  {
+    "content": "it like the comedic timing of these cutouts is really good today I'm glad me",
+    "start": 6338
+  },
+  {
+    "content": "and my canyon tiny home living could accommodate but I will say again in case",
+    "start": 6345
+  },
+  {
+    "content": "we Jason I just want to thank you a ton we came in a little blind I hope to prep",
+    "start": 6350
+  },
+  {
+    "content": "a lot more but I think that this was super helpful and I'd love to come back",
+    "start": 6356
+  },
+  {
+    "content": "if it works to keep going because there's so much more we could explore",
+    "start": 6358
+  },
+  {
+    "content": "with all of this so shout out again thank you so much for this I do have",
+    "start": 6362
+  },
+  {
+    "content": "some courses on God's being WordPress and you could get to all that follow me",
+    "start": 6366
+  },
+  {
+    "content": "on Twitter this is kind of the niche I'm focusing on as WordPress in the jam",
+    "start": 6370
+  },
+  {
+    "content": "stack wordpress and javascript and yeah get it get in here make this work here's",
+    "start": 6373
+  },
+  {
+    "content": "a here's headless WordPress and Gatsby and so there are a couple questions in",
+    "start": 6379
+  },
+  {
+    "content": "the chat about like I don't think this would be great for a frequently updated",
+    "start": 6384
+  },
+  {
+    "content": "updated sites it's more of a comment than a question but I think we should",
+    "start": 6387
+  },
+  {
+    "content": "talk about it we like the thing about these builds is",
+    "start": 6390
+  },
+  {
+    "content": "this build so we deployed this site and it took one minute right so for the vast",
+    "start": 6396
+  },
+  {
+    "content": "majority of websites a minute or two to get a site up and live on the Internet",
+    "start": 6401
+  },
+  {
+    "content": "is not a big deal that's as long as it would take for you to publish on",
+    "start": 6406
+  },
+  {
+    "content": "WordPress and clear your varnish cache and wait for that to hit the edges so",
+    "start": 6410
+  },
+  {
+    "content": "when you when you're looking at like how long it actually takes this is there are",
+    "start": 6415
+  },
+  {
+    "content": "very few sites for which exact up to the minute publishing is like critical like",
+    "start": 6422
+  },
+  {
+    "content": "business critical and and and so I would I would I would encourage everyone to",
+    "start": 6430
+  },
+  {
+    "content": "challenge that assumption that like because you have to build how long does",
+    "start": 6435
+  },
+  {
+    "content": "it take for caches to clear how long does it take for your you know for your",
+    "start": 6440
+  },
+  {
+    "content": "updates to get through like if you're using something like cloud front for",
+    "start": 6445
+  },
+  {
+    "content": "that cloud intact that cache invalidation to actually hit right so",
+    "start": 6448
+  },
+  {
+    "content": "like when you're when you're doing that sort of work that is that is something",
+    "start": 6452
+  },
+  {
+    "content": "to keep in mind but I I'm with you on this act because",
+    "start": 6456
+  },
+  {
+    "content": "I think it sounds like there's so much more that we can do here so let's talk",
+    "start": 6460
+  },
+  {
+    "content": "offline but I think we should we should come back and do a series of these and",
+    "start": 6464
+  },
+  {
+    "content": "dig into some of the different use cases around using WordPress in the jam stack",
+    "start": 6467
+  },
+  {
+    "content": "I love it and yeah the deploys is a good one but that's gonna keep getting sped",
+    "start": 6471
+  },
+  {
+    "content": "up you make really good points and there's ways of intelligently designing",
+    "start": 6476
+  },
+  {
+    "content": "a site so that maybe it's pulling in the latest latest stuff live the guys who",
+    "start": 6480
+  },
+  {
+    "content": "built static fuse they're even experimenting with how we can check to",
+    "start": 6485
+  },
+  {
+    "content": "see hey is is what's what's cached and already developed the same as what's",
+    "start": 6489
+  },
+  {
+    "content": "currently the most live thing so maybe you got you got cut off again but that's",
+    "start": 6495
+  },
+  {
+    "content": "alright because we got the point um Zack thank you so much I feel like this is a",
+    "start": 6504
+  },
+  {
+    "content": "this is a good time to wrap it up everybody stay tuned we've got some",
+    "start": 6509
+  },
+  {
+    "content": "really exciting stuff coming up I haven't updated the schedule but we have",
+    "start": 6513
+  },
+  {
+    "content": "really good that man I wish I would have updated the schedule before we came on",
+    "start": 6519
+  },
+  {
+    "content": "today stay tuned I'll tweet about it from the the lerma Jason Twitter l WJ",
+    "start": 6522
+  },
+  {
+    "content": "show on Twitter let me just pull that up we will also",
+    "start": 6528
+  },
+  {
+    "content": "tweet about it from my twitter i'm jay Langsdorff this is me and yeah stay",
+    "start": 6533
+  },
+  {
+    "content": "tuned because we've got some really cool stuff i just i've got Rachel Andrew is",
+    "start": 6541
+  },
+  {
+    "content": "coming on the show Thor from stripe is coming back on for a series on how to do",
+    "start": 6544
+  },
+  {
+    "content": "e-commerce and take payment on the jam stack we're gonna bring back Nick",
+    "start": 6549
+  },
+  {
+    "content": "DeJesus who's done some really cool stuff with with Jam stack we rescheduled",
+    "start": 6552
+  },
+  {
+    "content": "earlier this week with Khalil Stemler so we're you've got some episodes coming up",
+    "start": 6558
+  },
+  {
+    "content": "on Apollo client version 3 just so so much cool stuff is happening definitely",
+    "start": 6561
+  },
+  {
+    "content": "stay tuned thank you so much for coming in Zach thank you so much for teaching",
+    "start": 6568
+  },
+  {
+    "content": "us today we'll see you again soon chat stay tuned we're gonna raid and we will",
+    "start": 6572
+  },
+  {
+    "content": "catch you next time you",
+    "start": 6577
+  }
+]

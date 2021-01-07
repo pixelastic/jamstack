@@ -4,9 +4,11 @@
   "position": 16,
   "publishedAt": 1542606796,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/i1qlu6pj23g/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/i1qlu6pj23g/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/i1qlu6pj23g/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/i1qlu6pj23g/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/i1qlu6pj23g/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/i1qlu6pj23g/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/i1qlu6pj23g/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/i1qlu6pj23g/default.jpg"
   },
   "title": "Tim Fogarty - Finding the Best Home for Your Data"
 }

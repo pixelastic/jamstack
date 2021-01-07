@@ -1,0 +1,858 @@
+[
+  {
+    "content": "hello jams.com and welcome to this talk",
+    "start": 0
+  },
+  {
+    "content": "next.js what's possible my name is cassidy williams and i'm a principal",
+    "start": 13
+  },
+  {
+    "content": "developer experience engineer at netlify you can find me",
+    "start": 17
+  },
+  {
+    "content": "at cassadoo on twitter on github on codepen",
+    "start": 20
+  },
+  {
+    "content": "what have you i'll be there and i am really excited to talk to you about",
+    "start": 24
+  },
+  {
+    "content": "what's possible with nexjs my role at netlify is to kind of",
+    "start": 28
+  },
+  {
+    "content": "improve the developer experience of nexjs on netlify and so",
+    "start": 32
+  },
+  {
+    "content": "i wanted to show you something really cool and so i kept asking myself as i",
+    "start": 36
+  },
+  {
+    "content": "was preparing for this talk what is possible what's something really",
+    "start": 40
+  },
+  {
+    "content": "cool that i can show people that'll make them just get",
+    "start": 44
+  },
+  {
+    "content": "giddy about next.js now there's a few things that i do want to talk about in",
+    "start": 46
+  },
+  {
+    "content": "this just in what is possible and first of",
+    "start": 51
+  },
+  {
+    "content": "all it's the next on netlify package the next on netlify package is a really",
+    "start": 54
+  },
+  {
+    "content": "cool npm package that netlify recently absorbed and is supporting and we have",
+    "start": 58
+  },
+  {
+    "content": "people working on it full time now and in that package you're able to actually",
+    "start": 62
+  },
+  {
+    "content": "use the ssr sides this server side rendering",
+    "start": 66
+  },
+  {
+    "content": "sides of nexjs that are built in to the framework",
+    "start": 70
+  },
+  {
+    "content": "on nutlify and we use netlify functions to be able to actually render those",
+    "start": 75
+  },
+  {
+    "content": "pages which is really powerful because it kind",
+    "start": 79
+  },
+  {
+    "content": "of lets you use a bit more of the framework than usual",
+    "start": 81
+  },
+  {
+    "content": "now in next.js 9.5 incremental static regeneration was",
+    "start": 84
+  },
+  {
+    "content": "finally released as a stable feature it first was announced in next 9.3 and",
+    "start": 89
+  },
+  {
+    "content": "that was kind of where the next js team really",
+    "start": 94
+  },
+  {
+    "content": "started to embrace static sites and being able to render",
+    "start": 97
+  },
+  {
+    "content": "static sites with next js which was really exciting for me",
+    "start": 101
+  },
+  {
+    "content": "and this incremental static regeneration is a very cool concept",
+    "start": 105
+  },
+  {
+    "content": "because it allows you to create pages that",
+    "start": 108
+  },
+  {
+    "content": "don't necessarily exist like you can you can kind of",
+    "start": 111
+  },
+  {
+    "content": "take concepts from the route from the url and you can use that",
+    "start": 115
+  },
+  {
+    "content": "to change something about the page and and",
+    "start": 121
+  },
+  {
+    "content": "so it lets you kind of render pages that you haven't",
+    "start": 124
+  },
+  {
+    "content": "necessarily defined it's it's a cool concept and it allows for some cool",
+    "start": 127
+  },
+  {
+    "content": "dynamic routing stuff and then also alongside that i really",
+    "start": 130
+  },
+  {
+    "content": "like the next js head api and it's one that i don't think a lot of",
+    "start": 135
+  },
+  {
+    "content": "people really look at much because they're just like",
+    "start": 139
+  },
+  {
+    "content": "okay cool you can put stuff in the head of your html",
+    "start": 142
+  },
+  {
+    "content": "that's not anything thrilling but what if you did something cool with",
+    "start": 146
+  },
+  {
+    "content": "incremental static regeneration getting something from the url",
+    "start": 150
+  },
+  {
+    "content": "and using that data to manipulate the head and do something programmatic",
+    "start": 154
+  },
+  {
+    "content": "with the head api with isr again incremental static regeneration",
+    "start": 158
+  },
+  {
+    "content": "and and just kind of combine these all in a fun way with that package",
+    "start": 164
+  },
+  {
+    "content": "so what is possible what can we do with next js",
+    "start": 167
+  },
+  {
+    "content": "well i'll tell you we can prank people and that's what we're going to be",
+    "start": 171
+  },
+  {
+    "content": "talking about today i'd like to talk to you about pranking",
+    "start": 177
+  },
+  {
+    "content": "people with next js because i'm a professional okay so that",
+    "start": 180
+  },
+  {
+    "content": "being said that's the end of my slides let's get into talking about what this",
+    "start": 185
+  },
+  {
+    "content": "means to prank people with next js now a few months ago",
+    "start": 189
+  },
+  {
+    "content": "i pranked people i used this service where uh it i tweeted this thing",
+    "start": 194
+  },
+  {
+    "content": "saying netflix announces new comedy tech show hosted by tina fey and engineer",
+    "start": 201
+  },
+  {
+    "content": "cassidy williams i really just i really wanted to mess",
+    "start": 205
+  },
+  {
+    "content": "with people this wasn't real if you click on it it rick rolls you and",
+    "start": 208
+  },
+  {
+    "content": "it's this whole thing and it's just like ah you were rick rolled in 2020.",
+    "start": 212
+  },
+  {
+    "content": "it's it's a prank but it's fun so that being said i thought this was a",
+    "start": 218
+  },
+  {
+    "content": "really cool service i wonder if i could build something like that",
+    "start": 225
+  },
+  {
+    "content": "and also quick side note my manager sarah drasner fell for this so hard that",
+    "start": 228
+  },
+  {
+    "content": "when i posted it in our slack channel at work",
+    "start": 233
+  },
+  {
+    "content": "she ended up tagging our president of the company our head of",
+    "start": 237
+  },
+  {
+    "content": "marketing all these different people sarah if you're watching this you're",
+    "start": 240
+  },
+  {
+    "content": "gullible anyway i wanted to rebuild this but in next.js",
+    "start": 244
+  },
+  {
+    "content": "and so i did i made instead of an la times version a chicago tribune version",
+    "start": 249
+  },
+  {
+    "content": "and so in this home page of my application and",
+    "start": 255
+  },
+  {
+    "content": "it's at chicago tribune but the o is a zero dot",
+    "start": 259
+  },
+  {
+    "content": "netlife.app and uh you can try it right now and",
+    "start": 263
+  },
+  {
+    "content": "let's just say i'm going to say cassidy pranks jam stack",
+    "start": 265
+  },
+  {
+    "content": "conf like this now i can get this url and click it and it pranks people",
+    "start": 271
+  },
+  {
+    "content": "and so that's that's the prank and so it has cassidy pranks jam stack comp",
+    "start": 280
+  },
+  {
+    "content": "not and then it also updates the title of the page",
+    "start": 285
+  },
+  {
+    "content": "etc and the part that i think is particularly fun",
+    "start": 288
+  },
+  {
+    "content": "is if i were to go to a the card validator if you ever want to test out",
+    "start": 292
+  },
+  {
+    "content": "your twitter cards you can do it like this if i were to",
+    "start": 296
+  },
+  {
+    "content": "paste this link in there because i edited the head we get this",
+    "start": 298
+  },
+  {
+    "content": "icon here and it also has the title cassidy",
+    "start": 302
+  },
+  {
+    "content": "pranks janss.com here so it looks fun it's a nice little prank how do we build",
+    "start": 305
+  },
+  {
+    "content": "this how do we put this together so i thought",
+    "start": 312
+  },
+  {
+    "content": "i'd do a little bit of live coding to show you how you could put something",
+    "start": 315
+  },
+  {
+    "content": "like this together for yourself now if you would like to just look at",
+    "start": 318
+  },
+  {
+    "content": "the repo right away you can go to my github again github.com",
+    "start": 321
+  },
+  {
+    "content": "cassadoo oops i totally just searched for github",
+    "start": 326
+  },
+  {
+    "content": "and then uh when you search for github and then you go to my repos this is",
+    "start": 330
+  },
+  {
+    "content": "called next pranks and so you can uh deploy",
+    "start": 334
+  },
+  {
+    "content": "this site yourself and and edit it as you wish but anyway let's",
+    "start": 338
+  },
+  {
+    "content": "talk about how i actually built this now i have another next starter project",
+    "start": 342
+  },
+  {
+    "content": "where it's really just a very basic hello world sort of",
+    "start": 346
+  },
+  {
+    "content": "application it has a main and it just says get started by editing pages",
+    "start": 350
+  },
+  {
+    "content": "slash index.js now if i wanted to make a dynamic route like this that does this",
+    "start": 355
+  },
+  {
+    "content": "kind of incremental static regeneration where it",
+    "start": 361
+  },
+  {
+    "content": "pulls up a whole other page what i want to do is i would want to create",
+    "start": 364
+  },
+  {
+    "content": "a new dynamic route so what i'm going to do is i'm going to create a folder and",
+    "start": 369
+  },
+  {
+    "content": "i'm going to call it news and then in news i'm going to create a",
+    "start": 372
+  },
+  {
+    "content": "new file now this file can be named anything it",
+    "start": 376
+  },
+  {
+    "content": "doesn't matter because it's just going to be",
+    "start": 380
+  },
+  {
+    "content": "whatever variable the users put in i just called it",
+    "start": 382
+  },
+  {
+    "content": "article so you could do article and then js and notice i have tiny little square",
+    "start": 385
+  },
+  {
+    "content": "brackets i don't know if you can see it there",
+    "start": 392
+  },
+  {
+    "content": "little square brackets around the js that means that it's going to be a",
+    "start": 393
+  },
+  {
+    "content": "variable in there so we have this it's a page now if we",
+    "start": 397
+  },
+  {
+    "content": "want someone to actually access this page what we want to do is we want to",
+    "start": 401
+  },
+  {
+    "content": "have an export default function article",
+    "start": 405
+  },
+  {
+    "content": "like this and then in that article we're going to get props it's going to be the",
+    "start": 410
+  },
+  {
+    "content": "params that we pass in i'll just do props for now",
+    "start": 415
+  },
+  {
+    "content": "and then inside of here is where we're going to do all of our logic and and",
+    "start": 418
+  },
+  {
+    "content": "kind of just put out our actual rendered component and so for now i'll just",
+    "start": 422
+  },
+  {
+    "content": "return a div and we'll say this is a div not very exciting now if you actually",
+    "start": 428
+  },
+  {
+    "content": "want to do something with this right now if we were to load this up it would",
+    "start": 435
+  },
+  {
+    "content": "truly just be a page that says this is a div",
+    "start": 438
+  },
+  {
+    "content": "uh no matter what no matter what the url says",
+    "start": 441
+  },
+  {
+    "content": "if we want to actually use the incremental static regeneration part",
+    "start": 444
+  },
+  {
+    "content": "here's a few things that we have to add to make it actually work",
+    "start": 448
+  },
+  {
+    "content": "so first of all we need to use get static pads",
+    "start": 451
+  },
+  {
+    "content": "so it's going to be export function get static pads now what this does",
+    "start": 455
+  },
+  {
+    "content": "is it says that we're going to get some static paths in our statically rendered",
+    "start": 461
+  },
+  {
+    "content": "website and what i'll do in here is because we",
+    "start": 465
+  },
+  {
+    "content": "don't actually have paths that are defined this will be defined by the user",
+    "start": 469
+  },
+  {
+    "content": "i'll just do pads is an empty array and then i'm also going to add fallback",
+    "start": 473
+  },
+  {
+    "content": "is true so that way if a page doesn't load for whatever reason the fallback is",
+    "start": 480
+  },
+  {
+    "content": "true this is all i have to do here actually",
+    "start": 484
+  },
+  {
+    "content": "now i'll do an export function get static",
+    "start": 488
+  },
+  {
+    "content": "props and this is where we're actually going",
+    "start": 492
+  },
+  {
+    "content": "to be getting stuff from our user and so we again get static pads",
+    "start": 495
+  },
+  {
+    "content": "is telling our site like hey these pads aren't defined these are going to be",
+    "start": 500
+  },
+  {
+    "content": "done via isr and then get static props what",
+    "start": 504
+  },
+  {
+    "content": "we're going to do in here is we're going to get the params from our url so we'll",
+    "start": 507
+  },
+  {
+    "content": "get the url parameters and then in these url parameters we want",
+    "start": 511
+  },
+  {
+    "content": "to return those to the page and so we'll do props",
+    "start": 516
+  },
+  {
+    "content": "and then i'll say a title right here we'll have a title object passed in",
+    "start": 520
+  },
+  {
+    "content": "and then i'm going to have revalidate is false because we don't need to refresh",
+    "start": 525
+  },
+  {
+    "content": "the page based on anything so now i can say let title",
+    "start": 529
+  },
+  {
+    "content": "is equal to params and actually it would be params.article",
+    "start": 535
+  },
+  {
+    "content": "because we named our page article like that and that would",
+    "start": 540
+  },
+  {
+    "content": "make us get whatever url is passed in so right here we would get this cassidy",
+    "start": 544
+  },
+  {
+    "content": "pranks jam stack comp in the url uh would be equal to our",
+    "start": 549
+  },
+  {
+    "content": "title right here and so then when we want to use that",
+    "start": 553
+  },
+  {
+    "content": "inside of article we have uh one more thing to add before we can",
+    "start": 557
+  },
+  {
+    "content": "actually use it and that is going to be a fallback and so i'm going to import",
+    "start": 560
+  },
+  {
+    "content": "use router and then i'm going to say from",
+    "start": 566
+  },
+  {
+    "content": "next router and so inside of here we'll say",
+    "start": 575
+  },
+  {
+    "content": "uh const router is equal to use router and then if the router is a",
+    "start": 579
+  },
+  {
+    "content": "fallback so router dot is fall back",
+    "start": 588
+  },
+  {
+    "content": "then inside of here we'll do uh just the article is loading so we could",
+    "start": 593
+  },
+  {
+    "content": "return a div article loading dot dot dot like that so",
+    "start": 598
+  },
+  {
+    "content": "this is just if the page needs to be rendered in some way that that's",
+    "start": 604
+  },
+  {
+    "content": "how you need to create a fallback page but otherwise we're going to be getting",
+    "start": 608
+  },
+  {
+    "content": "whatever props come from our url and so in our case we could say",
+    "start": 612
+  },
+  {
+    "content": "uh we're going to get just title from props props.title and then",
+    "start": 617
+  },
+  {
+    "content": "the div on the page will have that title from the url",
+    "start": 624
+  },
+  {
+    "content": "now this is not a ton of code but this is basically all you need to implement",
+    "start": 628
+  },
+  {
+    "content": "isr in your applications and so i have just",
+    "start": 632
+  },
+  {
+    "content": "this basic page here but what if i brought in my next pranks application",
+    "start": 636
+  },
+  {
+    "content": "i'll show you what that looks like now in my next pranks application it's",
+    "start": 641
+  },
+  {
+    "content": "the exact same thing we have this uh function getstaticpaths",
+    "start": 645
+  },
+  {
+    "content": "that returns not much i added a little helper function that",
+    "start": 650
+  },
+  {
+    "content": "returns things to title case and so the url instead of being cassidy",
+    "start": 653
+  },
+  {
+    "content": "prank jam stack conf we get spaces in between and we capitalize it and stuff",
+    "start": 658
+  },
+  {
+    "content": "and so we put it all in title case and then we",
+    "start": 663
+  },
+  {
+    "content": "pass that to the title right here and then in the",
+    "start": 667
+  },
+  {
+    "content": "article i have the title and then i added dash",
+    "start": 670
+  },
+  {
+    "content": "not and then i added an iframe for my youtube video i said well you were",
+    "start": 674
+  },
+  {
+    "content": "pranked so good and i had a link back to the home page",
+    "start": 679
+  },
+  {
+    "content": "and then here this is the next thing that i really want to talk about the",
+    "start": 682
+  },
+  {
+    "content": "prank head the prank head actually uses the head",
+    "start": 686
+  },
+  {
+    "content": "api and makes it so that way our twitter cards",
+    "start": 689
+  },
+  {
+    "content": "our og images anything that we put in slack will actually look a little bit",
+    "start": 692
+  },
+  {
+    "content": "more legit now in our prank head we use uh the next",
+    "start": 696
+  },
+  {
+    "content": "head api and we're just passing in that title and",
+    "start": 699
+  },
+  {
+    "content": "what happens when we pass in that title is we",
+    "start": 703
+  },
+  {
+    "content": "apply it to the title first of all so we get our tab to appear here",
+    "start": 705
+  },
+  {
+    "content": "but then also we have our open graph title right here and then we also have",
+    "start": 709
+  },
+  {
+    "content": "our twitter title right here and then for the rest of these i added",
+    "start": 713
+  },
+  {
+    "content": "just a little description see the latest news from the chicago tribune blah blah",
+    "start": 716
+  },
+  {
+    "content": "blah we have all of these programmatically in",
+    "start": 720
+  },
+  {
+    "content": "there so that we have a card that's actually rendered on social media",
+    "start": 723
+  },
+  {
+    "content": "so we can prank people good now there's a few other cool things that you",
+    "start": 727
+  },
+  {
+    "content": "could do that i won't get to in this talk but let's just say that you wanted",
+    "start": 732
+  },
+  {
+    "content": "to have like an article tagline or description",
+    "start": 735
+  },
+  {
+    "content": "or something we could add that in the url we could",
+    "start": 738
+  },
+  {
+    "content": "add it as some kind of query parameter or something",
+    "start": 741
+  },
+  {
+    "content": "and then once we do that we could pass that as for example a description in",
+    "start": 743
+  },
+  {
+    "content": "our prank head and then when we do that then we can apply that to the og",
+    "start": 748
+  },
+  {
+    "content": "description and so it could actually look like a real article description in",
+    "start": 752
+  },
+  {
+    "content": "there there's there's so many options here i",
+    "start": 756
+  },
+  {
+    "content": "think it's particularly cool so that being said this is how to prank",
+    "start": 758
+  },
+  {
+    "content": "people with next js and uh all of these features yes i did a",
+    "start": 763
+  },
+  {
+    "content": "very silly thing to be able to show people",
+    "start": 768
+  },
+  {
+    "content": "how to prank people with next.js but if you think about the power behind",
+    "start": 771
+  },
+  {
+    "content": "incremental static regeneration uh you can think about let's just say",
+    "start": 775
+  },
+  {
+    "content": "you have some data coming from a cms or you know that if you put in this slug",
+    "start": 778
+  },
+  {
+    "content": "this should query a certain api that you want to pass",
+    "start": 783
+  },
+  {
+    "content": "in that's really really cool because you could say that you want to have",
+    "start": 786
+  },
+  {
+    "content": "probably some some kind of shorter builds time even though it might be a",
+    "start": 791
+  },
+  {
+    "content": "little bit slower for a user you can actually have all of that data",
+    "start": 794
+  },
+  {
+    "content": "loaded and be a little bit more dynamic with it which is a really cool way of",
+    "start": 798
+  },
+  {
+    "content": "thinking about it and it's still jam stacky because",
+    "start": 803
+  },
+  {
+    "content": "it's just an api it's really neat now one last thing before i let you go away",
+    "start": 805
+  },
+  {
+    "content": "is i added the next on netlify package now",
+    "start": 812
+  },
+  {
+    "content": "because isr requires some kind of server stuff to actually",
+    "start": 815
+  },
+  {
+    "content": "build pages and show things we need to use the next on nutlify package",
+    "start": 819
+  },
+  {
+    "content": "and so if you ever want to check it out you can go to github.com",
+    "start": 823
+  },
+  {
+    "content": "netlify and then next on netlify and this is where the package lives we",
+    "start": 827
+  },
+  {
+    "content": "are updating it all the time and it has some really good support so far the the",
+    "start": 832
+  },
+  {
+    "content": "team behind it is great and i'm excited to help them a little bit",
+    "start": 836
+  },
+  {
+    "content": "more as time goes on now to install it it's actually really",
+    "start": 839
+  },
+  {
+    "content": "really easy and there's there's just these tiny three",
+    "start": 843
+  },
+  {
+    "content": "steps where what you do is you add in your next config target",
+    "start": 846
+  },
+  {
+    "content": "serverless once you do that inside of your nutlife",
+    "start": 850
+  },
+  {
+    "content": "tommel you have out functions and out publish so that way you can publish",
+    "start": 854
+  },
+  {
+    "content": "your site to a separate directory that next on",
+    "start": 860
+  },
+  {
+    "content": "netlife uses and same with your functions here",
+    "start": 863
+  },
+  {
+    "content": "and then inside of your package.json you install next on netlify and add a post",
+    "start": 866
+  },
+  {
+    "content": "build command that is it those are the three steps to",
+    "start": 871
+  },
+  {
+    "content": "install the package once you do that your isr stuff should",
+    "start": 875
+  },
+  {
+    "content": "work just fine and i had a really fun time building",
+    "start": 879
+  },
+  {
+    "content": "this project i hope you had a fun time listening to me i've been cassidy",
+    "start": 882
+  },
+  {
+    "content": "williams and i hope that you have a great time",
+    "start": 886
+  },
+  {
+    "content": "at the rest of your jamstack conf bye you",
+    "start": 888
+  }
+]

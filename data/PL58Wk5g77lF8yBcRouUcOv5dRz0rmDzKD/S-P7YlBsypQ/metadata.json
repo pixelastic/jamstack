@@ -1,0 +1,14 @@
+{
+  "description": "Announcing Netlify Analytics: data without the downsides. Netlify CEO Matt Biilmann demonstrates how Netlify Analytics gives you visibility into your site traffic without sacrificing performance or privacy. As a bonus, he launches the new feature live on stage using Netlify! Learn more at https://www.netlify.com/products/analytics/\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
+  "id": "S-P7YlBsypQ",
+  "position": 1,
+  "publishedAt": 1564509191,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/S-P7YlBsypQ/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/S-P7YlBsypQ/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/S-P7YlBsypQ/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/S-P7YlBsypQ/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/S-P7YlBsypQ/default.jpg"
+  },
+  "title": "Matt Biilmann - Introducing Netlify Analytics"
+}

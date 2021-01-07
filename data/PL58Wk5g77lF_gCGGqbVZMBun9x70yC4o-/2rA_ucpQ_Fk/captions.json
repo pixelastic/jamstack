@@ -1,0 +1,458 @@
+[
+  {
+    "content": "good morning everybody",
+    "start": 0
+  },
+  {
+    "content": "oh the more people that when when I left this room I'm mark I'm one of the",
+    "start": 7
+  },
+  {
+    "content": "founders of Madison fly a small studio that Josh and I started two years ago",
+    "start": 13
+  },
+  {
+    "content": "and when we started a matter supply we set out to do one thing really well and",
+    "start": 19
+  },
+  {
+    "content": "that is basically transforming wild ideas of our clients into unexpected",
+    "start": 23
+  },
+  {
+    "content": "experiences and to do that we curated a team of creative technologists product",
+    "start": 28
+  },
+  {
+    "content": "designers and very purpose-driven strategists and you have to understand",
+    "start": 36
+  },
+  {
+    "content": "that all of these three disciplines exist in everybody in our team because",
+    "start": 40
+  },
+  {
+    "content": "we basically have like 30 misfits on our team that make this all happen and what",
+    "start": 44
+  },
+  {
+    "content": "we really focus on is purpose people and connections which is really where we",
+    "start": 54
+  },
+  {
+    "content": "think is where the future is going like really focus on what people want really",
+    "start": 60
+  },
+  {
+    "content": "focus on understanding where people are going where they're at and how they can",
+    "start": 65
+  },
+  {
+    "content": "actually connect with each other this is the part of our team that had the doodle",
+    "start": 69
+  },
+  {
+    "content": "done so far it's the majority of them we think they're lovely and you actually",
+    "start": 75
+  },
+  {
+    "content": "have a few of our folks in the audience today that you can talk to so you have",
+    "start": 80
+  },
+  {
+    "content": "myself yaffle a hoe and and Christian both are wearing their jerseys with with",
+    "start": 84
+  },
+  {
+    "content": "the face on it and you have Josh Josh looks exactly like the Google that you",
+    "start": 89
+  },
+  {
+    "content": "see on the on the screen and a few of our clients we've been working with",
+    "start": 94
+  },
+  {
+    "content": "impossible foods who you probably know at this point for about for a little bit",
+    "start": 102
+  },
+  {
+    "content": "over a year we got lucky enough that we get to do",
+    "start": 106
+  },
+  {
+    "content": "all of their digital from web to like the location finder to the recent retail",
+    "start": 109
+  },
+  {
+    "content": "launch to helping them launch with Burger King and and so forth so that is",
+    "start": 118
+  },
+  {
+    "content": "a lot of fun and actually Christian and Alejo are two of the senior",
+    "start": 122
+  },
+  {
+    "content": "technologists on the team so if you have any deeper questions about impossible",
+    "start": 126
+  },
+  {
+    "content": "foods they're within reason you can ask them the secrets",
+    "start": 130
+  },
+  {
+    "content": "of course and one of our two of our favorite clients our notification of",
+    "start": 134
+  },
+  {
+    "content": "them as no refika which is an app for people who are at risk of deportation in",
+    "start": 143
+  },
+  {
+    "content": "the United States to make sure that they're prepared in case something",
+    "start": 149
+  },
+  {
+    "content": "happens in case ice knocks at the door and they have to leave within a moment's",
+    "start": 153
+  },
+  {
+    "content": "notice so they can actually notify their loved ones that they're in custody so",
+    "start": 156
+  },
+  {
+    "content": "they can actually help get a lawyer involved and so forth another project",
+    "start": 162
+  },
+  {
+    "content": "that we recently started working with is Rahim Rahim is an organization that",
+    "start": 166
+  },
+  {
+    "content": "helps people who face police violence to tell their story and change their",
+    "start": 171
+  },
+  {
+    "content": "community by recording and reporting stories of what they face when they're",
+    "start": 175
+  },
+  {
+    "content": "out in the on the streets on the roads and getting pulled over but the project",
+    "start": 181
+  },
+  {
+    "content": "I want to talk today about it's a little bit more funny and anecdotal and that's",
+    "start": 187
+  },
+  {
+    "content": "the Nike project that we launched a year ago called just do it and that's some of",
+    "start": 192
+  },
+  {
+    "content": "the stories I want to talk about today we contacted by Nike to help them with a",
+    "start": 200
+  },
+  {
+    "content": "bigger campaign to support the digital side for this guy probably know him",
+    "start": 207
+  },
+  {
+    "content": "colin kaepernick what Nike wanted to do is allow people to dream big and to",
+    "start": 216
+  },
+  {
+    "content": "really submit their dreams and inspire people to really like believe in their",
+    "start": 221
+  },
+  {
+    "content": "dreams and fight for something so we got the call and they said hey we need to",
+    "start": 226
+  },
+  {
+    "content": "launch this in four weeks can you do this and we were like yeah",
+    "start": 232
+  },
+  {
+    "content": "haha maybe so the idea was people get to submit their dreams and what they didn't",
+    "start": 235
+  },
+  {
+    "content": "know is behind the scenes Nike will go in and look at the dreams and and who",
+    "start": 243
+  },
+  {
+    "content": "they are and actually surprised them with a custom pair of shoelaces so they",
+    "start": 248
+  },
+  {
+    "content": "would take their dream print shoelaces surprise them a practice and and really",
+    "start": 252
+  },
+  {
+    "content": "connect with people who who dream big right so we did what every",
+    "start": 257
+  },
+  {
+    "content": "good person would do and we said yeah let's do something fun here let's do a",
+    "start": 265
+  },
+  {
+    "content": "WebGL experience where people can submit their dreams and we do a real-time",
+    "start": 270
+  },
+  {
+    "content": "livestream of everybody's dream showing up in dots on the website because you",
+    "start": 276
+  },
+  {
+    "content": "also probably want to scale this to a million people",
+    "start": 282
+  },
+  {
+    "content": "Chester and they also expected about a hundred thousand submissions of dreams",
+    "start": 285
+  },
+  {
+    "content": "over the course of this campaign which was about two months so that's how we",
+    "start": 291
+  },
+  {
+    "content": "start at this all and that was a that was a very fun experience to really get",
+    "start": 297
+  },
+  {
+    "content": "started on this project because you also have to deal with PII data ever and",
+    "start": 306
+  },
+  {
+    "content": "people submit their dreams they have to login to to their Nike login and to",
+    "start": 309
+  },
+  {
+    "content": "submit a dream you have to basically found all that data through so what do",
+    "start": 314
+  },
+  {
+    "content": "you do like basically you're faced with this consequence of like yeah let's just",
+    "start": 318
+  },
+  {
+    "content": "use AWS kubernetes and fastly what else is out there am and and all of those big",
+    "start": 322
+  },
+  {
+    "content": "names and we're like yeah we don't really have time for that four weeks is",
+    "start": 329
+  },
+  {
+    "content": "a very short amount of time and we had to developers available because yeah",
+    "start": 333
+  },
+  {
+    "content": "they called us and we had to start the next day and I don't know no some of",
+    "start": 338
+  },
+  {
+    "content": "probably most of you work at agencies agencies don't really have a lot of",
+    "start": 341
+  },
+  {
+    "content": "people on their bench waiting around for Nike to call them neither do we so it",
+    "start": 346
+  },
+  {
+    "content": "was a little bit fast and loose so we so we decided on the jam stack because as",
+    "start": 352
+  },
+  {
+    "content": "Chris mentioned before right there's like the 3 s's of of the jam stack and",
+    "start": 359
+  },
+  {
+    "content": "speed scalability and security overtime worker with Nike we discover the 4th s",
+    "start": 364
+  },
+  {
+    "content": "and that hits the fan protection because what what actually happened is",
+    "start": 369
+  },
+  {
+    "content": "we ended up designing this experience until the new launch date and when I say",
+    "start": 375
+  },
+  {
+    "content": "new launch date I mean this happened so colin kaepernick",
+    "start": 382
+  },
+  {
+    "content": "tweeted out just do it and all of that the problem this was all great right the",
+    "start": 387
+  },
+  {
+    "content": "problem was this was early so we this three came about four or five",
+    "start": 393
+  },
+  {
+    "content": "too early and we weren't done yet I mean we were still trying to put together the",
+    "start": 398
+  },
+  {
+    "content": "video feed and WebGL and all of the fun stuff right so we're like cool let's",
+    "start": 403
+  },
+  {
+    "content": "edit a few things out but we had to move fast because we had to follow up and you",
+    "start": 410
+  },
+  {
+    "content": "have to as Josh says we have to strike while the iron is hot so we had to move",
+    "start": 415
+  },
+  {
+    "content": "really fast and I think for us to jam sec allowed to pull more people on the",
+    "start": 421
+  },
+  {
+    "content": "project and to really get it done on time so because everything is the same",
+    "start": 426
+  },
+  {
+    "content": "right we and we work a jali the bottom up but we were able to really say hey",
+    "start": 430
+  },
+  {
+    "content": "let's bring more people on this we really need to get this done in a super",
+    "start": 436
+  },
+  {
+    "content": "short amount of time and everybody was able to jump in and and just build",
+    "start": 440
+  },
+  {
+    "content": "backends and or api's and and all of that and and it was building gatsby",
+    "start": 444
+  },
+  {
+    "content": "which is what we call our daisy stack because it's built on cats being ATLA",
+    "start": 449
+  },
+  {
+    "content": "phi server list with graph QL and what else it was an old firebase real real",
+    "start": 453
+  },
+  {
+    "content": "time database a fire store real time database and we were able to corral",
+    "start": 461
+  },
+  {
+    "content": "about em to really get this done on time",
+    "start": 465
+  },
+  {
+    "content": "some of the some of the metrics that we that we found was the peak was 200",
+    "start": 470
+  },
+  {
+    "content": "visits a day 200,000 visits a day which is a lot if you don't get to prepare",
+    "start": 478
+  },
+  {
+    "content": "right so but this was easy this is ridiculously easy if you think about it",
+    "start": 483
+  },
+  {
+    "content": "we had 190 thousand submissions which we expected a hundred thousand we got 190",
+    "start": 488
+  },
+  {
+    "content": "thousand so it's a little bit more than we expected but no problem and they got",
+    "start": 494
+  },
+  {
+    "content": "the first contentful paint down 2.9 seconds which nike.com currently has 2.5",
+    "start": 500
+  },
+  {
+    "content": "seconds don't tell anybody else that thing but",
+    "start": 507
+  },
+  {
+    "content": "yeah because Nike really says like we don't care what you use in terms of",
+    "start": 512
+  },
+  {
+    "content": "technology as long as you make it as fast as our infrastructure but more",
+    "start": 517
+  },
+  {
+    "content": "flexible as what we have available to edit content into author content which",
+    "start": 521
+  },
+  {
+    "content": "is a lovely state to view however like these numbers look big but really",
+    "start": 526
+  },
+  {
+    "content": "with the jam stack like this is all is all easy right this is all performs well",
+    "start": 531
+  },
+  {
+    "content": "there was no issues no hiccups a zero maintenance didn't have to get up early",
+    "start": 536
+  },
+  {
+    "content": "in the morning ever and it was a fun fun little experience in the fun little ride",
+    "start": 542
+  },
+  {
+    "content": "but nothing would be complete without some know-it-all",
+    "start": 548
+  },
+  {
+    "content": "so I be negative about it including Gatsby like doing a little sideswipe",
+    "start": 552
+  },
+  {
+    "content": "scats be here today I'd like to talk to you about this oh yeah there right right",
+    "start": 558
+  },
+  {
+    "content": "we didn't I think launching early means you can't do everything and Gatsby image",
+    "start": 564
+  },
+  {
+    "content": "is great like I have to say in the in the follow up experiences we did end up",
+    "start": 569
+  },
+  {
+    "content": "using Gatsby image it just works super well so thanks for that for that little",
+    "start": 573
+  },
+  {
+    "content": "hint yeah that was it remember introvert so I like to talk to",
+    "start": 578
+  },
+  {
+    "content": "you but I'm not gonna approach you but I like to talk about things over breakfast",
+    "start": 585
+  },
+  {
+    "content": "so if you ever in Portland hit me up or you can just put something",
+    "start": 590
+  },
+  {
+    "content": "on my calendar I'm easy enough and we grab breakfast somewhere tell thanks",
+    "start": 593
+  },
+  {
+    "content": "[Applause]",
+    "start": 601
+  },
+  {
+    "content": "you [Applause]",
+    "start": 605
+  },
+  {
+    "content": "",
+    "start": 609
+  }
+]

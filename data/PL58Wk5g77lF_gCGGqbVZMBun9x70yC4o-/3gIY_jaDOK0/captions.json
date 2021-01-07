@@ -1,0 +1,1366 @@
+[
+  {
+    "content": "thanks for having me I'm super happy to",
+    "start": 0
+  },
+  {
+    "content": "be here today and for that incredibly long introduction um so I came and I",
+    "start": 19
+  },
+  {
+    "content": "wanted to talk about something that might be a little bit surprising chrome",
+    "start": 25
+  },
+  {
+    "content": "loves frameworks no really we do I think that that traditionally hasn't hasn't",
+    "start": 29
+  },
+  {
+    "content": "been true there's been animosity there but I think there's a big change that's",
+    "start": 35
+  },
+  {
+    "content": "happened and I want to talk a little bit about that about some of the new things",
+    "start": 38
+  },
+  {
+    "content": "we've been working on and then ask for your help with a bunch of stuff so the",
+    "start": 43
+  },
+  {
+    "content": "first thing is chrome really needs your feedback",
+    "start": 49
+  },
+  {
+    "content": "I'm the p.m. for frameworks at chrome and we need to hear what you like what",
+    "start": 53
+  },
+  {
+    "content": "you hate what you need what problems you're solving what problems you're not",
+    "start": 58
+  },
+  {
+    "content": "actually able to solve in your stack because all of that can feed into us",
+    "start": 61
+  },
+  {
+    "content": "knowing what the right next features to build are into the browser I want to",
+    "start": 66
+  },
+  {
+    "content": "start by saying frameworks and your choice of JavaScript are part of the web",
+    "start": 71
+  },
+  {
+    "content": "platform if you're building with a framework you are building on the web",
+    "start": 75
+  },
+  {
+    "content": "platform now I really want to thank all of the frameworks who have been willing",
+    "start": 79
+  },
+  {
+    "content": "to sort of collaborate with us and change the the tone of our interactions",
+    "start": 85
+  },
+  {
+    "content": "over the last year and a half it's been pretty incredible so for me frameworks",
+    "start": 91
+  },
+  {
+    "content": "in the web platform are really two halves of the same hole and when we all",
+    "start": 98
+  },
+  {
+    "content": "work together we can have better outcomes but particularly around perf I",
+    "start": 102
+  },
+  {
+    "content": "also want to be clear frameworks sometimes make web apps slower but",
+    "start": 110
+  },
+  {
+    "content": "they're also our best hope to make them faster and so I think working together",
+    "start": 115
+  },
+  {
+    "content": "we can have better outcomes what do I mean by better we wanted to be fast even",
+    "start": 119
+  },
+  {
+    "content": "in growth markets and on average phones we want it to be fun right the web",
+    "start": 124
+  },
+  {
+    "content": "platform should be the choice of every developer because they want to work on",
+    "start": 129
+  },
+  {
+    "content": "it and then we want it to have the kind of features that are going to allow us",
+    "start": 133
+  },
+  {
+    "content": "to WoW users in the past some advice about performance has been a little",
+    "start": 139
+  },
+  {
+    "content": "two simple and so when someone has said ship less JavaScript what if we dig into",
+    "start": 146
+  },
+  {
+    "content": "that what does that really mean it could mean optimize my application right which",
+    "start": 152
+  },
+  {
+    "content": "okay I'm willing to do that but how much time can we really spend on that I would",
+    "start": 159
+  },
+  {
+    "content": "love it if everybody raised their hand who gets to choose what they work on at",
+    "start": 166
+  },
+  {
+    "content": "least 10% of the time ooh that is way better than some other conferences who",
+    "start": 171
+  },
+  {
+    "content": "gets to choose what they work on 20% of the time 30 40 they're only a couple of",
+    "start": 178
+  },
+  {
+    "content": "hands left of folks who get to choose you can put them down now thank you",
+    "start": 187
+  },
+  {
+    "content": "so that means that when we want to do extras and I'm not they saying they're",
+    "start": 190
+  },
+  {
+    "content": "extras in terms of outcomes for users but they're extras in terms of their",
+    "start": 195
+  },
+  {
+    "content": "things that may not be in your backlog there are things that may not be on the",
+    "start": 199
+  },
+  {
+    "content": "priority list for the company's product like getting your performance to be",
+    "start": 202
+  },
+  {
+    "content": "really great or your accessibility or that extra",
+    "start": 207
+  },
+  {
+    "content": "polish that would make your UX really excellent that's the kind of stuff where",
+    "start": 211
+  },
+  {
+    "content": "it usually takes a passionate developer that really cares about that particular",
+    "start": 215
+  },
+  {
+    "content": "area to make it happen so what that means to me is that we have to make",
+    "start": 219
+  },
+  {
+    "content": "really great outcomes the low effort option because a lot of people don't",
+    "start": 225
+  },
+  {
+    "content": "have the time to spend on performance um so what if optimizing your app means",
+    "start": 230
+  },
+  {
+    "content": "cutting features users love for me that's just a hard no does anybody",
+    "start": 237
+  },
+  {
+    "content": "remember Basecamp I'll remember it yeah like a project management app right and",
+    "start": 243
+  },
+  {
+    "content": "you had to do lists and you could drag and drop the to-do lists and we were all",
+    "start": 249
+  },
+  {
+    "content": "just like whoa we're living in the future you can drag and drop to-do lists",
+    "start": 254
+  },
+  {
+    "content": "right and now if you if someone made a to-do MVC app and you couldn't drag and",
+    "start": 258
+  },
+  {
+    "content": "drop the to-do list you'd be like what they didn't finish it put this crap away",
+    "start": 264
+  },
+  {
+    "content": "until you get it done right and so I think we've gotten to this place where",
+    "start": 267
+  },
+  {
+    "content": "users expectations are so high in part because we've built amazing stuff right",
+    "start": 272
+  },
+  {
+    "content": "and so they don't think of the desktop and the browser as being any different",
+    "start": 277
+  },
+  {
+    "content": "they just think okay this is my application for doing that this one",
+    "start": 281
+  },
+  {
+    "content": "happens to live in Chrome but that other one happens to live in my desktop and so",
+    "start": 285
+  },
+  {
+    "content": "when we do that we need to meet those expectations because users want",
+    "start": 289
+  },
+  {
+    "content": "something that's feature-rich and does everything they want and they want it to",
+    "start": 293
+  },
+  {
+    "content": "be super fast and right now on the web we have this trade-off where if you want",
+    "start": 298
+  },
+  {
+    "content": "it to be fast you cut features or you pull things out if you want to have",
+    "start": 302
+  },
+  {
+    "content": "great features chances are your / v and you have this terrible zigzag of",
+    "start": 306
+  },
+  {
+    "content": "like we worked on perf we worked on features we worked on perfectly worked",
+    "start": 310
+  },
+  {
+    "content": "on features where the users is struggling to get the best of both",
+    "start": 313
+  },
+  {
+    "content": "worlds so I'd like to propose a shared goal and that is that users want amazing",
+    "start": 318
+  },
+  {
+    "content": "features and great performance so can we make it so I think together that we can",
+    "start": 325
+  },
+  {
+    "content": "take it even further so frameworks are bringing the power of Facebook and",
+    "start": 334
+  },
+  {
+    "content": "Google internal tools to the open web and I think in learning from that we can",
+    "start": 339
+  },
+  {
+    "content": "make our applications come out even better I think we're on the brink of a",
+    "start": 344
+  },
+  {
+    "content": "performance revolution it's led by frameworks inspired by powerful",
+    "start": 349
+  },
+  {
+    "content": "battle-tested tools and technology and because of their work we're going to",
+    "start": 353
+  },
+  {
+    "content": "have a whole different meaning to a page load coming soon now think we all have a",
+    "start": 358
+  },
+  {
+    "content": "role to play in that whether it's meta frameworks or bundlers or app authors or",
+    "start": 364
+  },
+  {
+    "content": "package authors we all have a role to play in making that outcome be great for",
+    "start": 369
+  },
+  {
+    "content": "users I think that the community in the community is already building amazing",
+    "start": 374
+  },
+  {
+    "content": "features so I'm gonna focus a little bit more on perf today sadly profile combs",
+    "start": 380
+  },
+  {
+    "content": "are not great for everybody here's what I mean so experienced and sophisticated",
+    "start": 387
+  },
+  {
+    "content": "developers often succeed but others really don't especially in emerging in",
+    "start": 394
+  },
+  {
+    "content": "growth markets a large fractions of Chrome's users are now in emerging",
+    "start": 400
+  },
+  {
+    "content": "markets and so that's something that we really care about and want to go well",
+    "start": 405
+  },
+  {
+    "content": "one thing to think about is you you may have not decided to focus on emerging",
+    "start": 409
+  },
+  {
+    "content": "markets because your particular company isn't trying to enter the Indian market",
+    "start": 414
+  },
+  {
+    "content": "for example but we found actually through our data that the average phone",
+    "start": 419
+  },
+  {
+    "content": "in India and the average phone in the Midwest is about the same phone there's",
+    "start": 424
+  },
+  {
+    "content": "some differences because network reliability isn't as good in India but",
+    "start": 429
+  },
+  {
+    "content": "otherwise we're not really talking apples and oranges they're the same",
+    "start": 433
+  },
+  {
+    "content": "thing and so we know that outcomes are good in some cases right the little",
+    "start": 436
+  },
+  {
+    "content": "green bar there it shows people who got great lighthouse scores using a standard",
+    "start": 445
+  },
+  {
+    "content": "framework and Mehta framework so we know that people are achieving it so how do",
+    "start": 450
+  },
+  {
+    "content": "we get more people down into that green box getting those really great outcomes",
+    "start": 455
+  },
+  {
+    "content": "let's start by understanding a little bit of what we're we're dealing with so",
+    "start": 461
+  },
+  {
+    "content": "I've taken out the names of the frameworks each one of these sets of",
+    "start": 468
+  },
+  {
+    "content": "bars is a framework and we have their first paint their first content full",
+    "start": 472
+  },
+  {
+    "content": "paint first meaningful paint and their time to interactive when you notice if",
+    "start": 477
+  },
+  {
+    "content": "you look at it is they're not all that different so all of the micro benchmarks",
+    "start": 482
+  },
+  {
+    "content": "that say this is faster than that or whatever",
+    "start": 486
+  },
+  {
+    "content": "some of them are slightly faster but for the most part they have similar",
+    "start": 488
+  },
+  {
+    "content": "performance the thing I think is really worth looking at here is the difference",
+    "start": 491
+  },
+  {
+    "content": "between the long green bars and the two shorter blue bars because that's the",
+    "start": 496
+  },
+  {
+    "content": "time to hydrate the page it's a time for the JavaScript to do what it needs to do",
+    "start": 501
+  },
+  {
+    "content": "it's the time between I have pixels on the screen and I can actually interact",
+    "start": 505
+  },
+  {
+    "content": "with it so that's a really important time for user experience um one thing I",
+    "start": 509
+  },
+  {
+    "content": "want to say is frameworks perform best when they're paired with a meta",
+    "start": 516
+  },
+  {
+    "content": "framework like next next gatsby we've seen from some HTTP archive data that",
+    "start": 519
+  },
+  {
+    "content": "using next with react is actually 33% faster TTI than using react alone that's",
+    "start": 528
+  },
+  {
+    "content": "huge also a lot of teams don't have the time",
+    "start": 535
+  },
+  {
+    "content": "to spend on infrastructure and all of that and frankly honestly interest or",
+    "start": 538
+  },
+  {
+    "content": "expert tee's both pipelines can be a pain in",
+    "start": 542
+  },
+  {
+    "content": "the butt and so relying on a team like next or Gatsby that are making it their",
+    "start": 545
+  },
+  {
+    "content": "you know their mission to have great initial performance can really get you a",
+    "start": 550
+  },
+  {
+    "content": "lot out of the gate without having to build it yourself so I'm gonna talk",
+    "start": 557
+  },
+  {
+    "content": "about four challenges and a question and a lot of these I'll actually have places",
+    "start": 564
+  },
+  {
+    "content": "where I'm gonna ask you to give feedback or or let me know what you think the",
+    "start": 569
+  },
+  {
+    "content": "first one is keeping the UI response up to taps and I'll talk a little bit about",
+    "start": 574
+  },
+  {
+    "content": "a scheduler that we're building then I want to talk about design systems and",
+    "start": 578
+  },
+  {
+    "content": "how they can inspire browsers a little bit about our metrics and how they don't",
+    "start": 582
+  },
+  {
+    "content": "fully match users experience on the web some about fast initial load in",
+    "start": 587
+  },
+  {
+    "content": "feature-rich apps and then finally how do we make all of this work well by",
+    "start": 592
+  },
+  {
+    "content": "default you know getting that that thing for developers who don't have a ton of",
+    "start": 598
+  },
+  {
+    "content": "time to spend on whatever they want so the first one a challenge keeping the UI",
+    "start": 602
+  },
+  {
+    "content": "responsive to taps clicks and Scrolls one of the fundamental goals of a",
+    "start": 608
+  },
+  {
+    "content": "browser is to handle user input instantaneously we have a few hundred",
+    "start": 613
+  },
+  {
+    "content": "milliseconds before the user starts to think hey this doesn't make sense it",
+    "start": 617
+  },
+  {
+    "content": "isn't responsive to me I'm interacting with a thing that's interacting with a",
+    "start": 621
+  },
+  {
+    "content": "thing as opposed to I'm acting directly it gets them out of flow when they're",
+    "start": 625
+  },
+  {
+    "content": "their taps don't work so if a tap happens to come down here in the",
+    "start": 629
+  },
+  {
+    "content": "timeline where there's just a short amount of work going we can basically",
+    "start": 632
+  },
+  {
+    "content": "handle it nearly instantaneously and the user won't even notice if a tap comes",
+    "start": 636
+  },
+  {
+    "content": "down here where there's a really long task running it's not gonna be great the",
+    "start": 641
+  },
+  {
+    "content": "users gonna feel that and it's gonna be slow so how long do we have to execute",
+    "start": 645
+  },
+  {
+    "content": "our JavaScript before we might be blocking user interactions a terrible",
+    "start": 650
+  },
+  {
+    "content": "it's 10 to 50 milliseconds so for me that's very slow I mean a very short",
+    "start": 656
+  },
+  {
+    "content": "amount of time to get a lot of work done so realistically how can we do that this",
+    "start": 662
+  },
+  {
+    "content": "is where I think frameworks can come in and help um",
+    "start": 668
+  },
+  {
+    "content": "frameworks like react have been experimenting with yielding between each",
+    "start": 672
+  },
+  {
+    "content": "node in the render they have done different experience",
+    "start": 675
+  },
+  {
+    "content": "experiments of how frequently they yield is it every node is it every certain",
+    "start": 679
+  },
+  {
+    "content": "number of milliseconds that sort of thing but basically they're saying if",
+    "start": 683
+  },
+  {
+    "content": "we're gonna render out this Dom what if we yield it back to the browser more",
+    "start": 687
+  },
+  {
+    "content": "frequently and that's great because it allows the browser to process those",
+    "start": 692
+  },
+  {
+    "content": "clicks more frequently when this works we have these tiny chunks of JavaScript",
+    "start": 697
+  },
+  {
+    "content": "they're being executed and the application author didn't need to",
+    "start": 705
+  },
+  {
+    "content": "understand it at all the framework manages it for you this is fantastic",
+    "start": 708
+  },
+  {
+    "content": "react built a userland scheduler to do this and other other frameworks have too",
+    "start": 713
+  },
+  {
+    "content": "embers worked on a really great scheduler view is also experimenting in",
+    "start": 719
+  },
+  {
+    "content": "this space but unfortunately a lot of the code is outside of frameworks",
+    "start": 724
+  },
+  {
+    "content": "control so that means we have a coordination problem you can have ads on",
+    "start": 730
+  },
+  {
+    "content": "the page or you can have a widget on the page all sorts of different things and",
+    "start": 734
+  },
+  {
+    "content": "what that means is that you it can steal focus from the scheduler and steal focus",
+    "start": 738
+  },
+  {
+    "content": "from important work that tried to do the right thing by yielding so react got in",
+    "start": 744
+  },
+  {
+    "content": "touch with us and what they said is can you please work on an in-browser",
+    "start": 749
+  },
+  {
+    "content": "scheduler because if we had an in-browser scheduler we could be certain",
+    "start": 753
+  },
+  {
+    "content": "that all of this work was being scheduled in the same system and then we",
+    "start": 757
+  },
+  {
+    "content": "would know that our important work wasn't getting D prioritized so we",
+    "start": 761
+  },
+  {
+    "content": "thought that was super interesting we went and spoke to maps and Airbnb",
+    "start": 765
+  },
+  {
+    "content": "ember angular react views felt a whole bunch of other folks to get a sense of",
+    "start": 769
+  },
+  {
+    "content": "their scheduling needs we had a design cyst session with the react core team",
+    "start": 774
+  },
+  {
+    "content": "and we studied a bunch of different scheduler implementations we shipped our",
+    "start": 779
+  },
+  {
+    "content": "first implementation of a prototype of post tasks API last week we would",
+    "start": 784
+  },
+  {
+    "content": "absolutely love it if you tried it out and gave us feedback um so let's walk",
+    "start": 790
+  },
+  {
+    "content": "through it so you understand what it's doing there are four priority levels in",
+    "start": 795
+  },
+  {
+    "content": "a scheduler there's immediate and render blocking those are both a really bad",
+    "start": 799
+  },
+  {
+    "content": "idea they're going to block those user clicks and then there's idle the blue",
+    "start": 802
+  },
+  {
+    "content": "one and that I'm so late that you really can't",
+    "start": 807
+  },
+  {
+    "content": "reliably do any work in it so what do we need to do we need to start using that",
+    "start": 810
+  },
+  {
+    "content": "middle green chunk called default but default is sort of the junk drawer of",
+    "start": 815
+  },
+  {
+    "content": "the web so what do we have to do to make that work we need to move to non render",
+    "start": 819
+  },
+  {
+    "content": "blocking work whenever we can and add more priority levels for normal work and",
+    "start": 824
+  },
+  {
+    "content": "so we want to add a high medium and low priority level to our task queues the",
+    "start": 830
+  },
+  {
+    "content": "default queue is already really full and so that means we're going to have to",
+    "start": 835
+  },
+  {
+    "content": "organize that work more to make sure we're doing the important stuff first",
+    "start": 840
+  },
+  {
+    "content": "that probably sounds like a lot and you're like how am I going to schedule",
+    "start": 844
+  },
+  {
+    "content": "my work I don't know I'm not even thinking about it like that I'm trying",
+    "start": 848
+  },
+  {
+    "content": "to build UI what's great is when this is built into frameworks you won't need to",
+    "start": 850
+  },
+  {
+    "content": "think about it the the rendering code will naturally coordinate and",
+    "start": 855
+  },
+  {
+    "content": "collaborate with other code on the page so next up I want to switch gears and",
+    "start": 859
+  },
+  {
+    "content": "talk about design systems and how they can inspire chrome and the sorts of",
+    "start": 866
+  },
+  {
+    "content": "things that we're thinking about let's go back in time a bit do you remember",
+    "start": 870
+  },
+  {
+    "content": "when word was out that we were gonna get new HTML elements anybody remember that",
+    "start": 876
+  },
+  {
+    "content": "I was so excited I was like I have built tab set 10,000 times finally I'm not",
+    "start": 880
+  },
+  {
+    "content": "gonna have to build this again and then what we got is a side an article in",
+    "start": 887
+  },
+  {
+    "content": "section and I don't have any problem with them per se but I didn't feel like",
+    "start": 893
+  },
+  {
+    "content": "I needed them they were like extra I guess since then I've held on to the",
+    "start": 899
+  },
+  {
+    "content": "belief that HTML shouldn't be finished and that design systems have been",
+    "start": 906
+  },
+  {
+    "content": "innovating and lighting the path forward in this space and that we need to learn",
+    "start": 910
+  },
+  {
+    "content": "from Design Systems in order to be able to build in the browser what we already",
+    "start": 914
+  },
+  {
+    "content": "know we need because y'all are already building it again and again and again in",
+    "start": 920
+  },
+  {
+    "content": "every design system that you build we want to work on what you care about and",
+    "start": 924
+  },
+  {
+    "content": "so this is a space where we would really love your feedback to that end and we've",
+    "start": 931
+  },
+  {
+    "content": "been collaborating with Microsoft on this effort they did a developer survey",
+    "start": 936
+  },
+  {
+    "content": "and what the survey respondents said right now",
+    "start": 940
+  },
+  {
+    "content": "it's often easier to build form components from scratch than it is to",
+    "start": 943
+  },
+  {
+    "content": "modify the styles of a form control and I think we all felt like we did punched",
+    "start": 946
+  },
+  {
+    "content": "in the gut a little bit like oh that's not how that should be but also we get",
+    "start": 950
+  },
+  {
+    "content": "good information from this kind of feedback because it tells us that a",
+    "start": 955
+  },
+  {
+    "content": "chunk of what you want to do here is actually just be able to style these",
+    "start": 958
+  },
+  {
+    "content": "things better um so collaborating with edge has been",
+    "start": 962
+  },
+  {
+    "content": "great they are great partners and we've been working really closely to try and",
+    "start": 967
+  },
+  {
+    "content": "figure out what it is developers need and want and to try and figure out is",
+    "start": 971
+  },
+  {
+    "content": "this worth it should we try to fix control should we try to add new",
+    "start": 975
+  },
+  {
+    "content": "controls and try to add new components the reasons we've come up with it we",
+    "start": 979
+  },
+  {
+    "content": "think it matters is appearance frequency of building and bringing your own",
+    "start": 983
+  },
+  {
+    "content": "components and the extra JavaScript that that brings to the page and then the",
+    "start": 988
+  },
+  {
+    "content": "effort it takes to build your own repeated again and again and again in",
+    "start": 994
+  },
+  {
+    "content": "every design system and then finally the effort to make it work cross browser so",
+    "start": 998
+  },
+  {
+    "content": "you can make the perfect you know drop-down element and you're like oh",
+    "start": 1002
+  },
+  {
+    "content": "this is great this works exactly how I expect it to but what happens if then",
+    "start": 1007
+  },
+  {
+    "content": "someone uses it in a different browser and you made the UX match the browser",
+    "start": 1012
+  },
+  {
+    "content": "that you're more comfortable with it's it's very difficult to get that cross",
+    "start": 1015
+  },
+  {
+    "content": "browser experience right so here's some data from the Microsoft survey you all",
+    "start": 1019
+  },
+  {
+    "content": "gave us information about what the top 10 form controls you recreated were and",
+    "start": 1025
+  },
+  {
+    "content": "select and checkbox were there at the top of that you also let us know why you",
+    "start": 1031
+  },
+  {
+    "content": "were changing these so why modify this stuff and by and large the large blue",
+    "start": 1038
+  },
+  {
+    "content": "square is that you couldn't change the appearance and then the black bit is",
+    "start": 1043
+  },
+  {
+    "content": "that you wanted to add functionality this question was great which form",
+    "start": 1047
+  },
+  {
+    "content": "control gives you the most frustration it could not have been more clear yellow",
+    "start": 1055
+  },
+  {
+    "content": "hate the select element um which is great because that means that Microsoft",
+    "start": 1059
+  },
+  {
+    "content": "has chosen to focus on the select element which I think is absolutely",
+    "start": 1064
+  },
+  {
+    "content": "fantastic and we asked like why do you hate the select element",
+    "start": 1067
+  },
+  {
+    "content": "and a lot of it was actually that you just want to be able to style it and",
+    "start": 1074
+  },
+  {
+    "content": "then there was another chunk which was you want to add behavior and",
+    "start": 1078
+  },
+  {
+    "content": "functionality and then another chunk was content adjustments like being able to",
+    "start": 1081
+  },
+  {
+    "content": "have an icon next to each of the options I'm sure this is like zero percent",
+    "start": 1085
+  },
+  {
+    "content": "surprising to all of you but getting the data really helps us make the case",
+    "start": 1090
+  },
+  {
+    "content": "internally to our browsers um we also asked what are the native controls that",
+    "start": 1094
+  },
+  {
+    "content": "you request the most and what what would you like to see built into the browser",
+    "start": 1101
+  },
+  {
+    "content": "and the top two were virtual lists and toggle switch and the chrome team is",
+    "start": 1105
+  },
+  {
+    "content": "currently working on virtual lists and the toggle switch so we're trying really",
+    "start": 1109
+  },
+  {
+    "content": "hard to make sure that we know what you want and to build to your needs um how's",
+    "start": 1114
+  },
+  {
+    "content": "the project going to work so we're starting with a reskin by 1990's the",
+    "start": 1121
+  },
+  {
+    "content": "look of the form elements right now is pretty terrible and honestly I think we",
+    "start": 1127
+  },
+  {
+    "content": "end up having to work around it at the same time we're taking the moment to do",
+    "start": 1131
+  },
+  {
+    "content": "a bid accessibility pass and and Microsoft has been great at this they",
+    "start": 1135
+  },
+  {
+    "content": "are looking at the accessibility of all of the form elements and making it",
+    "start": 1140
+  },
+  {
+    "content": "better out of the gate we're also going to in the next phase of the project",
+    "start": 1144
+  },
+  {
+    "content": "start improving style ability and Microsoft plans to start with select",
+    "start": 1149
+  },
+  {
+    "content": "which i think is awesome we also want to add new components and",
+    "start": 1153
+  },
+  {
+    "content": "elements and so I would love to hear what you think this is where you can",
+    "start": 1157
+  },
+  {
+    "content": "help so our twitter handles stubborn ella and",
+    "start": 1162
+  },
+  {
+    "content": "greg wentworth are right there on the screen I would love it if you tweeted to",
+    "start": 1165
+  },
+  {
+    "content": "me and tell me what components you think make sense to be added to the browser",
+    "start": 1170
+  },
+  {
+    "content": "what is it that you're having to build over and over again what would make your",
+    "start": 1174
+  },
+  {
+    "content": "life easier if you're maintaining a design system ok next section we're",
+    "start": 1178
+  },
+  {
+    "content": "gonna go and talk about our metrics a little bit because our metrics don't",
+    "start": 1188
+  },
+  {
+    "content": "really fully capture UX outcomes right now let's start with a multi-page op we",
+    "start": 1191
+  },
+  {
+    "content": "have a first page load and then we have subsequent page loads that are quicker",
+    "start": 1199
+  },
+  {
+    "content": "because some stuff is in cache but also still take a fair bit of time",
+    "start": 1202
+  },
+  {
+    "content": "with a single-page app we have a first page load that's maybe a little longer",
+    "start": 1208
+  },
+  {
+    "content": "although I don't think that has to be the case and then our single page app",
+    "start": 1211
+  },
+  {
+    "content": "transitions are super quick they might only be 250 milliseconds",
+    "start": 1215
+  },
+  {
+    "content": "now obviously the size of these boxes is completely made up so don't get your",
+    "start": 1220
+  },
+  {
+    "content": "measuring tapes out but you have some decisions to make about your user",
+    "start": 1225
+  },
+  {
+    "content": "experience here what I would suggest is that you think about your session depth",
+    "start": 1230
+  },
+  {
+    "content": "if you have a large session depth say 3 or 4 sessions then you're going to want",
+    "start": 1234
+  },
+  {
+    "content": "to probably choose a single page experience if you have a very small",
+    "start": 1239
+  },
+  {
+    "content": "number of sessions per sorry a depth per session then you're probably going to",
+    "start": 1244
+  },
+  {
+    "content": "want to go with something that optimizes that first load more loading is still",
+    "start": 1249
+  },
+  {
+    "content": "important either way and the nice thing about having some of your content be",
+    "start": 1254
+  },
+  {
+    "content": "static is that you don't have that that trade-off so it's super clear that",
+    "start": 1258
+  },
+  {
+    "content": "you've been grappling with UX trade-offs that our metrics don't fully capture",
+    "start": 1265
+  },
+  {
+    "content": "we've pretty good measurements for that first page load and they tell us time to",
+    "start": 1269
+  },
+  {
+    "content": "pixels on the screen and interactivity but we don't have very good single page",
+    "start": 1273
+  },
+  {
+    "content": "app hydration time and transition time metrics one thing you can do if you're",
+    "start": 1278
+  },
+  {
+    "content": "thinking yeah those static pages they load really really fast but my app it's",
+    "start": 1283
+  },
+  {
+    "content": "got all these dynamic parts you don't have to choose one or the other you can",
+    "start": 1288
+  },
+  {
+    "content": "have static pages for the bits of your app that are static and dynamic pages",
+    "start": 1292
+  },
+  {
+    "content": "for the bits of your app that are dynamic so we're creating some of those",
+    "start": 1296
+  },
+  {
+    "content": "metrics that I talked about right now and we need partners where the real",
+    "start": 1304
+  },
+  {
+    "content": "world react and next steps to work with you can help us a be test some of the",
+    "start": 1308
+  },
+  {
+    "content": "hydration timing and spa metrics that we're putting out please again reach out",
+    "start": 1313
+  },
+  {
+    "content": "to me if you would like to partner next up how do we make that initial load",
+    "start": 1317
+  },
+  {
+    "content": "really really fast so I show this so that we have a you know standard way of",
+    "start": 1326
+  },
+  {
+    "content": "thinking about it but first impressions are really important and there are",
+    "start": 1332
+  },
+  {
+    "content": "certain moments in this timeline of load that matter a lot to the user the first",
+    "start": 1336
+  },
+  {
+    "content": "is when they have you know reasonable pixels on the screen they can kind of",
+    "start": 1341
+  },
+  {
+    "content": "see what you've what you've made but over here we have time to interactive",
+    "start": 1345
+  },
+  {
+    "content": "which is when they can actually do something with it and it's the gap",
+    "start": 1349
+  },
+  {
+    "content": "between those it's actually really important so we had a partner share with",
+    "start": 1352
+  },
+  {
+    "content": "us symmetric that they made called rage clicks and this is basically in that",
+    "start": 1357
+  },
+  {
+    "content": "time between I can see pixels and I can actually do something with the button",
+    "start": 1361
+  },
+  {
+    "content": "the user clicks over and over and over again and the closer you get to win it",
+    "start": 1366
+  },
+  {
+    "content": "hydrates the more they click they are pissed and so I think this is really",
+    "start": 1370
+  },
+  {
+    "content": "important to think about and this is a space where the frameworks that we",
+    "start": 1377
+  },
+  {
+    "content": "choose can have a really big impact so let's talk a little bit about",
+    "start": 1380
+  },
+  {
+    "content": "performance budgets but be a little bit more clear and a little more nuanced",
+    "start": 1387
+  },
+  {
+    "content": "about what our performance budgets mean how can we meet those budgets and have",
+    "start": 1391
+  },
+  {
+    "content": "feature-rich apps so we've said that you need to have your critical resources",
+    "start": 1397
+  },
+  {
+    "content": "loaded for a route in under a hundred and seventy KB that includes CSS j/s",
+    "start": 1402
+  },
+  {
+    "content": "HTML data but it isn't realistic for a lot of feature-rich apps they have to",
+    "start": 1407
+  },
+  {
+    "content": "compete with native apps and the answer can't be let's cut all the features or",
+    "start": 1414
+  },
+  {
+    "content": "users won't use them but it is realistic for the initial resources and I think",
+    "start": 1418
+  },
+  {
+    "content": "this message gets lost sometimes we can do initial code in data and not a",
+    "start": 1424
+  },
+  {
+    "content": "hundreds of 70 Kb and then we load everything else on the page only when",
+    "start": 1429
+  },
+  {
+    "content": "it's needed okay so these are a lot of great ideas",
+    "start": 1435
+  },
+  {
+    "content": "but again we don't all have infinite time to work on whatever we want how do",
+    "start": 1445
+  },
+  {
+    "content": "we make this work by default let's talk about the web's tooling situation as it",
+    "start": 1449
+  },
+  {
+    "content": "stands I think of the web is having a lot of really great raw materials",
+    "start": 1454
+  },
+  {
+    "content": "there's some good stuff in there without without webpack up there but right now",
+    "start": 1460
+  },
+  {
+    "content": "there's definitely some assembly required and if we're honest it's really",
+    "start": 1467
+  },
+  {
+    "content": "massive amounts of assembly required and if we're honest again it's massive",
+    "start": 1472
+  },
+  {
+    "content": "amounts of assembly required by every dev on every project how much time do",
+    "start": 1477
+  },
+  {
+    "content": "you spend on your build system versus on your actual features admit it so this is",
+    "start": 1481
+  },
+  {
+    "content": "new devs they're just like oh my god what is this build system right I wanna",
+    "start": 1489
+  },
+  {
+    "content": "sleep this is me too because I don't I don't adore infor kind of stuff but I",
+    "start": 1493
+  },
+  {
+    "content": "think that the answer lies in meta frameworks they have all of what we need",
+    "start": 1499
+  },
+  {
+    "content": "in order to have really great outcomes they have that client-server integration",
+    "start": 1505
+  },
+  {
+    "content": "that is essential for perf outcomes they can export static and dynamic content",
+    "start": 1509
+  },
+  {
+    "content": "which means that we can do the right thing for the right parts of our app",
+    "start": 1514
+  },
+  {
+    "content": "they already as they're written today improve performance over using a",
+    "start": 1518
+  },
+  {
+    "content": "framework alone and there's room to make them even better so for me I'm really",
+    "start": 1523
+  },
+  {
+    "content": "looking to the future of meta frameworks I kind of believe in a world where",
+    "start": 1529
+  },
+  {
+    "content": "developer experience is more like this it isn't like a whole pile of gears that",
+    "start": 1535
+  },
+  {
+    "content": "you're like wait I in cam install this and then I hook it up to that how",
+    "start": 1539
+  },
+  {
+    "content": "instead it all works a little bit better together and that's why chrome has",
+    "start": 1543
+  },
+  {
+    "content": "decided to invest in next Jas and react we are working on making these",
+    "start": 1549
+  },
+  {
+    "content": "technologies better because we believe that lighting this path forward is going",
+    "start": 1554
+  },
+  {
+    "content": "to make a really big difference to developer and user outcomes now we would",
+    "start": 1559
+  },
+  {
+    "content": "love to work on everything we wish that we could but unfortunately we can't",
+    "start": 1567
+  },
+  {
+    "content": "and so we pair with people Tim is on the next Jays team and these are",
+    "start": 1571
+  },
+  {
+    "content": "our first two PRS that landed one is for granular chunking and the other one is",
+    "start": 1577
+  },
+  {
+    "content": "for shipping modern js2 modern browsers so that the most modern browsers don't",
+    "start": 1586
+  },
+  {
+    "content": "have to get es5 for example and so we're pretty excited to have people a be test",
+    "start": 1590
+  },
+  {
+    "content": "those but again we can't work on everything the first thing we said is we",
+    "start": 1596
+  },
+  {
+    "content": "have a small team if we try and spread our work around all the different meta",
+    "start": 1601
+  },
+  {
+    "content": "frameworks and all the different frameworks we won't do a good job with",
+    "start": 1605
+  },
+  {
+    "content": "anybody and so we decided to invest indexed and react but wished we could",
+    "start": 1608
+  },
+  {
+    "content": "also work with Gatsby and so and view and Knox obviously and so when we see a",
+    "start": 1616
+  },
+  {
+    "content": "comment like this on our PR - next where we have someone saying hey I'd love to",
+    "start": 1623
+  },
+  {
+    "content": "see your data because I want to see if this would also make outcomes better for",
+    "start": 1630
+  },
+  {
+    "content": "Gatsby users we are so happy and we definitely want to want to work with",
+    "start": 1633
+  },
+  {
+    "content": "everybody to share our findings to share our data and figure out whether it's",
+    "start": 1639
+  },
+  {
+    "content": "relevant to their ecosystem - another thing that we're doing again we can't",
+    "start": 1642
+  },
+  {
+    "content": "invest engineering time if we spread it too thin will do nothing but we",
+    "start": 1648
+  },
+  {
+    "content": "definitely wanted to push other ecosystems forward and so we created the",
+    "start": 1654
+  },
+  {
+    "content": "the chrome framework fund and this is a fun to make frameworks and tools better",
+    "start": 1657
+  },
+  {
+    "content": "if you have an idea for a tool that you think could improve performance you can",
+    "start": 1664
+  },
+  {
+    "content": "apply to the framework fund we're particularly interested in anything that",
+    "start": 1668
+  },
+  {
+    "content": "helps Gatsby next and view but come at it with anything you can think of and",
+    "start": 1672
+  },
+  {
+    "content": "we'd love to hear about it thank you so much and again this is my Twitter handle",
+    "start": 1679
+  },
+  {
+    "content": "I'd love to hear from you let me know what components you want and everything",
+    "start": 1687
+  },
+  {
+    "content": "you'd like to see built into the browser [Applause]",
+    "start": 1691
+  },
+  {
+    "content": "you",
+    "start": 1694
+  },
+  {
+    "content": "[Applause]",
+    "start": 1696
+  },
+  {
+    "content": "",
+    "start": 1704
+  }
+]

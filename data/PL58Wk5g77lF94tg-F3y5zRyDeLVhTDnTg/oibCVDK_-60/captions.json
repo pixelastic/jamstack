@@ -1,0 +1,142 @@
+[
+  {
+    "content": "hello",
+    "start": 0
+  },
+  {
+    "content": "my name is bud parr and i run an agency called the new dynamic",
+    "start": 11
+  },
+  {
+    "content": "as well as a community for jam stack enthusiasts also called the new dynamic",
+    "start": 14
+  },
+  {
+    "content": "long ago at my agency we picked hugo as our tool of choice for a few simple",
+    "start": 18
+  },
+  {
+    "content": "reasons for the work we do we needed a tool that",
+    "start": 22
+  },
+  {
+    "content": "would give us stability speed and ease of use across a wide variety of",
+    "start": 24
+  },
+  {
+    "content": "cases in short hugo works from simple sites to",
+    "start": 28
+  },
+  {
+    "content": "enterprise scale we increasingly get called upon to build",
+    "start": 32
+  },
+  {
+    "content": "large multi-faceted projects and because hugo is a binary application",
+    "start": 35
+  },
+  {
+    "content": "we never have to worry about our sites breaking in the years to come",
+    "start": 40
+  },
+  {
+    "content": "we really value that stability when most people learn about hugo",
+    "start": 43
+  },
+  {
+    "content": "they hear about its super fast build times which remains an incredible",
+    "start": 47
+  },
+  {
+    "content": "advantage particularly as your sites grow in size",
+    "start": 51
+  },
+  {
+    "content": "and complexity we can't ask our users to wait around",
+    "start": 54
+  },
+  {
+    "content": "for their site to go live so we chose a tool that doesn't make",
+    "start": 57
+  },
+  {
+    "content": "them what's amazing is the hugo just keeps getting faster an",
+    "start": 60
+  },
+  {
+    "content": "upcoming release will unleash hugo for even the largest sites",
+    "start": 65
+  },
+  {
+    "content": "with even faster builds at scale and recently",
+    "start": 68
+  },
+  {
+    "content": "bjorn eric hugo's lead developer solved one of our biggest workflow issues in",
+    "start": 71
+  },
+  {
+    "content": "bringing our asset pipeline into hugo's build process",
+    "start": 76
+  },
+  {
+    "content": "that includes es6 bundling and post css or sas builds",
+    "start": 78
+  },
+  {
+    "content": "no more waiting for webpack to do its thing on top of that",
+    "start": 82
+  },
+  {
+    "content": "hugo has a host of image processing capabilities so we're not reliant on",
+    "start": 86
+  },
+  {
+    "content": "third parties to optimize our site at all last year we started using hugo",
+    "start": 89
+  },
+  {
+    "content": "modules this new feature has allowed us to pull",
+    "start": 94
+  },
+  {
+    "content": "in components from any repository to use in our sites",
+    "start": 96
+  },
+  {
+    "content": "this is like having your own npm but really fast and without the headaches",
+    "start": 99
+  },
+  {
+    "content": "it's been a game changer for us hugo modules has allowed us to create",
+    "start": 104
+  },
+  {
+    "content": "distribute and reuse our own modules looking down the line there's been work",
+    "start": 107
+  },
+  {
+    "content": "and progress for hugo to build pages from external data sources",
+    "start": 111
+  },
+  {
+    "content": "while this is possible today with tools that stackbit or others have built",
+    "start": 115
+  },
+  {
+    "content": "when that becomes native to hugo it will be an unbeatable tool pushing jamstack",
+    "start": 119
+  },
+  {
+    "content": "further so if you haven't considered using hugo",
+    "start": 123
+  },
+  {
+    "content": "in your work there's never been a better time to do so",
+    "start": 125
+  },
+  {
+    "content": "thank you you",
+    "start": 129
+  }
+]

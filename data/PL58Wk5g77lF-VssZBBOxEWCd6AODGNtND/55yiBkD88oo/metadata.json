@@ -1,0 +1,31 @@
+{
+  "description": "How do you protect sensitive data like API keys on the Jamstack? in this episode, Joyce Lin teaches us how to use Postman to rapidly prototype and develop secure Jamstack apps!\n\n- demo: https://secure-jamstack-api-requests.netlify.app/\n- repo: https://github.com/jlengstorf/secure-jamstack-api-requests\n\nLinks:\n- https://docs.netlify.com/functions/build-with-javascript/?utm_source=learnwithjason&utm_medium=protect-secrets-jl&utm_campaign=devex\n- https://www.postman.com/\n- https://unsplash.com/documentation\n- https://github.com/netlify/cli/blob/master/docs/netlify-dev.md\n- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch\n- https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\n- https://www.twitch.tv/getpostman\n\nWatch future episodes live at https://www.twitch.tv/jlengstorf\n\nCredits:\n\nLocal Elevator by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300012\n\nArtist: http://incompetech.com/\n\nBusybody by Audionautix is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\n\nArtist: http://audionautix.com/\n\nAdditional sound effects obtained from https://www.zapsplat.com",
+  "duration": {
+    "minutes": 88,
+    "seconds": 15
+  },
+  "id": "55yiBkD88oo",
+  "publishedAt": 1588787156,
+  "ranking": {
+    "likes": 20,
+    "views": 1146
+  },
+  "tags": [
+    "JAMstack",
+    "Javascript",
+    "ami",
+    "markdown",
+    "apps",
+    "secret keys",
+    "postman",
+    "Learn With Jason"
+  ],
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/55yiBkD88oo/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/55yiBkD88oo/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/55yiBkD88oo/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/55yiBkD88oo/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/55yiBkD88oo/default.jpg"
+  },
+  "title": "Protect Secret Keys in Jamstack Apps (with Joyce Lin) — Learn With Jason"
+}

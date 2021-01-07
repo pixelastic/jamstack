@@ -1,0 +1,14 @@
+{
+  "description": "What is a progressive static site? How do they work? Let’s explore the motivations, challenges and API design decisions that went into building React Static. You’ll learn how progressive static site generators work and if React Static is the right tool for your next project!\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
+  "id": "zYHEAcMLjhs",
+  "position": 2,
+  "publishedAt": 1556317259,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/zYHEAcMLjhs/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/zYHEAcMLjhs/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/zYHEAcMLjhs/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/zYHEAcMLjhs/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/zYHEAcMLjhs/default.jpg"
+  },
+  "title": "Tanner Linsley - React Static & Progressive Static Site Generation"
+}

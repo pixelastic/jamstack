@@ -1,0 +1,1998 @@
+[
+  {
+    "content": "so next up we have West Barracuda boss",
+    "start": 0
+  },
+  {
+    "content": "talking to us about getting better at JavaScript with plain JavaScript all",
+    "start": 6
+  },
+  {
+    "content": "right hey folks last talk of the day don't I'm supposed to say something",
+    "start": 19
+  },
+  {
+    "content": "about like the only thing that stands between me and you and beers just as my",
+    "start": 27
+  },
+  {
+    "content": "talk so I won't keep you long right I might keep you long",
+    "start": 32
+  },
+  {
+    "content": "all right so um are my slides up I can't see them no somebody turned them on",
+    "start": 40
+  },
+  {
+    "content": "beautiful so before we get into anything dad jokes I appreciate them I have a",
+    "start": 47
+  },
+  {
+    "content": "github repo full of currently 102 dad jokes so if you want more like I could",
+    "start": 53
+  },
+  {
+    "content": "do an hour here of just dad jokes if we wanted to they're pretty funny I think I",
+    "start": 61
+  },
+  {
+    "content": "didn't make them all up so if you're offended by the some of them I'm sorry",
+    "start": 66
+  },
+  {
+    "content": "but most of them are pretty tame all right let's jump sorry",
+    "start": 69
+  },
+  {
+    "content": "triple w dot github.com ford slash west boss ford slash dad best jokes or just",
+    "start": 76
+  },
+  {
+    "content": "search dad jokes I'm sure it's number one on github all right my name is Wes",
+    "start": 85
+  },
+  {
+    "content": "I'm coming from Canada which is why I say whoo any Canadians in the house yes",
+    "start": 90
+  },
+  {
+    "content": "although like jam stack people are Canadian for some reason I make web",
+    "start": 95
+  },
+  {
+    "content": "development course has anyone ever taken one of my courses before awesome anyone",
+    "start": 101
+  },
+  {
+    "content": "ever listen to my podcast called syntax yes beautiful",
+    "start": 105
+  },
+  {
+    "content": "it's that syntax mmm these slides are going to be available after the talk I'm",
+    "start": 109
+  },
+  {
+    "content": "at West vos on Twitter I'm gonna go through this quickly because I have so",
+    "start": 113
+  },
+  {
+    "content": "much cool stuff I want to show you today so I'm calling this talk getting better",
+    "start": 116
+  },
+  {
+    "content": "at JavaScript and it's just a mixed bags of tips and techniques and just things",
+    "start": 121
+  },
+  {
+    "content": "that like I build websites every single day and these are the things in",
+    "start": 126
+  },
+  {
+    "content": "JavaScript that I find extremely helpful regardless of if you're building in a",
+    "start": 130
+  },
+  {
+    "content": "react or vanilla JavaScript or whatever you're doing we all have JavaScript as",
+    "start": 135
+  },
+  {
+    "content": "the core base for building our websites and these are things I think are going",
+    "start": 140
+  },
+  {
+    "content": "to make you a better JavaScript developer so first one my lunch got",
+    "start": 144
+  },
+  {
+    "content": "eaten on that last talk which is intersection observer I'm gonna talk to",
+    "start": 148
+  },
+  {
+    "content": "you about it anyway it shows you when is an element on the screen partially on",
+    "start": 153
+  },
+  {
+    "content": "the screen all the way off the screen so here's my stupid though I don't know how",
+    "start": 157
+  },
+  {
+    "content": "to make graphics so I made this to just sort of visualize you get the point when",
+    "start": 161
+  },
+  {
+    "content": "the puppy is on the screen and we want to do something with it so with",
+    "start": 168
+  },
+  {
+    "content": "intersection observer we can be alerted when an element is fully or partially",
+    "start": 171
+  },
+  {
+    "content": "scrolled into view so some uses for that if you want to animate an element in on",
+    "start": 175
+  },
+  {
+    "content": "scroll you want to play a video when somebody Scrolls into it you want to",
+    "start": 179
+  },
+  {
+    "content": "lazy load images like we just saw on the last talk or just like data reporting",
+    "start": 183
+  },
+  {
+    "content": "like is this ad actually getting viewed by people are people scrolling that much",
+    "start": 188
+  },
+  {
+    "content": "further you can use it with sticky headers as well so here's a stupid",
+    "start": 193
+  },
+  {
+    "content": "example that it came up with where has really obnoxious pigs that zoom in and",
+    "start": 197
+  },
+  {
+    "content": "out as you scroll in it and all I'm doing there is is adding and removing a",
+    "start": 202
+  },
+  {
+    "content": "class same thing with you can sort of mimic the sticky header effect with",
+    "start": 206
+  },
+  {
+    "content": "something like this you can tell when something is and isn't on top scrolled",
+    "start": 211
+  },
+  {
+    "content": "into view so um when I was actually building this talk talking about this is",
+    "start": 215
+  },
+  {
+    "content": "really cool intersection observer I've I wonder where like I could use that in my",
+    "start": 221
+  },
+  {
+    "content": "own application and then I was going through this and I was like you know",
+    "start": 225
+  },
+  {
+    "content": "what like my machine is just like firing up because I have all these video demos",
+    "start": 229
+  },
+  {
+    "content": "in my slide deck and I need to like somehow pause them when they're not",
+    "start": 234
+  },
+  {
+    "content": "on-screen and I was like oh perfect I could just loop over every single video",
+    "start": 239
+  },
+  {
+    "content": "and say when a video is on the screen then play it and when a video is off the",
+    "start": 244
+  },
+  {
+    "content": "screen then pause it right very simple I didn't need to hook into my slide deck",
+    "start": 250
+  },
+  {
+    "content": "API for on-click or anything crazy like that I'd just say like if it's showing",
+    "start": 254
+  },
+  {
+    "content": "play it so here's how it works first thing you do is you set up some options",
+    "start": 259
+  },
+  {
+    "content": "you give it like a scrolling div or you give it the body by default",
+    "start": 263
+  },
+  {
+    "content": "you can give it some margin if you have some offsets and then you tell it what",
+    "start": 268
+  },
+  {
+    "content": "the threshold is so in this case I want to be alerted when the element is zero",
+    "start": 271
+  },
+  {
+    "content": "off screen 1/2 on screen and totally on screen then you create a new empty",
+    "start": 276
+  },
+  {
+    "content": "intersection observer you pass it a callback and what that will do is it's",
+    "start": 283
+  },
+  {
+    "content": "going to give you an array of all of the elements that you are currently watching",
+    "start": 288
+  },
+  {
+    "content": "so in my video example an array of all the current videos in there that you can",
+    "start": 293
+  },
+  {
+    "content": "go ahead and loop over each of them and you're going to get two important",
+    "start": 299
+  },
+  {
+    "content": "properties entry dot is intersecting true or false and entry intersection",
+    "start": 303
+  },
+  {
+    "content": "ratio that's going to tell you exactly how much that element is currently",
+    "start": 308
+  },
+  {
+    "content": "scrolled into the viewport from there on out you can add or remove classes you",
+    "start": 312
+  },
+  {
+    "content": "can fire network requests to download images you can download code bundles for",
+    "start": 318
+  },
+  {
+    "content": "links that are contained inside the view the sky's the limit at that point then",
+    "start": 323
+  },
+  {
+    "content": "you go ahead and loop over all the elements that you wish to observe so it",
+    "start": 327
+  },
+  {
+    "content": "might be a video tag it might be link tags might be just a div that you care",
+    "start": 331
+  },
+  {
+    "content": "about that has maybe some sort of add inside of it and you observe on it when",
+    "start": 335
+  },
+  {
+    "content": "that does trigger when the observer triggers you get a whole bunch of",
+    "start": 341
+  },
+  {
+    "content": "helpful information most notably you get the intersection ratio but you also get",
+    "start": 344
+  },
+  {
+    "content": "information about like how big is this element the X the Y the width the height",
+    "start": 350
+  },
+  {
+    "content": "which is very handy for measuring things sort of in the same thread we now have",
+    "start": 353
+  },
+  {
+    "content": "resize observer which is per element resize events right now like before this",
+    "start": 358
+  },
+  {
+    "content": "the only resize event that we had was window so it's pretty simple you just",
+    "start": 363
+  },
+  {
+    "content": "grab onto an element you wait for it to be resized and when it's resized the",
+    "start": 368
+  },
+  {
+    "content": "browser will let you know when or everything about it the X the Y the",
+    "start": 374
+  },
+  {
+    "content": "width and the height and it turns out this is really handy for measuring",
+    "start": 379
+  },
+  {
+    "content": "elements if you need to do things like animating height:auto",
+    "start": 383
+  },
+  {
+    "content": "or whatnot there's some really cool hooks in react that just give you like a",
+    "start": 386
+  },
+  {
+    "content": "live variable of the width and the height of the actual element it works",
+    "start": 390
+  },
+  {
+    "content": "like this very similar you create a new resize observer you get a callback with",
+    "start": 395
+  },
+  {
+    "content": "all of the entry and then inside of that entry you get",
+    "start": 400
+  },
+  {
+    "content": "information about how big is the actual element this is really like a gateway",
+    "start": 404
+  },
+  {
+    "content": "drug to element queries element queries is this thing that we've wanted in CSS",
+    "start": 409
+  },
+  {
+    "content": "for a long time where I don't want to size things based on the viewport",
+    "start": 413
+  },
+  {
+    "content": "I want to size things based on how big they are where they are in my",
+    "start": 418
+  },
+  {
+    "content": "application right the your your component might be sized differently",
+    "start": 421
+  },
+  {
+    "content": "depending on what sort of container it's inside so this is just very simple look",
+    "start": 425
+  },
+  {
+    "content": "at the first couple lines of code here I just say if the width is greater than",
+    "start": 430
+  },
+  {
+    "content": "400 then make the size large otherwise make it medium otherwise make it small",
+    "start": 434
+  },
+  {
+    "content": "and then at that point I can simply just add a class of small medium or large to",
+    "start": 438
+  },
+  {
+    "content": "my element and that gives me something like this where I'm not resizing the the",
+    "start": 443
+  },
+  {
+    "content": "browser here I'm just resizing the video which in",
+    "start": 448
+  },
+  {
+    "content": "turn resizes the like the list of videos on the side and depending on how big",
+    "start": 451
+  },
+  {
+    "content": "that list of videos is then I want to add or remove classes so I can style it",
+    "start": 458
+  },
+  {
+    "content": "a little bit differently ideally we would need any JavaScript for this but",
+    "start": 464
+  },
+  {
+    "content": "for now it's it's actually not a bad option especially if you're using",
+    "start": 468
+  },
+  {
+    "content": "something like react where you're running JavaScript anyway and you can",
+    "start": 470
+  },
+  {
+    "content": "easily add and remove those classes so next up is Dom element methods so this",
+    "start": 474
+  },
+  {
+    "content": "is just like as we call vanilla JavaScript but these are some that I",
+    "start": 481
+  },
+  {
+    "content": "find particularly helpful even if you are running in react or angular or one",
+    "start": 486
+  },
+  {
+    "content": "of these frameworks so the first one is dock closest so anytime you have an",
+    "start": 492
+  },
+  {
+    "content": "element there's a method on it that is that closest this is going to find the",
+    "start": 496
+  },
+  {
+    "content": "closest ancestor the closest parent grandparent a great grandparent that",
+    "start": 500
+  },
+  {
+    "content": "matches the past selector so let's look at these cards I got a div with two",
+    "start": 506
+  },
+  {
+    "content": "cards inside of it and then I've got some buttons in each of those cards when",
+    "start": 510
+  },
+  {
+    "content": "I click the button I want to remove the card right and you can probably think to",
+    "start": 516
+  },
+  {
+    "content": "you're back back to your old jQuery days where you'd like go up three levels over",
+    "start": 520
+  },
+  {
+    "content": "two levels down three levels with closest what you can do is you can just",
+    "start": 524
+  },
+  {
+    "content": "say like okay someone clicked the delete button now let me just",
+    "start": 529
+  },
+  {
+    "content": "start searching up the the Dom tree for something that matches this selector in",
+    "start": 535
+  },
+  {
+    "content": "our case dot card and then go ahead and and remove it out of there it's really",
+    "start": 541
+  },
+  {
+    "content": "cool because it takes like complex CSS selectors so pretty much anything you",
+    "start": 548
+  },
+  {
+    "content": "can think of in CSS will also work inside of here so this will return the",
+    "start": 552
+  },
+  {
+    "content": "closest ancestor that is a div and has a parent article so you could say like",
+    "start": 557
+  },
+  {
+    "content": "yeah give me the div well only the one that has a direct parent that is an",
+    "start": 562
+  },
+  {
+    "content": "article so you you might not know necessarily how many divs are nested",
+    "start": 566
+  },
+  {
+    "content": "inside of this element but you want to find the one that's directly underneath",
+    "start": 570
+  },
+  {
+    "content": "the opening article tag you can chain them with multiple knots which is pretty",
+    "start": 574
+  },
+  {
+    "content": "cool and this is extremely helpful for clique",
+    "start": 579
+  },
+  {
+    "content": "outside like how many of you have written click outside like eighty times",
+    "start": 584
+  },
+  {
+    "content": "in your career right sucks it's always like oh this that's easy right and they",
+    "start": 588
+  },
+  {
+    "content": "like oh no there's this little weird case and the vents bubble and there's",
+    "start": 592
+  },
+  {
+    "content": "all this like kind of tricky stuff with it well close this actually makes it",
+    "start": 596
+  },
+  {
+    "content": "really simple where you take the document or the window and you listen",
+    "start": 599
+  },
+  {
+    "content": "for a click at the very high level and then what you do is you say in our case",
+    "start": 603
+  },
+  {
+    "content": "dot modal inner is the the inside right that's the the white part so what we say",
+    "start": 610
+  },
+  {
+    "content": "is if it's not the modal inner so like if it can't find the element modal inner",
+    "start": 616
+  },
+  {
+    "content": "meaning that you never clicked anything inside of the modal inner or the modal",
+    "start": 622
+  },
+  {
+    "content": "inner itself then you're outside otherwise you're inside and then you can",
+    "start": 626
+  },
+  {
+    "content": "just go ahead and close your modal box or anything anymore like that so that",
+    "start": 631
+  },
+  {
+    "content": "takes that like sort of hard thing which was click outside and makes it just a",
+    "start": 635
+  },
+  {
+    "content": "simple one-liner dot matches does an element match the selector so here when",
+    "start": 639
+  },
+  {
+    "content": "you click on a button and you often need to check if that button has specific",
+    "start": 648
+  },
+  {
+    "content": "attributes and in our case I could say like if the current target has a class",
+    "start": 653
+  },
+  {
+    "content": "of available and it also has a data set which in turn has a property called",
+    "start": 658
+  },
+  {
+    "content": "price or you could just say like it doesn't match the",
+    "start": 664
+  },
+  {
+    "content": "that I have available and has a data - price available to it and maybe in that",
+    "start": 667
+  },
+  {
+    "content": "case you only wanted people to click a button when it had a class of available",
+    "start": 672
+  },
+  {
+    "content": "in a price set I find this extremely helpful for what's called event",
+    "start": 676
+  },
+  {
+    "content": "delegation so let's picture you have an unordered list with a bunch of list",
+    "start": 682
+  },
+  {
+    "content": "items inside of that and that unordered list you you've created and it's in the",
+    "start": 687
+  },
+  {
+    "content": "Dom but those list items are added and removed via your JavaScript code so the",
+    "start": 691
+  },
+  {
+    "content": "downside to that is that you would have to like add and remove event listeners",
+    "start": 696
+  },
+  {
+    "content": "on each of those list items every single time you add or remove one but in this",
+    "start": 700
+  },
+  {
+    "content": "case what you can do is you can delegate the clicking of that those list items to",
+    "start": 705
+  },
+  {
+    "content": "the parent that you know will always be there and then you say when somebody",
+    "start": 710
+  },
+  {
+    "content": "clicks the UL check if they actually clicked a list item inside of it or",
+    "start": 715
+  },
+  {
+    "content": "check if they actually clicked a button inside of it so if the target of the",
+    "start": 720
+  },
+  {
+    "content": "click was actually a button and not just on the regular unordered list then go",
+    "start": 725
+  },
+  {
+    "content": "ahead and do something and in my case go ahead and delete item in this case I",
+    "start": 731
+  },
+  {
+    "content": "only have one event listener and not know nine or ten based on how many items",
+    "start": 734
+  },
+  {
+    "content": "are in that list that contains this is pretty simple you you have an element",
+    "start": 738
+  },
+  {
+    "content": "and you want to check if another element is inside of it if you have reference to",
+    "start": 748
+  },
+  {
+    "content": "that element you can just say if it's inside of it it's docked contains if you",
+    "start": 751
+  },
+  {
+    "content": "want to pass it a selector like we were doing in the previous examples you can",
+    "start": 756
+  },
+  {
+    "content": "just use regular old query selector or if you want just a boolean you can use",
+    "start": 760
+  },
+  {
+    "content": "the double bang operator to coerce it into a boolean next up is bling Jas this",
+    "start": 764
+  },
+  {
+    "content": "is actually not new this is probably I don't know maybe four years old anyone",
+    "start": 771
+  },
+  {
+    "content": "ever use bling j/s before no so I think that this is the best eleven lines of",
+    "start": 775
+  },
+  {
+    "content": "code if you're writing any this is not necessarily for a framework but if",
+    "start": 780
+  },
+  {
+    "content": "you're whipping up a quick vanilla JavaScript website bling jazz is going",
+    "start": 783
+  },
+  {
+    "content": "to go a long way so these are the eleven lines that we have here and what we're",
+    "start": 788
+  },
+  {
+    "content": "going to do is we're going to break them down into understanding what each of",
+    "start": 792
+  },
+  {
+    "content": "those do so the first part is this one window dollar",
+    "start": 796
+  },
+  {
+    "content": "window dollar dollar this is obviously trying to mimic sort of a jQuery API",
+    "start": 801
+  },
+  {
+    "content": "instead of using the extremely hard to type and easy to misspell document query",
+    "start": 805
+  },
+  {
+    "content": "selector all you can use dollar and dollar dollar in order to short a short",
+    "start": 810
+  },
+  {
+    "content": "cut those two document query selector you may even know that in chrome dev",
+    "start": 815
+  },
+  {
+    "content": "tools those are already shortcutted for you which is pretty cool you don't have",
+    "start": 820
+  },
+  {
+    "content": "to type document that query selector all so if you want to go ahead and select",
+    "start": 825
+  },
+  {
+    "content": "one element use the single dollar if you want to select multiple elements use the",
+    "start": 828
+  },
+  {
+    "content": "double dollar some people do it all in one sort of like the magic of jQuery but",
+    "start": 832
+  },
+  {
+    "content": "I prefer not to get to stray too far from the light of vanilla JavaScript and",
+    "start": 836
+  },
+  {
+    "content": "keep it as standard as I can next one is you take any node and you modify the",
+    "start": 842
+  },
+  {
+    "content": "prototype to add a method called on and you also add a method called on on a",
+    "start": 848
+  },
+  {
+    "content": "window and all that does is it just makes a new method which in turn will",
+    "start": 852
+  },
+  {
+    "content": "add an event listener to the the actual element itself so instead of doing",
+    "start": 857
+  },
+  {
+    "content": "document out query selector card out event listener click handle click you",
+    "start": 862
+  },
+  {
+    "content": "can somebody select the element check for say on click and then you can handle",
+    "start": 867
+  },
+  {
+    "content": "the click which is a nice clean API this one is pretty cool so a node list does",
+    "start": 873
+  },
+  {
+    "content": "not have all of the methods that an array does so node list has like dot for",
+    "start": 880
+  },
+  {
+    "content": "each and I think that's about it there's a couple other methods on there but it",
+    "start": 886
+  },
+  {
+    "content": "doesn't have like map introduced and all of the methods that you used to on a",
+    "start": 891
+  },
+  {
+    "content": "proper array so you can just quickly modify the prototype and you have access",
+    "start": 894
+  },
+  {
+    "content": "to doing things like mapping over multiple found elements there's another",
+    "start": 899
+  },
+  {
+    "content": "example that we have there alright next section that we have here is called data",
+    "start": 907
+  },
+  {
+    "content": "massaging and these are just the tips and tricks or you get an array or an",
+    "start": 912
+  },
+  {
+    "content": "object of data you need to modify it somehow and then you need to send that",
+    "start": 917
+  },
+  {
+    "content": "data off or display it to the user or something like there's a lot of what we",
+    "start": 922
+  },
+  {
+    "content": "do is trying to force data into the form factor that we're working with so the",
+    "start": 926
+  },
+  {
+    "content": "first one is a method a static method on array called a raid",
+    "start": 931
+  },
+  {
+    "content": "from and it will turn what's called an iterable into an array and the very",
+    "start": 935
+  },
+  {
+    "content": "simplest iterable that you have is just an object with a length property and I",
+    "start": 940
+  },
+  {
+    "content": "very often find myself wanting to like I need an array with ten slots inside of",
+    "start": 946
+  },
+  {
+    "content": "our Indian array with ten items in it and and I need to fill those items with",
+    "start": 952
+  },
+  {
+    "content": "something right so here you can do is you can say array from you give it a",
+    "start": 957
+  },
+  {
+    "content": "length of three and then the second argument to array from is a map function",
+    "start": 962
+  },
+  {
+    "content": "that works exactly like a normal dot map function on an array so whatever is",
+    "start": 967
+  },
+  {
+    "content": "returned from your map function will be populated into the array so where is",
+    "start": 972
+  },
+  {
+    "content": "that useful well I find myself need to make an array",
+    "start": 977
+  },
+  {
+    "content": "full of like day 1 day 2 day 3 day 4 etc so instead of just manually typing out",
+    "start": 981
+  },
+  {
+    "content": "that array I'll quickly just generate it or something like that",
+    "start": 987
+  },
+  {
+    "content": "also one really good use case for this is like how many of you have ever done a",
+    "start": 992
+  },
+  {
+    "content": "quick google of array of weekday names or array of months right and like we all",
+    "start": 998
+  },
+  {
+    "content": "do that we're like why is there no array of month names in the browser and it",
+    "start": 1005
+  },
+  {
+    "content": "turns out you can generate it you probably want to like memorize this or",
+    "start": 1010
+  },
+  {
+    "content": "something like that because it doesn't make sense to generate it on every load",
+    "start": 1013
+  },
+  {
+    "content": "but what you can do is you take array from give yourself length of 12 because",
+    "start": 1016
+  },
+  {
+    "content": "there's 12 months in a year and then you map over each of those spots and you",
+    "start": 1021
+  },
+  {
+    "content": "take the index of the array and turn that and you create a new date and you",
+    "start": 1025
+  },
+  {
+    "content": "don't care about any of the other parts of the date you just care about the",
+    "start": 1031
+  },
+  {
+    "content": "month so you set the month of the date to be the index and then you can use",
+    "start": 1034
+  },
+  {
+    "content": "this pretty handy little dot to local string method it's on on dates",
+    "start": 1040
+  },
+  {
+    "content": "there's also it's also on number and int L which will allow you to format things",
+    "start": 1047
+  },
+  {
+    "content": "that are internationalized currency and end dates are probably the two biggest",
+    "start": 1053
+  },
+  {
+    "content": "ones and that's cool because you can pass it an actual code or I think if you",
+    "start": 1059
+  },
+  {
+    "content": "pass undefined it will detect it from the user's browser so",
+    "start": 1065
+  },
+  {
+    "content": "you could automatically just inherit that from the user settings and then it",
+    "start": 1069
+  },
+  {
+    "content": "will just give you the month names or the weekday names from the user settings",
+    "start": 1074
+  },
+  {
+    "content": "it's kind of cool there's a bunch of different settings",
+    "start": 1080
+  },
+  {
+    "content": "that you have there you can depending on if you wanted to display it in long or",
+    "start": 1082
+  },
+  {
+    "content": "in short next up is unique F I suppose a pretty simple little tip you have an",
+    "start": 1086
+  },
+  {
+    "content": "array bunch of items inside of it if you put that array into a set a set as a new",
+    "start": 1093
+  },
+  {
+    "content": "sort of array like thing in JavaScript if you pass it it will just",
+    "start": 1098
+  },
+  {
+    "content": "automatically remove duplicates this does not work for objects in nested",
+    "start": 1103
+  },
+  {
+    "content": "arrays just for Strings and numbers and boolean's and things like that",
+    "start": 1107
+  },
+  {
+    "content": "but what's cool is you can just turn it around again and put it back into an",
+    "start": 1111
+  },
+  {
+    "content": "array and that's just a really cheap quick way using array from or you can",
+    "start": 1115
+  },
+  {
+    "content": "use the spread operator I'll talk about that in just a second so that's how",
+    "start": 1119
+  },
+  {
+    "content": "spread and rest those three little dots you probably see a lot they either mean",
+    "start": 1126
+  },
+  {
+    "content": "that they are spread or a rest so here are some use cases for spread and rest",
+    "start": 1132
+  },
+  {
+    "content": "first if you need to copy an object you don't need to use object dot assign you",
+    "start": 1136
+  },
+  {
+    "content": "can just create a new object literal with curly brackets and then spread it",
+    "start": 1142
+  },
+  {
+    "content": "like butter into the new object and that will take every property from the array",
+    "start": 1146
+  },
+  {
+    "content": "and put it into the new that doesn't do a deep copy that just does top level so",
+    "start": 1150
+  },
+  {
+    "content": "if you have a nested object that will still be a reference you can also this",
+    "start": 1155
+  },
+  {
+    "content": "is something I use a lot where if I'm like on the server side and I need to",
+    "start": 1159
+  },
+  {
+    "content": "duplicate an entry in the database there's one thing that you don't need to",
+    "start": 1163
+  },
+  {
+    "content": "duplicate and that's generally the ID of the element so you can either like",
+    "start": 1167
+  },
+  {
+    "content": "overwrite that so spread the entire thing that will include the ID but if",
+    "start": 1172
+  },
+  {
+    "content": "you you if you have a property twice in an object it will simply just overwrite",
+    "start": 1176
+  },
+  {
+    "content": "the earlier one and you don't have to worry about like database errors or",
+    "start": 1180
+  },
+  {
+    "content": "something like that another thing I often do is if you're sending this data",
+    "start": 1185
+  },
+  {
+    "content": "to the database it usually brings back the record with an ID you don't give it",
+    "start": 1190
+  },
+  {
+    "content": "the ID it gives you the ID right so what you can use is in this case this is not",
+    "start": 1196
+  },
+  {
+    "content": "a spread this is called a rest where you structure the ID and that gets thrown",
+    "start": 1200
+  },
+  {
+    "content": "out I know there's a es lint rule I'll probably yell at you there you can turn",
+    "start": 1205
+  },
+  {
+    "content": "it off and second this will sort of collect the rest right so we want to do",
+    "start": 1209
+  },
+  {
+    "content": "structure the ID and then the rest goes into an object called without ID and",
+    "start": 1217
+  },
+  {
+    "content": "that will give you all the property values minus the actual ID that you D",
+    "start": 1222
+  },
+  {
+    "content": "structured earlier this works really well with arrays as well so I've got two",
+    "start": 1226
+  },
+  {
+    "content": "arrays here names and cousins these are two arrays and we do this all the time",
+    "start": 1231
+  },
+  {
+    "content": "we need to merge them or unify them or something like that so very easy way to",
+    "start": 1236
+  },
+  {
+    "content": "copy an array is to simply just create a new array literal spread that existing",
+    "start": 1241
+  },
+  {
+    "content": "array into the new array and then you have a new copy of that array and you",
+    "start": 1246
+  },
+  {
+    "content": "don't have to worry about mutating the original array if you want to merge",
+    "start": 1250
+  },
+  {
+    "content": "multiple arrays you simply just spread both of those into the new array if you",
+    "start": 1255
+  },
+  {
+    "content": "want to remove an item from an array this is pretty popular in react and",
+    "start": 1261
+  },
+  {
+    "content": "redux world where if you have an item you want to take out of an array you",
+    "start": 1266
+  },
+  {
+    "content": "can't just pull it out because I don't mutate the original array so you create",
+    "start": 1271
+  },
+  {
+    "content": "a new array and you take everything before the item you want to remove and",
+    "start": 1274
+  },
+  {
+    "content": "everything after the item you want to remove and and then the item that you",
+    "start": 1278
+  },
+  {
+    "content": "want to remove is just left out of the new array and then finally this is",
+    "start": 1283
+  },
+  {
+    "content": "something I use as well quite a bit if you want to reverse an array unlike like",
+    "start": 1287
+  },
+  {
+    "content": "map filter all that reverse doesn't return a new array it actually mutates",
+    "start": 1292
+  },
+  {
+    "content": "the existing array which can lead to some like weird issues so if you take a",
+    "start": 1296
+  },
+  {
+    "content": "quick copy of that array and then run the reverse on it you leave the original",
+    "start": 1301
+  },
+  {
+    "content": "one as it was what are we doing for time here what doing pretty good I think flow",
+    "start": 1305
+  },
+  {
+    "content": "control so how many of you used promises and the sync oh wait everybody good",
+    "start": 1314
+  },
+  {
+    "content": "that's good I'm happy to see that so promises if you don't know promises are",
+    "start": 1319
+  },
+  {
+    "content": "they're sort of like an IOU for something that's going to happen in the",
+    "start": 1324
+  },
+  {
+    "content": "future a promise will either resolve it worked or it will reject something went",
+    "start": 1327
+  },
+  {
+    "content": "wrong and here's the sort of the two ways you can use promises",
+    "start": 1332
+  },
+  {
+    "content": "can get users as a function and that will return a promise where it won't",
+    "start": 1337
+  },
+  {
+    "content": "immediately give you the users but it gives you a promise that it'll it's",
+    "start": 1342
+  },
+  {
+    "content": "gonna do its best to go off and get the users and then you can chain it out then",
+    "start": 1345
+  },
+  {
+    "content": "on to the end which will give you the users or you can a user a sync function",
+    "start": 1350
+  },
+  {
+    "content": "where you await that promise and then actually access the users inside of it",
+    "start": 1354
+  },
+  {
+    "content": "so let's look at some patterns around handling different types of requests",
+    "start": 1360
+  },
+  {
+    "content": "inside of promises so probably the one you might have used is promise dot all",
+    "start": 1366
+  },
+  {
+    "content": "and this will take an array of promises if you have multiple requests going out",
+    "start": 1371
+  },
+  {
+    "content": "you have multiple functions that return a promise and you want to wait for all",
+    "start": 1376
+  },
+  {
+    "content": "of them to resolve then you can just pass them to promise that all in this",
+    "start": 1380
+  },
+  {
+    "content": "case I'm calling get users and get products and then once both of those",
+    "start": 1386
+  },
+  {
+    "content": "have come back I'll be able to go ahead and display them or I hope fraud access",
+    "start": 1391
+  },
+  {
+    "content": "not the method name display the products and pass it the actual products variable",
+    "start": 1398
+  },
+  {
+    "content": "there they run concurrently which means that some like one little like foot gun",
+    "start": 1403
+  },
+  {
+    "content": "that we have with a sync oh wait is that if you have like a wait get users and",
+    "start": 1408
+  },
+  {
+    "content": "then a wait get products you're actually waiting for the users to come back",
+    "start": 1412
+  },
+  {
+    "content": "before you even fire the initial request for the products and that's",
+    "start": 1416
+  },
+  {
+    "content": "unnecessarily slow because your your waterfalling it they're where they",
+    "start": 1420
+  },
+  {
+    "content": "should both be fired off at the exact same time and this ensures that they're",
+    "start": 1424
+  },
+  {
+    "content": "run concurrently and waits for both of them to come back I was using a quick",
+    "start": 1428
+  },
+  {
+    "content": "destructuring there in order to put them into their own variables because promise",
+    "start": 1432
+  },
+  {
+    "content": "all will return you an array of resolved values and you want to take them out",
+    "start": 1436
+  },
+  {
+    "content": "based on the order that you pass them in we also have promised that race or",
+    "start": 1443
+  },
+  {
+    "content": "weight I should say one quick thing about promised at all is that if one of",
+    "start": 1448
+  },
+  {
+    "content": "your promises in promise that all fails it rejects then the whole thing is over",
+    "start": 1452
+  },
+  {
+    "content": "right it's not going to wait until they're all done it just says ah screw",
+    "start": 1457
+  },
+  {
+    "content": "it one's broken we're done let's go to the",
+    "start": 1462
+  },
+  {
+    "content": "catch or let's let's handle the error because something went wrong in one",
+    "start": 1466
+  },
+  {
+    "content": "of them promise that race is won whenever the first one resolves or",
+    "start": 1470
+  },
+  {
+    "content": "rejects so here I have a quick little function called wait takes in an amount",
+    "start": 1476
+  },
+  {
+    "content": "of milliseconds and returns a promise and that promise will resolve itself",
+    "start": 1481
+  },
+  {
+    "content": "after however many milliseconds you asked and it will also return the amount",
+    "start": 1485
+  },
+  {
+    "content": "that you waited for a pretty simple little example of a promise so if you",
+    "start": 1490
+  },
+  {
+    "content": "want to know which one is the fastest or which one comes back first you use",
+    "start": 1496
+  },
+  {
+    "content": "promise trace and it will resolve to you the value of the one that finished first",
+    "start": 1501
+  },
+  {
+    "content": "whereas promise that all will wait for both of them to successfully finish now",
+    "start": 1508
+  },
+  {
+    "content": "we've got two new ones coming down the pipe this one might not make it but I",
+    "start": 1515
+  },
+  {
+    "content": "probably will I'd be willing to bet it well it's it's currently in stage one",
+    "start": 1519
+  },
+  {
+    "content": "which is the first stage of coming to the language and promised on any is when",
+    "start": 1523
+  },
+  {
+    "content": "one resolves or all reject so that's different from promise all because",
+    "start": 1530
+  },
+  {
+    "content": "promise not all remember how I said is if one of those promises fails then",
+    "start": 1537
+  },
+  {
+    "content": "promise that all is done for the day promise that any is a little bit",
+    "start": 1541
+  },
+  {
+    "content": "different in that it waits for the first one to resolve so if three or four of",
+    "start": 1545
+  },
+  {
+    "content": "them fail it's gonna still weigh down I'm still waiting probably one little",
+    "start": 1549
+  },
+  {
+    "content": "will come and and we'll wait for that specific one so these aren't things",
+    "start": 1554
+  },
+  {
+    "content": "you're going to use absolutely every single day but I certainly have found",
+    "start": 1559
+  },
+  {
+    "content": "myself in many situations that needed something like this and it doesn't",
+    "start": 1562
+  },
+  {
+    "content": "totally exist just yet so in this case promise not any I'm waiting for fifty",
+    "start": 1567
+  },
+  {
+    "content": "milliseconds and waiting for 200 milliseconds and that will resolve to me",
+    "start": 1574
+  },
+  {
+    "content": "50 because the 51 is obviously faster than the first one",
+    "start": 1579
+  },
+  {
+    "content": "next one is promise that all settled this one's looking really good it",
+    "start": 1584
+  },
+  {
+    "content": "probably will make it into JavaScript and this is waiting for everything to be",
+    "start": 1587
+  },
+  {
+    "content": "done regardless of whether it resolved or reject so I think of this one I was",
+    "start": 1592
+  },
+  {
+    "content": "like the janitor that sweeps up at a marathon where I just made this up I",
+    "start": 1597
+  },
+  {
+    "content": "don't know if this is dumb or not you know people go across the finish",
+    "start": 1602
+  },
+  {
+    "content": "line at a marathon and maybe some people take really long maybe somebody hops in",
+    "start": 1605
+  },
+  {
+    "content": "a cab and drives across the finish line regardless of what happens whether the",
+    "start": 1610
+  },
+  {
+    "content": "prom is successfully finished or rejected promise that all settled we'll",
+    "start": 1614
+  },
+  {
+    "content": "wait for absolutely all of them to finish before moving forward or before",
+    "start": 1618
+  },
+  {
+    "content": "resolving itself where would this be helpful if you are trying to ping api's",
+    "start": 1622
+  },
+  {
+    "content": "where you don't necessarily know if that page exists so in my case I've got a",
+    "start": 1630
+  },
+  {
+    "content": "bunch of usernames where I want to I want to check if these usernames have",
+    "start": 1636
+  },
+  {
+    "content": "been taken on a specific platform so I'll make an array of user guesses and",
+    "start": 1640
+  },
+  {
+    "content": "then I'll map over all of those guesses and return a promise that will ping out",
+    "start": 1645
+  },
+  {
+    "content": "a fetch request to all of those URLs and that fetch request is either going to",
+    "start": 1651
+  },
+  {
+    "content": "resolve it came back or it's going to reject there's a 404 on that page and",
+    "start": 1655
+  },
+  {
+    "content": "the whole thing rejected so what this will do is it will wait for all of them",
+    "start": 1662
+  },
+  {
+    "content": "and you get an array of results and you can go ahead and filter those results",
+    "start": 1667
+  },
+  {
+    "content": "based on whether they're rejected or resolved and you can do anything you",
+    "start": 1672
+  },
+  {
+    "content": "want with your data at that point error handling a few options sort of the one",
+    "start": 1677
+  },
+  {
+    "content": "downside to a sink oh wait is that a lot of people just stopped handling their",
+    "start": 1684
+  },
+  {
+    "content": "errors because it doesn't look cool because like a sink away it's so clean",
+    "start": 1688
+  },
+  {
+    "content": "and everything so here are a few options for for using error handling in a sink",
+    "start": 1691
+  },
+  {
+    "content": "oh wait so first option is just don't write terrible code that you have so",
+    "start": 1697
+  },
+  {
+    "content": "don't spend time on something I'll never happen we've all been there ah that",
+    "start": 1702
+  },
+  {
+    "content": "should never happen and then you get a call on a Sunday morning about the",
+    "start": 1706
+  },
+  {
+    "content": "entire server crashing the second option is try-catch so this is probably what",
+    "start": 1710
+  },
+  {
+    "content": "all of us have learned when we looked at a sink oh wait so you basically open up",
+    "start": 1716
+  },
+  {
+    "content": "a try try to do your code and then if anything goes wrong inside of that try",
+    "start": 1722
+  },
+  {
+    "content": "it's fine you got a safety net around it the catch will catch that error you can",
+    "start": 1726
+  },
+  {
+    "content": "go ahead and go off and handle it that's good because it's just very simple",
+    "start": 1731
+  },
+  {
+    "content": "but it kind of ruins the nice top level it's also a block and if you're using",
+    "start": 1737
+  },
+  {
+    "content": "lettin Const there block scope so that's a bit of a bummer too so that's okay",
+    "start": 1742
+  },
+  {
+    "content": "third is a higher-order function which is a very cool thing to say it makes you",
+    "start": 1748
+  },
+  {
+    "content": "sound very smart it's an ax sink because a sinc function",
+    "start": 1753
+  },
+  {
+    "content": "does anyone know what does in a sink function return' yeah I promise",
+    "start": 1758
+  },
+  {
+    "content": "and if you just if you have a sync function blah blah blah and run it it",
+    "start": 1762
+  },
+  {
+    "content": "will return a promise right you don't have to explicitly return a promise it",
+    "start": 1766
+  },
+  {
+    "content": "just returns a promise to you so that means that you can tag a dot catch on to",
+    "start": 1770
+  },
+  {
+    "content": "the end of a synchronous function so the way you do this is you just go ahead and",
+    "start": 1774
+  },
+  {
+    "content": "live your life without any error handling so I have a function called",
+    "start": 1779
+  },
+  {
+    "content": "Yolo here and I go ahead and await and I assume everything is going to work fine",
+    "start": 1782
+  },
+  {
+    "content": "then all you do this is gonna get a little hairy for a second so hold onto",
+    "start": 1788
+  },
+  {
+    "content": "your pants' you create a high order function that is a function that takes",
+    "start": 1793
+  },
+  {
+    "content": "in a function and then returns that same function but with a dot catch tagged on",
+    "start": 1799
+  },
+  {
+    "content": "to the end of it and that's really cool because then you can do something like",
+    "start": 1808
+  },
+  {
+    "content": "this oh this is how you do it if you're a hotshot there's probably somebody in",
+    "start": 1812
+  },
+  {
+    "content": "the crowd be like um Wes you could do that with seven arrow functions and it",
+    "start": 1815
+  },
+  {
+    "content": "would have been much more concise and performant but this is how we generally",
+    "start": 1819
+  },
+  {
+    "content": "would do it I wouldn't want to have to debug that one but this is how it works",
+    "start": 1825
+  },
+  {
+    "content": "is that you take your Yolo function which is you just living your life and",
+    "start": 1830
+  },
+  {
+    "content": "then you wrap it in that handle error and what that will do is it will take",
+    "start": 1835
+  },
+  {
+    "content": "your function and go like okay you dangerous little function let me wrap up",
+    "start": 1839
+  },
+  {
+    "content": "error handler around you and then that returns a new function which is called",
+    "start": 1843
+  },
+  {
+    "content": "safe Yolo and then that's the function that you actually go ahead and use in in",
+    "start": 1848
+  },
+  {
+    "content": "the code that year your running day today this is very handy I specifically",
+    "start": 1853
+  },
+  {
+    "content": "use this in all of my Express application how many of you write",
+    "start": 1858
+  },
+  {
+    "content": "Express applications okay of course in serverless functions right okay good",
+    "start": 1862
+  },
+  {
+    "content": "so here's an example of an Express like controller or route or something like",
+    "start": 1869
+  },
+  {
+    "content": "this where you have a function called get orders that's in a sink you get in",
+    "start": 1875
+  },
+  {
+    "content": "the request from the server you have the response and then you have this next",
+    "start": 1880
+  },
+  {
+    "content": "function or next what what next is used is to pass it down to the next route",
+    "start": 1884
+  },
+  {
+    "content": "because you didn't actually want to do anything inside of this route handler",
+    "start": 1890
+  },
+  {
+    "content": "that we have here and what we can do here is traditionally what we would do",
+    "start": 1893
+  },
+  {
+    "content": "is we would just call like next if there was an error and just say like no orders",
+    "start": 1898
+  },
+  {
+    "content": "found and then just pass it down pass it down the line but in our case here we",
+    "start": 1903
+  },
+  {
+    "content": "can just throw regular errors or you create your own custom errors and throw",
+    "start": 1907
+  },
+  {
+    "content": "them and then what we do is we create a new high order function that takes in",
+    "start": 1911
+  },
+  {
+    "content": "the error of the requested response and the next and this is generally what you",
+    "start": 1918
+  },
+  {
+    "content": "put at the end of your application sorry this is not the high order function this",
+    "start": 1924
+  },
+  {
+    "content": "is what you put at the end of your application where it generally is like",
+    "start": 1927
+  },
+  {
+    "content": "if you got this far it's probably a 404 because no routes actually matched or",
+    "start": 1930
+  },
+  {
+    "content": "something went specifically went wrong it's a 500 error so that's okay but it",
+    "start": 1935
+  },
+  {
+    "content": "doesn't really cover errors that we throw unhandled errors errors in",
+    "start": 1942
+  },
+  {
+    "content": "libraries that we didn't expect to have there so what we can do is catch all the",
+    "start": 1946
+  },
+  {
+    "content": "errors and pass them along to the that middleware function so we create a catch",
+    "start": 1951
+  },
+  {
+    "content": "errors high order function here takes in the the get orders function that we just",
+    "start": 1956
+  },
+  {
+    "content": "talked about and simply all we do is take that function and tag a dot catch",
+    "start": 1960
+  },
+  {
+    "content": "on to it which passes whatever error happens on to the next handler and then",
+    "start": 1966
+  },
+  {
+    "content": "what's cool about that is that instead of just passing get orders to the route",
+    "start": 1973
+  },
+  {
+    "content": "you wrap it and it catch errors and then you just have this like one handy little",
+    "start": 1978
+  },
+  {
+    "content": "function that will say like if anything happens inside of here just pass it to",
+    "start": 1983
+  },
+  {
+    "content": "the error page and then we can deal with it accordingly inside of the error page",
+    "start": 1987
+  },
+  {
+    "content": "show something to the user if you're in development mode you can show a stack",
+    "start": 1991
+  },
+  {
+    "content": "trace something like that and you go ahead and so the sorry the next option",
+    "start": 1994
+  },
+  {
+    "content": "that we have here is handling error when you call it so this is what I",
+    "start": 2002
+  },
+  {
+    "content": "do in most of my use cases so you have a function and you go ahead and live your",
+    "start": 2007
+  },
+  {
+    "content": "life inside of that and then when you you run that function you can tag a dot",
+    "start": 2012
+  },
+  {
+    "content": "catch on to the end and that's really cool because again synchronous functions",
+    "start": 2016
+  },
+  {
+    "content": "return promises so you can tag a catch on the end and deal with it final option",
+    "start": 2021
+  },
+  {
+    "content": "here is the unhandled nodes unhandled rejection event so node has been saying",
+    "start": 2026
+  },
+  {
+    "content": "for like for years that it's going to exit the process when a promise breaks",
+    "start": 2031
+  },
+  {
+    "content": "and if you want to stop that because one day they will exit the process in your",
+    "start": 2035
+  },
+  {
+    "content": "website wolf will stop working you can catch those and unhandled rejections or",
+    "start": 2040
+  },
+  {
+    "content": "on yeah and and go ahead and do something with it so that's what have we",
+    "start": 2046
+  },
+  {
+    "content": "got here how much time do I have perfect okay so um I wanted to talk just",
+    "start": 2053
+  },
+  {
+    "content": "for a couple of quick minutes just about some future stuff this is stuff that is",
+    "start": 2060
+  },
+  {
+    "content": "not in the browser just yet but it's it's being worked on it's some ideas",
+    "start": 2066
+  },
+  {
+    "content": "that are being passed around and people are working on the future so first one",
+    "start": 2071
+  },
+  {
+    "content": "is the the web speech detection so I'm going to open up my demos here and",
+    "start": 2076
+  },
+  {
+    "content": "that's cool open this sucker up alright so what I have running here is a web",
+    "start": 2087
+  },
+  {
+    "content": "speech where it's it's streaming in audio from my microphone and it's",
+    "start": 2096
+  },
+  {
+    "content": "automatically transcribing that to text and you can do anything you want with",
+    "start": 2102
+  },
+  {
+    "content": "that text and in this case I built a little app where you can say things like",
+    "start": 2106
+  },
+  {
+    "content": "red tan green gray bisque slate blue Rebecca purple medium aquamarine light",
+    "start": 2110
+  },
+  {
+    "content": "goldenrod yellow hot pink dark blue olive drab Gainsborough burly wood light",
+    "start": 2128
+  },
+  {
+    "content": "cyan goofin them up what's it what's like the",
+    "start": 2135
+  },
+  {
+    "content": "hardest one you can see papaya whip killed it so let's look at the code real",
+    "start": 2140
+  },
+  {
+    "content": "quick behind that so it's this new speech recognition API and there's a",
+    "start": 2150
+  },
+  {
+    "content": "couple options in there you can you can get continuous you can get interim",
+    "start": 2157
+  },
+  {
+    "content": "results which means that like it will give you the value as its streaming in",
+    "start": 2161
+  },
+  {
+    "content": "which is why when I go to my example and I say something like medium spring green",
+    "start": 2166
+  },
+  {
+    "content": "you see spring green and medium spring green popped up that's because I was",
+    "start": 2171
+  },
+  {
+    "content": "doing continuous as it was being fed in hot off the microphone I was already",
+    "start": 2176
+  },
+  {
+    "content": "analyzing it and then you go ahead and start it but we have this handle result",
+    "start": 2182
+  },
+  {
+    "content": "function and that's right here so what do you do you go ahead and grab all of",
+    "start": 2189
+  },
+  {
+    "content": "the words said in our case it I'm just grabbing the last word said I went just",
+    "start": 2195
+  },
+  {
+    "content": "lowercased it I replace spaces so if I say something like medium spring green I",
+    "start": 2200
+  },
+  {
+    "content": "wonder if it's even streaming it into my console here yeah so these are speech",
+    "start": 2204
+  },
+  {
+    "content": "recognition what was it saying there can we modify",
+    "start": 2214
+  },
+  {
+    "content": "the console.log result hello hello Jam stack how are you doing",
+    "start": 2220
+  },
+  {
+    "content": "today I hope you're all doing super well my name is Wes vos West boss come on ba",
+    "start": 2241
+  },
+  {
+    "content": "so it's pretty cool because like it's obviously streaming it in as I'm talking",
+    "start": 2253
+  },
+  {
+    "content": "here and it gives you a confidence score it also gives you multiple versions of",
+    "start": 2259
+  },
+  {
+    "content": "it you could see that I'm just logging the the first item out of the array so",
+    "start": 2264
+  },
+  {
+    "content": "it's a very simple example and then once you have the words you can do whatever",
+    "start": 2269
+  },
+  {
+    "content": "it is that you you want with them in my case I'm just playing I made a little",
+    "start": 2272
+  },
+  {
+    "content": "game where I could say things like slate blue and see green dark cyan and you get",
+    "start": 2276
+  },
+  {
+    "content": "the point right it's pretty cool I can't believe that it's like just like",
+    "start": 2285
+  },
+  {
+    "content": "a couple lines of code to be able to stream that stuff in there's also an API",
+    "start": 2288
+  },
+  {
+    "content": "that is the opposite where it takes text and makes it into speech and on",
+    "start": 2292
+  },
+  {
+    "content": "specifically on the Mac it's really cool because there's lots of voices built",
+    "start": 2296
+  },
+  {
+    "content": "into the Mac and you can change the pitch and it's pretty funny so the other",
+    "start": 2300
+  },
+  {
+    "content": "thing I wanted to show you is shape detection so shape detection is you you",
+    "start": 2306
+  },
+  {
+    "content": "want to be able to use machine learning to detect something in the browser and",
+    "start": 2316
+  },
+  {
+    "content": "currently there is what is there and currently I have it all my slides here",
+    "start": 2320
+  },
+  {
+    "content": "those face detection which actually works surprisingly well there's barcode",
+    "start": 2326
+  },
+  {
+    "content": "detection for I think three or four different types of barcodes and then",
+    "start": 2331
+  },
+  {
+    "content": "there's text detection which I was thinking like you know how like the cops",
+    "start": 2335
+  },
+  {
+    "content": "have like a camera on the front of their car and they like automatically scan",
+    "start": 2340
+  },
+  {
+    "content": "your license plate like you could like code a web app to to do that which I",
+    "start": 2344
+  },
+  {
+    "content": "think it would be pretty cool don't do that's probably legal or something like",
+    "start": 2348
+  },
+  {
+    "content": "that but those are the three types of shape",
+    "start": 2351
+  },
+  {
+    "content": "detection so I did the barcode I've done the the face detection a couple times",
+    "start": 2354
+  },
+  {
+    "content": "but I had never done the barcode one so I just like printed off some QR codes",
+    "start": 2358
+  },
+  {
+    "content": "and these are just QR codes that have colors inside of them and then when the",
+    "start": 2362
+  },
+  {
+    "content": "QR code is is up there then it so you could like imagine how handy it would be",
+    "start": 2369
+  },
+  {
+    "content": "and I know what some web apps already do this but you could just like I don't",
+    "start": 2379
+  },
+  {
+    "content": "know scan in some sort of barcode right off the web without having to have any",
+    "start": 2384
+  },
+  {
+    "content": "any API I did there it mix them so that's what I did let me show you the",
+    "start": 2388
+  },
+  {
+    "content": "code for that it's really cool barcode reader here we go so here what I'm doing",
+    "start": 2395
+  },
+  {
+    "content": "is on initialization I go ahead and get the webcam I only ask for video in this",
+    "start": 2403
+  },
+  {
+    "content": "case and then I have a video object AG on the page and I go ahead and play it",
+    "start": 2407
+  },
+  {
+    "content": "that's how I'm getting my face right then you create a new barcode detector",
+    "start": 2412
+  },
+  {
+    "content": "which is right here new barcode detector that's just built into the browser it's",
+    "start": 2418
+  },
+  {
+    "content": "currently only in Chrome but they're they're working on a standard for the",
+    "start": 2424
+  },
+  {
+    "content": "shape detection API so the this might change but they're kind of play around",
+    "start": 2428
+  },
+  {
+    "content": "with how it works you pass it your video and it returns a promise so you can",
+    "start": 2432
+  },
+  {
+    "content": "await it and then you get an array of hits and that will give you an array of",
+    "start": 2438
+  },
+  {
+    "content": "all the barcodes that it finds specifically in it so it works and then",
+    "start": 2444
+  },
+  {
+    "content": "you can I'm just saying if the hits length is one then change the background",
+    "start": 2451
+  },
+  {
+    "content": "color to be the color of the QR code and I just have the word green encoded into",
+    "start": 2454
+  },
+  {
+    "content": "this QR code and then in my case here I'm saying if if there's two of them",
+    "start": 2460
+  },
+  {
+    "content": "then take those two codes and mix them and then I went on Stack Overflow and",
+    "start": 2464
+  },
+  {
+    "content": "found some how to mix colors function and end it um so again like 39 lines of",
+    "start": 2470
+  },
+  {
+    "content": "code without the Stack Overflow mixer and it's it's pretty simple to be able",
+    "start": 2479
+  },
+  {
+    "content": "to do that and the code for doing face detection and text detection so you",
+    "start": 2483
+  },
+  {
+    "content": "could show it like a book and it could read the text out of the image is very",
+    "start": 2488
+  },
+  {
+    "content": "similar to how this works it's the same just detected off of a video or an image",
+    "start": 2493
+  },
+  {
+    "content": "and then it will turn you a bunch of different hits that you have so that's",
+    "start": 2497
+  },
+  {
+    "content": "some pretty cool stuff in the browser let's still go and",
+    "start": 2502
+  },
+  {
+    "content": "hopefully you enjoyed that I would love to chitchat about anything else",
+    "start": 2507
+  },
+  {
+    "content": "JavaScript I'll be around for a while I've got a whole bunch of stickers if",
+    "start": 2512
+  },
+  {
+    "content": "anybody wants on and that's it thanks so much",
+    "start": 2517
+  },
+  {
+    "content": "[Applause]",
+    "start": 2521
+  },
+  {
+    "content": "[Applause]",
+    "start": 2526
+  }
+]

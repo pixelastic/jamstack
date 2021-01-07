@@ -1,0 +1,1582 @@
+[
+  {
+    "content": "hey everybody whoa I can't see anything",
+    "start": 0
+  },
+  {
+    "content": "oh now I can okay great so I don't know I putting a title slide is like the",
+    "start": 16
+  },
+  {
+    "content": "hardest part of putting together a deck for me I'm only kind of joking so I did",
+    "start": 23
+  },
+  {
+    "content": "a Google image search of jam stack and this is what came up so um I checked out",
+    "start": 27
+  },
+  {
+    "content": "the recipe it looks legit so I'm probably gonna try to make them at some",
+    "start": 35
+  },
+  {
+    "content": "point but anyways I'm here to talk about your JavaScript and just a little caveat",
+    "start": 38
+  },
+  {
+    "content": "I am NOT a developer I am cxo chief experience officer at speed curve I've",
+    "start": 44
+  },
+  {
+    "content": "been working in the performance space for about the last ten years studying",
+    "start": 51
+  },
+  {
+    "content": "the intersection of performance and user experience and business metrics and I",
+    "start": 54
+  },
+  {
+    "content": "also helped co-curate a collection of web performance case study is called WPO",
+    "start": 61
+  },
+  {
+    "content": "stats comm which you can check out but as I said I'm not a developer my",
+    "start": 67
+  },
+  {
+    "content": "backgrounds in use abilities your experience and so I come at things from",
+    "start": 73
+  },
+  {
+    "content": "like the extreme front end so what I really do is I talked to probably 100 or",
+    "start": 77
+  },
+  {
+    "content": "so companies a year in my work at Spieker about performance and about what",
+    "start": 85
+  },
+  {
+    "content": "they care about about how to measure the performance of their sites and what",
+    "start": 91
+  },
+  {
+    "content": "metrics to look at basically I spent a lot of time looking at at these so show",
+    "start": 95
+  },
+  {
+    "content": "hands to who knows what who knows what this this chart is who has experience",
+    "start": 99
+  },
+  {
+    "content": "with these there's no it's okay I'm just it helps me to get a sense of just kind",
+    "start": 103
+  },
+  {
+    "content": "of how experienced people this is a waterfall chart so it's kind of if",
+    "start": 109
+  },
+  {
+    "content": "you're if you're kind of not in the performance space it's kind of a Gantt",
+    "start": 111
+  },
+  {
+    "content": "chart for your content so all these like little line items here are just",
+    "start": 116
+  },
+  {
+    "content": "different assets on the page and this shows how they render so I spend a lot",
+    "start": 120
+  },
+  {
+    "content": "of time looking at these and helping companies to figure out what they need",
+    "start": 123
+  },
+  {
+    "content": "to care about what's hurting performance on their pages and that sort of thing so",
+    "start": 129
+  },
+  {
+    "content": "when Phil invited me to come and talk here any",
+    "start": 135
+  },
+  {
+    "content": "admit I had to look up what Jam stack was because like I said not developer",
+    "start": 141
+  },
+  {
+    "content": "and I found this really great website called Jam stack WTF which was really",
+    "start": 144
+  },
+  {
+    "content": "helpful and I thought this was like an interesting poll quote so for anybody",
+    "start": 151
+  },
+  {
+    "content": "who can't read this gem sack is revolutionising the way we think about",
+    "start": 155
+  },
+  {
+    "content": "workflow by providing a simpler developer experience better performance",
+    "start": 159
+  },
+  {
+    "content": "emphasis mine lower costs and greater scalability and it's the performance",
+    "start": 163
+  },
+  {
+    "content": "woohoo sorry I heard a woo so I thought I would amplify it a little bit so so",
+    "start": 167
+  },
+  {
+    "content": "this is so so I thought this is really interesting because this is actually",
+    "start": 176
+  },
+  {
+    "content": "kind of right in my wheelhouse where does the jam stack intersect with",
+    "start": 180
+  },
+  {
+    "content": "performance and the most obvious place is is JavaScript so I speak up we did a",
+    "start": 186
+  },
+  {
+    "content": "little study analysis of the HTTP archive if you're not familiar with the",
+    "start": 196
+  },
+  {
+    "content": "HTTP archive it is a repository of information it's like massive at this",
+    "start": 202
+  },
+  {
+    "content": "point because it's something like 9 or 10 years old maybe maybe older and of",
+    "start": 208
+  },
+  {
+    "content": "just information a based on doing crawls of the top kind of I think it used to be",
+    "start": 212
+  },
+  {
+    "content": "1 million and now it's kind of more than that so it's a but that our analysis was",
+    "start": 220
+  },
+  {
+    "content": "1.3 million websites and looking at their homepage and just seeing how are",
+    "start": 223
+  },
+  {
+    "content": "the pages our page is being built how large are they what is the composition",
+    "start": 228
+  },
+  {
+    "content": "of the page and actually coincidentally there's a project coming out soon called",
+    "start": 233
+  },
+  {
+    "content": "the web Almanac that's being spearheaded by folks at Google and you can access",
+    "start": 239
+  },
+  {
+    "content": "that's going to actually be an analysis of this but this is a different this is",
+    "start": 244
+  },
+  {
+    "content": "a different analysis that but we did at Spieker where we just wanted to look at",
+    "start": 248
+  },
+  {
+    "content": "the makeup of javascript on pages and we what we found was that in the past seven",
+    "start": 252
+  },
+  {
+    "content": "years the amount of javascript the number of scripts on pages has doubled",
+    "start": 261
+  },
+  {
+    "content": "so that's interesting what's really interesting for folks who might not be",
+    "start": 266
+  },
+  {
+    "content": "able to read this at the back is how much of that has come from third",
+    "start": 270
+  },
+  {
+    "content": "party requests so it's about a hundred and forty percent increase from third",
+    "start": 273
+  },
+  {
+    "content": "party requests so from five scripts in two thousand eleven to twelve scripts",
+    "start": 276
+  },
+  {
+    "content": "now and bear in mind when we talk about third parties we're really talking about",
+    "start": 281
+  },
+  {
+    "content": "that a single request that actually makes a whole bunch of other calls so",
+    "start": 286
+  },
+  {
+    "content": "this number is and kind of the objects in the mirror may be larger than than",
+    "start": 290
+  },
+  {
+    "content": "are larger than they appear and then the other interesting thing",
+    "start": 294
+  },
+  {
+    "content": "that we found was actually just the sheer size increase the blow of",
+    "start": 299
+  },
+  {
+    "content": "JavaScript on pages we're sure the number of scripts may have doubled but",
+    "start": 303
+  },
+  {
+    "content": "actually in terms of total page weight we're looking at it over a seven hundred",
+    "start": 308
+  },
+  {
+    "content": "percent increase so this really bears watching and it's really easy to say",
+    "start": 312
+  },
+  {
+    "content": "well you know JavaScript is you know kind of bit is processed by the CPU and",
+    "start": 318
+  },
+  {
+    "content": "a lot changed in our devices over the past seven years desktop computers have",
+    "start": 324
+  },
+  {
+    "content": "gotten better oh hopefully you're using a better computer mobile devices have",
+    "start": 328
+  },
+  {
+    "content": "gotten better but even mobile today the best mobile devices have CPU thresholds",
+    "start": 331
+  },
+  {
+    "content": "that do not equal desktop devices and actually if you look at the range of",
+    "start": 338
+  },
+  {
+    "content": "mobile devices that are kind of being used out there in the world and I would",
+    "start": 344
+  },
+  {
+    "content": "invite you to look at your own real user data if you have it to see kind of the",
+    "start": 347
+  },
+  {
+    "content": "breadth of devices and browsers that people are coming to your site from it",
+    "start": 352
+  },
+  {
+    "content": "can be really eye-opening and you need to realize that the range of what the",
+    "start": 356
+  },
+  {
+    "content": "CPU and those devices can do with your pages varies from not very much to you",
+    "start": 361
+  },
+  {
+    "content": "know like decent so it's really something to keep in mind this is a sort",
+    "start": 367
+  },
+  {
+    "content": "of I don't know what you would call this I kind of think of it as being a",
+    "start": 375
+  },
+  {
+    "content": "fireworks chart that I generated looking at a site a media site and I'm not going",
+    "start": 378
+  },
+  {
+    "content": "to name the site and what was really interesting about this chart is that you",
+    "start": 386
+  },
+  {
+    "content": "can see the kind of the the middle bit is the site the the kind of main bit and",
+    "start": 392
+  },
+  {
+    "content": "this exploding bit it's kind of more for here for for illustrative purposes is",
+    "start": 397
+  },
+  {
+    "content": "the number of not just the third-party calls but then the fourth part",
+    "start": 402
+  },
+  {
+    "content": "fifth party six party and so on almost to the enth degree he calls that those",
+    "start": 406
+  },
+  {
+    "content": "third parties make and so this is a really you can actually go to this tool",
+    "start": 411
+  },
+  {
+    "content": "request map dot web proof dot tools it's a great tool a created by Simon Hearn",
+    "start": 416
+  },
+  {
+    "content": "and and enter any URL and actually generate a chart like this and can be",
+    "start": 421
+  },
+  {
+    "content": "very eye-opening and kind of scary frankly if it's your own site a little",
+    "start": 428
+  },
+  {
+    "content": "while ago Katie help any us at Google sent out a few tweets that I thought",
+    "start": 436
+  },
+  {
+    "content": "were just really relevant to this topic where she said after aggressively",
+    "start": 442
+  },
+  {
+    "content": "perfect tracing the internet I have the following hot take performance timing",
+    "start": 447
+  },
+  {
+    "content": "metrics art flaky the performance of your site is flaky and she says the a/b",
+    "start": 450
+  },
+  {
+    "content": "testing and third-party content are the two likely culprits here and she did an",
+    "start": 455
+  },
+  {
+    "content": "analysis of Twitter and then another site that I don't believe she named so",
+    "start": 461
+  },
+  {
+    "content": "these are her just running traces on Twitter calm did touch you to ten runs",
+    "start": 467
+  },
+  {
+    "content": "and she found that the standard deviation was pretty tight so only",
+    "start": 472
+  },
+  {
+    "content": "around like fifty milliseconds so pretty consistent this is a different site",
+    "start": 475
+  },
+  {
+    "content": "again she doesn't name it but she's looking at the same same set of metrics",
+    "start": 480
+  },
+  {
+    "content": "time to first by first CPU idle and if you're not familiar with these metrics",
+    "start": 486
+  },
+  {
+    "content": "that's okay we're gonna be talking about them more in just a few minutes first",
+    "start": 490
+  },
+  {
+    "content": "contentful paint speed index interactive first meaningful paint and first input",
+    "start": 495
+  },
+  {
+    "content": "delay and she found in in this case the standard deviation was up to two seconds",
+    "start": 501
+  },
+  {
+    "content": "which is huge it's a huge range and it just goes to show how unpredictable the",
+    "start": 507
+  },
+  {
+    "content": "performance of your site is as as she suggests because of the third parties on",
+    "start": 514
+  },
+  {
+    "content": "your page so this kind of begs the question that I get asked whenever I do",
+    "start": 518
+  },
+  {
+    "content": "my when I have a conversations with speaker customers which is they just",
+    "start": 527
+  },
+  {
+    "content": "want to know they're aware of the fact that there's probably JavaScript issues",
+    "start": 532
+  },
+  {
+    "content": "on their page and they just want to know what metrics do they track what target",
+    "start": 535
+  },
+  {
+    "content": "should they have for those metrics and then how can they make",
+    "start": 539
+  },
+  {
+    "content": "sure that they stay on track and really what everybody's asking for because",
+    "start": 542
+  },
+  {
+    "content": "their bosses are asking for it from them is Unicorn metric so another little show",
+    "start": 549
+  },
+  {
+    "content": "of hands how many people here have reported or do report to someone and you",
+    "start": 553
+  },
+  {
+    "content": "don't need to say who obviously who has asked you that for just they just want",
+    "start": 559
+  },
+  {
+    "content": "one metric just one yeah they and it's it's it's understandable you know you",
+    "start": 564
+  },
+  {
+    "content": "have executive teams who they don't want to see a chart they don't wanna see a",
+    "start": 570
+  },
+  {
+    "content": "Google spreadsheet with a whole bunch of different metrics in it they just want",
+    "start": 574
+  },
+  {
+    "content": "you to tell them like what's the thing we should be tracking is that a",
+    "start": 578
+  },
+  {
+    "content": "lighthouse score is it page load time you know what what should they care",
+    "start": 581
+  },
+  {
+    "content": "about they want this unicorn metric and the bad news is there is no unicorn",
+    "start": 586
+  },
+  {
+    "content": "metric there are a ton of metrics so we've got things ranging from JavaScript",
+    "start": 589
+  },
+  {
+    "content": "and this is to beyond this is just the set of metrics that are available to you",
+    "start": 596
+  },
+  {
+    "content": "to track in JavaScript in terms of JavaScript performance if you actually",
+    "start": 601
+  },
+  {
+    "content": "look at all the metrics that are available for you to track performance",
+    "start": 606
+  },
+  {
+    "content": "wise it's dozens and dozens and if you're using synthetic interim could be",
+    "start": 610
+  },
+  {
+    "content": "upwards of a hundred or so if you're tracking individual third parties then",
+    "start": 616
+  },
+  {
+    "content": "that's a dozen or so metrics per individual third party the auto track so",
+    "start": 621
+  },
+  {
+    "content": "it gets really unwieldy really fast and it's totally understandable that people",
+    "start": 625
+  },
+  {
+    "content": "want to ask if not for one unicorn metric well like give me two or three at",
+    "start": 629
+  },
+  {
+    "content": "least and I think it's really helpful to come back to these principles that I",
+    "start": 633
+  },
+  {
+    "content": "don't know if you could see the the URL here but basically is a post on the",
+    "start": 642
+  },
+  {
+    "content": "Google developers blog that talks about what metrics you should what user",
+    "start": 648
+  },
+  {
+    "content": "metacentric metrics you should care about and it kind of comes down to these",
+    "start": 652
+  },
+  {
+    "content": "principles which just makes sense right from like a touchy-feely user experience",
+    "start": 657
+  },
+  {
+    "content": "side is it happening is it useful is it usable and is it delightful so the way",
+    "start": 660
+  },
+  {
+    "content": "that I interpret these requirements are is it happening like are you actually",
+    "start": 668
+  },
+  {
+    "content": "able to see something on the page as a user you just",
+    "start": 673
+  },
+  {
+    "content": "want to feel like something's going on is it useful is it actually the relevant",
+    "start": 676
+  },
+  {
+    "content": "content is it or is it a bunch of third party stuff that maybe the user doesn't",
+    "start": 682
+  },
+  {
+    "content": "care about is it usable can I can I interact with it can I click on it will",
+    "start": 685
+  },
+  {
+    "content": "the page actually function and is it delightful well you know you're probably",
+    "start": 690
+  },
+  {
+    "content": "most of you aren't accountable for the delightfulness of the content on your",
+    "start": 695
+  },
+  {
+    "content": "page but I would argue that having a having pages that render really quickly",
+    "start": 698
+  },
+  {
+    "content": "without any jank that's the delight that you can add so",
+    "start": 704
+  },
+  {
+    "content": "this is this is kind of my sort of interpretation of these requirements so",
+    "start": 707
+  },
+  {
+    "content": "like I said we don't have one metric one unicorn we have a whole bunch of",
+    "start": 713
+  },
+  {
+    "content": "unicorns and just a fun fact for anybody who cares",
+    "start": 717
+  },
+  {
+    "content": "a group of unicorns a herd of unicorns is actually called a blessing so I",
+    "start": 720
+  },
+  {
+    "content": "looked that up on the internet so it's probably true so you can take that home",
+    "start": 726
+  },
+  {
+    "content": "to your kids and so when we're looking for our little blessing of unicorns here",
+    "start": 731
+  },
+  {
+    "content": "today anyways these are the metrics that I'm going to focus on and that I think",
+    "start": 739
+  },
+  {
+    "content": "you should focus on it's not to say that the other metrics that you see up here",
+    "start": 745
+  },
+  {
+    "content": "aren't relevant but you're probably either tracking some of them already for",
+    "start": 751
+  },
+  {
+    "content": "example we look at javascript size and JavaScript request obviously you want to",
+    "start": 756
+  },
+  {
+    "content": "be on top of how many J's calls are on your page and you want to make sure that",
+    "start": 761
+  },
+  {
+    "content": "they're not egregiously large you know fewer calls is good having them be like",
+    "start": 767
+  },
+  {
+    "content": "fewer than 50 milliseconds or sorry 50 kilobytes each really important because",
+    "start": 773
+  },
+  {
+    "content": "you if they're any bigger than that then you run the risk of them being long",
+    "start": 779
+  },
+  {
+    "content": "tasks which we'll talk about in a minute which kind of hurt the user experience",
+    "start": 783
+  },
+  {
+    "content": "so you should care about those things but I assume you're probably doing those",
+    "start": 786
+  },
+  {
+    "content": "things already a lot of these other metrics they matter but then maybe they",
+    "start": 790
+  },
+  {
+    "content": "don't matter as much these ones highlighted in yellow for the win let's",
+    "start": 797
+  },
+  {
+    "content": "talk about those so number of blocking JavaScript requests",
+    "start": 801
+  },
+  {
+    "content": "this sort of seems like a no-brainer and we've and and and there's a very good",
+    "start": 808
+  },
+  {
+    "content": "chance you're actually tracking these already you want to know how many",
+    "start": 812
+  },
+  {
+    "content": "blocking scripts are on your page and you want to know how much blocking",
+    "start": 816
+  },
+  {
+    "content": "anything is on your page with blocking a CSS as well but this talks about",
+    "start": 820
+  },
+  {
+    "content": "JavaScript so we're not going to go there so the note and the great thing is",
+    "start": 823
+  },
+  {
+    "content": "that you can track the number of blocking requests in synthetic and rum",
+    "start": 827
+  },
+  {
+    "content": "so whatever ideally you're using both tools but if you're just using one or",
+    "start": 831
+  },
+  {
+    "content": "the other that you know this this ability is available to you and why",
+    "start": 835
+  },
+  {
+    "content": "should you do that well this is what this is a filmstrip view of a page",
+    "start": 840
+  },
+  {
+    "content": "rendering and at the top you can see what happens when the third parties work",
+    "start": 845
+  },
+  {
+    "content": "and at the bottom where this is based on the synthetic test where we've",
+    "start": 851
+  },
+  {
+    "content": "artificially kind of blackhole the third parties so they they they don't respond",
+    "start": 855
+  },
+  {
+    "content": "this is what happens you have pages that don't really take 25 seconds to resolve",
+    "start": 861
+  },
+  {
+    "content": "and finally render so obviously you care about block blocking resources the other",
+    "start": 866
+  },
+  {
+    "content": "reason why you care is because all of that wait time has an impact on your",
+    "start": 872
+  },
+  {
+    "content": "business metrics so this is a correlation chart that shows the",
+    "start": 879
+  },
+  {
+    "content": "relationship between blocking CPU time or sorry sorry blocking JavaScript and",
+    "start": 883
+  },
+  {
+    "content": "and start render on the page so you can see that as the page as sorry as start",
+    "start": 890
+  },
+  {
+    "content": "render slows down blocking blocking JavaScript goes up or put it the other",
+    "start": 899
+  },
+  {
+    "content": "way around as the amount of blocking JavaScript on the page increases your",
+    "start": 903
+  },
+  {
+    "content": "start render decreases so for CPU idle is another metric that you should care",
+    "start": 906
+  },
+  {
+    "content": "about and this is some of these rendering metrics and some of these CPU",
+    "start": 914
+  },
+  {
+    "content": "metrics are pretty new so if they're not very familiar to you that's",
+    "start": 920
+  },
+  {
+    "content": "understandable they have not not only the kind of new on the scene they",
+    "start": 924
+  },
+  {
+    "content": "actually kind of had a bit of a name change so they're these these",
+    "start": 929
+  },
+  {
+    "content": "definitions and these labels are kind of driven by Google so when they change the",
+    "start": 932
+  },
+  {
+    "content": "title the names of a few metrics when they did a lighthouse release in I think",
+    "start": 938
+  },
+  {
+    "content": "it was late winter of or I guess early 2019 some of the some of the labels",
+    "start": 945
+  },
+  {
+    "content": "change so a metric that you might have formerly known as first interactive is",
+    "start": 951
+  },
+  {
+    "content": "now for a CPU idle it's available in synthetic and rom",
+    "start": 954
+  },
+  {
+    "content": "which is great and it's there's kind of the long version which is the first bed",
+    "start": 958
+  },
+  {
+    "content": "of five seconds where the browser main thread isn't blocked more than for more",
+    "start": 964
+  },
+  {
+    "content": "than 50 milliseconds after first contentful paint or the TLDR version",
+    "start": 967
+  },
+  {
+    "content": "which is the page is no longer janky and then there's time to interactive which",
+    "start": 971
+  },
+  {
+    "content": "was formerly known as time to consistently interactive and this is a",
+    "start": 979
+  },
+  {
+    "content": "synthetic only measurement it's just basically displaying when the page",
+    "start": 983
+  },
+  {
+    "content": "displays useful content and basically page response to user interaction within",
+    "start": 987
+  },
+  {
+    "content": "50 milliseconds and if you have a hard time keeping those straight know that I",
+    "start": 992
+  },
+  {
+    "content": "work with really smart people at speed curve and sometimes we have to look at",
+    "start": 1000
+  },
+  {
+    "content": "our own metrics glossary just to kind of keep definition story circle which is",
+    "start": 1004
+  },
+  {
+    "content": "the one with like the five millisecond and so it's okay we're all in the truss",
+    "start": 1008
+  },
+  {
+    "content": "tree together we can admit you know our our ignorance and it's okay to not get",
+    "start": 1013
+  },
+  {
+    "content": "to basically let me see let's just go back here for a second time to",
+    "start": 1019
+  },
+  {
+    "content": "interactive for CPU idle really you probably don't need to focus on both",
+    "start": 1024
+  },
+  {
+    "content": "because if you can see in this film strip view where you end this this very",
+    "start": 1029
+  },
+  {
+    "content": "kind of high level waterfall chart with with the key metrics highlighted you can",
+    "start": 1034
+  },
+  {
+    "content": "see that first CPU idle happens at five point seven seven seconds and time to",
+    "start": 1039
+  },
+  {
+    "content": "interactive coincidentally also happens at five point seven seven seconds",
+    "start": 1043
+  },
+  {
+    "content": "they're pretty similar sometimes you might get some gaps between them we give",
+    "start": 1047
+  },
+  {
+    "content": "you both of the minutes be curve just because some people want wins and want",
+    "start": 1052
+  },
+  {
+    "content": "the other but they're pretty similar and the reason why we want to focus on CPU",
+    "start": 1054
+  },
+  {
+    "content": "metrics and why there's been this kind of spotlight Shawn on them in the past",
+    "start": 1063
+  },
+  {
+    "content": "six months or so is because we recognized that this is a",
+    "start": 1068
+  },
+  {
+    "content": "a pie chart that shows how time is spent in the browser and you can see all the",
+    "start": 1074
+  },
+  {
+    "content": "different shades of orange these gradients reflect JavaScript time time",
+    "start": 1080
+  },
+  {
+    "content": "spent processing JavaScript and parsing JavaScript everything else is like is",
+    "start": 1085
+  },
+  {
+    "content": "paint and then displaying the page but that's a lot of time spent just on your",
+    "start": 1089
+  },
+  {
+    "content": "JavaScript given like you know all the other resources on your page and so for",
+    "start": 1094
+  },
+  {
+    "content": "that reason we really we need to focus on what impact does crypt is having on",
+    "start": 1098
+  },
+  {
+    "content": "the CPU and then we realized the CPU tracking what your CPU is doing is a",
+    "start": 1104
+  },
+  {
+    "content": "really great way to have insight into how your JavaScript is performing so",
+    "start": 1109
+  },
+  {
+    "content": "that's why we look at things like blocking CPU time now it's available in",
+    "start": 1114
+  },
+  {
+    "content": "synthetic it's available on rum so it's really handy and basically we describe",
+    "start": 1119
+  },
+  {
+    "content": "blocking CPU as any function that takes more than 50 milliseconds so any",
+    "start": 1125
+  },
+  {
+    "content": "individual JavaScript function and anything that takes more than 50",
+    "start": 1130
+  },
+  {
+    "content": "milliseconds is called a long task and you can measure the number of long tasks",
+    "start": 1133
+  },
+  {
+    "content": "tasks on your page what is the longest long task on your page these are all",
+    "start": 1138
+  },
+  {
+    "content": "other JavaScript metrics that you can that you can look at but blocking CPU",
+    "start": 1142
+  },
+  {
+    "content": "time is a kind of a great way to start getting some visibility into this and",
+    "start": 1146
+  },
+  {
+    "content": "having a high blocking CPU time at least janky news and it will delay metrics",
+    "start": 1150
+  },
+  {
+    "content": "like for CPU idle so personally I like as as somebody who cares about user",
+    "start": 1157
+  },
+  {
+    "content": "experience and who's been kind of measuring this and and and analyzing",
+    "start": 1163
+  },
+  {
+    "content": "metrics for a long time don't take my like placid Canadian",
+    "start": 1166
+  },
+  {
+    "content": "demeanor as any indicator of like my level of excitement cuz I actually love",
+    "start": 1170
+  },
+  {
+    "content": "this metric like I'm so excited by this for one thing we can track it as it",
+    "start": 1175
+  },
+  {
+    "content": "relates to user experience metrics and even business metrics like conversion",
+    "start": 1181
+  },
+  {
+    "content": "rate we can create correlation charts like this because it's available to us",
+    "start": 1186
+  },
+  {
+    "content": "as a run metric we can correlate it to other actual user metrics as well so",
+    "start": 1189
+  },
+  {
+    "content": "here is a correlation chart where you can see JavaScript CPU time that's the",
+    "start": 1195
+  },
+  {
+    "content": "histogram here and you can see that you know law is pretty fast you can see the",
+    "start": 1200
+  },
+  {
+    "content": "most of this cohort is kind of between like",
+    "start": 1205
+  },
+  {
+    "content": "400 milliseconds and just just passed one second and you can see that the",
+    "start": 1207
+  },
+  {
+    "content": "lowest bounce rate good is in the fastest cohort so you've got a bounce",
+    "start": 1214
+  },
+  {
+    "content": "rate that's under 30% that's pretty great and then you can see how bounce",
+    "start": 1218
+  },
+  {
+    "content": "rate kind of creeps up as CPU time increases and this is a really great",
+    "start": 1222
+  },
+  {
+    "content": "thing to show to the business to show to your dev team to kind of get people",
+    "start": 1227
+  },
+  {
+    "content": "excited about actually tracking CPU okay well excited you know excited about",
+    "start": 1232
+  },
+  {
+    "content": "tracking CPU time you see you can see that at 2 seconds so just two seconds",
+    "start": 1238
+  },
+  {
+    "content": "bounce rate is already on up to 47% like that's huge that's like a 20% difference",
+    "start": 1243
+  },
+  {
+    "content": "in in in the space of about 1.8 seconds and what's really interesting to me as",
+    "start": 1250
+  },
+  {
+    "content": "again as a user experience person I use a behavior person is seeing how you kind",
+    "start": 1256
+  },
+  {
+    "content": "of hit this plateau where at two seconds you know bounce rate gets a little bit",
+    "start": 1262
+  },
+  {
+    "content": "slower and it kind of like wheels its way up so I'm doing my I'm doing it this",
+    "start": 1266
+  },
+  {
+    "content": "way this way for you guys it Wiggles its way up to six seconds where it's a the",
+    "start": 1270
+  },
+  {
+    "content": "bounce rate it's a bit higher but not really that much I mean every bit counts",
+    "start": 1274
+  },
+  {
+    "content": "but but you know you can it makes you appreciate the fact that user behavior",
+    "start": 1279
+  },
+  {
+    "content": "kind of user expectations kind of plateau really a lot earlier in",
+    "start": 1285
+  },
+  {
+    "content": "rendering than you think or maybe would like to think because",
+    "start": 1291
+  },
+  {
+    "content": "it's a little bit scary so the reason the other reason I'm excited by tracking",
+    "start": 1294
+  },
+  {
+    "content": "blocking CPU time is because it's finally highlighted something that",
+    "start": 1302
+  },
+  {
+    "content": "probably anybody who has been building pages for a while we're hitting with",
+    "start": 1308
+  },
+  {
+    "content": "third-party content for a while real note has sort of felt intuitively is I",
+    "start": 1313
+  },
+  {
+    "content": "think it's the third parties but I can't quite put my finger on it because this",
+    "start": 1318
+  },
+  {
+    "content": "the number of requests is static the size of the the request is static and",
+    "start": 1322
+  },
+  {
+    "content": "yet I feel like performances all over the place",
+    "start": 1328
+  },
+  {
+    "content": "well we can actually look at this now and we can see so you probably can't",
+    "start": 1331
+  },
+  {
+    "content": "read the legend here but the blue line is",
+    "start": 1337
+  },
+  {
+    "content": "so I'm not picking auntie Liam I just there's I could have picked any number",
+    "start": 1341
+  },
+  {
+    "content": "of scripts to kind of pull up for this chart because they're all pretty similar",
+    "start": 1345
+  },
+  {
+    "content": "I just picked one that I figured people we're familiar with so you can see that",
+    "start": 1349
+  },
+  {
+    "content": "the number of requests is static seven seven requests it's been that way it was",
+    "start": 1353
+  },
+  {
+    "content": "that way for the entire week that I kind of grabbed this chart from the total",
+    "start": 1359
+  },
+  {
+    "content": "size 32 kilobytes pretty small right static but if you look at this like",
+    "start": 1362
+  },
+  {
+    "content": "Wiggly red line that's the blocking CPU time and the blocking CPU time is over",
+    "start": 1369
+  },
+  {
+    "content": "1.7 seconds which is really really high that's for one script so that means that",
+    "start": 1375
+  },
+  {
+    "content": "that script has the capability to be creating jank for your users and if",
+    "start": 1382
+  },
+  {
+    "content": "you're wondering what this little red line is down here this is a performance",
+    "start": 1388
+  },
+  {
+    "content": "budget and I'll get into those in a second that I place at 50 milliseconds",
+    "start": 1391
+  },
+  {
+    "content": "because 50 milliseconds is ideally the threshold for what you would want and",
+    "start": 1394
+  },
+  {
+    "content": "then just to kind of pick on one of the big players I pulled up Google so",
+    "start": 1399
+  },
+  {
+    "content": "because I figure they're kind of fair game and so I same threshold that's",
+    "start": 1404
+  },
+  {
+    "content": "flatline and again you can see seven requests 83 kilobytes and a super",
+    "start": 1408
+  },
+  {
+    "content": "variable blocking CPU time so just so this is the kind of chart you can create",
+    "start": 1415
+  },
+  {
+    "content": "now and it's not to pick on the vendors because vendors are doing it like I I I",
+    "start": 1420
+  },
+  {
+    "content": "don't believe that anybody wakes up in the morning it's like oh how can I make",
+    "start": 1424
+  },
+  {
+    "content": "the web slower and crappier for people you know people just don't know or",
+    "start": 1428
+  },
+  {
+    "content": "they're looking at snapshots of their scripts performance they just don't have",
+    "start": 1433
+  },
+  {
+    "content": "the full picture so if you can take a chart like this to your vendor and say",
+    "start": 1438
+  },
+  {
+    "content": "hey you're basically a long task according to your own definition Google",
+    "start": 1442
+  },
+  {
+    "content": "so maybe you should maybe you should do something about that so you know as you",
+    "start": 1448
+  },
+  {
+    "content": "know as developers visuals help so then another metric that I want to talk about",
+    "start": 1453
+  },
+  {
+    "content": "is a first input delay a start and I don't know why I said that synthetic and",
+    "start": 1460
+  },
+  {
+    "content": "rum it's rum only this is what happens when you make last-minute changes to",
+    "start": 1465
+  },
+  {
+    "content": "your slides so it's actually a rum only metric sorry about that and what it",
+    "start": 1468
+  },
+  {
+    "content": "measures is how quickly the browser responds to",
+    "start": 1474
+  },
+  {
+    "content": "any click or scroll events that the user creates so somebody clicks somebody",
+    "start": 1479
+  },
+  {
+    "content": "Scrolls how long does it for the the browser to",
+    "start": 1485
+  },
+  {
+    "content": "respond and this is a really handy metric because it lets you actually see",
+    "start": 1488
+  },
+  {
+    "content": "how it's always it's a it gives you some good insight into what your javascript",
+    "start": 1493
+  },
+  {
+    "content": "is doing on your page so for example if you have slow FID as we call it first",
+    "start": 1499
+  },
+  {
+    "content": "uppity life it'd times then that's very likely pointing to the fact that the",
+    "start": 1505
+  },
+  {
+    "content": "moment that the user clicked on something on your page there was some",
+    "start": 1512
+  },
+  {
+    "content": "kind of long task that was happening that prevented the page from responding",
+    "start": 1516
+  },
+  {
+    "content": "so it's a really handy run metric to to look at and this is kind of you know",
+    "start": 1520
+  },
+  {
+    "content": "what how we track fit alongside interaction times so you can see for",
+    "start": 1529
+  },
+  {
+    "content": "milliseconds that's really great actually and I'll talk a little bit",
+    "start": 1533
+  },
+  {
+    "content": "about thresholds in a minute so we've got a handful of metrics here these are",
+    "start": 1536
+  },
+  {
+    "content": "a unicorn's block your request for cpu idle time to interactive blocking cpu",
+    "start": 1543
+  },
+  {
+    "content": "time first input delay it's good to kind of you know know that these metrics",
+    "start": 1547
+  },
+  {
+    "content": "exist but you do need to validate them on your own pages and kind of sandy",
+    "start": 1554
+  },
+  {
+    "content": "check them and you really do need to look at your own data there's less I",
+    "start": 1559
+  },
+  {
+    "content": "said before there's no unicorn metric there's no one-size-fits-all metric but",
+    "start": 1562
+  },
+  {
+    "content": "we have some metrics and so now what can we what can we do with them and this is",
+    "start": 1568
+  },
+  {
+    "content": "where performance budgets come in so I'm gonna ask for another show of hands how",
+    "start": 1572
+  },
+  {
+    "content": "many people here are familiar with performance budgets how many people have",
+    "start": 1576
+  },
+  {
+    "content": "used them on their pages okay so not that many and that's understandable",
+    "start": 1582
+  },
+  {
+    "content": "they've been around for a while but they've only really been popularized",
+    "start": 1591
+  },
+  {
+    "content": "in the past year or so and that's because it used to be you had to do a",
+    "start": 1595
+  },
+  {
+    "content": "lot of kind of like basically building your own tooling to manage that to track",
+    "start": 1600
+  },
+  {
+    "content": "them by create them and track them and and do whatever you need to do behind",
+    "start": 1604
+  },
+  {
+    "content": "the scenes but what they are are just thresholds that you",
+    "start": 1607
+  },
+  {
+    "content": "create for metrics that are meaningful to your site so it's basically a it",
+    "start": 1612
+  },
+  {
+    "content": "could be milestone timings for example like first input delay they can be",
+    "start": 1618
+  },
+  {
+    "content": "quantity based like the number of scripts on your page or the number of",
+    "start": 1622
+  },
+  {
+    "content": "blocking requests they can be rules based like your lighthouse scores so you",
+    "start": 1625
+  },
+  {
+    "content": "can create a performance budget on pretty much any metric that's that's",
+    "start": 1630
+  },
+  {
+    "content": "supported by the browser's and trackable within whatever tool you're using",
+    "start": 1634
+  },
+  {
+    "content": "performance budgets are supported in google lighthouse they're supported in",
+    "start": 1639
+  },
+  {
+    "content": "web pack so that's open source and also tools like speed curve and calibre so",
+    "start": 1645
+  },
+  {
+    "content": "you can go out there and experiment with them for yourself and there's a great",
+    "start": 1650
+  },
+  {
+    "content": "blog post by ideas Manny that I really recommend people check out if you and",
+    "start": 1654
+  },
+  {
+    "content": "the link is here and he kind of really spells it out in a lot more detail but",
+    "start": 1659
+  },
+  {
+    "content": "what a performance budget shows you is what your budget is when you go to",
+    "start": 1666
+  },
+  {
+    "content": "bounce how long you're out of bounds and when you're back within budget so it",
+    "start": 1670
+  },
+  {
+    "content": "should it should tell you all those things and this is kind of what it looks",
+    "start": 1674
+  },
+  {
+    "content": "like so again kind of looking at another this is a chart for a third party",
+    "start": 1677
+  },
+  {
+    "content": "performance budget for a tabula where you can see that the budget is at 50",
+    "start": 1682
+  },
+  {
+    "content": "milliseconds my kind of standard threshold for third parties and it's",
+    "start": 1689
+  },
+  {
+    "content": "mostly performant like it really low yellow line and then it kind of suddenly",
+    "start": 1694
+  },
+  {
+    "content": "pops up and below up and below and so this is giving you just a sense of where",
+    "start": 1699
+  },
+  {
+    "content": "where you've gone out of budget and where you've fallen back with underneath",
+    "start": 1704
+  },
+  {
+    "content": "your budget underneath your threshold so you want to be able to visualize this",
+    "start": 1708
+  },
+  {
+    "content": "some great things you can do with performance budgets is you can actually",
+    "start": 1713
+  },
+  {
+    "content": "integrate them with your CI CD process so you can actually use your tools so",
+    "start": 1718
+  },
+  {
+    "content": "that if you violate a performance budget you actually just don't push the the new",
+    "start": 1724
+  },
+  {
+    "content": "bill to production it actually it causes it to kind of bounce back and you can",
+    "start": 1729
+  },
+  {
+    "content": "and you can fix whatever the issue is so there's there's a lot that you can do",
+    "start": 1733
+  },
+  {
+    "content": "with performance budgets now that you maybe weren't able to do a few years ago",
+    "start": 1738
+  },
+  {
+    "content": "and I would really highly recommend that people explore performance budgets and",
+    "start": 1740
+  },
+  {
+    "content": "so the next big question people always want to find out is well what are what",
+    "start": 1745
+  },
+  {
+    "content": "are the numbers what you know show me some numbers so number of blocking",
+    "start": 1750
+  },
+  {
+    "content": "requests well it really varies I'm not gonna be the person to tell you to just",
+    "start": 1754
+  },
+  {
+    "content": "ditch all your all your JavaScript obviously JavaScript serves as a",
+    "start": 1758
+  },
+  {
+    "content": "function on the page I've been on all sides of the table so I know that you",
+    "start": 1762
+  },
+  {
+    "content": "know it's not as easy as saying let's just ditch it and and JavaScript brings",
+    "start": 1766
+  },
+  {
+    "content": "value to your pages so really you need to just assess do an audit of your pages",
+    "start": 1770
+  },
+  {
+    "content": "make sure that the JavaScript that's on it is he actually needs to be there",
+    "start": 1774
+  },
+  {
+    "content": "there's a lot of ghost scripts out there that are like people are wondering when",
+    "start": 1779
+  },
+  {
+    "content": "they look at waterfalls with me when I when I do these reviews with our",
+    "start": 1783
+  },
+  {
+    "content": "customers oh I didn't know that was still on our site so kind of audit your",
+    "start": 1786
+  },
+  {
+    "content": "JavaScript regularly and then once you know what your threshold should be",
+    "start": 1790
+  },
+  {
+    "content": "create a budget for that for first CPU idle we look at kind of anywhere from",
+    "start": 1793
+  },
+  {
+    "content": "two to four milliseconds but again your mileage may vary",
+    "start": 1797
+  },
+  {
+    "content": "blocking CPU time 50 milliseconds and first input delay anywhere from five to",
+    "start": 1800
+  },
+  {
+    "content": "twenty five milliseconds again depending on your page depending on whether you're",
+    "start": 1805
+  },
+  {
+    "content": "looking at desktop users or mobile users and then I'm just about to wrap things",
+    "start": 1809
+  },
+  {
+    "content": "up because I see I'm like ticking over now and some super important stuff look",
+    "start": 1816
+  },
+  {
+    "content": "at your own data monitor your competitors don't sandbag your results",
+    "start": 1821
+  },
+  {
+    "content": "don't have like oh look at I'm within all my performance budgets how great",
+    "start": 1825
+  },
+  {
+    "content": "because you know your budgets are really really generous with yourself kind of",
+    "start": 1829
+  },
+  {
+    "content": "take an iterative sort of progressive approach if you're if you're way up here",
+    "start": 1834
+  },
+  {
+    "content": "and you want to be down here being dist having your budget be down here can be",
+    "start": 1838
+  },
+  {
+    "content": "really demoralizing so put your budget here get underneath it and then kind of",
+    "start": 1842
+  },
+  {
+    "content": "progress towards your your your goal and make sure that you're looking at so that",
+    "start": 1846
+  },
+  {
+    "content": "again rum if you can some more pro tips is a really awesome blog post on the",
+    "start": 1852
+  },
+  {
+    "content": "Zillow engineering blog they're one of our speed for customers and just about",
+    "start": 1857
+  },
+  {
+    "content": "make sure you're looking at the right pages look at your violations look",
+    "start": 1863
+  },
+  {
+    "content": "before and after denny deploys and update your budget it's as you know IC",
+    "start": 1870
+  },
+  {
+    "content": "as you see fit and then my super important takeaways",
+    "start": 1874
+  },
+  {
+    "content": "just because your scripts are walking doesn't mean they aren't hurting the",
+    "start": 1881
+  },
+  {
+    "content": "user experience so it's not enough to just look at blocking scripts anymore",
+    "start": 1884
+  },
+  {
+    "content": "you can have a non-blocking script that has a really high blocking CPU time as I",
+    "start": 1888
+  },
+  {
+    "content": "mentioned ditto with your lightweight J ass lightweight is good but it's not",
+    "start": 1891
+  },
+  {
+    "content": "enough there's no unicorn metric look at your business metrics if you can and",
+    "start": 1897
+  },
+  {
+    "content": "validate your JavaScript metrics against your business metrics to make sure that",
+    "start": 1902
+  },
+  {
+    "content": "because you don't want to like spend a ton of time optimizing your javascript",
+    "start": 1907
+  },
+  {
+    "content": "and realize like oh it didn't change user experience and it didn't change",
+    "start": 1909
+  },
+  {
+    "content": "anything on the business so what did I just do it can be really helpful to",
+    "start": 1913
+  },
+  {
+    "content": "create correlation charts that let you do that validation and set budgets make",
+    "start": 1916
+  },
+  {
+    "content": "yourself accountable and don't be afraid to explore new metrics it's you know",
+    "start": 1921
+  },
+  {
+    "content": "it's kind of a Wild West out there with new metrics all the time but but it's",
+    "start": 1925
+  },
+  {
+    "content": "worth exploring and continuing to explore thank you this is me and you can",
+    "start": 1928
+  },
+  {
+    "content": "I'll be around for the rest of the day you can find me on Twitter at Tabb",
+    "start": 1934
+  },
+  {
+    "content": "Everts and there's always more to learn so I've included some of my favorite",
+    "start": 1937
+  },
+  {
+    "content": "blog posts from some some other folks in performance if you wanted to you a",
+    "start": 1942
+  },
+  {
+    "content": "little more reading about performance budgets and a CPU metrics thank you very",
+    "start": 1947
+  },
+  {
+    "content": "much [Applause]",
+    "start": 1952
+  },
+  {
+    "content": "you",
+    "start": 1957
+  },
+  {
+    "content": "[Applause]",
+    "start": 1959
+  }
+]

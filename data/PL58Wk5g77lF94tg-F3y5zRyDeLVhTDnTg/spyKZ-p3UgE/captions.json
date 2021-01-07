@@ -1,0 +1,1206 @@
+[
+  {
+    "content": "hi",
+    "start": 0
+  },
+  {
+    "content": "i'm angie jones principal developer advocated aptly twos",
+    "start": 11
+  },
+  {
+    "content": "and also director of test automation university",
+    "start": 15
+  },
+  {
+    "content": "today i want to talk about visual testing but first",
+    "start": 19
+  },
+  {
+    "content": "let's start with a game of who done it clearly somebody in this room murdered",
+    "start": 22
+  },
+  {
+    "content": "lord smythe who at precisely 3 34 this afternoon",
+    "start": 33
+  },
+  {
+    "content": "was brutally bludgeoned to death with a blunt instrument",
+    "start": 38
+  },
+  {
+    "content": "i want each of you to tell me your whereabouts",
+    "start": 41
+  },
+  {
+    "content": "at precisely the time that this dastardly deed took place",
+    "start": 44
+  },
+  {
+    "content": "i was polishing the brass in the master bedroom",
+    "start": 50
+  },
+  {
+    "content": "i was buttering his lordship scones below stairs",
+    "start": 54
+  },
+  {
+    "content": "sir why i was planting my petunias in the potting shed",
+    "start": 57
+  },
+  {
+    "content": "constable arrest lady smythe but how did you know madam as any",
+    "start": 61
+  },
+  {
+    "content": "horticulturist will tell you one does not plant petunias until may is",
+    "start": 68
+  },
+  {
+    "content": "out take her away it's just a matter of observation",
+    "start": 71
+  },
+  {
+    "content": "the real question is how observant were you",
+    "start": 76
+  },
+  {
+    "content": "clearly somebody in this room murdered lord smythe",
+    "start": 88
+  },
+  {
+    "content": "who at precisely 3 34 this afternoon was brutally bludgeoned to death with a",
+    "start": 91
+  },
+  {
+    "content": "blunt instrument i want each of you to tell me your",
+    "start": 98
+  },
+  {
+    "content": "whereabouts at precisely the time that this",
+    "start": 101
+  },
+  {
+    "content": "dastardly deed took place i was polishing the brass in the master",
+    "start": 104
+  },
+  {
+    "content": "bedroom i was buttering his lordship scones",
+    "start": 110
+  },
+  {
+    "content": "below stairs but i was planting my petunias in the",
+    "start": 113
+  },
+  {
+    "content": "potting shed constable arrest lady smythe",
+    "start": 118
+  },
+  {
+    "content": "did you happen to notice those changes or at least the biggest one where the",
+    "start": 127
+  },
+  {
+    "content": "dead man got up and walked away probably not right and that's because we",
+    "start": 133
+  },
+  {
+    "content": "all suffer with what's called unintentional",
+    "start": 139
+  },
+  {
+    "content": "blindness and this is where you miss things that",
+    "start": 142
+  },
+  {
+    "content": "are unexpected that come into your viewport",
+    "start": 145
+  },
+  {
+    "content": "and the reason you miss these things is because you're so focused",
+    "start": 148
+  },
+  {
+    "content": "on a specific task that anything else goes unnoticed and this is especially",
+    "start": 152
+  },
+  {
+    "content": "true when we talk about testing our software right",
+    "start": 159
+  },
+  {
+    "content": "when we do do our testing we test whatever the feature is that we've just",
+    "start": 163
+  },
+  {
+    "content": "written and we miss a lot of the background noise that could be occurring",
+    "start": 168
+  },
+  {
+    "content": "so how do we solve for this well typically we automate the test right",
+    "start": 174
+  },
+  {
+    "content": "because if we automate the test then we know it's going to take the same steps",
+    "start": 179
+  },
+  {
+    "content": "every single time and it's going to make the same",
+    "start": 185
+  },
+  {
+    "content": "verifications every single time therefore",
+    "start": 188
+  },
+  {
+    "content": "i won't miss anything but what if i told you",
+    "start": 192
+  },
+  {
+    "content": "that automating your test when doing so you're actually scripting",
+    "start": 196
+  },
+  {
+    "content": "in the unintentional blindness because your",
+    "start": 202
+  },
+  {
+    "content": "scripts are only going to do and verify whatever it",
+    "start": 205
+  },
+  {
+    "content": "is you told it to do and verify for example",
+    "start": 209
+  },
+  {
+    "content": "what about the look and feel of the application right so a lot of the",
+    "start": 212
+  },
+  {
+    "content": "testing tools that we use today they interrogate the dom in order to",
+    "start": 218
+  },
+  {
+    "content": "answer your questions for example is this text showing on the screen it's",
+    "start": 223
+  },
+  {
+    "content": "going to look in the dom and it's going to say",
+    "start": 228
+  },
+  {
+    "content": "yep i see it in the dom it's showing on the screen",
+    "start": 231
+  },
+  {
+    "content": "but what about if that text was the same color as the background",
+    "start": 234
+  },
+  {
+    "content": "what about if that text was being covered by some other element what about",
+    "start": 239
+  },
+  {
+    "content": "if that text was bleeding off the edge of the page",
+    "start": 243
+  },
+  {
+    "content": "which is often the case when we start changing viewport sizes",
+    "start": 246
+  },
+  {
+    "content": "right your scripts are unable to catch these sorts of things",
+    "start": 250
+  },
+  {
+    "content": "and a lot of times people will say well huh that's interesting",
+    "start": 255
+  },
+  {
+    "content": "but we don't really have problems like that well i'm here to tell you that",
+    "start": 259
+  },
+  {
+    "content": "everyone has problems like this companies big and small",
+    "start": 264
+  },
+  {
+    "content": "let me show you a couple of examples here's cineworld",
+    "start": 268
+  },
+  {
+    "content": "cinema is the second largest cinema chain",
+    "start": 272
+  },
+  {
+    "content": "in the world and they had a visual bug on the page",
+    "start": 276
+  },
+  {
+    "content": "that asks you if you want to store your credit card",
+    "start": 279
+  },
+  {
+    "content": "notice here the labels are not aligned with the radio buttons",
+    "start": 283
+  },
+  {
+    "content": "this seems a little small on the surface right but when you think about this",
+    "start": 287
+  },
+  {
+    "content": "you have your customers who are tweeting about",
+    "start": 292
+  },
+  {
+    "content": "it people are losing trust i don't know about you",
+    "start": 296
+  },
+  {
+    "content": "i would not store my credit card information on this page",
+    "start": 299
+  },
+  {
+    "content": "because me as a user as a customer i'm thinking",
+    "start": 304
+  },
+  {
+    "content": "if they didn't catch this then i know they didn't test the back end of it",
+    "start": 308
+  },
+  {
+    "content": "either right i don't know what you all are doing with",
+    "start": 313
+  },
+  {
+    "content": "my credit card i don't want to store it so your customers are losing faith and",
+    "start": 316
+  },
+  {
+    "content": "trust in your product now this tweet is implying that this",
+    "start": 320
+  },
+  {
+    "content": "company they don't even test their happy path",
+    "start": 326
+  },
+  {
+    "content": "but i have a theory i think they did test this",
+    "start": 331
+  },
+  {
+    "content": "in fact i think they automated the test again whatever tools they're using",
+    "start": 335
+  },
+  {
+    "content": "is querying the dom is this label present yes is this label present yes",
+    "start": 340
+  },
+  {
+    "content": "what about those two radio buttons they're there",
+    "start": 344
+  },
+  {
+    "content": "and functionally this works but from a user perspective we can see this as an",
+    "start": 347
+  },
+  {
+    "content": "issue here's another one this is open table i",
+    "start": 352
+  },
+  {
+    "content": "was going to go to north carolina and meet up with some of",
+    "start": 355
+  },
+  {
+    "content": "my friends i used to live there years ago so i was going to meet up with",
+    "start": 359
+  },
+  {
+    "content": "quite a few friends it's going to be a party of seven of us and i wanted to",
+    "start": 363
+  },
+  {
+    "content": "make a reservation at my favorite barbecue it's north",
+    "start": 366
+  },
+  {
+    "content": "carolina's known for barbecue right so the pit is",
+    "start": 370
+  },
+  {
+    "content": "the place that i chose and i needed to select the time so",
+    "start": 374
+  },
+  {
+    "content": "i chose 7 p.m now when i chose 7 p.m moto appeared and",
+    "start": 377
+  },
+  {
+    "content": "i was a little bit confused at first because there's",
+    "start": 382
+  },
+  {
+    "content": "nothing in the center here however i can see that there are",
+    "start": 385
+  },
+  {
+    "content": "actually two select buttons here however they're",
+    "start": 389
+  },
+  {
+    "content": "not aligned right not only are there not aligns i",
+    "start": 392
+  },
+  {
+    "content": "don't really know what i'm selecting so i did what any of",
+    "start": 396
+  },
+  {
+    "content": "you would do and i opened up chrome dev tools and",
+    "start": 400
+  },
+  {
+    "content": "began to dig around to figure out what are these",
+    "start": 403
+  },
+  {
+    "content": "buttons and what's going on and when i did that i realized that the",
+    "start": 407
+  },
+  {
+    "content": "labels actually were there they were just as far away from the",
+    "start": 411
+  },
+  {
+    "content": "buttons as possible fortunately i'm an engineer so i'm able",
+    "start": 416
+  },
+  {
+    "content": "to do this sort of thing and continue on",
+    "start": 421
+  },
+  {
+    "content": "and make the reservation because i still want this barbecue",
+    "start": 423
+  },
+  {
+    "content": "but most of the open table customers they're not developers",
+    "start": 426
+  },
+  {
+    "content": "they're not opening chrome dev tools they don't even know about it right",
+    "start": 430
+  },
+  {
+    "content": "they're not digging through the dom in order to use your application and if",
+    "start": 434
+  },
+  {
+    "content": "they're a millennial like i am they certainly aren't going to give you a",
+    "start": 438
+  },
+  {
+    "content": "phone call no they're just going to go and find another restaurant for their",
+    "start": 441
+  },
+  {
+    "content": "party so i i i'm thinking about",
+    "start": 445
+  },
+  {
+    "content": "how much business is lost with this bug here",
+    "start": 450
+  },
+  {
+    "content": "right this is a visual book and if we think about it",
+    "start": 453
+  },
+  {
+    "content": "technically it works functionally it's fine if we had our",
+    "start": 457
+  },
+  {
+    "content": "tests that were interrogating the dom yes it would be able to click the right",
+    "start": 463
+  },
+  {
+    "content": "button and make the reservation and opentable probably has these",
+    "start": 468
+  },
+  {
+    "content": "automated and it said yep push to prom right",
+    "start": 472
+  },
+  {
+    "content": "now these aren't just one-offs it happens to your favorite tech companies",
+    "start": 476
+  },
+  {
+    "content": "as well happens to amazon at a point of sale",
+    "start": 480
+  },
+  {
+    "content": "someone is wanting to multiply the amount of money that",
+    "start": 485
+  },
+  {
+    "content": "they're spending and they're faced with this",
+    "start": 488
+  },
+  {
+    "content": "happens to facebook in their marketplace someone is wanting to buy stuff and the",
+    "start": 491
+  },
+  {
+    "content": "text is all goofy right happens to instagram this is",
+    "start": 497
+  },
+  {
+    "content": "sponsored content meaning someone paid for their advertisement to show up",
+    "start": 502
+  },
+  {
+    "content": "and i'm sure they didn't expect it to look like this where all the text was",
+    "start": 506
+  },
+  {
+    "content": "jumbled again in all of these instances the test",
+    "start": 510
+  },
+  {
+    "content": "was still passed right it's this text present it's this text present it's this",
+    "start": 514
+  },
+  {
+    "content": "present yes all of it's present however it looks like this happens to twitter",
+    "start": 518
+  },
+  {
+    "content": "look at these tweets overlapping what do you do as a user you close the app right",
+    "start": 524
+  },
+  {
+    "content": "you don't want to deal with this even happens to google and i almost",
+    "start": 529
+  },
+  {
+    "content": "didn't put this one in because it doesn't feel like such a big deal",
+    "start": 533
+  },
+  {
+    "content": "however this is a point of sale they're not",
+    "start": 536
+  },
+  {
+    "content": "going to let that sit like that which means some highly paid engineer",
+    "start": 539
+  },
+  {
+    "content": "now has to go and chase down this goofy bug",
+    "start": 543
+  },
+  {
+    "content": "the great news is that we don't have to live like this",
+    "start": 546
+  },
+  {
+    "content": "so visual validation can be automated we can",
+    "start": 550
+  },
+  {
+    "content": "add these to our tests let me tell you what visual validation is so visual",
+    "start": 553
+  },
+  {
+    "content": "validation or visual testing it's where you take a screenshot of your",
+    "start": 557
+  },
+  {
+    "content": "application when it's in its pristine state right this is the",
+    "start": 562
+  },
+  {
+    "content": "golden master yes it looks great right and then on your regression runs",
+    "start": 565
+  },
+  {
+    "content": "you can take another screenshot and you compare the",
+    "start": 570
+  },
+  {
+    "content": "two now visual testing is not something that's",
+    "start": 573
+  },
+  {
+    "content": "entirely new in the industry in fact it's been around for quite a while",
+    "start": 577
+  },
+  {
+    "content": "however the technique that we were using as an industry not so",
+    "start": 582
+  },
+  {
+    "content": "great for testing what we were doing was comparing the",
+    "start": 586
+  },
+  {
+    "content": "pictures pixel by pixel very flaky right let me show you what i",
+    "start": 590
+  },
+  {
+    "content": "mean and this first example here this is",
+    "start": 596
+  },
+  {
+    "content": "where we say okay this is our application",
+    "start": 599
+  },
+  {
+    "content": "is great state and then in the second picture",
+    "start": 601
+  },
+  {
+    "content": "is a regression run comparing these two they",
+    "start": 604
+  },
+  {
+    "content": "fail the reason why is that the google search button",
+    "start": 608
+  },
+  {
+    "content": "is bolded in the second example well if you happen to be hovering over that",
+    "start": 612
+  },
+  {
+    "content": "button that's the effect that it has",
+    "start": 616
+  },
+  {
+    "content": "this is an automated script which means when this was running",
+    "start": 620
+  },
+  {
+    "content": "the mouse happened to be right there right",
+    "start": 624
+  },
+  {
+    "content": "so now you need to try to account for this kind of stuff so that",
+    "start": 627
+  },
+  {
+    "content": "your test don't break no no one wants to do that",
+    "start": 630
+  },
+  {
+    "content": "here's another one this one also fails the reason why is the cursor is solid in",
+    "start": 635
+  },
+  {
+    "content": "the first one but not the second one well cursors blink so if you happen to",
+    "start": 640
+  },
+  {
+    "content": "take the picture when the cursor is solid and then another time when it's",
+    "start": 645
+  },
+  {
+    "content": "not now you have a failure and your",
+    "start": 649
+  },
+  {
+    "content": "deployment is gated and stopped not great right",
+    "start": 651
+  },
+  {
+    "content": "good news is that applitus has come up with a newer technique to do this",
+    "start": 657
+  },
+  {
+    "content": "using machine learning so it uses ai to be able to mimic how the human brain",
+    "start": 661
+  },
+  {
+    "content": "and eye looks at something and be able to compare it in",
+    "start": 668
+  },
+  {
+    "content": "that way and only flag the differences that",
+    "start": 672
+  },
+  {
+    "content": "matter specifically this was made for testing",
+    "start": 675
+  },
+  {
+    "content": "so i ran this little spot the difference game through a pixel pixel comparison",
+    "start": 679
+  },
+  {
+    "content": "and then i ran it through aptitude's ai i'm not going to let you all play",
+    "start": 684
+  },
+  {
+    "content": "because you let the dead man walk away but let me show you what i found",
+    "start": 688
+  },
+  {
+    "content": "so in pixel to pixel notice how sensitive this is it flags",
+    "start": 692
+  },
+  {
+    "content": "pretty much everything even little white space",
+    "start": 696
+  },
+  {
+    "content": "shifts make a difference here this is not great for testing applications",
+    "start": 699
+  },
+  {
+    "content": "versus we ran this through aptitude's eyes",
+    "start": 705
+  },
+  {
+    "content": "api and it spotted what we would spot as human beings",
+    "start": 708
+  },
+  {
+    "content": "so this is more suitable for testing all right so let's",
+    "start": 713
+  },
+  {
+    "content": "add it to an existing code base so here is the application we're going to look",
+    "start": 718
+  },
+  {
+    "content": "at it's a single page app very simple and",
+    "start": 722
+  },
+  {
+    "content": "straightforward i have eight of my favorite books on testing",
+    "start": 725
+  },
+  {
+    "content": "and you can filter these books by typing in you know title or partial",
+    "start": 729
+  },
+  {
+    "content": "title or author name or whatever okay",
+    "start": 735
+  },
+  {
+    "content": "so for example let's look at the first test and say that we actually type in",
+    "start": 739
+  },
+  {
+    "content": "test here notice here it filtered down all the",
+    "start": 744
+  },
+  {
+    "content": "books that have test in the title okay and here's the test",
+    "start": 748
+  },
+  {
+    "content": "for that so let me walk you through it we say",
+    "start": 753
+  },
+  {
+    "content": "okay our query is going to be test here are the books that we expect to come",
+    "start": 756
+  },
+  {
+    "content": "back so it's an array of those five titles and then we say okay",
+    "start": 760
+  },
+  {
+    "content": "add that test to that search field right so we're going to search for that",
+    "start": 765
+  },
+  {
+    "content": "and now we get into the validation so we're going to validate that there",
+    "start": 770
+  },
+  {
+    "content": "are these many number of books however many is in",
+    "start": 774
+  },
+  {
+    "content": "this array here and then we're going to loop through that and make sure each of",
+    "start": 778
+  },
+  {
+    "content": "those titles is actually one of those visible",
+    "start": 783
+  },
+  {
+    "content": "books okay great however",
+    "start": 787
+  },
+  {
+    "content": "i want to add a little css now right now just like",
+    "start": 791
+  },
+  {
+    "content": "all of you i'm not a css whiz either no one is right well maybe a few people",
+    "start": 795
+  },
+  {
+    "content": "but you know let's say i pick up a little bit of css",
+    "start": 801
+  },
+  {
+    "content": "and i'm trying to play around with the application and i",
+    "start": 805
+  },
+  {
+    "content": "was going for this bouncy effect but i added this line here line six now",
+    "start": 808
+  },
+  {
+    "content": "because i have tests i can just check this in right because i have tests",
+    "start": 815
+  },
+  {
+    "content": "that means i can do whatever i want and the test will catch any errors so",
+    "start": 821
+  },
+  {
+    "content": "i check this in i run my test again and this is what the application looks",
+    "start": 826
+  },
+  {
+    "content": "like with that one line of css i literally",
+    "start": 832
+  },
+  {
+    "content": "flipped this application on its head what did my test say test passed",
+    "start": 836
+  },
+  {
+    "content": "how because it's querying the dom right so it's asking the dom how many",
+    "start": 844
+  },
+  {
+    "content": "books are visible she said she wanted five of them yep you got five",
+    "start": 851
+  },
+  {
+    "content": "great perfect okay of those five she said these are the titles",
+    "start": 854
+  },
+  {
+    "content": "are all those titles visible too yep they are great perfect",
+    "start": 859
+  },
+  {
+    "content": "ship it and this is what we ship this is why we need the visual testing",
+    "start": 863
+  },
+  {
+    "content": "okay so how do we add the visual testing it's very simple it's three commands",
+    "start": 870
+  },
+  {
+    "content": "line three four and five so we say open your eyes",
+    "start": 874
+  },
+  {
+    "content": "poetry right because that's the api it's called eyes so open your eyes",
+    "start": 880
+  },
+  {
+    "content": "and we say check the window that check window call",
+    "start": 887
+  },
+  {
+    "content": "does the screenshot so this takes the screenshot",
+    "start": 892
+  },
+  {
+    "content": "it sends it up to the applitudes cloud stores it there does the comparisons",
+    "start": 895
+  },
+  {
+    "content": "and everything like that so the very first time you run it you don't have a",
+    "start": 900
+  },
+  {
+    "content": "baseline it creates the picture it makes that",
+    "start": 904
+  },
+  {
+    "content": "your baseline and then for all your regression runs it's going to compare it",
+    "start": 907
+  },
+  {
+    "content": "to that baseline final call close your eyes we're done here",
+    "start": 911
+  },
+  {
+    "content": "beautiful right so now when we run that it runs with",
+    "start": 916
+  },
+  {
+    "content": "cypress and i'm running that in cyprus but it",
+    "start": 921
+  },
+  {
+    "content": "can run with any of your favorite tools right",
+    "start": 923
+  },
+  {
+    "content": "okay so i i run this in cypress the cypress test fails but then it also",
+    "start": 926
+  },
+  {
+    "content": "provides a link so that you can come to the aptitudes",
+    "start": 931
+  },
+  {
+    "content": "dashboard which is hosting all of your images and test runs okay so",
+    "start": 934
+  },
+  {
+    "content": "here we see that it flags doing the visual testing it was able to",
+    "start": 940
+  },
+  {
+    "content": "see oh no this is not right you messed up",
+    "start": 945
+  },
+  {
+    "content": "which is perfect okay so let's talk about some pros and",
+    "start": 949
+  },
+  {
+    "content": "cons with this approach well a pro is that i'm testing",
+    "start": 952
+  },
+  {
+    "content": "everything i've totally removed that unintentional blindness",
+    "start": 955
+  },
+  {
+    "content": "however a con is that i'm testing everything right",
+    "start": 959
+  },
+  {
+    "content": "so everything on this page is being tested when in reality i might not want",
+    "start": 963
+  },
+  {
+    "content": "to test everything on a page for example i don't care about testing that title of",
+    "start": 966
+  },
+  {
+    "content": "the page what's entered in the search bar is",
+    "start": 971
+  },
+  {
+    "content": "questionable if there was anything else going on on this page i might not care",
+    "start": 974
+  },
+  {
+    "content": "about it right fortunately the eyes api is extremely",
+    "start": 978
+  },
+  {
+    "content": "flexible so i can narrow this down instead of",
+    "start": 982
+  },
+  {
+    "content": "saying check the entire window i can pass in",
+    "start": 986
+  },
+  {
+    "content": "some arguments and say no all right go for this window but i",
+    "start": 989
+  },
+  {
+    "content": "want to target a specific region and here's my",
+    "start": 994
+  },
+  {
+    "content": "css selector for that region right so when i do that now it's only",
+    "start": 997
+  },
+  {
+    "content": "going to take a picture of that specific region and",
+    "start": 1002
+  },
+  {
+    "content": "this becomes what it verifies against",
+    "start": 1006
+  },
+  {
+    "content": "ignoring everything else right okay pros and cons pro",
+    "start": 1009
+  },
+  {
+    "content": "is that we scope this down now it's narrow and it's",
+    "start": 1014
+  },
+  {
+    "content": "just what we want to test khan we scope this down right so we commit",
+    "start": 1019
+  },
+  {
+    "content": "some things for example let's say that our",
+    "start": 1026
+  },
+  {
+    "content": "application the filter part was broken and i entered in test and nothing",
+    "start": 1029
+  },
+  {
+    "content": "filtered would our visual test pass or would it",
+    "start": 1034
+  },
+  {
+    "content": "fail it would pass because remember",
+    "start": 1037
+  },
+  {
+    "content": "what we just said is scope this down to this specific book so it's going to find",
+    "start": 1042
+  },
+  {
+    "content": "this specific book it's going to say oh yes take a picture",
+    "start": 1048
+  },
+  {
+    "content": "it looks beautiful and we've added back that unintentional blindness where it",
+    "start": 1053
+  },
+  {
+    "content": "missed everything else that was going on around",
+    "start": 1058
+  },
+  {
+    "content": "it namely that the search feature doesn't",
+    "start": 1061
+  },
+  {
+    "content": "even work right so you have to be smart about this",
+    "start": 1065
+  },
+  {
+    "content": "even though it's using ai a lot of times people think ai is",
+    "start": 1068
+  },
+  {
+    "content": "all-knowing that's not true as an engineer you still need to",
+    "start": 1072
+  },
+  {
+    "content": "think this stuff through right so we can fix up our tests",
+    "start": 1076
+  },
+  {
+    "content": "by coupling it with functional assertions as well",
+    "start": 1081
+  },
+  {
+    "content": "right a couple of things we could do actually we could",
+    "start": 1084
+  },
+  {
+    "content": "scope it not just to this book but this to this entire",
+    "start": 1087
+  },
+  {
+    "content": "search results area or if you just want to scope it to the book that's fine",
+    "start": 1090
+  },
+  {
+    "content": "but i would couple that with line three by adding",
+    "start": 1095
+  },
+  {
+    "content": "another functional assertion back in there so i want to do the visual and the",
+    "start": 1099
+  },
+  {
+    "content": "functional together i can do this this doesn't have to",
+    "start": 1103
+  },
+  {
+    "content": "replace everything that you have okay all right",
+    "start": 1106
+  },
+  {
+    "content": "also can do dynamic content so uh if the page like it's going to have ads",
+    "start": 1111
+  },
+  {
+    "content": "or you know you don't know what the content is going",
+    "start": 1118
+  },
+  {
+    "content": "to be but there is a static structure like think about",
+    "start": 1121
+  },
+  {
+    "content": "twitter or news sites things like that you don't know what it's going to say",
+    "start": 1126
+  },
+  {
+    "content": "but it has a specific layout you can validate this as well by just adding",
+    "start": 1129
+  },
+  {
+    "content": "this line five match levels so there's multiple match",
+    "start": 1136
+  },
+  {
+    "content": "levels that you can use doing so notice here i ran the test and",
+    "start": 1139
+  },
+  {
+    "content": "it still passed even though in the first example we have",
+    "start": 1145
+  },
+  {
+    "content": "advanced selenium followed by cucumber and the second one we have cucumber",
+    "start": 1150
+  },
+  {
+    "content": "followed by advanced selenium this still passed because it uses",
+    "start": 1153
+  },
+  {
+    "content": "machine learning to detect the pattern of the page and it looks",
+    "start": 1157
+  },
+  {
+    "content": "great so we're good to go all right another thing you can do with",
+    "start": 1161
+  },
+  {
+    "content": "the visual testing is test across multiple devices so this",
+    "start": 1165
+  },
+  {
+    "content": "works kind of like magic you don't have to write like all",
+    "start": 1170
+  },
+  {
+    "content": "of these different tests for all of these different viewports and",
+    "start": 1174
+  },
+  {
+    "content": "configurations you write your test just one time and",
+    "start": 1177
+  },
+  {
+    "content": "what this is going to do when you're ready to verify you call",
+    "start": 1182
+  },
+  {
+    "content": "eyes and you give it like the list of the configurations that you want to go",
+    "start": 1185
+  },
+  {
+    "content": "after it grabs your state of your application",
+    "start": 1189
+  },
+  {
+    "content": "so the dom the css js all of this stuff and it",
+    "start": 1193
+  },
+  {
+    "content": "blasts it onto multiple configurations all in parallel",
+    "start": 1197
+  },
+  {
+    "content": "so it's really really fast so here's how i specify what",
+    "start": 1201
+  },
+  {
+    "content": "configurations i want lines four through eleven so i have this",
+    "start": 1204
+  },
+  {
+    "content": "browser array with these objects here each one",
+    "start": 1209
+  },
+  {
+    "content": "specifying a configuration so i want firefox chrome and i'm",
+    "start": 1214
+  },
+  {
+    "content": "ie 11 and you can specify like the different",
+    "start": 1217
+  },
+  {
+    "content": "viewport sizes i want iphone 10 i want galaxy i want iphone 10 in both",
+    "start": 1222
+  },
+  {
+    "content": "landscape and portrait also support for edge and safari all the",
+    "start": 1227
+  },
+  {
+    "content": "works right i don't have to touch my test my test",
+    "start": 1232
+  },
+  {
+    "content": "remains the same right but what this is going to",
+    "start": 1235
+  },
+  {
+    "content": "do is blast that state and when i say blast",
+    "start": 1239
+  },
+  {
+    "content": "the state is not executing all of the steps",
+    "start": 1242
+  },
+  {
+    "content": "it's grabbing the state which makes it amazingly",
+    "start": 1244
+  },
+  {
+    "content": "fast all right so given that i get to see like what my application would look",
+    "start": 1247
+  },
+  {
+    "content": "like in all of these different states and the test runs across all of these",
+    "start": 1252
+  },
+  {
+    "content": "and you see these are the configurations over here",
+    "start": 1257
+  },
+  {
+    "content": "on the right so super nice also works with storybook",
+    "start": 1261
+  },
+  {
+    "content": "components so if you want to verify your components you can do so their support",
+    "start": 1266
+  },
+  {
+    "content": "for angular view and react and it also works on the grid",
+    "start": 1270
+  },
+  {
+    "content": "as well so you can see how all of your components look and all of",
+    "start": 1275
+  },
+  {
+    "content": "these different viewports in browsers and phones and things so",
+    "start": 1279
+  },
+  {
+    "content": "pretty nice alright so that's visual testing",
+    "start": 1284
+  },
+  {
+    "content": "in a nutshell thank you so much for your time",
+    "start": 1288
+  },
+  {
+    "content": "what questions can i answer you",
+    "start": 1292
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "content": "hello james.com this is evan yu",
+    "start": 0
+  },
+  {
+    "content": "creator and team lead of vjs today i'm very happy to share with you some latest",
+    "start": 11
+  },
+  {
+    "content": "updates on vjs we just recently released view 3.0",
+    "start": 16
+  },
+  {
+    "content": "a new major version with tons of improvements and new features",
+    "start": 21
+  },
+  {
+    "content": "it's a complete rewrite with greatly improved internal architecture but the",
+    "start": 24
+  },
+  {
+    "content": "public api was kept largely the same new features",
+    "start": 28
+  },
+  {
+    "content": "include fragments teleport suspense and most",
+    "start": 32
+  },
+  {
+    "content": "importantly the composition api which is a very flexible and powerful",
+    "start": 36
+  },
+  {
+    "content": "tool for dealing with complex logic at scale view 3 also brings about a",
+    "start": 41
+  },
+  {
+    "content": "number of single file component specific features",
+    "start": 46
+  },
+  {
+    "content": "to improve the development experience such as syntax sugar for using",
+    "start": 49
+  },
+  {
+    "content": "composition api and state driven css variables in the",
+    "start": 54
+  },
+  {
+    "content": "style section other highlights for view three include",
+    "start": 58
+  },
+  {
+    "content": "improved performance across the board sometimes up to two to three times",
+    "start": 62
+  },
+  {
+    "content": "faster half the memory usage and smaller bundle sizes for your tree",
+    "start": 65
+  },
+  {
+    "content": "shaking better typescript integration and better ide support now v3 also",
+    "start": 70
+  },
+  {
+    "content": "unlocks some interesting new capabilities",
+    "start": 76
+  },
+  {
+    "content": "specifically for the jam stack use cases and we're exploring these capabilities",
+    "start": 78
+  },
+  {
+    "content": "in a currently experimental project called v press feed press is a",
+    "start": 84
+  },
+  {
+    "content": "lightweight alternative to viewpress built on view 3",
+    "start": 89
+  },
+  {
+    "content": "and v8 it's a view powered static site generator",
+    "start": 94
+  },
+  {
+    "content": "designed with minimal payload in mind it allows full dynamic and static content",
+    "start": 98
+  },
+  {
+    "content": "mix in mar down source in markdown source",
+    "start": 103
+  },
+  {
+    "content": "files now there are other solutions that",
+    "start": 106
+  },
+  {
+    "content": "allows you to do this for example mdx for react",
+    "start": 108
+  },
+  {
+    "content": "but the problem to these existing solutions is that in order to",
+    "start": 111
+  },
+  {
+    "content": "hydrate these dynamic components we're also",
+    "start": 115
+  },
+  {
+    "content": "including all the javascript for the static content in your markdown files as",
+    "start": 118
+  },
+  {
+    "content": "well so this bloats the javascript bundle",
+    "start": 122
+  },
+  {
+    "content": "size and makes your page load slower now vpress solves this problem by",
+    "start": 125
+  },
+  {
+    "content": "smartly leveraging v3s compiler hints to discard the javascript for the static",
+    "start": 131
+  },
+  {
+    "content": "parts so your bundle only contains the code for the dynamic parts",
+    "start": 136
+  },
+  {
+    "content": "we're also working on more improvements in q3 core",
+    "start": 140
+  },
+  {
+    "content": "to expand this capability to even further uh to include component",
+    "start": 144
+  },
+  {
+    "content": "templates as well so stay tuned now if you haven't given",
+    "start": 148
+  },
+  {
+    "content": "view three a try yet head over over to our new docs at v3.js",
+    "start": 151
+  },
+  {
+    "content": "to learn more thank you you",
+    "start": 156
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "description": "Talk given by Nicolas Goutay, at the remote JAMstack Meetup #14 on July 27th, 2020.\nhttps://twitter.com/Phacks\nhttps://www.meetup.com/JAMStack_berlin/events/270907371/\n\nDuring the last two years, the median webpage size across the web increased by over 30%, from 1.5Mb to 2Mb—resulting in worse performance for end-users.\r\n\r\nWhile the Jamstack philosophy is rooted in frugality, many recent Jamstack approaches rely on heavy JavaScript frameworks that give us top-notch Developer Experience at the expense of heavier web pages. What is the true cost of those frameworks? And how can we alleviate it?\r\n\r\nIn this talk, I will first describe the end-user impact of using JavaScript frameworks, then discuss options to reduce that impact for existing Jamstack websites, to finally present and review the “lightweight Jamstack” we used to redesign https://orbit.love: Eleventy, Alpine and Tailwind.\n\nContentful Developer portal - www.contentful.com/developers/\nContentful Community Slack - www.contentful.com/slack/",
+  "duration": {
+    "minutes": 27,
+    "seconds": 22
+  },
+  "id": "taOyVmLgym4",
+  "publishedAt": 1596629212,
+  "ranking": {
+    "likes": 24,
+    "views": 601
+  },
+  "thumbnails": {
+    "large": "https://i.ytimg.com/vi/taOyVmLgym4/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/taOyVmLgym4/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/taOyVmLgym4/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/taOyVmLgym4/default.jpg"
+  },
+  "title": "Eleventy, Alpine and Tailwind: towards a lightweight Jamstack by Nicolas Goutay"
+}

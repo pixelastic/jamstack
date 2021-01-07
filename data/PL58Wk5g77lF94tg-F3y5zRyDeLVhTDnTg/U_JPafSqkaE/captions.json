@@ -1,0 +1,710 @@
+[
+  {
+    "content": "hi",
+    "start": 0
+  },
+  {
+    "content": "i'm jessica parsons i use the prone she and her and",
+    "start": 13
+  },
+  {
+    "content": "i'm the product manager for netlify's build system",
+    "start": 16
+  },
+  {
+    "content": "i am here to talk to you today about netlify partner integrations",
+    "start": 19
+  },
+  {
+    "content": "this is kind of an interesting lightning launch because it's not about a feature",
+    "start": 23
+  },
+  {
+    "content": "that we're releasing but about some features and tools that",
+    "start": 26
+  },
+  {
+    "content": "other services are releasing on netlify's platform to",
+    "start": 29
+  },
+  {
+    "content": "tell that story i need to go back to may at the last jam",
+    "start": 33
+  },
+  {
+    "content": "stack conference at which point we released build plugins",
+    "start": 37
+  },
+  {
+    "content": "build plugins are a way for anyone to plug into netlify's build system",
+    "start": 41
+  },
+  {
+    "content": "customize it to work the way that they want to and then they can share those",
+    "start": 46
+  },
+  {
+    "content": "customizations with others to plug in without having to write extra code",
+    "start": 49
+  },
+  {
+    "content": "to review a little bit i'm going to talk about what it takes to build a build",
+    "start": 53
+  },
+  {
+    "content": "plugin first thing you need to do is create a",
+    "start": 57
+  },
+  {
+    "content": "manifest file that specifies the plugin's properties",
+    "start": 60
+  },
+  {
+    "content": "at a minimum this is a name so you can refer to the plugin",
+    "start": 62
+  },
+  {
+    "content": "the other file involved is the file that actually performs the plugin actions",
+    "start": 67
+  },
+  {
+    "content": "this is a javascript file with event handlers that run at different stages of",
+    "start": 71
+  },
+  {
+    "content": "the build plugging into error sections of the",
+    "start": 74
+  },
+  {
+    "content": "build as it runs these are the two files that make up a",
+    "start": 76
+  },
+  {
+    "content": "plugin you can stick this in a repository",
+    "start": 79
+  },
+  {
+    "content": "refer to it in your netlife.tamil config file and it will run in your local",
+    "start": 82
+  },
+  {
+    "content": "builds as well as on nullify's build system",
+    "start": 85
+  },
+  {
+    "content": "but you can also take these files package them up and share them with",
+    "start": 88
+  },
+  {
+    "content": "others to do this you first start by publishing",
+    "start": 91
+  },
+  {
+    "content": "the plugin to npm this way other users can use your plugin",
+    "start": 94
+  },
+  {
+    "content": "as well by installing it by using nbm install and then referencing the",
+    "start": 99
+  },
+  {
+    "content": "package name for the plugin inside of their netlify.tomlconfig file",
+    "start": 104
+  },
+  {
+    "content": "but you can eat that once they've done that they can run it locally",
+    "start": 109
+  },
+  {
+    "content": "or inside of netlify's build but you can also take that a step further",
+    "start": 112
+  },
+  {
+    "content": "you can add it to netlify's plug-in directory inside of the netlify ui",
+    "start": 116
+  },
+  {
+    "content": "anybody can do this in order to do it you make a pull request against the",
+    "start": 120
+  },
+  {
+    "content": "netlife plugins repo with some fields with information about",
+    "start": 124
+  },
+  {
+    "content": "your plugin once that pr is merged any netlify user can install",
+    "start": 127
+  },
+  {
+    "content": "your plugin directly from the netlify ui it's pretty powerful and many people in",
+    "start": 132
+  },
+  {
+    "content": "the community have found it useful and have shared plugins within the netlify",
+    "start": 137
+  },
+  {
+    "content": "ui among them are several plugins that",
+    "start": 141
+  },
+  {
+    "content": "involve cache control for popular build frameworks",
+    "start": 144
+  },
+  {
+    "content": "plugins for site performance optimization",
+    "start": 149
+  },
+  {
+    "content": "and a whole variety of tools that customize people's builds that they've",
+    "start": 152
+  },
+  {
+    "content": "been sharing within the netlify ui we've also",
+    "start": 156
+  },
+  {
+    "content": "found that in addition to community members representatives of companies are",
+    "start": 159
+  },
+  {
+    "content": "using build plugins to integrate their services within the",
+    "start": 163
+  },
+  {
+    "content": "netlify ecosystem and today i'm going to talk about three",
+    "start": 166
+  },
+  {
+    "content": "of those three new partner integrations that have",
+    "start": 171
+  },
+  {
+    "content": "just been released and as it turns out each of those three",
+    "start": 174
+  },
+  {
+    "content": "have been built in three different ways to start the first one i'm going to talk",
+    "start": 178
+  },
+  {
+    "content": "about snick they've created a build plug-in that",
+    "start": 183
+  },
+  {
+    "content": "works with an environment variable snex security plug-in checks your code",
+    "start": 186
+  },
+  {
+    "content": "for vulnerabilities on every build then it fails the build if it finds any",
+    "start": 192
+  },
+  {
+    "content": "vulnerabilities then it provides steps and tools to help",
+    "start": 197
+  },
+  {
+    "content": "you fix those vulnerabilities automatically this can provide a lot of",
+    "start": 201
+  },
+  {
+    "content": "security for your site but it's worth noting that because it's",
+    "start": 205
+  },
+  {
+    "content": "interacting with snyx service it requires a snake account and an api",
+    "start": 208
+  },
+  {
+    "content": "token that's not automatically inside of",
+    "start": 212
+  },
+  {
+    "content": "netlify's ui so how does snake solve for this the way",
+    "start": 215
+  },
+  {
+    "content": "that they do is by having users supply the token as",
+    "start": 219
+  },
+  {
+    "content": "an environment variable on netlify you can do this users can discover this",
+    "start": 222
+  },
+  {
+    "content": "by looking at the docs or if they've installed the plugin",
+    "start": 227
+  },
+  {
+    "content": "without adding the environment variable snake adds this helpful message within",
+    "start": 231
+  },
+  {
+    "content": "within the build logs to explain what the next steps are to do that if",
+    "start": 234
+  },
+  {
+    "content": "you're curious about how it works you can also check out the tutorial i've",
+    "start": 239
+  },
+  {
+    "content": "linked on this slide for more information once the user has",
+    "start": 242
+  },
+  {
+    "content": "saved that environment variable snick can access that within their",
+    "start": 247
+  },
+  {
+    "content": "plugin using process.m just like you would in any other",
+    "start": 250
+  },
+  {
+    "content": "environment variables situation they can use that environment variable",
+    "start": 254
+  },
+  {
+    "content": "to access their api and authenticate now key takeaways for",
+    "start": 259
+  },
+  {
+    "content": "this method this is the quickest and most popular",
+    "start": 264
+  },
+  {
+    "content": "method for integrating a service with netlify",
+    "start": 267
+  },
+  {
+    "content": "plugins all of the services that i showed you before all those company",
+    "start": 270
+  },
+  {
+    "content": "logos they use the same exact method as snik",
+    "start": 274
+  },
+  {
+    "content": "does of having the user create an environment",
+    "start": 278
+  },
+  {
+    "content": "variable and connect with that way and one of the",
+    "start": 280
+  },
+  {
+    "content": "things that nice that is nice about this is it can be a good",
+    "start": 286
+  },
+  {
+    "content": "way to test the waters of creating an integration",
+    "start": 288
+  },
+  {
+    "content": "it's fairly low effort to create a plug-in like this",
+    "start": 290
+  },
+  {
+    "content": "and then ask the user to add environment variables so if you just want to try it",
+    "start": 294
+  },
+  {
+    "content": "out you're not sure how it's going to go it's a good place to start but it is",
+    "start": 298
+  },
+  {
+    "content": "worth keeping in mind that it does create some user friction",
+    "start": 302
+  },
+  {
+    "content": "if a user has to stop go into another service perhaps create an account",
+    "start": 304
+  },
+  {
+    "content": "log in find the api token go back to nutlify and save it as an environment",
+    "start": 308
+  },
+  {
+    "content": "variable you'll probably have some drop-off and",
+    "start": 313
+  },
+  {
+    "content": "adoption along the way so i'm going to talk about some solutions",
+    "start": 315
+  },
+  {
+    "content": "for getting around this issue the next method is is one that was used",
+    "start": 318
+  },
+  {
+    "content": "by algolia which is a build plug-in plus a custom olaf app perhaps earlier",
+    "start": 324
+  },
+  {
+    "content": "today you saw algolia's lightning launch talking about their plug-in",
+    "start": 328
+  },
+  {
+    "content": "they go into more depth but to summarize the algolia search crawler",
+    "start": 332
+  },
+  {
+    "content": "indexes your site for search after every deploy",
+    "start": 336
+  },
+  {
+    "content": "it'll even create separate indexes per branch so if you're doing a deploy",
+    "start": 339
+  },
+  {
+    "content": "preview or a branch deploy you can see how the",
+    "start": 343
+  },
+  {
+    "content": "search works before you deploy to production",
+    "start": 345
+  },
+  {
+    "content": "it also provides a snippet so you can add a search box to your site that's",
+    "start": 348
+  },
+  {
+    "content": "already customized to work with your algolia instance",
+    "start": 352
+  },
+  {
+    "content": "but it's also worth noting that this requires an algolia account and an api",
+    "start": 355
+  },
+  {
+    "content": "key starting to sound familiar",
+    "start": 360
+  },
+  {
+    "content": "now algolia instead of requiring the user to go to algolia and find the api",
+    "start": 363
+  },
+  {
+    "content": "token has used a method for a different method",
+    "start": 368
+  },
+  {
+    "content": "for doing this they've created a custom oauth app",
+    "start": 371
+  },
+  {
+    "content": "so within their docs or their logs when they they instead send users",
+    "start": 374
+  },
+  {
+    "content": "to a separate interface that they've created with a netlify login",
+    "start": 378
+  },
+  {
+    "content": "this is an oauth2 login much like where you'd have a login with github or a",
+    "start": 381
+  },
+  {
+    "content": "login with google inside of the ui of another service",
+    "start": 385
+  },
+  {
+    "content": "once the user clicks this button and logs in with their netlify account",
+    "start": 389
+  },
+  {
+    "content": "this enables algolia to create an account on igolia",
+    "start": 393
+  },
+  {
+    "content": "using the nutlify login then in that interface list and search the",
+    "start": 397
+  },
+  {
+    "content": "user's netlify site so that the user can choose which site they'd like to install",
+    "start": 402
+  },
+  {
+    "content": "the plugin on then algolia can set the environment",
+    "start": 406
+  },
+  {
+    "content": "variables and install the plugin on the site that the user selected",
+    "start": 410
+  },
+  {
+    "content": "takes away this is that that user experience is pretty smooth and it's",
+    "start": 415
+  },
+  {
+    "content": "also pretty powerful what an api consumer using a custom",
+    "start": 419
+  },
+  {
+    "content": "oauth app can do just about anything that you can do in",
+    "start": 423
+  },
+  {
+    "content": "the netlify ui you can do with a custom oauth app",
+    "start": 426
+  },
+  {
+    "content": "and this can be added to an existing plugin so if you've already created a",
+    "start": 431
+  },
+  {
+    "content": "plugin that's using the traditional method or the more popular",
+    "start": 434
+  },
+  {
+    "content": "method of putting asking the user to create an",
+    "start": 438
+  },
+  {
+    "content": "environment variable you can add this by creating an oauth",
+    "start": 441
+  },
+  {
+    "content": "app and it won't create breaking changes for existing installs",
+    "start": 445
+  },
+  {
+    "content": "if you'd like to try it out we've made an example app to get you started and",
+    "start": 449
+  },
+  {
+    "content": "see how that works now it's worth noting that when you're",
+    "start": 452
+  },
+  {
+    "content": "using the user is using this custom app it could cause",
+    "start": 457
+  },
+  {
+    "content": "some friction there as well because they're logging into a different service",
+    "start": 460
+  },
+  {
+    "content": "though it's a smooth experience they might hesitate if",
+    "start": 463
+  },
+  {
+    "content": "they're not familiar with the service that they're logging into so",
+    "start": 466
+  },
+  {
+    "content": "i'm going to talk about the third method for this and this is in nubella",
+    "start": 470
+  },
+  {
+    "content": "the third method was crea is being used by numbella which is a build plugin plus",
+    "start": 475
+  },
+  {
+    "content": "partner add-ons api numbella is a platform for serverless functions it's",
+    "start": 480
+  },
+  {
+    "content": "built on top of apaches openwhisk technology",
+    "start": 484
+  },
+  {
+    "content": "nimbella's plugin deploys functions from your repo to nimbella cloud which",
+    "start": 488
+  },
+  {
+    "content": "enables you to have expanded runtimes using languages like python",
+    "start": 492
+  },
+  {
+    "content": "java php rust and others and it also provides a persistent data store so you",
+    "start": 496
+  },
+  {
+    "content": "can run stateful transactions with your functions in addition to an",
+    "start": 501
+  },
+  {
+    "content": "embellish platform the plugin creates an api gateway",
+    "start": 506
+  },
+  {
+    "content": "directly on your netlife site that proxies request from your site to",
+    "start": 509
+  },
+  {
+    "content": "your functions that you've deployed onto",
+    "start": 513
+  },
+  {
+    "content": "nimbella cloud but here it comes again as it's worth noting",
+    "start": 516
+  },
+  {
+    "content": "this requires a number account now rather than using one of the other",
+    "start": 521
+  },
+  {
+    "content": "two methods numbella has integrated with netlify's partner add-ons",
+    "start": 524
+  },
+  {
+    "content": "api and what this means is it enables some functionality",
+    "start": 528
+  },
+  {
+    "content": "so that netlify customers can via netlife cli",
+    "start": 532
+  },
+  {
+    "content": "run a single command and provision an instance on nimbella you can also",
+    "start": 536
+  },
+  {
+    "content": "when you're using the partner add-ons api create custom deployed and nutlify",
+    "start": 543
+  },
+  {
+    "content": "buttons so you can have a template to get someone started from start to finish",
+    "start": 548
+  },
+  {
+    "content": "including provisioning your integration within the",
+    "start": 551
+  },
+  {
+    "content": "new site that they've created the way that this works is when the user",
+    "start": 554
+  },
+  {
+    "content": "runs one of those nimbella creates an anonymous service",
+    "start": 559
+  },
+  {
+    "content": "instance so that the user can start right away with no login required",
+    "start": 562
+  },
+  {
+    "content": "and they never leave nullify to get started however at some point they're",
+    "start": 565
+  },
+  {
+    "content": "going to want to connect to nimbola and we have another scli command that",
+    "start": 569
+  },
+  {
+    "content": "authenticates and grants access to the nambella admin",
+    "start": 572
+  },
+  {
+    "content": "panel now takeaways for this method it's really great because users can get",
+    "start": 575
+  },
+  {
+    "content": "started right away without ever leaving the trusted platform of netlify",
+    "start": 580
+  },
+  {
+    "content": "on the other hand this does require more development as investment and",
+    "start": 584
+  },
+  {
+    "content": "coordination and so it's something you have to weigh",
+    "start": 588
+  },
+  {
+    "content": "in terms of the effort that you're putting in there",
+    "start": 592
+  },
+  {
+    "content": "and it's worth noting that the installation methods that we have",
+    "start": 594
+  },
+  {
+    "content": "are still limited to cli and deployed to nullify buttons",
+    "start": 598
+  },
+  {
+    "content": "which brings me to my next talk thought which is",
+    "start": 602
+  },
+  {
+    "content": "about the circle of feedback plugins are the next area that we're going to be",
+    "start": 605
+  },
+  {
+    "content": "focusing in the build system and expanding the",
+    "start": 609
+  },
+  {
+    "content": "plugins ecosystem and connections to other jam stack",
+    "start": 612
+  },
+  {
+    "content": "services within netlify the ways that customers are already",
+    "start": 616
+  },
+  {
+    "content": "starting to do this and the ways that other companies are already starting to",
+    "start": 619
+  },
+  {
+    "content": "do this help inform the changes that we're going",
+    "start": 622
+  },
+  {
+    "content": "to make in the future i'd love to talk to you about this at",
+    "start": 624
+  },
+  {
+    "content": "the topic table we're doing later today it's called what does the future of jam",
+    "start": 628
+  },
+  {
+    "content": "stack look like for you it's run by marissa morby my co-worker",
+    "start": 632
+  },
+  {
+    "content": "who's a ux researcher and i'll be there as well as a couple other",
+    "start": 636
+  },
+  {
+    "content": "netlife employees and anyone who'd like to talk about",
+    "start": 640
+  },
+  {
+    "content": "what the jam stat look like if you're a developer or if you develop",
+    "start": 642
+  },
+  {
+    "content": "jam stack tools for developers we'd love to hear about",
+    "start": 646
+  },
+  {
+    "content": "what you see what you'd like to see in the future if that doesn't work out",
+    "start": 649
+  },
+  {
+    "content": "come join us at the booth you can talk about plugins and partnerships anytime",
+    "start": 653
+  },
+  {
+    "content": "and you can also email us if you're interested at partners netlify.com",
+    "start": 657
+  },
+  {
+    "content": "if you'd like to revisit these slides or click on any of the links that are in",
+    "start": 662
+  },
+  {
+    "content": "them you can go to netlify.com",
+    "start": 665
+  },
+  {
+    "content": "octoberlightning2020 thank you",
+    "start": 668
+  },
+  {
+    "content": "you",
+    "start": 686
+  }
+]

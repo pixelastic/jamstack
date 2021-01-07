@@ -1,0 +1,1414 @@
+[
+  {
+    "content": "hello everybody thanks Phil I am from",
+    "start": 0
+  },
+  {
+    "content": "Australia so you do get to listen to my totally amazing Australian accent for",
+    "start": 18
+  },
+  {
+    "content": "the next 30 minutes as Phil said my name is Mandy I'm on Twitter I'm also on code",
+    "start": 22
+  },
+  {
+    "content": "pen and that is me dresses back girls so you'll be able to find me very easily on",
+    "start": 29
+  },
+  {
+    "content": "Twitter not in real life it's just mess with people a bit all the",
+    "start": 33
+  },
+  {
+    "content": "demos I'm going to show you up on code pens so you can go and check those out",
+    "start": 37
+  },
+  {
+    "content": "later if you want to more importantly though this is my dog his name is jello",
+    "start": 41
+  },
+  {
+    "content": "and the reason that I like to tell people this is in my demos I use what I",
+    "start": 48
+  },
+  {
+    "content": "call jello Epsom I mean without the context that it's a dog it can be very",
+    "start": 53
+  },
+  {
+    "content": "confusing for people so when you see the word jello you can think of him and",
+    "start": 58
+  },
+  {
+    "content": "hopefully my ulterior motive is that you smile and you'll enjoy the talk even",
+    "start": 63
+  },
+  {
+    "content": "more because dogs are cute and mine is especially so biased but sadly I don't",
+    "start": 67
+  },
+  {
+    "content": "get to talk about jello what I'm going to talk about is creating responsive",
+    "start": 76
+  },
+  {
+    "content": "typography specifically with variable fonts now I know this isn't really",
+    "start": 79
+  },
+  {
+    "content": "specifically related to the gem sack but variable fonts can be used in any",
+    "start": 86
+  },
+  {
+    "content": "website and there's a few benefits that you'll get out of variable fonts like",
+    "start": 91
+  },
+  {
+    "content": "performance and interactivity that we'll talk about and hopefully it'll inspire",
+    "start": 95
+  },
+  {
+    "content": "you to do some cool things on your websites a little bit of housekeeping I",
+    "start": 99
+  },
+  {
+    "content": "have a website called variable fonts dev there's a getting started page on there",
+    "start": 104
+  },
+  {
+    "content": "so if you are suffering from that sugar low and you miss a bit you just go there",
+    "start": 108
+  },
+  {
+    "content": "check it out later but do try and pay attention because there's some fun stuff",
+    "start": 114
+  },
+  {
+    "content": "and I don't want you to miss out and there I like secret jell-o's in my talk",
+    "start": 119
+  },
+  {
+    "content": "so you want to look out for them as well okay important background information I",
+    "start": 123
+  },
+  {
+    "content": "don't make fonts I'm not a web typography expert I wouldn't even",
+    "start": 128
+  },
+  {
+    "content": "consider myself a designer I'm more of a developer I'm someone that likes to",
+    "start": 133
+  },
+  {
+    "content": "tinker and have a play and as a result of that a couple of years ago I started",
+    "start": 138
+  },
+  {
+    "content": "making text effects like these ones they're all up on code pen but when I",
+    "start": 143
+  },
+  {
+    "content": "was doing that I came across variable fonts and it became clear to me very",
+    "start": 149
+  },
+  {
+    "content": "quickly that variable fonts offer us some very unique opportunities and the",
+    "start": 152
+  },
+  {
+    "content": "reason for that is that a variable fund is one front file that acts like",
+    "start": 157
+  },
+  {
+    "content": "multiple fonts and this all comes down to how the font is made so at the moment",
+    "start": 162
+  },
+  {
+    "content": "when you have a font you might have several different font weights for",
+    "start": 168
+  },
+  {
+    "content": "example and these will exist as separate individual files with a variable font",
+    "start": 174
+  },
+  {
+    "content": "all of that information exists in one file so this is accomplished by",
+    "start": 179
+  },
+  {
+    "content": "different axes within a font so a variable front can have one or more axes",
+    "start": 186
+  },
+  {
+    "content": "and they represent different style variations like weight for example and",
+    "start": 192
+  },
+  {
+    "content": "along that axis it has a different levels of extremes for that style so you",
+    "start": 196
+  },
+  {
+    "content": "might have a light weight to a really heavy weight and while we still have",
+    "start": 203
+  },
+  {
+    "content": "access to things like regular and bold along a way taxes these are named",
+    "start": 208
+  },
+  {
+    "content": "instances variable fonts can be interpolated and that means that we have",
+    "start": 212
+  },
+  {
+    "content": "access to all of the ranges and values in between those standard weights that",
+    "start": 218
+  },
+  {
+    "content": "we're used to and because they can be interpolated it means that we can",
+    "start": 223
+  },
+  {
+    "content": "animate them and we can create really beautiful smooth transitions between the",
+    "start": 228
+  },
+  {
+    "content": "different styles and this doesn't just apply to a single axis at a time it can",
+    "start": 234
+  },
+  {
+    "content": "apply to the combinations of these axes as well so whether it's weight or width",
+    "start": 240
+  },
+  {
+    "content": "or something a little bit weird this one is called Jacobites by David Berlie",
+    "start": 245
+  },
+  {
+    "content": "and it's an experimental variable font that allows us to create really",
+    "start": 251
+  },
+  {
+    "content": "interesting and cool effects and later I'm gonna show you heaps of examples",
+    "start": 255
+  },
+  {
+    "content": "that use deco var cuz I really like it but before we get into that I want to",
+    "start": 259
+  },
+  {
+    "content": "get all of the kind of boring housekeeping out of the way it's my dog",
+    "start": 264
+  },
+  {
+    "content": "again he's very cute relaxing we can use variable fonts now a browser",
+    "start": 271
+  },
+  {
+    "content": "supports really good the only caveat I would add is that for a browser like",
+    "start": 276
+  },
+  {
+    "content": "Firefox you need a more modern operating system on a Mac it's high sierra and",
+    "start": 281
+  },
+  {
+    "content": "above because it relies on the operating system to render the font in the browser",
+    "start": 285
+  },
+  {
+    "content": "but totally able to use it now if you need to support IE",
+    "start": 290
+  },
+  {
+    "content": "you can fall back to a different font in your font stack or you can use something",
+    "start": 295
+  },
+  {
+    "content": "like CSS feature detection to only load the font when you need it we still use",
+    "start": 300
+  },
+  {
+    "content": "font face just like we do now and it's pretty much the same the main difference",
+    "start": 306
+  },
+  {
+    "content": "is how we define variations for descriptors like font weight font",
+    "start": 312
+  },
+  {
+    "content": "stretch and font style so at the moment if you were to define maybe two",
+    "start": 317
+  },
+  {
+    "content": "different front weights you would have a front face block for say the regular",
+    "start": 322
+  },
+  {
+    "content": "version and then you would do another font face block and that would be for I",
+    "start": 326
+  },
+  {
+    "content": "don't know bold and you would keep doing this until you had all the different",
+    "start": 330
+  },
+  {
+    "content": "styles that you needed but with a variable font you don't need to do that",
+    "start": 334
+  },
+  {
+    "content": "you can just specify a range so in this case it's 200 to 700 and then when you",
+    "start": 338
+  },
+  {
+    "content": "reference the font in your CSS you can just pick any number between 200 and 700",
+    "start": 346
+  },
+  {
+    "content": "so six hundred and fifty eight point seven five six whatever you want to do",
+    "start": 352
+  },
+  {
+    "content": "now this is really really good for weight because we have a CSS property",
+    "start": 358
+  },
+  {
+    "content": "for that that's known as a registered axis so there are five registered axes",
+    "start": 363
+  },
+  {
+    "content": "at the moment weight width slant italic and optical size and these",
+    "start": 369
+  },
+  {
+    "content": "are all mapped to preexisting CSS properties but if we want to do",
+    "start": 375
+  },
+  {
+    "content": "something custom like that decorative our example that I showed you",
+    "start": 379
+  },
+  {
+    "content": "we need a new CSS property and that's called font variation settings and font",
+    "start": 382
+  },
+  {
+    "content": "variation settings allow us to define as many registered and custom axes as we",
+    "start": 387
+  },
+  {
+    "content": "want so a registered axis just means that it's defined in the spec the custom",
+    "start": 391
+  },
+  {
+    "content": "axes are defined by the font creator and the way we reference them is by a four",
+    "start": 397
+  },
+  {
+    "content": "character string so I made this one up jello of course and an Associated number",
+    "start": 402
+  },
+  {
+    "content": "value which just represents along the axis where you want to access now the",
+    "start": 408
+  },
+  {
+    "content": "character code for a custom axis is defined by me registered access defined",
+    "start": 415
+  },
+  {
+    "content": "in the spec weight is w ght for example and though you can use the register",
+    "start": 421
+  },
+  {
+    "content": "access in font variation settings typically we would recommend that you",
+    "start": 427
+  },
+  {
+    "content": "don't main reason if there's a CSS property for it use it it's easier for",
+    "start": 431
+  },
+  {
+    "content": "the people in your team or yourself to manage your typography plus you don't",
+    "start": 437
+  },
+  {
+    "content": "have to change what you're already doing so I would keep font variation settings",
+    "start": 442
+  },
+  {
+    "content": "for custom axes and use the match properties where you can now if you",
+    "start": 446
+  },
+  {
+    "content": "don't use font face and you're more of a google fonts fan that's fine google",
+    "start": 452
+  },
+  {
+    "content": "fonts as of about a month ago release the beta version of the google fonts API",
+    "start": 456
+  },
+  {
+    "content": "that supports variable fonts it's pretty similar to what we do now the main",
+    "start": 460
+  },
+  {
+    "content": "difference is how you specify the range I'm not going to go deep into it but",
+    "start": 465
+  },
+  {
+    "content": "there's a post up on variable fonts not Deb if you want to check that out it's a",
+    "start": 469
+  },
+  {
+    "content": "great way to play with variable fonts because you don't have to worry about",
+    "start": 474
+  },
+  {
+    "content": "licensing or anything like that so definitely go and check it out so",
+    "start": 477
+  },
+  {
+    "content": "considering that we can use verbal fonts doesn't really change how we do things",
+    "start": 484
+  },
+  {
+    "content": "which is great I wanted to touch on performance because performance is a",
+    "start": 489
+  },
+  {
+    "content": "really big thing for us at the moment particularly when we're learning so much",
+    "start": 493
+  },
+  {
+    "content": "JavaScript into our front ends when it comes to a variable fund it's still a",
+    "start": 496
+  },
+  {
+    "content": "font you still need a good font performance strategy that might be sub",
+    "start": 501
+  },
+  {
+    "content": "setting or using font display stuff like that so these things still matter but",
+    "start": 505
+  },
+  {
+    "content": "there are a couple of things about variable fonts that make them pretty",
+    "start": 512
+  },
+  {
+    "content": "good for performance and the first one is that variable fonts by the nature of",
+    "start": 515
+  },
+  {
+    "content": "how they're made reduce the number of font requests simply by being a variable",
+    "start": 521
+  },
+  {
+    "content": "fund so at the moment when we think about reducing the number of font",
+    "start": 525
+  },
+  {
+    "content": "requests we would--we up the cost of design over the cost of performance and",
+    "start": 529
+  },
+  {
+    "content": "we'd have to justify the cost before we added any new styles but because all",
+    "start": 534
+  },
+  {
+    "content": "that data about different weights for example exists in",
+    "start": 540
+  },
+  {
+    "content": "the one file we just reduced the number of files immediately by using a variable",
+    "start": 543
+  },
+  {
+    "content": "font instead so this is a really huge benefit by just changing the format plus",
+    "start": 548
+  },
+  {
+    "content": "you get all of the extra style opportunity within the font so it's a",
+    "start": 554
+  },
+  {
+    "content": "massive benefit of course you're probably wondering if all of the data is",
+    "start": 557
+  },
+  {
+    "content": "in one file what does that do to file size terms and conditions apply to the",
+    "start": 563
+  },
+  {
+    "content": "following statements in my experience variable fonts are either on par or",
+    "start": 570
+  },
+  {
+    "content": "better in file size than the combination of the standard equivalents so if you",
+    "start": 576
+  },
+  {
+    "content": "think about combining all of the fonts weights on your page for example into",
+    "start": 586
+  },
+  {
+    "content": "one complete value a variable font is typically better so an example of this",
+    "start": 590
+  },
+  {
+    "content": "is source sans pro in wofe to a single weight is a hundred eleven kilobytes a",
+    "start": 598
+  },
+  {
+    "content": "variable font is a hundred and twelve so for an extra kilobyte you not only get",
+    "start": 606
+  },
+  {
+    "content": "the single weight you get all of the other standard weights plus all of the",
+    "start": 611
+  },
+  {
+    "content": "values in between now saw sans Pro is a really big fun it supports lots of",
+    "start": 615
+  },
+  {
+    "content": "languages so you definitely want to subset this but even if you had just two",
+    "start": 619
+  },
+  {
+    "content": "versions of a font weight in your website with source sans the variable",
+    "start": 624
+  },
+  {
+    "content": "font is still better in overall file size so that's something to keep in mind",
+    "start": 629
+  },
+  {
+    "content": "you can get a lot of performance benefits simply by using a variable font",
+    "start": 633
+  },
+  {
+    "content": "but it's also obviously going to depend on the fonts how many you're loading in",
+    "start": 637
+  },
+  {
+    "content": "your website so your mileage may vary but it's definitely worth checking out",
+    "start": 643
+  },
+  {
+    "content": "so at this point this is where the fun begins if we're not limited by technical",
+    "start": 649
+  },
+  {
+    "content": "considerations like browser support the way that we use them is very similar to",
+    "start": 656
+  },
+  {
+    "content": "what we're already used to performance can be a huge benefit we're not going to",
+    "start": 660
+  },
+  {
+    "content": "cause any major problems by using variable fonts this means that we can",
+    "start": 664
+  },
+  {
+    "content": "shift our focus and we can start to experiment with",
+    "start": 669
+  },
+  {
+    "content": "creating better experiences for our customers",
+    "start": 677
+  },
+  {
+    "content": "creativity can determine the choices that we make and we don't need to trade",
+    "start": 681
+  },
+  {
+    "content": "off design for performance so for example this uses 13 different font",
+    "start": 685
+  },
+  {
+    "content": "weights half of which don't currently exist in the standard font we gain so",
+    "start": 693
+  },
+  {
+    "content": "much more flexibility in our design opportunities and designs which would",
+    "start": 699
+  },
+  {
+    "content": "have previously been a heavy burden on performance or impossible because of the",
+    "start": 704
+  },
+  {
+    "content": "technical limitations are now completely possible and when you look at something",
+    "start": 708
+  },
+  {
+    "content": "like this the tone and the intent and the rhythm and the meaning behind the",
+    "start": 714
+  },
+  {
+    "content": "words changes depending on how you represent that content so this allows us",
+    "start": 718
+  },
+  {
+    "content": "to represent our content more effectively without worrying about how",
+    "start": 724
+  },
+  {
+    "content": "many fonts were loading into the page and we can start to forget about the",
+    "start": 728
+  },
+  {
+    "content": "perceived limitations and the limitations we've put on ourselves",
+    "start": 736
+  },
+  {
+    "content": "because of performance and focus on representing our context in more",
+    "start": 738
+  },
+  {
+    "content": "meaningful ways jellow Epsom that's great and we can",
+    "start": 742
+  },
+  {
+    "content": "embrace the learnings of print design as well I mean this is a terrible design",
+    "start": 750
+  },
+  {
+    "content": "again not a designer but lots of jelly which is great CSS grid blend modes",
+    "start": 754
+  },
+  {
+    "content": "shapes these things combined with variable fonts allow us to represent our",
+    "start": 761
+  },
+  {
+    "content": "content in much more interesting and more engaging ways but unlike print we",
+    "start": 766
+  },
+  {
+    "content": "can embrace the interactivity and the flexibility of the web and because",
+    "start": 774
+  },
+  {
+    "content": "variable fonts have that interpolated range of values we can start to create",
+    "start": 781
+  },
+  {
+    "content": "animations or transitions without text which is something we've never been able",
+    "start": 785
+  },
+  {
+    "content": "to do without something like SVG or canvas or JavaScript but we can do this",
+    "start": 790
+  },
+  {
+    "content": "with just a little bit of CSS using techniques we're already familiar with",
+    "start": 795
+  },
+  {
+    "content": "so this is a h1 and some CSS it's editable so",
+    "start": 800
+  },
+  {
+    "content": "deval searchable copy and paste it it's accessible via a screen reader and it'll",
+    "start": 806
+  },
+  {
+    "content": "work pretty much everywhere that supports variable fonts and I love this",
+    "start": 814
+  },
+  {
+    "content": "example it was the second demo that I ever made and what I think is really",
+    "start": 819
+  },
+  {
+    "content": "great about it is it shows the possibilities of really interesting",
+    "start": 822
+  },
+  {
+    "content": "things that we can do with variable fonts and we can do these things with a",
+    "start": 826
+  },
+  {
+    "content": "little bit of CSS this specifically is how I made it I have my variable font",
+    "start": 830
+  },
+  {
+    "content": "deck over by David bellow I have an animation property a keyframe animation",
+    "start": 837
+  },
+  {
+    "content": "two axes one's called inline that's gonna be a thousand for the hallway the",
+    "start": 843
+  },
+  {
+    "content": "other one is called skeleton worm weird but cool starts at zero goes to a",
+    "start": 849
+  },
+  {
+    "content": "thousand and that's literally it obviously I have some extra CSS for",
+    "start": 855
+  },
+  {
+    "content": "texture but it's a couple of text shadows and a background image the main",
+    "start": 861
+  },
+  {
+    "content": "effect is accomplished because the font does all the heavy lifting David did all",
+    "start": 865
+  },
+  {
+    "content": "the hard work and I just swooped on in and chunked a little bit of CSS and made",
+    "start": 871
+  },
+  {
+    "content": "a really cool thing and when Dekker ball was made David",
+    "start": 875
+  },
+  {
+    "content": "didn't expect this to happen with it this nobody was expecting something like",
+    "start": 879
+  },
+  {
+    "content": "this to be made so if you think about this this is a new technology where we",
+    "start": 884
+  },
+  {
+    "content": "get to decide how we're going to use it and that's very similar I think to where",
+    "start": 889
+  },
+  {
+    "content": "the jam stack is at the moment like we get to define the future of that and I",
+    "start": 893
+  },
+  {
+    "content": "think that's very very exciting and there's lots of exciting things that you",
+    "start": 896
+  },
+  {
+    "content": "can do with variable fonts this is a handwriting font again it's just a h1",
+    "start": 900
+  },
+  {
+    "content": "some CSS a little bit of JavaScript in this one just to split the letters but",
+    "start": 905
+  },
+  {
+    "content": "you don't you don't need to use JavaScript it's by foundry called",
+    "start": 909
+  },
+  {
+    "content": "underwear great name this is a hover with a transition applied really simple",
+    "start": 913
+  },
+  {
+    "content": "just changes the weight this one I don't really know I just think it's cool I",
+    "start": 921
+  },
+  {
+    "content": "haven't quite figured out it use for it yet but I'm so close I can just feel it",
+    "start": 930
+  },
+  {
+    "content": "this one this is deck over again like I said I use it a lot",
+    "start": 936
+  },
+  {
+    "content": "I just want you to just just look at how beautiful that is what I think is great",
+    "start": 940
+  },
+  {
+    "content": "about this example is that beautiful long text shadow made with CSS I love",
+    "start": 948
+  },
+  {
+    "content": "how it disappears as parts of the characters disappear it's a really",
+    "start": 954
+  },
+  {
+    "content": "awesome demonstration of how different variable fonts are to other fonts and",
+    "start": 959
+  },
+  {
+    "content": "text on the web this one bit of background I've been making text effects",
+    "start": 963
+  },
+  {
+    "content": "for ages now and I got a bit bored because they kind of appeared and that",
+    "start": 971
+  },
+  {
+    "content": "was just not fun for me anymore so I started making stuff like this live",
+    "start": 977
+  },
+  {
+    "content": "demo time so you know see how this goes okay so I have a back-up plan for this I",
+    "start": 982
+  },
+  {
+    "content": "have a button we can click but that's super boring I don't want to do that",
+    "start": 989
+  },
+  {
+    "content": "instead we're gonna use the speech recognition API and we gonna say a word",
+    "start": 992
+  },
+  {
+    "content": "and then marshmallow my dragon that's the dragons name bit of a theme he is",
+    "start": 996
+  },
+  {
+    "content": "going to make text appear in fire because he's a he's a fire-breathing",
+    "start": 1002
+  },
+  {
+    "content": "trip so let's hope it works fire yay thank you",
+    "start": 1007
+  },
+  {
+    "content": "marshmallow you did all the hard work this uses deck over again it's like four",
+    "start": 1022
+  },
+  {
+    "content": "axes bunch of blend modes hepatech shadows what I love about this is that",
+    "start": 1028
+  },
+  {
+    "content": "we create these really interactive experiences with just text just a",
+    "start": 1033
+  },
+  {
+    "content": "JavaScript some CSS some text some illustrations and we can combine text",
+    "start": 1039
+  },
+  {
+    "content": "into these interactions which usually would have been restricted to SPG's or",
+    "start": 1044
+  },
+  {
+    "content": "canvas I think that's really really exciting and when you think about our",
+    "start": 1049
+  },
+  {
+    "content": "static sites or the jam second you know people tend to think that they're not",
+    "start": 1054
+  },
+  {
+    "content": "very interactive or or exciting this kind of stuff can allow us to create",
+    "start": 1057
+  },
+  {
+    "content": "better experiences it's not just that variable fonts can",
+    "start": 1062
+  },
+  {
+    "content": "create cool or beautiful or interesting effects what they demonstrate is that as",
+    "start": 1072
+  },
+  {
+    "content": "developers and designers we can now control the font itself and what that",
+    "start": 1077
+  },
+  {
+    "content": "means is that variable fonts allow typography on the web to adapt to the",
+    "start": 1083
+  },
+  {
+    "content": "flexible nature of screens environments and devices so at the moment the CSS",
+    "start": 1087
+  },
+  {
+    "content": "media queries level-5 specification is working on giving us more control over",
+    "start": 1095
+  },
+  {
+    "content": "our designs based on environment like contrast color schemes dark mode",
+    "start": 1100
+  },
+  {
+    "content": "probably something you're familiar with and using variable fonts in these things",
+    "start": 1105
+  },
+  {
+    "content": "is really straightforward this is a font called chi I really like chairs well",
+    "start": 1110
+  },
+  {
+    "content": "it's by Ohno type code really really simply we can create a media query of",
+    "start": 1116
+  },
+  {
+    "content": "prefers color scheme dark change our access in that media query bit of a",
+    "start": 1122
+  },
+  {
+    "content": "transition for fun and we can create something like this it's dark mode",
+    "start": 1127
+  },
+  {
+    "content": "newses cuz it's dark mode I thought this was really funny when I made it it was",
+    "start": 1135
+  },
+  {
+    "content": "Halloween I was like huh you know it'd be really great if my website was all",
+    "start": 1142
+  },
+  {
+    "content": "slimy and used probably a bit of a dumb example but more practically we can",
+    "start": 1146
+  },
+  {
+    "content": "modify the contrast and the styles of our websites to ensure better legibility",
+    "start": 1156
+  },
+  {
+    "content": "and better accessibility of our text when you think about color contrasts and",
+    "start": 1161
+  },
+  {
+    "content": "things like that often we just focus on color but fonts play a really important",
+    "start": 1165
+  },
+  {
+    "content": "role in how legible something can be so the fact that we can now control the",
+    "start": 1173
+  },
+  {
+    "content": "font in our CSS or without JavaScript to make it more accessible and more legible",
+    "start": 1177
+  },
+  {
+    "content": "along with color contrast and color schemes this gives us a lot more",
+    "start": 1183
+  },
+  {
+    "content": "flexibility and it allows us to take advantage of our user's preferences but",
+    "start": 1188
+  },
+  {
+    "content": "more interestingly when we have these variable fonts it also means that our",
+    "start": 1194
+  },
+  {
+    "content": "users if they want to create their own custom style",
+    "start": 1199
+  },
+  {
+    "content": "which a lot of people do for accessibility reasons they now have",
+    "start": 1202
+  },
+  {
+    "content": "access to the options along the variable font axes so that means that they can",
+    "start": 1206
+  },
+  {
+    "content": "better customize the experience to make it suit their needs and that that's",
+    "start": 1211
+  },
+  {
+    "content": "really exciting to me because I think it's really important to think about our",
+    "start": 1217
+  },
+  {
+    "content": "users and focus on what our users need and require in their websites an",
+    "start": 1221
+  },
+  {
+    "content": "accessibility is really important to me so if I can give people more opportunity",
+    "start": 1225
+  },
+  {
+    "content": "to make it suit their needs that's really important but it also means that",
+    "start": 1230
+  },
+  {
+    "content": "we can design our typography to adjust the things like screen width so that",
+    "start": 1237
+  },
+  {
+    "content": "might allow us to change the font weight with Optical size or other axes to be",
+    "start": 1242
+  },
+  {
+    "content": "more readable on larger or smaller screens so maybe where the viewport is",
+    "start": 1250
+  },
+  {
+    "content": "really big and the text is really large you might have a lot of detail in the",
+    "start": 1255
+  },
+  {
+    "content": "font whereas when it's smaller on a tiny",
+    "start": 1259
+  },
+  {
+    "content": "screen in a more confined space maybe you'll reduce the width so that it fits",
+    "start": 1262
+  },
+  {
+    "content": "better I mean I can't really think of a good reason that we would do that like",
+    "start": 1267
+  },
+  {
+    "content": "fitting stuff in a box but I'm sure there's plenty of ways that you can use",
+    "start": 1272
+  },
+  {
+    "content": "that or another example is you know when you have these beautiful designs and",
+    "start": 1278
+  },
+  {
+    "content": "everything fits on like very specific breakpoints and then you build it and",
+    "start": 1284
+  },
+  {
+    "content": "that just in reality doesn't work with this example as the viewport gets",
+    "start": 1289
+  },
+  {
+    "content": "smaller rather than having the headline wrap onto a new line",
+    "start": 1293
+  },
+  {
+    "content": "I'm reducing the width so a little bit and that means that I can maintain the",
+    "start": 1298
+  },
+  {
+    "content": "integrity of the design and not lose any of that",
+    "start": 1301
+  },
+  {
+    "content": "beautiful I mean I'm calling my own rubbish design beautiful but not a",
+    "start": 1307
+  },
+  {
+    "content": "designer you can see the benefits of this right it allows us to have that",
+    "start": 1313
+  },
+  {
+    "content": "control and determine when we want things to break and when we want things",
+    "start": 1318
+  },
+  {
+    "content": "to wrap and that's really really important and it's something that's been",
+    "start": 1322
+  },
+  {
+    "content": "quite difficult in the in the past now the way that I did this was with a bit",
+    "start": 1325
+  },
+  {
+    "content": "of JavaScript and I want to show you the JavaScript cuz it's only a little bit",
+    "start": 1331
+  },
+  {
+    "content": "and the reason that I want to show once you have it it can apply to a whole",
+    "start": 1334
+  },
+  {
+    "content": "bunch of different things so what we're gonna do is match our front weight to",
+    "start": 1338
+  },
+  {
+    "content": "our viewport size as the viewport gets smaller the font weight is going to get",
+    "start": 1344
+  },
+  {
+    "content": "heavier and we need a couple of things to do this first we need the font weight",
+    "start": 1348
+  },
+  {
+    "content": "range so 200 to 900 and then the viewport range so 320 pixels to 1440",
+    "start": 1355
+  },
+  {
+    "content": "pixels could be whatever you want we have a tiny little function first we",
+    "start": 1361
+  },
+  {
+    "content": "need the viewport current viewport of the user we know you're in a with",
+    "start": 1367
+  },
+  {
+    "content": "something like that then we take that and we - the minimum viewport size",
+    "start": 1370
+  },
+  {
+    "content": "divide that by the maximum minus the minimum viewport size and what this is",
+    "start": 1377
+  },
+  {
+    "content": "going to do is give us a decimal value that we can use to calculate our font",
+    "start": 1382
+  },
+  {
+    "content": "weight scale so we take that decimal value it's somewhere between 0 and 0.99",
+    "start": 1386
+  },
+  {
+    "content": "we multiply that by the minimum font weight - the maximum font weight and",
+    "start": 1391
+  },
+  {
+    "content": "then we add the maximum font way back on once you've got that updated in your CSS",
+    "start": 1398
+  },
+  {
+    "content": "I'm using CSS custom properties but you can do it however you want",
+    "start": 1403
+  },
+  {
+    "content": "pass that through to your CSS whack the function in an event listener resize and",
+    "start": 1407
+  },
+  {
+    "content": "that's all you need to do that is literally the JavaScript I wrote",
+    "start": 1414
+  },
+  {
+    "content": "obviously you can improve performance all of that kind of stuff but for the",
+    "start": 1418
+  },
+  {
+    "content": "most part that's going to achieve fixing it to viewport and once you have that",
+    "start": 1422
+  },
+  {
+    "content": "you can do cool things like scroll events this one I love it took me longer",
+    "start": 1427
+  },
+  {
+    "content": "to figure out what text to put in it than it did to actually write the code",
+    "start": 1433
+  },
+  {
+    "content": "and I think this is really cool for you know like branding websites where you",
+    "start": 1436
+  },
+  {
+    "content": "scroll the page and stuff like pops in you can do some cool stuff with your",
+    "start": 1441
+  },
+  {
+    "content": "text now as well and this is out of country if I say this is Chi by Ohno",
+    "start": 1446
+  },
+  {
+    "content": "type coup you can also do stuff like this this is device orientation my phone",
+    "start": 1449
+  },
+  {
+    "content": "is cracked in this it's worse now not sure if it was like clairvoyant or or",
+    "start": 1456
+  },
+  {
+    "content": "whatever but this one changes the slant and then as it gets",
+    "start": 1464
+  },
+  {
+    "content": "a certain orientation it'll just slam into the side it uses splitting j/s to",
+    "start": 1469
+  },
+  {
+    "content": "group everything this one I made recently as you rotate the phone the",
+    "start": 1473
+  },
+  {
+    "content": "letter each individual letter the weight will increase and then I've also added a",
+    "start": 1480
+  },
+  {
+    "content": "transform this one I could have shown you a video of this but I really really",
+    "start": 1484
+  },
+  {
+    "content": "love this example so I'm going to show you it for reals so this this is called",
+    "start": 1492
+  },
+  {
+    "content": "whoa by scribble tone I'm not even joking that's literally what it's called",
+    "start": 1502
+  },
+  {
+    "content": "and it uses the position of the mouse to change the different axes I actually",
+    "start": 1508
+  },
+  {
+    "content": "changed the colors of this a little bit so it would match the branding I thought",
+    "start": 1515
+  },
+  {
+    "content": "that was really nice and I love this example because it changes the rotation",
+    "start": 1519
+  },
+  {
+    "content": "and the stretch and it's a really really cool and interesting way to create",
+    "start": 1523
+  },
+  {
+    "content": "interactive experiences with out with our websites so another good example",
+    "start": 1528
+  },
+  {
+    "content": "I've got a lean over here so I can see this one uses the Web Audio API and it's",
+    "start": 1535
+  },
+  {
+    "content": "listening to the volume of my voice which I'm very loud so it tends to hit",
+    "start": 1545
+  },
+  {
+    "content": "the confetti way more regularly when I talk versus other people and what I",
+    "start": 1550
+  },
+  {
+    "content": "think is cool about this is when you think about interfaces like Google home",
+    "start": 1555
+  },
+  {
+    "content": "and Alexa you can create speech-to-text interfaces but the text at the moment is",
+    "start": 1559
+  },
+  {
+    "content": "really static there's no tone or intense conveyed and you lose all of that stuff",
+    "start": 1566
+  },
+  {
+    "content": "that you get when you listen to someone speak so right now it's a little bit",
+    "start": 1572
+  },
+  {
+    "content": "tricky because speech recognition Web Audio API don't really join together",
+    "start": 1576
+  },
+  {
+    "content": "particularly well but in the future I can see a lot of benefits for this with",
+    "start": 1581
+  },
+  {
+    "content": "variable fonts to help represent tone pitch volume and try and convey a",
+    "start": 1585
+  },
+  {
+    "content": "bit more meaning maybe some machine learning or something like that to help",
+    "start": 1590
+  },
+  {
+    "content": "us represent interfaces in more interesting ways I think I have time do",
+    "start": 1594
+  },
+  {
+    "content": "you want to make it through the thing okay",
+    "start": 1599
+  },
+  {
+    "content": "so last time I did this Phil was there and he gave me a hard time because I got",
+    "start": 1602
+  },
+  {
+    "content": "everyone to will at me so instead we're going to woo fulfill and for the gem",
+    "start": 1606
+  },
+  {
+    "content": "sack conference organizers and all the other speakers okay so one two three",
+    "start": 1612
+  },
+  {
+    "content": "[Applause] yeah thank you",
+    "start": 1619
+  },
+  {
+    "content": "hope you like that Phil wherever you are I've lost my uh my mouse where is that",
+    "start": 1624
+  },
+  {
+    "content": "there so this next example I'll just stop the web audio from running she's",
+    "start": 1631
+  },
+  {
+    "content": "gonna get my prop I got a torch here so this uses the",
+    "start": 1641
+  },
+  {
+    "content": "ambient light sensor in my device so you kind of think of it like when your phone",
+    "start": 1648
+  },
+  {
+    "content": "dims in low light environments it's the same kind of interface and what I'm",
+    "start": 1653
+  },
+  {
+    "content": "doing is changing the axis based on the input from the light so if you think",
+    "start": 1658
+  },
+  {
+    "content": "about this similar to contrast modes and accessibility you can make your text",
+    "start": 1662
+  },
+  {
+    "content": "more readable and more legible depending on the environment the user is in so if",
+    "start": 1667
+  },
+  {
+    "content": "it's really dark maybe you want to change the weight or reduce some of the",
+    "start": 1671
+  },
+  {
+    "content": "detail in the font so it's easier to read and I think four really critical",
+    "start": 1675
+  },
+  {
+    "content": "interfaces this could be really beneficial to make sure that we're",
+    "start": 1680
+  },
+  {
+    "content": "creating an interface that people can actually you know use in and see but",
+    "start": 1683
+  },
+  {
+    "content": "also because this is me and I like to make fun stuff this one this is made by",
+    "start": 1689
+  },
+  {
+    "content": "type Achuar at the author who makes this fun makes the most incredible variable",
+    "start": 1697
+  },
+  {
+    "content": "fonts you've ever seen and he sent me this one and I made I made this so how",
+    "start": 1705
+  },
+  {
+    "content": "cool is that right this blooms cuz you know flowers need",
+    "start": 1711
+  },
+  {
+    "content": "light to bloom most of them anyway and it will change depending on the amount",
+    "start": 1714
+  },
+  {
+    "content": "of light in the room if you think about this when we imagine creating a website",
+    "start": 1719
+  },
+  {
+    "content": "that changed depending on the environment the user was in like you",
+    "start": 1723
+  },
+  {
+    "content": "could completely change the mood in the experience for people and for",
+    "start": 1727
+  },
+  {
+    "content": "storytelling or games or branding you could change that experience",
+    "start": 1731
+  },
+  {
+    "content": "and something that might have been quite static before can start to become really",
+    "start": 1736
+  },
+  {
+    "content": "immersive and to me that is very very exciting but it's only because variable",
+    "start": 1741
+  },
+  {
+    "content": "fonts give us more control over these elements that we can fine-tune things",
+    "start": 1751
+  },
+  {
+    "content": "like the font characteristics to maximize things like legibility",
+    "start": 1756
+  },
+  {
+    "content": "readability accessibility and the interactivity of the text that we have",
+    "start": 1762
+  },
+  {
+    "content": "in our sites and while some of these examples might seem trivial they're just",
+    "start": 1766
+  },
+  {
+    "content": "demonstrations of the possibilities it's up to you to figure out how we can use",
+    "start": 1771
+  },
+  {
+    "content": "this technology because it's still relatively new and people are still",
+    "start": 1776
+  },
+  {
+    "content": "trying to figure out the best way to utilize it and while there are practical",
+    "start": 1780
+  },
+  {
+    "content": "ways that we can do this stuff there's also fun and engaging and interactive",
+    "start": 1784
+  },
+  {
+    "content": "things we can do as well in my opinion there's never been a better time to be a",
+    "start": 1789
+  },
+  {
+    "content": "developer or a designer on the web and I know that there's some bad stuff",
+    "start": 1796
+  },
+  {
+    "content": "happening around the place but we have more opportunity than ever to create",
+    "start": 1800
+  },
+  {
+    "content": "more accessible more performant more meaningful and more interactive",
+    "start": 1807
+  },
+  {
+    "content": "experiences for our users and do so in a way that gives them what they really",
+    "start": 1812
+  },
+  {
+    "content": "need and variable fonts is just one of their technologies like the Jam stack",
+    "start": 1815
+  },
+  {
+    "content": "that allows us to do that kind of thing so with variable fonts at least we can",
+    "start": 1820
+  },
+  {
+    "content": "make it more performant but at best we can make something that's more",
+    "start": 1828
+  },
+  {
+    "content": "accessible more performant more useable more interactive more engaging and more",
+    "start": 1832
+  },
+  {
+    "content": "immersive and to me that is a really really exciting future for web",
+    "start": 1839
+  },
+  {
+    "content": "typography and for all of us who get to build amazing websites thanks very much",
+    "start": 1844
+  },
+  {
+    "content": "here's some resources definitely follow these people on Twitter because they're",
+    "start": 1849
+  },
+  {
+    "content": "amazing the bottom three are type foundries David and Jason are amazing",
+    "start": 1854
+  },
+  {
+    "content": "people Jason does a lot of variable font stuff my website variable fonts dev and",
+    "start": 1862
+  },
+  {
+    "content": "if you're looking for fonts v - fonts is a great place to go thank you",
+    "start": 1867
+  },
+  {
+    "content": "[Applause]",
+    "start": 1873
+  },
+  {
+    "content": "",
+    "start": 1881
+  }
+]

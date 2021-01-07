@@ -1,0 +1,630 @@
+[
+  {
+    "content": "hey everyone so I am here to talk about",
+    "start": 0
+  },
+  {
+    "content": "Jam stack for the enterprise and when we talk about the enterprise we're talking",
+    "start": 16
+  },
+  {
+    "content": "about big customers big brands large projects big budgets complex projects",
+    "start": 20
+  },
+  {
+    "content": "complex architectures and infrastructures and when we want to",
+    "start": 26
+  },
+  {
+    "content": "start talking about Jam stack with the enterprise there's kind of a elephant in",
+    "start": 31
+  },
+  {
+    "content": "the room that we really need to acknowledge and that elephant is called",
+    "start": 36
+  },
+  {
+    "content": "enterprise CMS and exp so enterprise content management systems and digital",
+    "start": 41
+  },
+  {
+    "content": "experience platforms if you're not familiar with DSP digital experience",
+    "start": 45
+  },
+  {
+    "content": "platforms it's really CMS plus personalization but this is a this is an",
+    "start": 49
+  },
+  {
+    "content": "elephant in the room because of the the fact that organizations are really",
+    "start": 55
+  },
+  {
+    "content": "heavily invested in these systems and the way they feel about these systems is",
+    "start": 62
+  },
+  {
+    "content": "they're kind of over them they're unhappy with their current platforms in",
+    "start": 68
+  },
+  {
+    "content": "a lot of ways implementation costs are high time to market is is slow",
+    "start": 72
+  },
+  {
+    "content": "operational costs are growing on performance is slow and there's aging",
+    "start": 77
+  },
+  {
+    "content": "technology which means it's hard to find people who are qualified and interested",
+    "start": 84
+  },
+  {
+    "content": "in working with the technology and it also puts some constraints on what",
+    "start": 88
+  },
+  {
+    "content": "you're able to do I'm kind of stifles your creativity and the options that are",
+    "start": 91
+  },
+  {
+    "content": "available to you I'm sort of like if we look at Matthew Broderick's grandpa here",
+    "start": 95
+  },
+  {
+    "content": "you know even if he wanted to get himself inked up to look like a print",
+    "start": 99
+  },
+  {
+    "content": "from a fancy boutique hotel he couldn't do it at the time because the technology",
+    "start": 103
+  },
+  {
+    "content": "just didn't exist so the customers are really unhappy with their current",
+    "start": 108
+  },
+  {
+    "content": "platforms um and jam stacks able to provide some relief for these but when",
+    "start": 113
+  },
+  {
+    "content": "you're dealing with these large customers in these complex problems",
+    "start": 120
+  },
+  {
+    "content": "nothing's that easy because at the same time that the customers are dissatisfied",
+    "start": 123
+  },
+  {
+    "content": "this is also a little bit about how they feel about their systems to kind of like",
+    "start": 128
+  },
+  {
+    "content": "it and even if like is a little too strong of a way to describe it maybe",
+    "start": 132
+  },
+  {
+    "content": "it's more they live with it or they tolerate it they do depend on these",
+    "start": 138
+  },
+  {
+    "content": "systems um content management capabilities of these",
+    "start": 141
+  },
+  {
+    "content": "systems are solid they've um complex workflows and auditing and",
+    "start": 145
+  },
+  {
+    "content": "versioning and fine grained security functionality that large distributed",
+    "start": 150
+  },
+  {
+    "content": "organizations depend on marketers are able to control the layout um so the",
+    "start": 155
+  },
+  {
+    "content": "marketers and the business users are really empowered to control their sites",
+    "start": 161
+  },
+  {
+    "content": "without having to involve developers same with personalization and a/b",
+    "start": 165
+  },
+  {
+    "content": "testing and visitor behavior tracking these are all things that the marketers",
+    "start": 170
+  },
+  {
+    "content": "and the business users are able to do but unfortunately this functionality all",
+    "start": 174
+  },
+  {
+    "content": "requires a trip to the origin in order to implement and so when we're thinking",
+    "start": 181
+  },
+  {
+    "content": "about the enterprise CMS and DXP platforms and jam stack you know can",
+    "start": 189
+  },
+  {
+    "content": "they really coexist because they're so different there's designed for such",
+    "start": 193
+  },
+  {
+    "content": "different purposes so they weren't designed to work together certainly um",
+    "start": 197
+  },
+  {
+    "content": "the the enterprise systems are from a generation or two earlier but they can",
+    "start": 201
+  },
+  {
+    "content": "be made to work together um there are two challenges that need to be faced um",
+    "start": 205
+  },
+  {
+    "content": "first is to engineer compatibility and this is how do you how do you make this",
+    "start": 210
+  },
+  {
+    "content": "origin based functionality compatible with the jam stack and the second",
+    "start": 217
+  },
+  {
+    "content": "challenge is how do you leverage existing technology because a lot of",
+    "start": 222
+  },
+  {
+    "content": "these systems will have front ends that are built on completely different",
+    "start": 227
+  },
+  {
+    "content": "architectures and these customers um need to maintain these or want to",
+    "start": 230
+  },
+  {
+    "content": "maintain these and this is what we do this is the problem that we solve and",
+    "start": 235
+  },
+  {
+    "content": "I'm really excited to announce the release of uniform which is designed to",
+    "start": 242
+  },
+  {
+    "content": "bring Jam stack to the enterprise and we do this by offering several things so",
+    "start": 248
+  },
+  {
+    "content": "the first thing is the jam staffing Jam stack of vacation of enterprise CMS and",
+    "start": 256
+  },
+  {
+    "content": "exp platforms complete choice in terms of front-end frameworks and also the",
+    "start": 261
+  },
+  {
+    "content": "automation of some site lifecycle activities like site creation and",
+    "start": 268
+  },
+  {
+    "content": "deployment so enough talking I want to show you what this looks like before I",
+    "start": 272
+  },
+  {
+    "content": "do it just to give a quick overview of what I'm gonna",
+    "start": 280
+  },
+  {
+    "content": "be demoing because there's a lot that is encompassed here first is how is a new",
+    "start": 282
+  },
+  {
+    "content": "site created with uniform what are the steps involved in that and also how is",
+    "start": 287
+  },
+  {
+    "content": "the origin based functionality jem sacrified so i'm already logged into",
+    "start": 291
+  },
+  {
+    "content": "uniform i'm gonna go in and add a site and this is going to take me through the",
+    "start": 300
+  },
+  {
+    "content": "process first thing I need to do is select the front-end that I want to use",
+    "start": 303
+  },
+  {
+    "content": "I'm gonna use next jazz second step is where do I want my code to live so I've",
+    "start": 307
+  },
+  {
+    "content": "got a couple of connections already pre-configured github one of them get",
+    "start": 312
+  },
+  {
+    "content": "lab the other I'm gonna use github go out and I can select an existing",
+    "start": 315
+  },
+  {
+    "content": "repository or I can create a new one I'm gonna pick an existing one continue and",
+    "start": 320
+  },
+  {
+    "content": "now where do I want my application to be hosted I've got a couple of",
+    "start": 325
+  },
+  {
+    "content": "pre-configured hosting options AWS and Azure but I'm gonna add another one for",
+    "start": 329
+  },
+  {
+    "content": "for natla fine so I'm gonna come in here this shows me all of the different hosts",
+    "start": 333
+  },
+  {
+    "content": "that are available for me to configure I'm gonna pick now that liffe I come in",
+    "start": 338
+  },
+  {
+    "content": "here give my connection a name and put in my access token gonna go out and give",
+    "start": 343
+  },
+  {
+    "content": "me a list of the different projects that are available in that liffe I if I want",
+    "start": 351
+  },
+  {
+    "content": "to create a new one I can I've got one that I want to use that's already",
+    "start": 354
+  },
+  {
+    "content": "created so I'm gonna pick that and now we get two content sources so we don't",
+    "start": 357
+  },
+  {
+    "content": "think in terms of just a single CMS we think of this in terms of content",
+    "start": 362
+  },
+  {
+    "content": "sources so you can add as many of these different content sources as you want so",
+    "start": 366
+  },
+  {
+    "content": "I'm going to add a couple first I'm gonna start with going in and seeing if",
+    "start": 370
+  },
+  {
+    "content": "there are any connections that have already been configured and I've got a",
+    "start": 374
+  },
+  {
+    "content": "couple I've got contentful and I've got gather content so for this particular",
+    "start": 376
+  },
+  {
+    "content": "site I'm gonna pick contentful it's gonna go out to contentful get me the",
+    "start": 380
+  },
+  {
+    "content": "content types that I have I've got blog posts I'm using content for my blogs and",
+    "start": 385
+  },
+  {
+    "content": "then I'm gonna put in it and identify your here I'm gonna call this blog",
+    "start": 390
+  },
+  {
+    "content": "because one of the things that uniform does is it gives you a unified content",
+    "start": 393
+  },
+  {
+    "content": "API that's accessible through graph QL so this is something that I'll be able",
+    "start": 397
+  },
+  {
+    "content": "to use later on if I want to specifically look for some blog content",
+    "start": 401
+  },
+  {
+    "content": "okay and then this shows me the summary of the content source now I'm going to",
+    "start": 405
+  },
+  {
+    "content": "add another a second content source and this time I'm going to create a new",
+    "start": 410
+  },
+  {
+    "content": "connector and this is going to be to one of those",
+    "start": 414
+  },
+  {
+    "content": "enterprise CMS systems site core so I'm gonna pick this I don't have a",
+    "start": 416
+  },
+  {
+    "content": "connection already so this is giving me the chance to put in my credentials for",
+    "start": 423
+  },
+  {
+    "content": "the psycorps server so this will be my dev psych or hostname my psych ward",
+    "start": 427
+  },
+  {
+    "content": "username and my site core password then it's going to go over to the psych wear",
+    "start": 439
+  },
+  {
+    "content": "instance and it's going to give me some options for configuration so where where",
+    "start": 446
+  },
+  {
+    "content": "do I want to pull content from site core this is giving me a view into the tree",
+    "start": 450
+  },
+  {
+    "content": "of site core so this is kind of the pages that have been built up in this",
+    "start": 453
+  },
+  {
+    "content": "enterprise CMS so I'm going to pick the home section identifier again for that",
+    "start": 457
+  },
+  {
+    "content": "that I'm content integration API so I'll call this site and then down below are",
+    "start": 461
+  },
+  {
+    "content": "some settings for some services some uniformed services because what we do is",
+    "start": 466
+  },
+  {
+    "content": "we Jam sacrifi on the functionality with with site core and these other systems",
+    "start": 470
+  },
+  {
+    "content": "that is origin based so for um page components you can in these Enterprise",
+    "start": 476
+  },
+  {
+    "content": "CMS's you're able to define page components and it's a combination of",
+    "start": 482
+  },
+  {
+    "content": "data and presentation kind of pre-built markup um and there are times where you",
+    "start": 485
+  },
+  {
+    "content": "you just want to take that you need to take that as it is so I'm gonna pick",
+    "start": 490
+  },
+  {
+    "content": "that a couple of other options are tracking visitor behavior tracking and",
+    "start": 493
+  },
+  {
+    "content": "personalization both of these things require a trip to the origin we don't",
+    "start": 499
+  },
+  {
+    "content": "want to do that because we want to be as gem stacked as possible so we're going",
+    "start": 503
+  },
+  {
+    "content": "to use client-side tracking and we're going to use client-side personalization",
+    "start": 507
+  },
+  {
+    "content": "again summary of the content sources then I can continue last step is just",
+    "start": 512
+  },
+  {
+    "content": "some information to describe the site so I'll call this jams com 2019 and my",
+    "start": 518
+  },
+  {
+    "content": "description is this is the uniform lightning talk gives me a summary of",
+    "start": 525
+  },
+  {
+    "content": "what's going to be created and then I can create the site so now the sites",
+    "start": 532
+  },
+  {
+    "content": "being created this can take a little bit of time just because it's doing some",
+    "start": 536
+  },
+  {
+    "content": "things in the background but that is the the process of creating a new site and",
+    "start": 539
+  },
+  {
+    "content": "getting it connected to kind of more the true",
+    "start": 544
+  },
+  {
+    "content": "jam stack kind of content sources and also the enterprise CMS content source",
+    "start": 548
+  },
+  {
+    "content": "so for the architecture on the uniform architecture just to talk about it",
+    "start": 552
+  },
+  {
+    "content": "really briefly three categories of components that we have the first is",
+    "start": 557
+  },
+  {
+    "content": "content integration and this is like I showed you the ability to support",
+    "start": 561
+  },
+  {
+    "content": "multiple content sources and gives you a single content API that's accessible",
+    "start": 565
+  },
+  {
+    "content": "through graph QL bill time services so this is gonna happen at Build time these",
+    "start": 569
+  },
+  {
+    "content": "are the things that that uniform is going to do and the main thing here is",
+    "start": 575
+  },
+  {
+    "content": "converting native formats into gem stack compatible formats so thinking about",
+    "start": 580
+  },
+  {
+    "content": "things like personalization this is something that is configured in an",
+    "start": 585
+  },
+  {
+    "content": "enterprise CMS and this is an example of the personalization configuration from",
+    "start": 589
+  },
+  {
+    "content": "site core so this is where you just go in and you configure your your rules and",
+    "start": 593
+  },
+  {
+    "content": "your conditions on what the personalization is going to look like",
+    "start": 597
+  },
+  {
+    "content": "um the configuration of this is something that marketers need to handle",
+    "start": 600
+  },
+  {
+    "content": "and they want to keep that in the enterprise CMS so we'll keep it there",
+    "start": 604
+  },
+  {
+    "content": "but we want to execute this in a way that doesn't require us going back to",
+    "start": 608
+  },
+  {
+    "content": "the origin so we're going to keep this configuration but we're gonna we're",
+    "start": 612
+  },
+  {
+    "content": "going to bring that in and at Build time and convert it into a format that we're",
+    "start": 615
+  },
+  {
+    "content": "able to use it in Jam stack and then finally we've got runtime services and",
+    "start": 619
+  },
+  {
+    "content": "runtime services include things like client-side implementations of origin",
+    "start": 623
+  },
+  {
+    "content": "based services so origin based services an example is personalization and um",
+    "start": 627
+  },
+  {
+    "content": "what I'm showing here is is a site that uses um uniform and personalization is",
+    "start": 632
+  },
+  {
+    "content": "on on the home page here that we're going to that the top sections change",
+    "start": 638
+  },
+  {
+    "content": "based on your visitor behavior now the performance you're seeing here if you're",
+    "start": 643
+  },
+  {
+    "content": "from the jam stack world may not be that impressive but if you're from the",
+    "start": 646
+  },
+  {
+    "content": "enterprise space and you've seen how long how slow personalization is on some",
+    "start": 649
+  },
+  {
+    "content": "of these enterprise CMS systems this is pretty amazing and I want to just wrap",
+    "start": 654
+  },
+  {
+    "content": "up with some with a customer success story so we've had a customer who's in",
+    "start": 661
+  },
+  {
+    "content": "the the travel and hospitality industry and they're using an enterprise CMS and",
+    "start": 665
+  },
+  {
+    "content": "they're getting page response times that are multiple seconds and that's not",
+    "start": 670
+  },
+  {
+    "content": "acceptable to them they need sub-second response time so before uniform we had",
+    "start": 674
+  },
+  {
+    "content": "um pages without personalization the time",
+    "start": 681
+  },
+  {
+    "content": "to interactive was over seven seconds with uniform that was reduced down to",
+    "start": 684
+  },
+  {
+    "content": "less than half a second that's 18 times faster time to interactive game 18 times",
+    "start": 688
+  },
+  {
+    "content": "now when we bring personalization into the picture this was taking over four",
+    "start": 694
+  },
+  {
+    "content": "seconds just for the time to first byte with uniform this is reduced to 40 50",
+    "start": 699
+  },
+  {
+    "content": "milliseconds okay this is 98 times faster not 98 percent 98 times faster um",
+    "start": 706
+  },
+  {
+    "content": "this surprised us it really surpassed any expectation we had on what",
+    "start": 713
+  },
+  {
+    "content": "performance was going to be so that's that's uniform we are here we're really",
+    "start": 717
+  },
+  {
+    "content": "thrilled to have a chance to kind of introduce ourselves to the to the jam",
+    "start": 724
+  },
+  {
+    "content": "stack community um I'm here co-founder Lars Peterson is also here we're wearing",
+    "start": 728
+  },
+  {
+    "content": "the uniform shirts we'd love to talk to you about our experience with jam stack",
+    "start": 733
+  },
+  {
+    "content": "and about uniform and just released our new website today uniform dot IO so we",
+    "start": 737
+  },
+  {
+    "content": "look forward to talking to you thanks everyone",
+    "start": 743
+  },
+  {
+    "content": "[Applause]",
+    "start": 745
+  },
+  {
+    "content": "[Applause] you",
+    "start": 750
+  },
+  {
+    "content": "",
+    "start": 755
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "description": "Migrating an entire legacy application to the Jamstack in one fell swoop is not only costly & time consuming, it’s a recipe for disaster. For those seeking safer pastures, we recommend a “gradual migration” strategy that can be executed over time. Start with higher traffic pages while other requests are proxied back to your legacy infrastructure. This talk will cover reverse proxies, component-driven design systems and micro front-end architecture.",
+  "id": "4K4_5yLLqzM",
+  "position": 8,
+  "publishedAt": 1601964812,
+  "thumbnails": {
+    "large": "https://i.ytimg.com/vi/4K4_5yLLqzM/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/4K4_5yLLqzM/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/4K4_5yLLqzM/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/4K4_5yLLqzM/default.jpg"
+  },
+  "title": "Migrating to Netlify, One Page at a Time"
+}

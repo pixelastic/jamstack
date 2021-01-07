@@ -1,0 +1,1822 @@
+[
+  {
+    "content": "Hey Wow props they gave us yeah it's",
+    "start": 0
+  },
+  {
+    "content": "like diggnation Chris yeah we should introduce ourselves this is a hi word",
+    "start": 10
+  },
+  {
+    "content": "let's test it there's that thing again that's us",
+    "start": 19
+  },
+  {
+    "content": "I'm Dave Rupert I'm from Austin Texas I work at a company called para belt we're",
+    "start": 29
+  },
+  {
+    "content": "a three-person web design shop right and yeah oh you're doing like official info",
+    "start": 37
+  },
+  {
+    "content": "I just I thought I really do know we're so I guess if you who's listened to the",
+    "start": 42
+  },
+  {
+    "content": "shop talk show before yes okay who is never who's a first-timer",
+    "start": 46
+  },
+  {
+    "content": "welcome I apologize we're at like episode 400 and that's like joining like",
+    "start": 50
+  },
+  {
+    "content": "the ninth season of Cheers or whatever it's like like you're you're like lay in",
+    "start": 55
+  },
+  {
+    "content": "the butt so we are like oh we should introduce ourselves but yeah we don't",
+    "start": 59
+  },
+  {
+    "content": "have like a little crisis about that like do people like does anybody start",
+    "start": 63
+  },
+  {
+    "content": "listening to podcast that late all the evidence is yes they do which is yeah",
+    "start": 66
+  },
+  {
+    "content": "that's but still I could see I wouldn't I'm not gonna start in season nighttime",
+    "start": 70
+  },
+  {
+    "content": "Cheers who's the guy who's the drunk at the bar yeah it's witty oh yeah listen",
+    "start": 73
+  },
+  {
+    "content": "either okay no anyway you really do work at an agent i DS and you have all kinds",
+    "start": 77
+  },
+  {
+    "content": "of big fancy clients and that's yeah yeah and I don't do agency work at all",
+    "start": 83
+  },
+  {
+    "content": "it's that sounds like a pain in the ass to me well yeah I get it but you you",
+    "start": 87
+  },
+  {
+    "content": "have a nice I have a nap so we we have that yeah a blog - I blog",
+    "start": 92
+  },
+  {
+    "content": "in a nap and a nap all right in a podcast so we just we bring those",
+    "start": 97
+  },
+  {
+    "content": "perspectives to the world of making websites and stuff and lately it's kind",
+    "start": 101
+  },
+  {
+    "content": "of been the jam stack show anyway yeah so we're basically gonna pivot today to",
+    "start": 105
+  },
+  {
+    "content": "being the jam stack podcast the jam Jared here for Jam show cool don't we",
+    "start": 110
+  },
+  {
+    "content": "have a what it's next year we're gonna do I feel like just a sec just to say",
+    "start": 115
+  },
+  {
+    "content": "it's get a feel for the audience where you're at on things do a little yeah we",
+    "start": 118
+  },
+  {
+    "content": "have a very important question that like everyone has to answer before we get",
+    "start": 121
+  },
+  {
+    "content": "going so well we'll get that out of the way right so question qua cos",
+    "start": 126
+  },
+  {
+    "content": "or possums okay whoever is voting for Quackers please vote for koalas yes okay",
+    "start": 133
+  },
+  {
+    "content": "all right yeah noises help only an audio podcast that's great",
+    "start": 140
+  },
+  {
+    "content": "who votes for possums yeah Oh strong energy",
+    "start": 145
+  },
+  {
+    "content": "yes strong energy that's good let's get the watch",
+    "start": 149
+  },
+  {
+    "content": "whoops whoo-hoo logos that's a what did double person I think croc is one",
+    "start": 153
+  },
+  {
+    "content": "somehow okay but the meat yeah I mean what we normally do on the show is we",
+    "start": 161
+  },
+  {
+    "content": "sometimes we have guests on and interview them but in the early days and",
+    "start": 166
+  },
+  {
+    "content": "in fact we still get questions like this sometimes which is awesome to me",
+    "start": 169
+  },
+  {
+    "content": "the show is modeled after Car Talk like that yeah mostly black show of all time",
+    "start": 172
+  },
+  {
+    "content": "kind of we're like click and tap but our logo has a wrench on it so once in a",
+    "start": 176
+  },
+  {
+    "content": "while we get emails that are like how do you change the oil in my like 1978 in",
+    "start": 181
+  },
+  {
+    "content": "tow fortunately yeah like well it's your Google anyway but we get we have a bunch",
+    "start": 185
+  },
+  {
+    "content": "of questions that some of which you did for us someone we got on Twitter some",
+    "start": 198
+  },
+  {
+    "content": "you know just we collected them throughout the thing definitely real",
+    "start": 202
+  },
+  {
+    "content": "people asked all these questions yeah so these are from real actual people and so",
+    "start": 205
+  },
+  {
+    "content": "the first question is from oh this is a real one not not that there's any fake",
+    "start": 210
+  },
+  {
+    "content": "ones this is a real one yeah this is a real one",
+    "start": 215
+  },
+  {
+    "content": "David darts it out loud for the Cosa we're gonna publish this to real audio",
+    "start": 217
+  },
+  {
+    "content": "podcast doing audio so David darns writes in friend of the show a long time",
+    "start": 223
+  },
+  {
+    "content": "listener time travel scenario you travel back 11 years and have to explain Jam",
+    "start": 227
+  },
+  {
+    "content": "stack to your former self how would your former self react and",
+    "start": 235
+  },
+  {
+    "content": "David picked 11 years cuz that's like the first commit to Jekyll was like 11",
+    "start": 240
+  },
+  {
+    "content": "years ago oh really so yeah oh that's a wild card so 11 years ago let's flash",
+    "start": 244
+  },
+  {
+    "content": "back to 2008 I'd be like so you know movable-type it's just that what",
+    "start": 250
+  },
+  {
+    "content": "it's amazing I could use it on my flashlight like you just spin up a local",
+    "start": 261
+  },
+  {
+    "content": "a MySQL database run a Perl script over it and it barfs out some crap and you",
+    "start": 266
+  },
+  {
+    "content": "throw it on your FTP it up at home and a happy rat Earl",
+    "start": 270
+  },
+  {
+    "content": "yeah pe-e-e-arl you know this is interesting I mean back like we are",
+    "start": 275
+  },
+  {
+    "content": "talking about you know like flash was really popular in 2008 still yeah Steve",
+    "start": 284
+  },
+  {
+    "content": "Jobs hadn't killed it yet and you Andy tried to convince this flash was the",
+    "start": 289
+  },
+  {
+    "content": "original Jam stuff yeah maybe was like clash is GM stack and I was like she's",
+    "start": 294
+  },
+  {
+    "content": "not wrong kind of you did have to like pre-rendered pre-render came down a big",
+    "start": 300
+  },
+  {
+    "content": "giant bundle just like every other Jam stack site so not wrong not wrong so we",
+    "start": 307
+  },
+  {
+    "content": "made some missteps but here we are 11 years late it was funny cuz like like",
+    "start": 314
+  },
+  {
+    "content": "something like if as long as we're reminiscing about old crap yeah",
+    "start": 317
+  },
+  {
+    "content": "Geocities probably wasn't right because it had though",
+    "start": 320
+  },
+  {
+    "content": "weirdly enough a tad dynamic data you know comments and stuff that probably",
+    "start": 323
+  },
+  {
+    "content": "wasn't pre-rendered from No but like I was looking around it so just said long",
+    "start": 327
+  },
+  {
+    "content": "dead you know but everybody remembers that there's another site though neo",
+    "start": 331
+  },
+  {
+    "content": "cities I was looking at looks really cool yeah I had just weirdly never seen",
+    "start": 334
+  },
+  {
+    "content": "it before it's totally Jam stack really line up",
+    "start": 339
+  },
+  {
+    "content": "for it you just get like an online editor and like just do by default gives",
+    "start": 341
+  },
+  {
+    "content": "you an index.html file and CSS file and stuff but then you look at their readme",
+    "start": 345
+  },
+  {
+    "content": "and stuff and they're like we are a CDN back to static files I'm service you",
+    "start": 349
+  },
+  {
+    "content": "know like they're really serious about the tech of it but all the sites people",
+    "start": 353
+  },
+  {
+    "content": "build are like look at this rabbit you know it's like a king rabbit but I mean",
+    "start": 356
+  },
+  {
+    "content": "it's Jam stuck anyway so that's a question though what do you I would I",
+    "start": 361
+  },
+  {
+    "content": "don't know what's your thing I I mean I think if I was hearing about it I would",
+    "start": 364
+  },
+  {
+    "content": "be like I don't know man I really like my Ruby on Rails with the database so oh",
+    "start": 369
+  },
+  {
+    "content": "yeah I think I would but you're trying to explain it what it what what it is if",
+    "start": 374
+  },
+  {
+    "content": "I'm explaining it to my form you know you would say I don't like it I like",
+    "start": 379
+  },
+  {
+    "content": "databases or whatever well that's how I would react like you should do a height",
+    "start": 382
+  },
+  {
+    "content": "of your voices I don't know man I really like cakephp",
+    "start": 386
+  },
+  {
+    "content": "it's really kind of happy here so that's how I'd probably react Oh No yeah it",
+    "start": 393
+  },
+  {
+    "content": "wouldn't be that hard to explain though like honestly right be like I don't know",
+    "start": 403
+  },
+  {
+    "content": "it you were like hey 2008 person we use JavaScript a lot like what would your",
+    "start": 407
+  },
+  {
+    "content": "2008 per yeah that's actually a good point you d like know what they're like",
+    "start": 415
+  },
+  {
+    "content": "imagine like but not even like whatever you're picturing is a lot it's like way",
+    "start": 419
+  },
+  {
+    "content": "more than megabytes more yikes dude watch that coming that's a wild card Wow",
+    "start": 424
+  },
+  {
+    "content": "didn't see that one all right all right well I guess you",
+    "start": 435
+  },
+  {
+    "content": "just I don't know okay next question question Dave shmooper writes in it",
+    "start": 438
+  },
+  {
+    "content": "sounds like Dave shmooper are you here okay Dave shmooper writes in is Jam",
+    "start": 445
+  },
+  {
+    "content": "stack a weird name probably not jams that comp but yeah",
+    "start": 450
+  },
+  {
+    "content": "saying should we rename it yes we should rename it no I'm gonna rename it now",
+    "start": 455
+  },
+  {
+    "content": "they are of a conference alright oh yeah that's true there's already a conference",
+    "start": 460
+  },
+  {
+    "content": "and people paid money to go to yeah it's got legs oh it's got legs okay well they",
+    "start": 463
+  },
+  {
+    "content": "night yeah okay all right here's another real person Hawksbill worth writes in in",
+    "start": 468
+  },
+  {
+    "content": "this industry we are fatty whoa oh hey I mean yeah I know I'm overweight but my",
+    "start": 477
+  },
+  {
+    "content": "elbows like yeah I mean you don't have to call it out like those in middle",
+    "start": 484
+  },
+  {
+    "content": "school I'm not a fan like I mean that might be like a code of conduct",
+    "start": 489
+  },
+  {
+    "content": "violation we should probably check but I mean I don't know okay so is this jam",
+    "start": 493
+  },
+  {
+    "content": "stack thing of fad I'm just a fat Oh fat fat okay makes sense okay it's British",
+    "start": 500
+  },
+  {
+    "content": "and does it matter if it is so is Jam stock a fad Chris yeah",
+    "start": 507
+  },
+  {
+    "content": "oh well come on I mean everything's a fad right Phil said it's a bad day kinda",
+    "start": 519
+  },
+  {
+    "content": "and did he know he called us fat and so I I mean so if I understand what you're",
+    "start": 526
+  },
+  {
+    "content": "saying you think it's a fad not that it's gonna go away the name might be",
+    "start": 536
+  },
+  {
+    "content": "might we might stop talking about it that way because it's it's a pretty",
+    "start": 541
+  },
+  {
+    "content": "loose connection of stuff already yeah it's a little bit like it's it's static",
+    "start": 545
+  },
+  {
+    "content": "hosting which is like my favorite part of it and then like other good ideas",
+    "start": 550
+  },
+  {
+    "content": "sprinkled on top and like if it's that wishy-washy kind of already to me a",
+    "start": 554
+  },
+  {
+    "content": "little bit maybe that over time the best practices and the services will stick",
+    "start": 559
+  },
+  {
+    "content": "around and all the good ideas will stick around but maybe we won't talk about it",
+    "start": 563
+  },
+  {
+    "content": "in the same way that's the part I expect to kind of fade over time no that makes",
+    "start": 567
+  },
+  {
+    "content": "it I I like that jam stack it regardless of the name I like that it's kind of",
+    "start": 571
+  },
+  {
+    "content": "like a I don't know like an umbrella term of sorts for like like this these",
+    "start": 577
+  },
+  {
+    "content": "technologies were all exploring and using so yeah it seems like it could",
+    "start": 583
+  },
+  {
+    "content": "stay and at least until somebody IPOs you know banking on that so they're yeah",
+    "start": 587
+  },
+  {
+    "content": "yeah yeah I mean there's I mean everything comes and goes I mean this",
+    "start": 597
+  },
+  {
+    "content": "conference is smoking hot right now I mean there's you know it's not like",
+    "start": 601
+  },
+  {
+    "content": "there was 5,000 people here or whatever but what there was here is like a lot of",
+    "start": 604
+  },
+  {
+    "content": "representatives of really like good on fire companies right now right they're a",
+    "start": 609
+  },
+  {
+    "content": "team to this thing not the chumps they sent like yeah the the king of",
+    "start": 615
+  },
+  {
+    "content": "Burger King came this conference like the Burt actual Burger King came here",
+    "start": 620
+  },
+  {
+    "content": "that's right and gave everyone Popeyes Chicken is just incredible",
+    "start": 628
+  },
+  {
+    "content": "like I can't believe that and so I know I know it's not just you know we sent",
+    "start": 635
+  },
+  {
+    "content": "the mr. Horton himself mr. Horton where was mr. Horton this morning I did I",
+    "start": 641
+  },
+  {
+    "content": "missed his booth so what I mean you think the name will",
+    "start": 647
+  },
+  {
+    "content": "stick around literally three years from now or we're gonna be like Jim stacking",
+    "start": 652
+  },
+  {
+    "content": "it up like it's hot I hope so I mean yeah well I hope I'm doing the jam stack",
+    "start": 655
+  },
+  {
+    "content": "I'm not me yeah it has a cooler name but right you don't think will regress into",
+    "start": 661
+  },
+  {
+    "content": "like PHP subway again I mean not you know like the of course there's all the",
+    "start": 666
+  },
+  {
+    "content": "way to licensure the web that aren't going anywhere",
+    "start": 671
+  },
+  {
+    "content": "okay previous hams check yeah it's Pete Jones that you have a little pH yeah",
+    "start": 673
+  },
+  {
+    "content": "it's good taken off long as you can run PHP on the edge will everybody will be",
+    "start": 681
+  },
+  {
+    "content": "like oh good it works yeah serverless you get a white page if",
+    "start": 687
+  },
+  {
+    "content": "it breaks yeah all right all right all right",
+    "start": 694
+  },
+  {
+    "content": "oh this is a good one all right here we go Dominic magnifico are you here",
+    "start": 702
+  },
+  {
+    "content": "Dominic no this that's just a sour name it is okay remove how are we feeling",
+    "start": 708
+  },
+  {
+    "content": "about the whole headless inserts EMS here coupled with a static site",
+    "start": 717
+  },
+  {
+    "content": "generator like Gatsby or 11e is that the future is that the future that agency",
+    "start": 721
+  },
+  {
+    "content": "work is heading to agency work specifically that's a agency work",
+    "start": 727
+  },
+  {
+    "content": "positions but insert static site generator here too because that's a",
+    "start": 731
+  },
+  {
+    "content": "whole spectrum yeah I knew this was coming this is why this morning I wrote",
+    "start": 734
+  },
+  {
+    "content": "a blog post about whatever I'm not gonna like read you the blog post no let's",
+    "start": 738
+  },
+  {
+    "content": "read it that should make there's all these like buckets of services and",
+    "start": 742
+  },
+  {
+    "content": "there's a spectrum of them and it sometimes it does kind of feel like",
+    "start": 748
+  },
+  {
+    "content": "pluck one of these in one of these in one of these and you get a website kind",
+    "start": 751
+  },
+  {
+    "content": "of thing yeah but the end but I guess the question is",
+    "start": 754
+  },
+  {
+    "content": "like art is are we are we for sure gonna do this is this what we're gonna do are",
+    "start": 758
+  },
+  {
+    "content": "we gonna split them we gonna be like front end and then CMS over here and and",
+    "start": 761
+  },
+  {
+    "content": "sprinkle on other stuff over here we're splitting up responsibilities I so I",
+    "start": 767
+  },
+  {
+    "content": "think just who's that the agency breakfast fireside chat this morning",
+    "start": 772
+  },
+  {
+    "content": "that was so that was really cool because it is in all these ecommerce stuff",
+    "start": 777
+  },
+  {
+    "content": "like all those talks like especially from the Burger King",
+    "start": 784
+  },
+  {
+    "content": "they were it was really good to see like like how people are using this in in",
+    "start": 789
+  },
+  {
+    "content": "real production in client situations I mean I think that the core of this",
+    "start": 795
+  },
+  {
+    "content": "agency question is like how do clients respond to that you know I mean I know",
+    "start": 800
+  },
+  {
+    "content": "my clients it's I think it's kind of like that word press talk it's like well",
+    "start": 804
+  },
+  {
+    "content": "we have a wordpress so you're using that you know and so like you don't get the",
+    "start": 809
+  },
+  {
+    "content": "full like full jams tech benefits you know or decoupled CMS you know sometimes",
+    "start": 814
+  },
+  {
+    "content": "it was the point that like when you work with a client they dictate the choices",
+    "start": 819
+  },
+  {
+    "content": "yeah sometimes you know and but I like this where it's like your people are the",
+    "start": 823
+  },
+  {
+    "content": "more of these that show up and and I keep coming back to like when the",
+    "start": 828
+  },
+  {
+    "content": "responsive web design was blowing up and there's like the Boston Globe and then",
+    "start": 832
+  },
+  {
+    "content": "every news or agency it was like yeah we will do responsive to like every website",
+    "start": 836
+  },
+  {
+    "content": "it was like yeah I'll do so it's like when the Burger King goes jam stack like",
+    "start": 840
+  },
+  {
+    "content": "now like this is cool like or this seems viable and it the the Nike talk made me",
+    "start": 844
+  },
+  {
+    "content": "think like the best way to do it is like in an emergency you roll out a jam stack",
+    "start": 853
+  },
+  {
+    "content": "you know like everyone's panicked it only has four weeks to build a website",
+    "start": 858
+  },
+  {
+    "content": "you're like jam stack yeah that's it so because it takes two weeks to set up a",
+    "start": 862
+  },
+  {
+    "content": "database you can't you know at least yeah",
+    "start": 868
+  },
+  {
+    "content": "so there's a lot to unpack there and you can speak to the agency angle better",
+    "start": 871
+  },
+  {
+    "content": "than I can yeah I do I'm interested in the like I",
+    "start": 877
+  },
+  {
+    "content": "don't know yes I do think this is where we're going I think there's a lot of us",
+    "start": 879
+  },
+  {
+    "content": "have decided I want to build my front-end however the hell I want to",
+    "start": 884
+  },
+  {
+    "content": "build my front-end and evolve it and have good ideas and like feel freedom",
+    "start": 888
+  },
+  {
+    "content": "over here on the front end and I like to like pick a CMS that feels like I can I",
+    "start": 892
+  },
+  {
+    "content": "have some agency there and can pick what works good with my data and there's a",
+    "start": 897
+  },
+  {
+    "content": "lot there's a spectrum of stuff there what language do I want to write it in",
+    "start": 902
+  },
+  {
+    "content": "do do like what do I care where the data goes how its format and how its he",
+    "start": 907
+  },
+  {
+    "content": "modeled yeah next yeah but you although evolved those things",
+    "start": 911
+  },
+  {
+    "content": "separately so yes I think it's a good idea kinda mm-hmm I mean not that it and",
+    "start": 918
+  },
+  {
+    "content": "not that any part of that as a bad idea but do I also think it's a good idea to",
+    "start": 923
+  },
+  {
+    "content": "like have products on earth that are a whole package of stuff that you can",
+    "start": 926
+  },
+  {
+    "content": "that's the complete answer to the whole thing and you use that to build the site",
+    "start": 930
+  },
+  {
+    "content": "I'll always be valuing that yeah if you're like going in it for the long",
+    "start": 934
+  },
+  {
+    "content": "haul we're gonna build a real thing that's",
+    "start": 938
+  },
+  {
+    "content": "good he's meant to last we have teams of people working on it but that decoupling",
+    "start": 941
+  },
+  {
+    "content": "situation I would say I think I want to hear more stories read more blogs and",
+    "start": 946
+  },
+  {
+    "content": "send those to clients and stuff just more people like I don't know do it who",
+    "start": 954
+  },
+  {
+    "content": "did the great decoupling and it worked and it feels good okay like white papers",
+    "start": 960
+  },
+  {
+    "content": "need some white papers I love handing over my email just to read a blog post",
+    "start": 965
+  },
+  {
+    "content": "you know it's like like maybe we're a little light on like super success",
+    "start": 969
+  },
+  {
+    "content": "stories of all this yeah but the the law blah blah blah talk blah blah blah that",
+    "start": 974
+  },
+  {
+    "content": "was great I mean but because it even like you know it's like internal agency",
+    "start": 982
+  },
+  {
+    "content": "right like the dedicated team solution wasn't really working I love that talk",
+    "start": 988
+  },
+  {
+    "content": "because that's what matters probably to my clients more than just like we're",
+    "start": 993
+  },
+  {
+    "content": "putting things on the CDN you know like they're like yeah everything good to see",
+    "start": 996
+  },
+  {
+    "content": "the any idiot like like like I think what matters to my clients is how we",
+    "start": 1001
+  },
+  {
+    "content": "like ship things faster and better and like have less errors or whatever and so",
+    "start": 1006
+  },
+  {
+    "content": "like the llamas case study was was really awesome because it was it was",
+    "start": 1012
+  },
+  {
+    "content": "very like where we actually found out like the the dedicated team thing was",
+    "start": 1017
+  },
+  {
+    "content": "weird because everyone kept stepping on each other and so like we went to more",
+    "start": 1022
+  },
+  {
+    "content": "of a studio model internal studio model and so I that's cool and that does give",
+    "start": 1026
+  },
+  {
+    "content": "me back to those like responsive web design feelings like where it's like",
+    "start": 1031
+  },
+  {
+    "content": "okay it's like now the organization is changing to adapt to a tech stack or",
+    "start": 1034
+  },
+  {
+    "content": "whatever the the challenges and of the tech stack so I think that's good we're",
+    "start": 1039
+  },
+  {
+    "content": "saying earlier that like there's like maybe sometimes there's a moment and",
+    "start": 1044
+  },
+  {
+    "content": "history yeah changes things a little bit like there's the Boston Globe moment by",
+    "start": 1048
+  },
+  {
+    "content": "my wife by the way led that team yeah yeah anyway what's up Miranda some piece",
+    "start": 1052
+  },
+  {
+    "content": "of history a little piece of history there and and so does jazz jam stuck",
+    "start": 1059
+  },
+  {
+    "content": "waiting for its Boston Globe moment kind of possibly I mean maybe the chickens",
+    "start": 1063
+  },
+  {
+    "content": "great chicken sandwich Wars of 2019 where were part of that part of that",
+    "start": 1067
+  },
+  {
+    "content": "yeah I don't know you know if Burger King's jam stack you can be yeah I hope",
+    "start": 1072
+  },
+  {
+    "content": "so okay maybe that's it maybe uh so what",
+    "start": 1078
+  },
+  {
+    "content": "about you know you did agency work what about the liked have you heard I feel",
+    "start": 1084
+  },
+  {
+    "content": "like I heard I've heard this throw know a little bit I don't know if it's like",
+    "start": 1087
+  },
+  {
+    "content": "taking as an acronym or not yet or what but like ax author okay that's what I",
+    "start": 1089
+  },
+  {
+    "content": "picture as agency work more I know you have like a different kind of scope of",
+    "start": 1096
+  },
+  {
+    "content": "clients perhaps but I think a lot of agencies have to are specifically",
+    "start": 1101
+  },
+  {
+    "content": "designing a site in which is they do the nerd bits and then they hand it off to",
+    "start": 1104
+  },
+  {
+    "content": "people who have like a marketing team and a Content team who who you know",
+    "start": 1108
+  },
+  {
+    "content": "you're trying to build an experience for them to edit the site that needs to be",
+    "start": 1112
+  },
+  {
+    "content": "good and understandable and fast that's all that part of it that's why",
+    "start": 1116
+  },
+  {
+    "content": "some people pick CMS's classic CMS's because they've proven that they can do",
+    "start": 1120
+  },
+  {
+    "content": "that over time but maybe that's changing and stuff do you ever have to make a ex",
+    "start": 1125
+  },
+  {
+    "content": "decision we do I mean that's something part of it too and it's cool to see",
+    "start": 1130
+  },
+  {
+    "content": "these you know different CMS's content full or that for managing your content",
+    "start": 1134
+  },
+  {
+    "content": "or even you get into the craft stuff like Kraft has like a graph QL API now",
+    "start": 1142
+  },
+  {
+    "content": "and they have a cloud thing on the horizon like these are cool things I",
+    "start": 1150
+  },
+  {
+    "content": "know our clients are like they're they're you know any client you walk",
+    "start": 1154
+  },
+  {
+    "content": "into the door to they're like oh we hate our CMS oh that's why we can't get",
+    "start": 1159
+  },
+  {
+    "content": "anything done you know yeah what is that everybody hates their C everyone hates",
+    "start": 1162
+  },
+  {
+    "content": "their CMS so it's like I think there's always an opportunity to do a better job",
+    "start": 1166
+  },
+  {
+    "content": "in the CMS UX but sometimes it's our job to not just fill it with crap",
+    "start": 1173
+  },
+  {
+    "content": "I mean that's part of the path we do a bad job of it I had this unrelated but",
+    "start": 1181
+  },
+  {
+    "content": "related slightly thought earlier is like I feel like everybody should have a CMS",
+    "start": 1187
+  },
+  {
+    "content": "that's like capable of slightly more than you're currently using it for oh",
+    "start": 1190
+  },
+  {
+    "content": "you never want to feel like you've like maxed out your CMS capability that's",
+    "start": 1194
+  },
+  {
+    "content": "because I don't know what that means exactly like a shower thought okay are",
+    "start": 1199
+  },
+  {
+    "content": "we done yeah well next next one Oh Cooper it again which talked one all",
+    "start": 1203
+  },
+  {
+    "content": "right everyone just shout out you're from the best talk ready 3 2 1 go okay a",
+    "start": 1210
+  },
+  {
+    "content": "lot of people said variable fonts but the correct answer was chicken sandwich",
+    "start": 1219
+  },
+  {
+    "content": "so sorry Shawn right then view react and even angular have got a lot of mention",
+    "start": 1223
+  },
+  {
+    "content": "on stage and in the halls but there's very little discussion about amp which",
+    "start": 1237
+  },
+  {
+    "content": "has some overlap lap and some differences with Jam stack why do you",
+    "start": 1242
+  },
+  {
+    "content": "think this is is it politics amps polarizing perception or technical",
+    "start": 1246
+  },
+  {
+    "content": "perceived limitations on what you can do so why wasn't there much amp at Jam",
+    "start": 1250
+  },
+  {
+    "content": "stack count Kazaam sucks yeah because there's like",
+    "start": 1255
+  },
+  {
+    "content": "classy intelligent people here",
+    "start": 1260
+  },
+  {
+    "content": "[Laughter] well amp is a search technology this is",
+    "start": 1269
+  },
+  {
+    "content": "not search comp conference or a SEM I don't know I mean",
+    "start": 1278
+  },
+  {
+    "content": "I guess technically you have to pre render it it he's got it's kind of a",
+    "start": 1283
+  },
+  {
+    "content": "good point right like isn't AMPA so it's web community rendered you know I can't",
+    "start": 1286
+  },
+  {
+    "content": "have like an amp div ID root isn't an amp nope no amp comes down with some",
+    "start": 1291
+  },
+  {
+    "content": "content I mean no images show up but you know an amp needs to run before images",
+    "start": 1298
+  },
+  {
+    "content": "show up but I'm sure there's plenty of people gem stuck in their amp does",
+    "start": 1303
+  },
+  {
+    "content": "anyone jam their amp we ramped their Jam jimp that sounds terrible jamp jamps",
+    "start": 1308
+  },
+  {
+    "content": "tech it is a little weird that nobody mentioned it yeah it is maybe we're all",
+    "start": 1314
+  },
+  {
+    "content": "just like waiting for it to go away is that that safe bet okay",
+    "start": 1320
+  },
+  {
+    "content": "I think everyone got some agreement there so yeah check all right but see if",
+    "start": 1327
+  },
+  {
+    "content": "you want to have a more serious conversation that we can talk about",
+    "start": 1335
+  },
+  {
+    "content": "later we run a sizable publishing operation this is clay Anderson Matson",
+    "start": 1337
+  },
+  {
+    "content": "we run a sizable publishing operation with lots of subscription content what",
+    "start": 1342
+  },
+  {
+    "content": "I'm struggling to comprehend is how an SSG server-side generated site or static",
+    "start": 1347
+  },
+  {
+    "content": "site can be used in such a case implementing role based access",
+    "start": 1352
+  },
+  {
+    "content": "delivering paid personal page up page personalization and they're like noose",
+    "start": 1355
+  },
+  {
+    "content": "based like how how do you do that with a jam stack like P 12 n is what it's",
+    "start": 1362
+  },
+  {
+    "content": "called in the base yeah right so you log in and there's like different stuff yeah",
+    "start": 1370
+  },
+  {
+    "content": "I'm well you yeah you don't have to pre render everything right isn't it I think",
+    "start": 1374
+  },
+  {
+    "content": "feel like even even hawks Phil Werth has a good post on on my site hey about this",
+    "start": 1380
+  },
+  {
+    "content": "kind of thing about I don't know I think like that's a good spirit of jam stack",
+    "start": 1385
+  },
+  {
+    "content": "is you just pre-render what you can and hit the rest stop but there was you know",
+    "start": 1388
+  },
+  {
+    "content": "the all that great stuff about Knox twas happening - and Knox - this like is like",
+    "start": 1392
+  },
+  {
+    "content": "almost confusing to me I wonder how many people like totally grok this and don't",
+    "start": 1398
+  },
+  {
+    "content": "maybe I'm the only one confused but next has like kind of like two modes you can",
+    "start": 1401
+  },
+  {
+    "content": "run it in it can totally pre-render everything basically and Russell that's",
+    "start": 1405
+  },
+  {
+    "content": "universal yeah okay so if it's not nullify that's what it's",
+    "start": 1410
+  },
+  {
+    "content": "doing cuz now if I has you can't you're not running no drumming I guess you can",
+    "start": 1413
+  },
+  {
+    "content": "in a cloud function right but generally it's static files happening and I write",
+    "start": 1417
+  },
+  {
+    "content": "yeah or s.p.a yeah or there can be like node on the server and next can be like",
+    "start": 1420
+  },
+  {
+    "content": "hitting that node server to do server-side rendering there's like",
+    "start": 1425
+  },
+  {
+    "content": "pretty different things to me and and knucks does both yeah",
+    "start": 1428
+  },
+  {
+    "content": "right but if you have that node server available to you then it can do stuff",
+    "start": 1432
+  },
+  {
+    "content": "like oh I see you're logged in I'm gonna cough up the logged in and stuff for you",
+    "start": 1437
+  },
+  {
+    "content": "like it has access to the server so it can do that",
+    "start": 1441
+  },
+  {
+    "content": "yeah and you can also do that all like asynchronously or well you know like",
+    "start": 1444
+  },
+  {
+    "content": "render the page and then go fetch the user avatar you know or whatever I mean",
+    "start": 1448
+  },
+  {
+    "content": "that's always my like it's school jams - it's still jams - I remember like this",
+    "start": 1453
+  },
+  {
+    "content": "is this is a fascinating Jam stack philosophy question and because I was I",
+    "start": 1459
+  },
+  {
+    "content": "don't know hit up by some reactive people about this like if you have one",
+    "start": 1464
+  },
+  {
+    "content": "file on your website it's index.html it has a doctype and",
+    "start": 1468
+  },
+  {
+    "content": "crap and then has div ID root only one thing script file at the bottom",
+    "start": 1473
+  },
+  {
+    "content": "big old content bundle whatever it loads down all of react or view or something",
+    "start": 1477
+  },
+  {
+    "content": "and scaffold or a whole app from there I'm gonna be 83 so many micro friends",
+    "start": 1483
+  },
+  {
+    "content": "yeah yeah that's great tech but at bootstraps the whole thing and goes gets",
+    "start": 1489
+  },
+  {
+    "content": "content from api's and builds the whole s.p.a from one thing but what you host",
+    "start": 1494
+  },
+  {
+    "content": "on nullify is index.html one file you host it up there",
+    "start": 1499
+  },
+  {
+    "content": "it's that file as static hosted and then the all the entirety of the rest of the",
+    "start": 1504
+  },
+  {
+    "content": "experience happens from the execution of that one javascript file is that gem",
+    "start": 1508
+  },
+  {
+    "content": "stack yes yes weird maybe not totally in the spirit of gem stack but yes yeah and",
+    "start": 1513
+  },
+  {
+    "content": "I mean I think like right like best practices would be like you try to",
+    "start": 1523
+  },
+  {
+    "content": "render something I mean we had like cool talks on performance or whatever like",
+    "start": 1529
+  },
+  {
+    "content": "try to render as much as you can before blocking the main thread yeah well okay",
+    "start": 1533
+  },
+  {
+    "content": "so if it's a react app and that's how you're doing it",
+    "start": 1539
+  },
+  {
+    "content": "maybe thrown maybe do it with next instead yes then you get all the powers",
+    "start": 1542
+  },
+  {
+    "content": "of next which Chrome is bacon into the browser did you hear that",
+    "start": 1548
+  },
+  {
+    "content": "yeah it just put next in the browser yeah yeah they say but they didn't even",
+    "start": 1551
+  },
+  {
+    "content": "pay for it well I I think what I think chrome should do is put 11d in the",
+    "start": 1556
+  },
+  {
+    "content": "browser oh I did today I'm announcing I'm I'm gonna invest 16 million into 11d",
+    "start": 1563
+  },
+  {
+    "content": "oh yeah it's one more million than Gatsby",
+    "start": 1571
+  },
+  {
+    "content": "that's why I really yeah so but if somebody else wants to do does 16",
+    "start": 1576
+  },
+  {
+    "content": "million that's totally cool I'll let you like you can have my spot that's fine",
+    "start": 1581
+  },
+  {
+    "content": "but I'm in I got stickers and stickers oh don't we get that we get the point of",
+    "start": 1586
+  },
+  {
+    "content": "that question right though like yeah I mean I think I think like if you you",
+    "start": 1596
+  },
+  {
+    "content": "role-based access and delivering page personalizations that are used based",
+    "start": 1600
+  },
+  {
+    "content": "right I mean there's dynamic stuff that's happening on this page like damn",
+    "start": 1605
+  },
+  {
+    "content": "stock doesn't say you can't do dynamic stuff yeah it's it kind of says you can",
+    "start": 1609
+  },
+  {
+    "content": "and should and I think from your talk you are showing how could then you know",
+    "start": 1614
+  },
+  {
+    "content": "you that's a component that's component that's a component and keep building up",
+    "start": 1618
+  },
+  {
+    "content": "until the URLs a component I mean I happen to know you all have a rails",
+    "start": 1621
+  },
+  {
+    "content": "back-end or whatever but like in theory that could all be done from an HTML file",
+    "start": 1626
+  },
+  {
+    "content": "on nullify I mean yeah yeah probably and we you know unfortunately we don't we",
+    "start": 1634
+  },
+  {
+    "content": "don't do anything right pretty much any statically rendered stuff that hydrates",
+    "start": 1640
+  },
+  {
+    "content": "or whatever we want to get there and it could you know that's because like one",
+    "start": 1646
+  },
+  {
+    "content": "way to do that is just have all those components and rails to and render the",
+    "start": 1649
+  },
+  {
+    "content": "whole thing in rails and have them flop out for react components order but then",
+    "start": 1652
+  },
+  {
+    "content": "you're like writing two code bases and I was like now yeah but then you or you",
+    "start": 1656
+  },
+  {
+    "content": "pick a next thing but like next has a very opinionated router and so it is",
+    "start": 1660
+  },
+  {
+    "content": "rails and then that got weird and we just haven't gotten there yet but we'll",
+    "start": 1665
+  },
+  {
+    "content": "get a at my split apart and be two projects or whatever so yeah yeah well",
+    "start": 1669
+  },
+  {
+    "content": "that was fun did I click it I think I already know I didn't click it I'm gonna",
+    "start": 1676
+  },
+  {
+    "content": "click it there you go yeah all right Thomas Randall Renton there's a huge",
+    "start": 1679
+  },
+  {
+    "content": "presence of CMS solutions and tools in the jam stack world like out in the",
+    "start": 1684
+  },
+  {
+    "content": "lobby there do you think there's room in this space for something game-changing",
+    "start": 1689
+  },
+  {
+    "content": "for web application developers do the currents bait of content focused tools",
+    "start": 1695
+  },
+  {
+    "content": "meet the needs of application devs or do we need something more suited for apps",
+    "start": 1702
+  },
+  {
+    "content": "are those two things at odds ie the great",
+    "start": 1706
+  },
+  {
+    "content": "I'd like within the jam sack itself or do are they like two sides of the same",
+    "start": 1710
+  },
+  {
+    "content": "coin so yeah all right so there's like CMS wise we have all these CMS's I mean",
+    "start": 1716
+  },
+  {
+    "content": "that is that's the kind of d like for content things just look at all the",
+    "start": 1724
+  },
+  {
+    "content": "companies trying to help with that yeah there's a lot of solutions a lot of",
+    "start": 1728
+  },
+  {
+    "content": "players or is there room for more well and then is the presumption that you're",
+    "start": 1733
+  },
+  {
+    "content": "using those tools when you're building a content D focus D site but right and",
+    "start": 1738
+  },
+  {
+    "content": "then like so there's a proliferation of tools in that space but well I guess we",
+    "start": 1743
+  },
+  {
+    "content": "may have to do the whole like what is the difference between apps or like what",
+    "start": 1749
+  },
+  {
+    "content": "like that is web apps mean I mean these thing maybe there's not a proliferation",
+    "start": 1753
+  },
+  {
+    "content": "of tools on the other side of that which is web apps whatever those are yeah I",
+    "start": 1760
+  },
+  {
+    "content": "mean I so I think like you know I come back to the work I do which is mostly",
+    "start": 1765
+  },
+  {
+    "content": "like client work or whatever in like all of them like I said hate their CMS and",
+    "start": 1774
+  },
+  {
+    "content": "need a new CMS so I think like like the CMS play is good and smart and I'm glad",
+    "start": 1778
+  },
+  {
+    "content": "there's a lot of options because I can like go to my clients and stuff and be",
+    "start": 1784
+  },
+  {
+    "content": "like looking there's like 10 options to actually do jam stack successfully so",
+    "start": 1788
+  },
+  {
+    "content": "that's exciting but for like web apps I'd be curious like what we need I think",
+    "start": 1793
+  },
+  {
+    "content": "like the Nell if I build plugins you know like those are cool because like",
+    "start": 1798
+  },
+  {
+    "content": "now you can control more of your build in in the nella Phi what's the",
+    "start": 1804
+  },
+  {
+    "content": "difference though like if it's not a Content D site what is an example of an",
+    "start": 1810
+  },
+  {
+    "content": "app that there is less tooling for on the gem stack side of things yeah I",
+    "start": 1815
+  },
+  {
+    "content": "don't know I I have trouble one thing I thought of and this is if somebody wants",
+    "start": 1820
+  },
+  {
+    "content": "to pay me 16 million dollars to make this I can totally do it but you know",
+    "start": 1824
+  },
+  {
+    "content": "like service yes service got it yeah you're right a baby baby node app",
+    "start": 1829
+  },
+  {
+    "content": "and then you hit gets a URL its own URL and how it's played anyway",
+    "start": 1836
+  },
+  {
+    "content": "baby no nap has a whole URL doesn't even it's only 30 lines they're not good URLs",
+    "start": 1843
+  },
+  {
+    "content": "the other guard their bad URLs okay good all right so I hit this weird URL and",
+    "start": 1849
+  },
+  {
+    "content": "then it runs within 300 milliseconds or something and then it spits back",
+    "start": 1854
+  },
+  {
+    "content": "something right yeah and then you know in the number one you",
+    "start": 1858
+  },
+  {
+    "content": "know you think about like hitting like the Twitter API or whatever right like",
+    "start": 1862
+  },
+  {
+    "content": "give me in that tweets or whatever and like you get your tweets but then after",
+    "start": 1865
+  },
+  {
+    "content": "you do that like 50 times Twitter says you can't get any more tweets anyway",
+    "start": 1871
+  },
+  {
+    "content": "like you hit the API too much so like so then you have to write an app or what",
+    "start": 1876
+  },
+  {
+    "content": "some kind of middleware or something to like like cache that so like yeah I",
+    "start": 1882
+  },
+  {
+    "content": "really want to remember you just as an aside just to ruin your story a little",
+    "start": 1887
+  },
+  {
+    "content": "bit you wrote you made a 3d whale one time yeah hit this API to get and it was",
+    "start": 1891
+  },
+  {
+    "content": "like just agile advice and this big fat 3d whale would go you know what did it",
+    "start": 1898
+  },
+  {
+    "content": "say like you should work hard and eat less yeah and hit an API limit and the",
+    "start": 1903
+  },
+  {
+    "content": "whale read out the API message and it was the biggest moment in one of my life",
+    "start": 1913
+  },
+  {
+    "content": "there's yeah so it's github has this agile advise API like it's just stupid",
+    "start": 1920
+  },
+  {
+    "content": "something they somebody made a long time ago and so this is so I made a 3d whale",
+    "start": 1927
+  },
+  {
+    "content": "in like a VR scene and you look at the whale you stare into its soul and it'll",
+    "start": 1932
+  },
+  {
+    "content": "dispense agile advice to you like dawn is better than perfect or whatever like",
+    "start": 1938
+  },
+  {
+    "content": "and it's just beautiful to me because it's just like I want to do like morning",
+    "start": 1947
+  },
+  {
+    "content": "yoga with this whale like this dispensing advice to me but then when",
+    "start": 1952
+  },
+  {
+    "content": "you hit the API limit it's like 500 internal server error and then like :",
+    "start": 1958
+  },
+  {
+    "content": "whoa literally bracket yeah Jason did request 5:09 3 yeah and so like anyway",
+    "start": 1966
+  },
+  {
+    "content": "so in this particular use case this is the best startup idea I've ever",
+    "start": 1974
+  },
+  {
+    "content": "had a July Ale is VR agile well is the like I think like the the ideal",
+    "start": 1978
+  },
+  {
+    "content": "situation is like I could hit this API but then somebody manages the throttling",
+    "start": 1987
+  },
+  {
+    "content": "in between so like I don't know if that's what you're after Thomas you can",
+    "start": 1992
+  },
+  {
+    "content": "pay me for that idea but like I think there's like things like that like like",
+    "start": 1995
+  },
+  {
+    "content": "there's rough points or well the one graph I mean that that talk",
+    "start": 2001
+  },
+  {
+    "content": "that was awesome I mean like click click click click click click now I can like",
+    "start": 2004
+  },
+  {
+    "content": "text to domain you know like that's with the net laughs I and uh every day that",
+    "start": 2009
+  },
+  {
+    "content": "felt pretty Appy and not content II yeah I think like some of those like easing",
+    "start": 2014
+  },
+  {
+    "content": "pain points would be pretty cool for just you know yeah well that's a good",
+    "start": 2019
+  },
+  {
+    "content": "example of some tooling that's happening in that market but it's true that",
+    "start": 2023
+  },
+  {
+    "content": "there's a lot more booths out there that are content focused than our app focused",
+    "start": 2027
+  },
+  {
+    "content": "in a way but I think to me like maybe those problems were actually almost",
+    "start": 2031
+  },
+  {
+    "content": "solved first like in and so it's something that's app like is like I",
+    "start": 2034
+  },
+  {
+    "content": "don't know like a kayak.com or whatever like something that we you log in",
+    "start": 2038
+  },
+  {
+    "content": "there's off and you have a user account and then like dashboard II stuff and",
+    "start": 2042
+  },
+  {
+    "content": "search and real-time data with results and stuff like oh that's a P you know",
+    "start": 2048
+  },
+  {
+    "content": "yeah and some of those apps like that that need was solved before we had jam",
+    "start": 2054
+  },
+  {
+    "content": "stack there's like firebase and cloud functions came along and micro syrup",
+    "start": 2059
+  },
+  {
+    "content": "made micro service type of stuff easier to deal with and like there already is a",
+    "start": 2064
+  },
+  {
+    "content": "lot of good solutions for that like you know have you ever seen those slides as",
+    "start": 2068
+  },
+  {
+    "content": "Jam stack slides are look at the Jam stack ecosystem oh yeah you know there's",
+    "start": 2073
+  },
+  {
+    "content": "a goalie and you know Twilio and all these services that like sprinkle on",
+    "start": 2077
+  },
+  {
+    "content": "together to make something that's the app ecosphere that's kind of already",
+    "start": 2082
+  },
+  {
+    "content": "exists you know if you're building something HAP like you kind of all those",
+    "start": 2085
+  },
+  {
+    "content": "services are ripe for the picking I guess yeah like anything with an API",
+    "start": 2089
+  },
+  {
+    "content": "fits in the a yeah sure that's the a of jam stack there you go there you go",
+    "start": 2093
+  },
+  {
+    "content": "I mean that's good but well yeah I don't even know if there any questions does",
+    "start": 2100
+  },
+  {
+    "content": "that make sense do we answer that one okay all right well",
+    "start": 2107
+  },
+  {
+    "content": "I think or what are we doing you got five minutes okay anything else let's",
+    "start": 2110
+  },
+  {
+    "content": "just you know say thanks thanks it's a it is you know it's striking to me I",
+    "start": 2114
+  },
+  {
+    "content": "said to somebody earlier that the coolness of this is is kind of a big",
+    "start": 2121
+  },
+  {
+    "content": "deal to me like it feels pretty special to be here I know it's not the first",
+    "start": 2127
+  },
+  {
+    "content": "ever gems count but they keep getting cooler in a way and at some of my",
+    "start": 2130
+  },
+  {
+    "content": "favorite conferences I ever meant to throw out my you know whatever medium",
+    "start": 2134
+  },
+  {
+    "content": "length history and web were the focused ones where there I was highly topical",
+    "start": 2137
+  },
+  {
+    "content": "and I remember I went to some of their the earliest jQuery comps yeah it or not",
+    "start": 2141
+  },
+  {
+    "content": "that comforter not not all you remember jQuery you have to be a only 90s kids",
+    "start": 2147
+  },
+  {
+    "content": "remember yeah yeah but there was like a hot spirit at those things of like we",
+    "start": 2153
+  },
+  {
+    "content": "are on the edge we got something in common",
+    "start": 2158
+  },
+  {
+    "content": "and that same kind of vibe is happening here and like a feather arm was not",
+    "start": 2161
+  },
+  {
+    "content": "joking around about the coolness of the companies out there sending their a team",
+    "start": 2165
+  },
+  {
+    "content": "you know all these companies are on fire we're on the edge of something big it",
+    "start": 2168
+  },
+  {
+    "content": "feels like this isn't just like a weird one-off thing on the web like this has",
+    "start": 2172
+  },
+  {
+    "content": "happening yo yeah happening I agree I I'm getting like cool vibes from like",
+    "start": 2175
+  },
+  {
+    "content": "and I have no stake in it either I don't care well I do I mean I was like I",
+    "start": 2181
+  },
+  {
+    "content": "better get a return you know and I'm the thing but yeah right but now I did such",
+    "start": 2187
+  },
+  {
+    "content": "a good like I don't know like atmosphere here I mean people in like the breadth",
+    "start": 2192
+  },
+  {
+    "content": "of people I mean we talked like friend of the front end back of the front end",
+    "start": 2198
+  },
+  {
+    "content": "like you there's a big breadth of people here in through diversity we get like",
+    "start": 2201
+  },
+  {
+    "content": "better opinions and better technology and so I think that's good and and I",
+    "start": 2205
+  },
+  {
+    "content": "think we need to maintain that without making enemies that was one of the",
+    "start": 2210
+  },
+  {
+    "content": "things that makes it like when you pick like five companies to host your website",
+    "start": 2217
+  },
+  {
+    "content": "instead of some monolith thing you've like five decks the possibility you know",
+    "start": 2220
+  },
+  {
+    "content": "or the 5 X the number of CEOs that might tweet something racist you know that",
+    "start": 2225
+  },
+  {
+    "content": "yeah you gotta be careful out there laughs at",
+    "start": 2229
+  },
+  {
+    "content": "least when you pick WordPress you know Matt Moeller like the guy's fine",
+    "start": 2233
+  },
+  {
+    "content": "yeah I can't promise me but he's very calm he's very chill almost like so are",
+    "start": 2237
+  },
+  {
+    "content": "these fellas yeah yeah I think we're all good here and in good hand so I guess",
+    "start": 2244
+  },
+  {
+    "content": "it's special things to nullify just cuz they're really at the heart of this you",
+    "start": 2249
+  },
+  {
+    "content": "know they paid the bill for me yeah that's a big deal and Phil works there",
+    "start": 2252
+  },
+  {
+    "content": "our glorious emcee did a great job oh hey thanks so much Phil and the rest of",
+    "start": 2258
+  },
+  {
+    "content": "the nullified gang and volunteers and sponsors and everybody I think Phil's",
+    "start": 2262
+  },
+  {
+    "content": "got a lot of people to think too but I want to thank them and Phil can't get up",
+    "start": 2266
+  },
+  {
+    "content": "here and think now if I cuz that'd be weird so well I'll think now if I god",
+    "start": 2269
+  },
+  {
+    "content": "dangit thanks you think no all right I want to thank you dear listener",
+    "start": 2273
+  },
+  {
+    "content": "for tuning in sitting here for this whole entire podcast and if you're",
+    "start": 2277
+  },
+  {
+    "content": "listening on the audio track thank you for downloading this in your pocket your",
+    "start": 2283
+  },
+  {
+    "content": "choice be sure to start her favorite yep that's how people find out about the",
+    "start": 2286
+  },
+  {
+    "content": "show follow us on twitter at chop talk show for tens of tweets a month and if",
+    "start": 2289
+  },
+  {
+    "content": "you hate your job however shop talk show calm slash jobs and get a brand new one",
+    "start": 2293
+  },
+  {
+    "content": "because people wanna hire people like you and Chris do you have anything else",
+    "start": 2296
+  },
+  {
+    "content": "you'd like chef Joe calm all right thank you",
+    "start": 2299
+  },
+  {
+    "content": "you",
+    "start": 2305
+  },
+  {
+    "content": "[Applause]",
+    "start": 2308
+  }
+]

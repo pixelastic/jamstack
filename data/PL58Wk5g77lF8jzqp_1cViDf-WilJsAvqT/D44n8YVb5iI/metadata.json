@@ -1,0 +1,14 @@
+{
+  "description": "David Calavera, CTO at Netlify, previews Edge Handlers which will allow you to run code directly on the edge server to handle things like custom authentication patterns, localization and personalization.\n\nYou can learn more about Edge Handlers and sign up to be notified when the beta is available at https://www.netlify.com/products/edge/edge-handlers/",
+  "id": "D44n8YVb5iI",
+  "position": 2,
+  "publishedAt": 1590610038,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/D44n8YVb5iI/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/D44n8YVb5iI/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/D44n8YVb5iI/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/D44n8YVb5iI/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/D44n8YVb5iI/default.jpg"
+  },
+  "title": "Netlify Edge Handlers Preview with David Calavera, Netlify CTO"
+}

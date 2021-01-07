@@ -1,0 +1,426 @@
+[
+  {
+    "content": "thank you for the warm introduction",
+    "start": 0
+  },
+  {
+    "content": "indeed my name is Alex twin and I work at a digital agency in Toronto called",
+    "start": 7
+  },
+  {
+    "content": "therefore interactive so we have been working with Drupal for a long time",
+    "start": 13
+  },
+  {
+    "content": "twelve years in fact and Drupal has done some great things for us when we first",
+    "start": 19
+  },
+  {
+    "content": "started using Drupal it was an enabler for us to get into bigger projects to",
+    "start": 23
+  },
+  {
+    "content": "really leverage the work that thousands of contributors at the time have put",
+    "start": 29
+  },
+  {
+    "content": "into that project and we were able to build you know work with some of the",
+    "start": 35
+  },
+  {
+    "content": "most recognizable brands in Canada so you may recognize some of the brands",
+    "start": 40
+  },
+  {
+    "content": "here so National Gallery Canada you know the Canadian Securities",
+    "start": 45
+  },
+  {
+    "content": "Exchange second cup and a number of universities so about six years ago we",
+    "start": 50
+  },
+  {
+    "content": "we sort of built a jam stack website by mistake",
+    "start": 60
+  },
+  {
+    "content": "so what we had done for a particular client they they had asked us to build a",
+    "start": 65
+  },
+  {
+    "content": "site very rapidly and quickly and the way that we thought you know we would",
+    "start": 71
+  },
+  {
+    "content": "best approach that with a static site generator so we used dock pad and we",
+    "start": 77
+  },
+  {
+    "content": "were able to build the site within weeks which is great and then the client",
+    "start": 82
+  },
+  {
+    "content": "turned around afterwards it said oh by the way we also need to be able to",
+    "start": 87
+  },
+  {
+    "content": "manage the content on this site so then we thought okay well what do we do do we",
+    "start": 91
+  },
+  {
+    "content": "go back to Drupal and use a drupal theming layer or do we try and figure",
+    "start": 96
+  },
+  {
+    "content": "out a way that we can use Drupal for the content management capabilities and tie",
+    "start": 102
+  },
+  {
+    "content": "it into the existing static site generator that we were using so that's",
+    "start": 108
+  },
+  {
+    "content": "what we decided to do I was a bold move I would say lukewarm results the",
+    "start": 112
+  },
+  {
+    "content": "technology wasn't quite where it needs to be at the time but still a good",
+    "start": 118
+  },
+  {
+    "content": "entrance into this decoupled zone and by happenstance but a good happenstance",
+    "start": 124
+  },
+  {
+    "content": "last year with Drupal 8 it's an API first system so we were able to build a",
+    "start": 131
+  },
+  {
+    "content": "fully decoupled web application using react on the front end and and that",
+    "start": 137
+  },
+  {
+    "content": "worked out excellent and this year was our very first full jam stack project",
+    "start": 142
+  },
+  {
+    "content": "which is what I would like to talk to you guys about today so Longo's is is a",
+    "start": 148
+  },
+  {
+    "content": "high-end grocery store they have 5,000 plus employees there in Canada so they",
+    "start": 154
+  },
+  {
+    "content": "service the Greater Toronto Area and they came to us with ambitious goals so",
+    "start": 160
+  },
+  {
+    "content": "they wanted us to deliver a world-class website and mobile experience and",
+    "start": 167
+  },
+  {
+    "content": "utilize modern technology to prepare prepare themselves for their ambitious",
+    "start": 174
+  },
+  {
+    "content": "ambitious future goals so before I get into where we went let's just have a",
+    "start": 182
+  },
+  {
+    "content": "quick look at what they came to us with so this was their existing website so it",
+    "start": 191
+  },
+  {
+    "content": "was not responsive it had legacy technology supporting the",
+    "start": 196
+  },
+  {
+    "content": "site it was a tightly coupled architecture and it was super slow so it",
+    "start": 200
+  },
+  {
+    "content": "became very very obvious that a completely architecture or the",
+    "start": 205
+  },
+  {
+    "content": "requirement beyond the we architected the landscape the grocery landscape is",
+    "start": 210
+  },
+  {
+    "content": "changed dramatically over the years it's no longer acceptable to not you know",
+    "start": 217
+  },
+  {
+    "content": "have technology as a foundation to customer experience",
+    "start": 224
+  },
+  {
+    "content": "it's no longer just about the grocery experience it's not about going to the",
+    "start": 229
+  },
+  {
+    "content": "grocery store pick up your groceries and going away you know if you need evidence",
+    "start": 233
+  },
+  {
+    "content": "for that just look at Amazon go and look at Walmart",
+    "start": 238
+  },
+  {
+    "content": "okay so along the way we had some feedback from customers to help guide us",
+    "start": 242
+  },
+  {
+    "content": "towards the solution not surprisingly customers don't want to wait around for",
+    "start": 248
+  },
+  {
+    "content": "websites to load or mobile apps to load so performance is is key they expect the",
+    "start": 253
+  },
+  {
+    "content": "first-class experience their expectations are aligned with the best",
+    "start": 259
+  },
+  {
+    "content": "in the industry and you know you can't tell somebody well",
+    "start": 264
+  },
+  {
+    "content": "you know we're not Amazon it doesn't matter they still expect it right and",
+    "start": 268
+  },
+  {
+    "content": "they want to be able to do everything digital so they want to be able to book",
+    "start": 272
+  },
+  {
+    "content": "their classes they want to be able to track their loyalty points and they want",
+    "start": 276
+  },
+  {
+    "content": "to be able to buy turkeys online on the business side the business came to us",
+    "start": 282
+  },
+  {
+    "content": "with ambitious goals for timelines we needed to interoperate with their IT",
+    "start": 289
+  },
+  {
+    "content": "team closely so have them part of our team as well and we have to control the",
+    "start": 296
+  },
+  {
+    "content": "costs so to do that we have to we have to look at the TAC the tech complexity",
+    "start": 301
+  },
+  {
+    "content": "so we need to find a stack that was simpler to work with but then certainly",
+    "start": 307
+  },
+  {
+    "content": "than what they had but could still integrate with legacy systems that are",
+    "start": 314
+  },
+  {
+    "content": "requirements for the solution so rather than embeds and tight coupling we were",
+    "start": 317
+  },
+  {
+    "content": "thinking API first on the team we needed team members to be able to largely work",
+    "start": 322
+  },
+  {
+    "content": "on independent tasks so if somebody was working on the front end then somebody",
+    "start": 330
+  },
+  {
+    "content": "can work on the back back in independently of each other so",
+    "start": 336
+  },
+  {
+    "content": "decoupling even the workflows for our teams we're still working in an agile",
+    "start": 339
+  },
+  {
+    "content": "fashion but we want to be able to dictate when these two streams couple to",
+    "start": 343
+  },
+  {
+    "content": "to bring those two tracks together and of course we needed a technology",
+    "start": 350
+  },
+  {
+    "content": "infrastructure that will deliver flexibility performance and reliability",
+    "start": 355
+  },
+  {
+    "content": "so in just over five months we built a solution that integrates with their CRM",
+    "start": 359
+  },
+  {
+    "content": "system has registration login capabilities integrated ecommerce",
+    "start": 366
+  },
+  {
+    "content": "carting a loyalty program where people can check their points and spend their",
+    "start": 372
+  },
+  {
+    "content": "points in the cart as well they can book classes online and and track those",
+    "start": 377
+  },
+  {
+    "content": "classes look at the history of those classes and yes they can buy a turkey",
+    "start": 383
+  },
+  {
+    "content": "online so we used Drupal and react for the dynamic components of this solution",
+    "start": 387
+  },
+  {
+    "content": "and of course for the content management and then we utilize gatsby and net Liffe",
+    "start": 395
+  },
+  {
+    "content": "i to the line jam stack principles and",
+    "start": 400
+  },
+  {
+    "content": "workflows so wide ynette laughs I why Gatsby why does Jam stack work so well",
+    "start": 404
+  },
+  {
+    "content": "in this solution so we believe it's the best stack to meet the performance of",
+    "start": 412
+  },
+  {
+    "content": "security requirements especially given the the time constraints that we had and",
+    "start": 416
+  },
+  {
+    "content": "some of the the other team constraints that we had so it allows us to be more",
+    "start": 422
+  },
+  {
+    "content": "agile and work more agile and work with other team members for instance ramping",
+    "start": 428
+  },
+  {
+    "content": "up a new team member on our side or on the client side is much easier when when",
+    "start": 433
+  },
+  {
+    "content": "using Jam stack then you know if we were to go with a traditional Drupal build",
+    "start": 438
+  },
+  {
+    "content": "it's pretty much impossible to ramp somebody up in less than six months",
+    "start": 443
+  },
+  {
+    "content": "really and of course net liffe I was a great partner worked well with Longo's",
+    "start": 447
+  },
+  {
+    "content": "and worked well with us and and gave us a lot of confidence moving forward",
+    "start": 454
+  },
+  {
+    "content": "okay so if anyone wants to check out the site you can go to triple double angles",
+    "start": 461
+  },
+  {
+    "content": "calm and let's let's quickly have a look at some of the results so the site has",
+    "start": 466
+  },
+  {
+    "content": "been live for about a month and a half now so we have some data that's come",
+    "start": 472
+  },
+  {
+    "content": "back not surprisingly performance is is a huge uptick",
+    "start": 476
+  },
+  {
+    "content": "so the original sites is of the top layer and performance went from 15 on",
+    "start": 482
+  },
+  {
+    "content": "the lighthouse metric to a to a whopping 86 and we're confident that we can bring",
+    "start": 488
+  },
+  {
+    "content": "that up even higher with a few things that we're looking at right now so let's",
+    "start": 494
+  },
+  {
+    "content": "circle back to the users and and their needs so obviously with the performance",
+    "start": 500
+  },
+  {
+    "content": "increase they don't have to wait around for their pages to load they can you",
+    "start": 505
+  },
+  {
+    "content": "know if you go to the site you'll see it's it's almost instantaneous loading",
+    "start": 508
+  },
+  {
+    "content": "and we've seen an uptick in in all traffic across desktop tablet mobile and",
+    "start": 511
+  },
+  {
+    "content": "we've seen increase in session duration and a decrease in drop-offs with mobile",
+    "start": 520
+  },
+  {
+    "content": "being the standout so more people are moving to mobile to go to long does calm",
+    "start": 525
+  },
+  {
+    "content": "on the business side the business is trending towards a 2x",
+    "start": 531
+  },
+  {
+    "content": "increase in their online meal kit sales from last year so these are real",
+    "start": 536
+  },
+  {
+    "content": "you know ROI dollars that they can see after only a month and a half for the",
+    "start": 543
+  },
+  {
+    "content": "site being live internally they have their own IT department they have",
+    "start": 548
+  },
+  {
+    "content": "internal resources on the dev side and this workflow is such that they can",
+    "start": 552
+  },
+  {
+    "content": "actually be able to make changes themselves and deploy with confidence",
+    "start": 559
+  },
+  {
+    "content": "and ease and the platform we all agree is now in place for future and Bish's",
+    "start": 563
+  },
+  {
+    "content": "projects and innovation and scalability thank you very much",
+    "start": 571
+  },
+  {
+    "content": "[Applause]",
+    "start": 577
+  },
+  {
+    "content": "[Applause] you",
+    "start": 582
+  },
+  {
+    "content": "",
+    "start": 588
+  }
+]

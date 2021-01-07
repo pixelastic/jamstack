@@ -1,0 +1,14 @@
+{
+  "description": "Building websites is a very visual process. The goal often is to make a website that is visually appealing and easy to use. However, we're always building websites with code. Changing margins is done by typing, changing font styles is done by typing, and every change often requires you to wait a while before you can see the result. During this talk I want to explore how we can make our development tooling more visually oriented. What can we do to lower the feedback loop and make it easier to create beautiful websites and apps?\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
+  "id": "Zx7mNzgi9yg",
+  "position": 2,
+  "publishedAt": 1564509323,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/Zx7mNzgi9yg/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/Zx7mNzgi9yg/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/Zx7mNzgi9yg/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/Zx7mNzgi9yg/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/Zx7mNzgi9yg/default.jpg"
+  },
+  "title": "Ives van Hoorne - Making Development More Visual"
+}

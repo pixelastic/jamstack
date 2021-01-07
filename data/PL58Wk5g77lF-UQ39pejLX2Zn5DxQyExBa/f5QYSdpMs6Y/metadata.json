@@ -4,9 +4,11 @@
   "position": 2,
   "publishedAt": 1542606081,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/f5QYSdpMs6Y/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/f5QYSdpMs6Y/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/f5QYSdpMs6Y/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/f5QYSdpMs6Y/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/f5QYSdpMs6Y/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/f5QYSdpMs6Y/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/f5QYSdpMs6Y/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/f5QYSdpMs6Y/default.jpg"
   },
   "title": "Monica Dinculescu - Bet You Didn't Think Your Browser Could do That"
 }

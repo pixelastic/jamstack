@@ -1,0 +1,1794 @@
+[
+  {
+    "content": "it's it's a really interesting",
+    "start": 0
+  },
+  {
+    "content": "experience for me to be here today because I feel like I'm it's my family I",
+    "start": 13
+  },
+  {
+    "content": "know so many people here in the crowd and so many people were just you know",
+    "start": 17
+  },
+  {
+    "content": "wandering around it's really really great experience well I was supposed to",
+    "start": 20
+  },
+  {
+    "content": "kind of bring in some sort of gem stack in the session and up until 723 in the",
+    "start": 25
+  },
+  {
+    "content": "morning I had no idea what is going to be if I'm being very very honest but",
+    "start": 29
+  },
+  {
+    "content": "then we thought okay we're gonna do this you can do this so I want to show you a",
+    "start": 33
+  },
+  {
+    "content": "little story a little story of a BIGBANG redesign but specifically what we did on",
+    "start": 37
+  },
+  {
+    "content": "smashing over the last three and three and a half years when moving from",
+    "start": 41
+  },
+  {
+    "content": "WordPress to gem stack and actually sound the lessons we learned and some of",
+    "start": 45
+  },
+  {
+    "content": "the struggles we had along the way as well and specifically some of the front",
+    "start": 48
+  },
+  {
+    "content": "end solutions we came up with what decisions we made just to get to where",
+    "start": 52
+  },
+  {
+    "content": "we are today it was a really tough journey for us I would say but I'm",
+    "start": 56
+  },
+  {
+    "content": "really happy that the place where we are because you know at some point probably",
+    "start": 60
+  },
+  {
+    "content": "four years ago we decided that it's probably a good idea to move away from",
+    "start": 65
+  },
+  {
+    "content": "this that's very clean and beautiful and shiny and white there's something that's",
+    "start": 68
+  },
+  {
+    "content": "not as white I would say rather red very red indeed but you can always turn off",
+    "start": 74
+  },
+  {
+    "content": "the redness just saying because you can actually click on seriously red and",
+    "start": 80
+  },
+  {
+    "content": "becomes white again I'm just saying because I get emails about that every",
+    "start": 84
+  },
+  {
+    "content": "day I want to explain I want to explain because I think I need explanation UNIX",
+    "start": 87
+  },
+  {
+    "content": "play you deserve an explanation and I think that it's really good idea",
+    "start": 93
+  },
+  {
+    "content": "to structure it in two parts one of them just briefly about design decisions who",
+    "start": 96
+  },
+  {
+    "content": "made and why and where it all comes from and why do we decide to do that big bang",
+    "start": 100
+  },
+  {
+    "content": "redesign in the first place it's usually a really bad idea to have a big bang",
+    "start": 105
+  },
+  {
+    "content": "redesign and then sound again front end solutions we came up with and all",
+    "start": 108
+  },
+  {
+    "content": "started of course with the problem and the problem is kind of obvious it's an",
+    "start": 112
+  },
+  {
+    "content": "elephant in the room and it's been ad blockers at the point",
+    "start": 116
+  },
+  {
+    "content": "approximately three and four three half years ago we had a quite significant",
+    "start": 120
+  },
+  {
+    "content": "number of visitors using ad blockers I remember vividly six and a half years",
+    "start": 124
+  },
+  {
+    "content": "ago we did the very first test it was only thirteen percent two and a half",
+    "start": 129
+  },
+  {
+    "content": "years ago three actually three years ago now it was actually sixty-two percent",
+    "start": 134
+  },
+  {
+    "content": "and of course we're talking about people like you and you Ella you know you're",
+    "start": 139
+  },
+  {
+    "content": "smart folks right you would use a net but who uses a net blocker who does not",
+    "start": 142
+  },
+  {
+    "content": "use a net blocker that's maybe seven of you here I'm just saying",
+    "start": 148
+  },
+  {
+    "content": "and so there was a real problem for us because of course at the point we kind",
+    "start": 154
+  },
+  {
+    "content": "of depended on advertising and we couldn't display advertising and so we",
+    "start": 158
+  },
+  {
+    "content": "had a massive problem and the problem was kind of obvious",
+    "start": 162
+  },
+  {
+    "content": "because we had 50% revenue decline every year over the last six years and",
+    "start": 164
+  },
+  {
+    "content": "sixty-six percent of people at the time we're using blocking ads",
+    "start": 169
+  },
+  {
+    "content": "but that was a really dramatic force as well was like a really big deal because",
+    "start": 177
+  },
+  {
+    "content": "we didn't know what to do and so we had of course diversified who had books and",
+    "start": 181
+  },
+  {
+    "content": "other things but from a business perspective who wanted to be stable like",
+    "start": 185
+  },
+  {
+    "content": "doesn't matter conference might not sell out the book might not sell out do you",
+    "start": 189
+  },
+  {
+    "content": "want something stable so we ended up thinking about some sort of a membership",
+    "start": 192
+  },
+  {
+    "content": "that we wanted to build but of course it had to tie in all the different things",
+    "start": 195
+  },
+  {
+    "content": "and services we provided at the time and we had a lot of stuff I got a lot of",
+    "start": 200
+  },
+  {
+    "content": "moving parts at the time so we essentially needed to create a tool for",
+    "start": 204
+  },
+  {
+    "content": "the magazine as same as for 2500 articles now it's 3,000 comments engine",
+    "start": 208
+  },
+  {
+    "content": "for 200,000 comments and e-commerce platform to sell stuff a subscription",
+    "start": 213
+  },
+  {
+    "content": "service a job board and a membership with syndication log in and it had to",
+    "start": 218
+  },
+  {
+    "content": "kind of work across every kind of instance of the product every product",
+    "start": 222
+  },
+  {
+    "content": "that we were going to sell so we had to build it from scratch and that caused us",
+    "start": 227
+  },
+  {
+    "content": "to kind of come up with a team that would actually make it work and so we",
+    "start": 232
+  },
+  {
+    "content": "had Daniel and Sarah working helping us out with design and front end we had",
+    "start": 235
+  },
+  {
+    "content": "some exploration phase with Anna Clark then we needed more front-end people and",
+    "start": 239
+  },
+  {
+    "content": "then we needed information architecture and UX and then we needed CAD",
+    "start": 243
+  },
+  {
+    "content": "Illustrator you will see in a second - why catalyst traitor he dreams and cats",
+    "start": 247
+  },
+  {
+    "content": "at this point we also had to deal with back-end and Mathias is actually helping",
+    "start": 251
+  },
+  {
+    "content": "us out there Sarah was helping with animation",
+    "start": 257
+  },
+  {
+    "content": "Haden accessibility and these people usually don't go on stage to talk about",
+    "start": 260
+  },
+  {
+    "content": "this project and this is just me presenting but they all deserve to be",
+    "start": 264
+  },
+  {
+    "content": "mentioned because without them I wouldn't be able to do anything and when",
+    "start": 268
+  },
+  {
+    "content": "we started working it was really all about bringing some",
+    "start": 271
+  },
+  {
+    "content": "personality into the game because we didn't want to create something if we",
+    "start": 274
+  },
+  {
+    "content": "look like this right which of this two possible websites they're currently",
+    "start": 278
+  },
+  {
+    "content": "designing today because there is one on the left and one on the right and maybe",
+    "start": 283
+  },
+  {
+    "content": "there is a carousel which is sometimes at the top sometimes at the bottom and",
+    "start": 286
+  },
+  {
+    "content": "sometimes both at the top at the bottom because why not right and so we wanted",
+    "start": 291
+  },
+  {
+    "content": "to create something that had a bit more personality specifically kind of being",
+    "start": 294
+  },
+  {
+    "content": "inspired by many many different examples but we want it to be able to play like",
+    "start": 299
+  },
+  {
+    "content": "when I saw this for the first time I'm sure that many of you did as well right",
+    "start": 303
+  },
+  {
+    "content": "for like oh this is cute right and I thought we tend to avoid making people",
+    "start": 308
+  },
+  {
+    "content": "think and we tend to avoid making kind of interface adding some sort of",
+    "start": 314
+  },
+  {
+    "content": "friction in our interfaces but I felt so connected with this interface when I saw",
+    "start": 318
+  },
+  {
+    "content": "it for the very first time and I wanted to type and retype and type over and",
+    "start": 322
+  },
+  {
+    "content": "type again just to have this kind of experience and see what's going to",
+    "start": 326
+  },
+  {
+    "content": "happen right and this is kind of an emotional connection that I'm sometimes",
+    "start": 329
+  },
+  {
+    "content": "missing and experiences that we see on the web and I thought we could pull that",
+    "start": 332
+  },
+  {
+    "content": "off I mean we don't have to do that of course but we could do something that",
+    "start": 336
+  },
+  {
+    "content": "could be a bit more personal and even if you take something very very boring like",
+    "start": 340
+  },
+  {
+    "content": "a you know toggle what could be more boring in the world then toggle well you",
+    "start": 345
+  },
+  {
+    "content": "can make a toggle interesting maybe sometimes it is a good idea to",
+    "start": 350
+  },
+  {
+    "content": "make people click twice and three times and four times and five times because",
+    "start": 359
+  },
+  {
+    "content": "again I think a bit of friction that they can actually have a chance to",
+    "start": 364
+  },
+  {
+    "content": "engage with you right and so I started playing with this ideas very early on",
+    "start": 367
+  },
+  {
+    "content": "and before we even designed anything we started building blocks like this I mean",
+    "start": 372
+  },
+  {
+    "content": "this was kind of the end result but it started writing copy that was a",
+    "start": 377
+  },
+  {
+    "content": "very very first thing that we did we were writing this kind of blocks that",
+    "start": 380
+  },
+  {
+    "content": "you would read an article and all of a sudden would be this block would you",
+    "start": 384
+  },
+  {
+    "content": "click on this button who would well you are not alone right",
+    "start": 387
+  },
+  {
+    "content": "this is one of the most click buttons on the entire site right and then I thought",
+    "start": 395
+  },
+  {
+    "content": "okay maybe you could do this no it's a bit more text form easily but this",
+    "start": 400
+  },
+  {
+    "content": "button does something would you click on that button not so much no no the other",
+    "start": 405
+  },
+  {
+    "content": "one works though right and so a little bit of nonsense every now and again like",
+    "start": 411
+  },
+  {
+    "content": "if you go and start checking out you find this little box oh this is one of",
+    "start": 416
+  },
+  {
+    "content": "the most favorite boxes that people actually click on that's great Sarah was",
+    "start": 422
+  },
+  {
+    "content": "designing this little animation so when you're going to check out we actually",
+    "start": 426
+  },
+  {
+    "content": "sometimes we're slowing down everything just so people actually have an option",
+    "start": 430
+  },
+  {
+    "content": "to expose this interface because the interface was too fast right so we had",
+    "start": 435
+  },
+  {
+    "content": "to actually slow down so people see this animation when I started checking out",
+    "start": 439
+  },
+  {
+    "content": "and all started really was kind of looking into text first kind of built in",
+    "start": 442
+  },
+  {
+    "content": "experience from a text editor this was one of the first mock-up we did mock-ups",
+    "start": 447
+  },
+  {
+    "content": "we did just copy you know no struck like a bit of structure of course but I mean",
+    "start": 451
+  },
+  {
+    "content": "no layout nothing of that kind but you can even see a few primary buttons",
+    "start": 456
+  },
+  {
+    "content": "secondary buttons and things like that so the very very first thing was",
+    "start": 460
+  },
+  {
+    "content": "actually writing copy and specifically error messages that it would be using",
+    "start": 463
+  },
+  {
+    "content": "later and they don't make sense right now of course out sort of the context of",
+    "start": 467
+  },
+  {
+    "content": "the page but we kind of wanted to tell the story in that meant that we need to",
+    "start": 470
+  },
+  {
+    "content": "build a story first right and then we started looking the typefaces right and",
+    "start": 474
+  },
+  {
+    "content": "looking to many different options and we pick this one alone ah for body copy and",
+    "start": 479
+  },
+  {
+    "content": "this one media for headings and I hate me Joe I'm sorry if you're if you're the",
+    "start": 484
+  },
+  {
+    "content": "I know from interesting cue I really don't like this typhus look at the a",
+    "start": 490
+  },
+  {
+    "content": "just look at the a ah but it's not about me because when I started looking to",
+    "start": 493
+  },
+  {
+    "content": "study and how people perceive us I always wanted to be you know standing",
+    "start": 499
+  },
+  {
+    "content": "for respectable community magazine something of that kind",
+    "start": 504
+  },
+  {
+    "content": "but people we're not saying things like professional or respectable community I",
+    "start": 507
+  },
+  {
+    "content": "mean ever saying community but they were also saying something else",
+    "start": 511
+  },
+  {
+    "content": "playful informal friendly and they were saying cats and I like I don't want my",
+    "start": 514
+  },
+  {
+    "content": "destiny to be cats that's a bit sad actually if you think about it so the",
+    "start": 520
+  },
+  {
+    "content": "reason why people actually associated us with cats so much and which is why we",
+    "start": 526
+  },
+  {
+    "content": "have 73 freaking cats walking around the page right now as of now and our",
+    "start": 529
+  },
+  {
+    "content": "illustrator has become a catalyst trader it's not a joke with mostly because it",
+    "start": 535
+  },
+  {
+    "content": "wasn't about me like you're not like me I'm allergic against cats I really am",
+    "start": 540
+  },
+  {
+    "content": "right but the point is well people associated the product because we've",
+    "start": 544
+  },
+  {
+    "content": "kind of highlight confirm cats at our conference is quite a lot and then we",
+    "start": 548
+  },
+  {
+    "content": "just started building kind of building from little interracial interactions",
+    "start": 552
+  },
+  {
+    "content": "interaction interactions like this one Anna starting building up the layout and",
+    "start": 556
+  },
+  {
+    "content": "all that but it's always like really simple prototypes built HTML CSS nothing",
+    "start": 561
+  },
+  {
+    "content": "fancy there alright sometimes also Photoshop and then we started hello you",
+    "start": 565
+  },
+  {
+    "content": "know and now as then we started kind of looking into the mobile experience",
+    "start": 569
+  },
+  {
+    "content": "responsive experience building designing actually tablet first and then building",
+    "start": 572
+  },
+  {
+    "content": "mobile first so we're kind of experimenting and looking and improving",
+    "start": 576
+  },
+  {
+    "content": "and refining and this is how design kind of evolved over time ending up with this",
+    "start": 580
+  },
+  {
+    "content": "red madness right but also having all kind of little things signatures this is",
+    "start": 585
+  },
+  {
+    "content": "one of them the tilting it's consistent everywhere so whenever you go and sign",
+    "start": 591
+  },
+  {
+    "content": "up whenever you see authors and so on this is always going to be tilted we",
+    "start": 595
+  },
+  {
+    "content": "were super lazy so we spent quite a bit of time I mean I just like print style",
+    "start": 600
+  },
+  {
+    "content": "sheets we spent a lot of time designing print style sheets because I didn't want",
+    "start": 605
+  },
+  {
+    "content": "to have any tool to generate invoices so we just did it with print style sheets",
+    "start": 609
+  },
+  {
+    "content": "for example and the experience is very often like this we have this filtered",
+    "start": 613
+  },
+  {
+    "content": "thing whatever that is right and then you start typing and then it entails but",
+    "start": 616
+  },
+  {
+    "content": "it's actually defined everything it animations so whenever an animation is",
+    "start": 621
+  },
+  {
+    "content": "kicking in the animation will be happening in that with that angle as",
+    "start": 625
+  },
+  {
+    "content": "well so this was kind of a very important consistent thing that hasn't",
+    "start": 629
+  },
+  {
+    "content": "become the ultimate kind of guided us through our design decisions and of",
+    "start": 632
+  },
+  {
+    "content": "course we had some fun as well along the way because I always wanted to do this",
+    "start": 639
+  },
+  {
+    "content": "in my project right and now I can that's great but we didn't for some reason I",
+    "start": 643
+  },
+  {
+    "content": "don't know why it doesn't matter right so kind of this is so it all came from",
+    "start": 648
+  },
+  {
+    "content": "because we wanted to bring in some personality and cats and animations and",
+    "start": 652
+  },
+  {
+    "content": "by the way the red on the page comes from the face of the cat which was the",
+    "start": 656
+  },
+  {
+    "content": "just randomly picked by our illustrator eight years ago if you wanted to have",
+    "start": 661
+  },
+  {
+    "content": "some sort of mascot for conference I don't know if we're going to have a",
+    "start": 667
+  },
+  {
+    "content": "second for the first conference I didn't know if we're going to have a second",
+    "start": 670
+  },
+  {
+    "content": "conference or whatever cat dog rabbits I don't know so he picked that color and",
+    "start": 673
+  },
+  {
+    "content": "we have to use it now forever yeah be better make some you know check what",
+    "start": 679
+  },
+  {
+    "content": "your designers are doing just saying to sing now with this out of the way this",
+    "start": 685
+  },
+  {
+    "content": "was kind of the design part right and when we started looking at the front",
+    "start": 689
+  },
+  {
+    "content": "ends we had so many options I mean this is a really great little overview by",
+    "start": 693
+  },
+  {
+    "content": "Justin Miller and that was published last year on Twitter so just exploring",
+    "start": 697
+  },
+  {
+    "content": "all the different options we could go for we could go you know climb full",
+    "start": 702
+  },
+  {
+    "content": "client-side full server-side and we had all the options and the reason why we",
+    "start": 705
+  },
+  {
+    "content": "actually were not happy with what we had is because it was very complicated I",
+    "start": 709
+  },
+  {
+    "content": "have to jump here to show another slide because it would explain it better we",
+    "start": 713
+  },
+  {
+    "content": "had all this option not all this option all these platforms that we were using",
+    "start": 719
+  },
+  {
+    "content": "at the time so we're using WordPress for the magazine we're using Shopify for the",
+    "start": 722
+  },
+  {
+    "content": "shop we're using very quite outdated things we built years ago on rails for",
+    "start": 727
+  },
+  {
+    "content": "job boards we also had conferences running on Kirby and you know we had to",
+    "start": 733
+  },
+  {
+    "content": "bring in membership somehow into all of this and imagine building bridges",
+    "start": 738
+  },
+  {
+    "content": "between all of these platforms ideally you would want to have something like a",
+    "start": 741
+  },
+  {
+    "content": "magazine where somebody could sign in and they would get a discount and drop",
+    "start": 745
+  },
+  {
+    "content": "board postings and they would get like extra discounts maybe to the shop and",
+    "start": 749
+  },
+  {
+    "content": "they would have their shipping addresses and billing addresses saved and OH",
+    "start": 753
+  },
+  {
+    "content": "that and then go to conferences and check out without submitting details",
+    "start": 757
+  },
+  {
+    "content": "over and over and creating accounts over and over so it was kind of the ultimate",
+    "start": 760
+  },
+  {
+    "content": "goal so the membership had to fit in somehow all right and the problem there",
+    "start": 764
+  },
+  {
+    "content": "was really we didn't know what to do for a while and specifically we were not",
+    "start": 769
+  },
+  {
+    "content": "even thinking about things that matter most like in beginning it would have",
+    "start": 775
+  },
+  {
+    "content": "been a very good idea to think about performance budgets but at the point we",
+    "start": 779
+  },
+  {
+    "content": "were just looking into all frameworks that would be actually useful to use it",
+    "start": 782
+  },
+  {
+    "content": "will make be able to build things with and we kind of could have used that",
+    "start": 786
+  },
+  {
+    "content": "because it actually bite us later right so actually thinking about the phone's",
+    "start": 791
+  },
+  {
+    "content": "budgets early on is a really really good idea which we did not which you're",
+    "start": 794
+  },
+  {
+    "content": "actually doing only now right now what did we decide to",
+    "start": 798
+  },
+  {
+    "content": "do now of course you know the answer because we ended up kind of looking in",
+    "start": 801
+  },
+  {
+    "content": "the gem stager and has a reason and the reason for that is because we didn't",
+    "start": 805
+  },
+  {
+    "content": "want to rely on heavy frameworks to do the heavy lifting for us obviously you",
+    "start": 809
+  },
+  {
+    "content": "want the leanest you want the most optimal and all of that and we were",
+    "start": 814
+  },
+  {
+    "content": "using WordPress for a while and we were happy",
+    "start": 819
+  },
+  {
+    "content": "I mean Morris was fine there didn't break anything for us the performance",
+    "start": 820
+  },
+  {
+    "content": "wasn't as good as we wanted we had all kind of issues with caching plugins and",
+    "start": 825
+  },
+  {
+    "content": "all kind of issues with you know server and that was like the the maintenance",
+    "start": 829
+  },
+  {
+    "content": "was also a bit tricky for us and expensive and and so we didn't really",
+    "start": 835
+  },
+  {
+    "content": "hate WordPress but we never even thought that we could actually move to something",
+    "start": 840
+  },
+  {
+    "content": "else so for in the very start we were exploring this idea what if we just",
+    "start": 844
+  },
+  {
+    "content": "baked everything into WordPress oh I see a little bit of mmm going on here in the",
+    "start": 848
+  },
+  {
+    "content": "area right and then it was really interesting because I met Matt Matt Matt",
+    "start": 855
+  },
+  {
+    "content": "in 2011 or even 12 and we invited him to speak and he was speaking at the",
+    "start": 859
+  },
+  {
+    "content": "smashing conference about Gemstar and it was San Francisco 2016 metric here 15 16",
+    "start": 865
+  },
+  {
+    "content": "something and then he was mentioning this idea of you know gem stack and it",
+    "start": 873
+  },
+  {
+    "content": "could be I thought it could be interesting and then we started talking",
+    "start": 878
+  },
+  {
+    "content": "and I was like started talking a bit more and over time kind of evolved this",
+    "start": 880
+  },
+  {
+    "content": "paradigm of what the new stack could be for us when we're actually building on",
+    "start": 885
+  },
+  {
+    "content": "smashing and this machine texture as a result of you know being",
+    "start": 889
+  },
+  {
+    "content": "having a git centric workflow where you have a nice CD and you have continuous",
+    "start": 892
+  },
+  {
+    "content": "delivery versioning all these fancy things that's you're familiar with right",
+    "start": 896
+  },
+  {
+    "content": "we ended up having a quite straightforward answer to what we could",
+    "start": 899
+  },
+  {
+    "content": "do to make it all work it just would mean to build all of the stuff from",
+    "start": 903
+  },
+  {
+    "content": "scratch right so you would have kind of decided to an hugo and backpack not",
+    "start": 907
+  },
+  {
+    "content": "because because it was like a conscious move less sugar and gainst everything",
+    "start": 914
+  },
+  {
+    "content": "else we just picked one that worked well right and then we'd use tons of",
+    "start": 917
+  },
+  {
+    "content": "micro-services for all the dynamic part that we were kind of having across the",
+    "start": 921
+  },
+  {
+    "content": "pay across the site and then we were using that leaf ICMS to actually publish",
+    "start": 924
+  },
+  {
+    "content": "content right and indeed as a result we had to build a quite a lot and it was",
+    "start": 930
+  },
+  {
+    "content": "like two and a half years project actually that was a lot of time where we",
+    "start": 935
+  },
+  {
+    "content": "had to build and we'd nullify of course an open source ecosystem with the CMS",
+    "start": 939
+  },
+  {
+    "content": "and go tell for comments and go through for syndication",
+    "start": 944
+  },
+  {
+    "content": "and go commerce for the commerce and you know a couple of moving parts here and",
+    "start": 948
+  },
+  {
+    "content": "there and of course we had to pick a framework so we did not choose react we",
+    "start": 953
+  },
+  {
+    "content": "went with pre-act and we actually made it",
+    "start": 959
+  },
+  {
+    "content": "we built or all of it out with react and it's still working on react however we",
+    "start": 961
+  },
+  {
+    "content": "are moving to react now and it's tough because we don't like pre acts or the",
+    "start": 968
+  },
+  {
+    "content": "performance is bad or anything it just the community of course is much much",
+    "start": 973
+  },
+  {
+    "content": "much bigger to react it seems like it's moving forward much much much faster and",
+    "start": 977
+  },
+  {
+    "content": "many things that we could have done out of the box we cannot do with pre act now",
+    "start": 980
+  },
+  {
+    "content": "so this is why our developer main front end developer decided to move to pre act",
+    "start": 983
+  },
+  {
+    "content": "but at the same time one important thing that was really critical is to have the",
+    "start": 989
+  },
+  {
+    "content": "entire single page application progressively enhanced that was like the",
+    "start": 994
+  },
+  {
+    "content": "very first clear objective from the very start everything has to be fully",
+    "start": 997
+  },
+  {
+    "content": "accessible even without JavaScript altogether and it doesn't mean that we",
+    "start": 1001
+  },
+  {
+    "content": "you know I'm not one of those people who say you know protect people who turn off",
+    "start": 1004
+  },
+  {
+    "content": "JavaScript it's not about that it's just about content being accessible to",
+    "start": 1010
+  },
+  {
+    "content": "whatever happens if your javascript is broken or something is going on in the",
+    "start": 1014
+  },
+  {
+    "content": "network and you can't access content you can access the file should still be able",
+    "start": 1017
+  },
+  {
+    "content": "to get the content out and so we started looking into",
+    "start": 1022
+  },
+  {
+    "content": "strategies right and what performance it was quite obvious I mean all the things",
+    "start": 1025
+  },
+  {
+    "content": "that you probably know as well the critical CSS you know little details for",
+    "start": 1029
+  },
+  {
+    "content": "web font loading and things like that but also service workers to be able to",
+    "start": 1034
+  },
+  {
+    "content": "precache some routes or to be able to pre cash or cash SS properly and the cou",
+    "start": 1037
+  },
+  {
+    "content": "same goes for pages for responsive images we chose to go to ordinary we're",
+    "start": 1042
+  },
+  {
+    "content": "still using closing area so we can serve web P to browsers that support the P and",
+    "start": 1046
+  },
+  {
+    "content": "we can be really really strict about what we're serving small screens and so",
+    "start": 1050
+  },
+  {
+    "content": "on we spent a lot of time on the web front loading a lot probably too much I",
+    "start": 1054
+  },
+  {
+    "content": "think I I couldn't I couldn't see glyphs anymore at some point because we're",
+    "start": 1059
+  },
+  {
+    "content": "doing all this pre loading and testing this and testing that and subsets and",
+    "start": 1065
+  },
+  {
+    "content": "there was madness and well actually dive into it in a second as well right but",
+    "start": 1069
+  },
+  {
+    "content": "that was really important part because we saw reflow happening quite a lot",
+    "start": 1073
+  },
+  {
+    "content": "initially and then for life search we're using algo Leah but of course if our",
+    "start": 1076
+  },
+  {
+    "content": "goal is down for example we still wanted to provide some sort of you know",
+    "start": 1081
+  },
+  {
+    "content": "reasonable search experience anybody familiar with algo their search",
+    "start": 1084
+  },
+  {
+    "content": "experience so we ended up saying okay so if algo descrip doesn't run well by",
+    "start": 1088
+  },
+  {
+    "content": "default the form is going to submit to Google and so the search fall back is",
+    "start": 1093
+  },
+  {
+    "content": "Google and then the more of Timaeus experience a progressively enhanced",
+    "start": 1097
+  },
+  {
+    "content": "experience will be their goalie a live search critical CSS was another story we",
+    "start": 1100
+  },
+  {
+    "content": "know of course we moved we have move to HTTPS already at this point and HTTP to",
+    "start": 1105
+  },
+  {
+    "content": "three years ago all right so that was a big deal for us just because imagine",
+    "start": 1109
+  },
+  {
+    "content": "3,000 articles tons of mixed content for editors we took everybody entire team",
+    "start": 1116
+  },
+  {
+    "content": "had to go over articles and fix freaking mixed content warnings because there's",
+    "start": 1123
+  },
+  {
+    "content": "so many of them you know luckily we could we were able to track them right",
+    "start": 1126
+  },
+  {
+    "content": "and so that was a big big move I was very hard and then of course the",
+    "start": 1130
+  },
+  {
+    "content": "same thing kind of with critical CSS because we started looking into how we",
+    "start": 1135
+  },
+  {
+    "content": "can optimize for performance and very early on I thought I don't trust all",
+    "start": 1139
+  },
+  {
+    "content": "these tools like the critical and all the others I'll do it myself",
+    "start": 1144
+  },
+  {
+    "content": "right so we went through seven or seven I think different templates and",
+    "start": 1148
+  },
+  {
+    "content": "collected all the critical CSS for the you know 1,200",
+    "start": 1153
+  },
+  {
+    "content": "pixels height across break points right I pushed it out my develop our developer",
+    "start": 1157
+  },
+  {
+    "content": "hated me because you know everything had to go for me later so it's only now",
+    "start": 1162
+  },
+  {
+    "content": "actually in this year when we automated everything using address - critical",
+    "start": 1167
+  },
+  {
+    "content": "right and also rendering the preview using puppeteer by the way so that's",
+    "start": 1171
+  },
+  {
+    "content": "pretty cool and then now the next step would be is actually to move this",
+    "start": 1177
+  },
+  {
+    "content": "critical CSS file to HTTP to server push so whenever you're requesting the XHTML",
+    "start": 1181
+  },
+  {
+    "content": "you're getting critical CSS out of the box you know what I'm talking about okay",
+    "start": 1186
+  },
+  {
+    "content": "yeah so so that was that's kind of really important part as well",
+    "start": 1190
+  },
+  {
+    "content": "third-party scripts oh we had advertising scripts from",
+    "start": 1194
+  },
+  {
+    "content": "legacy legacy legacy from WordPress x and we had to rewrite them so we're",
+    "start": 1197
+  },
+  {
+    "content": "using open X for a while then we were using our custom other script and then",
+    "start": 1202
+  },
+  {
+    "content": "as a result and also one year ago we moved to a custom implementation that",
+    "start": 1206
+  },
+  {
+    "content": "uses intersection observer to actually load scripts when we need them and track",
+    "start": 1212
+  },
+  {
+    "content": "them when people click on them alright that was much much much faster",
+    "start": 1215
+  },
+  {
+    "content": "so that was nice but again once we talk about strategies",
+    "start": 1219
+  },
+  {
+    "content": "you also have to think about for backs all right for example obviously what",
+    "start": 1222
+  },
+  {
+    "content": "happens if the connection is slow of things like that ok for live search we",
+    "start": 1227
+  },
+  {
+    "content": "have Google search being a fallback when obviously when we need to retrieve",
+    "start": 1232
+  },
+  {
+    "content": "comments we are going to catch them but then the problem is what if you what if",
+    "start": 1237
+  },
+  {
+    "content": "you submit the comments and then of course we need to have a build process",
+    "start": 1242
+  },
+  {
+    "content": "and then it will take a while until this comment goes live so kind of look into",
+    "start": 1246
+  },
+  {
+    "content": "that I'm kind of played a little bit with caching to make it work for network",
+    "start": 1251
+  },
+  {
+    "content": "service workers obviously legacy browsers accessible experience we're not",
+    "start": 1255
+  },
+  {
+    "content": "going to serve decent web fonts to ie9 for example it can live with Ariel I'm",
+    "start": 1258
+  },
+  {
+    "content": "sure right and then print stylesheet was doing a lot of heavy lifting for us to",
+    "start": 1263
+  },
+  {
+    "content": "generate PDFs or print or pretty much you know things that we could offload",
+    "start": 1268
+  },
+  {
+    "content": "right and check-out relies on JavaScript so at this point we are using strife and",
+    "start": 1274
+  },
+  {
+    "content": "we couldn't make it work at least for now without JavaScript now this is what",
+    "start": 1279
+  },
+  {
+    "content": "it looks like in the back let me just show you drive in the code",
+    "start": 1285
+  },
+  {
+    "content": "so this is oh this is difficult because like I can see I can see all right so",
+    "start": 1290
+  },
+  {
+    "content": "this is what's happening behind the scenes essentially oops absentia oh hold",
+    "start": 1295
+  },
+  {
+    "content": "on essentially we have to make it a bit",
+    "start": 1301
+  },
+  {
+    "content": "larger oh this is a cookie but I was fixing sorry that's not what I wanted to",
+    "start": 1304
+  },
+  {
+    "content": "say to show so let me hold back and go back please can I go back no right so",
+    "start": 1310
+  },
+  {
+    "content": "here we go so essentially every single comment every single article every",
+    "start": 1326
+  },
+  {
+    "content": "single job posting every single conference speaker every single workshop",
+    "start": 1331
+  },
+  {
+    "content": "speaker every single webinar every single ebook is basically a markdown",
+    "start": 1335
+  },
+  {
+    "content": "file all right so what's happening here behind the scenes if if we look in our",
+    "start": 1339
+  },
+  {
+    "content": "pages or let's say if we look into events right so everything is kind of",
+    "start": 1344
+  },
+  {
+    "content": "structured and so this is everything that we're preparing and then of course",
+    "start": 1349
+  },
+  {
+    "content": "there is a build process in place which essentially it takes what we have it",
+    "start": 1354
+  },
+  {
+    "content": "creates critical CSS for every single template that we are using it plugs it",
+    "start": 1357
+  },
+  {
+    "content": "in and then we ship it right to CDN straight again using that Levi at this",
+    "start": 1361
+  },
+  {
+    "content": "point right and of course when I look into the say you know JavaScript",
+    "start": 1365
+  },
+  {
+    "content": "I'm not these kind of scripts hold on side always my source components behind",
+    "start": 1370
+  },
+  {
+    "content": "the scenes it's all kind of happening again with pre-act at this point right",
+    "start": 1377
+  },
+  {
+    "content": "and it works it's all fine and we're kind of happy but the same time one",
+    "start": 1381
+  },
+  {
+    "content": "thing that could have done could have been better is performance so",
+    "start": 1387
+  },
+  {
+    "content": "performance is okay I mean if we look into where we are right now we could be",
+    "start": 1390
+  },
+  {
+    "content": "doing better so right now if I look at 3G and this is what we're testing most",
+    "start": 1395
+  },
+  {
+    "content": "so we would actually throttle the one memory of course goes down and then of",
+    "start": 1400
+  },
+  {
+    "content": "course we would throw low to 3G yeah it takes two point five five seconds that's",
+    "start": 1405
+  },
+  {
+    "content": "not bad on 3G but it's not great either and if you look into webpage tests let's",
+    "start": 1409
+  },
+  {
+    "content": "say on our stable connection most of the time we'd surround you know the start",
+    "start": 1416
+  },
+  {
+    "content": "render which is not necessarily the best metric now and the first interactive",
+    "start": 1420
+  },
+  {
+    "content": "one second 1.3 seconds right obviously we want to be under 1,000 not seconds",
+    "start": 1424
+  },
+  {
+    "content": "and then one second and the 1000 speed index but it's still it's still distant",
+    "start": 1431
+  },
+  {
+    "content": "because I remember times with WordPress when things used to be much worse I",
+    "start": 1437
+  },
+  {
+    "content": "remember I never forget I'm like an elephant and they won't forget right so",
+    "start": 1441
+  },
+  {
+    "content": "there is still quite a bit of work to do but in behind the scenes what's",
+    "start": 1445
+  },
+  {
+    "content": "happening is as we're using that leaf I see a mess actually we're starting using",
+    "start": 1449
+  },
+  {
+    "content": "you know github more anyway every single article that's being deployed in the end",
+    "start": 1453
+  },
+  {
+    "content": "will go through this routine where you going to add on your webinar and things",
+    "start": 1458
+  },
+  {
+    "content": "like that here generated by smashing CMS bot right",
+    "start": 1462
+  },
+  {
+    "content": "so it opens up a pool requests and then somebody an editor will check if it's",
+    "start": 1466
+  },
+  {
+    "content": "okay or not well is it maybe again using github as",
+    "start": 1470
+  },
+  {
+    "content": "well everybody on the team is kind of familiar with github at this point and",
+    "start": 1473
+  },
+  {
+    "content": "then would merge and then it goes maybe first to staging and then goes to master",
+    "start": 1476
+  },
+  {
+    "content": "you know regular thing nothing fancy about that at this point right and of",
+    "start": 1480
+  },
+  {
+    "content": "course we need to organize it somehow so we organized using notion anybody using",
+    "start": 1487
+  },
+  {
+    "content": "notion yeah so notion is very very nice and so what we decided to do it was a",
+    "start": 1493
+  },
+  {
+    "content": "very conscious decision as well try to avoid emails as much as possible so even",
+    "start": 1498
+  },
+  {
+    "content": "to the point where we wanted to I mean I I wanted Amanda doesn't know I wanted to",
+    "start": 1504
+  },
+  {
+    "content": "disallow everybody to send emails to each other because whenever you send an",
+    "start": 1510
+  },
+  {
+    "content": "email to somebody it ends up being locked in the conversation between two",
+    "start": 1515
+  },
+  {
+    "content": "people and everybody else doesn't know about it",
+    "start": 1519
+  },
+  {
+    "content": "so whenever the I mean whenever it comes to project when your team is working on",
+    "start": 1521
+  },
+  {
+    "content": "the communication has to be public right and for that we're eating notions pretty",
+    "start": 1526
+  },
+  {
+    "content": "much everything from conferences to visual illustrations to registration to",
+    "start": 1530
+  },
+  {
+    "content": "membership pretty much everything and this is a deaf board moving cards around",
+    "start": 1535
+  },
+  {
+    "content": "of course you're familiar with all of that as well and then for communication",
+    "start": 1540
+  },
+  {
+    "content": "for the team we're using slack at this point right so all of that when Matt",
+    "start": 1544
+  },
+  {
+    "content": "started working just before when we started brought us to a significant",
+    "start": 1549
+  },
+  {
+    "content": "improvement when we moved from WordPress to nullify we got six times faster",
+    "start": 1553
+  },
+  {
+    "content": "and we used to be faster than we're now because we had to bring in more features",
+    "start": 1558
+  },
+  {
+    "content": "and all that so I remember vividly when we had to start render time",
+    "start": 1561
+  },
+  {
+    "content": "on average approximately 700 milliseconds I don't know we lost half a",
+    "start": 1566
+  },
+  {
+    "content": "second along the way now so we have to get back find our way back and so oh yes",
+    "start": 1570
+  },
+  {
+    "content": "this is also one of them one of those screenshots the very first are the",
+    "start": 1576
+  },
+  {
+    "content": "screenshots just by moving to this different stack which was incredibly",
+    "start": 1579
+  },
+  {
+    "content": "incredibly powerful and so we ended up actually really exploring what we can do",
+    "start": 1583
+  },
+  {
+    "content": "next now we spent a lot of time trying to",
+    "start": 1588
+  },
+  {
+    "content": "improve the experience for developers because over time more and more people",
+    "start": 1591
+  },
+  {
+    "content": "were actually involved somewhere freelancing somewhere actually working",
+    "start": 1595
+  },
+  {
+    "content": "on a project all the time and one of the very useful things very simple but",
+    "start": 1598
+  },
+  {
+    "content": "useful things which I think all of you are using as well was name spacing so",
+    "start": 1602
+  },
+  {
+    "content": "whenever you will be familiar with Smacks many of you will be may be using",
+    "start": 1606
+  },
+  {
+    "content": "BAM winded up using Barracks BAM smack sex whatever they want to call it",
+    "start": 1610
+  },
+  {
+    "content": "there's a combination really but it was really useful to have this prefixes for",
+    "start": 1615
+  },
+  {
+    "content": "layout for general structural objects for you know specific components like I",
+    "start": 1619
+  },
+  {
+    "content": "say carousel accordion and other things right theming right the same thing here",
+    "start": 1624
+  },
+  {
+    "content": "scopes content something that's coming from a CMS if author is working on it",
+    "start": 1630
+  },
+  {
+    "content": "stateful namespaces for the describing behavior utility is JavaScript hoaxes",
+    "start": 1634
+  },
+  {
+    "content": "and so on so in the beginning we were using them then we had more developers",
+    "start": 1639
+  },
+  {
+    "content": "coming and then it's a little bit messy right now so we're refactoring of course",
+    "start": 1644
+  },
+  {
+    "content": "but then I'd really like this idea because you can write code in such a",
+    "start": 1647
+  },
+  {
+    "content": "predictable way because before you start coding and this is very kind of",
+    "start": 1651
+  },
+  {
+    "content": "important for every project that I'm involved with because we also do",
+    "start": 1655
+  },
+  {
+    "content": "consultancy and other things before you even start coding before somebody starts",
+    "start": 1658
+  },
+  {
+    "content": "designing designers and developers get together on the table and they discuss",
+    "start": 1663
+  },
+  {
+    "content": "components and they give them names with prefixes that's so cool because whenever",
+    "start": 1666
+  },
+  {
+    "content": "the designer starts designing and Photoshop points Quechua tivities",
+    "start": 1672
+  },
+  {
+    "content": "they're using they're already thinking in these components and they're giving",
+    "start": 1675
+  },
+  {
+    "content": "him an two layers that they're using in two symbols that they're using the given",
+    "start": 1678
+  },
+  {
+    "content": "proper names that developers can then use a 1-1 one-to-one mapping in the code",
+    "start": 1681
+  },
+  {
+    "content": "that's incredibly powerful and then we also talked about the family of",
+    "start": 1686
+  },
+  {
+    "content": "components what we potentially need really really cool so we actually always",
+    "start": 1689
+  },
+  {
+    "content": "start thinking about components first and that's Harry Roberts wrote in his",
+    "start": 1694
+  },
+  {
+    "content": "article a while back you can even highlight types of namespaces once you",
+    "start": 1699
+  },
+  {
+    "content": "have them so you can say show me all you know components on that page related to",
+    "start": 1703
+  },
+  {
+    "content": "theming right I'll show me all components on the page that are kind of",
+    "start": 1707
+  },
+  {
+    "content": "structural objects if I need to refactor something I can actually see what's",
+    "start": 1712
+  },
+  {
+    "content": "going on right just having this kind of utility so this kind of classes really",
+    "start": 1715
+  },
+  {
+    "content": "helps and even better because we are refactoring right now what we are doing",
+    "start": 1720
+  },
+  {
+    "content": "now is using our F classes where essentially the idea is well I would",
+    "start": 1723
+  },
+  {
+    "content": "love to see if something has been refracted to yet or not right so",
+    "start": 1727
+  },
+  {
+    "content": "whenever I component has been refactored I'm adding RF terrific's to it so you",
+    "start": 1731
+  },
+  {
+    "content": "can do the same thing and you can highlight everything that's been",
+    "start": 1736
+  },
+  {
+    "content": "affected and as long as it's not reflected you can go to a page and see",
+    "start": 1738
+  },
+  {
+    "content": "okay we have to work on that because this is not affected yet on particularly",
+    "start": 1741
+  },
+  {
+    "content": "on the landing page let's say and even further than that we are looking into",
+    "start": 1745
+  },
+  {
+    "content": "the option of using responsive suffixes where maybe for class names you could",
+    "start": 1749
+  },
+  {
+    "content": "use something like this right so you have a component which is very clear",
+    "start": 1753
+  },
+  {
+    "content": "what it is image list at the small screen and then",
+    "start": 1757
+  },
+  {
+    "content": "as you go to a larger screen it turns it becomes a carousel you don't even have",
+    "start": 1759
+  },
+  {
+    "content": "to go into debug or in dev tools and explore what's happening and do the",
+    "start": 1764
+  },
+  {
+    "content": "crazy thing that only we do resizing right you can actually see that there",
+    "start": 1767
+  },
+  {
+    "content": "are only two stage there is image list on small screen and there is chaos on",
+    "start": 1772
+  },
+  {
+    "content": "large screen and of course in your processors plugin you'll probably have",
+    "start": 1776
+  },
+  {
+    "content": "to escape the @ symbol automatically but this is a very nice reading experience I",
+    "start": 1779
+  },
+  {
+    "content": "really really like this right 34 seconds okay well I will share the slides of all",
+    "start": 1784
+  },
+  {
+    "content": "the other things that we were doing as well but I think one hard lesson we'll",
+    "start": 1791
+  },
+  {
+    "content": "learn from all of this is that it doesn't matter what you do you will",
+    "start": 1795
+  },
+  {
+    "content": "never get things right we did a lot of stuff kind of in the back many of the",
+    "start": 1799
+  },
+  {
+    "content": "things that we changed even this year are not really visible to everybody",
+    "start": 1805
+  },
+  {
+    "content": "there is just a lot of little things here and there",
+    "start": 1808
+  },
+  {
+    "content": "so like scheduled publishing we had to automate webinars in special TV",
+    "start": 1811
+  },
+  {
+    "content": "management automate critical CSS we built an API",
+    "start": 1815
+  },
+  {
+    "content": "layer between all integration part is that we're using like stripes and great",
+    "start": 1818
+  },
+  {
+    "content": "and others add-on panel management building time enhancement of course",
+    "start": 1822
+  },
+  {
+    "content": "because we deploy every time we have a significant change yeah kind of wanted",
+    "start": 1827
+  },
+  {
+    "content": "to be faster so we worked a lot on that domain is Search Indexing within the",
+    "start": 1831
+  },
+  {
+    "content": "build pipeline and an own last year actually edit web pack and subscription",
+    "start": 1835
+  },
+  {
+    "content": "management because we have a printed magazine coming up so it has to be",
+    "start": 1839
+  },
+  {
+    "content": "managed to listen really has become a really complicated massive thing it's",
+    "start": 1843
+  },
+  {
+    "content": "not a blog really it's more like a platform and then right now still",
+    "start": 1846
+  },
+  {
+    "content": "waiting for the pull request to go live migration to react stack with redux",
+    "start": 1851
+  },
+  {
+    "content": "formic and actually it's right here let's see do you feel like I want I",
+    "start": 1855
+  },
+  {
+    "content": "should merge it very much like Matt did let's see let's see where is this beauty",
+    "start": 1861
+  },
+  {
+    "content": "I know I'm almost finished I'm all finished",
+    "start": 1867
+  },
+  {
+    "content": "AHA here we go so they want me to click this button I don't want to click this",
+    "start": 1873
+  },
+  {
+    "content": "button don't don't no no way yeah there's been an interesting journey for",
+    "start": 1880
+  },
+  {
+    "content": "us yeah no no no I'm going to close it just before something happens so ok so",
+    "start": 1887
+  },
+  {
+    "content": "just wrapping up there are still quite a bit of stuff to do alright so we haven't",
+    "start": 1896
+  },
+  {
+    "content": "we haven't moved to using broadly for compressing compression yet we have to",
+    "start": 1901
+  },
+  {
+    "content": "reduce the impact of JavaScript on very slow devices it is noticeable like there",
+    "start": 1906
+  },
+  {
+    "content": "is a very noticeable first input delay that's something we have to work on we",
+    "start": 1911
+  },
+  {
+    "content": "haven't pushed critical CSS to the server yet so a push we actually wanted",
+    "start": 1915
+  },
+  {
+    "content": "to streamline check out altogether anybody familiar with payment request",
+    "start": 1919
+  },
+  {
+    "content": "API alright so this is actually also something we're switching to as of now",
+    "start": 1922
+  },
+  {
+    "content": "to actually make the subscriptions or check out faster more more stuff I don't",
+    "start": 1927
+  },
+  {
+    "content": "I mean this is all just us trying to do something to make the regression testing",
+    "start": 1934
+  },
+  {
+    "content": "there's a lot of stuff having behind the scenes but that's an important part it",
+    "start": 1939
+  },
+  {
+    "content": "doesn't matter what you do you never get it right and this has been the story of",
+    "start": 1944
+  },
+  {
+    "content": "my life for the last 4 years now because every time every year there is something",
+    "start": 1947
+  },
+  {
+    "content": "that you feel like oh I can do this I can do this you realize yeah you can but",
+    "start": 1953
+  },
+  {
+    "content": "not as you expected right and so you can never make things",
+    "start": 1956
+  },
+  {
+    "content": "perfect that maybe we shouldn't actually expect perfectness maybe we could be",
+    "start": 1960
+  },
+  {
+    "content": "perfectly fine with things being in progress I'm happy with that as well",
+    "start": 1964
+  },
+  {
+    "content": "so welcome to my world this is like 40 seconds or so it's very sad it's very",
+    "start": 1968
+  },
+  {
+    "content": "sad but this is the state of frontend 2019",
+    "start": 1974
+  },
+  {
+    "content": "so huge thanks to pearl studio for the",
+    "start": 1989
+  },
+  {
+    "content": "video and with that in mind cats cats more cats and now thank you",
+    "start": 2052
+  },
+  {
+    "content": "[Applause]",
+    "start": 2058
+  }
+]

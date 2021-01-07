@@ -1,0 +1,14 @@
+{
+  "description": "JavaScript, more than any other resource type, is uniquely positioned to be a massive performance bottleneck on the web. And it starts before we ever get into bundle analysis, or hydration or any other of a number of hot topics. It starts with the seemingly innocent script element. Tucked away within the way that element works is a lot of complexity and numerous side effects that can make or break your sites performance.\n\nIn this talk, we'll take a closer look at how to load JavaScript on a page and the multitude of ways that simple task can impact your performance.\n\nPresented by Tim Kadlec, web performance expert, https://twitter.com/tkadlec, https://timkadlec.com/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "id": "tr6aHw8I32M",
+  "position": 1,
+  "publishedAt": 1603220056,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/tr6aHw8I32M/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/tr6aHw8I32M/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/tr6aHw8I32M/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/tr6aHw8I32M/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/tr6aHw8I32M/default.jpg"
+  },
+  "title": "Oh The Scripts We'll Load - A Performance Talk by Tim Kadlec"
+}

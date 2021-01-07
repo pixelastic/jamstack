@@ -1,0 +1,426 @@
+[
+  {
+    "content": "hi everyone I'm gonna host a tow and I'm",
+    "start": 1
+  },
+  {
+    "content": "a business developer at Marcy labs we are a European web development agency",
+    "start": 17
+  },
+  {
+    "content": "I'm super happy to be part of this conference and I hope to share with you",
+    "start": 22
+  },
+  {
+    "content": "today a different perspective of the gem stack so before anything have in mind",
+    "start": 27
+  },
+  {
+    "content": "that this is not a Tech Talk not going to walk you through cold or",
+    "start": 33
+  },
+  {
+    "content": "show any type of Tiger track textured I'm here to talk about business I'm",
+    "start": 37
+  },
+  {
+    "content": "going to share the perspective of a business developer so I believe that the",
+    "start": 43
+  },
+  {
+    "content": "jumps type it's more than just a way of doing web development and developing web",
+    "start": 49
+  },
+  {
+    "content": "applications and platforms I believe it can have a positive impact my didn't",
+    "start": 57
+  },
+  {
+    "content": "main idea with the talk today it's to share how the pillars of our vision and",
+    "start": 63
+  },
+  {
+    "content": "our business vision as a web development agency made us start working with the",
+    "start": 69
+  },
+  {
+    "content": "gems like to create the value to our clients and for us and to our community",
+    "start": 73
+  },
+  {
+    "content": "so before anything it's important to have in mind what does business",
+    "start": 80
+  },
+  {
+    "content": "development stands for for us it's about creating value for us for our team for",
+    "start": 84
+  },
+  {
+    "content": "our customers and ultimately to society the way we do business impact our lives",
+    "start": 92
+  },
+  {
+    "content": "impact the lives of the people working with us in fact the lives of the people",
+    "start": 98
+  },
+  {
+    "content": "using our services using our product and in a broader sense impacts communities",
+    "start": 102
+  },
+  {
+    "content": "in general so what I'm saying is that using the jump stock approach can be",
+    "start": 109
+  },
+  {
+    "content": "more than just a tech decision it can be a business decision in terms of value",
+    "start": 114
+  },
+  {
+    "content": "creation it can have a positive impact in your clients working in your end user",
+    "start": 119
+  },
+  {
+    "content": "as well and in your community and in more than that it can be",
+    "start": 125
+  },
+  {
+    "content": "it can mean a prompt reaction to critical information into urgent letters",
+    "start": 131
+  },
+  {
+    "content": "so for two years now I've been working as a business developer at Marcy labs a",
+    "start": 137
+  },
+  {
+    "content": "small tech shop leaving all types of web platforms from complex complex web",
+    "start": 142
+  },
+  {
+    "content": "applications to simple institutional websites our partners goes from startups",
+    "start": 148
+  },
+  {
+    "content": "NGOs research institutes and marketing teams and for many years we were",
+    "start": 153
+  },
+  {
+    "content": "delivering our clients work mostly using Drupal development without ever leaving",
+    "start": 159
+  },
+  {
+    "content": "static sighs of course and in recent years we have been working essentially",
+    "start": 166
+  },
+  {
+    "content": "with the time stack and this is related to our vision for the company the",
+    "start": 171
+  },
+  {
+    "content": "progress that has been made in terms that community and it's also related to",
+    "start": 175
+  },
+  {
+    "content": "the better results we can offer to our clients it's all about value we can that",
+    "start": 180
+  },
+  {
+    "content": "we can create around us and this is what makes sense for us and for our vision",
+    "start": 186
+  },
+  {
+    "content": "for the company and for the web so our main main core value as a company is to",
+    "start": 191
+  },
+  {
+    "content": "impact the lives of the people around us by doing what we do best which is web",
+    "start": 197
+  },
+  {
+    "content": "development this goes from our core team the freelancer is working with us and",
+    "start": 202
+  },
+  {
+    "content": "our clients and partners we believe that the tech choices we made are we make our",
+    "start": 208
+  },
+  {
+    "content": "base for making all of this happen using the right tag tool is important to",
+    "start": 217
+  },
+  {
+    "content": "have everyone involved comfortable and happy with the results from the",
+    "start": 223
+  },
+  {
+    "content": "developer to clients and of course your end user many times this can be a",
+    "start": 228
+  },
+  {
+    "content": "struggle I mean increasing your client or your CEO or marketing team to use a",
+    "start": 236
+  },
+  {
+    "content": "specific technological approach it's not always easy task a big part of our",
+    "start": 244
+  },
+  {
+    "content": "clients in the agency world reach out to us a look and I wanted a new website and",
+    "start": 249
+  },
+  {
+    "content": "I heard about WordPress and Drupal will want something in in Drupal and honestly",
+    "start": 255
+  },
+  {
+    "content": "most of the times they don't even need a content management system for what they",
+    "start": 261
+  },
+  {
+    "content": "were looking for actually they could very much benefit from a different type",
+    "start": 266
+  },
+  {
+    "content": "of textured in so much progress has been made in the job site community in the",
+    "start": 272
+  },
+  {
+    "content": "recent years the benefits of using the job cycle roads are clear and we need to",
+    "start": 278
+  },
+  {
+    "content": "make the best use of it so as I said in the beginning business development it's",
+    "start": 284
+  },
+  {
+    "content": "about creating value in the long term and we believe as a web development",
+    "start": 289
+  },
+  {
+    "content": "agency that using the gem stack approach create values in different levels and",
+    "start": 295
+  },
+  {
+    "content": "for different actors so first of all the community from the community that is",
+    "start": 301
+  },
+  {
+    "content": "responsible for all of these joint progress that I'm talking about the",
+    "start": 305
+  },
+  {
+    "content": "developers in the company is using the gem stack approach and also the final",
+    "start": 310
+  },
+  {
+    "content": "customer your client or your end user when we use the term psych approaching",
+    "start": 314
+  },
+  {
+    "content": "project we are creating value for all of these actors for the community we are",
+    "start": 320
+  },
+  {
+    "content": "supporting its progress we are sharing knowledge and we are contributing to the",
+    "start": 326
+  },
+  {
+    "content": "portfolio for the developers we're leaving them a better better experience",
+    "start": 331
+  },
+  {
+    "content": "they're learning new skills they have a bunch of new possible integrations the",
+    "start": 336
+  },
+  {
+    "content": "api's they have more tech options and they have a broader community supporting",
+    "start": 341
+  },
+  {
+    "content": "them for the customer we are talking about giving them better performance",
+    "start": 347
+  },
+  {
+    "content": "websites more secured web platforms flexible and scalable products",
+    "start": 352
+  },
+  {
+    "content": "lower costs from hosting to maintenance and of course a fast response to urgent",
+    "start": 358
+  },
+  {
+    "content": "needs so I decided to use a case study here to show how this value creation can",
+    "start": 365
+  },
+  {
+    "content": "have happened in real case and this is a project we did recently in the beginning",
+    "start": 372
+  },
+  {
+    "content": "of the Kovach 19 health crisis in Europe and we did this in partnership with",
+    "start": 379
+  },
+  {
+    "content": "menno's hub which is a company in Portugal healthy is a small businesses",
+    "start": 385
+  },
+  {
+    "content": "to grow and to start so when before the lockdown and the",
+    "start": 392
+  },
+  {
+    "content": "socialization starts in in in Porto we menos has started to create a movement",
+    "start": 398
+  },
+  {
+    "content": "call by from small businesses all the small business were so somehow starting",
+    "start": 405
+  },
+  {
+    "content": "to get afraid and struggle struggling to survive during the lockdown situation",
+    "start": 412
+  },
+  {
+    "content": "and movement was created as a Google spreadsheet with a list of all these",
+    "start": 417
+  },
+  {
+    "content": "small businesses they wanted to be part of it in that they were offering",
+    "start": 425
+  },
+  {
+    "content": "something special during the lockdown situation vouchers or takeaways and so",
+    "start": 429
+  },
+  {
+    "content": "on so we reached out to them and it's a look we can make these really quick to",
+    "start": 435
+  },
+  {
+    "content": "into something more visual appealing facilitate the use of the photo of this",
+    "start": 442
+  },
+  {
+    "content": "list and so we can reach out to more business and more people so in two weeks",
+    "start": 447
+  },
+  {
+    "content": "we launched the first version of the platform here our chosen approach was to",
+    "start": 453
+  },
+  {
+    "content": "use what was what was already in place which was the Google spreadsheet and",
+    "start": 459
+  },
+  {
+    "content": "make the best use of open-source technologies to have a website live as",
+    "start": 464
+  },
+  {
+    "content": "fast as possible and within our reduce resources so we decided to use against",
+    "start": 470
+  },
+  {
+    "content": "be for the static site generator well first of all because it's easy and quick",
+    "start": 477
+  },
+  {
+    "content": "to set up and most importantly it's because it allows to easily fetch data",
+    "start": 482
+  },
+  {
+    "content": "from different sources and so we connected get me with the Google",
+    "start": 489
+  },
+  {
+    "content": "spreadsheet but they already have working and we deployed everything using",
+    "start": 494
+  },
+  {
+    "content": "magnify so our tech toys I created value not just for the businesses that we're",
+    "start": 501
+  },
+  {
+    "content": "trying to survive and try doing the Kovach 19 lockdown and so it's important",
+    "start": 509
+  },
+  {
+    "content": "to say here that a big part of the Portuguese economy it's made of small",
+    "start": 516
+  },
+  {
+    "content": "business like these ones and today we have around or more than 400 business",
+    "start": 521
+  },
+  {
+    "content": "registering in the platform and but more than just providing valuing",
+    "start": 527
+  },
+  {
+    "content": "impact for those businesses and we also provided value to the chapstick",
+    "start": 535
+  },
+  {
+    "content": "community so we made the code available so anyone could implement something",
+    "start": 541
+  },
+  {
+    "content": "similar to their community we included these in the gatsby portfolio we shared",
+    "start": 546
+  },
+  {
+    "content": "our code in our knowledge with the community as a company and our",
+    "start": 554
+  },
+  {
+    "content": "developers we have fun developing it the whole team was involved and this is kind",
+    "start": 560
+  },
+  {
+    "content": "of our pet project at the moment we develop new skills and and we did all",
+    "start": 565
+  },
+  {
+    "content": "this in a really short period of time and with small effort and for the",
+    "start": 572
+  },
+  {
+    "content": "customer will be we build something on top of what they already had they didn't",
+    "start": 577
+  },
+  {
+    "content": "have to adopt two new back office reasons there used already",
+    "start": 583
+  },
+  {
+    "content": "what they were using the spreadsheet we made something a website really fast to",
+    "start": 589
+  },
+  {
+    "content": "them so it was live during the lockdown and most importantly we we we did",
+    "start": 595
+  },
+  {
+    "content": "something with a good performance user experience great and also something",
+    "start": 601
+  },
+  {
+    "content": "flexible and scalable so we can continue involving the platform and to have a",
+    "start": 608
+  },
+  {
+    "content": "better impact in our society so this is a bit of how this project and how we can",
+    "start": 613
+  },
+  {
+    "content": "create value by using the gem style approach and I hope you enjoyed this and",
+    "start": 619
+  },
+  {
+    "content": "you can ask me anything and reach out to me on Twitter with questions comments",
+    "start": 625
+  },
+  {
+    "content": "and so on thank you",
+    "start": 632
+  }
+]

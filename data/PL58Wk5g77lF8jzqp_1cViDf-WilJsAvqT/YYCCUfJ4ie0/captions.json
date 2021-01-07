@@ -1,0 +1,1650 @@
+[
+  {
+    "content": "so we think we can actually go ahead and",
+    "start": 1
+  },
+  {
+    "content": "get started yeah why not let's do it we the count will go up but first I'll just",
+    "start": 14
+  },
+  {
+    "content": "run through some really quick logistics first of all welcome everybody to the",
+    "start": 23
+  },
+  {
+    "content": "last best and last session of the day we're talking about the people who have",
+    "start": 29
+  },
+  {
+    "content": "been so amazing at making things for you by using them like build plugins I'm",
+    "start": 36
+  },
+  {
+    "content": "gonna do a really quick recap of what that is because since we haven't had",
+    "start": 43
+  },
+  {
+    "content": "much to delve into that today my name is Tara Mannix ik I am on the DX",
+    "start": 47
+  },
+  {
+    "content": "team at net liffe I and so just real quick when someone shares their screen",
+    "start": 52
+  },
+  {
+    "content": "or if you want to see somebody one of the panelists butyl is beautiful face",
+    "start": 58
+  },
+  {
+    "content": "real big remember you can just double tap or click twice on that video and it",
+    "start": 62
+  },
+  {
+    "content": "will maximize that screen and make up the other ones smaller and if someone is",
+    "start": 68
+  },
+  {
+    "content": "really annoying you you can also meet them hopefully that will be the case I",
+    "start": 73
+  },
+  {
+    "content": "am going to share with you things to talk about now if I build plug-ins so",
+    "start": 79
+  },
+  {
+    "content": "first of all there's a whole page to introduce you to notify via plugins and",
+    "start": 88
+  },
+  {
+    "content": "tell you exactly what they are this is on metla five.com product build",
+    "start": 93
+  },
+  {
+    "content": "plugins and we have a whole site dedicated to informing you about them",
+    "start": 97
+  },
+  {
+    "content": "Hey look at that beautiful face and but this is basically when you build them",
+    "start": 102
+  },
+  {
+    "content": "out they're these JavaScript files basically you're making JavaScript code",
+    "start": 109
+  },
+  {
+    "content": "that will run during some point in your build process and to use them you can go",
+    "start": 113
+  },
+  {
+    "content": "to your page click plugins and say you want to you have all these plugins that",
+    "start": 117
+  },
+  {
+    "content": "you just hit install you choose the site that you want to run it on and click",
+    "start": 123
+  },
+  {
+    "content": "install and now you have that plug-in used on your site but you can also go to",
+    "start": 127
+  },
+  {
+    "content": "there and figure out what information you need",
+    "start": 133
+  },
+  {
+    "content": "to add to your manifest file I also have a few articles here introducing the",
+    "start": 136
+  },
+  {
+    "content": "plugins and then running through how to share them how to make them and how to",
+    "start": 142
+  },
+  {
+    "content": "use them and just a heads up we are also have this page on product hunt for the",
+    "start": 145
+  },
+  {
+    "content": "net 5 build plugins so that's I want to do that as fast as possible because I",
+    "start": 153
+  },
+  {
+    "content": "want you to hear from the amazing devs that we have here today to talk about",
+    "start": 159
+  },
+  {
+    "content": "their process and what they did with the build plugins so first up we have Peter",
+    "start": 163
+  },
+  {
+    "content": "Muller and then Dave darns and cool web bomb itself that good",
+    "start": 168
+  },
+  {
+    "content": "so first we'll jump in with Peter who will be talking to us about oh my gosh",
+    "start": 176
+  },
+  {
+    "content": "I'm sorry I just blanked on font sub font",
+    "start": 185
+  },
+  {
+    "content": "Peter you're gonna do much better than I'm talking about an event listed",
+    "start": 193
+  },
+  {
+    "content": "[Laughter] alright hello everyone my name is Peter",
+    "start": 198
+  },
+  {
+    "content": "I'm a senior software engineer at a company called site improve site improve",
+    "start": 204
+  },
+  {
+    "content": "is a service that helps you govern extremely large websites that's not what",
+    "start": 209
+  },
+  {
+    "content": "I'm we're going to talk about though I'm going to talk about my plugin one of my",
+    "start": 216
+  },
+  {
+    "content": "plugins for an invite build and this one is for optimizing your front-loading so",
+    "start": 220
+  },
+  {
+    "content": "I've been thinking about optimizing websites for quite a long time for the",
+    "start": 226
+  },
+  {
+    "content": "last eight years or so I've been building different build tools that are",
+    "start": 232
+  },
+  {
+    "content": "primarily been focused on the static page concept which is nowadays called",
+    "start": 235
+  },
+  {
+    "content": "jam stack I've done that through statically",
+    "start": 241
+  },
+  {
+    "content": "analyzing web pages and modeling them as dependency graphs and it turns out",
+    "start": 245
+  },
+  {
+    "content": "that's an extremely useful approach when you need fun optimizations we can get to",
+    "start": 249
+  },
+  {
+    "content": "that later so fonts are really important because",
+    "start": 254
+  },
+  {
+    "content": "obviously web fonts let you express your your your whimsy",
+    "start": 259
+  },
+  {
+    "content": "design-wise or you brand or whatever it might be as a",
+    "start": 266
+  },
+  {
+    "content": "weapons are important but text is also probably the most important asset on",
+    "start": 270
+  },
+  {
+    "content": "your webpage and the problem is as soon as you start loading web fonts they",
+    "start": 275
+  },
+  {
+    "content": "impact the performance of your text rendering on your page and in order to",
+    "start": 279
+  },
+  {
+    "content": "show you that I am going to attempt to share my screen boom and if we're lucky",
+    "start": 285
+  },
+  {
+    "content": "you can see my screen now all right we're gonna start out with hello world",
+    "start": 294
+  },
+  {
+    "content": "very easy very easy web page the source code behind this looks probably like",
+    "start": 297
+  },
+  {
+    "content": "something you've seen before I have a hello world web page I added the",
+    "start": 303
+  },
+  {
+    "content": "tangerine font from Google web fonts amazing service it's really good the",
+    "start": 308
+  },
+  {
+    "content": "problem is now that just adding this one line severely impacted in my performance",
+    "start": 314
+  },
+  {
+    "content": "and we can see that by looking at the network waterfall chart this is a",
+    "start": 318
+  },
+  {
+    "content": "measurement run on web page test on a 3G speed which is like approximately the",
+    "start": 323
+  },
+  {
+    "content": "global average and you can very clearly see here that you have a critical",
+    "start": 328
+  },
+  {
+    "content": "rendering path where the CSS from google fonts is required to load before the",
+    "start": 333
+  },
+  {
+    "content": "browser knows which font to load and we spend a lot of time connecting to the",
+    "start": 339
+  },
+  {
+    "content": "Google service to get the CSS and then we spend a lot of time connecting to a",
+    "start": 344
+  },
+  {
+    "content": "different server in order to get the font and all of this delays the loading",
+    "start": 348
+  },
+  {
+    "content": "of the text severely in all of this time while you're loading CSS the rendering",
+    "start": 353
+  },
+  {
+    "content": "is completely blocked on the browser the first render is actually happening here",
+    "start": 359
+  },
+  {
+    "content": "and then during all of this font loading you have most likely you have no text at",
+    "start": 364
+  },
+  {
+    "content": "all you have the flash of invisible text so the user can kind of see there was",
+    "start": 373
+  },
+  {
+    "content": "supposed to be text they can see underlines and weird are the artifacts",
+    "start": 378
+  },
+  {
+    "content": "but they cannot actually read anything which makes for an extremely bad",
+    "start": 381
+  },
+  {
+    "content": "experience luckily there are things we can do to optimize this there are a",
+    "start": 385
+  },
+  {
+    "content": "range of techniques and if you want to learn all of them you can go to cycle",
+    "start": 391
+  },
+  {
+    "content": "elements blog and read what or what he's done he meticulously documents every if",
+    "start": 395
+  },
+  {
+    "content": "you technique there is to optimizing black",
+    "start": 401
+  },
+  {
+    "content": "font loading the problem is that there's a lot of techniques and they range from",
+    "start": 403
+  },
+  {
+    "content": "extremely easy for example adding CSS font displayed to extremely difficult",
+    "start": 407
+  },
+  {
+    "content": "which is might be figuring out which exact characters are you you need in",
+    "start": 413
+  },
+  {
+    "content": "order to create an exact subset of your font each of these techniques come with",
+    "start": 420
+  },
+  {
+    "content": "trade-offs and the problem is that if you combine techniques wrong the",
+    "start": 425
+  },
+  {
+    "content": "trade-offs might interact in a bad way and you actually can get some worse",
+    "start": 430
+  },
+  {
+    "content": "performance then what you would have out of the box with copal fonts so I got",
+    "start": 433
+  },
+  {
+    "content": "together with a friend of mine who has the same interest and we built a tool",
+    "start": 441
+  },
+  {
+    "content": "called called sub font so fond implements a very efficient strategy for",
+    "start": 445
+  },
+  {
+    "content": "optimizing static pages web font loading onto off static pages and I can talk up",
+    "start": 452
+  },
+  {
+    "content": "bit about what it does but I'd like to show you the effect first actually this",
+    "start": 458
+  },
+  {
+    "content": "is the hello world web font measured and web page test the top row here is the",
+    "start": 462
+  },
+  {
+    "content": "network waterfall you just saw and the bottom here is the exact same page with",
+    "start": 467
+  },
+  {
+    "content": "the sub font tool applied to it and you can see that there is a an increase in",
+    "start": 474
+  },
+  {
+    "content": "speed so we get a first rendering one-and-a-half seconds before we get the",
+    "start": 479
+  },
+  {
+    "content": "first rendering using google fonts and the first rendering actually already",
+    "start": 483
+  },
+  {
+    "content": "contains fonts were with the google fonts example the fonts only come in",
+    "start": 487
+  },
+  {
+    "content": "three and a half seconds later that's a massive improvement now this is on a",
+    "start": 493
+  },
+  {
+    "content": "slow network connection and it's a hello world example but you can see that",
+    "start": 498
+  },
+  {
+    "content": "there's a massive difference let's talk about how how we achieve this with",
+    "start": 502
+  },
+  {
+    "content": "support so sulfone realizes that this time we spend in the or latency is",
+    "start": 507
+  },
+  {
+    "content": "really bad it's probably the most time we spend here there's very little time",
+    "start": 515
+  },
+  {
+    "content": "spent actually downloading anything so what's our font does it is pull it pulls",
+    "start": 518
+  },
+  {
+    "content": "everything in and self hosts it that gets rid of all the latency is that we",
+    "start": 522
+  },
+  {
+    "content": "see here then it gets rid of the critical request chain that is first",
+    "start": 526
+  },
+  {
+    "content": "this than this by adding preload so the font now starts downloading",
+    "start": 531
+  },
+  {
+    "content": "immediately as the page loads and not only after it ceases it downloaded and",
+    "start": 537
+  },
+  {
+    "content": "then it does some really hard inspection of your page and figures out the exact",
+    "start": 542
+  },
+  {
+    "content": "glyph usage of every font variant on your page then it creates individual",
+    "start": 548
+  },
+  {
+    "content": "subsets of each of the fonts which means that it crunches this size down to next",
+    "start": 553
+  },
+  {
+    "content": "to nothing so even the time you spend downloading the font is severely reduced",
+    "start": 561
+  },
+  {
+    "content": "now subsetting comes with its own caveats so suffer and also make sure to",
+    "start": 566
+  },
+  {
+    "content": "create fall backs that are not JavaScript dependent which means that if",
+    "start": 572
+  },
+  {
+    "content": "if calculated wrong or if you have dynamic content coming in as part of the",
+    "start": 577
+  },
+  {
+    "content": "runtime of the page it can actually fall back to downloading the original font in",
+    "start": 581
+  },
+  {
+    "content": "this case we we downloaded from google fonts so it makes it your pace extremely",
+    "start": 586
+  },
+  {
+    "content": "fast and it still makes it stable so you can so you can use it safely",
+    "start": 592
+  },
+  {
+    "content": "in order to hopefully make it a commodity to have a well performing page",
+    "start": 597
+  },
+  {
+    "content": "with the web fonts that you want to have so what's the fun in Abel's used to do",
+    "start": 602
+  },
+  {
+    "content": "is have a workflow where this code is literally what you write in your",
+    "start": 609
+  },
+  {
+    "content": "development you do not need to think about optimization at all it understands",
+    "start": 614
+  },
+  {
+    "content": "your web page and it optimizes it for you know this all sounds really good but",
+    "start": 618
+  },
+  {
+    "content": "there are also some caveats and sosa font the command-line tool which was the",
+    "start": 624
+  },
+  {
+    "content": "original one we built has some some annoying properties which is first of",
+    "start": 628
+  },
+  {
+    "content": "all it's a command-line tool and for reasons unknown to me",
+    "start": 635
+  },
+  {
+    "content": "people are really invested in their bill tooling I don't want to change it a lot",
+    "start": 639
+  },
+  {
+    "content": "so unless the font would be a web pack plug-in or a roller plugin people don't",
+    "start": 643
+  },
+  {
+    "content": "really want to touch it so that's the downside of doing it the way we are the",
+    "start": 648
+  },
+  {
+    "content": "model doesn't really fit into roll-up or web pack or any of these bundler tools",
+    "start": 654
+  },
+  {
+    "content": "because they actually don't represent an entire website which means that we",
+    "start": 658
+  },
+  {
+    "content": "cannot do the work so this turns people off which is annoying",
+    "start": 661
+  },
+  {
+    "content": "then there are some caveats about when you start self-hosting to reduce these",
+    "start": 667
+  },
+  {
+    "content": "Layton sees it also means that unless you use HTTP 2 and our CDN distributed",
+    "start": 672
+  },
+  {
+    "content": "you might not actually get the benefit from it then Google Fonts might actually",
+    "start": 678
+  },
+  {
+    "content": "be quicker for you so that's a caveat we need to inform people about there is",
+    "start": 682
+  },
+  {
+    "content": "also a caveat about you need to set up some caching headers to match the files",
+    "start": 686
+  },
+  {
+    "content": "that have generated by self-fund now you certainly need to go configure your web",
+    "start": 692
+  },
+  {
+    "content": "server or whatever it works over that might be that's annoying and obviously",
+    "start": 696
+  },
+  {
+    "content": "you need to give it some configuration to tell where your code is located in",
+    "start": 700
+  },
+  {
+    "content": "order for it to do its work and the last one is it mostly works on static pages",
+    "start": 703
+  },
+  {
+    "content": "which is cool if you're a gem tech fan like me but it's also something that you",
+    "start": 709
+  },
+  {
+    "content": "need to make people aware of if they come from the outside and don't have",
+    "start": 714
+  },
+  {
+    "content": "have an understanding of the domain of the tool upfront now internet liffe I",
+    "start": 718
+  },
+  {
+    "content": "build plugins so suddenly we have this ability to live in the middle of this of",
+    "start": 726
+  },
+  {
+    "content": "this pipeline that Adelphi delivers which looks like this and and by living",
+    "start": 734
+  },
+  {
+    "content": "in this pipeline there's already a blessed a blessed path on how to add",
+    "start": 742
+  },
+  {
+    "content": "plugins so that's that's one of the caveats that's taken care of",
+    "start": 746
+  },
+  {
+    "content": "so people no longer need to to learn about the command-line tool they can",
+    "start": 749
+  },
+  {
+    "content": "discover the tool on manna-fest pages like the ones that I run they do not",
+    "start": 754
+  },
+  {
+    "content": "need to configure where their code is because nettle if I already knows where",
+    "start": 762
+  },
+  {
+    "content": "your code lives because they run in the build system so this reduces the",
+    "start": 765
+  },
+  {
+    "content": "configuration of the plug-in down to zero or at least down to optional",
+    "start": 770
+  },
+  {
+    "content": "configuration with good defaults these caveats about HTTP 2 and CDN not a",
+    "start": 775
+  },
+  {
+    "content": "problem because that's already guaranteed by never fired by the basis",
+    "start": 781
+  },
+  {
+    "content": "package and this thing about having to add cache headers is also gone because",
+    "start": 785
+  },
+  {
+    "content": "now the plugin knows what the service is and can write out files that configure",
+    "start": 790
+  },
+  {
+    "content": "the service to cache things in a right way so this means that in order",
+    "start": 796
+  },
+  {
+    "content": "to add sub font as a necklace a pill plugin for your page you only need to",
+    "start": 801
+  },
+  {
+    "content": "add two lines of code to the configuration and I think that is pretty",
+    "start": 806
+  },
+  {
+    "content": "good that is that is to the point where where we can call it a a commodity that",
+    "start": 812
+  },
+  {
+    "content": "is easy to use so I'm very very happy about the ecosystem that notify has",
+    "start": 817
+  },
+  {
+    "content": "supplied for this so I just want to at this point give a huge shout out to the",
+    "start": 822
+  },
+  {
+    "content": "team because they've done amazing work and that really be helped and taking",
+    "start": 829
+  },
+  {
+    "content": "suggestions in and giving feedback and even reported errors directly to us so",
+    "start": 833
+  },
+  {
+    "content": "thank you for for that to the team and I can just show you what what this does",
+    "start": 838
+  },
+  {
+    "content": "this is my hello world webpage I've run I've run it laughs I build with",
+    "start": 846
+  },
+  {
+    "content": "the configuration that I just showed you it tells me that I have one foreign",
+    "start": 852
+  },
+  {
+    "content": "front barrier which which uses about 50 kilobytes I'm only using nine out of 212",
+    "start": 855
+  },
+  {
+    "content": "core points which means that it can reduce the font download to three",
+    "start": 862
+  },
+  {
+    "content": "kilobytes then it outputs some new files these are the new self hosted web fonts",
+    "start": 865
+  },
+  {
+    "content": "subsets and a CSS to go with it and it outputs some headers which contain the",
+    "start": 874
+  },
+  {
+    "content": "caching information now obviously hello world nobody writes",
+    "start": 880
+  },
+  {
+    "content": "hello world webpage at least not if they want to make money of it but the good",
+    "start": 886
+  },
+  {
+    "content": "thing is that the performance impact is actually massive also for larger",
+    "start": 890
+  },
+  {
+    "content": "websites so here's my web page it's a simple blog page it has two fonts which",
+    "start": 896
+  },
+  {
+    "content": "each come in some variants I think there are five different variants and this is",
+    "start": 903
+  },
+  {
+    "content": "the difference between just loading google fonts up here and and adding the",
+    "start": 908
+  },
+  {
+    "content": "nibble if I build plugin for self on here and even neckla Faiz new web page",
+    "start": 915
+  },
+  {
+    "content": "itself is actually using google fonts and i've tried running a little test on",
+    "start": 921
+  },
+  {
+    "content": "that oh that's this test and even here this is the production version that's",
+    "start": 925
+  },
+  {
+    "content": "online right now applying stuff onto that",
+    "start": 931
+  },
+  {
+    "content": "actually increases the speed here I think primarily because of the blocking",
+    "start": 935
+  },
+  {
+    "content": "CSS that's pretty much it so there are massive gains to be had",
+    "start": 940
+  },
+  {
+    "content": "here so I really hope that you take take the opportunity to to try this out see",
+    "start": 944
+  },
+  {
+    "content": "if you can get equally as less large gains on your own websites I'd love to",
+    "start": 949
+  },
+  {
+    "content": "hear about the speed increases that would be amazing and if you find bugs I",
+    "start": 954
+  },
+  {
+    "content": "want to hear about it as well so I'm happy plugging thank you for listening",
+    "start": 960
+  },
+  {
+    "content": "they made contact contact information here again you can find him on twitter",
+    "start": 977
+  },
+  {
+    "content": "at david dimes and since Steve Dan's developed them advocate for Ghost",
+    "start": 983
+  },
+  {
+    "content": "talking about his ghost resin thank you yeah that that plugin is really cool",
+    "start": 988
+  },
+  {
+    "content": "thanks for sharing now that was really cool I want to use that immediately",
+    "start": 995
+  },
+  {
+    "content": "right let me share my screen click the button there we go we see that we can",
+    "start": 998
+  },
+  {
+    "content": "say yet double click to boost that yeah so I'm gonna be talking about",
+    "start": 1016
+  },
+  {
+    "content": "well actually I'm gonna be talking about Jekyll not gonna be talking about ghost",
+    "start": 1024
+  },
+  {
+    "content": "but wait a second so a lot of you might be aware of well you will be aware of",
+    "start": 1027
+  },
+  {
+    "content": "Jekyll is quite a notorious static site generator we know it for a quite a while",
+    "start": 1034
+  },
+  {
+    "content": "if you don't know it's stacks like generator it builds from markdown files",
+    "start": 1041
+  },
+  {
+    "content": "and it just feels like a nice weather I've been like using it for quite a",
+    "start": 1047
+  },
+  {
+    "content": "while and I'm probably still using it now so don't tell my work yeah and you",
+    "start": 1053
+  },
+  {
+    "content": "just turn markdown files into a website I mean there are themes and stuff like",
+    "start": 1062
+  },
+  {
+    "content": "that it's quite powerful but ghost is pretty good publishing tool",
+    "start": 1066
+  },
+  {
+    "content": "as well you can build a website with that you can publish stuff on the",
+    "start": 1074
+  },
+  {
+    "content": "internet you can build pages posts and all that kind of stuff",
+    "start": 1079
+  },
+  {
+    "content": "but you get like that rich editing experience and I know people are really",
+    "start": 1083
+  },
+  {
+    "content": "fans of markdown but you know sometimes you want to you want to click some",
+    "start": 1087
+  },
+  {
+    "content": "buttons especially if it's like for a client or something they want to just",
+    "start": 1091
+  },
+  {
+    "content": "click some buttons and get on with their day but what if you want to use both of",
+    "start": 1094
+  },
+  {
+    "content": "them what if you want to use them together now the people who are familiar",
+    "start": 1100
+  },
+  {
+    "content": "with Ruby they'll be able to create like a gem of some kind work on it and spend",
+    "start": 1105
+  },
+  {
+    "content": "time to get the integration together but for somebody like me who's like a",
+    "start": 1110
+  },
+  {
+    "content": "front-end developer I don't know that much Ruby and I don't know any like",
+    "start": 1114
+  },
+  {
+    "content": "decent Ruby gems that be able to kind of bridge that gap but there is a gap",
+    "start": 1119
+  },
+  {
+    "content": "between these things I'll just break it down a bit more actually so ghost has a",
+    "start": 1126
+  },
+  {
+    "content": "content API so effectively not only is ghost a CMS and also got a theme layer",
+    "start": 1131
+  },
+  {
+    "content": "but it can also be used as a headless CMS so you can use it with eleventy you",
+    "start": 1137
+  },
+  {
+    "content": "can use it with Gatsby and stuff like that but Jack was a little bit different",
+    "start": 1143
+  },
+  {
+    "content": "we haven't got like an API endpoint to like plug into however we can create one",
+    "start": 1146
+  },
+  {
+    "content": "and that's what I've done with the plug-in I've created a plugin that",
+    "start": 1153
+  },
+  {
+    "content": "transforms the content from a ghost installation or a ghost site and renders",
+    "start": 1159
+  },
+  {
+    "content": "them as markdown files that can be consumed by Jekyll and then therefore",
+    "start": 1164
+  },
+  {
+    "content": "built as a website so you kind of get the steps that we kind of get the steps",
+    "start": 1168
+  },
+  {
+    "content": "that Jekyll wants to see which is markdown files I'll consume that and",
+    "start": 1173
+  },
+  {
+    "content": "turn that to our website and ghost we can just use that API to spit out all",
+    "start": 1177
+  },
+  {
+    "content": "that stuff but for somebody who using the plugin they won't have to do that",
+    "start": 1183
+  },
+  {
+    "content": "they'll do the configuration thing so I'm gonna do a live demo so that's why",
+    "start": 1189
+  },
+  {
+    "content": "I'm saddling up so I hope it doesn't break but we'll see how it goes I'm",
+    "start": 1194
+  },
+  {
+    "content": "hoping that everyone can see size of it I got a boost minor actually",
+    "start": 1200
+  },
+  {
+    "content": "as well to help so this is my gem stack blog I've talked about all the speakers",
+    "start": 1204
+  },
+  {
+    "content": "in our little session today and we've got Tara we got Peter and everybody here",
+    "start": 1212
+  },
+  {
+    "content": "and yeah if I go into my published articles isn't my content his Tara I'll",
+    "start": 1218
+  },
+  {
+    "content": "just make that a bit bold and just update that cool see ya you like nice",
+    "start": 1229
+  },
+  {
+    "content": "editing experience but here's my Jekyll site and it's just got hello world on it",
+    "start": 1238
+  },
+  {
+    "content": "now because what I did was build a OOP bear with me this is my demo and it's of",
+    "start": 1243
+  },
+  {
+    "content": "course on net worth I where else would it be",
+    "start": 1254
+  },
+  {
+    "content": "and yes it's not got any content and we're not plugging any content into it",
+    "start": 1256
+  },
+  {
+    "content": "however we've got a github repo over here that it's the source code and just",
+    "start": 1262
+  },
+  {
+    "content": "to clarify yeah we've got the config file which is typical of Jekyll we've",
+    "start": 1269
+  },
+  {
+    "content": "got the gem file or 404 got posts that we've got it's a hello world in there so",
+    "start": 1273
+  },
+  {
+    "content": "what we want is we want all of these posts and to do the pages and the tags",
+    "start": 1279
+  },
+  {
+    "content": "and all other attribute information in those posts we want it in our Jekyll",
+    "start": 1286
+  },
+  {
+    "content": "site so what I'm going to do is head over to the bill plugin and this is the",
+    "start": 1292
+  },
+  {
+    "content": "installation instructions so we got an f5 bill plug-in ghost markdown and we've",
+    "start": 1301
+  },
+  {
+    "content": "got two verification or environment variables and that is the site URL and",
+    "start": 1306
+  },
+  {
+    "content": "the content API which I'm going to get in a moment so if we go over to our demo",
+    "start": 1313
+  },
+  {
+    "content": "and we open up a net worth item on file and we drop this into here so we've got",
+    "start": 1322
+  },
+  {
+    "content": "that but what we need to do is then go back",
+    "start": 1331
+  },
+  {
+    "content": "and get an integration a custom integration so I've just clicked on",
+    "start": 1336
+  },
+  {
+    "content": "integrations inside of ghost admin and I'm creating a custom integration and",
+    "start": 1341
+  },
+  {
+    "content": "that's going to be my net worth I want down bill plugin so here are our content",
+    "start": 1345
+  },
+  {
+    "content": "API details and the API URL so I'm going to copy that and head back over to here",
+    "start": 1356
+  },
+  {
+    "content": "copy that into the ghost URL and then back here again and copy the content API",
+    "start": 1364
+  },
+  {
+    "content": "and you go back here paste that in and commit those changes so if I quickly run",
+    "start": 1376
+  },
+  {
+    "content": "over to net worth eye and refresh the page hopefully what we'll see is a build",
+    "start": 1385
+  },
+  {
+    "content": "happening so what this is going to do is going to find all the pages all the",
+    "start": 1395
+  },
+  {
+    "content": "posts all the attributed data to those pages and posts and create blog posts",
+    "start": 1401
+  },
+  {
+    "content": "inside Jekyll and pages inside Jekyll and it's also going to do a couple of",
+    "start": 1408
+  },
+  {
+    "content": "other things I hope this works because that would be awkward it's also going to",
+    "start": 1413
+  },
+  {
+    "content": "do some of the like cool attributed bit bits which I got tipped off by Phil",
+    "start": 1422
+  },
+  {
+    "content": "Hawks with and they cache the images so when the images get pulled down from",
+    "start": 1428
+  },
+  {
+    "content": "ghost they get cached in the net laughs I cache so the build should stay pretty",
+    "start": 1432
+  },
+  {
+    "content": "fast every time it kind of gets a new build so it doesn't kind of go and",
+    "start": 1436
+  },
+  {
+    "content": "recapture those images again it'll only pull down new images",
+    "start": 1440
+  },
+  {
+    "content": "you need you need jokes fillers here like what is what is a nosey pepper do",
+    "start": 1452
+  },
+  {
+    "content": "oh cool get haul up in your business did you get",
+    "start": 1457
+  },
+  {
+    "content": "that one from Phil no he wishes this must be that everybody's using this",
+    "start": 1466
+  },
+  {
+    "content": "right now because this is taking a long time is everybody trying out net worth I",
+    "start": 1473
+  },
+  {
+    "content": "build plugins right ass this took seconds like prior to I was about to say",
+    "start": 1482
+  },
+  {
+    "content": "I wouldn't I wouldn't doubt it mister bit refreshing oh look at that",
+    "start": 1486
+  },
+  {
+    "content": "you're a fresh button worked isn't it so let's just scroll through the steps and",
+    "start": 1499
+  },
+  {
+    "content": "say what happened is on the pre build step so that's the step before it starts",
+    "start": 1504
+  },
+  {
+    "content": "doing any building whatsoever we've got the on pre built command and what it",
+    "start": 1508
+  },
+  {
+    "content": "does is it finds its found Terrace posts Peters and all the rest of the posts and",
+    "start": 1514
+  },
+  {
+    "content": "the pages in here and then downloaded all of the images that were in those",
+    "start": 1519
+  },
+  {
+    "content": "content in those pages and posts and then when it's finished then the typical",
+    "start": 1525
+  },
+  {
+    "content": "build process of Jekyll comes into play and it builds all those things up and",
+    "start": 1530
+  },
+  {
+    "content": "it's done so now if we go over to our site and click refresh we have got all",
+    "start": 1535
+  },
+  {
+    "content": "our posts and even our pages as well so we can go into tarus page and we can see",
+    "start": 1542
+  },
+  {
+    "content": "it's got the content updated and we've gotten our images in here and these are",
+    "start": 1548
+  },
+  {
+    "content": "local as well so they're not going to be hosted on the ghost installation it's",
+    "start": 1552
+  },
+  {
+    "content": "actually going to be hosted on net worth I so it's all wrapped up together",
+    "start": 1557
+  },
+  {
+    "content": "and then what you would probably do is link up with a web hook so you can",
+    "start": 1561
+  },
+  {
+    "content": "listen for those changes in ghosts and rebuilt the site every time you make a",
+    "start": 1568
+  },
+  {
+    "content": "change in the content if I just switch back to my slides",
+    "start": 1573
+  },
+  {
+    "content": "and I demonstrated so benefit of this weather the kind of side effects are",
+    "start": 1583
+  },
+  {
+    "content": "building this plugin is that effectively it kind of works with a lot of other",
+    "start": 1591
+  },
+  {
+    "content": "static site generators that can take mark down",
+    "start": 1595
+  },
+  {
+    "content": "so next recently added that content directory so you can kind of shove all",
+    "start": 1598
+  },
+  {
+    "content": "your markdown files into there eleventy already takes markdown files",
+    "start": 1603
+  },
+  {
+    "content": "Hugo takes markdown files and a whole load of other like static site",
+    "start": 1607
+  },
+  {
+    "content": "generators can do that kind of thing and the build plug-in that I've created has",
+    "start": 1611
+  },
+  {
+    "content": "a load of variables and they can be where your pages go where your posts go",
+    "start": 1618
+  },
+  {
+    "content": "where your assets directory is and any like frontmatter slight options like",
+    "start": 1623
+  },
+  {
+    "content": "page layout and stuff like that and that is how my plug-in works thank you and",
+    "start": 1628
+  },
+  {
+    "content": "these are all my details nice and you actually keep ask you a question in the",
+    "start": 1637
+  },
+  {
+    "content": "chat I don't even know who saw it but you answered his question yes yes are",
+    "start": 1642
+  },
+  {
+    "content": "definitely sorry laughing if the plugin can provide markdown out of goes to",
+    "start": 1648
+  },
+  {
+    "content": "other SSDs like you go and Gatsby yeah yeah it does it does do i I initially",
+    "start": 1657
+  },
+  {
+    "content": "created it for Jekyll I've got an article on my site on David Arendt oh",
+    "start": 1662
+  },
+  {
+    "content": "yes and it was initially a goal command and it would run that process before it",
+    "start": 1666
+  },
+  {
+    "content": "got into the gobs into the Jekyll stuff sorry and and I would run that all",
+    "start": 1673
+  },
+  {
+    "content": "together on that the fie and what we ended up doing is funnily enough build",
+    "start": 1677
+  },
+  {
+    "content": "plugins come into play and I thought yeah this is perfect for that so I",
+    "start": 1683
+  },
+  {
+    "content": "turned it into a bill plugin fathom that's definitely the reaction we're",
+    "start": 1686
+  },
+  {
+    "content": "hoping to get I'm feeling it it's perfect that you uh so for our next",
+    "start": 1690
+  },
+  {
+    "content": "presentation gleb bamboo dev and I just went on to",
+    "start": 1697
+  },
+  {
+    "content": "highlight on his Twitter page I really like that this pin tweet here my dream",
+    "start": 1705
+  },
+  {
+    "content": "job would be go around conferences have any new stuff and talking to this",
+    "start": 1710
+  },
+  {
+    "content": "ready new to solve everyone's problem and here he is doing just that",
+    "start": 1714
+  },
+  {
+    "content": "so take it away gloves think it's our eyes yes I pin but we'd and now I don't",
+    "start": 1718
+  },
+  {
+    "content": "have to go anywhere right I can go to conferences and meet people",
+    "start": 1725
+  },
+  {
+    "content": "all like from my son's room thanks and like I really appreciate it like like",
+    "start": 1729
+  },
+  {
+    "content": "you like here's a rare chance of like seeing me like a crazy haircut right",
+    "start": 1734
+  },
+  {
+    "content": "because I cannot go to where Barbara Wallach usually I I look like Peter",
+    "start": 1739
+  },
+  {
+    "content": "like what's my style right but now and Tyra stole my blue wig I cannot find it",
+    "start": 1743
+  },
+  {
+    "content": "anywhere so anyway let me share my hometown do a couple of slides",
+    "start": 1749
+  },
+  {
+    "content": "I think if you double-click you should be able to see it and so I'll talk about",
+    "start": 1759
+  },
+  {
+    "content": "notified plug-in Cypress but I've written recently an only goal is to",
+    "start": 1765
+  },
+  {
+    "content": "never deploy a broken side but can happen sometimes this started as",
+    "start": 1769
+  },
+  {
+    "content": "something outside of my job so I'm a member of organization called 315",
+    "start": 1776
+  },
+  {
+    "content": "Massachusetts 350 master org which is part of a national 350 organization and",
+    "start": 1781
+  },
+  {
+    "content": "with 350 stands for 350 parts per million which which is the safe limit",
+    "start": 1788
+  },
+  {
+    "content": "for greenhouse gases as you might know we are way above that limit we are at",
+    "start": 1795
+  },
+  {
+    "content": "420 right now which is extremely dangerous and can make life on Earth",
+    "start": 1800
+  },
+  {
+    "content": "extinct so I joined this organization last year and as part of its",
+    "start": 1805
+  },
+  {
+    "content": "organization we do local actions so we have a website and make climate actions",
+    "start": 1811
+  },
+  {
+    "content": "that come where as you can see we lobby local government we contact local",
+    "start": 1817
+  },
+  {
+    "content": "businesses we try to move our country in a right direction which is hard it used",
+    "start": 1822
+  },
+  {
+    "content": "to be all pen and papers and kind of like emails but now it's a website where",
+    "start": 1830
+  },
+  {
+    "content": "you can see previous actions and you can see the actions we trying to do every",
+    "start": 1835
+  },
+  {
+    "content": "two weeks and the important thing here is that when you do an action you can",
+    "start": 1839
+  },
+  {
+    "content": "make a meaningful impact especially at the state and local level and all so you",
+    "start": 1845
+  },
+  {
+    "content": "can see that we keep track of numbers and honestly because you never do this",
+    "start": 1850
+  },
+  {
+    "content": "alone right you're part of a group you sieve a momentum no one can solve global",
+    "start": 1855
+  },
+  {
+    "content": "warming by themselves but we can all do our part and when we all come together",
+    "start": 1860
+  },
+  {
+    "content": "we can solve it I believe ok so about this website it's open source you can go",
+    "start": 1866
+  },
+  {
+    "content": "in and see it online for a couple open issues so feel free to help us I add a",
+    "start": 1872
+  },
+  {
+    "content": "tester obviously because I work at Cypress I can add Cypress end-to-end",
+    "start": 1879
+  },
+  {
+    "content": "tests but pretty much go through aside click around stop a day to make sure",
+    "start": 1885
+  },
+  {
+    "content": "everything is working and we pick to deploy this website",
+    "start": 1890
+  },
+  {
+    "content": "magnify because it's easy and it works so the site deploys automatically from",
+    "start": 1895
+  },
+  {
+    "content": "github now once in a while despite our best programming efforts as couple of",
+    "start": 1901
+  },
+  {
+    "content": "volunteers we get a deploy where something is broken and it's always a",
+    "start": 1908
+  },
+  {
+    "content": "nasty surprise right and and as you as a child remember right if you drop an ice",
+    "start": 1914
+  },
+  {
+    "content": "cream well you have to get a new ice cream where it's no point in trying to",
+    "start": 1919
+  },
+  {
+    "content": "salvage it so how do we prevent it and why is it happening if we do have",
+    "start": 1922
+  },
+  {
+    "content": "end-to-end tests so this happens because notify is an excellent continuous",
+    "start": 1927
+  },
+  {
+    "content": "deployment platform but means you link it to a github repository and every time",
+    "start": 1932
+  },
+  {
+    "content": "you push them it it goes straight to notify you can do preview branches look",
+    "start": 1938
+  },
+  {
+    "content": "at them and merge pull request but when it gets deployed directly from github",
+    "start": 1944
+  },
+  {
+    "content": "and burano tests right there are no intermediate stuff there is no",
+    "start": 1948
+  },
+  {
+    "content": "continuous integration service in between trying to run the test before",
+    "start": 1952
+  },
+  {
+    "content": "notified the plus side and people tried all sorts of hacky ways of doing",
+    "start": 1958
+  },
+  {
+    "content": "magnified build you know and and Cypress run but these solutions were always",
+    "start": 1964
+  },
+  {
+    "content": "buggy hacky never really worked until Nathan if I came in and said we have a",
+    "start": 1971
+  },
+  {
+    "content": "beta program of build plugins and both plugins allow you to do your own steps",
+    "start": 1979
+  },
+  {
+    "content": "between building the site and deploying the site and so I wanted to run and to",
+    "start": 1986
+  },
+  {
+    "content": "and test after building the site but before deploying it so what is it",
+    "start": 1993
+  },
+  {
+    "content": "bill plugin if you're trying to write one it's nothing but a series of",
+    "start": 1997
+  },
+  {
+    "content": "callbacks you ask for an object and you just have a couple of names on pre build",
+    "start": 2001
+  },
+  {
+    "content": "on build on post build so you can register an asynchronous function on pre",
+    "start": 2008
+  },
+  {
+    "content": "build where you can write your own JavaScript code to make sure but Cypress",
+    "start": 2013
+  },
+  {
+    "content": "is installed right and if it's not installed when you install it and when",
+    "start": 2018
+  },
+  {
+    "content": "it gets cached you can register on both build a",
+    "start": 2022
+  },
+  {
+    "content": "synchronous fan that will receive from magnified bill",
+    "start": 2026
+  },
+  {
+    "content": "system the name of a folder that magnify has built and so you can write your",
+    "start": 2030
+  },
+  {
+    "content": "function that will just start Cypress run it against that built static site",
+    "start": 2036
+  },
+  {
+    "content": "and miss Pina HTTP server to make it look real and when the test pass or fail",
+    "start": 2042
+  },
+  {
+    "content": "and we pick close Cypress we stop HTTP server will shut everything down and so",
+    "start": 2048
+  },
+  {
+    "content": "you don't have to worry as a notify user today you can install our plugin by just",
+    "start": 2055
+  },
+  {
+    "content": "installing it as a dev dependency and adding a single line to new not identify",
+    "start": 2061
+  },
+  {
+    "content": "configuration tunnel file you just say package not if I plug in circuits that's",
+    "start": 2066
+  },
+  {
+    "content": "how easy it is to actually use it all that complexity of starting a server",
+    "start": 2070
+  },
+  {
+    "content": "running tests reporting results it's all gone it's the easiest way to run",
+    "start": 2075
+  },
+  {
+    "content": "end-to-end test before you deploy the side so you never deploy a broken side",
+    "start": 2080
+  },
+  {
+    "content": "and if you want to provide more parameters for example if you want to",
+    "start": 2084
+  },
+  {
+    "content": "store but video of a test run and your screenshot of failed test you can store",
+    "start": 2090
+  },
+  {
+    "content": "them on our Cypress dashboard which is optional but you can just say plugins",
+    "start": 2097
+  },
+  {
+    "content": "inputs and you can pass additional plugin parameters you can tag groups you",
+    "start": 2101
+  },
+  {
+    "content": "can specify I don't want to run all the tests maybe I just want to run a subset",
+    "start": 2107
+  },
+  {
+    "content": "of what else like smoke that on set and then the plug-in will just use those",
+    "start": 2111
+  },
+  {
+    "content": "inputs so this is how we're you wire looks if everything goes well you've",
+    "start": 2117
+  },
+  {
+    "content": "seen it right it's nice colorful terminal output from the plug-in itself",
+    "start": 2123
+  },
+  {
+    "content": "if everything goes well when the build proceeds and the site gets deployed and",
+    "start": 2127
+  },
+  {
+    "content": "in those rare occasions were production a problem and the test fails when it",
+    "start": 2134
+  },
+  {
+    "content": "will fail and it will stop the build and you'll see oh and to end test failed I",
+    "start": 2141
+  },
+  {
+    "content": "understand I can look at test results I can debug it make a nav a poll request",
+    "start": 2146
+  },
+  {
+    "content": "and try to deploy it again but you don't overwrite the site with a bad deploy",
+    "start": 2150
+  },
+  {
+    "content": "so this is why I'm excited about this right I already can run some tests",
+    "start": 2160
+  },
+  {
+    "content": "before building the side I can run with full set of 12 test after nullified",
+    "start": 2165
+  },
+  {
+    "content": "bills we deployed but I still have not switched our climate actions website and",
+    "start": 2170
+  },
+  {
+    "content": "I'll tell you why I like to test my side on my code and I don't think of this in",
+    "start": 2176
+  },
+  {
+    "content": "terms of a pyramid but I think of testing in terms of code transformations",
+    "start": 2183
+  },
+  {
+    "content": "every time you build your code right when you build it like all the bundles",
+    "start": 2188
+  },
+  {
+    "content": "you mean if I think it's a major transformation so that's what on post",
+    "start": 2193
+  },
+  {
+    "content": "build tests but when you deploy to notify your code is now running on the",
+    "start": 2197
+  },
+  {
+    "content": "certain domain maybe on the path now it's using nullify functions for example",
+    "start": 2204
+  },
+  {
+    "content": "you want to test at least a smoke test after you deploy to make sure that the",
+    "start": 2208
+  },
+  {
+    "content": "deploy which is a major code transformation but it did not break",
+    "start": 2214
+  },
+  {
+    "content": "anything so I hope that Netley 5 gives me one",
+    "start": 2218
+  },
+  {
+    "content": "more call back on post deploy so what I can run Cypress end-to-end tests after",
+    "start": 2221
+  },
+  {
+    "content": "the deployment maybe to preview auto production so right now I only run tests",
+    "start": 2228
+  },
+  {
+    "content": "after built before deploy but they really wish I could run full end-to-end",
+    "start": 2234
+  },
+  {
+    "content": "set of test post deployed to magnify but this is just my wish it's already great",
+    "start": 2239
+  },
+  {
+    "content": "so I want to finish my slides with just big thank you to nullify team they've",
+    "start": 2245
+  },
+  {
+    "content": "been excellent they're actively working on the pipeline and they've been nothing",
+    "start": 2249
+  },
+  {
+    "content": "but you know great resource for me and so notify is a great platform and it's",
+    "start": 2255
+  },
+  {
+    "content": "going in the right direction thank you very much you so much thank you so much",
+    "start": 2260
+  },
+  {
+    "content": "to all three of you one we've been able to watch you build out these plugins and",
+    "start": 2267
+  },
+  {
+    "content": "it's been really exciting and to use them it's just so awesome and easy so",
+    "start": 2271
+  },
+  {
+    "content": "thank you for building them for all of us and yeah huge thanks to the team I",
+    "start": 2276
+  },
+  {
+    "content": "know they worked really hard to get everything out to support days but thank",
+    "start": 2280
+  },
+  {
+    "content": "you for your presentations and for your plugins just so everybody knows you can",
+    "start": 2285
+  },
+  {
+    "content": "still do things like go into networking if you just haven't had enough jam stack",
+    "start": 2290
+  },
+  {
+    "content": "just yet and I put the all three of their Twitter handles in the chat room",
+    "start": 2295
+  },
+  {
+    "content": "so feel free to bombard them and there's many tweets as you want to they didn't",
+    "start": 2301
+  },
+  {
+    "content": "say I could say that but hey and is there any other closing remarks anybody",
+    "start": 2307
+  },
+  {
+    "content": "has good we're all very very happy and satisfied with the great presentation so",
+    "start": 2313
+  },
+  {
+    "content": "thank you all very much for joining us and we hope to see you on the interwebs",
+    "start": 2321
+  },
+  {
+    "content": "",
+    "start": 2329
+  }
+]

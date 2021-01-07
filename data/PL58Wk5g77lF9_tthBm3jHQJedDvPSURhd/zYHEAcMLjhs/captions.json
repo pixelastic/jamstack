@@ -1,0 +1,1086 @@
+[
+  {
+    "content": "next up we have Tanner Linsley a",
+    "start": 0
+  },
+  {
+    "content": "professional phone spitter and recovering whistling addict also",
+    "start": 5
+  },
+  {
+    "content": "co-founder of nozzle this guy's rants impressive",
+    "start": 9
+  },
+  {
+    "content": "so Tanner's going to talk about react static and progress a static site",
+    "start": 13
+  },
+  {
+    "content": "generation all right he said my name is Tanner Lindsley I'm from Salt Lake City",
+    "start": 17
+  },
+  {
+    "content": "Utah and my name is my handle for everything so just come find me on the",
+    "start": 36
+  },
+  {
+    "content": "Internet I love to chat oh also that was not me",
+    "start": 41
+  },
+  {
+    "content": "as you'd see it right now right I'm really into like shaving off reeling to",
+    "start": 47
+  },
+  {
+    "content": "light shaving off you know kilobytes of code and like downsizing and stuff so I",
+    "start": 54
+  },
+  {
+    "content": "figured like you know to the version of me today is like you know 200 kilobytes",
+    "start": 58
+  },
+  {
+    "content": "lighter so I am co-founder and nozzle nozzle is almost completely unrelated to",
+    "start": 64
+  },
+  {
+    "content": "anything we're doing here today but we do make awesome software to help",
+    "start": 73
+  },
+  {
+    "content": "companies track where they rank in Google competitive analysis anything",
+    "start": 78
+  },
+  {
+    "content": "having to do with SEO analytics I started building open source software",
+    "start": 82
+  },
+  {
+    "content": "and getting into all things github in about 2013 I started building working on",
+    "start": 88
+  },
+  {
+    "content": "projects like cross filter which you probably haven't heard of but it's",
+    "start": 94
+  },
+  {
+    "content": "really cool another one you might have heard of though as I worked a lot on",
+    "start": 98
+  },
+  {
+    "content": "chart j/s helps write a large portion of version 2.0 and got it was really",
+    "start": 101
+  },
+  {
+    "content": "exciting to be involved writing this open source software was until later",
+    "start": 108
+  },
+  {
+    "content": "that I discovered react that I really found my place I feel I found my home",
+    "start": 113
+  },
+  {
+    "content": "writing applications and I feel like everything I've been doing for the last",
+    "start": 119
+  },
+  {
+    "content": "three or four years has been focused on writing apps and making the developer",
+    "start": 125
+  },
+  {
+    "content": "experience around building react applications or applications in general",
+    "start": 129
+  },
+  {
+    "content": "and so it presented a very big challenge for me when the rest of my team came to",
+    "start": 134
+  },
+  {
+    "content": "me and I said hey we have a marketing website for you to take over and I",
+    "start": 139
+  },
+  {
+    "content": "thought okay cool I got this I said okay here you go it's like what is this I I",
+    "start": 146
+  },
+  {
+    "content": "don't want WordPress I don't want to touch it with a ten-foot pole and",
+    "start": 156
+  },
+  {
+    "content": "they're like whoa why like what what's the big deal why is WordPress so bad I'm",
+    "start": 160
+  },
+  {
+    "content": "just like you don't even know right these guys are marketing guys like they",
+    "start": 165
+  },
+  {
+    "content": "don't understand they just they just wanted to get done and there's a lot of",
+    "start": 170
+  },
+  {
+    "content": "reasons behind why they chose WordPress there's a lot of reasons behind why a",
+    "start": 173
+  },
+  {
+    "content": "lot of people chose choose WordPress and for me in conversations with these",
+    "start": 176
+  },
+  {
+    "content": "people it all boiled down to SEO and SEO is such a complicated topic this is",
+    "start": 180
+  },
+  {
+    "content": "actually the small portion of the Venn diagram we're nozzle intersects with",
+    "start": 186
+  },
+  {
+    "content": "what I'm actually talking about today but SEO is very complicated there's a",
+    "start": 190
+  },
+  {
+    "content": "lot of things that go into it but one of the most major reasons that WordPress",
+    "start": 196
+  },
+  {
+    "content": "succeeded is because of this this leg up on SEO making people good at SEO with",
+    "start": 199
+  },
+  {
+    "content": "very little work I look at this stock the lamp stack of servers might see a my",
+    "start": 204
+  },
+  {
+    "content": "sequel in PHP everything about it just makes me cringe I'm a front-end",
+    "start": 210
+  },
+  {
+    "content": "developer I'm a JavaScript developer and I love the jam stack and this is just",
+    "start": 214
+  },
+  {
+    "content": "unacceptable to me and they I told that to them and they kind of shift their",
+    "start": 219
+  },
+  {
+    "content": "heads like well okay like whatever just get it done I said",
+    "start": 225
+  },
+  {
+    "content": "okay we'll I'll get it done with a static site I like so sweet sounds good",
+    "start": 229
+  },
+  {
+    "content": "to me static sites are so awesome that's why we're all here we we love the jam",
+    "start": 234
+  },
+  {
+    "content": "stack the static sites make up small not a small a very large portion of a lot of",
+    "start": 239
+  },
+  {
+    "content": "what we do and static sites are great because they naturally afford to search",
+    "start": 244
+  },
+  {
+    "content": "engine optimization and they come with all of the amazing things that static",
+    "start": 250
+  },
+  {
+    "content": "sites have inherently of being fast being able to easily push them out to",
+    "start": 255
+  },
+  {
+    "content": "CDNs and in my opinion they're extremely cost effective versus other solutions",
+    "start": 259
+  },
+  {
+    "content": "that require servers and stuff and even better a message AMSAT",
+    "start": 265
+  },
+  {
+    "content": "community right there are great tools that can help us build static websites",
+    "start": 269
+  },
+  {
+    "content": "that take a lot of the burden of this static site generation architecture off",
+    "start": 274
+  },
+  {
+    "content": "of our backs when I got when I was given this this assignment you know take over",
+    "start": 279
+  },
+  {
+    "content": "a marketing website all of my back-end team there go guys and they're like you",
+    "start": 285
+  },
+  {
+    "content": "know you should try this cool new static site generator called Hugo I was like",
+    "start": 290
+  },
+  {
+    "content": "all right this sounds great they're like it can build a 100,000 page web site in",
+    "start": 294
+  },
+  {
+    "content": "five milliseconds or something and I'm like okay that's great I think we have",
+    "start": 299
+  },
+  {
+    "content": "like 20 pages so if it works it works they're like sweet go for it so I",
+    "start": 305
+  },
+  {
+    "content": "started using Hugo and honestly it was a lot of fun like the speed is incredible",
+    "start": 311
+  },
+  {
+    "content": "and there are a lot of great things about Hugo but again as a JavaScript",
+    "start": 316
+  },
+  {
+    "content": "developer there were a lot of sad things about Hugo for me one of them is write",
+    "start": 320
+  },
+  {
+    "content": "in the name everything in Hugo's written and go and you know for the most part",
+    "start": 325
+  },
+  {
+    "content": "you have a great experience but at some point or another being a JavaScript",
+    "start": 330
+  },
+  {
+    "content": "developer I felt like I was running into barriers I was running into capability",
+    "start": 334
+  },
+  {
+    "content": "walls that I had to either tear down or learn go and I I like go it reads well",
+    "start": 338
+  },
+  {
+    "content": "but I'm not prepared to do that for me and what it really meant was this was a",
+    "start": 346
+  },
+  {
+    "content": "no-go after using it for about three or four months I decided this is not",
+    "start": 351
+  },
+  {
+    "content": "something I want to use you know for the foreseeable future it was really sad",
+    "start": 356
+  },
+  {
+    "content": "because Hugo builds great static websites it really does but to me the",
+    "start": 362
+  },
+  {
+    "content": "like one of the other biggest problems with Hugo is that javascript is an",
+    "start": 368
+  },
+  {
+    "content": "afterthought with some of these static site generators and when javascript is",
+    "start": 372
+  },
+  {
+    "content": "an afterthought and not a first-class citizen developers start to you know",
+    "start": 377
+  },
+  {
+    "content": "when they're left to their own devices they start to do terrible things clearly",
+    "start": 384
+  },
+  {
+    "content": "I would never do this right but it's very tempting because when you're",
+    "start": 389
+  },
+  {
+    "content": "working with a stack that basically takes you back ten years",
+    "start": 394
+  },
+  {
+    "content": "which is totally fine if that's where you need to end but for me I want to",
+    "start": 398
+  },
+  {
+    "content": "take things further and I want I want a full-on JavaScript application jQuery is",
+    "start": 403
+  },
+  {
+    "content": "attractive because you drop it in and it works we didn't want to do that we",
+    "start": 408
+  },
+  {
+    "content": "wanted something that was going to be sustainable and you know we started",
+    "start": 413
+  },
+  {
+    "content": "looking to looking into other static site generators and this was a problem",
+    "start": 416
+  },
+  {
+    "content": "across a lot of the static site generators that we found is that they're",
+    "start": 419
+  },
+  {
+    "content": "all written in languages that are not JavaScript and they all use template",
+    "start": 423
+  },
+  {
+    "content": "England which is that are either very opinionated or you know aren't",
+    "start": 428
+  },
+  {
+    "content": "necessarily standardized which is an evil word but basically everybody has to",
+    "start": 433
+  },
+  {
+    "content": "learn the Oh what's your site written and well it's this so you have to learn",
+    "start": 439
+  },
+  {
+    "content": "the stack to use it we didn't want that I wanted things to be cohesive I wanted",
+    "start": 443
+  },
+  {
+    "content": "to be able to hire a front-end developer and say you can work on our application",
+    "start": 449
+  },
+  {
+    "content": "you can work on the website in fact you can work anywhere because it's all just",
+    "start": 453
+  },
+  {
+    "content": "JavaScript and that's really what I wanted I wanted to build a marketing",
+    "start": 457
+  },
+  {
+    "content": "website I wanted to build a static website like an application because",
+    "start": 461
+  },
+  {
+    "content": "that's the future to me you know we're working so hard on making this",
+    "start": 465
+  },
+  {
+    "content": "experience so good and not only just a JavaScript application but I love react",
+    "start": 469
+  },
+  {
+    "content": "I wanted to build it in react and I knew that there had to be a world where we",
+    "start": 475
+  },
+  {
+    "content": "could merge these two things together I knew there had to be a way where I could",
+    "start": 481
+  },
+  {
+    "content": "not worry about static site generation or not worry about all the",
+    "start": 485
+  },
+  {
+    "content": "implementation details that go into is this static site being generated or not",
+    "start": 491
+  },
+  {
+    "content": "like I just want to write a react application in fact like create react",
+    "start": 496
+  },
+  {
+    "content": "app is such a prolific tool right now in the react ecosystem because it's so dead",
+    "start": 501
+  },
+  {
+    "content": "simple I wanted to go from something like that to a static site and not",
+    "start": 505
+  },
+  {
+    "content": "really have a lot of pain involved and so that's why I built react static a",
+    "start": 512
+  },
+  {
+    "content": "react static is a progressive static site generator",
+    "start": 517
+  },
+  {
+    "content": "that's a big term but progressive static site generator what is a progressive",
+    "start": 523
+  },
+  {
+    "content": "static site generator well at the core it starts with just a static site like",
+    "start": 530
+  },
+  {
+    "content": "you'd expect from anything else a static site that when you load a page like a",
+    "start": 536
+  },
+  {
+    "content": "blog you'll see HTML you'll see CSS it'll be they'll have all the normal",
+    "start": 541
+  },
+  {
+    "content": "benefits that you would get from using any other static site generator but",
+    "start": 547
+  },
+  {
+    "content": "where most generators stop react static begins at an opportune moment it begins",
+    "start": 551
+  },
+  {
+    "content": "to load a react application on top of your HTML file it doesn't matter what",
+    "start": 558
+  },
+  {
+    "content": "page it was that you loaded of your static website then it loads in the",
+    "start": 563
+  },
+  {
+    "content": "assets that you originally used to create that page be the template the",
+    "start": 567
+  },
+  {
+    "content": "data any dependencies that it may need and invisibly to the user becomes a",
+    "start": 573
+  },
+  {
+    "content": "react application uses something called rehydration and react rehydrates over",
+    "start": 579
+  },
+  {
+    "content": "the existing HTML of the page the user has no idea but now they're in a",
+    "start": 586
+  },
+  {
+    "content": "full-fledged single page app running react that means we can do some pretty",
+    "start": 590
+  },
+  {
+    "content": "interesting things not only does that let you use whatever you want in the",
+    "start": 595
+  },
+  {
+    "content": "react ecosystem up to that point or whatever framework you're using right",
+    "start": 599
+  },
+  {
+    "content": "but it also allows us to do some very intelligent things with navigation and",
+    "start": 603
+  },
+  {
+    "content": "with the regular flow of a static site from there we might want to visit a page",
+    "start": 609
+  },
+  {
+    "content": "like an individual post where we would normally in a static site click a link",
+    "start": 614
+  },
+  {
+    "content": "we'd have to reload the HTML download it the whole browser would freak refresh",
+    "start": 620
+  },
+  {
+    "content": "you know you're used to this process with the static site generator and it's",
+    "start": 624
+  },
+  {
+    "content": "fast it really is there's like a static site is fast even if you're just using",
+    "start": 627
+  },
+  {
+    "content": "hard links we take it to the next level we load the assets that were created",
+    "start": 632
+  },
+  {
+    "content": "that were used to create that page the users navigating to and we recreate that",
+    "start": 638
+  },
+  {
+    "content": "page within the application the react application so there's no there's no",
+    "start": 643
+  },
+  {
+    "content": "hard navigation it looks exactly like you're using a react application and in",
+    "start": 648
+  },
+  {
+    "content": "fact it to the developer that's exactly how you develop it you don't have",
+    "start": 653
+  },
+  {
+    "content": "to worry about you know proprietary routing or hooking all this up on your",
+    "start": 657
+  },
+  {
+    "content": "own it just kind of comes for free you can do that for the entire length of the",
+    "start": 663
+  },
+  {
+    "content": "session that the user is on your site this is fantastic because if we can",
+    "start": 668
+  },
+  {
+    "content": "enter a page like an individual post load of react application load the",
+    "start": 674
+  },
+  {
+    "content": "assets that were used to build it and rehydrate over the HTML we can kind of",
+    "start": 680
+  },
+  {
+    "content": "start to get really smart about things let's say there's like three links on",
+    "start": 686
+  },
+  {
+    "content": "the page that we can go to well react static can actually start pre loading",
+    "start": 690
+  },
+  {
+    "content": "those links and you can even write plugins that use things like Google",
+    "start": 695
+  },
+  {
+    "content": "Analytics to predict or the user is going to go",
+    "start": 701
+  },
+  {
+    "content": "it'll preload these assets so that in any given case that the user wants to go",
+    "start": 704
+  },
+  {
+    "content": "there it's instantaneous right you don't wait for anything all the data the",
+    "start": 708
+  },
+  {
+    "content": "template everything is there and it's instant and it's such a great feeling as",
+    "start": 713
+  },
+  {
+    "content": "a user browsing one of these websites it's having instant navigation and we",
+    "start": 718
+  },
+  {
+    "content": "can continue doing that again throughout the entire session lifecycle that the",
+    "start": 723
+  },
+  {
+    "content": "user has on your site so there's a lot of moving pieces here thrown around a",
+    "start": 727
+  },
+  {
+    "content": "lot of colored boxes right but when you boil it down there's just a few basic",
+    "start": 734
+  },
+  {
+    "content": "things that need to happen for a progressive static site to work you need",
+    "start": 740
+  },
+  {
+    "content": "an application framework you're gonna need a way to decipher what the",
+    "start": 745
+  },
+  {
+    "content": "templates are you can pass a date some data and you're going to produce HTML",
+    "start": 749
+  },
+  {
+    "content": "and we have to worry about these things for every single route that you could",
+    "start": 754
+  },
+  {
+    "content": "possibly visit as far as static route so you can possibly visit for your entire",
+    "start": 759
+  },
+  {
+    "content": "site now this is a really small site but some sites get really big obviously you",
+    "start": 764
+  },
+  {
+    "content": "need a tool to do that and react static is the tool that I built to help us do",
+    "start": 770
+  },
+  {
+    "content": "that the goal that I had when building react static was inspired by reax mantra",
+    "start": 775
+  },
+  {
+    "content": "of being just javascript I didn't want to build a proprietary",
+    "start": 782
+  },
+  {
+    "content": "system that required you to learn new things that you're unfamiliar with or",
+    "start": 787
+  },
+  {
+    "content": "introduced you know foreign concepts into what you're used to building I",
+    "start": 793
+  },
+  {
+    "content": "wanted everything to feel as familiar as possible to a react application and so I",
+    "start": 799
+  },
+  {
+    "content": "started with just some JavaScript some JSON data basically we create some",
+    "start": 805
+  },
+  {
+    "content": "routes and let's say every route has a path right we can add a template to a",
+    "start": 812
+  },
+  {
+    "content": "route to say which template we want to render it with and then we can assign",
+    "start": 819
+  },
+  {
+    "content": "that some data and this data function can be asynchronous or it could be",
+    "start": 823
+  },
+  {
+    "content": "synchronous whatever we want you can take that data from you know places in",
+    "start": 828
+  },
+  {
+    "content": "your file system if you'd like or you can even get at a synchronously from",
+    "start": 832
+  },
+  {
+    "content": "wherever you want use your favorite headless CMS if you'd",
+    "start": 838
+  },
+  {
+    "content": "like and you can even use that data to generate new routes so you're not",
+    "start": 842
+  },
+  {
+    "content": "limited in what you know before the build you can use anything you'd like to",
+    "start": 849
+  },
+  {
+    "content": "generate routes so when you break this down all react static is doing under the",
+    "start": 854
+  },
+  {
+    "content": "hood is taking all of your templates D duping them and giving you some really",
+    "start": 860
+  },
+  {
+    "content": "useful reactive components like routes which is just a component that you can",
+    "start": 866
+  },
+  {
+    "content": "import from react static and say this is what I want to render my static content",
+    "start": 872
+  },
+  {
+    "content": "likewise when you have data that you're passing to a specific route those data",
+    "start": 877
+  },
+  {
+    "content": "pieces get chunked out into JSON files and they're intelligently loaded through",
+    "start": 883
+  },
+  {
+    "content": "react static and made available through things like hooks and components like",
+    "start": 888
+  },
+  {
+    "content": "use route data so there's no complex queries happening",
+    "start": 893
+  },
+  {
+    "content": "there's no weird data pipelining or intermediary databases it's just",
+    "start": 899
+  },
+  {
+    "content": "straight data like you pull the data in and you push it to the routes then that",
+    "start": 904
+  },
+  {
+    "content": "need it and you grab that data in your components and you render this concept",
+    "start": 908
+  },
+  {
+    "content": "of assigning templates and data to routes has been around",
+    "start": 914
+  },
+  {
+    "content": "since static sight generation began and that's what static sight generation is",
+    "start": 918
+  },
+  {
+    "content": "all about right taking these two things and marrying them together and in my",
+    "start": 922
+  },
+  {
+    "content": "opinion I can sit here and explain with colorful boxes all day and I actually",
+    "start": 927
+  },
+  {
+    "content": "prefer to demo it for you guys so let's do a live demo I am terrified but I hope",
+    "start": 933
+  },
+  {
+    "content": "it goes well so let's see I'm using yarn but you can use NPM if you'd like",
+    "start": 944
+  },
+  {
+    "content": "let's yarn global add you are so correct boom yarn global add react static well",
+    "start": 949
+  },
+  {
+    "content": "that's weird I have to code off of this TV yeah this is okay",
+    "start": 963
+  },
+  {
+    "content": "alright luckily I had some yarn cache that made it a little more bearable for",
+    "start": 971
+  },
+  {
+    "content": "you guys so it gave us a react static binary that we can use now I'm on my",
+    "start": 975
+  },
+  {
+    "content": "desktop and I'm just gonna say react static create what should we name this",
+    "start": 979
+  },
+  {
+    "content": "project we'll go with that there's a couple of little templates you can use I",
+    "start": 985
+  },
+  {
+    "content": "like to start with basic detects what you want to use whether it's yarn or NPM",
+    "start": 989
+  },
+  {
+    "content": "installs all the dependencies it's probably very familiar for anybody who",
+    "start": 996
+  },
+  {
+    "content": "uses create react app and then it says great your projects been created we're",
+    "start": 1000
+  },
+  {
+    "content": "gonna CD into my static site and you know it says yarns start right there but",
+    "start": 1005
+  },
+  {
+    "content": "just for the heck of it let's just use nullify dev actually let's just go live",
+    "start": 1012
+  },
+  {
+    "content": "I actually know why that's not working but it's okay imagine that it happened",
+    "start": 1024
+  },
+  {
+    "content": "let's just go now if I dev oh it's okay if you want to see it work come talk to",
+    "start": 1032
+  },
+  {
+    "content": "me after let's just start the normal react",
+    "start": 1040
+  },
+  {
+    "content": "static server so it bundles it builds your routes there's a bunch of cool",
+    "start": 1044
+  },
+  {
+    "content": "things make sure you guys can see Google there",
+    "start": 1049
+  },
+  {
+    "content": "we go so we're running on localhost 3000 let me make this bigger for you guys",
+    "start": 1062
+  },
+  {
+    "content": "second says hey welcome to react static it's really cool this is a development",
+    "start": 1069
+  },
+  {
+    "content": "version and you can see right out of the gate it's just little basic basic blog",
+    "start": 1076
+  },
+  {
+    "content": "that we have see something interesting happening in the network tab right now",
+    "start": 1083
+  },
+  {
+    "content": "as I scroll down the page you'll see that some assets are being loaded as",
+    "start": 1087
+  },
+  {
+    "content": "things become available to click on and if I scroll down the page really fast",
+    "start": 1092
+  },
+  {
+    "content": "click on one of these it's instant now technically we've had to wait or reload",
+    "start": 1098
+  },
+  {
+    "content": "a page to do that if it was HTML and you'd be surprised the difference in",
+    "start": 1104
+  },
+  {
+    "content": "downloading a few bytes of JSON and a template that will work for many of your",
+    "start": 1108
+  },
+  {
+    "content": "paths on your site versus downloading an HTML page I mean some of these HTML",
+    "start": 1114
+  },
+  {
+    "content": "pages and static sites can get really big you know if that's your only mode of",
+    "start": 1118
+  },
+  {
+    "content": "generation it can get very large so that the savings are really big you can even",
+    "start": 1123
+  },
+  {
+    "content": "do dynamic routes so this is a page that's not static at all but it just",
+    "start": 1129
+  },
+  {
+    "content": "it's actually using reach router under the hood so if you want to have an admin",
+    "start": 1133
+  },
+  {
+    "content": "or something like that on your static site you can do that so let's let's",
+    "start": 1138
+  },
+  {
+    "content": "actually build this for production so let's see yarn bill",
+    "start": 1143
+  },
+  {
+    "content": "reiax that it goes out and grabs all your data packages them up build your",
+    "start": 1151
+  },
+  {
+    "content": "templates most things that you would expect from a static site generator does",
+    "start": 1156
+  },
+  {
+    "content": "multi-threaded export so it's really performant for large websites this is",
+    "start": 1162
+  },
+  {
+    "content": "great it's now exported and it says oh look you can send it up to nullify let's",
+    "start": 1166
+  },
+  {
+    "content": "do that actually we're going to deploy the dist directory product to production",
+    "start": 1171
+  },
+  {
+    "content": "just go straight for it optional site name okay let's visit that",
+    "start": 1178
+  },
+  {
+    "content": "site so that was pretty fast it loaded the HTML first so you saw the content",
+    "start": 1190
+  },
+  {
+    "content": "immediately and when everything was ready it loaded up all the bundles for",
+    "start": 1205
+  },
+  {
+    "content": "reacted to mount over this HTML and he didn't even see a thing there's no flash",
+    "start": 1209
+  },
+  {
+    "content": "there's nothing all of a sudden it becomes a react application and you can",
+    "start": 1213
+  },
+  {
+    "content": "see again if we clear the console if we go over to any of these pages nothing is",
+    "start": 1218
+  },
+  {
+    "content": "being oh you know what that's a better way to demo it right there if we go to",
+    "start": 1224
+  },
+  {
+    "content": "about nothing loaded it's because we already had the template for about and",
+    "start": 1228
+  },
+  {
+    "content": "it was instantaneous it's just like a react application to go to this dynamic",
+    "start": 1233
+  },
+  {
+    "content": "page also nothing happens because that's part of the bundle if we go to blog",
+    "start": 1238
+  },
+  {
+    "content": "you'll see that it started to load all of the information that it needed for",
+    "start": 1241
+  },
+  {
+    "content": "these blog posts right here and if we clear it this again and scroll",
+    "start": 1247
+  },
+  {
+    "content": "on the page you'll see that they get downloaded as they come into the",
+    "start": 1253
+  },
+  {
+    "content": "viewport so out-of-the-box react static works with any router that you want to",
+    "start": 1256
+  },
+  {
+    "content": "use in the react ecosystem it does template splitting data splitting and",
+    "start": 1262
+  },
+  {
+    "content": "it's produces extremely fast websites using an extremely unup enya nated form",
+    "start": 1269
+  },
+  {
+    "content": "of doing of coding in fact i wanted to show you guys just how easy it is to",
+    "start": 1276
+  },
+  {
+    "content": "understand what is going on with this actual code so this is the",
+    "start": 1281
+  },
+  {
+    "content": "source here's the index file for this site and it probably looks familiar if",
+    "start": 1288
+  },
+  {
+    "content": "you've built a react application we are doing some hot reloading we're rendering",
+    "start": 1294
+  },
+  {
+    "content": "our app using reactive Dom and one little extra thing is you just have to",
+    "start": 1300
+  },
+  {
+    "content": "export your app so that reacts that it can generate it statically and our app",
+    "start": 1304
+  },
+  {
+    "content": "looks fairly normal we've got a couple of route route components that we can",
+    "start": 1310
+  },
+  {
+    "content": "use there's links those are coming from reach router in fact it's actually even",
+    "start": 1315
+  },
+  {
+    "content": "using react suspense kind of cool here's a router right here we've got dynamic",
+    "start": 1320
+  },
+  {
+    "content": "routes for everything else we're just rendering the routes that come from",
+    "start": 1326
+  },
+  {
+    "content": "react static and you can see that all these pages over here are just reactive",
+    "start": 1329
+  },
+  {
+    "content": "components rendering good stuff this route data coming from the blog gives us",
+    "start": 1337
+  },
+  {
+    "content": "posts that we can just map over this is a beautiful thing is if you've built a",
+    "start": 1343
+  },
+  {
+    "content": "react application before a lot of this is probably isn't very foreign to you",
+    "start": 1349
+  },
+  {
+    "content": "you can jump in right away know exactly what's going on because there's not a",
+    "start": 1354
+  },
+  {
+    "content": "lot of proprietary stuff happening so that is the project the project source",
+    "start": 1357
+  },
+  {
+    "content": "there that I want to show you guys and that is react static in a nutshell when",
+    "start": 1364
+  },
+  {
+    "content": "I head back to back to here that was a party",
+    "start": 1370
+  },
+  {
+    "content": "so react static it's a progressive static site generator and you know",
+    "start": 1380
+  },
+  {
+    "content": "talking about progressive static site generation it wouldn't be fair without a",
+    "start": 1385
+  },
+  {
+    "content": "tip of the hat to these guys GATS being next for some of the first ones to do",
+    "start": 1389
+  },
+  {
+    "content": "this well in the react ecosystem and have pioneered a lot of the processes",
+    "start": 1394
+  },
+  {
+    "content": "that go behind things like this and so a lot of you might be asking well I have a",
+    "start": 1399
+  },
+  {
+    "content": "ticket to the Gatsby workshop tomorrow like what's so different why would I use",
+    "start": 1404
+  },
+  {
+    "content": "react static over any of these you know that is an interesting question a lot of",
+    "start": 1408
+  },
+  {
+    "content": "you might jump to conclusions like well I don't want to learn graph QL so maybe",
+    "start": 1416
+  },
+  {
+    "content": "I'll use react static or I love graph QL so I'm going to use Gatsby or like like",
+    "start": 1421
+  },
+  {
+    "content": "well what happened to my get initial props if you're using next right",
+    "start": 1426
+  },
+  {
+    "content": "personally I think these debates over implementation details in the future",
+    "start": 1430
+  },
+  {
+    "content": "probably just going to go away I think the real difference for me and what I'm",
+    "start": 1436
+  },
+  {
+    "content": "driving react static to be is right in the name of writing the name of the",
+    "start": 1441
+  },
+  {
+    "content": "project and it's about react the same way that react pioneered the term just",
+    "start": 1447
+  },
+  {
+    "content": "JavaScript I want to align myself with that goal and be just react",
+    "start": 1453
+  },
+  {
+    "content": "that's react static and it doesn't matter what static site generator you're",
+    "start": 1460
+  },
+  {
+    "content": "using there's only one thing left to say and good Sir Charles said it the best",
+    "start": 1464
+  },
+  {
+    "content": "just shut up and jam",
+    "start": 1469
+  },
+  {
+    "content": "[Applause]",
+    "start": 1480
+  }
+]

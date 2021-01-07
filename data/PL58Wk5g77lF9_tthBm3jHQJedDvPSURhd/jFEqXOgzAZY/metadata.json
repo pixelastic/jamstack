@@ -1,0 +1,14 @@
+{
+  "description": "GitHub Actions is the biggest feature coming out of GitHub since the Pull Request and it is now empowering the JAMstack in ways that have not previously been conceived. Join in my walkthrough how you can leverage this new tool in creating Action packed workflows to supercharge your repos and GitHub experience. Build your container apps to run arbitrary code, publish packages to registries, or even automate welcoming new users to your projects — with access to the full GitHub API and any other public APIs, Actions has limitless to enhance you JAM.\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
+  "id": "jFEqXOgzAZY",
+  "position": 0,
+  "publishedAt": 1556317259,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/jFEqXOgzAZY/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/jFEqXOgzAZY/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/jFEqXOgzAZY/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/jFEqXOgzAZY/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/jFEqXOgzAZY/default.jpg"
+  },
+  "title": "Brian Douglas - Action-packed JAMstack"
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "content": "hello I'm willow and I'm a product",
+    "start": 1
+  },
+  {
+    "content": "manager at first Miki Pacific is here this M s so since I joined I had the",
+    "start": 13
+  },
+  {
+    "content": "chance to work with a lot of developer lobbying website and it's becoming clear",
+    "start": 18
+  },
+  {
+    "content": "for now quite some time that technology like react our view that our component",
+    "start": 22
+  },
+  {
+    "content": "centric becoming the go-to solution to build websites even though it was not",
+    "start": 27
+  },
+  {
+    "content": "meant to be that at the beginning but this component approach like gives a lot",
+    "start": 31
+  },
+  {
+    "content": "of developer that adopted the technology liked it and just are using it on most",
+    "start": 36
+  },
+  {
+    "content": "of the project that we are seeing in our user base for quite some time now at",
+    "start": 41
+  },
+  {
+    "content": "wrist make we chose to invest in component so we've created a feature",
+    "start": 47
+  },
+  {
+    "content": "it's called slice and that is becoming more and more popular and we are still",
+    "start": 52
+  },
+  {
+    "content": "continuing to invest in this component centric approach and today I will",
+    "start": 55
+  },
+  {
+    "content": "present a project that is called slice machine and that is trying to improve",
+    "start": 60
+  },
+  {
+    "content": "the process of building website with components so let's jump right into it",
+    "start": 66
+  },
+  {
+    "content": "so that I can show you the project so for this demo I chose to have a simple",
+    "start": 71
+  },
+  {
+    "content": "next application so for photos that already build the next application in",
+    "start": 76
+  },
+  {
+    "content": "the past they might recognize the screen that is like the inner world of the next",
+    "start": 81
+  },
+  {
+    "content": "app and I will type my cosmic size machine command set up in order to",
+    "start": 86
+  },
+  {
+    "content": "launch a new size machine project what this command does is basically changing",
+    "start": 94
+  },
+  {
+    "content": "the configuration of my next application and and by linking it to a Christmas",
+    "start": 99
+  },
+  {
+    "content": "Illinois so I will create a poodle is called a",
+    "start": 108
+  },
+  {
+    "content": "low jump stack like so it will link my next project to displacement repository",
+    "start": 113
+  },
+  {
+    "content": "and add also true dependencies through libraries to the project one that is",
+    "start": 122
+  },
+  {
+    "content": "called 2000 and that I will describe a bit later and another one that is set of",
+    "start": 127
+  },
+  {
+    "content": "opponents pre-made component that are open to us responsive that are",
+    "start": 135
+  },
+  {
+    "content": "accessible and that we've built in partnership with SAS we know so now that",
+    "start": 139
+  },
+  {
+    "content": "the installation is done I can just open any project",
+    "start": 145
+  },
+  {
+    "content": "and open the code of the page that you saw so as you can see it's a basic next",
+    "start": 158
+  },
+  {
+    "content": "page basic next and plate that is showing what we just saw in the screen",
+    "start": 165
+  },
+  {
+    "content": "what I will do is just import the new component that the slice machine comment",
+    "start": 169
+  },
+  {
+    "content": "added to the project so imports Izone have fun we add it to the component form",
+    "start": 175
+  },
+  {
+    "content": "a template and then I will just change quickly the template in order to add my",
+    "start": 191
+  },
+  {
+    "content": "slice onto the tablet now that it's done I can image again my project open it",
+    "start": 202
+  },
+  {
+    "content": "so it's now building again for those who build the next project you might see you",
+    "start": 222
+  },
+  {
+    "content": "might know the screen and when it's built you can see now that I have a new",
+    "start": 230
+  },
+  {
+    "content": "component rendered in my page it's the laser on and with basically an empty",
+    "start": 237
+  },
+  {
+    "content": "state that tell you that if you want to start rendering the component from the",
+    "start": 242
+  },
+  {
+    "content": "library that we imported you have to create a page one press me so I would",
+    "start": 247
+  },
+  {
+    "content": "click this button that will direct me to the cosmic repository and now that I'm",
+    "start": 252
+  },
+  {
+    "content": "on the cosmic repository I will be able to create a first page using those",
+    "start": 256
+  },
+  {
+    "content": "components so I have a whole set of components here that we call slice",
+    "start": 260
+  },
+  {
+    "content": "includes me that are linked to one of the component that is available through",
+    "start": 267
+  },
+  {
+    "content": "the library that we imported from call to action to slider us to video in video",
+    "start": 271
+  },
+  {
+    "content": "sliders and I will select a call to action component",
+    "start": 277
+  },
+  {
+    "content": "true and on my page okay add some text at the link in order to",
+    "start": 282
+  },
+  {
+    "content": "reject to do a slice machine website MP wish in this document as you can see and",
+    "start": 305
+  },
+  {
+    "content": "the component is not yet rendered because I need to update my cells and",
+    "start": 318
+  },
+  {
+    "content": "accordingly to the change that I did so I need to add custom type and the UAE to",
+    "start": 322
+  },
+  {
+    "content": "fetch the popular document in Christmas so I will go to my slides done at the",
+    "start": 326
+  },
+  {
+    "content": "type that will be paid and the UAE and that I will fetch fungus meat repository",
+    "start": 333
+  },
+  {
+    "content": "in that case this one I save and then my pet just rear end out and is displaying",
+    "start": 340
+  },
+  {
+    "content": "properly the component that I chose so the call to action component I can",
+    "start": 351
+  },
+  {
+    "content": "choose to add another one and add some images for example to make it look good",
+    "start": 357
+  },
+  {
+    "content": "and we now had also example FAQ component has been anything",
+    "start": 362
+  },
+  {
+    "content": "same and an optional image which was this one no I forgot",
+    "start": 385
+  },
+  {
+    "content": "yes Johnny could be pasted it to show you how it looks",
+    "start": 395
+  },
+  {
+    "content": "Edge's previous to the command if i should screen and now I can see my FAQ",
+    "start": 416
+  },
+  {
+    "content": "component there is none during properly after my call to action madam okay so",
+    "start": 420
+  },
+  {
+    "content": "now the question that you will ask is like I would like stamp those components",
+    "start": 428
+  },
+  {
+    "content": "how do I customize those components in order to make them mine or like to adapt",
+    "start": 431
+  },
+  {
+    "content": "to the design that I already have so for that we provide CSS variables but also a",
+    "start": 436
+  },
+  {
+    "content": "different set of props and options that you can use in order to basically",
+    "start": 442
+  },
+  {
+    "content": "customize those components to make them fit the design that you are trying to",
+    "start": 446
+  },
+  {
+    "content": "build but if the component that we provide are not enough for you and you",
+    "start": 450
+  },
+  {
+    "content": "want to build your own we also provide a comment I'm going to tacna just now",
+    "start": 453
+  },
+  {
+    "content": "ladies please make a same create slice that will ask me what to give a name to",
+    "start": 460
+  },
+  {
+    "content": "the component so I will create menu component ask me in which custom type I",
+    "start": 466
+  },
+  {
+    "content": "want to do to put it so I would choose page and they did things one thing is",
+    "start": 473
+  },
+  {
+    "content": "that it created a slide slice folder with my new component in it in some",
+    "start": 479
+  },
+  {
+    "content": "boots up code and 200 the component just configured properly the slide zone in",
+    "start": 484
+  },
+  {
+    "content": "order to follow for this reason to understand that this new component also",
+    "start": 489
+  },
+  {
+    "content": "needs to be rendered when content is there in Chris peak and also added in",
+    "start": 493
+  },
+  {
+    "content": "the content definition in the content model a new a new component that I can",
+    "start": 499
+  },
+  {
+    "content": "select as an editor to do to use and to handle in the page so if I want to add",
+    "start": 504
+  },
+  {
+    "content": "between this call-to-action banner and this FAQ component menu component that I",
+    "start": 509
+  },
+  {
+    "content": "just have here I can select it now select some text you know Jeff Zack",
+    "start": 514
+  },
+  {
+    "content": "publish it I need to restart my project",
+    "start": 522
+  },
+  {
+    "content": "so now it is building but you get the idea",
+    "start": 537
+  },
+  {
+    "content": "menu component will just and properly between the call to action and FAQ",
+    "start": 540
+  },
+  {
+    "content": "component with text coming from quest week and with the slice on understanding",
+    "start": 544
+  },
+  {
+    "content": "that this component needs to be rendered when I choose this slice in the cosmic",
+    "start": 550
+  },
+  {
+    "content": "interface you can see it here since you have access to the coil of this",
+    "start": 554
+  },
+  {
+    "content": "component you can make it your own so for example changing the background",
+    "start": 558
+  },
+  {
+    "content": "changing the color removing all the content that I don't want to keep only",
+    "start": 561
+  },
+  {
+    "content": "the content that is managed in my speak like this and if I want to add new field",
+    "start": 567
+  },
+  {
+    "content": "I can just add it into the custom type with there there is a tool that who ride",
+    "start": 572
+  },
+  {
+    "content": "and handle it properly in the component if you want to have an understanding on",
+    "start": 577
+  },
+  {
+    "content": "which component just ice machine just licenese and ring we also come on that",
+    "start": 581
+  },
+  {
+    "content": "is please me SM LS that will show you quickly like",
+    "start": 587
+  },
+  {
+    "content": "the fact that for example the slides on in this project at the moment and",
+    "start": 591
+  },
+  {
+    "content": "there's all the component community for coming from view essential slices that",
+    "start": 595
+  },
+  {
+    "content": "is the library open source that will provide and the new component that I",
+    "start": 598
+  },
+  {
+    "content": "just created in the folder slice and there is my new component so to recap I",
+    "start": 602
+  },
+  {
+    "content": "just added the sizin into my template in next this lesson understood that you",
+    "start": 608
+  },
+  {
+    "content": "need to fetch content from an open source library but also a component that",
+    "start": 614
+  },
+  {
+    "content": "I created through the CLI and and if you want to see more like we have a few",
+    "start": 618
+  },
+  {
+    "content": "attributes that you can attend to we will have you go and I know that our",
+    "start": 624
+  },
+  {
+    "content": "domain developers of the project that will be able to answer all your",
+    "start": 627
+  },
+  {
+    "content": "questions we also talked to more about how to build website with components you",
+    "start": 630
+  },
+  {
+    "content": "in a round table and if you want more information about the project you can",
+    "start": 635
+  },
+  {
+    "content": "both go to our tab in order to contribute into building new libraries",
+    "start": 640
+  },
+  {
+    "content": "for gatsby next or other library for next or so or go to the forum the",
+    "start": 645
+  },
+  {
+    "content": "Pacific forum in order to fetch more information about the project the",
+    "start": 652
+  },
+  {
+    "content": "project thank you and see you on the viet abuse",
+    "start": 655
+  },
+  {
+    "content": "",
+    "start": 658
+  }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "content": "ah hello everyone I'm Matt as Phil said I'm the co-founder notify and I'm super",
+    "start": 0
+  },
+  {
+    "content": "excited to be standing here especially right now today because both Matt and I",
+    "start": 14
+  },
+  {
+    "content": "have an agency background so Matt was the CTO of the largest web agency in",
+    "start": 18
+  },
+  {
+    "content": "Spain and they build hundreds of websites a week it's not a big machine",
+    "start": 22
+  },
+  {
+    "content": "around that and and I spent my entire Korean agency so I spent 14 years and I",
+    "start": 25
+  },
+  {
+    "content": "was both chief digital officer and CEO and dealt with everything from",
+    "start": 30
+  },
+  {
+    "content": "overseeing the production of landing pages to sort of the overall digital",
+    "start": 33
+  },
+  {
+    "content": "strategy of the Walmarts in northern Europe and and we were both really",
+    "start": 36
+  },
+  {
+    "content": "excited about the potential of the jam stack before it was called that right we",
+    "start": 40
+  },
+  {
+    "content": "and and and what really sort of first the first challenge was it was it showed",
+    "start": 44
+  },
+  {
+    "content": "me that what I thought was the premise of doing business online actually had a",
+    "start": 47
+  },
+  {
+    "content": "root cause in a large pot and there was something we could do about it right so",
+    "start": 52
+  },
+  {
+    "content": "when we talk about the legacy web it's actually super simple it's the fact that",
+    "start": 55
+  },
+  {
+    "content": "20 years ago we stopped making websites we started building applications is that",
+    "start": 59
+  },
+  {
+    "content": "something that would run on the server and build for every visitor and it was",
+    "start": 62
+  },
+  {
+    "content": "really awesome right because you left the comment someone else came in five",
+    "start": 65
+  },
+  {
+    "content": "seconds later they could read that comment right and and if you wanted to",
+    "start": 68
+  },
+  {
+    "content": "or - and that was because I was building a concurrent version of the website",
+    "start": 73
+  },
+  {
+    "content": "right every time and and so and if you wanted to build a payment gateway that's",
+    "start": 76
+  },
+  {
+    "content": "what you do right and you hosted a new website but today that changed right I",
+    "start": 80
+  },
+  {
+    "content": "mean that when we started that would be outright masochistic it's two lines of",
+    "start": 85
+  },
+  {
+    "content": "JavaScript and you connect to strike and the Oh PayPal or whatever right and the",
+    "start": 89
+  },
+  {
+    "content": "real question is why would you ever want to do anything else right so so",
+    "start": 93
+  },
+  {
+    "content": "basically what happened was the API economy and all of a sudden these large",
+    "start": 97
+  },
+  {
+    "content": "monolith web applications hadn't really changed so long with with the rest of",
+    "start": 102
+  },
+  {
+    "content": "everything right and so they had become redundant and that would have been a",
+    "start": 105
+  },
+  {
+    "content": "curiosity of best but there was also really big challenges around performance",
+    "start": 109
+  },
+  {
+    "content": "and security and scalability I think from performance the best",
+    "start": 113
+  },
+  {
+    "content": "example is probably when mobile apps came out they were supposed to be web",
+    "start": 116
+  },
+  {
+    "content": "apps right we found out that having to fetch the UI every time it turns in pain",
+    "start": 118
+  },
+  {
+    "content": "she just wasn't performing enough and enter you know proprietary app storage",
+    "start": 122
+  },
+  {
+    "content": "is grateful for some but not for the web right and securities of course a little",
+    "start": 126
+  },
+  {
+    "content": "bit of a well how can I put it politely there's",
+    "start": 131
+  },
+  {
+    "content": "some issues around that right I mean we're looking today at a half time",
+    "start": 134
+  },
+  {
+    "content": "around eleven days meaning like if you take a normal light light CMS and with a",
+    "start": 138
+  },
+  {
+    "content": "few custom plugins and you leave it on for checked in and don't update the",
+    "start": 142
+  },
+  {
+    "content": "server or anything it takes eleven days before there's a 50% chance of similarly",
+    "start": 145
+  },
+  {
+    "content": "becoming infected right and and just a little more context identified we get a",
+    "start": 150
+  },
+  {
+    "content": "hundred million requests every month that alone starts with wp-admin okay",
+    "start": 154
+  },
+  {
+    "content": "seriously it's just malware knocking on our door saying hey if you haven't have",
+    "start": 159
+  },
+  {
+    "content": "a wordpress site that has been updated for we got so we'd love to infect it you",
+    "start": 163
+  },
+  {
+    "content": "know exactly it is a you know something really needed to be done right and",
+    "start": 166
+  },
+  {
+    "content": "scalability for agencies in the Western world will be started we actually",
+    "start": 171
+  },
+  {
+    "content": "over-provision hosting cost on average by 700 percent that's because the",
+    "start": 174
+  },
+  {
+    "content": "traffic is not evenly divided it comes in Peaks and of course you have",
+    "start": 179
+  },
+  {
+    "content": "to cater for that right and you also have to cater for what if there's a big",
+    "start": 182
+  },
+  {
+    "content": "deal right and and so when you when you look at it what gems think is at hard",
+    "start": 185
+  },
+  {
+    "content": "it's separating building from hosting it's everything fronting from backing",
+    "start": 193
+  },
+  {
+    "content": "and what comes along with that is a huge boost for for performance right because",
+    "start": 198
+  },
+  {
+    "content": "now you can have multiple points of origin right you can you could be",
+    "start": 203
+  },
+  {
+    "content": "directly in a network and you don't have to build for every visitor right and and",
+    "start": 206
+  },
+  {
+    "content": "performances become more more important we see clients becoming more we're",
+    "start": 210
+  },
+  {
+    "content": "starting to introduce performing budgets and so on right they simply understand",
+    "start": 214
+  },
+  {
+    "content": "what does this mean for conversion and and they're becoming of anything and",
+    "start": 217
+  },
+  {
+    "content": "they should be security of course there is no surface area of attack right so",
+    "start": 220
+  },
+  {
+    "content": "there's a gigantic difference there and also see that for agencies and there's",
+    "start": 224
+  },
+  {
+    "content": "something that really appeals to me is that that there's the whole thing about",
+    "start": 227
+  },
+  {
+    "content": "not meaning to worry so much about maintaining especially things like",
+    "start": 230
+  },
+  {
+    "content": "campaign sites and so on right because once you've separated the building from",
+    "start": 234
+  },
+  {
+    "content": "the hosting you can leave it alone for 20 years yeah it'll be fundamentally",
+    "start": 238
+  },
+  {
+    "content": "broken on your developers computer but what's live is still there and it means",
+    "start": 241
+  },
+  {
+    "content": "the world right I mean so often you have something and oh did we also catch that",
+    "start": 245
+  },
+  {
+    "content": "one staging environment and so on right so these workflows just became",
+    "start": 249
+  },
+  {
+    "content": "infinitely more productive and efficient right and and so what we saw was was",
+    "start": 252
+  },
+  {
+    "content": "basically it was able to do this by wrapping around",
+    "start": 260
+  },
+  {
+    "content": "then megatrends of the web right on one hand we have friended you know a friend",
+    "start": 264
+  },
+  {
+    "content": "in revolution where I mean I've been around long enough to remember when I",
+    "start": 268
+  },
+  {
+    "content": "had friend in developers that literally just caught up Photoshop files right",
+    "start": 273
+  },
+  {
+    "content": "interesting well those that y'all using advanced markup now right I mean you are",
+    "start": 276
+  },
+  {
+    "content": "leveraging frameworks and tools that that in turn together would get",
+    "start": 281
+  },
+  {
+    "content": "leverages browsers that are company document view it's a full-fledged",
+    "start": 286
+  },
+  {
+    "content": "operating system that in turn utilizes an API economy and and the giant giant",
+    "start": 289
+  },
+  {
+    "content": "result is is that you're able to to treat the web a little more like we did",
+    "start": 294
+  },
+  {
+    "content": "with mobile apps where no one thinks you should be downloading your lift that",
+    "start": 299
+  },
+  {
+    "content": "every time you use it right and so so this idea of being able to do a couple",
+    "start": 301
+  },
+  {
+    "content": "things in pre rebuilt them has has just opened up so many doors right and and so",
+    "start": 305
+  },
+  {
+    "content": "we've been made an early better that and that will fly and now it's it's",
+    "start": 312
+  },
+  {
+    "content": "fantastic because we experiment see this this incredible movement and and we in",
+    "start": 314
+  },
+  {
+    "content": "the middle of it and it's funny right but it's not why I'm standing here today",
+    "start": 319
+  },
+  {
+    "content": "right because it's not just about web tech development know these new",
+    "start": 325
+  },
+  {
+    "content": "categories also means that budgets are changing they're moving around by a",
+    "start": 333
+  },
+  {
+    "content": "personas are being redefined right and the front-end economy is absolutely",
+    "start": 337
+  },
+  {
+    "content": "booming so so what does that mean for agencies well it's my very very deep",
+    "start": 341
+  },
+  {
+    "content": "felt belief and I will argue that from here on until the end of everything that",
+    "start": 347
+  },
+  {
+    "content": "agencies can tremendously benefit from adopting the gem stack and so much so I",
+    "start": 350
+  },
+  {
+    "content": "made in my life mission now so to build our workflows that enable agencies and",
+    "start": 356
+  },
+  {
+    "content": "companies to really tap in through these benefits for ever more use cases every",
+    "start": 360
+  },
+  {
+    "content": "day that grows if you go and look at the 16 sponsors out there everyone has its",
+    "start": 365
+  },
+  {
+    "content": "building and making this more viable as as we go on right and so in this",
+    "start": 369
+  },
+  {
+    "content": "conference we've been talking about how we deliver project faster and how we",
+    "start": 374
+  },
+  {
+    "content": "help companies reach customers in new ways and and and how we can become more",
+    "start": 378
+  },
+  {
+    "content": "competitive right and that nega fide we have an agency program and it's",
+    "start": 383
+  },
+  {
+    "content": "something that's for me personally it's extremely close to heart right and we",
+    "start": 386
+  },
+  {
+    "content": "have more and more agencies working with us and you're gonna be hearing for some",
+    "start": 390
+  },
+  {
+    "content": "of them and and and a lot of in my in this room",
+    "start": 393
+  },
+  {
+    "content": "and and together we want to promote the jam stack you know for us you see it's",
+    "start": 396
+  },
+  {
+    "content": "about working really closely with agencies and and and the gist of it is",
+    "start": 402
+  },
+  {
+    "content": "about accelerating what we see it's the real actual revolution behind the jam",
+    "start": 406
+  },
+  {
+    "content": "stank right it's not just about both static or service or API first or",
+    "start": 410
+  },
+  {
+    "content": "whatever you want to call it right it's about providing viable work force right",
+    "start": 414
+  },
+  {
+    "content": "it's about enabling joint solutions that allows for the transition to the jam",
+    "start": 417
+  },
+  {
+    "content": "stack you can't just say well these are the troll sets this award together good",
+    "start": 422
+  },
+  {
+    "content": "luck right there is so much education that has to be done right there's so",
+    "start": 425
+  },
+  {
+    "content": "much embracing there's so much understanding how these companies also",
+    "start": 430
+  },
+  {
+    "content": "have to stop thinking about it differently how they have to cater it",
+    "start": 433
+  },
+  {
+    "content": "have to have to maintain things right and so that's what our agency program is",
+    "start": 435
+  },
+  {
+    "content": "about it's about education joint case studies collaterals certifications",
+    "start": 439
+  },
+  {
+    "content": "tooling features services in these early stages is about staying very close to",
+    "start": 443
+  },
+  {
+    "content": "each other understanding your feedback in leveraging that in how we build out",
+    "start": 448
+  },
+  {
+    "content": "the services and how we look at the roadmap right so so again we are so",
+    "start": 452
+  },
+  {
+    "content": "excited to see the momentum for this conference I'm so excited to stand here",
+    "start": 457
+  },
+  {
+    "content": "in front of you this is this is really a dream come true and and and and and and",
+    "start": 461
+  },
+  {
+    "content": "most of all just because there's so much potential to tap in so and I can't be",
+    "start": 465
+  },
+  {
+    "content": "more excited about what's to come and with that I'd like to pass the mic back",
+    "start": 470
+  },
+  {
+    "content": "so a man that will fly and the face of danger is the whole Ellsworth",
+    "start": 473
+  },
+  {
+    "content": "you",
+    "start": 481
+  },
+  {
+    "content": "[Applause]",
+    "start": 483
+  }
+]

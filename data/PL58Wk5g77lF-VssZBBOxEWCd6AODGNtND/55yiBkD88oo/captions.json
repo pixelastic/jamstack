@@ -1,0 +1,3450 @@
+[
+  {
+    "content": "hello everyone and welcome to another episode of learn with Jason today on the",
+    "start": 6
+  },
+  {
+    "content": "show we have the wonderful Joycelyn how are you good thanks so much for joining",
+    "start": 13
+  },
+  {
+    "content": "us we are all very excited to to start playing with some apps and some api's",
+    "start": 19
+  },
+  {
+    "content": "but before we jump into that for those of us who aren't familiar with your work",
+    "start": 26
+  },
+  {
+    "content": "do you want to give a background sure yeah I'm a developer advocate over at",
+    "start": 29
+  },
+  {
+    "content": "postman so it's a popular API development till I see you have an",
+    "start": 34
+  },
+  {
+    "content": "Apollo mug so I do have an Apollo mug yes",
+    "start": 39
+  },
+  {
+    "content": "commonly used for graphic well if that's the right Apollo commonly uses the rest",
+    "start": 42
+  },
+  {
+    "content": "client for graph QL postman similarly has is a client that you can use to",
+    "start": 47
+  },
+  {
+    "content": "interact with HTTP so graph QL soap rest that kind of thing the chat wants to",
+    "start": 52
+  },
+  {
+    "content": "know if we're wearing matching shirts and now I kind of want to know that -",
+    "start": 58
+  },
+  {
+    "content": "did we wear oh no i'm oktoberfest today post me I like your shirt yours is cool",
+    "start": 61
+  },
+  {
+    "content": "- all right I don't know how do we get our hands on those I'll send you one",
+    "start": 66
+  },
+  {
+    "content": "yeah okay so yeah so postman is like okay so if I'm gonna try to put postman",
+    "start": 70
+  },
+  {
+    "content": "into an elevator pitch it is a an app that makes it really easy to test rest",
+    "start": 82
+  },
+  {
+    "content": "api's that is what you would probably tell your friend we actually have a",
+    "start": 91
+  },
+  {
+    "content": "different elevator pitch that's like this big",
+    "start": 97
+  },
+  {
+    "content": "so postman can do a lot of stuff but I think for the purposes of what we're",
+    "start": 99
+  },
+  {
+    "content": "gonna use today that's a perfect elevator pitch okay cool yeah I actually",
+    "start": 104
+  },
+  {
+    "content": "I'm not I'm curious like what else can it do because I've always thought of it",
+    "start": 110
+  },
+  {
+    "content": "as like my experience of postman is that I get kind of a a field where I",
+    "start": 113
+  },
+  {
+    "content": "can put the rest endpoint and then I've got a selection of fields where I can",
+    "start": 120
+  },
+  {
+    "content": "control like the headers that I send and then where I can put in the body that I",
+    "start": 123
+  },
+  {
+    "content": "want to send and then I get a results output so that's the as far as I've been",
+    "start": 128
+  },
+  {
+    "content": "aware you know grant and I kind of live Rock sometimes I I thought I thought",
+    "start": 133
+  },
+  {
+    "content": "that was the whole app so what else can we do with it yeah and actually you said",
+    "start": 137
+  },
+  {
+    "content": "it pretty well a lot of people use postman people in the chat are using",
+    "start": 141
+  },
+  {
+    "content": "postman and you use it to test right use it to poke it poke it endpoints and kind",
+    "start": 145
+  },
+  {
+    "content": "of inspect what you're getting back but that you can actually write a test in",
+    "start": 150
+  },
+  {
+    "content": "postman so testers can poke it post me and like",
+    "start": 155
+  },
+  {
+    "content": "test it like the English word test but you can also write a test and I've been",
+    "start": 158
+  },
+  {
+    "content": "with a company three years and over three years they've really expanded the",
+    "start": 164
+  },
+  {
+    "content": "tool chain from just debugging and inspection okay design development",
+    "start": 168
+  },
+  {
+    "content": "monitoring documentation like a bunch of a bunch of stuff around the entire",
+    "start": 173
+  },
+  {
+    "content": "development flow all right okay very cool so I'm excited to play with that so",
+    "start": 177
+  },
+  {
+    "content": "let's talk a little bit about what we're going to do today so our stated",
+    "start": 183
+  },
+  {
+    "content": "intention is we want to build a jam stack app that uses some REST API stew",
+    "start": 189
+  },
+  {
+    "content": "power and that's a pretty common workflow for the jam stack but we also",
+    "start": 194
+  },
+  {
+    "content": "want to do some some client-side stuff and when you're doing client-side API",
+    "start": 198
+  },
+  {
+    "content": "calls a lot of times you're gonna need an API token that's how you explain or",
+    "start": 203
+  },
+  {
+    "content": "that's how you prove to the server that you're contacting who you are and that",
+    "start": 208
+  },
+  {
+    "content": "you have the rights to do the thing that you want to do in a jam stack app this",
+    "start": 212
+  },
+  {
+    "content": "is kind of tricky because like everything that you're publishing is a",
+    "start": 217
+  },
+  {
+    "content": "static asset which means like where do you put the token how do you because if",
+    "start": 221
+  },
+  {
+    "content": "you put the token into your client-side JavaScript somebody can just scrape that",
+    "start": 225
+  },
+  {
+    "content": "then they can go and personate you and suddenly you're in a ton of trouble",
+    "start": 229
+  },
+  {
+    "content": "because you've just exposed really sensitive information so we were gonna",
+    "start": 232
+  },
+  {
+    "content": "show a couple of things today first I think you were gonna walk us through how",
+    "start": 237
+  },
+  {
+    "content": "we can do those tokens in postman securely and then we were also gonna",
+    "start": 242
+  },
+  {
+    "content": "look at how we can do secure rest calls through Jam sack apps using servlets",
+    "start": 247
+  },
+  {
+    "content": "functions so basically I think we can we can start by kind of pulling the data",
+    "start": 254
+  },
+  {
+    "content": "that we need using postman and then we can go as far as we can inside a postman",
+    "start": 261
+  },
+  {
+    "content": "and then ready we'll swap over deploy it to",
+    "start": 267
+  },
+  {
+    "content": "nullify and then set up a service function that can make those rest calls",
+    "start": 270
+  },
+  {
+    "content": "for us securely does that seem like am I am I getting that right did I miss",
+    "start": 273
+  },
+  {
+    "content": "anything yeah I can help you with the postman part I can't help you with the",
+    "start": 277
+  },
+  {
+    "content": "net laughs apart you can actually build a complete jam stack app in postman um",
+    "start": 281
+  },
+  {
+    "content": "yeah but like it's then people need postman to like render it and you're not",
+    "start": 285
+  },
+  {
+    "content": "hitting it through like I guess sure okay I think for yourself yeah okay well",
+    "start": 290
+  },
+  {
+    "content": "cool yeah so let's let's uh I mean let's let's write some code right let's switch",
+    "start": 298
+  },
+  {
+    "content": "over and see what happens so I I'm looking at a blank desktop so what",
+    "start": 301
+  },
+  {
+    "content": "should I do first if we want to start building this",
+    "start": 307
+  },
+  {
+    "content": "app so what are we building so I think we need some kind of a token deck and my",
+    "start": 311
+  },
+  {
+    "content": "guess is that I'm going to need to show this token on-screen because we're gonna",
+    "start": 318
+  },
+  {
+    "content": "have to be putting them around so my thought is that we can do something kind",
+    "start": 323
+  },
+  {
+    "content": "of low impact like unsplash that I can roll after the stream so that to me",
+    "start": 328
+  },
+  {
+    "content": "seems like an easy way to not necessarily give away the toe you know",
+    "start": 333
+  },
+  {
+    "content": "like not not get ourselves into any trouble it can't you know it won't cost",
+    "start": 338
+  },
+  {
+    "content": "money I might get banned off on splash which",
+    "start": 341
+  },
+  {
+    "content": "would be a huge bummer if the chat abuses my token which I hope you don't",
+    "start": 344
+  },
+  {
+    "content": "you actors and then and then I'll roll the token after the stream and we'll be",
+    "start": 347
+  },
+  {
+    "content": "able to to do that so that would be where I would start does that seem like",
+    "start": 354
+  },
+  {
+    "content": "a reasonable starting point yeah so I I was just asking you hackers you are you",
+    "start": 357
+  },
+  {
+    "content": "dirty hackers I want to put some of these in mine so some people will start",
+    "start": 364
+  },
+  {
+    "content": "with their API first and some people will start with the front end of view",
+    "start": 373
+  },
+  {
+    "content": "first and so there is a way to do both with postman but if we want to start",
+    "start": 377
+  },
+  {
+    "content": "directly from the API just to kind of start in exploring it and seeing what we",
+    "start": 382
+  },
+  {
+    "content": "get back let's look at the documentation for unsplash yeah so I think what would",
+    "start": 386
+  },
+  {
+    "content": "probably be an a good one I think is if we go and look at there",
+    "start": 392
+  },
+  {
+    "content": "documentation I believe we can do a search and so we can set up a basically",
+    "start": 398
+  },
+  {
+    "content": "a app and what that app is gonna do is let you search for a term and get a few",
+    "start": 404
+  },
+  {
+    "content": "results back from unsplash that way it's it's you know I don't want to focus too",
+    "start": 410
+  },
+  {
+    "content": "much on what the app does I want to focus on what we're doing to enable the",
+    "start": 414
+  },
+  {
+    "content": "app and I think you know a single a single thing is probably the right thing",
+    "start": 417
+  },
+  {
+    "content": "we could even do let's see there's here we go there is a search so we send in a",
+    "start": 421
+  },
+  {
+    "content": "search term we will be able to get the first page we can limit to 10 that's",
+    "start": 427
+  },
+  {
+    "content": "fine so basically we'll get the first 10 images for a given search term and I",
+    "start": 434
+  },
+  {
+    "content": "think we can just leave the rest of these is default that does that seem",
+    "start": 440
+  },
+  {
+    "content": "reasonable yep and I've never worked with the unsplash where is the off so",
+    "start": 444
+  },
+  {
+    "content": "I'm not in yet so let me let me login I think I have a I think I have two but",
+    "start": 450
+  },
+  {
+    "content": "I've never worked with their API can't believe I have it okay so I'm just gonna",
+    "start": 472
+  },
+  {
+    "content": "get signed up real quick and let's see if it wants to let me do",
+    "start": 477
+  },
+  {
+    "content": "this now I need this again generate a password okay all right I have I have",
+    "start": 487
+  },
+  {
+    "content": "joined so demo apps a perfect that's what we want we want a demo app and then",
+    "start": 499
+  },
+  {
+    "content": "I won't upgrade it to production so that's fine we just get rate limited",
+    "start": 503
+  },
+  {
+    "content": "which is totally acceptable so let's see if it will let us build a demo app",
+    "start": 507
+  },
+  {
+    "content": "non-automated yep okay yep oh don't worry we're gonna roll it so yes do not",
+    "start": 515
+  },
+  {
+    "content": "okay yeah all right so this is a demo app to show how to securely make",
+    "start": 528
+  },
+  {
+    "content": "requests to rest api's jams",
+    "start": 547
+  },
+  {
+    "content": "all right so now we have I don't want to apply for production I want to get my",
+    "start": 558
+  },
+  {
+    "content": "credentials here okay so here's here's the access key for our",
+    "start": 567
+  },
+  {
+    "content": "demo app and with this I believe if we go and look at the documentation again I",
+    "start": 573
+  },
+  {
+    "content": "should be able to authorization you just send in your access key right so that's",
+    "start": 580
+  },
+  {
+    "content": "that's perfect that's what we need is just this this access key so at this",
+    "start": 592
+  },
+  {
+    "content": "point we're ready to actually test this out which means we need postman postman",
+    "start": 598
+  },
+  {
+    "content": "yep okay oh no are you gonna download it",
+    "start": 602
+  },
+  {
+    "content": "from scratch I sure AM okay fingers crossed okay this one right and then I",
+    "start": 604
+  },
+  {
+    "content": "need to download the app there we go Mac Bing if we run into problems here I",
+    "start": 612
+  },
+  {
+    "content": "can't help you I have only downloaded postman once only once yeah I had it a",
+    "start": 633
+  },
+  {
+    "content": "long time ago so yet so like I want to make something clear here what we're",
+    "start": 642
+  },
+  {
+    "content": "doing with unsplash has has very little to do with like the the app itself is",
+    "start": 655
+  },
+  {
+    "content": "kind of just the it's in the govern right we're we we need something that we",
+    "start": 661
+  },
+  {
+    "content": "send a token with so that we can show how to keep those tokens safe um what",
+    "start": 667
+  },
+  {
+    "content": "we're doing with the app is kind of incidental right so all we really want",
+    "start": 673
+  },
+  {
+    "content": "to do here is make a request that that requires a token so that we can show how",
+    "start": 676
+  },
+  {
+    "content": "we can write the code and ship the code without exposing that token",
+    "start": 683
+  },
+  {
+    "content": "so here we go it just it oh there we go things are happening all right so I've",
+    "start": 688
+  },
+  {
+    "content": "got postman over on my other screen I'm dragging it into applications and now we",
+    "start": 693
+  },
+  {
+    "content": "should be able to hear yet I think I might have to open it once before it",
+    "start": 698
+  },
+  {
+    "content": "shows up in Alfred all right postman here opening what's with the corgis so",
+    "start": 705
+  },
+  {
+    "content": "the corgis are part of a it's a community of like creators and and I I",
+    "start": 725
+  },
+  {
+    "content": "don't really even know what to me it's a very like it's a supportive community of",
+    "start": 735
+  },
+  {
+    "content": "people it's a discord called the party Corgi discord it was kind of kicked off",
+    "start": 739
+  },
+  {
+    "content": "from Christmas Guardi stream and then has expanded over time to include a",
+    "start": 744
+  },
+  {
+    "content": "whole bunch of streamers content creators bloggers open-source maintainer",
+    "start": 748
+  },
+  {
+    "content": "x' and people who are like interested in getting into those things so it kind of",
+    "start": 752
+  },
+  {
+    "content": "spans from people who've been doing in a long time to people who are still",
+    "start": 757
+  },
+  {
+    "content": "looking for their first job and and this has been it's but it's really good so",
+    "start": 760
+  },
+  {
+    "content": "somebody have what do you want to run this",
+    "start": 765
+  },
+  {
+    "content": "and yes so as a result there are a huge number of Corgi jokes on this stream and",
+    "start": 769
+  },
+  {
+    "content": "and some of the other streams in the discord Network",
+    "start": 778
+  },
+  {
+    "content": "hey so once upon a time I apparently had this app and I I did a bunch of stuff",
+    "start": 783
+  },
+  {
+    "content": "with it so I'm gonna clear all these because they're very old all right so",
+    "start": 788
+  },
+  {
+    "content": "I'm ready now I want to do some stuff okay",
+    "start": 797
+  },
+  {
+    "content": "so typically what people will do if unsplash doesn't have like you know curl",
+    "start": 801
+  },
+  {
+    "content": "requests or a postman collection or something like that you could just",
+    "start": 808
+  },
+  {
+    "content": "recreate the request in postman yeah so that was kind of what I was thinking is",
+    "start": 811
+  },
+  {
+    "content": "like I'm gonna do something like this we wanted to do a search and our search was",
+    "start": 817
+  },
+  {
+    "content": "where photos search search photos okay so get search photos so I'm gonna run to",
+    "start": 825
+  },
+  {
+    "content": "get search photos no trailing slash okay so that makes sense clicks and then it's",
+    "start": 837
+  },
+  {
+    "content": "gonna fail okay then what so you need to authenticate it by having it looks like",
+    "start": 846
+  },
+  {
+    "content": "there were two different ways that they offered to authenticate one was",
+    "start": 856
+  },
+  {
+    "content": "including a query parameter yeah it did look like that so let's look at where",
+    "start": 859
+  },
+  {
+    "content": "was it authentication so we can do an authorization like that that doesn't",
+    "start": 865
+  },
+  {
+    "content": "really look like what we're after but it looks like we can send an authorization",
+    "start": 872
+  },
+  {
+    "content": "header which is probably the right move cuz we wouldn't want to put this in the",
+    "start": 876
+  },
+  {
+    "content": "key in the URL right cuz then it would show up and network request",
+    "start": 881
+  },
+  {
+    "content": "I guess the talker is agent header does too but it's at least slightly harder to",
+    "start": 884
+  },
+  {
+    "content": "find yeah so pick one okay so yeah we'll do we'll do an authorization header okay",
+    "start": 889
+  },
+  {
+    "content": "so if you look at the way this is set up in the documentation",
+    "start": 897
+  },
+  {
+    "content": "it's an authorization header with client ID : I believe or client ID space",
+    "start": 901
+  },
+  {
+    "content": "your access key yeah so what we can do is and actually you went to one area in",
+    "start": 908
+  },
+  {
+    "content": "postman yeah I found a tab called authorization yeah so if you click that",
+    "start": 915
+  },
+  {
+    "content": "drop down right below that type these are the most common types of off but",
+    "start": 920
+  },
+  {
+    "content": "this one seems like a slightly different like a custom off yeah it won't be there",
+    "start": 927
+  },
+  {
+    "content": "so we'll have to manually add a header okay so I'm in headers and then with",
+    "start": 932
+  },
+  {
+    "content": "this is this just like I just write the header out yeah look at the autocomplete",
+    "start": 937
+  },
+  {
+    "content": "yeah beautiful okay so then it was client ID and then I",
+    "start": 942
+  },
+  {
+    "content": "need to put my key there so I'll grab it from here okay so there's my ID so one",
+    "start": 946
+  },
+  {
+    "content": "thing is that normally if you're just working on your own you're in your own",
+    "start": 954
+  },
+  {
+    "content": "at the very top in center you see my workspace right so your hard coding you",
+    "start": 958
+  },
+  {
+    "content": "just paste it in that key everyone can well no one can see it",
+    "start": 964
+  },
+  {
+    "content": "except for all of us but one way and I think you're gonna go here with your",
+    "start": 967
+  },
+  {
+    "content": "funk with your cloud you know later on but we kind of want to protect this",
+    "start": 973
+  },
+  {
+    "content": "secret yes so if you can copy that to your clipboard and then variable hackers",
+    "start": 978
+  },
+  {
+    "content": "you you dirty hackers and and when you say variable is it do you mean like just",
+    "start": 985
+  },
+  {
+    "content": "kind of do like a environment variable like a bash variable so we have postman",
+    "start": 991
+  },
+  {
+    "content": "variables and you are about to enter a bash variable syntax the syntax for",
+    "start": 998
+  },
+  {
+    "content": "postman is double curly braces and then the name of the variable okay alright so",
+    "start": 1003
+  },
+  {
+    "content": "then I would do like what would we call this we call this unsplash access token",
+    "start": 1008
+  },
+  {
+    "content": "okay so now I need to create this song I spell it right first then I need to",
+    "start": 1020
+  },
+  {
+    "content": "create this somewhere yeah so it's if you hover over that right now it's",
+    "start": 1025
+  },
+  {
+    "content": "unresolved so like you said you can create it as an environment variable",
+    "start": 1030
+  },
+  {
+    "content": "there's a bunch of different variable types but it's all up to the top right",
+    "start": 1034
+  },
+  {
+    "content": "that gear icon here that one yeah you can add an environment okay and then",
+    "start": 1038
+  },
+  {
+    "content": "this is production or this is demo demo environment right or whatever yeah like",
+    "start": 1046
+  },
+  {
+    "content": "on unstuck yeah yeah okay so then we would do like on splash access token",
+    "start": 1053
+  },
+  {
+    "content": "like this mm-hmm and then do I just set that yep so you",
+    "start": 1062
+  },
+  {
+    "content": "can go ahead and set it there in the initial value and then if you don't want",
+    "start": 1068
+  },
+  {
+    "content": "for example your teammates to have access to it you would leave it in",
+    "start": 1072
+  },
+  {
+    "content": "initial value the current value is postman's version of a session variable",
+    "start": 1077
+  },
+  {
+    "content": "so like if I were to if I wanted to like make a request that would then update",
+    "start": 1081
+  },
+  {
+    "content": "something or I wanted somebody to be able to to sit I'm trying ok how would I",
+    "start": 1087
+  },
+  {
+    "content": "use this what's a what's a use case a use case is if we're on the same team",
+    "start": 1092
+  },
+  {
+    "content": "and you want to keep your access token yours and I have my own then you would",
+    "start": 1097
+  },
+  {
+    "content": "actually pop your token in to current value instead of initial value I will",
+    "start": 1104
+  },
+  {
+    "content": "see your initial value okay so if I put it into current value then would you",
+    "start": 1109
+  },
+  {
+    "content": "still be able to use it I will not be able to use it but if you want to share",
+    "start": 1118
+  },
+  {
+    "content": "it with me then put it in initial so it's one way that you can keep yourself",
+    "start": 1122
+  },
+  {
+    "content": "your stuff secret so there's two levels of Secrets that we're keeping here right",
+    "start": 1126
+  },
+  {
+    "content": "one is the environment variable secret and the other one is do you want to",
+    "start": 1130
+  },
+  {
+    "content": "share it with your teammates or not got it okay so so basically I would be able",
+    "start": 1134
+  },
+  {
+    "content": "to like override this locally if I wanted to use a different API totally",
+    "start": 1139
+  },
+  {
+    "content": "okay now that seemed okay that seems good so then I just hit add and I'm done",
+    "start": 1144
+  },
+  {
+    "content": "or do I need to hit her sister can hit reset all oh wait do you want to",
+    "start": 1149
+  },
+  {
+    "content": "share it with me or not yeah yeah let's let's let's assume that this would be",
+    "start": 1155
+  },
+  {
+    "content": "like where you know we're on a team we're using a company app and so we",
+    "start": 1159
+  },
+  {
+    "content": "would need the we would need to share this access token",
+    "start": 1163
+  },
+  {
+    "content": "yeah hit reset all and then hit add okay yeah okay that's cool and so then from",
+    "start": 1165
+  },
+  {
+    "content": "here I could send it to you or tomato you can share it in post minutes to a",
+    "start": 1175
+  },
+  {
+    "content": "more public setting yep right so when I hit invite I would I would put in my",
+    "start": 1181
+  },
+  {
+    "content": "team's emails and then they would get a note that like they have access to this",
+    "start": 1186
+  },
+  {
+    "content": "environment now yep cool that's that's super handy and really really cool for",
+    "start": 1190
+  },
+  {
+    "content": "my like sharing keys was always really challenging and like I'm not gonna name",
+    "start": 1196
+  },
+  {
+    "content": "names but I've worked at companies where the the way that you shared keys was",
+    "start": 1201
+  },
+  {
+    "content": "there was a text file that just got shared around to everyone which is",
+    "start": 1206
+  },
+  {
+    "content": "terrifying but like that's you know that's how companies had to do it",
+    "start": 1210
+  },
+  {
+    "content": "because what else were you gonna do I've seen like one password has gotten a lot",
+    "start": 1214
+  },
+  {
+    "content": "better at this and sharing secret stuff but this is nice because it's right in",
+    "start": 1217
+  },
+  {
+    "content": "my workflow and I'm not like copying out of one password and then remembering to",
+    "start": 1220
+  },
+  {
+    "content": "delete that value if I share it this is just building which is really you're not",
+    "start": 1225
+  },
+  {
+    "content": "messaging somebody or like emailing them a file yeah okay so I'm done here right",
+    "start": 1229
+  },
+  {
+    "content": "I can just close out close that no no you need to select that environment from",
+    "start": 1235
+  },
+  {
+    "content": "that drop-down at the top oh look at that",
+    "start": 1240
+  },
+  {
+    "content": "nice okay cool so it's it's set and it's not visible by default but if I hover",
+    "start": 1243
+  },
+  {
+    "content": "over I can see it so that would be a way to to to make this and now if I run this",
+    "start": 1249
+  },
+  {
+    "content": "search oh I need to add some parameters so let's add the query and we'll search",
+    "start": 1255
+  },
+  {
+    "content": "for recording of course of course and now we've got",
+    "start": 1259
+  },
+  {
+    "content": "let's get a look at regular size it's all one and we have a picture of a",
+    "start": 1265
+  },
+  {
+    "content": "Courtney so I mean that's that's awesome that is really nice I love that we can",
+    "start": 1272
+  },
+  {
+    "content": "get what do these do can't be Joey that's okay",
+    "start": 1277
+  },
+  {
+    "content": "what does visualize mean the visualize is a newer feature but that's what I",
+    "start": 1283
+  },
+  {
+    "content": "meant that you can fill the gym stack app within your oh yeah I get it so like",
+    "start": 1287
+  },
+  {
+    "content": "if you wanted to I could do something where I could ship like a like I could",
+    "start": 1293
+  },
+  {
+    "content": "use the data out of the response to show like a simple preview so that people",
+    "start": 1301
+  },
+  {
+    "content": "could really quickly review what they were getting back okay almost like an",
+    "start": 1305
+  },
+  {
+    "content": "internal tool yeah you could actually make like a gallery or a collage of your",
+    "start": 1308
+  },
+  {
+    "content": "photos and then just customize it with HTML CSS that's really cool",
+    "start": 1313
+  },
+  {
+    "content": "okay that is that is very cool awesome I like this a lot",
+    "start": 1319
+  },
+  {
+    "content": "so this I mean but this is great this is what we needed right so we've we have",
+    "start": 1324
+  },
+  {
+    "content": "figured out like if we recap where we started we wanted to build this this",
+    "start": 1331
+  },
+  {
+    "content": "unsplash app and we want it to be able to query for a corgi or query for",
+    "start": 1337
+  },
+  {
+    "content": "whatever so if I go in and I had a different value we can we can say like",
+    "start": 1344
+  },
+  {
+    "content": "hats and then it's gonna run a new query and we'll get a picture of hats",
+    "start": 1348
+  },
+  {
+    "content": "so we basically now have the this is kind of like the the raw back-end that",
+    "start": 1357
+  },
+  {
+    "content": "we would need to power a an app if we want to show pictures of things we can",
+    "start": 1362
+  },
+  {
+    "content": "we can send up these requests we can get him back",
+    "start": 1367
+  },
+  {
+    "content": "so from and what's really nice about this too is that we were able to do that",
+    "start": 1370
+  },
+  {
+    "content": "with a shared client ID that's really handy so what are some other things that",
+    "start": 1377
+  },
+  {
+    "content": "we could I mean there's a bunch of buttons in here and I don't want to get",
+    "start": 1384
+  },
+  {
+    "content": "out of this too fast because I feel like it you you said that there's just a",
+    "start": 1386
+  },
+  {
+    "content": "whole lot more that postmen can do so even if we don't you",
+    "start": 1390
+  },
+  {
+    "content": "I'd love to kind of just take them take a poke around and see what's going on in",
+    "start": 1393
+  },
+  {
+    "content": "here yeah so it looked like there were three types of waste uh unsplash there",
+    "start": 1397
+  },
+  {
+    "content": "was a query parameter the one that we use which is adding an authorization",
+    "start": 1402
+  },
+  {
+    "content": "header and then there was an OAuth type I don't know which type but if we wanted",
+    "start": 1406
+  },
+  {
+    "content": "to build like a different type of off that we already looked at the",
+    "start": 1411
+  },
+  {
+    "content": "authorization tab and that allows us to it abstracts so say you're building this",
+    "start": 1414
+  },
+  {
+    "content": "app and then you're sharing it with your teammate and you've gotten it to work",
+    "start": 1420
+  },
+  {
+    "content": "they don't actually care about how it works",
+    "start": 1423
+  },
+  {
+    "content": "this abstracts and like makes it so that you don't have to understand as much",
+    "start": 1425
+  },
+  {
+    "content": "about the authorization process wait a second so does that mean that I can set",
+    "start": 1431
+  },
+  {
+    "content": "up like an OAuth workflow in here you can I'm not the OAuth expert but I",
+    "start": 1436
+  },
+  {
+    "content": "cannot walk you through how to do it if you want to do it",
+    "start": 1442
+  },
+  {
+    "content": "whoa okay so this like this postman provide a redirect URI and stuff so that",
+    "start": 1444
+  },
+  {
+    "content": "we can do that yeah if you actually if you want to just",
+    "start": 1452
+  },
+  {
+    "content": "open this up really quick the sorry the authorization tab and look at what yeah",
+    "start": 1455
+  },
+  {
+    "content": "I do I want to see this this is amazing okay so now um so see this too small can",
+    "start": 1461
+  },
+  {
+    "content": "people even read this no no sorry it's my it's my thing um yeah so click get",
+    "start": 1472
+  },
+  {
+    "content": "new access token that orange button okay so what yeah so you would enter in okay",
+    "start": 1479
+  },
+  {
+    "content": "hopefully you know a lot better than I do",
+    "start": 1488
+  },
+  {
+    "content": "okay so we want to send them to the authorized tab which would be the off",
+    "start": 1491
+  },
+  {
+    "content": "URL callback URL so we don't have this so this might not",
+    "start": 1503
+  },
+  {
+    "content": "work for us just because we don't have like we don't have a redirect URI setup",
+    "start": 1514
+  },
+  {
+    "content": "so we might not be able to set it up today oh yeah you do need to set your",
+    "start": 1522
+  },
+  {
+    "content": "permissions and scopes in unsplash for this to work got it okay so this this",
+    "start": 1526
+  },
+  {
+    "content": "may not be the this might be kind of more of a rabbit hole than we want to",
+    "start": 1531
+  },
+  {
+    "content": "fall down right now but this is really really powerful because we can go in and",
+    "start": 1535
+  },
+  {
+    "content": "we can set up like this is where we send the authorization when once we get that",
+    "start": 1539
+  },
+  {
+    "content": "data back we're going to send it to the token and it's gonna send back a code so",
+    "start": 1544
+  },
+  {
+    "content": "we can see here that we're getting an authorization code and so there's a lot",
+    "start": 1550
+  },
+  {
+    "content": "of like a lot of options here so do setting all this up and enabling",
+    "start": 1554
+  },
+  {
+    "content": "unsplash to work with postman like this postman will abstract the handshake that",
+    "start": 1560
+  },
+  {
+    "content": "happens behind the scenes and then just add your authorization header at the",
+    "start": 1565
+  },
+  {
+    "content": "time that you hit Send and you won't even see any of that stuff once you once",
+    "start": 1570
+  },
+  {
+    "content": "you set it up yeah that's really cool and so what we're what we would need",
+    "start": 1573
+  },
+  {
+    "content": "then is we would just take this this token the access token in the secret",
+    "start": 1579
+  },
+  {
+    "content": "drop those in here and here we would set a scope so we can do",
+    "start": 1584
+  },
+  {
+    "content": "something like public and then I don't know if we would even need a state I",
+    "start": 1588
+  },
+  {
+    "content": "think that's oh I don't we that we could said that but we don't I don't think we",
+    "start": 1592
+  },
+  {
+    "content": "need it and then we can send however we need to so I guess that would be kind of",
+    "start": 1596
+  },
+  {
+    "content": "trial and error try it one way if it works great if it doesn't switch the",
+    "start": 1602
+  },
+  {
+    "content": "other postman for you just go click click James listen like okay it works",
+    "start": 1605
+  },
+  {
+    "content": "now and then this becomes a complete like this kind of gets packaged up and",
+    "start": 1611
+  },
+  {
+    "content": "it'll just be stored so instead of having to set this up every time I can",
+    "start": 1616
+  },
+  {
+    "content": "just say I want to do an OAuth token yeah that is amazing yeah there's",
+    "start": 1619
+  },
+  {
+    "content": "inheritance too so if you you have one loose request right now what if you save",
+    "start": 1623
+  },
+  {
+    "content": "it to a folder or a collection and say you add like your app uses X number of",
+    "start": 1629
+  },
+  {
+    "content": "endpoints like 60 endpoints yeah you can have it all you can set it up once and",
+    "start": 1635
+  },
+  {
+    "content": "then have it inherits to the to the folder the direct",
+    "start": 1639
+  },
+  {
+    "content": "or the collection level okay i what do you think Jack should we try this cuz I",
+    "start": 1642
+  },
+  {
+    "content": "kind of want to get this to work and like I'm pretty sure that this is gonna",
+    "start": 1647
+  },
+  {
+    "content": "be a short episode if we tilt I expected this to be like pretty simple because",
+    "start": 1651
+  },
+  {
+    "content": "you know it's it's like this is the value of these approaches is like",
+    "start": 1658
+  },
+  {
+    "content": "postman makes this easy service functions make this easy but we're like",
+    "start": 1663
+  },
+  {
+    "content": "five minutes away from having a working Jam sack app so okay maybe what we",
+    "start": 1668
+  },
+  {
+    "content": "should do here's what I'm gonna do let's let's build the jam sack app and",
+    "start": 1672
+  },
+  {
+    "content": "then we'll come back and we'll do this with our extra time so that we",
+    "start": 1676
+  },
+  {
+    "content": "definitely get the the goal and then we'll come back and play it with our",
+    "start": 1680
+  },
+  {
+    "content": "bonus time we have ambitious people in the chat the chat I love the chat",
+    "start": 1684
+  },
+  {
+    "content": "they're like they're like the best the best bad influences all right let me",
+    "start": 1688
+  },
+  {
+    "content": "pull up a pull up my terminal here and let's create a new folder so we're gonna",
+    "start": 1695
+  },
+  {
+    "content": "create a project will call it secure jam stack API",
+    "start": 1705
+  },
+  {
+    "content": "requests sure and then we're gonna move into it we will npm in it and then we'll",
+    "start": 1714
+  },
+  {
+    "content": "call it secure API yep okay good good I should have just run the yes command",
+    "start": 1721
+  },
+  {
+    "content": "okay so so now if I let's get in it as well and I'm going to use I don't know",
+    "start": 1731
+  },
+  {
+    "content": "if I need anything I can probably just run this as a like a plain old HTML file",
+    "start": 1741
+  },
+  {
+    "content": "I think so let's do that I'm gonna I'm gonna install as a development",
+    "start": 1746
+  },
+  {
+    "content": "dependency serve so that we can run like a just a local server for it so let's",
+    "start": 1751
+  },
+  {
+    "content": "let's open this up and in here we now have a really straightforward app it",
+    "start": 1757
+  },
+  {
+    "content": "doesn't do anything yet and it has the serve dependency which is which is nice",
+    "start": 1766
+  },
+  {
+    "content": "for running to local servers so let's create index dot now let's call it let's",
+    "start": 1771
+  },
+  {
+    "content": "put it in source we'll call it index dot HTML and inside here we'll just set up",
+    "start": 1776
+  },
+  {
+    "content": "as simple as site as we can call it unsplash photo search and",
+    "start": 1782
+  },
+  {
+    "content": "securely search unsplash using the gem stack and serverless functions and then",
+    "start": 1795
+  },
+  {
+    "content": "down here we're gonna need to set up a forum and then below that we need to",
+    "start": 1807
+  },
+  {
+    "content": "display results okay so this is this is our like basic setup here the other",
+    "start": 1822
+  },
+  {
+    "content": "thing that we're gonna need is a service function so let's set up our functions",
+    "start": 1830
+  },
+  {
+    "content": "and then inside I'm gonna create one called",
+    "start": 1835
+  },
+  {
+    "content": "search or we'll call it unsplash search and inside here we can export Handler",
+    "start": 1839
+  },
+  {
+    "content": "and that is going to get the event and it'll return for now it's going to",
+    "start": 1848
+  },
+  {
+    "content": "return a status code of 200 and a body of miss json stringify to do it will",
+    "start": 1859
+  },
+  {
+    "content": "make served work okay so that is our service function and",
+    "start": 1868
+  },
+  {
+    "content": "we can call that if we create our form so let's make a form and our action will",
+    "start": 1874
+  },
+  {
+    "content": "be alright we probably want this to be async because otherwise it would have to",
+    "start": 1882
+  },
+  {
+    "content": "reload the page and that's gonna be a mess so instead we'll just yeah good can",
+    "start": 1888
+  },
+  {
+    "content": "you just I've worked with serverless functions where I'm in the cloud",
+    "start": 1892
+  },
+  {
+    "content": "provider and adding my function but like what do you can you tell me a little bit",
+    "start": 1896
+  },
+  {
+    "content": "more about like I guess the scaffolding of this project and how yeah so what",
+    "start": 1900
+  },
+  {
+    "content": "we're doing here is we're using nullify functions so what nullify like the whole",
+    "start": 1905
+  },
+  {
+    "content": "goal of what we're doing with nullify is trying to make it really really simple",
+    "start": 1911
+  },
+  {
+    "content": "to get something onto the Internet and the way that we do that is by saying if",
+    "start": 1915
+  },
+  {
+    "content": "you have a folder full of files we will serve them so we want this indexed out",
+    "start": 1919
+  },
+  {
+    "content": "HTML to be our website and then going a step further than that nullify also",
+    "start": 1924
+  },
+  {
+    "content": "provides functions which is a abstraction over the top of AWS lambda",
+    "start": 1930
+  },
+  {
+    "content": "and the goal is rather than having to go to lambda define your function set up",
+    "start": 1935
+  },
+  {
+    "content": "the the config files you know set up your routing and and all of that stuff",
+    "start": 1941
+  },
+  {
+    "content": "you can just drop a function into a folder tell nullify where that folder is",
+    "start": 1946
+  },
+  {
+    "content": "and we will deploy all of that for you so yeah go ahead",
+    "start": 1952
+  },
+  {
+    "content": "so your your notify hosts all of the files including when you set up the",
+    "start": 1957
+  },
+  {
+    "content": "function it'll read from that file in your source control and then from the",
+    "start": 1963
+  },
+  {
+    "content": "files you can also invoke those instead of invoking like relative to the file",
+    "start": 1968
+  },
+  {
+    "content": "you're invoking to the cloud yeah so when you deploy what will happen is",
+    "start": 1973
+  },
+  {
+    "content": "nella Phi will will find actually let me set up the file that we'll use to",
+    "start": 1977
+  },
+  {
+    "content": "explain this a little bit better so basically when we get to our build we're",
+    "start": 1982
+  },
+  {
+    "content": "gonna say that we want to publish as our website the source directory our",
+    "start": 1986
+  },
+  {
+    "content": "functions live in the functions directory and our",
+    "start": 1991
+  },
+  {
+    "content": "command is whatever we want to run when we build and so like right now there's",
+    "start": 1996
+  },
+  {
+    "content": "no so it'll just run nothing but if I go in",
+    "start": 2002
+  },
+  {
+    "content": "now and I run that with like dev I hope it works on the first try oh I forgot to",
+    "start": 2007
+  },
+  {
+    "content": "forgot to tell it to use the source directory for that so lets directory is",
+    "start": 2014
+  },
+  {
+    "content": "source and then I open it are you doing what don't you like okay so I think I",
+    "start": 2020
+  },
+  {
+    "content": "just need to tell it what did you alright",
+    "start": 2035
+  },
+  {
+    "content": "let me just do this way because so we will say that the command is going to be",
+    "start": 2037
+  },
+  {
+    "content": "and it'll be just serve stores right so now if I run bad to make sure that works",
+    "start": 2049
+  },
+  {
+    "content": "NPM run dev takes this to serve source which serves our function okay that's",
+    "start": 2058
+  },
+  {
+    "content": "what we want so then in dev we also want to run that npm run dev and i think",
+    "start": 2064
+  },
+  {
+    "content": "that'll just do it we made some changes to nullify Devon so I'm still trying to",
+    "start": 2073
+  },
+  {
+    "content": "figure out exactly how it all works um let's see it is I'm able to determine",
+    "start": 2077
+  },
+  {
+    "content": "public folder okay so I did that oh boy this is what I get for trying to do I",
+    "start": 2091
+  },
+  {
+    "content": "notice you didn't look at the dots I know I'm just I'm out here trying to do",
+    "start": 2103
+  },
+  {
+    "content": "stuff from memory and I'm gonna regret it",
+    "start": 2107
+  },
+  {
+    "content": "um okay so let's let's go to the box I'm gonna look for the dev where's my block",
+    "start": 2109
+  },
+  {
+    "content": "oh my god I'm in a loop okay well if I see live that's what I'm",
+    "start": 2119
+  },
+  {
+    "content": "looking for so the dev block shows me a command am I doing this right",
+    "start": 2125
+  },
+  {
+    "content": "I swear I'm doing this right publish is this maybe that's the whole problem is I",
+    "start": 2136
+  },
+  {
+    "content": "just didn't have that published a man so let's try that again",
+    "start": 2142
+  },
+  {
+    "content": "it didn't detect my app server we're doing y'all what's going wrong here",
+    "start": 2153
+  },
+  {
+    "content": "I definitely should have read the docs uh I don't know why it's not reading my",
+    "start": 2160
+  },
+  {
+    "content": "stuff you're being very very rude to me now if",
+    "start": 2167
+  },
+  {
+    "content": "I dad um okay well we need to figure this out because we need to make this",
+    "start": 2172
+  },
+  {
+    "content": "work so what are you doing computer why dad why are you like this very much how",
+    "start": 2178
+  },
+  {
+    "content": "I feel right now so my port is quadruple eights work being very frustrating at",
+    "start": 2187
+  },
+  {
+    "content": "the moment okay so now if I Deb that's what you're supposed to do here's the",
+    "start": 2202
+  },
+  {
+    "content": "published directory okay if I look for mine elephant Ammal it's there and so I",
+    "start": 2213
+  },
+  {
+    "content": "run that laughs I dad and it does pick up this stuff",
+    "start": 2223
+  },
+  {
+    "content": "like do I need the it's always what I'm trying to show something off that it",
+    "start": 2234
+  },
+  {
+    "content": "just straight up quits on me how's your morning going your chat is hilarious",
+    "start": 2247
+  },
+  {
+    "content": "mmhmm yeah they enjoy my pain alright um maybe",
+    "start": 2257
+  },
+  {
+    "content": "maybe now are you gonna read my my stuff why don't you want to there is an app",
+    "start": 2269
+  },
+  {
+    "content": "server detected that's yep what's up Brian I didn't didn't even see",
+    "start": 2278
+  },
+  {
+    "content": "you come in this is very confusing to me okay",
+    "start": 2286
+  },
+  {
+    "content": "so the function server is listening so what I'm curious about is if we run if I",
+    "start": 2296
+  },
+  {
+    "content": "just run it with source is it gonna I did set the directory flag do I need to",
+    "start": 2305
+  },
+  {
+    "content": "just turn this off that's my fault that is definitely on me I just didn't need",
+    "start": 2317
+  },
+  {
+    "content": "that that dev server at all so now if I was running it for me",
+    "start": 2329
+  },
+  {
+    "content": "but now if I go to nullify functions unsplash search we get back the the",
+    "start": 2332
+  },
+  {
+    "content": "response so so basically we are listen Chris you did sass okay",
+    "start": 2341
+  },
+  {
+    "content": "so we've got we've got the the server is now running where we have the ability to",
+    "start": 2356
+  },
+  {
+    "content": "write a file here and we've got the ability to run functions here so to talk",
+    "start": 2362
+  },
+  {
+    "content": "about what's happening going back to the original question before I fell down",
+    "start": 2370
+  },
+  {
+    "content": "that little miserable rabbit hole we what we're doing is we're telling",
+    "start": 2373
+  },
+  {
+    "content": "nullify that the site lives in source and our functions live in function so",
+    "start": 2377
+  },
+  {
+    "content": "when you actually build the site what it will do is it will say okay the static",
+    "start": 2382
+  },
+  {
+    "content": "site is what's in this source folder and I'm gonna deploy that to nullify CDN the",
+    "start": 2387
+  },
+  {
+    "content": "functions in the functions folder are gonna get processed for AWS lambda",
+    "start": 2392
+  },
+  {
+    "content": "zipped up and then sent up to AWS lambda with all of the config to set up the",
+    "start": 2396
+  },
+  {
+    "content": "routing and all those things and then this dotnet Wi-Fi functions here this is",
+    "start": 2402
+  },
+  {
+    "content": "actually a proxy so we are redirecting any request to Daniela Phi slash",
+    "start": 2407
+  },
+  {
+    "content": "functions to the ws lambda or in this case we're local so",
+    "start": 2414
+  },
+  {
+    "content": "we're faking all that but in in production this is all running on AWS",
+    "start": 2418
+  },
+  {
+    "content": "lambda and that means that like as a as someone consuming this I can't",
+    "start": 2423
+  },
+  {
+    "content": "all I can see is what comes back there's no way to like inspect the source on",
+    "start": 2430
+  },
+  {
+    "content": "this so I can't like dive in here and figure out what's going on I can only",
+    "start": 2434
+  },
+  {
+    "content": "see what comes back which is why you would use a server to protect sensitive",
+    "start": 2440
+  },
+  {
+    "content": "data because you you can just say like hey server give me a thing and then the",
+    "start": 2445
+  },
+  {
+    "content": "server controls what comes back I can't inspect the source or dive in and that",
+    "start": 2450
+  },
+  {
+    "content": "keeps our sensitive data safe does that make sense yeah so what are the",
+    "start": 2454
+  },
+  {
+    "content": "alternatives what are like the bad practices that you see so the like the",
+    "start": 2462
+  },
+  {
+    "content": "worst practice would be if you were to let's say so let's do this the wrong way",
+    "start": 2467
+  },
+  {
+    "content": "and then we'll we'll refactor it to do it the right way so if I have my my form",
+    "start": 2472
+  },
+  {
+    "content": "here and let's say that it's gonna have a label and that'll be for let's call it",
+    "start": 2477
+  },
+  {
+    "content": "query and then your will have an input ID query name query type text and then",
+    "start": 2485
+  },
+  {
+    "content": "we'll have a button and that'll be a search so then down at the bottom we can",
+    "start": 2499
+  },
+  {
+    "content": "add a script and what our script will do is it will say let's add a class to this",
+    "start": 2507
+  },
+  {
+    "content": "okay so we'll get our form we'll say constant form equals document query",
+    "start": 2519
+  },
+  {
+    "content": "selector search form and then we're gonna say form add event listener",
+    "start": 2528
+  },
+  {
+    "content": "click our submit and we're gonna get back in event and we can event prevent",
+    "start": 2535
+  },
+  {
+    "content": "default right then we want to actually send this off so I'm gonna use the the",
+    "start": 2542
+  },
+  {
+    "content": "built-in fetch API so we would do something like let's see you think and",
+    "start": 2548
+  },
+  {
+    "content": "we would say the result is like a weight fetch and then we're gonna send in our",
+    "start": 2555
+  },
+  {
+    "content": "URL and some options so what we would like that out of postman oh nice yeah",
+    "start": 2562
+  },
+  {
+    "content": "let's do that so I want to export this out of postman",
+    "start": 2568
+  },
+  {
+    "content": "and so I have my params and my headers how do I do that if you go to the right",
+    "start": 2571
+  },
+  {
+    "content": "the link that says code yep you can select your what well let's see if this",
+    "start": 2579
+  },
+  {
+    "content": "works because I think there's a little fiddling that you need to do no this is",
+    "start": 2588
+  },
+  {
+    "content": "I mean this is perfect that's basically exactly what I was gonna do okay so I'm",
+    "start": 2593
+  },
+  {
+    "content": "gonna I'm gonna grab this and we will put it to just drop it right down here",
+    "start": 2598
+  },
+  {
+    "content": "okay so this get our results out I have a new fetch so",
+    "start": 2608
+  },
+  {
+    "content": "Axios is a is an open source library that has like a bunch of it's it's kind",
+    "start": 2619
+  },
+  {
+    "content": "of like a nice abstraction it was really really helpful before the fetch API came",
+    "start": 2628
+  },
+  {
+    "content": "into wide adoption the downside to it is that it's big so if you use Axios you're",
+    "start": 2632
+  },
+  {
+    "content": "installing a bunch extra JavaScript if you use fetch fetch is really small it's",
+    "start": 2637
+  },
+  {
+    "content": "actually built into the browser on modern browsers and the polyfills are",
+    "start": 2642
+  },
+  {
+    "content": "are pretty small for it for older browsers so you're able to avoid sending",
+    "start": 2645
+  },
+  {
+    "content": "more JavaScript down so in in general it's probably ideal to use fetch if you",
+    "start": 2650
+  },
+  {
+    "content": "can Axios is nice like it's a really good",
+    "start": 2655
+  },
+  {
+    "content": "API it's what I used for for years and years up until like months ago the chat",
+    "start": 2659
+  },
+  {
+    "content": "is watching me forget how actually this works",
+    "start": 2663
+  },
+  {
+    "content": "sometimes but this is yeah but actually we don't even need to wait here let's",
+    "start": 2665
+  },
+  {
+    "content": "just okay let's run it like this because this this is actually gonna log the",
+    "start": 2671
+  },
+  {
+    "content": "result or login error yes oh my my my thought is that let's use the browser",
+    "start": 2675
+  },
+  {
+    "content": "one we can so for the moment what we are doing is we are sending in the query as",
+    "start": 2682
+  },
+  {
+    "content": "a query string all good okay so let's just run this and see what happens so",
+    "start": 2690
+  },
+  {
+    "content": "I'm gonna its hard-coded two hats right now so no matter what we do we're gonna",
+    "start": 2693
+  },
+  {
+    "content": "get hats back but this this should work so I'm gonna go back out let's go to our",
+    "start": 2698
+  },
+  {
+    "content": "home page and if I open up the console here and search and just submit then",
+    "start": 2705
+  },
+  {
+    "content": "we're gonna get back I think I can go to the network and get it better it's",
+    "start": 2713
+  },
+  {
+    "content": "bigger and I should be able to see the response and the preview is much better",
+    "start": 2721
+  },
+  {
+    "content": "ok so here's all of our hats stuff right and so we can see like the links or the",
+    "start": 2728
+  },
+  {
+    "content": "actual images URLs and if I grab like the small URL it'll let me do that oh",
+    "start": 2734
+  },
+  {
+    "content": "boy we can go open it and there's there are hats so this like this works",
+    "start": 2742
+  },
+  {
+    "content": "obviously and if I if I clean this up a little bit more what I can do is we can",
+    "start": 2750
+  },
+  {
+    "content": "get the warm data from what is a new form data event target I think that is",
+    "start": 2755
+  },
+  {
+    "content": "and then what we could do as our search is here we would be able to say like",
+    "start": 2765
+  },
+  {
+    "content": "form data dot get query okay we're gonna see if I can do that",
+    "start": 2774
+  },
+  {
+    "content": "from memory that's a that's a pretty new API for me and then one load I should be",
+    "start": 2781
+  },
+  {
+    "content": "able to put in my Corgi search and it did not work I I got got an error um",
+    "start": 2786
+  },
+  {
+    "content": "what is my error unexpected end of input oh that's just because I have a syntax",
+    "start": 2795
+  },
+  {
+    "content": "error okay let's try that again okay there we go we're getting we're getting",
+    "start": 2801
+  },
+  {
+    "content": "back a good response here so let's look at this and then here and then we'll",
+    "start": 2809
+  },
+  {
+    "content": "preview wrap one of these get the URLs and about the small one perfect okay so",
+    "start": 2815
+  },
+  {
+    "content": "this on the surface looks good but the problem is we just violated the terms of",
+    "start": 2830
+  },
+  {
+    "content": "service for unsplash is api because we can't ship this like if i go out to my",
+    "start": 2837
+  },
+  {
+    "content": "site and i look at the the elements in the source code like it's right here",
+    "start": 2843
+  },
+  {
+    "content": "anybody who wants to can find it and steal it so that's like this is the",
+    "start": 2849
+  },
+  {
+    "content": "problem we can't do that it's not only is it against the Terms of Service but",
+    "start": 2854
+  },
+  {
+    "content": "this means that anybody who wants to can impersonate us on the internet with",
+    "start": 2858
+  },
+  {
+    "content": "unsplash maybe you're like oh well that's not a big deal but like imagine",
+    "start": 2863
+  },
+  {
+    "content": "you're doing this where somebody clicks this button and it posts a slack or it",
+    "start": 2866
+  },
+  {
+    "content": "sends it sends a comment to to github or yeah like it processes a transaction on",
+    "start": 2871
+  },
+  {
+    "content": "strike you somebody hears you you dirty Zachary's at like somebody with bad",
+    "start": 2878
+  },
+  {
+    "content": "intent could get this API token and then they can go do whatever they want and",
+    "start": 2883
+  },
+  {
+    "content": "pretend that they're you which is really really bad news",
+    "start": 2888
+  },
+  {
+    "content": "so probably crawlers that go around and just crawl the internet for our secrets",
+    "start": 2891
+  },
+  {
+    "content": "yeah and I think if you look at they're like what are they called",
+    "start": 2898
+  },
+  {
+    "content": "um they're like those password dumps like have I been poned calm and stuff",
+    "start": 2902
+  },
+  {
+    "content": "they just go and look for where those happen",
+    "start": 2907
+  },
+  {
+    "content": "and like collects all of the things and kind of build this database of like",
+    "start": 2910
+  },
+  {
+    "content": "exposed credentials so so effectively what we're trying to do here is fix this",
+    "start": 2914
+  },
+  {
+    "content": "we want to make sure that we can still make this call like we still need to be",
+    "start": 2921
+  },
+  {
+    "content": "able to make an authenticated call but we can't put it in the client-side",
+    "start": 2924
+  },
+  {
+    "content": "JavaScript and that's where these API functions come in are these serverless",
+    "start": 2929
+  },
+  {
+    "content": "functions so let's David in the chat it's like unsplash legal department yeah",
+    "start": 2934
+  },
+  {
+    "content": "exactly but that's exactly it right so so effectively what we want to do is we",
+    "start": 2943
+  },
+  {
+    "content": "want to change all of this out to be like let's get all of this out of here",
+    "start": 2948
+  },
+  {
+    "content": "and that's not what we want to do anymore so instead we want to move this",
+    "start": 2954
+  },
+  {
+    "content": "sensitive data into our handler somewhere and now this this isn't gonna",
+    "start": 2959
+  },
+  {
+    "content": "work as is we're gonna have to do some work so I'm gonna comment it out so it",
+    "start": 2966
+  },
+  {
+    "content": "doesn't break but what we can do instead is now we can say that our response is",
+    "start": 2969
+  },
+  {
+    "content": "let's say we're gonna wait fetch and we are now going to send this to nullify",
+    "start": 2976
+  },
+  {
+    "content": "functions unsplash search and all we need to send in now is a body and we'll",
+    "start": 2982
+  },
+  {
+    "content": "json stringify I guess we can do with the form data or not we should we should",
+    "start": 2992
+  },
+  {
+    "content": "actually make this an object so will you do form data dot get query okay so now",
+    "start": 3000
+  },
+  {
+    "content": "when we send this and then let's console.log the response",
+    "start": 3011
+  },
+  {
+    "content": "so now when we send this we're sending in an object so we can in our handler we",
+    "start": 3019
+  },
+  {
+    "content": "can get that out so let's get the query by json.parse event that body and then",
+    "start": 3027
+  },
+  {
+    "content": "we can just send back you searched for query and assuming all one well will now",
+    "start": 3038
+  },
+  {
+    "content": "have access to our query and we'll be able to actually see what happened so",
+    "start": 3053
+  },
+  {
+    "content": "let's look at our console and we'll search for Corgi and we should get back",
+    "start": 3057
+  },
+  {
+    "content": "someone missing initializer on console declaration oh let's play spot my bug",
+    "start": 3066
+  },
+  {
+    "content": "missing initializer on constant declaration was that it that was it okay",
+    "start": 3079
+  },
+  {
+    "content": "let's try again no bug corgi fail ticket fetch",
+    "start": 3090
+  },
+  {
+    "content": "oh we forgot to tell it what the method was so we're gonna send it with the post",
+    "start": 3098
+  },
+  {
+    "content": "method okay try again mmm what went wrong here something didn't work and we",
+    "start": 3105
+  },
+  {
+    "content": "can see out here cannot reap robert e body of undefined which means I'm just",
+    "start": 3122
+  },
+  {
+    "content": "missing something something silly in how the functions work so let's look at",
+    "start": 3131
+  },
+  {
+    "content": "functions and there is a builder JavaScript and it's going to show us",
+    "start": 3137
+  },
+  {
+    "content": "what comes back ah that's my fault I was destructuring and I shouldn't have",
+    "start": 3142
+  },
+  {
+    "content": "been so instead of event like this we just get event like",
+    "start": 3148
+  },
+  {
+    "content": "this okay one more try this time this time it's gonna work I can find my here",
+    "start": 3154
+  },
+  {
+    "content": "so we're gonna search for Corgi and it sends back two hundred true the body is",
+    "start": 3165
+  },
+  {
+    "content": "a readable stream holy buckets did that just work do I need to send back I might",
+    "start": 3175
+  },
+  {
+    "content": "need to send back a header for a link the content types",
+    "start": 3181
+  },
+  {
+    "content": "so let's do that Wilson back a header and we'll say the content type is",
+    "start": 3184
+  },
+  {
+    "content": "application JSON and now the browser will do all the work for us so that we",
+    "start": 3195
+  },
+  {
+    "content": "don't have to at least I hope it does let's see body still says a readable",
+    "start": 3199
+  },
+  {
+    "content": "stream oh I know what I did we use fetch right whenever you use fetch you have to",
+    "start": 3206
+  },
+  {
+    "content": "tell the response how to use the response so we need to set that response",
+    "start": 3220
+  },
+  {
+    "content": "JSON and then we can also catch on an error and say for now we'll just console",
+    "start": 3226
+  },
+  {
+    "content": "error okay one more time this this this time definitely gonna work aha",
+    "start": 3231
+  },
+  {
+    "content": "perfect so that is the the general like method right so if we if we look at what",
+    "start": 3241
+  },
+  {
+    "content": "we've done we are still using fetch to send off a request to an endpoint",
+    "start": 3250
+  },
+  {
+    "content": "we we've effectively created our own REST API in the sense the difference is",
+    "start": 3257
+  },
+  {
+    "content": "that now instead of having to send that authentication for our app we are able",
+    "start": 3263
+  },
+  {
+    "content": "to kind of box it up here so that it's safe",
+    "start": 3268
+  },
+  {
+    "content": "so during development like since you lose some visibility with it going",
+    "start": 3273
+  },
+  {
+    "content": "through do you typically just kind of pass something through just so that you",
+    "start": 3279
+  },
+  {
+    "content": "have that visibility well so what like the way that I start to look at these is",
+    "start": 3282
+  },
+  {
+    "content": "that these become independently testable right so check this out like now I can",
+    "start": 3288
+  },
+  {
+    "content": "go in here to my nullify functions unsplash search I can take this right",
+    "start": 3292
+  },
+  {
+    "content": "back into postman and so now in it like I can I can do something like this and",
+    "start": 3304
+  },
+  {
+    "content": "send in in my body out if I wanted to do it as JSON do I send it in uh you can do",
+    "start": 3310
+  },
+  {
+    "content": "raw raw and you'll need a post right yeah oh maybe that's what I need is so a",
+    "start": 3322
+  },
+  {
+    "content": "post and then if you do raw that drop-down on the right that says text",
+    "start": 3329
+  },
+  {
+    "content": "right now okay so then I would be able to send in like query and corgis and",
+    "start": 3334
+  },
+  {
+    "content": "this should send back that response you got a scroll yeah it says Courtney's",
+    "start": 3346
+  },
+  {
+    "content": "right so now we like if we need visibility we can go right back into",
+    "start": 3353
+  },
+  {
+    "content": "postman and we can continue to use it so let's actually we'll use that will",
+    "start": 3358
+  },
+  {
+    "content": "use postman here to build out the rest of our our function so I'm going to come",
+    "start": 3363
+  },
+  {
+    "content": "in here now and we want to let's let's put this into",
+    "start": 3370
+  },
+  {
+    "content": "now if I actually so what I'm gonna do is let's let's create this nullify",
+    "start": 3375
+  },
+  {
+    "content": "function or let's create this note by site rather so I'm gonna go node modules",
+    "start": 3381
+  },
+  {
+    "content": "in to get ignore because we don't want to actually commit those so now we can",
+    "start": 3391
+  },
+  {
+    "content": "see we've got the functions that look like Tamil package lock okay oh that's",
+    "start": 3398
+  },
+  {
+    "content": "all good so I'm gonna get add everything those get add everything and then we'll",
+    "start": 3402
+  },
+  {
+    "content": "get commit I'm gonna use the hub tools to create a new repo and then I'm going",
+    "start": 3411
+  },
+  {
+    "content": "to get pushed set upstream to origin master okay and this site is now live on",
+    "start": 3420
+  },
+  {
+    "content": "the Internet so here is our work in progress if you",
+    "start": 3428
+  },
+  {
+    "content": "want to see it oh [ __ ] I definitely committed with the secret in place wait",
+    "start": 3431
+  },
+  {
+    "content": "today the copy that I cut it I totally did",
+    "start": 3436
+  },
+  {
+    "content": "it's okay we're gonna have to roll it anyways well so yeah you doing yours you",
+    "start": 3440
+  },
+  {
+    "content": "do theirs but so now I can actually I think what I",
+    "start": 3451
+  },
+  {
+    "content": "can do is I can cut that and then we can get commit amend then I can get push",
+    "start": 3458
+  },
+  {
+    "content": "force and I believe that'll remove any",
+    "start": 3470
+  },
+  {
+    "content": "reference of it I think let's check should show one commit good",
+    "start": 3475
+  },
+  {
+    "content": "and then if I look at my functions are they gone they're not gone or did I not",
+    "start": 3482
+  },
+  {
+    "content": "didn't actually okay let's uh let's get add all and then we'll run get committed",
+    "start": 3494
+  },
+  {
+    "content": "man then we'll get push force okay and now",
+    "start": 3502
+  },
+  {
+    "content": "if we look at the function the it's gone it it good and there's only one commit",
+    "start": 3515
+  },
+  {
+    "content": "so yeah so that that's no longer in history one of the benefits of like",
+    "start": 3526
+  },
+  {
+    "content": "having only one commit as if you force push we don't break everything but yeah",
+    "start": 3530
+  },
+  {
+    "content": "so okay so anyways that that was terrible we shouldn't have done that but",
+    "start": 3535
+  },
+  {
+    "content": "let's let's notify in at this site now so I want to create and configure any",
+    "start": 3538
+  },
+  {
+    "content": "one I'm gonna put it into my own team and we will we'll call this a secure jam",
+    "start": 3544
+  },
+  {
+    "content": "stack API requests Jason are you using a different CLI tool right now this is the",
+    "start": 3551
+  },
+  {
+    "content": "vanilla Phi CLI so it's I just ran that with I in it and so that's gonna leave",
+    "start": 3560
+  },
+  {
+    "content": "us with no build command we want a publish source",
+    "start": 3566
+  },
+  {
+    "content": "and there we go so now if I run now if I open we'll see that the site is building",
+    "start": 3573
+  },
+  {
+    "content": "and because there's not really anything to build it's just gonna stand up the",
+    "start": 3582
+  },
+  {
+    "content": "buildbot publish these functions for us and and take us live so we can see all",
+    "start": 3587
+  },
+  {
+    "content": "of that happening in our very noisy logs you are so fast and efficient this would",
+    "start": 3594
+  },
+  {
+    "content": "have taken me two days to do on my own story well and this is kind of the idea",
+    "start": 3602
+  },
+  {
+    "content": "right is like we want all of this to be really fast with Matloff I like as",
+    "start": 3606
+  },
+  {
+    "content": "painless as possible and so here is our site it's on the internet now you can",
+    "start": 3610
+  },
+  {
+    "content": "you can go look at and if we search for corgis no it doesn't it like unexpected",
+    "start": 3615
+  },
+  {
+    "content": "end of JSON input I do something wrong here I mean clearly I did but what",
+    "start": 3625
+  },
+  {
+    "content": "doesn't like I'm slash search hey Lotus corgis that looks correct let's look at",
+    "start": 3631
+  },
+  {
+    "content": "the logs and see what it says so I can go to functions I can look at my",
+    "start": 3649
+  },
+  {
+    "content": "function looks like it's running but it's not why it's doing that I break it",
+    "start": 3653
+  },
+  {
+    "content": "still working locally though right let's check",
+    "start": 3680
+  },
+  {
+    "content": "okay still working locally interesting okay that's all right well well we'll",
+    "start": 3692
+  },
+  {
+    "content": "get it running here and then we'll debug later in case it's just something that",
+    "start": 3700
+  },
+  {
+    "content": "like works itself out as we finish the app in its you know not actually",
+    "start": 3703
+  },
+  {
+    "content": "something we need to stress about yet so let's let's get our actual request going",
+    "start": 3707
+  },
+  {
+    "content": "so for that we don't have access to fetch in node but there is a API that we",
+    "start": 3715
+  },
+  {
+    "content": "can use which is really helpful so I'm gonna go into the functions directory",
+    "start": 3721
+  },
+  {
+    "content": "and we're gonna make this into its own node app and this is important so what",
+    "start": 3724
+  },
+  {
+    "content": "I'm what I'm doing right now is because the functions are deployed separately",
+    "start": 3731
+  },
+  {
+    "content": "they have to have all of their dependencies contained in that functions",
+    "start": 3736
+  },
+  {
+    "content": "folder so if we are adding no dependencies we're adding utility files",
+    "start": 3740
+  },
+  {
+    "content": "if we're accessing local data all of that needs to be in the functions folder",
+    "start": 3745
+  },
+  {
+    "content": "or we have to have our build step move all that stuff into the functions folder",
+    "start": 3750
+  },
+  {
+    "content": "and the the reason for that is that what we do is we take the functions folder",
+    "start": 3755
+  },
+  {
+    "content": "and just straight up send it to Amazon and so if it reads if it tries to read",
+    "start": 3760
+  },
+  {
+    "content": "something outside of functions it won't be there after it gets deployed so",
+    "start": 3765
+  },
+  {
+    "content": "because of that anything that we're gonna use inside is going to be",
+    "start": 3769
+  },
+  {
+    "content": "installed in the functions folder itself so I'm an install node fetch and now I",
+    "start": 3773
+  },
+  {
+    "content": "also need to update my nullify tamil instead of no build command I actually",
+    "start": 3780
+  },
+  {
+    "content": "want to move into the functions directory run an NPM install and then",
+    "start": 3785
+  },
+  {
+    "content": "we'll just move back out so that way we make sure that everything that the",
+    "start": 3791
+  },
+  {
+    "content": "functions need is there and then we can come back and do the rest of our are",
+    "start": 3795
+  },
+  {
+    "content": "doing so how come you build the dependencies and wrap them into that",
+    "start": 3801
+  },
+  {
+    "content": "file that is hosted on lambda instead of like calling out like requiring or",
+    "start": 3806
+  },
+  {
+    "content": "calling in by a CDN or something like that I mean you can do that but it's",
+    "start": 3811
+  },
+  {
+    "content": "like one more network hop so in in this case just for the like",
+    "start": 3816
+  },
+  {
+    "content": "for what we're doing I find that this this is kind of a more looking pattern",
+    "start": 3823
+  },
+  {
+    "content": "lightweight enough to include in the in the package yeah and like nota factious",
+    "start": 3830
+  },
+  {
+    "content": "is tiny teeny tiny so if you like where this is note fetch it's got no",
+    "start": 3835
+  },
+  {
+    "content": "dependency so it's the only node module that's installed and it has like there's",
+    "start": 3839
+  },
+  {
+    "content": "just not a whole lot of code going in it's it's a pretty thin wrapper so it's",
+    "start": 3845
+  },
+  {
+    "content": "you know these are always trade-offs right we have to we have to choose what",
+    "start": 3849
+  },
+  {
+    "content": "the right thing is for for our particular use case npm install' prefix",
+    "start": 3852
+  },
+  {
+    "content": "functions that's dope I just learned something today",
+    "start": 3861
+  },
+  {
+    "content": "apparently I don't have to move into that function I can just I can just run",
+    "start": 3865
+  },
+  {
+    "content": "that that's cool okay so now we've got this and what I want is I don't want to",
+    "start": 3869
+  },
+  {
+    "content": "actually have to put the the token in here either I want to get it from the",
+    "start": 3876
+  },
+  {
+    "content": "environment so in nullify I can go to my where you at up here go to my settings",
+    "start": 3880
+  },
+  {
+    "content": "and then in my deploy settings I have environment variables so this is for my",
+    "start": 3890
+  },
+  {
+    "content": "my site that I'm in now like this is a secure Jam stack API request site that",
+    "start": 3896
+  },
+  {
+    "content": "we just created I want to set some environment variables for it so I'm",
+    "start": 3900
+  },
+  {
+    "content": "gonna go in here and I'm gonna say unsplash API token and let's add that",
+    "start": 3904
+  },
+  {
+    "content": "value it so I'm gonna drop that in here save okay so now I've got this and if I",
+    "start": 3910
+  },
+  {
+    "content": "stop and start my server let's run that with I dad",
+    "start": 3921
+  },
+  {
+    "content": "it got pulled in so we're able to now use this centrally without having to",
+    "start": 3931
+  },
+  {
+    "content": "like trade around a file or anything so similar to postman we have access to",
+    "start": 3936
+  },
+  {
+    "content": "these environment variables at a team level without having to to like pass",
+    "start": 3941
+  },
+  {
+    "content": "around the file or send them to each other",
+    "start": 3947
+  },
+  {
+    "content": "dear team members have access to these variables because they have access to",
+    "start": 3951
+  },
+  {
+    "content": "the project to the site yeah so if you try if you tried to run this locally and",
+    "start": 3955
+  },
+  {
+    "content": "you didn't have low off access because I'm logged in right like I had to run an",
+    "start": 3959
+  },
+  {
+    "content": "L if I log in to get access to stuff it wouldn't work so now in here instead of",
+    "start": 3963
+  },
+  {
+    "content": "needing to use let's probably just gonna set this up more directly so we'll do a",
+    "start": 3971
+  },
+  {
+    "content": "method of get we will set headers and our headers will be authorization and",
+    "start": 3981
+  },
+  {
+    "content": "then we'll send client ID and process and unsplash API token okay and then we",
+    "start": 3991
+  },
+  {
+    "content": "need to send in the Rams or I don't even need to do that because we sent it up",
+    "start": 4005
+  },
+  {
+    "content": "here like we could send it in the in the body as well but whatever so now we've",
+    "start": 4015
+  },
+  {
+    "content": "got this so we'll the weight bat response equals weight fetch and then we",
+    "start": 4021
+  },
+  {
+    "content": "can skip this part I think because we just don't we want that back so we're",
+    "start": 4029
+  },
+  {
+    "content": "gonna get our response and now instead of just sending back our worry let's",
+    "start": 4038
+  },
+  {
+    "content": "let's send back our response um let's see what dispatch sent us back",
+    "start": 4044
+  },
+  {
+    "content": "I think it's like data and errors let's just double-check that before I fall",
+    "start": 4052
+  },
+  {
+    "content": "down a rabbit hole it will give us response response JSON oh is it just the",
+    "start": 4062
+  },
+  {
+    "content": "just the beta oh okay so let's log it let's let's log it and see what happens",
+    "start": 4076
+  },
+  {
+    "content": "so I'm on my local machine we saved so it just reloaded that for us",
+    "start": 4082
+  },
+  {
+    "content": "and so now I should be able in my local version here too let's reload and I'm",
+    "start": 4087
+  },
+  {
+    "content": "gonna search for let's say that's unexpected token so that means I did",
+    "start": 4102
+  },
+  {
+    "content": "something wrong wait is only valid in an async function did I forget to make this",
+    "start": 4112
+  },
+  {
+    "content": "acing oh I sure did okay alright so basically we we can just",
+    "start": 4120
+  },
+  {
+    "content": "set up an async function here and send back whatever we want so let's let's try",
+    "start": 4127
+  },
+  {
+    "content": "that one more time still doesn't like it it doesn't like form data is not defined",
+    "start": 4132
+  },
+  {
+    "content": "that makes sense because we didn't use for native this time we have query",
+    "start": 4141
+  },
+  {
+    "content": "instead so instead we'll just set this to be query try it again hey there's our",
+    "start": 4145
+  },
+  {
+    "content": "data so now we are getting back data and this is authenticated data but if we",
+    "start": 4154
+  },
+  {
+    "content": "look at the the source code on the page we don't make there's no like",
+    "start": 4161
+  },
+  {
+    "content": "authentication provided here and that is really really powerful because we're",
+    "start": 4167
+  },
+  {
+    "content": "able to do the same thing and if we go into postman you know we can do the same",
+    "start": 4171
+  },
+  {
+    "content": "thing here we can we tend and we get back all of our data",
+    "start": 4175
+  },
+  {
+    "content": "which is pretty slick yeah I love this stuff so nice yeah so what would I use",
+    "start": 4180
+  },
+  {
+    "content": "the functions console for what would I use the dashboard that you have that",
+    "start": 4194
+  },
+  {
+    "content": "console the dashboard sorry can you say that again the net with eyesight data",
+    "start": 4200
+  },
+  {
+    "content": "console here the logs oh yeah so anything that gets logged out",
+    "start": 4209
+  },
+  {
+    "content": "of our function will be will be shown here so like here we've got some errors",
+    "start": 4216
+  },
+  {
+    "content": "and these look like the ones that I had for whatever reason I don't know why",
+    "start": 4224
+  },
+  {
+    "content": "those happened but apparently I managed to break it but so these these are all",
+    "start": 4232
+  },
+  {
+    "content": "of our invocations we can see that like the the function ran in like one",
+    "start": 4237
+  },
+  {
+    "content": "millisecond so that's great that's what we want so next let's deploy this and",
+    "start": 4242
+  },
+  {
+    "content": "see if it cleared up that issue that we had so just just to recap we pulled in a",
+    "start": 4250
+  },
+  {
+    "content": "node fetch helper we pull the query string out of the actual form submission",
+    "start": 4257
+  },
+  {
+    "content": "which is coming from our our HTML form and then we basically proxy this request",
+    "start": 4263
+  },
+  {
+    "content": "we send it off to unsplash with the API token that's now protected and we then",
+    "start": 4269
+  },
+  {
+    "content": "respond return the response right so that is that's basically what we were",
+    "start": 4277
+  },
+  {
+    "content": "after Oh want that to be response to a song I",
+    "start": 4285
+  },
+  {
+    "content": "bet that's what went wrong is that it was sending back let's try this again so",
+    "start": 4289
+  },
+  {
+    "content": "I send this get back a response and preview",
+    "start": 4296
+  },
+  {
+    "content": "unexpected JSON oh I'm still on the wrong site a dodo",
+    "start": 4306
+  },
+  {
+    "content": "egg okay there we go so now we get back actual JSON okay so I think I think what",
+    "start": 4312
+  },
+  {
+    "content": "was happening is I was encoding that JSON response to text and now I was",
+    "start": 4322
+  },
+  {
+    "content": "noticing that this didn't look right here but I think that's because it got",
+    "start": 4327
+  },
+  {
+    "content": "text encoded so if I run it again that's what I expected to see it's actually",
+    "start": 4330
+  },
+  {
+    "content": "JSON okay I have to say JSON instead of Jason because otherwise I sound like I'm",
+    "start": 4335
+  },
+  {
+    "content": "speaking in the third person okay sorry but yeah so ooh",
+    "start": 4340
+  },
+  {
+    "content": "so here's a good question so now that we've done this this service function",
+    "start": 4350
+  },
+  {
+    "content": "what's to prevent somebody from using it from anywhere and that's where cross",
+    "start": 4353
+  },
+  {
+    "content": "origin request some security I think course that's where that comes in",
+    "start": 4359
+  },
+  {
+    "content": "because by default cores will only let you request from this a site with the",
+    "start": 4366
+  },
+  {
+    "content": "same domain so you have to explicitly say you like any origin is allowed and",
+    "start": 4375
+  },
+  {
+    "content": "and you can you can set this let me find the docs on this so if you look at a",
+    "start": 4381
+  },
+  {
+    "content": "cross origin resource Shannon so this is this is kinda how it works but",
+    "start": 4389
+  },
+  {
+    "content": "ultimately what you have to do is you send back any had any origins that you",
+    "start": 4399
+  },
+  {
+    "content": "want to allow so you can set it to be any any origin and if it's an open",
+    "start": 4406
+  },
+  {
+    "content": "resource like that makes sense you say hey anybody can hit this endpoint but by",
+    "start": 4411
+  },
+  {
+    "content": "default we probably want to restrict that to the smallest number of sites",
+    "start": 4415
+  },
+  {
+    "content": "available so that people can't abuse the resource so this is kind of like like",
+    "start": 4419
+  },
+  {
+    "content": "here for our site we would probably just want to set that to be only allowed by",
+    "start": 4425
+  },
+  {
+    "content": "the the actual that gap could otherwise somebody could",
+    "start": 4430
+  },
+  {
+    "content": "could so your whitelisting your own traffic or the expected traffic yeah",
+    "start": 4435
+  },
+  {
+    "content": "and and so a couple good things are getting brought up in the chat here that",
+    "start": 4440
+  },
+  {
+    "content": "that's only respected by web browsers um yeah",
+    "start": 4444
+  },
+  {
+    "content": "it is only respected by web browsers like I this type of a proxy is assuming",
+    "start": 4447
+  },
+  {
+    "content": "that the data that you want to get is something that would be displayed in a",
+    "start": 4452
+  },
+  {
+    "content": "browser and also it can't be like you can't set up a a serverless function to",
+    "start": 4457
+  },
+  {
+    "content": "have personally identifiable information unless it's a single user so so there's",
+    "start": 4463
+  },
+  {
+    "content": "a difference between like I am logged in and I need to make a request if I'm",
+    "start": 4469
+  },
+  {
+    "content": "logged in and I'm making the request I'm gonna put that in as my authorization",
+    "start": 4474
+  },
+  {
+    "content": "header and you know it's it's a secure connection between me and whatever",
+    "start": 4478
+  },
+  {
+    "content": "resource I'm requesting if you have something more generalized like yeah you",
+    "start": 4482
+  },
+  {
+    "content": "can you can always work around it you can scrape it and things like that but",
+    "start": 4489
+  },
+  {
+    "content": "that's that comes down to a kind of you you want to be responsible in your app",
+    "start": 4492
+  },
+  {
+    "content": "design to make sure that if something shouldn't be accessible without having",
+    "start": 4499
+  },
+  {
+    "content": "some kind of valid off then you kind of have to be like careful about that but",
+    "start": 4505
+  },
+  {
+    "content": "but yeah so like like Jackie says you know if you've got curl you can just go",
+    "start": 4512
+  },
+  {
+    "content": "straight past that that Kors restriction and it'll it'll just work so you know be",
+    "start": 4517
+  },
+  {
+    "content": "be mindful when you're designing bit like this isn't a silver bullet it's it",
+    "start": 4522
+  },
+  {
+    "content": "will protect the keys but it doesn't protect access to that thing so if",
+    "start": 4526
+  },
+  {
+    "content": "somebody wants to abuse your AP is unless you require them to pass and",
+    "start": 4531
+  },
+  {
+    "content": "identifying token with it they they can abuse your API is it's just gonna be",
+    "start": 4536
+  },
+  {
+    "content": "harder if you set up like the the origin control they'll have to actually build",
+    "start": 4540
+  },
+  {
+    "content": "things for it they won't be able to just like hot link to your stuff from their",
+    "start": 4546
+  },
+  {
+    "content": "own websites that then brings us back to let's let's deploy this thing and I",
+    "start": 4549
+  },
+  {
+    "content": "believe we're ready - we're ready to roll here so let's uh let's make sure",
+    "start": 4557
+  },
+  {
+    "content": "that we've got this all set at all we'll get commit and say function",
+    "start": 4562
+  },
+  {
+    "content": "searching and then we'll push you have such good get practices - I'm trying not",
+    "start": 4573
+  },
+  {
+    "content": "to do the 8 - am oh yeah I well I mean I don't mind the am I just I I'm very",
+    "start": 4581
+  },
+  {
+    "content": "paranoid like it's clearly not helping me as I",
+    "start": 4589
+  },
+  {
+    "content": "committed tokens earlier today but like I'm always trying to I try not to like",
+    "start": 4593
+  },
+  {
+    "content": "accidentally commit a node modules folder that's not committed or something",
+    "start": 4597
+  },
+  {
+    "content": "well I'll tell you what's really made a big difference is I have this s alias",
+    "start": 4601
+  },
+  {
+    "content": "which is it's like I get status with a couple flags applied to make it smaller",
+    "start": 4605
+  },
+  {
+    "content": "so now anytime that I'm I'm in here I just tap s and I see like Oh is there",
+    "start": 4611
+  },
+  {
+    "content": "anything there and then like after I run the get ad I just run s again to make",
+    "start": 4616
+  },
+  {
+    "content": "sure that what I committed was what I meant to commit and it cleaned up my",
+    "start": 4620
+  },
+  {
+    "content": "workflow at time secrets yeah little little hacks like that like it's it's",
+    "start": 4624
+  },
+  {
+    "content": "funny too because that it functionally that is so few characters right but",
+    "start": 4630
+  },
+  {
+    "content": "practically what it means is that what I wasn't doing before which is like type",
+    "start": 4636
+  },
+  {
+    "content": "get status type get add type get status type git commit you I just curves you I",
+    "start": 4641
+  },
+  {
+    "content": "was not dirty hackers adding the you know adding the the s in here and being",
+    "start": 4646
+  },
+  {
+    "content": "able to do that has made it so that I actually do those checks so it's just",
+    "start": 4653
+  },
+  {
+    "content": "these little things that help me smooth the path to do the right thing you know",
+    "start": 4658
+  },
+  {
+    "content": "I said that's my imatra right make the right thing the easy thing versus just",
+    "start": 4662
+  },
+  {
+    "content": "the muscle memory yeah exactly right now I know I never want willpower to be the",
+    "start": 4666
+  },
+  {
+    "content": "thing but that makes that happen oh like this yeah get status SP but yeah",
+    "start": 4670
+  },
+  {
+    "content": "it's a it's really really really powerful stuff so I would I would highly",
+    "start": 4680
+  },
+  {
+    "content": "recommend that it's a it's a good little life hack if you are interested I have",
+    "start": 4684
+  },
+  {
+    "content": "my dot files with all of my alias a--'s linked up at Jason Dyer",
+    "start": 4689
+  },
+  {
+    "content": "slash uses so now I believe our site should be deployed",
+    "start": 4694
+  },
+  {
+    "content": "our function is searching it is deployed let's go back out and fingers crossed",
+    "start": 4699
+  },
+  {
+    "content": "it's gonna actually work for us Hey look at that we have a functioning a",
+    "start": 4705
+  },
+  {
+    "content": "functioning app now it's not you know displaying anything and and you know",
+    "start": 4716
+  },
+  {
+    "content": "maybe that's okay in a in a perfect world this would probably display the",
+    "start": 4720
+  },
+  {
+    "content": "Hat but you know that's not really what we were after today what we are after",
+    "start": 4727
+  },
+  {
+    "content": "today is how do we protect these keys how do we make sure that we can make",
+    "start": 4731
+  },
+  {
+    "content": "request without exposing API tokens and I think also we can see see now five",
+    "start": 4733
+  },
+  {
+    "content": "functions unsplash search and then we'll set a query of Corney /o every single",
+    "start": 4742
+  },
+  {
+    "content": "time there doesn't like unsplash search oh I have to post to this one oh that's",
+    "start": 4750
+  },
+  {
+    "content": "good that's that's actually what we want let's go back in here and let's go here",
+    "start": 4761
+  },
+  {
+    "content": "we're gonna post and I want to post a body raw JSON and we'll say Clary is",
+    "start": 4766
+  },
+  {
+    "content": "corgis and then we don't need anything else like there's no authorization",
+    "start": 4778
+  },
+  {
+    "content": "there's no other parameters or headers we can send it and we get back a result",
+    "start": 4784
+  },
+  {
+    "content": "so this I mean this is actually really handy like being able to do this the",
+    "start": 4793
+  },
+  {
+    "content": "other thing that I really like is these are links so I can click these and go",
+    "start": 4797
+  },
+  {
+    "content": "see what I'm gonna get back with like all the sizes and everything that's",
+    "start": 4802
+  },
+  {
+    "content": "super handy that what was that that I just saw just more metadata about that",
+    "start": 4806
+  },
+  {
+    "content": "that's really cool it shows you how long it took to complete somebody's talking",
+    "start": 4812
+  },
+  {
+    "content": "about pixie post me on just release support for that like two weeks ago I",
+    "start": 4819
+  },
+  {
+    "content": "don't know what it is [Applause]",
+    "start": 4823
+  },
+  {
+    "content": "[Laughter] that's awesome",
+    "start": 4825
+  },
+  {
+    "content": "yeah it's so Jackie my my dot files are under it uses there's a link to him",
+    "start": 4830
+  },
+  {
+    "content": "there but um yeah this is this is very cool so this this kind of this feels",
+    "start": 4835
+  },
+  {
+    "content": "successful to me I feel like we did a good job here and we got turned my only",
+    "start": 4844
+  },
+  {
+    "content": "bar for this event was that I learned something and I did",
+    "start": 4849
+  },
+  {
+    "content": "we did it we learned I'm I'm into it so yeah Chad this this is not actually",
+    "start": 4852
+  },
+  {
+    "content": "let's add a little bit of information here because we didn't get to this part",
+    "start": 4858
+  },
+  {
+    "content": "so what we'll say is open the console to see search results so we'll just make",
+    "start": 4863
+  },
+  {
+    "content": "sure that it's clear what we're doing and then we go",
+    "start": 4869
+  },
+  {
+    "content": "breathes old okay so we'll push and then that'll be",
+    "start": 4885
+  },
+  {
+    "content": "live in just a second here um this is another thing that I really like",
+    "start": 4891
+  },
+  {
+    "content": "about the now if I stuff is like you know it's especially when you're working",
+    "start": 4895
+  },
+  {
+    "content": "with little sites like this just plain HTML they they're so fast to get alive",
+    "start": 4899
+  },
+  {
+    "content": "it's it's a couple of seconds you know twenty seconds and the site is up and",
+    "start": 4902
+  },
+  {
+    "content": "running and we you know we don't have to like just that abstraction over lambda",
+    "start": 4907
+  },
+  {
+    "content": "uh with the binding our functions and then doing the environment variables",
+    "start": 4911
+  },
+  {
+    "content": "that saves like so much heartache yeah it's it's pretty incredible makes a huge",
+    "start": 4915
+  },
+  {
+    "content": "difference for me like I never used lambda functions because they were so",
+    "start": 4921
+  },
+  {
+    "content": "hard to set up and then as soon as I figured out how quickly you could set",
+    "start": 4928
+  },
+  {
+    "content": "them up with something like with like nullified now I'm like oh I can use",
+    "start": 4932
+  },
+  {
+    "content": "these instead because before I would just set up an express server that's",
+    "start": 4936
+  },
+  {
+    "content": "like that's faster but now this is faster so I'm just going toward whatever",
+    "start": 4939
+  },
+  {
+    "content": "the fastest thing is right I want to get stuff up and running and the fact that",
+    "start": 4943
+  },
+  {
+    "content": "this is like fast and free and you're like just lets you build something",
+    "start": 4947
+  },
+  {
+    "content": "really quickly without having to stand up a bunch of servers it's it's so nice",
+    "start": 4951
+  },
+  {
+    "content": "and that it just makes several s functions more accessible to more people",
+    "start": 4954
+  },
+  {
+    "content": "right and that's the goal right like what what we want to do and like one of",
+    "start": 4958
+  },
+  {
+    "content": "my one of the things that's kind of driven all of my career decisions is",
+    "start": 4962
+  },
+  {
+    "content": "like I really like working on stuff that makes it easier for people to build cool",
+    "start": 4966
+  },
+  {
+    "content": "things I don't I don't care if you're really good at building all the strata",
+    "start": 4971
+  },
+  {
+    "content": "that makes it possible to build cool things I want to unblock you so that you",
+    "start": 4976
+  },
+  {
+    "content": "can do the cool thing like you know do the thing that's in your head and don't",
+    "start": 4980
+  },
+  {
+    "content": "burn all your energy and creative time like standing up a bunch of foundational",
+    "start": 4985
+  },
+  {
+    "content": "stuff and boilerplate and all this like configuration nightmare get all that",
+    "start": 4989
+  },
+  {
+    "content": "stuff out of the way just build the cool thing you want to build and that's it",
+    "start": 4994
+  },
+  {
+    "content": "like that's what I want and that's that's what led me to you know I when I",
+    "start": 4996
+  },
+  {
+    "content": "was at IBM I work in developer tooling like internal tools when I went to",
+    "start": 5000
+  },
+  {
+    "content": "Gatsby it was because Gatsby unblocks this this whole process for quickly",
+    "start": 5005
+  },
+  {
+    "content": "getting websites up and now I'm in that liffe I to take that even one step",
+    "start": 5008
+  },
+  {
+    "content": "further how do we how do we eliminate as many barriers as possible",
+    "start": 5011
+  },
+  {
+    "content": "for anybody on any stack to get something up on the internet as fast as",
+    "start": 5014
+  },
+  {
+    "content": "possible yeah and that's one of the reasons why I like my job of a postman",
+    "start": 5019
+  },
+  {
+    "content": "because ya developers know postman and they use postman but there's people that",
+    "start": 5023
+  },
+  {
+    "content": "don't know what an API is don't know don't know how to write a like a code",
+    "start": 5027
+  },
+  {
+    "content": "and they're just pushing a button and then they get to see a lot more stuff",
+    "start": 5031
+  },
+  {
+    "content": "that you would never be able to see yeah yeah that's awesome",
+    "start": 5034
+  },
+  {
+    "content": "where is the Amen yeah I need that one I said that's a good one",
+    "start": 5039
+  },
+  {
+    "content": "but yeah so let's I think this is a good place to probably start wrapping up I",
+    "start": 5046
+  },
+  {
+    "content": "think we've we've accomplished what we came to accomplish we've got the code up",
+    "start": 5050
+  },
+  {
+    "content": "on line you can see up here if you want to take a look at what we built today",
+    "start": 5053
+  },
+  {
+    "content": "that is all up to date and and reviewable I'll clean this up a little",
+    "start": 5058
+  },
+  {
+    "content": "bit later Joyce thank you so much for joining us where should people go if",
+    "start": 5063
+  },
+  {
+    "content": "they want to follow up with you or learn more about you and or postmen",
+    "start": 5067
+  },
+  {
+    "content": "so postman just launched our live stream a few weeks ago I think we're about to",
+    "start": 5072
+  },
+  {
+    "content": "have our sixth time on Twitch so we have it's called get post man because post",
+    "start": 5077
+  },
+  {
+    "content": "name is taken okay so that's us there and I mean you have like these people",
+    "start": 5083
+  },
+  {
+    "content": "are like helping you in the chat it's amazing",
+    "start": 5091
+  },
+  {
+    "content": "asking good questions and I mean one day one day we will have what you have Jason",
+    "start": 5094
+  },
+  {
+    "content": "I mean the thing that I love about twitch and the reason that I do twitch",
+    "start": 5100
+  },
+  {
+    "content": "instead of like a youtube show is because of the chat like having people",
+    "start": 5105
+  },
+  {
+    "content": "here to you know keep me humble like pointing out that I'm definitely getting",
+    "start": 5109
+  },
+  {
+    "content": "a lot of this wrong but also the the backup the support the jokes the the the",
+    "start": 5115
+  },
+  {
+    "content": "sense of community over just me talking to a camera is really really nice and so",
+    "start": 5120
+  },
+  {
+    "content": "you know jack as always you are wonderful",
+    "start": 5125
+  },
+  {
+    "content": "joyce is there anywhere that I should send people if they want to keep up with",
+    "start": 5129
+  },
+  {
+    "content": "you let me let me pull up your Twitter for sure you should all go follow Joyce",
+    "start": 5133
+  },
+  {
+    "content": "what's what's the story behind who is it ey a y American spelling that is not",
+    "start": 5138
+  },
+  {
+    "content": "gonna help you hey why yeah go go follow Joyce what's the story",
+    "start": 5144
+  },
+  {
+    "content": "where did between you gray come from I should have a better like line for this",
+    "start": 5155
+  },
+  {
+    "content": "but it's my dead cat I actually can you see this PD",
+    "start": 5159
+  },
+  {
+    "content": "it's my dead cat okay good you new gray petunia Ville gray oh okay",
+    "start": 5164
+  },
+  {
+    "content": "may she rest in peace I like it so did this start as like a - this was a",
+    "start": 5170
+  },
+  {
+    "content": "Twitter account for your cat no my online presence is a comedy of errors",
+    "start": 5175
+  },
+  {
+    "content": "like my headshot I was just telling you about earlier my headshot for the show",
+    "start": 5184
+  },
+  {
+    "content": "it's so much a placeholder that accidentally got submitted let me let me",
+    "start": 5189
+  },
+  {
+    "content": "find this it's so good look at look at this I love it so much it's just like",
+    "start": 5195
+  },
+  {
+    "content": "ribs it's very on brand for me I I'm very I",
+    "start": 5199
+  },
+  {
+    "content": "am very into it so yeah Joyce this was a this is a great time chat thank you as",
+    "start": 5206
+  },
+  {
+    "content": "always for for showing up and make sure that you tune in later this week we are",
+    "start": 5212
+  },
+  {
+    "content": "going to continue work on secret sandwich which I won't go into how it",
+    "start": 5215
+  },
+  {
+    "content": "works now but it's a really silly game that I would love for y'all to come in",
+    "start": 5220
+  },
+  {
+    "content": "and play this is continuing on the work that Marissa more be and Maggie Appleton",
+    "start": 5224
+  },
+  {
+    "content": "have done on the show so you can go back and find the the episodes where we did",
+    "start": 5228
+  },
+  {
+    "content": "the UX research and the the branding for it and on this show we're gonna do the",
+    "start": 5231
+  },
+  {
+    "content": "actual design we're gonna start making it come together as a website and then",
+    "start": 5237
+  },
+  {
+    "content": "we've got a lot of good stuff coming up next week this one actually got",
+    "start": 5241
+  },
+  {
+    "content": "rescheduled so that's gonna happen in June but we've got more coming up this",
+    "start": 5244
+  },
+  {
+    "content": "one's gonna be huge we are going to show you how to do subscription management",
+    "start": 5249
+  },
+  {
+    "content": "and access management so how do you build a jam stack site where somebody",
+    "start": 5253
+  },
+  {
+    "content": "can pay for access to a section of the site and how do you make sure that that",
+    "start": 5257
+  },
+  {
+    "content": "gets updated in real time that you know if somebody that if they cancel their",
+    "start": 5262
+  },
+  {
+    "content": "subscription they lose access all that stuff it's gonna be such a good episode",
+    "start": 5266
+  },
+  {
+    "content": "so definitely mark your calendar for that one it's gonna be a great time and",
+    "start": 5270
+  },
+  {
+    "content": "with that y'all it's it's it's it's great time I think let's let's go raid",
+    "start": 5273
+  },
+  {
+    "content": "somebody Joyce thank you so much we will see you next time",
+    "start": 5279
+  },
+  {
+    "content": "you",
+    "start": 5293
+  }
+]

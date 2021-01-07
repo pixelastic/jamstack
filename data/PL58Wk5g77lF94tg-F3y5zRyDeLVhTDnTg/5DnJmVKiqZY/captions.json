@@ -1,0 +1,194 @@
+[
+  {
+    "content": "hello jams.com my name is cassidy and",
+    "start": 0
+  },
+  {
+    "content": "i'm here to talk to you about what's latest and greatest in next.js world",
+    "start": 11
+  },
+  {
+    "content": "well nextjs just came out with next 9.5 about",
+    "start": 14
+  },
+  {
+    "content": "two three months ago and it is a really cool update and honestly the updates",
+    "start": 18
+  },
+  {
+    "content": "since march have been really game-changing and i've been",
+    "start": 22
+  },
+  {
+    "content": "really loving their effort to go more towards static and kind of embrace",
+    "start": 25
+  },
+  {
+    "content": "the jam stack and all sorts of things and and i think it's just",
+    "start": 29
+  },
+  {
+    "content": "a really neat framework to play around with one of my favorite features that",
+    "start": 32
+  },
+  {
+    "content": "came out is react fast refresh now if you're not sure what that is",
+    "start": 35
+  },
+  {
+    "content": "it looks a lot like regular hot reloading where you can",
+    "start": 39
+  },
+  {
+    "content": "update your code and then it reloads the page and that's it",
+    "start": 42
+  },
+  {
+    "content": "but it's a little bit different and the reason why it's different is because it",
+    "start": 46
+  },
+  {
+    "content": "actually maintains the state of your application",
+    "start": 49
+  },
+  {
+    "content": "as you're coding on it and so let's just say very simple example",
+    "start": 52
+  },
+  {
+    "content": "i have some kind of counter and i toggle the counter to click",
+    "start": 56
+  },
+  {
+    "content": "all the way up to five and then i want to change the style of it when it hits",
+    "start": 60
+  },
+  {
+    "content": "five i can change that style but then",
+    "start": 63
+  },
+  {
+    "content": "typically with hot reloading i would then have to go back as my page",
+    "start": 66
+  },
+  {
+    "content": "has refreshed because i've updated something then",
+    "start": 69
+  },
+  {
+    "content": "click up to five again you don't have to do that with fast refresh it actually",
+    "start": 72
+  },
+  {
+    "content": "maintains the state of your application as you're updating things",
+    "start": 75
+  },
+  {
+    "content": "now a counter is a very very simple example but if you think about",
+    "start": 79
+  },
+  {
+    "content": "all of the really cool user interactions and things that you might want to",
+    "start": 83
+  },
+  {
+    "content": "maintain authentications i don't even know api",
+    "start": 86
+  },
+  {
+    "content": "calls all kinds of stuff that you would like",
+    "start": 91
+  },
+  {
+    "content": "to keep on the page as you're updating things",
+    "start": 93
+  },
+  {
+    "content": "it'll just stay there and the state will exist",
+    "start": 96
+  },
+  {
+    "content": "and you can do all of your updates and have it just stay on the page and",
+    "start": 99
+  },
+  {
+    "content": "i think that's really really powerful and kind of an underestimated and under",
+    "start": 103
+  },
+  {
+    "content": "appreciated new feature of next js now there's so many cool things that you",
+    "start": 108
+  },
+  {
+    "content": "can do with nexjs and it's no secret a lot of places don't actually support",
+    "start": 113
+  },
+  {
+    "content": "all the new features because it's it's got so many new ones but we",
+    "start": 117
+  },
+  {
+    "content": "have this really cool package at netlify called next on netlify and if you go to",
+    "start": 121
+  },
+  {
+    "content": "our github you can find next on netlify and",
+    "start": 125
+  },
+  {
+    "content": "a repo there and it's a really cool package that allows you to use all of",
+    "start": 128
+  },
+  {
+    "content": "the server rendering sides of nexjs on nutlify and it uses netify functions",
+    "start": 131
+  },
+  {
+    "content": "to run a bunch of different things you can make your own api",
+    "start": 136
+  },
+  {
+    "content": "with next.js and next on netlify there's i can't even begin to explain all the",
+    "start": 139
+  },
+  {
+    "content": "cool things that you can do with that package",
+    "start": 145
+  },
+  {
+    "content": "so that being said if you are at all interested in next js",
+    "start": 146
+  },
+  {
+    "content": "or using next on netlify go ahead and head over to our github and check out",
+    "start": 150
+  },
+  {
+    "content": "that package there and we'll be pushing a lot of updates to it soon",
+    "start": 154
+  },
+  {
+    "content": "and if you'd like to see any starter projects to get up and running with next",
+    "start": 158
+  },
+  {
+    "content": "you can head over to my github and i have a bunch of neck starter",
+    "start": 162
+  },
+  {
+    "content": "projects blogging projects cms projects where you can kind of",
+    "start": 165
+  },
+  {
+    "content": "get up and running with it i hope you enjoyed the rest of the conference and",
+    "start": 168
+  },
+  {
+    "content": "i'll talk to you later",
+    "start": 171
+  },
+  {
+    "content": "bye you",
+    "start": 183
+  }
+]

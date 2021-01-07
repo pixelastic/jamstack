@@ -1,0 +1,1146 @@
+[
+  {
+    "content": "hi everyone",
+    "start": 0
+  },
+  {
+    "content": "i'm rick takas i'm the director of engineering uh at teespring on the",
+    "start": 10
+  },
+  {
+    "content": "commerce side of things so i oversee the buyer and seller facing",
+    "start": 13
+  },
+  {
+    "content": "parts of the platform kind of everything up until",
+    "start": 18
+  },
+  {
+    "content": "checkout um today i'm going to talk about teespring",
+    "start": 20
+  },
+  {
+    "content": "where we started and where we are today uh then",
+    "start": 24
+  },
+  {
+    "content": "talk a bit about our tech stack and how we've made certain decisions as we've",
+    "start": 28
+  },
+  {
+    "content": "scaled and kind of moved from our legacy",
+    "start": 31
+  },
+  {
+    "content": "technology to kind of a more modern jam stack approach",
+    "start": 34
+  },
+  {
+    "content": "um so diving right in teespring at its core",
+    "start": 38
+  },
+  {
+    "content": "is a platform that allows people to create and sell online",
+    "start": 42
+  },
+  {
+    "content": "um it was conceived to kind of break down some of the barriers to entry",
+    "start": 45
+  },
+  {
+    "content": "around doing this so things like sourcing",
+    "start": 49
+  },
+  {
+    "content": "the the blank products getting them printed and then actually fulfilling",
+    "start": 52
+  },
+  {
+    "content": "them so we really want to allow people to",
+    "start": 55
+  },
+  {
+    "content": "focus on the design and marketing of their",
+    "start": 57
+  },
+  {
+    "content": "their products rather than all the kind of logistics around it",
+    "start": 59
+  },
+  {
+    "content": "um so this idea was developed and we were accepted into y combinator",
+    "start": 64
+  },
+  {
+    "content": "uh so that was great and that really jump started the business",
+    "start": 68
+  },
+  {
+    "content": "so if we skip forward seven years to today",
+    "start": 72
+  },
+  {
+    "content": "um we now have over a million visitors to our site per day",
+    "start": 75
+  },
+  {
+    "content": "and we've hit more than two and a half years of profitability so that's that's",
+    "start": 78
+  },
+  {
+    "content": "great kind of in the the bay area to go from y combinator profitable",
+    "start": 82
+  },
+  {
+    "content": "not always kind of the normal story um so the reason we reached this level",
+    "start": 85
+  },
+  {
+    "content": "of success is because we've really found our product market",
+    "start": 92
+  },
+  {
+    "content": "fit and for that for us that has been helping people",
+    "start": 95
+  },
+  {
+    "content": "build their own brands and build their own businesses",
+    "start": 100
+  },
+  {
+    "content": "so an example of how we enable that is if you look at our partnership with",
+    "start": 102
+  },
+  {
+    "content": "youtube and our partnership with the creators on youtube",
+    "start": 106
+  },
+  {
+    "content": "um historically creators would have to you know generate all their great",
+    "start": 109
+  },
+  {
+    "content": "content go and try to get as many subscribers as possible",
+    "start": 114
+  },
+  {
+    "content": "and then turn on ads to monetize their channel um",
+    "start": 117
+  },
+  {
+    "content": "we provide another avenue to do that that we think is better because they",
+    "start": 120
+  },
+  {
+    "content": "hang on to more of the revenue when they're selling their own merchandise",
+    "start": 124
+  },
+  {
+    "content": "and it actually furthers fan engagement they're advertising their own brand and",
+    "start": 127
+  },
+  {
+    "content": "their own products rather than somebody else's",
+    "start": 130
+  },
+  {
+    "content": "product um it's just been a really great partnership for us",
+    "start": 133
+  },
+  {
+    "content": "uh with the creators and and and teespring and it's just really kind of",
+    "start": 137
+  },
+  {
+    "content": "skyrocketed our business and their business",
+    "start": 140
+  },
+  {
+    "content": "at the same time um so let's get into the good stuff and talk about the",
+    "start": 141
+  },
+  {
+    "content": "evolution of our tech stack so when we started um",
+    "start": 146
+  },
+  {
+    "content": "we had a ruby on rails monolith in a mono repo",
+    "start": 151
+  },
+  {
+    "content": "this was great at the beginning because it allowed us",
+    "start": 155
+  },
+  {
+    "content": "with very few engineers to kind of pivot quickly try a lot of different things",
+    "start": 159
+  },
+  {
+    "content": "kind of build new features very quickly um and kind of figure out you know find",
+    "start": 163
+  },
+  {
+    "content": "our stride as a company um now as you can imagine that doesn't",
+    "start": 167
+  },
+  {
+    "content": "scale super well so as we've kind of found our product market fit",
+    "start": 171
+  },
+  {
+    "content": "and started to scale this code base has just become really bloated",
+    "start": 174
+  },
+  {
+    "content": "we have multiple frameworks and apps living in there so we have",
+    "start": 179
+  },
+  {
+    "content": "you know backbone react we have erb templates we have",
+    "start": 182
+  },
+  {
+    "content": "jquery kind of sitting on top of all of that making changes after things are",
+    "start": 187
+  },
+  {
+    "content": "rendered but on top of that we also have just a",
+    "start": 190
+  },
+  {
+    "content": "lot of different domains kind of crossing paths here we have storefronts",
+    "start": 193
+  },
+  {
+    "content": "checkout shopping cart fulfillment all intertwined in a single",
+    "start": 196
+  },
+  {
+    "content": "repo in a single app which makes it difficult to iterate",
+    "start": 200
+  },
+  {
+    "content": "quickly and it also brings up kind of unforeseen bugs we",
+    "start": 204
+  },
+  {
+    "content": "make a change to one part of the code base and it affects something else we",
+    "start": 208
+  },
+  {
+    "content": "might make a change to storefronts and effects",
+    "start": 210
+  },
+  {
+    "content": "fulfillment which just isn't great so we decided to pull this apart so if you",
+    "start": 212
+  },
+  {
+    "content": "follow the industry you know two and a half",
+    "start": 218
+  },
+  {
+    "content": "three years ago everyone was like microservice everything",
+    "start": 220
+  },
+  {
+    "content": "and that you know that sounds great um but you know if you kind of read more",
+    "start": 223
+  },
+  {
+    "content": "recent posts you see things like i miss my monolith um",
+    "start": 228
+  },
+  {
+    "content": "so for us it's been about trying to find the balance between",
+    "start": 234
+  },
+  {
+    "content": "modernizing our tech stack with microservices but also kind of getting",
+    "start": 238
+  },
+  {
+    "content": "the good bits of our monolith and not having to rebuild everything from",
+    "start": 241
+  },
+  {
+    "content": "scratch um and i'll talk a bit more about that",
+    "start": 243
+  },
+  {
+    "content": "later why we kind of decided not to tear everything down um so when we were",
+    "start": 246
+  },
+  {
+    "content": "trying to investigate you know this microservice approach",
+    "start": 251
+  },
+  {
+    "content": "we looked at some of the pitfalls we'd seen kind of in the industry",
+    "start": 254
+  },
+  {
+    "content": "um one of the ones that kind of stood out was was teams taking it very",
+    "start": 257
+  },
+  {
+    "content": "literally to microservice everything and turning every little function into a",
+    "start": 261
+  },
+  {
+    "content": "microservice before you know you have companies that",
+    "start": 265
+  },
+  {
+    "content": "have thousands and tens of thousands of micro services",
+    "start": 268
+  },
+  {
+    "content": "they're hard to maintain they're hard to navigate there's duplicates and there's",
+    "start": 271
+  },
+  {
+    "content": "there's no discoverability so if you want to go and use a",
+    "start": 274
+  },
+  {
+    "content": "microservice it's hard to discover if that already exists within the company",
+    "start": 278
+  },
+  {
+    "content": "so we decided to take a domain driven design approach",
+    "start": 283
+  },
+  {
+    "content": "and kind of made the decision to shoot for medium-sized microservices",
+    "start": 286
+  },
+  {
+    "content": "if that's even a thing so an example on our side would be our",
+    "start": 291
+  },
+  {
+    "content": "shopping cart so we we pulled this out of the monolith",
+    "start": 296
+  },
+  {
+    "content": "and really made it kind of agnostic as to where the data comes from and where",
+    "start": 300
+  },
+  {
+    "content": "it goes and so we now have this fully standalone",
+    "start": 303
+  },
+  {
+    "content": "service that we can use on our new storefronts we can use our legacy",
+    "start": 306
+  },
+  {
+    "content": "storefronts um it can interact with our fulfillment",
+    "start": 309
+  },
+  {
+    "content": "side of things um it's just much easier to maintain and",
+    "start": 312
+  },
+  {
+    "content": "ever you know we've been able to by pulling things of this size out we've",
+    "start": 317
+  },
+  {
+    "content": "been able to vastly decrease the size of our monolith",
+    "start": 321
+  },
+  {
+    "content": "which has additional benefits of things like faster ci and cd time",
+    "start": 323
+  },
+  {
+    "content": "not to mention just easier to maintain and easier to reason about",
+    "start": 329
+  },
+  {
+    "content": "so another challenge we faced in pulling apart the monolith",
+    "start": 333
+  },
+  {
+    "content": "was in regards to kind of legacy models and concepts so",
+    "start": 337
+  },
+  {
+    "content": "there's just these legacy pieces that just don't apply today and it's maybe",
+    "start": 343
+  },
+  {
+    "content": "easier if i give an example so we have a concept called a campaign",
+    "start": 346
+  },
+  {
+    "content": "and this comes from the early days of teespring when we couldn't print",
+    "start": 351
+  },
+  {
+    "content": "just one item and be profitable we had to wait until we got a batch of like 10",
+    "start": 355
+  },
+  {
+    "content": "of that design um so we had this concept of a campaign",
+    "start": 359
+  },
+  {
+    "content": "and everything in teespring is a campaign",
+    "start": 363
+  },
+  {
+    "content": "where we would check and say you know see",
+    "start": 365
+  },
+  {
+    "content": "if we had hit that 10 item mark and if not we would restart the campaign we'd",
+    "start": 368
+  },
+  {
+    "content": "keep those additions those initial orders",
+    "start": 372
+  },
+  {
+    "content": "and we'd keep restarting until we hit that limit of 10 and then we'd send it",
+    "start": 374
+  },
+  {
+    "content": "out to print and clear out the campaign and then let",
+    "start": 378
+  },
+  {
+    "content": "it run again um this just isn't the reality of teespring",
+    "start": 380
+  },
+  {
+    "content": "today we can print one item and be profitable",
+    "start": 386
+  },
+  {
+    "content": "and so it's been really difficult to have to kind of work within this this",
+    "start": 389
+  },
+  {
+    "content": "concept and model when it doesn't doesn't",
+    "start": 393
+  },
+  {
+    "content": "reflect teespring today so how do we handle reducing you know",
+    "start": 396
+  },
+  {
+    "content": "this this idea um so first we went back to the white board",
+    "start": 403
+  },
+  {
+    "content": "and said you know if we had our ideal api today what would",
+    "start": 408
+  },
+  {
+    "content": "it look like so kind of started pulling apart all the",
+    "start": 412
+  },
+  {
+    "content": "different concepts in teespring and saying like if we were to make this",
+    "start": 415
+  },
+  {
+    "content": "more modern what does that look like um in each step of the way each time we",
+    "start": 418
+  },
+  {
+    "content": "designed part of that data structure we would ask ourselves if we were to open",
+    "start": 422
+  },
+  {
+    "content": "this up publicly today externally um would it be sensible would",
+    "start": 425
+  },
+  {
+    "content": "people do people be able to build meaningful",
+    "start": 429
+  },
+  {
+    "content": "products on top of that and would it just make sense um and that",
+    "start": 432
+  },
+  {
+    "content": "was really our gut check to kind of say like let's make sure we're not",
+    "start": 436
+  },
+  {
+    "content": "surfacing these concepts kind of in our forward",
+    "start": 440
+  },
+  {
+    "content": "thinking um kind of new api um so once we had that roadmap of like",
+    "start": 443
+  },
+  {
+    "content": "this is the ideal place we want to get to",
+    "start": 449
+  },
+  {
+    "content": "you know how did we go ahead and actually start doing that",
+    "start": 451
+  },
+  {
+    "content": "so we took this approach um of kind of an adapter pattern um so we",
+    "start": 455
+  },
+  {
+    "content": "proxy all the api responses from our rails",
+    "start": 462
+  },
+  {
+    "content": "code base through api gateway it then takes",
+    "start": 465
+  },
+  {
+    "content": "that kind of legacy shape and passes it through what we call an adapter which is",
+    "start": 470
+  },
+  {
+    "content": "just a lambda function that converts that",
+    "start": 473
+  },
+  {
+    "content": "shape to our more modern ideal shape and then surfaces it out to kind",
+    "start": 476
+  },
+  {
+    "content": "of whatever was requesting that data so what this really allowed us to do",
+    "start": 481
+  },
+  {
+    "content": "first all of all is design our ideal api have it",
+    "start": 486
+  },
+  {
+    "content": "documented versioned and modern and reflect the modern state",
+    "start": 489
+  },
+  {
+    "content": "of teespring but it also gave us the flexibility to",
+    "start": 494
+  },
+  {
+    "content": "now go back and refactor some of these concepts in our rails app",
+    "start": 497
+  },
+  {
+    "content": "and start pulling them out without having to worry about every time we make",
+    "start": 501
+  },
+  {
+    "content": "an api change then going to all of these different apps that consume it",
+    "start": 504
+  },
+  {
+    "content": "and having to update all of them at the same time so now we only have to update",
+    "start": 507
+  },
+  {
+    "content": "that lambda that adapter so if we make a change on the rails side",
+    "start": 511
+  },
+  {
+    "content": "to remove something like campaign we edit the adapter and everything else",
+    "start": 514
+  },
+  {
+    "content": "just keeps working as long as we keep that handshake the same",
+    "start": 518
+  },
+  {
+    "content": "then because we now have this version api if we were to make a change we can",
+    "start": 520
+  },
+  {
+    "content": "roll out a v2 and then go and add our leisure update",
+    "start": 524
+  },
+  {
+    "content": "the apps to start consuming that um so this has really given us a lot of",
+    "start": 527
+  },
+  {
+    "content": "flexibility to kind of pull apart our monolith without",
+    "start": 530
+  },
+  {
+    "content": "having to completely tear it down so i want to talk about another area",
+    "start": 533
+  },
+  {
+    "content": "that this has really served us well so in working with our partners um",
+    "start": 539
+  },
+  {
+    "content": "each one of them kind of has different requirements for how we send products so",
+    "start": 545
+  },
+  {
+    "content": "we we found that we were generating a",
+    "start": 548
+  },
+  {
+    "content": "product feed for each of our sellers and then sending it",
+    "start": 551
+  },
+  {
+    "content": "out to youtube or twitch and when we first started partnering up",
+    "start": 554
+  },
+  {
+    "content": "like this we um we're building integrations kind of",
+    "start": 558
+  },
+  {
+    "content": "specifically for each partner it just seemed like a lot of repeated",
+    "start": 563
+  },
+  {
+    "content": "work so we ended up coming up this concept of a generic feed generator so",
+    "start": 565
+  },
+  {
+    "content": "it generates a product feed for an individual seller",
+    "start": 569
+  },
+  {
+    "content": "and then similarly we run it through api gateway and then through a lambda",
+    "start": 571
+  },
+  {
+    "content": "that is an adapter for that specific partner so",
+    "start": 574
+  },
+  {
+    "content": "we have a twitch adapter and it just reshapes our data for twitch",
+    "start": 578
+  },
+  {
+    "content": "or for youtube or for whatever and again this has just been really successful for",
+    "start": 581
+  },
+  {
+    "content": "us because if youtube or twitch changes their api or we change our api",
+    "start": 586
+  },
+  {
+    "content": "we just need to edit that adapter to make that update um and then that",
+    "start": 590
+  },
+  {
+    "content": "works really well similarly when we after we push product",
+    "start": 594
+  },
+  {
+    "content": "data out we then have to go and retrieve orders from our partners",
+    "start": 598
+  },
+  {
+    "content": "and we follow the same pattern we have a generic order importer",
+    "start": 601
+  },
+  {
+    "content": "when the data comes in we convert it from twitch to our generic shape and",
+    "start": 605
+  },
+  {
+    "content": "then we can process those orders and we can send a response back out through an",
+    "start": 608
+  },
+  {
+    "content": "adapter as well um again this has just worked really",
+    "start": 611
+  },
+  {
+    "content": "well for us and allowed us to onboard additional partners super fast",
+    "start": 614
+  },
+  {
+    "content": "because we just add an adapter in the places that they need them and we're",
+    "start": 618
+  },
+  {
+    "content": "good to go um so why not start from scratch",
+    "start": 621
+  },
+  {
+    "content": "um i i think as engineers it's it's always kind of an instinct to",
+    "start": 626
+  },
+  {
+    "content": "just start from scratch with the latest and",
+    "start": 634
+  },
+  {
+    "content": "greatest technology kind of tear everything down and redesign it",
+    "start": 636
+  },
+  {
+    "content": "um but i think there's there's risks in doing this",
+    "start": 638
+  },
+  {
+    "content": "so one being you know we have systems that have been deployed",
+    "start": 643
+  },
+  {
+    "content": "and in production for for seven plus years",
+    "start": 647
+  },
+  {
+    "content": "and so they're kind of proven and stable and",
+    "start": 650
+  },
+  {
+    "content": "over the years we've found lots of bugs lots of edge cases",
+    "start": 654
+  },
+  {
+    "content": "um and fix those and so i think to to imagine that we could",
+    "start": 657
+  },
+  {
+    "content": "go out and just start from scratch and address all",
+    "start": 663
+  },
+  {
+    "content": "those on our first try is unlikely so there's risks in",
+    "start": 666
+  },
+  {
+    "content": "introducing new bugs or solved edge cases",
+    "start": 669
+  },
+  {
+    "content": "um and kind of like repeating those mistakes",
+    "start": 672
+  },
+  {
+    "content": "um the second part is it comes with the cost of new feature development",
+    "start": 675
+  },
+  {
+    "content": "so we want to keep moving forward and pushing out new features for our our",
+    "start": 679
+  },
+  {
+    "content": "sellers and buyers um and if we step back and said we're",
+    "start": 682
+  },
+  {
+    "content": "going to re-build our monolith we would be sacrificing many of those",
+    "start": 687
+  },
+  {
+    "content": "new features because we you know we're still a small team a relatively small",
+    "start": 693
+  },
+  {
+    "content": "team and um you know it would take us a year",
+    "start": 696
+  },
+  {
+    "content": "plus to rebuild everything and we would just not be able to roll",
+    "start": 699
+  },
+  {
+    "content": "out our new features that we want to and so i think that was a trade-off that we",
+    "start": 702
+  },
+  {
+    "content": "just weren't willing to make um but by wrapping our our old code",
+    "start": 704
+  },
+  {
+    "content": "code base in this kind of fence of the apa gateway and adapters it allows us to",
+    "start": 709
+  },
+  {
+    "content": "build modern apps on top of our legacy platform",
+    "start": 714
+  },
+  {
+    "content": "so here's in a nutshell what our our architecture looks like today",
+    "start": 719
+  },
+  {
+    "content": "so as we talked talked about we've got our rails monolith which handles most of",
+    "start": 723
+  },
+  {
+    "content": "most of our data that goes through api gateway and either",
+    "start": 728
+  },
+  {
+    "content": "hits a lambda and then kind of out to our",
+    "start": 731
+  },
+  {
+    "content": "our front-end apps or our partners in this same kind of bucket is where our",
+    "start": 733
+  },
+  {
+    "content": "micro services live so we've got our shopping cart checkout",
+    "start": 737
+  },
+  {
+    "content": "things like that um and um",
+    "start": 740
+  },
+  {
+    "content": "the nice part at this point is that some of our micro services don't even have to",
+    "start": 745
+  },
+  {
+    "content": "touch the the rails app in any big way so we",
+    "start": 748
+  },
+  {
+    "content": "can have our front end apps that are out living in netlify and going through",
+    "start": 751
+  },
+  {
+    "content": "the api and then hitting a micro service and that kind of",
+    "start": 755
+  },
+  {
+    "content": "returns back up to the front end app without ever",
+    "start": 758
+  },
+  {
+    "content": "having to hit our rails code base so that's that's been just",
+    "start": 760
+  },
+  {
+    "content": "a a huge time saver for us in building new applications like",
+    "start": 764
+  },
+  {
+    "content": "it's just it's just much faster with this well-defined api um",
+    "start": 769
+  },
+  {
+    "content": "and then we can deploy the pieces of so i wanted to just take a moment to also",
+    "start": 772
+  },
+  {
+    "content": "touch on a couple other things we've done around",
+    "start": 776
+  },
+  {
+    "content": "our engineering velocity um specifically on the front end",
+    "start": 778
+  },
+  {
+    "content": "um we put in a big effort to normalize our react",
+    "start": 782
+  },
+  {
+    "content": "apps so what i mean by that is we got them all up to the same version",
+    "start": 785
+  },
+  {
+    "content": "um we created a shareable eslint configuration",
+    "start": 789
+  },
+  {
+    "content": "that's in our npm package so it actually pushes out",
+    "start": 793
+  },
+  {
+    "content": "to any react app when we when we spin that up and so they all have the same",
+    "start": 796
+  },
+  {
+    "content": "linting we created a create react app template so the folder",
+    "start": 799
+  },
+  {
+    "content": "structure and everything is the same across all of our apps",
+    "start": 804
+  },
+  {
+    "content": "um and this is kind of in response to we had many react apps and some of them",
+    "start": 806
+  },
+  {
+    "content": "were using typescript some of them using immutable some of them were",
+    "start": 810
+  },
+  {
+    "content": "kind of in all different shapes redux or not redux",
+    "start": 813
+  },
+  {
+    "content": "and so we kind of just put down on paper our best practices and then made a",
+    "start": 816
+  },
+  {
+    "content": "starting point for that and got all the apps up to that",
+    "start": 821
+  },
+  {
+    "content": "and the reason we did this is because there was",
+    "start": 823
+  },
+  {
+    "content": "a big lag time when context switching from one after the next for our",
+    "start": 826
+  },
+  {
+    "content": "engineers so now when you jump from react app to",
+    "start": 830
+  },
+  {
+    "content": "react app it's very familiar you know kind of where everything is",
+    "start": 833
+  },
+  {
+    "content": "so that's been a really big productivity boost for us um",
+    "start": 836
+  },
+  {
+    "content": "the last piece i'll mention is we've pretty successfully implemented a",
+    "start": 839
+  },
+  {
+    "content": "component library that shared across these apps",
+    "start": 842
+  },
+  {
+    "content": "so in designing this we kind of had a couple of goals one is to",
+    "start": 845
+  },
+  {
+    "content": "divide define the kind of most basic component that we",
+    "start": 851
+  },
+  {
+    "content": "wanted to share between the apps so let's say a drop down and that'll have",
+    "start": 854
+  },
+  {
+    "content": "minimal styling the only amount of styling there",
+    "start": 858
+  },
+  {
+    "content": "is to lay it out and make it functional but then that can be imported and styled",
+    "start": 860
+  },
+  {
+    "content": "to match the app but then we also have a css file that",
+    "start": 864
+  },
+  {
+    "content": "sits on top of this that is the t-spring theme or t-string styles so then you can",
+    "start": 868
+  },
+  {
+    "content": "import that and you actually get the full teespring branding",
+    "start": 872
+  },
+  {
+    "content": "so we did it in this way to add the most flexibility that",
+    "start": 875
+  },
+  {
+    "content": "um we can but also now you know as we're updating our brand",
+    "start": 878
+  },
+  {
+    "content": "we can adjust this one style sheet in anywhere that was consuming our",
+    "start": 882
+  },
+  {
+    "content": "teespring styles and now it gets updated so that's been just a huge boost for us",
+    "start": 886
+  },
+  {
+    "content": "as well um so lastly i want to talk about",
+    "start": 889
+  },
+  {
+    "content": "a project we're really excited about that's going to be rolling out the next",
+    "start": 894
+  },
+  {
+    "content": "few weeks and that's our branded storefronts so",
+    "start": 896
+  },
+  {
+    "content": "in keeping with helping people build their own brands and build their own",
+    "start": 901
+  },
+  {
+    "content": "businesses this is a feature that we just really",
+    "start": 904
+  },
+  {
+    "content": "thought was necessary so our branded storefronts are going to allow our",
+    "start": 907
+  },
+  {
+    "content": "sellers to have a fully customizable experience",
+    "start": 910
+  },
+  {
+    "content": "they can adjust their logo fonts colors text",
+    "start": 912
+  },
+  {
+    "content": "all these things and it'll really look like their own site",
+    "start": 916
+  },
+  {
+    "content": "when people land on it they'll also be able to customize their domain so bring",
+    "start": 919
+  },
+  {
+    "content": "their own domain or you know purchase one through t spring",
+    "start": 924
+  },
+  {
+    "content": "um and um this is kind of like the next level of",
+    "start": 926
+  },
+  {
+    "content": "customizability and rather than living in our marketplace they now have",
+    "start": 931
+  },
+  {
+    "content": "their own website um so we're in a late stage beta with this",
+    "start": 934
+  },
+  {
+    "content": "and it's going really well and so i wanted to touch on a couple of the ways",
+    "start": 940
+  },
+  {
+    "content": "we've implemented this and the benefits we've seen from it so",
+    "start": 944
+  },
+  {
+    "content": "this is fully utilizing our new api our commerce api",
+    "start": 947
+  },
+  {
+    "content": "um and these sites are dynamically deployed to netlify",
+    "start": 950
+  },
+  {
+    "content": "and they're living kind of on the edge network there so um",
+    "start": 954
+  },
+  {
+    "content": "we've seen huge performance increases and kind of doing it in this way",
+    "start": 957
+  },
+  {
+    "content": "and as a result of the performance increases we're seeing an uptick in",
+    "start": 960
+  },
+  {
+    "content": "conversion rate specifically on mobile because people",
+    "start": 963
+  },
+  {
+    "content": "can load the site much faster than our kind of legacy",
+    "start": 965
+  },
+  {
+    "content": "sites um and so kind of looking to the future of what",
+    "start": 968
+  },
+  {
+    "content": "we want to do next we're still working to pull",
+    "start": 974
+  },
+  {
+    "content": "pull apart and migrate away from our monolith but we want to continue that",
+    "start": 976
+  },
+  {
+    "content": "pattern of doing it kind of safely and in bite-size pieces",
+    "start": 979
+  },
+  {
+    "content": "and the way that we're we're prioritizing that is whenever we're",
+    "start": 981
+  },
+  {
+    "content": "about to do some new work we kind of look and if we're going to",
+    "start": 985
+  },
+  {
+    "content": "have to touch the legacy code base we kind of front load",
+    "start": 987
+  },
+  {
+    "content": "modernizing that piece of it or pulling it out or making a microservice out of",
+    "start": 990
+  },
+  {
+    "content": "it and then we do our new work um and just",
+    "start": 993
+  },
+  {
+    "content": "kind of bite by bite that's pulling apart our",
+    "start": 996
+  },
+  {
+    "content": "our monolith um yeah and the last part i'll mention",
+    "start": 998
+  },
+  {
+    "content": "around the brand of stores is currently they're living in react and we're moving",
+    "start": 1003
+  },
+  {
+    "content": "more and more towards uh making those kind of statically",
+    "start": 1006
+  },
+  {
+    "content": "generated sites so we're looking into next",
+    "start": 1008
+  },
+  {
+    "content": "or gatsby and kind of comparing our options there",
+    "start": 1011
+  },
+  {
+    "content": "and we've started to do some experimentation around that as well um",
+    "start": 1015
+  },
+  {
+    "content": "but that's how we've we've we're in the process and how we have moved um our",
+    "start": 1018
+  },
+  {
+    "content": "large legacy app and concepts to a more modern jam stack approach",
+    "start": 1022
+  },
+  {
+    "content": "um yeah so i'll be i'll be taking questions after this session",
+    "start": 1027
+  },
+  {
+    "content": "but feel free to reach out and i'll do my best to follow up if you have any",
+    "start": 1031
+  },
+  {
+    "content": "questions thank you very much",
+    "start": 1034
+  },
+  {
+    "content": "you",
+    "start": 1038
+  }
+]

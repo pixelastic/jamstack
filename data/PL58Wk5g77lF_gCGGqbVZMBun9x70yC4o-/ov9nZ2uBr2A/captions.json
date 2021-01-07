@@ -1,0 +1,402 @@
+[
+  {
+    "content": "hey guys thanks ville I'm Andrew from",
+    "start": 0
+  },
+  {
+    "content": "Take Shape co-founder and CTO and our developer Sean is here at Take Shape we",
+    "start": 17
+  },
+  {
+    "content": "create tools for Jam stack developers we love tools because we think tools give",
+    "start": 24
+  },
+  {
+    "content": "us superpowers over the last few years there's been a series of technologies",
+    "start": 30
+  },
+  {
+    "content": "that have really made an a robust API ecosystem possible",
+    "start": 37
+  },
+  {
+    "content": "and now Jam sack has gone from a demo for your blog to like a fully featured",
+    "start": 42
+  },
+  {
+    "content": "website and this is all thanks to these powerful api's but if you build your",
+    "start": 49
+  },
+  {
+    "content": "website entirely on api's you spend a lot of time managing these api's and",
+    "start": 56
+  },
+  {
+    "content": "before you know it after you add a few you add too many and then that can be",
+    "start": 61
+  },
+  {
+    "content": "frustrating and that's not okay so that's why we created our new product",
+    "start": 66
+  },
+  {
+    "content": "which we're calling take shape mesh and take shape mesh combines your favorite",
+    "start": 73
+  },
+  {
+    "content": "api's into one easy to use graph QL API and then keeps the data in sync between",
+    "start": 78
+  },
+  {
+    "content": "those systems so the easiest way for me to describe it it is to give you a demo",
+    "start": 83
+  },
+  {
+    "content": "and I promise it won't be as scary as this demo so here give me a second",
+    "start": 88
+  },
+  {
+    "content": "oops I skipped a slide sorry guys alright so the demo I want to show is",
+    "start": 101
+  },
+  {
+    "content": "actually I was inspired by the speakers here at James Kampf and a few of them",
+    "start": 107
+  },
+  {
+    "content": "are our authors and in particular Phil was sort of lamenting the fact that",
+    "start": 112
+  },
+  {
+    "content": "they're giving away his book for free so here we have a jam stack book guide and",
+    "start": 118
+  },
+  {
+    "content": "you know it's built in Take Shape CMS and it runs on Gatsby so what we're",
+    "start": 124
+  },
+  {
+    "content": "gonna do is we're gonna create a new site but we're gonna use Shopify take",
+    "start": 131
+  },
+  {
+    "content": "shape our new mesh product gatsby and hopefully deploy it on net will fly in",
+    "start": 135
+  },
+  {
+    "content": "ten minutes all right now here's the actual demo time so just pulling up here",
+    "start": 141
+  },
+  {
+    "content": "let me make this bigger this this is our jam stack site we're building in Gatsby",
+    "start": 151
+  },
+  {
+    "content": "and what we're doing right now is we're talking to the take shape CMS API",
+    "start": 161
+  },
+  {
+    "content": "directly so over here we have all of our content we have Phil's book over here",
+    "start": 165
+  },
+  {
+    "content": "and so the natural thing when you wanted to add ecommerce would be okay like I",
+    "start": 171
+  },
+  {
+    "content": "have a modern headless CMS let's just go in and edit the book type and add a",
+    "start": 175
+  },
+  {
+    "content": "price and maybe ask you and maybe like the ID from Shopify but then I have to",
+    "start": 181
+  },
+  {
+    "content": "copy and paste this information from Shopify so what I have done is I've set",
+    "start": 188
+  },
+  {
+    "content": "up a Shopify store for us just to accelerate this demo a little bit and so",
+    "start": 195
+  },
+  {
+    "content": "what we're gonna do is we're gonna go over here and we're gonna create a new",
+    "start": 200
+  },
+  {
+    "content": "mesh so I'm gonna call this you know jam stack books alright and so here we are",
+    "start": 203
+  },
+  {
+    "content": "in the control center of the mesh the dashboard and so if the dashboard does",
+    "start": 213
+  },
+  {
+    "content": "is it describes everything about your mesh and you start by adding your",
+    "start": 218
+  },
+  {
+    "content": "services so let's add take shape to here we'll add our jam stack comp books",
+    "start": 222
+  },
+  {
+    "content": "project now let's grab our Shopify URL oops",
+    "start": 227
+  },
+  {
+    "content": "I'll add this service over here so you just need to paste in the URL and then",
+    "start": 234
+  },
+  {
+    "content": "what what the mesh will do is figure out what permissions you're gonna need and",
+    "start": 239
+  },
+  {
+    "content": "will will run you through a standard OAuth flow so we want to authenticate",
+    "start": 243
+  },
+  {
+    "content": "with Shopify and so what we think is that developers are ultimately trying to",
+    "start": 248
+  },
+  {
+    "content": "achieve tasks and so you know before this becomes a giant exercising",
+    "start": 255
+  },
+  {
+    "content": "configuration we should have some recipes to help people achieve the goal",
+    "start": 261
+  },
+  {
+    "content": "that they want to achieve so one of the most basic recipes would be I want to",
+    "start": 264
+  },
+  {
+    "content": "use the content from ICMS so let's do that so we're gonna add the content from",
+    "start": 269
+  },
+  {
+    "content": "our CMS to the mesh and what we're doing is we're you just created a content type",
+    "start": 275
+  },
+  {
+    "content": "that represents our data as a graph QL API so if you're familiar with take",
+    "start": 280
+  },
+  {
+    "content": "shape this might look similar to that because we're just reusing the graphical",
+    "start": 285
+  },
+  {
+    "content": "API that you already have but if we go back here we can actually now extend our",
+    "start": 290
+  },
+  {
+    "content": "API by editing it and so this is not editing the API in take shape this is a",
+    "start": 298
+  },
+  {
+    "content": "layer on top so as you can see we're getting all of our data from take shape",
+    "start": 304
+  },
+  {
+    "content": "from the fields there so let's add another service let's add Shopify and",
+    "start": 309
+  },
+  {
+    "content": "the product and let's say that we want to match them up based on title now we",
+    "start": 313
+  },
+  {
+    "content": "can add fields that are from Shopify so like the Shopify ID that we were talking",
+    "start": 321
+  },
+  {
+    "content": "about before so like let's add that in there all right",
+    "start": 326
+  },
+  {
+    "content": "and then we probably want information about the product we want to know what",
+    "start": 329
+  },
+  {
+    "content": "the variants are you know small medium large or in this case hardcover",
+    "start": 332
+  },
+  {
+    "content": "paperback so let's add that and it's as simple as adding it in right there but",
+    "start": 337
+  },
+  {
+    "content": "the other thing that's really powerful here is that you can add multiple fields",
+    "start": 343
+  },
+  {
+    "content": "to one top-level field so we can add the Shopify title in addition to the take",
+    "start": 347
+  },
+  {
+    "content": "shape title and what that does is that says I want to keep these two things in",
+    "start": 352
+  },
+  {
+    "content": "sync so let's save our configuration and then let's hit our sync button",
+    "start": 357
+  },
+  {
+    "content": "and what that does is that went in to take shape figure it out what wasn't in",
+    "start": 366
+  },
+  {
+    "content": "Shopify and brought it over and so if we go into our Shopify account now our",
+    "start": 371
+  },
+  {
+    "content": "products are here so now we can start doing the important part of making Phil",
+    "start": 381
+  },
+  {
+    "content": "rich so you know that that book shouldn't be 0 how about a hundred or a",
+    "start": 386
+  },
+  {
+    "content": "thousand all right there you go we have that saved and let's just make sure all",
+    "start": 392
+  },
+  {
+    "content": "these are are active ok so so now immediately right away we can",
+    "start": 401
+  },
+  {
+    "content": "we can go into the query and we can that here let me clean this up for you guys",
+    "start": 410
+  },
+  {
+    "content": "all right so we have the title our Shopify ID our variance and then from",
+    "start": 413
+  },
+  {
+    "content": "the price so you can see over here we're querying data from both take shape and",
+    "start": 425
+  },
+  {
+    "content": "from Shopify and graph QL based on the queries figuring it all out for us so",
+    "start": 432
+  },
+  {
+    "content": "that's great and now we have it now we have an API that we can build on but",
+    "start": 439
+  },
+  {
+    "content": "what happens when the content in our had to go through each one if we were like",
+    "start": 444
+  },
+  {
+    "content": "very excited about the jam stack so you want to make me one punch up the title",
+    "start": 453
+  },
+  {
+    "content": "so we'll hit save over here and then we can watch as our Shopify",
+    "start": 457
+  },
+  {
+    "content": "store will we'll stay in sync with our with our take shape so now let's build a",
+    "start": 464
+  },
+  {
+    "content": "website on this let's uh oh my gosh the time is running out alright so what we",
+    "start": 470
+  },
+  {
+    "content": "need to do is go into our mesh and we can provision an API key that we want to",
+    "start": 476
+  },
+  {
+    "content": "use with gatsby so let's do that and it's yeah all right give it up read-only",
+    "start": 480
+  },
+  {
+    "content": "permissions create the API key okay copy that up let's go into our code",
+    "start": 487
+  },
+  {
+    "content": "and then there's a little EMV file and so what I'm doing right now is I'm",
+    "start": 495
+  },
+  {
+    "content": "switching the take shape project token to the take shape mesh token and just",
+    "start": 498
+  },
+  {
+    "content": "copying the ID over so that I can switch the data source for this Gatsby project",
+    "start": 504
+  },
+  {
+    "content": "since the schemas are pretty similar I'll just I should be able to get away",
+    "start": 510
+  },
+  {
+    "content": "with this I hit save all right Gatsby don't make me a liar oh geez I",
+    "start": 515
+  },
+  {
+    "content": "should have got a new laptop stimulating right there we go all right so we have",
+    "start": 531
+  },
+  {
+    "content": "everything all right and we have our updated data we got fills fills book and",
+    "start": 552
+  },
+  {
+    "content": "oh no but there's no there's no buy button so that's just that we can fix",
+    "start": 557
+  },
+  {
+    "content": "that really quick hold on through the magic of source control will add the",
+    "start": 562
+  },
+  {
+    "content": "Shopify oh my gosh I don't want I don't want to",
+    "start": 566
+  },
+  {
+    "content": "chat and we'll add our buy button component into our Gatsby site I'll hit",
+    "start": 569
+  },
+  {
+    "content": "save all right here we are now let's make fill rich",
+    "start": 576
+  },
+  {
+    "content": "all right I'm right I'm right at time so that we can't deploy it in that Wi-Fi",
+    "start": 584
+  },
+  {
+    "content": "but thank you guys for watching my demo I'm Andrew Sean's around I have a bunch",
+    "start": 590
+  },
+  {
+    "content": "of t-shirts to give out we're really excited about take shape mesh and we're",
+    "start": 597
+  },
+  {
+    "content": "announcing the beta of it today and so you can sign up for the beta and we want",
+    "start": 603
+  },
+  {
+    "content": "to hear your feedback get it and get it you know early and often thank you",
+    "start": 608
+  },
+  {
+    "content": "[Applause]",
+    "start": 614
+  },
+  {
+    "content": "you",
+    "start": 617
+  },
+  {
+    "content": "[Applause]",
+    "start": 619
+  }
+]

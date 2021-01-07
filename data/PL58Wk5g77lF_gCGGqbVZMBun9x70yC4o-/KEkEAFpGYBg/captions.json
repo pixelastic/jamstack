@@ -1,0 +1,1158 @@
+[
+  {
+    "content": "great oh it's I mean it's lovely to to",
+    "start": 0
+  },
+  {
+    "content": "hear some of these stories I'm from an agency can you see me over there I'm",
+    "start": 9
+  },
+  {
+    "content": "from an agency background myself before I joined that defy so a lot of these",
+    "start": 14
+  },
+  {
+    "content": "things really rather resonate with me and so one of the questions I wanted to",
+    "start": 18
+  },
+  {
+    "content": "ask first of all and maybe Alex I'll come to you come to you first sure um is",
+    "start": 23
+  },
+  {
+    "content": "about you know at an agency you often work with lots of different types of",
+    "start": 28
+  },
+  {
+    "content": "technologies different clients have different you know expectations about",
+    "start": 32
+  },
+  {
+    "content": "the way you work so you know your team might be structured in lots of different",
+    "start": 36
+  },
+  {
+    "content": "ways um how if if there's any difference at all how is it kind of influenced the",
+    "start": 39
+  },
+  {
+    "content": "way your team is set up or the workflows on projects or you know things like your",
+    "start": 45
+  },
+  {
+    "content": "time to market for for working on the jam stack because that made a big",
+    "start": 49
+  },
+  {
+    "content": "difference kind of organizationally yeah so one of the things that I've been",
+    "start": 53
+  },
+  {
+    "content": "trying to structure for many years in fact is the ability for us to be able to",
+    "start": 60
+  },
+  {
+    "content": "hire people who aren't unicorns essentially so I have a word that I use",
+    "start": 65
+  },
+  {
+    "content": "internally and see if I can actually get it out because it's difficult the unifor",
+    "start": 72
+  },
+  {
+    "content": "corner D unicorn off' occasion so this is like a movement internally",
+    "start": 77
+  },
+  {
+    "content": "and we have to stick with this and part of that is we want people to be able to",
+    "start": 82
+  },
+  {
+    "content": "work on specific areas of concern with less dependencies on other areas of",
+    "start": 88
+  },
+  {
+    "content": "concerns so front end and back end up and then work in parallel tracks through",
+    "start": 95
+  },
+  {
+    "content": "an agile process and when it makes sense for them to meet that's when they meet",
+    "start": 100
+  },
+  {
+    "content": "right but they don't they don't get blocked so for instance let's say the",
+    "start": 105
+  },
+  {
+    "content": "API isn't ready yet well why would that hold up the front-end team right you",
+    "start": 110
+  },
+  {
+    "content": "know if you have to build a mock API we'll move forward",
+    "start": 114
+  },
+  {
+    "content": "yeah and then we'll meet the mock API may even form the process of the",
+    "start": 117
+  },
+  {
+    "content": "back-end team building the API right and then we'll meet when it makes sense to",
+    "start": 123
+  },
+  {
+    "content": "that agile process yeah there's some priorities yeah so great thing about Jam",
+    "start": 126
+  },
+  {
+    "content": "stack is that it actually very nicely to that to that workflow",
+    "start": 132
+  },
+  {
+    "content": "that you know that ad job it's basically in a blur for a more agile process got",
+    "start": 137
+  },
+  {
+    "content": "you I'm not just that kind of chime with the experiences you've had I mean the D",
+    "start": 143
+  },
+  {
+    "content": "unification right right really no to get it close but does that does that chime",
+    "start": 147
+  },
+  {
+    "content": "with you about the ability to specialize in some things but not things that may",
+    "start": 153
+  },
+  {
+    "content": "be so exotic yeah no I think it is that they're focused to on certain things",
+    "start": 157
+  },
+  {
+    "content": "that you're good at right I think for us to to actually grow the company to where",
+    "start": 161
+  },
+  {
+    "content": "we're at now I mean we were two years old and were thirty people in and all",
+    "start": 164
+  },
+  {
+    "content": "that was very organic so none of that was like pushing for growth that was",
+    "start": 168
+  },
+  {
+    "content": "more like it happen organically and I think we early on focused on things that",
+    "start": 172
+  },
+  {
+    "content": "we're good at the good thing about the jam Stigers is that it allows you to be",
+    "start": 175
+  },
+  {
+    "content": "good at a lot more things with a lot less of it so yeah that's really nice I",
+    "start": 180
+  },
+  {
+    "content": "mean one of the things that I found challenging I went working in the agency",
+    "start": 185
+  },
+  {
+    "content": "space is when you work with different clients they often have their own",
+    "start": 189
+  },
+  {
+    "content": "infrastructure that maybe they've invested a lot of money I though I know",
+    "start": 193
+  },
+  {
+    "content": "calling up Nike in particular I've just one that I recall you know was in that",
+    "start": 196
+  },
+  {
+    "content": "situation um when it feels like you've got an approach that you know that",
+    "start": 201
+  },
+  {
+    "content": "you're going to be effective at and it doesn't necessarily match completely the",
+    "start": 205
+  },
+  {
+    "content": "infrastructure that a company has is it difficult to convince them of your",
+    "start": 208
+  },
+  {
+    "content": "approach or to bring your bring your technology",
+    "start": 215
+  },
+  {
+    "content": "tech stack tech architecture to bear on a project Marc if you have you got any",
+    "start": 218
+  },
+  {
+    "content": "thoughts on that well now if with nike it's actually pretty straightforward",
+    "start": 223
+  },
+  {
+    "content": "because everybody there is actually super excited about the jam stack too so",
+    "start": 226
+  },
+  {
+    "content": "I think that's that's something that that's right they have a lot of very",
+    "start": 230
+  },
+  {
+    "content": "smart people that built the infrastructure they just have different",
+    "start": 233
+  },
+  {
+    "content": "needs they have a lot of different content authoring and workflow processes",
+    "start": 236
+  },
+  {
+    "content": "that need to go live with certain points and and whatnot but they also super",
+    "start": 239
+  },
+  {
+    "content": "excited about the jam stack because it allows them to focus on their core",
+    "start": 243
+  },
+  {
+    "content": "business which is calm and Jordan Brandon and all of those but say like",
+    "start": 246
+  },
+  {
+    "content": "all of these off platform experiences are driven by the jam stack anything for",
+    "start": 250
+  },
+  {
+    "content": "us to like power that and give them case studies of grow that a lot more help",
+    "start": 254
+  },
+  {
+    "content": "them a lot clients like impossible foods who are like being heavily sold to by",
+    "start": 259
+  },
+  {
+    "content": "Adobe and put into that Dolby marketing cloud is a",
+    "start": 265
+  },
+  {
+    "content": "very different story right because there you have to actually fight with that",
+    "start": 268
+  },
+  {
+    "content": "like there's infrastructure that comes in from the outside and and that's a",
+    "start": 272
+  },
+  {
+    "content": "that's a separate story is that that's often a very difficult conversation to",
+    "start": 276
+  },
+  {
+    "content": "have right especially if a company is very invested in something and it's like",
+    "start": 281
+  },
+  {
+    "content": "the the sunk cost fallacy and all those things start to come into place so I",
+    "start": 285
+  },
+  {
+    "content": "know that can be a slightly more difficult conversation about yourself is",
+    "start": 289
+  },
+  {
+    "content": "yeah I mean I mirror the same sort of issues so you know organizations may",
+    "start": 293
+  },
+  {
+    "content": "have spent literally millions of dollars on back-end infrastructure and that",
+    "start": 299
+  },
+  {
+    "content": "back-end infrastructure has capabilities for the front end and they have to",
+    "start": 303
+  },
+  {
+    "content": "question no it was that investment a good investment just because we made",
+    "start": 307
+  },
+  {
+    "content": "this large investment should we be using this for everything that it's capable of",
+    "start": 314
+  },
+  {
+    "content": "using so one of the things that I have found as a general guideline is that",
+    "start": 318
+  },
+  {
+    "content": "when it comes to back-end investments the lifespan of those are typically",
+    "start": 325
+  },
+  {
+    "content": "longer than front end so if we can come in and we can say well you've made a",
+    "start": 330
+  },
+  {
+    "content": "large investment in whatever tool that is Hybris or whatever it is and we can",
+    "start": 336
+  },
+  {
+    "content": "layer on top of that at the front end then we're meeting the business needs in",
+    "start": 341
+  },
+  {
+    "content": "terms of their investment in terms of their and change cycles which are",
+    "start": 346
+  },
+  {
+    "content": "usually not as fast as the the customers expectations for change cycles yeah and",
+    "start": 350
+  },
+  {
+    "content": "then we can build a front-end that you know marries up with the back end",
+    "start": 354
+  },
+  {
+    "content": "through API structures and it's it's you know secure because we're not making",
+    "start": 359
+  },
+  {
+    "content": "huge changes it can iterate quicker and it does meet the needs of the the front",
+    "start": 364
+  },
+  {
+    "content": "end right so this is how we typically approach this is we don't want to throw",
+    "start": 368
+  },
+  {
+    "content": "out everything we want to see how we can layer on top and work with their with",
+    "start": 372
+  },
+  {
+    "content": "their cycle times right that was interesting because that kind of",
+    "start": 378
+  },
+  {
+    "content": "dovetails nicely with the question that's come in from swak which is about",
+    "start": 382
+  },
+  {
+    "content": "to do to do with content management systems and the expectations there and",
+    "start": 386
+  },
+  {
+    "content": "the question is you know how do you convince clients to use the jam stack",
+    "start": 390
+  },
+  {
+    "content": "when CMS changes aren't deployed instantly so you know I'm guessing in",
+    "start": 393
+  },
+  {
+    "content": "the an environment where a CMS change will happen it will trigger",
+    "start": 397
+  },
+  {
+    "content": "a build run a build and then propagate and do deployment it you know the",
+    "start": 399
+  },
+  {
+    "content": "perception is that that's not instant whereas using a regular CMS is so I'd be",
+    "start": 405
+  },
+  {
+    "content": "curious in your experiences in comparing the two like the like a legacy stack on",
+    "start": 410
+  },
+  {
+    "content": "a CMS versus the expectations on a on the jam stack does that are there any",
+    "start": 414
+  },
+  {
+    "content": "bells ringing there for you well I would say is it's definitely been a challenge",
+    "start": 419
+  },
+  {
+    "content": "traditionally and I think all of these challenges are being are being met now",
+    "start": 424
+  },
+  {
+    "content": "and with either bridges in terms of well you know perhaps perhaps you don't need",
+    "start": 430
+  },
+  {
+    "content": "an instant view of this perhaps it's a system where there's multiple endpoints",
+    "start": 436
+  },
+  {
+    "content": "and the the notion of having an instant view of just your website endpoint",
+    "start": 440
+  },
+  {
+    "content": "doesn't really make sense because your CMS is a tool that is really more of a",
+    "start": 444
+  },
+  {
+    "content": "data store that's feeding many endpoints and the idea of a preview of your",
+    "start": 450
+  },
+  {
+    "content": "website doesn't actually make sense anymore huh so for instance if it's a",
+    "start": 454
+  },
+  {
+    "content": "you know it's a newsroom while there may be 10 different endpoints but do you",
+    "start": 458
+  },
+  {
+    "content": "need to preview all 10 different endpoints or do you just need to write",
+    "start": 463
+  },
+  {
+    "content": "it the article yeah right so in that sense it's it's it's less important and",
+    "start": 466
+  },
+  {
+    "content": "then there's new technologies that we've even seen presentations on here where we",
+    "start": 470
+  },
+  {
+    "content": "get live previews right and it's pretty amazing things and I think these are",
+    "start": 475
+  },
+  {
+    "content": "technologies that are bridging that gap very rapidly so I don't really think",
+    "start": 479
+  },
+  {
+    "content": "it's a long-term concern and I think I think there's the the instant preview",
+    "start": 484
+  },
+  {
+    "content": "and like the author seeing you know what they're expecting to publish and then",
+    "start": 489
+  },
+  {
+    "content": "there's also this perception of time to get the content out into the world",
+    "start": 493
+  },
+  {
+    "content": "Debbi yesterday talked about static versus dynamic and what they actually",
+    "start": 497
+  },
+  {
+    "content": "mean I think there's a there's certainly pervasive kind of feeling that well",
+    "start": 500
+  },
+  {
+    "content": "jazzed excites a step by quote-unquote static so that means a longer time to",
+    "start": 505
+  },
+  {
+    "content": "get things out into the world um Marc is that something that that",
+    "start": 509
+  },
+  {
+    "content": "you've encountered like a same quick question I guess really I mean is that a",
+    "start": 512
+  },
+  {
+    "content": "decision you've had to clarify for for clients in the past I think every time",
+    "start": 517
+  },
+  {
+    "content": "yeah every tire thing next time I'm gonna bring Alex cuz that answer was a",
+    "start": 521
+  },
+  {
+    "content": "lot better than what I usually do I think what we I think gasps we preview",
+    "start": 524
+  },
+  {
+    "content": "actually is a god-sent right now just like to talk to",
+    "start": 530
+  },
+  {
+    "content": "certain clients and say like you have a gas b3v environment for Nike we build an",
+    "start": 533
+  },
+  {
+    "content": "entire custom like loading screen to go from like the CMS content while they are",
+    "start": 537
+  },
+  {
+    "content": "editing the content to actually say like hey your site is building because the",
+    "start": 543
+  },
+  {
+    "content": "big problem is they go to the silent they're like well my content isn't",
+    "start": 547
+  },
+  {
+    "content": "updated then you get an email within two minutes right it happens a lot but I",
+    "start": 549
+  },
+  {
+    "content": "agree like it doesn't need to be always live content but some of our clients are",
+    "start": 556
+  },
+  {
+    "content": "literally like we want the scalability of am with the flexibility of",
+    "start": 561
+  },
+  {
+    "content": "Squarespace and where do you meet them right I think that's that's a big",
+    "start": 565
+  },
+  {
+    "content": "challenge that we're facing in industry but I think a lot of tools like as we",
+    "start": 569
+  },
+  {
+    "content": "preview and all of those are helping a lot on alleviating those issues and I",
+    "start": 573
+  },
+  {
+    "content": "don't yeah I have to say that in you know with the some of the sites that",
+    "start": 577
+  },
+  {
+    "content": "I've worked on in the past the time to actually get content published on a",
+    "start": 580
+  },
+  {
+    "content": "dynamic system with a CMS has actually been much greater to get things deployed",
+    "start": 585
+  },
+  {
+    "content": "than a static architecture but I know it's the loaded terms really kind of",
+    "start": 590
+  },
+  {
+    "content": "make that a little less clear I think and I mean it's the same when you have",
+    "start": 597
+  },
+  {
+    "content": "to tell your clients oh yeah you're behind faster or CloudFlare and you have",
+    "start": 600
+  },
+  {
+    "content": "to pierce the cache somehow that's actually much of a worse explanation",
+    "start": 604
+  },
+  {
+    "content": "then figure it out when at the points actually one other point on that because",
+    "start": 608
+  },
+  {
+    "content": "it's it's quite a challenge right and in a lot of people's minds to get past this",
+    "start": 612
+  },
+  {
+    "content": "notion of a static site generator I don't think anyone would argue that",
+    "start": 615
+  },
+  {
+    "content": "react is static right so and no one would argue about an API is static",
+    "start": 620
+  },
+  {
+    "content": "either so you can certainly have your chrome be static and and you know",
+    "start": 626
+  },
+  {
+    "content": "pre-rendered and but you can absolutely have dynamic data within that that is",
+    "start": 633
+  },
+  {
+    "content": "real-time yeah so you could have you know real-time scores you could have",
+    "start": 638
+  },
+  {
+    "content": "real-time you know streams of whatever you want yeah based on the API and and",
+    "start": 642
+  },
+  {
+    "content": "react so it's important to you know to keep that in mind that it's actually a",
+    "start": 648
+  },
+  {
+    "content": "poor name the static site generator so in this context because using modern",
+    "start": 653
+  },
+  {
+    "content": "technologies like reactant you know similar views and it's",
+    "start": 658
+  },
+  {
+    "content": "absolutely still dynamic right yeah and I think that's that's one of the very",
+    "start": 662
+  },
+  {
+    "content": "reasons that the term Jam stack exists is I'm trying to get us beyond that word",
+    "start": 667
+  },
+  {
+    "content": "static because I mean I think of static hosting is a huge opportunity and a huge",
+    "start": 671
+  },
+  {
+    "content": "virtue I often talk to clients about that but there's another question kind",
+    "start": 676
+  },
+  {
+    "content": "of on this vein that's come in from from slack",
+    "start": 680
+  },
+  {
+    "content": "which is you know about explaining to people who maybe aren't technical on off",
+    "start": 683
+  },
+  {
+    "content": "and you know clients about what Jam stack means you know how do you train",
+    "start": 689
+  },
+  {
+    "content": "your sales and non-technical people to sell potential clients on the jam stack",
+    "start": 694
+  },
+  {
+    "content": "know-how how does how do you get across the point of what this architecture can",
+    "start": 698
+  },
+  {
+    "content": "bring to a project Marc maybe I can come to you I think it is that that challenge",
+    "start": 703
+  },
+  {
+    "content": "with a MRAM is very good at approaching marketing people and high-level",
+    "start": 708
+  },
+  {
+    "content": "marketing organizations and really selling in that adobe marketing cloud",
+    "start": 711
+  },
+  {
+    "content": "thing and other organizations are too so you walk in there and you have like your",
+    "start": 715
+  },
+  {
+    "content": "technical stack and you know it's better and it performs better but now you need",
+    "start": 719
+  },
+  {
+    "content": "to like translate that into into all their terms and I think really it is",
+    "start": 723
+  },
+  {
+    "content": "moving away from saying hey we we compete in the same space as a.m. it's",
+    "start": 728
+  },
+  {
+    "content": "saying like we give you the flexibility to grow like we have a long track record",
+    "start": 733
+  },
+  {
+    "content": "of using the stack to actually help you grow into pivot and to react quickly",
+    "start": 736
+  },
+  {
+    "content": "because no organization nowadays can afford to just sit on a tech stack for",
+    "start": 740
+  },
+  {
+    "content": "years that's just not a reality anymore and I think showing people that you can",
+    "start": 745
+  },
+  {
+    "content": "connect everything to to all new things that come out and I'm sure in two years",
+    "start": 749
+  },
+  {
+    "content": "we have another organization developing another react and bringing this all",
+    "start": 754
+  },
+  {
+    "content": "together is really I think where we start to have the conversations with our",
+    "start": 758
+  },
+  {
+    "content": "marketing clients and saying it's a lot easier and your your time to market is a",
+    "start": 762
+  },
+  {
+    "content": "lot quicker and it's a look like yeah and your personalization is a lot that",
+    "start": 767
+  },
+  {
+    "content": "more is a lot deeper and your connection to your customers is a lot deeper",
+    "start": 772
+  },
+  {
+    "content": "because you can actually react and pivot nice um so there's also kind of skirts",
+    "start": 776
+  },
+  {
+    "content": "around another compact a question that came in on the slack and you know we",
+    "start": 782
+  },
+  {
+    "content": "talked a little bit about you know whether there are CD ends in front of",
+    "start": 788
+  },
+  {
+    "content": "things and caching there all those kind of things and we've also",
+    "start": 791
+  },
+  {
+    "content": "talked about the kind of tools being used for content management whether",
+    "start": 793
+  },
+  {
+    "content": "that's WordPress or Drupal or whatever else is there and one of the questions",
+    "start": 798
+  },
+  {
+    "content": "someone's playing devil's advocate a little bit saying you know a jam stack",
+    "start": 803
+  },
+  {
+    "content": "site is maybe a statically hosted site but a wordpress site with plugins and",
+    "start": 807
+  },
+  {
+    "content": "cache and all those kind of things with a CDN in front of it well maybe that's",
+    "start": 811
+  },
+  {
+    "content": "kind of pseudo static as well because you're pushing everything to a CDN so",
+    "start": 815
+  },
+  {
+    "content": "into from the perspective of a developer or an editor or I guess indeed an end",
+    "start": 819
+  },
+  {
+    "content": "user what's what's the difference is there is there a difference I mean have",
+    "start": 824
+  },
+  {
+    "content": "you found a difference between pre rendering and working with a pure kind",
+    "start": 829
+  },
+  {
+    "content": "of Jam stack approach versus putting caching layers in front of dynamic tools",
+    "start": 833
+  },
+  {
+    "content": "and those kind of things have you got any thoughts on that I'll come to you",
+    "start": 837
+  },
+  {
+    "content": "first yeah so I in terms of the end user they don't care they don't as long as",
+    "start": 840
+  },
+  {
+    "content": "it's fast you don't care about the technology that's driving it right so",
+    "start": 845
+  },
+  {
+    "content": "you can build an excellent website with WordPress Drupal or you know a.m. or it",
+    "start": 848
+  },
+  {
+    "content": "doesn't matter even using modern tech modern technologies right you can you",
+    "start": 853
+  },
+  {
+    "content": "can get it to work right so yeah so I think one of the big benefits for us is",
+    "start": 859
+  },
+  {
+    "content": "is when you're dealing with the technology like a.m. we're Drupal or",
+    "start": 867
+  },
+  {
+    "content": "even WordPress you need a certain skill set and internally to be able to develop",
+    "start": 872
+  },
+  {
+    "content": "that and there's there's a learning curve that is that's higher than just",
+    "start": 878
+  },
+  {
+    "content": "HTML you know or that's higher than some of the divisions that we can have in",
+    "start": 883
+  },
+  {
+    "content": "this Jam stack terms of talent divisions right so we can move in a more agile",
+    "start": 887
+  },
+  {
+    "content": "fashion we can align to agile marketing teams with this Jam stack they can even",
+    "start": 892
+  },
+  {
+    "content": "like with the case of Longo's they even have internal people who are now making",
+    "start": 898
+  },
+  {
+    "content": "edits to the site in HTML CSS and doing the promotion's you know that that would",
+    "start": 901
+  },
+  {
+    "content": "be a difficult thing to do with Drupal right so there's you know there's",
+    "start": 907
+  },
+  {
+    "content": "certainly always going to be the use case for monolith and for a completely",
+    "start": 911
+  },
+  {
+    "content": "owned system internally there's organizations that are you know",
+    "start": 917
+  },
+  {
+    "content": "structured around that culturally and their governance is structured",
+    "start": 922
+  },
+  {
+    "content": "around that but you know term that I've heard a long time ago and I think is",
+    "start": 926
+  },
+  {
+    "content": "like really coming into play here's is the assembled web assembled web yeah so",
+    "start": 931
+  },
+  {
+    "content": "basically where you're assembling various different components together to",
+    "start": 936
+  },
+  {
+    "content": "build your solution and there isn't one finger that you can or one point that",
+    "start": 941
+  },
+  {
+    "content": "you can point your finger and say that's where my website sits or that's where",
+    "start": 945
+  },
+  {
+    "content": "this sets and instead it's this assembled web ecosystem and it can move",
+    "start": 950
+  },
+  {
+    "content": "much faster it can it's more dynamic yeah yeah the market is that kind of",
+    "start": 955
+  },
+  {
+    "content": "resonate with you as well particularly with come thinking about the the",
+    "start": 962
+  },
+  {
+    "content": "different stacks and how we work with them for sure I think for us it's also",
+    "start": 966
+  },
+  {
+    "content": "we don't only have the baked Nike clients we also have smaller clients and",
+    "start": 969
+  },
+  {
+    "content": "they often come with the WordPress installation I think what we don't want",
+    "start": 974
+  },
+  {
+    "content": "to do is spend weeks and weeks and weeks and training if contentful and whoever",
+    "start": 977
+  },
+  {
+    "content": "wants to do training with them that's fine but oftentimes some of our clients",
+    "start": 982
+  },
+  {
+    "content": "don't have the money to spend on a new CMS so I think technologies like the jam",
+    "start": 986
+  },
+  {
+    "content": "stack are so nimble that we can just implant them into WordPress right like",
+    "start": 990
+  },
+  {
+    "content": "for a Negroni week another one of our clients we just decided to leave most of",
+    "start": 994
+  },
+  {
+    "content": "the website as isn't just focus on the important piece and to say like we just",
+    "start": 998
+  },
+  {
+    "content": "embed the jam stack where it needs to be and we let you run your content and give",
+    "start": 1003
+  },
+  {
+    "content": "you a CDN on the front end so that everything else works fine but we need",
+    "start": 1009
+  },
+  {
+    "content": "to focus on what's important and what drives value for your for your customer",
+    "start": 1013
+  },
+  {
+    "content": "right and that's it an interesting point you make is well about different types",
+    "start": 1017
+  },
+  {
+    "content": "of projects different kinds of clients but you you know you you still have the",
+    "start": 1021
+  },
+  {
+    "content": "same team that you're trying to deploy on those things so it sounds like I",
+    "start": 1024
+  },
+  {
+    "content": "don't to put words in your mouth but it sounds like that's that's been helpful",
+    "start": 1029
+  },
+  {
+    "content": "to approach different types of project is that gonna be none like a normalizing",
+    "start": 1032
+  },
+  {
+    "content": "kind of approach to that or is it it's allowed you to service lots of different",
+    "start": 1036
+  },
+  {
+    "content": "types of projects or would that be simpler in a in a more traditional way I",
+    "start": 1040
+  },
+  {
+    "content": "think a little bit both I think the people the people that we have are super",
+    "start": 1045
+  },
+  {
+    "content": "excited about the jambs leg which really helps I feel like if you have something",
+    "start": 1049
+  },
+  {
+    "content": "that you're good at and that the people actually like doing and that happens to",
+    "start": 1052
+  },
+  {
+    "content": "pay decently well enough I think that's the",
+    "start": 1056
+  },
+  {
+    "content": "thing that can happen to an organization I think like that cycle continues and I",
+    "start": 1058
+  },
+  {
+    "content": "think two of our engineers who are here there are some of the best engineers",
+    "start": 1062
+  },
+  {
+    "content": "that I've worked with so it's just fun to like work with them and learn from",
+    "start": 1067
+  },
+  {
+    "content": "them and it's such a very good point because as an agency owner you know that",
+    "start": 1071
+  },
+  {
+    "content": "you it's it's not just about getting a project it's it's also getting",
+    "start": 1077
+  },
+  {
+    "content": "interesting projects being able to keep the interest of your people right so you",
+    "start": 1081
+  },
+  {
+    "content": "have to you have to foster that culture internally and this is one of the great",
+    "start": 1086
+  },
+  {
+    "content": "things about Jam stack is it opens up a lot of doors",
+    "start": 1092
+  },
+  {
+    "content": "it doesn't throw away everything that we've already learned yeah we can layer",
+    "start": 1095
+  },
+  {
+    "content": "on top of that and that mirrors very often how we layer on top of you know",
+    "start": 1100
+  },
+  {
+    "content": "clients and infrastructure and existing technology and that keeps everything",
+    "start": 1105
+  },
+  {
+    "content": "interesting so it's you know I can tell you that the team that worked on long",
+    "start": 1109
+  },
+  {
+    "content": "goes there and they're all converts they they love Jam stack this is the way",
+    "start": 1113
+  },
+  {
+    "content": "forward for them and it's you know it's spreading like a virus internally it's a",
+    "start": 1117
+  },
+  {
+    "content": "good virus I mean that is a sentiment I would kind of like to finish on but we",
+    "start": 1122
+  },
+  {
+    "content": "do have enough time to squeeze in another question so I'm gonna I'm gonna",
+    "start": 1129
+  },
+  {
+    "content": "make the most of it and Mark something perhaps for you you mentioned in your in",
+    "start": 1131
+  },
+  {
+    "content": "your presentation about user-generated content no in under just to project",
+    "start": 1137
+  },
+  {
+    "content": "I think the phrase I want to make sure I quote you correctly behind the scenes",
+    "start": 1142
+  },
+  {
+    "content": "Nike would look at your dreams that's that's user-generated content like",
+    "start": 1145
+  },
+  {
+    "content": "plus-plus but that's usually a user-generated content feels like a",
+    "start": 1150
+  },
+  {
+    "content": "ceiling that you bump into when you think about pre-generated sites or Jam",
+    "start": 1157
+  },
+  {
+    "content": "stack um it seems like you got that to work yeah okay for you so can you talk",
+    "start": 1162
+  },
+  {
+    "content": "maybe just a tiny bit about that sure forty seconds what's that make I'll give",
+    "start": 1166
+  },
+  {
+    "content": "you okay thank you no I think what is what was important for us is we don't",
+    "start": 1170
+  },
+  {
+    "content": "store a PII data like we don't want P idea Nike has an extremely well built",
+    "start": 1175
+  },
+  {
+    "content": "infrastructure where they say like you can live stream content into their",
+    "start": 1179
+  },
+  {
+    "content": "infrastructure and only certain people have access to it so there's only a",
+    "start": 1184
+  },
+  {
+    "content": "handful of people who actually even see who it is that submitted this",
+    "start": 1188
+  },
+  {
+    "content": "dream a lot of other people marketing people see what the dream was so they",
+    "start": 1192
+  },
+  {
+    "content": "would select that dream and then elevate it to that team and then they would get",
+    "start": 1196
+  },
+  {
+    "content": "the information and reach out yeah that's how this works just to like keep",
+    "start": 1199
+  },
+  {
+    "content": "your data safe but what we did is we used fire stores real time database",
+    "start": 1203
+  },
+  {
+    "content": "stored the dream and did not say if any of the pie and just like forwarded it",
+    "start": 1207
+  },
+  {
+    "content": "directly and all this real-time streaming with with serverless api's",
+    "start": 1211
+  },
+  {
+    "content": "yeah I mean all of this scaled so well because again like there's no worries",
+    "start": 1216
+  },
+  {
+    "content": "about I mean there's a little bit of a cold start issue that you have but that",
+    "start": 1220
+  },
+  {
+    "content": "can be mitigated but all the other stuff is just like it's real times time",
+    "start": 1224
+  },
+  {
+    "content": "streaming and like just goes back and forth I love that notion of being able",
+    "start": 1228
+  },
+  {
+    "content": "to make use of lots of different services that exist each one is provided",
+    "start": 1232
+  },
+  {
+    "content": "by a team of people who are focused on that challenge so they can they can be",
+    "start": 1238
+  },
+  {
+    "content": "experts in that field so you don't have to retain that expect ease within your",
+    "start": 1242
+  },
+  {
+    "content": "team you can kind of inherit that expertise I love that I also love the",
+    "start": 1246
+  },
+  {
+    "content": "notion that you know you can not have to have unicorns but have people who are",
+    "start": 1250
+  },
+  {
+    "content": "still experts in their field by experts in things that maybe are a little bit",
+    "start": 1257
+  },
+  {
+    "content": "more common technologies that you can you can leverage throughout your",
+    "start": 1261
+  },
+  {
+    "content": "projects we're out of time I do have more questions but sadly we're out of",
+    "start": 1264
+  },
+  {
+    "content": "time are you both gonna be around during the",
+    "start": 1267
+  },
+  {
+    "content": "conference today and yeah so people could maybe tap you on the shoulder and",
+    "start": 1269
+  },
+  {
+    "content": "talk to you both excellent well thank you both so much for sharing some",
+    "start": 1273
+  },
+  {
+    "content": "stories and sitting down and chatting this morning please a big round of",
+    "start": 1278
+  },
+  {
+    "content": "applause for mark and Alex [Applause]",
+    "start": 1281
+  },
+  {
+    "content": "[Applause]",
+    "start": 1288
+  },
+  {
+    "content": "you",
+    "start": 1295
+  }
+]

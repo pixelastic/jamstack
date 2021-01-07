@@ -1,0 +1,14 @@
+{
+  "description": "Content writers love the content management workflows that WordPress provides. Devs love the developer experience of using Gatsby. And when you combine the two? Everyone wins! In this episode, Zac Gordon (https://twitter.com/zgordon) teaches us how to power Gatsby sites with WordPress and how to add dynamic features!\n\n- demo: https://jamstack-wordpress.netlify.com/\n- repo: https://github.com/jlengstorf/wordpress-jamstack\n\nLinks: \n- https://www.wpgraphql.com/\n- https://github.com/WordPress/gutenberg/blob/master/packages/block-library/README.md\n- https://staticfuse.com/\n- https://twitter.com/pristas_peter/status/1224674835453960195\n- https://javascriptforwp.com/\n- https://www.strattic.com/\n- https://nategreen.org/\n- https://lengstorf.com/best-friends/\n\n Watch future episodes live at https://www.twitch.tv/jlengstorf\n\nCredits:\n\nLocal Elevator by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300012\n\nArtist: http://incompetech.com/\n\nBusybody by Audionautix is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\n\nArtist: http://audionautix.com/\n\nAdditional sound effects obtained from https://www.zapsplat.com",
+  "id": "XbvVVdF5Dh8",
+  "position": 3,
+  "publishedAt": 1606738662,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/XbvVVdF5Dh8/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/XbvVVdF5Dh8/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/XbvVVdF5Dh8/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/XbvVVdF5Dh8/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/XbvVVdF5Dh8/default.jpg"
+  },
+  "title": "Use WordPress + Gatsby for Jamstack Sites (with Zac Gordon) — Learn With Jason"
+}

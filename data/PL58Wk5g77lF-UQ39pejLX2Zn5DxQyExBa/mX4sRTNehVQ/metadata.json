@@ -4,9 +4,11 @@
   "position": 15,
   "publishedAt": 1542606783,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/mX4sRTNehVQ/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/mX4sRTNehVQ/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/mX4sRTNehVQ/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/mX4sRTNehVQ/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/mX4sRTNehVQ/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/mX4sRTNehVQ/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/mX4sRTNehVQ/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/mX4sRTNehVQ/default.jpg"
   },
   "title": "Thomas Reynolds - The 3 Types of Clients You'll Need to Convince"
 }

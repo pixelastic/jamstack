@@ -1,0 +1,398 @@
+[
+  {
+    "content": "raise your hands if you're a full stack",
+    "start": 0
+  },
+  {
+    "content": "web developer well you guys are in an endangered species where can we find",
+    "start": 17
+  },
+  {
+    "content": "developers who can navigate that react web pack ecosystem understand millions",
+    "start": 24
+  },
+  {
+    "content": "of expressed areas middlewares navigate through the soup of cloud",
+    "start": 30
+  },
+  {
+    "content": "technology and build a multi region multi-cloud kubernetes cluster the",
+    "start": 34
+  },
+  {
+    "content": "modern web landscape is devilishly complicated in the early 2000s you could",
+    "start": 41
+  },
+  {
+    "content": "have imagined a child sitting with his grandma figuring out how to do web",
+    "start": 47
+  },
+  {
+    "content": "development but now the learning curve now is really treacherous and that is",
+    "start": 51
+  },
+  {
+    "content": "why I love the jam stack with the jam stack we can focus on the fun of web",
+    "start": 59
+  },
+  {
+    "content": "development and forget about the difficult pieces like the servers and",
+    "start": 66
+  },
+  {
+    "content": "the deployments and move them to edge cases which we don't have to worry about",
+    "start": 71
+  },
+  {
+    "content": "on a day to day life in my talk today I'll introduce myself and my experiments",
+    "start": 75
+  },
+  {
+    "content": "with static websites I'll discuss when we should or should we ever use the jam",
+    "start": 82
+  },
+  {
+    "content": "stack for e-commerce how we can use it for e-commerce and when will the jam",
+    "start": 87
+  },
+  {
+    "content": "stack not Jam your stack time for some introductions my name is attache",
+    "start": 93
+  },
+  {
+    "content": "I'm a senior computer scientist at Adobe in the last 10 years hopefully have done",
+    "start": 101
+  },
+  {
+    "content": "something to impact your or all of the lives of people on this planet on the",
+    "start": 106
+  },
+  {
+    "content": "side I work on a vs code extension my own personal website which is Jam stack",
+    "start": 110
+  },
+  {
+    "content": "based and hosted on metal if I and I'm in the process of writing a book on Hugo",
+    "start": 116
+  },
+  {
+    "content": "Hugo in action which is an early access this is me on the right trying to build",
+    "start": 121
+  },
+  {
+    "content": "my first website I started with plain old HTML for using frames very quickly I",
+    "start": 126
+  },
+  {
+    "content": "realized that this is very difficult to manage and I needed the complexities and",
+    "start": 132
+  },
+  {
+    "content": "the simplicity of PHP very soon I realized that with great power comes the",
+    "start": 138
+  },
+  {
+    "content": "responsibility that I not able to handle therefore I had to",
+    "start": 144
+  },
+  {
+    "content": "give it up and move on to a hosted solution after a while I found the jam",
+    "start": 150
+  },
+  {
+    "content": "stack with jackie'll I was able to post my website and have the flexibility back",
+    "start": 157
+  },
+  {
+    "content": "with little maintenance over time I moved to Hugo with Hugo I found the best",
+    "start": 162
+  },
+  {
+    "content": "solution with a great performance a lot of flexibility and low maintenance I",
+    "start": 170
+  },
+  {
+    "content": "liked it so much and I'm actually writing a book on Hugo coming back to",
+    "start": 175
+  },
+  {
+    "content": "the original question should you use the jam stack for e-commerce when I started",
+    "start": 182
+  },
+  {
+    "content": "with my book a friend of mine said Hugo the jams tag it is a dead end technology",
+    "start": 186
+  },
+  {
+    "content": "you cannot do anything serious with this technology and I took him very seriously",
+    "start": 194
+  },
+  {
+    "content": "I decided to add a chapter in my book to build a serious quote/unquote serious",
+    "start": 201
+  },
+  {
+    "content": "application with the jam stack looking for a solution I realized that ecommerce",
+    "start": 207
+  },
+  {
+    "content": "fits the bill perfectly in an e-commerce application we have millions of product",
+    "start": 213
+  },
+  {
+    "content": "pages those pages don't change very frequently and all the users visit them",
+    "start": 219
+  },
+  {
+    "content": "multiple times before actually purchasing these pages are public which",
+    "start": 224
+  },
+  {
+    "content": "means they have been accessed by bots and search engines and every change that",
+    "start": 228
+  },
+  {
+    "content": "you make is hit multiple times if you have a mobile app for all the dynamic",
+    "start": 234
+  },
+  {
+    "content": "content in these pages we would already have ap is if you follow",
+    "start": 239
+  },
+  {
+    "content": "service-oriented architecture you would have already set up an inventory",
+    "start": 244
+  },
+  {
+    "content": "management system a logistic system and a billing system which would be",
+    "start": 247
+  },
+  {
+    "content": "independent of your core website and that's all that's needed to set it up on",
+    "start": 251
+  },
+  {
+    "content": "the jam stack using the jam stack what we can do is use the mark-up layer for",
+    "start": 255
+  },
+  {
+    "content": "creating the product pages these pages are static they can be created in a",
+    "start": 262
+  },
+  {
+    "content": "markup language hosted on a CDN and we don't have to worry about them then we",
+    "start": 266
+  },
+  {
+    "content": "can use the API layers to do the inventory management the billing and in",
+    "start": 271
+  },
+  {
+    "content": "logistics layers and finally use JavaScript",
+    "start": 275
+  },
+  {
+    "content": "use javascript to communicate with these independent systems we could also use",
+    "start": 282
+  },
+  {
+    "content": "javascript to set up the shopping cart now I have an example where I'm trying",
+    "start": 289
+  },
+  {
+    "content": "to use JavaScript to do all this a plain Jam stack example and I'm trying to use",
+    "start": 296
+  },
+  {
+    "content": "the paypal and the square api's and his API is from PayPal or what I call pay",
+    "start": 302
+  },
+  {
+    "content": "pills PayPal has these Add to Cart buttons with which you can add stuff to",
+    "start": 307
+  },
+  {
+    "content": "your shopping cart if you don't have an API management system if you don't have",
+    "start": 312
+  },
+  {
+    "content": "an API system for inventory management and logistics billing providers take",
+    "start": 317
+  },
+  {
+    "content": "care of that I call them pay pills because his",
+    "start": 321
+  },
+  {
+    "content": "buttons look like pills you can go to paypal.com slash buttons to create your",
+    "start": 323
+  },
+  {
+    "content": "own e-commerce buttons or edit Cart buttons in these buttons you can provide",
+    "start": 330
+  },
+  {
+    "content": "all the information about your purchase your inventory you use a redirection and",
+    "start": 334
+  },
+  {
+    "content": "PayPal would give you a code a button code that you can use in your website I",
+    "start": 340
+  },
+  {
+    "content": "have this website for veggie foods where I sell organic fruits and vegetables at",
+    "start": 345
+  },
+  {
+    "content": "exorbitant prices I have built this in Hugo and what that means is I have a",
+    "start": 351
+  },
+  {
+    "content": "folder for each of my products each folder contains an image and a document",
+    "start": 358
+  },
+  {
+    "content": "the document has a markdown piece which is the description of the product some",
+    "start": 363
+  },
+  {
+    "content": "metadata like the pricing information and a PayPal ID that I can use on PayPal",
+    "start": 369
+  },
+  {
+    "content": "with this information I can build the product page with this information I can",
+    "start": 374
+  },
+  {
+    "content": "build the product page well imagine you can see the product page this product",
+    "start": 384
+  },
+  {
+    "content": "page does not have a PayPal pill well you got the other thing cells so you can",
+    "start": 390
+  },
+  {
+    "content": "build a product page with these information and when you click on add to",
+    "start": 396
+  },
+  {
+    "content": "cart it should go to PayPal which can take care of all your cart management",
+    "start": 399
+  },
+  {
+    "content": "and checkout once it's done PayPal would update the system and send you an email",
+    "start": 402
+  },
+  {
+    "content": "that something happened and in this way you",
+    "start": 408
+  },
+  {
+    "content": "had to write any server-side code to get an e-commerce system ready you could do",
+    "start": 413
+  },
+  {
+    "content": "a lot more with the cloud function PayPal provides an order API",
+    "start": 418
+  },
+  {
+    "content": "similarly Square provides a get payment API if you want to build your own",
+    "start": 423
+  },
+  {
+    "content": "shopping cart you could do all of that in Jas and then with your shopping cart",
+    "start": 428
+  },
+  {
+    "content": "when everything is done forward that information to a cloud function this",
+    "start": 432
+  },
+  {
+    "content": "cloud function would call these API is redirect the user to the billing server",
+    "start": 436
+  },
+  {
+    "content": "the user would purchase a product and the cloud function would get a callback",
+    "start": 440
+  },
+  {
+    "content": "wherein you could forward that information to your inventory system or",
+    "start": 443
+  },
+  {
+    "content": "in case of a digital service directly do a download this way you won't have to",
+    "start": 448
+  },
+  {
+    "content": "jam your stack everything is scalable your product pages are hosted on a CDN",
+    "start": 454
+  },
+  {
+    "content": "they can take a lot of hits your billing system is actually something like PayPal",
+    "start": 461
+  },
+  {
+    "content": "or Square which can handle a lot more load than something that I would build",
+    "start": 467
+  },
+  {
+    "content": "manually and if you really want to use your own custom shopping cart you can",
+    "start": 471
+  },
+  {
+    "content": "host another cloud function where the service provider takes care of scaling",
+    "start": 477
+  },
+  {
+    "content": "it the jam stack is perfect for e-commerce it's perfect for e-commerce",
+    "start": 480
+  },
+  {
+    "content": "where your product selection doesn't change every minute if you're trying to",
+    "start": 487
+  },
+  {
+    "content": "build an Amazon or an eBay where you have millions of product which I've been",
+    "start": 491
+  },
+  {
+    "content": "created every minute maybe you won't use this but if you are a certain fruit",
+    "start": 495
+  },
+  {
+    "content": "company that releases products every year with millions of users jams tech",
+    "start": 499
+  },
+  {
+    "content": "might be right for you in case you are Amazon and eBay",
+    "start": 505
+  },
+  {
+    "content": "you could still build a hybrid solution with pages like about us and privacy",
+    "start": 509
+  },
+  {
+    "content": "policy could be built using a static system and the dynamic pieces could",
+    "start": 513
+  },
+  {
+    "content": "remain dynamic and especially for the jam stack conference I have a 40%",
+    "start": 518
+  },
+  {
+    "content": "discount code not just for Hugo in action but for all books on Manning comm",
+    "start": 526
+  },
+  {
+    "content": "CTW Jam as Jam SF 19 this would be a time to take a picture thank you",
+    "start": 530
+  },
+  {
+    "content": "[Applause]",
+    "start": 538
+  },
+  {
+    "content": "[Applause]",
+    "start": 544
+  }
+]

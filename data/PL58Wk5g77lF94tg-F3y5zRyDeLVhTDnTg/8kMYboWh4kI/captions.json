@@ -1,0 +1,1050 @@
+[
+  {
+    "content": "hey everyone",
+    "start": 0
+  },
+  {
+    "content": "i hope you enjoyed the conference so far my name is david carroll",
+    "start": 12
+  },
+  {
+    "content": "and i live in a beautiful and historic city of roswell",
+    "start": 16
+  },
+  {
+    "content": "i'm a web developer and here is the city where i live",
+    "start": 20
+  },
+  {
+    "content": "this is me during jumpstart frostwolf meetup",
+    "start": 24
+  },
+  {
+    "content": "here's my lovely family this is the company i work for",
+    "start": 28
+  },
+  {
+    "content": "this is my twitter handle and here's a photo of a cute animal",
+    "start": 34
+  },
+  {
+    "content": "i heard it's not mandatory but encouraged",
+    "start": 38
+  },
+  {
+    "content": "adren imagine you've completed your next jam stack",
+    "start": 41
+  },
+  {
+    "content": "project you're proud of yourself and you share your work on social media",
+    "start": 45
+  },
+  {
+    "content": "what happens next there is also there is always that one person who asks",
+    "start": 51
+  },
+  {
+    "content": "the eternal question does it scale we're on a good side this",
+    "start": 57
+  },
+  {
+    "content": "time you can just reply yes it was literally",
+    "start": 63
+  },
+  {
+    "content": "built for scaling it scales like nothing else",
+    "start": 68
+  },
+  {
+    "content": "so what's the next question you'll probably get",
+    "start": 71
+  },
+  {
+    "content": "static site generator you say so how do you handle something dynamic on",
+    "start": 75
+  },
+  {
+    "content": "your website like for example what i don't know",
+    "start": 81
+  },
+  {
+    "content": "search and that brings us to my talk topic",
+    "start": 86
+  },
+  {
+    "content": "i'm here to help you navigate through different options",
+    "start": 91
+  },
+  {
+    "content": "of how to add search functionality to your jam stack architectured website",
+    "start": 94
+  },
+  {
+    "content": "or app there is no one single right way to do it",
+    "start": 101
+  },
+  {
+    "content": "so instead of focusing on specifics we'll navigate and explore the different",
+    "start": 108
+  },
+  {
+    "content": "options that jam stack offer instead of jumping straight into",
+    "start": 115
+  },
+  {
+    "content": "solutions i'd like us to better understand the nature of the challenge",
+    "start": 122
+  },
+  {
+    "content": "we're trying to solve how search engines work one could try",
+    "start": 126
+  },
+  {
+    "content": "to build a search method that looks for a specific word",
+    "start": 131
+  },
+  {
+    "content": "or phrase in all the content every time the search method is invoked",
+    "start": 135
+  },
+  {
+    "content": "that would work but it would be extremely slow",
+    "start": 141
+  },
+  {
+    "content": "and resource wasteful instead some smart people not me came",
+    "start": 144
+  },
+  {
+    "content": "up with that with an idea of search index",
+    "start": 151
+  },
+  {
+    "content": "you can think of it as a map of words that is rebuilt once every time content",
+    "start": 155
+  },
+  {
+    "content": "changes and it points to the exact locations of",
+    "start": 160
+  },
+  {
+    "content": "those words words in articles building the index",
+    "start": 164
+  },
+  {
+    "content": "is costly but then searching is very fast it's a very simplified",
+    "start": 168
+  },
+  {
+    "content": "model on top of that there is a whole world of",
+    "start": 175
+  },
+  {
+    "content": "additional features like fuzzy searching when someone makes a typo or synonyms",
+    "start": 179
+  },
+  {
+    "content": "support or ranking the contents to serve the",
+    "start": 186
+  },
+  {
+    "content": "most relevant pieces and so on and so forth those are really",
+    "start": 190
+  },
+  {
+    "content": "hard problems and because of that i don't recommend",
+    "start": 194
+  },
+  {
+    "content": "building the search from scratch there are many tools that",
+    "start": 198
+  },
+  {
+    "content": "can handle building the index and then searching",
+    "start": 202
+  },
+  {
+    "content": "in my examples i refer to lunar this is a small but a great tool written",
+    "start": 206
+  },
+  {
+    "content": "in js that works both in node and in browser",
+    "start": 213
+  },
+  {
+    "content": "and has all the basic features you'd expect from",
+    "start": 217
+  },
+  {
+    "content": "a search engine so it makes it a perfect starting point",
+    "start": 219
+  },
+  {
+    "content": "the first solution solution we'll talk about is using one of",
+    "start": 224
+  },
+  {
+    "content": "the search engines i mean google bing or dagda go the reasoning behind",
+    "start": 229
+  },
+  {
+    "content": "this solution is if you're a good web citizen which i",
+    "start": 236
+  },
+  {
+    "content": "assume all of you are your content is accessible",
+    "start": 240
+  },
+  {
+    "content": "and served from server as a semantic html",
+    "start": 245
+  },
+  {
+    "content": "it's not generated client-side by some junkie bloated js code",
+    "start": 249
+  },
+  {
+    "content": "and thanks to that even robots can understand your content",
+    "start": 255
+  },
+  {
+    "content": "search engines already crawl and index your website on a daily basis",
+    "start": 259
+  },
+  {
+    "content": "there is nothing to set up or manage and there are they are quite good at serving",
+    "start": 264
+  },
+  {
+    "content": "relevant results and lastly crucial point",
+    "start": 270
+  },
+  {
+    "content": "many services allow you to narrow down the search results",
+    "start": 275
+  },
+  {
+    "content": "to a particular domain or even subdirectory",
+    "start": 278
+  },
+  {
+    "content": "with the site modifier so let's make use of it",
+    "start": 281
+  },
+  {
+    "content": "here's our basic search form what we want to do",
+    "start": 286
+  },
+  {
+    "content": "is redirect our users to a search results page",
+    "start": 290
+  },
+  {
+    "content": "with site modifier in place we can achieve that",
+    "start": 294
+  },
+  {
+    "content": "by modifying query param just before sending the form",
+    "start": 298
+  },
+  {
+    "content": "as you can see i've attached a small function to on submit event",
+    "start": 302
+  },
+  {
+    "content": "that does exactly that or more elegant and js-free solution",
+    "start": 307
+  },
+  {
+    "content": "you can make a redirect rule so any request",
+    "start": 314
+  },
+  {
+    "content": "to the search endpoint on your website will be passed to the search engine of",
+    "start": 318
+  },
+  {
+    "content": "your choice in case of google there is no need to",
+    "start": 322
+  },
+  {
+    "content": "create a redirect google has a site search query param and",
+    "start": 327
+  },
+  {
+    "content": "they will add the site modifier for you based on that param",
+    "start": 331
+  },
+  {
+    "content": "even if you're not going to use this method as your primary search solution",
+    "start": 338
+  },
+  {
+    "content": "i really recommend using it as a fallback mechanism",
+    "start": 342
+  },
+  {
+    "content": "for people with disabled javascript you can then sort of",
+    "start": 346
+  },
+  {
+    "content": "enhance the experience with javascript or",
+    "start": 350
+  },
+  {
+    "content": "other method or not up to you chances are it's enough for your case",
+    "start": 354
+  },
+  {
+    "content": "the user experience experience for this method is",
+    "start": 361
+  },
+  {
+    "content": "okay it's not perfect because people leave your site",
+    "start": 365
+  },
+  {
+    "content": "and search results page is from completely",
+    "start": 369
+  },
+  {
+    "content": "different world than your website but it works",
+    "start": 373
+  },
+  {
+    "content": "and is quite simple to set up you can even go further google offers",
+    "start": 377
+  },
+  {
+    "content": "programmable search engine it's a dedicated search widget that you",
+    "start": 383
+  },
+  {
+    "content": "can customize and embed directly on your website has",
+    "start": 387
+  },
+  {
+    "content": "a very similar feature called bing custom search",
+    "start": 392
+  },
+  {
+    "content": "you have to know those are paid services in google case you pay by allowing",
+    "start": 397
+  },
+  {
+    "content": "google to display ads in your search widget and with bing",
+    "start": 401
+  },
+  {
+    "content": "you simply pay with money so no ads there",
+    "start": 406
+  },
+  {
+    "content": "for the sake of fairness i'll mention that",
+    "start": 410
+  },
+  {
+    "content": "both google and bing offer an api as part of these products but these are",
+    "start": 413
+  },
+  {
+    "content": "pretty expensive comparing to other solutions we'll talk about later",
+    "start": 420
+  },
+  {
+    "content": "with that go things are a little bit different they don't offer an",
+    "start": 424
+  },
+  {
+    "content": "embeddable widget but instead they allow to customize",
+    "start": 428
+  },
+  {
+    "content": "fonts and colors of the search results page",
+    "start": 432
+  },
+  {
+    "content": "using just query params quite handy okay",
+    "start": 435
+  },
+  {
+    "content": "let's try something different but first disclaimer",
+    "start": 442
+  },
+  {
+    "content": "i don't particularly recommend this follow the following solution",
+    "start": 445
+  },
+  {
+    "content": "but i'd like i'd like us to examine it as a kind of",
+    "start": 451
+  },
+  {
+    "content": "mental exercise what if we'd follow the full jam stack path when coming up",
+    "start": 455
+  },
+  {
+    "content": "when coming up with the solution for dynamic functionality",
+    "start": 461
+  },
+  {
+    "content": "whether it's search or comments or forms one should ask themselves what can we",
+    "start": 464
+  },
+  {
+    "content": "pre-calculate at build time what can we push to cdn",
+    "start": 471
+  },
+  {
+    "content": "turns out in a search example quite a lot",
+    "start": 476
+  },
+  {
+    "content": "in a typical jam stack architectured website",
+    "start": 481
+  },
+  {
+    "content": "we have all the content available at build time",
+    "start": 484
+  },
+  {
+    "content": "whether it's stored in git repo or fetched from a cms",
+    "start": 487
+  },
+  {
+    "content": "doesn't matter it's there the idea in this solution",
+    "start": 491
+  },
+  {
+    "content": "is to generate a search index using lunar at build time and then",
+    "start": 495
+  },
+  {
+    "content": "running your static site generator in a second pass",
+    "start": 501
+  },
+  {
+    "content": "with a different configuration so that our",
+    "start": 505
+  },
+  {
+    "content": "search index is an input and our output would be rendered search",
+    "start": 508
+  },
+  {
+    "content": "result pages for every existing word on our page",
+    "start": 515
+  },
+  {
+    "content": "crazy maybe we can then make a rewrite rule for that",
+    "start": 520
+  },
+  {
+    "content": "pages and additional custom 404 page when there are no results i know",
+    "start": 526
+  },
+  {
+    "content": "the drawbacks are quite obvious it works only for one word queries",
+    "start": 532
+  },
+  {
+    "content": "it's not typo tolerant it doesn't support synonyms and so on and so forth",
+    "start": 537
+  },
+  {
+    "content": "so yeah not a comprehensive solution for a site search",
+    "start": 542
+  },
+  {
+    "content": "however looking from ceo perspective it can be really useful generally",
+    "start": 545
+  },
+  {
+    "content": "speaking you should know index search results",
+    "start": 551
+  },
+  {
+    "content": "pages from google and others but in fixing",
+    "start": 554
+  },
+  {
+    "content": "some of the most searched or most money making",
+    "start": 559
+  },
+  {
+    "content": "queries can be a great idea and bring you a lot of valuable traffic",
+    "start": 562
+  },
+  {
+    "content": "having those search results pages pre-rendered",
+    "start": 568
+  },
+  {
+    "content": "and sitting on a cdn can have a tremendous positive effect on your serp",
+    "start": 571
+  },
+  {
+    "content": "and overall user experience so yeah although i wouldn't recommend",
+    "start": 576
+  },
+  {
+    "content": "pre-rendering all the possible search queries",
+    "start": 581
+  },
+  {
+    "content": "using this method with selected queries for sale purposes",
+    "start": 584
+  },
+  {
+    "content": "thumbs up moving on to the next solution i",
+    "start": 588
+  },
+  {
+    "content": "included this method in my talk because i found",
+    "start": 594
+  },
+  {
+    "content": "numerous articles recommending this as a go-to solution",
+    "start": 596
+  },
+  {
+    "content": "for easy jumpstack search yes this method has its pros but in my",
+    "start": 600
+  },
+  {
+    "content": "opinion there are more cons let me explain",
+    "start": 605
+  },
+  {
+    "content": "the idea is as follows at build time you're supposed",
+    "start": 609
+  },
+  {
+    "content": "to dump your content into one big json file and expose it on some endpoint",
+    "start": 613
+  },
+  {
+    "content": "then on the client side when a visitor initiates search you should fetch that",
+    "start": 620
+  },
+  {
+    "content": "json build the search index using lunar and then perform a search with lunar",
+    "start": 627
+  },
+  {
+    "content": "also on a client side no api no moving parts sounds easy and",
+    "start": 633
+  },
+  {
+    "content": "convenient so where's the catch turns out",
+    "start": 639
+  },
+  {
+    "content": "your json file with content can grow pretty quickly",
+    "start": 644
+  },
+  {
+    "content": "i made an experiment and calculated gzipped",
+    "start": 647
+  },
+  {
+    "content": "content dump size and search index size for real real world articles i took them",
+    "start": 650
+  },
+  {
+    "content": "from our magazine success by live chat and as you can see",
+    "start": 657
+  },
+  {
+    "content": "it's already half a mac for 200 articles",
+    "start": 661
+  },
+  {
+    "content": "and exposing pre-generated search index is",
+    "start": 665
+  },
+  {
+    "content": "out of the question it's even bigger remember it's only about downloading",
+    "start": 668
+  },
+  {
+    "content": "but the data also has to be decompressed parsed",
+    "start": 673
+  },
+  {
+    "content": "and search index has to be created forcing our visitors to download",
+    "start": 676
+  },
+  {
+    "content": "and also calculate so much data every time they want to search for something",
+    "start": 681
+  },
+  {
+    "content": "makes me anxious sure we could try to catch that client site but it's only a",
+    "start": 685
+  },
+  {
+    "content": "partial solution and it's a hack over hack the only use",
+    "start": 690
+  },
+  {
+    "content": "case i can think of when this method makes sense is when you",
+    "start": 695
+  },
+  {
+    "content": "load all the searchable content to the app either way because of",
+    "start": 699
+  },
+  {
+    "content": "some reasons and it's there see it in a client's browser memory or",
+    "start": 704
+  },
+  {
+    "content": "you want to make a search for app functionalities",
+    "start": 711
+  },
+  {
+    "content": "not content for other cases i might have something better for you",
+    "start": 714
+  },
+  {
+    "content": "i have to admit this is my personal favorite",
+    "start": 721
+  },
+  {
+    "content": "i might be a little biased because it's something i came up with myself",
+    "start": 724
+  },
+  {
+    "content": "so keep that in mind why pareto because from my experience this solution",
+    "start": 730
+  },
+  {
+    "content": "this approach should work perfectly in eighty percent",
+    "start": 737
+  },
+  {
+    "content": "of cases it's kind of similar to the previous",
+    "start": 740
+  },
+  {
+    "content": "solution but index calculation and actual search",
+    "start": 744
+  },
+  {
+    "content": "happens in different places and it makes a big difference",
+    "start": 748
+  },
+  {
+    "content": "secret ingredient in this recipe is lambda function built",
+    "start": 752
+  },
+  {
+    "content": "and deployed along the side let's dig into that",
+    "start": 755
+  },
+  {
+    "content": "during build time beside our static site generator",
+    "start": 759
+  },
+  {
+    "content": "we run runner to load all the content and create a search index file",
+    "start": 764
+  },
+  {
+    "content": "we then create a lambda function that imports",
+    "start": 771
+  },
+  {
+    "content": "the search index and exposes a search method with services like",
+    "start": 775
+  },
+  {
+    "content": "netlify or versal it's pretty straightforward",
+    "start": 781
+  },
+  {
+    "content": "and can happen can happen during your site build time",
+    "start": 783
+  },
+  {
+    "content": "i put a full example using hygge on github",
+    "start": 787
+  },
+  {
+    "content": "but let's take a look at example search method",
+    "start": 790
+  },
+  {
+    "content": "you can think of that lambda function as a pre-generated",
+    "start": 794
+  },
+  {
+    "content": "server-less dedicated search api that is updated every time your content",
+    "start": 797
+  },
+  {
+    "content": "changes what is left is to build a front-end",
+    "start": 803
+  },
+  {
+    "content": "component that calls your dedicated api let's talk about pros there is no",
+    "start": 806
+  },
+  {
+    "content": "unnecessary overhead for our visitors search index is built",
+    "start": 812
+  },
+  {
+    "content": "once on a ci server and search action happens",
+    "start": 818
+  },
+  {
+    "content": "on a lambda function it's super cost effective with netlife",
+    "start": 821
+  },
+  {
+    "content": "functions you can even have 125 k as far as i remember",
+    "start": 826
+  },
+  {
+    "content": "three monthly searches and it has all the pros of lambda functions",
+    "start": 831
+  },
+  {
+    "content": "so no need for server maintenance handling",
+    "start": 837
+  },
+  {
+    "content": "traffic spikes etc there are some drawbacks",
+    "start": 840
+  },
+  {
+    "content": "obviously starting lambda function and loading search index into memory takes",
+    "start": 844
+  },
+  {
+    "content": "time usually around 200 300 milliseconds",
+    "start": 850
+  },
+  {
+    "content": "but the bigger the lambda is the longer it takes",
+    "start": 855
+  },
+  {
+    "content": "so it's not instant but it's not slow either",
+    "start": 859
+  },
+  {
+    "content": "actually i have to try cloud for workers instead of hws lambda for that as their",
+    "start": 864
+  },
+  {
+    "content": "serverless functions are not based on containers",
+    "start": 872
+  },
+  {
+    "content": "and their cold start time is pretty impressive from what i saw",
+    "start": 875
+  },
+  {
+    "content": "someday i'll try it the other thing is lunar is a great tool",
+    "start": 879
+  },
+  {
+    "content": "it's simple extensible bright but it's not super bright there are",
+    "start": 884
+  },
+  {
+    "content": "existing tools that can serve more relevant results for",
+    "start": 890
+  },
+  {
+    "content": "a non-standard queries and lastly you're",
+    "start": 895
+  },
+  {
+    "content": "limited by lambda function size limit it's 50 max",
+    "start": 898
+  },
+  {
+    "content": "zipped so it's rather a solution for small",
+    "start": 903
+  },
+  {
+    "content": "to medium websites but generally speaking i think is a",
+    "start": 906
+  },
+  {
+    "content": "great well-balanced solution i wish i could",
+    "start": 911
+  },
+  {
+    "content": "see your faces and i really hope they express something like this",
+    "start": 915
+  },
+  {
+    "content": "did i mention it's my idea never mind another solution and another disclaimer",
+    "start": 918
+  },
+  {
+    "content": "i'm not affiliated with algolia in any way",
+    "start": 927
+  },
+  {
+    "content": "it just happened that it's the best search service",
+    "start": 930
+  },
+  {
+    "content": "as software as a service out there i've used it for several projects so far",
+    "start": 934
+  },
+  {
+    "content": "and i can fully recommend algolia with a clear conscience",
+    "start": 939
+  },
+  {
+    "content": "no code snippets this time there is already a ton of tutorials explaining",
+    "start": 943
+  },
+  {
+    "content": "how to integrate algolia and they also have fantastic",
+    "start": 948
+  },
+  {
+    "content": "documentation like go and check it i can only imagine the",
+    "start": 951
+  },
+  {
+    "content": "amount of work that was put into the docs in that model",
+    "start": 956
+  },
+  {
+    "content": "a third-party api it can be algolia or something else generate and",
+    "start": 961
+  },
+  {
+    "content": "maintain your search index your job is to sync the content",
+    "start": 967
+  },
+  {
+    "content": "during build time additionally search service of your",
+    "start": 971
+  },
+  {
+    "content": "choice exposes search method via api that you can later call",
+    "start": 975
+  },
+  {
+    "content": "when someone initiates search on your website",
+    "start": 980
+  },
+  {
+    "content": "i'd like to give you one tip regarding data synchronization",
+    "start": 984
+  },
+  {
+    "content": "that is not not often mentioned in the tutorials",
+    "start": 988
+  },
+  {
+    "content": "run your sync job only during production build",
+    "start": 992
+  },
+  {
+    "content": "if you run the sync task on your deploy preview or staging build",
+    "start": 996
+  },
+  {
+    "content": "or on your dev environment with production keys",
+    "start": 1001
+  },
+  {
+    "content": "your test content can end up in search results on your production website",
+    "start": 1006
+  },
+  {
+    "content": "it happened to me more than once and i encountered that on other websites",
+    "start": 1012
+  },
+  {
+    "content": "trust me you want to avoid this especially if your test content is",
+    "start": 1018
+  },
+  {
+    "content": "you know just for testing the other great thing about algolia is",
+    "start": 1023
+  },
+  {
+    "content": "that they offer an open source customizable search widget that saves",
+    "start": 1028
+  },
+  {
+    "content": "your development time for the client side part",
+    "start": 1032
+  },
+  {
+    "content": "it's called instant search and it's described in dimension docs",
+    "start": 1036
+  },
+  {
+    "content": "self-hosted api i know what you think self-hosted like with",
+    "start": 1042
+  },
+  {
+    "content": "actual servers i have to manage you gotta be kidding me",
+    "start": 1046
+  },
+  {
+    "content": "no i'm not kidding let me explain although it's not the simplest solution",
+    "start": 1050
+  },
+  {
+    "content": "it certainly has its use cases like for example you're dealing with a",
+    "start": 1056
+  },
+  {
+    "content": "big scale either content-wise and your search",
+    "start": 1060
+  },
+  {
+    "content": "index does not fit into lambda or traffic wise and you're looking for",
+    "start": 1064
+  },
+  {
+    "content": "cost effectiveness or you need a custom and advanced",
+    "start": 1069
+  },
+  {
+    "content": "querying language or your content is strictly confidential",
+    "start": 1074
+  },
+  {
+    "content": "or some legal rules apply to it and you're not able to store it",
+    "start": 1078
+  },
+  {
+    "content": "elsewhere or simply you already have elasticsearch cluster up and running",
+    "start": 1082
+  },
+  {
+    "content": "for other purposes and you have in-house this operations team",
+    "start": 1087
+  },
+  {
+    "content": "that can manage the cluster and help with api",
+    "start": 1090
+  },
+  {
+    "content": "i'm not going to dive into realms of self-hosted search engines it's",
+    "start": 1094
+  },
+  {
+    "content": "definitely out of scope for this talk i just mentioned three tools for you as",
+    "start": 1098
+  },
+  {
+    "content": "a starting point typesense you can think of it as a",
+    "start": 1102
+  },
+  {
+    "content": "self-hosted algolia there are some important differences but",
+    "start": 1105
+  },
+  {
+    "content": "let's skip it so relatively easy to install and use",
+    "start": 1109
+  },
+  {
+    "content": "many features out of the box clean and narrow api smart defaults",
+    "start": 1113
+  },
+  {
+    "content": "and then there is elasticsearch and solar those are power tools",
+    "start": 1118
+  },
+  {
+    "content": "they can support billions of documents real-time search",
+    "start": 1122
+  },
+  {
+    "content": "advanced querying language and can handle almost",
+    "start": 1126
+  },
+  {
+    "content": "any use case you can think of but they are more of an",
+    "start": 1129
+  },
+  {
+    "content": "engine that ready to go solution and they require",
+    "start": 1133
+  },
+  {
+    "content": "solid resources to set up manage and improve",
+    "start": 1136
+  },
+  {
+    "content": "some final thoughts remember every app and website is different",
+    "start": 1141
+  },
+  {
+    "content": "there are different priorities budgets and",
+    "start": 1147
+  },
+  {
+    "content": "constraints you're looking for the best solution",
+    "start": 1150
+  },
+  {
+    "content": "for your project not something that worked for google",
+    "start": 1154
+  },
+  {
+    "content": "or amazon and not something that is currently",
+    "start": 1158
+  },
+  {
+    "content": "trending or github on or twitter so choose and choose wisely",
+    "start": 1162
+  },
+  {
+    "content": "i really hope you enjoyed my talk and i do that it will help you",
+    "start": 1169
+  },
+  {
+    "content": "with implementing search for your website or app",
+    "start": 1174
+  },
+  {
+    "content": "and approaching the dynamic parts of your project in general did i miss",
+    "start": 1178
+  },
+  {
+    "content": "something have you already implemented one of the",
+    "start": 1184
+  },
+  {
+    "content": "mentioned solutions i'd love to hear your thoughts what was",
+    "start": 1189
+  },
+  {
+    "content": "your experience i'll be around you can catch me on",
+    "start": 1192
+  },
+  {
+    "content": "twitter and that's it for now sending love to",
+    "start": 1195
+  },
+  {
+    "content": "you all and please seek truth when searching the",
+    "start": 1200
+  },
+  {
+    "content": "web bye",
+    "start": 1204
+  },
+  {
+    "content": "you",
+    "start": 1206
+  }
+]

@@ -1,0 +1,1626 @@
+[
+  {
+    "content": "coming up next we have a panel on",
+    "start": 0
+  },
+  {
+    "content": "e-commerce and on that panel is Garth Brantley fronts wanna do Kevin Green and",
+    "start": 5
+  },
+  {
+    "content": "Tim Brown so moderating that panel is Phil Hawksworth thank you thank you all",
+    "start": 14
+  },
+  {
+    "content": "right okay where everyone is everyone managed",
+    "start": 35
+  },
+  {
+    "content": "to get some food first of all did you get some food you're all back awesome",
+    "start": 39
+  },
+  {
+    "content": "excellent some applause for the sandwiches nice I love it so so yeah so",
+    "start": 42
+  },
+  {
+    "content": "thanks for being here thanks thanks to all of our panelists for joining us to",
+    "start": 47
+  },
+  {
+    "content": "sit on these precarious high chairs nervously for this conversation about",
+    "start": 52
+  },
+  {
+    "content": "e-commerce so we want to talk a bit about e-commerce on the jam stack before",
+    "start": 56
+  },
+  {
+    "content": "we get into that I thought you know jails yes introduced us very quickly but",
+    "start": 60
+  },
+  {
+    "content": "I thought I'd give everyone just a chance to introduce themselves very",
+    "start": 64
+  },
+  {
+    "content": "quickly so why don't we just go down the line and you can maybe tell us you know",
+    "start": 68
+  },
+  {
+    "content": "your name where you work what what you do and then we'll get into",
+    "start": 71
+  },
+  {
+    "content": "it after that yeah sure so my name is Tim Brown I'm a software engineer at",
+    "start": 74
+  },
+  {
+    "content": "Harry's we are an e-commerce company selling razors and shaved cream and all",
+    "start": 78
+  },
+  {
+    "content": "sorts of sort of grooming products last year we launched a new brand called",
+    "start": 83
+  },
+  {
+    "content": "flamingo which is a woman's body hair brand yeah love the gym stack hi my name",
+    "start": 86
+  },
+  {
+    "content": "is Kevin green I am a co-founder and lead engineer at the couch which is a",
+    "start": 94
+  },
+  {
+    "content": "digital agency here in Brooklyn not New York City but I we build things in the",
+    "start": 99
+  },
+  {
+    "content": "gym sack you might know as for Claire or the recess CPD site yeah we're huge fan",
+    "start": 106
+  },
+  {
+    "content": "of Jam sack use vanity cameras good afternoon I am Garth Brantley I'm",
+    "start": 116
+  },
+  {
+    "content": "founder of pylon so pylon is a new headless ecommerce platform and we're",
+    "start": 123
+  },
+  {
+    "content": "built in a fundamentally microservices way so we can be mixed",
+    "start": 129
+  },
+  {
+    "content": "matched with other tools best-of-breed tools also very excited about the jam",
+    "start": 133
+  },
+  {
+    "content": "stack and very bullish on its application to e-commerce hey I'm Frank",
+    "start": 139
+  },
+  {
+    "content": "from snip cart I do I'm a partner over there I do mostly marketing stuff a bit",
+    "start": 145
+  },
+  {
+    "content": "of product management and yes no cars a developer centric front and center",
+    "start": 150
+  },
+  {
+    "content": "ecommerce solution and we've been pushing pushing the jam stack for years",
+    "start": 156
+  },
+  {
+    "content": "now so yeah cool thanks Jeff so so we've got people who are building tooling to",
+    "start": 160
+  },
+  {
+    "content": "make ecommerce possible we've got you know Kevin who works at an agency you",
+    "start": 165
+  },
+  {
+    "content": "know trying to sell these solutions and you know Tim who's been actually",
+    "start": 169
+  },
+  {
+    "content": "building it for your own brand as well but my first question is probably the",
+    "start": 174
+  },
+  {
+    "content": "most important question and is probably the one that everyone's been thinking",
+    "start": 179
+  },
+  {
+    "content": "about when you write ecommerce - or no - quickly - heaven - Haven - I recently",
+    "start": 183
+  },
+  {
+    "content": "switched to the - okay we'll come back to you - except in the URLs okay so",
+    "start": 192
+  },
+  {
+    "content": "there we have it - so that concludes the panel about e-commerce it was it was my",
+    "start": 200
+  },
+  {
+    "content": "burning question why I do it I do it differently each time so a little more",
+    "start": 207
+  },
+  {
+    "content": "seriously you know ecommerce is it often feels",
+    "start": 212
+  },
+  {
+    "content": "like it's this kind of ceiling you know it's a challenge there often is kind of",
+    "start": 214
+  },
+  {
+    "content": "mooted by clients when you say okay we can build something on the jam stack",
+    "start": 220
+  },
+  {
+    "content": "we're going to pre-render everything we're going to serve things from CD ends",
+    "start": 223
+  },
+  {
+    "content": "you're not going to have a server you maintain and they say but what about",
+    "start": 226
+  },
+  {
+    "content": "e-commerce we need to do ecommerce we know that there are solutions now cuz",
+    "start": 230
+  },
+  {
+    "content": "that you you're all there for that but do you think that we are at that point",
+    "start": 233
+  },
+  {
+    "content": "that realistically lots of people can start building things this way and is",
+    "start": 239
+  },
+  {
+    "content": "it's a it's getting popular - member can I can start with you because since",
+    "start": 243
+  },
+  {
+    "content": "you've you've done an implementation recently yeah what what how did that",
+    "start": 247
+  },
+  {
+    "content": "work out for you mean was it an obvious choice or whether some real challenges",
+    "start": 252
+  },
+  {
+    "content": "in making that decision yeah so yeah I don't know who's the most obvious choice",
+    "start": 254
+  },
+  {
+    "content": "I mean it seems like obvious in retrospect so for context Harry's comm",
+    "start": 258
+  },
+  {
+    "content": "is a ruby on rails app launched about six years ago like has been is it very",
+    "start": 262
+  },
+  {
+    "content": "successful but like that's why a traditional sort of server server-side",
+    "start": 266
+  },
+  {
+    "content": "rendered approach and so with flamingo is when we actually used Gatsby and just",
+    "start": 269
+  },
+  {
+    "content": "more of the jam stack to do it and I think we had some concerns going into it",
+    "start": 273
+  },
+  {
+    "content": "just as we hadn't done it before but we launched last year and are actually sort",
+    "start": 278
+  },
+  {
+    "content": "of planning for all of our future brands to be on it so I definitely think it's",
+    "start": 282
+  },
+  {
+    "content": "at the point now where it's ready for production I mean like we're in",
+    "start": 285
+  },
+  {
+    "content": "production and have nothing but good things to say and it's like meaningfully",
+    "start": 288
+  },
+  {
+    "content": "better than I think the old ways of doing things yeah so maybe that's that's",
+    "start": 291
+  },
+  {
+    "content": "a lovely lovely sound boy right there but so I mean I have a I have a history",
+    "start": 294
+  },
+  {
+    "content": "before I worked in my current role at net if I oh I worked at an agency as",
+    "start": 299
+  },
+  {
+    "content": "well and so Kevin I'm kind of thinking about some of the challenges that you",
+    "start": 304
+  },
+  {
+    "content": "probably I've been encountering where if you've been wanting to go down this road",
+    "start": 307
+  },
+  {
+    "content": "and say jump stack is something that we can do and we know that there are",
+    "start": 311
+  },
+  {
+    "content": "stories where it's worked out nicely how are you finding clients are responding",
+    "start": 314
+  },
+  {
+    "content": "to that is there still some hesitancy to work this way and people expect to use",
+    "start": 317
+  },
+  {
+    "content": "something more expensive or model I think what's your experience been yeah",
+    "start": 323
+  },
+  {
+    "content": "so I think if anyone with experience in this a couple of years ago it was all",
+    "start": 329
+  },
+  {
+    "content": "spree Magento and now it's all Shopify and it is definitely difficult to",
+    "start": 334
+  },
+  {
+    "content": "convince a client ok we're gonna we're gonna use the buy SDK or gruff ul and",
+    "start": 340
+  },
+  {
+    "content": "they're they don't understand what that is and a lot of the difficulties and",
+    "start": 345
+  },
+  {
+    "content": "challenges are just in educating the client and explaining to them that we're",
+    "start": 349
+  },
+  {
+    "content": "gonna hold your hand if you're willing to go down this like rabbit hole with us",
+    "start": 354
+  },
+  {
+    "content": "you're gonna have potentially a much faster more reliable scalable solution",
+    "start": 357
+  },
+  {
+    "content": "and as we all know like even things like Shopify can go down and clients are a",
+    "start": 362
+  },
+  {
+    "content": "little always a little skeptical of trying something new and I think it's it",
+    "start": 368
+  },
+  {
+    "content": "comes with a lot of trust that they let me do that occasionally to them so yeah",
+    "start": 373
+  },
+  {
+    "content": "you and you mention like a couple of key things that I mean you mentioned the",
+    "start": 379
+  },
+  {
+    "content": "word trust and you also kind of alluded to well services can go down and I think",
+    "start": 382
+  },
+  {
+    "content": "something that I often experience was clients would be very keen to have",
+    "start": 388
+  },
+  {
+    "content": "something that was for a want of a better expression reassuringly expensive",
+    "start": 393
+  },
+  {
+    "content": "and there are some big players around who've been doing this",
+    "start": 397
+  },
+  {
+    "content": "very long time and they're they're expensive and they come with you know a",
+    "start": 400
+  },
+  {
+    "content": "lot of work that needs to be done to to roll them out but they're kind of",
+    "start": 403
+  },
+  {
+    "content": "trusted they're kind of industry standards almost so I I guess kind of",
+    "start": 408
+  },
+  {
+    "content": "jumping to the to you Garth maybe now working somewhere where you're trying to",
+    "start": 413
+  },
+  {
+    "content": "kind of break that mold a little bit do you do you find that that's hard to",
+    "start": 417
+  },
+  {
+    "content": "convince people that yeah you can put your trust in us as a as a provider and",
+    "start": 421
+  },
+  {
+    "content": "know we're gonna be you know we're gonna be there for you yeah definitely I mean",
+    "start": 425
+  },
+  {
+    "content": "the resistance is there you know people want to go with with known and and",
+    "start": 430
+  },
+  {
+    "content": "trusted and when they're counting on it to be up you know 24/7 every minute you",
+    "start": 435
+  },
+  {
+    "content": "know they they want that reassurance that you get from a bigger brand that",
+    "start": 441
+  },
+  {
+    "content": "said we have been having success in terms of focusing on where the the jam",
+    "start": 445
+  },
+  {
+    "content": "stack really has a key value proposition so for instance and these guys with the",
+    "start": 451
+  },
+  {
+    "content": "Harry's and the Flamingo brands you know the digitally native brands you know",
+    "start": 459
+  },
+  {
+    "content": "they they really stand to gain a competitive advantage by focusing on the",
+    "start": 463
+  },
+  {
+    "content": "customer experience and a key part of that customer experience is the is the",
+    "start": 468
+  },
+  {
+    "content": "speed right the blazing-fast that you get from using gatsby if you're a brand",
+    "start": 472
+  },
+  {
+    "content": "if you're a consumer product or service that you know needs to be on that",
+    "start": 478
+  },
+  {
+    "content": "leading edge of customer experience I think the gem stack is is really",
+    "start": 483
+  },
+  {
+    "content": "starting to take hold nice and finally yeah I was like to chip in so what we're",
+    "start": 488
+  },
+  {
+    "content": "doing at snap card basically in terms of earning trust is were a floating trust",
+    "start": 495
+  },
+  {
+    "content": "to the developer so we're kind of in this era of developer Renaissance you",
+    "start": 500
+  },
+  {
+    "content": "know people trust developers more and more because if you want to stay",
+    "start": 506
+  },
+  {
+    "content": "competitive technologically you need to have good thefts like there's no two",
+    "start": 509
+  },
+  {
+    "content": "ways around it so what we're doing is trying to seduce and please the",
+    "start": 514
+  },
+  {
+    "content": "developer with our product and then bet that he's gonna be able to sell snap",
+    "start": 519
+  },
+  {
+    "content": "card to his people or her people so we also have content to do to try to help",
+    "start": 525
+  },
+  {
+    "content": "them do that because developer not necessarily sellers by default but",
+    "start": 530
+  },
+  {
+    "content": "yeah yeah I love that trying to seduce the developers as do you feel seduced",
+    "start": 537
+  },
+  {
+    "content": "the developers in the room that's an uneasy silence isn't it but no I am",
+    "start": 542
+  },
+  {
+    "content": "completely on board I buy that completely the the it is really",
+    "start": 550
+  },
+  {
+    "content": "seductive the ability to impart your expertise as a front-end developer and",
+    "start": 554
+  },
+  {
+    "content": "say you know we can create the experience that you want we're not",
+    "start": 560
+  },
+  {
+    "content": "beholden to some of these platforms that sometimes prescribe how the front end is",
+    "start": 563
+  },
+  {
+    "content": "gonna be developed so I think that's a really important point I think that's",
+    "start": 567
+  },
+  {
+    "content": "that's that's a really valuable thing um Tim can I return to you just like on",
+    "start": 571
+  },
+  {
+    "content": "that note I mean the teams that worked on the projects that you that you've",
+    "start": 574
+  },
+  {
+    "content": "been part of Harry's how have they found the experience of building things out on",
+    "start": 578
+  },
+  {
+    "content": "this kind of stack as I mean I'm I'm assuming and hoping as I ask this",
+    "start": 583
+  },
+  {
+    "content": "question that that it was positive was what was the impact yeah absolutely yeah",
+    "start": 586
+  },
+  {
+    "content": "I think it totally has been positive yeah I think in some ways like a lot of",
+    "start": 590
+  },
+  {
+    "content": "sort of there's a lot of like interesting and exciting new sort of",
+    "start": 595
+  },
+  {
+    "content": "things that the Jam static allows like I think we've heard today like you know",
+    "start": 600
+  },
+  {
+    "content": "sort of everything being at the edge like there's been a lot more sort of",
+    "start": 604
+  },
+  {
+    "content": "familiarity with like how do we build things that are sort of globally",
+    "start": 606
+  },
+  {
+    "content": "available by default and first and all the benefits that come from customers",
+    "start": 609
+  },
+  {
+    "content": "from that I think operationally there have been a ton of benefits especially",
+    "start": 614
+  },
+  {
+    "content": "like I've I've been on call for both Perry's and flamingo and you know when",
+    "start": 617
+  },
+  {
+    "content": "you have a web server that can go down like it will go down sometimes and",
+    "start": 621
+  },
+  {
+    "content": "that's really not a great thing whereas if you're just publishing these static",
+    "start": 625
+  },
+  {
+    "content": "files to a CDN it is much much harder for that to go down and if there is a",
+    "start": 628
+  },
+  {
+    "content": "problem you're much more likely to sort of catch it in that build process and so",
+    "start": 632
+  },
+  {
+    "content": "for us like that's meaningful sort of revenue that we're not losing from from",
+    "start": 635
+  },
+  {
+    "content": "downtime and operational benefits from that are great and that's fine once you",
+    "start": 640
+  },
+  {
+    "content": "get into that and you start working in that wait but was it difficult to assess",
+    "start": 645
+  },
+  {
+    "content": "this as an approach to do because I'm again I'm assuming that as you start one",
+    "start": 648
+  },
+  {
+    "content": "of these projects that traditional kind of more well-known approaches would be",
+    "start": 653
+  },
+  {
+    "content": "would be at the forefront and then you is you kind of bucking the trend a",
+    "start": 658
+  },
+  {
+    "content": "little bit by doing this at this stage is that is that yeah",
+    "start": 661
+  },
+  {
+    "content": "I think that's fair I think there's maybe like more of an initial learning",
+    "start": 663
+  },
+  {
+    "content": "curve because like you said sort of these other approaches are sort of the",
+    "start": 666
+  },
+  {
+    "content": "way it's been done for a while but I also think that like the like that",
+    "start": 670
+  },
+  {
+    "content": "learning curve is not too steep to overcome and it actually sort of it gets",
+    "start": 674
+  },
+  {
+    "content": "you thinking about like yeah like CD ends and and load balancers in sort of",
+    "start": 678
+  },
+  {
+    "content": "this whole multi-region sort of first approach and performance so yeah there",
+    "start": 683
+  },
+  {
+    "content": "might be a bit more of a trade-off there but like the end the end product is a",
+    "start": 687
+  },
+  {
+    "content": "higher quality and like actually better for customers so that might be a",
+    "start": 690
+  },
+  {
+    "content": "legitimate trade-off here is how is how to convince people sometimes that the",
+    "start": 693
+  },
+  {
+    "content": "end quality will be better and yes it's something newer and you're kind of",
+    "start": 696
+  },
+  {
+    "content": "giving some of that like the responsibility away to a third party and",
+    "start": 701
+  },
+  {
+    "content": "essentially cheaper and all those kind of things and I don't know I'm always",
+    "start": 704
+  },
+  {
+    "content": "curious what kind of clients come to somewhere like a snip cart for instance",
+    "start": 708
+  },
+  {
+    "content": "because you know there's been so much work so that's been done to make you",
+    "start": 712
+  },
+  {
+    "content": "know it much more approachable and it doesn't feel like you necessarily need a",
+    "start": 716
+  },
+  {
+    "content": "team of you know posted like pre-sales engineers to do a ton of work what kind",
+    "start": 720
+  },
+  {
+    "content": "of clients like generally are you finding is it enterprises is it small",
+    "start": 725
+  },
+  {
+    "content": "businesses is it hobbyist is it how does it work out for you definitely not",
+    "start": 729
+  },
+  {
+    "content": "Enterprise like we have a big we have a few big customers but more likely SMBs",
+    "start": 735
+  },
+  {
+    "content": "I'm small medium businesses in terms of tech stacks it varies a lot at the",
+    "start": 742
+  },
+  {
+    "content": "biessing you if I were to tell you every every one of our customers running on a",
+    "start": 747
+  },
+  {
+    "content": "gem stack I'd love this it's not actually the truth I think it's about 60",
+    "start": 751
+  },
+  {
+    "content": "40 40 being gem stack but I'd have to dig in my analysis for that and yeah I",
+    "start": 757
+  },
+  {
+    "content": "mean that's pretty much the type of customers were getting in what's what's",
+    "start": 763
+  },
+  {
+    "content": "challenging for us is that the customers were getting that are keen on using the",
+    "start": 769
+  },
+  {
+    "content": "gem stack sometimes are in a business cycle stage that is not necessarily",
+    "start": 774
+  },
+  {
+    "content": "production already and they're testing and experimenting which is great I mean",
+    "start": 780
+  },
+  {
+    "content": "we love to answer their questions on support and we push gem stack on the",
+    "start": 784
+  },
+  {
+    "content": "blog always so but from business point of view there's a lot of education and",
+    "start": 788
+  },
+  {
+    "content": "just you know marketing to be done around the",
+    "start": 794
+  },
+  {
+    "content": "to bring more social proof to the movement so developers but also clients",
+    "start": 797
+  },
+  {
+    "content": "are on board yeah this yeah that that's that kind of chances without us kind of",
+    "start": 801
+  },
+  {
+    "content": "imagining Garth is that is that kind of similar to your experience at pylon that",
+    "start": 805
+  },
+  {
+    "content": "the enterprise customers are still requiring a bit of persuasion at this",
+    "start": 809
+  },
+  {
+    "content": "stage yeah I mean I think it's fair to say that the there's still a bit of",
+    "start": 814
+  },
+  {
+    "content": "skepticism at the enterprise side of things but I would say that a a",
+    "start": 818
+  },
+  {
+    "content": "precursor has fallen into place in the sense that and you have a lot of",
+    "start": 824
+  },
+  {
+    "content": "enterprises that are doing headless e-commerce but pairing it with a digital",
+    "start": 828
+  },
+  {
+    "content": "experience platform something like adobe experience manager or a bloom reach or",
+    "start": 833
+  },
+  {
+    "content": "something like this and to manage the front-end and I think",
+    "start": 838
+  },
+  {
+    "content": "once you have a significant part of the market that that adopts that",
+    "start": 841
+  },
+  {
+    "content": "architecture it's a small step to then go and replace am with a gem stack",
+    "start": 846
+  },
+  {
+    "content": "website so I think you're seeing the first kind of start you know of people",
+    "start": 851
+  },
+  {
+    "content": "doing that nice is that it's not um that feels like a good strategy to me is that",
+    "start": 858
+  },
+  {
+    "content": "is that something that's kind of palatable from like my agency land",
+    "start": 863
+  },
+  {
+    "content": "thinking you know trying to pitch a tech stack to a client and they've maybe",
+    "start": 866
+  },
+  {
+    "content": "invested a lot in a particular you know set a tooling they've maybe gone I don't",
+    "start": 871
+  },
+  {
+    "content": "know AEM was just mentioned or you know another you know big kind of monolith is",
+    "start": 875
+  },
+  {
+    "content": "is this is this approach you've kind of progressively kind of adding bits of",
+    "start": 880
+  },
+  {
+    "content": "infrastructure and kind of migrating palatable to them or they said their",
+    "start": 885
+  },
+  {
+    "content": "nerves there if you if you got any experience there I would say the",
+    "start": 890
+  },
+  {
+    "content": "honestly the largest benefit of the jam stack is my ability to plug and play",
+    "start": 894
+  },
+  {
+    "content": "anything that the client might want obviously again like trying to pick CMS",
+    "start": 899
+  },
+  {
+    "content": "platforms that work best for them is essentially Michael like I don't want to",
+    "start": 904
+  },
+  {
+    "content": "give them something difficult it's something not scalable something too",
+    "start": 909
+  },
+  {
+    "content": "expensive and if they're comfortable with whatever that toy is as long as it",
+    "start": 912
+  },
+  {
+    "content": "has an API in point I can drop that into any jam stack site that is needed and",
+    "start": 916
+  },
+  {
+    "content": "additionally dropping e-commerce without like a second dot and some of these some",
+    "start": 922
+  },
+  {
+    "content": "of these tools also allow me to push data",
+    "start": 928
+  },
+  {
+    "content": "from e-commerce back into that like CMS system so I could be managing all the",
+    "start": 930
+  },
+  {
+    "content": "extended feel it's like because at the end of the day when you do e-commerce",
+    "start": 936
+  },
+  {
+    "content": "it's not just a description in a photo there's like the ingredients module",
+    "start": 940
+  },
+  {
+    "content": "there's the episode modules so related product modules and none of that stuff",
+    "start": 944
+  },
+  {
+    "content": "is out of the box with almost any EECOM so we need a way to build that if we can",
+    "start": 948
+  },
+  {
+    "content": "do that by injecting data back into a CMS it really helps me sell jam stack",
+    "start": 952
+  },
+  {
+    "content": "back down because the clients like oh you've given me all this flexibility on",
+    "start": 957
+  },
+  {
+    "content": "top of my basic ecommerce experience I got a question here as any of you tried",
+    "start": 961
+  },
+  {
+    "content": "selling the gem stack using more traditional CMS's used in the headless",
+    "start": 967
+  },
+  {
+    "content": "way like does a client trust in WordPress when you say oh yeah we're",
+    "start": 972
+  },
+  {
+    "content": "gonna keep using WordPress like is that is that a thing of you I I mean I've I",
+    "start": 976
+  },
+  {
+    "content": "take shape user here and I think the Sandia dudes are here too and I've used",
+    "start": 982
+  },
+  {
+    "content": "well contentful as well I've used contempo sanity take shape WordPress",
+    "start": 986
+  },
+  {
+    "content": "tried data a little bit like I'll use any CMS I can get the job done and as",
+    "start": 991
+  },
+  {
+    "content": "long as the client is comfortable with that decision like it's not very hard",
+    "start": 997
+  },
+  {
+    "content": "for me to sell it I think there's actually a lot of people like shifting",
+    "start": 1001
+  },
+  {
+    "content": "away from WordPress like WordPress is like the old school you can install",
+    "start": 1006
+  },
+  {
+    "content": "these plugins and like it'll sort of work but it's really clunky and a lot of",
+    "start": 1011
+  },
+  {
+    "content": "their experiences in the past are really negative so it's actually pretty easy",
+    "start": 1015
+  },
+  {
+    "content": "for me to sell headless at this point and then further so Jam stack and that",
+    "start": 1018
+  },
+  {
+    "content": "kind of complexity that you allude to there doesn't that's such a big deal you",
+    "start": 1024
+  },
+  {
+    "content": "know biggest because here as soon as you are working with a brand you know maybe",
+    "start": 1029
+  },
+  {
+    "content": "like Harry's you know there's got like lots of products you're talking about",
+    "start": 1033
+  },
+  {
+    "content": "ingredients already maybe you're talk about stock levels related products all",
+    "start": 1037
+  },
+  {
+    "content": "kinds of things so do you have lots of like internal systems that on this",
+    "start": 1040
+  },
+  {
+    "content": "project you needed to integrate with yeah we did so we sort of been moving",
+    "start": 1045
+  },
+  {
+    "content": "from having you know for Harry's we had sort of a custom CMS custom fulfillment",
+    "start": 1050
+  },
+  {
+    "content": "stock all that stuff custom and we've sort of been slowly piece by piece like",
+    "start": 1056
+  },
+  {
+    "content": "you know letting some that stuff goes and we're",
+    "start": 1060
+  },
+  {
+    "content": "we're using simple now for our CMS we still have like custom fulfillment and",
+    "start": 1063
+  },
+  {
+    "content": "stock and things like that so yeah it's kind of mix of integrating with more",
+    "start": 1066
+  },
+  {
+    "content": "third-party stuff and more internal stuff but yeah there's so many different",
+    "start": 1070
+  },
+  {
+    "content": "I think for us we there's still a lot of those integrations and tying those",
+    "start": 1073
+  },
+  {
+    "content": "connections between things yeah and what is the experience of doing that the same",
+    "start": 1078
+  },
+  {
+    "content": "different harder easier with you're tackling a jam stack kind of approach or",
+    "start": 1083
+  },
+  {
+    "content": "is is that is that a ridiculous question no no it I think it feels easier I think",
+    "start": 1089
+  },
+  {
+    "content": "the thing that feels most different about it is like there really is this",
+    "start": 1095
+  },
+  {
+    "content": "you have this split between like Build time and run time soar how we think",
+    "start": 1098
+  },
+  {
+    "content": "about it where it's like okay we need to get this data are we can are we",
+    "start": 1102
+  },
+  {
+    "content": "ingesting it like while we're building the site or does it need to be like live",
+    "start": 1105
+  },
+  {
+    "content": "fully dynamic and like that split between I think build time and run time",
+    "start": 1108
+  },
+  {
+    "content": "we're sort of static versus dynamic is is really sort of in your face with the",
+    "start": 1111
+  },
+  {
+    "content": "jam stack but in a way that ultimately sort of forces you to think about how",
+    "start": 1115
+  },
+  {
+    "content": "you're consuming your data and like what's actually right for the customer",
+    "start": 1119
+  },
+  {
+    "content": "at that time yeah and how about things like pricing is that is that difficult",
+    "start": 1122
+  },
+  {
+    "content": "to manage on a large brand so for us no not really for us right now I mean we",
+    "start": 1126
+  },
+  {
+    "content": "our products don't change price very often so for us we can often just sort",
+    "start": 1132
+  },
+  {
+    "content": "of do a rebuild there that that is one area where we've been thinking more",
+    "start": 1136
+  },
+  {
+    "content": "about like should this just be dynamic so that like it's always there's like",
+    "start": 1139
+  },
+  {
+    "content": "you know would never even potentially be like a three minute gap while the site",
+    "start": 1141
+  },
+  {
+    "content": "rebuilt or whatever but like there's there's pretty few things other than",
+    "start": 1144
+  },
+  {
+    "content": "like inventory is the one you don't wanna oversell but there's there's sort",
+    "start": 1147
+  },
+  {
+    "content": "of few things that need that dynamic at that level yeah cool and and so how do",
+    "start": 1152
+  },
+  {
+    "content": "tools like Pilon snicker deal with things like inventory are there",
+    "start": 1158
+  },
+  {
+    "content": "integrations for understanding inventory levels or is is that kind of one of the",
+    "start": 1163
+  },
+  {
+    "content": "natural limitations of this kind of approach no I",
+    "start": 1167
+  },
+  {
+    "content": "we are absolutely building integrations and so I think that and we hit on a key",
+    "start": 1170
+  },
+  {
+    "content": "point there is that ecommerce is always going to contain a mix of kind of",
+    "start": 1176
+  },
+  {
+    "content": "dynamic data and Static data and so we're working with graph QL",
+    "start": 1179
+  },
+  {
+    "content": "subscriptions and some other techniques to be able to push that dynamic data out",
+    "start": 1185
+  },
+  {
+    "content": "to the sites you know to fill in the gaps um yeah as",
+    "start": 1190
+  },
+  {
+    "content": "for us we try to keep it as lean as possible so our feature set while it has",
+    "start": 1196
+  },
+  {
+    "content": "to be kind of not heavy but loaded because it's ecommerce and there's just",
+    "start": 1201
+  },
+  {
+    "content": "heaps of features that you need to run it thoroughly we try to just build",
+    "start": 1206
+  },
+  {
+    "content": "features that are really needed so inventory for instance we built it like",
+    "start": 1211
+  },
+  {
+    "content": "two or three years in and it's very like a simple just simple panel in our admin",
+    "start": 1214
+  },
+  {
+    "content": "but what we do is more try to push the API approach and say well if you need to",
+    "start": 1220
+  },
+  {
+    "content": "connect with another external system sure go ahead here a suit of api's you",
+    "start": 1225
+  },
+  {
+    "content": "can use to do that but if there's an after men then we might consider you",
+    "start": 1229
+  },
+  {
+    "content": "know adding a feature but we just don't want to blow it it just mmm exactly what",
+    "start": 1234
+  },
+  {
+    "content": "you need and not more that's what we're trying stripe I love that exactly what",
+    "start": 1239
+  },
+  {
+    "content": "you need to know more so that's a good mantra I think I like that the so one of",
+    "start": 1242
+  },
+  {
+    "content": "the the things that I really love about this kind of approach and something I'm",
+    "start": 1246
+  },
+  {
+    "content": "always kind of hungry for is control for the developers and the designers to kind",
+    "start": 1249
+  },
+  {
+    "content": "of figure out what the journey is that they want and Express that ecommerce can",
+    "start": 1254
+  },
+  {
+    "content": "be complicated when it comes to kind of path serve like like purchasing paths",
+    "start": 1259
+  },
+  {
+    "content": "and a lot of the traditional platforms maybe have got that buttoned up because",
+    "start": 1263
+  },
+  {
+    "content": "they've been doing it the same way for years and years and years so they've got",
+    "start": 1268
+  },
+  {
+    "content": "this very prescriptive workflow is that does that represent other present other",
+    "start": 1271
+  },
+  {
+    "content": "challenges maybe for saying okay you can build whatever workflow you like for",
+    "start": 1278
+  },
+  {
+    "content": "purchasing on this site because then it puts a lot of the responsibility on the",
+    "start": 1281
+  },
+  {
+    "content": "designers than developers to cater for the happy path but also the unhappy path",
+    "start": 1287
+  },
+  {
+    "content": "is that is that something that's difficult for maybe snip carton for",
+    "start": 1291
+  },
+  {
+    "content": "pylon to cater for or is it like here are the tools use them responsibly how",
+    "start": 1296
+  },
+  {
+    "content": "do you how do you manage manage that yeah I think when we started as a",
+    "start": 1301
+  },
+  {
+    "content": "bootstrap startup from Canada you know we didn't have a lot of bandwidth and",
+    "start": 1306
+  },
+  {
+    "content": "resources so we just went with more intuition and research in terms of what",
+    "start": 1309
+  },
+  {
+    "content": "is the happy path or to check out experience with providing but as we're",
+    "start": 1314
+  },
+  {
+    "content": "growing more mature we did a lot of a lot more research in terms of UX and our",
+    "start": 1318
+  },
+  {
+    "content": "thinking for the v3 that's our new version that's coming out",
+    "start": 1323
+  },
+  {
+    "content": "in a few weeks is just provide a default killer checkout experience but allow",
+    "start": 1326
+  },
+  {
+    "content": "everything to be customizable so we're using UJ s in an HTML like layer on top",
+    "start": 1332
+  },
+  {
+    "content": "of UJ s to let developers even developers that have no few skills",
+    "start": 1337
+  },
+  {
+    "content": "customize everything in terms of field steps and behavior of the card and",
+    "start": 1341
+  },
+  {
+    "content": "whatnot nice and yet I think it's definitely a challenge for developers if",
+    "start": 1345
+  },
+  {
+    "content": "you give them a blank sheet of paper and say here go out and build a check out",
+    "start": 1352
+  },
+  {
+    "content": "experience you know there's a lot of ways to to kind of go wrong there that",
+    "start": 1355
+  },
+  {
+    "content": "are already sort of been learned and known that said you know having that",
+    "start": 1359
+  },
+  {
+    "content": "flexibility is is important and I think that you know we can find ways with Jam",
+    "start": 1363
+  },
+  {
+    "content": "stack technologies to give them that blank sheet of paper but then also give",
+    "start": 1369
+  },
+  {
+    "content": "them you know here's a blueprint to get you 80% of the way there that you know",
+    "start": 1373
+  },
+  {
+    "content": "you're not gonna really go off the rails with yeah that's great and I mean I",
+    "start": 1378
+  },
+  {
+    "content": "again kind of just don't always turn into like a therapy session just for me",
+    "start": 1382
+  },
+  {
+    "content": "but what the hell you know you know back in my agency days I often found the",
+    "start": 1386
+  },
+  {
+    "content": "there's this desire to create the new innovative never seen before purchase",
+    "start": 1393
+  },
+  {
+    "content": "experience which is going to blow everyone's mind as a representative from",
+    "start": 1399
+  },
+  {
+    "content": "an agency here have you have you encountered that your self or yeah so so",
+    "start": 1403
+  },
+  {
+    "content": "having a Harries representative here with me in my previous previous to my",
+    "start": 1407
+  },
+  {
+    "content": "current position I was working that red hammer and everyone wanted the custom",
+    "start": 1413
+  },
+  {
+    "content": "check out or the custom build a quiz experience and like trying to tell the",
+    "start": 1419
+  },
+  {
+    "content": "customer that they don't need that like the Harry's model worked for Harry's",
+    "start": 1426
+  },
+  {
+    "content": "it's not gonna work for maybe your toothpaste brand like I don't know and",
+    "start": 1430
+  },
+  {
+    "content": "it's it's really hard to convince a client otherwise when they have like",
+    "start": 1435
+  },
+  {
+    "content": "venture capitalist money backing it saying like hey we need to do it this",
+    "start": 1438
+  },
+  {
+    "content": "way you need to build it spree you need to do a custom and I'm",
+    "start": 1442
+  },
+  {
+    "content": "fortunate now that I don't work now that I work",
+    "start": 1446
+  },
+  {
+    "content": "for myself I can actually just say no to those clients because I I believe",
+    "start": 1450
+  },
+  {
+    "content": "education is so important and that we need to keep innovating and",
+    "start": 1454
+  },
+  {
+    "content": "not just like fall back on like previous right off yeah and that's the story I'm",
+    "start": 1457
+  },
+  {
+    "content": "just gonna add you'd be horrified at the number of checkouts and builders that",
+    "start": 1462
+  },
+  {
+    "content": "we've built internally it is something they like yeah there they are",
+    "start": 1466
+  },
+  {
+    "content": "always it's tempting isn't it cuz I've got to do something you I'm curious",
+    "start": 1469
+  },
+  {
+    "content": "many people in the audience who work at an agency in the show of hands I kind of",
+    "start": 1474
+  },
+  {
+    "content": "a dusting is this kind of familiar the wants is not Inc this or this there",
+    "start": 1479
+  },
+  {
+    "content": "are drinks later though there's some knowing looks of yes a bespoke all new",
+    "start": 1486
+  },
+  {
+    "content": "never seen before checkout experience but thing is it is really important to",
+    "start": 1492
+  },
+  {
+    "content": "also be able to support innovation and and like evolving and iterating some",
+    "start": 1495
+  },
+  {
+    "content": "uneasy experiences because yes an experience that was designed for Harry's",
+    "start": 1501
+  },
+  {
+    "content": "might not work for other places or the out-of-the-box checkout experience the",
+    "start": 1505
+  },
+  {
+    "content": "one platform I bring might be just about right but not quite quite um fail other",
+    "start": 1511
+  },
+  {
+    "content": "thing so I think that is a it's a really important thing but yeah those kind of",
+    "start": 1516
+  },
+  {
+    "content": "guardrails that it sounds like that you introduce a super useful um what's the",
+    "start": 1519
+  },
+  {
+    "content": "is there was there anything so I'm gonna come to you first him as it was there",
+    "start": 1524
+  },
+  {
+    "content": "anything when you're kind of looking at the project the you've done at Harry's",
+    "start": 1528
+  },
+  {
+    "content": "that made you think we okay we're not only have to do this Jam stack that um",
+    "start": 1531
+  },
+  {
+    "content": "or you know maybe there are internal stakeholders are said but what about X",
+    "start": 1536
+  },
+  {
+    "content": "because you know we're all having a good time here but we're aware that where are",
+    "start": 1541
+  },
+  {
+    "content": "the limits yeah I think for us I think internationalization will still be it's",
+    "start": 1546
+  },
+  {
+    "content": "still like there seem to be sort of paths to doing it and examples of sites",
+    "start": 1553
+  },
+  {
+    "content": "doing it but getting really it's something that sort of its affects your",
+    "start": 1556
+  },
+  {
+    "content": "CMS that affects your build process like D are you building sites per locale or",
+    "start": 1562
+  },
+  {
+    "content": "per region like things like that like I think that there's still more sort of",
+    "start": 1565
+  },
+  {
+    "content": "cleaner paths to be discovered there and then I think a be testing is another one",
+    "start": 1571
+  },
+  {
+    "content": "where it's like I there are solutions there but so many of them are at least",
+    "start": 1576
+  },
+  {
+    "content": "for like sort of like the server side a be testing type things where instead of",
+    "start": 1582
+  },
+  {
+    "content": "sort of delivering the entire test as JavaScript if you wanted to do like a",
+    "start": 1585
+  },
+  {
+    "content": "larger a/b test which is sometimes I think we want to do like thinking",
+    "start": 1588
+  },
+  {
+    "content": "about ways to sort of server rendered or sort of static Lee render ahead of time",
+    "start": 1592
+  },
+  {
+    "content": "to different versions of the site and direct that sort of at the edge is",
+    "start": 1597
+  },
+  {
+    "content": "somewhere that I think will continue to be will be important in the future but",
+    "start": 1600
+  },
+  {
+    "content": "not blockers necessarily there's ways you're doing both those things currently",
+    "start": 1605
+  },
+  {
+    "content": "okay how about yourself if you have you encountered a client saying we can't do",
+    "start": 1608
+  },
+  {
+    "content": "this because this is one feature so I'm actually encountering that on to client",
+    "start": 1614
+  },
+  {
+    "content": "projects right now right and that is subscriptions and subscriptions there",
+    "start": 1619
+  },
+  {
+    "content": "there are definitely solutions out there and there are paths that are like",
+    "start": 1624
+  },
+  {
+    "content": "potential resolves for that some of that can get a lot more complicated than it",
+    "start": 1628
+  },
+  {
+    "content": "needs to be recurring purchases and replenishment and recurring purchases",
+    "start": 1633
+  },
+  {
+    "content": "and that's that's again like part of the Harry's model which is just you buy it",
+    "start": 1637
+  },
+  {
+    "content": "once and you forget about it and there's there's a limitation both on the Shopify",
+    "start": 1643
+  },
+  {
+    "content": "side and on the providers of the subscription services I'd obviously love",
+    "start": 1648
+  },
+  {
+    "content": "to just drop stripe and say like well you strike will use subscriptions but",
+    "start": 1653
+  },
+  {
+    "content": "some of our clients are selling products that you can't sell a stripe so we have",
+    "start": 1657
+  },
+  {
+    "content": "to use some of these third-party integrations and basically build",
+    "start": 1662
+  },
+  {
+    "content": "two-part environments so I now have like a Shopify PI SDK cart and potentially a",
+    "start": 1665
+  },
+  {
+    "content": "like cart funnel or recharge cart that exists in like local storage and checks",
+    "start": 1671
+  },
+  {
+    "content": "like hey this is a subscription don't check out with Shopify check out with",
+    "start": 1676
+  },
+  {
+    "content": "this other service sounds like you could get hairy definitely gets hairy but yeah",
+    "start": 1680
+  },
+  {
+    "content": "that that's probably the biggest stopping for me and I'm still I'm I'm",
+    "start": 1691
+  },
+  {
+    "content": "hoping that I can solve for that like it literally like this week or next week I",
+    "start": 1698
+  },
+  {
+    "content": "I do believe these solutions will still work but it's a little bit more",
+    "start": 1702
+  },
+  {
+    "content": "cumbersome and the client obviously won't understand what's going on and",
+    "start": 1707
+  },
+  {
+    "content": "there's potential for things to break a little bit differently than they'd",
+    "start": 1711
+  },
+  {
+    "content": "expect like my carts been abandoned but it's not sending out emails and I'm like",
+    "start": 1714
+  },
+  {
+    "content": "well I deleted that Shopify cart not that cart funnel card and two points",
+    "start": 1718
+  },
+  {
+    "content": "of data yes he gets a bit complex I mean we're just",
+    "start": 1723
+  },
+  {
+    "content": "about out of time but I wanted to give with garthen record just are going to",
+    "start": 1726
+  },
+  {
+    "content": "respond to that I mean things like recurring purchasing and and",
+    "start": 1731
+  },
+  {
+    "content": "subscriptions are those things they're a solvable or are coming soon or is that",
+    "start": 1735
+  },
+  {
+    "content": "is that a difficult challenge no I mean I think recurring and subscriptions is a",
+    "start": 1740
+  },
+  {
+    "content": "is a challenge on every platform to be honest with you but yeah I mean I think",
+    "start": 1746
+  },
+  {
+    "content": "it is solvable in a jam stack world and I would say just in a broader sense one",
+    "start": 1751
+  },
+  {
+    "content": "of the one of the limitations that we run into is you know Shopify has been",
+    "start": 1757
+  },
+  {
+    "content": "around for you know 10 plus years and has a huge ecosystem of apps most of",
+    "start": 1761
+  },
+  {
+    "content": "those apps aren't gonna work even if you're using Shopify in a headless way",
+    "start": 1768
+  },
+  {
+    "content": "because they have front-end and back-end components merged together and so I",
+    "start": 1771
+  },
+  {
+    "content": "think I think building some type of ecosystem of apps and add-ons that can",
+    "start": 1776
+  },
+  {
+    "content": "be used in the in the jam stack world is gonna go a long way I to Milan helped",
+    "start": 1781
+  },
+  {
+    "content": "with that said it again like like piling my pallet I love the fact that you're",
+    "start": 1785
+  },
+  {
+    "content": "pitching each other's platforms I know but I just want to chip in real quick",
+    "start": 1790
+  },
+  {
+    "content": "subscriptions is something we added support for three years ago I think it",
+    "start": 1794
+  },
+  {
+    "content": "was like by popular demand and it was a dunning-kruger effect we were like oh",
+    "start": 1799
+  },
+  {
+    "content": "this is gonna be easy we're gonna just ship it you know and it turned out to be",
+    "start": 1805
+  },
+  {
+    "content": "a mess it's it's a very complex use case that",
+    "start": 1809
+  },
+  {
+    "content": "has lots of hedge cases you need to account for and our subscription feature",
+    "start": 1813
+  },
+  {
+    "content": "while it works and it's good enough for some people really is some one of our",
+    "start": 1818
+  },
+  {
+    "content": "like I don't want to say weakest point but something like that's hard to nail",
+    "start": 1824
+  },
+  {
+    "content": "and improve upon so definitely one hard thing it's a hard thing hard thing no",
+    "start": 1829
+  },
+  {
+    "content": "matter the platform but not necessarily insoluble awesome we're we're out of",
+    "start": 1833
+  },
+  {
+    "content": "time you're all around for the rest of the day you around this evening as well",
+    "start": 1838
+  },
+  {
+    "content": "for the mixer so I would recommend if you've got questions they're very",
+    "start": 1843
+  },
+  {
+    "content": "friendly come and chat to them there are loads of snip Carters around as well",
+    "start": 1846
+  },
+  {
+    "content": "though you like gather travel in packs I notice so so",
+    "start": 1850
+  },
+  {
+    "content": "I'm gonna ask them questions and chat more to them but for now Tim Kevin Garth",
+    "start": 1855
+  },
+  {
+    "content": "and Francois thanks very much the talk to around the world yes thank you",
+    "start": 1860
+  },
+  {
+    "content": "[Applause]",
+    "start": 1866
+  },
+  {
+    "content": "you",
+    "start": 1873
+  },
+  {
+    "content": "",
+    "start": 1878
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "content": "what's up y'all",
+    "start": 0
+  },
+  {
+    "content": "two minutes to tell you about 11d eleven is a static site generator",
+    "start": 9
+  },
+  {
+    "content": "you can use it to transform any data including third party data into a",
+    "start": 13
+  },
+  {
+    "content": "website it's easy to learn has fast build times",
+    "start": 16
+  },
+  {
+    "content": "and it generates fast sites if you've been struggling with slow",
+    "start": 20
+  },
+  {
+    "content": "builds eleventy benchmarks an output of about fifty thousand pages in",
+    "start": 24
+  },
+  {
+    "content": "one minute so i guess if you had two minutes like",
+    "start": 29
+  },
+  {
+    "content": "this video you could do that twice or you could load the eleventy docs",
+    "start": 32
+  },
+  {
+    "content": "which were built with eleventy eighty one times on a 3g connection",
+    "start": 37
+  },
+  {
+    "content": "one unique thing about 11d is that it isn't tied to any one",
+    "start": 43
+  },
+  {
+    "content": "client-side javascript framework we don't add any javascript libraries",
+    "start": 47
+  },
+  {
+    "content": "bundles or script boilerplate to your site's output",
+    "start": 52
+  },
+  {
+    "content": "are you building a site with html and css well 11d",
+    "start": 55
+  },
+  {
+    "content": "is perfect for that 11d isn't tightly coupled to a single template language",
+    "start": 59
+  },
+  {
+    "content": "either we support 11 template types right out",
+    "start": 64
+  },
+  {
+    "content": "of the box including markdown and plain javascript you can join our",
+    "start": 66
+  },
+  {
+    "content": "11d performance leader boards see how your site ranks against others",
+    "start": 71
+  },
+  {
+    "content": "in the community we're also coming up on 11 version 1.0",
+    "start": 74
+  },
+  {
+    "content": "which is a super exciting milestone will be even faster",
+    "start": 79
+  },
+  {
+    "content": "thanks to some really lovely build performance contributions from our",
+    "start": 83
+  },
+  {
+    "content": "community we're also adding plug-in hooks to allow",
+    "start": 87
+  },
+  {
+    "content": "community members to add their own templating languages",
+    "start": 91
+  },
+  {
+    "content": "in fact the new netlify.com site is using eleventy with view components",
+    "start": 94
+  },
+  {
+    "content": "to run completely server-side rendered view without any client-side javascript",
+    "start": 99
+  },
+  {
+    "content": "required we've also seen plug-ins experimenting",
+    "start": 104
+  },
+  {
+    "content": "with svelt and jsx too and finally incremental builds working",
+    "start": 107
+  },
+  {
+    "content": "with custom template language support we're excited to see how this will",
+    "start": 112
+  },
+  {
+    "content": "further our performance advantage over our heftier bundler-based competitors",
+    "start": 116
+  },
+  {
+    "content": "so if you're looking for something that makes building for the web fun again try",
+    "start": 121
+  },
+  {
+    "content": "eleventy check out the floating possum and see if",
+    "start": 125
+  },
+  {
+    "content": "you can find the docs button on our website 11d.dev",
+    "start": 127
+  },
+  {
+    "content": "was that two minutes you",
+    "start": 134
+  }
+]

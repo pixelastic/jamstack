@@ -1,0 +1,794 @@
+[
+  {
+    "content": "hi everyone thank you so much for making",
+    "start": 1
+  },
+  {
+    "content": "out the time to join us at DCs jumpstart conference in case you're wondering",
+    "start": 16
+  },
+  {
+    "content": "these are some of my favorite people from last year's event",
+    "start": 22
+  },
+  {
+    "content": "and I really miss hanging out with everyone because of the current",
+    "start": 27
+  },
+  {
+    "content": "condition where I promise you super soon everything is going to be over and we",
+    "start": 30
+  },
+  {
+    "content": "are going to get back to be not events together and partying together my name",
+    "start": 35
+  },
+  {
+    "content": "is Christian Wamba and the Moschino cloud advocated Microsoft's focus on",
+    "start": 41
+  },
+  {
+    "content": "Azure javascript on startups we are going to take a deep dive into what",
+    "start": 46
+  },
+  {
+    "content": "using the Internet feels like in emerging markets you go beyond learning",
+    "start": 53
+  },
+  {
+    "content": "just the statistics and feel the impact of internet from the eyes of someone",
+    "start": 59
+  },
+  {
+    "content": "that grew up in an emerging market at the end you will see how jumpstart is",
+    "start": 64
+  },
+  {
+    "content": "the revolutionary idea that can drastically improve experience in these",
+    "start": 70
+  },
+  {
+    "content": "markets emerging markets is a term popular among economists and investors",
+    "start": 75
+  },
+  {
+    "content": "but not necessarily technical people like you and I so let's start with",
+    "start": 80
+  },
+  {
+    "content": "taking a look at where in the world identify as emerging markets emerging",
+    "start": 85
+  },
+  {
+    "content": "markets are countries as parent with categorized as developed countries but",
+    "start": 92
+  },
+  {
+    "content": "yet to meet these standards all the highlighted areas on this map can be",
+    "start": 98
+  },
+  {
+    "content": "identified as emerging markets in Africa is just Nigeria Egypt and South Africa",
+    "start": 102
+  },
+  {
+    "content": "we cannot review all the emerging markets but we can take a look at one of",
+    "start": 111
+  },
+  {
+    "content": "the world performing ones especially Nigeria which happens to be where I am",
+    "start": 116
+  },
+  {
+    "content": "from I have a rather vague saying that goes",
+    "start": 120
+  },
+  {
+    "content": "like if it works in Africa it works everywhere else this might not be",
+    "start": 126
+  },
+  {
+    "content": "practically true but when we talk about performance influenced by internet speed",
+    "start": 134
+  },
+  {
+    "content": "and hard ways it makes absolute sense in other words the worst case when",
+    "start": 139
+  },
+  {
+    "content": "measuring performance for your product is going to be Africa all this might not",
+    "start": 147
+  },
+  {
+    "content": "make absolute sense right now so let's take a look at some data I think the",
+    "start": 153
+  },
+  {
+    "content": "first thing we should take a look at is what it would cost one original Geryon",
+    "start": 158
+  },
+  {
+    "content": "to buy Internet an average user in Nigeria spends 15 gigabytes per month",
+    "start": 163
+  },
+  {
+    "content": "which is way more economical when compared to 75 gigabytes per a user in",
+    "start": 170
+  },
+  {
+    "content": "the United States judging from the most popular network",
+    "start": 177
+  },
+  {
+    "content": "provider in Nigeria this would cost me $6,000 per month which is over $15.00",
+    "start": 181
+  },
+  {
+    "content": "well you could say may that that's not so bad",
+    "start": 188
+  },
+  {
+    "content": "but who'd a thought for one second 75% of graduates in Nigeria and less than",
+    "start": 193
+  },
+  {
+    "content": "$120 a lot of graduates have to and mind you and faces on how to take care of",
+    "start": 201
+  },
+  {
+    "content": "their parents and siblings after school while they are trying to make ends meet",
+    "start": 210
+  },
+  {
+    "content": "and keep their heads above water Internet takes 1 / 8 of their salary so",
+    "start": 216
+  },
+  {
+    "content": "after sending love home and taking care of their basic needs you end up living",
+    "start": 223
+  },
+  {
+    "content": "paycheck-to-paycheck Internet becomes the last thing you want to worry about",
+    "start": 228
+  },
+  {
+    "content": "avoiding because mom might call in sick any day and don't even get me started on",
+    "start": 235
+  },
+  {
+    "content": "health insurance I guess I'm just trying to remind us that internet is a huge",
+    "start": 243
+  },
+  {
+    "content": "privilege and I can say this with confidence because I haven't video",
+    "start": 249
+  },
+  {
+    "content": "called my mum in we it has just been audio and the reason is",
+    "start": 254
+  },
+  {
+    "content": "by an Internet is not on her top 10 list of things to spend money on regardless",
+    "start": 259
+  },
+  {
+    "content": "one day at a time who is to try to offer Internet and join",
+    "start": 265
+  },
+  {
+    "content": "the rest of the world to banter on Twitter",
+    "start": 270
+  },
+  {
+    "content": "speaking of joining the rest of the world let's take a look at the rate of",
+    "start": 272
+  },
+  {
+    "content": "internet adoption in sub-saharan Africa at 2012 only 10% of the population was",
+    "start": 277
+  },
+  {
+    "content": "frequently online the grid drastically 250 percent in 2018 but there is also a",
+    "start": 287
+  },
+  {
+    "content": "prediction but more an even bigger numbers we come online between 2020 and",
+    "start": 294
+  },
+  {
+    "content": "2025 Africa is finally at the time where grandma is part of the very",
+    "start": 302
+  },
+  {
+    "content": "uncomfortable family what's up group and trust me before my parents and",
+    "start": 309
+  },
+  {
+    "content": "grandparents used to make this whatsapp groups uncomfortable if nothing to write",
+    "start": 315
+  },
+  {
+    "content": "home about speaking of phones let's actually take a look at what these ones",
+    "start": 320
+  },
+  {
+    "content": "actually look like according to Nigel price calm and my",
+    "start": 325
+  },
+  {
+    "content": "favorite phone dealer in Legos computer village these are the top three phones",
+    "start": 330
+  },
+  {
+    "content": "in the past few years if first one is the techno canon the second one is the",
+    "start": 336
+  },
+  {
+    "content": "journey p5 and then the third one is the Infinix hot 5 I won't deny of course",
+    "start": 343
+  },
+  {
+    "content": "iPhone still shines here a lot actually but of course I wouldn't be giving this",
+    "start": 352
+  },
+  {
+    "content": "talk if iPhones we are our reality on the other hand and according to creative",
+    "start": 357
+  },
+  {
+    "content": "blog these are the phones we use as developers the number one phone is",
+    "start": 365
+  },
+  {
+    "content": "Samsung Galaxy and then we have the iPhone 11 and then we also have the",
+    "start": 370
+  },
+  {
+    "content": "iPhone 8 and the funny thing is even when we test",
+    "start": 379
+  },
+  {
+    "content": "on different devices we test with our partners phone who probably uses a",
+    "start": 384
+  },
+  {
+    "content": "Google pixel it is heartbreaking to try and compare phones from these two",
+    "start": 390
+  },
+  {
+    "content": "categories I am comparing with an older iPhone and yet it has a processing speed",
+    "start": 397
+  },
+  {
+    "content": "that is two times that of the journey it has a rom that is also two times that",
+    "start": 405
+  },
+  {
+    "content": "of the journey and it has a battery power that lasts for 14 hours compared",
+    "start": 413
+  },
+  {
+    "content": "to journeys 9 hours trust me a shota lasting battery is no",
+    "start": 420
+  },
+  {
+    "content": "good news for a country with very poor electricity and as a creative my phone",
+    "start": 426
+  },
+  {
+    "content": "is two times more optimized the majority of my users phones now it makes sense",
+    "start": 433
+  },
+  {
+    "content": "because the owner paid 75% we saw earlier can only afford this lowlife",
+    "start": 438
+  },
+  {
+    "content": "load battery life low memory loss CPU phone that costs $80",
+    "start": 446
+  },
+  {
+    "content": "there is a huge chance they probably just watching right now and wondering",
+    "start": 452
+  },
+  {
+    "content": "hey I don't live in Africa how is this my problem",
+    "start": 458
+  },
+  {
+    "content": "well the top list of sites in Nigeria include Google YouTube Bettinger comm",
+    "start": 464
+  },
+  {
+    "content": "Facebook Yahoo Maryland legit dot ng daily post Ong wikipedia.org zoom punch",
+    "start": 472
+  },
+  {
+    "content": "dot ng or punch nj.com brother Jamia office comm amazon.com Instagram",
+    "start": 483
+  },
+  {
+    "content": "Twitter Nigel Lu dead calm Vanguard g3 bank and",
+    "start": 491
+  },
+  {
+    "content": "of course Netflix but to give very close look at this list there is a reason why",
+    "start": 497
+  },
+  {
+    "content": "I had to dictate them article really close look at them and see if you can",
+    "start": 504
+  },
+  {
+    "content": "find anything that stands out apparently Google YouTube Facebook Yahoo",
+    "start": 510
+  },
+  {
+    "content": "Wikipedia zoom office Amazon Instagram Twitter Netflix these are all global",
+    "start": 518
+  },
+  {
+    "content": "companies which means fifty fifty-five percent of these companies are not",
+    "start": 526
+  },
+  {
+    "content": "African companies so the point I'm trying to make is that the top 20 list",
+    "start": 531
+  },
+  {
+    "content": "companies or the top 20 list sites that are visited by Nigerians the majority of",
+    "start": 537
+  },
+  {
+    "content": "these sites on our global from facebook from Google to Facebook Wikipedia to",
+    "start": 543
+  },
+  {
+    "content": "zoom Microsoft Office to Amazon and of course Instagram Twitter and Netflix",
+    "start": 549
+  },
+  {
+    "content": "even if you don't think or even if you don't work in these companies this next",
+    "start": 556
+  },
+  {
+    "content": "one should blow your mind even though it's not the top 20 or I'll I didn't",
+    "start": 561
+  },
+  {
+    "content": "make the top 20 list Stack Overflow is number 25 of top fisted sights in a",
+    "start": 567
+  },
+  {
+    "content": "country that is the largest population in Africa with over 195 million people",
+    "start": 573
+  },
+  {
+    "content": "dissident not to tell you that every line of code you write could trigger a",
+    "start": 580
+  },
+  {
+    "content": "butterfly effect back to the top 20 do most of these sites are either news",
+    "start": 585
+  },
+  {
+    "content": "websites which targets in lot more senior citizens that have better",
+    "start": 592
+  },
+  {
+    "content": "attention span and goods and good discipline to wait for a site salud",
+    "start": 597
+  },
+  {
+    "content": "alleged or engine point or ng are just examples of those news websites and I'm",
+    "start": 602
+  },
+  {
+    "content": "sure my dad is okay with loading punch news websites while he makes his morning",
+    "start": 608
+  },
+  {
+    "content": "tea either you are in news websites or and an onion statement website and as",
+    "start": 612
+  },
+  {
+    "content": "long as you have it click beetle headline or I can make money from you",
+    "start": 619
+  },
+  {
+    "content": "then as in Nigerian I may be willing to wait for you to take two minutes to load",
+    "start": 624
+  },
+  {
+    "content": "now if you pay me my like bet Niger I'm willing to wait but if you are going",
+    "start": 629
+  },
+  {
+    "content": "to remind me of how broke I am just like every bank does it's an entirely",
+    "start": 637
+  },
+  {
+    "content": "different story expect you to load as instant as an SMS",
+    "start": 643
+  },
+  {
+    "content": "because after all you're just going to tell me how terrible my life is and how",
+    "start": 648
+  },
+  {
+    "content": "terrible my life sucks now let's take a look at what it feels like to load one",
+    "start": 652
+  },
+  {
+    "content": "of these banks on the journey phone we took with we saw earlier or we compared",
+    "start": 660
+  },
+  {
+    "content": "to the iPhone 8 GT Bank is by far one of the best banks in Nigeria so let's test",
+    "start": 664
+  },
+  {
+    "content": "with the best-case scenario the performance is not even close to good",
+    "start": 671
+  },
+  {
+    "content": "enough lighthouse score is 18 and if we drill down you can see that the speed",
+    "start": 676
+  },
+  {
+    "content": "index is ticked about nine point eight seconds it takes 24 seconds before I can",
+    "start": 684
+  },
+  {
+    "content": "interact with this side it takes 24 seconds before the CPU becomes idle",
+    "start": 691
+  },
+  {
+    "content": "again for joining CPU the landing page alone even before I can log in it",
+    "start": 697
+  },
+  {
+    "content": "showing me too much information as a returning customer that is trying to get",
+    "start": 706
+  },
+  {
+    "content": "straight to sending money to my mom at this point I don't want to be reminded",
+    "start": 711
+  },
+  {
+    "content": "that we are proud Africans or who to call when my card is missing or 1",
+    "start": 718
+  },
+  {
+    "content": "million minis that shows how to open an international account when am too broke",
+    "start": 727
+  },
+  {
+    "content": "to even sustain a local one or the current share price of GT Bank also if I",
+    "start": 732
+  },
+  {
+    "content": "wanted to listen to music I would not come to the bank side I would good one",
+    "start": 741
+  },
+  {
+    "content": "of those websites that we saw in the previous slide and the most popular way",
+    "start": 746
+  },
+  {
+    "content": "so far is to send via SMS or ussd well thanks to companies like the guys",
+    "start": 751
+  },
+  {
+    "content": "talking and flutter with who has been pioneering technologies to help make",
+    "start": 757
+  },
+  {
+    "content": "doing this kind of transactions super easy honest this has been a great",
+    "start": 762
+  },
+  {
+    "content": "strategy but think about it take a look at the",
+    "start": 769
+  },
+  {
+    "content": "this lights that we saw previously if the top prediction says that 80% of us",
+    "start": 773
+  },
+  {
+    "content": "will be online between 2020 2025 I think that would deserve a better and modern",
+    "start": 781
+  },
+  {
+    "content": "you are banking rather you I for banking Morang something better than just SMS or",
+    "start": 789
+  },
+  {
+    "content": "USA's because like if you have 80% of people interacting with user interfaces",
+    "start": 796
+  },
+  {
+    "content": "were not actually good where they are and give them a technology that makes",
+    "start": 801
+  },
+  {
+    "content": "their life easier than just SMS I mean SMS is work I'm not disputing that fact",
+    "start": 806
+  },
+  {
+    "content": "but this is basically because we had no option than to stick with doing only SMS",
+    "start": 812
+  },
+  {
+    "content": "or USSD buddy but at the point where people can now afford to come online",
+    "start": 821
+  },
+  {
+    "content": "anathematized expensive but the castle efforts come online this you want to be",
+    "start": 826
+  },
+  {
+    "content": "able to enjoy the same experience that people in other countries get when they",
+    "start": 830
+  },
+  {
+    "content": "use smartphones and this was why I had to go make my own quit banking solution",
+    "start": 835
+  },
+  {
+    "content": "to prove to banks that they can actually do better and actually called this demo",
+    "start": 841
+  },
+  {
+    "content": "week Bank now you can access this demo by going to aka the MS slash squid Bank",
+    "start": 848
+  },
+  {
+    "content": "but basically what happens is a customer signs in of course with github because",
+    "start": 854
+  },
+  {
+    "content": "for convenience definitely you want to probably want his github for education",
+    "start": 862
+  },
+  {
+    "content": "but I'm just doing this for convenience then they are transactional and their",
+    "start": 866
+  },
+  {
+    "content": "balance gets loaded and they can see their previous transactions now what I",
+    "start": 870
+  },
+  {
+    "content": "can do is to simply go send money to an existing beneficiaries by clicking the",
+    "start": 875
+  },
+  {
+    "content": "send money button or send money option now you can",
+    "start": 882
+  },
+  {
+    "content": "see a pre-loaded beneficiaries based on the beneficiary",
+    "start": 887
+  },
+  {
+    "content": "added on the actual bank banking up now you can set whatever amount they want to",
+    "start": 892
+  },
+  {
+    "content": "send and just click the send button and they would simply send money to whoever",
+    "start": 898
+  },
+  {
+    "content": "they want to send money and I promise you this is not just",
+    "start": 902
+  },
+  {
+    "content": "unlike amok APA this is actual flutter with APA which I'm just in the sandbox",
+    "start": 906
+  },
+  {
+    "content": "key but if I switch this key with with an actual production key you can be able",
+    "start": 912
+  },
+  {
+    "content": "to send money from one customer to another is in flutter with EPA's now if",
+    "start": 918
+  },
+  {
+    "content": "we take a look at how these actually performs compared to GT Bank you get",
+    "start": 924
+  },
+  {
+    "content": "over 100 percent boosts in Perm in performance and even though this video",
+    "start": 929
+  },
+  {
+    "content": "index is not still we'll want it to be this is because we are using flutter",
+    "start": 934
+  },
+  {
+    "content": "whip sandbox API and if I was new production API things would be",
+    "start": 939
+  },
+  {
+    "content": "definitely faster and content would load quicker for the customers",
+    "start": 944
+  },
+  {
+    "content": "now everything you've seen in this demo is powered by jam stack and that's why I",
+    "start": 950
+  },
+  {
+    "content": "did the example of this demo can afford to be as fast as it is now right at the",
+    "start": 954
+  },
+  {
+    "content": "bottom of this entire stack I'm basically calling the flutter with EPA",
+    "start": 959
+  },
+  {
+    "content": "the EPA trade balance of a customer the endpoints to get e transactions as well",
+    "start": 964
+  },
+  {
+    "content": "as the endpoints to make payments like post endpoints to send payments or send",
+    "start": 969
+  },
+  {
+    "content": "a time or paid the HTV bills for each customer",
+    "start": 974
+  },
+  {
+    "content": "now of course I cannot talk to this EPS directly from my react or Gatsby or next",
+    "start": 979
+  },
+  {
+    "content": "or NOx or view up so what I have to do is to use surveillance functions as",
+    "start": 986
+  },
+  {
+    "content": "proxies between my up and the floater with EPA now what my client up can do is",
+    "start": 991
+  },
+  {
+    "content": "to make a request to my surveillance function and in my service function uses",
+    "start": 997
+  },
+  {
+    "content": "the floater with keys to handle these transactions so every single API call",
+    "start": 1002
+  },
+  {
+    "content": "has a proxy so we have like the gate balance for flutter with balance the",
+    "start": 1008
+  },
+  {
+    "content": "fetch transaction for the flutter of transactions and the process payment",
+    "start": 1013
+  },
+  {
+    "content": "endpoints for the floater with payment endpoint but then at this point we are",
+    "start": 1016
+  },
+  {
+    "content": "still not talking to the client up directly",
+    "start": 1024
+  },
+  {
+    "content": "there is also an authentication proxy because at the API is basically just",
+    "start": 1026
+  },
+  {
+    "content": "open to anyone if they have access the URL so what",
+    "start": 1032
+  },
+  {
+    "content": "I had to do was the beauty proxy that checks if the user that's trying to",
+    "start": 1036
+  },
+  {
+    "content": "access this API with that business success in from the browser or is just",
+    "start": 1041
+  },
+  {
+    "content": "type in the API the function URL directly into the into postman or",
+    "start": 1044
+  },
+  {
+    "content": "whatever I'm basically using this this layer to check if the user is",
+    "start": 1049
+  },
+  {
+    "content": "authenticated before allowing them to have access to the surveillance",
+    "start": 1058
+  },
+  {
+    "content": "functions now right after that proxy is the static site we just interact with",
+    "start": 1061
+  },
+  {
+    "content": "the proxy and channels request to any of the endpoints and then of course we have",
+    "start": 1066
+  },
+  {
+    "content": "our authentication which we are handling with github authentication so this is",
+    "start": 1071
+  },
+  {
+    "content": "basically what power squid Bank it's as simple as these days nope there's no",
+    "start": 1078
+  },
+  {
+    "content": "magic and trust me just like I said earlier this entire walks like it like",
+    "start": 1082
+  },
+  {
+    "content": "it's a production app so all I just need to do to be able to send actual money to",
+    "start": 1089
+  },
+  {
+    "content": "my mom or to in up my beneficiaries is to cooked my float above dashboard and",
+    "start": 1093
+  },
+  {
+    "content": "take an actual API key the key production API key switched with the Sun",
+    "start": 1098
+  },
+  {
+    "content": "box key we are testing with right now and I'll be able to send action one is",
+    "start": 1103
+  },
+  {
+    "content": "my mom's bank account or sent her or pay for her phone bills of before DSTV",
+    "start": 1107
+  },
+  {
+    "content": "thank you for making the time to listen to me today but remember every single",
+    "start": 1113
+  },
+  {
+    "content": "optimization you make no matter how little it is goes a long way to make the",
+    "start": 1122
+  },
+  {
+    "content": "experience of someone in an emerging market that's interested in your product",
+    "start": 1127
+  },
+  {
+    "content": "better don't ever take it for granted or don't don't think that those those",
+    "start": 1131
+  },
+  {
+    "content": "changes on make impact in people's life it really goes a long way and locally we",
+    "start": 1137
+  },
+  {
+    "content": "were trying our best to speak to people who can actually optimize their products",
+    "start": 1142
+  },
+  {
+    "content": "using using jump stock using jumpstart technologies and solutions to help make",
+    "start": 1147
+  },
+  {
+    "content": "this experience better for everyone and basically just like you've seen how much",
+    "start": 1154
+  },
+  {
+    "content": "money you can save people from these kind of regions by just optimizing your",
+    "start": 1159
+  },
+  {
+    "content": "site remember if it takes every single second it takes for sites to load",
+    "start": 1164
+  },
+  {
+    "content": "costs someone a huge amount of money that they could use to make their life",
+    "start": 1170
+  },
+  {
+    "content": "better thank you",
+    "start": 1174
+  }
+]

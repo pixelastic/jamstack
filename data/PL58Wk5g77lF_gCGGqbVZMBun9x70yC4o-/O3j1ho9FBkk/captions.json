@@ -1,0 +1,1482 @@
+[
+  {
+    "content": "you",
+    "start": 0
+  },
+  {
+    "content": "well thank you very much for that warm",
+    "start": 9
+  },
+  {
+    "content": "welcome he mentioned painless I don't know how",
+    "start": 19
+  },
+  {
+    "content": "painless this is going to be I'm going to dig deep into some pain a little bit",
+    "start": 23
+  },
+  {
+    "content": "about me like Phil said I'm from San Francisco work at a company called one",
+    "start": 28
+  },
+  {
+    "content": "graph in a prior life I ran engineering for a payments company I used to work a",
+    "start": 33
+  },
+  {
+    "content": "lot on closure I worked on the closure script compiler these days I typically",
+    "start": 38
+  },
+  {
+    "content": "spend my time and reason and rust and all throughout that like dev tooling has",
+    "start": 43
+  },
+  {
+    "content": "been very close to my heart bad dev tooling makes me sad but more",
+    "start": 48
+  },
+  {
+    "content": "importantly if you leave this talk remembering only one thing let it be",
+    "start": 54
+  },
+  {
+    "content": "this I am a smart person like really really smart and there are some really",
+    "start": 59
+  },
+  {
+    "content": "well-respected members of our community that will go talk on about at length",
+    "start": 67
+  },
+  {
+    "content": "about how smart and how respected I am and like any smart respected individual",
+    "start": 71
+  },
+  {
+    "content": "I have lots of great ideas and it's hard to describe the process by which I come",
+    "start": 78
+  },
+  {
+    "content": "up with all of these ideas there's just something about it and I think I'm not",
+    "start": 83
+  },
+  {
+    "content": "alone I've talked to a lot of people today and everyone has just tons of",
+    "start": 89
+  },
+  {
+    "content": "ideas that they're working on and this is what's so nice about the jam stack is",
+    "start": 93
+  },
+  {
+    "content": "it enables us to push out lots of great ideas and so many ideas that seem great",
+    "start": 96
+  },
+  {
+    "content": "today started as actually just side projects originally it's like Twitter",
+    "start": 102
+  },
+  {
+    "content": "was a side project and product hunt Groupon and oculus and there are",
+    "start": 106
+  },
+  {
+    "content": "literally some others that started off as side projects it's actually happened",
+    "start": 110
+  },
+  {
+    "content": "the other day I was drinking a matcha latte and I realized matcha is it's",
+    "start": 116
+  },
+  {
+    "content": "popular it's everywhere these days and I was thinking you know I just Riven over",
+    "start": 122
+  },
+  {
+    "content": "there on my scooter and I thought scooters are everywhere in society today",
+    "start": 126
+  },
+  {
+    "content": "and we all know that if you take one good thing and another good thing and",
+    "start": 131
+  },
+  {
+    "content": "you put them together you get a great thing right everyone knows what's coming",
+    "start": 136
+  },
+  {
+    "content": "that's right I'm talking about matcha scooters all right now it's unclear",
+    "start": 142
+  },
+  {
+    "content": "this means like matcha flavored scooters or like matcha on your scooter but those",
+    "start": 147
+  },
+  {
+    "content": "are details that we'll figure out later we don't have time to think about that",
+    "start": 151
+  },
+  {
+    "content": "what we want to do is actually just start building our startup and obviously",
+    "start": 154
+  },
+  {
+    "content": "like any good developer the first thing I'm gonna do is start planning out my",
+    "start": 159
+  },
+  {
+    "content": "stack and I know I'm gonna need a domain like branding number one it's gonna be",
+    "start": 163
+  },
+  {
+    "content": "important much of scutes com maybe I'm gonna need some sort of source",
+    "start": 167
+  },
+  {
+    "content": "control and again I mean matcha and scooters once this",
+    "start": 172
+  },
+  {
+    "content": "thing goes on TechCrunch millions of hits it's in the bag",
+    "start": 175
+  },
+  {
+    "content": "we need to scale easily obvious gonna be things like launch pages and mailing",
+    "start": 179
+  },
+  {
+    "content": "lists and the list goes on and on and on and obviously we're gonna need some",
+    "start": 183
+  },
+  {
+    "content": "institutional investors so if Softbank is watching give me a call and it's kind",
+    "start": 186
+  },
+  {
+    "content": "of cool right because if you look at all of those things that we need we live in",
+    "start": 193
+  },
+  {
+    "content": "a golden age there is a service a best-of-breed tool that would do just",
+    "start": 197
+  },
+  {
+    "content": "that one thing for us we don't have to build it that said if you look at this",
+    "start": 202
+  },
+  {
+    "content": "list that's still a lot of stuff so actually even though we get to use all",
+    "start": 207
+  },
+  {
+    "content": "of these great tools and we live in a golden age setting everything up and",
+    "start": 213
+  },
+  {
+    "content": "gluing it together it takes time it's a lot of friction and the world moves fast",
+    "start": 217
+  },
+  {
+    "content": "right how many scooter companies have come and gone in San Francisco alone",
+    "start": 222
+  },
+  {
+    "content": "well unlike our tenth generation of scooters here so like we can't afford to",
+    "start": 226
+  },
+  {
+    "content": "take time to set all this stuff up but if you notice for all those services",
+    "start": 231
+  },
+  {
+    "content": "they all have api's and that means like I proposed a new plan what we're gonna",
+    "start": 237
+  },
+  {
+    "content": "do is we're actually going to put our case study on hold we'll come back to",
+    "start": 243
+  },
+  {
+    "content": "March of scooters I promise it's too important to put aside but we're gonna",
+    "start": 246
+  },
+  {
+    "content": "build a tool and this tool is going to be public tool that will allow people to",
+    "start": 250
+  },
+  {
+    "content": "combine together and build all the stuff out very very quickly we're gonna",
+    "start": 254
+  },
+  {
+    "content": "automate that whole stack we're gonna shave some yaks now this is a rabbit",
+    "start": 258
+  },
+  {
+    "content": "hole that goes pretty deep just a little fair bit of warning but stick with me I",
+    "start": 264
+  },
+  {
+    "content": "think we'll make it through and for the purposes of this talk I just want to",
+    "start": 269
+  },
+  {
+    "content": "focus on that first bit of the stack whenever I have an idea I want to",
+    "start": 273
+  },
+  {
+    "content": "automatically have a github repository a new net Liffe eyesight's I want a domain",
+    "start": 277
+  },
+  {
+    "content": "placeholder page obviously I need to start a viral social media campaign by",
+    "start": 281
+  },
+  {
+    "content": "which I mean tweet and then I want to get pumped right this is the most",
+    "start": 285
+  },
+  {
+    "content": "important part I have all my structure infrastructure laid out and I just need",
+    "start": 289
+  },
+  {
+    "content": "to get excited for building my startup so let's try this out let's automate",
+    "start": 293
+  },
+  {
+    "content": "some startup generation so I would say for source control we're going to use",
+    "start": 299
+  },
+  {
+    "content": "github and for github the first thing we're gonna do for the API is Google so",
+    "start": 305
+  },
+  {
+    "content": "I've googled here how to create a repository on github using the API and",
+    "start": 311
+  },
+  {
+    "content": "you can see that you know there's a couple of good hits here and like a",
+    "start": 316
+  },
+  {
+    "content": "developer I skip all of the documentation I go straight to Stack",
+    "start": 319
+  },
+  {
+    "content": "Overflow very important donut don't even read the question right so we're just",
+    "start": 321
+  },
+  {
+    "content": "gonna look exactly this copy this it looks good so this doesn't look too bad",
+    "start": 325
+  },
+  {
+    "content": "I mean cool so what I'm gonna do it sounds like is just fire up post and I'm",
+    "start": 333
+  },
+  {
+    "content": "gonna include something like this some JSON in the body it's gonna create the",
+    "start": 338
+  },
+  {
+    "content": "name of the repository it's great so I fire up curl I copied and pasted very",
+    "start": 341
+  },
+  {
+    "content": "trusted li myu RL from Stack Overflow got a name of much of scutes and I run",
+    "start": 346
+  },
+  {
+    "content": "that it's not found yeah that make sense I guess right like it's slash user slash",
+    "start": 352
+  },
+  {
+    "content": "s Grove that's kind of weird I mean I'm I'm s Grove but if it was an S Grove",
+    "start": 357
+  },
+  {
+    "content": "that would be weird for Google to allow for someone who's creative repository",
+    "start": 362
+  },
+  {
+    "content": "under me so maybe it's just like users right github knows who I am",
+    "start": 365
+  },
+  {
+    "content": "so I post there and that's not found and it's it's it's not like Stack Overflow",
+    "start": 368
+  },
+  {
+    "content": "to be wrong so I'm a little bit concerned at this point so maybe I'll",
+    "start": 372
+  },
+  {
+    "content": "find then go and read the documentation it turns out it's user it's okay and I",
+    "start": 375
+  },
+  {
+    "content": "post and I get this back requires authentication turns out I can't just",
+    "start": 380
+  },
+  {
+    "content": "make random repositories so it turns out step one is actually go back in time and",
+    "start": 385
+  },
+  {
+    "content": "create a personal access token it's a little bit of a bummer it's okay you",
+    "start": 390
+  },
+  {
+    "content": "know makes it not too bad so you can see here I've created my Sam",
+    "start": 394
+  },
+  {
+    "content": "stack personal access token and if I have this token and I post it just use",
+    "start": 398
+  },
+  {
+    "content": "the basic auth here then I get my repository back and we can combine this",
+    "start": 405
+  },
+  {
+    "content": "up make a nice little JavaScript function",
+    "start": 412
+  },
+  {
+    "content": "and here we go we've automated the first step in our journey which is now we can",
+    "start": 414
+  },
+  {
+    "content": "create a github repository programmatically I feel I feel",
+    "start": 419
+  },
+  {
+    "content": "accomplished I hope you feel accomplished I think we can cross that",
+    "start": 423
+  },
+  {
+    "content": "out I love crossing things out of my",
+    "start": 426
+  },
+  {
+    "content": "checklists step two though step two is a site write like no respectable scooter",
+    "start": 428
+  },
+  {
+    "content": "startup goes without a site and like I said we need to scale and so of course",
+    "start": 433
+  },
+  {
+    "content": "we're going to use notify and I'm a big fan of them I was not told before I came",
+    "start": 438
+  },
+  {
+    "content": "on here that I had to say that and they turns out they also have a",
+    "start": 444
+  },
+  {
+    "content": "public facing API and it's actually a really nice API you can tell that they",
+    "start": 448
+  },
+  {
+    "content": "really care about it they documented it very well so I'm gonna look under site",
+    "start": 454
+  },
+  {
+    "content": "and I see there's some some actions here and I see create sites make this a",
+    "start": 458
+  },
+  {
+    "content": "little bit bigger a little bit smaller so it looks right and I see I'm supposed",
+    "start": 463
+  },
+  {
+    "content": "to post here that's the end point and it looks like this is a pretty detailed",
+    "start": 468
+  },
+  {
+    "content": "payload that they were expecting but that's okay I only have to do this once",
+    "start": 475
+  },
+  {
+    "content": "right I get that payload set up and then I'm gonna automate it and I'll never",
+    "start": 479
+  },
+  {
+    "content": "come back here again so again I curl and I post an elephant because I actually",
+    "start": 482
+  },
+  {
+    "content": "like Nilofer a lot I'm actually give them heads up that I'm sitting there",
+    "start": 487
+  },
+  {
+    "content": "some JSON to let them know we're cool like that",
+    "start": 491
+  },
+  {
+    "content": "so I post this this huge JSON thing and raise your hand if you've used the - vvv",
+    "start": 493
+  },
+  {
+    "content": "flag with curl because if you're not you're missing out it's a lot of fun",
+    "start": 501
+  },
+  {
+    "content": "because whenever you make a post it actually has this line we are completely",
+    "start": 505
+  },
+  {
+    "content": "uploaded and fine and just to show you I'm actually gonna this is the post I'm",
+    "start": 511
+  },
+  {
+    "content": "gonna post that and it says we are completely uploaded and fine know it",
+    "start": 516
+  },
+  {
+    "content": "makes me feel happy whenever I see that unfortunately the next words out of the",
+    "start": 519
+  },
+  {
+    "content": "net laughs I servers mouth is Buddhist right like who are you and it turns out",
+    "start": 526
+  },
+  {
+    "content": "we have to deal with off again and I'm only two functions into my automation I",
+    "start": 533
+  },
+  {
+    "content": "got a long pipe line right I'm trying to build much of scooters I don't have time",
+    "start": 539
+  },
+  {
+    "content": "to do all of this stuff and the crazy thing is github and net liffe I have",
+    "start": 543
+  },
+  {
+    "content": "rate AP is like seriously really good AP is think about your own ap is right",
+    "start": 548
+  },
+  {
+    "content": "github z-- error messages include a documentation URL for you to go and read",
+    "start": 555
+  },
+  {
+    "content": "more about that error why it occurred and how to fix it that's insane right",
+    "start": 559
+  },
+  {
+    "content": "like whenever I'm building it API you're lucky if I send you any response",
+    "start": 564
+  },
+  {
+    "content": "whatsoever and the crazy thing is github and ATLA",
+    "start": 568
+  },
+  {
+    "content": "file you have both good design in their API and good documentation and yet I do",
+    "start": 573
+  },
+  {
+    "content": "feel the friction weighing on me as I starts to use them and that's not to",
+    "start": 578
+  },
+  {
+    "content": "even mention some of these worst api's and I would say that there are two",
+    "start": 582
+  },
+  {
+    "content": "fundamental problems with api's one is that API design is very open all right",
+    "start": 586
+  },
+  {
+    "content": "everyone is a snowflake and how they design api's some people want do",
+    "start": 592
+  },
+  {
+    "content": "authorization as a header some people want to do it in the body other people",
+    "start": 597
+  },
+  {
+    "content": "you know query parameter whatever makes you feel good but the problem is because",
+    "start": 600
+  },
+  {
+    "content": "it is so open it's hard to build tools that can help the user navigate across",
+    "start": 605
+  },
+  {
+    "content": "them it's hard for the computer to know how do i authenticate with this",
+    "start": 611
+  },
+  {
+    "content": "particular API what are the resources that are inside of it how do i",
+    "start": 614
+  },
+  {
+    "content": "authenticate the other one is that off is just hard right like raise your hand",
+    "start": 618
+  },
+  {
+    "content": "if you've been working on a side project maybe on the weekend and you were",
+    "start": 623
+  },
+  {
+    "content": "building something and it soon as it got to like setting up an OAuth client",
+    "start": 627
+  },
+  {
+    "content": "you're like nope nope and it's tough if you remember like we're trying to build",
+    "start": 630
+  },
+  {
+    "content": "a startup generating pipeline and this is something we wanted be public and",
+    "start": 636
+  },
+  {
+    "content": "have other people able to use but we want to do that in a way that we don't",
+    "start": 640
+  },
+  {
+    "content": "actually expose our github token or a net Lafite okyun or whatever other",
+    "start": 644
+  },
+  {
+    "content": "tokens that we have I don't say this is tough but it's solvable right so what",
+    "start": 648
+  },
+  {
+    "content": "can we do well let's write some server-side functions right and those",
+    "start": 653
+  },
+  {
+    "content": "server-side functions will talk the api's for github and edify on our behalf",
+    "start": 657
+  },
+  {
+    "content": "and we'll tell them and just them what are all token is by environmental",
+    "start": 662
+  },
+  {
+    "content": "variables just a new pattern to anyone I think we should all be super actually",
+    "start": 667
+  },
+  {
+    "content": "tired of this and I would say let's not do this because one it's a lot of work",
+    "start": 672
+  },
+  {
+    "content": "to set up server-side functions and the other thing is it only solves one",
+    "start": 677
+  },
+  {
+    "content": "part of it which is off it doesn't actually make exploring the API any",
+    "start": 681
+  },
+  {
+    "content": "easier so I'm gonna propose a new idea and I want to solve both of these API",
+    "start": 686
+  },
+  {
+    "content": "problems so let's put the automation on hold for a second let's push that on to",
+    "start": 693
+  },
+  {
+    "content": "the sack and now this is our current stack we're trying to build some matchup",
+    "start": 699
+  },
+  {
+    "content": "scooters we're going to set up the startup infrastructure for that but",
+    "start": 703
+  },
+  {
+    "content": "before we can do that we need to automate this so we never have to do it",
+    "start": 707
+  },
+  {
+    "content": "again and then of course we're finally going to fix API Explorer ability Docs",
+    "start": 710
+  },
+  {
+    "content": "and off like I said we're going deep going deep don't worry I'm pretty sure",
+    "start": 714
+  },
+  {
+    "content": "we'll make our way back out well I mean probably all right so plan number one",
+    "start": 720
+  },
+  {
+    "content": "let's fix API Explorer ability and the way we're going to do this is every API",
+    "start": 725
+  },
+  {
+    "content": "has to agree to have a fully computer readable version of their API the",
+    "start": 731
+  },
+  {
+    "content": "computer has to be able to introspect and interrogate the server and say what",
+    "start": 737
+  },
+  {
+    "content": "resources do you have how can I access them",
+    "start": 742
+  },
+  {
+    "content": "give me the documentation and to this spec cannot be written by humans humans",
+    "start": 744
+  },
+  {
+    "content": "have many great qualities infallibility is not one of them so we want this spec",
+    "start": 751
+  },
+  {
+    "content": "to be 100% trustworthy and this is graph ul so graph QL by virtue of construction",
+    "start": 757
+  },
+  {
+    "content": "will give the computer a way to describe everything that a server has every graph",
+    "start": 765
+  },
+  {
+    "content": "QL server isn't respectable and that means that we can now build some really",
+    "start": 770
+  },
+  {
+    "content": "impressive tooling on it and we can all share that tooling so I'm going to show",
+    "start": 775
+  },
+  {
+    "content": "an example quick side detour this is graphical this is an open source tool",
+    "start": 780
+  },
+  {
+    "content": "that you can point at any graph QL server and you will get the same",
+    "start": 784
+  },
+  {
+    "content": "experience and using this we can actually visually explore what resources",
+    "start": 788
+  },
+  {
+    "content": "does a server have so I open up this and I see that there's some interesting",
+    "start": 793
+  },
+  {
+    "content": "services and there's Spotify and I'm gonna search and you can see that it",
+    "start": 798
+  },
+  {
+    "content": "automatically highlights the required queries for me so I'm going to search",
+    "start": 802
+  },
+  {
+    "content": "for win win win is what I'm feeling like right now and now any tracks that match",
+    "start": 805
+  },
+  {
+    "content": "that I want to get their ID and their name I'll go ahead and run that",
+    "start": 811
+  },
+  {
+    "content": "boom I was able to actually explore this API just by clicking around I could",
+    "start": 816
+  },
+  {
+    "content": "actually see what fields it has if I want to go deeper and say well what's",
+    "start": 821
+  },
+  {
+    "content": "the artist that's associated with this track and get those a little bit further",
+    "start": 825
+  },
+  {
+    "content": "this is really nice queries allow you in graph QL to read",
+    "start": 830
+  },
+  {
+    "content": "data they're kind of pure functions but sometimes we want to mutate the world we",
+    "start": 835
+  },
+  {
+    "content": "want to actually affect and change the world in some way so I'm going to add a",
+    "start": 840
+  },
+  {
+    "content": "mutation the mutations are what we use to are the Wrights data or change the",
+    "start": 844
+  },
+  {
+    "content": "world in some way so I'm going to go into Spotify and you can see there are",
+    "start": 847
+  },
+  {
+    "content": "different actions available so I'm going to say I want to pause my player and I",
+    "start": 851
+  },
+  {
+    "content": "want to know this is going to reach out to the Spotify API it's going to pause",
+    "start": 856
+  },
+  {
+    "content": "the players going to modify it States wherever it is and then having modified",
+    "start": 860
+  },
+  {
+    "content": "that state it's going to return to me the new player so having paused it I",
+    "start": 865
+  },
+  {
+    "content": "want to know are you playing better not be and to how far into the track are you",
+    "start": 869
+  },
+  {
+    "content": "and I'll add one more which is going to be Spotify next and this is going to",
+    "start": 874
+  },
+  {
+    "content": "skip to the next track the same idea are you playing and how far are you I'm",
+    "start": 881
+  },
+  {
+    "content": "going to rename these next pause and search and the thing I love about graph",
+    "start": 885
+  },
+  {
+    "content": "QL is one exploring an API is really really easy right these open-source",
+    "start": 892
+  },
+  {
+    "content": "tooling that we can just use with any graphical server but we can actually go",
+    "start": 898
+  },
+  {
+    "content": "further we can introspect the ast of the graph QL query and we can actually",
+    "start": 901
+  },
+  {
+    "content": "generate entire applications from them so in this case each of my three",
+    "start": 906
+  },
+  {
+    "content": "operation search pause and next I mean obviously what you're going to want to",
+    "start": 911
+  },
+  {
+    "content": "do with this the Spotify control the player that we're building is to use it",
+    "start": 914
+  },
+  {
+    "content": "inside of bash so what we did was we generated an entire bash I I don't",
+    "start": 918
+  },
+  {
+    "content": "actually know how to write bash but this looks great to me so I could just copy",
+    "start": 923
+  },
+  {
+    "content": "and paste this and my terminal and I would have a Spotify player and there",
+    "start": 927
+  },
+  {
+    "content": "and you know admittedly this is a jam stack not BAM stack so most of us are",
+    "start": 930
+  },
+  {
+    "content": "going to do JavaScript and the same idea applies you can see here that I've",
+    "start": 936
+  },
+  {
+    "content": "actually generated a react component for every one of my operations over here so",
+    "start": 940
+  },
+  {
+    "content": "if I just copy this and I go over into code sandbox and I",
+    "start": 945
+  },
+  {
+    "content": "paste it and I hit save this is automatically going to run",
+    "start": 950
+  },
+  {
+    "content": "authentication is going to be handled for me so now I'm actually queering",
+    "start": 954
+  },
+  {
+    "content": "Spotify is I have a full react application I'm gonna open up my player",
+    "start": 958
+  },
+  {
+    "content": "right here I'm gonna hit next so I can see it's playing I'll hit next it's",
+    "start": 962
+  },
+  {
+    "content": "going to the next one and if I had pause pauses so I was able to explore an",
+    "start": 971
+  },
+  {
+    "content": "entire API visually clicking around seeing the query build in front of me",
+    "start": 976
+  },
+  {
+    "content": "and then once I was done experimenting with it I was actually able to generate",
+    "start": 981
+  },
+  {
+    "content": "a fully working app they can start tweaking with this kind of interaction",
+    "start": 986
+  },
+  {
+    "content": "with any API is so difficult to do outside of something like graph QL so",
+    "start": 990
+  },
+  {
+    "content": "let's go back and revisit the two functions that we wrote previously which",
+    "start": 997
+  },
+  {
+    "content": "were we want to create a github repository so we're going to go into",
+    "start": 1002
+  },
+  {
+    "content": "that's going to be a mutation we want to change the world both metaphorically and",
+    "start": 1007
+  },
+  {
+    "content": "literally and we're going to say create a repository and call this and much of",
+    "start": 1011
+  },
+  {
+    "content": "scutes and having created that I don't make it",
+    "start": 1016
+  },
+  {
+    "content": "public we want to share our love with everyone and having created that",
+    "start": 1021
+  },
+  {
+    "content": "repository I'll get the ID and the name back and so",
+    "start": 1025
+  },
+  {
+    "content": "this is what it takes so I will say create repo and I want to do one more",
+    "start": 1029
+  },
+  {
+    "content": "which is going to be on net Lefroy so let's say create site and now when I go",
+    "start": 1034
+  },
+  {
+    "content": "into net laughs I I see create sites we'll give it a name much of scooters",
+    "start": 1041
+  },
+  {
+    "content": "house scoots scooters just too long no one will type that all the way up",
+    "start": 1046
+  },
+  {
+    "content": "alright and now I haven't created that site will get this ID and name back and",
+    "start": 1050
+  },
+  {
+    "content": "you can see now that we have these two operations we could do the same thing",
+    "start": 1054
+  },
+  {
+    "content": "before as before if we wanted to generate an entire react application",
+    "start": 1057
+  },
+  {
+    "content": "that we just go there we click a button we have a new github repository and a",
+    "start": 1061
+  },
+  {
+    "content": "new net low fire site that's way way faster and the cool thing is off can",
+    "start": 1065
+  },
+  {
+    "content": "actually be embedded inside of those generated examples we can actually",
+    "start": 1072
+  },
+  {
+    "content": "generate the OAuth client automatically so you don't have to",
+    "start": 1076
+  },
+  {
+    "content": "with it on your weekend hacking that said we're still calling a API from the",
+    "start": 1080
+  },
+  {
+    "content": "client we're still calling the github API and we need to solve this right",
+    "start": 1088
+  },
+  {
+    "content": "because I'm gonna expose this tool somewhere and I want other people to use",
+    "start": 1093
+  },
+  {
+    "content": "it but I don't want them to see my github authentication and the challenge",
+    "start": 1096
+  },
+  {
+    "content": "is this when you're talking to an API from your browser you know you're making",
+    "start": 1100
+  },
+  {
+    "content": "a full API call to say notify creating a site and you need to have authentication",
+    "start": 1104
+  },
+  {
+    "content": "you know notify they're cool but they just they won't let just anyone come in",
+    "start": 1110
+  },
+  {
+    "content": "they need to know who you are so of course we need enterprise-grade",
+    "start": 1113
+  },
+  {
+    "content": "off and what we're gonna do here the traditional solution is we actually",
+    "start": 1118
+  },
+  {
+    "content": "going to generate a server somewhere maybe a server site function and then",
+    "start": 1122
+  },
+  {
+    "content": "that is going to talk to the API on our behalf like we said before it'll know",
+    "start": 1126
+  },
+  {
+    "content": "the off and then the client just has to make a very simple call with no off and",
+    "start": 1130
+  },
+  {
+    "content": "maybe a very Smita mais pared down version of that API so similar to say",
+    "start": 1135
+  },
+  {
+    "content": "net LaFace create site there were a lot of options in there and maybe you don't",
+    "start": 1141
+  },
+  {
+    "content": "need all of those and so we have two benefits by introducing this little",
+    "start": 1146
+  },
+  {
+    "content": "intermediary one of which is we closed over off we kind of capture it and the",
+    "start": 1150
+  },
+  {
+    "content": "other one is we can make bespoke we can kind of mold these very powerful API s",
+    "start": 1155
+  },
+  {
+    "content": "and turn them into very simple API that only do exactly what we want and that's",
+    "start": 1160
+  },
+  {
+    "content": "kind of traditional you can do that with api's but graph QL actually has a",
+    "start": 1165
+  },
+  {
+    "content": "special concept for this called persisted queries so what I'm going to",
+    "start": 1170
+  },
+  {
+    "content": "do here I don't you guys have heard about this",
+    "start": 1174
+  },
+  {
+    "content": "tactic startup I'm a personally a huge fan I've generated a number of sites",
+    "start": 1177
+  },
+  {
+    "content": "with it and I think that they don't get enough love so what I've done is I've",
+    "start": 1183
+  },
+  {
+    "content": "written a mutation here that is actually going to send them a gmail message on an",
+    "start": 1187
+  },
+  {
+    "content": "email via Gmail from my personal account and what I'm gonna do is persist this",
+    "start": 1192
+  },
+  {
+    "content": "and actually make it so that anyone can send them an email from my account the",
+    "start": 1199
+  },
+  {
+    "content": "way I'm gonna do that is first ladies and gentlemen I'm going to stick my head",
+    "start": 1205
+  },
+  {
+    "content": "inside of the lion's mouth I'm going to create an OAuth token it's",
+    "start": 1211
+  },
+  {
+    "content": "called too hot for Jam stack now what this is going to do is I'm gonna go in",
+    "start": 1215
+  },
+  {
+    "content": "and I'm gonna authenticate I'm going to run through the OAuth flow for Gmail and",
+    "start": 1224
+  },
+  {
+    "content": "even Gmail is like are you sure right like you sure you want to give",
+    "start": 1228
+  },
+  {
+    "content": "them access okay and I'm also I don't need it but I'm",
+    "start": 1233
+  },
+  {
+    "content": "gonna throw in my github token as well and for all of you I'm going to throw a",
+    "start": 1236
+  },
+  {
+    "content": "net laughs I and one last one which is Twitter so will authenticate with all",
+    "start": 1241
+  },
+  {
+    "content": "these services and we can combine it into one token right here now anyone who",
+    "start": 1251
+  },
+  {
+    "content": "has this token will be able to read my emails and they'll be able to send",
+    "start": 1256
+  },
+  {
+    "content": "emails on my behalf they'll be put tweets they'll be able to read all the",
+    "start": 1261
+  },
+  {
+    "content": "source code I have so it's a dangerous token so I'm not going to show you but I",
+    "start": 1264
+  },
+  {
+    "content": "will take this query and what I can do is I can persist it as is and whenever",
+    "start": 1270
+  },
+  {
+    "content": "you persist a query you send it to the server and you say hey I'm gonna need",
+    "start": 1277
+  },
+  {
+    "content": "this later save it for me and it will return an ID and you can use that idea",
+    "start": 1281
+  },
+  {
+    "content": "to refer to that mutation or that query and you can persist you're off with it",
+    "start": 1286
+  },
+  {
+    "content": "just like putting it inside of that proxy server that we talked about",
+    "start": 1290
+  },
+  {
+    "content": "earlier the thing is this is hard-coded right and I know all of you want to show",
+    "start": 1293
+  },
+  {
+    "content": "your loaf or sack bit in your own way so what I'm going to do is I'm going to",
+    "start": 1299
+  },
+  {
+    "content": "leave everything hard-coded except for the body and this is a required string",
+    "start": 1303
+  },
+  {
+    "content": "that you have to give me and this is gonna be body and now what this says is",
+    "start": 1308
+  },
+  {
+    "content": "all like who this is sent to is locked down the subject is locked down so once",
+    "start": 1313
+  },
+  {
+    "content": "it gets your thousands of love letters he's gonna be able to delete them all at",
+    "start": 1318
+  },
+  {
+    "content": "once and what I'm going to know is I'm gonna",
+    "start": 1322
+  },
+  {
+    "content": "persist this so I'm gonna say hey server remember this I need this",
+    "start": 1325
+  },
+  {
+    "content": "say hi to stack that thing and the token I want you to use refresh real quick so",
+    "start": 1330
+  },
+  {
+    "content": "the token I want you to use is that very very dangerous one so I'm gonna expose",
+    "start": 1338
+  },
+  {
+    "content": "this for anyone to be able to use however the only variable our users",
+    "start": 1344
+  },
+  {
+    "content": "allowed to specify is the body they can't change anything else so now I'm",
+    "start": 1349
+  },
+  {
+    "content": "going to create this and here we go I'm gonna copy this and inside of my",
+    "start": 1355
+  },
+  {
+    "content": "terminal I'm going to say hey from up on stage also send that oh and then I need",
+    "start": 1361
+  },
+  {
+    "content": "to actually uh I guess give permission to send emails but anyone should be able",
+    "start": 1373
+  },
+  {
+    "content": "to now hit this so let's actually see if we can do one",
+    "start": 1377
+  },
+  {
+    "content": "more I really want to be able to tweet this and give anyone access so do Gmail",
+    "start": 1381
+  },
+  {
+    "content": "Gmail oh yeah nevermind this will not work for this one but yes so my token",
+    "start": 1387
+  },
+  {
+    "content": "stays safe for today however the idea is like we can actually do other things",
+    "start": 1399
+  },
+  {
+    "content": "like for example create a github repository so maybe for example I want",
+    "start": 1404
+  },
+  {
+    "content": "to go here and set a mutation and we'll say github creates repo and all I want",
+    "start": 1409
+  },
+  {
+    "content": "to do is specify the so I'll come down here well specify the input and the name",
+    "start": 1417
+  },
+  {
+    "content": "is going to be a variable so we'll say create repo it's the string so same idea",
+    "start": 1427
+  },
+  {
+    "content": "name and having created a repository we'll get the name of the repository",
+    "start": 1438
+  },
+  {
+    "content": "back the ID and the name alright so we'll go ahead and save this same ideas",
+    "start": 1443
+  },
+  {
+    "content": "before come in we'll paste it in here same off will create persisted query and",
+    "start": 1450
+  },
+  {
+    "content": "with this one should now hopefully be able to say that whoops let's refresh",
+    "start": 1458
+  },
+  {
+    "content": "always live - or fun to invoke the demigods live all right so let's copy",
+    "start": 1468
+  },
+  {
+    "content": "this final one goof all right we'll skip this just imagine it worked hand wavy it",
+    "start": 1474
+  },
+  {
+    "content": "worked great round of applause well you can see how easy it was to actually put",
+    "start": 1484
+  },
+  {
+    "content": "together a create report at the very least how easy was to put together a",
+    "start": 1492
+  },
+  {
+    "content": "create github repository in a crate nail fi site and we could do the rest for",
+    "start": 1495
+  },
+  {
+    "content": "saying buying a domain and whatnot as well and so that's just I've already",
+    "start": 1499
+  },
+  {
+    "content": "done this and I just kind of put together a bunch of mutations here so",
+    "start": 1503
+  },
+  {
+    "content": "add deploy key to repo and whatnot so this is all we need to basically",
+    "start": 1506
+  },
+  {
+    "content": "automate the remaining set of things including one of my favorite ones which",
+    "start": 1510
+  },
+  {
+    "content": "is play win win win and we'll see what that looks like",
+    "start": 1515
+  },
+  {
+    "content": "and I've actually deployed this already it's at startup in a box",
+    "start": 1518
+  },
+  {
+    "content": "nanofied comm and it looks like this so this is a simple HTML form you can see",
+    "start": 1522
+  },
+  {
+    "content": "right here it's tiny and it has a form that it's just going to submit to this",
+    "start": 1528
+  },
+  {
+    "content": "one function that calls in to all of those operations in our graphic ul",
+    "start": 1533
+  },
+  {
+    "content": "document and so any site you type in here will be automatically sent over to",
+    "start": 1536
+  },
+  {
+    "content": "net liffe i it'll create a github repository and it will tweet about it so",
+    "start": 1541
+  },
+  {
+    "content": "that's pretty good there's one single endpoint now which will do all of that",
+    "start": 1546
+  },
+  {
+    "content": "for us and includes all of our off and all of our operations I don't say that",
+    "start": 1550
+  },
+  {
+    "content": "that's pretty cool right like we've actually automated all of this stuff the",
+    "start": 1555
+  },
+  {
+    "content": "last thing though is that inspiration can strike anywhere at any time and what",
+    "start": 1561
+  },
+  {
+    "content": "we need to worry about is what if I'm not at my computer competition is fierce",
+    "start": 1569
+  },
+  {
+    "content": "not everyone is going to wait kindly for me to buy my chest goose comm but I",
+    "start": 1573
+  },
+  {
+    "content": "always have my phone so what I want to do is actually hook up this graph QL",
+    "start": 1578
+  },
+  {
+    "content": "document to an incoming Tulio pipeline and we can also do that with graph QL so",
+    "start": 1582
+  },
+  {
+    "content": "graphical has this concept of subscriptions and typically",
+    "start": 1588
+  },
+  {
+    "content": "subscriptions are delivered over web hooks or so our web sockets but they can",
+    "start": 1590
+  },
+  {
+    "content": "also be delivered over web hooks so we're gonna say is every time so we're",
+    "start": 1594
+  },
+  {
+    "content": "gonna start with subscriptions says Twilio every time we're",
+    "start": 1598
+  },
+  {
+    "content": "even incoming SMS message I want to pull out the body who it's from and who it's",
+    "start": 1602
+  },
+  {
+    "content": "to and I want you to send it to star up in a box calm or nullify calm and now",
+    "start": 1606
+  },
+  {
+    "content": "whenever we have that we should be able to go over to here and we'll type in",
+    "start": 1613
+  },
+  {
+    "content": "matcha scutes calm and I'm gonna send that over to Twilio Giulio is very",
+    "start": 1617
+  },
+  {
+    "content": "kindly I'm going to take that send it to one graph it's going to go to the graph",
+    "start": 1624
+  },
+  {
+    "content": "QL things it's going to looks like it's going to create a repo and deploy right",
+    "start": 1630
+  },
+  {
+    "content": "now so if i refresh and i refresh its created a matcha scoots over here and it",
+    "start": 1635
+  },
+  {
+    "content": "should be deploying it's actually purchasing a domain it's actually",
+    "start": 1644
+  },
+  {
+    "content": "playing my music right now we're getting pumped for it we're ready to win got",
+    "start": 1649
+  },
+  {
+    "content": "money in our minds matcha scooters it's buying the domain it's all set up",
+    "start": 1653
+  },
+  {
+    "content": "alright so we're able to just combine all of that in one little endpoint so I",
+    "start": 1658
+  },
+  {
+    "content": "would say ya win all right so we set up our infrastructure and now",
+    "start": 1665
+  },
+  {
+    "content": "we can do the easy part which is building much scooters whatever that is",
+    "start": 1670
+  },
+  {
+    "content": "alright so like what is the point of all this you know we made API is easy to",
+    "start": 1674
+  },
+  {
+    "content": "explore graphical has this great ability for introspection we can analyze the",
+    "start": 1681
+  },
+  {
+    "content": "code and actually generate entire react applications or bash if that's your",
+    "start": 1686
+  },
+  {
+    "content": "thing we built an entire pipeline that would",
+    "start": 1690
+  },
+  {
+    "content": "go out and buy domains for us and set up github repositories and and launch sites",
+    "start": 1693
+  },
+  {
+    "content": "and then we extended it so that we could actually trigger it's from SMS and then",
+    "start": 1698
+  },
+  {
+    "content": "we purchased hopefully live much of scutes calm if we refresh here Oh",
+    "start": 1704
+  },
+  {
+    "content": "Marte look even oh I guess this was someone else in there so we already have",
+    "start": 1711
+  },
+  {
+    "content": "someone from the audience who has launched their sites using this and you",
+    "start": 1717
+  },
+  {
+    "content": "can see like it launched it straight up it's awesome but so what right like",
+    "start": 1722
+  },
+  {
+    "content": "obviously there's a lot of tongue-in-cheek humor in here but there",
+    "start": 1728
+  },
+  {
+    "content": "is a real parallel to our daily life we spend so much time manually working",
+    "start": 1732
+  },
+  {
+    "content": "with these great systems when we could automate them and the reason we do that",
+    "start": 1739
+  },
+  {
+    "content": "is because we're choosing between two different kinds of pain do I take the",
+    "start": 1744
+  },
+  {
+    "content": "pain to explore this API try to figure out how to do off figure out how to",
+    "start": 1749
+  },
+  {
+    "content": "actually automate the thing I'm doing or do I just do it this one time myself and",
+    "start": 1753
+  },
+  {
+    "content": "then one more time next time and at some point those two cross over but at every",
+    "start": 1757
+  },
+  {
+    "content": "given time we have to decide is it worth it right Salesforce for example a lot of",
+    "start": 1763
+  },
+  {
+    "content": "us use Salesforce it has five different API s if you can make an API call with",
+    "start": 1768
+  },
+  {
+    "content": "an OAuth token faster than 30 minutes you are doing well it's easily an hour",
+    "start": 1774
+  },
+  {
+    "content": "to before you can actually start using their API and the same thing goes for",
+    "start": 1779
+  },
+  {
+    "content": "stripe in QuickBooks and we're not even great api's like stripe and there's so",
+    "start": 1782
+  },
+  {
+    "content": "many times we're trying to move data from one service to another combine them",
+    "start": 1787
+  },
+  {
+    "content": "together automate them and we don't because they're so difficult so I would",
+    "start": 1790
+  },
+  {
+    "content": "say that we really need to make API is easy to explore and very fun to",
+    "start": 1794
+  },
+  {
+    "content": "experiment with and I think that's graph D well and then we need to make it so",
+    "start": 1800
+  },
+  {
+    "content": "that we can easily export this and use it in a production sense we need to be",
+    "start": 1804
+  },
+  {
+    "content": "able to productionize our ideas like matcha scoots because tomorrow it's",
+    "start": 1808
+  },
+  {
+    "content": "probably avocado toast scoots right so like we need to be able to move very",
+    "start": 1812
+  },
+  {
+    "content": "very quickly with these and I think that's pipelines thank you",
+    "start": 1816
+  },
+  {
+    "content": "[Applause]",
+    "start": 1821
+  },
+  {
+    "content": "you",
+    "start": 1826
+  },
+  {
+    "content": "[Applause]",
+    "start": 1828
+  }
+]

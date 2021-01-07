@@ -1,0 +1,410 @@
+[
+  {
+    "content": "thank you I give everybody it's amazing",
+    "start": 0
+  },
+  {
+    "content": "to see so many people here for this first London edition of camp site",
+    "start": 17
+  },
+  {
+    "content": "conference and it's been incredible to see the community growing around the DM",
+    "start": 22
+  },
+  {
+    "content": "stake from each of our different conferences and sessions and online and",
+    "start": 27
+  },
+  {
+    "content": "meeting all their new vendors in this space and developers in the space and so",
+    "start": 33
+  },
+  {
+    "content": "on it's also been incredible to see notify",
+    "start": 37
+  },
+  {
+    "content": "its own community grow over these years so now closing in on 600,000 developers",
+    "start": 41
+  },
+  {
+    "content": "and companies and on our platform in and using our tools to publish to our global",
+    "start": 47
+  },
+  {
+    "content": "platform in identified where we're always thinking about like what what can",
+    "start": 53
+  },
+  {
+    "content": "we what more can we do for this community and what what what can we do",
+    "start": 59
+  },
+  {
+    "content": "to make to make it easier and more enjoyable to build gem tech based",
+    "start": 63
+  },
+  {
+    "content": "projects last time I I spoke here was a gem stack New York some months ago where",
+    "start": 69
+  },
+  {
+    "content": "we launched notify deaf to try to say how what what can we do to improve the",
+    "start": 78
+  },
+  {
+    "content": "local development experience what can we do when you're working with service",
+    "start": 82
+  },
+  {
+    "content": "functions and add-ons and global reader accruals and rewrite rules how can we",
+    "start": 86
+  },
+  {
+    "content": "make sure that as you're working on your local machine what you see is the same",
+    "start": 93
+  },
+  {
+    "content": "like what your experience is exactly the same as when you push to get and take",
+    "start": 98
+  },
+  {
+    "content": "something online in this time we have another new announcement after talking a",
+    "start": 104
+  },
+  {
+    "content": "lot to trial users and listening to what what what people would really night like",
+    "start": 111
+  },
+  {
+    "content": "to see next we're really excited to launch",
+    "start": 116
+  },
+  {
+    "content": "Ned Levi's analytics so this is something",
+    "start": 119
+  },
+  {
+    "content": "so there's a really cool product that I'm excited to share with you all in and",
+    "start": 129
+  },
+  {
+    "content": "something that we've been asked about a lot of times and and you could ask",
+    "start": 133
+  },
+  {
+    "content": "yourself why like obviously there's a there's a lot of options and a lot of",
+    "start": 137
+  },
+  {
+    "content": "great options finally lakes out there Google Analytics crazx KISSmetrics that",
+    "start": 141
+  },
+  {
+    "content": "can go very deep down into details and do very all kinds of advanced user",
+    "start": 145
+  },
+  {
+    "content": "tracking and so on in but generally all of these types of analytics always",
+    "start": 150
+  },
+  {
+    "content": "depends on this setting where you have to add some third-party JavaScript",
+    "start": 156
+  },
+  {
+    "content": "through to your site where you depend on that JavaScript loading reliably and",
+    "start": 161
+  },
+  {
+    "content": "executing reliably and where you will always have to add that extra load to",
+    "start": 165
+  },
+  {
+    "content": "your tree website and edify obviously we are in a little bit of a different",
+    "start": 170
+  },
+  {
+    "content": "position because we're running people side out of our global network so we can",
+    "start": 174
+  },
+  {
+    "content": "plug directly into their traffic logs from each of our CDN edge nodes in and",
+    "start": 178
+  },
+  {
+    "content": "of course our challenge is that we have a lot of those traffic locks we process",
+    "start": 184
+  },
+  {
+    "content": "billions and billions of requests every month so we've had to run some do some",
+    "start": 188
+  },
+  {
+    "content": "architecting to figure out how to actually extract the relevant analytics",
+    "start": 192
+  },
+  {
+    "content": "for the season and and be able to surface them to you all in the server",
+    "start": 194
+  },
+  {
+    "content": "side approach gives some added benefits over the snippet based approach in terms",
+    "start": 201
+  },
+  {
+    "content": "of added performance accuracy and privacy so when it comes to performance",
+    "start": 207
+  },
+  {
+    "content": "obviously like as soon as you do use Google Analytics a crazy egg or any of",
+    "start": 213
+  },
+  {
+    "content": "these things however useful they are they do depend",
+    "start": 218
+  },
+  {
+    "content": "on you adding extra page weight to to each of your page loads and we've run",
+    "start": 221
+  },
+  {
+    "content": "some tests on this and and and even if if these tools are all extremely",
+    "start": 226
+  },
+  {
+    "content": "optimized and load in the background they still tend to push the the time to",
+    "start": 230
+  },
+  {
+    "content": "interactive and especially in smaller devices we're passing and processing the",
+    "start": 235
+  },
+  {
+    "content": "JavaScript competes with the rest of your code and we've seen them make a",
+    "start": 240
+  },
+  {
+    "content": "real difference sometimes you can't avoid using them but if you can you can",
+    "start": 244
+  },
+  {
+    "content": "get a huge performance boost from it but the other the other theme that that that",
+    "start": 248
+  },
+  {
+    "content": "we've seen become more and more important for people is same accuracy of",
+    "start": 252
+  },
+  {
+    "content": "the data and this is something that's changed a little over time where for a",
+    "start": 257
+  },
+  {
+    "content": "long time like client-side and leaks had had some advantages but one of the",
+    "start": 261
+  },
+  {
+    "content": "things that that's happened in in the industry in recent years is that some",
+    "start": 265
+  },
+  {
+    "content": "users the most recursive might have have JavaScript the labels but what's more",
+    "start": 270
+  },
+  {
+    "content": "common is its ad blockers at bloggers today I extremely common especially if",
+    "start": 274
+  },
+  {
+    "content": "you target developer audiences and on on a on a site like Nikola 5 we we might",
+    "start": 279
+  },
+  {
+    "content": "see sixty percent usage of ad blockers or something like that and a lot of",
+    "start": 283
+  },
+  {
+    "content": "these ad blockers I can't figure to also block all the analytics and tracking",
+    "start": 287
+  },
+  {
+    "content": "snippets on your site in and that means that that that if you were adding Google",
+    "start": 291
+  },
+  {
+    "content": "Analytics you might you might simply not get the data and you could say that okay",
+    "start": 297
+  },
+  {
+    "content": "you get a reasonable sample but the behavior of the very tech-savvy advanced",
+    "start": 301
+  },
+  {
+    "content": "users that install a plugin block and legs traffic might actually not be",
+    "start": 306
+  },
+  {
+    "content": "exactly the same as as the other user groups you have so there's more and more",
+    "start": 310
+  },
+  {
+    "content": "need to to figure out like how can I get some baseline some simple baseline of",
+    "start": 315
+  },
+  {
+    "content": "knowing what what's the actual traffic hitting my side the other thing that the",
+    "start": 320
+  },
+  {
+    "content": "that can be hard to track with fear where the snippet based system it's just",
+    "start": 325
+  },
+  {
+    "content": "it's when things doesn't work because if you're serving a 404 page or an image",
+    "start": 330
+  },
+  {
+    "content": "that's not there you might not be able to inject and it's never like because",
+    "start": 335
+  },
+  {
+    "content": "you were not expecting that situation in the same way in the other thing that's",
+    "start": 338
+  },
+  {
+    "content": "become more important is its visitor privacy like we all we all know the",
+    "start": 343
+  },
+  {
+    "content": "effects of the gdpr and an increased focus on on analytics tools that that",
+    "start": 347
+  },
+  {
+    "content": "that share the path of users across a large site of a large set of the",
+    "start": 355
+  },
+  {
+    "content": "internet him one of our advantages that since we don't need to inject any extra",
+    "start": 360
+  },
+  {
+    "content": "JavaScript and do anything extra we can provide like privacy compliant and leaks",
+    "start": 366
+  },
+  {
+    "content": "from our logs with with with without any extra effort so notifying alexis is from",
+    "start": 371
+  },
+  {
+    "content": "the side we always aim to build like really straightforward and simple",
+    "start": 380
+  },
+  {
+    "content": "products and and not overload our our users with with information so we're",
+    "start": 383
+  },
+  {
+    "content": "starting at metal flying in lakes with with a very clean and simple dashboard",
+    "start": 388
+  },
+  {
+    "content": "they will give you things like your page views your unique visitors the bandwidth",
+    "start": 392
+  },
+  {
+    "content": "used for your site will give you chats for in the monthly traffic to your site",
+    "start": 397
+  },
+  {
+    "content": "in both pageviews and unique visitors will surface the top pages of your",
+    "start": 402
+  },
+  {
+    "content": "website is the top traffic sources and a really useful report of the of the",
+    "start": 408
+  },
+  {
+    "content": "resources on your site that are giving not phones to your users again this is",
+    "start": 415
+  },
+  {
+    "content": "one of the things that you can't really track with a client site like if if an",
+    "start": 419
+  },
+  {
+    "content": "images is has been removed from from your files since you last deployed all",
+    "start": 423
+  },
+  {
+    "content": "right javascript file is not there anymore in no snippet basic analytics",
+    "start": 428
+  },
+  {
+    "content": "tool will tell you what will surface this him so Natalie Felix is is",
+    "start": 433
+  },
+  {
+    "content": "launching actually right now in identified we obviously use nettle if I",
+    "start": 438
+  },
+  {
+    "content": "to build nettle if I him so what I'm gonna do now is is that I'm gonna drag",
+    "start": 445
+  },
+  {
+    "content": "nettle if I onto the screen here M this is the nettle if I product project for",
+    "start": 454
+  },
+  {
+    "content": "app deadly fire calm which is the web UI for nearly five running and nettle if I",
+    "start": 460
+  },
+  {
+    "content": "am and one of the one of the features that we haven't notifies this this",
+    "start": 465
+  },
+  {
+    "content": "capability of stopping or to publishing so right now on this side with past auto",
+    "start": 472
+  },
+  {
+    "content": "publishing which means that when we push to get up will still build every deploy",
+    "start": 477
+  },
+  {
+    "content": "will build everything but we won't actually publish it and our team has",
+    "start": 480
+  },
+  {
+    "content": "first has merged in the the last pull request final ethics a we've build it",
+    "start": 484
+  },
+  {
+    "content": "here and I have this production deploy here there was successful so what I'm",
+    "start": 491
+  },
+  {
+    "content": "gonna do here on stage is clicking publish deploy boom here we go",
+    "start": 496
+  },
+  {
+    "content": "and now if I actually refresh my UI and go back to let's go explore a bit let's",
+    "start": 508
+  },
+  {
+    "content": "go to Jim stick the rock for example we now have a new and a lick step and here",
+    "start": 526
+  },
+  {
+    "content": "we go this is available right now on any net leaf eyesight for nine dollars a",
+    "start": 533
+  },
+  {
+    "content": "site in and I hope you will enjoy the experience",
+    "start": 542
+  },
+  {
+    "content": "thank you you",
+    "start": 548
+  }
+]

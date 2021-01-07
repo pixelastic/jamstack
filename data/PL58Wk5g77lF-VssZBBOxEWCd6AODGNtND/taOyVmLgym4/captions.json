@@ -1,0 +1,1422 @@
+[
+  {
+    "content": "hello everyone i'm uh really happy to to talk here today and uh thank you very",
+    "start": 0
+  },
+  {
+    "content": "much raymond for the introduction to 11t i wish i had",
+    "start": 6
+  },
+  {
+    "content": "at the time instead of trying to figure figure it out uh by myself that would",
+    "start": 11
+  },
+  {
+    "content": "have been way faster so today uh i want to speak",
+    "start": 16
+  },
+  {
+    "content": "about uh so tailwind 11t and alpine and more generally",
+    "start": 22
+  },
+  {
+    "content": "how can we make jam stack more lightweight",
+    "start": 26
+  },
+  {
+    "content": "okay so a few words about me to get started my name is nicola gutie",
+    "start": 31
+  },
+  {
+    "content": "so i'm a french jam stack and web performance enthusiast",
+    "start": 37
+  },
+  {
+    "content": "and i'm a software developer at orbit where we're building",
+    "start": 42
+  },
+  {
+    "content": "a community experience platform for dev rails",
+    "start": 46
+  },
+  {
+    "content": "community managers and open source maintainers",
+    "start": 50
+  },
+  {
+    "content": "to build uh vibrant communities and attract great contributors",
+    "start": 53
+  },
+  {
+    "content": "and i'm also the co-host of the john stack paris meetup so",
+    "start": 59
+  },
+  {
+    "content": "we're brothers or sisters in a way here and it's really",
+    "start": 64
+  },
+  {
+    "content": "funny to be on the other side of the other mirror",
+    "start": 68
+  },
+  {
+    "content": "you can follow me on twitter at fax i mostly tweet about jamstack related",
+    "start": 71
+  },
+  {
+    "content": "stuff and web performance and so if any of those two topics",
+    "start": 76
+  },
+  {
+    "content": "interest you uh feel free to to hit the follow button",
+    "start": 80
+  },
+  {
+    "content": "so to talk about the performance and the javascript",
+    "start": 85
+  },
+  {
+    "content": "uh in impact in the jamstack ecosystem i want first to take a quick trip down",
+    "start": 89
+  },
+  {
+    "content": "memory lane uh i forgot to set a timer so",
+    "start": 96
+  },
+  {
+    "content": "the jam stack ecosystem evolved a lot uh over the last maybe six to eight years",
+    "start": 101
+  },
+  {
+    "content": "and i want to us to have a look at how things evolved",
+    "start": 107
+  },
+  {
+    "content": "if we take as a starting point as starting projectile",
+    "start": 112
+  },
+  {
+    "content": "and we arrive to get via the newer generation of jamstack frameworks",
+    "start": 115
+  },
+  {
+    "content": "to tell that story we'll have two characters",
+    "start": 121
+  },
+  {
+    "content": "the user and the servers the user is on the left and is trying to",
+    "start": 124
+  },
+  {
+    "content": "access a jamstack powered website and the server is on the right and trying to",
+    "start": 128
+  },
+  {
+    "content": "fulfill that need so if we take a purely static site",
+    "start": 132
+  },
+  {
+    "content": "generator like jekyll or even 11t since we just",
+    "start": 136
+  },
+  {
+    "content": "talked about it how it works is really simple you the",
+    "start": 140
+  },
+  {
+    "content": "user would ask for a specific page i want to see the",
+    "start": 144
+  },
+  {
+    "content": "slash blog or slash index.html and that file would be available handy on the",
+    "start": 147
+  },
+  {
+    "content": "file system of the server so the files the server just need to grab that file",
+    "start": 154
+  },
+  {
+    "content": "that it has at hand and send that to the client",
+    "start": 160
+  },
+  {
+    "content": "to the user and on the screen yeah here you see two little red pills that",
+    "start": 163
+  },
+  {
+    "content": "indicates two key steps in the user experience",
+    "start": 170
+  },
+  {
+    "content": "the first one on top is when the content becomes",
+    "start": 175
+  },
+  {
+    "content": "visible to the user so if i come to a blog post",
+    "start": 178
+  },
+  {
+    "content": "i can start and rig the blog post the bottom one",
+    "start": 182
+  },
+  {
+    "content": "is when the website is interactive so for websites that are javascript powered",
+    "start": 185
+  },
+  {
+    "content": "this may include filling up forms clicking on links",
+    "start": 190
+  },
+  {
+    "content": "opening the burger menu icons to access the menu et",
+    "start": 194
+  },
+  {
+    "content": "cetera so with jackkill in 11 it's really",
+    "start": 199
+  },
+  {
+    "content": "simple it's all based on the file system then if we take a quick detail through",
+    "start": 202
+  },
+  {
+    "content": "wordpress just so i can touch a bit about server",
+    "start": 208
+  },
+  {
+    "content": "rendering how would that work and this is what i think powers",
+    "start": 211
+  },
+  {
+    "content": "till 870 to 80 percent of the web so it's quite important",
+    "start": 214
+  },
+  {
+    "content": "the user would ask for maybe a news article with some dynamic content",
+    "start": 219
+  },
+  {
+    "content": "in it like comments and the server don't have that handy",
+    "start": 225
+  },
+  {
+    "content": "there's no thing on the file system with all the",
+    "start": 229
+  },
+  {
+    "content": "up-to-date comments on that news article so the server will have to look them up",
+    "start": 232
+  },
+  {
+    "content": "in probably a db but it could be an api it could be",
+    "start": 237
+  },
+  {
+    "content": "something else so it would take roughly to from 100",
+    "start": 242
+  },
+  {
+    "content": "milliseconds to a few seconds for the the server to get the data process",
+    "start": 246
+  },
+  {
+    "content": "set and then send it to the clients",
+    "start": 252
+  },
+  {
+    "content": "if we uh say that in a classic wordpress website",
+    "start": 258
+  },
+  {
+    "content": "we don't have any javascript framework then the content would be visible",
+    "start": 261
+  },
+  {
+    "content": "and interactive as soon as the user gets the response and then we move down a bit",
+    "start": 265
+  },
+  {
+    "content": "throughout the years and there is the advent of many",
+    "start": 273
+  },
+  {
+    "content": "javascript frameworks so i'm thinking bare bones",
+    "start": 276
+  },
+  {
+    "content": "then angular react and view and we move to something",
+    "start": 279
+  },
+  {
+    "content": "we move from server rendering to client-side",
+    "start": 283
+  },
+  {
+    "content": "rendering and what does that uh how does that impact our users",
+    "start": 286
+  },
+  {
+    "content": "so we have this new like really hip cool online publication i'll advice or",
+    "start": 291
+  },
+  {
+    "content": "something that has a slick website with a lot of animations and interactions etc",
+    "start": 297
+  },
+  {
+    "content": "this uh will say that this website is using uh react through create react",
+    "start": 301
+  },
+  {
+    "content": "app or something else and so things change a bit from the word",
+    "start": 308
+  },
+  {
+    "content": "wordpress era because now the the server doesn't have",
+    "start": 313
+  },
+  {
+    "content": "the page handy uh it needs to be built and it needs to",
+    "start": 317
+  },
+  {
+    "content": "be built using javascript on the client so the server what it",
+    "start": 321
+  },
+  {
+    "content": "what it will do is get like the the framework",
+    "start": 326
+  },
+  {
+    "content": "react and then the business logic and the the",
+    "start": 329
+  },
+  {
+    "content": "the code the developers of the website wrote and send all that directly to",
+    "start": 332
+  },
+  {
+    "content": "the client and the client has to figure it out it has to",
+    "start": 337
+  },
+  {
+    "content": "like follow the little legal instruction to have the",
+    "start": 341
+  },
+  {
+    "content": "the full set afterwards this has a very important implication is that",
+    "start": 345
+  },
+  {
+    "content": "the computation workload shifted from the server to the user",
+    "start": 350
+  },
+  {
+    "content": "and we'll see how that translating like real user experience in",
+    "start": 356
+  },
+  {
+    "content": "actual seconds in a few once the client the user has computed all the",
+    "start": 361
+  },
+  {
+    "content": "javascript stuff the content is visible and interactive",
+    "start": 367
+  },
+  {
+    "content": "this was pretty cool because you could do like all these",
+    "start": 372
+  },
+  {
+    "content": "native e interactions on websites but it had an issue is that the",
+    "start": 375
+  },
+  {
+    "content": "user would see a blank screen for a while and",
+    "start": 382
+  },
+  {
+    "content": "there were no need because the server is powerful",
+    "start": 386
+  },
+  {
+    "content": "and could build that page really quickly so on that new hip",
+    "start": 389
+  },
+  {
+    "content": "publication let's say they did a performance optimization they enabled",
+    "start": 393
+  },
+  {
+    "content": "server-side rendering how does that consist in",
+    "start": 398
+  },
+  {
+    "content": "so they worked on the performance and what they",
+    "start": 402
+  },
+  {
+    "content": "thought is that the server is usually way more powerful than",
+    "start": 405
+  },
+  {
+    "content": "uh your user's laptop or uh mobile phone and also you know the",
+    "start": 410
+  },
+  {
+    "content": "power of your uh server and you don't know the the",
+    "start": 416
+  },
+  {
+    "content": "the phones that your user uses and so what it will do is build the page the",
+    "start": 419
+  },
+  {
+    "content": "javascript page very quickly on the server",
+    "start": 425
+  },
+  {
+    "content": "take a like a picture of it like a polaroid of the finished page",
+    "start": 428
+  },
+  {
+    "content": "and send that polaroid along with the raw materials along with",
+    "start": 432
+  },
+  {
+    "content": "the like bundled.js file in the app.js file to the",
+    "start": 438
+  },
+  {
+    "content": "to the user so the user now has something to look at right away uh",
+    "start": 442
+  },
+  {
+    "content": "with the dom the polaroid that the server takes is actually the dumb",
+    "start": 449
+  },
+  {
+    "content": "representation of the page so they can see the content really",
+    "start": 453
+  },
+  {
+    "content": "quickly but then they still have to recompute",
+    "start": 456
+  },
+  {
+    "content": "all the javascript uh shenanigans with react with your",
+    "start": 459
+  },
+  {
+    "content": "application code etc so that the content is interactive a few",
+    "start": 464
+  },
+  {
+    "content": "moments after and maybe you have noticed it on like",
+    "start": 468
+  },
+  {
+    "content": "poor network condition or something sometimes you're",
+    "start": 473
+  },
+  {
+    "content": "on websites and you click and then nothing happens",
+    "start": 476
+  },
+  {
+    "content": "for a few moments you try to submit a form or",
+    "start": 479
+  },
+  {
+    "content": "click a link or open the menu and nothing happens and then somehow",
+    "start": 482
+  },
+  {
+    "content": "after a few seconds everything stopped working again",
+    "start": 486
+  },
+  {
+    "content": "and this is due to the discrepancy between a visible part of the website",
+    "start": 489
+  },
+  {
+    "content": "which is computed by the server really quickly and the interactive part",
+    "start": 494
+  },
+  {
+    "content": "of the website which is on the client side",
+    "start": 498
+  },
+  {
+    "content": "to now finish or tour we're going to to land on the uh",
+    "start": 501
+  },
+  {
+    "content": "latest but now quite mature uh new way of doing things",
+    "start": 508
+  },
+  {
+    "content": "which is called pre-rendering so this is what gatsby does by default and next",
+    "start": 512
+  },
+  {
+    "content": "and next uh both boat jumpstack framework",
+    "start": 517
+  },
+  {
+    "content": "uh are working heavily on on that and have pretty good support by now",
+    "start": 521
+  },
+  {
+    "content": "so the idea here is that if you have content that doesn't change that often",
+    "start": 525
+  },
+  {
+    "content": "maybe once a day or once an hour or something",
+    "start": 530
+  },
+  {
+    "content": "and isn't really that dynamic if you aim for news publication for example you",
+    "start": 533
+  },
+  {
+    "content": "don't need to like build the snapshot the polaroid",
+    "start": 539
+  },
+  {
+    "content": "take the picture on every user's request you can just",
+    "start": 543
+  },
+  {
+    "content": "have to have it taken once when you deploy have that nd somewhere",
+    "start": 548
+  },
+  {
+    "content": "on the file server so that you can respond very quickly",
+    "start": 552
+  },
+  {
+    "content": "and then send that polaroid that dom tree",
+    "start": 555
+  },
+  {
+    "content": "uh along with the requests and if the the content changes then probably",
+    "start": 558
+  },
+  {
+    "content": "that happen through uh deploy and so you can",
+    "start": 565
+  },
+  {
+    "content": "update your picture your polaroid along with",
+    "start": 569
+  },
+  {
+    "content": "the deploy and so this for the the user",
+    "start": 572
+  },
+  {
+    "content": "it has pretty much the same consequences except sometimes you see the",
+    "start": 576
+  },
+  {
+    "content": "the content it's it's visible a bit quicker",
+    "start": 581
+  },
+  {
+    "content": "so this was an overview of how the ecosystem changed over the last like",
+    "start": 585
+  },
+  {
+    "content": "five to ten years and how javascript impacted and shifted",
+    "start": 590
+  },
+  {
+    "content": "the workload from the server to the client",
+    "start": 595
+  },
+  {
+    "content": "but what is the actual cost of the js frameworks what's what's the true cost",
+    "start": 598
+  },
+  {
+    "content": "of javascript for our users adias money",
+    "start": 603
+  },
+  {
+    "content": "in a study uh that was released last year",
+    "start": 608
+  },
+  {
+    "content": "uh it's called the cast of javascript in 2019",
+    "start": 611
+  },
+  {
+    "content": "took a website pretty heavy one at that cnn.com but that is used by millions of",
+    "start": 614
+  },
+  {
+    "content": "users yearly and calculated how long the javascript took",
+    "start": 621
+  },
+  {
+    "content": "to process so for the website to go from visible to",
+    "start": 627
+  },
+  {
+    "content": "interactive on different mobile devices and what they found",
+    "start": 631
+  },
+  {
+    "content": "is that the iphone 8 would take a little under",
+    "start": 636
+  },
+  {
+    "content": "four seconds to do that calculation and the alcatel 1x",
+    "start": 639
+  },
+  {
+    "content": "which is a cheap phone but that was released in 2019 it's a completely new",
+    "start": 644
+  },
+  {
+    "content": "phone took 36 seconds so",
+    "start": 649
+  },
+  {
+    "content": "shifting the workload from the server to the client you get like a whole new",
+    "start": 653
+  },
+  {
+    "content": "range of spreads because the computational",
+    "start": 657
+  },
+  {
+    "content": "power of the devices is not known beforehand and so by",
+    "start": 661
+  },
+  {
+    "content": "relying heavily on javascript framework you might",
+    "start": 666
+  },
+  {
+    "content": "incur a performance hit for your users with",
+    "start": 671
+  },
+  {
+    "content": "like three four five year olds phones or even brand new phones that just aren't",
+    "start": 675
+  },
+  {
+    "content": "like the latest iphone or pixel or whatever",
+    "start": 679
+  },
+  {
+    "content": "this is called the javascript performance tax",
+    "start": 684
+  },
+  {
+    "content": "and it happens through different vectors the first one we might already",
+    "start": 687
+  },
+  {
+    "content": "be familiar with the the bigger the",
+    "start": 694
+  },
+  {
+    "content": "javascript payload is the longer it will take to download",
+    "start": 697
+  },
+  {
+    "content": "this is also true of images of css files of fonts etc",
+    "start": 701
+  },
+  {
+    "content": "so i'm not going to dwell too much on that but",
+    "start": 708
+  },
+  {
+    "content": "contrary to fonts and images in html and css",
+    "start": 711
+  },
+  {
+    "content": "javascript also has to be parsed and compiled",
+    "start": 715
+  },
+  {
+    "content": "executed and there's also an associated runtime memory cost so a byte",
+    "start": 720
+  },
+  {
+    "content": "a kilobyte of javascript is actually way more",
+    "start": 727
+  },
+  {
+    "content": "impactful than a kilobyte of image i'm not saying you shouldn't optimize",
+    "start": 730
+  },
+  {
+    "content": "image though but just that we're not comparing apples to apples here",
+    "start": 735
+  },
+  {
+    "content": "if we have a look at recent numbers of javascript bytes that",
+    "start": 740
+  },
+  {
+    "content": "on like the average on internet are served",
+    "start": 747
+  },
+  {
+    "content": "to users for websites with javascript frameworks we see",
+    "start": 751
+  },
+  {
+    "content": "interesting patterns in that study team cadillac",
+    "start": 755
+  },
+  {
+    "content": "the performance expert he browsed with the",
+    "start": 759
+  },
+  {
+    "content": "http archive which is basically a huge database",
+    "start": 763
+  },
+  {
+    "content": "of like many statistics about internet usage that is updated monthly",
+    "start": 767
+  },
+  {
+    "content": "and he figured out depending on the framework",
+    "start": 774
+  },
+  {
+    "content": "the javascript framework how many bytes on average",
+    "start": 778
+  },
+  {
+    "content": "and at the 90th percentile in the 25th and the 75th etc",
+    "start": 782
+  },
+  {
+    "content": "uh how many bytes are sent through uh the the wire and we can see that",
+    "start": 787
+  },
+  {
+    "content": "compared to sites to to the average of all websites",
+    "start": 792
+  },
+  {
+    "content": "sites with a javascript framework if we remove jquery from the equation",
+    "start": 797
+  },
+  {
+    "content": "for now are on average way",
+    "start": 801
+  },
+  {
+    "content": "more heavy in terms of javascript than the average i'm not going to talk here",
+    "start": 806
+  },
+  {
+    "content": "about specific of a framework versus another",
+    "start": 813
+  },
+  {
+    "content": "uh i'm not going to dissect why view why react way angular and i'm not an",
+    "start": 815
+  },
+  {
+    "content": "expert on that but just as we build more and more website",
+    "start": 822
+  },
+  {
+    "content": "with javascript we have to be uh wary of uh this extra cost that with",
+    "start": 826
+  },
+  {
+    "content": "this extra bytes that we're serving our users",
+    "start": 831
+  },
+  {
+    "content": "and if we look back to the graph of the like compile time on cnn.com team",
+    "start": 834
+  },
+  {
+    "content": "cadillac also calculated that and we can see here",
+    "start": 840
+  },
+  {
+    "content": "that on average the sites using vue.js or angular or reacts took multiple",
+    "start": 846
+  },
+  {
+    "content": "often like around 10 or around five between five and ten",
+    "start": 852
+  },
+  {
+    "content": "seconds just to have the javascript parsed",
+    "start": 857
+  },
+  {
+    "content": "compiled and executed and those seconds are uh the time in which",
+    "start": 860
+  },
+  {
+    "content": "the website isn't interactive and your user might",
+    "start": 866
+  },
+  {
+    "content": "rage click on buttons that do nothing for a while",
+    "start": 870
+  },
+  {
+    "content": "so this is there's a lot more to be said on the topic but this was a primer on",
+    "start": 874
+  },
+  {
+    "content": "why it is important to be wary of the the size of the javascript that we",
+    "start": 879
+  },
+  {
+    "content": "ship our users how can we do then to curb that tax to",
+    "start": 885
+  },
+  {
+    "content": "reduce that size and the weight of javascript",
+    "start": 892
+  },
+  {
+    "content": "that we shape our clients i'm going to talk first about existing",
+    "start": 896
+  },
+  {
+    "content": "job stack websites because not everything is greenfield and",
+    "start": 900
+  },
+  {
+    "content": "it's important to know how you can be a quote unquote better citizen",
+    "start": 903
+  },
+  {
+    "content": "on what you're already working on without rewriting the whole thing from",
+    "start": 908
+  },
+  {
+    "content": "scratch the first question uh i'd like you all",
+    "start": 911
+  },
+  {
+    "content": "to to think about is is your javascript framework really",
+    "start": 915
+  },
+  {
+    "content": "doing important work on your website if you think about the website you're",
+    "start": 920
+  },
+  {
+    "content": "working on especially if it's a gemstack one",
+    "start": 924
+  },
+  {
+    "content": "or your personal website your blog your portfolio whatever",
+    "start": 927
+  },
+  {
+    "content": "if you have a javascript framework in there is",
+    "start": 932
+  },
+  {
+    "content": "it really doing useful work for the user uh as i know i'm i'm coming",
+    "start": 935
+  },
+  {
+    "content": "from riakland i have uh been writing react for five years i",
+    "start": 942
+  },
+  {
+    "content": "know the developer experience for react and vue",
+    "start": 947
+  },
+  {
+    "content": "and other frameworks is top-notch but apart from the comfort of writing in",
+    "start": 950
+  },
+  {
+    "content": "your framework is that framework doing important work",
+    "start": 957
+  },
+  {
+    "content": "for the user and as an example i have a personal",
+    "start": 960
+  },
+  {
+    "content": "website and a blog on facts.dev dev uh",
+    "start": 965
+  },
+  {
+    "content": "and it was using like vanilla gatsby and so i had react and reactdom and",
+    "start": 969
+  },
+  {
+    "content": "react rooter on that website but that website is",
+    "start": 976
+  },
+  {
+    "content": "that simple it's a blog with like an about me page and then a few",
+    "start": 979
+  },
+  {
+    "content": "articles in there there's no need to for react to get in there and it's",
+    "start": 983
+  },
+  {
+    "content": "not doing uh important work so my users were",
+    "start": 989
+  },
+  {
+    "content": "basically javascript is there i take the hits but",
+    "start": 992
+  },
+  {
+    "content": "it's not being useful and uh at",
+    "start": 996
+  },
+  {
+    "content": "any moment in my experience and so if it's not really doing",
+    "start": 1000
+  },
+  {
+    "content": "hope useful work then maybe we can just remove it all together",
+    "start": 1005
+  },
+  {
+    "content": "here i'm going to talk specifically about gatsby and next jls",
+    "start": 1009
+  },
+  {
+    "content": "because those are the two ssgs that i know best",
+    "start": 1013
+  },
+  {
+    "content": "and hopefully for the two there are alternative",
+    "start": 1017
+  },
+  {
+    "content": "if you have a gatsby website or blog there is a plugin that i encourage you",
+    "start": 1020
+  },
+  {
+    "content": "to try out that you can add in aligner to a config",
+    "start": 1025
+  },
+  {
+    "content": "and basically just removes all client-side",
+    "start": 1029
+  },
+  {
+    "content": "javascript so what i did for my blog is i tried it",
+    "start": 1033
+  },
+  {
+    "content": "out everything keeps working my lights late score house",
+    "start": 1036
+  },
+  {
+    "content": "improved by maybe 20 points or something so",
+    "start": 1041
+  },
+  {
+    "content": "no no negative impact on the user experience",
+    "start": 1044
+  },
+  {
+    "content": "a positive impact because they were uh the website was faster",
+    "start": 1047
+  },
+  {
+    "content": "and then it was really easy to set up it won't work for all websites but i",
+    "start": 1051
+  },
+  {
+    "content": "encourage you to do so for next js there was a pull request",
+    "start": 1055
+  },
+  {
+    "content": "merged a month or two ago by the core team that",
+    "start": 1059
+  },
+  {
+    "content": "enables experimental built-in support for removing javascript",
+    "start": 1063
+  },
+  {
+    "content": "it's experimental so they are looking heavily for feedback on that",
+    "start": 1068
+  },
+  {
+    "content": "and an interest if people are interested and so if you want to have a look i'll",
+    "start": 1072
+  },
+  {
+    "content": "post a slide just right after for the links",
+    "start": 1077
+  },
+  {
+    "content": "now if we're in a position where javascript",
+    "start": 1081
+  },
+  {
+    "content": "is important on the website because we have like the whole navigation is a",
+    "start": 1085
+  },
+  {
+    "content": "side panel that collapses the menu the forms i don't know a lot of things",
+    "start": 1092
+  },
+  {
+    "content": "are built using react how can i still uh",
+    "start": 1096
+  },
+  {
+    "content": "reduce the weight well what i also encourage you to look at is preact",
+    "start": 1101
+  },
+  {
+    "content": "preact is a an alternative to react it's it's open source as well and",
+    "start": 1107
+  },
+  {
+    "content": "basically it's the same api without a few",
+    "start": 1114
+  },
+  {
+    "content": "like backward compatibility uh things that react keeps and",
+    "start": 1118
+  },
+  {
+    "content": "maybe ieh is not supported or something but it's like much much smaller so if we",
+    "start": 1122
+  },
+  {
+    "content": "look at the numbers here react and react dumb that you need for",
+    "start": 1129
+  },
+  {
+    "content": "every react websites total uh nearly 40 kilobytes of",
+    "start": 1132
+  },
+  {
+    "content": "javascript uh gzips uh whereas preact",
+    "start": 1137
+  },
+  {
+    "content": "is around four so we're looking at a ten times",
+    "start": 1141
+  },
+  {
+    "content": "factor here for basically uh if you uh don't need the old",
+    "start": 1145
+  },
+  {
+    "content": "compatibility stuff and support for variable browser",
+    "start": 1151
+  },
+  {
+    "content": "is the same thing they have hook support and and it's working great for",
+    "start": 1155
+  },
+  {
+    "content": "the orbits not the website that i'll be talking about but the",
+    "start": 1163
+  },
+  {
+    "content": "web app that we have uh i was able to switch from react",
+    "start": 1166
+  },
+  {
+    "content": "to preact in a little bit under an hour uh and the only issue i had with with a",
+    "start": 1170
+  },
+  {
+    "content": "very old library that wasn't maintained anymore and i could switch to a new one",
+    "start": 1178
+  },
+  {
+    "content": "and then it was just a draftking replacement",
+    "start": 1182
+  },
+  {
+    "content": "if you want to try preact again on your gatsby or",
+    "start": 1186
+  },
+  {
+    "content": "nextgs website it's available through a plug-in on gatsby so same you",
+    "start": 1189
+  },
+  {
+    "content": "can try it in a matter of minutes and see if the site",
+    "start": 1194
+  },
+  {
+    "content": "still works great or on sorry on next.js there is an example",
+    "start": 1198
+  },
+  {
+    "content": "project maintained by the preact team to show",
+    "start": 1205
+  },
+  {
+    "content": "you how that works in practice",
+    "start": 1209
+  },
+  {
+    "content": "so here we covered what we can do for existing websites or at least some of",
+    "start": 1213
+  },
+  {
+    "content": "them on gatsby and next maybe there are other techniques for view-based",
+    "start": 1219
+  },
+  {
+    "content": "statics that generate this but it so happens that three weeks ago i",
+    "start": 1223
+  },
+  {
+    "content": "was tasked to re-build the orbit website and it was greenfield",
+    "start": 1230
+  },
+  {
+    "content": "so i had the latitude of picking the the the tag stack and",
+    "start": 1238
+  },
+  {
+    "content": "and i felt it was a good opportunity for me to try and do it without a",
+    "start": 1244
+  },
+  {
+    "content": "react-based framework to try to avoid creating a problem in the first place",
+    "start": 1250
+  },
+  {
+    "content": "that i will then have to fix afterwards and so i'll",
+    "start": 1256
+  },
+  {
+    "content": "say here uh a few words about building the new",
+    "start": 1259
+  },
+  {
+    "content": "orbit.love with tailwind 11t and alpine because i think",
+    "start": 1264
+  },
+  {
+    "content": "those two those three pieces of tech works really",
+    "start": 1268
+  },
+  {
+    "content": "really well together so a few words about the websites it's",
+    "start": 1272
+  },
+  {
+    "content": "not complicated it's mostly design focus so we don't have a lot of interactivity",
+    "start": 1277
+  },
+  {
+    "content": "we do still have a burger menu and a model",
+    "start": 1283
+  },
+  {
+    "content": "and like a form to subscribe to our newsletter so there was",
+    "start": 1287
+  },
+  {
+    "content": "some js work to do there but i i didn't feel the the need to",
+    "start": 1292
+  },
+  {
+    "content": "reach for react right away and so i decided for tailwind 11t and",
+    "start": 1298
+  },
+  {
+    "content": "alpine because they work so great together and",
+    "start": 1304
+  },
+  {
+    "content": "i'll try to be the first one to coin the t",
+    "start": 1306
+  },
+  {
+    "content": "stack to uh to be relevant with the all the branch or",
+    "start": 1310
+  },
+  {
+    "content": "breakfast related acronyms that floats around in the jam",
+    "start": 1316
+  },
+  {
+    "content": "stack ecosystem so basically 11t",
+    "start": 1320
+  },
+  {
+    "content": "raymond did an amazing job explaining how it works what i was focused here and",
+    "start": 1326
+  },
+  {
+    "content": "in the in the topic of my talk is that it assumes no javascript framework in",
+    "start": 1333
+  },
+  {
+    "content": "the output compared to next or next or gatsby or gridson which",
+    "start": 1337
+  },
+  {
+    "content": "to me already makes it stand out from the crowd",
+    "start": 1342
+  },
+  {
+    "content": "this shows since there is no javascript framework",
+    "start": 1346
+  },
+  {
+    "content": "out of the box most nearly all eventually websites",
+    "start": 1349
+  },
+  {
+    "content": "are fast and there is a performance leaderboard",
+    "start": 1353
+  },
+  {
+    "content": "on the the 11t docs that is updated i think daily or something with really",
+    "start": 1357
+  },
+  {
+    "content": "really impressive web performance metrics there",
+    "start": 1362
+  },
+  {
+    "content": "tailwind i really like tailwind because i come from react land and i",
+    "start": 1368
+  },
+  {
+    "content": "mostly worked with style components or emotion or",
+    "start": 1374
+  },
+  {
+    "content": "glamour like css and js styling and i really liked the",
+    "start": 1377
+  },
+  {
+    "content": "the fact that the styles were scoped and i didn't fear to break",
+    "start": 1384
+  },
+  {
+    "content": "any other part of the website when i was working on a component and tailwind",
+    "start": 1388
+  },
+  {
+    "content": "feels like that but just there's no need for the js",
+    "start": 1393
+  },
+  {
+    "content": "so if you don't know tailwind i highly encourage you to",
+    "start": 1396
+  },
+  {
+    "content": "have a look at the docs this is taken from the docs so basically the idea is",
+    "start": 1399
+  },
+  {
+    "content": "that you write classes that just do one thing and one",
+    "start": 1403
+  },
+  {
+    "content": "thing well and you sprinkle your html with those",
+    "start": 1407
+  },
+  {
+    "content": "classes to achieve the layout that you want to achieve and",
+    "start": 1411
+  },
+  {
+    "content": "it's really good for uh responsive because",
+    "start": 1416
+  },
+  {
+    "content": "it's what we see here the md colon or md",
+    "start": 1420
+  },
+  {
+    "content": "or sm etc those are uh responsive ready classes",
+    "start": 1423
+  },
+  {
+    "content": "and foreign animations also and lastly alpine so it's alpine js i",
+    "start": 1427
+  },
+  {
+    "content": "think on github it's a javascript library that stands",
+    "start": 1434
+  },
+  {
+    "content": "out for me because of two things the first",
+    "start": 1439
+  },
+  {
+    "content": "one is is really uh lightweight a bit more uh",
+    "start": 1442
+  },
+  {
+    "content": "it weighs a bit more than preact but it's still",
+    "start": 1447
+  },
+  {
+    "content": "way below what we normally see and the to me the most important one is",
+    "start": 1450
+  },
+  {
+    "content": "that it reverses control so coming from react",
+    "start": 1457
+  },
+  {
+    "content": "i used to have react control my html and my layout",
+    "start": 1461
+  },
+  {
+    "content": "and with alpine is the layout that controls the interactivity",
+    "start": 1466
+  },
+  {
+    "content": "so basically with alpine you would sprinkle",
+    "start": 1470
+  },
+  {
+    "content": "interactivity on your layout on the pieces that need it",
+    "start": 1474
+  },
+  {
+    "content": "but then if you don't need any uh any interactivity on a piece of dom but",
+    "start": 1478
+  },
+  {
+    "content": "you just don't pull it so it allows for like scoped very",
+    "start": 1484
+  },
+  {
+    "content": "uh tidy components that are interactive and uh and doesn't need to pull in the",
+    "start": 1489
+  },
+  {
+    "content": "framework uh for the rest uh just",
+    "start": 1496
+  },
+  {
+    "content": "two quick examples uh because i i found that interesting with 11 t you can",
+    "start": 1500
+  },
+  {
+    "content": "build components uh i'm using nunjacks here but i guess",
+    "start": 1506
+  },
+  {
+    "content": "liquid or other languages have the same feature uh",
+    "start": 1510
+  },
+  {
+    "content": "i wanted to have the power of react component coming to 11 t",
+    "start": 1515
+  },
+  {
+    "content": "it's not complete but with nunjacks components",
+    "start": 1519
+  },
+  {
+    "content": "and you can have methods as well you can have a clean layout and refactor",
+    "start": 1523
+  },
+  {
+    "content": "uh components that sprinkle that are at several place in your website quite",
+    "start": 1530
+  },
+  {
+    "content": "easily and we can see here the the classes and",
+    "start": 1535
+  },
+  {
+    "content": "uh the the sorry the tailwind classes the last example is",
+    "start": 1540
+  },
+  {
+    "content": "our um request access model which looks like this so we can click on",
+    "start": 1547
+  },
+  {
+    "content": "a button to open it and click away to close it",
+    "start": 1553
+  },
+  {
+    "content": "and we can see that with alpine it makes the",
+    "start": 1556
+  },
+  {
+    "content": "html layout quite declarative so i can see the transition here happening",
+    "start": 1563
+  },
+  {
+    "content": "what classes do i want to apply if i click away then i don't show the model",
+    "start": 1571
+  },
+  {
+    "content": "etc one thing that was a bit difficult was that there weren't too many examples",
+    "start": 1575
+  },
+  {
+    "content": "of using those three technologies together",
+    "start": 1582
+  },
+  {
+    "content": "and so i'm going to do something that i'm really happy",
+    "start": 1584
+  },
+  {
+    "content": "to if internet works is that i'm going to make our repository for the",
+    "start": 1587
+  },
+  {
+    "content": "orbit.live website open source right now all good love",
+    "start": 1595
+  },
+  {
+    "content": "forget what there we go",
+    "start": 1602
+  },
+  {
+    "content": "so that if you need to if you want to have a sneak peek at how",
+    "start": 1611
+  },
+  {
+    "content": "it's done uh how you can refactor your components how you can use tailwind and",
+    "start": 1615
+  },
+  {
+    "content": "alpine and uh and 11t together then feel free to",
+    "start": 1620
+  },
+  {
+    "content": "have a look at the repo so it's orbit love slash orbit web star it if",
+    "start": 1623
+  },
+  {
+    "content": "you like it and uh and feel free to dm me for",
+    "start": 1628
+  },
+  {
+    "content": "any questions you might have i have zoom in the way",
+    "start": 1633
+  },
+  {
+    "content": "and thank you very much",
+    "start": 1639
+  }
+]

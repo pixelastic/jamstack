@@ -1,0 +1,98 @@
+[
+  {
+    "content": "hi",
+    "start": 0
+  },
+  {
+    "content": "there welcome to this jam snack my name is obi na ikuno and i'm a software",
+    "start": 9
+  },
+  {
+    "content": "engineer at gatsby i'm here to tell you about exciting",
+    "start": 13
+  },
+  {
+    "content": "features currently available in gatsby and gatsby cloud",
+    "start": 16
+  },
+  {
+    "content": "and also to give you a hint of what's coming in the near future",
+    "start": 19
+  },
+  {
+    "content": "over the past months gatsby has improved on some of its existing features",
+    "start": 23
+  },
+  {
+    "content": "like the createpages api with the new file system api that helps you create",
+    "start": 27
+  },
+  {
+    "content": "pages programmatically which becomes more intuitive you can now",
+    "start": 31
+  },
+  {
+    "content": "build multiple versions of your sites like one for staging one for production",
+    "start": 35
+  },
+  {
+    "content": "from the same repo cool right and you can now log in and",
+    "start": 40
+  },
+  {
+    "content": "add repositories from gitlab and also github there are also some new",
+    "start": 44
+  },
+  {
+    "content": "things to play around with and to share feedback on",
+    "start": 49
+  },
+  {
+    "content": "like gatsby admin and gatsby gatsby desktop",
+    "start": 52
+  },
+  {
+    "content": "which supercharges your local development flow by giving you a gui",
+    "start": 55
+  },
+  {
+    "content": "for adding and configuring plugins for your gatsby sites",
+    "start": 59
+  },
+  {
+    "content": "and restarting development process the ultimate goal is to reduce the friction",
+    "start": 62
+  },
+  {
+    "content": "and drive down the time to first moment of wow",
+    "start": 66
+  },
+  {
+    "content": "when you get like a new site to say hello world and adding more plugins",
+    "start": 69
+  },
+  {
+    "content": "gatsby admin is currently experimental or you can use this with the cli flag",
+    "start": 74
+  },
+  {
+    "content": "and we are in the process of collecting feedback to learn more",
+    "start": 78
+  },
+  {
+    "content": "you can hit me up on twitter or follow us at gatsby as we will be announcing",
+    "start": 82
+  },
+  {
+    "content": "this feature soon thank you all so much for coming to this",
+    "start": 85
+  },
+  {
+    "content": "jam snack",
+    "start": 88
+  },
+  {
+    "content": "bye you",
+    "start": 99
+  }
+]

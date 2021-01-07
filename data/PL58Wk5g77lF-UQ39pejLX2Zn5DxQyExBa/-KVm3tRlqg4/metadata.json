@@ -4,9 +4,11 @@
   "position": 3,
   "publishedAt": 1542606353,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/-KVm3tRlqg4/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/-KVm3tRlqg4/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/-KVm3tRlqg4/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/-KVm3tRlqg4/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/-KVm3tRlqg4/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/-KVm3tRlqg4/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/-KVm3tRlqg4/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/-KVm3tRlqg4/default.jpg"
   },
   "title": "Prateek Bhatnagar - Supercharged PWAs With Preact CLI"
 }

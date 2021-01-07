@@ -1,0 +1,442 @@
+[
+  {
+    "content": "all right hi everyone um so today I'm",
+    "start": 0
+  },
+  {
+    "content": "gonna talk to you about headless comb and cloud Denari for progressively",
+    "start": 17
+  },
+  {
+    "content": "enhanced dynamic content on the web yeah I was really practicing that",
+    "start": 22
+  },
+  {
+    "content": "yeah it's obviously a mouthful but hopefully by the end of this it'll",
+    "start": 29
+  },
+  {
+    "content": "actually make sense to you okay so in 2006 seventy-three percent of web sites",
+    "start": 32
+  },
+  {
+    "content": "were found to be reliant on JavaScript for their core functionality so that",
+    "start": 40
+  },
+  {
+    "content": "means if you are happening to use a device that couldn't run JavaScript or a",
+    "start": 45
+  },
+  {
+    "content": "browser that couldn't that means for over half of the sites",
+    "start": 50
+  },
+  {
+    "content": "that you would try to visit you just basically wouldn't be able to do the",
+    "start": 53
+  },
+  {
+    "content": "main function of that website and with more and more sites being built on",
+    "start": 57
+  },
+  {
+    "content": "front-end frameworks today I can only imagine that this percentage is probably",
+    "start": 63
+  },
+  {
+    "content": "a lot higher and although this reliance has allowed us to really build",
+    "start": 67
+  },
+  {
+    "content": "incredible things they're probably so many web applications that wouldn't",
+    "start": 73
+  },
+  {
+    "content": "exist without it there have also unfortunately been some downsides so in",
+    "start": 77
+  },
+  {
+    "content": "a lot of cases performance suffers so especially when large frameworks are",
+    "start": 83
+  },
+  {
+    "content": "used for sites that could have just been completely static accessibility can also",
+    "start": 88
+  },
+  {
+    "content": "become a problem especially when we're using single page applications and the",
+    "start": 93
+  },
+  {
+    "content": "controls and the navigation may not be handled properly and then things like",
+    "start": 98
+  },
+  {
+    "content": "progressive enhancement is usually an afterthought because we're usually so",
+    "start": 104
+  },
+  {
+    "content": "concerned with just building the latest and greatest we tend to forget about",
+    "start": 108
+  },
+  {
+    "content": "what comes before that but this isn't like a witch-hunt against JavaScript cuz",
+    "start": 112
+  },
+  {
+    "content": "obviously like we're a gem stack I can't say don't use JavaScript but I think we",
+    "start": 119
+  },
+  {
+    "content": "can actually use javascript in a lot of these cases to improve it so in other",
+    "start": 125
+  },
+  {
+    "content": "words we can actually use JavaScript to like fix a lot of the problems that",
+    "start": 130
+  },
+  {
+    "content": "arise from JavaScript so that's a picture of me a little bit about myself",
+    "start": 135
+  },
+  {
+    "content": "I'm a front-end developer which after chris's talk yesterday I",
+    "start": 141
+  },
+  {
+    "content": "never know what that means anymore but that's kind of what I am and I'm working",
+    "start": 146
+  },
+  {
+    "content": "on a product called buy coins which is a crypto currency exchange based in",
+    "start": 150
+  },
+  {
+    "content": "Nigeria also some titles that make me sound really awesome and I also write a",
+    "start": 154
+  },
+  {
+    "content": "blog which is called bits of code and I want to talk to you today about a",
+    "start": 161
+  },
+  {
+    "content": "project that I work on so in writing my blog I frequently want to reference and",
+    "start": 165
+  },
+  {
+    "content": "display information from can I use so you can see this lovely embed here so I",
+    "start": 172
+  },
+  {
+    "content": "actually created this it's like an embed that you can put on your website or",
+    "start": 177
+  },
+  {
+    "content": "wherever and it will display up to date live information from can I use comm and",
+    "start": 182
+  },
+  {
+    "content": "the way it works if you can kind of see is that you put this bit of code on your",
+    "start": 188
+  },
+  {
+    "content": "website and you also include the script and the script to look for this and",
+    "start": 193
+  },
+  {
+    "content": "replace it with the actual like lovely interactive embed but the problem with",
+    "start": 197
+  },
+  {
+    "content": "this is if someone were to visit my blog without JavaScript enabled this is",
+    "start": 203
+  },
+  {
+    "content": "basically what they'll see their Joe see some text that doesn't really give you",
+    "start": 208
+  },
+  {
+    "content": "any helpful information it's just basically a link to the page",
+    "start": 212
+  },
+  {
+    "content": "and this isn't just a problem for browsers with javascript disabled which",
+    "start": 216
+  },
+  {
+    "content": "might not be something that you're that concerned about but if you think about",
+    "start": 223
+  },
+  {
+    "content": "like slow connections so even if the embed eventually loads if you're in a",
+    "start": 227
+  },
+  {
+    "content": "really slow connection it might take a few seconds and I was trying this",
+    "start": 233
+  },
+  {
+    "content": "yesterday trying to prepare this talk and even on the lovely conference Wi-Fi",
+    "start": 237
+  },
+  {
+    "content": "I was having the same issue so even if you are somewhere that generally has",
+    "start": 241
+  },
+  {
+    "content": "good Internet's you might still have like some slow connections and then",
+    "start": 246
+  },
+  {
+    "content": "there's just places where JavaScript is just not allowed so for example I send",
+    "start": 251
+  },
+  {
+    "content": "all my articles as an email as well and you just basically can't have that life",
+    "start": 256
+  },
+  {
+    "content": "embed there and obviously things like read mizore just generally all these",
+    "start": 261
+  },
+  {
+    "content": "other places so I was thinking what can I do to solve this problem and then I",
+    "start": 265
+  },
+  {
+    "content": "had the idea to combine these tools puppeteer and cloud Denari - and",
+    "start": 271
+  },
+  {
+    "content": "the experience so the idea I had was to take the embed page which is a live HTML",
+    "start": 277
+  },
+  {
+    "content": "document and use puppeteer to convert it into a screenshots then host that on",
+    "start": 284
+  },
+  {
+    "content": "cloud Denari and then use that as the fallback",
+    "start": 290
+  },
+  {
+    "content": "instead of the plain text which will kind of make more sense when I go",
+    "start": 293
+  },
+  {
+    "content": "through it now so instead of anybody ever seeing this text that just links to",
+    "start": 297
+  },
+  {
+    "content": "the page they'll see an image that will eventually be replaced with the live",
+    "start": 302
+  },
+  {
+    "content": "embed so let's just look at some code to see how that worked so the first step is",
+    "start": 307
+  },
+  {
+    "content": "using puppeteer to take a screenshot of the page so if you've used puppeteer",
+    "start": 313
+  },
+  {
+    "content": "you're probably already familiar with how this works",
+    "start": 319
+  },
+  {
+    "content": "but you just import the node library and then you create a new browser and I'm",
+    "start": 322
+  },
+  {
+    "content": "just having some settings of what I want the viewport to look like then I just",
+    "start": 327
+  },
+  {
+    "content": "load a new page passing the URL to the embed and also having a setting saying",
+    "start": 332
+  },
+  {
+    "content": "that I just want puppeteer to wait until the page is fully loaded everything has",
+    "start": 338
+  },
+  {
+    "content": "finished executing before we move forward and then I just take the screen",
+    "start": 342
+  },
+  {
+    "content": "shot and close the browser then the next parts is the cloud Janurary part so",
+    "start": 347
+  },
+  {
+    "content": "again just importing the cloud Denari node module and standing up any",
+    "start": 354
+  },
+  {
+    "content": "configuration and then I'm using the upload stream method to upload that",
+    "start": 358
+  },
+  {
+    "content": "screenshot we got from the previous section and then when it's done I have",
+    "start": 363
+  },
+  {
+    "content": "the URL to the image so now when I'm using the embed code on my blog instead",
+    "start": 368
+  },
+  {
+    "content": "of having this fallback text I can just replace it with an image so if there's",
+    "start": 374
+  },
+  {
+    "content": "no JavaScript included the image itself at least still exists and even better",
+    "start": 381
+  },
+  {
+    "content": "what I do because we're using cloud Denari and you have access to an image",
+    "start": 386
+  },
+  {
+    "content": "in any any like former I'm using the picture element and passing in like a",
+    "start": 391
+  },
+  {
+    "content": "web P or PNG or JPEG or just an image element if that doesn't exist and all of",
+    "start": 398
+  },
+  {
+    "content": "that is done with coronary and I don't have to like do any of that like image",
+    "start": 405
+  },
+  {
+    "content": "changing of the stuff yeah so now like I said when you visit you'll just see this",
+    "start": 410
+  },
+  {
+    "content": "image even if you don't have like JavaScript enabled so as you might have",
+    "start": 417
+  },
+  {
+    "content": "noticed a lot of what I'm talking about here puppeteer and cloud Denari they're",
+    "start": 423
+  },
+  {
+    "content": "node modules which means they can't directly be used by the website that you",
+    "start": 428
+  },
+  {
+    "content": "would go to to generate one of these embeds so what I did was wrap it all up",
+    "start": 432
+  },
+  {
+    "content": "in a micro service which I'm not exactly sure what a micro service is but I'm",
+    "start": 438
+  },
+  {
+    "content": "calling it a micro service cuz it sounds cool um and this is probably what the",
+    "start": 443
+  },
+  {
+    "content": "real power of Jam stack is so we can actually just abstract all these really",
+    "start": 449
+  },
+  {
+    "content": "powerful tools and you just have a single endpoints that does all the magic",
+    "start": 454
+  },
+  {
+    "content": "for you and this is okay it's actually working this is kind of what it looks",
+    "start": 458
+  },
+  {
+    "content": "like if you go to can I use the bits of code EE so this is my website you can",
+    "start": 464
+  },
+  {
+    "content": "just select how you want the embed to be and then you just click generate and",
+    "start": 472
+  },
+  {
+    "content": "hopefully your work I mean it's a video so I know it works but then you can just",
+    "start": 477
+  },
+  {
+    "content": "copy and you can get all this lovely information and then so prior to 3 a.m.",
+    "start": 482
+  },
+  {
+    "content": "this morning the micro service was actually hosted on Heroku but I was",
+    "start": 490
+  },
+  {
+    "content": "inspired by all the talks yesterday and I was having some conversations and I",
+    "start": 496
+  },
+  {
+    "content": "thought oh I should actually make this an elephant function so because I'm",
+    "start": 501
+  },
+  {
+    "content": "jet-lagged I started doing this at 3 a.m. in the morning and I broke",
+    "start": 505
+  },
+  {
+    "content": "everything and you can ask the people at net buffet I had like four different",
+    "start": 509
+  },
+  {
+    "content": "people trying to help me solve some problem because there was some issue but",
+    "start": 513
+  },
+  {
+    "content": "it works now so if you go to the site you'll see I'm actually using an",
+    "start": 517
+  },
+  {
+    "content": "identify function so it's actually truly Jam stack now and this is basically what",
+    "start": 520
+  },
+  {
+    "content": "it looks like kind of shortened but you can see that it's pretty simple take",
+    "start": 528
+  },
+  {
+    "content": "screenshot and upload screenshot are the two parts that I showed you before and",
+    "start": 533
+  },
+  {
+    "content": "yeah that's basically all there is to it and I'm even thinking about how I can",
+    "start": 537
+  },
+  {
+    "content": "improve this even more so for example like creating a screenshot for every",
+    "start": 543
+  },
+  {
+    "content": "single feature that exists on can I use I'm just having a URL on cloud generate",
+    "start": 547
+  },
+  {
+    "content": "that anybody can go to and because it can be updated periodically it's almost",
+    "start": 554
+  },
+  {
+    "content": "like having a live embed in an image and there's just so much that we can do with",
+    "start": 559
+  },
+  {
+    "content": "this and I will hopefully like work on that maybe at 3 a.m. tomorrow and yeah",
+    "start": 563
+  },
+  {
+    "content": "thank you [Applause]",
+    "start": 570
+  },
+  {
+    "content": "[Applause]",
+    "start": 573
+  },
+  {
+    "content": "you",
+    "start": 580
+  }
+]

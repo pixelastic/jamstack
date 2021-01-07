@@ -1,0 +1,1614 @@
+[
+  {
+    "content": "hi all right so before I begin I want to",
+    "start": 0
+  },
+  {
+    "content": "make sure that everyone knows that this is a safe space",
+    "start": 16
+  },
+  {
+    "content": "okay so we're all friends here we can say what we really feel and I say that",
+    "start": 19
+  },
+  {
+    "content": "because I have a couple of confessions to make and my first confession is that",
+    "start": 25
+  },
+  {
+    "content": "when Phil first contacted me and was like Katie I would love you to come and",
+    "start": 29
+  },
+  {
+    "content": "talk at this conference I was like me I had to go look up what gym stack even",
+    "start": 32
+  },
+  {
+    "content": "stands for I work on a PHP monolith all day but then he was like oh yeah get I",
+    "start": 39
+  },
+  {
+    "content": "wanted to talk about get and I was like oh okay that actually makes some sense",
+    "start": 45
+  },
+  {
+    "content": "because see three years ago I made this website called oh get now how many",
+    "start": 49
+  },
+  {
+    "content": "of you out there actually use git and you like your day to day yeah a lot of",
+    "start": 54
+  },
+  {
+    "content": "people how many of you hate get you're frustrated by it it drives you crazy",
+    "start": 59
+  },
+  {
+    "content": "you're afraid of it it's a safe space you can keep your hands up yeah so when",
+    "start": 63
+  },
+  {
+    "content": "I made this site I was learning it in a very bad way I hated it someone stood",
+    "start": 69
+  },
+  {
+    "content": "behind me and said type in these commands one after the other and I kept",
+    "start": 74
+  },
+  {
+    "content": "making all of these mistakes so I made this silly website I thought maybe three",
+    "start": 78
+  },
+  {
+    "content": "people would laugh at it but it'd end up going viral and then this funny thing",
+    "start": 83
+  },
+  {
+    "content": "happened where people started asking me questions about git and I didn't want to",
+    "start": 86
+  },
+  {
+    "content": "stand there and be like what so so I had to actually go out and learn all about",
+    "start": 90
+  },
+  {
+    "content": "git and develop like a really strong mental model of how it works under the",
+    "start": 95
+  },
+  {
+    "content": "hood and now I really actually love teaching people about git which is like",
+    "start": 100
+  },
+  {
+    "content": "really strange to me so hey it actually turns out that everything lives in git",
+    "start": 103
+  },
+  {
+    "content": "is one of these core founding principles of the jam stack so cool I guess I do",
+    "start": 109
+  },
+  {
+    "content": "actually belong at this conference anyway yes so I can talk to you all that",
+    "start": 113
+  },
+  {
+    "content": "day about git but I didn't really know anything about the jam stacks so how can",
+    "start": 118
+  },
+  {
+    "content": "I learn about that well it's time for another confession my deep dark secret",
+    "start": 122
+  },
+  {
+    "content": "is that until about a month ago the code for oh yet didn't even live in get",
+    "start": 127
+  },
+  {
+    "content": "it was a static index.html file on my hosting providers server and I would FTP",
+    "start": 133
+  },
+  {
+    "content": "in and make changes directly to the file I am a 15-year professional developer",
+    "start": 140
+  },
+  {
+    "content": "hey it was really really fast oh all right so when Phil reached out to me I",
+    "start": 151
+  },
+  {
+    "content": "was like great this is gonna be my motivation to like finally do all of",
+    "start": 157
+  },
+  {
+    "content": "these things that I've been meaning to do for years but just didn't make time",
+    "start": 161
+  },
+  {
+    "content": "for where I could like actually get the code and to get and a lot of folks have",
+    "start": 164
+  },
+  {
+    "content": "reached out to me over the years asking if they can translate oh get into",
+    "start": 169
+  },
+  {
+    "content": "multiple languages so I wanted to enable that and then I've been paying my",
+    "start": 173
+  },
+  {
+    "content": "hosting provider a ridiculous amount of money for them to serve three static",
+    "start": 177
+  },
+  {
+    "content": "HTML HTML CSS and JavaScript files for me so I want to get off of that and then",
+    "start": 181
+  },
+  {
+    "content": "it had to be super quick and easy with a very short learning curve because I'm a",
+    "start": 186
+  },
+  {
+    "content": "working mom and shout out to all the working moms out there cuz we're",
+    "start": 190
+  },
+  {
+    "content": "busy so I did a bunch of research and I ended up falling on using that laughs I",
+    "start": 194
+  },
+  {
+    "content": "and 11 T to build out the site so let's get on the gym stuck in it like we're",
+    "start": 201
+  },
+  {
+    "content": "gonna learn about get on the gym stack and I'm gonna get on the G you're",
+    "start": 206
+  },
+  {
+    "content": "supposed to laugh now so along the way I'm gonna show you the steps that I went",
+    "start": 210
+  },
+  {
+    "content": "through and we'll talk about some of the fundamental data structures and get so",
+    "start": 216
+  },
+  {
+    "content": "that we can all have a really solid foundation and a good mental model of",
+    "start": 219
+  },
+  {
+    "content": "what we're doing all right so our first step is we need to make a git repo but",
+    "start": 223
+  },
+  {
+    "content": "before we do that what even is yet well git is what's called a version",
+    "start": 228
+  },
+  {
+    "content": "control system and I think the easiest way to understand good version control",
+    "start": 232
+  },
+  {
+    "content": "is to think about bad version control so we've all written a paper in school or",
+    "start": 236
+  },
+  {
+    "content": "for work and where we wanted to keep our older versions around just in case and",
+    "start": 241
+  },
+  {
+    "content": "so we make some edits and we say V 2 and then ovie 3 and then oh yeah I'm done",
+    "start": 246
+  },
+  {
+    "content": "I'm ready to go I'm ready to turn this in oh wait no actually this is not my",
+    "start": 250
+  },
+  {
+    "content": "final file yeah so this sucks we all know that right we've all done this this",
+    "start": 255
+  },
+  {
+    "content": "is what I was doing on my server with oh",
+    "start": 261
+  },
+  {
+    "content": "so we've get instead of saving multiple copies of the same file there's only one",
+    "start": 265
+  },
+  {
+    "content": "file and then we store these snapshots of the file at different points in time",
+    "start": 272
+  },
+  {
+    "content": "in fact get contract the history of an entire repository or repo which we can",
+    "start": 276
+  },
+  {
+    "content": "kind of think of as being analogous to a bunch of files on disk get also stores",
+    "start": 281
+  },
+  {
+    "content": "information about itself and the history of the website so it's just weird like",
+    "start": 286
+  },
+  {
+    "content": "get ception alright so we see what the benefits are of version control but one",
+    "start": 291
+  },
+  {
+    "content": "of the things that makes get really powerful and useful and especially",
+    "start": 296
+  },
+  {
+    "content": "suited to the jam stack is that it's distributed version control so in a",
+    "start": 300
+  },
+  {
+    "content": "distributed version control model there's a central or canonical copy of",
+    "start": 305
+  },
+  {
+    "content": "the repository that's stored in a remote server somewhere and then a cloned copy",
+    "start": 308
+  },
+  {
+    "content": "of the entire repository all the files the entire history all the metadata is",
+    "start": 313
+  },
+  {
+    "content": "copied on to every users local host machine now the nice thing about this is",
+    "start": 318
+  },
+  {
+    "content": "if I want to make changes I don't have to ever actually go back and talk to the",
+    "start": 322
+  },
+  {
+    "content": "server I can just do it locally I don't need to be connected so let's say I add",
+    "start": 325
+  },
+  {
+    "content": "a new file here right so when I'm ready to share this with the world I push the",
+    "start": 330
+  },
+  {
+    "content": "changes up to the remote and this is one of the few times that we actually need",
+    "start": 334
+  },
+  {
+    "content": "to communicate with the remote server and then the next time everybody else is",
+    "start": 337
+  },
+  {
+    "content": "connected to the internet and they want to pull it all down everyone is in the",
+    "start": 342
+  },
+  {
+    "content": "same state again and then the cool thing is that when natla Phi hooks into this",
+    "start": 345
+  },
+  {
+    "content": "we get what's called continuous deployment so I push my changes up to",
+    "start": 350
+  },
+  {
+    "content": "github and then the neckla app takes over it runs a bunch of build stuff we",
+    "start": 355
+  },
+  {
+    "content": "we learned about that earlier and then it generates the files I need to serve",
+    "start": 359
+  },
+  {
+    "content": "the site and then pushes them out to the net Lefroy CDN so this is like a massive",
+    "start": 365
+  },
+  {
+    "content": "improvement on what I was doing before so as an aside people kind of tend to",
+    "start": 369
+  },
+  {
+    "content": "throw around the terms get and github as if they're interchangeable but there's a",
+    "start": 375
+  },
+  {
+    "content": "difference so git is like the underlying program the version control system so",
+    "start": 380
+  },
+  {
+    "content": "like all the stuff that you do in the command line is in git and then github",
+    "start": 384
+  },
+  {
+    "content": "is a web-based company that hosts get repos for you and then adds on some",
+    "start": 389
+  },
+  {
+    "content": "additional features like pull requests bug tracking wiki's user management all",
+    "start": 395
+  },
+  {
+    "content": "of that but remember github is one of many potential hosting providers so you",
+    "start": 401
+  },
+  {
+    "content": "can use like bitbucket or get lab you could even host your own get server if",
+    "start": 406
+  },
+  {
+    "content": "you you don't have to use github alright so",
+    "start": 410
+  },
+  {
+    "content": "I'm gonna make a load a repo so I'm gonna do it the super easy way and go",
+    "start": 414
+  },
+  {
+    "content": "into the get UI I click on this little new repository link which is really",
+    "start": 417
+  },
+  {
+    "content": "small and then this one is a nice big green button that says create repository",
+    "start": 422
+  },
+  {
+    "content": "and tada hey I have a git repo cool now I want to connect it to nullify mmm this",
+    "start": 426
+  },
+  {
+    "content": "is also a bunch of big green buttons I choose new site from git",
+    "start": 435
+  },
+  {
+    "content": "and then if any of the designers are here I'm gonna say these should all be",
+    "start": 440
+  },
+  {
+    "content": "green buttons that is green buttons all the way",
+    "start": 444
+  },
+  {
+    "content": "through so I choose get and then it lists out I had already installed the",
+    "start": 448
+  },
+  {
+    "content": "github app in my github repo so that it would",
+    "start": 451
+  },
+  {
+    "content": "have permission to talk to my get repo so I choose oh get I've pushed",
+    "start": 455
+  },
+  {
+    "content": "another green button and now I follow the green link and today yay we have a",
+    "start": 460
+  },
+  {
+    "content": "site that served from a git repo viennetta fie but there's no content",
+    "start": 466
+  },
+  {
+    "content": "there so obviously we need to kind of put some content in alright so the next",
+    "start": 470
+  },
+  {
+    "content": "step is I need to get all of that repo onto my local machine so I can edit it",
+    "start": 475
+  },
+  {
+    "content": "and first before we do that I want to quickly talk about this kind of like",
+    "start": 479
+  },
+  {
+    "content": "really I know it's a solid mental model I think for understanding the different",
+    "start": 484
+  },
+  {
+    "content": "environments and get and how we interact with our git repos so we have our remote",
+    "start": 488
+  },
+  {
+    "content": "server which is you know because git is a decentralized system and the remote",
+    "start": 493
+  },
+  {
+    "content": "server generally stores what's called a bear repo so that means that you can't",
+    "start": 499
+  },
+  {
+    "content": "interact with it directly via the command line this is why typically you",
+    "start": 503
+  },
+  {
+    "content": "have to switch over and use the web UI when you're getting to the features that",
+    "start": 506
+  },
+  {
+    "content": "are only in like github and then your local machine is broken down into these",
+    "start": 510
+  },
+  {
+    "content": "three sub environments first is your local copy of the remote repository",
+    "start": 515
+  },
+  {
+    "content": "which again is all the files all the history all the metadata then you have",
+    "start": 521
+  },
+  {
+    "content": "the staging area or index which is a snapshot of all of the changes that",
+    "start": 525
+  },
+  {
+    "content": "you're ready to commit and then you have your workspace which is kind of",
+    "start": 530
+  },
+  {
+    "content": "analogous to files on disk where you're making all of your changes so this is",
+    "start": 534
+  },
+  {
+    "content": "the state that our repo is in now I don't know if you can see that little",
+    "start": 539
+  },
+  {
+    "content": "poor yellow dot down there from we have our one commit to master that we",
+    "start": 542
+  },
+  {
+    "content": "made via the UI so I'm gonna run git clone which copy and paste the entire",
+    "start": 546
+  },
+  {
+    "content": "contents of the git repo to my local machine and now this is what we look",
+    "start": 552
+  },
+  {
+    "content": "like after I run git clone so I have that copy online my local of the master",
+    "start": 558
+  },
+  {
+    "content": "branch it's our only branch so far and then the",
+    "start": 563
+  },
+  {
+    "content": "readme which was the only file in the in the directory alright so now we want to",
+    "start": 565
+  },
+  {
+    "content": "add some content and for simplicity sake I'm just gonna take all of those three",
+    "start": 570
+  },
+  {
+    "content": "static files that I have already on my server and copy them into the git repo",
+    "start": 575
+  },
+  {
+    "content": "but before we do that let's talk really in depth about commits what's actually",
+    "start": 580
+  },
+  {
+    "content": "in a commit so a commit is like a record of your repo at a certain point of time",
+    "start": 584
+  },
+  {
+    "content": "and I'm like a broken record about this now but and get a commit doesn't just",
+    "start": 589
+  },
+  {
+    "content": "store one file or files it stores everything in your repository every",
+    "start": 594
+  },
+  {
+    "content": "single time you make a change it also saves some metadata about who made a",
+    "start": 599
+  },
+  {
+    "content": "commit the timestamp why it was made and then a pointer back to the previous",
+    "start": 603
+  },
+  {
+    "content": "commit in our history which we'll talk about some more in a second so then get",
+    "start": 609
+  },
+  {
+    "content": "takes all of this information and runs it through an sha-1 algorithm which",
+    "start": 612
+  },
+  {
+    "content": "outputs this 40 character long hash string which you can then use to",
+    "start": 617
+  },
+  {
+    "content": "reference any point in time and get because that hash is so unique because",
+    "start": 621
+  },
+  {
+    "content": "it contains all of this information so if you and I made the exact same change",
+    "start": 627
+  },
+  {
+    "content": "to the exact same file we're actually going to output a different commit hash",
+    "start": 631
+  },
+  {
+    "content": "because our metadata is gonna be different so this is like really really",
+    "start": 635
+  },
+  {
+    "content": "really powerful so here's some example of what those 40 character long strings",
+    "start": 640
+  },
+  {
+    "content": "look like now I don't know about you but these are like really unwieldy to work",
+    "start": 645
+  },
+  {
+    "content": "with and the super cool thing about get hashes is that they're so unique that",
+    "start": 649
+  },
+  {
+    "content": "you don't need to even use all of them you can typically use like seven",
+    "start": 654
+  },
+  {
+    "content": "characters and get is able to find the hash for you because there's so much",
+    "start": 658
+  },
+  {
+    "content": "uniqueness built into the algorithm that it uses so I'm mentioning this because",
+    "start": 662
+  },
+  {
+    "content": "you're gonna see this shorthand abbreviation and get you'll see it in",
+    "start": 666
+  },
+  {
+    "content": "nutloaf I'll see it in github so it's good to understand like what they are",
+    "start": 669
+  },
+  {
+    "content": "all right so let's commit some content so if you see",
+    "start": 672
+  },
+  {
+    "content": "added my new three static yeah for static files because I also have Dan yet",
+    "start": 677
+  },
+  {
+    "content": "get comm which is thus where free version of oh get and that is yes a",
+    "start": 682
+  },
+  {
+    "content": "completely separate html5 so I'm pretty sure that this is what I want to do I",
+    "start": 687
+  },
+  {
+    "content": "want to commit this but I'm gonna make extra extra sure first and the way that",
+    "start": 693
+  },
+  {
+    "content": "I do that is with my BFF forever get status if there's one get command that",
+    "start": 698
+  },
+  {
+    "content": "you should be running like pretty much constantly it's get status but what does",
+    "start": 703
+  },
+  {
+    "content": "get status to you well it tells us the status of our repo Wow something and get",
+    "start": 708
+  },
+  {
+    "content": "that's actually named well that you can understand so if we look at this kind of",
+    "start": 712
+  },
+  {
+    "content": "line by line it says I'm on branch master and then I have these changes",
+    "start": 718
+  },
+  {
+    "content": "that are not staged for commit so I modified that readme I added a little",
+    "start": 722
+  },
+  {
+    "content": "more information and then I have these untracked files which are the new files",
+    "start": 726
+  },
+  {
+    "content": "that I added so I want to add my new files and I want to add those changes so",
+    "start": 730
+  },
+  {
+    "content": "get takes all of the changed files and copies them from the workspace into the",
+    "start": 736
+  },
+  {
+    "content": "index so if I go back to my BFF get status and look at that again you can",
+    "start": 741
+  },
+  {
+    "content": "see that my list has changed and now I have all of these files are listed under",
+    "start": 746
+  },
+  {
+    "content": "changes to be committed so this is what I want to do and we're ready to save our",
+    "start": 750
+  },
+  {
+    "content": "changes so I run git commit and I pass in a useful commit message you'll thank",
+    "start": 755
+  },
+  {
+    "content": "yourself later for having very useful commit messages and what get commit does",
+    "start": 760
+  },
+  {
+    "content": "is it packages up the state of our staging area and then adds that commit",
+    "start": 766
+  },
+  {
+    "content": "to our master branch so our little branch is starting to take shape here so",
+    "start": 770
+  },
+  {
+    "content": "let's dive really deep into what branches actually are under the hood now",
+    "start": 776
+  },
+  {
+    "content": "hold on to your butts cuz we're right there hold on your butts cuz we're gonna",
+    "start": 780
+  },
+  {
+    "content": "get real computer science II now I promise though it's not gonna be too",
+    "start": 792
+  },
+  {
+    "content": "bad for anyone who didn't study CS so under the hood you can think of branches",
+    "start": 796
+  },
+  {
+    "content": "as sort of like this programming data structure called a linked list so a",
+    "start": 801
+  },
+  {
+    "content": "linked list is a way to connect a bunch of data called nodes",
+    "start": 805
+  },
+  {
+    "content": "a specific sequence and each node contains two things some data",
+    "start": 810
+  },
+  {
+    "content": "represented by the yellow box which in our case if you remember that list of",
+    "start": 814
+  },
+  {
+    "content": "all of the things that are in a commit you can think of the data for each node",
+    "start": 819
+  },
+  {
+    "content": "as being analogous to those first four items on the list although that's a",
+    "start": 822
+  },
+  {
+    "content": "little bit of an oversimplification but it's a good mental model and then the",
+    "start": 826
+  },
+  {
+    "content": "other half of each commit node is a pointer back to its parent commit it k",
+    "start": 830
+  },
+  {
+    "content": "the last commit in history before this one so this means that our first commit",
+    "start": 834
+  },
+  {
+    "content": "letter A it doesn't have a pointer ireally letter B is a child of a because",
+    "start": 838
+  },
+  {
+    "content": "it has a pointer back to a and so on and so forth down the line until we get to",
+    "start": 844
+  },
+  {
+    "content": "letter E all the way on the right there which is our most recent commit all",
+    "start": 848
+  },
+  {
+    "content": "right so now that we have this convenient mental model of what branches",
+    "start": 854
+  },
+  {
+    "content": "are that's actually a lie branches are not a linked list branches are actually",
+    "start": 858
+  },
+  {
+    "content": "what's called a reference or a ref which is a pointer to a single commit and to",
+    "start": 862
+  },
+  {
+    "content": "really blow your mind about get references are actually just a text file",
+    "start": 869
+  },
+  {
+    "content": "that's located in your git repo that contains the hash of the commits that is",
+    "start": 873
+  },
+  {
+    "content": "the tip of our master branch so you can go into your dot git folder and go and",
+    "start": 878
+  },
+  {
+    "content": "look at these text files they get uses them for everything which i think is",
+    "start": 882
+  },
+  {
+    "content": "actually pretty cool all right so now that we understand branch is a little",
+    "start": 886
+  },
+  {
+    "content": "better we want to get this updated branch into github so it can be picked",
+    "start": 891
+  },
+  {
+    "content": "up and deployed by not Liffe I so to do that I run git push which is gonna copy",
+    "start": 894
+  },
+  {
+    "content": "my change out to the remote server now notice down there in the blue I've",
+    "start": 899
+  },
+  {
+    "content": "highlighted there's like a random hash and then dot dot and then our new hash",
+    "start": 903
+  },
+  {
+    "content": "which is the new tip of Master nine one zero seven six two nine remember that",
+    "start": 907
+  },
+  {
+    "content": "number it's going to be important later and this kind of push is called a",
+    "start": 912
+  },
+  {
+    "content": "fast-forward which is what we always want to aim for",
+    "start": 917
+  },
+  {
+    "content": "fast forward means that all of the commits that are in the master branch on",
+    "start": 919
+  },
+  {
+    "content": "our remote are also contained in our master branch on our local we are a",
+    "start": 924
+  },
+  {
+    "content": "quote unquote ahead of the remote server so it goes through super easily and now",
+    "start": 929
+  },
+  {
+    "content": "everything looks the same again and now the really cool thing happens when we",
+    "start": 936
+  },
+  {
+    "content": "pop over to nullify we zoom in on this production deploy box",
+    "start": 941
+  },
+  {
+    "content": "and you can see now our friend nine one zero seven six nine two is there as the",
+    "start": 946
+  },
+  {
+    "content": "published version of the site and tada for real yay",
+    "start": 952
+  },
+  {
+    "content": "we have content but the site isn't actually pointing to this so you can see",
+    "start": 958
+  },
+  {
+    "content": "it still just like oh get nullified calm I need to fix that I went off and I",
+    "start": 963
+  },
+  {
+    "content": "did a whole bunch of like really boring DNS stuff I'm not going to talk about it",
+    "start": 969
+  },
+  {
+    "content": "but it to change point from pointing for my old host to pointing to nullify and",
+    "start": 972
+  },
+  {
+    "content": "tada again now if we go to oh get calm it's actually being served from",
+    "start": 978
+  },
+  {
+    "content": "that Liffe I and not from my crappy you old hosting provider cool alright now it",
+    "start": 982
+  },
+  {
+    "content": "is time to completely reaaargh attacked the entire site from scratch so",
+    "start": 989
+  },
+  {
+    "content": "everything that we've done so far has happened directly on the master branch",
+    "start": 996
+  },
+  {
+    "content": "and like if you're the only person it's kind of a throwaway project fine you can",
+    "start": 1001
+  },
+  {
+    "content": "totally do that however the smarter and better thing to",
+    "start": 1005
+  },
+  {
+    "content": "do especially when it comes to using nullify is to use a feature branch",
+    "start": 1008
+  },
+  {
+    "content": "workflow there's a lot of really cool features that feature branches unlock so",
+    "start": 1014
+  },
+  {
+    "content": "basically I'm Rio connecting the whole site I'm gonna need to be to it and make",
+    "start": 1019
+  },
+  {
+    "content": "sure that things are not broken and nullify has this branch preview",
+    "start": 1024
+  },
+  {
+    "content": "functionality which is gonna let me push up a new branch to make a PR and then I",
+    "start": 1029
+  },
+  {
+    "content": "have basically an entirely separate environment so it's gonna really help",
+    "start": 1034
+  },
+  {
+    "content": "with this giant re are connecting all right so to make our new branch we run",
+    "start": 1037
+  },
+  {
+    "content": "git branch I pass on the new branch name 11 T and said ah here's our new branch",
+    "start": 1042
+  },
+  {
+    "content": "so it's just another text file with another pointer to the same commit as",
+    "start": 1049
+  },
+  {
+    "content": "master but really what we have is it's like an int of the entire history of the",
+    "start": 1055
+  },
+  {
+    "content": "master branch with the same commit history and the same files alright but a",
+    "start": 1063
+  },
+  {
+    "content": "branch that always points to the same place as master isn't super useful so",
+    "start": 1068
+  },
+  {
+    "content": "we're gonna add some commits on to our new branch and before we do that we have",
+    "start": 1073
+  },
+  {
+    "content": "one more like kind of fundamental core concept I understand and that's the head",
+    "start": 1078
+  },
+  {
+    "content": "you've probably seen this all caps head and a bunch of different places in my",
+    "start": 1082
+  },
+  {
+    "content": "first deploy to net Delphi it actually said that it was published to master at",
+    "start": 1087
+  },
+  {
+    "content": "head but what exactly is the head well the heads another kind of a reference",
+    "start": 1091
+  },
+  {
+    "content": "get is full of reference all trees and references basically you want to",
+    "start": 1097
+  },
+  {
+    "content": "understand data structures and get trees and references but this is a little bit",
+    "start": 1101
+  },
+  {
+    "content": "different it's what's called a oh my gosh it's a reference to a reference a",
+    "start": 1106
+  },
+  {
+    "content": "symbolic reference so instead of pointing directly at a commit at points",
+    "start": 1111
+  },
+  {
+    "content": "at a branch pointer and then get can use the pointer to the pointer to figure out",
+    "start": 1116
+  },
+  {
+    "content": "a commit and why is this important well the head is basically going to be how",
+    "start": 1122
+  },
+  {
+    "content": "git decides what's the target of all of the actions that you run in the command",
+    "start": 1127
+  },
+  {
+    "content": "line so if I run git branch new branch it tells get to make a new symbolic",
+    "start": 1132
+  },
+  {
+    "content": "reference that's pointed into the same location that my head is pointing to now",
+    "start": 1137
+  },
+  {
+    "content": "there's only one head pervert repo it's entirely just yours you don't share it",
+    "start": 1141
+  },
+  {
+    "content": "it's only on your local machine and finally the head is amazing because it's",
+    "start": 1146
+  },
+  {
+    "content": "like our magic time machine that we can use to go back and fix our mistakes",
+    "start": 1152
+  },
+  {
+    "content": "which we'll talk about at the end hopefully if there's time all right so",
+    "start": 1156
+  },
+  {
+    "content": "now our head is pointing at master I want to make it point to the new branch",
+    "start": 1160
+  },
+  {
+    "content": "to do that I run git checkout all right and now our head is pointing to our",
+    "start": 1164
+  },
+  {
+    "content": "eleventy branch symbolic reference so from here on out all the actions I take",
+    "start": 1169
+  },
+  {
+    "content": "are going to target the eleventy branch all right so I go ahead and I make all",
+    "start": 1174
+  },
+  {
+    "content": "these massive changes to my files if anyone has used 11 - you probably",
+    "start": 1180
+  },
+  {
+    "content": "recognize this folder format I run git add and add takes all of my changes",
+    "start": 1184
+  },
+  {
+    "content": "moves them into staging we've seen this before I'm sorry I run git commit",
+    "start": 1191
+  },
+  {
+    "content": "because everything looks good and now my repo is like actually starting to show",
+    "start": 1196
+  },
+  {
+    "content": "where the future branch is branching off from master so so I keep working I",
+    "start": 1201
+  },
+  {
+    "content": "add another commit and at this point I'm ready to share this code with the world",
+    "start": 1209
+  },
+  {
+    "content": "although I will say it took me a hell of a lot more than two commits to actually",
+    "start": 1213
+  },
+  {
+    "content": "get it working but for our purposes we'll just show the two so I run git",
+    "start": 1217
+  },
+  {
+    "content": "push and I pass in this - new flag which is a shorthand for set upstream so what",
+    "start": 1223
+  },
+  {
+    "content": "this is going to do is create a connection between the branch on my",
+    "start": 1229
+  },
+  {
+    "content": "local and the branch in remote because I'm sorry I've been lying to you again I",
+    "start": 1231
+  },
+  {
+    "content": "keep lying I'm sorry but there's actually this whole concept called",
+    "start": 1237
+  },
+  {
+    "content": "tracking branches so remember how git can perform a lot of actions without",
+    "start": 1242
+  },
+  {
+    "content": "ever calling back to the remote host the way that it does that is with this",
+    "start": 1247
+  },
+  {
+    "content": "concept of a tracking branch so it's an it's another reference but it you can't",
+    "start": 1250
+  },
+  {
+    "content": "edit it you can't access it directly and it's basically a way forget to store on",
+    "start": 1255
+  },
+  {
+    "content": "your local machine the status of the remote server and the reason why I",
+    "start": 1259
+  },
+  {
+    "content": "mentioned this to people is because git will lie to you if you haven't run yet",
+    "start": 1264
+  },
+  {
+    "content": "fetch to update all of your local branches in a while get status is gonna",
+    "start": 1269
+  },
+  {
+    "content": "say you're up-to-date but you're not really up-to-date you're actually only",
+    "start": 1273
+  },
+  {
+    "content": "up-to-date with the last state of the origin/master tracking branch on your",
+    "start": 1276
+  },
+  {
+    "content": "local so that's it like pro tip number one so periodically make sure that you",
+    "start": 1280
+  },
+  {
+    "content": "run git fetch which is going to update all of those local tracking branches to",
+    "start": 1284
+  },
+  {
+    "content": "the most up-to-date thing from the remote server and then run get status",
+    "start": 1288
+  },
+  {
+    "content": "and then you'll know for real if you really are up-to-date all right so now",
+    "start": 1292
+  },
+  {
+    "content": "I'm going to create a pull request with my changes from my branch I click more",
+    "start": 1296
+  },
+  {
+    "content": "green buttons and another green button and tada we have a PR but this PR is",
+    "start": 1300
+  },
+  {
+    "content": "kind of boring until we scroll down this is where the magic happens so you can",
+    "start": 1306
+  },
+  {
+    "content": "see here an output from all of the commit hooks that the net Liffe I app",
+    "start": 1311
+  },
+  {
+    "content": "has run on my server and the most important one is that one down at the",
+    "start": 1315
+  },
+  {
+    "content": "bottom it says deploy preview and I click on that details link and this",
+    "start": 1319
+  },
+  {
+    "content": "opens up that deploy preview of my site which is a full copy that I can use to",
+    "start": 1324
+  },
+  {
+    "content": "do testing and QA and just make sure everything looks good before I push the",
+    "start": 1328
+  },
+  {
+    "content": "changes to the live site now I think this is then this is like the killer",
+    "start": 1333
+  },
+  {
+    "content": "feature of natla fie I absolutely love deployed I want to figure out how to",
+    "start": 1336
+  },
+  {
+    "content": "make this work in our like homegrown deploy",
+    "start": 1341
+  },
+  {
+    "content": "system at Etsy alright so everything looks good I'm feeling confident",
+    "start": 1343
+  },
+  {
+    "content": "Zack hasn't steered me wrong eleven teas great I'm gonna marraige of this change",
+    "start": 1348
+  },
+  {
+    "content": "into production now depending on your repo settings and as long as you don't",
+    "start": 1353
+  },
+  {
+    "content": "have any conflicts with the like main branch it's gonna give you three",
+    "start": 1359
+  },
+  {
+    "content": "possible options two of them suck you should never use them and one of them is",
+    "start": 1363
+  },
+  {
+    "content": "awesome so let's talk about the sucky one first of all merge commits so merge",
+    "start": 1367
+  },
+  {
+    "content": "commits are really interesting because they're different from regular commits",
+    "start": 1373
+  },
+  {
+    "content": "they have two parents instead of one merge commits can actually have more",
+    "start": 1376
+  },
+  {
+    "content": "than two parents but like I don't know what kind of bananas situation you would",
+    "start": 1380
+  },
+  {
+    "content": "ever want that I mean this works but it creates this like weird gross branching",
+    "start": 1383
+  },
+  {
+    "content": "history and I really hate that it creates a new commit that has nothing to",
+    "start": 1389
+  },
+  {
+    "content": "do with the work that I actually changed I don't know I I'm really uptight but",
+    "start": 1393
+  },
+  {
+    "content": "also you can very easily let your branches get out of hand and they become",
+    "start": 1398
+  },
+  {
+    "content": "unhappy little trees so ixnay on the urge may so the slightly less crappy",
+    "start": 1402
+  },
+  {
+    "content": "option is to do what's called a rebase and merge now a rebase emerge is going",
+    "start": 1411
+  },
+  {
+    "content": "to effectively detach all of our unique commits from the their original position",
+    "start": 1416
+  },
+  {
+    "content": "branched off from master and then replay those changes on top of master and now",
+    "start": 1420
+  },
+  {
+    "content": "we end up with all the commits from our feature branch and they've been added to",
+    "start": 1427
+  },
+  {
+    "content": "the tip of the master branch now this is way better because we have a nice",
+    "start": 1430
+  },
+  {
+    "content": "straight linear history it's gonna be way easier to reason about however what",
+    "start": 1433
+  },
+  {
+    "content": "if we find a bug right we have to figure out out of the multiple commits that",
+    "start": 1439
+  },
+  {
+    "content": "were on our branch which one has the bug do we have to revert multiple commits do",
+    "start": 1443
+  },
+  {
+    "content": "we have to revert just one so the best option in my humble opinion is squash",
+    "start": 1448
+  },
+  {
+    "content": "merge and I hope all of you leave here on team squash merge so squash merge",
+    "start": 1454
+  },
+  {
+    "content": "will take all of your commits on your branch and smush them into a single",
+    "start": 1458
+  },
+  {
+    "content": "commit and add that to the tip of Master so you end up with a single commit nice",
+    "start": 1462
+  },
+  {
+    "content": "linear history and if you ever have to roll back the changes you can do it by",
+    "start": 1467
+  },
+  {
+    "content": "reverting a single commit and we're going to talk about reverting shortly",
+    "start": 1471
+  },
+  {
+    "content": "all right so I my squash merge I'm deploying and tada",
+    "start": 1474
+  },
+  {
+    "content": "yay oh get calm isn't how coming from",
+    "start": 1479
+  },
+  {
+    "content": "eleventy and nullify boom all right so this is all been pretty easy but let's",
+    "start": 1482
+  },
+  {
+    "content": "get real like get is never this easy it's always a pain so let's talk about",
+    "start": 1494
+  },
+  {
+    "content": "what to do when something goes wrong and these are gonna be like the most",
+    "start": 1500
+  },
+  {
+    "content": "important tools in your toolbox for fixing your eventual mistakes so history",
+    "start": 1503
+  },
+  {
+    "content": "how do we view our history so just to recap the history of a branch",
+    "start": 1508
+  },
+  {
+    "content": "we start by pointing to the branches tip which then points us to a commit and",
+    "start": 1512
+  },
+  {
+    "content": "then we follow the commits parents all the way back through our linked lists",
+    "start": 1517
+  },
+  {
+    "content": "the way that we can see that written out is using git log get log actually has a",
+    "start": 1520
+  },
+  {
+    "content": "ton of really cool filtering and searching features built into it I'm not",
+    "start": 1525
+  },
+  {
+    "content": "gonna go over them but you should go and read about them because it's super like",
+    "start": 1528
+  },
+  {
+    "content": "interesting and powerful but the thing that's really even more useful is that",
+    "start": 1532
+  },
+  {
+    "content": "git ref log shows you the history of your local head so this is the magic",
+    "start": 1537
+  },
+  {
+    "content": "time machine so remember what the head does the head points to your current",
+    "start": 1544
+  },
+  {
+    "content": "working branch so whenever you perform an action that's going to change what",
+    "start": 1548
+  },
+  {
+    "content": "your head is pointing to get stores that state and holds on to it for like a you",
+    "start": 1552
+  },
+  {
+    "content": "know however long until it decides that it's run out of space for it so you can",
+    "start": 1558
+  },
+  {
+    "content": "use this to go back in time before things were completely and utterly",
+    "start": 1564
+  },
+  {
+    "content": "broken so as you can see each entry in our ref log has a hash and then this",
+    "start": 1568
+  },
+  {
+    "content": "head at bracket notation which is like a zero indexed array the higher the number",
+    "start": 1573
+  },
+  {
+    "content": "the farther back in time so I looking at this okay so I did a rebase and my",
+    "start": 1578
+  },
+  {
+    "content": "rebase fell apart so I want to go back to head at eight which was the last",
+    "start": 1585
+  },
+  {
+    "content": "commit before the rebase so first what I'm gonna do is I'm going to use this",
+    "start": 1590
+  },
+  {
+    "content": "other command get show to kind of check out what that looks like I love get show",
+    "start": 1593
+  },
+  {
+    "content": "because it shows you the full commit message as well as a diff for that so",
+    "start": 1597
+  },
+  {
+    "content": "you can kind of see everything all in one place",
+    "start": 1602
+  },
+  {
+    "content": "excuse me another way that we can view previous States and history is with git",
+    "start": 1604
+  },
+  {
+    "content": "checkout and again because everything is unique",
+    "start": 1609
+  },
+  {
+    "content": "we can kind of open up all of the files and look around what state our repo is",
+    "start": 1612
+  },
+  {
+    "content": "in however we now have a detached head how many of you have freaked out the",
+    "start": 1615
+  },
+  {
+    "content": "first time you saw a detached head yes oh my god it's terrifying like what a",
+    "start": 1621
+  },
+  {
+    "content": "terrifying name but but but detached head is cool like it basically it just",
+    "start": 1625
+  },
+  {
+    "content": "means that your head is pointing to something that it's not actually",
+    "start": 1632
+  },
+  {
+    "content": "editable at this time so you get into the state when you check out a commit or",
+    "start": 1635
+  },
+  {
+    "content": "if you check out a tracking Branch and it's really easy to reattach your head",
+    "start": 1639
+  },
+  {
+    "content": "all you have to do is check out an existing branch or you can create a new",
+    "start": 1643
+  },
+  {
+    "content": "branch from that state so if you want to go back in time and try to figure out",
+    "start": 1647
+  },
+  {
+    "content": "okay I created a bug can I figure out a better way to write this code that",
+    "start": 1650
+  },
+  {
+    "content": "doesn't create the bug check out is actually one of those weird",
+    "start": 1655
+  },
+  {
+    "content": "multi-purpose commands and get I really I don't like it but it's how you do",
+    "start": 1659
+  },
+  {
+    "content": "things like you can throw away changes to a file or directory' if you have them",
+    "start": 1664
+  },
+  {
+    "content": "in your workspace you don't want to keep them it's how you can reset a single",
+    "start": 1669
+  },
+  {
+    "content": "file back to its previous state in history or you can copy files from",
+    "start": 1673
+  },
+  {
+    "content": "another branch until you're working branch",
+    "start": 1677
+  },
+  {
+    "content": "however just remember after you run check out you'll have to actually commit",
+    "start": 1679
+  },
+  {
+    "content": "the changes that you make all right so we know how to look at our history now",
+    "start": 1683
+  },
+  {
+    "content": "how do we change our history we have two main tools the first of that is you know",
+    "start": 1688
+  },
+  {
+    "content": "a get reset and then we have get revert so oh wait that's yeah this is our",
+    "start": 1694
+  },
+  {
+    "content": "status so we I want to go back that last I did a rebase again and I want to go",
+    "start": 1701
+  },
+  {
+    "content": "back to the last commit so what reset does is it brings you back to a previous",
+    "start": 1705
+  },
+  {
+    "content": "state in your history and then it like undoes all of the things that changed",
+    "start": 1710
+  },
+  {
+    "content": "and the commits between now and then so we start with our old friend ref log we",
+    "start": 1715
+  },
+  {
+    "content": "pull out our ate head at 3:00 is where I want to go back to I run get reset head",
+    "start": 1721
+  },
+  {
+    "content": "at 3:00 and it's telling me that I have a none stage change after my reset this",
+    "start": 1727
+  },
+  {
+    "content": "is because there's three separate ways that you can reset files the first is",
+    "start": 1732
+  },
+  {
+    "content": "soft which takes all of the changes from the commits that you reset and leaves",
+    "start": 1736
+  },
+  {
+    "content": "them in your staging area for you to decide what to do with",
+    "start": 1740
+  },
+  {
+    "content": "mixed is the defaults that means to take those changes and put them in the",
+    "start": 1743
+  },
+  {
+    "content": "workspace and then hard is like the Yolo like toss everything out throw it away I",
+    "start": 1748
+  },
+  {
+    "content": "don't care anymore however use it with caution because a",
+    "start": 1753
+  },
+  {
+    "content": "hard reset is one of those things and get that you actually can't easily",
+    "start": 1757
+  },
+  {
+    "content": "recover from so use it with caution but I'm a very I'm a big Yolo we're all",
+    "start": 1761
+  },
+  {
+    "content": "right so this is what we look like in our post reset world we move the tip of",
+    "start": 1768
+  },
+  {
+    "content": "master back to our previous commit and all of our changes are hanging out but",
+    "start": 1772
+  },
+  {
+    "content": "the disclaimer with this is that you should never ever ever change the public",
+    "start": 1776
+  },
+  {
+    "content": "history of a branch that's been shared and pushed out so instead of using reset",
+    "start": 1779
+  },
+  {
+    "content": "we're gonna use our other friend revert for that revert works by essentially",
+    "start": 1784
+  },
+  {
+    "content": "creating like a reverse patch of the commit or commits that you specify so if",
+    "start": 1789
+  },
+  {
+    "content": "I pass in get revert and a commit that I don't want to keep anymore it will drop",
+    "start": 1794
+  },
+  {
+    "content": "me into vim which God them I don't know if anyone saw that there was like a",
+    "start": 1799
+  },
+  {
+    "content": "Stack Overflow article about how over 1 million people have viewed how to exit",
+    "start": 1803
+  },
+  {
+    "content": "them and I'm guessing that like this is why because you just get dropped into",
+    "start": 1808
+  },
+  {
+    "content": "him so but I'm happy with this commit message so I'm just going to hit escape",
+    "start": 1813
+  },
+  {
+    "content": ": WQ and it's gonna package up my revert and this is what branch looks like we",
+    "start": 1817
+  },
+  {
+    "content": "have this new commit G that's on the tip of Master which is a reverse patch of",
+    "start": 1825
+  },
+  {
+    "content": "the changes in commit e so now we haven't changed our public history we're",
+    "start": 1829
+  },
+  {
+    "content": "totally safe to push this up and share it with the rest of our colleagues",
+    "start": 1834
+  },
+  {
+    "content": "alright so hopefully I know that was a whirlwind tour but hopefully you all",
+    "start": 1838
+  },
+  {
+    "content": "have a really solid mental model now of how git works under the hood you know",
+    "start": 1843
+  },
+  {
+    "content": "you have some tools in your tool belt to help you fix your mistakes and the",
+    "start": 1848
+  },
+  {
+    "content": "really the most important thing to do is just don't panic I know get is really",
+    "start": 1852
+  },
+  {
+    "content": "intimidating it feels like the end of the world when you make a mistake but",
+    "start": 1856
+  },
+  {
+    "content": "literally almost everything and get is fixable you just have to know how and",
+    "start": 1859
+  },
+  {
+    "content": "they don't make it easy so if all those fields come - oh get calm or I",
+    "start": 1864
+  },
+  {
+    "content": "actually had the privilege of pairing with Julia Evans of Wizards eenz to make",
+    "start": 1872
+  },
+  {
+    "content": "an ocean get zine I'm sorry I am I'm upping the",
+    "start": 1877
+  },
+  {
+    "content": "40% off deal with a 50% off deal with code Jam stack so if you want to get",
+    "start": 1882
+  },
+  {
+    "content": "that and share it it also comes with it comes packaged for free with dang it get",
+    "start": 1888
+  },
+  {
+    "content": "the swear free version of the zine as well so that you can share it with your",
+    "start": 1892
+  },
+  {
+    "content": "you know people who are uptight about swears so that's it for me thank you",
+    "start": 1897
+  },
+  {
+    "content": "everyone [Applause]",
+    "start": 1902
+  },
+  {
+    "content": "[Applause]",
+    "start": 1906
+  },
+  {
+    "content": "",
+    "start": 1914
+  }
+]

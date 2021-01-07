@@ -1,0 +1,114 @@
+[
+  {
+    "content": "does the javascript ecosystem leave you",
+    "start": 0
+  },
+  {
+    "content": "feeling like this maybe it's time for something new",
+    "start": 10
+  },
+  {
+    "content": "redwood js redwood combines react with graphql",
+    "start": 13
+  },
+  {
+    "content": "and prisma to make what we call an edge-ready framework for the jam stack",
+    "start": 16
+  },
+  {
+    "content": "overwhelmed with webpack and babel configuration redwood's already taken",
+    "start": 21
+  },
+  {
+    "content": "care of it everything talks to each other out of",
+    "start": 25
+  },
+  {
+    "content": "the box and you can use our generators to write the boilerplate leaving you to",
+    "start": 27
+  },
+  {
+    "content": "write the fun stuff feeling overwhelmed trying to learn yet",
+    "start": 29
+  },
+  {
+    "content": "another javascript framework redwood has great documentation and an",
+    "start": 32
+  },
+  {
+    "content": "award-winning friendly tutorial to walk you through just about everything you",
+    "start": 36
+  },
+  {
+    "content": "can do with the framework tutorial has not actually won any awards",
+    "start": 38
+  },
+  {
+    "content": "so don't wait download redwood the next 30 minutes and you'll receive hundreds",
+    "start": 41
+  },
+  {
+    "content": "of npm packages absolutely free redwood is under very active development",
+    "start": 44
+  },
+  {
+    "content": "it should not be considered ready for production environment side effects",
+    "start": 48
+  },
+  {
+    "content": "redwood may include decreased stress increased job satisfaction and newfound",
+    "start": 50
+  },
+  {
+    "content": "sense of purpose visit redwood.js.com for more information",
+    "start": 52
+  },
+  {
+    "content": "so talk with your team today and find out if redwood's right for your next app",
+    "start": 55
+  },
+  {
+    "content": "redwood it's not just a big tree it's your new favorite javascript framework",
+    "start": 58
+  },
+  {
+    "content": "it started with a question can the jam stack be full stack",
+    "start": 67
+  },
+  {
+    "content": "in march we gave our answer yes we gave you integrated react",
+    "start": 74
+  },
+  {
+    "content": "graphql and prisma then we added built-in authentication",
+    "start": 81
+  },
+  {
+    "content": "then testing with jest and integrated storybook",
+    "start": 87
+  },
+  {
+    "content": "complete with data mocks typescript windows support diagnostics data",
+    "start": 91
+  },
+  {
+    "content": "migrations role-based access control other",
+    "start": 98
+  },
+  {
+    "content": "deployment targets more auth providers apollo 3",
+    "start": 102
+  },
+  {
+    "content": "120 contributors 4 600 github stars what do we want to add",
+    "start": 108
+  },
+  {
+    "content": "next you i'm tom preston warner",
+    "start": 115
+  },
+  {
+    "content": "welcome to the future of redwood js you",
+    "start": 121
+  }
+]

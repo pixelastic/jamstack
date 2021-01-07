@@ -1,0 +1,334 @@
+[
+  {
+    "content": "hope you don't mind the browser crafts",
+    "start": 0
+  },
+  {
+    "content": "out there I'm using MDX tech exciting yeah so I'm cute from from sanity I run",
+    "start": 14
+  },
+  {
+    "content": "developer relations their sanity is a platform for structured content we are",
+    "start": 21
+  },
+  {
+    "content": "offering a lot of tooling to like work with content for example for the jam",
+    "start": 27
+  },
+  {
+    "content": "stack and it lets you customize it lets you customize editors and deliver your",
+    "start": 33
+  },
+  {
+    "content": "content to any channel or products you know the drill so in practice",
+    "start": 43
+  },
+  {
+    "content": "distributing content means to be able to transform complex JSON data easily it",
+    "start": 48
+  },
+  {
+    "content": "means to be able to filter your documents so that you only get the",
+    "start": 56
+  },
+  {
+    "content": "documents you need and it needs it means to be able to choose what fields you",
+    "start": 60
+  },
+  {
+    "content": "want when when you are building your app or website and it also means that you",
+    "start": 66
+  },
+  {
+    "content": "should be able to like join in documents when there are references between them",
+    "start": 73
+  },
+  {
+    "content": "so for example you can get documents mentioning JavaScript in a title and",
+    "start": 80
+  },
+  {
+    "content": "output only the title and the author that is referenced from that document so",
+    "start": 88
+  },
+  {
+    "content": "enable to be able to do this with with sanity and the the content store that",
+    "start": 97
+  },
+  {
+    "content": "they have we developed something called broq it's a creole language it's kind of",
+    "start": 102
+  },
+  {
+    "content": "like SQL for Jason and I know everyone is thinking about the graph QL thing I",
+    "start": 108
+  },
+  {
+    "content": "will get back to that so we made this query language that makes it really easy",
+    "start": 113
+  },
+  {
+    "content": "to just query json documents without having any schemas or setting up",
+    "start": 123
+  },
+  {
+    "content": "resolvers or anything if there are JSON document there you can carry it you can",
+    "start": 128
+  },
+  {
+    "content": "find it we can choose which fields you need and you can even make joints",
+    "start": 132
+  },
+  {
+    "content": "stuff so here for example this store is like just select all the documents that",
+    "start": 137
+  },
+  {
+    "content": "you you have choose documents that have JavaScript in a title and do like a",
+    "start": 142
+  },
+  {
+    "content": "count of how many code blocks is in the rich text and give me back the title and",
+    "start": 149
+  },
+  {
+    "content": "give me back the array of authors and just their name because that's the",
+    "start": 156
+  },
+  {
+    "content": "reference and finally just ordered them after the published date so you can do",
+    "start": 161
+  },
+  {
+    "content": "this like in JavaScript like like sort of like this I think it's actually",
+    "start": 167
+  },
+  {
+    "content": "working but it's kind of a chore and it's never the part I look forward to do",
+    "start": 172
+  },
+  {
+    "content": "when I'm writing websites and stuff so grok has been pretty useful for us and",
+    "start": 178
+  },
+  {
+    "content": "for all our users millions of croc queries are run every day to our",
+    "start": 184
+  },
+  {
+    "content": "back-end but it's still tied to our back-end we be heard up from from people",
+    "start": 190
+  },
+  {
+    "content": "that are this croc is great but it's tied to your back-end you have like use",
+    "start": 198
+  },
+  {
+    "content": "use an online thing to use it so what if you didn't need to do that so this is",
+    "start": 203
+  },
+  {
+    "content": "pretty exciting news for all the sanity users and we hope that is exciting news",
+    "start": 213
+  },
+  {
+    "content": "for all of you other people that doesn't use it someday as well we are normally",
+    "start": 216
+  },
+  {
+    "content": "open sourcing the the grog specification and writing our specification for query",
+    "start": 221
+  },
+  {
+    "content": "language is a lot of work I don't stuff for a week and more",
+    "start": 228
+  },
+  {
+    "content": "importantly we are also giving you parsers for different programming",
+    "start": 233
+  },
+  {
+    "content": "languages so you can like implement this and in whatever and yes if there's a lot",
+    "start": 240
+  },
+  {
+    "content": "of time this brock and we hope that you will find it useful as well and now I",
+    "start": 246
+  },
+  {
+    "content": "will do the scary thing namely like do a live demo of create language in alpha",
+    "start": 251
+  },
+  {
+    "content": "CLI that we are publishing today as well and this is where my nerves is getting",
+    "start": 258
+  },
+  {
+    "content": "up so in Norway we have we have something called a buy in monopoly so",
+    "start": 262
+  },
+  {
+    "content": "there's only only one chain of stores you can buy alcohol",
+    "start": 269
+  },
+  {
+    "content": "in and for some reason we decided to just scrape the whole site and make like",
+    "start": 272
+  },
+  {
+    "content": "data dump of all the products so locally in this folder I have I think I have",
+    "start": 279
+  },
+  {
+    "content": "like oh I'm a start-up right I think I have like yeah some 8,000",
+    "start": 287
+  },
+  {
+    "content": "lines of data containing all the catalog for divine monopoly so what if I could",
+    "start": 297
+  },
+  {
+    "content": "just create read out for what I needed so I'll fire up the the grok CLI and I",
+    "start": 303
+  },
+  {
+    "content": "will say I would I just want the documents which is actually a product oh",
+    "start": 311
+  },
+  {
+    "content": "now you can see it all right this was the one thing I shouldn't like mess up",
+    "start": 321
+  },
+  {
+    "content": "yeah now is it so I have like 80,000",
+    "start": 326
+  },
+  {
+    "content": "documents in this like dump and I just want the products and I would I want",
+    "start": 330
+  },
+  {
+    "content": "some pretty printing and this will probably melt my computer I need to",
+    "start": 338
+  },
+  {
+    "content": "actually also choose the file right there's a lot of stuff going on I'm now",
+    "start": 343
+  },
+  {
+    "content": "outputting the whole document so now it spends time actually predefined like",
+    "start": 355
+  },
+  {
+    "content": "sixteen thousand JSON documents so let's not do that right that's just just cheat",
+    "start": 360
+  },
+  {
+    "content": "right this is going great commit this was exactly what you plan for yeah I",
+    "start": 379
+  },
+  {
+    "content": "haven't cheated of it so let's just run this done yeah",
+    "start": 389
+  },
+  {
+    "content": "so let's choose the products let's go with all the products that has 2012 name",
+    "start": 395
+  },
+  {
+    "content": "and just returned the name and lo and behold it works yeah fantastic",
+    "start": 401
+  },
+  {
+    "content": "with sanity you can also just wait one",
+    "start": 409
+  },
+  {
+    "content": "command export your whole data set so you just get all your documents like in",
+    "start": 413
+  },
+  {
+    "content": "in an empty JSON file so we did that with sanity at i/o and I'm the devil",
+    "start": 419
+  },
+  {
+    "content": "developer relations guy so I've written a lot of blog posts and documentation",
+    "start": 427
+  },
+  {
+    "content": "containing code examples so for some reason I just want to have the titles of",
+    "start": 433
+  },
+  {
+    "content": "the code like documents it has more than four code examples in them so I run this",
+    "start": 438
+  },
+  {
+    "content": "query I have a like account function that will return how many how many",
+    "start": 446
+  },
+  {
+    "content": "documents has like more than four blocks of the code type and",
+    "start": 451
+  },
+  {
+    "content": "it works wow I'm actually almost surprised so you can do a lot of cool",
+    "start": 459
+  },
+  {
+    "content": "stuff you can also pass in like if you have like random API I'm not sure I",
+    "start": 467
+  },
+  {
+    "content": "should do this actually so if you have a lot of random API let's see if this",
+    "start": 475
+  },
+  {
+    "content": "actually is so this is like just a round of mock to do list",
+    "start": 487
+  },
+  {
+    "content": "rest thing and I think this will work so I just want to return the completed",
+    "start": 492
+  },
+  {
+    "content": "tasks in this one yeah that's not pretty good yeah",
+    "start": 498
+  },
+  {
+    "content": "you get the gist and you can go and you can select for example the user ID just",
+    "start": 504
+  },
+  {
+    "content": "got that or this is the killer feature that like makes this better than graph",
+    "start": 512
+  },
+  {
+    "content": "QL you can Emily if you just want the rest of the fields you can just spit",
+    "start": 518
+  },
+  {
+    "content": "them out I'm not even getting yeah don't have to specify it yeah right so there's",
+    "start": 522
+  },
+  {
+    "content": "a lot of more stuff that you can do with crock I wouldn't I won't throw that so",
+    "start": 529
+  },
+  {
+    "content": "you know but you can go here and find a specification and if you follow our",
+    "start": 533
+  },
+  {
+    "content": "channels with Twitter and blogs and stuff you can find the other stuff as",
+    "start": 539
+  },
+  {
+    "content": "well and do you come to me afterwards tell me the merits of graph QL and and I",
+    "start": 542
+  },
+  {
+    "content": "will explain why both are great thanks [Applause]",
+    "start": 549
+  }
+]

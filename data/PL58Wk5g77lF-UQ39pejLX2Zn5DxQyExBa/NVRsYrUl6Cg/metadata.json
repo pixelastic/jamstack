@@ -4,9 +4,11 @@
   "position": 7,
   "publishedAt": 1542606449,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/NVRsYrUl6Cg/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/NVRsYrUl6Cg/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/NVRsYrUl6Cg/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/NVRsYrUl6Cg/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/NVRsYrUl6Cg/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/NVRsYrUl6Cg/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/NVRsYrUl6Cg/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/NVRsYrUl6Cg/default.jpg"
   },
   "title": "Quincy Larson - How freeCodeCamp Serves Millions of Learners Using the JAMstack"
 }

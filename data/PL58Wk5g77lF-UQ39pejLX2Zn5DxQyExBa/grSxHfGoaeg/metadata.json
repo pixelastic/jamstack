@@ -4,9 +4,11 @@
   "position": 5,
   "publishedAt": 1542606400,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/grSxHfGoaeg/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/grSxHfGoaeg/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/grSxHfGoaeg/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/grSxHfGoaeg/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/grSxHfGoaeg/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/grSxHfGoaeg/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/grSxHfGoaeg/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/grSxHfGoaeg/default.jpg"
   },
   "title": "Chris Coyier - The All Powerful Front End Developer"
 }

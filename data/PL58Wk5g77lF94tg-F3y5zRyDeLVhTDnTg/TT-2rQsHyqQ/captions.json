@@ -1,0 +1,626 @@
+[
+  {
+    "content": "well hello there",
+    "start": 0
+  },
+  {
+    "content": "and you'll have to part my tire i just got back from a run",
+    "start": 13
+  },
+  {
+    "content": "and i'm back just in time for the jam stack conf",
+    "start": 17
+  },
+  {
+    "content": "so with just under 10 minutes to go um how fitting is it that i'm gonna do a",
+    "start": 20
+  },
+  {
+    "content": "lightning talk on performance all right let's go join",
+    "start": 24
+  },
+  {
+    "content": "me so for my ladies aside my name is aki",
+    "start": 27
+  },
+  {
+    "content": "i'm a freelance developer in toronto greatest city on the planet",
+    "start": 30
+  },
+  {
+    "content": "helvetica is my twitter handle and instagram handle but it's not my real",
+    "start": 34
+  },
+  {
+    "content": "last name and yes i do run the jam stack toronto",
+    "start": 38
+  },
+  {
+    "content": "meetup so i'm super happy to be here now speaking of i'm going to brag for a",
+    "start": 41
+  },
+  {
+    "content": "second but i think i have the best logo around",
+    "start": 46
+  },
+  {
+    "content": "and in fact whenever you see that camera in the top right corner",
+    "start": 49
+  },
+  {
+    "content": "and you see a jiggle like that that means you should take a screenshot and",
+    "start": 52
+  },
+  {
+    "content": "share it on twitter so thank you very much now",
+    "start": 56
+  },
+  {
+    "content": "closing i'd like to thank the good people at the jamstack conference",
+    "start": 58
+  },
+  {
+    "content": "for inviting me i saw that email come in it was a delightful surprise",
+    "start": 63
+  },
+  {
+    "content": "so i'm super happy to be here and sharing some information so let's go",
+    "start": 67
+  },
+  {
+    "content": "and performance for all understanding a lighthouse core",
+    "start": 71
+  },
+  {
+    "content": "now performance i used to call it a bit of a dark art but luckily i'm here to",
+    "start": 74
+  },
+  {
+    "content": "shed a bit of this bright light so everyone can understand",
+    "start": 79
+  },
+  {
+    "content": "it since the mid-2000s uh we've made much effort in understanding performance",
+    "start": 82
+  },
+  {
+    "content": "we considered pretty much a user experience story",
+    "start": 87
+  },
+  {
+    "content": "but user experience is kind of an intangible when you say",
+    "start": 91
+  },
+  {
+    "content": "we needed a fix to create tangible metrics",
+    "start": 95
+  },
+  {
+    "content": "metrics that could in fact reflect the ux",
+    "start": 98
+  },
+  {
+    "content": "and with that being said after a decade of much iterations",
+    "start": 102
+  },
+  {
+    "content": "we were able to create significant tooling tooling like",
+    "start": 106
+  },
+  {
+    "content": "firebug very influential about 2070 came out um",
+    "start": 109
+  },
+  {
+    "content": "i believe it was joe hewitt uh we didn't have tools like why slow",
+    "start": 114
+  },
+  {
+    "content": "that gave out performance grading for pages on performance",
+    "start": 119
+  },
+  {
+    "content": "obviously shout outs uh steve souters we also had tools like or still have tools",
+    "start": 122
+  },
+  {
+    "content": "like web page tests a pat meaning creation that is basically",
+    "start": 127
+  },
+  {
+    "content": "considered the cadillac of performance testing and of course if",
+    "start": 130
+  },
+  {
+    "content": "you use a browser you use browser type tools hopefully but",
+    "start": 134
+  },
+  {
+    "content": "very powerful tooling within dev tools to debug on a",
+    "start": 138
+  },
+  {
+    "content": "performance level but we are here talking about lighthouse",
+    "start": 142
+  },
+  {
+    "content": "now lighthouse launches a sequence of audits including the famed",
+    "start": 146
+  },
+  {
+    "content": "uh performance score now in this performance core i find people like to",
+    "start": 150
+  },
+  {
+    "content": "post it a lot on twitter in fact sometimes",
+    "start": 154
+  },
+  {
+    "content": "they're kind of bragging here we have wes boss talking about he",
+    "start": 156
+  },
+  {
+    "content": "did a little bit of work using gatsby and he ended up with 99",
+    "start": 160
+  },
+  {
+    "content": "score i mean that might be a canadian win",
+    "start": 164
+  },
+  {
+    "content": "gretzky thing i don't know but then you have people like guillermo",
+    "start": 166
+  },
+  {
+    "content": "here of nextgs and versailles fame talking about some of the scores that he",
+    "start": 170
+  },
+  {
+    "content": "was able to uh achieve and here reflecting across the",
+    "start": 174
+  },
+  {
+    "content": "globe and speaking of international we had",
+    "start": 178
+  },
+  {
+    "content": "someone here who had just discovered a lighthouse through a i believe it was",
+    "start": 181
+  },
+  {
+    "content": "a workshop and he was pleasantly surprised with the",
+    "start": 186
+  },
+  {
+    "content": "score he was able to achieve with a little bit of work now",
+    "start": 189
+  },
+  {
+    "content": "speaking of scores let's talk about the lighthouse score",
+    "start": 192
+  },
+  {
+    "content": "it's calculated by way of metrics now metrics are measurements yes",
+    "start": 196
+  },
+  {
+    "content": "but the lighthouse score is governed by weights and",
+    "start": 201
+  },
+  {
+    "content": "measures and the metrics are weighted differently",
+    "start": 205
+  },
+  {
+    "content": "and thus some are going to be more important than others",
+    "start": 208
+  },
+  {
+    "content": "now let's bring up an example i talked about",
+    "start": 211
+  },
+  {
+    "content": "earlier that you know i'm a runner earlier this year i was able to do a 128",
+    "start": 214
+  },
+  {
+    "content": "30 21k run at 411 pace",
+    "start": 219
+  },
+  {
+    "content": "now once upon a time the distance may have been the",
+    "start": 223
+  },
+  {
+    "content": "priority metric for me but today i'm all about my pace",
+    "start": 227
+  },
+  {
+    "content": "to me this is the one that i keep close enough a close eye on",
+    "start": 231
+  },
+  {
+    "content": "and with lighthouse it's pretty much the same and we're going to find out",
+    "start": 235
+  },
+  {
+    "content": "the metrics are made available obviously for the lighthouse score",
+    "start": 239
+  },
+  {
+    "content": "and like i said some are going to have a bit more weight than others",
+    "start": 243
+  },
+  {
+    "content": "as such the majority of your performance score",
+    "start": 247
+  },
+  {
+    "content": "will come from a minority of metrics it's kind of like",
+    "start": 250
+  },
+  {
+    "content": "losing the popular vote and somehow still becoming president",
+    "start": 254
+  },
+  {
+    "content": "anyhow the performance score is made of six metrics and we're going",
+    "start": 259
+  },
+  {
+    "content": "to take a look at them now this performance metrics i'm going",
+    "start": 265
+  },
+  {
+    "content": "to go through them in the same order that you would see them",
+    "start": 268
+  },
+  {
+    "content": "in your audit and your report let's start",
+    "start": 271
+  },
+  {
+    "content": "first content for paint fcp for short measures how long it takes",
+    "start": 275
+  },
+  {
+    "content": "the browser to render the first piece of dom content",
+    "start": 279
+  },
+  {
+    "content": "after a user navigates to your page essentially it's a first assembly some",
+    "start": 282
+  },
+  {
+    "content": "content that shows up on a page now below on this slide you're going to",
+    "start": 286
+  },
+  {
+    "content": "see a series of timings and what constitutes",
+    "start": 290
+  },
+  {
+    "content": "good me it needs work now here two seconds",
+    "start": 294
+  },
+  {
+    "content": "and faster considered good four seconds and above",
+    "start": 298
+  },
+  {
+    "content": "needs work between two seconds and four is kind of",
+    "start": 302
+  },
+  {
+    "content": "like meh so you be the judge now the speed index",
+    "start": 305
+  },
+  {
+    "content": "is the next metric and it's one of my favorites in fact uh",
+    "start": 310
+  },
+  {
+    "content": "it measures how quickly content is visually displayed during",
+    "start": 314
+  },
+  {
+    "content": "a page load now um here you can see the timings that are involved in terms of",
+    "start": 317
+  },
+  {
+    "content": "what's good what's so so and what needs work this is something that i'd love for",
+    "start": 322
+  },
+  {
+    "content": "you to take a closer look at because it's a really good metric",
+    "start": 326
+  },
+  {
+    "content": "largest contentful paint now the largest contentful paint",
+    "start": 329
+  },
+  {
+    "content": "lcp for short reports the render time of the largest image",
+    "start": 333
+  },
+  {
+    "content": "or text block visible within the viewport this is something that you're",
+    "start": 338
+  },
+  {
+    "content": "going to see is very important a little later",
+    "start": 342
+  },
+  {
+    "content": "next up we have the time to interactive tti measures how long it takes a page",
+    "start": 345
+  },
+  {
+    "content": "to become fully interactive and again here you can see the metrics",
+    "start": 352
+  },
+  {
+    "content": "so you have to keep that in mind and here we have the tbt",
+    "start": 356
+  },
+  {
+    "content": "total blocking time tbt measures the total amount of time that a page is",
+    "start": 361
+  },
+  {
+    "content": "blocked from responding to user input now",
+    "start": 366
+  },
+  {
+    "content": "this is basically adding up all the long task overages",
+    "start": 371
+  },
+  {
+    "content": "now long task is 50 milliseconds or less or more pardon me",
+    "start": 375
+  },
+  {
+    "content": "and um so any long tasks that you have throughout your page",
+    "start": 382
+  },
+  {
+    "content": "the overage is added up and that becomes the tbt",
+    "start": 387
+  },
+  {
+    "content": "and lastly we have the cumulative layout shift now",
+    "start": 391
+  },
+  {
+    "content": "bear with me this is the long one it measures the sum",
+    "start": 395
+  },
+  {
+    "content": "total of all individual layout shift scores for every unexpected layout shift",
+    "start": 398
+  },
+  {
+    "content": "that occurs during the entire life span of a page",
+    "start": 403
+  },
+  {
+    "content": "in plain english it's like your page is janky",
+    "start": 407
+  },
+  {
+    "content": "that's it in fact this used to be an experimental metric that was called the",
+    "start": 411
+  },
+  {
+    "content": "layout jank api so it's matured to become the layout",
+    "start": 416
+  },
+  {
+    "content": "shift it's not a timing metric but",
+    "start": 419
+  },
+  {
+    "content": "it's something that you want to take a look at at some point",
+    "start": 424
+  },
+  {
+    "content": "but what about the weights do you even lift bro",
+    "start": 428
+  },
+  {
+    "content": "let's talk about weights um let's look at the metric weights",
+    "start": 432
+  },
+  {
+    "content": "in reverse descending order and that starts with the layout shift",
+    "start": 436
+  },
+  {
+    "content": "that we just talked about now this is worth only about five",
+    "start": 441
+  },
+  {
+    "content": "percent of your uh lighthouse score so what this this means",
+    "start": 444
+  },
+  {
+    "content": "simply like you might not want to spend too much",
+    "start": 449
+  },
+  {
+    "content": "time on it but at least you know what it's worth but where it gets a bit",
+    "start": 452
+  },
+  {
+    "content": "more interesting is the following speed index first content for paint time",
+    "start": 456
+  },
+  {
+    "content": "to interactive all worth 15 your score so together",
+    "start": 460
+  },
+  {
+    "content": "that's 45 of your score that you may want to take",
+    "start": 464
+  },
+  {
+    "content": "a look at especially once if one goes south you might want to prop",
+    "start": 468
+  },
+  {
+    "content": "it up to make sure that you can achieve a bit of a better score",
+    "start": 472
+  },
+  {
+    "content": "and lastly the largest content for paint and total blocking time together they",
+    "start": 477
+  },
+  {
+    "content": "make up fifty percent your score oh look at that",
+    "start": 483
+  },
+  {
+    "content": "the camera at the top right corner and it's jiggling um",
+    "start": 486
+  },
+  {
+    "content": "you might remember that about 14 slides ago",
+    "start": 490
+  },
+  {
+    "content": "i mentioned this the majority of your poor",
+    "start": 494
+  },
+  {
+    "content": "performance score will come from a minority metrics",
+    "start": 497
+  },
+  {
+    "content": "these two metrics right here constitute 50",
+    "start": 502
+  },
+  {
+    "content": "of your score i consider these two absolutely a p1",
+    "start": 505
+  },
+  {
+    "content": "and if they go south your score goes south as well",
+    "start": 510
+  },
+  {
+    "content": "now let's look quickly at some additional data",
+    "start": 513
+  },
+  {
+    "content": "um do you have any idea what the lighthouse the median lighthouse score",
+    "start": 517
+  },
+  {
+    "content": "is across the web i'm gonna give you 3000 milliseconds to",
+    "start": 521
+  },
+  {
+    "content": "figure it out okay it's 49.",
+    "start": 524
+  },
+  {
+    "content": "that is correct the median lighthouse score",
+    "start": 532
+  },
+  {
+    "content": "is a failing grade now you see the camera at the top right",
+    "start": 535
+  },
+  {
+    "content": "it's jiggling you might want to share that on twitter",
+    "start": 540
+  },
+  {
+    "content": "let's look at that same data but here in the distribution of scores across six",
+    "start": 543
+  },
+  {
+    "content": "million sites you can see the majority are getting a",
+    "start": 549
+  },
+  {
+    "content": "score between 25 and 50. just",
+    "start": 553
+  },
+  {
+    "content": "just under 2 million sites now if we start to look at this oh",
+    "start": 556
+  },
+  {
+    "content": "look at that the camera at the top right and it's jiggling",
+    "start": 561
+  },
+  {
+    "content": "let's go now if we start to look at this in more familiar color coding the red",
+    "start": 564
+  },
+  {
+    "content": "the green and the yellow you see that 50 of sites are essentially",
+    "start": 570
+  },
+  {
+    "content": "not passing eleven percent are doing very well",
+    "start": 575
+  },
+  {
+    "content": "and forty percent are like me and again top right corner you see the camera",
+    "start": 578
+  },
+  {
+    "content": "jiggly so in conclusion already pardon me",
+    "start": 583
+  },
+  {
+    "content": "um we have six metrics to optimize or at least work with",
+    "start": 588
+  },
+  {
+    "content": "but these are not rules they are regular rigorously researched recommendations",
+    "start": 592
+  },
+  {
+    "content": "essentially uh guidance we also now know what each metric",
+    "start": 598
+  },
+  {
+    "content": "weighs so you'll know where to put the effort in",
+    "start": 604
+  },
+  {
+    "content": "if it goes south and to improve your lighthouse score",
+    "start": 608
+  },
+  {
+    "content": "but ultimately the key is to optimize optimize for your immediate use case",
+    "start": 613
+  },
+  {
+    "content": "like i did for when i'm running i used to look at the",
+    "start": 617
+  },
+  {
+    "content": "distance but now i absolutely look at pace that's what's most important to me",
+    "start": 621
+  },
+  {
+    "content": "and with that being said you'll be able to",
+    "start": 625
+  },
+  {
+    "content": "achieve a 100 score just like our man if you know who that is wilt chamberlain",
+    "start": 628
+  },
+  {
+    "content": "did back in the days thank you very much and have yourself a",
+    "start": 633
+  },
+  {
+    "content": "great time you",
+    "start": 638
+  }
+]

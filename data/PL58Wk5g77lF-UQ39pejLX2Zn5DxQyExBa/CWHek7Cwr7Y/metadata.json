@@ -4,9 +4,11 @@
   "position": 11,
   "publishedAt": 1542606604,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/CWHek7Cwr7Y/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/CWHek7Cwr7Y/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/CWHek7Cwr7Y/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/CWHek7Cwr7Y/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/CWHek7Cwr7Y/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/CWHek7Cwr7Y/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/CWHek7Cwr7Y/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/CWHek7Cwr7Y/default.jpg"
   },
   "title": "Tanmai Gopal - How to Setup Production"
 }

@@ -1,0 +1,1814 @@
+[
+  {
+    "content": "thanks very much um thanks for having me",
+    "start": 3
+  },
+  {
+    "content": "first of all yes my my first time at this Meetup I'm excited excited to be",
+    "start": 17
+  },
+  {
+    "content": "here uh one of the reasons Cassandra had to fill is cuz I was fiddling with my",
+    "start": 21
+  },
+  {
+    "content": "remote and I realize I'm just standing in front of the thing so I don't know",
+    "start": 26
+  },
+  {
+    "content": "why I was mean maybe I should use it just for for the sake of it I don't",
+    "start": 29
+  },
+  {
+    "content": "think so so first of all let me just introduce",
+    "start": 33
+  },
+  {
+    "content": "myself my name's my name's Phil hooks with and I'm a technology director based",
+    "start": 36
+  },
+  {
+    "content": "in in in London in the UK I work for an agency called IgA RJ I had offices in",
+    "start": 41
+  },
+  {
+    "content": "New York with offices in San Francisco and around about and in Europe and a few",
+    "start": 48
+  },
+  {
+    "content": "other places in in the US and we're an agency effectively you know we the way",
+    "start": 53
+  },
+  {
+    "content": "that I tend to describe us is we make stuff for clients which doesn't isn't",
+    "start": 59
+  },
+  {
+    "content": "very meaningful that's what most of us probably do our GA themselves you know",
+    "start": 66
+  },
+  {
+    "content": "we say we are J creates product services and communications that help grow our",
+    "start": 70
+  },
+  {
+    "content": "clients businesses but I put this up because it helps because it's really",
+    "start": 74
+  },
+  {
+    "content": "broad the kind of things that we do is is very broad indeed when you might be",
+    "start": 79
+  },
+  {
+    "content": "building websites for campaigns we might be loading platforms we might be",
+    "start": 83
+  },
+  {
+    "content": "building physical products all kinds of different things so we touch a lot of",
+    "start": 86
+  },
+  {
+    "content": "things the thing I care about and my background is in web development and",
+    "start": 91
+  },
+  {
+    "content": "that's that's where I've come from so the the other title that I tend to have",
+    "start": 95
+  },
+  {
+    "content": "had from time to time other than technology director is the dream crusher",
+    "start": 102
+  },
+  {
+    "content": "which as you can imagine I'm terribly proud of and that's one of the the side",
+    "start": 107
+  },
+  {
+    "content": "effects of working as a technology director I think in many places",
+    "start": 113
+  },
+  {
+    "content": "particularly agencies where you're working very closely with a creative",
+    "start": 117
+  },
+  {
+    "content": "team trying to figure out what the concept is how you might solve a",
+    "start": 121
+  },
+  {
+    "content": "particular problem bring something to life and at some point you've got you've",
+    "start": 124
+  },
+  {
+    "content": "got to bring it back to reality from time to time so so yeah the there is",
+    "start": 129
+  },
+  {
+    "content": "that kind of tension that exists and I try to be an enabler",
+    "start": 134
+  },
+  {
+    "content": "dream crusher but you know it doesn't always work out that way this this",
+    "start": 138
+  },
+  {
+    "content": "little cartoon here was drawn by my friend Michael Steve who is pictured",
+    "start": 141
+  },
+  {
+    "content": "there whose dreams I am crushing there and he was so motivated that he actually",
+    "start": 146
+  },
+  {
+    "content": "went to do like a whole brand identity for me that's my logo and he created me",
+    "start": 152
+  },
+  {
+    "content": "as a super villain as well with a dream crusher clasp and so you know I also put",
+    "start": 158
+  },
+  {
+    "content": "this up just to help give a tiny bit of a context just again as a bit of a",
+    "start": 165
+  },
+  {
+    "content": "introducing myself um previously I have done a bunch of",
+    "start": 169
+  },
+  {
+    "content": "different talks who knows what all of these are going to come in but here we",
+    "start": 174
+  },
+  {
+    "content": "go so I did one recently called I can smell your CMS which is all about code",
+    "start": 179
+  },
+  {
+    "content": "smells that arrive in the code that we that we build because of the content",
+    "start": 184
+  },
+  {
+    "content": "management systems we live on top of I think it's really important that",
+    "start": 189
+  },
+  {
+    "content": "front-end developers in particular just my background as front-end developer",
+    "start": 193
+  },
+  {
+    "content": "front-end developers need to have the freedom to you know work their craft and",
+    "start": 197
+  },
+  {
+    "content": "some tools can get in the way of that I also recently did a talk called static",
+    "start": 201
+  },
+  {
+    "content": "sites go all Hollywood because now I'm really starting to think about the power",
+    "start": 207
+  },
+  {
+    "content": "of static sites as you know as an approach and thinking that they can do",
+    "start": 212
+  },
+  {
+    "content": "much more than perhaps we've we've given them credit for in the past I guess",
+    "start": 217
+  },
+  {
+    "content": "that's one of the reasons that people are here because they kind of feel to",
+    "start": 221
+  },
+  {
+    "content": "some extent the same way so you know there is a bunch of information and a",
+    "start": 225
+  },
+  {
+    "content": "deeper dive into a lot of those things and some other talks that I'll share the",
+    "start": 230
+  },
+  {
+    "content": "links later on as as part of this deck but all of those talks really kind of",
+    "start": 234
+  },
+  {
+    "content": "look at the fact that I'm I'm very keen on empowering front-end developers",
+    "start": 241
+  },
+  {
+    "content": "getting things out of the way of front-end developers so that we can",
+    "start": 245
+  },
+  {
+    "content": "perform our craft I think that's super important that's very broad so you know",
+    "start": 248
+  },
+  {
+    "content": "the focus for today and I apologize I think that the title maybe I provided",
+    "start": 253
+  },
+  {
+    "content": "I've modified a little bit since then of those I think there's something",
+    "start": 258
+  },
+  {
+    "content": "advertised about high performance site architectures certainly am kind of",
+    "start": 261
+  },
+  {
+    "content": "touching on that but you know I've moved away with the title somewhat so this",
+    "start": 265
+  },
+  {
+    "content": "rather strange title easy isomorphic rendering on the jam",
+    "start": 268
+  },
+  {
+    "content": "stack and there's a lot to take in from that easy first of all really I'm always",
+    "start": 273
+  },
+  {
+    "content": "suspicious when a talk says that but hopefully I will look at a simple kind",
+    "start": 278
+  },
+  {
+    "content": "of consumable example of what I'm talking about here what am I talking",
+    "start": 284
+  },
+  {
+    "content": "about here isomorphic that seems like a nonsense things to say but hopefully I",
+    "start": 288
+  },
+  {
+    "content": "will kind of talk about how things can happen on the server and then also in",
+    "start": 293
+  },
+  {
+    "content": "the client and how they can be the same that thing I'm talking about is the",
+    "start": 297
+  },
+  {
+    "content": "rendering and I've I got called out recently when I talked about rendering",
+    "start": 300
+  },
+  {
+    "content": "on the client someone called bullshit's or me saying you mean outputting HTML",
+    "start": 304
+  },
+  {
+    "content": "right and I said yes that's all that's what I mean by that but you know I know",
+    "start": 309
+  },
+  {
+    "content": "that that's the buzzword we're embracing Jam stack I think we're kind of happy",
+    "start": 312
+  },
+  {
+    "content": "with here in this forum but just in case you know the jam stack you know is you",
+    "start": 316
+  },
+  {
+    "content": "know JavaScript API some markup I believe popularized by Matias at the",
+    "start": 324
+  },
+  {
+    "content": "back I you're taking credit for it right yeah he's taking credit for it yeah but",
+    "start": 328
+  },
+  {
+    "content": "popularizing okay ah okay all right okay that's a good background and so you know",
+    "start": 334
+  },
+  {
+    "content": "this this is becoming a little bit more popular and I know a little bit more",
+    "start": 343
+  },
+  {
+    "content": "sexy way to talk about static sites that maybe feels like it's a bit limited and",
+    "start": 347
+  },
+  {
+    "content": "thinking about static and so I'm kind of all behind this kind of moniker I am a",
+    "start": 352
+  },
+  {
+    "content": "little bit uneasy at times when I think about this approach being markup api's",
+    "start": 358
+  },
+  {
+    "content": "in JavaScript cuz it might suggest that we deliver something that then has to be",
+    "start": 363
+  },
+  {
+    "content": "driven in the browser by JavaScript I know it's not contained to that and I'll",
+    "start": 366
+  },
+  {
+    "content": "try and unpack an example of that along the way as well",
+    "start": 370
+  },
+  {
+    "content": "but anyway so how are we doing okay this is getting butchered a little bit but",
+    "start": 373
+  },
+  {
+    "content": "okay the jumps that makes up yes that's where we are San Francisco yes where we",
+    "start": 378
+  },
+  {
+    "content": "are that is me okay we're good to go so um so then trying to get into the actual",
+    "start": 382
+  },
+  {
+    "content": "presentation so what I'm hoping to do is look at a simple site example with the",
+    "start": 388
+  },
+  {
+    "content": "static and what I mean is Jam stack architecture and you know look at how I",
+    "start": 393
+  },
+  {
+    "content": "think that can be something that could be quite exciting and something that can",
+    "start": 399
+  },
+  {
+    "content": "perform really well and do things that sometimes we deploy",
+    "start": 402
+  },
+  {
+    "content": "much more complex architecture to deliver I'm probably preaching to the",
+    "start": 405
+  },
+  {
+    "content": "choir a little bit here but I think it's just worth re-emphasizing why static",
+    "start": 410
+  },
+  {
+    "content": "site architectures are something we should care about I think probably",
+    "start": 414
+  },
+  {
+    "content": "people are bought into that already but you know why should we care",
+    "start": 417
+  },
+  {
+    "content": "you know the cheat sheet and I talk to lots of clients large enterprises that",
+    "start": 421
+  },
+  {
+    "content": "need a bit of swaying about this sometimes but this is what I kind of",
+    "start": 427
+  },
+  {
+    "content": "talk them about you know the fact that with this architecture we've got access",
+    "start": 430
+  },
+  {
+    "content": "to much cheaper simpler hosting it cause in that hosting environment you know",
+    "start": 434
+  },
+  {
+    "content": "we've got fewer points of failure few of vulnerabilities because there are less",
+    "start": 439
+  },
+  {
+    "content": "moving parts there you know we're serving static assets so you know there",
+    "start": 443
+  },
+  {
+    "content": "are less kind of attack vectors which leads to things like easier compliance",
+    "start": 447
+  },
+  {
+    "content": "and that's not a very sexy term so to trot out but know when you are working",
+    "start": 451
+  },
+  {
+    "content": "with clients who are large corporations often there's a lot of rigor about now",
+    "start": 455
+  },
+  {
+    "content": "what is the infrastructure what machinery do you need to deploy into",
+    "start": 460
+  },
+  {
+    "content": "their environment to deliver your project so the simpler that is the",
+    "start": 463
+  },
+  {
+    "content": "better we also have kind of greater portability and where we host our code",
+    "start": 467
+  },
+  {
+    "content": "and sandbox in the environments and what have you and simple",
+    "start": 471
+  },
+  {
+    "content": "simpler performance optimization in that a lot of stuff is kept out the way so",
+    "start": 475
+  },
+  {
+    "content": "that we can focus on the craft of delivering a high Corman's front-end and",
+    "start": 479
+  },
+  {
+    "content": "web experience so that was that was a lot in 45 seconds but there you go",
+    "start": 484
+  },
+  {
+    "content": "so what are we going to look at well I'm going to show you just a very simple",
+    "start": 490
+  },
+  {
+    "content": "example site something that I put together kind of to prove you prove a",
+    "start": 494
+  },
+  {
+    "content": "point and just just prove out the architecture it's not very complex I'll",
+    "start": 498
+  },
+  {
+    "content": "talk a little bit about the performance and the technical goals I set for myself",
+    "start": 503
+  },
+  {
+    "content": "in doing that and then show by the architecture the logical architecture",
+    "start": 506
+  },
+  {
+    "content": "that drives that then I'll dig into this this term isomorphic rendering and show",
+    "start": 510
+  },
+  {
+    "content": "you know how that's been implemented and then talk a little bit about hosting",
+    "start": 517
+  },
+  {
+    "content": "tools it will be about Netta Phi that's that's the place I'm hosting this I make",
+    "start": 521
+  },
+  {
+    "content": "no apologies for it and then I'll talk a little bit about the development",
+    "start": 526
+  },
+  {
+    "content": "workflow that's been enabled by this kind of setup and then also the content",
+    "start": 530
+  },
+  {
+    "content": "management workflow a lot you see but I'm sure we can get through it so",
+    "start": 535
+  },
+  {
+    "content": "the site this is the site it is very very simple it's for a little comedy",
+    "start": 541
+  },
+  {
+    "content": "night that I that I helped her to run so it is it is a pretty pretty simple thing",
+    "start": 548
+  },
+  {
+    "content": "exactly what you might expect for a recurring recurring event night that has",
+    "start": 555
+  },
+  {
+    "content": "apps that come along a very simple model but the characteristics for this no",
+    "start": 559
+  },
+  {
+    "content": "because when we're looking at the tools that we're going to apply to a problem",
+    "start": 564
+  },
+  {
+    "content": "we need to think about what is the problem we're trying to solve so what",
+    "start": 567
+  },
+  {
+    "content": "are the characteristics for this site so what kind of content targeting that we",
+    "start": 570
+  },
+  {
+    "content": "got there well it's one audience it's an a universal audience I like to think",
+    "start": 575
+  },
+  {
+    "content": "even though that our catchment area is the tiny town I live in so it's one set",
+    "start": 579
+  },
+  {
+    "content": "of content for all there's no localization there's no personalization",
+    "start": 584
+  },
+  {
+    "content": "to that's simpler for me in this particular context the content you know",
+    "start": 587
+  },
+  {
+    "content": "how frequently is that can be published well there's a few a few posts that",
+    "start": 593
+  },
+  {
+    "content": "happen each week and a few updates that happen each week I wanted to have an",
+    "start": 597
+  },
+  {
+    "content": "example of the site that I wasn't the only person editing it so they can",
+    "start": 601
+  },
+  {
+    "content": "actually see how now a non-technical contributor might work on the platform",
+    "start": 605
+  },
+  {
+    "content": "and so that kind of gives me that opportunity",
+    "start": 611
+  },
+  {
+    "content": "what kind of stability have you got in the design and the code well that's all",
+    "start": 614
+  },
+  {
+    "content": "me so there are frequent but minor iterations - this is something that's",
+    "start": 618
+  },
+  {
+    "content": "evolved over time but it has given me an opportunity to see you know with a",
+    "start": 622
+  },
+  {
+    "content": "regular cadence of releases with this with this approach work and I believe it",
+    "start": 627
+  },
+  {
+    "content": "does and is there any user-generated content because that obviously is",
+    "start": 631
+  },
+  {
+    "content": "something as a challenge for for a jam stack of architecture no there's no",
+    "start": 635
+  },
+  {
+    "content": "published user-generated content however the site does need to capture",
+    "start": 641
+  },
+  {
+    "content": "contributions from visitors so it's like a registration form if you like so those",
+    "start": 645
+  },
+  {
+    "content": "are the characteristics now I'm going to do something that always fills me with",
+    "start": 651
+  },
+  {
+    "content": "dread I'm going to leave keynote makes me nervous so here we are here we are",
+    "start": 655
+  },
+  {
+    "content": "this is the this is the experience obviously reloaded so it's a very simple",
+    "start": 664
+  },
+  {
+    "content": "site as you can see oh is that is that a problem okay all right",
+    "start": 668
+  },
+  {
+    "content": "I'm gonna do oh dear I'm gonna do this and I'll drive it over my shoulder so",
+    "start": 675
+  },
+  {
+    "content": "the mirroring stays okay so apologies if you can't hear me shout at me if that's",
+    "start": 683
+  },
+  {
+    "content": "the case um so it's very simple sight as you can see it's a landing page is just",
+    "start": 687
+  },
+  {
+    "content": "you know what's the upcoming event whoo-hoo the acts that are going to be",
+    "start": 692
+  },
+  {
+    "content": "performing some details about the event you know where to find us a link to a",
+    "start": 697
+  },
+  {
+    "content": "map some of the details form as I mentioned as well and then you know what",
+    "start": 700
+  },
+  {
+    "content": "what are the other dates you know what the upcoming dates are the things what",
+    "start": 707
+  },
+  {
+    "content": "what are the nights there in the past and each of these nights has a page you",
+    "start": 713
+  },
+  {
+    "content": "know it's got a date for the URL you can see see what happened and then another",
+    "start": 718
+  },
+  {
+    "content": "page which is just an aggregation of all of the acts that are performed so it's",
+    "start": 725
+  },
+  {
+    "content": "as I said is it's simple but there's enough here to start to model content",
+    "start": 730
+  },
+  {
+    "content": "and start to build out an architecture yeah okay",
+    "start": 734
+  },
+  {
+    "content": "so so then back to keynote so I don't have to look over my shoulder I think oh",
+    "start": 740
+  },
+  {
+    "content": "I have a mouse pointer somewhere but who knows who knows where it is",
+    "start": 749
+  },
+  {
+    "content": "you're still there okay whew all right so that's that's the site um",
+    "start": 758
+  },
+  {
+    "content": "some technical goals so I've talked about the profile of it well what are",
+    "start": 768
+  },
+  {
+    "content": "the technical goals well I wanted a meaning of will pay a meaningful URL for",
+    "start": 772
+  },
+  {
+    "content": "every page of the site you know I wanted content that was accessible on every URL",
+    "start": 777
+  },
+  {
+    "content": "I wanted all of the URLs to be crawlable to be Kerbal indexable pages so in other",
+    "start": 782
+  },
+  {
+    "content": "words real content delivered from every URL of the site",
+    "start": 788
+  },
+  {
+    "content": "I wanted rapid rendering and good perceived performance to be to be",
+    "start": 792
+  },
+  {
+    "content": "possible high fault tolerance and an optimized render path you know I wanted",
+    "start": 796
+  },
+  {
+    "content": "to get the content into the eyeballs of the user as fast as possible I wanted",
+    "start": 800
+  },
+  {
+    "content": "kind of thrift data transfer you know I didn't want to",
+    "start": 804
+  },
+  {
+    "content": "be sending tons down the wire you'll be able to see that you know there's there",
+    "start": 807
+  },
+  {
+    "content": "was only a couple of images on there it's not a very heavy sight but",
+    "start": 811
+  },
+  {
+    "content": "nonetheless I wanted to think about how much went down the wire and then I also",
+    "start": 815
+  },
+  {
+    "content": "wanted to unlock the possibility for kind of page transitions and visual",
+    "start": 819
+  },
+  {
+    "content": "effects they're not snazzy but they're still proving out a point for things",
+    "start": 822
+  },
+  {
+    "content": "like client-side rendering when we've got transitions between pages so I'll",
+    "start": 827
+  },
+  {
+    "content": "come on to that Julie and I wanted minimal hosting complexity because I",
+    "start": 830
+  },
+  {
+    "content": "wanted this to be something the static that I could put somewhere very much on",
+    "start": 834
+  },
+  {
+    "content": "the jam stack you could say I wanted a website right and that's a that's a bit",
+    "start": 838
+  },
+  {
+    "content": "of a flippant comment but I think all of these things are reasonable to expect of",
+    "start": 843
+  },
+  {
+    "content": "a of a website so architecture what did this look like well let me let me draw",
+    "start": 848
+  },
+  {
+    "content": "some lines and unboxes see if this makes sense so I wanted first of all to",
+    "start": 855
+  },
+  {
+    "content": "abstract the content so this was going to be something that was manageable and",
+    "start": 861
+  },
+  {
+    "content": "use a bunch of templates to render this out into a site so there's a build",
+    "start": 864
+  },
+  {
+    "content": "process the helpers a site okay so this is something that's fairly fairly",
+    "start": 868
+  },
+  {
+    "content": "familiar to most of us I think and you know I wrap that up into one kind of",
+    "start": 874
+  },
+  {
+    "content": "encapsulated environment this is my local development environment where I",
+    "start": 879
+  },
+  {
+    "content": "can run this build and output a site that I can deploy and that gets pushed",
+    "start": 882
+  },
+  {
+    "content": "up to a hosting environment and this could be anywhere this could be AWS this",
+    "start": 886
+  },
+  {
+    "content": "could be s3 it could be any static host I used neckla fire other hosting",
+    "start": 891
+  },
+  {
+    "content": "services are available but then the case study I'll look at is is net if I and so",
+    "start": 897
+  },
+  {
+    "content": "the output gets pushed up to notify and there we are with life of course this",
+    "start": 903
+  },
+  {
+    "content": "could become much more efficient so really what I wanted to do is",
+    "start": 909
+  },
+  {
+    "content": "encapsulate the moving parts here you know the the content the templates and",
+    "start": 913
+  },
+  {
+    "content": "the build automation that goes into a repository that goes into github and",
+    "start": 917
+  },
+  {
+    "content": "then that repository is then synchronized with the hosting",
+    "start": 922
+  },
+  {
+    "content": "environment and we can trigger builds then in that the Phi so never fine hours",
+    "start": 927
+  },
+  {
+    "content": "watching the repo whenever there's a change on the repo the build is run",
+    "start": 931
+  },
+  {
+    "content": "exactly as I was doing in my environment before",
+    "start": 936
+  },
+  {
+    "content": "and rather than pushing the site's output that's coming from the",
+    "start": 939
+  },
+  {
+    "content": "environment so there are benefits already that you can see there that you",
+    "start": 943
+  },
+  {
+    "content": "know is the development workflow is really nice in that you've got a git",
+    "start": 947
+  },
+  {
+    "content": "based deployment process right away which is which is lovely and then things",
+    "start": 950
+  },
+  {
+    "content": "I'm not going to touch on you know once that's deployed then it goes off into",
+    "start": 955
+  },
+  {
+    "content": "the CDN and the management at the CDN is something I don't want to put my hands",
+    "start": 958
+  },
+  {
+    "content": "on so so I won't talk about that that it happens which is nice um but then you",
+    "start": 963
+  },
+  {
+    "content": "know I mentioned the content publishing you know how how this how how this",
+    "start": 969
+  },
+  {
+    "content": "workflow worked and the nice thing here is that we can abstract the content",
+    "start": 974
+  },
+  {
+    "content": "management you know I don't want to build a CMS there they're nasty things",
+    "start": 979
+  },
+  {
+    "content": "they're very complicated they're hard but there are companies that can do that",
+    "start": 984
+  },
+  {
+    "content": "for us right so contempt for this one there I've you know I've used quite a",
+    "start": 988
+  },
+  {
+    "content": "few times and I really enjoy and so so the content management is abstracted",
+    "start": 992
+  },
+  {
+    "content": "there so they provide a CMS they provide the CMS environment and they also have",
+    "start": 998
+  },
+  {
+    "content": "like a really nice asset pipeline as well so we can manage assets there and",
+    "start": 1003
+  },
+  {
+    "content": "draw them in from see it from there as well and so you know my my friend who is",
+    "start": 1008
+  },
+  {
+    "content": "authoring this site with me you know that's where he spends his time and then",
+    "start": 1013
+  },
+  {
+    "content": "the build that I run in my local environment",
+    "start": 1017
+  },
+  {
+    "content": "now that pulls the content as a JSON feed from contentful I run my build the",
+    "start": 1020
+  },
+  {
+    "content": "templates are applied we get the output and then critically that also is",
+    "start": 1026
+  },
+  {
+    "content": "possible by running the build in the production environment so this means",
+    "start": 1031
+  },
+  {
+    "content": "that we've got an environment where if I make a change to code submit that code",
+    "start": 1035
+  },
+  {
+    "content": "the site is refreshed and and deployed and likewise if there's a content change",
+    "start": 1040
+  },
+  {
+    "content": "the same thing can happen you know automatically we can get there and I'll",
+    "start": 1045
+  },
+  {
+    "content": "show you a little bit of that if we've got my timer reset when I left keynote",
+    "start": 1048
+  },
+  {
+    "content": "so I'm sorry I don't know how much how we're doing so wave your arms at me if I",
+    "start": 1051
+  },
+  {
+    "content": "need to hurry up I'll go quick okay oh so then isomorphic rendering the",
+    "start": 1056
+  },
+  {
+    "content": "what we're talking about here you know it I mean it's a simple thing really",
+    "start": 1066
+  },
+  {
+    "content": "isn't it it's you know it's applying rendering on the server and also",
+    "start": 1069
+  },
+  {
+    "content": "rendering on on the client and having the same templates applied in both",
+    "start": 1073
+  },
+  {
+    "content": "places um and I think this is really important because you know single page",
+    "start": 1077
+  },
+  {
+    "content": "applications can give a really nice very responsive feel can feel very dynamic",
+    "start": 1081
+  },
+  {
+    "content": "and very very fast but I'm a little bit uneasy at delivering an empty body tag",
+    "start": 1087
+  },
+  {
+    "content": "into the browser and letting everything happen in JavaScript and I think that",
+    "start": 1094
+  },
+  {
+    "content": "there's a lot to be said for building out static pages in the first place",
+    "start": 1098
+  },
+  {
+    "content": "Aaron Swartz kind of talked about baked up fry popularized this this term about",
+    "start": 1103
+  },
+  {
+    "content": "you know baking up the site ahead of time so it can be served rather than",
+    "start": 1108
+  },
+  {
+    "content": "frying the response every time someone come to the site and so so I was very",
+    "start": 1111
+  },
+  {
+    "content": "keen to make sure that we delivered static assets that were viable on their",
+    "start": 1117
+  },
+  {
+    "content": "own before any other enhancements happened so if we kind of refer back to",
+    "start": 1125
+  },
+  {
+    "content": "those technical goals I looked at earlier on you know a meaningful URL for",
+    "start": 1128
+  },
+  {
+    "content": "every page Cruel Booker level pages rapid rendering high fault tolerance",
+    "start": 1132
+  },
+  {
+    "content": "those all smack to me of things that can be satisfied by delivering a viable HTML",
+    "start": 1137
+  },
+  {
+    "content": "you know output right from the server without any other any other business",
+    "start": 1142
+  },
+  {
+    "content": "happening in in the front end so with that in mind if we look at our",
+    "start": 1146
+  },
+  {
+    "content": "architecture and we just focus on the site part of this you know the",
+    "start": 1152
+  },
+  {
+    "content": "deployable asset that we that we're generating and in serving that's just",
+    "start": 1155
+  },
+  {
+    "content": "made up of a bunch of bunch of files these are you know it's just a structure",
+    "start": 1159
+  },
+  {
+    "content": "of HTML files faster it's getting served this is static and this is my jam I",
+    "start": 1164
+  },
+  {
+    "content": "don't know what that means I'm trying to be cool I'm in America I'm trying to say",
+    "start": 1169
+  },
+  {
+    "content": "things that sound cool an Englishman saying static is my jam doesn't make any",
+    "start": 1173
+  },
+  {
+    "content": "sense so forgive me but um so yeah if we start",
+    "start": 1177
+  },
+  {
+    "content": "to look in a bit more detail at the site and how that's comprised yes it's a",
+    "start": 1182
+  },
+  {
+    "content": "bunch of static assets but what are those well we've got let's call them the",
+    "start": 1186
+  },
+  {
+    "content": "views but effectively these are the HTML pages you know each of the different",
+    "start": 1191
+  },
+  {
+    "content": "views each one being served from a different URL and there are a bunch of",
+    "start": 1194
+  },
+  {
+    "content": "those and they're all call on some CSS and they're calling on some",
+    "start": 1197
+  },
+  {
+    "content": "other visual assets and you know we couldn't serve serve that that's and",
+    "start": 1202
+  },
+  {
+    "content": "that enough to give us a website you know this is viable right away but you",
+    "start": 1207
+  },
+  {
+    "content": "know we want to do isomorphic rendering we won't ever be able to you know",
+    "start": 1211
+  },
+  {
+    "content": "embellish this with other behaviors and render things in the client as well so",
+    "start": 1215
+  },
+  {
+    "content": "we have some JavaScript to that and as an output of the bills you know the",
+    "start": 1218
+  },
+  {
+    "content": "bills is taking content and applying it to templates and then rendering these",
+    "start": 1224
+  },
+  {
+    "content": "views but let's deliver these templates as well you know let's actually make",
+    "start": 1228
+  },
+  {
+    "content": "those templates available as JavaScript as things that the front-end can can",
+    "start": 1232
+  },
+  {
+    "content": "resource so we output those as well and along with with that we also output the",
+    "start": 1237
+  },
+  {
+    "content": "data that we were using to populate the pages you know so those blobs of JSON",
+    "start": 1243
+  },
+  {
+    "content": "that we've grabbed from our content management system",
+    "start": 1249
+  },
+  {
+    "content": "let's package those up as a bunch of files that we can serve as well and then",
+    "start": 1252
+  },
+  {
+    "content": "we can serve those from an API endpoint right from the same site so this is",
+    "start": 1256
+  },
+  {
+    "content": "still just a bunch of static assets but there's a lot that's here now you know",
+    "start": 1262
+  },
+  {
+    "content": "is now serving JavaScript templates that can then call on the data and that data",
+    "start": 1265
+  },
+  {
+    "content": "is also available as flat files that we can request from a particular URL and",
+    "start": 1270
+  },
+  {
+    "content": "point so that means the you know we've got this static site generation and",
+    "start": 1277
+  },
+  {
+    "content": "templating happening I just want to describe a little bit about how that",
+    "start": 1282
+  },
+  {
+    "content": "works well there are lots of static site generators available there are hundreds",
+    "start": 1285
+  },
+  {
+    "content": "of static site generators available so I rolled my own that seems like a sensible",
+    "start": 1289
+  },
+  {
+    "content": "thing to do but let me justify it you know I wanted to start very very very",
+    "start": 1295
+  },
+  {
+    "content": "simple you know I didn't want an opinionated static site generator I just",
+    "start": 1299
+  },
+  {
+    "content": "wanted to say here's some templates here's a blob of data given you some",
+    "start": 1303
+  },
+  {
+    "content": "files so now I just added the features I needed it's not a product for release",
+    "start": 1306
+  },
+  {
+    "content": "it's just for this for this architecture and it focuses just very closely on my",
+    "start": 1310
+  },
+  {
+    "content": "own use case then they're a bunch of build tool tools that apply that you",
+    "start": 1315
+  },
+  {
+    "content": "know and so I'm just using NPM and gold for dependency management and some",
+    "start": 1320
+  },
+  {
+    "content": "automation and I'm really excited to learn more about web pack I know there's",
+    "start": 1324
+  },
+  {
+    "content": "a talked about web pack later on and that of course would be a viable",
+    "start": 1328
+  },
+  {
+    "content": "alternative and then templating you know I knew I used",
+    "start": 1331
+  },
+  {
+    "content": "nunchucks but of course you could use various other tools as well you know I",
+    "start": 1334
+  },
+  {
+    "content": "chose nunchucks because I think the the syntax is really nice it's very simple I",
+    "start": 1339
+  },
+  {
+    "content": "understand it has templating inheritance which i think is really powerful",
+    "start": 1344
+  },
+  {
+    "content": "it gives certain logic and you know there's a version of it that can render",
+    "start": 1350
+  },
+  {
+    "content": "be delivered as JavaScript for rendering in the client so that kind of fitted my",
+    "start": 1355
+  },
+  {
+    "content": "need but equally you could be using handlebars you could be using Jade there",
+    "start": 1359
+  },
+  {
+    "content": "are other things you could use so so that kind of outputs you know this kind",
+    "start": 1363
+  },
+  {
+    "content": "of site deployable and you know the things that bring about this output are",
+    "start": 1370
+  },
+  {
+    "content": "a number of build tasks just running as gold tasks that I mentioned so let me",
+    "start": 1376
+  },
+  {
+    "content": "just describe those really quickly as well so the build tasks you know I have",
+    "start": 1379
+  },
+  {
+    "content": "a local build which does the kind of things you'd expect the kind of things",
+    "start": 1383
+  },
+  {
+    "content": "that you've probably encountered many many times now it'll clean it will clean",
+    "start": 1386
+  },
+  {
+    "content": "my distribution it will compile SAS compile my optimized my java scripts",
+    "start": 1390
+  },
+  {
+    "content": "otherwise the image is the image that you saw it will generate the sites and",
+    "start": 1396
+  },
+  {
+    "content": "what I'm say that I'm talking about generating the HTML endpoints that go",
+    "start": 1402
+  },
+  {
+    "content": "out there and then it will pre compile the templates as JavaScript for use in",
+    "start": 1406
+  },
+  {
+    "content": "the combo the client and then it will package up the data as a bunch of files",
+    "start": 1411
+  },
+  {
+    "content": "said to serve as an API and then in addition to that there's another gob",
+    "start": 1416
+  },
+  {
+    "content": "task which is the production gulp task which goes off and gets the data from",
+    "start": 1422
+  },
+  {
+    "content": "contentful you know just as a request to the API massages that data into the",
+    "start": 1426
+  },
+  {
+    "content": "shape that we want it and stores it locally then it runs the local build so",
+    "start": 1431
+  },
+  {
+    "content": "all of that and then after that you know it does it moves some configuration",
+    "start": 1437
+  },
+  {
+    "content": "assets into the deployable as well so it can all be pushed up to up to the",
+    "start": 1442
+  },
+  {
+    "content": "hosting environment and these configs that I'm talking about we heard about",
+    "start": 1448
+  },
+  {
+    "content": "earlier on with the the redirection yeah things like the redirects so now that's",
+    "start": 1453
+  },
+  {
+    "content": "there's a config Fernet if I in this case abstracted from the deployable the",
+    "start": 1457
+  },
+  {
+    "content": "deploy will could go anywhere but in this you know we're using it here so I",
+    "start": 1461
+  },
+  {
+    "content": "HTTP headers get managed there redirects are configured and that's you know",
+    "start": 1467
+  },
+  {
+    "content": "that's that's part and parcel about so it's time again to go over to the",
+    "start": 1473
+  },
+  {
+    "content": "browser and have I learned my lesson on how to crane my neck around yes okay so",
+    "start": 1479
+  },
+  {
+    "content": "so the thing to note is the you know at the point that I was the point that we",
+    "start": 1487
+  },
+  {
+    "content": "were here last moving around so there's no JavaScript at the moment Java scripts",
+    "start": 1491
+  },
+  {
+    "content": "disabled which is why you'll see that the whole page is kind of refreshing and",
+    "start": 1497
+  },
+  {
+    "content": "still still pretty nippy you know it's it's still it's still fine you know each",
+    "start": 1504
+  },
+  {
+    "content": "every single one of these pages gets a gets a file gets a gets a deployable",
+    "start": 1509
+  },
+  {
+    "content": "endpoint but oh this is how to do over your shoulder re-enable JavaScript okay",
+    "start": 1514
+  },
+  {
+    "content": "so the first thing see as i refresh the pages my analytics are fired that's",
+    "start": 1530
+  },
+  {
+    "content": "that's good um but now a are you ready for the page transitions I described",
+    "start": 1534
+  },
+  {
+    "content": "whoa oh that was exciting so all you get for",
+    "start": 1540
+  },
+  {
+    "content": "that is this little guy but that's not the point the point the point really",
+    "start": 1546
+  },
+  {
+    "content": "here now is the all that's being sent down the wire now as I hijack these",
+    "start": 1555
+  },
+  {
+    "content": "links is you'll see over here you know if I go to this page it's just oh dear",
+    "start": 1560
+  },
+  {
+    "content": "it's just the the data endpoint that we need the blob of data that the template",
+    "start": 1569
+  },
+  {
+    "content": "needs to then render the page so you know oh yeah I'm going to disable the",
+    "start": 1575
+  },
+  {
+    "content": "cache to make it a little bit more I hope you're impressive my",
+    "start": 1581
+  },
+  {
+    "content": "over-the-shoulder browsing and so you know the the list of the acts you know",
+    "start": 1585
+  },
+  {
+    "content": "there's 1.8 K down the wire now so that's that I was saying thrifty data",
+    "start": 1590
+  },
+  {
+    "content": "usage was one of the goals and that's what that's delivering you know we the",
+    "start": 1595
+  },
+  {
+    "content": "first the initial page came to our refreshing everything um yeah so the",
+    "start": 1599
+  },
+  {
+    "content": "initial HTML came down at 20 20 K and then no after that the the templates no",
+    "start": 1605
+  },
+  {
+    "content": "our JSON template our JavaScript templates for subsequent page loads",
+    "start": 1612
+  },
+  {
+    "content": "comes down you know it's 4k my JavaScript to handle bits and pieces",
+    "start": 1615
+  },
+  {
+    "content": "comes down you know there's that's including jQuery I cheated I just put",
+    "start": 1620
+  },
+  {
+    "content": "jQuery in there so it's all very very thrifty and then subsequent page loads",
+    "start": 1623
+  },
+  {
+    "content": "you know I just know just if just a few K and so we're getting getting kind of",
+    "start": 1630
+  },
+  {
+    "content": "the best of both both world to this point right it's mine forgive me okay so",
+    "start": 1636
+  },
+  {
+    "content": "today we've got my isomorphic rendering we've got a page that behaves pretty",
+    "start": 1650
+  },
+  {
+    "content": "pretty rapidly you know it's it's pre thrifty where are we going to host it I",
+    "start": 1655
+  },
+  {
+    "content": "hear you ask so so I've been really impressed with with metella Phi and",
+    "start": 1663
+  },
+  {
+    "content": "using thatif I for this audio i'm just going to go straight back to the browser",
+    "start": 1669
+  },
+  {
+    "content": "because i just wanted to show you know I might alright for time how am i doing",
+    "start": 1673
+  },
+  {
+    "content": "I'm okay okay so the way the way that this this looks we so the yes some of",
+    "start": 1678
+  },
+  {
+    "content": "the assets on you know the web font maybe isn't loading but we've got a",
+    "start": 1691
+  },
+  {
+    "content": "little thumbnail there and so we've got some things like some web hooks that we",
+    "start": 1694
+  },
+  {
+    "content": "can manage down here so I'll show you in a second content full and how that fires",
+    "start": 1699
+  },
+  {
+    "content": "the tries to build automatically but actually if I just go to the deploys we",
+    "start": 1703
+  },
+  {
+    "content": "can see the you know every deployment that's been made has its own has its own",
+    "start": 1708
+  },
+  {
+    "content": "address you know they've mentioned that a little",
+    "start": 1714
+  },
+  {
+    "content": "bit earlier on and that's huge actually this that shame myself and see what the",
+    "start": 1716
+  },
+  {
+    "content": "first woman would like I did I did mention that this was an iterative",
+    "start": 1721
+  },
+  {
+    "content": "approach so so I could publish it I won't publish it on just take a look war",
+    "start": 1726
+  },
+  {
+    "content": "okay some issues you know so you can see that as I was building it up I was able",
+    "start": 1733
+  },
+  {
+    "content": "to test it deploy it along the way and it's actually really nice to be able",
+    "start": 1737
+  },
+  {
+    "content": "to to test a particular feature and have a URL that is the QA team can then go",
+    "start": 1741
+  },
+  {
+    "content": "and hit and start testing it and those live now in perpetuity it also means",
+    "start": 1748
+  },
+  {
+    "content": "that now if I do create something deploy something that's broken it's very easy",
+    "start": 1754
+  },
+  {
+    "content": "to stir you can see just to roll back and publish that lots of bigger more",
+    "start": 1759
+  },
+  {
+    "content": "expensive environments I think could do that a little bit more nicely um but",
+    "start": 1765
+  },
+  {
+    "content": "that's that's really powerful but let me let me demonstrate",
+    "start": 1770
+  },
+  {
+    "content": "oh dear I'm gonna be typing over my shoulder or that's fine I can do it I'm",
+    "start": 1774
+  },
+  {
+    "content": "gonna make a very modest change it will be modest live coding I'm not that crazy",
+    "start": 1779
+  },
+  {
+    "content": "though so I'm gonna make a change just to the base template so this is going to",
+    "start": 1785
+  },
+  {
+    "content": "impact every page of the site at the bottom tell you what I should probably",
+    "start": 1789
+  },
+  {
+    "content": "show you so I'm not faking it so at the bottom of the page at the bottom of the",
+    "start": 1795
+  },
+  {
+    "content": "page we've got this link off to a blog post about the page um let's change that",
+    "start": 1807
+  },
+  {
+    "content": "all about this site I told you it wasn't gonna be a very ambitious change okay so",
+    "start": 1818
+  },
+  {
+    "content": "save that so I just need to just tweak oops meaningful commit messages so I'll",
+    "start": 1824
+  },
+  {
+    "content": "commit that change and I will now push that change so now what should happen is",
+    "start": 1837
+  },
+  {
+    "content": "notify should see that change has happened and it should trigger another",
+    "start": 1843
+  },
+  {
+    "content": "build it's exactly the same build that's happening in my local environment so you",
+    "start": 1847
+  },
+  {
+    "content": "know it's predictable to me I should I should be able to predict what the",
+    "start": 1850
+  },
+  {
+    "content": "outcome of that is might just take a second to to happen empted to wait for",
+    "start": 1853
+  },
+  {
+    "content": "the notification because I've got a slack notification that happens whenever",
+    "start": 1861
+  },
+  {
+    "content": "I build passes or fails where what the hell should we just go and see",
+    "start": 1864
+  },
+  {
+    "content": "if this happened living on the edge Oh",
+    "start": 1868
+  },
+  {
+    "content": "so okay so maybe not the most exciting demonstration but but let me remind you",
+    "start": 1875
+  },
+  {
+    "content": "that every page on the site has been updated in this way the global change oh",
+    "start": 1883
+  },
+  {
+    "content": "dear a lot of content a lot of content in just a few K okay so you kind of get",
+    "start": 1889
+  },
+  {
+    "content": "the point um so I could dig into lots of that but I just leave it at that for the",
+    "start": 1896
+  },
+  {
+    "content": "moment but I'll just show you because I know I'm gonna be running out of time",
+    "start": 1901
+  },
+  {
+    "content": "I'll also show you the content flow as well so I mentioned contentful and this",
+    "start": 1904
+  },
+  {
+    "content": "is this is how I manage the content for this particular site now all of the",
+    "start": 1912
+  },
+  {
+    "content": "admin is taken taken care of where these guys actually of not using this this",
+    "start": 1916
+  },
+  {
+    "content": "model this is my this is my data model I've got events you know every night is",
+    "start": 1921
+  },
+  {
+    "content": "an event and act so the different people who are going to be performing at that",
+    "start": 1927
+  },
+  {
+    "content": "we can figure about you know any way that we want but let's look at a one of",
+    "start": 1932
+  },
+  {
+    "content": "these pages this is what they look like so we've got you know the date a bit of",
+    "start": 1939
+  },
+  {
+    "content": "a description a strapline rather a description here are the the acts who",
+    "start": 1947
+  },
+  {
+    "content": "were just were going to be there who's the emcee who and then a link to a",
+    "start": 1952
+  },
+  {
+    "content": "Facebook event let me see if I can find a suitable one to edit and we'll see",
+    "start": 1960
+  },
+  {
+    "content": "that happening so again I should make sure I should prove to you that this is",
+    "start": 1965
+  },
+  {
+    "content": "happening so 15th of November so in other words that's the that's the next",
+    "start": 1973
+  },
+  {
+    "content": "one I think yeah so this guy 15th of November featuring okay so I'm this guy",
+    "start": 1979
+  },
+  {
+    "content": "was getting cut he's not gonna get to perform",
+    "start": 1988
+  },
+  {
+    "content": "so let's find him remove him published changes though",
+    "start": 1990
+  },
+  {
+    "content": "non-temporal lets you specify net webhooks",
+    "start": 2001
+  },
+  {
+    "content": "you know there's a simple conflict to do that net the file eggs so you listen to",
+    "start": 2004
+  },
+  {
+    "content": "those and then trigger build so you know this means the content author now",
+    "start": 2008
+  },
+  {
+    "content": "doesn't need to go anywhere near the code anywhere near to build",
+    "start": 2012
+  },
+  {
+    "content": "infrastructure they can they can live just here and they should it should",
+    "start": 2014
+  },
+  {
+    "content": "trigger a build I don't know how long I ought to wait again I was kind of hoping",
+    "start": 2018
+  },
+  {
+    "content": "for a notification but the Wi-Fi has been a little up and down I also can't",
+    "start": 2024
+  },
+  {
+    "content": "find my mouse there is betsy racking are you still there there he goes so",
+    "start": 2028
+  },
+  {
+    "content": "refreshed patient he's gone so um again it's not the sexiest demonstration in",
+    "start": 2044
+  },
+  {
+    "content": "the world but hopefully proves the point of life breaking apart this model of the",
+    "start": 2050
+  },
+  {
+    "content": "content management from the from the code for minutes okay I'm almost I'm",
+    "start": 2054
+  },
+  {
+    "content": "just about done I think um you know breaking this apart actually reduces the",
+    "start": 2057
+  },
+  {
+    "content": "friction and means the content authors can manage stuff very quickly without",
+    "start": 2062
+  },
+  {
+    "content": "having to go near the code and we can build something that's quite performant",
+    "start": 2067
+  },
+  {
+    "content": "I think ok I'm coming back to and coming back to keynote alright so that was",
+    "start": 2070
+  },
+  {
+    "content": "mentioning briefly the development workflow and and then I also show talked",
+    "start": 2080
+  },
+  {
+    "content": "about the content management workflow so then take away since we just got a few",
+    "start": 2086
+  },
+  {
+    "content": "minutes left now I think there's lots of rendering efficiencies that we can have",
+    "start": 2091
+  },
+  {
+    "content": "here you know through like a static presentation layer and then using",
+    "start": 2096
+  },
+  {
+    "content": "enhancement you know for client-side renders brings us all kinds of rendering",
+    "start": 2101
+  },
+  {
+    "content": "efficiency so you can build sites that can go very quickly and be perceived to",
+    "start": 2105
+  },
+  {
+    "content": "go very quickly creating an environment where there's discoverable content and",
+    "start": 2110
+  },
+  {
+    "content": "syndication opportunities you know and that is I'm really talking about every",
+    "start": 2115
+  },
+  {
+    "content": "URL serving content and having templating the weekers format that",
+    "start": 2119
+  },
+  {
+    "content": "content in different ways you know having a different templating layer that",
+    "start": 2123
+  },
+  {
+    "content": "could present the pages as amp for instance is completely possible with",
+    "start": 2127
+  },
+  {
+    "content": "this approach contact dynamism content dynamism wow I",
+    "start": 2131
+  },
+  {
+    "content": "need that buzzword flashy thing again so what am I talking about well I'm talking",
+    "start": 2136
+  },
+  {
+    "content": "about the abstraction of the of the CMS and the content management away from the",
+    "start": 2140
+  },
+  {
+    "content": "environment they were hosting and they were serving so that we can have really",
+    "start": 2145
+  },
+  {
+    "content": "low friction content mashing workflows that yield a site I actually think that",
+    "start": 2148
+  },
+  {
+    "content": "through a model like this we end up with sites that actually feel way more",
+    "start": 2154
+  },
+  {
+    "content": "dynamic than some very heavy expensive CMS platforms I've seen being used in",
+    "start": 2157
+  },
+  {
+    "content": "elsewhere there's that word again designing code dynamism you know it's",
+    "start": 2163
+  },
+  {
+    "content": "the same thing it's reducing the friction to deploying deploying updates",
+    "start": 2168
+  },
+  {
+    "content": "really makes the site feel and act in a much more dynamic way a much more active",
+    "start": 2173
+  },
+  {
+    "content": "way and you know we also kind of showed very quickly no roll backs and and",
+    "start": 2180
+  },
+  {
+    "content": "versioning of the site so I'm kind of done if you do want to read any more of",
+    "start": 2185
+  },
+  {
+    "content": "the details of this I the link I added at the bottom of the page links to this",
+    "start": 2190
+  },
+  {
+    "content": "article it's on my blog which is hosted on a similar stack so you can read that",
+    "start": 2194
+  },
+  {
+    "content": "there's also a really good article people who are attending this may have",
+    "start": 2201
+  },
+  {
+    "content": "read this all already but there's a great article on Smashing mag about",
+    "start": 2205
+  },
+  {
+    "content": "using the jam stack and static site architectures at scale and some great",
+    "start": 2210
+  },
+  {
+    "content": "lessons learned if you haven't read that I'd recommend it and also I'm learning",
+    "start": 2216
+  },
+  {
+    "content": "quite a lot from just keeping up with it really sounds like I work been at the",
+    "start": 2219
+  },
+  {
+    "content": "fire I promise I don't they did give me a t-shirt earlier on so full disclosure",
+    "start": 2223
+  },
+  {
+    "content": "this I can be bought for a tisha so genuinely and the kind of things that",
+    "start": 2227
+  },
+  {
+    "content": "have been going on to the neck if I blogger fund",
+    "start": 2233
+  },
+  {
+    "content": "I thank me finding really informative about you know the features that are",
+    "start": 2235
+  },
+  {
+    "content": "rolling out there and how we can push some of these capabilities so I think",
+    "start": 2239
+  },
+  {
+    "content": "that's that's worth looking at as well I probably got about 90 seconds at best so",
+    "start": 2243
+  },
+  {
+    "content": "thank you I don't know if you've got any time for questions a couple okay are",
+    "start": 2247
+  },
+  {
+    "content": "there any any questions before I clear off",
+    "start": 2252
+  },
+  {
+    "content": "oh one three what's the font that I use that is",
+    "start": 2255
+  },
+  {
+    "content": "placard okay thanks everyone thank you [Applause]",
+    "start": 2264
+  }
+]

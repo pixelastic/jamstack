@@ -4,9 +4,11 @@
   "position": 14,
   "publishedAt": 1542606768,
   "thumbnails": {
-    "default": "https://i.ytimg.com/vi/VzQ0d8-nMhw/sddefault.jpg",
-    "large": "https://i.ytimg.com/vi/VzQ0d8-nMhw/maxresdefault.jpg",
-    "small": "https://i.ytimg.com/vi/VzQ0d8-nMhw/mqdefault.jpg"
+    "huge": "https://i.ytimg.com/vi/VzQ0d8-nMhw/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/VzQ0d8-nMhw/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/VzQ0d8-nMhw/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/VzQ0d8-nMhw/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/VzQ0d8-nMhw/default.jpg"
   },
   "title": "Matt Biilmann - How We Talk About the JAMstack"
 }

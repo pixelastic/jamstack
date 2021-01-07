@@ -1,0 +1,2366 @@
+[
+  {
+    "content": "okay so earlier this year a few of us",
+    "start": 0
+  },
+  {
+    "content": "went on a fact-finding mission to India to see how folks there use the internet",
+    "start": 13
+  },
+  {
+    "content": "and one thing stood out to us is that feature phones are back yeah so the",
+    "start": 17
+  },
+  {
+    "content": "future phone market actually doubled in 2018 in India and the size of smart",
+    "start": 21
+  },
+  {
+    "content": "phones actually kind of flattened out and at current rates that kind of means",
+    "start": 26
+  },
+  {
+    "content": "that 400 million future phones will be sold in India this year alone yes the",
+    "start": 30
+  },
+  {
+    "content": "one on the right there the the very right that's a geophone and it is the",
+    "start": 36
+  },
+  {
+    "content": "most popular brand out in India right now it only costs 15 quid now compared",
+    "start": 39
+  },
+  {
+    "content": "to the phones that you all have everything about these phones is",
+    "start": 43
+  },
+  {
+    "content": "extremely yeah you got like 240 pixel white display single density no",
+    "start": 46
+  },
+  {
+    "content": "touch screen whatsoever and the processor is god-awful",
+    "start": 51
+  },
+  {
+    "content": "but it's 15 quid and that means that millions of people can now afford to",
+    "start": 55
+  },
+  {
+    "content": "come online when they previously couldn't yeah and the geophone the one",
+    "start": 60
+  },
+  {
+    "content": "on the right there that's a web-based phone in fact like it's running iOS",
+    "start": 64
+  },
+  {
+    "content": "which is a fork of Firefox OS so it's actually it's running Firefox it's",
+    "start": 67
+  },
+  {
+    "content": "actual running Firefox 42 bit of an old version but generally it works really",
+    "start": 72
+  },
+  {
+    "content": "well so a little team of us got together consisting of Surma Jake and Americo",
+    "start": 75
+  },
+  {
+    "content": "where's Marco over there excellent hiding out in the audience so what we",
+    "start": 82
+  },
+  {
+    "content": "want to see if we can build an interactive web experience that would",
+    "start": 88
+  },
+  {
+    "content": "run on devices like this but you know embracing responsive design progressive",
+    "start": 92
+  },
+  {
+    "content": "enhancements so that the it could run on these devices would also scale up and",
+    "start": 97
+  },
+  {
+    "content": "look very nice on you know a big deck a desktop screen yes and that thing became",
+    "start": 101
+  },
+  {
+    "content": "procs it is a game and if you like minesweeper you were like procs",
+    "start": 105
+  },
+  {
+    "content": "because it's the same so here it is on desktop as you can see like these throne",
+    "start": 109
+  },
+  {
+    "content": "animations edited and all kinds of fancy stuff but it runs on desktop but it also",
+    "start": 114
+  },
+  {
+    "content": "scales down nicely on one of these 15 quid phones with the exact same codebase",
+    "start": 119
+  },
+  {
+    "content": "yeah we put a lot of effort to make it run really fast so we figured we go",
+    "start": 124
+  },
+  {
+    "content": "through some of the tricks and techniques that we use because none of",
+    "start": 127
+  },
+  {
+    "content": "its unique to games on the web it's not unique to this particular app it's stuff",
+    "start": 129
+  },
+  {
+    "content": "that you can use on your sites and apps but before we dive in and we want to",
+    "start": 132
+  },
+  {
+    "content": "tackle a question that we still see creeping up on creepy",
+    "start": 136
+  },
+  {
+    "content": "up on Twitter Mary now and then should I care about performance should I care",
+    "start": 139
+  },
+  {
+    "content": "about performance should I care about performance yes yes yes you should",
+    "start": 146
+  },
+  {
+    "content": "you absolutely should I'll go to article 4 this is this one with fundamentals you",
+    "start": 154
+  },
+  {
+    "content": "can find it at this bitly link it points to the web performance studies carried",
+    "start": 158
+  },
+  {
+    "content": "out by a variety of companies yeah such as Pinterest who reduce the perceived",
+    "start": 161
+  },
+  {
+    "content": "way times by 40% and so on 15% increase in signups or Cokie reduce the load time",
+    "start": 165
+  },
+  {
+    "content": "by a hundred fifty milliseconds I saw an increase from versions and session time",
+    "start": 170
+  },
+  {
+    "content": "or the BBC who's lost an additional ten percent of uses every additional second",
+    "start": 172
+  },
+  {
+    "content": "the page stuck too low also anything who reduced the page load time half and it's",
+    "start": 175
+  },
+  {
+    "content": "all it's one percent boost in sales and double-take the front over fix the",
+    "start": 178
+  },
+  {
+    "content": "problem is for a band upon the page one and three seconds to load sounds",
+    "start": 180
+  },
+  {
+    "content": "conditions apply so although that is a large variety of science we've seen",
+    "start": 183
+  },
+  {
+    "content": "folks say like no this doesn't apply to me because you know my site is kind of",
+    "start": 187
+  },
+  {
+    "content": "different to those so they're certainly saying their site doesn't exactly match",
+    "start": 190
+  },
+  {
+    "content": "one of those in the study their background is green and therefore you",
+    "start": 194
+  },
+  {
+    "content": "know the study results don't apply to them mmm we don't buy that no everyone",
+    "start": 197
+  },
+  {
+    "content": "in this room is a user of software and we know how frustrating it is when",
+    "start": 203
+  },
+  {
+    "content": "something performs badly and low time is a huge part of that yeah so the",
+    "start": 207
+  },
+  {
+    "content": "performance optimizations that we are going to talk about in this talk are",
+    "start": 212
+  },
+  {
+    "content": "actually pretty simple dead easy like it takes two minutes on",
+    "start": 215
+  },
+  {
+    "content": "paper but when you've got a build system wrapped around your project I think an",
+    "start": 218
+  },
+  {
+    "content": "extra tag that can be a real pain so we're gonna look at that side of things",
+    "start": 222
+  },
+  {
+    "content": "as well so let's rewind let's go back to the first alpha version of procs before",
+    "start": 225
+  },
+  {
+    "content": "we had done any of our performance optimization work totally the real alpha",
+    "start": 231
+  },
+  {
+    "content": "version not just a version we've retrofitted for this talk sorry sorry",
+    "start": 235
+  },
+  {
+    "content": "sorry so aside from being a bit slow",
+    "start": 239
+  },
+  {
+    "content": "especially on these feature phone low-end devices it really wasn't all",
+    "start": 241
+  },
+  {
+    "content": "that different from your average jazz driven web app yeah I write tomorrow",
+    "start": 245
+  },
+  {
+    "content": "pretty simple just a bit of metadata and the JavaScript there that took care of",
+    "start": 249
+  },
+  {
+    "content": "populating the page we've got a stylesheet but that is just a stylesheet",
+    "start": 253
+  },
+  {
+    "content": "for a web font the rest of our CSS is embedded within the JavaScript we used",
+    "start": 256
+  },
+  {
+    "content": "to pull CSS to do that yeah so the notable differences for most web apps",
+    "start": 260
+  },
+  {
+    "content": "really are that we used pre-act instead of react react is 33 kilobytes",
+    "start": 264
+  },
+  {
+    "content": "pre-act is just three react us much more than",
+    "start": 270
+  },
+  {
+    "content": "react we didn't need any of that stuff that was really a no-brainer for us to",
+    "start": 273
+  },
+  {
+    "content": "save 30k for free yes and the difference is we used roll-up kind of because we",
+    "start": 276
+  },
+  {
+    "content": "were experimenting wanting to give it a try",
+    "start": 282
+  },
+  {
+    "content": "we'd use roll-up for libraries before but not for full web apps so you see",
+    "start": 284
+  },
+  {
+    "content": "last year we rode a web app called Skoosh and to build squash we used web",
+    "start": 288
+  },
+  {
+    "content": "pack and I say we I actually mean our colleague Jason handles the web pack",
+    "start": 293
+  },
+  {
+    "content": "sides of things Jason's in America America is roughly that direction so if",
+    "start": 300
+  },
+  {
+    "content": "you keep going go far enough yeah so it's actually quicker to go that",
+    "start": 305
+  },
+  {
+    "content": "way I think either way so he had to make use of loads of undocumented and eternal",
+    "start": 307
+  },
+  {
+    "content": "web pack API to just achieve basic things and he has years of web pack",
+    "start": 312
+  },
+  {
+    "content": "experience and knows it inside out the two of us however don't know and so as a",
+    "start": 318
+  },
+  {
+    "content": "result like we didn't understand the project build system and so if it went",
+    "start": 322
+  },
+  {
+    "content": "wrong we were completely helpless we had to wait for you know because the time",
+    "start": 326
+  },
+  {
+    "content": "zones we had to wait for Jason to wake up to help us fix it",
+    "start": 329
+  },
+  {
+    "content": "yeah and talking to other teams we kind of here's some other stories like one or",
+    "start": 332
+  },
+  {
+    "content": "two people are the web pack whisperers and they're like their job is to",
+    "start": 335
+  },
+  {
+    "content": "maintain and you know update the web pack build and no one else understands",
+    "start": 338
+  },
+  {
+    "content": "it and dares to touch it and so maybe this sounds familiar to one or two of",
+    "start": 342
+  },
+  {
+    "content": "you yeah yeah so when I tries to use webpack I feel like I don't feel like",
+    "start": 345
+  },
+  {
+    "content": "I'm using javascript I feel like I'm flipping switches in massive config",
+    "start": 350
+  },
+  {
+    "content": "objects and herding lots of plugins of varying quality that don't really play",
+    "start": 353
+  },
+  {
+    "content": "well together and so we used roll-up and we found a big ecosystem of plugins of",
+    "start": 356
+  },
+  {
+    "content": "varying quality that don't play very well together yeah but and the big",
+    "start": 360
+  },
+  {
+    "content": "difference here mere mortals can write their own plugins roll up has a really",
+    "start": 364
+  },
+  {
+    "content": "simple well-documented plug-in system so it's easy to get involved in the innards",
+    "start": 369
+  },
+  {
+    "content": "of the build like if you know enough JavaScript to wrangle a web pack config",
+    "start": 373
+  },
+  {
+    "content": "you know more than enough to write a roll up plugin and also because we know",
+    "start": 376
+  },
+  {
+    "content": "that we're targeting these low and feature phones and we're gonna have a",
+    "start": 380
+  },
+  {
+    "content": "hard time running all our JavaScript on one thread so we actually made workers a",
+    "start": 383
+  },
+  {
+    "content": "core part of our architecture right from the very start and the problem with",
+    "start": 388
+  },
+  {
+    "content": "having multiple threats though is that you know they can have shared",
+    "start": 393
+  },
+  {
+    "content": "dependencies across these threads yeah so we used comlink to facilitate",
+    "start": 396
+  },
+  {
+    "content": "communication between workers in the main thread so you know that library",
+    "start": 400
+  },
+  {
+    "content": "needs to appear in both places but if the main thread and all of the work",
+    "start": 404
+  },
+  {
+    "content": "now webpack can't share chunks between workers and the main thread so that",
+    "start": 407
+  },
+  {
+    "content": "means the user would end up downloading it well but at least twice one for each",
+    "start": 410
+  },
+  {
+    "content": "worker and once again for the main thread and that could really happen with",
+    "start": 413
+  },
+  {
+    "content": "any dependency that we are sharing between main thread and the workers and",
+    "start": 416
+  },
+  {
+    "content": "roll-up kind of hands this out of the box because it leaves the choice of",
+    "start": 419
+  },
+  {
+    "content": "format up to you but it wasn't just JavaScript that we needed to handle",
+    "start": 423
+  },
+  {
+    "content": "because we needed HTML as well yeah and there is a web pack plugin to create",
+    "start": 427
+  },
+  {
+    "content": "HTML for your project for you but that's the code for that plug-in and it's it",
+    "start": 431
+  },
+  {
+    "content": "kind of it's kind of massive and once again it relies on these undocumented",
+    "start": 438
+  },
+  {
+    "content": "internal web pack api's yeah and this plugin is so big it has its own plug-in",
+    "start": 441
+  },
+  {
+    "content": "system it doesn't really want you touching the HTML at all once you've",
+    "start": 446
+  },
+  {
+    "content": "like flipping configuration options and you so you have to learn all of those",
+    "start": 449
+  },
+  {
+    "content": "you have to learn all of their quirks so your skills in HTML are not really",
+    "start": 452
+  },
+  {
+    "content": "useful when you're playing around with this plugin yeah so we couldn't find an",
+    "start": 455
+  },
+  {
+    "content": "equivalent in the roll-up ecosystem so of course we wrote on ourselves through",
+    "start": 459
+  },
+  {
+    "content": "our plugins really are just functions that return objects this object has a",
+    "start": 464
+  },
+  {
+    "content": "name key so that roll-up is able to generate like nice debug messages for",
+    "start": 468
+  },
+  {
+    "content": "you if something goes wrong and the rest are just callbacks for the various",
+    "start": 471
+  },
+  {
+    "content": "stages of the build and roll-up and all of these stages are well documented yes",
+    "start": 475
+  },
+  {
+    "content": "so we're going to use generate bundle this is one of the hooks this is called",
+    "start": 479
+  },
+  {
+    "content": "just before roll-up writes everything to disk you get this options object which",
+    "start": 483
+  },
+  {
+    "content": "is the options that roll-up was called with you also get this bundle object as",
+    "start": 486
+  },
+  {
+    "content": "well and this is the most important part because it gives you full insight into",
+    "start": 489
+  },
+  {
+    "content": "everything rollup has done with the build so far yeah so for JavaScript",
+    "start": 492
+  },
+  {
+    "content": "files for example you of course get the code and the initial path you also get",
+    "start": 496
+  },
+  {
+    "content": "the final name which rollup will augment with a hash to make caching more",
+    "start": 500
+  },
+  {
+    "content": "efficient but also loads of other data about you know the dependencies and what",
+    "start": 504
+  },
+  {
+    "content": "exports this module has and even for non jobs could file you will get less data",
+    "start": 507
+  },
+  {
+    "content": "but you will get access to some of this yes absolutely so now we need to use",
+    "start": 512
+  },
+  {
+    "content": "this to create our HTML so gonna load an ejs template gonna compile it and gonna",
+    "start": 516
+  },
+  {
+    "content": "generate some HTML as a result we picked each s roll-up doesn't care right you",
+    "start": 520
+  },
+  {
+    "content": "could pick whatever templating language you want now we've got this HTML to",
+    "start": 524
+  },
+  {
+    "content": "output it to make it part of the build we just add it to the bundle object now",
+    "start": 528
+  },
+  {
+    "content": "roll-up will write that file along with everything else yeah so here's the",
+    "start": 531
+  },
+  {
+    "content": "template like we've got a placeholder for the JavaScript file because we don't",
+    "start": 535
+  },
+  {
+    "content": "know it at before we actually build it because you know",
+    "start": 538
+  },
+  {
+    "content": "hash will be injected into the filename and so we just passed the URL into the",
+    "start": 541
+  },
+  {
+    "content": "JavaScript templating engine after it's been hashed and we can get this from the",
+    "start": 547
+  },
+  {
+    "content": "bundle object because as I said it has the input path but it also has the",
+    "start": 550
+  },
+  {
+    "content": "output path which will have the hash we created a little helper here called get",
+    "start": 554
+  },
+  {
+    "content": "Jess which just you know searches of the bundle for something that contains our",
+    "start": 558
+  },
+  {
+    "content": "input path yeah super small things like four lines of code something like that",
+    "start": 561
+  },
+  {
+    "content": "now all we need to do is add our new plugin into our roll-up config and",
+    "start": 564
+  },
+  {
+    "content": "that's it we're done now you know everything you need to know to write a",
+    "start": 569
+  },
+  {
+    "content": "roll-up plugin seriously like you pretty much know everything and I realize that",
+    "start": 572
+  },
+  {
+    "content": "that was you know a lot to throw at you um but again compare it to the web pack",
+    "start": 575
+  },
+  {
+    "content": "version and I'd argue that what rewrote is simpler you'd argue that with you the",
+    "start": 580
+  },
+  {
+    "content": "point it said I think every person in our team would be comfortable",
+    "start": 586
+  },
+  {
+    "content": "approaching the plug-in that rewrote and understanding it and maybe even",
+    "start": 590
+  },
+  {
+    "content": "adjusting it to their needs yes and even better like we're writing the code that",
+    "start": 593
+  },
+  {
+    "content": "we want like for things we got what she want to happen rather than wrangling a",
+    "start": 597
+  },
+  {
+    "content": "config like if we want the HTML to build slightly differently that's fine we can",
+    "start": 600
+  },
+  {
+    "content": "just go and change the code but what do we need to change well I said procs were",
+    "start": 604
+  },
+  {
+    "content": "slow so we need to figure out where we were losing performance and our tool of",
+    "start": 608
+  },
+  {
+    "content": "choice to testing websites in as real world conditions as possible is",
+    "start": 612
+  },
+  {
+    "content": "webpagetest.org it lets you run tests on a real device with a very good",
+    "start": 616
+  },
+  {
+    "content": "throttling emulation yes so because we want to see how it performs a mobile",
+    "start": 621
+  },
+  {
+    "content": "we're actually going to test in the real world mobile device it's the Moto G 4",
+    "start": 625
+  },
+  {
+    "content": "it's quite an old device sort of mid-range but it's not dissimilar to the",
+    "start": 628
+  },
+  {
+    "content": "kind of devices that a lot of people have we're also going to test on a 3G",
+    "start": 632
+  },
+  {
+    "content": "connection yeah and 3G is a good speed to measure",
+    "start": 636
+  },
+  {
+    "content": "because I know we're all used to 4G but you know due to signal strengths or",
+    "start": 639
+  },
+  {
+    "content": "contention more often than not you will be experiencing speeds closer to 3G and",
+    "start": 643
+  },
+  {
+    "content": "sometimes even worse right so here's results further the first version of our",
+    "start": 649
+  },
+  {
+    "content": "app just before we'd optimized it so that the filmstrip up here it's the",
+    "start": 653
+  },
+  {
+    "content": "first thing I would look at this is what you use what the user is going to see as",
+    "start": 655
+  },
+  {
+    "content": "the app is loading so yeah let's let's just break that down for the first 4.2",
+    "start": 658
+  },
+  {
+    "content": "seconds the user sees absolutely nothing that's what nothing looks like",
+    "start": 665
+  },
+  {
+    "content": "quite literally no things totally thing was but out of Duffing emerges our first",
+    "start": 671
+  },
+  {
+    "content": "render so that is the first render there it is we can't really count it as ready",
+    "start": 678
+  },
+  {
+    "content": "though because like you know it's not in the usable state we need to wait for all",
+    "start": 684
+  },
+  {
+    "content": "of this stuff to come in because that's when the user can actually use the app",
+    "start": 688
+  },
+  {
+    "content": "and that doesn't happen until they've been waiting for 5.1 seconds",
+    "start": 691
+  },
+  {
+    "content": "so we're well over that three-second mark that double-click found that it",
+    "start": 694
+  },
+  {
+    "content": "causes 50% of people to abandon the loading process but again we are",
+    "start": 697
+  },
+  {
+    "content": "targeting those 15 quit phones which are used in India and in India on average",
+    "start": 701
+  },
+  {
+    "content": "you will get 2g much more often and on 2g the user gets 8.1 seconds of",
+    "start": 705
+  },
+  {
+    "content": "absolutely nothing then a pretty useless render and then it takes 11 seconds in",
+    "start": 710
+  },
+  {
+    "content": "total until the user can actually play the game yeah Usain Bolt can run 100",
+    "start": 714
+  },
+  {
+    "content": "meters quicker than it takes to load our dumb game over 2g so all in all the user",
+    "start": 719
+  },
+  {
+    "content": "had to load 62 kilobytes until the site was actually interactive like surely we",
+    "start": 723
+  },
+  {
+    "content": "can do better the question is how much better can we do what is the goal that",
+    "start": 728
+  },
+  {
+    "content": "we should set and so I asked Jake to figure that out yes he did and I did",
+    "start": 732
+  },
+  {
+    "content": "some competitor analysis here is a graph of the size of Windows minesweeper over",
+    "start": 736
+  },
+  {
+    "content": "time so it starts out at 11 kilobytes in windows 3.11 and actually gets smaller",
+    "start": 740
+  },
+  {
+    "content": "which is its kind of amazing goes down to about nine point six two kilobytes is",
+    "start": 746
+  },
+  {
+    "content": "much smaller than procs the piece of  we made but then in Windows 2000",
+    "start": 750
+  },
+  {
+    "content": "what look what happens it became seven times bigger 70k that's bigger than",
+    "start": 754
+  },
+  {
+    "content": "procs now besides you know equipped up again in XP to 80k but then BAM it",
+    "start": 759
+  },
+  {
+    "content": "became 50 times bigger it's three point eight four megabytes in Vista and kind",
+    "start": 767
+  },
+  {
+    "content": "of yeah roughly the same time in Windows 7 but then",
+    "start": 772
+  },
+  {
+    "content": "BAM it became 25 times bigger still 104 megabytes in Windows 10 - Reaper is",
+    "start": 778
+  },
+  {
+    "content": "growing so fast we have to switch the graph to a logarithmic scale and if you",
+    "start": 785
+  },
+  {
+    "content": "wake up at night every now then like oh my god my CSS is growing because I don't",
+    "start": 790
+  },
+  {
+    "content": "have a good CSS and like stop worrying like this is worse yeah and we've",
+    "start": 793
+  },
+  {
+    "content": "actually been analyzing this trend as well so by 2025 minesweeper would be 2",
+    "start": 797
+  },
+  {
+    "content": "terabytes in size by 2030 two-thirds of the planet surface will be covered by a",
+    "start": 801
+  },
+  {
+    "content": "single hard drive containing one copy of Windows minesweeper so if you thought",
+    "start": 806
+  },
+  {
+    "content": "that you know global warming was the biggest threat to humankind",
+    "start": 810
+  },
+  {
+    "content": "it's not it's Microsoft mind suite absolutely so in conclusion I see no",
+    "start": 814
+  },
+  {
+    "content": "performance threat from the official version of minesweeper thank you very",
+    "start": 817
+  },
+  {
+    "content": "much thank you so much for insightful reportage so we know minesweeper can be",
+    "start": 819
+  },
+  {
+    "content": "done in 10k but let's be real our version has a bit more going on visually",
+    "start": 824
+  },
+  {
+    "content": "it's still 62k to interactive though so what can we do better yes let's have a",
+    "start": 829
+  },
+  {
+    "content": "look so if we want to if you've only got a few minutes and you want to improve",
+    "start": 834
+  },
+  {
+    "content": "the promise of your site try and identify the important resources",
+    "start": 837
+  },
+  {
+    "content": "that start loading too late so looking at the timeline here we're getting to",
+    "start": 839
+  },
+  {
+    "content": "render at 4.2 seconds but I JavaScript just loaded at this point like well",
+    "start": 844
+  },
+  {
+    "content": "before that so the site is ready to go but it is useless because well the text",
+    "start": 848
+  },
+  {
+    "content": "is not rendering have you guessed it we're using a web font so we're using",
+    "start": 853
+  },
+  {
+    "content": "space mono from google fonts both the normal and the bold version they're",
+    "start": 858
+  },
+  {
+    "content": "about 10k each which is as far as weapons go actually not that bad so it's",
+    "start": 862
+  },
+  {
+    "content": "a bit surprising why they're giving us so much trouble yeah so to find out we",
+    "start": 866
+  },
+  {
+    "content": "need to dive into the network waterfall in webpagetest or in chrome dev tools",
+    "start": 869
+  },
+  {
+    "content": "it's a very similar visualization here's the pattern we were seeing first up the",
+    "start": 872
+  },
+  {
+    "content": "HTML downloads yeah so this is a convention that both",
+    "start": 876
+  },
+  {
+    "content": "chrome dev tools and webpagetest use the thinner line signifies setting up an",
+    "start": 879
+  },
+  {
+    "content": "HTTP or HTTPS or HTTP - connection and then the thicker line is the time for",
+    "start": 883
+  },
+  {
+    "content": "the request and the response and then it discovers the CSS for the fonts and then",
+    "start": 888
+  },
+  {
+    "content": "it downloads the actual fonts it's worth noticing when you when you look at",
+    "start": 892
+  },
+  {
+    "content": "diagrams like this and webpagetest the network downloads don't add up you know",
+    "start": 895
+  },
+  {
+    "content": "instantly to things appearing on the screen because like we say this is a",
+    "start": 900
+  },
+  {
+    "content": "moto G 4 so there's like processing overhead so your stuff will arrive but",
+    "start": 903
+  },
+  {
+    "content": "then it'll probably take a second for it to actually appear on the screen anyway",
+    "start": 907
+  },
+  {
+    "content": "like the first big red flag on the stair should be that both the CSS and the",
+    "start": 910
+  },
+  {
+    "content": "phones have these thin alliance meaning new connections are being set up and",
+    "start": 914
+  },
+  {
+    "content": "this is because our CSS is actually in a different server it's on Vaughn stock",
+    "start": 918
+  },
+  {
+    "content": "Google API stock um so it has to start a new connection to actually get the CSS",
+    "start": 921
+  },
+  {
+    "content": "however if we have a look inside the CSS we can see the fonts it on yet another",
+    "start": 925
+  },
+  {
+    "content": "server like fonts dot G satakam so that's yet another connection it has to",
+    "start": 929
+  },
+  {
+    "content": "make a quick fix here is to copy the CSS and the fonts onto our own server this",
+    "start": 933
+  },
+  {
+    "content": "way we can reuse the existing connection at least in theory that should improve",
+    "start": 938
+  },
+  {
+    "content": "our loading time by about a second wait you can't do that fonts are protected by",
+    "start": 942
+  },
+  {
+    "content": "intellectual property laws including trademarks copyrights and design patents",
+    "start": 947
+  },
+  {
+    "content": "copying into your server may violate the policy at the bright older ah but that",
+    "start": 950
+  },
+  {
+    "content": "might be true for many fun providers it is not true for google fonts all these",
+    "start": 954
+  },
+  {
+    "content": "phones are open source and we can host the CSS and the fonts ourselves Oh",
+    "start": 957
+  },
+  {
+    "content": "disaster averted I for one will be able to sleep tonight",
+    "start": 961
+  },
+  {
+    "content": "well in fact when we look at it this year this is actually so small that we",
+    "start": 964
+  },
+  {
+    "content": "might as well just inline it into our HTML all about these funds right the",
+    "start": 968
+  },
+  {
+    "content": "browser is trying to be smart here is what all browsers do when it comes to",
+    "start": 972
+  },
+  {
+    "content": "font downloading it will won't download the fonts until it finds something that",
+    "start": 974
+  },
+  {
+    "content": "needs them so that means it waits on the CSS to download and then an element",
+    "start": 978
+  },
+  {
+    "content": "appearing on the page that contains the text that it needs that font this is",
+    "start": 981
+  },
+  {
+    "content": "good in some ways because it means the browser can avoid downloading fonts it",
+    "start": 985
+  },
+  {
+    "content": "doesn't need but in this case we know it always needs those two fonts and the",
+    "start": 988
+  },
+  {
+    "content": "answer is a link rel preload tag in the head of the document this tells the",
+    "start": 992
+  },
+  {
+    "content": "browser to download a particular thing and hold it in memory until something on",
+    "start": 996
+  },
+  {
+    "content": "the page actually needs it and so these small changes we should actually see",
+    "start": 1001
+  },
+  {
+    "content": "this inline shrink when we pass it through webpagetest next at least in",
+    "start": 1005
+  },
+  {
+    "content": "theory yes but we have to get it working with our build tools so here's that the",
+    "start": 1009
+  },
+  {
+    "content": "plugin we had earlier from before creating the HTML so we need to inline",
+    "start": 1014
+  },
+  {
+    "content": "the CSS for fonts we to add the preload tag for each of them now I'm not gonna",
+    "start": 1017
+  },
+  {
+    "content": "go through step by step what we did the workshops were yesterday so here is what",
+    "start": 1020
+  },
+  {
+    "content": "it looks like there you go yeah so at the start of the build we use the amid",
+    "start": 1024
+  },
+  {
+    "content": "asset method from roll-up that basically makes roll-up aware of a file and put it",
+    "start": 1028
+  },
+  {
+    "content": "in the pipeline so lovely add a hash to the file name and all these things it",
+    "start": 1033
+  },
+  {
+    "content": "will basically bring it into the build this means that we can now put it into",
+    "start": 1037
+  },
+  {
+    "content": "the template data object that we can use inside our template to to use",
+    "start": 1041
+  },
+  {
+    "content": "that data so we use the helper to actually find out what the file or what",
+    "start": 1045
+  },
+  {
+    "content": "the final name of the file font file is finally finding the font font file",
+    "start": 1049
+  },
+  {
+    "content": "confusing keep going yeah and that that sort of asset",
+    "start": 1053
+  },
+  {
+    "content": "management is something that's like in web pack is it does have it under the",
+    "start": 1056
+  },
+  {
+    "content": "hood but it's all undocumented private api's so we can now use this data in the",
+    "start": 1059
+  },
+  {
+    "content": "template so we're going to loop over the font data the stuff we passed into",
+    "start": 1063
+  },
+  {
+    "content": "template output a style tag when it defines each font and there's a surf",
+    "start": 1066
+  },
+  {
+    "content": "this stuff we pass into the template we'll just output it there and then also",
+    "start": 1070
+  },
+  {
+    "content": "we're gonna add this preload tag whatever you like about is that the",
+    "start": 1073
+  },
+  {
+    "content": "roller plugin takes care of roll up specific stuff like you know them but",
+    "start": 1076
+  },
+  {
+    "content": "getting it aware of the system putting it in the output folder adding a hash to",
+    "start": 1080
+  },
+  {
+    "content": "the filename but for the HTML part we are writing HTML there's nothing roll up",
+    "start": 1083
+  },
+  {
+    "content": "specific about this ejs template so roll up isn't preventing us from reordering",
+    "start": 1087
+  },
+  {
+    "content": "tags or even adding new ones but we are not done yet",
+    "start": 1091
+  },
+  {
+    "content": "fonts aren't the only asset that is loading too late at the same time our",
+    "start": 1095
+  },
+  {
+    "content": "main script loads it in turn loads other scripts this is because of the code",
+    "start": 1098
+  },
+  {
+    "content": "splitting that we're doing between the worker and the main thread so it's it's",
+    "start": 1102
+  },
+  {
+    "content": "splitting this code between the two however we know just like the fonts that",
+    "start": 1106
+  },
+  {
+    "content": "these three scripts are always needed so we should pretty we should preload these",
+    "start": 1109
+  },
+  {
+    "content": "as well yeah the question is which files are we",
+    "start": 1115
+  },
+  {
+    "content": "supposed to preload because they're dependencies of our main file and",
+    "start": 1117
+  },
+  {
+    "content": "luckily roll-ups bundle object contains that information for us",
+    "start": 1120
+  },
+  {
+    "content": "so for each bit of JSF we output we can use an array to of all the things that",
+    "start": 1123
+  },
+  {
+    "content": "it imports and so we just put that into our template data object pass it into",
+    "start": 1128
+  },
+  {
+    "content": "the template we use the dot imports and then in there we just loop over that and",
+    "start": 1133
+  },
+  {
+    "content": "just create another batch of link preload tags to preload them yes and if",
+    "start": 1137
+  },
+  {
+    "content": "the dependencies change over time it will just pick it up automatically",
+    "start": 1142
+  },
+  {
+    "content": "because roll up will know what the the imports are so we've moved the fonts",
+    "start": 1145
+  },
+  {
+    "content": "onto our own server we've added some preload tags for them and our scripts",
+    "start": 1149
+  },
+  {
+    "content": "better in theory but what does webpagetest actually tell us about the",
+    "start": 1152
+  },
+  {
+    "content": "real-world impact well we've eliminated the know fonts",
+    "start": 1155
+  },
+  {
+    "content": "render as soon as we render everything is ready to go",
+    "start": 1158
+  },
+  {
+    "content": "that's a one-second improvement on 3g and a massive three-second improvement",
+    "start": 1161
+  },
+  {
+    "content": "on 2g but we haven't really affected the read bottom which is the part where the",
+    "start": 1165
+  },
+  {
+    "content": "user sees absolutely nothing yeah and four seconds is a lot of nothing eight",
+    "start": 1170
+  },
+  {
+    "content": "seconds that's double a lot of nothing I guess this is the part where the user is",
+    "start": 1174
+  },
+  {
+    "content": "just staring white screen like they don't even know",
+    "start": 1179
+  },
+  {
+    "content": "if the server is going to respond at this point so looking at webpagetest",
+    "start": 1181
+  },
+  {
+    "content": "network waterfall it confirms that we achieved what we had have to do",
+    "start": 1184
+  },
+  {
+    "content": "everything that we consider critical is now loading in parallel it's just taking",
+    "start": 1188
+  },
+  {
+    "content": "too long yeah so we have two options here we can either just like make these",
+    "start": 1192
+  },
+  {
+    "content": "bits shorter by making all the files smaller or we can just make it matter",
+    "start": 1195
+  },
+  {
+    "content": "less yeah so right now we are fully reliant on JavaScript to fill in",
+    "start": 1200
+  },
+  {
+    "content": "everything between our body tags to make our first render happen so let's put a",
+    "start": 1204
+  },
+  {
+    "content": "stop to that let's do server-side rendering but at",
+    "start": 1209
+  },
+  {
+    "content": "built time and that's often called a pre render or aesthetic render yeah so we",
+    "start": 1212
+  },
+  {
+    "content": "want to use C something like this like the page isn't interactive at this stage",
+    "start": 1216
+  },
+  {
+    "content": "so we've hidden everything that requires JavaScript to work but this kind of",
+    "start": 1219
+  },
+  {
+    "content": "parts can appear on the screen while the JavaScript loading and that improves the",
+    "start": 1223
+  },
+  {
+    "content": "perception of performance because the user sees that something is happening",
+    "start": 1226
+  },
+  {
+    "content": "then once JavaScript loads it can enhance the page so there's a few ways",
+    "start": 1230
+  },
+  {
+    "content": "to do this every Dom orchestrations framework we're talking about has a way",
+    "start": 1233
+  },
+  {
+    "content": "to generate an HTML string from the components that you put in there in pre",
+    "start": 1237
+  },
+  {
+    "content": "act and react land that's called render to string and that's actually pretty",
+    "start": 1241
+  },
+  {
+    "content": "fast it's not as fast as like a single purpose templating engine but it's fast",
+    "start": 1245
+  },
+  {
+    "content": "enough that some sites actually run this on every request for example in your",
+    "start": 1250
+  },
+  {
+    "content": "service functions and no the thing is though that we actually run this at",
+    "start": 1254
+  },
+  {
+    "content": "Build time so actually this super high performance is not a requirement for our",
+    "start": 1258
+  },
+  {
+    "content": "use case however it runs and node and we actually see that as a downside because",
+    "start": 1263
+  },
+  {
+    "content": "if you have any code in your components that are changing what's a browser",
+    "start": 1268
+  },
+  {
+    "content": "assumes to be in a browser like accessing index DB that will fall over a",
+    "start": 1272
+  },
+  {
+    "content": "node and then you have to add branches to your component level gets really",
+    "start": 1276
+  },
+  {
+    "content": "messy still overall like renders a string it's really fast and probably",
+    "start": 1281
+  },
+  {
+    "content": "ideal if you can make it work with your component set up it's not what we ended",
+    "start": 1284
+  },
+  {
+    "content": "up using though no we looked at JSON which is kind of like a browser that",
+    "start": 1289
+  },
+  {
+    "content": "runs in node environment the problem is the word kind of they're like Jess tom",
+    "start": 1293
+  },
+  {
+    "content": "is like an entirely new browser that you have to support we try to use it as what",
+    "start": 1297
+  },
+  {
+    "content": "we want it to use but it kept doing odd things one of the things that did was it",
+    "start": 1301
+  },
+  {
+    "content": "was stripping out some of our inline styles it turns out that Jess Tom",
+    "start": 1304
+  },
+  {
+    "content": "doesn't understand linear gradients now browsers are supposed to according to",
+    "start": 1309
+  },
+  {
+    "content": "web standards ignore inline styles that they don't understand and JSON was",
+    "start": 1314
+  },
+  {
+    "content": "dutifully behaving like a browser in that respect except it was behaving like",
+    "start": 1318
+  },
+  {
+    "content": "a browser that doesn't understand linear gradients also for this worth it is",
+    "start": 1321
+  },
+  {
+    "content": "slower than render to string so it's probably not something you would want to",
+    "start": 1325
+  },
+  {
+    "content": "run on every request so in the end we actually went with puppeteer so",
+    "start": 1328
+  },
+  {
+    "content": "puppeteer launches headless Chrome and you can load pages execute JavaScript",
+    "start": 1333
+  },
+  {
+    "content": "read the result basically can fully remote-control an individual version of",
+    "start": 1337
+  },
+  {
+    "content": "Chrome and it means your code is running in an actual Chrome so you don't have to",
+    "start": 1341
+  },
+  {
+    "content": "worry about what this thing actually supports it is however kind of obviously",
+    "start": 1346
+  },
+  {
+    "content": "slower than renders of string it is also slower than gesture on but just by a",
+    "start": 1351
+  },
+  {
+    "content": "little bit mmm and as I said we only need it once per build so we didn't see",
+    "start": 1355
+  },
+  {
+    "content": "that as kind of a big deal it is really easy to install and use as an NPM",
+    "start": 1358
+  },
+  {
+    "content": "dependency but let's let's be honest adding an entire version of Chrome to",
+    "start": 1363
+  },
+  {
+    "content": "your build setup is definitely a jump in complexity but it is what we used for",
+    "start": 1368
+  },
+  {
+    "content": "procs and in the end it wasn't a bad at all so how do we get this working well",
+    "start": 1373
+  },
+  {
+    "content": "we wrote another plugin didn't we there it is not gonna go for it line by",
+    "start": 1378
+  },
+  {
+    "content": "line just want to show you that it's a relatively small chunk of code to do",
+    "start": 1382
+  },
+  {
+    "content": "this thing puppeteer lets doesn't launch this invisible version of chrome run our",
+    "start": 1385
+  },
+  {
+    "content": "JavaScript and then we can collect the HTML that it generates and since our CSS",
+    "start": 1389
+  },
+  {
+    "content": "is inside our JavaScript it's creating style tags for all of the components",
+    "start": 1393
+  },
+  {
+    "content": "that are part of that first render so we're getting nose as well we're",
+    "start": 1396
+  },
+  {
+    "content": "collecting nose and outputting them to our HTML so we get CSS in lining for",
+    "start": 1400
+  },
+  {
+    "content": "free Brian so we said we would hide the bits that are not interactive but we",
+    "start": 1403
+  },
+  {
+    "content": "haven't actually shown how we do that so we need some up prevent the pre renderer",
+    "start": 1407
+  },
+  {
+    "content": "from rendering elements that are not supposed to be interacted with so what",
+    "start": 1411
+  },
+  {
+    "content": "we want it's not that but more something like this mmm",
+    "start": 1415
+  },
+  {
+    "content": "so the simplest solution is to add something like this give puppeteer a",
+    "start": 1419
+  },
+  {
+    "content": "little bit of code like this before it runs the rest of your JavaScript and",
+    "start": 1424
+  },
+  {
+    "content": "then in your app you can look out for that variable and do like different",
+    "start": 1426
+  },
+  {
+    "content": "stuff like hiding buttons and since this is only true in the pre rendering",
+    "start": 1430
+  },
+  {
+    "content": "puppeteer those steps are not going to run for",
+    "start": 1434
+  },
+  {
+    "content": "real users but it might not run for real users but they still have to download it",
+    "start": 1436
+  },
+  {
+    "content": "so that's actually kinda bad it's code they don't need although not I think got",
+    "start": 1441
+  },
+  {
+    "content": "be not a lot of code it's probably not the words like putting in the effort to",
+    "start": 1445
+  },
+  {
+    "content": "to strip it out no I don't think we need to worry about this because anyway yes",
+    "start": 1448
+  },
+  {
+    "content": "please all right so our aim is to remove this code from actually ever build it",
+    "start": 1455
+  },
+  {
+    "content": "I've ever reaching the bill that goes to production so here is our current set of",
+    "start": 1458
+  },
+  {
+    "content": "plugins can you guess what's happening next I don't know but I'm excited we're",
+    "start": 1462
+  },
+  {
+    "content": "writing a plugin like we did in rehearsal brilliant so the plug-in that",
+    "start": 1466
+  },
+  {
+    "content": "we're doing is basically this it allows us to define the values of these kind of",
+    "start": 1471
+  },
+  {
+    "content": "import statements by putting them into our build config putting like this is",
+    "start": 1477
+  },
+  {
+    "content": "great for other constants as well we used it for passing like version numbers",
+    "start": 1482
+  },
+  {
+    "content": "and other kinds of flags I've actually seen other plugins which do this but",
+    "start": 1485
+  },
+  {
+    "content": "without the import statement it doesn't need the import statements it will just",
+    "start": 1489
+  },
+  {
+    "content": "look out for variables of a particular name and substitute in a particular",
+    "start": 1492
+  },
+  {
+    "content": "value I kind of hate that I kind of hate that mmm oh you agree good fine I",
+    "start": 1496
+  },
+  {
+    "content": "thought you're telling me no no we agreed we liked it no okay we definitely",
+    "start": 1501
+  },
+  {
+    "content": "hate it yeah because the reason I hate it is because it's not obvious that the",
+    "start": 1504
+  },
+  {
+    "content": "build is going to come and do something magic with with that variable whereas",
+    "start": 1509
+  },
+  {
+    "content": "here I can see that import and I know it is doing something special it's not a",
+    "start": 1512
+  },
+  {
+    "content": "normal import so I can go and look at the build tools I can search the code",
+    "start": 1516
+  },
+  {
+    "content": "for this like constants column prefix thing and I'll find the plug-in that's",
+    "start": 1519
+  },
+  {
+    "content": "doing all of that stuff yes and also a rollup is really really smart here if",
+    "start": 1523
+  },
+  {
+    "content": "you do a build where preload is true it will actually optimize it it will just",
+    "start": 1527
+  },
+  {
+    "content": "take that out because it knows it's always going to run but more importantly",
+    "start": 1531
+  },
+  {
+    "content": "if you do a build where it's false it will optimize it to this and that's we",
+    "start": 1534
+  },
+  {
+    "content": "did we created two builds one for users and one for puppeteer so let's take a",
+    "start": 1539
+  },
+  {
+    "content": "closer look this is the entire plugin for the constant version so the plugin",
+    "start": 1543
+  },
+  {
+    "content": "really doesn't do anything until it finds an import it starts with Const :",
+    "start": 1547
+  },
+  {
+    "content": "and if it finds such an import it will just basically generate a string of",
+    "start": 1550
+  },
+  {
+    "content": "Charles on the fly with json stringify and put that value in there and honestly",
+    "start": 1554
+  },
+  {
+    "content": "that's it that's all yep that's all so here's the the comparable web pack",
+    "start": 1559
+  },
+  {
+    "content": "plug-in for the same thing first thing you'll notice is it's bigger I think and",
+    "start": 1564
+  },
+  {
+    "content": "again it's not something that I feel comfortable hacking around with and it's",
+    "start": 1570
+  },
+  {
+    "content": "it's adding lots of build complexity now as part of this you might feel like",
+    "start": 1574
+  },
+  {
+    "content": "we're giving web a bit of a kicking that's kind of",
+    "start": 1578
+  },
+  {
+    "content": "because we are but the honest truth is like the difference between working on a",
+    "start": 1582
+  },
+  {
+    "content": "project with webpack squoosh and then moving to proxy a project with role of",
+    "start": 1585
+  },
+  {
+    "content": "it was just night and day different for us like not only did we feel like we",
+    "start": 1589
+  },
+  {
+    "content": "understood what was happening but we felt capable of changing what was",
+    "start": 1592
+  },
+  {
+    "content": "happening if we needed to yes for example if we are on a less trodden path",
+    "start": 1595
+  },
+  {
+    "content": "like making work as an integral part of our architecture that wasn't valuably",
+    "start": 1599
+  },
+  {
+    "content": "able to change how roll up perceived things",
+    "start": 1604
+  },
+  {
+    "content": "hmm so now I have this optimize server render what do we win what is the real",
+    "start": 1606
+  },
+  {
+    "content": "world impact of that we've pushed this read nothing happening time right back",
+    "start": 1611
+  },
+  {
+    "content": "we've cut that by 2 seconds on 3G we've cut it by 3 seconds on 2g this is a",
+    "start": 1617
+  },
+  {
+    "content": "massive improvement to the perception of performance so the yellow area obviously",
+    "start": 1622
+  },
+  {
+    "content": "still represents a time frame where the users see something but can't interact",
+    "start": 1625
+  },
+  {
+    "content": "with it because our JavaScript hasn't loaded but at least they get some signal",
+    "start": 1629
+  },
+  {
+    "content": "that loading is indeed happening so what can we do next well looking at the",
+    "start": 1635
+  },
+  {
+    "content": "network waterfall again the same block it's the start of setting up a",
+    "start": 1640
+  },
+  {
+    "content": "connection and then the thick block is the time between the request starting to",
+    "start": 1643
+  },
+  {
+    "content": "get sent and the receiving the final bite of the response but there is",
+    "start": 1648
+  },
+  {
+    "content": "another feature of network waterfalls that we can take a look at and that's",
+    "start": 1652
+  },
+  {
+    "content": "time to first byte and this is something that both webpagetest and chrome dev",
+    "start": 1655
+  },
+  {
+    "content": "tools highlight they you can highlight it a little bit like this so this is the",
+    "start": 1659
+  },
+  {
+    "content": "time taken up by the request and there is the first byte of the response being",
+    "start": 1663
+  },
+  {
+    "content": "received by the browser and you can see that's actually a pretty big gap the",
+    "start": 1668
+  },
+  {
+    "content": "timer when we're done receiving the HTML until we receive a first byte of one of",
+    "start": 1671
+  },
+  {
+    "content": "those critical resources is actually about 400 milliseconds on 3G and about a",
+    "start": 1675
+  },
+  {
+    "content": "second on 2g there are two possible solutions to this number one HTTP -",
+    "start": 1679
+  },
+  {
+    "content": "server push no so H - push is incredibly hard together right like we've seen",
+    "start": 1684
+  },
+  {
+    "content": "teams with a dedicated set of experts and networking trying to use edge to",
+    "start": 1690
+  },
+  {
+    "content": "push and they had a hard time to just break even on performance so actually",
+    "start": 1695
+  },
+  {
+    "content": "smashing I would recommend to just skip that one yeah don't do that don't do",
+    "start": 1699
+  },
+  {
+    "content": "that the alternative of course is inlining we take these assets and we",
+    "start": 1702
+  },
+  {
+    "content": "just stuff them directly into our HTML yeah so first up let's take a look at",
+    "start": 1705
+  },
+  {
+    "content": "our fonts in lining both our phones would actually",
+    "start": 1709
+  },
+  {
+    "content": "at 20k to our HTML which let's be real that's that's kind of a lot yeah so I",
+    "start": 1712
+  },
+  {
+    "content": "took a look inside these fonts and I found some interesting stuff",
+    "start": 1717
+  },
+  {
+    "content": "I'm 3/4 an upside down question mark an indecisive owl a surprised face no one",
+    "start": 1720
+  },
+  {
+    "content": "knows what this is no one knows what this is it's a nest",
+    "start": 1727
+  },
+  {
+    "content": "set no one knows what this is fine there's a if you ever need a P and a B",
+    "start": 1730
+  },
+  {
+    "content": "at the same time that's there and this is like a rotated elephant I mean that's",
+    "start": 1734
+  },
+  {
+    "content": "I mean that's what that is right the point is that none of these characters",
+    "start": 1739
+  },
+  {
+    "content": "are part of this set of characters because this set of characters is what",
+    "start": 1743
+  },
+  {
+    "content": "we use on the screen so we figured we just inline the fonts but only with the",
+    "start": 1747
+  },
+  {
+    "content": "characters that are in the set that we were actually using it's kinda like tree",
+    "start": 1752
+  },
+  {
+    "content": "shaking but with fonts it's called sub setting and there are command line tools",
+    "start": 1756
+  },
+  {
+    "content": "to do this they're all written in Python but I kind of loved Python - that's me",
+    "start": 1760
+  },
+  {
+    "content": "one anyway they said this little-known feature of google fonts where you can",
+    "start": 1765
+  },
+  {
+    "content": "actually add a little parameter to the URL and you will now get a dedicated",
+    "start": 1768
+  },
+  {
+    "content": "version of the CSS code that will load a specific version of the fonts that just",
+    "start": 1773
+  },
+  {
+    "content": "has these characters okay talking to pub about Python so we used like a build",
+    "start": 1778
+  },
+  {
+    "content": "script to just go and open these files that we collected from the CSS and spit",
+    "start": 1784
+  },
+  {
+    "content": "them into our template as base64 URLs and in the end this added only 4.5 K to",
+    "start": 1787
+  },
+  {
+    "content": "the HTML like much less than the 20k for the full fonts we still load the full",
+    "start": 1792
+  },
+  {
+    "content": "fonts because you know after our first interaction we you know use some of",
+    "start": 1796
+  },
+  {
+    "content": "those other characters but they're not needed for that first render so all the",
+    "start": 1800
+  },
+  {
+    "content": "question is how do we teach this to our build system well we go back to our",
+    "start": 1804
+  },
+  {
+    "content": "create HTML plugin because this needs to go into our HTML at least this is the",
+    "start": 1807
+  },
+  {
+    "content": "part where we pipe data into the templating engine so we're already",
+    "start": 1812
+  },
+  {
+    "content": "passing in the weight and the original full file URL but now we're also going",
+    "start": 1815
+  },
+  {
+    "content": "to pass in the inline font as a base64 encoded string yeah and this is just",
+    "start": 1820
+  },
+  {
+    "content": "using built-in node API is there's no no libraries being used here we are also",
+    "start": 1824
+  },
+  {
+    "content": "going to pass in the Unicode range for each font if you've used web fonts",
+    "start": 1828
+  },
+  {
+    "content": "before especially subsetting you need to tell the browser exactly what's inside",
+    "start": 1831
+  },
+  {
+    "content": "that font file we use that nice little library here from NPM this is character",
+    "start": 1834
+  },
+  {
+    "content": "set you can just give it a lot of characters and it will spit out to the",
+    "start": 1839
+  },
+  {
+    "content": "valet to CSS Unicode range for that so now we're passing everything",
+    "start": 1841
+  },
+  {
+    "content": "the templating engine that we need to align the fonts but we should also",
+    "start": 1845
+  },
+  {
+    "content": "actually think about our JavaScript yeah so this is what we're doing right now",
+    "start": 1849
+  },
+  {
+    "content": "we're getting the object from the bundle that's relating to our main thing we're",
+    "start": 1852
+  },
+  {
+    "content": "just asking it for the file name but the bundle also will give us just the code",
+    "start": 1855
+  },
+  {
+    "content": "so we're gonna change that to code job done",
+    "start": 1859
+  },
+  {
+    "content": "also we're passing in the file names for all of these dependencies here as well",
+    "start": 1862
+  },
+  {
+    "content": "right now we're just getting the file names but instead we'll map over them go",
+    "start": 1865
+  },
+  {
+    "content": "back to the bundle and get the code instead job done so I'm gonna have to",
+    "start": 1869
+  },
+  {
+    "content": "change the template as a result of course but again this is using our",
+    "start": 1873
+  },
+  {
+    "content": "skills in HTML like nothing plug-in specific so here's where we've outputted",
+    "start": 1876
+  },
+  {
+    "content": "the inline fonts there's a Unicode range and there is our inline script so we're",
+    "start": 1880
+  },
+  {
+    "content": "done in theory but the question is once again we need to measure how does this",
+    "start": 1884
+  },
+  {
+    "content": "impact real-world performance so if I already improved things a lot but with",
+    "start": 1888
+  },
+  {
+    "content": "inlining we've actually reduced our interactive by time to interactive by",
+    "start": 1892
+  },
+  {
+    "content": "half a second on 3G and a second on 2g but we are not done yet",
+    "start": 1896
+  },
+  {
+    "content": "like now that javascript is inlined we can just really think about that HTML",
+    "start": 1900
+  },
+  {
+    "content": "file is one thing that has everything that's needed to get to interactive",
+    "start": 1905
+  },
+  {
+    "content": "we've got a long way as well they even over 2g it's it's now only six seconds",
+    "start": 1908
+  },
+  {
+    "content": "under six seconds to get to interactive but I think we can do better I think to",
+    "start": 1912
+  },
+  {
+    "content": "do because our index.html is 43 kilobytes Jesus and 32 kilobytes of that",
+    "start": 1916
+  },
+  {
+    "content": "is JavaScript but if you look into what that JavaScript is it's kinda everything",
+    "start": 1921
+  },
+  {
+    "content": "so it's like the animations it's the WebGL render it's the end screen which",
+    "start": 1926
+  },
+  {
+    "content": "the user of course doesn't need at all at the start yeah what we've done here",
+    "start": 1931
+  },
+  {
+    "content": "is we've gone and done a Photoshop like I think you've experienced this before",
+    "start": 1935
+  },
+  {
+    "content": "where you're staring at this very screen just so it can light load 100 plugins",
+    "start": 1939
+  },
+  {
+    "content": "even though the first interaction the first interaction is just like opening",
+    "start": 1943
+  },
+  {
+    "content": "an image or starting a new one but you're having to wait for it to load",
+    "start": 1946
+  },
+  {
+    "content": "everything before it can do anything you don't need all of these plugins yet so",
+    "start": 1949
+  },
+  {
+    "content": "this is X my favorite plugins it's the halide bottle next like when you first",
+    "start": 1953
+  },
+  {
+    "content": "show youmy this like I'd seriously thought that you'd edited this and this",
+    "start": 1958
+  },
+  {
+    "content": "was like a pun or something that I wasn't getting this is a real that's the",
+    "start": 1961
+  },
+  {
+    "content": "real screenshot I love it cuz it sounds more like a Swedish folk singer than the",
+    "start": 1964
+  },
+  {
+    "content": "halide the bottlenecks or something like that I don't know so let's not do that",
+    "start": 1967
+  },
+  {
+    "content": "let's not load everything before the user can do anything let's prioritize",
+    "start": 1971
+  },
+  {
+    "content": "the code that we actually need to do just this the first interaction is",
+    "start": 1975
+  },
+  {
+    "content": "configuring the game that you want to play and yes we need to be able to the",
+    "start": 1979
+  },
+  {
+    "content": "to react to the user clicking the start button but not necessarily with straight",
+    "start": 1984
+  },
+  {
+    "content": "up starting the game if for some reason these are as fast enough it's very first",
+    "start": 1987
+  },
+  {
+    "content": "time on the page to click the start button before we're ready then we can",
+    "start": 1991
+  },
+  {
+    "content": "show a loading screen and everything else can really be loaded lazily and it",
+    "start": 1994
+  },
+  {
+    "content": "doesn't matter if it you know loads half a second later so we need the code to",
+    "start": 1998
+  },
+  {
+    "content": "split at this point code splitting roll-up is very similar to how it works",
+    "start": 2002
+  },
+  {
+    "content": "in web pack and parcel imports like this will cause whatever dot J has to be",
+    "start": 2007
+  },
+  {
+    "content": "bundled in with the main bundle so instead don't do that you want to use",
+    "start": 2011
+  },
+  {
+    "content": "the dynamic import instead this returns a promise so when you actually want to",
+    "start": 2015
+  },
+  {
+    "content": "use the module you will need to await it but now whatever J is it won't be",
+    "start": 2021
+  },
+  {
+    "content": "bundled it will be put into its own separate chunk yeah but it does make it",
+    "start": 2025
+  },
+  {
+    "content": "a sync and that can bring its own set of problems because most of these component",
+    "start": 2029
+  },
+  {
+    "content": "frameworks expect rendering to be synchronous and can't handle a promise",
+    "start": 2032
+  },
+  {
+    "content": "for a component react suspense is aiming to change that to load components lazily",
+    "start": 2036
+  },
+  {
+    "content": "but pre acts doesn't have suspense so of course we wrote it ourselves",
+    "start": 2040
+  },
+  {
+    "content": "and we ended up writing like 20 lines like seriously it obviously doesn't even",
+    "start": 2046
+  },
+  {
+    "content": "do half of what react suspense does but it does everything we need in like 20",
+    "start": 2049
+  },
+  {
+    "content": "lines so what it does is literally that function it takes a promise for a",
+    "start": 2054
+  },
+  {
+    "content": "component and returns an actual component and we can use an actual",
+    "start": 2058
+  },
+  {
+    "content": "component to render a placeholder provided by this function given to the",
+    "start": 2061
+  },
+  {
+    "content": "loading attribute so that will render a div and once the actual underlying",
+    "start": 2066
+  },
+  {
+    "content": "nebula' component is ready loaded and you know you can use it it will switch",
+    "start": 2070
+  },
+  {
+    "content": "to the other function and use the actual component to render with it other",
+    "start": 2074
+  },
+  {
+    "content": "function yes absolutely so with that we've moved all of our components to a",
+    "start": 2077
+  },
+  {
+    "content": "lazy model except the stuff we need for that very first render and this cut off",
+    "start": 2081
+  },
+  {
+    "content": "over 20 K of the JavaScript that was inside our HTML the JavaScript is now",
+    "start": 2085
+  },
+  {
+    "content": "down to 11 K but honestly I mean 11 K is quite a lot to just make a form work you",
+    "start": 2089
+  },
+  {
+    "content": "know but it's pretty good it's pretty good but this is the kind of thing that",
+    "start": 2094
+  },
+  {
+    "content": "could start creeping up again alright time so what did we do about",
+    "start": 2098
+  },
+  {
+    "content": "that that's what we want to prevent and because you know it's Friday afternoon",
+    "start": 2101
+  },
+  {
+    "content": "you're right your component do everything right we keep nice loading in",
+    "start": 2104
+  },
+  {
+    "content": "mind and then you know they're getting a bit tired and your colleagues aren't",
+    "start": 2107
+  },
+  {
+    "content": "looking and then then you do it use vyas code autocomplete and press tab",
+    "start": 2110
+  },
+  {
+    "content": "and suddenly BAM you have a static import and now we have in line 20 more",
+    "start": 2115
+  },
+  {
+    "content": "kilobytes into your index.html so we that and that that is how minesweeper",
+    "start": 2119
+  },
+  {
+    "content": "happens that's how you get the Microsoft minesweeper so we want to prevent that",
+    "start": 2123
+  },
+  {
+    "content": "this calls out in live quite a lot so you know we put some comments in any of",
+    "start": 2126
+  },
+  {
+    "content": "the file that was part of the the main bundle you know because everyone reads",
+    "start": 2131
+  },
+  {
+    "content": "the documentation but it's it's there you know it kind of keeps things in mind",
+    "start": 2134
+  },
+  {
+    "content": "it's hopefully something we would see in the PR so we would like scrutinize the",
+    "start": 2137
+  },
+  {
+    "content": "code change a little bit more but you know tools not rules so we wrote a",
+    "start": 2141
+  },
+  {
+    "content": "little thing that you can hook up to Travis CI and what this does is it looks",
+    "start": 2145
+  },
+  {
+    "content": "in your output directory and it stores all of the sizes of everything so that",
+    "start": 2148
+  },
+  {
+    "content": "means on the next PR it can go and look at the sizes that are on master and it",
+    "start": 2153
+  },
+  {
+    "content": "can compare the sizes in that PR as well and it will tell you the Delta for each",
+    "start": 2156
+  },
+  {
+    "content": "file and this letters let's go in we just have a look at the index.html size",
+    "start": 2160
+  },
+  {
+    "content": "and if it was going up unexpectedly we knew something we were breaking our lazy",
+    "start": 2163
+  },
+  {
+    "content": "loading stuff somehow yeah so what did we win what does all of us really gain",
+    "start": 2167
+  },
+  {
+    "content": "us since our last optimization we're going to go all the way back to the",
+    "start": 2172
+  },
+  {
+    "content": "start yes we started five seconds it's already",
+    "start": 2175
+  },
+  {
+    "content": "on 3G and that's 11 seconds already on 2g we moved the fonts on to our own",
+    "start": 2178
+  },
+  {
+    "content": "server and pre-loaded fonts and scripts improving the time to interactive we",
+    "start": 2185
+  },
+  {
+    "content": "added aesthetic render improving perceived performance by just getting",
+    "start": 2189
+  },
+  {
+    "content": "more pixels on to the screen earlier then we in lined our scripts and",
+    "start": 2192
+  },
+  {
+    "content": "subsetted fonts and that brought down times interactive yet again and then we",
+    "start": 2196
+  },
+  {
+    "content": "split the code so we prioritize the code that we needed for our first interaction",
+    "start": 2200
+  },
+  {
+    "content": "and that actually slashed the time to interactive by over a second on 3G and",
+    "start": 2204
+  },
+  {
+    "content": "by 2 seconds on 2g so from our starting point we have half the time to",
+    "start": 2209
+  },
+  {
+    "content": "interactive which is a lot like let's actually feel let's see what that feels",
+    "start": 2213
+  },
+  {
+    "content": "like so on the left here I've got the original alpha version and on the right",
+    "start": 2217
+  },
+  {
+    "content": "we've got the latest version with all the code splitting and all of that sort",
+    "start": 2220
+  },
+  {
+    "content": "of stuff and this is loading over a 2g connection so figure one go connection",
+    "start": 2223
+  },
+  {
+    "content": "time still takes a while so it takes two about five seconds until we appear but",
+    "start": 2228
+  },
+  {
+    "content": "that is it we're interactive now whereas neither side still blank something",
+    "start": 2232
+  },
+  {
+    "content": "appears it's not interactive yet until that font appears that is the real-world",
+    "start": 2236
+  },
+  {
+    "content": "difference we've made i remember if you're at a festival or a london train",
+    "start": 2239
+  },
+  {
+    "content": "or you know just on vacation use roaming or you're at a conference you",
+    "start": 2244
+  },
+  {
+    "content": "will be experiencing speeds closer to 3 D 3G and sometimes even 2 G yes so and",
+    "start": 2248
+  },
+  {
+    "content": "also once the playing the game of course we install a service worker don't we I",
+    "start": 2254
+  },
+  {
+    "content": "wouldn't get away if I didn't and that means the game works offline first but",
+    "start": 2257
+  },
+  {
+    "content": "you know as a kind of side effect for subsequent visits it is ready to play",
+    "start": 2261
+  },
+  {
+    "content": "pretty much instantly no matter what connection you have so you might be",
+    "start": 2265
+  },
+  {
+    "content": "wondering all in all where did we end up with our plug encounter well to be",
+    "start": 2268
+  },
+  {
+    "content": "honest we didn't talk about every plugin that we wrote so this is all the plugins",
+    "start": 2271
+  },
+  {
+    "content": "that we have in our roll up config and I'm just gonna highlight which ones we",
+    "start": 2275
+  },
+  {
+    "content": "didn't write so all in all that brings us to a total of 16 plugins yeah now is",
+    "start": 2278
+  },
+  {
+    "content": "this a bad thing I'm not sure I much prefer wrangling code than I do",
+    "start": 2286
+  },
+  {
+    "content": "wrangling config of other people's code and it's very empowering to just be able",
+    "start": 2290
+  },
+  {
+    "content": "to go in and fix stuff without spending days learning a new DSL or config format",
+    "start": 2294
+  },
+  {
+    "content": "or something like that we're definitely not asking you to use our plugins",
+    "start": 2298
+  },
+  {
+    "content": "definitely not much more would encourage you to go and write your own plugins to",
+    "start": 2300
+  },
+  {
+    "content": "do the stuff that is unique to your site the stuff that other plugins like in web",
+    "start": 2304
+  },
+  {
+    "content": "pack don't actually let you do right so before we go there's one quick",
+    "start": 2308
+  },
+  {
+    "content": "optimization that we could have done but didn't yes",
+    "start": 2312
+  },
+  {
+    "content": "so our HTML is 52 K but with the magic of gzip that brought it down to 20 K",
+    "start": 2316
+  },
+  {
+    "content": "it's pretty decent yeah but have you heard of zopfli",
+    "start": 2322
+  },
+  {
+    "content": "EE is a compressor that creates normal compatible gzip files but it's just",
+    "start": 2325
+  },
+  {
+    "content": "better at compressing so it shaves off another kilobyte of our index.html yes",
+    "start": 2329
+  },
+  {
+    "content": "but have you heard of videos my sweating so much that my microphone is sliding",
+    "start": 2335
+  },
+  {
+    "content": "off anyway have you heard of broadly broadly is a newer compression format",
+    "start": 2339
+  },
+  {
+    "content": "supported by all browsers and that shaves off yet another kilobyte it's",
+    "start": 2343
+  },
+  {
+    "content": "okay if the users are an older browser that's fine because it will get the gzip",
+    "start": 2348
+  },
+  {
+    "content": "version instead so why aren't we using zopfli and broadly while we're using",
+    "start": 2351
+  },
+  {
+    "content": "this kind of unknown up-and-coming hosting platform called natla phi and",
+    "start": 2355
+  },
+  {
+    "content": "notified doesn't support broadly not providing your own gzip compression",
+    "start": 2359
+  },
+  {
+    "content": "files hi FICA very much",
+    "start": 2362
+  },
+  {
+    "content": "[Applause]",
+    "start": 2368
+  }
+]

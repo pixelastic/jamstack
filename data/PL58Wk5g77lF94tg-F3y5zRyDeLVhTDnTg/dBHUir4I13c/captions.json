@@ -1,0 +1,734 @@
+[
+  {
+    "content": "hey everyone",
+    "start": 0
+  },
+  {
+    "content": "let's talk about how we're bringing remote sensing and disaster relief to",
+    "start": 11
+  },
+  {
+    "content": "the jam stack i'm colby fayak i'm the one hugging bb-8",
+    "start": 14
+  },
+  {
+    "content": "and kylo ren over there i work on the ux and front-end side of things at",
+    "start": 17
+  },
+  {
+    "content": "element84 you can find me pretty much anywhere on the web by just googling my",
+    "start": 20
+  },
+  {
+    "content": "name as i'm the only one in the world we're going to start by talking a little",
+    "start": 23
+  },
+  {
+    "content": "bit about animals most of us probably have our favorite animal",
+    "start": 26
+  },
+  {
+    "content": "and others might have seen some of our favorite ones on the 4k series on",
+    "start": 29
+  },
+  {
+    "content": "netflix on how they live on our planet but animals play a huge role in how the",
+    "start": 32
+  },
+  {
+    "content": "world works they help keep ecosystems thriving maintaining balances of life",
+    "start": 35
+  },
+  {
+    "content": "but the world is changing and i'm not trying to point fingers here",
+    "start": 39
+  },
+  {
+    "content": "but us humans are partially to blame whether it's deforestation pollution or",
+    "start": 42
+  },
+  {
+    "content": "climate change animals are struggling to survive",
+    "start": 46
+  },
+  {
+    "content": "nature serve put together this map of biodiversity importance",
+    "start": 49
+  },
+  {
+    "content": "shows the lower 48 states in the united states their goal was to provide a way",
+    "start": 52
+  },
+  {
+    "content": "to identify critical species that are in danger the most",
+    "start": 55
+  },
+  {
+    "content": "it cross reference with the amount of protection that's set up for those",
+    "start": 58
+  },
+  {
+    "content": "specific areas and how much potential opportunity there",
+    "start": 61
+  },
+  {
+    "content": "is to actually take action this can help conservationists make",
+    "start": 64
+  },
+  {
+    "content": "better decisions about how they can help but while it's important to feel",
+    "start": 67
+  },
+  {
+    "content": "empowered to help my goal here isn't to discuss",
+    "start": 70
+  },
+  {
+    "content": "biodiversity it's to help show how maps can tell stories",
+    "start": 72
+  },
+  {
+    "content": "it's what makes them compelling it's what gives us the ability to be able to",
+    "start": 75
+  },
+  {
+    "content": "communicate with others and find ways to help",
+    "start": 79
+  },
+  {
+    "content": "like here we can gain a better understanding of how a pandemic is",
+    "start": 81
+  },
+  {
+    "content": "impacting the world with johns hopkins university",
+    "start": 83
+  },
+  {
+    "content": "this doesn't just help with analysis and predictions but this helps with keeping",
+    "start": 86
+  },
+  {
+    "content": "the general public stay informed maps can also help identify patterns in",
+    "start": 89
+  },
+  {
+    "content": "severe weather like here we see historical cyclone",
+    "start": 92
+  },
+  {
+    "content": "tracks from 1842 to 2019 while we might not be able to fight off",
+    "start": 95
+  },
+  {
+    "content": "a hurricane yet we can at least get a better understanding of when",
+    "start": 99
+  },
+  {
+    "content": "and where they more frequently occur but we can even enjoy a snapshot of life",
+    "start": 102
+  },
+  {
+    "content": "at a different time using radio.com we can listen to italian music in the 60s",
+    "start": 106
+  },
+  {
+    "content": "or brazilian music in the 30s while the impact here has a little bit",
+    "start": 111
+  },
+  {
+    "content": "different of a meaning this gives us the ability to relive history through music",
+    "start": 114
+  },
+  {
+    "content": "these maps all work together to provide higher resolution to existing problems",
+    "start": 118
+  },
+  {
+    "content": "they help us to understand what areas need help and what areas are impacted",
+    "start": 122
+  },
+  {
+    "content": "the most they let us manage resources and",
+    "start": 125
+  },
+  {
+    "content": "communicate to get help to those areas and we can make patterns and predictions",
+    "start": 127
+  },
+  {
+    "content": "based on that data we've been working hard to help push that effort forward",
+    "start": 131
+  },
+  {
+    "content": "to help give tools to others who can actually make a difference that starts",
+    "start": 134
+  },
+  {
+    "content": "with making the earth searchable in the first place earth data",
+    "start": 138
+  },
+  {
+    "content": "search is a web app developed for nasa esdis",
+    "start": 140
+  },
+  {
+    "content": "this search client allows others to discover data through search comparisons",
+    "start": 143
+  },
+  {
+    "content": "and visualizations across as-is earth science data stores",
+    "start": 147
+  },
+  {
+    "content": "it builds upon public services that provide greater insight into the world",
+    "start": 150
+  },
+  {
+    "content": "for scientists it allows people to make searches right",
+    "start": 154
+  },
+  {
+    "content": "in their browser for data about the earth",
+    "start": 156
+  },
+  {
+    "content": "the jam sac has helped us lead this implementation and provide a reliable",
+    "start": 158
+  },
+  {
+    "content": "system that scales to the size of the problems",
+    "start": 161
+  },
+  {
+    "content": "that these scientists are trying to solve",
+    "start": 163
+  },
+  {
+    "content": "data like this is actively being used by scientists to try to make better",
+    "start": 165
+  },
+  {
+    "content": "decisions and predictions to help make the world a better place",
+    "start": 168
+  },
+  {
+    "content": "we can search for data related to climate change like the surface",
+    "start": 171
+  },
+  {
+    "content": "temperature all over the world analyzing that data over time can help",
+    "start": 174
+  },
+  {
+    "content": "scientists understand what areas are impacted more with the changes in",
+    "start": 178
+  },
+  {
+    "content": "temperature we can even visualize satellite imagery",
+    "start": 181
+  },
+  {
+    "content": "right on the map if we wanted to look at the coast of california",
+    "start": 183
+  },
+  {
+    "content": "we can find that location on the map and view the imagery collected during that",
+    "start": 186
+  },
+  {
+    "content": "period of time but like we can see here cloud coverage",
+    "start": 190
+  },
+  {
+    "content": "makes it difficult to see the surface part of the issue is we don't have",
+    "start": 192
+  },
+  {
+    "content": "control over that imagery we only have access to what's publicly available",
+    "start": 195
+  },
+  {
+    "content": "depending on the day we might have more clouds than other days depending on the",
+    "start": 199
+  },
+  {
+    "content": "time it might be light outside or pitch black",
+    "start": 203
+  },
+  {
+    "content": "coupling that with the day and the time that the satellite actually crosses over",
+    "start": 205
+  },
+  {
+    "content": "that area we're interested in you could be looking at night time with",
+    "start": 208
+  },
+  {
+    "content": "a lot of cloud coverage that means we might not see anything at all",
+    "start": 211
+  },
+  {
+    "content": "if there are active fires we can't see through the smoke so similar to cloud",
+    "start": 214
+  },
+  {
+    "content": "coverage we won't be able to see the surface",
+    "start": 218
+  },
+  {
+    "content": "this imagery is from the bear fire wildfires this past september 11th",
+    "start": 220
+  },
+  {
+    "content": "here i'm using the eos land viewer to see imagery from sentinel 2.",
+    "start": 224
+  },
+  {
+    "content": "capella space is approaching this problem with synthetic aperture radar",
+    "start": 227
+  },
+  {
+    "content": "imagery or star for short the image on the left",
+    "start": 230
+  },
+  {
+    "content": "is capela's sar imagery their satellite can see through cloud",
+    "start": 233
+  },
+  {
+    "content": "coverage and even at night time the image on the right is zoomed in of",
+    "start": 236
+  },
+  {
+    "content": "that same sentinel 2 imagery that we saw from land viewer zoomed in the smoke",
+    "start": 239
+  },
+  {
+    "content": "makes it incredibly difficult to see and while the image on the left isn't",
+    "start": 243
+  },
+  {
+    "content": "the same date and time capela can still get the same exact clean look at the",
+    "start": 247
+  },
+  {
+    "content": "area with their imagery we were tasked to put together an",
+    "start": 250
+  },
+  {
+    "content": "interface for cappella and their partners to visualize this imagery",
+    "start": 253
+  },
+  {
+    "content": "this screenshot shows the same imagery overlaid on top of the mapbox street map",
+    "start": 256
+  },
+  {
+    "content": "imagery to do this we started by bootstrapping an app in gatsby",
+    "start": 260
+  },
+  {
+    "content": "this allowed us to easily get started so that we can focus on the important bits",
+    "start": 263
+  },
+  {
+    "content": "of the application we export this app statically with some",
+    "start": 266
+  },
+  {
+    "content": "client-side routes to s3 where we conserve it behind cloudfront",
+    "start": 269
+  },
+  {
+    "content": "we use a mix of leaflet and react leaflet to provide the map capabilities",
+    "start": 273
+  },
+  {
+    "content": "so in this particular example when someone checks off an image that they",
+    "start": 277
+  },
+  {
+    "content": "want to preview we hook into leaflet and they can see",
+    "start": 279
+  },
+  {
+    "content": "that imagery right on the map when implementing search",
+    "start": 282
+  },
+  {
+    "content": "we need to build it out completely client-side we don't know what data we",
+    "start": 285
+  },
+  {
+    "content": "actually have available ahead of time so we need to make requests to the",
+    "start": 288
+  },
+  {
+    "content": "search api to see what's available then we use client-side routing to push",
+    "start": 291
+  },
+  {
+    "content": "people through to the product that they want to view",
+    "start": 295
+  },
+  {
+    "content": "like this image here we use aws as the core for our various apis but for search",
+    "start": 297
+  },
+  {
+    "content": "particularly we organize all of our metadata using",
+    "start": 301
+  },
+  {
+    "content": "stack which is a specification for a common way to describe geospatial",
+    "start": 304
+  },
+  {
+    "content": "data that data gets stored in an elastic search",
+    "start": 307
+  },
+  {
+    "content": "which then makes it searchable so when we go to make a stack query",
+    "start": 310
+  },
+  {
+    "content": "it gets translated into an elastic search query and we get our results",
+    "start": 314
+  },
+  {
+    "content": "so if somebody wanted to make a search for this area they would make that first",
+    "start": 317
+  },
+  {
+    "content": "request by location they would then find the imagery that",
+    "start": 320
+  },
+  {
+    "content": "they're interested in where they could then drill down to that specific product",
+    "start": 323
+  },
+  {
+    "content": "and query its stack record where it comes with a bucket of metadata",
+    "start": 326
+  },
+  {
+    "content": "that helps explain things like how the image was collected and its properties",
+    "start": 329
+  },
+  {
+    "content": "if there's not any imagery currently available in the area that they're",
+    "start": 333
+  },
+  {
+    "content": "interested in we also let them create a new task",
+    "start": 335
+  },
+  {
+    "content": "scanning request to capture that area this tasks compels satellites in real",
+    "start": 338
+  },
+  {
+    "content": "time utilizing an open and closed date to capture imagery of that area",
+    "start": 341
+  },
+  {
+    "content": "this is giving cappella and their partners yet again a higher resolution",
+    "start": 345
+  },
+  {
+    "content": "of the earth from above teams can use this to make educated",
+    "start": 348
+  },
+  {
+    "content": "decisions on how they can actually help but no matter how much we plan or",
+    "start": 351
+  },
+  {
+    "content": "predict or coordinate disasters still happen and they seem to",
+    "start": 354
+  },
+  {
+    "content": "be happening more frequently and more severe as climate changes",
+    "start": 358
+  },
+  {
+    "content": "we can pretty accurately predict hurricane season but we don't have a way",
+    "start": 361
+  },
+  {
+    "content": "of stopping those hurricanes from damaging",
+    "start": 364
+  },
+  {
+    "content": "the places we live the bear fire wildfires we saw before have been",
+    "start": 366
+  },
+  {
+    "content": "devastating the west coast there are large teams trying to fight",
+    "start": 369
+  },
+  {
+    "content": "those fires and help save people's lives we built this ui called film drop to",
+    "start": 372
+  },
+  {
+    "content": "provide teams an easier way to visualize disasters on the map like bear fire here",
+    "start": 376
+  },
+  {
+    "content": "we can plug and play really any data source and provide an easy way to",
+    "start": 380
+  },
+  {
+    "content": "visualize it the hope here is that whether someone",
+    "start": 383
+  },
+  {
+    "content": "wants to look at active fires or an area of danger",
+    "start": 386
+  },
+  {
+    "content": "they don't have to fumble around with advanced settings to get there here",
+    "start": 388
+  },
+  {
+    "content": "we're showing the campfire wildfires with a simple toggle we can get a",
+    "start": 391
+  },
+  {
+    "content": "completely different perspective of how a fire is impacting an area",
+    "start": 394
+  },
+  {
+    "content": "this includes json data from an api that provides locations of active fires",
+    "start": 397
+  },
+  {
+    "content": "or high resolution satellite imagery from a tile endpoint to get a close-up",
+    "start": 402
+  },
+  {
+    "content": "look of how it's actually impacting an area",
+    "start": 405
+  },
+  {
+    "content": "we also added the ability to add data points to the map so if somebody wanted",
+    "start": 407
+  },
+  {
+    "content": "to report a missing person they can easily add a data point to the",
+    "start": 410
+  },
+  {
+    "content": "map and sync it up to the cloud for others to see",
+    "start": 414
+  },
+  {
+    "content": "we're able to leverage browser capabilities to make this process",
+    "start": 416
+  },
+  {
+    "content": "smoother so for instance we can store these data",
+    "start": 418
+  },
+  {
+    "content": "points in local storage so if they don't have network connectivity",
+    "start": 421
+  },
+  {
+    "content": "they can sync it back up later when they actually have connectivity film drop",
+    "start": 424
+  },
+  {
+    "content": "also gets a little bit more interesting on the data side",
+    "start": 427
+  },
+  {
+    "content": "we built this thing so that we can upload the data directly to an aws",
+    "start": 429
+  },
+  {
+    "content": "snowball edge which is that grey box that the laptop",
+    "start": 432
+  },
+  {
+    "content": "is sitting on there it's basically a cloud in the box",
+    "start": 435
+  },
+  {
+    "content": "because this app is static we can make this interface extremely portable giving",
+    "start": 437
+  },
+  {
+    "content": "people the ability to load this dashboard up straight from the snowball",
+    "start": 441
+  },
+  {
+    "content": "edge the snowball edge also gives people the",
+    "start": 444
+  },
+  {
+    "content": "ability to upload and situde data and make it immediately available",
+    "start": 446
+  },
+  {
+    "content": "someone with a drone can map out their area upload it to their computer",
+    "start": 449
+  },
+  {
+    "content": "and then sync it up to this app to make it available as a new layer that can",
+    "start": 452
+  },
+  {
+    "content": "provide some really powerful up-to-date imagery to better understand somebody's",
+    "start": 456
+  },
+  {
+    "content": "surroundings this imagery is actually from a",
+    "start": 459
+  },
+  {
+    "content": "co-worker of mine who flew his drone up over lake lansing in michigan",
+    "start": 461
+  },
+  {
+    "content": "this type of situation gives people out in the field another level of processing",
+    "start": 465
+  },
+  {
+    "content": "power and capabilities that they just simply didn't have before",
+    "start": 468
+  },
+  {
+    "content": "this could potentially mean lives saved when mapping out safe zones for an area",
+    "start": 471
+  },
+  {
+    "content": "under a fire but we're all in this together",
+    "start": 474
+  },
+  {
+    "content": "whether it's trying to provide insights to save future lives or trying to",
+    "start": 476
+  },
+  {
+    "content": "protect the ones we have we can try to help by sharing tools to",
+    "start": 479
+  },
+  {
+    "content": "make this possible for anyone to do we've been learning a lot about mapping",
+    "start": 482
+  },
+  {
+    "content": "through the various projects that we've helped to build",
+    "start": 485
+  },
+  {
+    "content": "to try and help share some of that knowledge we've been working to open",
+    "start": 487
+  },
+  {
+    "content": "source some of that for others to use and we call this fog",
+    "start": 490
+  },
+  {
+    "content": "fog is a react component library that we're actively using on projects",
+    "start": 492
+  },
+  {
+    "content": "you're able to quickly get productive with building dynamic maps",
+    "start": 496
+  },
+  {
+    "content": "the core of it is what you see here called lens it has a react hook based",
+    "start": 499
+  },
+  {
+    "content": "search api that allows you to search by location",
+    "start": 503
+  },
+  {
+    "content": "so using lens you can quickly scaffold a map you can then patch in your request",
+    "start": 505
+  },
+  {
+    "content": "logic to make location based data searchable this",
+    "start": 509
+  },
+  {
+    "content": "makes it easy to manage your request state gracefully amongst the moving",
+    "start": 512
+  },
+  {
+    "content": "pieces of the map the cool thing is though we also built",
+    "start": 515
+  },
+  {
+    "content": "this out as a gatsby theme so you can plug this in as part of the build",
+    "start": 518
+  },
+  {
+    "content": "process and still get all the same benefits that gatsby provides with",
+    "start": 521
+  },
+  {
+    "content": "themes which is exactly what we did with the",
+    "start": 524
+  },
+  {
+    "content": "capella dashboard and this project that you see here",
+    "start": 526
+  },
+  {
+    "content": "so we're using fog to build film drop to help first responders and disaster",
+    "start": 529
+  },
+  {
+    "content": "scenarios by using these components we can worry",
+    "start": 532
+  },
+  {
+    "content": "less about the complexities of the mapping libraries and focus more on the",
+    "start": 535
+  },
+  {
+    "content": "tool itself fog is still an act of development but",
+    "start": 538
+  },
+  {
+    "content": "if you want to check it out you can find it at fog.element84.com",
+    "start": 540
+  },
+  {
+    "content": "or on element 84's github the takeaway with all this is that maps have a",
+    "start": 544
+  },
+  {
+    "content": "tremendous impact on the world whether it's a scientist or a consumer",
+    "start": 547
+  },
+  {
+    "content": "they help us visualize location-based data more efficiently",
+    "start": 551
+  },
+  {
+    "content": "and jamstack has helped us scale these tools up to the world and that's it",
+    "start": 554
+  },
+  {
+    "content": "if you want to learn more or chat about this talk you can find me pretty much",
+    "start": 557
+  },
+  {
+    "content": "anywhere at colby feyock and i'll also tweet out a link to some",
+    "start": 560
+  },
+  {
+    "content": "of the stuff that you've seen here today thanks everybody",
+    "start": 563
+  },
+  {
+    "content": "you",
+    "start": 577
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "content": "hello everyone I'm David Clarita I'm the",
+    "start": 2
+  },
+  {
+    "content": "chief technology officer of magnify and I'm very glad to be part of the",
+    "start": 17
+  },
+  {
+    "content": "conference today a smart mention during the keynote in the last few months we",
+    "start": 21
+  },
+  {
+    "content": "will try new ways to offer you more programming capabilities you know",
+    "start": 25
+  },
+  {
+    "content": "platform in the same way that we're doing today with the general",
+    "start": 29
+  },
+  {
+    "content": "availability of nullified build plug-ins I'm here to show you a demo of that",
+    "start": 32
+  },
+  {
+    "content": "product unfortunately you won't be able to play with it today but we would love",
+    "start": 37
+  },
+  {
+    "content": "to hear your feedback so please don't hesitate to reach out with any questions",
+    "start": 42
+  },
+  {
+    "content": "or comments that you might have after the talk you might be familiar with a",
+    "start": 46
+  },
+  {
+    "content": "very old nullify feature called read lengths it allows you to shape traffic",
+    "start": 52
+  },
+  {
+    "content": "from your website in a declarative way so just write in plain text you can say",
+    "start": 57
+  },
+  {
+    "content": "I want to take the traffic from this path to this other path",
+    "start": 62
+  },
+  {
+    "content": "you can also proxy to external IP is that you might be using and keeping",
+    "start": 65
+  },
+  {
+    "content": "everything under the same domain this is a very nice format but unfortunately",
+    "start": 70
+  },
+  {
+    "content": "it's very constrained we cannot put every single feature in just plain text",
+    "start": 75
+  },
+  {
+    "content": "right it also becomes very cumbersome to manage if you have hundreds of thousands",
+    "start": 79
+  },
+  {
+    "content": "of these roles like many of our customers actually do so when we start",
+    "start": 83
+  },
+  {
+    "content": "rotating this functionality we decided to take a step back and think what could",
+    "start": 89
+  },
+  {
+    "content": "you do if we just offer you basic basic building blocks that allowed you to do",
+    "start": 96
+  },
+  {
+    "content": "anything you want within a very small context and we're wondering were the",
+    "start": 103
+  },
+  {
+    "content": "possibilities that this could open if we just gave you free access to the traffic",
+    "start": 110
+  },
+  {
+    "content": "management that we already have within nullify so today I'm very happy to",
+    "start": 117
+  },
+  {
+    "content": "announce notify edge hovers this new product will allow you to write code",
+    "start": 123
+  },
+  {
+    "content": "build it and employer directly inner edge network in the same way that",
+    "start": 128
+  },
+  {
+    "content": "you manage everything within your magnify website the way that you write",
+    "start": 134
+  },
+  {
+    "content": "code is by simple creating new functions that trigger events so in this case I'm",
+    "start": 140
+  },
+  {
+    "content": "saying when I receive a request I want you to just respond with hello world and",
+    "start": 146
+  },
+  {
+    "content": "as you can see at the bottom I have a declarative rule that says I want you to",
+    "start": 151
+  },
+  {
+    "content": "apply this function only for requests that go to the fetch path and I know",
+    "start": 156
+  },
+  {
+    "content": "that this demo is very simple so in the spirit of the Jama stack I prepared a",
+    "start": 164
+  },
+  {
+    "content": "small experiment that improves upon this I'm going to use data from the copy",
+    "start": 170
+  },
+  {
+    "content": "tracking project to offer localized information for the United States to",
+    "start": 178
+  },
+  {
+    "content": "visitors that come to my website they offer a very simple JSON format for all",
+    "start": 185
+  },
+  {
+    "content": "their data so this it's very convenient in this example I call it localized copy",
+    "start": 192
+  },
+  {
+    "content": "tracking link let me show you how it looks like in the browser this is a very",
+    "start": 197
+  },
+  {
+    "content": "simple static site I'm just in New York as a placeholder so no matter what you",
+    "start": 203
+  },
+  {
+    "content": "are in the world right now if you go to this website you will see in New York I",
+    "start": 208
+  },
+  {
+    "content": "mean what I'm gonna do is I'm gonna personalize this home page for visitors",
+    "start": 213
+  },
+  {
+    "content": "in the United States so they get the information for this this space where",
+    "start": 217
+  },
+  {
+    "content": "they are directly when they go to the home page let me jump into the code a",
+    "start": 222
+  },
+  {
+    "content": "tour to show you this so I have here basic scaffolding and I'm importing the",
+    "start": 226
+  },
+  {
+    "content": "data so I can board with it easily in development I also wrote a very small",
+    "start": 233
+  },
+  {
+    "content": "render function that it's just gonna allow me to stream bytes to the client",
+    "start": 238
+  },
+  {
+    "content": "but here you could bring your own framework your own libraries templates",
+    "start": 243
+  },
+  {
+    "content": "whatever you want and the first thing that I need to do here is I need to get",
+    "start": 248
+  },
+  {
+    "content": "the information from the visitor to know which date I need to show so let me",
+    "start": 252
+  },
+  {
+    "content": "write the code for that",
+    "start": 258
+  },
+  {
+    "content": "",
+    "start": 268
+  },
+  {
+    "content": "so with this three lines of code I'm using our localization API to get the",
+    "start": 292
+  },
+  {
+    "content": "United States region were these three stories and then I'm just looking for",
+    "start": 299
+  },
+  {
+    "content": "that region in the copy tracking project data since there might be visitors",
+    "start": 304
+  },
+  {
+    "content": "coming from outside the US I need to protect this data just in this",
+    "start": 317
+  },
+  {
+    "content": "conditional so I can still show the placeholder to those visitors now I'm",
+    "start": 321
+  },
+  {
+    "content": "going to create an object that I will render to the client with a little bit",
+    "start": 326
+  },
+  {
+    "content": "more information so the pistol knows where they are and they can trust that",
+    "start": 332
+  },
+  {
+    "content": "the data is correct",
+    "start": 337
+  },
+  {
+    "content": "",
+    "start": 367
+  },
+  {
+    "content": "so now that I have this prompt subject I'm going to respond with it to the",
+    "start": 382
+  },
+  {
+    "content": "client so this is all the code that you need to write to personalize the home",
+    "start": 387
+  },
+  {
+    "content": "page for your own visitors let me push it to get help and see how notify",
+    "start": 404
+  },
+  {
+    "content": "handles it",
+    "start": 409
+  },
+  {
+    "content": "now if I go to my Navy notify dashboard I can see that the build is gonna start",
+    "start": 427
+  },
+  {
+    "content": "here is let's give it a few seconds it's starting extracting the cache for my",
+    "start": 433
+  },
+  {
+    "content": "previous builds and right now it's fetching the code from youth health",
+    "start": 443
+  },
+  {
+    "content": "telling me that I have everything installed already it doesn't have to",
+    "start": 452
+  },
+  {
+    "content": "install any dependencies and here life right bill is building the the site I'm",
+    "start": 456
+  },
+  {
+    "content": "using a very specific plugin to bundle and deploy these functions to our edge",
+    "start": 462
+  },
+  {
+    "content": "locations it's done already so now it's just keeping the cache safe and here it",
+    "start": 468
+  },
+  {
+    "content": "stays the same slide so now when I refer to this website if you show me",
+    "start": 476
+  },
+  {
+    "content": "information from California which is where I am right now and here it is",
+    "start": 481
+  },
+  {
+    "content": "saying that for Sunnyvale California we have this information it's also telling",
+    "start": 487
+  },
+  {
+    "content": "me that this is being served from San Francisco which is the closest location",
+    "start": 492
+  },
+  {
+    "content": "to my house so I hope this demo will spark some thoughts and feedback and",
+    "start": 498
+  },
+  {
+    "content": "comments for you so please feel free to reach out if you want in Twitter",
+    "start": 509
+  },
+  {
+    "content": "community or email thanks a lot bye",
+    "start": 514
+  }
+]

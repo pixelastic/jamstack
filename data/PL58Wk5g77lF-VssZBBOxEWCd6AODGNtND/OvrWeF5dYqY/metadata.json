@@ -1,0 +1,21 @@
+{
+  "description": "A short interview with Phil Hawksworth about JAM Stack, when to use it, when not to use it, things to keep in mind and upcoming JAMstack_conf in London, UK (https://jamstackconf.com/london/).",
+  "duration": {
+    "minutes": 17,
+    "seconds": 11
+  },
+  "id": "OvrWeF5dYqY",
+  "publishedAt": 1558971456,
+  "ranking": {
+    "likes": 15,
+    "views": 412
+  },
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/OvrWeF5dYqY/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/OvrWeF5dYqY/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/OvrWeF5dYqY/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/OvrWeF5dYqY/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/OvrWeF5dYqY/default.jpg"
+  },
+  "title": "Smashing TV: Interview with Phil Hawksworth on JAM stack (May 2019)"
+}

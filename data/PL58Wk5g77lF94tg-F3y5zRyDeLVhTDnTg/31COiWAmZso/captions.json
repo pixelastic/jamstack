@@ -1,0 +1,574 @@
+[
+  {
+    "content": "hi my name is cole krumholz i'm one of",
+    "start": 0
+  },
+  {
+    "content": "the founders of form spree formstreet is a form back-end that works",
+    "start": 14
+  },
+  {
+    "content": "with any html or javascript form it makes it easy to collect form",
+    "start": 18
+  },
+  {
+    "content": "submissions fight spam and connect your form with third-party",
+    "start": 22
+  },
+  {
+    "content": "apps today i'm excited to announce that",
+    "start": 26
+  },
+  {
+    "content": "formspree has acquired static kit a toolkit and workflow for adding",
+    "start": 30
+  },
+  {
+    "content": "dynamic functions to your static site with static kid formspree today can",
+    "start": 35
+  },
+  {
+    "content": "offer backend validation for your forms a",
+    "start": 41
+  },
+  {
+    "content": "react library for easily building react forms",
+    "start": 44
+  },
+  {
+    "content": "the forms3.json config file which lets developers check in and version their",
+    "start": 48
+  },
+  {
+    "content": "form configuration and finally a command line interface for",
+    "start": 53
+  },
+  {
+    "content": "deploying forms to production that works great with netlify vercell",
+    "start": 58
+  },
+  {
+    "content": "and github actions so today we're launching the formspree",
+    "start": 63
+  },
+  {
+    "content": "cli and formspree react packages and i'm going to give you a demo of how",
+    "start": 68
+  },
+  {
+    "content": "you can use these libraries to create a react form to add back-end",
+    "start": 73
+  },
+  {
+    "content": "validation to wire it up so that the form sends",
+    "start": 77
+  },
+  {
+    "content": "emails every time somebody submits it and finally how to deploy all this using",
+    "start": 81
+  },
+  {
+    "content": "the formspree cli okay so i've got a website here this",
+    "start": 86
+  },
+  {
+    "content": "is a personal site it's sort of like a status page uh it shows my mental status",
+    "start": 90
+  },
+  {
+    "content": "and it's got a contact form on it that somebody can use",
+    "start": 96
+  },
+  {
+    "content": "to send me a message but it doesn't work yet so let's go ahead and set this up",
+    "start": 99
+  },
+  {
+    "content": "with forms free react first thing i need to do is create a new",
+    "start": 103
+  },
+  {
+    "content": "project in formspree so i'll do that and i'll choose a",
+    "start": 107
+  },
+  {
+    "content": "command line project and i'm going to get a project id and a",
+    "start": 110
+  },
+  {
+    "content": "deploy key i'll grab this project id and we'll come",
+    "start": 114
+  },
+  {
+    "content": "back for the deploy key later so if we look at the code here this is a",
+    "start": 117
+  },
+  {
+    "content": "next js site it uses react obviously and the first",
+    "start": 122
+  },
+  {
+    "content": "thing i need to do is install the formspree react library",
+    "start": 126
+  },
+  {
+    "content": "okay cool so now formspris is installed and i'm going to import something called",
+    "start": 135
+  },
+  {
+    "content": "formspree provider from formspree react and what this",
+    "start": 142
+  },
+  {
+    "content": "allows me to do is set a global context so that all the forms",
+    "start": 149
+  },
+  {
+    "content": "that i create will be associated with that project",
+    "start": 153
+  },
+  {
+    "content": "that i just set up uh on formspree.io uh so i can go ahead",
+    "start": 156
+  },
+  {
+    "content": "and add that provider at the top level of my website kind of",
+    "start": 161
+  },
+  {
+    "content": "i'm i'm wrapping the app but you can put it anywhere above the",
+    "start": 165
+  },
+  {
+    "content": "forms that you're creating so i'll do that and i'll set that",
+    "start": 168
+  },
+  {
+    "content": "project to the project id that i just got",
+    "start": 173
+  },
+  {
+    "content": "cool now let's go set up the form so i'm going to add formspree here i'm",
+    "start": 181
+  },
+  {
+    "content": "going to import the use form",
+    "start": 188
+  },
+  {
+    "content": "function it's a react hook and the use form hook is going to give",
+    "start": 194
+  },
+  {
+    "content": "me back two things it's going to give me a state",
+    "start": 205
+  },
+  {
+    "content": "object and a submit handler",
+    "start": 208
+  },
+  {
+    "content": "and the use form hook just needs one parameter and that's a form",
+    "start": 214
+  },
+  {
+    "content": "key so i'm going to call my form contact me this can be anything just so long as",
+    "start": 218
+  },
+  {
+    "content": "i use it consistently it's just a way to identify this form",
+    "start": 223
+  },
+  {
+    "content": "so now inside my react code i've got a regular html form here",
+    "start": 227
+  },
+  {
+    "content": "i'm going to go ahead and change the onsubmit handler",
+    "start": 234
+  },
+  {
+    "content": "to use that uh handle submit function that i got from the hook",
+    "start": 239
+  },
+  {
+    "content": "and now let's go ahead and update the form",
+    "start": 245
+  },
+  {
+    "content": "based on the form state so if the form succeeds",
+    "start": 249
+  },
+  {
+    "content": "let's go ahead and just present a thanks message",
+    "start": 255
+  },
+  {
+    "content": "okay very cool and next i want to handle errors so",
+    "start": 261
+  },
+  {
+    "content": "generally if there's any problem with my form",
+    "start": 267
+  },
+  {
+    "content": "i'm going to go ahead and capture that with something called a validation",
+    "start": 269
+  },
+  {
+    "content": "error component so this component just basically looks",
+    "start": 273
+  },
+  {
+    "content": "for any errors in the state and then prints them out",
+    "start": 280
+  },
+  {
+    "content": "and so i'm going to do that here i'm also going to add",
+    "start": 285
+  },
+  {
+    "content": "a validation error to my email field because i want to do some",
+    "start": 288
+  },
+  {
+    "content": "backend validation on this email field to make sure that the email is actually",
+    "start": 292
+  },
+  {
+    "content": "submitted along with the form so i'll add the",
+    "start": 298
+  },
+  {
+    "content": "field name here cool and now let's go ahead and",
+    "start": 303
+  },
+  {
+    "content": "set up this form so i've set it up in react but i still need to tell formspree",
+    "start": 311
+  },
+  {
+    "content": "about this form so to do that i'm actually going to",
+    "start": 315
+  },
+  {
+    "content": "create a formspree.json file so the forms3.json",
+    "start": 319
+  },
+  {
+    "content": "file is where i put in all the form configuration",
+    "start": 323
+  },
+  {
+    "content": "so i'm going to add that contact me form here",
+    "start": 327
+  },
+  {
+    "content": "using that form key that i set up earlier",
+    "start": 330
+  },
+  {
+    "content": "i'm going to give it a name this is just a common name to display in the",
+    "start": 334
+  },
+  {
+    "content": "interface contact me and i'm going to give some",
+    "start": 337
+  },
+  {
+    "content": "actions so actions are are performed whenever the form is submitted",
+    "start": 342
+  },
+  {
+    "content": "and right now i'm just going to set up one action an email action",
+    "start": 347
+  },
+  {
+    "content": "and i'm going to send emails to the demo at formspree.io address",
+    "start": 351
+  },
+  {
+    "content": "cool so now i've got an action and then as i mentioned before",
+    "start": 361
+  },
+  {
+    "content": "i want to make sure that every time someone submits a form that there's a",
+    "start": 365
+  },
+  {
+    "content": "valid email so i'm going to create some form",
+    "start": 367
+  },
+  {
+    "content": "back-end validation rules i can do that with a fields property",
+    "start": 371
+  },
+  {
+    "content": "so i'm going to add that email field and i am going to set um",
+    "start": 379
+  },
+  {
+    "content": "the required rule to true so now i've got one field email that is",
+    "start": 386
+  },
+  {
+    "content": "required anytime someone submits the form okay",
+    "start": 393
+  },
+  {
+    "content": "i think my form is set up let's go ahead and deploy this to formspree",
+    "start": 397
+  },
+  {
+    "content": "to do that i'll go ahead and first install",
+    "start": 401
+  },
+  {
+    "content": "the formspree cli as a dev dependency and the next thing i'm going to do is",
+    "start": 405
+  },
+  {
+    "content": "i'm going to grab that deploy key and i'm going to set that as an",
+    "start": 412
+  },
+  {
+    "content": "environment variable so if i go into my.m i'm going to add that deploy",
+    "start": 415
+  },
+  {
+    "content": "key here and now i'm going to add a new command",
+    "start": 421
+  },
+  {
+    "content": "called formspree to my config so that'll run the formspree cli command",
+    "start": 427
+  },
+  {
+    "content": "deploy it's going to use my deploy key as a",
+    "start": 437
+  },
+  {
+    "content": "as a credential from the environment variable and it's going to use that to",
+    "start": 441
+  },
+  {
+    "content": "deploy everything that i've got in my",
+    "start": 445
+  },
+  {
+    "content": "forms3.json file so let's give it a shot npm run forms",
+    "start": 448
+  },
+  {
+    "content": "free cool so deployment succeeded it created",
+    "start": 453
+  },
+  {
+    "content": "that contact me form and it updated that validation rule for the contact me form",
+    "start": 458
+  },
+  {
+    "content": "that sounds good let's go ahead and give this form a shot",
+    "start": 463
+  },
+  {
+    "content": "so if i refresh the page and let's say somebody lands on my site joe",
+    "start": 467
+  },
+  {
+    "content": "this is joe from the internet he just wants to say hi",
+    "start": 479
+  },
+  {
+    "content": "all right i got a thanks message let's see what happens if",
+    "start": 486
+  },
+  {
+    "content": "if i fill that out incorrectly um if i just type in joe and hit submit",
+    "start": 490
+  },
+  {
+    "content": "okay i get that validation error email is required awesome so this is a",
+    "start": 498
+  },
+  {
+    "content": "functioning form as you can see there was just a",
+    "start": 502
+  },
+  {
+    "content": "notification there that i got my email uh from from formspree",
+    "start": 505
+  },
+  {
+    "content": "and it's validating on the backend to make sure that there are valid email",
+    "start": 511
+  },
+  {
+    "content": "addresses for every submission things are looking pretty good let's",
+    "start": 517
+  },
+  {
+    "content": "take a look here on form spree cool there's that contact me form that i",
+    "start": 521
+  },
+  {
+    "content": "deployed i can see there's one submission",
+    "start": 526
+  },
+  {
+    "content": "and there it is from joe from the internet",
+    "start": 529
+  },
+  {
+    "content": "all right things are looking pretty good the last thing i need to do is i need to",
+    "start": 533
+  },
+  {
+    "content": "deploy this to nullify so to do that the first thing i'm going",
+    "start": 536
+  },
+  {
+    "content": "to do is i'm going to grab that deploy key and i'm going to set that",
+    "start": 540
+  },
+  {
+    "content": "inside my environment on netlify so i'm going to update that forms free",
+    "start": 546
+  },
+  {
+    "content": "deploy key on netlify save it so now my deploy key is",
+    "start": 551
+  },
+  {
+    "content": "configured and now um",
+    "start": 555
+  },
+  {
+    "content": "i'm going to actually add a command to this form spread",
+    "start": 562
+  },
+  {
+    "content": "to this deploy command which is what nettle phy",
+    "start": 566
+  },
+  {
+    "content": "is running whenever it detects a new build i'm going to go ahead and just",
+    "start": 569
+  },
+  {
+    "content": "also run formspree deploy from that production deployment server",
+    "start": 574
+  },
+  {
+    "content": "okay so i think things are good let's go ahead and",
+    "start": 582
+  },
+  {
+    "content": "deploy my site okay i've pushed up my site if i look at",
+    "start": 587
+  },
+  {
+    "content": "netlify here you can see there's a new deploy building",
+    "start": 593
+  },
+  {
+    "content": "okay the deploy is done the site is live and scanning these logs i can see that",
+    "start": 600
+  },
+  {
+    "content": "formspree cli was run and the deployment succeeded",
+    "start": 604
+  },
+  {
+    "content": "let's take a look at the site all right send that message i get my",
+    "start": 609
+  },
+  {
+    "content": "thanks things are looking pretty good and there",
+    "start": 619
+  },
+  {
+    "content": "was my email notification let's see if that",
+    "start": 622
+  },
+  {
+    "content": "came through all right and there's that notification",
+    "start": 624
+  },
+  {
+    "content": "and it looks like it came through to my inbox",
+    "start": 631
+  },
+  {
+    "content": "things are good okay so that was a demo of setting up a formspree",
+    "start": 634
+  },
+  {
+    "content": "react form using an email action if you go over to the help site",
+    "start": 639
+  },
+  {
+    "content": "help.formspreed.io you can see we have a listing here of all",
+    "start": 644
+  },
+  {
+    "content": "of the different actions that you can create with the forms3.json config file",
+    "start": 648
+  },
+  {
+    "content": "that includes email webhooks mailchimp and convertkit right now",
+    "start": 652
+  },
+  {
+    "content": "and we're going to be adding all of the other plugins that we already support on",
+    "start": 657
+  },
+  {
+    "content": "formspree to the cli and that's going to include",
+    "start": 660
+  },
+  {
+    "content": "things like zendesk airtable stripe and some others so that'll be coming in",
+    "start": 664
+  },
+  {
+    "content": "the in the next few months you can also see the field rules listed",
+    "start": 670
+  },
+  {
+    "content": "here uh field rules like required and type which",
+    "start": 675
+  },
+  {
+    "content": "can either be currently text or email if you want to",
+    "start": 678
+  },
+  {
+    "content": "see a different field rule or if you want to see us implement some",
+    "start": 681
+  },
+  {
+    "content": "new actions some some new integrations with other third",
+    "start": 685
+  },
+  {
+    "content": "parties just drop us a line in support you can find the support form on the",
+    "start": 688
+  },
+  {
+    "content": "help site or you can hit us up at twitter at formspree thanks again",
+    "start": 692
+  },
+  {
+    "content": "i appreciate your attention and i hope you're",
+    "start": 698
+  },
+  {
+    "content": "as excited about this as we are talk to you soon",
+    "start": 701
+  },
+  {
+    "content": "you",
+    "start": 718
+  }
+]

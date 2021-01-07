@@ -1,0 +1,14 @@
+{
+  "description": "Breaking news, announcements and releases from the JAMstack ecosystem",
+  "id": "fsscw6Viv_c",
+  "position": 6,
+  "publishedAt": 1571424546,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/fsscw6Viv_c/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/fsscw6Viv_c/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/fsscw6Viv_c/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/fsscw6Viv_c/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/fsscw6Viv_c/default.jpg"
+  },
+  "title": "Lightning launch - Stackbit"
+}

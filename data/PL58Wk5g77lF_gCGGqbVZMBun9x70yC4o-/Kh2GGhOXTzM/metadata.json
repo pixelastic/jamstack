@@ -1,0 +1,14 @@
+{
+  "description": "One of the largest grocery chains in Canada, Longo's needed to compete in a market being disrupted by technology and changing customer experiences. Alex de Winne, CEO of Therefore Interactive, a digital agency based in Toronto, presents a before-and-after case study building a JAMstack website for Longo's. By migrating to the JAMstack on Netlify, they were able to dramatically increase the performance, SEO, and functionality of the site. https://therefore.ca/",
+  "id": "Kh2GGhOXTzM",
+  "position": 13,
+  "publishedAt": 1571424546,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/Kh2GGhOXTzM/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/Kh2GGhOXTzM/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/Kh2GGhOXTzM/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/Kh2GGhOXTzM/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/Kh2GGhOXTzM/default.jpg"
+  },
+  "title": "How Therefore Interactive is modernizing Longos on the JAMstack"
+}

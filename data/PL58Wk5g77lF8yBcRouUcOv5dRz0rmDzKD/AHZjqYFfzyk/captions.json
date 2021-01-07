@@ -1,0 +1,374 @@
+[
+  {
+    "content": "hi everyone I'm Ben engineering manager",
+    "start": 0
+  },
+  {
+    "content": "at stat bit I'm here today we're CTO and co-founder Simon and our software",
+    "start": 18
+  },
+  {
+    "content": "engineer Roddick who are around the room in the moment please come and chat to us",
+    "start": 22
+  },
+  {
+    "content": "any time if you want to know any more about spec bit we're excited to announce",
+    "start": 27
+  },
+  {
+    "content": "today that to celebrate the start of Java stack conference London step it is",
+    "start": 31
+  },
+  {
+    "content": "now out of private beta and open to all users so for those who haven't heard of",
+    "start": 35
+  },
+  {
+    "content": "us before stat bit is the easiest and fastest way to create Jam stat websites",
+    "start": 45
+  },
+  {
+    "content": "create modern websites requires integrated with many different tools",
+    "start": 50
+  },
+  {
+    "content": "many of which you have to set up every time you want to start a new project",
+    "start": 54
+  },
+  {
+    "content": "step it takes away all this hard work and allows you to you your customers or",
+    "start": 57
+  },
+  {
+    "content": "your company to build modern jams that websites in minutes all right well let",
+    "start": 62
+  },
+  {
+    "content": "me show you just how quickly you can start getting up and running on step it",
+    "start": 67
+  },
+  {
+    "content": "so we're just a few clicks static beep will automatic rate and configure and",
+    "start": 84
+  },
+  {
+    "content": "deploy a website that's ready for you your clients or your company to edit",
+    "start": 89
+  },
+  {
+    "content": "within minutes so hopefully by now you're asking",
+    "start": 94
+  },
+  {
+    "content": "yourself exactly how does this work so we'll start by finding the right theme",
+    "start": 118
+  },
+  {
+    "content": "for you and your clients or your company's needs currently our clothes",
+    "start": 124
+  },
+  {
+    "content": "beat well previously I closed beta launch with a selection of hand-picked",
+    "start": 128
+  },
+  {
+    "content": "themes license from pic celerity over the course of the beta we've expanded",
+    "start": 131
+  },
+  {
+    "content": "the selection by adding more each week all of our themes are responsive",
+    "start": 136
+  },
+  {
+    "content": "semantic and search engine optimized with so many new and exciting tools for",
+    "start": 140
+  },
+  {
+    "content": "Crane's static websites out there it can be time-consuming and labor-intensive to",
+    "start": 147
+  },
+  {
+    "content": "set up a new project in a tool you've never used before stamp it takes away",
+    "start": 152
+  },
+  {
+    "content": "the need to know how to stretch your website to work with some of the most",
+    "start": 157
+  },
+  {
+    "content": "popular static site generators all of our starter themes work seamlessly with",
+    "start": 160
+  },
+  {
+    "content": "Jekyll Hugo and Gatsby so pick your favorite and let's tack bit worried",
+    "start": 165
+  },
+  {
+    "content": "about what files and folders to put where static gives you the power to",
+    "start": 170
+  },
+  {
+    "content": "experiment with new ways of creating and managing your website's content so you",
+    "start": 177
+  },
+  {
+    "content": "can pick from some of the most popular headless CMS on the market and stack be",
+    "start": 182
+  },
+  {
+    "content": "able ultimately provision and create a content model to match your chosen theme",
+    "start": 186
+  },
+  {
+    "content": "and site generator currently we support forestry notify CMS content full and",
+    "start": 189
+  },
+  {
+    "content": "deso CMS but we're looking at added new integrations in the same way as we're",
+    "start": 196
+  },
+  {
+    "content": "looking to add new static site generators over time all snappy web",
+    "start": 200
+  },
+  {
+    "content": "sites lives git repositories so your access to all of your code at any time",
+    "start": 206
+  },
+  {
+    "content": "simply connect your stack me account to get up and your website will",
+    "start": 211
+  },
+  {
+    "content": "automatically deploy to neckla fire in no time at all",
+    "start": 215
+  },
+  {
+    "content": "if you have a necklace i account don't worry about that either started today",
+    "start": 218
+  },
+  {
+    "content": "stack boot will deploy your website and thanks Tonetta defies automatically the",
+    "start": 223
+  },
+  {
+    "content": "deployment process we had to access your website for 24 hours and claim it at",
+    "start": 227
+  },
+  {
+    "content": "your leisure to date our BT users have created thousands of websites using our",
+    "start": 232
+  },
+  {
+    "content": "select of hand-picked tools but as well as",
+    "start": 239
+  },
+  {
+    "content": "going a public with our betta today we're also very happy and excited to",
+    "start": 243
+  },
+  {
+    "content": "announce the introduction of custom themes starting today you can create",
+    "start": 249
+  },
+  {
+    "content": "your own themes and continue to enjoy the speed and ease of use of stamp it",
+    "start": 256
+  },
+  {
+    "content": "we've created a set of tools that give you the power to build themes for any of",
+    "start": 261
+  },
+  {
+    "content": "our supported static site generators and CMS's these tools are uniform the",
+    "start": 265
+  },
+  {
+    "content": "uniformed theme model behind stat bit that seamlessly Maps your content and",
+    "start": 273
+  },
+  {
+    "content": "layouts to your chosen CMS and unibit a powerful tool for creating validating",
+    "start": 277
+  },
+  {
+    "content": "and transpiling custom themes to your favorite site generators uniform enables",
+    "start": 284
+  },
+  {
+    "content": "stat bits of revision your theme concept model with a growing selection of heller",
+    "start": 292
+  },
+  {
+    "content": "CMS stamp it uses a powerful content model defined in your stat video yeah",
+    "start": 296
+  },
+  {
+    "content": "more configuration file to convert content frontmatter",
+    "start": 301
+  },
+  {
+    "content": "and data into format your static site generator expects there's no",
+    "start": 304
+  },
+  {
+    "content": "configuration needed with any of the CMS's so it's all automatic out the box",
+    "start": 310
+  },
+  {
+    "content": "stat bit don't ya more gives users clients or companies the ability to",
+    "start": 315
+  },
+  {
+    "content": "create fast secure and low-maintenance CMS powered websites in a single click",
+    "start": 319
+  },
+  {
+    "content": "and that's something we'll be going into a little bit later on as long as your",
+    "start": 324
+  },
+  {
+    "content": "theme a structured schema driven by markdown for content and has can support",
+    "start": 329
+  },
+  {
+    "content": "Jason yeah mall or Tamil for data and configuration you can use uniform to",
+    "start": 334
+  },
+  {
+    "content": "bring it to stab it you dab it's powerful transpiling engine enables you",
+    "start": 339
+  },
+  {
+    "content": "to write your theme once and stay static site generator agnostic as new site",
+    "start": 347
+  },
+  {
+    "content": "generators are added to stack bit anything built with you in a bit will",
+    "start": 352
+  },
+  {
+    "content": "automatically work with them to show you just what's possible with uniform you in",
+    "start": 356
+  },
+  {
+    "content": "a bit I like you to showcase to third-party custom themes they are also",
+    "start": 361
+  },
+  {
+    "content": "launching today by adding a stampede wml content model",
+    "start": 365
+  },
+  {
+    "content": "David danced a crater who's actually with us here today the creator of a",
+    "start": 373
+  },
+  {
+    "content": "checkerboard plate theme Alembic it was easy able to bring his popular theme to",
+    "start": 378
+  },
+  {
+    "content": "stab it and create a jekyll starter kit so from today you can go off to that",
+    "start": 385
+  },
+  {
+    "content": "starter kit repository click on the crate with sattvic button and ultimately",
+    "start": 390
+  },
+  {
+    "content": "provision of Sai in your favorite current whereas for Jekyll but in your",
+    "start": 394
+  },
+  {
+    "content": "favor of CMS of choice so any of our CMS's that are supported on stat beer",
+    "start": 399
+  },
+  {
+    "content": "will also now be supported for users of Olympic snip car makes it easy and",
+    "start": 403
+  },
+  {
+    "content": "simple to add a shopping cart to any jam stat website process takes minutes snip",
+    "start": 411
+  },
+  {
+    "content": "car have used unibit to build plenty it's the first ecommerce ready customers",
+    "start": 418
+  },
+  {
+    "content": "theme for slap beer so Plan C gives you everything you need to get an e-commerce",
+    "start": 422
+  },
+  {
+    "content": "website up and running within minutes on your choice of site generator and CMS so",
+    "start": 426
+  },
+  {
+    "content": "similarly today that little theme is launched and you can head on over the",
+    "start": 432
+  },
+  {
+    "content": "repository hit the creatress tapping button and have a theme of a website up",
+    "start": 435
+  },
+  {
+    "content": "and running within minutes so if you like to start building your own custom",
+    "start": 440
+  },
+  {
+    "content": "themes today there three ways to do so the first is to install the unibit CLI",
+    "start": 445
+  },
+  {
+    "content": "tool via NPM and create your own projects using our starter theme",
+    "start": 451
+  },
+  {
+    "content": "universal you can do this in your local development environment we're kicking",
+    "start": 455
+  },
+  {
+    "content": "off you to be develop you could also fork one of our existing starter theme",
+    "start": 461
+  },
+  {
+    "content": "repositories all of these are open source now and",
+    "start": 465
+  },
+  {
+    "content": "available on github and leave the stat bit HQ organization or you can start",
+    "start": 470
+  },
+  {
+    "content": "thinking with our starter theme right away in Co sandbox today we've provided",
+    "start": 475
+  },
+  {
+    "content": "plenty of documentation examples to help you get started with Unibet and custom",
+    "start": 484
+  },
+  {
+    "content": "themes at dockstar Stampede calm and we're also holding a Lunch and Learn",
+    "start": 488
+  },
+  {
+    "content": "session today which is here will dig into exactly how we can start creating",
+    "start": 494
+  },
+  {
+    "content": "your first custom theme using code sandbox so if you'd like to come and",
+    "start": 498
+  },
+  {
+    "content": "join this 12:14 find out about how we create our",
+    "start": 503
+  },
+  {
+    "content": "first custom team then please stop by and ask us any more questions but thank",
+    "start": 506
+  },
+  {
+    "content": "you very much for your time [Applause]",
+    "start": 511
+  }
+]

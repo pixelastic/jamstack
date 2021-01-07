@@ -1,0 +1,14 @@
+{
+  "description": "How can you add a database to your Jamstack app? In this episode, Tanmai Gopal will teach us how Hasura gets us up and running quickly with a powerful data layer in no time!\n\n- demo: https://jamstack-databases-hasura.netlify.app/\n- repo: https://github.com/learnwithjason/jamstack-databases-hasura\n\nLinks:\n- https://hasura.io/\n- https://hasura.io/learn/\n- https://cloud.hasura.io/\n- https://www.youtube.com/channel/UCZo1ciR8pZvdD3Wxp9aSNhQ\n- https://twitter.com/hasurahq\n\nWatch future episodes live at https://www.twitch.tv/jlengstorf\n\nCredits:\n\nLocal Elevator by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300012\n\nArtist: http://incompetech.com/\n\nBusybody by Audionautix is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\n\nArtist: http://audionautix.com/\n\nAdditional sound effects obtained from https://www.zapsplat.com",
+  "id": "DKM-WCYQHa4",
+  "position": 6,
+  "publishedAt": 1606738718,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/DKM-WCYQHa4/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/DKM-WCYQHa4/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/DKM-WCYQHa4/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/DKM-WCYQHa4/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/DKM-WCYQHa4/default.jpg"
+  },
+  "title": "Databases for Jamstack Sites and Apps (with Tanmai Gopal) — Learn With Jason"
+}

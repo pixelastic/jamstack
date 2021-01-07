@@ -1,0 +1,3214 @@
+[
+  {
+    "content": "hey what's up everybody so it is 9:00 a.m. Pacific and I am getting ready to",
+    "start": 0
+  },
+  {
+    "content": "go here but I'm still missing Thor from stripe so I just wanted to get on make",
+    "start": 10
+  },
+  {
+    "content": "sure everybody knew that I was in fact you know alive that the the stream is",
+    "start": 17
+  },
+  {
+    "content": "gonna happen we're just high there is hey how are you",
+    "start": 23
+  },
+  {
+    "content": "I'm doing well let me switch over see I think this my VC setup might not be the",
+    "start": 31
+  },
+  {
+    "content": "best this looks okay so let me get shared here and okay that should be good",
+    "start": 43
+  },
+  {
+    "content": "huh can't really hear you taking you everywhere",
+    "start": 60
+  },
+  {
+    "content": "can you hear me better now now I think the problem is that my speaker hmm is",
+    "start": 66
+  },
+  {
+    "content": "connected on my island with the laptop as well okay how is my audio quality",
+    "start": 74
+  },
+  {
+    "content": "your audio quality is good so let's see we are",
+    "start": 84
+  },
+  {
+    "content": "I think ready to roll as soon as you are and so while you're getting that going",
+    "start": 93
+  },
+  {
+    "content": "what I'm gonna do is just pull up some pages here so that we can start looking",
+    "start": 102
+  },
+  {
+    "content": "at the things that we want to cover today let's take this and all right so",
+    "start": 106
+  },
+  {
+    "content": "where do I find the the stripe check out beta if I'm looking for it yeah so",
+    "start": 113
+  },
+  {
+    "content": "stripe TOCOM slash docks slash pavement slash check out okay you broke up a",
+    "start": 121
+  },
+  {
+    "content": "little bit here can you say that one more time slave Stratcom",
+    "start": 131
+  },
+  {
+    "content": "DOX slash payments slash checkout actually let me grab my hat sad just to",
+    "start": 134
+  },
+  {
+    "content": "be sure okay one sec alright so the goal of what we're trying to do today is we",
+    "start": 140
+  },
+  {
+    "content": "are going to use striped check out here which is well we'll have Thor talk about",
+    "start": 153
+  },
+  {
+    "content": "it a little bit more is gonna let us set up an e-commerce site with Gatsby so",
+    "start": 159
+  },
+  {
+    "content": "we're gonna get a real fast real real easy kind of e-commerce out going so",
+    "start": 167
+  },
+  {
+    "content": "that we don't have to stress about all the you know the the challenging parts",
+    "start": 173
+  },
+  {
+    "content": "of setting up ecommerce or the challenging parts of hosting it",
+    "start": 177
+  },
+  {
+    "content": "we can just set something up in stripe we can set something up in the HP and",
+    "start": 180
+  },
+  {
+    "content": "we're off to the races so Thor do you want to talk a little bit",
+    "start": 183
+  },
+  {
+    "content": "about kind of what checkout is because I think a lot of people are familiar with",
+    "start": 187
+  },
+  {
+    "content": "stripe right so I know that I'm not 100% familiar with what checkout is in",
+    "start": 193
+  },
+  {
+    "content": "comparison to say no that's not what I'm looking for in to in in comparison to",
+    "start": 199
+  },
+  {
+    "content": "like like stripe connect or stripe you know the the other kind of stripe family",
+    "start": 205
+  },
+  {
+    "content": "of products so what what makes checkout different yes once again can we okay I",
+    "start": 214
+  },
+  {
+    "content": "can and we've we've even got double video here which is no this is this is",
+    "start": 223
+  },
+  {
+    "content": "great okay yes I'm currently in our Dublin office the rooms are very books",
+    "start": 230
+  },
+  {
+    "content": "and VC's you know the quality of their MV C's degrades if you don't get the",
+    "start": 240
+  },
+  {
+    "content": "good room I gotcha well yeah so yeah where we're at right",
+    "start": 247
+  },
+  {
+    "content": "now is we're looking at the the stripe overview for checkout and we are looking",
+    "start": 253
+  },
+  {
+    "content": "at the you when you get a chance if you can just kind of talk us through like",
+    "start": 259
+  },
+  {
+    "content": "what makes checkout different than anything else that stripe has to",
+    "start": 264
+  },
+  {
+    "content": "offer yes so you know if you are familiar with stripe you know before",
+    "start": 268
+  },
+  {
+    "content": "maybe having done an integration so check out historically you know was this",
+    "start": 276
+  },
+  {
+    "content": "pop-up iframe overlay that would give you a payment form kind of a you know",
+    "start": 282
+  },
+  {
+    "content": "complete checkout form to allow you to collect in billing details shipping",
+    "start": 290
+  },
+  {
+    "content": "details potentially as well as the card details you know in a beautifully",
+    "start": 297
+  },
+  {
+    "content": "designed iframe from strike and then what we would do is we would take those",
+    "start": 303
+  },
+  {
+    "content": "criterias sent them off to stripe create a token and you could then use that",
+    "start": 309
+  },
+  {
+    "content": "token on your server to charge those car details okay now what we're looking at",
+    "start": 316
+  },
+  {
+    "content": "today you know with the the new checkout beta is a fully hosted checkout form so",
+    "start": 323
+  },
+  {
+    "content": "we're you know previously it will be an iframe overlay mm-hmm this is now fully",
+    "start": 332
+  },
+  {
+    "content": "hosted to buy stripe and this enables us this flow where we don't actually need a",
+    "start": 337
+  },
+  {
+    "content": "server side component to make the payment and we can do that by you know",
+    "start": 342
+  },
+  {
+    "content": "creating for example the product and SKUs within the stripe dashboard and",
+    "start": 349
+  },
+  {
+    "content": "then from the client side we can simply reference the SKU IDs and that we want",
+    "start": 354
+  },
+  {
+    "content": "you know to collect payment for and then we redirect to check out where then you",
+    "start": 361
+  },
+  {
+    "content": "know the details are collected and the payment is automatically made okay so",
+    "start": 369
+  },
+  {
+    "content": "let's let's give this a shot there's a preview button here so we're gonna go in",
+    "start": 374
+  },
+  {
+    "content": "and just give this a try and so we can do here I'm gonna use that sample card",
+    "start": 380
+  },
+  {
+    "content": "and then it's any any valid anything right so let's just give this a shot",
+    "start": 389
+  },
+  {
+    "content": "and so this is all hosted on checkout on stripe comm and then it would bounce us",
+    "start": 397
+  },
+  {
+    "content": "back to the docks and so we have now bounced back to the docks and we have",
+    "start": 402
+  },
+  {
+    "content": "successfully completed a purchase so that's I mean that's that's pretty slick",
+    "start": 408
+  },
+  {
+    "content": "and so in order to do that if I understand this correctly just to kind",
+    "start": 412
+  },
+  {
+    "content": "of repeat it back I have my my stripe account and I go in to checkout and I",
+    "start": 416
+  },
+  {
+    "content": "create a SKU for a product and ask you I don't actually know what it stands for",
+    "start": 420
+  },
+  {
+    "content": "is just SKU that's though it's like a unique ID for a product and so we assign",
+    "start": 425
+  },
+  {
+    "content": "a a sign a price to it and then on my site I use the stripe checkout link that",
+    "start": 431
+  },
+  {
+    "content": "says like purchase this skew which then sends you to the checkout dot stripe",
+    "start": 439
+  },
+  {
+    "content": "comm and you pay for it and then it bounces you back to my site so basically",
+    "start": 445
+  },
+  {
+    "content": "this opens the door for exactly what we want to do today which is a statically",
+    "start": 450
+  },
+  {
+    "content": "generated gatsby site that we'll be able to do full-featured e-commerce by moving",
+    "start": 455
+  },
+  {
+    "content": "to stripe checkout so that's that's pretty awesome and somebody in the",
+    "start": 460
+  },
+  {
+    "content": "comments just swooped in with the save SKU stands for stock keeping unit thank",
+    "start": 465
+  },
+  {
+    "content": "you to both the people who who pointed that out okay so how do we how do we",
+    "start": 470
+  },
+  {
+    "content": "want to start this or should i and I haven't done anything so should I create",
+    "start": 477
+  },
+  {
+    "content": "an account yes let's let's create an account and yeah so the SKU is is sort",
+    "start": 481
+  },
+  {
+    "content": "of a product variant so you for example if you take a t-shirt the t-shirt can",
+    "start": 491
+  },
+  {
+    "content": "have multiple sizes and so you know your product would be your t-shirt and then",
+    "start": 497
+  },
+  {
+    "content": "you have ask you that would be you know this t-shirt in size M and then another",
+    "start": 503
+  },
+  {
+    "content": "SKU it's you know this t shirt inside out for example awesome so I've pulled",
+    "start": 508
+  },
+  {
+    "content": "the screen away so that I can actually set up a password here so give me just a",
+    "start": 515
+  },
+  {
+    "content": "second while I get this created and all right we've got oh good we get to do",
+    "start": 522
+  },
+  {
+    "content": "the this is this is my favorite new thing and in CAPTCHA is trying to",
+    "start": 528
+  },
+  {
+    "content": "identify cars I saw a really good joke about this the other day actually it",
+    "start": 533
+  },
+  {
+    "content": "probably was a long time ago where they were saying that like this is how you",
+    "start": 539
+  },
+  {
+    "content": "actually drive self-driving cars like Google's like they please identify all",
+    "start": 544
+  },
+  {
+    "content": "the stop signs and please hurry yeah I mean we're we're basically training the",
+    "start": 548
+  },
+  {
+    "content": "Google algorithms at this point we should get some Commission you okay so",
+    "start": 554
+  },
+  {
+    "content": "how do I want to use the API right oh yeah that's that's a screen I've",
+    "start": 561
+  },
+  {
+    "content": "actually never seen yeah for sure yes let's let's use the API okay all right",
+    "start": 570
+  },
+  {
+    "content": "and so I've got my publishable key and my secret key all right so if I want to",
+    "start": 577
+  },
+  {
+    "content": "go to checkout where do I start like what do I want to do here yes so I think",
+    "start": 585
+  },
+  {
+    "content": "there is because it's a beta if you go back to the checkout Docs",
+    "start": 597
+  },
+  {
+    "content": "I think there's a link to basically activate the new check-ins sorry I",
+    "start": 601
+  },
+  {
+    "content": "haven't done this in a while okay see it's get over here and get started",
+    "start": 608
+  },
+  {
+    "content": "quickly get updates yeah we want the client only QuickStart",
+    "start": 617
+  },
+  {
+    "content": "sorry yeah enable checkout in the dashboard so we're gonna jump over here",
+    "start": 627
+  },
+  {
+    "content": "business settings checkout settings yeah I think you might you can click the link",
+    "start": 635
+  },
+  {
+    "content": "in the docs or yeah maybe it's better at your show which so we've gone to",
+    "start": 642
+  },
+  {
+    "content": "business settings check out we're gonna enable that okay and so now I'm going to",
+    "start": 647
+  },
+  {
+    "content": "configure my SKUs and let's see here so yeah well just for the sake of this",
+    "start": 654
+  },
+  {
+    "content": "we're going to where did I go for this product section of the dashboard ah so",
+    "start": 663
+  },
+  {
+    "content": "now that enabled check now that I've enabled check out I can see products or",
+    "start": 673
+  },
+  {
+    "content": "maybe I can see that all the time and I just didn't notice it so I'm gonna",
+    "start": 676
+  },
+  {
+    "content": "create a new product and let's sell freelance pants today and I think those",
+    "start": 680
+  },
+  {
+    "content": "go in the store for $26 so let's do that and I will grab an image of those let's",
+    "start": 686
+  },
+  {
+    "content": "see down here we've got freelance pants so let me save the image oh cool we got",
+    "start": 695
+  },
+  {
+    "content": "web pee I wonder if stripe is gonna support that ooh I might have to go into",
+    "start": 706
+  },
+  {
+    "content": "the let's let's find out yeah let's see so I can take this image that we just",
+    "start": 713
+  },
+  {
+    "content": "downloaded and now that's not going to be a supportive format so let's go into",
+    "start": 721
+  },
+  {
+    "content": "the console and let's get the right format so this is one of the cool things",
+    "start": 725
+  },
+  {
+    "content": "about gatsby image is that it's basically giving us like all the",
+    "start": 731
+  },
+  {
+    "content": "different varieties and so I can edit this grab this one here so we generated",
+    "start": 736
+  },
+  {
+    "content": "a bunch of different images so that we would be able to show the right image at",
+    "start": 743
+  },
+  {
+    "content": "the right resolution to not waste any bandwidth and so this is the big version",
+    "start": 747
+  },
+  {
+    "content": "that is an enormous version of freelance pants we're going to use this one",
+    "start": 751
+  },
+  {
+    "content": "because I know what size they actually need so",
+    "start": 756
+  },
+  {
+    "content": "let's do freelance pants save that and we'll go back over here",
+    "start": 758
+  },
+  {
+    "content": "and let's grab that image less than five twelve okay third time's a charm we'll",
+    "start": 763
+  },
+  {
+    "content": "get a smaller image so let's grab the one that's let's see how about 13 65 now",
+    "start": 775
+  },
+  {
+    "content": "let's go 9 10 just to be sure that it's smaller than 512 so it gets me",
+    "start": 787
+  },
+  {
+    "content": "definitely has better image support today but we're getting there",
+    "start": 793
+  },
+  {
+    "content": "all right so we'll replace that one we will try again get the smaller image I",
+    "start": 802
+  },
+  {
+    "content": "hope 84k that should be fine and pants let's say did that work I hope",
+    "start": 808
+  },
+  {
+    "content": "so hmmm let's try that one more time what's",
+    "start": 823
+  },
+  {
+    "content": "good that's that's a Giro take it right there oh here we go",
+    "start": 832
+  },
+  {
+    "content": "it did a thing okay so maybe because we we hit an error at it broke the thing so",
+    "start": 837
+  },
+  {
+    "content": "alright so now we've got now we've got it so then I'll go away got this very",
+    "start": 843
+  },
+  {
+    "content": "helpful overlay from zoom there we go once we've configured our product we can",
+    "start": 850
+  },
+  {
+    "content": "integrate on our website so we're gonna add checkout to the website",
+    "start": 858
+  },
+  {
+    "content": "let's let's writing it ourselves just to understand correct okay do you want to",
+    "start": 867
+  },
+  {
+    "content": "talk me through what's happening here yes exactly so you know with that SKU ID",
+    "start": 875
+  },
+  {
+    "content": "we can now using stripe j/s on the client side so stripe Jess our our web",
+    "start": 882
+  },
+  {
+    "content": "SDK mm-hmm so that is the first step we we need to load strategies from a stripe",
+    "start": 887
+  },
+  {
+    "content": "host domain and then in the second step we initialize stripe j/s with our",
+    "start": 894
+  },
+  {
+    "content": "publishable key to say okay we want to use stripe and this is our stripe",
+    "start": 903
+  },
+  {
+    "content": "account so our publishable key identifies us you know with stripe and",
+    "start": 909
+  },
+  {
+    "content": "here we have to specify the beta as well so we will be able to use this redirect",
+    "start": 915
+  },
+  {
+    "content": "to check out message shown below got it so once once we have stripe jairs",
+    "start": 922
+  },
+  {
+    "content": "initialized with you know the checkout beta we can then call redirect to check",
+    "start": 931
+  },
+  {
+    "content": "out and we specify the items and that can be an array and we specify the SKU",
+    "start": 938
+  },
+  {
+    "content": "ID and the quantity as well as our success URL and cancel URLs okay so this",
+    "start": 945
+  },
+  {
+    "content": "looks really straightforward if I'm understanding correctly so this is just",
+    "start": 953
+  },
+  {
+    "content": "what I'm gonna make my form handler like if I click the Buy Now button I'm gonna",
+    "start": 956
+  },
+  {
+    "content": "cancel the default event Andrew send this instead correct",
+    "start": 961
+  },
+  {
+    "content": "okay well this looks let's rock and roll let's make it happen so I've got a site",
+    "start": 966
+  },
+  {
+    "content": "that I started creating here so let's do a let's see do I have Gatsby installed",
+    "start": 974
+  },
+  {
+    "content": "locally right now let's do Gatsby new and we will do just a new site so we'll",
+    "start": 978
+  },
+  {
+    "content": "use the default starter drop it in here and upon doing this if I get my wish",
+    "start": 985
+  },
+  {
+    "content": "everything should work exactly right on the first try the the curse of the live",
+    "start": 996
+  },
+  {
+    "content": "demo is that we definitely have we have definitely had some issues with this",
+    "start": 1001
+  },
+  {
+    "content": "first install just because people were watching oh but it looks like we're",
+    "start": 1008
+  },
+  {
+    "content": "doing okay now let's see if we can get it started so in the meantime maybe I",
+    "start": 1012
+  },
+  {
+    "content": "can there's a comment in there and a chat I smell it gets me pluck and",
+    "start": 1019
+  },
+  {
+    "content": "striped check out in our future yes so funnily enough there is already a bunch",
+    "start": 1025
+  },
+  {
+    "content": "of gets we stripe plugins that that will actually be using and we can do some",
+    "start": 1031
+  },
+  {
+    "content": "shoutouts I actually note it down there's some",
+    "start": 1040
+  },
+  {
+    "content": "some great folks who've worked on these just need notes let's make this a little",
+    "start": 1044
+  },
+  {
+    "content": "bit easier to see so I'll make that nice and small we'll make this a little bit",
+    "start": 1053
+  },
+  {
+    "content": "bigger and now we should be in pretty good shape to start doing things so Thor",
+    "start": 1057
+  },
+  {
+    "content": "I will I will let you kind of direct me here what's it what should I do next so",
+    "start": 1066
+  },
+  {
+    "content": "let's let's do kind of an easy example first we're you know four which is",
+    "start": 1073
+  },
+  {
+    "content": "selling that's that one part of pants okay",
+    "start": 1078
+  },
+  {
+    "content": "yes so we don't need a cards all we need is let's let's say a button and let's",
+    "start": 1080
+  },
+  {
+    "content": "create a button that says buy patents okay and I'm doing this just wherever I",
+    "start": 1089
+  },
+  {
+    "content": "want exactly yeah I think for now we can do",
+    "start": 1096
+  },
+  {
+    "content": "it on the on the home page okay we'll just take all of this here and what",
+    "start": 1100
+  },
+  {
+    "content": "we're going to do is make it a button because buttons should be buttons",
+    "start": 1113
+  },
+  {
+    "content": "because semantics are important and we're gonna start here so we've got a",
+    "start": 1118
+  },
+  {
+    "content": "just a button and currently this button does no things so what do we need to do",
+    "start": 1127
+  },
+  {
+    "content": "next we need to get that that stripe their party script in there do we use a",
+    "start": 1135
+  },
+  {
+    "content": "plug-in for that are we doing it by hand yeah I'd say you use a plugin and I'm",
+    "start": 1139
+  },
+  {
+    "content": "mainly saying that because I'm actually not sure what's the best way to do that",
+    "start": 1147
+  },
+  {
+    "content": "by hand but maybe so there is a plug-in called gets the plug-in stripe stripe or",
+    "start": 1151
+  },
+  {
+    "content": "striped out I just gets me plug-in stripe and so",
+    "start": 1159
+  },
+  {
+    "content": "that gets us stripe j/s plug-in that adds stripe j/s excellent so let's do",
+    "start": 1164
+  },
+  {
+    "content": "that alright so we're gonna add plugins",
+    "start": 1173
+  },
+  {
+    "content": "stripe and to configure that we just need to export it good deal so we've got",
+    "start": 1181
+  },
+  {
+    "content": "plugins here I'm just gonna add this right at the top Gatsby plug-in stripe",
+    "start": 1188
+  },
+  {
+    "content": "okay and now what what this should do is load stripe j/s on our page so we could",
+    "start": 1192
+  },
+  {
+    "content": "quickly check if that's happening yes let's let's definitely verify so",
+    "start": 1204
+  },
+  {
+    "content": "we're compiled page is still loading okay and we want to take a look at how",
+    "start": 1213
+  },
+  {
+    "content": "do I give this to go away so if we go to the console and just see if we have",
+    "start": 1220
+  },
+  {
+    "content": "there perfect and what we can we can go to the console and quickly look at what",
+    "start": 1230
+  },
+  {
+    "content": "stripe so we will have with a capital S a stripe object on the window and we can",
+    "start": 1236
+  },
+  {
+    "content": "see it's got some stuff function there too exactly and so in the next step we",
+    "start": 1243
+  },
+  {
+    "content": "will have to initialize our structures object with our publishable key okay and",
+    "start": 1252
+  },
+  {
+    "content": "our publishable key was in that on home the developer section you know",
+    "start": 1260
+  },
+  {
+    "content": "developers I've got my let's make this bigger again we case on the Left API",
+    "start": 1268
+  },
+  {
+    "content": "keys and let me move this out of the way so I can take this one got my publisher",
+    "start": 1278
+  },
+  {
+    "content": "publishable key and I can take that where do I want to do this so actually",
+    "start": 1287
+  },
+  {
+    "content": "if you go back to the docs kind of one cool thing we do in the docs if you're",
+    "start": 1299
+  },
+  {
+    "content": "locked into into your account you might have to reload that",
+    "start": 1304
+  },
+  {
+    "content": "just because you've looked in now write it yourself",
+    "start": 1311
+  },
+  {
+    "content": "okay yes oh it did my search that's cool have your your key in there so you can",
+    "start": 1318
+  },
+  {
+    "content": "copy and paste that and we want to initialize as when when the component",
+    "start": 1327
+  },
+  {
+    "content": "mounts got it let's see so I need to convert this to oh man I'm so tempted to",
+    "start": 1337
+  },
+  {
+    "content": "use hooks right now I'm not gonna do it I'm gonna I'm gonna restrain myself",
+    "start": 1345
+  },
+  {
+    "content": "let's do C constants index page oh man do I remember how to write class",
+    "start": 1349
+  },
+  {
+    "content": "components this is it this is gonna get interesting we could also kind of pull",
+    "start": 1356
+  },
+  {
+    "content": "out the button into into its own check out component maybe yeah okay so button",
+    "start": 1362
+  },
+  {
+    "content": "extends oh man let's see react component and then we want component did mount and",
+    "start": 1372
+  },
+  {
+    "content": "we will let's see we should probably that we need this to be global or do",
+    "start": 1382
+  },
+  {
+    "content": "yeah we do need that to be global all right let's see what I can remember",
+    "start": 1394
+  },
+  {
+    "content": "we've got like this big thing that needs to be exhaust right oh my god yeah okay",
+    "start": 1400
+  },
+  {
+    "content": "this is gonna go well for us as you can see all right I've got a component did",
+    "start": 1410
+  },
+  {
+    "content": "mount and then we can do render and on the render we're going to return this",
+    "start": 1414
+  },
+  {
+    "content": "button and on click OSC we want this to be a form don't we form on submit and",
+    "start": 1421
+  },
+  {
+    "content": "that's going to be an event and that event should event prevent default and",
+    "start": 1430
+  },
+  {
+    "content": "then we want to do stripe that what was it I redirected to",
+    "start": 1437
+  },
+  {
+    "content": "check out redirect to check out and we're going to go get our skew from the",
+    "start": 1449
+  },
+  {
+    "content": "dashboard which was under products freelance pants and let's grab this skew",
+    "start": 1456
+  },
+  {
+    "content": "you can also if you click on use with checkout and mites I think it gives you",
+    "start": 1464
+  },
+  {
+    "content": "the code snippets there's a button there oh cool all right so let's just grab",
+    "start": 1470
+  },
+  {
+    "content": "this and I'm going to just take this part because I ultimately that's just a",
+    "start": 1479
+  },
+  {
+    "content": "waste yeah so that's what we want and let's see so",
+    "start": 1492
+  },
+  {
+    "content": "we can maybe we can just try this and see what happens so this is gonna break",
+    "start": 1499
+  },
+  {
+    "content": "on us but let's just swap it out for no localhost and make that not secure",
+    "start": 1508
+  },
+  {
+    "content": "because we didn't set that up okay and then what",
+    "start": 1517
+  },
+  {
+    "content": "happens we've got form on submit so that takes us down to here right and we need",
+    "start": 1531
+  },
+  {
+    "content": "one more okay then we've got our button and our button we can just copy paste",
+    "start": 1544
+  },
+  {
+    "content": "from down here and we'll make this a type submit' and here we can do our",
+    "start": 1550
+  },
+  {
+    "content": "button so this all feels like it's not gonna work I'm sorry I was looking at",
+    "start": 1562
+  },
+  {
+    "content": "the chat there there's a question in there what's the difference between",
+    "start": 1573
+  },
+  {
+    "content": "setting this dot stripe in the constructor versus in component it mount",
+    "start": 1578
+  },
+  {
+    "content": "that is a good question Thor do you want to take it a do you",
+    "start": 1584
+  },
+  {
+    "content": "want me to take it so I think in the constructor we might have an issue with",
+    "start": 1588
+  },
+  {
+    "content": "accessing the window object right right so it's not why we're doing it in",
+    "start": 1601
+  },
+  {
+    "content": "component advanced yes so with gatsby you need to have access",
+    "start": 1607
+  },
+  {
+    "content": "to the window component to do things and when you have something that relies on",
+    "start": 1612
+  },
+  {
+    "content": "the window component like this stripe class that won't be available during",
+    "start": 1618
+  },
+  {
+    "content": "server-side rendering which is how we do the the build step so you would need to",
+    "start": 1623
+  },
+  {
+    "content": "either have kind of a some checks like if the window is undefined then you know",
+    "start": 1627
+  },
+  {
+    "content": "do nothing and there's kind of logic but components don't mount during",
+    "start": 1633
+  },
+  {
+    "content": "server-side rendering they're just built so we can skip the whole like logical",
+    "start": 1637
+  },
+  {
+    "content": "rigmarole of figuring out whether or not windows available by dropping the logic",
+    "start": 1643
+  },
+  {
+    "content": "into component didn't mount and because this will only ever happen",
+    "start": 1648
+  },
+  {
+    "content": "in a browser context so that's why we do it here instead of in the constructor",
+    "start": 1651
+  },
+  {
+    "content": "okay so I've built this I have my doubts this is gonna work because I just copy",
+    "start": 1658
+  },
+  {
+    "content": "pasted a bunch of code but let's give it a shot and see what happens let's see",
+    "start": 1664
+  },
+  {
+    "content": "did I already break it we've got some problems Oh things that wait stripe is",
+    "start": 1668
+  },
+  {
+    "content": "not defined I guess that doesn't matter because it's global let's did things",
+    "start": 1675
+  },
+  {
+    "content": "happen let's let's see on submit let's log something see if I even see if I",
+    "start": 1681
+  },
+  {
+    "content": "even set this up properly let's let's also just delete the stuff that we don't",
+    "start": 1694
+  },
+  {
+    "content": "need and we can pull this off window and that",
+    "start": 1697
+  },
+  {
+    "content": "should delete all of our okay no more errors we get the hello but in order to",
+    "start": 1705
+  },
+  {
+    "content": "use checkout you must set an account or business name at ha ha I am not done",
+    "start": 1717
+  },
+  {
+    "content": "setting up my stripe account that's good to know",
+    "start": 1722
+  },
+  {
+    "content": "it's a that's a helpful error so let's do this buy things from me and my sweet",
+    "start": 1729
+  },
+  {
+    "content": "webstore all right so let's save that and let's come back out here try this",
+    "start": 1739
+  },
+  {
+    "content": "again now what happens I click I get sent",
+    "start": 1747
+  },
+  {
+    "content": "through I am purchasing freelance pants oh my goodness let's let's see what",
+    "start": 1752
+  },
+  {
+    "content": "happens and then it's just for two for two",
+    "start": 1757
+  },
+  {
+    "content": "yeah and okay let's see it's a good location",
+    "start": 1763
+  },
+  {
+    "content": "all right and so it bounces us back to our success page which is what we wanted",
+    "start": 1776
+  },
+  {
+    "content": "of course that page doesn't exist yet so let's create it or I'll just rename this",
+    "start": 1780
+  },
+  {
+    "content": "one for now so let's rename this one to success and",
+    "start": 1785
+  },
+  {
+    "content": "you bought a thing and then we'll leave that back to the",
+    "start": 1797
+  },
+  {
+    "content": "homepage so we bought a thing and so we can go back and what happens if we break",
+    "start": 1805
+  },
+  {
+    "content": "it is there a way to force an error do you have like a bad card number yeah so",
+    "start": 1811
+  },
+  {
+    "content": "there's a bunch of test cards in the docs create this real quick",
+    "start": 1817
+  },
+  {
+    "content": "oh yeah but it won't actually so there's only a success URL or a cancel URL",
+    "start": 1833
+  },
+  {
+    "content": "others the error is actually evaluated on the checkout page itself so you won't",
+    "start": 1840
+  },
+  {
+    "content": "you don't know so okay so I need to cancel page and we can yeah cancelled",
+    "start": 1847
+  },
+  {
+    "content": "nothing happened that seems like what we want so let's let's go back here and",
+    "start": 1859
+  },
+  {
+    "content": "let's just give this a shot so if I start here and I buy some pants",
+    "start": 1866
+  },
+  {
+    "content": "and then I decide just kidding I don't want pants I cancel with that and so",
+    "start": 1870
+  },
+  {
+    "content": "that did what I wanted but I named my page incorrectly so I need to go back",
+    "start": 1878
+  },
+  {
+    "content": "here oops and that would take me to the nothing happened so try that one more",
+    "start": 1883
+  },
+  {
+    "content": "time it does indeed work so that's pretty",
+    "start": 1895
+  },
+  {
+    "content": "that's pretty awesome like that that that just did what we wanted it to do",
+    "start": 1899
+  },
+  {
+    "content": "and and there were doubts in the chat that we'd be able to redirect a local",
+    "start": 1904
+  },
+  {
+    "content": "host but it all it all it all worked so wonderfully I'm actually I'm not gonna",
+    "start": 1907
+  },
+  {
+    "content": "lie I'm surprised that that went is quickly as it did especially with me",
+    "start": 1913
+  },
+  {
+    "content": "having to remember how to write class components yeah it's great it's a 30",
+    "start": 1916
+  },
+  {
+    "content": "minutes in and we we've already made some well fake money we have now made 26",
+    "start": 1922
+  },
+  {
+    "content": "fake dollars so I think the the next thing you wanted to do was",
+    "start": 1931
+  },
+  {
+    "content": "programmatically generate these right yes so so the next step you know if",
+    "start": 1935
+  },
+  {
+    "content": "we're if we're selling let's say more than than one item so I think we'll",
+    "start": 1946
+  },
+  {
+    "content": "we'll actually me to create a couple more products or we could create a",
+    "start": 1952
+  },
+  {
+    "content": "couple more SKUs depending on what we want to do let's for the sake of not",
+    "start": 1958
+  },
+  {
+    "content": "watching me do data entry let's just do we'll just do",
+    "start": 1965
+  },
+  {
+    "content": "one more item so I'll create this yeah and let's save this image and I'm a",
+    "start": 1971
+  },
+  {
+    "content": "little I'm a little shame to admit that I'm not in fact wearing my jam stack",
+    "start": 1986
+  },
+  {
+    "content": "jammies under the desk right now I did I did promise myself that I would never",
+    "start": 1990
+  },
+  {
+    "content": "not wear these jam stack jammies after I got them",
+    "start": 1995
+  },
+  {
+    "content": "okay so we are in here let's create another product I'm going to now do I do",
+    "start": 1999
+  },
+  {
+    "content": "it as a no I don't want to do it as a skew I want to do it as a new product",
+    "start": 2005
+  },
+  {
+    "content": "and I can do that here new call it jam stack jammies these are also $26 or five",
+    "start": 2009
+  },
+  {
+    "content": "contributions if you want to commit to the Gatsby repo oh nice yeah yeah we",
+    "start": 2023
+  },
+  {
+    "content": "just rolled that out over the last couple of weeks I think it was we got to",
+    "start": 2030
+  },
+  {
+    "content": "the point where you can get a lot of things from our store anything that's",
+    "start": 2034
+  },
+  {
+    "content": "valued at $10 you get for any contribution and then we have some",
+    "start": 2038
+  },
+  {
+    "content": "higher value stuff like coffee mugs and pajama pants and stuff that anybody who",
+    "start": 2042
+  },
+  {
+    "content": "has a 5 contributions or more we give we will give you like the one of those",
+    "start": 2047
+  },
+  {
+    "content": "items the $26 items yeah which is that's awesome when when I saw this just you",
+    "start": 2055
+  },
+  {
+    "content": "know look in with your github account and it's getting a swag for your",
+    "start": 2061
+  },
+  {
+    "content": "contribution so that's so cool it's a it's been one of the most fun",
+    "start": 2067
+  },
+  {
+    "content": "parts of this job is being able to hook people up with swag for yeah I mean like",
+    "start": 2070
+  },
+  {
+    "content": "the community and gatsby is really really amazing and like I don't get a",
+    "start": 2074
+  },
+  {
+    "content": "good chance to to say thank you to a lot of people so this is a way to you know",
+    "start": 2077
+  },
+  {
+    "content": "actively say thank you like you we wouldn't get very far without the",
+    "start": 2082
+  },
+  {
+    "content": "community and you know this is the least we can do right",
+    "start": 2086
+  },
+  {
+    "content": "and I feel like that's a good good point to call out Nathan back in proc McElroy",
+    "start": 2090
+  },
+  {
+    "content": "whoo have written the plugin we're going to",
+    "start": 2098
+  },
+  {
+    "content": "use next which is the Gatsby source gets the source stripe plug-in okay so let me",
+    "start": 2102
+  },
+  {
+    "content": "share this one in the chat and then the next one that we're gonna get was stripe",
+    "start": 2110
+  },
+  {
+    "content": "check out is that we you said no sorry the first one was the Gatsby plug-in",
+    "start": 2118
+  },
+  {
+    "content": "stripe right and then the second one we need is the source plug-in that's",
+    "start": 2125
+  },
+  {
+    "content": "against resource stripe plug-in Gatsby source stripe got it so this is going to",
+    "start": 2131
+  },
+  {
+    "content": "pull in so this allows us to pull in data from the stripe API at real time",
+    "start": 2138
+  },
+  {
+    "content": "and so you know instead of hard-coding our product IDs and our SKU IDs we can",
+    "start": 2150
+  },
+  {
+    "content": "now use this plug-in to at build time basically we'll retrieve all our",
+    "start": 2159
+  },
+  {
+    "content": "products and SKUs and then dynamically well at that point I guess dynamically",
+    "start": 2164
+  },
+  {
+    "content": "create them yeah cool okay so I need to grab that secret key which I'm going to",
+    "start": 2173
+  },
+  {
+    "content": "do off screen and I'm gonna also take this off screen so that I can was that",
+    "start": 2183
+  },
+  {
+    "content": "the good points here is we can create a restricted key so instead of using the",
+    "start": 2191
+  },
+  {
+    "content": "secret key we can create a restricted key in the striped dashboard all right",
+    "start": 2199
+  },
+  {
+    "content": "well let's do that let's uh I go to an API keys and then I can create a",
+    "start": 2208
+  },
+  {
+    "content": "restricted key yes and so I just wanted to reuse a correct read products does a",
+    "start": 2213
+  },
+  {
+    "content": "list SKU separately it does not appear too",
+    "start": 2225
+  },
+  {
+    "content": "Connect resources Oh oh yeah it does sound also resources um",
+    "start": 2232
+  },
+  {
+    "content": "uh canoes so I'm gonna get SKUs and products and we're gonna set those to",
+    "start": 2237
+  },
+  {
+    "content": "read and that's all we get so let's do you have that nice to daunt okey name is",
+    "start": 2243
+  },
+  {
+    "content": "required let's do Gatsby store and I've got my restricted key so then I can take",
+    "start": 2252
+  },
+  {
+    "content": "this back over here let's start looking at this and hold this over here let's",
+    "start": 2264
+  },
+  {
+    "content": "get gatsby config open and we're going to just drop it right in next to this",
+    "start": 2278
+  },
+  {
+    "content": "one so we'll do resolve get the gatsby source stripe and then we're gonna do",
+    "start": 2283
+  },
+  {
+    "content": "options and we're going to do objects do I wait all this I just need product and",
+    "start": 2292
+  },
+  {
+    "content": "SKU no we only need yeah yeah we might actually only need the SKUs because the",
+    "start": 2304
+  },
+  {
+    "content": "SKUs have the product ID and we can you know use graphic y'all too and group the",
+    "start": 2311
+  },
+  {
+    "content": "SKUs by product ID for example okay so I actually the two questions just came up",
+    "start": 2319
+  },
+  {
+    "content": "in the chat one of them I think is like I want to answer both but one I want to",
+    "start": 2326
+  },
+  {
+    "content": "answer right now because I'm about to paste a public key into my Gatsby config",
+    "start": 2330
+  },
+  {
+    "content": "this restricted read key it's safe to post this in public because all it can",
+    "start": 2334
+  },
+  {
+    "content": "do is read write read write ya know correct yes that is that is why we've",
+    "start": 2340
+  },
+  {
+    "content": "created the restricted key here okay I'm so yes very correct we should never",
+    "start": 2349
+  },
+  {
+    "content": "share the secret key anywhere and so I shouldn't",
+    "start": 2355
+  },
+  {
+    "content": "I won this release best practice would be to you know have it in and variable",
+    "start": 2362
+  },
+  {
+    "content": "okay well let's just do that then what should we do now yeah let's just do it",
+    "start": 2371
+  },
+  {
+    "content": "so let's do stripe secret key and then what I'm going to do is we're gonna",
+    "start": 2376
+  },
+  {
+    "content": "create a dot and dot development and I can do stripe secret key and I'm gonna",
+    "start": 2384
+  },
+  {
+    "content": "drop this in here and the way that this works is we we pull in M for both build",
+    "start": 2396
+  },
+  {
+    "content": "and build and production and we don't actually publish these so I'm only gonna",
+    "start": 2403
+  },
+  {
+    "content": "set it up for this but let's also do download files download files it's true",
+    "start": 2410
+  },
+  {
+    "content": "so let's say that do we need to add the dot and stop development you are getting",
+    "start": 2416
+  },
+  {
+    "content": "noir or is that included by default it's included by default and so let me just",
+    "start": 2422
+  },
+  {
+    "content": "verify that lets get status yeah nothing or let's",
+    "start": 2428
+  },
+  {
+    "content": "okay so it not ignoring it so I need to in the docket ignore so that's that's",
+    "start": 2442
+  },
+  {
+    "content": "yeah also the important piece that you should never commit your secret key to",
+    "start": 2449
+  },
+  {
+    "content": "get I guess we can do dot star yeah nice and now it's gone so we will be able to",
+    "start": 2456
+  },
+  {
+    "content": "do avoid that so let's now that we've got this let's",
+    "start": 2466
+  },
+  {
+    "content": "see if I did it right let's see intermediate value intermediate error",
+    "start": 2470
+  },
+  {
+    "content": "gatsby config 16 oh I just did dumb things let's try that one more time okay",
+    "start": 2484
+  },
+  {
+    "content": "so we still had a problem a problem was no stripe secret key found which means I",
+    "start": 2498
+  },
+  {
+    "content": "did something wrong so let's just do Gatsby and variables and I think we have",
+    "start": 2504
+  },
+  {
+    "content": "to require it in the Kong fake runs so on the server side no js' we can use dot",
+    "start": 2514
+  },
+  {
+    "content": "end so it's already a dependency of Gatsby so you can require it like this",
+    "start": 2523
+  },
+  {
+    "content": "okay let's just do this then I'm gonna drop that I'm going to go into my gatsby",
+    "start": 2533
+  },
+  {
+    "content": "config I'm going to run this and I don't need to do the process end anymore I can",
+    "start": 2541
+  },
+  {
+    "content": "just use the default so we can run it like that and now we should have our API",
+    "start": 2548
+  },
+  {
+    "content": "key in the environment so that we can see it",
+    "start": 2558
+  },
+  {
+    "content": "didn't like something else hmm okay so new error doesn't like property item",
+    "start": 2563
+  },
+  {
+    "content": "let's have a look at the contract of the source plugin okay so looking at this",
+    "start": 2578
+  },
+  {
+    "content": "again gatsby source stripe now I think that the plugin has changed so the name",
+    "start": 2588
+  },
+  {
+    "content": "has to be not plural but what's the word I'm looking for singular for object Oh",
+    "start": 2599
+  },
+  {
+    "content": "got it got it yep that's let's try that one more time",
+    "start": 2607
+  },
+  {
+    "content": "it still doesn't like we still so in my in my project I have only the s capital",
+    "start": 2622
+  },
+  {
+    "content": "I'm not sure if that should make a difference it probably does it does",
+    "start": 2631
+  },
+  {
+    "content": "indeed so that's just me not reading the instructions so let me fix that try",
+    "start": 2637
+  },
+  {
+    "content": "again and then while I'm while I'm running this build because it's",
+    "start": 2642
+  },
+  {
+    "content": "definitely gonna work this time the other question that came in is so",
+    "start": 2648
+  },
+  {
+    "content": "obviously this isn't a good path if you have a client with hundreds of thousands",
+    "start": 2652
+  },
+  {
+    "content": "of products I I don't know I so I think that the the general feedback that I",
+    "start": 2656
+  },
+  {
+    "content": "give when people ask like when is Gatsby not the right idea is that Gatsby will",
+    "start": 2668
+  },
+  {
+    "content": "work for tons and tons of pages where it starts to fall down is if you have",
+    "start": 2674
+  },
+  {
+    "content": "multiple updates like per second but if you are constantly putting things up and",
+    "start": 2679
+  },
+  {
+    "content": "tearing them down and doing rebuilds then at a certain point you're kind of",
+    "start": 2685
+  },
+  {
+    "content": "you're gonna spend so much on rebuilding the site that it would just make sense",
+    "start": 2689
+  },
+  {
+    "content": "to have a server but that that's a problem that we're attempting to solve",
+    "start": 2692
+  },
+  {
+    "content": "that we're hoping will be solved in the future but in the meantime basically if",
+    "start": 2697
+  },
+  {
+    "content": "you're doing fewer than like one or two rebuilds a minute you're probably fine",
+    "start": 2702
+  },
+  {
+    "content": "to keep using Gatsby it it all is gonna depend on the actual site though like if",
+    "start": 2707
+  },
+  {
+    "content": "you've got a hundred thousand pages and it takes 25 minutes to build then",
+    "start": 2716
+  },
+  {
+    "content": "obviously that's probably not a good move if if you are building more than",
+    "start": 2720
+  },
+  {
+    "content": "every 25 minutes but if you've got that same number of pages but it only takes",
+    "start": 2724
+  },
+  {
+    "content": "like eight minutes to build then it's probably not a big deal because you know",
+    "start": 2729
+  },
+  {
+    "content": "you that's about how long it would take to clear the edge cache if you were",
+    "start": 2732
+  },
+  {
+    "content": "using like varnish or you know putting putting everything on cloud front on AWS",
+    "start": 2736
+  },
+  {
+    "content": "it takes about ten minutes to clear that cache so you know it it really comes up",
+    "start": 2741
+  },
+  {
+    "content": "to what your use cases and what the specific restrictions are I hope that",
+    "start": 2746
+  },
+  {
+    "content": "answers your question and with that being said",
+    "start": 2753
+  },
+  {
+    "content": "we have the site building and let's jump into graph QL and look at what we did so",
+    "start": 2756
+  },
+  {
+    "content": "we've got to make this a little bit bigger so it's easier to read and we can",
+    "start": 2764
+  },
+  {
+    "content": "clear all this because this is old stuff let's take a look at what's available to",
+    "start": 2770
+  },
+  {
+    "content": "us we want all striped products right or do we want all let's try both all stripe",
+    "start": 2774
+  },
+  {
+    "content": "yeah product and let's get the edges and the nodes and names so that's cool and",
+    "start": 2783
+  },
+  {
+    "content": "then what else do we need in here maybe attributes",
+    "start": 2795
+  },
+  {
+    "content": "attributes our name it's not super helpful let's look at all stripes q and",
+    "start": 2805
+  },
+  {
+    "content": "do the same edges note and what do we have in here so I'm hitting option space",
+    "start": 2812
+  },
+  {
+    "content": "to get this drop-down which is one of my favorite little shortcuts in here you",
+    "start": 2819
+  },
+  {
+    "content": "can see everything that's available and so is the ID yeah we need the ID because",
+    "start": 2822
+  },
+  {
+    "content": "we'll have to specify that and the redirect you check out call yes so the",
+    "start": 2829
+  },
+  {
+    "content": "problem so it looks like you were correct in fact we do not need the",
+    "start": 2835
+  },
+  {
+    "content": "product at all because it doesn't look like that's going to help us how do",
+    "start": 2839
+  },
+  {
+    "content": "these how do these cross because they're a cross reference product and then in",
+    "start": 2846
+  },
+  {
+    "content": "the product yeah so the product itself has a list office cues but I'm just use",
+    "start": 2852
+  },
+  {
+    "content": "a product ID yeah so the the product now do we we don't need this Product ID",
+    "start": 2862
+  },
+  {
+    "content": "right not today no not today unless we wanted to you",
+    "start": 2873
+  },
+  {
+    "content": "know for example group buy the product ID which we which we could do and",
+    "start": 2879
+  },
+  {
+    "content": "traffic you out it's really cool but since we only have one scoop or a",
+    "start": 2883
+  },
+  {
+    "content": "product let's leave that be but we what we need is we need the ID we need the",
+    "start": 2887
+  },
+  {
+    "content": "currency the price and then from the attributes we need the name and so I",
+    "start": 2892
+  },
+  {
+    "content": "don't need anything from the product not today",
+    "start": 2903
+  },
+  {
+    "content": "cool in that case let's for the sake of keeping things simple let's drop the",
+    "start": 2908
+  },
+  {
+    "content": "product entirely for our use case we're just going to use the SKU and we can see",
+    "start": 2916
+  },
+  {
+    "content": "here we've got the the actual SKU which is what we need to send to stripe",
+    "start": 2922
+  },
+  {
+    "content": "we've got currency and I believe if we let's see",
+    "start": 2926
+  },
+  {
+    "content": "was my index page we set the skew we set the quantity do I need to set the",
+    "start": 2931
+  },
+  {
+    "content": "currency no but I think we want to display it I think this time maybe we",
+    "start": 2940
+  },
+  {
+    "content": "create a little product car to where we can you know kind of show one card per",
+    "start": 2950
+  },
+  {
+    "content": "product and then have kind of the body button on each card yeah I think that",
+    "start": 2958
+  },
+  {
+    "content": "makes sense and do we get file stripe do we get doesn't the image here's the URL",
+    "start": 2966
+  },
+  {
+    "content": "I think the the source plug-in should have capability should pull the file I",
+    "start": 2979
+  },
+  {
+    "content": "actually haven't looked into that myself after we might have to go back to that",
+    "start": 2987
+  },
+  {
+    "content": "okay so reads me after source plugin yeah it said it downloaded let's look at",
+    "start": 2992
+  },
+  {
+    "content": "downloading files file note is created for each downloaded",
+    "start": 2999
+  },
+  {
+    "content": "file and the reference is placed on the local files field of their stripe nodes",
+    "start": 3007
+  },
+  {
+    "content": "so let's go here and let's look for local file",
+    "start": 3012
+  },
+  {
+    "content": "so I wonder what I did wrong is there an",
+    "start": 3023
+  },
+  {
+    "content": "example all stripes queue edges node local files",
+    "start": 3030
+  },
+  {
+    "content": "do I need to have",
+    "start": 3040
+  },
+  {
+    "content": "but we already have that because we've already got transformer char plug-in",
+    "start": 3047
+  },
+  {
+    "content": "sharp maybe it needs to happen later in the chain so let's make sure that these",
+    "start": 3052
+  },
+  {
+    "content": "are available before it starts loading and let's try that one more time see if",
+    "start": 3057
+  },
+  {
+    "content": "we get any errors okay Oh downloading the remote files",
+    "start": 3063
+  },
+  {
+    "content": "that's a good sign so let's get back out here let's reload",
+    "start": 3076
+  },
+  {
+    "content": "and let's see if we got a local file this time now I still know",
+    "start": 3080
+  },
+  {
+    "content": "okay maybe there's something because because we're using the beta so yeah",
+    "start": 3093
+  },
+  {
+    "content": "I'll I'll have to look into that later yeah let's check on the product just in",
+    "start": 3103
+  },
+  {
+    "content": "case it's there but it looks like I didn't get anything that okay we can",
+    "start": 3110
+  },
+  {
+    "content": "worry about that another day that's that's not a big deal in the meantime we",
+    "start": 3118
+  },
+  {
+    "content": "do have this and it looks like we can definitely not do that it it just",
+    "start": 3122
+  },
+  {
+    "content": "download so you can't use it to display which is a bummer but that's alright",
+    "start": 3130
+  },
+  {
+    "content": "well we'll live without it for now okay so let's take this and let's build",
+    "start": 3134
+  },
+  {
+    "content": "something with it did you have a a particular style of things you wanted to",
+    "start": 3139
+  },
+  {
+    "content": "do here you just want me to throw together like a product listing page",
+    "start": 3146
+  },
+  {
+    "content": "yeah I think we can have one yeah we can have a second page and then we'll we'll",
+    "start": 3152
+  },
+  {
+    "content": "need a component I think we need two more components one two to query and one",
+    "start": 3160
+  },
+  {
+    "content": "that is the actual a card that is displayed okay so we can do import from",
+    "start": 3168
+  },
+  {
+    "content": "react so in the interest of trying to keep this all kind of collected together",
+    "start": 3177
+  },
+  {
+    "content": "we can or let's see we probably want to have that stripe stuff available here so",
+    "start": 3181
+  },
+  {
+    "content": "we're gonna do a class component we're gonna do class bye and we'll call our",
+    "start": 3189
+  },
+  {
+    "content": "button again extends react component and we're gonna do component did mount again",
+    "start": 3196
+  },
+  {
+    "content": "if I can spell it and in this we're gonna pull out stripe",
+    "start": 3205
+  },
+  {
+    "content": "again and this part I'm just going to see we've had alone for now close that",
+    "start": 3213
+  },
+  {
+    "content": "because we don't need it close that because we don't need it and let's get",
+    "start": 3220
+  },
+  {
+    "content": "this out we're going to grab out this whole funk method cuz no need to",
+    "start": 3224
+  },
+  {
+    "content": "reinvent that wheel so that gives us our stripe bata",
+    "start": 3232
+  },
+  {
+    "content": "checkout and what I think we can do here is we can just return or render and",
+    "start": 3236
+  },
+  {
+    "content": "let's actually call this product because what we can render is we can pull out",
+    "start": 3247
+  },
+  {
+    "content": "the ID currency price and name out of the props and then we can do let's see",
+    "start": 3254
+  },
+  {
+    "content": "kind of kind of dirty here but we'll just make it work we're gonna do an h2",
+    "start": 3278
+  },
+  {
+    "content": "and that h2 is going to use the name and then we can do its how do we want to do",
+    "start": 3283
+  },
+  {
+    "content": "this I guess we can just for now since we know the currency I'm not gonna write",
+    "start": 3294
+  },
+  {
+    "content": "logic to like show the proper dollar signs so I'm just gonna do it we can",
+    "start": 3299
+  },
+  {
+    "content": "have a format pricing price function yeah",
+    "start": 3306
+  },
+  {
+    "content": "okay so I've done this before how do you do it it's I need to move the decimal",
+    "start": 3312
+  },
+  {
+    "content": "place do you remember this one I'll stop your head because I sure don't yeah I",
+    "start": 3318
+  },
+  {
+    "content": "think I'd like to use the international number for match",
+    "start": 3323
+  },
+  {
+    "content": "I think West boss taught me that it's really really cool are you familiar with",
+    "start": 3328
+  },
+  {
+    "content": "international number format yeah should be on mdn oh this is this is",
+    "start": 3335
+  },
+  {
+    "content": "significantly better than I wonderful okay so what we do need to do though is",
+    "start": 3344
+  },
+  {
+    "content": "figure out how to get because it sends back sense and we need to send or we",
+    "start": 3353
+  },
+  {
+    "content": "need to display dollars so if we know that we've got let's see price is going",
+    "start": 3359
+  },
+  {
+    "content": "to be twenty six hundred then if we do international number format and we're",
+    "start": 3367
+  },
+  {
+    "content": "gonna do NUS and let's see we can do style is currency and the currency",
+    "start": 3376
+  },
+  {
+    "content": "I wonder if will it work with lower case cuz stripe is definitely giving us lower",
+    "start": 3385
+  },
+  {
+    "content": "case and let's format the price okay so that doesn't quite give us what we want",
+    "start": 3389
+  },
+  {
+    "content": "we need to instead yeah we'll need to do value did point we need yeah sundress",
+    "start": 3398
+  },
+  {
+    "content": "and then we can do to fixed to fix it to two decimal points like this yeah so we",
+    "start": 3407
+  },
+  {
+    "content": "do price divided by 102 fixed okay so then we can use international",
+    "start": 3417
+  },
+  {
+    "content": "number format and take our price flow oh okay so maybe what we can do instead",
+    "start": 3433
+  },
+  {
+    "content": "is is take our price float and we'll take that well we need a currency",
+    "start": 3441
+  },
+  {
+    "content": "display and say symbol I think that's another one to actually get it kind of a",
+    "start": 3446
+  },
+  {
+    "content": "nice dollar sign in there so in the",
+    "start": 3454
+  },
+  {
+    "content": "after currency in your options objects you can say currency display currency",
+    "start": 3460
+  },
+  {
+    "content": "display yeah why does this one work with like yen mm-hmm what am I doing wrong so",
+    "start": 3469
+  },
+  {
+    "content": "I did style oh I'm I'm just doing all sorts of things wrong here style",
+    "start": 3488
+  },
+  {
+    "content": "currency oh yes okay uh-huh that's then all right that's what we",
+    "start": 3494
+  },
+  {
+    "content": "want okay so I need to do two things I need to take this bit and we're gonna",
+    "start": 3501
+  },
+  {
+    "content": "put that one C Conn's formatted price and that's gonna be here and then I also",
+    "start": 3508
+  },
+  {
+    "content": "need the price float which was this one and that means that we should be able to",
+    "start": 3518
+  },
+  {
+    "content": "just do 4matic price thank you nice and Thank You Wes boss then and thank you",
+    "start": 3531
+  },
+  {
+    "content": "dr. Payne in the comments oh geez in our yep",
+    "start": 3545
+  },
+  {
+    "content": "that's what I get for not paying attention and so because we did learn",
+    "start": 3553
+  },
+  {
+    "content": "that that the currency can be lower cased I'm just going to short-circuit",
+    "start": 3557
+  },
+  {
+    "content": "that and just drop it in like that and then the ID is what we're going to",
+    "start": 3563
+  },
+  {
+    "content": "need for our button and for this actually let's do this we're gonna make",
+    "start": 3569
+  },
+  {
+    "content": "this our form and we will do on submit and this time let's make it a handle",
+    "start": 3577
+  },
+  {
+    "content": "submit which means that we're gonna have to do pass the ID and button type submit",
+    "start": 3586
+  },
+  {
+    "content": "by now all right so then we're going to do handle submit and that's going to",
+    "start": 3604
+  },
+  {
+    "content": "take in our skew and we can then take this handler here",
+    "start": 3613
+  },
+  {
+    "content": "and I'm gonna have to fix this a little bit because what it's actually going to",
+    "start": 3629
+  },
+  {
+    "content": "do is return an event handler so it's gonna return an event handler that's",
+    "start": 3635
+  },
+  {
+    "content": "going to event prevent default and then we can do all the same things that we",
+    "start": 3640
+  },
+  {
+    "content": "did before and if I am correct then we can drop in the skew like so and you can",
+    "start": 3648
+  },
+  {
+    "content": "only buy one of these at a time because we're not gonna write quantity handling",
+    "start": 3659
+  },
+  {
+    "content": "today and we're just gonna leave that it's actually just do this because we",
+    "start": 3662
+  },
+  {
+    "content": "don't actually have this error handling in place we will handle errors like so",
+    "start": 3672
+  },
+  {
+    "content": "and I believe we're gonna have to bind this",
+    "start": 3681
+  },
+  {
+    "content": "that means we need a constructor and in the constructor we need to handle submit",
+    "start": 3692
+  },
+  {
+    "content": "am i right on this I think you have to mm-hmm maybe I'm wrong let's let's try",
+    "start": 3703
+  },
+  {
+    "content": "without it and see if that actually works so so yeah so there's a couple",
+    "start": 3711
+  },
+  {
+    "content": "questions somebody saying don't execute the don't execute the handle submit",
+    "start": 3720
+  },
+  {
+    "content": "immediately and then another question about the the format of what I'm",
+    "start": 3726
+  },
+  {
+    "content": "returning here and so basically what what I'm doing is I want to bind the",
+    "start": 3731
+  },
+  {
+    "content": "skew right away and then return an event handler and so it looks like I am",
+    "start": 3735
+  },
+  {
+    "content": "executing this right away but what comes back is an event handler that's",
+    "start": 3742
+  },
+  {
+    "content": "basically this this function here so event and then it does the event default",
+    "start": 3747
+  },
+  {
+    "content": "it actually does things so this is the function that gets executed on",
+    "start": 3751
+  },
+  {
+    "content": "submitting the form this actually prepares the submit",
+    "start": 3756
+  },
+  {
+    "content": "handler it's a little little funky but this this tends to be how my brain works",
+    "start": 3760
+  },
+  {
+    "content": "so I apologize if I'm confusing you and I believe and why I personally just you",
+    "start": 3768
+  },
+  {
+    "content": "know not do it make it a form just seeing that the form is you know taken",
+    "start": 3776
+  },
+  {
+    "content": "care of by stripe listen uh not sure how you feel about that the form is well the",
+    "start": 3783
+  },
+  {
+    "content": "reason that I'm a because it's a button it should be a form yeah so if you're",
+    "start": 3792
+  },
+  {
+    "content": "using a screen reader the and I I'm not an accessibility expert but I I've been",
+    "start": 3796
+  },
+  {
+    "content": "told that if it's not an actual form that it messes with the way that screen",
+    "start": 3804
+  },
+  {
+    "content": "readers work and so the buttons don't seem they're not read properly so that",
+    "start": 3809
+  },
+  {
+    "content": "somebody on a screen reader wouldn't be able to effectively execute the thing so",
+    "start": 3814
+  },
+  {
+    "content": "what I okay so what I'm doing now is I'm pulling in static query",
+    "start": 3818
+  },
+  {
+    "content": "and graph QL and this component down here is going to run a query for us and",
+    "start": 3823
+  },
+  {
+    "content": "then it's going to render and the query that we want to run is the query that we",
+    "start": 3829
+  },
+  {
+    "content": "wrote and that query is back here okay format that just a tad and then what",
+    "start": 3836
+  },
+  {
+    "content": "we're gonna get back is data and when I say that I think that's what it is let's",
+    "start": 3847
+  },
+  {
+    "content": "let's start by console logging that data yeah and I believe it's gonna give me",
+    "start": 3858
+  },
+  {
+    "content": "some crap because I have a bunch of unused stuff now but I'm not gonna think",
+    "start": 3867
+  },
+  {
+    "content": "about that too hard we are instead going to go to our products page and look at",
+    "start": 3874
+  },
+  {
+    "content": "the console so this gives us our all stripes cue and",
+    "start": 3879
+  },
+  {
+    "content": "inside we've got our edges and we've got our products so now we can actually do",
+    "start": 3886
+  },
+  {
+    "content": "things with these and what we want to do is in here we're going to return the",
+    "start": 3892
+  },
+  {
+    "content": "product and so what I want or actually that's not what I want I want to do",
+    "start": 3906
+  },
+  {
+    "content": "let's just wrap it in something and then here we're gonna do data all stripe SKU",
+    "start": 3917
+  },
+  {
+    "content": "edges and then we'll map and this will give us our let's do node and we'll",
+    "start": 3926
+  },
+  {
+    "content": "rename that to SKU and that's just a little bit of ergonomics for me so that",
+    "start": 3934
+  },
+  {
+    "content": "I don't have to think about like the the node wrapper so once you get into the",
+    "start": 3939
+  },
+  {
+    "content": "the individual SKU everything is under a node by doing this I'm just a liasing so",
+    "start": 3944
+  },
+  {
+    "content": "that I get to use SKU and it makes a little more sense to my brain so then we",
+    "start": 3949
+  },
+  {
+    "content": "have our product and I'm going to do all the things that we said we were gonna do",
+    "start": 3953
+  },
+  {
+    "content": "up here we need the ID currency price and name",
+    "start": 3959
+  },
+  {
+    "content": "and named and we can pull those right out of the East cue so skewed out I D",
+    "start": 3968
+  },
+  {
+    "content": "skewed currency skewed out price and in this case we're gonna do skewed",
+    "start": 3976
+  },
+  {
+    "content": "attributes whoops tributes dot name and there we have it",
+    "start": 3987
+  },
+  {
+    "content": "and that does not look pretty at all but it's it's doing what what we wanted to",
+    "start": 3998
+  },
+  {
+    "content": "do I can make it a little bit prettier in fact if I import the layout from",
+    "start": 4004
+  },
+  {
+    "content": "components layout and instead of wrapping it in a div we will wrap it in",
+    "start": 4012
+  },
+  {
+    "content": "a layout so this is uh I mean this is this is pretty acceptable let's see if",
+    "start": 4023
+  },
+  {
+    "content": "we're able to buy the things that we want to buy so let's buy our jam stack",
+    "start": 4031
+  },
+  {
+    "content": "jammies okay that took us back home runs act jammies and let's actually jump",
+    "start": 4035
+  },
+  {
+    "content": "through the hoops here or we can go back and see if the other one works probably",
+    "start": 4041
+  },
+  {
+    "content": "a good call so you go back ok we've cancelled let's",
+    "start": 4048
+  },
+  {
+    "content": "go to the products again and let's buy the freelance pants now hey oh this is",
+    "start": 4052
+  },
+  {
+    "content": "pretty slick right so yeah I'm uh I'm pretty into this this is this is very",
+    "start": 4062
+  },
+  {
+    "content": "pleasant compared to some of my previous ecommerce experiences and the fact that",
+    "start": 4070
+  },
+  {
+    "content": "we've been able to do this in what we've been on for 45 hour and how er we've",
+    "start": 4076
+  },
+  {
+    "content": "been on for an hour this is pretty I mean I'm I'm pretty happy about this how",
+    "start": 4083
+  },
+  {
+    "content": "are you feeling Thor yeah good it's good actually yeah",
+    "start": 4088
+  },
+  {
+    "content": "there's a question ah yes okay so stripe object in the layout component be fine",
+    "start": 4092
+  },
+  {
+    "content": "so yes but you would have to then your in to react state management so because",
+    "start": 4101
+  },
+  {
+    "content": "you are already loading stripe through a third-party script that puts it on the",
+    "start": 4111
+  },
+  {
+    "content": "window adding it in layout doesn't do you a lot of favors because then you",
+    "start": 4116
+  },
+  {
+    "content": "would still need to extract it from layout into the component where you were",
+    "start": 4119
+  },
+  {
+    "content": "gonna use it if we didn't have it on window then probably what we would want",
+    "start": 4124
+  },
+  {
+    "content": "to do instead is like set up react context or you could use something like",
+    "start": 4130
+  },
+  {
+    "content": "Redux or whatever to make sure that you had it globally available on state and",
+    "start": 4136
+  },
+  {
+    "content": "then you could pass that around as needed but in this case because we're",
+    "start": 4141
+  },
+  {
+    "content": "using the the global stripe script we're able to just access it from the window",
+    "start": 4145
+  },
+  {
+    "content": "which is you know that's that's really all we need I don't think that there",
+    "start": 4149
+  },
+  {
+    "content": "would be a whole lot of benefit to moving it into layout at all unless you",
+    "start": 4153
+  },
+  {
+    "content": "were yeah I I can't really think of a good reason to do it personally okay",
+    "start": 4158
+  },
+  {
+    "content": "so what do we do next what's uh I mean I feel like we're in pretty good shape",
+    "start": 4166
+  },
+  {
+    "content": "here like we there's there are a lot of things that we could still do here like",
+    "start": 4173
+  },
+  {
+    "content": "adding uh if we had the product should be able to put multiple sizes in and add",
+    "start": 4177
+  },
+  {
+    "content": "a drop down for like size selection or something we could one please yeah we",
+    "start": 4183
+  },
+  {
+    "content": "could do quantity editing for anybody who does want to do quantity editing we",
+    "start": 4189
+  },
+  {
+    "content": "do have our store up on github and so you can let's see github.com slash cats",
+    "start": 4194
+  },
+  {
+    "content": "PJs store and we have a lot of cats PJs don't work on the store we have the",
+    "start": 4202
+  },
+  {
+    "content": "songs yes so on the store if you if you are interested in the way that like cart",
+    "start": 4214
+  },
+  {
+    "content": "handling and quantity management things like that",
+    "start": 4220
+  },
+  {
+    "content": "we've got components in the store that do that so you could just lift those",
+    "start": 4223
+  },
+  {
+    "content": "straight out and use them with this this striped bass setup anything else that",
+    "start": 4225
+  },
+  {
+    "content": "that is worth digging into that that would help people out I think",
+    "start": 4231
+  },
+  {
+    "content": "what I'd love to do is you know seeing that we pull in the data at build time",
+    "start": 4237
+  },
+  {
+    "content": "yes you know once we have our page deployed and we add a new SKU or add a",
+    "start": 4243
+  },
+  {
+    "content": "new product our page is out of sync and something cool that I found recently is",
+    "start": 4252
+  },
+  {
+    "content": "net leaf I deploy hooks or what is it called build hooks yeah and we can",
+    "start": 4260
+  },
+  {
+    "content": "actually pair that with the stripe web hooks so we can we can point the stripe",
+    "start": 4268
+  },
+  {
+    "content": "weapon at our built hooks nettle if I bilko built Rock URL and then we can",
+    "start": 4276
+  },
+  {
+    "content": "select on all the products created updated deleted and the SKUs created",
+    "start": 4284
+  },
+  {
+    "content": "updated deleted events yep okay and so you know changes in the dashboard or we",
+    "start": 4292
+  },
+  {
+    "content": "would automatically redeploy in our page do you think we can do this in 17",
+    "start": 4304
+  },
+  {
+    "content": "minutes I think we can do it let's uh let's give it a shot",
+    "start": 4309
+  },
+  {
+    "content": "so let's do I've already got might get in it so let's get at all make sure that",
+    "start": 4313
+  },
+  {
+    "content": "I didn't had anything I didn't want to so I've got our components yarn down",
+    "start": 4319
+  },
+  {
+    "content": "lock that's all good didn't commit any API keys good so let's let's commit or",
+    "start": 4324
+  },
+  {
+    "content": "yeah commit actually how does this work",
+    "start": 4334
+  },
+  {
+    "content": "co-authored by what's your what's the the github email I should use for you to",
+    "start": 4348
+  },
+  {
+    "content": "hook this up like Thoris is it like thaw red stripe calm do you have that one",
+    "start": 4357
+  },
+  {
+    "content": "hooked up no things to toss them so th ORS te n at strike calm okay send yeah",
+    "start": 4363
+  },
+  {
+    "content": "everyone you know who's who's on on the stream if you have any any feedback you",
+    "start": 4373
+  },
+  {
+    "content": "know on the checkout we'd love for you to to use it and you know if you have",
+    "start": 4379
+  },
+  {
+    "content": "feedback you can send me that you chew that emails for us okay so what I've",
+    "start": 4384
+  },
+  {
+    "content": "done is I've just created a new repo I am currently pushing things to it I have",
+    "start": 4390
+  },
+  {
+    "content": "now pushed things to it so let's go over to net liffe I and I'm going to sign in",
+    "start": 4398
+  },
+  {
+    "content": "here let's see maybe this one",
+    "start": 4406
+  },
+  {
+    "content": "Oh went to the wrong you just one second I'm on my other",
+    "start": 4423
+  },
+  {
+    "content": "screen here grabbing this password here okay",
+    "start": 4433
+  },
+  {
+    "content": "what yeah what's this thing done hmm getting like a the windows not",
+    "start": 4441
+  },
+  {
+    "content": "available kind of thing mmm the truck is from the Chrome",
+    "start": 4456
+  },
+  {
+    "content": "extension all right there we go okay one second let me pull out my phone and you",
+    "start": 4462
+  },
+  {
+    "content": "get this Authenticator app a two-factor authentication is a great idea until",
+    "start": 4472
+  },
+  {
+    "content": "you're trying to do something in 17 minutes or less yeah you should get one",
+    "start": 4477
+  },
+  {
+    "content": "of the keys the ubii keys oh I do love that idea and I know for a fact that I",
+    "start": 4482
+  },
+  {
+    "content": "would lose it okay so a new site from get I'm gonna pull it from github and",
+    "start": 4489
+  },
+  {
+    "content": "I'm going to grab call the stripe something okay it's a personal site",
+    "start": 4498
+  },
+  {
+    "content": "we're going to deploy mastered we do want gatsby build okay and I'm gonna",
+    "start": 4509
+  },
+  {
+    "content": "need to set some environment variables before I can do that so let's go to",
+    "start": 4515
+  },
+  {
+    "content": "settings and build and deploy and I think we might have an issue with the",
+    "start": 4522
+  },
+  {
+    "content": "note version if I remember the source plug-in SAS we need to note version",
+    "start": 4530
+  },
+  {
+    "content": "above 10 but let's see if it builds okay and same thing here we're just gonna set",
+    "start": 4537
+  },
+  {
+    "content": "this so that it's available all good and then I'm gonna go out here and my",
+    "start": 4547
+  },
+  {
+    "content": "assumption is that this is not gonna work because we didn't have yeah it",
+    "start": 4555
+  },
+  {
+    "content": "should there we are oh yeah so this is the note",
+    "start": 4562
+  },
+  {
+    "content": "version issue okay and white two ads I remember that a file won lots of calls I",
+    "start": 4570
+  },
+  {
+    "content": "think we just need to we just need to update the nullify note version yeah",
+    "start": 4581
+  },
+  {
+    "content": "can't we do that manually I know there's a dot nvm RC file we can add is that all",
+    "start": 4588
+  },
+  {
+    "content": "it is is the nvm our secret change yeah let's do that",
+    "start": 4595
+  },
+  {
+    "content": "how how wait on this echo node V to the MRC nope okay let's just do that it",
+    "start": 4602
+  },
+  {
+    "content": "definitely could I think I might have to like quote it or something",
+    "start": 4621
+  },
+  {
+    "content": "okay I'm gonna try this one more time",
+    "start": 4624
+  },
+  {
+    "content": "no dash V into nvm RC and then if we cut that that's what we wanted okay so yeah",
+    "start": 4631
+  },
+  {
+    "content": "I'm just saying echo the value of this instead of just that plain tax yeah",
+    "start": 4641
+  },
+  {
+    "content": "so let's commit that we gotta add it first at nvm RC yeah good commits",
+    "start": 4646
+  },
+  {
+    "content": "and no aversion for nullify okay let's get back into the deploys and see so",
+    "start": 4657
+  },
+  {
+    "content": "this should kick going off here and we'll see if it actually picked that up",
+    "start": 4672
+  },
+  {
+    "content": "for us all right fingers crossed",
+    "start": 4677
+  },
+  {
+    "content": "now using nice no ten so it did pick that up",
+    "start": 4682
+  },
+  {
+    "content": "there's a question in the chest you know think the best answers we'll we'll",
+    "start": 4696
+  },
+  {
+    "content": "publish the recording on Jason's youtube yes does that take actually it should be",
+    "start": 4703
+  },
+  {
+    "content": "up within a couple hours of us wrapping up it typically yeah it doesn't take",
+    "start": 4711
+  },
+  {
+    "content": "very long but so the the billing interval for a single item product we we",
+    "start": 4717
+  },
+  {
+    "content": "didn't set up a billing interval so that that's something that is something very",
+    "start": 4722
+  },
+  {
+    "content": "cool which you can set up subscriptions in stripe I remember doing that a long",
+    "start": 4728
+  },
+  {
+    "content": "time ago I used to have clients who I would Auto bill for like hosting and",
+    "start": 4732
+  },
+  {
+    "content": "stuff like that and I used stripe to do it which was amazing but I've never done",
+    "start": 4737
+  },
+  {
+    "content": "it in stripe check out so Thor is it just a setting did you sorry I did to do",
+    "start": 4742
+  },
+  {
+    "content": "that does it just it's just a setting right like you don't have to do it not",
+    "start": 4755
+  },
+  {
+    "content": "at all yeah you so instead of creating a one-time purchase product you create a",
+    "start": 4759
+  },
+  {
+    "content": "subscription plan that is associated with the product so instead of ask you",
+    "start": 4765
+  },
+  {
+    "content": "it will have a plan and then you can use it the same way referencing the plan ID",
+    "start": 4771
+  },
+  {
+    "content": "in the redirect to checkout and then it would actually sign them up for the",
+    "start": 4778
+  },
+  {
+    "content": "subscription okay cool so yeah this this works we do have we have one problem",
+    "start": 4782
+  },
+  {
+    "content": "that I haven't solved for which is that the the redirects are hard-coded right",
+    "start": 4794
+  },
+  {
+    "content": "now here so it's this I'm not going to solve this because it's just kind of",
+    "start": 4800
+  },
+  {
+    "content": "like busy work but effectively we would want to define local variables so an",
+    "start": 4807
+  },
+  {
+    "content": "environment variable for what our development URL was and then what our",
+    "start": 4812
+  },
+  {
+    "content": "quote unquote production URL would be which is this one and we would just",
+    "start": 4818
+  },
+  {
+    "content": "bought those out so if anybody is trying this the redirects are going to fail",
+    "start": 4822
+  },
+  {
+    "content": "that's that's okay because we know that it would work if we weren't being lazy",
+    "start": 4827
+  },
+  {
+    "content": "so that being said Jason neckla fine has these by default if you would have to I",
+    "start": 4832
+  },
+  {
+    "content": "don't know if they do I've never actually looked but that sounds like",
+    "start": 4841
+  },
+  {
+    "content": "something they would have that's that's very much like a net liffe I thing let's",
+    "start": 4847
+  },
+  {
+    "content": "see so stripe product updates we're gonna build master we're gonna save that",
+    "start": 4854
+  },
+  {
+    "content": "and so now we have a build hook okay and if I go back in here URL to be called so",
+    "start": 4859
+  },
+  {
+    "content": "basically what we're doing right now is we're saying that when a product is",
+    "start": 4869
+  },
+  {
+    "content": "updated and if I find C product product is updated product is deleted product is",
+    "start": 4874
+  },
+  {
+    "content": "created and then let's see if SKUs are down here as well excuse you noted",
+    "start": 4883
+  },
+  {
+    "content": "deleted updated so any of those changes should call our net with I build so if I",
+    "start": 4887
+  },
+  {
+    "content": "had this end point we can test this now by going over to products and we will do",
+    "start": 4895
+  },
+  {
+    "content": "a let's just do some punctuation for now and what this should have done is",
+    "start": 4905
+  },
+  {
+    "content": "triggered a build so let's go look deploy triggered by hook striped",
+    "start": 4915
+  },
+  {
+    "content": "prominent updates so that is rebuilding for us now based off of product changes",
+    "start": 4923
+  },
+  {
+    "content": "so you know this is again something what's really nice about this is like as",
+    "start": 4928
+  },
+  {
+    "content": "a developer then you could hand over the kind of administration of the store to",
+    "start": 4932
+  },
+  {
+    "content": "somebody else your you know somebody in the the marketing department somebody",
+    "start": 4937
+  },
+  {
+    "content": "who's managing inventory they can go in and update the inventory they can update",
+    "start": 4941
+  },
+  {
+    "content": "the products that are available and not have to worry about whether or not the",
+    "start": 4945
+  },
+  {
+    "content": "site is locally installed or that they can run a build or having to login to",
+    "start": 4949
+  },
+  {
+    "content": "net Liffe I and hit a button they they're able to just edit the inventory",
+    "start": 4953
+  },
+  {
+    "content": "and things will immediately immediately go live you",
+    "start": 4956
+  },
+  {
+    "content": "within a minute or two which is really that's a pretty powerful way to to work",
+    "start": 4959
+  },
+  {
+    "content": "and we did it in about 11 minutes including me having to go through like a",
+    "start": 4965
+  },
+  {
+    "content": "to factor also so say if that's that's pretty impressive like 10 minutes to set",
+    "start": 4973
+  },
+  {
+    "content": "up auto rebuilds based on your inventory is that's that's a pretty nice workflow",
+    "start": 4977
+  },
+  {
+    "content": "yeah I mean I'm a big fan of that so fine okay she says yeah it's it's so",
+    "start": 4984
+  },
+  {
+    "content": "wonderful like wait I love this product it I feel like this this this was such a",
+    "start": 4991
+  },
+  {
+    "content": "game-changer for me because you know like AWS is really easy and it's really",
+    "start": 4998
+  },
+  {
+    "content": "cheap but like you still have to go to AWS and you still have to like you know",
+    "start": 5002
+  },
+  {
+    "content": "setup the bash script or whatever to handle all the nine API calls to you",
+    "start": 5007
+  },
+  {
+    "content": "know upload and package and invalidate your AWS stuff just being able to to set",
+    "start": 5012
+  },
+  {
+    "content": "it once in that laughs and walk away is such a wonderful thing so okay so while",
+    "start": 5018
+  },
+  {
+    "content": "we wait for this to build let's see if maybe now if I is locked up I think",
+    "start": 5023
+  },
+  {
+    "content": "we're just waiting right now does anybody who's watching have any",
+    "start": 5027
+  },
+  {
+    "content": "questions for forth or RI before we wrap up I think we've got I mean we'll try to",
+    "start": 5033
+  },
+  {
+    "content": "maybe wrap this up within about five minutes here",
+    "start": 5040
+  },
+  {
+    "content": "and while we're waiting for questions to come in Thor is there anything that",
+    "start": 5047
+  },
+  {
+    "content": "you're like particularly excited about right now Oh in general I mean you know",
+    "start": 5050
+  },
+  {
+    "content": "this this is very much update and we're really looking to extend the use cases",
+    "start": 5057
+  },
+  {
+    "content": "you know there's things like shipping calculation and tax calculation and all",
+    "start": 5063
+  },
+  {
+    "content": "all all the things you know that you might need kind of more functionality if",
+    "start": 5070
+  },
+  {
+    "content": "you're selling physical goats and think so",
+    "start": 5076
+  },
+  {
+    "content": "you know the functionalities is going to grow and you know I love to hear kind of",
+    "start": 5078
+  },
+  {
+    "content": "what are the use cases that you know you'd love to build and then you know",
+    "start": 5083
+  },
+  {
+    "content": "drop me drop me an email and so we can we can look at it with the team see we",
+    "start": 5090
+  },
+  {
+    "content": "got a question came in about logs I don't know what's in the logs let's find",
+    "start": 5097
+  },
+  {
+    "content": "out so let's see we did maybe let's look at the payments view first so kind of if",
+    "start": 5104
+  },
+  {
+    "content": "you go to the left just see what yeah yep okay so here's what we got",
+    "start": 5115
+  },
+  {
+    "content": "when I did my one test payment so it shows when it happened that it went",
+    "start": 5124
+  },
+  {
+    "content": "through who I am a a little bit of info about the credit card and let's see how",
+    "start": 5129
+  },
+  {
+    "content": "cool it even shows like the stripe fees and what's that stripe fee it's like",
+    "start": 5140
+  },
+  {
+    "content": "0.29% plus $0.30 or something yeah it depends on the country and the payment",
+    "start": 5147
+  },
+  {
+    "content": "message oh yeah then here's here's all the other infinite down here in the the",
+    "start": 5155
+  },
+  {
+    "content": "pan method so yeah it looks like you would be able to do you get quite a bit",
+    "start": 5163
+  },
+  {
+    "content": "of info and then if you click into the full log let's see what comes out don't",
+    "start": 5168
+  },
+  {
+    "content": "all that same info well hold on so this this is not the same log that that we",
+    "start": 5178
+  },
+  {
+    "content": "were talking about but I'm sure if we yeah yeah split between the source there",
+    "start": 5188
+  },
+  {
+    "content": "and the payment and attend the source being specifically kind of the payment",
+    "start": 5197
+  },
+  {
+    "content": "source yeah there was a question about the broadcasting software that I use I",
+    "start": 5203
+  },
+  {
+    "content": "use it's called OBS open broadcasting suite or software or system I don't know",
+    "start": 5210
+  },
+  {
+    "content": "what that is for it's free it's really easy and I saw a post from nuke cat on",
+    "start": 5215
+  },
+  {
+    "content": "let's see Susan she wrote a thing about like how to do it which is here I'll",
+    "start": 5224
+  },
+  {
+    "content": "drop it in the thing but she has a much better setup than I have and she did a",
+    "start": 5232
+  },
+  {
+    "content": "great write-up on how all that works looks like Noah is fighting us here it",
+    "start": 5239
+  },
+  {
+    "content": "does it doesn't want to like start this build is just waiting doesn't I'm gonna",
+    "start": 5243
+  },
+  {
+    "content": "I'm gonna blame that on like every once in awhile they just don't it just",
+    "start": 5249
+  },
+  {
+    "content": "doesn't it just doesn't start it'll happen eventually and then the other",
+    "start": 5254
+  },
+  {
+    "content": "question here is is there let's see well there's two and they look related so can",
+    "start": 5259
+  },
+  {
+    "content": "you send a custom email after a successful transaction and then the",
+    "start": 5266
+  },
+  {
+    "content": "following question from from mr. nine-nine is is there a way to pass the",
+    "start": 5269
+  },
+  {
+    "content": "info into the check out and fill it out automatically like email that's a great",
+    "start": 5275
+  },
+  {
+    "content": "question so actually that is two questions so the first one can you send",
+    "start": 5282
+  },
+  {
+    "content": "the custom email after your sensible transaction yes so there is in the",
+    "start": 5286
+  },
+  {
+    "content": "dashboards you can actually configure I think it's a business settings at the",
+    "start": 5291
+  },
+  {
+    "content": "bottom so stripe has the capability to to send an email to your customer I",
+    "start": 5296
+  },
+  {
+    "content": "think it's customer emails so you could say for successful payments",
+    "start": 5303
+  },
+  {
+    "content": "save that maybe and I think on the",
+    "start": 5309
+  },
+  {
+    "content": "branding you can actually specify kind of watch just that look like you can",
+    "start": 5315
+  },
+  {
+    "content": "kind of have a color profile that you know suits the look and feel of your",
+    "start": 5321
+  },
+  {
+    "content": "business and if you wanted to make it completely custom you could you know",
+    "start": 5326
+  },
+  {
+    "content": "integrate it for example with emailing services and then use the web hooks and",
+    "start": 5333
+  },
+  {
+    "content": "you know point them there or have you know some some cloud function that that",
+    "start": 5337
+  },
+  {
+    "content": "takes the web book reads out the data from the payment and the customer and",
+    "start": 5344
+  },
+  {
+    "content": "then you know sends a custom email in so there would be a very much an event for",
+    "start": 5349
+  },
+  {
+    "content": "anything now it would that be the the session succeeded that that's where you",
+    "start": 5354
+  },
+  {
+    "content": "would get the customer info and so right now if I were to say like want to use",
+    "start": 5362
+  },
+  {
+    "content": "sins sorry that is that is I think in a different one so there we would have the",
+    "start": 5369
+  },
+  {
+    "content": "charge succeed it's a chart and no charge succeeded yeah got it",
+    "start": 5377
+  },
+  {
+    "content": "I should beat it here yeah and then I guess the earth let's see there also",
+    "start": 5385
+  },
+  {
+    "content": "there's events oh cool yeah seems like a lot of a new payment a checkout session",
+    "start": 5394
+  },
+  {
+    "content": "was completed so like these were created but not completed right I believe so",
+    "start": 5405
+  },
+  {
+    "content": "yeah I think a couple once we we we did the back button yeah yeah okay",
+    "start": 5415
+  },
+  {
+    "content": "interesting yeah so this is cool so I mean you'd have to dig into the docs a",
+    "start": 5425
+  },
+  {
+    "content": "little bit to figure about exactly how that works but it does look like you",
+    "start": 5430
+  },
+  {
+    "content": "you could using stripes API do pretty much anything you can imagine you would",
+    "start": 5435
+  },
+  {
+    "content": "just have to hook to the right events and",
+    "start": 5441
+  },
+  {
+    "content": "and grab this data out but like from my experience working with stripes API",
+    "start": 5442
+  },
+  {
+    "content": "everything that you want to get with the exception of somebody's like actual",
+    "start": 5447
+  },
+  {
+    "content": "credit card number you can get your hand on if they've if they've paid you money",
+    "start": 5451
+  },
+  {
+    "content": "you can like get their email so that you can put them on a like a customers list",
+    "start": 5454
+  },
+  {
+    "content": "and send things through and and all that stuff and you know assuming you're being",
+    "start": 5457
+  },
+  {
+    "content": "respectful of people's information like there's there's not a whole lot of",
+    "start": 5462
+  },
+  {
+    "content": "limits went and gdpr oh yeah and gdpr yeah but yeah i but",
+    "start": 5465
+  },
+  {
+    "content": "yeah they're like the the API is really extensive and and stripes API Docs for",
+    "start": 5473
+  },
+  {
+    "content": "for those of you who have not used them before are kind of like commonly held up",
+    "start": 5477
+  },
+  {
+    "content": "is one of the best examples of API documentation in the industry so it's",
+    "start": 5482
+  },
+  {
+    "content": "very well worth giving it a shot and in trying that out because it's it's really",
+    "start": 5486
+  },
+  {
+    "content": "easy and really fun and then the other question was is there a way to pass info",
+    "start": 5491
+  },
+  {
+    "content": "into the checkout so if I'm on my page where was my page here can i autofill",
+    "start": 5496
+  },
+  {
+    "content": "anything in the checkout like am i able to - if I have somebody logged in can i",
+    "start": 5505
+  },
+  {
+    "content": "autofill these yeah so that is functionality we will make available so",
+    "start": 5510
+  },
+  {
+    "content": "um I'm not entirely sure what it will look like exactly but there will be the",
+    "start": 5517
+  },
+  {
+    "content": "ability to you know basically specify which information you want to collect",
+    "start": 5523
+  },
+  {
+    "content": "home as well as you know order for certain certain information if you",
+    "start": 5529
+  },
+  {
+    "content": "already have it it's never gonna build okay so this is uh this was cool like I",
+    "start": 5533
+  },
+  {
+    "content": "feel I'm super impressed with how easy that was and for anybody who's Bill",
+    "start": 5546
+  },
+  {
+    "content": "ecommerce before I think they'll agree that this is this was a a startlingly",
+    "start": 5552
+  },
+  {
+    "content": "easy way to get actual payments where somebody could actually give you actual",
+    "start": 5556
+  },
+  {
+    "content": "money which you know in in my experience with setting up e-commerce and dealing",
+    "start": 5561
+  },
+  {
+    "content": "with the payment processors and the the gateways and having to fill out whatever",
+    "start": 5567
+  },
+  {
+    "content": "paperwork to to get like the bank to authorize your econ",
+    "start": 5571
+  },
+  {
+    "content": "thing and you know like I it is really really nice working with stripe and and",
+    "start": 5575
+  },
+  {
+    "content": "seeing this ability to have a hosted checkout so that you don't even have to",
+    "start": 5579
+  },
+  {
+    "content": "bother with configuring like a popover that is that is pretty fantastic any",
+    "start": 5583
+  },
+  {
+    "content": "anything you want to add before we wrap up tour yeah just one thing I I've",
+    "start": 5591
+  },
+  {
+    "content": "written this up as a as a tutorial as well and I just posted that into the",
+    "start": 5598
+  },
+  {
+    "content": "chat so if anyone you know if we were to too quick or anything well you can you",
+    "start": 5603
+  },
+  {
+    "content": "can also follow for lower along there great and I will I will put all of this",
+    "start": 5609
+  },
+  {
+    "content": "on to YouTube later today and will include the links in the show notes and",
+    "start": 5615
+  },
+  {
+    "content": "yeah if you've got other technologies that you want to see me learn you should",
+    "start": 5621
+  },
+  {
+    "content": "get at me on twitter i'm jay Langsdorff on twitter Thor is Thor web dev on",
+    "start": 5626
+  },
+  {
+    "content": "Twitter post those links as well let's pull up his page actually let's see",
+    "start": 5631
+  },
+  {
+    "content": "twitter.com slash so go everybody go follow a Thor and and you gotta you got",
+    "start": 5637
+  },
+  {
+    "content": "to get a beard photo up what's going on [Laughter]",
+    "start": 5646
+  },
+  {
+    "content": "when I first started that stripe ah nice yeah okay well I think that's it for us",
+    "start": 5651
+  },
+  {
+    "content": "today then Thor thank you so much for for coming on and",
+    "start": 5658
+  }
+]

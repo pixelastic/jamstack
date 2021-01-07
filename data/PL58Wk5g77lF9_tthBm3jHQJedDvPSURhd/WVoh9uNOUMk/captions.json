@@ -1,0 +1,1346 @@
+[
+  {
+    "content": "first up we have what's your jam stack",
+    "start": 0
+  },
+  {
+    "content": "by Amber Lee Romo yarn emoji ambassador for gasping",
+    "start": 6
+  },
+  {
+    "content": "welcome Amberly dress-up he asked me",
+    "start": 13
+  },
+  {
+    "content": "earlier how I wanted to be introduced and I jokingly said yarn emerging",
+    "start": 23
+  },
+  {
+    "content": "ambassador because it's probably one of my favorite things I've ever done it's",
+    "start": 28
+  },
+  {
+    "content": "write a proposal to Unicode to get the yarn emoji which is in Unicode now thank",
+    "start": 31
+  },
+  {
+    "content": "you can y'all on the back hear me okay am i",
+    "start": 36
+  },
+  {
+    "content": "tucking it yes okay cool thanks so hi everyone so everyone awake good break",
+    "start": 43
+  },
+  {
+    "content": "yeah cool I'm going to talk today about the awesome ecosystem evolving around",
+    "start": 52
+  },
+  {
+    "content": "the around the DM stack and I'm sorry that I'm not gonna be able to carry on",
+    "start": 60
+  },
+  {
+    "content": "this proud tradition of dad jokes that have been going on today but I am going",
+    "start": 63
+  },
+  {
+    "content": "to do some like tasty metaphors so that's all I have to offer you guys and",
+    "start": 68
+  },
+  {
+    "content": "I'm really not sorry about it so my name is Amber Lee I currently work at Gatsby",
+    "start": 75
+  },
+  {
+    "content": "helping to build out things for the Gatsby ecosystem",
+    "start": 82
+  },
+  {
+    "content": "many of you know Gatsby is a free and open-source framework based on react",
+    "start": 86
+  },
+  {
+    "content": "that helps developers build blazing-fast websites and web apps I live in Austin",
+    "start": 89
+  },
+  {
+    "content": "Texas and yeah and I am on Twitter if you also like Twitter",
+    "start": 96
+  },
+  {
+    "content": "Amberly with a one for the El obviously because I'm super elite anyone know so",
+    "start": 102
+  },
+  {
+    "content": "boom the jam stack what we're all here for you have the J we're dynamic needs",
+    "start": 111
+  },
+  {
+    "content": "are handled by JavaScript agnostic a framework or library give the a for",
+    "start": 115
+  },
+  {
+    "content": "api's we've seen the unbundling of the CMS that a lot of people today have",
+    "start": 120
+  },
+  {
+    "content": "talked about where we can pick and choose purpose-built services based on",
+    "start": 123
+  },
+  {
+    "content": "our needs and we have the M for markup we're serving pre-built static markup so",
+    "start": 128
+  },
+  {
+    "content": "today I'm going to focus mostly on the J and the M in this jam stack sandwich and",
+    "start": 135
+  },
+  {
+    "content": "the vibrant ecosystem of projects and tooling that have emerged to sort of tie",
+    "start": 141
+  },
+  {
+    "content": "the jam stack together so why the damn stack and this will be",
+    "start": 145
+  },
+  {
+    "content": "brief because I know in many of the talks today we've heard about the",
+    "start": 151
+  },
+  {
+    "content": "benefits of the damn stack but humor me for a minute more performant if it's",
+    "start": 153
+  },
+  {
+    "content": "pre-built you avoid spending the time rendering on the server and pre-built",
+    "start": 159
+  },
+  {
+    "content": "files served over CDN or delivered superfast it's more secure with just",
+    "start": 163
+  },
+  {
+    "content": "static files you minimize your attack vector it's less expensive hosting of",
+    "start": 168
+  },
+  {
+    "content": "static files is cheap or even free and you have less overhead with not needing",
+    "start": 175
+  },
+  {
+    "content": "to maintain your own servers better dev experience you can focus on the front",
+    "start": 179
+  },
+  {
+    "content": "end without being walked into this monolithic architecture and easily",
+    "start": 185
+  },
+  {
+    "content": "scalable so serving static files you don't have to worry about scaling up",
+    "start": 190
+  },
+  {
+    "content": "servers in response to increased load so that all sounds super legit and really",
+    "start": 194
+  },
+  {
+    "content": "read but like ok where do you go from there we heard Matt talk earlier about",
+    "start": 201
+  },
+  {
+    "content": "this shift from to the front end as the king or queen from the monolith as the",
+    "start": 207
+  },
+  {
+    "content": "king or queen but the freedom of breaking out of a monolithic CMS comes",
+    "start": 214
+  },
+  {
+    "content": "with a really overwhelming number of choices and decisions that you have to",
+    "start": 219
+  },
+  {
+    "content": "make where do you start I definitely felt this way when I started learning",
+    "start": 222
+  },
+  {
+    "content": "react years ago it's the tooling and the environment set up all around it was",
+    "start": 228
+  },
+  {
+    "content": "really demanding even just compared to learning even more so than the learning",
+    "start": 233
+  },
+  {
+    "content": "react so this brave new world of development comes with this whole new",
+    "start": 236
+  },
+  {
+    "content": "class of concerns and questions so say you never baked anything in your life",
+    "start": 241
+  },
+  {
+    "content": "this to me would be like me telling you make a cake not giving you any",
+    "start": 248
+  },
+  {
+    "content": "ingredients not giving your recipe not giving you any measurements not telling",
+    "start": 253
+  },
+  {
+    "content": "you what kind of cake to make just saying do it well I know there's flour",
+    "start": 257
+  },
+  {
+    "content": "and sugar and butter over in James Tague land I know there's JavaScript and AP is",
+    "start": 263
+  },
+  {
+    "content": "and Markov right this it takes some time to experiment with and figure out on",
+    "start": 270
+  },
+  {
+    "content": "your own sort of your ideal workflow and how you want to do this which leads",
+    "start": 277
+  },
+  {
+    "content": "- this the vibrant jam stack ecosystem and sort of how how to evaluate it and",
+    "start": 282
+  },
+  {
+    "content": "how to make sense of it there's such a rad ecosystem of tools out there and",
+    "start": 287
+  },
+  {
+    "content": "it's been really cool to watch the space develop especially over the last couple",
+    "start": 293
+  },
+  {
+    "content": "years and all these different frameworks and tool sets by necessity have",
+    "start": 296
+  },
+  {
+    "content": "differing opinions but what languages to use Jeckle uses ruby and we heard the",
+    "start": 301
+  },
+  {
+    "content": "citrix team talking about their jekyll project Jekyll was my first static site",
+    "start": 306
+  },
+  {
+    "content": "generator myself hugo uses go and they fall on the scale between fully static -",
+    "start": 310
+  },
+  {
+    "content": "as Tanner talked about something more like static progressive they prioritize",
+    "start": 318
+  },
+  {
+    "content": "different things for optimizing for performance some have a ton of structure",
+    "start": 326
+  },
+  {
+    "content": "some have more flexibility and less structure but they're all different",
+    "start": 330
+  },
+  {
+    "content": "recipes all different takes on the jam stack so now we're accidentally sorted",
+    "start": 334
+  },
+  {
+    "content": "back to the problem of having an overwhelming sort of daunting number of",
+    "start": 340
+  },
+  {
+    "content": "choices so I'll ask you a different cake questions what characteristics do you",
+    "start": 344
+  },
+  {
+    "content": "value in a cake it has to have the flavors you want it has to have the",
+    "start": 351
+  },
+  {
+    "content": "texture you want maybe you're super focused on the decoration and the",
+    "start": 356
+  },
+  {
+    "content": "presentation but it still has to taste good or you don't really care about how",
+    "start": 359
+  },
+  {
+    "content": "it looks you just want it to taste good it's your cake your choice so instead",
+    "start": 363
+  },
+  {
+    "content": "what characteristics do you value in a website or a web it's got to be fast",
+    "start": 370
+  },
+  {
+    "content": "time is money for users it's got to be performant you",
+    "start": 375
+  },
+  {
+    "content": "don't want to be unnecessarily costing users tons of data you don't want to be",
+    "start": 379
+  },
+  {
+    "content": "excluding people it has to be accessible it has to have well conceived content",
+    "start": 384
+  },
+  {
+    "content": "has to be easily maintainable maybe it needs to be in a certain stack most of",
+    "start": 389
+  },
+  {
+    "content": "your team is already comfortable comfortable with so you don't have a big",
+    "start": 394
+  },
+  {
+    "content": "ramp up time so all of these questions and how they're prioritized depend on",
+    "start": 397
+  },
+  {
+    "content": "your project needs your priorities your business requirements etc the reality is",
+    "start": 403
+  },
+  {
+    "content": "we only have so much time personal time for personal projects",
+    "start": 410
+  },
+  {
+    "content": "and budgeted time for paid projects so all of these wants and requirements are",
+    "start": 414
+  },
+  {
+    "content": "really sort of dials that we have to balance to stay within whatever our",
+    "start": 421
+  },
+  {
+    "content": "budget is some core concerns that I think are important when evaluating",
+    "start": 424
+  },
+  {
+    "content": "frameworks that different varying strengths and weaknesses are how they",
+    "start": 431
+  },
+  {
+    "content": "approach performance what methods they use toward performance how they approach",
+    "start": 435
+  },
+  {
+    "content": "accessibility how they manage content and data what the developer experience",
+    "start": 441
+  },
+  {
+    "content": "looks like and the community around the project so identifying your own core",
+    "start": 447
+  },
+  {
+    "content": "concerns and how they align and your priorities set is sort of step one and",
+    "start": 454
+  },
+  {
+    "content": "evaluating what tool might be your best option",
+    "start": 458
+  },
+  {
+    "content": "and I'll reiterate again frameworks by necessity have varying levels of",
+    "start": 460
+  },
+  {
+    "content": "structure and opinion and flexibility depending on your needs you need to have",
+    "start": 467
+  },
+  {
+    "content": "enough flexibility not to be constrained but you also need to have enough",
+    "start": 472
+  },
+  {
+    "content": "structure that you can get going productively and not sort of be have",
+    "start": 476
+  },
+  {
+    "content": "this indecision paralysis so in talking through this set of core concerns I'm",
+    "start": 481
+  },
+  {
+    "content": "going to talk about Gatsby specifically as an example but I think this is a",
+    "start": 487
+  },
+  {
+    "content": "useful thought process to go through when comparing all of the available",
+    "start": 492
+  },
+  {
+    "content": "tools so performance optimizing for performance involves considering payload",
+    "start": 496
+  },
+  {
+    "content": "optimization like reducing image and JavaScript load differing below the fold",
+    "start": 505
+  },
+  {
+    "content": "image calls and lining critical CSS and delivery optimizations like serving",
+    "start": 511
+  },
+  {
+    "content": "static files from a CDN the good news is these approaches are complementary but",
+    "start": 517
+  },
+  {
+    "content": "the bad news is in order to do it well you often have to do both which takes a",
+    "start": 525
+  },
+  {
+    "content": "lot of time and specialization and focus so again different frameworks are based",
+    "start": 529
+  },
+  {
+    "content": "on different approaches to performance and different levels of focus and",
+    "start": 536
+  },
+  {
+    "content": "prioritizing performance to talk through a few key pieces to how Gatsby",
+    "start": 539
+  },
+  {
+    "content": "approaches performance first route based code splitting we",
+    "start": 544
+  },
+  {
+    "content": "create smaller bundles for specific routes and shared bundles for common",
+    "start": 551
+  },
+  {
+    "content": "code it allows us to fulfill only what the user needs at the time they need it",
+    "start": 554
+  },
+  {
+    "content": "and Gatsby takes care of this under the hood by default use HTTP 2 to serve",
+    "start": 559
+  },
+  {
+    "content": "assets aside from being a mouthful HTTP 2 is a major revision of the HTTP",
+    "start": 566
+  },
+  {
+    "content": "network protocol it leaves the semantics of HTTP intact that modifies how the",
+    "start": 573
+  },
+  {
+    "content": "data is formatted and transported between the server and the client to",
+    "start": 578
+  },
+  {
+    "content": "make the request response cycle more efficient in HTTP 1 the cycle looks",
+    "start": 583
+  },
+  {
+    "content": "something like this here the first request is for an HTML file the server",
+    "start": 589
+  },
+  {
+    "content": "responds with the file the browser parses it and as it discovers other",
+    "start": 594
+  },
+  {
+    "content": "references to things like style sheets and scripts and images it will",
+    "start": 598
+  },
+  {
+    "content": "separately fire off those requests using HTTP 2 instead multiple HTTP requests",
+    "start": 601
+  },
+  {
+    "content": "can be sent and received via a single connection so again here we have our",
+    "start": 611
+  },
+  {
+    "content": "initial index study HTML request that gets returned and again as the browser",
+    "start": 616
+  },
+  {
+    "content": "goes through and parses and discovers these different references it can",
+    "start": 620
+  },
+  {
+    "content": "request and receive responses but this time on the same connection so it's a",
+    "start": 625
+  },
+  {
+    "content": "little bit more efficient and then further HTTP to enable server push which",
+    "start": 629
+  },
+  {
+    "content": "will let us send site assets to the browser before it even knows it needs",
+    "start": 637
+  },
+  {
+    "content": "them so in this scenario again firing off a request for index.html but this",
+    "start": 640
+  },
+  {
+    "content": "time our server is intelligent enough to know that it should just go ahead and",
+    "start": 647
+  },
+  {
+    "content": "push and fire off these different assets that we've already told it we're going",
+    "start": 651
+  },
+  {
+    "content": "to need so cutting down on that cycle time if you're using mattified to manage",
+    "start": 655
+  },
+  {
+    "content": "deploying it gatsby site you can use the GAT speeds Matloff I plug-in so you take",
+    "start": 663
+  },
+  {
+    "content": "advantage of HTTP 2 and server push critical gatsby scripts by default so 3",
+    "start": 668
+  },
+  {
+    "content": "set up background prefetching prefetching use",
+    "start": 677
+  },
+  {
+    "content": "browser idle time to prefetch resources a user will definitely definitely or",
+    "start": 681
+  },
+  {
+    "content": "likely need in the near future there are different ways to do this",
+    "start": 686
+  },
+  {
+    "content": "there's predictive prefetching which Janet mentioned this morning which uses",
+    "start": 690
+  },
+  {
+    "content": "analytics to enable prefetching based on a user's likely behavior based on the",
+    "start": 694
+  },
+  {
+    "content": "way users have interacted with your site in the past and another is to observe",
+    "start": 701
+  },
+  {
+    "content": "the user's interaction with the page and react accordingly which is sort of how",
+    "start": 706
+  },
+  {
+    "content": "it works in Gatsby Gatsby has a link component for internal routing that",
+    "start": 711
+  },
+  {
+    "content": "enables prefetching and for that link component there are sort of two pieces",
+    "start": 716
+  },
+  {
+    "content": "to how that works first we is the intersection observer",
+    "start": 722
+  },
+  {
+    "content": "API which is a browser API that sees to perform some action when an element",
+    "start": 725
+  },
+  {
+    "content": "enters or leaves the viewport this is an example visualizing the intersection",
+    "start": 730
+  },
+  {
+    "content": "observer API you can see as I'm scrolling up and down the page as",
+    "start": 737
+  },
+  {
+    "content": "elements enter and leave the viewport the emoji change what based on whether",
+    "start": 741
+  },
+  {
+    "content": "they're coming into view or in view or leaving the view or hidden so and gatsby",
+    "start": 746
+  },
+  {
+    "content": "onload if a link is in the viewport or above-the-fold prefetching will be",
+    "start": 754
+  },
+  {
+    "content": "triggered for that route if a link enters the viewport on scroll resources",
+    "start": 759
+  },
+  {
+    "content": "for that route will be triggered for pre-chat prefetch as well",
+    "start": 765
+  },
+  {
+    "content": "these prefetch requests are heavily deprioritized",
+    "start": 769
+  },
+  {
+    "content": "and will only fire when the browser's idle we sort of politely hint to the",
+    "start": 772
+  },
+  {
+    "content": "browser that these are resources that will likely be needed in the near future",
+    "start": 777
+  },
+  {
+    "content": "but when a user actually actively hovers over links which strongly indicates that",
+    "start": 781
+  },
+  {
+    "content": "they'll navigate to that route will actually fetch resources at a higher",
+    "start": 787
+  },
+  {
+    "content": "priority so here circles back I'm on the gatsby home page and as I hover over the",
+    "start": 791
+  },
+  {
+    "content": "nav items you can see these reflects these requests reflected in the network",
+    "start": 799
+  },
+  {
+    "content": "tab in this cascade of requests so by the time I'm actually clicking on the in",
+    "start": 805
+  },
+  {
+    "content": "this case the tutorial page the resources that we need for that",
+    "start": 811
+  },
+  {
+    "content": "are already loaded and it feels super snappy for lazy load non-critical assets",
+    "start": 815
+  },
+  {
+    "content": "lazy lighting is a technique that puts offloading of non-critical resources at",
+    "start": 825
+  },
+  {
+    "content": "page load time instead letting them only when they're needed a great example of",
+    "start": 829
+  },
+  {
+    "content": "this in Gatsby is the Gatsby image component which is designed to work with",
+    "start": 834
+  },
+  {
+    "content": "the Gatsby data layer to optimize images and image loading on Gatsby sites this",
+    "start": 840
+  },
+  {
+    "content": "is a screenshot of the demo site for Gatsby image and as you scroll an",
+    "start": 847
+  },
+  {
+    "content": "intersection observer fires and you actually load needed images in place",
+    "start": 853
+  },
+  {
+    "content": "which you can see again in this cascade of requests in the network tab it also",
+    "start": 857
+  },
+  {
+    "content": "optimizes images by default at Build time because optimizing image is",
+    "start": 863
+  },
+  {
+    "content": "low-hanging fruit for performance and should be easy in default so with Gatsby",
+    "start": 868
+  },
+  {
+    "content": "image you not only get image optimization by default you're not even",
+    "start": 874
+  },
+  {
+    "content": "serving optimized images if they're not needed by the user 5 use the",
+    "start": 878
+  },
+  {
+    "content": "serviceworker a serviceworker is a web worker that runs in the browser",
+    "start": 885
+  },
+  {
+    "content": "separately from the main thread it essentially allows your site to act as",
+    "start": 890
+  },
+  {
+    "content": "its own network proxy for requests so for example if you're living a route",
+    "start": 894
+  },
+  {
+    "content": "that requires an image the serviceworker can sort of act as the middleman and say",
+    "start": 899
+  },
+  {
+    "content": "well do i already have this image cached and if it does have it cached it can go",
+    "start": 904
+  },
+  {
+    "content": "ahead and return it to you and forgo making that redundant request if it",
+    "start": 910
+  },
+  {
+    "content": "doesn't have it it can go ahead and send for it get it back cache it return it to",
+    "start": 915
+  },
+  {
+    "content": "you that way if and when you need the image again at that point it's not",
+    "start": 921
+  },
+  {
+    "content": "making a redundant request so doing this can speed up the loading and rendering",
+    "start": 925
+  },
+  {
+    "content": "of pages considerably and gatsby for adding a serviceworker",
+    "start": 930
+  },
+  {
+    "content": "again we turn to the plugin ecosystem the offline plugin adds drop-in support",
+    "start": 935
+  },
+  {
+    "content": "for making a Gatsby site work offline and more resistant to low-quality",
+    "start": 943
+  },
+  {
+    "content": "network connections it creates a serviceworker and loads it in the client",
+    "start": 946
+  },
+  {
+    "content": "for you this plug-in works best with the Manifest plugin which when used together",
+    "start": 951
+  },
+  {
+    "content": "get you most of the way toward fulfilling the baseline requirements for",
+    "start": 957
+  },
+  {
+    "content": "a progressive web app all of this might be adding up to sound a little bit",
+    "start": 961
+  },
+  {
+    "content": "familiar if you're familiar with the purple pattern which Gatsby follows this",
+    "start": 967
+  },
+  {
+    "content": "is a pattern that was coined by the Google polymer team and is essentially a",
+    "start": 974
+  },
+  {
+    "content": "methodology for building web apps that load quickly and reliably you push the",
+    "start": 977
+  },
+  {
+    "content": "resources you need to get interactive and render the initial route quickly and",
+    "start": 984
+  },
+  {
+    "content": "then use a serviceworker for caching and pre-caching resources and then lazy load",
+    "start": 989
+  },
+  {
+    "content": "brats that you need on demand 6 only ship live code if the user doesn't need",
+    "start": 996
+  },
+  {
+    "content": "it don't make them download it with tree",
+    "start": 1005
+  },
+  {
+    "content": "shaking you identify identify code that's not being used so that you can",
+    "start": 1008
+  },
+  {
+    "content": "eliminate it and gatsby Wiis web pack and terse urge asks for this and the",
+    "start": 1012
+  },
+  {
+    "content": "build process web pack will mark the unused code and tercer will eliminate it",
+    "start": 1019
+  },
+  {
+    "content": "during the minification process 7 serve static files",
+    "start": 1023
+  },
+  {
+    "content": "we're here at jams conf obviously so we've heard today about the benefits of",
+    "start": 1030
+  },
+  {
+    "content": "serving static assets so I'm going to talk a little bit about how Gatsby",
+    "start": 1035
+  },
+  {
+    "content": "leverages static assets when people think static assets it might be",
+    "start": 1039
+  },
+  {
+    "content": "reasonable to think wow I can't have a static site because I want my site to be",
+    "start": 1044
+  },
+  {
+    "content": "dynamic but static assets don't mean a static gap gatsby server-side vendors at",
+    "start": 1048
+  },
+  {
+    "content": "build time producing static HTML when a user hits a Gatsby site they're",
+    "start": 1056
+  },
+  {
+    "content": "initially served that pre-rendered static HTML",
+    "start": 1062
+  },
+  {
+    "content": "after that initial static load the site is rehydrated into a react app much like",
+    "start": 1066
+  },
+  {
+    "content": "what you heard from Tanner this one so you get fast subsequent page loads",
+    "start": 1072
+  },
+  {
+    "content": "and all the benefits of single page apps on top of a really fast initial static",
+    "start": 1077
+  },
+  {
+    "content": "render so I've talked about some of the main approaches gatsby takes to baking",
+    "start": 1081
+  },
+  {
+    "content": "in performance and it's basically in service of this idea that we don't have",
+    "start": 1088
+  },
+  {
+    "content": "to re-engineer setup or optimizations for a highly performant baseline we",
+    "start": 1093
+  },
+  {
+    "content": "don't have to fully reinvent our own recipes from scratch every time and",
+    "start": 1098
+  },
+  {
+    "content": "again I'm using Gatsby as an example and the tech that Gatsby is built on but if",
+    "start": 1104
+  },
+  {
+    "content": "you have love for view j/s or some other stack there's something out there like",
+    "start": 1109
+  },
+  {
+    "content": "next and be press so whatever it is there's a running start out there in the",
+    "start": 1115
+  },
+  {
+    "content": "ecosystem that aligns with your needs for flexibility and structure the next",
+    "start": 1120
+  },
+  {
+    "content": "core concern accessibility the same way we just talked about baking and",
+    "start": 1128
+  },
+  {
+    "content": "performance for a head start we can consider how we can do the same for",
+    "start": 1132
+  },
+  {
+    "content": "accessibility and again baked in what you can when you navigate on a",
+    "start": 1136
+  },
+  {
+    "content": "traditional Easter be rendered site the previous page is fully torn down and the",
+    "start": 1143
+  },
+  {
+    "content": "new page is reloaded and in response to this a screen reader can announce the",
+    "start": 1150
+  },
+  {
+    "content": "new content in a predictable way single page apps on the other hand rerender in",
+    "start": 1154
+  },
+  {
+    "content": "the client which makes for a faster more seamless visual experience but can",
+    "start": 1160
+  },
+  {
+    "content": "produce a broken experience for screen reader users so without the page reload",
+    "start": 1166
+  },
+  {
+    "content": "if we haven't properly managed focus in a manual way they won't know that new",
+    "start": 1171
+  },
+  {
+    "content": "content has been loaded to focus or to announce to the user and Gatsby's",
+    "start": 1178
+  },
+  {
+    "content": "version two we switched to using reach router which prioritizes accessibility",
+    "start": 1184
+  },
+  {
+    "content": "as a first-class concern and it provides out-of-the-box focus management for",
+    "start": 1188
+  },
+  {
+    "content": "client-side apps so gonna repeat myself a tiny bit here but when you visit a",
+    "start": 1193
+  },
+  {
+    "content": "Gatsby site a static server rendered HTML page is loaded first and then the",
+    "start": 1199
+  },
+  {
+    "content": "JavaScript to hydrate the site into a web app is loaded",
+    "start": 1203
+  },
+  {
+    "content": "from there again internal routing is handled with the Gatsby link component",
+    "start": 1207
+  },
+  {
+    "content": "but that link component actually wraps reach routers link component so using",
+    "start": 1211
+  },
+  {
+    "content": "reach router we can bake some of these concerns more straight in also leverage",
+    "start": 1217
+  },
+  {
+    "content": "linting tools just like you probably use linting to guard against human error and",
+    "start": 1224
+  },
+  {
+    "content": "enforce consistent code style and code bases when you're working with a team",
+    "start": 1229
+  },
+  {
+    "content": "team or even by yourself you can use linting to avoid some common",
+    "start": 1233
+  },
+  {
+    "content": "accessibility pitfalls at least the ones that are programmatically identifiable",
+    "start": 1237
+  },
+  {
+    "content": "so gatsby core uses the es link configuration that is used and put out",
+    "start": 1244
+  },
+  {
+    "content": "by a create react app which is Facebook's tool to get started with",
+    "start": 1250
+  },
+  {
+    "content": "creating a react up that configuration uses rules from the",
+    "start": 1255
+  },
+  {
+    "content": "JSX a 11y plugin for es lint which checks accessibility rules on JSX",
+    "start": 1261
+  },
+  {
+    "content": "elements so during development the linter will give you accessibility",
+    "start": 1267
+  },
+  {
+    "content": "warnings to address and resolve as you go again because accessibility isn't a",
+    "start": 1271
+  },
+  {
+    "content": "feature you don't add it at the end you can lean on your tools like linters and",
+    "start": 1276
+  },
+  {
+    "content": "editors and stuff to give you hints and addresses issues as you go so I'm a",
+    "start": 1284
+  },
+  {
+    "content": "Gatsby team we're constantly looking for ways to improve education and raise",
+    "start": 1293
+  },
+  {
+    "content": "awareness through our Doc's are available learning materials for people",
+    "start": 1298
+  },
+  {
+    "content": "to build accessible experiences for the web and as a team we're also continuing",
+    "start": 1303
+  },
+  {
+    "content": "to evolve our approach to accessibility both in the core tooling and what we put",
+    "start": 1310
+  },
+  {
+    "content": "into the wider Gatsby ecosystem so the team has been working on drafting",
+    "start": 1315
+  },
+  {
+    "content": "Gatsby's accessibility statement which is led by Marcy Sutton",
+    "start": 1320
+  },
+  {
+    "content": "so the initial draft this right here was merged on Monday yesterday which I'm",
+    "start": 1325
+  },
+  {
+    "content": "really excited about so y'all should all check it out so as the statement says we",
+    "start": 1330
+  },
+  {
+    "content": "want everyone who uses Gatsby to feel welcome and find the experience",
+    "start": 1337
+  },
+  {
+    "content": "rewarding this includes developers with disabilities and users with disabilities",
+    "start": 1340
+  },
+  {
+    "content": "for Gatsby's likes doctors and resources next we're concerned managing content",
+    "start": 1344
+  },
+  {
+    "content": "and data again we talked about this earlier monolithic CMS's are being",
+    "start": 1354
+  },
+  {
+    "content": "replaced by these modular specialized content systems and nowadays your data",
+    "start": 1360
+  },
+  {
+    "content": "can come from anywhere you can't tell just by looking at a site",
+    "start": 1364
+  },
+  {
+    "content": "but earlier we talked about about the a in gem stack this proliferation of",
+    "start": 1368
+  },
+  {
+    "content": "specialized purpose-built tools exposed to an AP is we do things like",
+    "start": 1373
+  },
+  {
+    "content": "Poland's search for mouth algo Lea because algo Lea prioritizes and is",
+    "start": 1378
+  },
+  {
+    "content": "really good at search or pulling assets from cloud marry because cloud iner is",
+    "start": 1382
+  },
+  {
+    "content": "really good at managing assets or pulling content from contempo or sanity",
+    "start": 1387
+  },
+  {
+    "content": "or any of the other headless CMS's because they're",
+    "start": 1392
+  },
+  {
+    "content": "purpose-built to manage content we pull and stuff to manage our commerce from",
+    "start": 1394
+  },
+  {
+    "content": "stripe or Shopify because that's they were designed to be good at so again we",
+    "start": 1400
+  },
+  {
+    "content": "don't have to reinvent or re-engineer a lot of these things but we should be",
+    "start": 1406
+  },
+  {
+    "content": "able to use them all together in ways that are sane and manageable the term",
+    "start": 1410
+  },
+  {
+    "content": "we're using to describe this shift is the content mesh which is the",
+    "start": 1416
+  },
+  {
+    "content": "infrastructure layer for a decoupled web site the decoupled monolith the content",
+    "start": 1421
+  },
+  {
+    "content": "mesh stitches together content systems in a modern dev environment so again",
+    "start": 1428
+  },
+  {
+    "content": "this allows you to select purpose-built tailored solutions for distinct use",
+    "start": 1433
+  },
+  {
+    "content": "cases and provides a modern framework for rapid iteration and empowers",
+    "start": 1438
+  },
+  {
+    "content": "developers while preserving content creators flows so in this scenario gasps",
+    "start": 1442
+  },
+  {
+    "content": "Gatsby is the glue for the content mesh guess we can consume data pretty much",
+    "start": 1449
+  },
+  {
+    "content": "from anywhere and when you source data into Gatsby it gets normalized into the",
+    "start": 1457
+  },
+  {
+    "content": "Gatsby data layer using graph QL we use graph QL because we think it's uniquely",
+    "start": 1462
+  },
+  {
+    "content": "well-suited to serve as this integration layer between the data and your",
+    "start": 1467
+  },
+  {
+    "content": "presentation layer so after all this is said and done all of your data is",
+    "start": 1472
+  },
+  {
+    "content": "consolidated into this uniformly queryable layer or not you can also",
+    "start": 1478
+  },
+  {
+    "content": "handle data outside of Gatsby's data layer and just use it directly which may",
+    "start": 1487
+  },
+  {
+    "content": "sometimes be a good option for prototyping or getting your feet wet",
+    "start": 1491
+  },
+  {
+    "content": "with gatsby or if you just don't want to use graph QL next core concern developer",
+    "start": 1495
+  },
+  {
+    "content": "experience when you're developing you want to get",
+    "start": 1504
+  },
+  {
+    "content": "productive fast whatever that means to you to me that means a tool that enables",
+    "start": 1507
+  },
+  {
+    "content": "me to use a modern stack without having to reinvent the wheel it should tanea",
+    "start": 1513
+  },
+  {
+    "content": "should absorb the overhead of setting up an environment from scratch and take",
+    "start": 1519
+  },
+  {
+    "content": "that off my plate with Gatsby that looks like react",
+    "start": 1523
+  },
+  {
+    "content": "webpack graph QL ESX support etc along with that should provide optimized",
+    "start": 1527
+  },
+  {
+    "content": "builds out-of-the-box with Gatsby you don't have to tune your own web pack",
+    "start": 1537
+  },
+  {
+    "content": "config setup code splitting manually optimize images instead you start with",
+    "start": 1542
+  },
+  {
+    "content": "an optimized baseline with the opportunity to customize or break out of",
+    "start": 1548
+  },
+  {
+    "content": "those defaults by choice selectively where you need to you should also be",
+    "start": 1553
+  },
+  {
+    "content": "able to leverage the collective work of the community with nodejs and NPM and",
+    "start": 1561
+  },
+  {
+    "content": "yarn the JavaScript world has a really rich shared ecosystem and on top of that",
+    "start": 1565
+  },
+  {
+    "content": "and gatsby there's this amazing community of plugins and starters and",
+    "start": 1572
+  },
+  {
+    "content": "more recently experimentally Gatsby themes so Brandon some of the stuff well",
+    "start": 1577
+  },
+  {
+    "content": "I thought a great developer experience it's one that you never have to think",
+    "start": 1587
+  },
+  {
+    "content": "about it just gets totally out of the way and let you focus lets you focus on",
+    "start": 1589
+  },
+  {
+    "content": "building your product and the last part concerns community one of Gatsby's core",
+    "start": 1593
+  },
+  {
+    "content": "values is do you belong here everyone belongs in open source and Gatsby is",
+    "start": 1602
+  },
+  {
+    "content": "dedicated to making contributors feel welcome to contribute we talk pretty",
+    "start": 1607
+  },
+  {
+    "content": "much every day about how to make open source more inclusive and inviting for",
+    "start": 1613
+  },
+  {
+    "content": "the community as a whole because we believe it brings out the best in all of",
+    "start": 1617
+  },
+  {
+    "content": "us so we make a conscious effort to build this philosophy into everything",
+    "start": 1622
+  },
+  {
+    "content": "that we do from an open core maintainer x' meeting where community where",
+    "start": 1627
+  },
+  {
+    "content": "community members can come share stuff that they're working on or problems that",
+    "start": 1633
+  },
+  {
+    "content": "they're running in to give the core team feedback and then they can also hear",
+    "start": 1638
+  },
+  {
+    "content": "from the core team about what's new and what's in the works to offering pair",
+    "start": 1643
+  },
+  {
+    "content": "programming sessions with community members to thanking each contributor",
+    "start": 1649
+  },
+  {
+    "content": "with some swag and an invitation to join the Gatsby",
+    "start": 1655
+  },
+  {
+    "content": "github org - an open and inclusive code of conduct and beyond so tech doesn't",
+    "start": 1659
+  },
+  {
+    "content": "exist in a vacuum it's made for humans and we believe we should strive to be",
+    "start": 1668
+  },
+  {
+    "content": "excellent to each other in the course of making software so over 1,800 people",
+    "start": 1674
+  },
+  {
+    "content": "contributed to the Gatsby mana repo and there are now almost 800 plugins so the",
+    "start": 1681
+  },
+  {
+    "content": "plug-in ecosystem is growing crazy fast thanks to contributors publishing and",
+    "start": 1688
+  },
+  {
+    "content": "maintaining plugins again we try to foster a community of giving back did",
+    "start": 1693
+  },
+  {
+    "content": "you build something really cool that other people would get some utility out",
+    "start": 1699
+  },
+  {
+    "content": "of awesome publish it share it with the community so I've talked about these",
+    "start": 1702
+  },
+  {
+    "content": "core concerns when getting started on a project you have to evaluate and",
+    "start": 1710
+  },
+  {
+    "content": "prioritize your core concerns and the time and budget that you have allotted",
+    "start": 1715
+  },
+  {
+    "content": "to determine which tool fits best with that priority set from performance",
+    "start": 1720
+  },
+  {
+    "content": "methodology to how it approaches and prioritizes accessibility to the tach it",
+    "start": 1726
+  },
+  {
+    "content": "takes in how you manage content data to the overall developer experience and how",
+    "start": 1732
+  },
+  {
+    "content": "it jives with how you'd like to work to the community around the project I",
+    "start": 1738
+  },
+  {
+    "content": "really personally think it's a really awesome time to be a dev and I really",
+    "start": 1745
+  },
+  {
+    "content": "love Gatsby we're using it to build a ton of things we're using it to run our",
+    "start": 1751
+  },
+  {
+    "content": "swag store which is a full-blown ecommerce site we're using it to run our",
+    "start": 1756
+  },
+  {
+    "content": "dot work site for everything in the Gatsby open-source ecosystem from Docs",
+    "start": 1760
+  },
+  {
+    "content": "to filterable searchable libraries for plugins and starters we're using it to",
+    "start": 1765
+  },
+  {
+    "content": "build our first commercial offering a hosted Gatsby preview service for teams",
+    "start": 1773
+  },
+  {
+    "content": "so it's an incredibly robust and flexible framework and I really have a",
+    "start": 1779
+  },
+  {
+    "content": "lot of love for it but I also have a lot of love for the vibrant ecosystem of",
+    "start": 1784
+  },
+  {
+    "content": "frameworks that have blossomed in the jams tax bases",
+    "start": 1789
+  },
+  {
+    "content": "and I urge all of you to explore all of the awesome recipes and flavors that the",
+    "start": 1794
+  },
+  {
+    "content": "champ stack universe has to offer to see what aligns with your core concerns and",
+    "start": 1799
+  },
+  {
+    "content": "preferences so SB is my jam stack what's yours",
+    "start": 1804
+  },
+  {
+    "content": "[Applause]",
+    "start": 1809
+  },
+  {
+    "content": "[Applause]",
+    "start": 1818
+  },
+  {
+    "content": "[Applause]",
+    "start": 1825
+  },
+  {
+    "content": "",
+    "start": 1828
+  }
+]

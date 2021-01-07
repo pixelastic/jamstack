@@ -1,0 +1,1034 @@
+[
+  {
+    "content": "cool so I'm Teddy CTO of RBI restaurant",
+    "start": 0
+  },
+  {
+    "content": "Brands International and we are the company that owns Burger King Popeyes",
+    "start": 19
+  },
+  {
+    "content": "Chicken and Tim Hortons coffee big restaurant company we operate about",
+    "start": 27
+  },
+  {
+    "content": "25,000 restaurants around the world and we serve about a billion transactions a",
+    "start": 34
+  },
+  {
+    "content": "year so this is a company that when we talk about our apps needs to be able to",
+    "start": 39
+  },
+  {
+    "content": "support basically an arbitrary amount of users sessions transactions at a given",
+    "start": 46
+  },
+  {
+    "content": "time so I want to talk a little bit about the the Popeyes app this is a",
+    "start": 53
+  },
+  {
+    "content": "react application that we wrote and before we talk about the app I want to",
+    "start": 57
+  },
+  {
+    "content": "talk about the popeyes chicken sandwich so this is a sandwich that we launched",
+    "start": 63
+  },
+  {
+    "content": "on August 12th with a kind of now-infamous tweet chicken brioche",
+    "start": 72
+  },
+  {
+    "content": "pickles new sandwich Popeyes nationwide so good forgot how to speak incomplete",
+    "start": 77
+  },
+  {
+    "content": "sandwiches I mean sentences so this sandwich is really good I don't know if",
+    "start": 81
+  },
+  {
+    "content": "you guys have have tried this sandwich it is truly a delicious sandwich and",
+    "start": 91
+  },
+  {
+    "content": "when it launched kind of one of the immediate impacts that we saw people",
+    "start": 96
+  },
+  {
+    "content": "like the sandwich and they started to go to Popeyes in very high numbers so some",
+    "start": 100
+  },
+  {
+    "content": "of our competitor is not necessarily that thrilled about this development",
+    "start": 108
+  },
+  {
+    "content": "trick fillet tweeted bun + chicken + pickles all the heart emoji for the",
+    "start": 113
+  },
+  {
+    "content": "original and and in response Popeyes tweeted in typical southern fashion",
+    "start": 119
+  },
+  {
+    "content": "y'all good so this led to what God termed the the great chicken sandwich",
+    "start": 126
+  },
+  {
+    "content": "war of 2019 this became Twitter's conflict of the summer and as interest",
+    "start": 135
+  },
+  {
+    "content": "in the chicken sandwich war grew other brands kind of wanted to get",
+    "start": 147
+  },
+  {
+    "content": "involved too you can see Wendy's tweeted y'all out",
+    "start": 151
+  },
+  {
+    "content": "here fighting about which of these fools has the second best chicken sandwich and",
+    "start": 153
+  },
+  {
+    "content": "then Boston Market tweeted customer can I get something like Boston Market mac",
+    "start": 159
+  },
+  {
+    "content": "and cheese but mediocre other guys my pleasure",
+    "start": 164
+  },
+  {
+    "content": "so great chicken sandwich war escalated and",
+    "start": 170
+  },
+  {
+    "content": "interest in the in the chicken sandwich only only grew this is actually a real",
+    "start": 180
+  },
+  {
+    "content": "screenshot of news footage from from Grand Rapids sandwich causing traffic",
+    "start": 185
+  },
+  {
+    "content": "jam municipal that's the part he's very upset",
+    "start": 189
+  },
+  {
+    "content": "this is a a woman who tried 16 different Popeyes stores trying to find the the",
+    "start": 192
+  },
+  {
+    "content": "chicken sandwich with her nephew and I think ultimately found one that was not",
+    "start": 199
+  },
+  {
+    "content": "out of sandwiches and even some of our great cultural institutions here in",
+    "start": 207
+  },
+  {
+    "content": "America got involved The New Yorker wrote an article the popeyes chicken",
+    "start": 212
+  },
+  {
+    "content": "sandwich is here to save America about how our chicken sandwich was the only",
+    "start": 215
+  },
+  {
+    "content": "thing that could unify this divided nation so we ran out we ran out of",
+    "start": 221
+  },
+  {
+    "content": "chicken sandwiches and if you guys were following any of any of the news we very",
+    "start": 229
+  },
+  {
+    "content": "quickly sold many many more times the number of chicken sandwiches that we",
+    "start": 241
+  },
+  {
+    "content": "thought and which is a amazing problem to have and so the brand needed to",
+    "start": 245
+  },
+  {
+    "content": "communicate with the customer base we're out of chicken sandwiches for now we're",
+    "start": 251
+  },
+  {
+    "content": "working on restoring the supply chain will have more sandwiches soon I'm gonna",
+    "start": 255
+  },
+  {
+    "content": "play a quick video that we ran on Twitter can we get sound",
+    "start": 259
+  },
+  {
+    "content": "and the lines are crazy still till like 5:00 in the morning headlines Raptor on",
+    "start": 275
+  },
+  {
+    "content": "all around the corner oh my god that's ridiculous when you get like five",
+    "start": 280
+  },
+  {
+    "content": "million people six million people social media talking about this sounds is good",
+    "start": 284
+  },
+  {
+    "content": "lights no we're sold out of chicken sandwich we",
+    "start": 290
+  },
+  {
+    "content": "sold out of four hours",
+    "start": 293
+  },
+  {
+    "content": "no damn chicken for Papa let's watch it again just so so like I said this this",
+    "start": 317
+  },
+  {
+    "content": "is a react application and in the situation like what we have with Popeyes",
+    "start": 335
+  },
+  {
+    "content": "there's a case where because of kind of a business reality that's unfolding in",
+    "start": 341
+  },
+  {
+    "content": "real time it's incredibly important to be able to change the content on all of",
+    "start": 347
+  },
+  {
+    "content": "our digital channels quickly right and I think this is an interesting tie into",
+    "start": 352
+  },
+  {
+    "content": "some of the advantages that that Jam stack offers which we'll talk about in",
+    "start": 360
+  },
+  {
+    "content": "more detail but just as an example the marketing team at Popeyes was able to",
+    "start": 366
+  },
+  {
+    "content": "change their kind of app website from this find a Popeye's near you kind of",
+    "start": 371
+  },
+  {
+    "content": "generic marketing content list of offers to chicken sandwich be right back",
+    "start": 377
+  },
+  {
+    "content": "and and the team was able to do this without writing code without involving",
+    "start": 382
+  },
+  {
+    "content": "engineering without even really involving product able to do it directly",
+    "start": 388
+  },
+  {
+    "content": "by modifying content right not code so zooming out a little you know we own and",
+    "start": 392
+  },
+  {
+    "content": "operate these three brands and the digital channels that we really care",
+    "start": 400
+  },
+  {
+    "content": "about are our web apps on desktop and mobile our iOS and Android native apps",
+    "start": 406
+  },
+  {
+    "content": "in our kiosk app and we'll talk a little more about what the kiosk is but if",
+    "start": 411
+  },
+  {
+    "content": "you've been into one of our restaurants recently you may have encountered device",
+    "start": 416
+  },
+  {
+    "content": "that's a touchscreen device where you can assemble your card order food",
+    "start": 421
+  },
+  {
+    "content": "checkout and kind of a convenient smooth way for people to order food in this",
+    "start": 425
+  },
+  {
+    "content": "store right so website iOS Android kiosk and across three brands right Burger",
+    "start": 430
+  },
+  {
+    "content": "King Popeyes Tim Hortons so if you kind of look at the scope of what our team",
+    "start": 438
+  },
+  {
+    "content": "has to worry about you can think of it as 12 apps and historically that's what",
+    "start": 445
+  },
+  {
+    "content": "RBI has done maybe a totally different codebase for",
+    "start": 450
+  },
+  {
+    "content": "Burger King website as you have for a Popeye's iOS app and six of the 12",
+    "start": 454
+  },
+  {
+    "content": "supported digital ordering so e-commerce Dharma saps the others were maybe more",
+    "start": 461
+  },
+  {
+    "content": "of a static application over five different agencies trying to write code",
+    "start": 465
+  },
+  {
+    "content": "and manage this kind of patchwork of different apps and all the content data",
+    "start": 471
+  },
+  {
+    "content": "being managed in Excel and we'll talk a little more about what we mean by",
+    "start": 476
+  },
+  {
+    "content": "content of course we do mean things like the home screen image the headline you",
+    "start": 480
+  },
+  {
+    "content": "see on the home page but in our case content also means the menu data what do",
+    "start": 484
+  },
+  {
+    "content": "we sell what modifications can you make to a whopper versus ones that you're not",
+    "start": 488
+  },
+  {
+    "content": "allowed to make and so our goal and I should mention organizationally me and",
+    "start": 494
+  },
+  {
+    "content": "kind of other engineering folks that you'll meet at this conference join",
+    "start": 504
+  },
+  {
+    "content": "about a year and a half ago in general and our goal when we joined try to make",
+    "start": 507
+  },
+  {
+    "content": "one unified platform as much as we can that uses shared react components that",
+    "start": 511
+  },
+  {
+    "content": "is much shared back-end code as we can that's able to be styled by brand and by",
+    "start": 518
+  },
+  {
+    "content": "platform and try to make the content and data manageable and this last point is",
+    "start": 523
+  },
+  {
+    "content": "key because in a big company but we found happens is the more painful it is",
+    "start": 529
+  },
+  {
+    "content": "to update your content the less it happens and the less relevance that",
+    "start": 535
+  },
+  {
+    "content": "digital channels tend to have and so if the marketers in your company kind of",
+    "start": 539
+  },
+  {
+    "content": "fear updating the website because it involves either using some ancient CMS",
+    "start": 544
+  },
+  {
+    "content": "or email an excel file or like calling your agency calls their sub agency calls",
+    "start": 548
+  },
+  {
+    "content": "their sub agency who updates the website doesn't tend to happen very much so as",
+    "start": 553
+  },
+  {
+    "content": "you saw we've got the the Popeye's web mobile app and we wanted to look at the",
+    "start": 563
+  },
+  {
+    "content": "other apps pretty much the same way so any of you guys are Canadian you",
+    "start": 570
+  },
+  {
+    "content": "probably know it's important food and coffee company primarily in",
+    "start": 576
+  },
+  {
+    "content": "Canada and and same with Burger King right try to have a unified system that",
+    "start": 581
+  },
+  {
+    "content": "we can use across the brands in order to let us think of the apps in a similar",
+    "start": 587
+  },
+  {
+    "content": "way even if the styling and branding is totally different across the brands and",
+    "start": 594
+  },
+  {
+    "content": "of course it is so the stock that we settled on is to",
+    "start": 597
+  },
+  {
+    "content": "use react on on the front end and our code base is and our approach has been",
+    "start": 603
+  },
+  {
+    "content": "very heavy on web technologies and very heavy on the browser as a rendering",
+    "start": 612
+  },
+  {
+    "content": "engine talk a little more about that we use a lot of node lambdas on the backend",
+    "start": 615
+  },
+  {
+    "content": "we use a surrealist framework to manage packaging up our lambda is uploading",
+    "start": 621
+  },
+  {
+    "content": "them we we use a graph QL API to communicate between our front-end absent",
+    "start": 625
+  },
+  {
+    "content": "and our back-end and we've set up like I'm sure many of you a headless CMS we",
+    "start": 632
+  },
+  {
+    "content": "use a great tool called sanity i/o we'll talk a little more about about sanity",
+    "start": 638
+  },
+  {
+    "content": "but with the goal of making the UX of updating the content as seamless as",
+    "start": 643
+  },
+  {
+    "content": "possible and just to give you a little flavor for the app formats and kind of",
+    "start": 649
+  },
+  {
+    "content": "delivery modes for our code we host our brand websites on that left by we we use",
+    "start": 655
+  },
+  {
+    "content": "kind of the new generation of the ionic Cordova world for our iOS and Android",
+    "start": 664
+  },
+  {
+    "content": "apps and and our kiosk app is a browser app using using Chrome OS so I wanted to",
+    "start": 669
+  },
+  {
+    "content": "dive into kind of a code example I wanted to talk specifically about the",
+    "start": 675
+  },
+  {
+    "content": "icon in the bottom nav of our mobile and mobile web apps and so if you kind of",
+    "start": 680
+  },
+  {
+    "content": "look closely you can see we've got a maple leaf in Tim Hortons we've got a P",
+    "start": 686
+  },
+  {
+    "content": "in Popeyes and we've got the Burger King",
+    "start": 692
+  },
+  {
+    "content": "logo in the BK app and so with the shared code base like how do you manage",
+    "start": 694
+  },
+  {
+    "content": "that right how do you have a different icon render dynamically into the bottom",
+    "start": 701
+  },
+  {
+    "content": "nav so in our case what we what we do is we use the web pack build process to",
+    "start": 707
+  },
+  {
+    "content": "conditionally load react components depending on the environment variables",
+    "start": 715
+  },
+  {
+    "content": "that are set at build time so you can think about kind of this three by four",
+    "start": 720
+  },
+  {
+    "content": "matrix right we've got these three brands and we've got these four",
+    "start": 725
+  },
+  {
+    "content": "platforms we care about and what we've done is we've set up our code base so",
+    "start": 728
+  },
+  {
+    "content": "that if you create a react component called like mobile icon Jas you can use",
+    "start": 733
+  },
+  {
+    "content": "the file extension to define mobile icon dot thas for Tim Horton's or dot B KJ S",
+    "start": 738
+  },
+  {
+    "content": "or dot th dot web verses th kiosk dot s right and so sure a lot of you guys have",
+    "start": 747
+  },
+  {
+    "content": "used webpack you know that you can control a prioritized list of file",
+    "start": 758
+  },
+  {
+    "content": "extensions that web pack will actually include into the bundle at Build time",
+    "start": 763
+  },
+  {
+    "content": "that enables you to conditionally render different parts of of the app and so so",
+    "start": 767
+  },
+  {
+    "content": "it sort of take them the the mobile icon as an example these are SVG is in the",
+    "start": 774
+  },
+  {
+    "content": "codebase that that that web pack is gonna bundle or not bundle into the app",
+    "start": 777
+  },
+  {
+    "content": "depending on what environment variables are set so you can look at these styled",
+    "start": 782
+  },
+  {
+    "content": "components we've got a brand logo component that that's conditionally",
+    "start": 788
+  },
+  {
+    "content": "built into the app and kind of the other key thing that we've done with our code",
+    "start": 796
+  },
+  {
+    "content": "base is to try to try to separate cases where we need to conditionally load a",
+    "start": 800
+  },
+  {
+    "content": "react component from cases where we actually just need to load something",
+    "start": 805
+  },
+  {
+    "content": "from a theme value because in some ways our app is similar to maybe a Wix or a",
+    "start": 809
+  },
+  {
+    "content": "Squarespace one of these site builders where you all you need is a configurable",
+    "start": 813
+  },
+  {
+    "content": "theme if all your controlling our colors typefaces styles you may not need the",
+    "start": 817
+  },
+  {
+    "content": "custom load a totally different react component you may just need to access a",
+    "start": 822
+  },
+  {
+    "content": "theme value and load maybe themed color themes out primary type dates so the",
+    "start": 826
+  },
+  {
+    "content": "other thing you know that's helpful for us is you can we've been able to nest",
+    "start": 835
+  },
+  {
+    "content": "these kind of conditional loading concepts so that maybe you have a you",
+    "start": 840
+  },
+  {
+    "content": "may have a case where the elements in the bottom now",
+    "start": 848
+  },
+  {
+    "content": "are actually different by brand so our brands care because they're different",
+    "start": 852
+  },
+  {
+    "content": "types of food or drink they may care differently about different different",
+    "start": 856
+  },
+  {
+    "content": "types of functionality on digital example would be Tim Hortons is a daily",
+    "start": 860
+  },
+  {
+    "content": "coffee they may care more about loyalty whereas maybe Popeyes may care more",
+    "start": 865
+  },
+  {
+    "content": "about deliveries so so we're able to define even kind of the outer component",
+    "start": 869
+  },
+  {
+    "content": "the the nav component in a custom way and then inside that still load the icon",
+    "start": 877
+  },
+  {
+    "content": "in a custom way so you end up with kind of nesting hierarchy of custom",
+    "start": 883
+  },
+  {
+    "content": "components so I wanted to come back to content and talk a little bit about",
+    "start": 887
+  },
+  {
+    "content": "customizability this is something that I think when people start working on on",
+    "start": 894
+  },
+  {
+    "content": "food apps maybe on ecommerce in general they don't totally realize just the",
+    "start": 902
+  },
+  {
+    "content": "level of of customization that these apps allow a user to do and therefore",
+    "start": 907
+  },
+  {
+    "content": "how many variants of a WAP are let's say can you actually order so here's a case",
+    "start": 913
+  },
+  {
+    "content": "where let's say the user has a say that they want to order flame grilled beef",
+    "start": 917
+  },
+  {
+    "content": "they may pick a whopper and then they may want to order that in a combo meal",
+    "start": 922
+  },
+  {
+    "content": "format they may have a different side and drink that have different sizes",
+    "start": 926
+  },
+  {
+    "content": "themselves and then within the sandwich they may add tomatoes remove onions they",
+    "start": 932
+  },
+  {
+    "content": "may remove lettuce you actually end up with this fan-out effect of different",
+    "start": 937
+  },
+  {
+    "content": "variants that you can order which is really important to manage well if you",
+    "start": 941
+  },
+  {
+    "content": "want to run the apps so play a quick video here of something that we've set",
+    "start": 945
+  },
+  {
+    "content": "up in order to help manage this which is our content studio and we focus both on",
+    "start": 953
+  },
+  {
+    "content": "kind of the developer experience side of this so custom CLI that lets our",
+    "start": 959
+  },
+  {
+    "content": "developers kind of run locally the content database and also the react",
+    "start": 966
+  },
+  {
+    "content": "front ends of the apps our story books and so we focused heavily on kind of the",
+    "start": 972
+  },
+  {
+    "content": "DX side of things and then also heavily on the experience for marketing because",
+    "start": 978
+  },
+  {
+    "content": "we want them to update the data in a self-serve way we want them to do it",
+    "start": 981
+  },
+  {
+    "content": "frequently so you can see us running yarn dev and",
+    "start": 984
+  },
+  {
+    "content": "then so just uh sorry we'll restart this video but you can see us running yarn",
+    "start": 995
+  },
+  {
+    "content": "dev and then the developer selecting okay I want to run locally the Popeyes",
+    "start": 1004
+  },
+  {
+    "content": "app or the Burger King app and then I want to run it in the dev environment or",
+    "start": 1010
+  },
+  {
+    "content": "the QA environment staging environment or you know I want to run it with or",
+    "start": 1013
+  },
+  {
+    "content": "without the story book to edit the react components or the content studio to edit",
+    "start": 1018
+  },
+  {
+    "content": "the data and you can see a user on the right kind of a marketing user maybe",
+    "start": 1023
+  },
+  {
+    "content": "opening up the tenders meal and adjusting the content",
+    "start": 1027
+  },
+  {
+    "content": "so one of the key things I was important for us to get right is the schema for",
+    "start": 1042
+  },
+  {
+    "content": "the content and this actually took us a while to figure out but we've figured",
+    "start": 1048
+  },
+  {
+    "content": "out kind of is that if you look at fast-food menus they do kind of conform",
+    "start": 1052
+  },
+  {
+    "content": "to a predictable schema like you usually have a bunch of sections maybe you have",
+    "start": 1057
+  },
+  {
+    "content": "a section called chicken one called beef one called drinks one called sides and",
+    "start": 1061
+  },
+  {
+    "content": "then within that maybe you have a bunch of items which are organized into",
+    "start": 1066
+  },
+  {
+    "content": "different types of formats combos they can be modified in different ways and so",
+    "start": 1069
+  },
+  {
+    "content": "one of the important things for for us did you",
+    "start": 1074
+  },
+  {
+    "content": "as we started building the apps established a data schema for kind of",
+    "start": 1076
+  },
+  {
+    "content": "what comprises a menu and one of the nice things about our CMS stack is that",
+    "start": 1081
+  },
+  {
+    "content": "it auto generates the UI for marketing to use based on the schema one of the",
+    "start": 1089
+  },
+  {
+    "content": "things that we valued about our partners at saniti so far is the ability to swap",
+    "start": 1096
+  },
+  {
+    "content": "in our own custom react components for parts of the content studio interface",
+    "start": 1102
+  },
+  {
+    "content": "we've really prioritized the UX for marketing to edit the data so it's",
+    "start": 1108
+  },
+  {
+    "content": "helpful for us if if we can write our own front-end for parts of the of the",
+    "start": 1112
+  },
+  {
+    "content": "data management interface especially as the data gets super nested and super",
+    "start": 1117
+  },
+  {
+    "content": "complicated so you started thinking about okay I'm adding Mayo to my burger",
+    "start": 1121
+  },
+  {
+    "content": "in what increments can I add the mayonnaise and whether are the",
+    "start": 1126
+  },
+  {
+    "content": "nutritional values for each of those light or very light or very heavy",
+    "start": 1130
+  },
+  {
+    "content": "mayonnaise increments so the data starts to get really detailed and it starts to",
+    "start": 1134
+  },
+  {
+    "content": "get really complicated and so it's very helpful for us to be able to swap in our",
+    "start": 1138
+  },
+  {
+    "content": "own react components that simplify parts of the editing experience for the",
+    "start": 1142
+  },
+  {
+    "content": "marketing and the food innovation teams so kind of our big-picture result here",
+    "start": 1147
+  },
+  {
+    "content": "and and this is kind of a TrueNorth for us is to have our e-commerce apps and",
+    "start": 1154
+  },
+  {
+    "content": "and our digital experiences be driven by the business folks that actually run",
+    "start": 1160
+  },
+  {
+    "content": "them and actually own the sales results so maybe in contrast to what people have",
+    "start": 1164
+  },
+  {
+    "content": "had to do historically where kind of has to be in the update loop for",
+    "start": 1171
+  },
+  {
+    "content": "a new menu item or a change to the to your web interface what we've tried to",
+    "start": 1176
+  },
+  {
+    "content": "do is empower the business groups in our company to make those updates themselves",
+    "start": 1181
+  },
+  {
+    "content": "and we've done that both because that lets them drive our business forward",
+    "start": 1188
+  },
+  {
+    "content": "better but I think also because it's an act of self-preservation like there's",
+    "start": 1194
+  },
+  {
+    "content": "not that many of us we're running these three global brands and it's really",
+    "start": 1199
+  },
+  {
+    "content": "important for us to quit the the business groups in our company with",
+    "start": 1203
+  },
+  {
+    "content": "these self-serve tools so that they don't come knock down our door every",
+    "start": 1209
+  },
+  {
+    "content": "time they need to update the home page because they're out of chicken",
+    "start": 1212
+  },
+  {
+    "content": "sandwiches or allow for a new type of customization to do a whopper so kind of",
+    "start": 1215
+  },
+  {
+    "content": "our our guiding philosophy has to try to make the tools as self-serve as we can",
+    "start": 1222
+  },
+  {
+    "content": "so just to show in practice what we mean here this is the current Popeyes website",
+    "start": 1227
+  },
+  {
+    "content": "can visit Popeyes calm and and use this application and so these are this is the",
+    "start": 1233
+  },
+  {
+    "content": "the output of the data that that our marketing teams have have put in so a",
+    "start": 1241
+  },
+  {
+    "content": "bunch of sections maybe limited-time offers chicken you know family meals",
+    "start": 1246
+  },
+  {
+    "content": "seafood sides and then as you drill deeper into the ordering experience",
+    "start": 1251
+  },
+  {
+    "content": "you're looking at the front end react application rendering the underlying",
+    "start": 1258
+  },
+  {
+    "content": "content data so if let's say the nutritional data pricing availability",
+    "start": 1263
+  },
+  {
+    "content": "changes for these items these are things that happen in the content layer not in",
+    "start": 1271
+  },
+  {
+    "content": "the code itself and so when you know for instance when we run out of chicken",
+    "start": 1277
+  },
+  {
+    "content": "sandwiches you know you may see items that appear and disappear from from our",
+    "start": 1283
+  },
+  {
+    "content": "application and and that happens very frequently and especially as our",
+    "start": 1290
+  },
+  {
+    "content": "applications expand in their scope both geographically in terms of the number of",
+    "start": 1296
+  },
+  {
+    "content": "devices screens we're running on it's really really important that this be",
+    "start": 1301
+  },
+  {
+    "content": "able to happen seamlessly so in terms of our kind of big picture",
+    "start": 1305
+  },
+  {
+    "content": "findings for running gem stack at kind of the Burger King Popeyes Tim Hortons",
+    "start": 1311
+  },
+  {
+    "content": "scale number one developer experience really important enterprise to people in",
+    "start": 1317
+  },
+  {
+    "content": "big companies are used to kind of muddling through these pretty bad",
+    "start": 1322
+  },
+  {
+    "content": "development processes where takes a long time maybe the preview changes run your",
+    "start": 1326
+  },
+  {
+    "content": "app locally see you know a lot of interconnected systems very difficult",
+    "start": 1333
+  },
+  {
+    "content": "we've tried to simplify this and and create a developer experience that it's",
+    "start": 1337
+  },
+  {
+    "content": "much more reasonable and much more similar to what people maybe who work in",
+    "start": 1341
+  },
+  {
+    "content": "smaller companies or environments are used to number two champ stock has so",
+    "start": 1346
+  },
+  {
+    "content": "far been a really good fit for kind of the organizational dynamics that that we",
+    "start": 1352
+  },
+  {
+    "content": "see in the enterprise tech and marketing groups and and what I kind of",
+    "start": 1357
+  },
+  {
+    "content": "specifically mean by that is the separation of code from from content",
+    "start": 1361
+  },
+  {
+    "content": "because when you've got different groups that may be owned different parts of the",
+    "start": 1364
+  },
+  {
+    "content": "stack it's really important to empower kind of the other folks in your org to",
+    "start": 1369
+  },
+  {
+    "content": "directly own whether it's the pages or the e-commerce you know product items",
+    "start": 1374
+  },
+  {
+    "content": "that that they're responsible for for running and and then third your stack",
+    "start": 1379
+  },
+  {
+    "content": "can kind of make or break your ability to execute in real time so when we when",
+    "start": 1386
+  },
+  {
+    "content": "we because these brands and as you kind of saw from the great sandwich war of",
+    "start": 1391
+  },
+  {
+    "content": "2019 because these brands are operating you know no longer on the scale of maybe",
+    "start": 1395
+  },
+  {
+    "content": "I publish a new item or I adjust my menu or I just availability every month every",
+    "start": 1400
+  },
+  {
+    "content": "six months it's you know the the kind of e-commerce world that we increasingly",
+    "start": 1405
+  },
+  {
+    "content": "live in it's important to be able to make updates in real time and so the way",
+    "start": 1412
+  },
+  {
+    "content": "you set up your stack can kind of make or break that ability and I think it's",
+    "start": 1417
+  },
+  {
+    "content": "important to set up your stack anticipating that okay it may not happen",
+    "start": 1421
+  },
+  {
+    "content": "today but a couple months from now someone from marketing or PR someone",
+    "start": 1425
+  },
+  {
+    "content": "from communications they're gonna want to make a change they're gonna want to",
+    "start": 1430
+  },
+  {
+    "content": "do it in like five seconds so I think it's really important to anticipate kind",
+    "start": 1433
+  },
+  {
+    "content": "of the organizational dynamics and the speed at which you're going to",
+    "start": 1439
+  },
+  {
+    "content": "need to make changes and set up your stack accordingly so we're excited to",
+    "start": 1443
+  },
+  {
+    "content": "meet you guys were here a bunch of us from the engineering product groups we'd",
+    "start": 1448
+  },
+  {
+    "content": "love to answer any questions you may have about our stack or our food and",
+    "start": 1455
+  },
+  {
+    "content": "we're growing the team primarily so far in Miami and Toronto but also in other",
+    "start": 1461
+  },
+  {
+    "content": "places and we'd love to meet you guys so please find us during the break thanks",
+    "start": 1470
+  },
+  {
+    "content": "so much [Applause]",
+    "start": 1476
+  },
+  {
+    "content": "[Applause]",
+    "start": 1480
+  },
+  {
+    "content": "you",
+    "start": 1487
+  }
+]

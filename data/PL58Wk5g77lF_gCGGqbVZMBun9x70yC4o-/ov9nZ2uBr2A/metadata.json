@@ -1,0 +1,14 @@
+{
+  "description": "Breaking news, announcements and releases from the JAMstack ecosystem",
+  "id": "ov9nZ2uBr2A",
+  "position": 21,
+  "publishedAt": 1571424546,
+  "thumbnails": {
+    "huge": "https://i.ytimg.com/vi/ov9nZ2uBr2A/maxresdefault.jpg",
+    "large": "https://i.ytimg.com/vi/ov9nZ2uBr2A/sddefault.jpg",
+    "medium": "https://i.ytimg.com/vi/ov9nZ2uBr2A/hqdefault.jpg",
+    "small": "https://i.ytimg.com/vi/ov9nZ2uBr2A/mqdefault.jpg",
+    "tiny": "https://i.ytimg.com/vi/ov9nZ2uBr2A/default.jpg"
+  },
+  "title": "Lightning launch - TakeShape"
+}
