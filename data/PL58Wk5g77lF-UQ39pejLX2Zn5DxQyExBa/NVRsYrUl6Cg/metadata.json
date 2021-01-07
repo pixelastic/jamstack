@@ -1,8 +1,23 @@
 {
   "description": "freeCodeCamp.org started out as a traditional Node/Express web app. But as our nonprofit's community grew, speed and reliability became more important.\n\nThis was especially important for learners in countries without reliable internet access. I'll show how we used tools like Gatsby.js to turn our interactive coding platform into a JAMstack web app. I'll also demo some of the optimizations that help make freeCodeCamp.org so fast.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "duration": {
+    "minutes": 30,
+    "seconds": 41
+  },
   "id": "NVRsYrUl6Cg",
-  "position": 7,
-  "publishedAt": 1542606449,
+  "publishedAt": 1542237364,
+  "ranking": {
+    "likes": 39,
+    "views": 1479
+  },
+  "tags": [
+    "freecodecamp",
+    "jamstack",
+    "jamstack conf",
+    "netlify",
+    "react",
+    "reactjs"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/NVRsYrUl6Cg/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/NVRsYrUl6Cg/sddefault.jpg",

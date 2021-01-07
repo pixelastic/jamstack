@@ -1,8 +1,25 @@
 {
   "description": "",
+  "duration": {
+    "minutes": 31,
+    "seconds": 58
+  },
   "id": "PqlhYVqLDm0",
-  "position": 10,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571278117,
+  "ranking": {
+    "likes": 51,
+    "views": 2239
+  },
+  "tags": [
+    "JamConf_2019",
+    "Git",
+    "Re-platforming",
+    "Migration",
+    "JAMstack workflows",
+    "Best practices",
+    "Katie Sylor-Miller",
+    "Etsy"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/PqlhYVqLDm0/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/PqlhYVqLDm0/sddefault.jpg",

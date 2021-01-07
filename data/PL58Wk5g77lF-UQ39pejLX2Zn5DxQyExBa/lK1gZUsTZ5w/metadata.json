@@ -1,8 +1,16 @@
 {
   "description": "How often have you stared at a sketch file and thought geez how the heck will my colleagues and I going to build this complicated thing? Where do we even begin and how should we split things up to work the most efficiently? And will we be back at square one if the design changes in the next iteration? I'll show you how we do it at Chroma using component driven development -- a process we refined whilst running an web app development studio for the last 5 years.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "duration": {
+    "minutes": 11,
+    "seconds": 48
+  },
   "id": "lK1gZUsTZ5w",
-  "position": 9,
-  "publishedAt": 1542606508,
+  "publishedAt": 1542605953,
+  "ranking": {
+    "likes": 13,
+    "views": 758
+  },
+  "tags": ["jamstack", "jamstack conf", "netlify"],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/lK1gZUsTZ5w/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/lK1gZUsTZ5w/sddefault.jpg",

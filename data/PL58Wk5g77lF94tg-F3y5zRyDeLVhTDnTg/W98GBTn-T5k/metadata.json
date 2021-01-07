@@ -1,8 +1,29 @@
 {
   "description": "Companies are demanding fast sites and even faster implementations. Jamstack has certainly solved the digital experience side of the equation, but as soon as you introduce complex, data-driven queries and customer workflows, it quickly becomes evident there is a missing piece in the stack. This is where secure, API-first CRM comes into play to create a perfect duo between highly performant static sites and customer-centric engineering. Whether it’s for your partner sales portals, customer help centers, eCommerce storefronts, or content blogging, we’ll explore how to deliver value to your customers and partners while maintaining the reality for live CRM and CMS data.",
+  "duration": {
+    "minutes": 18,
+    "seconds": 46
+  },
   "id": "W98GBTn-T5k",
-  "position": 3,
-  "publishedAt": 1601963447,
+  "publishedAt": 1602006301,
+  "ranking": {
+    "likes": 10,
+    "views": 869
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webbed",
+    "salesforce",
+    "CRM",
+    "ecommerce"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/W98GBTn-T5k/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/W98GBTn-T5k/hqdefault.jpg",

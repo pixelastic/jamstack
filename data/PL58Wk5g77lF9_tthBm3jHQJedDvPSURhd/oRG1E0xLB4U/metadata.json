@@ -1,8 +1,15 @@
 {
   "description": "Ecommerce on the JAMstack used to seem impossible. Now there are a growing number of tools and services to drive commerce experiences. Not everyone is convinced that this architecture is ready or able to deliver on the promise of e-commerce. This panel will discuss why. And explore the real opportunities and limitations of this stack. With Garth Brantley, Francois Nadeau, Kevin Green, and Tim Brown.\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
+  "duration": {
+    "minutes": 31,
+    "seconds": 22
+  },
   "id": "oRG1E0xLB4U",
-  "position": 3,
-  "publishedAt": 1556317259,
+  "publishedAt": 1556317135,
+  "ranking": {
+    "likes": 57,
+    "views": 2710
+  },
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/oRG1E0xLB4U/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/oRG1E0xLB4U/sddefault.jpg",

@@ -1,8 +1,25 @@
 {
   "description": "The JAMstack approach is powering big projects for major brands at scale. But is it just one more approach or is it the enduring future of how websites are built and delivered? Matt Biilmann, CEO of Netlify, talks about the unique power of the JAMstack approach to speed up the performance of the open web—including what that means in the new landscape of billions of varied devices. While JavaScript and APIs are a big part of the JAMstack, perhaps the best gains for both users and developers come from moving as much of the compute work out of the request path and into a dedicated build step. https://www.netlify.com",
+  "duration": {
+    "minutes": 32,
+    "seconds": 58
+  },
   "id": "LnYrJ7X00XM",
-  "position": 1,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571256550,
+  "ranking": {
+    "likes": 42,
+    "views": 2639
+  },
+  "tags": [
+    "JamConf_2019",
+    "Keynote",
+    "Announcment",
+    "Netlify",
+    "JAMstack",
+    "Build",
+    "Automation",
+    "Matt Biilmann"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/LnYrJ7X00XM/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/LnYrJ7X00XM/sddefault.jpg",

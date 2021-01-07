@@ -1,8 +1,15 @@
 {
   "description": "On March 4, 2020, we started a couple of spreadsheets to collect COVID-19 data—just until the CDC stepped up. Three months, two websites, and two million API requests later, we're still doing it every day—and our data used by nearly every major newsroom in the world, dozens of disease-modeling and research projects, and several divisions of the US government.",
+  "duration": {
+    "minutes": 19,
+    "seconds": 48
+  },
   "id": "ryngYoHXNfQ",
-  "position": 0,
-  "publishedAt": 1590606079,
+  "publishedAt": 1590611821,
+  "ranking": {
+    "likes": 90,
+    "views": 2967
+  },
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/ryngYoHXNfQ/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/ryngYoHXNfQ/sddefault.jpg",

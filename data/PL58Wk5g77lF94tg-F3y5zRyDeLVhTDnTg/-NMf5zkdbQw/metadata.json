@@ -1,8 +1,32 @@
 {
   "description": "Evan You, creator of Vue.js talks about the latest Vue 3.0 release. Vue 3.0 is a complete rewrite including many new features and tools, improved developer experience, improved performance and unlocks new capabilities for the Jamstack. \n\nLearn more about Vue.js: https://twitter.com/vuejs , https://v3.vuejs.org/\n\nPresented by Evan You, Creator and Team Lead for Vue https://twitter.com/youyuxi, https://evanyou.me/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "duration": {
+    "minutes": 2,
+    "seconds": 54
+  },
   "id": "-NMf5zkdbQw",
-  "position": 19,
-  "publishedAt": 1603207716,
+  "publishedAt": 1603208144,
+  "ranking": {
+    "likes": 26,
+    "views": 531
+  },
+  "tags": [
+    "Jamstack",
+    "jamstackconf",
+    "virtual conference",
+    "developer experience",
+    "vue.js",
+    "vue",
+    "vue 3.0",
+    "entrepreneur",
+    "web performance",
+    "webdev",
+    "developer",
+    "complex logic",
+    "framework",
+    "API",
+    "tech releases"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/-NMf5zkdbQw/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/-NMf5zkdbQw/sddefault.jpg",

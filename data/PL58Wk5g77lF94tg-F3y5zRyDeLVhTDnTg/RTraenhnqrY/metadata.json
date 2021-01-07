@@ -1,8 +1,28 @@
 {
   "description": "In this JamSnack, you'll learn what's new in Angular. Stephen Fluin, Dev Advocate for Angular at Google, talks about exciting updates for the project, including a first ever roadmap published, and open source Jamstack tool called Scully, and Angular Universal. \n\nLearn more about Angular: https://twitter.com/angular , https://angular.io/\n\nPresented by Stephen Fluin, Developer Advocate for Angular, Google, https://twitter.com/stephenfluin, https://fluin.io/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "duration": {
+    "minutes": 2,
+    "seconds": 1
+  },
   "id": "RTraenhnqrY",
-  "position": 17,
-  "publishedAt": 1603201225,
+  "publishedAt": 1603201268,
+  "ranking": {
+    "likes": 10,
+    "views": 282
+  },
+  "tags": [
+    "jamstack",
+    "jamstackconf",
+    "virtual conference",
+    "google",
+    "angular",
+    "scully",
+    "angular universal",
+    "tech road map",
+    "Stephen Fluin",
+    "conference talk",
+    "jamsnack"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/RTraenhnqrY/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/RTraenhnqrY/sddefault.jpg",

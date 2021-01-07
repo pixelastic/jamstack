@@ -1,8 +1,29 @@
 {
   "description": "Jessica Parsons from Netlify gives an update on Netlify Build Plugins and some of the partners such as Algolia, Nimbella and Snyk that have recently launched new build plugins and integrations.\n\nPresented by Jessica Parsons, Product Manager, Netlify - https://twitter.com/VeryThorough | https://www.verythorough.com/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "duration": {
+    "minutes": 11,
+    "seconds": 26
+  },
   "id": "U_JPafSqkaE",
-  "position": 2,
-  "publishedAt": 1601950941,
+  "publishedAt": 1602014407,
+  "ranking": {
+    "likes": 9,
+    "views": 740
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webbed",
+    "netlify edge",
+    "netlify background functions",
+    "netlify build plugins"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/U_JPafSqkaE/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/U_JPafSqkaE/hqdefault.jpg",

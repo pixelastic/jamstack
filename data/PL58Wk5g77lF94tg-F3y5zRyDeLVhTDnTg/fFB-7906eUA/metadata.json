@@ -1,8 +1,30 @@
 {
   "description": "Tara Z. Manicsic give a preview of Scully v1, the only Angular static site generator. \n\nFree webinar to learn how to get started with Scully: https://thinkster.io/tutorials/scully-webinar-building-the-fastest-angular-apps-possible\n\nWatch the Scully office hours with core team: https://www.youtube.com/watch?v=pMNrJX6RI4s&ab_channel=HeroDevs\n\nLearn more about Scully: https://twitter.com/ScullyIO , https://scully.io/, https://jamstack.org/generators/scully/\n\nPresented by Tara Z Manicsic, Developer Experience at Netlify and Angluar Google Developer Expert, https://twitter.com/Tzmanics\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "duration": {
+    "minutes": 2,
+    "seconds": 48
+  },
   "id": "fFB-7906eUA",
-  "position": 20,
-  "publishedAt": 1603210052,
+  "publishedAt": 1603210087,
+  "ranking": {
+    "likes": 9,
+    "views": 380
+  },
+  "tags": [
+    "jamstack",
+    "jamstackconf",
+    "virtual conference",
+    "scully",
+    "angular",
+    "google",
+    "google developer",
+    "google developer expert",
+    "framework",
+    "static site generator",
+    "webinar",
+    "tech release",
+    "netlify"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/fFB-7906eUA/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/fFB-7906eUA/sddefault.jpg",

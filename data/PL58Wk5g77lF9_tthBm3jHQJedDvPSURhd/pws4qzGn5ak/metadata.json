@@ -1,8 +1,15 @@
 {
   "description": "This talk will be a mix bag of tips, techniques and code samples to improve your core JavaScript understanding and make you a more confident web developer. We will dive into the Modern Dom, data massaging techniques, flow control, async Javascript and some neat stuff in the future of JavaScript. Get ready to slam dunk JavaScript.\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
+  "duration": {
+    "minutes": 42,
+    "seconds": 15
+  },
   "id": "pws4qzGn5ak",
-  "position": 6,
-  "publishedAt": 1556317259,
+  "publishedAt": 1556317144,
+  "ranking": {
+    "likes": 1100,
+    "views": 32740
+  },
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/pws4qzGn5ak/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/pws4qzGn5ak/sddefault.jpg",

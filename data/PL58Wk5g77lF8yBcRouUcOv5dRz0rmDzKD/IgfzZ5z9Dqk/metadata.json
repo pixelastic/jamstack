@@ -1,8 +1,24 @@
 {
   "description": "Join one of WeWork's first hires on a 2-person engineering team in 2012 on his journey & decisions that helped shape the global footprint of it's marketing website and its massive growth.\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
+  "duration": {
+    "minutes": 23,
+    "seconds": 29
+  },
   "id": "IgfzZ5z9Dqk",
-  "position": 4,
-  "publishedAt": 1564509323,
+  "publishedAt": 1564518541,
+  "ranking": {
+    "likes": 6,
+    "views": 601
+  },
+  "tags": [
+    "wework",
+    "jamstack",
+    "jamstackconf",
+    "jamstack_conf",
+    "serverless",
+    "multi-cloud",
+    "netlify"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/IgfzZ5z9Dqk/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/IgfzZ5z9Dqk/sddefault.jpg",

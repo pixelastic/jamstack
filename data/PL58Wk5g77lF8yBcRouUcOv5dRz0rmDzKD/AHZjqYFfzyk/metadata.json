@@ -1,8 +1,26 @@
 {
   "description": "Recorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
+  "duration": {
+    "minutes": 8,
+    "seconds": 39
+  },
   "id": "AHZjqYFfzyk",
-  "position": 7,
-  "publishedAt": 1564509323,
+  "publishedAt": 1564518545,
+  "ranking": {
+    "likes": 42,
+    "views": 2148
+  },
+  "tags": [
+    "jamstack",
+    "jamstack_conf",
+    "jamstack conf",
+    "react",
+    "vue",
+    "stackbit",
+    "netlify",
+    "serverless",
+    "multi-cloud"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/AHZjqYFfzyk/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/AHZjqYFfzyk/sddefault.jpg",

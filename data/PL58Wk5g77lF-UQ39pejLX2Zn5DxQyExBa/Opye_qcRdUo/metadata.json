@@ -1,8 +1,16 @@
 {
   "description": "Phil is Head of Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites. With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "duration": {
+    "minutes": 7,
+    "seconds": 0
+  },
   "id": "Opye_qcRdUo",
-  "position": 0,
-  "publishedAt": 1542605900,
+  "publishedAt": 1542238841,
+  "ranking": {
+    "likes": 64,
+    "views": 3756
+  },
+  "tags": ["jamstack", "jamstack conf", "netlify"],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/Opye_qcRdUo/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/Opye_qcRdUo/sddefault.jpg",

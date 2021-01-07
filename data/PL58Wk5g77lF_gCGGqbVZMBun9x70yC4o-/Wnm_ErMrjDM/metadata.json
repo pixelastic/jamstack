@@ -1,8 +1,16 @@
 {
   "description": "Learn how to build a headless ecommerce website using Gatsby, Netlify, and BigCommerce (full in-depth blog tutorial here: https://www.netlify.com/blog/2020/02/21/building-a-jamstack-ecommerce-storefront-with-bigcommerce-netlify/). \n\nAshley McKemie of BigCommerce will walk through a demo of building an e-commerce storefront using their Gatsby starter app, which includes core commerce functionality such as cart and checkout. You'll also learn how to enable more sophisticated use cases, such as international sites, and how BigCommerce is enabling the JAMstack and developers.\n\nThere are a number of use cases for building a website on the JAMstack, but the value that static sites provides is especially compelling for companies selling online. Ecommerce is already a significant portion of retail sales, with Statista reporting that global ecommerce sales were 14% of the total global retail sales. This number is predicted to rise to 16% in 2020, reaching $4.2 billion in sales in the global market.\n\nHeadless commerce is the decoupling of the frontend presentation layer that the shopper sees from the backend commerce functionality that enables merchants to drive the shopper flows, such as checking out or returning products.\n\nCheck out the full tutorial accompanying this video https://www.netlify.com/blog/2020/02/21/building-a-jamstack-ecommerce-storefront-with-bigcommerce-netlify/#tutorial-using-the-starter-plugin to develop this headless commerce site.",
+  "duration": {
+    "minutes": 19,
+    "seconds": 2
+  },
   "id": "Wnm_ErMrjDM",
-  "position": 0,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571277637,
+  "ranking": {
+    "likes": 126,
+    "views": 6626
+  },
+  "tags": ["JamConf_2019", "Ashley McKime"],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/Wnm_ErMrjDM/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/Wnm_ErMrjDM/sddefault.jpg",

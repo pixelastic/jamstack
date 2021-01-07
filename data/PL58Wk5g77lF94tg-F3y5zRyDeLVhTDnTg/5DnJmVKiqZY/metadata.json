@@ -1,8 +1,31 @@
 {
   "description": "In this JamSnack, you'll learn what's new in Next.js. Next expert Cassidy Williams talks about exciting updates for the project, including some of their favorite features such as React Fast Refresh and new ways to build with Next on Netlify package. \n\nLearn more about Next.js: https://nextjs.org/, https://jamstack.org/generators/next/\n\nPresented by Cassidy Williams, Principal Developer Experience Engineer at Netlify, https://github.com/cassidoo , https://twitter.com/cassidoo , https://cassidoo.co/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "duration": {
+    "minutes": 3,
+    "seconds": 7
+  },
   "id": "5DnJmVKiqZY",
-  "position": 22,
-  "publishedAt": 1603216114,
+  "publishedAt": 1603216174,
+  "ranking": {
+    "likes": 27,
+    "views": 773
+  },
+  "tags": [
+    "jamstack",
+    "jamstack conf",
+    "virtual conference",
+    "jamsnack",
+    "cassidy williams",
+    "cassidoo",
+    "next.js",
+    "framework",
+    "developer",
+    "webdev",
+    "dev experience",
+    "react",
+    "netlify",
+    "next on netlify"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/5DnJmVKiqZY/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/5DnJmVKiqZY/sddefault.jpg",

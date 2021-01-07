@@ -1,8 +1,27 @@
 {
   "description": "An update on the evolving tools, potential, ecosystem, and community associated with the JAMstack.\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
+  "duration": {
+    "minutes": 23,
+    "seconds": 48
+  },
   "id": "COAVmST41Q0",
-  "position": 0,
-  "publishedAt": 1564509323,
+  "publishedAt": 1564518548,
+  "ranking": {
+    "likes": 293,
+    "views": 8076
+  },
+  "tags": [
+    "jamstack",
+    "jamstackconf",
+    "jamstack_conf",
+    "react",
+    "vue",
+    "angular",
+    "front-end",
+    "serverless",
+    "multi-cloud",
+    "netlify"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/COAVmST41Q0/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/COAVmST41Q0/sddefault.jpg",

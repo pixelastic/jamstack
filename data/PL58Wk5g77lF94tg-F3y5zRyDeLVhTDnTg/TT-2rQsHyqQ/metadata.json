@@ -1,8 +1,32 @@
 {
   "description": "With web traffic becoming predominantly mobile, performance is a priority in development. With one click, developers can now generate a Lighthouse performance report and score. - But what of the scores that don’t attain 100? - Do you understand the granularities of the given grade? ‘… And Performance For All.’ is a talk about the subtleties of the Lighthouse performance score, understanding the speed metrics and how to parse the remainder of the performance audit to improve page loads and UX.\n\nCheck out the accompanying slides: https://bit.ly/jamstack_henris_deck (there's loads of links/resources throughout this resource).\n\nFollow Henri: https://twitter.com/HenriHelvetica",
+  "duration": {
+    "minutes": 10,
+    "seconds": 54
+  },
   "id": "TT-2rQsHyqQ",
-  "position": 12,
-  "publishedAt": 1601965184,
+  "publishedAt": 1601977501,
+  "ranking": {
+    "likes": 44,
+    "views": 912
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "performance",
+    "web performance",
+    "lighthouse score",
+    "user experience",
+    "ux",
+    "developer experience"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/TT-2rQsHyqQ/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/TT-2rQsHyqQ/hqdefault.jpg",

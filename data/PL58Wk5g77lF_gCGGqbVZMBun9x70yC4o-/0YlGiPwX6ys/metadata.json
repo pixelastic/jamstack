@@ -1,8 +1,24 @@
 {
   "description": "Let's have some fun! Chris and Dave will take us home with a live recording of their popular podcast about development, design, performance, accessibility, tooling, a little bit of everything!",
+  "duration": {
+    "minutes": 38,
+    "seconds": 38
+  },
   "id": "0YlGiPwX6ys",
-  "position": 24,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571439141,
+  "ranking": {
+    "likes": 23,
+    "views": 1350
+  },
+  "tags": [
+    "JamConf_2019",
+    "podcast",
+    "discussion",
+    "web development tooling",
+    "Chris Coyier",
+    "CSS-Tricks and Dave Rupert",
+    "Paravel"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/0YlGiPwX6ys/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/0YlGiPwX6ys/sddefault.jpg",

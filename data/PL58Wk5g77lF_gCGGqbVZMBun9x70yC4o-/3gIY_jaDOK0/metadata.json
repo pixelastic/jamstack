@@ -1,8 +1,23 @@
 {
   "description": "",
+  "duration": {
+    "minutes": 28,
+    "seconds": 28
+  },
   "id": "3gIY_jaDOK0",
-  "position": 22,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571357689,
+  "ranking": {
+    "likes": 63,
+    "views": 2788
+  },
+  "tags": [
+    "JamConf_2019",
+    "Design systems",
+    "frameworks",
+    "technical architecture",
+    "Nicole Sullivan",
+    "Google"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/3gIY_jaDOK0/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/3gIY_jaDOK0/sddefault.jpg",

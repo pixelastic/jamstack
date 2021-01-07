@@ -1,8 +1,16 @@
 {
   "description": "Breaking news, announcements and releases from the JAMstack ecosystem",
+  "duration": {
+    "minutes": 10,
+    "seconds": 29
+  },
   "id": "ov9nZ2uBr2A",
-  "position": 21,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571362965,
+  "ranking": {
+    "likes": 24,
+    "views": 952
+  },
+  "tags": ["JamConf_2019", "Andrew Sprouse", "TakeShape"],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/ov9nZ2uBr2A/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/ov9nZ2uBr2A/sddefault.jpg",

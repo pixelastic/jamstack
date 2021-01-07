@@ -1,8 +1,33 @@
 {
   "description": "More information coming soon.\n\n---\n\nMatt Biilmann, Netlify\n- https://twitter.com/biilmann\n- https://www.netlify.com/authors/matt-biilmann/\n- https://en.wikipedia.org/wiki/Netlify",
+  "duration": {
+    "minutes": 23,
+    "seconds": 43
+  },
   "id": "w9yrrQBBKos",
-  "position": 1,
-  "publishedAt": 1590549565,
+  "publishedAt": 1590587101,
+  "ranking": {
+    "likes": 113,
+    "views": 8162
+  },
+  "tags": [
+    "jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cms",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "matt biilmann",
+    "netlify ceo",
+    "ceo",
+    "founder",
+    "entrepreneur",
+    "netlify build plugins",
+    "netlify edge"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/w9yrrQBBKos/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/w9yrrQBBKos/sddefault.jpg",

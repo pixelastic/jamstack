@@ -1,8 +1,16 @@
 {
   "description": "Breaking news, announcements and releases from the JAMstack ecosystem",
+  "duration": {
+    "minutes": 12,
+    "seconds": 40
+  },
   "id": "Ntnl_8lUPQc",
-  "position": 20,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571355787,
+  "ranking": {
+    "likes": 10,
+    "views": 761
+  },
+  "tags": ["JamConf_2019", "Adam Conn", "Uniform"],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/Ntnl_8lUPQc/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/Ntnl_8lUPQc/sddefault.jpg",

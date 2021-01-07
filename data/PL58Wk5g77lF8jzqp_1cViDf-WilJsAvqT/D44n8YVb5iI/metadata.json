@@ -1,8 +1,36 @@
 {
   "description": "David Calavera, CTO at Netlify, previews Edge Handlers which will allow you to run code directly on the edge server to handle things like custom authentication patterns, localization and personalization.\n\nYou can learn more about Edge Handlers and sign up to be notified when the beta is available at https://www.netlify.com/products/edge/edge-handlers/",
+  "duration": {
+    "minutes": 8,
+    "seconds": 50
+  },
   "id": "D44n8YVb5iI",
-  "position": 2,
-  "publishedAt": 1590610038,
+  "publishedAt": 1590611816,
+  "ranking": {
+    "likes": 30,
+    "views": 1679
+  },
+  "tags": [
+    "jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cms",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "cto",
+    "serverless",
+    "javascript",
+    "serverless edge",
+    "edge computing",
+    "software",
+    "saas",
+    "cloud computing",
+    "paas",
+    "platform"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/D44n8YVb5iI/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/D44n8YVb5iI/sddefault.jpg",

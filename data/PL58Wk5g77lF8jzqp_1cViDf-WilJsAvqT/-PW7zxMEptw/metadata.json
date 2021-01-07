@@ -1,8 +1,27 @@
 {
   "description": "More information coming soon.",
+  "duration": {
+    "minutes": 11,
+    "seconds": 4
+  },
   "id": "-PW7zxMEptw",
-  "position": 5,
-  "publishedAt": 1590610267,
+  "publishedAt": 1590611811,
+  "ranking": {
+    "likes": 16,
+    "views": 1173
+  },
+  "tags": [
+    "jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cms",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "prismic"
+  ],
   "thumbnails": {
     "medium": "https://i.ytimg.com/vi/-PW7zxMEptw/hqdefault.jpg",
     "small": "https://i.ytimg.com/vi/-PW7zxMEptw/mqdefault.jpg",

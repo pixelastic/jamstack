@@ -1,8 +1,33 @@
 {
   "description": "In this JamSnack, you'll learn all about Redwood.js features and the growing community behind the project.\n\nLearn more about Redwood.js: https://twitter.com/redwoodjs , https://redwoodjs.com/\n\nPresented by Tom Preston-Werner, Creator of Redwood.js https://twitter.com/mojombo, https://tom.preston-werner.com/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "duration": {
+    "minutes": 2,
+    "seconds": 20
+  },
   "id": "EWQJuXlvoiQ",
-  "position": 21,
-  "publishedAt": 1603215227,
+  "publishedAt": 1603215376,
+  "ranking": {
+    "likes": 16,
+    "views": 413
+  },
+  "tags": [
+    "jamstack",
+    "jamstack conf",
+    "virtual conference",
+    "jamsnack",
+    "tom preston werner",
+    "tom preston-werner",
+    "redwood.js",
+    "framework",
+    "open source",
+    "developer",
+    "webdev",
+    "webdeveloper",
+    "entrepreneur",
+    "github",
+    "founder",
+    "ceo"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/EWQJuXlvoiQ/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/EWQJuXlvoiQ/sddefault.jpg",

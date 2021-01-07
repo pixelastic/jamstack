@@ -1,8 +1,24 @@
 {
   "description": "Breaking news, announcements and releases from the JAMstack ecosystem",
+  "duration": {
+    "minutes": 12,
+    "seconds": 5
+  },
   "id": "fsscw6Viv_c",
-  "position": 6,
-  "publishedAt": 1571424546,
+  "publishedAt": 1571277660,
+  "ranking": {
+    "likes": 48,
+    "views": 1673
+  },
+  "tags": [
+    "JamConf_2019",
+    "Announcements",
+    "JAMstack",
+    "Automation",
+    "Integration",
+    "Ohad Eder-Pressman",
+    "Stackbit"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/fsscw6Viv_c/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/fsscw6Viv_c/sddefault.jpg",

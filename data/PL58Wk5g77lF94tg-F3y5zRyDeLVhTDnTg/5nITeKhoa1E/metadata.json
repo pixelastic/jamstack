@@ -1,8 +1,34 @@
 {
   "description": "Most enterprises are using legacy systems and struggle with fast time to market, performance and cost of infrastructure. Jamstack provides a painkiller for these struggles. In this session, we'll share how several enterprise customers have started to incorporate Jamstack into their digital experience platform architecture. \nLearn: \n-How Klepierre, Europe’s second-biggest publicly traded mall operator are using Jamstack at scale to mange 98 sites and see increased performance gains and cost savings. \n-How Jamstack makes personalization faster and available at scale. \n-How marketing capabilities can be used on the Jamstack to enable personalization with Netlify, Gatsby and Contentful.",
+  "duration": {
+    "minutes": 20,
+    "seconds": 26
+  },
   "id": "5nITeKhoa1E",
-  "position": 5,
-  "publishedAt": 1601964221,
+  "publishedAt": 1602017101,
+  "ranking": {
+    "likes": 35,
+    "views": 1587
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "enterprise",
+    "enterprise technology",
+    "klepierre",
+    "retail",
+    "ecommerce",
+    "personalization",
+    "gatsby",
+    "contentful"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/5nITeKhoa1E/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/5nITeKhoa1E/hqdefault.jpg",

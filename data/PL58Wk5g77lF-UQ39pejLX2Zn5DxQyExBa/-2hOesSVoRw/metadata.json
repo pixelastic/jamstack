@@ -1,8 +1,16 @@
 {
   "description": "Three decades ago, the Web was invented as a tool for academic publishing. But in spite of these origins, “digital publishing” has long struggled to catch up to the feature-set of the printed books and journals that came before — especially in the academic world, where long-term persistence and cite-ability are crucial. Scholarly research unfolds over years, sometimes decades — but the average website is lucky to last 5 years. How much of what we create on the web today will exist in any form 10, 20, or 50 years in the future? In a web full of clickbait, ad-tracking, and proprietary “solutions”, is it still possible to create works of lasting value?\n\nIn this talk, I'd like to share my experience of escaping this paradox with the technology of the “JAM stack”.\n\nBetween 2014 and 2018, I worked as a software developer at the J. Paul Getty Museum – a major art museum in Los Angeles. As part of the museum's digital publications team, one of our main projects was to develop a plan to publish the museum’s collection catalogues in a digital format. After a few bad experiences trying to shoe-horn academic publications into a traditional CMS, we decided to take a different approach: we would develop our digital books with static site generator technology, but provide compelling interactive features on the client-side using Javascript. By utilizing CSS3's paged-media module and print-on-demand technology, we were able to come full-circle by automatically generating printed books from the same markdown files which powered the website.\n\nBy ditching proprietary “digital publishing” software in favor of the open-source tools of the JAM stack, I believe we can best serve authors and readers (both today and in future generations), while still providing a dynamic and engaging reading experience for users right now.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "duration": {
+    "minutes": 11,
+    "seconds": 48
+  },
   "id": "-2hOesSVoRw",
-  "position": 10,
-  "publishedAt": 1542606580,
+  "publishedAt": 1542605953,
+  "ranking": {
+    "likes": 18,
+    "views": 405
+  },
+  "tags": ["static sites", "jamstack", "jamstack conf", "netlify"],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/-2hOesSVoRw/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/-2hOesSVoRw/sddefault.jpg",

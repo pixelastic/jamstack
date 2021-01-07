@@ -1,8 +1,30 @@
 {
   "description": "",
+  "duration": {
+    "minutes": 7,
+    "seconds": 47
+  },
   "id": "zbdfqfn1yiM",
-  "position": 11,
-  "publishedAt": 1601965111,
+  "publishedAt": 1602017102,
+  "ranking": {
+    "likes": 25,
+    "views": 662
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "Algolia",
+    "search",
+    "search optimization",
+    "build plugin"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/zbdfqfn1yiM/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/zbdfqfn1yiM/hqdefault.jpg",

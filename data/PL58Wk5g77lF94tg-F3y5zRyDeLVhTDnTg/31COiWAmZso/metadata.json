@@ -1,8 +1,27 @@
 {
   "description": "",
+  "duration": {
+    "minutes": 11,
+    "seconds": 59
+  },
   "id": "31COiWAmZso",
-  "position": 9,
-  "publishedAt": 1601964931,
+  "publishedAt": 1602015300,
+  "ranking": {
+    "likes": 10,
+    "views": 604
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "product launch"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/31COiWAmZso/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/31COiWAmZso/hqdefault.jpg",

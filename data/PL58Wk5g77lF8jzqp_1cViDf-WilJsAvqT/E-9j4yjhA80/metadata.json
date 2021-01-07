@@ -1,8 +1,31 @@
 {
   "description": "Jamstack is gaining its space within the web development community. In general, web developers understand its benefits and more and more companies are experimenting with it. The idea of this lightning talk is to share our experience in using Jamstack to provide better businesses results to our partners and to have a positive impact in our community.",
+  "duration": {
+    "minutes": 10,
+    "seconds": 46
+  },
   "id": "E-9j4yjhA80",
-  "position": 8,
-  "publishedAt": 1590610573,
+  "publishedAt": 1590611801,
+  "ranking": {
+    "likes": 33,
+    "views": 1355
+  },
+  "tags": [
+    "jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cms",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "enterprise technology",
+    "saas",
+    "software",
+    "b2b",
+    "business jamstack"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/E-9j4yjhA80/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/E-9j4yjhA80/sddefault.jpg",

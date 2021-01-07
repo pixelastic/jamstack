@@ -1,8 +1,28 @@
 {
   "description": "",
+  "duration": {
+    "minutes": 10,
+    "seconds": 40
+  },
   "id": "j2C0SIJFlv8",
-  "position": 13,
-  "publishedAt": 1601965532,
+  "publishedAt": 1602009002,
+  "ranking": {
+    "likes": 26,
+    "views": 739
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "chris biscardi",
+    "product launch"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/j2C0SIJFlv8/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/j2C0SIJFlv8/hqdefault.jpg",

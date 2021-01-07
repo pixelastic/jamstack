@@ -1,8 +1,26 @@
 {
   "description": "This talk will be about Preact-cli’s third major release. Every PWA built or started with preact-cli so far has been promised with a perfect 💯lighthouse score. This talk will be about how the next version will improve the perf of the web apps even further.\n\nIn the next version, preact-cli will give you much more than perfect 💯 lighthouse score. It will do this by boosting all the existing high-scoring metrics like TTI, first paint time etc by adding a bunch of features.\n\nIn this talk Prateek will demo how does cli enables stuff like modern js delivery, better compression, asset inlings and bunch of more advanced web techniques with simple steps. Also how does it safeguard you from making most common mistakes in web dev.\n\nThis talk will also showcase how preact-cli is not only a bootstrap tool but prevents the dev from using any anti perf practices throughout the development.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "duration": {
+    "minutes": 24,
+    "seconds": 13
+  },
   "id": "-KVm3tRlqg4",
-  "position": 3,
-  "publishedAt": 1542606353,
+  "publishedAt": 1542237364,
+  "ranking": {
+    "likes": 14,
+    "views": 1052
+  },
+  "tags": [
+    "preact",
+    "preact-cli",
+    "react",
+    "jamstack",
+    "jamstack conf",
+    "netlify",
+    "google",
+    "progressive web apps",
+    "pwa"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/-KVm3tRlqg4/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/-KVm3tRlqg4/sddefault.jpg",

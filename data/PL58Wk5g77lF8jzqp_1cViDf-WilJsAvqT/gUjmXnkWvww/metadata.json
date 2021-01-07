@@ -1,8 +1,15 @@
 {
   "description": "When your ticketing platform and payment provider can't keep up with the demand for your event, you have a problem. A nice problem to have, but a problem nonetheless. JAMstack/serverless to the rescue! This talk showcases the custom serverless ticketshop I created for an event that sold out in seconds. By connecting serverless staples like Amazon API Gateway, Lambda functions, Cloudflare and Netlify (and a few you may not have heard of, yet) a ticketshop was built to handle thousands of requests per second, selling hundreds of tickets per minute but dealing with zero servers. And zero frameworks. And even zero cookies.\n\nWith this talk I would like to demonstrate that even \"complex\", multi-step e-commerce workflows, like for an event ticketshop, can be built using readily available platforms and services.",
+  "duration": {
+    "minutes": 10,
+    "seconds": 17
+  },
   "id": "gUjmXnkWvww",
-  "position": 4,
-  "publishedAt": 1590610013,
+  "publishedAt": 1590611837,
+  "ranking": {
+    "likes": 59,
+    "views": 2532
+  },
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/gUjmXnkWvww/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/gUjmXnkWvww/sddefault.jpg",

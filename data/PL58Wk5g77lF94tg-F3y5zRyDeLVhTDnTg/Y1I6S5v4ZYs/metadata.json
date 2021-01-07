@@ -1,8 +1,26 @@
 {
   "description": "In this JamSnack, you'll learn more about 11ty - a static site generator tht you can use to transform any data into a website. Zach Leatherman, creator of 11ty, talks about an upcoming  11ty v1.0 release that makes it even faster with new build performance contributions from the community, plug-in hooks and incremental builds. \n\nLearn more about 11ty: https://twitter.com/eleven_ty , https://www.11ty.dev/, https://jamstack.org/generators/eleventy/\n\nPresented by Zach Leatherman, Creator of 11ty, https://twitter.com/zachleat \n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
+  "duration": {
+    "minutes": 2,
+    "seconds": 32
+  },
   "id": "Y1I6S5v4ZYs",
-  "position": 16,
-  "publishedAt": 1603200234,
+  "publishedAt": 1603200315,
+  "ranking": {
+    "likes": 30,
+    "views": 664
+  },
+  "tags": [
+    "11ty",
+    "eleventy",
+    "static site generator",
+    "jamstack",
+    "jamstackconf",
+    "virtual conference",
+    "websites",
+    "webdev",
+    "developer"
+  ],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/Y1I6S5v4ZYs/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/Y1I6S5v4ZYs/sddefault.jpg",

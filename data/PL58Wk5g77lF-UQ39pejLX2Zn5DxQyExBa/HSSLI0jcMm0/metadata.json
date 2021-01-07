@@ -1,8 +1,16 @@
 {
   "description": "Recorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
+  "duration": {
+    "minutes": 29,
+    "seconds": 34
+  },
   "id": "HSSLI0jcMm0",
-  "position": 17,
-  "publishedAt": 1542606811,
+  "publishedAt": 1542605954,
+  "ranking": {
+    "likes": 33,
+    "views": 1529
+  },
+  "tags": ["jamstack", "jamstack conf", "netlify"],
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/HSSLI0jcMm0/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/HSSLI0jcMm0/sddefault.jpg",

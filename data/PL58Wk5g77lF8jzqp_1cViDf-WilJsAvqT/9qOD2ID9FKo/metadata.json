@@ -1,8 +1,15 @@
 {
   "description": "At Jamstack Conf Virtual on May 27, 2020, ecosystem panelists spoke with press and analysts about the state of Jamstack, which is one of the fastest growing architectures for building fast and secure websites.\n\nSpeakers include (top row, left to right): Cassidy Williams, principal developer experience engineer, Netlify (moderator), Ohad Eder-Pressman, CEO and co-founder, Stackbit, Matt Biilmann, CEO and co-founder, Netlify\n (Bottom row, left to right): Sarah Drasner, VP of developer experience, Netlify, Tom Preston-Wener, creator of RedwoodJS and co-founder of GitHub",
+  "duration": {
+    "minutes": 56,
+    "seconds": 18
+  },
   "id": "9qOD2ID9FKo",
-  "position": 11,
-  "publishedAt": 1594145006,
+  "publishedAt": 1594144965,
+  "ranking": {
+    "likes": 4,
+    "views": 186
+  },
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/9qOD2ID9FKo/maxresdefault.jpg",
     "large": "https://i.ytimg.com/vi/9qOD2ID9FKo/sddefault.jpg",

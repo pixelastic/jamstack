@@ -1,8 +1,32 @@
 {
   "description": "Adding a search engine to your new Jamstack project is often the first dynamic functionality on your TODO list. So, how do you help people find what they're looking for on your website? Let's find out! In this session, Dawid will navigate us through different Jamstack search recipes while exploring the boundaries of pre-rendering (and common sense). You'll learn how to pick the right solution and how to approach dynamic parts of your website in general.",
+  "duration": {
+    "minutes": 20,
+    "seconds": 22
+  },
   "id": "8kMYboWh4kI",
-  "position": 6,
-  "publishedAt": 1601964399,
+  "publishedAt": 1602008101,
+  "ranking": {
+    "likes": 38,
+    "views": 777
+  },
+  "tags": [
+    "Jamstack",
+    "static site",
+    "virtual conference",
+    "jamstackconf",
+    "headless cos",
+    "netlify",
+    "web development",
+    "conference talk",
+    "webdev",
+    "search",
+    "web search",
+    "dynamic website",
+    "search engine",
+    "Dawid Gaweł",
+    "livechat"
+  ],
   "thumbnails": {
     "large": "https://i.ytimg.com/vi/8kMYboWh4kI/sddefault.jpg",
     "medium": "https://i.ytimg.com/vi/8kMYboWh4kI/hqdefault.jpg",
