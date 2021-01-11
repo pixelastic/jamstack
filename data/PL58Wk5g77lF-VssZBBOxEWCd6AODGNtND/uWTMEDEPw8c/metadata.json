@@ -1,14 +1,11 @@
 {
   "description": "The emergence of Git centered workflows, around modern build tools, static site generators, and modern browsers, have changed the way most front-enders work.\n\nMatt Biilmann will cover how a new stack is emerging and how this will change how web sites and web apps are built in the future.",
-  "duration": {
-    "minutes": 30,
-    "seconds": 27
-  },
+  "duration": 1827,
   "id": "uWTMEDEPw8c",
   "publishedAt": 1495831259,
   "ranking": {
-    "likes": 322,
-    "views": 15071
+    "likes": 324,
+    "views": 15098
   },
   "tags": ["JAMstack", "Git", "site generators"],
   "thumbnails": {

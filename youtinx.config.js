@@ -19,7 +19,7 @@ module.exports = {
     indexName: config.algolia.indexName,
     settings: {
       // We manually disable typo on years
-      disableTypoToleranceOnWords: _.times(60, (year) => `${1970 + year}`),
+      disableTypoToleranceOnWords: _.times(50, (year) => `${2000 + year}`),
     },
   },
 };

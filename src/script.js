@@ -1,5 +1,7 @@
 const theme = require('norska/theme');
 const { refinementList } = require('norska/frontend/algolia/widgets');
+const numeral = require('numeral');
+const prettyMs = require('pretty-ms');
 // const lazyloadAttributes = require('norska/frontend/lazyload/attributes');
 
 (async () => {
@@ -18,6 +20,12 @@ const { refinementList } = require('norska/frontend/algolia/widgets');
       },
     ],
     transforms: {
+      displayDuration(item) {
+        return prettyMs(item.video.duration * 1000, { colonNotation: true });
+      },
+      displayViews(item) {
+        return numeral(item.ranking.views).format('Oa');
+      },
       // preview(item) {
       //   const previewUrl = item.picture.preview;
       //   const options = { width: 600, placeholder: { width: 200 } };

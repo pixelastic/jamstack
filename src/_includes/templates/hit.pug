@@ -2,7 +2,9 @@ block content
   a.border-001.border-gray.bg-gray-1.rounded.w-100p(href="https://www.youtube.com/watch?v={{video.id}}&t={{caption.start}}s")
     .relative
       .absolute.inset-0.bg-youtube.bg-no-repeat.bg-center.opacity-0.hover_opacity-75p
-      img(src="{{video.thumbnails.default}}")
+      .absolute.top-0.left-0.bg-black.bg-opacity-50p.white.px-1.py-01 {{video.ranking.views}}
+      .absolute.top-0.right-0.bg-black.bg-opacity-50p.white.px-1.py-01 {{video.duration.minutes}}:{{video.duration.seconds}}
+      img(src="{{video.thumbnails.medium}}")
       .__captions.absolute.bottom-0.right-0.left-0.bg-black.bg-opacity-50p.text-center
         .bold.text-shadow-outline.white.text-2.px-3.pb-1 {{{caption.content}}}
     .px-1.py-02.min-h-6

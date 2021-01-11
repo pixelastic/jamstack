@@ -1,14 +1,11 @@
 {
   "description": "Recorded at JAMstack SF Meetup, November 10th 2016",
-  "duration": {
-    "minutes": 38,
-    "seconds": 0
-  },
+  "duration": 2280,
   "id": "lRg99MH6rhw",
   "publishedAt": 1480509209,
   "ranking": {
     "likes": 26,
-    "views": 1669
+    "views": 1675
   },
   "tags": [
     "jamstack",

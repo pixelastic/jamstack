@@ -1,14 +1,11 @@
 {
   "description": "“Can the Jamstack handle enterprise apps?” \n\nIt can! In this episode, Shruti Kapoor & Jason Lengstorf will explore approaches for enterprise GraphQL + Jamstack apps.\n\n- demo: https://app.mural.co/t/learnwithjason0960/m/learnwithjason0960/1595352236159/b612bb6702461a4ee789699d43cccce8c53fa98a\n\nLinks:\n- https://rickandmortyapi.com/\n- https://www.howtographql.com/\n- https://www.onegraph.com/\n- https://www.learnwithjason.dev/blog/wtf-is-jamstack/\n- https://www.11ty.dev/\n- https://dev.to/philhawksworth/power-up-gatsby-sites-with-a-b-testing-on-netlify-fp4\n- https://jamstack.org/\n- https://www.netlify.com/products/functions/\n- https://frontendmasters.com/workshops/serverless-functions/\n\nWatch future episodes live at https://www.twitch.tv/jlengstorf\n\nCredits:\n\nLocal Elevator by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300012\n\nArtist: http://incompetech.com/\n\nBusybody by Audionautix is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\n\nArtist: http://audionautix.com/\n\nAdditional sound effects obtained from https://www.zapsplat.com",
-  "duration": {
-    "minutes": 91,
-    "seconds": 5
-  },
+  "duration": 5465,
   "id": "UK3ijrlOJl4",
   "publishedAt": 1595439337,
   "ranking": {
-    "likes": 27,
-    "views": 1582
+    "likes": 28,
+    "views": 1590
   },
   "tags": [
     "GraphQL",

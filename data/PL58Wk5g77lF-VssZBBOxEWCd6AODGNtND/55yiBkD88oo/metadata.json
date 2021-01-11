@@ -1,14 +1,11 @@
 {
   "description": "How do you protect sensitive data like API keys on the Jamstack? in this episode, Joyce Lin teaches us how to use Postman to rapidly prototype and develop secure Jamstack apps!\n\n- demo: https://secure-jamstack-api-requests.netlify.app/\n- repo: https://github.com/jlengstorf/secure-jamstack-api-requests\n\nLinks:\n- https://docs.netlify.com/functions/build-with-javascript/?utm_source=learnwithjason&utm_medium=protect-secrets-jl&utm_campaign=devex\n- https://www.postman.com/\n- https://unsplash.com/documentation\n- https://github.com/netlify/cli/blob/master/docs/netlify-dev.md\n- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch\n- https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\n- https://www.twitch.tv/getpostman\n\nWatch future episodes live at https://www.twitch.tv/jlengstorf\n\nCredits:\n\nLocal Elevator by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300012\n\nArtist: http://incompetech.com/\n\nBusybody by Audionautix is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\n\nArtist: http://audionautix.com/\n\nAdditional sound effects obtained from https://www.zapsplat.com",
-  "duration": {
-    "minutes": 88,
-    "seconds": 15
-  },
+  "duration": 5295,
   "id": "55yiBkD88oo",
   "publishedAt": 1588787156,
   "ranking": {
     "likes": 20,
-    "views": 1146
+    "views": 1150
   },
   "tags": [
     "JAMstack",

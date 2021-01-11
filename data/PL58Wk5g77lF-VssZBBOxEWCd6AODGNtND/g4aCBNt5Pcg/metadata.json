@@ -1,14 +1,11 @@
 {
   "description": "In this video, Thorsten Schaeff (https://twitter.com/thorwebdev) teaches Jason how to build an e-commerce store using the new Stripe Checkout.\n\nSee the source at https://github.com/jlengstorf/stripe-ecomm (demo: https://gatsby-stripe-ecomm.netlify.com/)\n\nhttps://stripe.com/docs/payments/checkout\nhttps://github.com/njosefbeck/gatsby-plugin-stripe\nhttps://github.com/njosefbeck/gatsby-source-stripe\n\nWatch future livestreams at https://www.twitch.tv/jlengstorf",
-  "duration": {
-    "minutes": 94,
-    "seconds": 22
-  },
+  "duration": 5662,
   "id": "g4aCBNt5Pcg",
   "publishedAt": 1548357043,
   "ranking": {
-    "likes": 384,
-    "views": 20805
+    "likes": 385,
+    "views": 20893
   },
   "tags": [
     "twitch",

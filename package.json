@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "norska": "1.8.0",
-    "norska-theme-search": "0.0.2"
+    "norska-theme-search": "0.0.2",
+    "numeral": "2.0.6",
+    "pretty-ms": "7.0.1"
   },
   "devDependencies": {
     "aberlaas": "1.14.0",

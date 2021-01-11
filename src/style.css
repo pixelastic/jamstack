@@ -17,3 +17,19 @@
   background-image: url('./assets/youtube-overlay.png');
   background-size: 150px 100px;
 }
+
+.ais-RefinementList-label {
+  @apply pointer;
+}
+.ais-RefinementList-item:hover {
+  @apply underline underline-yellow;
+}
+.ais-RefinementList-item--selected {
+  @apply bold;
+}
+.ais-RefinementList-checkbox {
+  @apply hidden;
+}
+.ais-RefinementList-count {
+  @apply bg-yellow white bold rounded-100p px-01;
+}
