@@ -1,14 +1,11 @@
 {
   "description": "Statically generated sites are the future. Seriously. With frameworks like Nuxt we can build really cool sites that look and feel like a single page application but are actually static generated. That means no need for a server but most importantly performance is amazing. Everything is generated at build time.",
-  "duration": {
-    "minutes": 29,
-    "seconds": 36
-  },
+  "duration": 1776,
   "id": "H793eyVM_04",
   "publishedAt": 1571277682,
   "ranking": {
     "likes": 73,
-    "views": 2335
+    "views": 2336
   },
   "tags": [
     "JamConf_2019",

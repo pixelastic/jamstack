@@ -1,14 +1,11 @@
 {
   "description": "What is a progressive static site? How do they work? Let’s explore the motivations, challenges and API design decisions that went into building React Static. You’ll learn how progressive static site generators work and if React Static is the right tool for your next project!\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
-  "duration": {
-    "minutes": 24,
-    "seconds": 50
-  },
+  "duration": 1490,
   "id": "zYHEAcMLjhs",
   "publishedAt": 1556317142,
   "ranking": {
     "likes": 53,
-    "views": 1780
+    "views": 1781
   },
   "thumbnails": {
     "huge": "https://i.ytimg.com/vi/zYHEAcMLjhs/maxresdefault.jpg",

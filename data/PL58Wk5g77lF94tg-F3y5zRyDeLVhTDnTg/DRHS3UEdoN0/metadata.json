@@ -1,9 +1,6 @@
 {
   "description": "Next.js has a ton of capabilities built in for an awesome developer experience for both indie developers and enterprises alike. One of the best parts of the framework is its powerful router. It can be used for good, or for evil. In this talk, Cassidy will talk about using Next.js with the next-on-netlify package to make some apps that will be loved (or hated) by all. Be prepared to laugh and prank people.",
-  "duration": {
-    "minutes": 15,
-    "seconds": 6
-  },
+  "duration": 906,
   "id": "DRHS3UEdoN0",
   "publishedAt": 1601975700,
   "ranking": {

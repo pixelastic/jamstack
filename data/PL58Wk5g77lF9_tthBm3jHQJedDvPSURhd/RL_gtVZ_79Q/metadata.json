@@ -1,9 +1,6 @@
 {
   "description": "Imagine the productivity boost of being able to locally test your site generator, API integrations, serverless functions, and edge rules, all in a single development server. That’s Netlify Dev: a powerful way to build and test modern web apps on your local machine.\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
-  "duration": {
-    "minutes": 37,
-    "seconds": 47
-  },
+  "duration": 2267,
   "id": "RL_gtVZ_79Q",
   "publishedAt": 1555511429,
   "ranking": {

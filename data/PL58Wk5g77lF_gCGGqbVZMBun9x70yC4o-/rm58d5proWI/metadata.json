@@ -1,14 +1,11 @@
 {
   "description": "Services like Puppeteer give us the power of headless browsers, which give us to power to do things like dynamically capture screenshots of web pages. This can be incredibly useful for creating static image fallbacks of content that would otherwise only be accessible with Javascript enabled.\n\nIn this talk, I’ll show how I used Puppeteer and Cloudinary to create fallback images for the dynamic embed of CanIUse compatibility tables I created. Together we’ll create a tiny microservice that leverages these technologies and we’ll see how it all fits together to create the final product.",
-  "duration": {
-    "minutes": 9,
-    "seconds": 45
-  },
+  "duration": 585,
   "id": "rm58d5proWI",
   "publishedAt": 1571362980,
   "ranking": {
     "likes": 74,
-    "views": 1687
+    "views": 1688
   },
   "tags": [
     "JamConf_2019",

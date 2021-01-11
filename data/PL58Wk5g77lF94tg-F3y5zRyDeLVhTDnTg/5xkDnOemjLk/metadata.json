@@ -1,9 +1,6 @@
 {
   "description": "Join the discussion on how Teespring has handled rapid company growth and the transition from a legacy monolith to a more balanced approach, utilizing the Jamstack. We'll cover the real-world concerns, compromises and pitfalls that arise when deciding to separate and redesign large systems.",
-  "duration": {
-    "minutes": 17,
-    "seconds": 32
-  },
+  "duration": 1052,
   "id": "5xkDnOemjLk",
   "publishedAt": 1602195571,
   "ranking": {

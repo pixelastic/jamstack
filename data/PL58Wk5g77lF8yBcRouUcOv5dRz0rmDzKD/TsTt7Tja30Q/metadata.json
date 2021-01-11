@@ -1,14 +1,11 @@
 {
   "description": "In this session, Surma & Jake will take a JS-driven app and give it a static render, massively improving the time to first render, and time to interactive. They'll go through the useful build tools, and show how to avoid all the gotchas.\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
-  "duration": {
-    "minutes": 39,
-    "seconds": 32
-  },
+  "duration": 2372,
   "id": "TsTt7Tja30Q",
   "publishedAt": 1565706177,
   "ranking": {
     "likes": 249,
-    "views": 6673
+    "views": 6674
   },
   "tags": [
     "jamstack",

@@ -1,14 +1,11 @@
 {
   "description": "You’ve been posting to Medium, Twitter, Facebook, or Instagram. The gardens are walled. The silos are tall.\n\nInevitably when we are beholden to social media, the terms of service for these sites are subject to change. What can we do to protect our stuff and take back our digital social interactions out of these silo’d spaces and move them to places that we control?\n\nWith the IndieWeb and JAMStack, this is not only possible but pretty approachable too.",
-  "duration": {
-    "minutes": 31,
-    "seconds": 47
-  },
+  "duration": 1907,
   "id": "X3SrZuH00GQ",
   "publishedAt": 1571367979,
   "ranking": {
     "likes": 100,
-    "views": 2649
+    "views": 2650
   },
   "tags": [
     "Zach Leatherman",

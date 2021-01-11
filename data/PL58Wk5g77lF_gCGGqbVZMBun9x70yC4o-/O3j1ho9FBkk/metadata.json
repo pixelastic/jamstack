@@ -1,9 +1,6 @@
 {
   "description": "Every JAMstack app at its core does 2 things for users:\n- Reads data from sources (DB, Stripe, Salesforce, Shopify, etc.)\n- Effects the world on their behalf (sending emails, submitting purchases, etc.)\n\nYet combining APIs into a coherent unit is intensely manual & fiddly.\nInstead, let's combine multiple persisted queries in GraphQL to succinctly encompass all of the chaining work.\n\nWe'll build one such sequence to expose as a single call for our JAMstack app that:\n- Takes a domain-name input from a user\n- Purchases the domain\n- Creates a GitHub project\n- Deploys a placeholder on Netlify",
-  "duration": {
-    "minutes": 30,
-    "seconds": 37
-  },
+  "duration": 1837,
   "id": "O3j1ho9FBkk",
   "publishedAt": 1571277707,
   "ranking": {

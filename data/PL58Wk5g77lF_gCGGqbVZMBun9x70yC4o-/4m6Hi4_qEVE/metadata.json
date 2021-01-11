@@ -1,14 +1,11 @@
 {
   "description": "In this 10-minute JAMstack_conf lightning launch, David Wells, Technical Product Manager at Netlify, explains the CI/CD workflow for Netlify Builds and introduces the concept of Netlify Build Plugins. Now developers can extend the functionality of Netlify builds with a programmable interface that hooks into different phases of the build lifecycle. To be part of the private beta, go to https://www.netlify.com/plugins-beta",
-  "duration": {
-    "minutes": 12,
-    "seconds": 43
-  },
+  "duration": 763,
   "id": "4m6Hi4_qEVE",
   "publishedAt": 1571269776,
   "ranking": {
     "likes": 31,
-    "views": 1580
+    "views": 1581
   },
   "tags": [
     "JamConf_2019",

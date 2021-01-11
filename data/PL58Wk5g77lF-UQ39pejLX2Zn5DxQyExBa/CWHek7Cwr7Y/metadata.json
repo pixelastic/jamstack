@@ -1,9 +1,6 @@
 {
   "description": "We will build and deploy a static site that is backed by content on Postgres. We will also setup serverless automation so that whenever content changes on Postgres, we will re-render the site and deploy again with a maximum of one deploy every 5mins.\n\nIn 15 minutes, you will be witness to the raw awesomeness of having the flexibility of a dynamic website backed by a database with performance and scalability of a static website.\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
-  "duration": {
-    "minutes": 12,
-    "seconds": 58
-  },
+  "duration": 778,
   "id": "CWHek7Cwr7Y",
   "publishedAt": 1542605953,
   "ranking": {

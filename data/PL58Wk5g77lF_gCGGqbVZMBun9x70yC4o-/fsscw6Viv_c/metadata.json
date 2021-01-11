@@ -1,9 +1,6 @@
 {
   "description": "Breaking news, announcements and releases from the JAMstack ecosystem",
-  "duration": {
-    "minutes": 12,
-    "seconds": 5
-  },
+  "duration": 725,
   "id": "fsscw6Viv_c",
   "publishedAt": 1571277660,
   "ranking": {

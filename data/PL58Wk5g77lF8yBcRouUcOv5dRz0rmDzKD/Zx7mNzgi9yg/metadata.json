@@ -1,9 +1,6 @@
 {
   "description": "Building websites is a very visual process. The goal often is to make a website that is visually appealing and easy to use. However, we're always building websites with code. Changing margins is done by typing, changing font styles is done by typing, and every change often requires you to wait a while before you can see the result. During this talk I want to explore how we can make our development tooling more visually oriented. What can we do to lower the feedback loop and make it easier to create beautiful websites and apps?\n\nRecorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
-  "duration": {
-    "minutes": 27,
-    "seconds": 34
-  },
+  "duration": 1654,
   "id": "Zx7mNzgi9yg",
   "publishedAt": 1564518530,
   "ranking": {

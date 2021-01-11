@@ -1,9 +1,6 @@
 {
   "description": "In this talk, we’ll learn how one of the world’s largest restaurant chains use JAMstack and structured content to rapidly deliver high-quality user experiences. Restaurant Brands International (Burger King, Tim Hortons, Popeyes) decided back in 2018 to redo their digital services. Teddy Sherrill (CTO) and his team were given the unique opportunity of ditching their technical debt and put together a new stack from the ground up.\n\nThey chose the JAMstack for deploying their user-facing services on Netlify. By leveraging structured content with Sanity.io they were able to tie together ERP-systems with marketing copy behind a unified real-time API. They began the work with only two developers in December 2018. And shipped popeyes.com to production in August 2019, having grown their internal team to 8 devs all while building. \n\nThis talk will give a tasty real-world example of how the modern stack increases speed of delivery, reliability, and efficient re-usability.",
-  "duration": {
-    "minutes": 24,
-    "seconds": 52
-  },
+  "duration": 1492,
   "id": "dKBDUhGi76o",
   "publishedAt": 1571355763,
   "ranking": {

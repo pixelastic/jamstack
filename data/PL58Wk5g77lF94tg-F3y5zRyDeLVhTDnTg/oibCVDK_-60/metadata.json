@@ -1,9 +1,6 @@
 {
   "description": "In this JamSnack, you'll learn about Hugo features and benefits including speed, scalability and stability. \n\nLearn more about Hugo: https://gohugo.io/,  https://jamstack.org/generators/hugo/\n\nPresented by Bud Parr, Founder of The New Dynamic https://twitter.com/budparr, https://www.budparr.com/, https://www.thenewdynamic.com/\n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
-  "duration": {
-    "minutes": 2,
-    "seconds": 26
-  },
+  "duration": 146,
   "id": "oibCVDK_-60",
   "publishedAt": 1603217438,
   "ranking": {

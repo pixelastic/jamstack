@@ -1,9 +1,6 @@
 {
   "description": "Netlify recently opened the build layer, making it possible to add custom functionality to your builds with community-contributed plugins. Meet a few of the community members who built and shared some of the first plugins available. You’ll learn about the plugins they built and see a live demo of how these plugins can improve site performance and lighten development work.",
-  "duration": {
-    "minutes": 38,
-    "seconds": 56
-  },
+  "duration": 2336,
   "id": "YYCCUfJ4ie0",
   "publishedAt": 1592498451,
   "ranking": {

@@ -1,9 +1,6 @@
 {
   "description": "JAMstack is revolutionising the way we think about workflow by providing a simpler developer experience, better performance, lower cost and greater scalability. From JAMstack WTF\n\nI’m going to be the meanie in the room who proposes that the J in your stack might not be as performant as you think, and the metrics you're looking at may be misleading you. But don’t worry! I’m also going to show you where the gotchas are hiding, what metrics to explore, and how to use performance budgets to deliver and maintain the better experience that JAMstack promises.",
-  "duration": {
-    "minutes": 32,
-    "seconds": 49
-  },
+  "duration": 1969,
   "id": "31WieWrYPqc",
   "publishedAt": 1571351907,
   "ranking": {

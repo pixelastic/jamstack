@@ -1,14 +1,11 @@
 {
   "description": "*Okay, no additional server. Your JAMstack site already uses a server - GitLab, GitHub, Bitbucket, etc. You use them via Git.\nYour CMS can, too.\nWe’ll dig into a promising, minimal approach to content management that works the way you do.",
-  "duration": {
-    "minutes": 25,
-    "seconds": 26
-  },
+  "duration": 1526,
   "id": "Y2ak5o0IqLw",
   "publishedAt": 1571348510,
   "ranking": {
     "likes": 121,
-    "views": 4883
+    "views": 4884
   },
   "tags": [
     "JamConf_2019",

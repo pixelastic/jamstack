@@ -1,9 +1,6 @@
 {
   "description": "By definition, a static website does not have a server. Then how, with the JAM stack can we really have a good shopping cart. This talk will have a demo of a system where no dynamic code is written on the server and a fully functional e-commerce website is presented using a static site builder, some APIs and JavaScript.\n\nNot every e-commerce system needs to be as dynamic as Amazon, and therefore should not use the same stack. You can avoid on-call work, constant updates and maintenance efforts when you use a CDN to host your shopping cart and get great performance to go along with it.",
-  "duration": {
-    "minutes": 9,
-    "seconds": 13
-  },
+  "duration": 553,
   "id": "JO48ooTpOOA",
   "publishedAt": 1571278581,
   "ranking": {

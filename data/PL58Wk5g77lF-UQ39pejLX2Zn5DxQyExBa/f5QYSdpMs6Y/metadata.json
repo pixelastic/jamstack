@@ -1,9 +1,6 @@
 {
   "description": "Building a modern web app is pretty complicated! You need to make pretty things! That are fast! But also useful! Ideally offline! And can accommodate many users!\n\nOne way you can simplify this mountain of requirements is to think of your app as a static site, and build it like one. With things like Service Workers, serverless architectures and Firebase authentication, a lot of the features that used to need a server can live entirely on the client side, leaving you with one less thing you need to worry about. Let's do some myth busting and see that static sites can do more than you expect!\n\nRecorded at JAMstack Conf 2018 in San Francisco. Learn about upcoming dates and locations at https://www.jamstackconf.com\nPresented by Netlify. Learn more at https://www.netlify.com",
-  "duration": {
-    "minutes": 31,
-    "seconds": 16
-  },
+  "duration": 1876,
   "id": "f5QYSdpMs6Y",
   "publishedAt": 1542237364,
   "ranking": {

@@ -1,14 +1,11 @@
 {
   "description": "",
-  "duration": {
-    "minutes": 11,
-    "seconds": 59
-  },
+  "duration": 719,
   "id": "31COiWAmZso",
   "publishedAt": 1602015300,
   "ranking": {
     "likes": 10,
-    "views": 614
+    "views": 615
   },
   "tags": [
     "Jamstack",

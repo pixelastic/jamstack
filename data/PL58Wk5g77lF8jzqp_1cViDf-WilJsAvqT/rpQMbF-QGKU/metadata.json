@@ -1,9 +1,6 @@
 {
   "description": "Jamstack is often considered a great solution for blogs and portfolios. But the fact is, we can do so much more. We can actually use Jamstack to develop feature rich apps! In this talk I will discuss how I created an open source Jamstack application that's designed to help diabetics manage blood sugars. We'll look at some of the services I used and how Serverless functions helped me deliver powerful functionality without a single web server in sight!\n\nThis talk is based on an article I posted on dev.to earlier this year: https://dev.to/jamieendeavour/managing-diabetes-with-jamstack-the-idea-2gi3\n\nThe post is about an idea I had to develop a web application that diabetics can deploy easily and use to assist with their treatment. My talk will show the audience that Jamstack is more than a way of developing “static websites”. I want the audience to see what they can achieve with a combination of services and tooling from the Jamstack ecosystem. I hope that my talk inspires the audience to go away and use some of these services/tools for their own ideas.",
-  "duration": {
-    "minutes": 10,
-    "seconds": 53
-  },
+  "duration": 653,
   "id": "rpQMbF-QGKU",
   "publishedAt": 1590611806,
   "ranking": {

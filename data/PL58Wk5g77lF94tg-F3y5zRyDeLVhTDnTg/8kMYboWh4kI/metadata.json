@@ -1,9 +1,6 @@
 {
   "description": "Adding a search engine to your new Jamstack project is often the first dynamic functionality on your TODO list. So, how do you help people find what they're looking for on your website? Let's find out! In this session, Dawid will navigate us through different Jamstack search recipes while exploring the boundaries of pre-rendering (and common sense). You'll learn how to pick the right solution and how to approach dynamic parts of your website in general.",
-  "duration": {
-    "minutes": 20,
-    "seconds": 22
-  },
+  "duration": 1222,
   "id": "8kMYboWh4kI",
   "publishedAt": 1602008101,
   "ranking": {

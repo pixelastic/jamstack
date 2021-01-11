@@ -1,14 +1,11 @@
 {
   "description": "",
-  "duration": {
-    "minutes": 32,
-    "seconds": 42
-  },
+  "duration": 1962,
   "id": "lFOfQsi5ye0",
   "publishedAt": 1571282122,
   "ranking": {
     "likes": 425,
-    "views": 10103
+    "views": 10104
   },
   "tags": [
     "JamConf_2019",

@@ -1,9 +1,6 @@
 {
   "description": "In 2018, Citrix product documentation (docs.citrix.com) moved from an expensive and brittle Adobe Experience Manager environment to a more flexible, affordable, and manageable stack. The new stack uses markdown source, Bitbucket for version control, Jekyll as our site generator, and Jenkins to build it all and deploy to Netlify. The new infrastructure is solid and lets us deliver content to several hundred thousand users every month, in 7 languages. All while supporting more than 50 full-time professional authors and numerous other employee contributors. And we do this with two full-time developers and one full-time site admin.\n\nRecorded at JAMstack_conf_nyc on April 9, 2019. Learn more about upcoming dates and locations at https://jamstackconf.com",
-  "duration": {
-    "minutes": 28,
-    "seconds": 46
-  },
+  "duration": 1726,
   "id": "kvS5h5domf0",
   "publishedAt": 1555598514,
   "ranking": {

@@ -1,14 +1,11 @@
 {
   "description": "Matt Biilmann, CEO and Co-founder of Netlify kicks off Jamstack Conf Virtual with a State of the Jamstack address. Learn about how far the technology has advanced in the last year, exciting new features, tools and services that have launched, as well as what's to come in the future for the Jamstack. \n\nPresented by Matt Biilmann, CEO and Co-founder, Netlify - https://twitter.com/biilmann \n\nBrought to you by Netlify (netlify.com) - Jamstack Conf Virtual 2020 https://jamstackconf.com",
-  "duration": {
-    "minutes": 20,
-    "seconds": 49
-  },
+  "duration": 1249,
   "id": "Z1uVLa2lmZY",
   "publishedAt": 1602021241,
   "ranking": {
     "likes": 124,
-    "views": 5549
+    "views": 5553
   },
   "tags": [
     "jamstackconf",

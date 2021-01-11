@@ -1,9 +1,6 @@
 {
   "description": "RedwoodJS is bringing full-stack to the Jamstack! Do you love the Jamstack philosophy but need a database-backed web app? Want great developer experience and easy scaling? Redwood is here! Built on React, GraphQL, and Prisma, Redwood works with the components and development workflow you love, but with simple conventions and helpers to make your experience even better.",
-  "duration": {
-    "minutes": 10,
-    "seconds": 31
-  },
+  "duration": 631,
   "id": "NWCECB-GlWI",
   "publishedAt": 1590611797,
   "ranking": {

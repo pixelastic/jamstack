@@ -1,14 +1,11 @@
 {
   "description": "Recorded at JAMstack_conf_london 2019. Learn about upcoming dates and locations at https://www.jamstackconf.com",
-  "duration": {
-    "minutes": 8,
-    "seconds": 39
-  },
+  "duration": 519,
   "id": "AHZjqYFfzyk",
   "publishedAt": 1564518545,
   "ranking": {
     "likes": 42,
-    "views": 2151
+    "views": 2152
   },
   "tags": [
     "jamstack",
