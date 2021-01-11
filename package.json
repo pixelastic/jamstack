@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "aberlaas": "1.14.0",
-    "algolia-indexing": "1.1.1",
+    "algolia-indexing": "1.2.0",
     "firost": "2.6.1",
     "golgoth": "2.0.0",
     "youtinx": "0.4.0"
