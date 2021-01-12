@@ -11,7 +11,7 @@
 
 "@algolia/cache-browser-local-storage@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.8.3.tgz#79cc502892c83f378b8f1a87f78020268806f5c3"
+  resolved "https://registry.npmjs.org/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.8.3.tgz#79cc502892c83f378b8f1a87f78020268806f5c3"
   integrity sha512-Cwc03hikHSUI+xvgUdN+H+f6jFyoDsC9fegzXzJ2nPn1YSN9EXzDMBnbrgl0sbl9iLGXe0EIGMYqR2giCv1wMQ==
   dependencies:
     "@algolia/cache-common" "4.8.3"
@@ -23,7 +23,7 @@
 
 "@algolia/cache-common@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/cache-common/-/cache-common-4.8.3.tgz#7aca2644159ec791921dc8b296817e5b532b3464"
+  resolved "https://registry.npmjs.org/@algolia/cache-common/-/cache-common-4.8.3.tgz#7aca2644159ec791921dc8b296817e5b532b3464"
   integrity sha512-Cf7zZ2i6H+tLSBTkFePHhYvlgc9fnMPKsF9qTmiU38kFIGORy/TN2Fx5n1GBuRLIzaSXvcf+oHv1HvU0u1gE1g==
 
 "@algolia/cache-in-memory@4.2.0":
@@ -35,7 +35,7 @@
 
 "@algolia/cache-in-memory@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/cache-in-memory/-/cache-in-memory-4.8.3.tgz#3d2692b895e9b8da47249b2b8dc638f53d6328ee"
+  resolved "https://registry.npmjs.org/@algolia/cache-in-memory/-/cache-in-memory-4.8.3.tgz#3d2692b895e9b8da47249b2b8dc638f53d6328ee"
   integrity sha512-+N7tkvmijXiDy2E7u1mM73AGEgGPWFmEmPeJS96oT46I98KXAwVPNYbcAqBE79YlixdXpkYJk41cFcORzNh+Iw==
   dependencies:
     "@algolia/cache-common" "4.8.3"
@@ -51,7 +51,7 @@
 
 "@algolia/client-account@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/client-account/-/client-account-4.8.3.tgz#4abc270dbd136644e69cc6b1ca1d0d14c9822aaf"
+  resolved "https://registry.npmjs.org/@algolia/client-account/-/client-account-4.8.3.tgz#4abc270dbd136644e69cc6b1ca1d0d14c9822aaf"
   integrity sha512-Uku8LqnXBwfDCtsTCDYTUOz2/2oqcAQCKgaO0uGdIR8DTQENBXFQvzziambHdn9KuFuY+6Et9k1+cjpTPBDTBg==
   dependencies:
     "@algolia/client-common" "4.8.3"
@@ -70,7 +70,7 @@
 
 "@algolia/client-analytics@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/client-analytics/-/client-analytics-4.8.3.tgz#578b6e6fa33818a0417298438066642e584e1de9"
+  resolved "https://registry.npmjs.org/@algolia/client-analytics/-/client-analytics-4.8.3.tgz#578b6e6fa33818a0417298438066642e584e1de9"
   integrity sha512-9ensIWmjYJprZ+YjAVSZdWUG05xEnbytENXp508X59tf34IMIX8BR2xl0RjAQODtxBdAteGxuKt5THX6U9tQLA==
   dependencies:
     "@algolia/client-common" "4.8.3"
@@ -88,7 +88,7 @@
 
 "@algolia/client-common@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-4.8.3.tgz#d8ea3368a5b98ce907e4be0eed804c3301cd91de"
+  resolved "https://registry.npmjs.org/@algolia/client-common/-/client-common-4.8.3.tgz#d8ea3368a5b98ce907e4be0eed804c3301cd91de"
   integrity sha512-TU3623AEFAWUQlDTznkgAMSYo8lfS9pNs5QYDQzkvzWdqK0GBDWthwdRfo9iIsfxiR9qdCMHqwEu+AlZMVhNSA==
   dependencies:
     "@algolia/requester-common" "4.8.3"
@@ -105,7 +105,7 @@
 
 "@algolia/client-recommendation@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/client-recommendation/-/client-recommendation-4.8.3.tgz#fc15688bf9d0fc0111a6c56d247e33dc3fcf8190"
+  resolved "https://registry.npmjs.org/@algolia/client-recommendation/-/client-recommendation-4.8.3.tgz#fc15688bf9d0fc0111a6c56d247e33dc3fcf8190"
   integrity sha512-qysGbmkcc6Agt29E38KWJq9JuxjGsyEYoKuX9K+P5HyQh08yR/BlRYrA8mB7vT/OIUHRGFToGO6Vq/rcg0NIOQ==
   dependencies:
     "@algolia/client-common" "4.8.3"
@@ -123,7 +123,7 @@
 
 "@algolia/client-search@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-4.8.3.tgz#c70e09935e2cf25da356d59794e6a5a95f9a4cc8"
+  resolved "https://registry.npmjs.org/@algolia/client-search/-/client-search-4.8.3.tgz#c70e09935e2cf25da356d59794e6a5a95f9a4cc8"
   integrity sha512-rAnvoy3GAhbzOQVniFcKVn1eM2NX77LearzYNCbtFrFYavG+hJI187bNVmajToiuGZ10FfJvK99X2OB1AzzezQ==
   dependencies:
     "@algolia/client-common" "4.8.3"
@@ -137,7 +137,7 @@
 
 "@algolia/logger-common@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/logger-common/-/logger-common-4.8.3.tgz#449e8767863466528de7d18017417b319e4782d3"
+  resolved "https://registry.npmjs.org/@algolia/logger-common/-/logger-common-4.8.3.tgz#449e8767863466528de7d18017417b319e4782d3"
   integrity sha512-03wksHRbhl2DouEKnqWuUb64s1lV6kDAAabMCQ2Du1fb8X/WhDmxHC4UXMzypeOGlH5BZBsgVwSB7vsZLP3MZg==
 
 "@algolia/logger-console@4.2.0":
@@ -149,7 +149,7 @@
 
 "@algolia/logger-console@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/logger-console/-/logger-console-4.8.3.tgz#e4bcda8ac6477ecf143a1d536be2b747b84b7047"
+  resolved "https://registry.npmjs.org/@algolia/logger-console/-/logger-console-4.8.3.tgz#e4bcda8ac6477ecf143a1d536be2b747b84b7047"
   integrity sha512-Npt+hI4UF8t3TLMluL5utr9Gc11BjL5kDnGZOhDOAz5jYiSO2nrHMFmnpLT4Cy/u7a5t7EB5dlypuC4/AGStkA==
   dependencies:
     "@algolia/logger-common" "4.8.3"
@@ -163,7 +163,7 @@
 
 "@algolia/requester-browser-xhr@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.8.3.tgz#f2fe880d261e33bce1c6d613be074fd87af9f7e6"
+  resolved "https://registry.npmjs.org/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.8.3.tgz#f2fe880d261e33bce1c6d613be074fd87af9f7e6"
   integrity sha512-/LTTIpgEmEwkyhn8yXxDdBWqXqzlgw5w2PtTpIwkSlP2/jDwdR/9w1TkFzhNbJ81ki6LAEQM5mSwoTTnbIIecg==
   dependencies:
     "@algolia/requester-common" "4.8.3"
@@ -175,7 +175,7 @@
 
 "@algolia/requester-common@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.8.3.tgz#633b6782ae3fcf1743507c0ef207db5c62737443"
+  resolved "https://registry.npmjs.org/@algolia/requester-common/-/requester-common-4.8.3.tgz#633b6782ae3fcf1743507c0ef207db5c62737443"
   integrity sha512-+Yo9vBkofoKR1SCqqtMnmnfq9yt/BiaDewY/6bYSMNxSYCnu2Fw1JKSIaf/4zos09PMSsxGpLohZwGas3+0GDQ==
 
 "@algolia/requester-node-http@4.2.0":
@@ -187,7 +187,7 @@
 
 "@algolia/requester-node-http@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-4.8.3.tgz#81c8e5d02f16a57cebfa2309a931fad6de84eb6d"
+  resolved "https://registry.npmjs.org/@algolia/requester-node-http/-/requester-node-http-4.8.3.tgz#81c8e5d02f16a57cebfa2309a931fad6de84eb6d"
   integrity sha512-k2fiKIeMIFqgC01FnzII6kqC2GQBAfbNaUX4k7QCPa6P8t4sp2xE6fImOUiztLnnL3C9X9ZX6Fw3L+cudi7jvQ==
   dependencies:
     "@algolia/requester-common" "4.8.3"
@@ -203,7 +203,7 @@
 
 "@algolia/transporter@4.8.3":
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/@algolia/transporter/-/transporter-4.8.3.tgz#6ad10b4be16653d667bb4727df27478931631fe8"
+  resolved "https://registry.npmjs.org/@algolia/transporter/-/transporter-4.8.3.tgz#6ad10b4be16653d667bb4727df27478931631fe8"
   integrity sha512-nU7fy2iU8snxATlsks0MjMyv97QJWQmOVwTjDc+KZ4+nue8CLcgm4LA4dsTBqvxeCQIoEtt3n72GwXcaqiJSjQ==
   dependencies:
     "@algolia/cache-common" "4.8.3"
@@ -1424,7 +1424,7 @@
 
 "@netlify/build@^8.0.0":
   version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-8.0.3.tgz#dcf2424c3b2f4767cdb27f510661f7c702be8347"
+  resolved "https://registry.npmjs.org/@netlify/build/-/build-8.0.3.tgz#dcf2424c3b2f4767cdb27f510661f7c702be8347"
   integrity sha512-ULtguXXvONPVD7P+Susz2ADP6BM+Mk4i3Ur7MfxdNpUYfgb66DBYH09lkrN2zvc8F1thx067HZ06xQ55g9UfvA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
@@ -1546,7 +1546,7 @@
 
 "@netlify/config@^2.4.3":
   version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-2.4.3.tgz#3f26f5c6b2b9d5481f1a74699cc79cf6cc968283"
+  resolved "https://registry.npmjs.org/@netlify/config/-/config-2.4.3.tgz#3f26f5c6b2b9d5481f1a74699cc79cf6cc968283"
   integrity sha512-Uz7Oo3tJP2VTgNgsJtRlwAhO5jTozkpNMCKALb814ssJKx7nE/4QvNxJPCQNBDXY9BSeXVIPfy0vMfshxatL+g==
   dependencies:
     array-flat-polyfill "^1.0.1"
@@ -1572,7 +1572,7 @@
 
 "@netlify/functions-utils@^1.3.4":
   version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-1.3.4.tgz#fe1baf2cb5278e31c89c1360eaafc5c876e12d5f"
+  resolved "https://registry.npmjs.org/@netlify/functions-utils/-/functions-utils-1.3.4.tgz#fe1baf2cb5278e31c89c1360eaafc5c876e12d5f"
   integrity sha512-AkVd03D6K7Uwli+t5xTMm5c1jn1HRFY3YgslLV91huHI++3CjOsGpsnDfhoN2kj1aN8OLqliTOvs4PQHC2dKpw==
   dependencies:
     "@netlify/zip-it-and-ship-it" "^2.0.0"
@@ -1597,7 +1597,7 @@
 
 "@netlify/open-api@^1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-1.0.0.tgz#b68c426ee60b2adb28084b3058731dc6b59a5bd6"
+  resolved "https://registry.npmjs.org/@netlify/open-api/-/open-api-1.0.0.tgz#b68c426ee60b2adb28084b3058731dc6b59a5bd6"
   integrity sha512-LAicAlsAZXybGtKzaOTmIYelSe82vgZlc17IeNUQxab2IlUCH7VhTKCx9EyJEgiXhLvmYoOjuYE1Ee9ZsnrybA==
 
 "@netlify/plugin-edge-handlers@^1.10.0", "@netlify/plugin-edge-handlers@^1.8.0":
@@ -1626,7 +1626,7 @@
 
 "@netlify/plugins-list@^2.0.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-2.2.0.tgz#7acddd23e6b1c920d48264f1f4d51ae3866e5c4e"
+  resolved "https://registry.npmjs.org/@netlify/plugins-list/-/plugins-list-2.2.0.tgz#7acddd23e6b1c920d48264f1f4d51ae3866e5c4e"
   integrity sha512-8OCwatZIPsyze2KZ8fj21/+luzdTA78fxQ6p7UFLE9IRJlZqCRVXtgiIVd/HtEr6B9OacywX3fV1hVRBVlbmDA==
 
 "@netlify/run-utils@^1.0.5":
@@ -1688,7 +1688,7 @@
 
 "@netlify/zip-it-and-ship-it@^2.0.0":
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-2.0.2.tgz#9c98927c6b9640bd152bccd4a10bc4f88545a28d"
+  resolved "https://registry.npmjs.org/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-2.0.2.tgz#9c98927c6b9640bd152bccd4a10bc4f88545a28d"
   integrity sha512-jFUrHXs9b6VP52mey2jY0C6T37IbVPPKNRLGIlKxLJS+fg59MhjIr81kMLHlAw3TBKpOubCcTa91g4qzts/Y/w==
   dependencies:
     archiver "^4.0.0"
@@ -2825,7 +2825,7 @@ algolia-indexing@1.2.0:
 
 algoliasearch-helper@^3.3.4:
   version "3.3.4"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.3.4.tgz#4a3c56d42a2a81589d5722b73653b2deaf3e7064"
+  resolved "https://registry.npmjs.org/algoliasearch-helper/-/algoliasearch-helper-3.3.4.tgz#4a3c56d42a2a81589d5722b73653b2deaf3e7064"
   integrity sha512-1Ts2XcgGdjGlDrp3v6zbY8VW+X9+jJ5rBmtPBmXOQLd4b5t/LpJlaBdxoAnlMfVFjywP7KSAdmyFUNNYVHDyRQ==
   dependencies:
     events "^1.1.1"
@@ -2852,7 +2852,7 @@ algoliasearch@4.2.0:
 
 algoliasearch@4.8.3:
   version "4.8.3"
-  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.8.3.tgz#f76b824423e4264506fb6ba6a6709feb08ab9954"
+  resolved "https://registry.npmjs.org/algoliasearch/-/algoliasearch-4.8.3.tgz#f76b824423e4264506fb6ba6a6709feb08ab9954"
   integrity sha512-pljX9jEE2TQ3i1JayhG8afNdE8UuJg3O9c7unW6QO67yRWCKr6b0t5aKC3hSVtjt7pA2TQXLKoAISb4SHx9ozQ==
   dependencies:
     "@algolia/cache-browser-local-storage" "4.8.3"
@@ -2945,7 +2945,7 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0, ansi-styles@^4.2.0:
 
 ansi-styles@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-5.0.0.tgz#675dbbb5ca1908fa90abe4e5b1c2e9b1f4080d99"
+  resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.0.0.tgz#675dbbb5ca1908fa90abe4e5b1c2e9b1f4080d99"
   integrity sha512-6564t0m0fuQMnockqBv7wJxo9T5C2V9JpYXyNScfRDPVLusOQQhkpMGrFC17QbiolraQ1sMXX+Y5nJpjqozL4g==
 
 ansicolors@~0.3.2:
@@ -3046,7 +3046,7 @@ argparse@^1.0.7:
 
 argparse@^2.0.1:
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  resolved "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
 arr-diff@^4.0.0:
@@ -3223,7 +3223,7 @@ atob@^2.1.2:
 
 autoprefixer@10.1.0:
   version "10.1.0"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.1.0.tgz#b19fd8524edef8c85c9db3bdb0c998de84e172fb"
+  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.1.0.tgz#b19fd8524edef8c85c9db3bdb0c998de84e172fb"
   integrity sha512-0/lBNwN+ZUnb5su18NZo5MBIjDaq6boQKZcxwy86Gip/CmXA2zZqUoFQLCNAGI5P25ZWSP2RWdhDJ8osfKEjoQ==
   dependencies:
     browserslist "^4.15.0"
@@ -3625,7 +3625,7 @@ browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.14.6:
 
 browserslist@^4.15.0:
   version "4.16.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.1.tgz#bf757a2da376b3447b800a16f0f1c96358138766"
+  resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.16.1.tgz#bf757a2da376b3447b800a16f0f1c96358138766"
   integrity sha512-UXhDrwqsNcpTYJBTZsbGATDxZbiVDsx6UjpmRUmtnP10pr8wAYr5LgFoEFw9ixriQH2mv/NX2SfGzE/o8GndLA==
   dependencies:
     caniuse-lite "^1.0.30001173"
@@ -3881,7 +3881,7 @@ caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001157:
 
 caniuse-lite@^1.0.30001165, caniuse-lite@^1.0.30001173:
   version "1.0.30001174"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001174.tgz#0f2aca2153fd88ceb07a2bb982fc2acb787623c4"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001174.tgz#0f2aca2153fd88ceb07a2bb982fc2acb787623c4"
   integrity sha512-tqClL/4ThQq6cfFXH3oJL4rifFBeM6gTkphjao5kgwMaW9yn0tKgQLAEfKzDwj6HQWCB/aWo8kTFlSvIN8geEA==
 
 capture-exit@^2.0.0:
@@ -5377,7 +5377,7 @@ electron-to-chromium@^1.3.591:
 
 electron-to-chromium@^1.3.634:
   version "1.3.636"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.636.tgz#6980bd90813a9fb744e43f5e848f16cea4930058"
+  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.636.tgz#6980bd90813a9fb744e43f5e848f16cea4930058"
   integrity sha512-Adcvng33sd3gTjNIDNXGD1G4H6qCImIy2euUJAQHtLNplEKU5WEz5KRJxupRNIIT8sD5oFZLTKBWAf12Bsz24A==
 
 elegant-spinner@^1.0.1:
@@ -5387,7 +5387,7 @@ elegant-spinner@^1.0.1:
 
 elf-cam@^0.1.1:
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/elf-cam/-/elf-cam-0.1.1.tgz#46883b10835ed9e417860636a870d57490ce9eda"
+  resolved "https://registry.npmjs.org/elf-cam/-/elf-cam-0.1.1.tgz#46883b10835ed9e417860636a870d57490ce9eda"
   integrity sha512-tKSFTWOp5OwJSp6MKyQDX7umYDkvUuI8rxHXw8BuUQ63d9Trj9xLeo6SHyoTGSoZNNZVitFa+RuHHXuoAzN3Rw==
 
 elf-tools@^1.1.1:
@@ -6484,7 +6484,7 @@ forwarded@~0.1.2:
 
 fraction.js@^4.0.12:
   version "4.0.13"
-  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.0.13.tgz#3c1c315fa16b35c85fffa95725a36fa729c69dfe"
+  resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.0.13.tgz#3c1c315fa16b35c85fffa95725a36fa729c69dfe"
   integrity sha512-E1fz2Xs9ltlUp+qbiyx9wmt2n9dRzPsS11Jtdb8D2o+cC7wr9xkkKsVKJuBX0ST+LVS+LhLO+SbLJNtfWcJvXA==
 
 fragment-cache@^0.2.1:
@@ -7623,7 +7623,7 @@ inquirer@^6.2.1, inquirer@^6.5.1:
 
 instantsearch.js@4.9.2:
   version "4.9.2"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.9.2.tgz#fecdbbae0d1e09b47c7a04a374c6fbd768488984"
+  resolved "https://registry.npmjs.org/instantsearch.js/-/instantsearch.js-4.9.2.tgz#fecdbbae0d1e09b47c7a04a374c6fbd768488984"
   integrity sha512-k8aMBe2UiRw8XIaHXgOfJckND95GTT49O78bKc1H9ySTRxX0ttkLz00JpWwgUNyzu4N5ZXrFOya/aOEZJbIzrQ==
   dependencies:
     "@types/googlemaps" "^3.39.6"
@@ -8039,7 +8039,7 @@ is-typedarray@^1.0.0, is-typedarray@~1.0.0:
 
 is-url-superb@5.0.0:
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/is-url-superb/-/is-url-superb-5.0.0.tgz#8b3c0ce1ceacaa7561fefb9510018106091dccf5"
+  resolved "https://registry.npmjs.org/is-url-superb/-/is-url-superb-5.0.0.tgz#8b3c0ce1ceacaa7561fefb9510018106091dccf5"
   integrity sha512-jGkG59ra7/JlcV8ap3dsc0M79IgpuFU/obfsSf6X5D0z1NVvFTFuzt4ob7nfBTZEPbTwjGXVKNQDfWfPghapKQ==
 
 is-url-superb@^4.0.0:
@@ -8664,7 +8664,7 @@ js-yaml@^3.10.0, js-yaml@^3.13.1, js-yaml@^3.14.0:
 
 js-yaml@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.0.0.tgz#f426bc0ff4b4051926cd588c71113183409a121f"
+  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-4.0.0.tgz#f426bc0ff4b4051926cd588c71113183409a121f"
   integrity sha512-pqon0s+4ScYUvX30wxQi3PogGFAlUyH0awepWvwkj4jD4v+ova3RiYw8bmA6x2rDrEaj8i/oWKoRxpVNW+Re8Q==
   dependencies:
     argparse "^2.0.1"
@@ -9565,7 +9565,7 @@ map-visit@^1.0.0:
 
 markdown-it-highlightjs@3.4.0:
   version "3.4.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-highlightjs/-/markdown-it-highlightjs-3.4.0.tgz#1a75edd02f9e564f800052eac2b5aefa8230f8d4"
+  resolved "https://registry.npmjs.org/markdown-it-highlightjs/-/markdown-it-highlightjs-3.4.0.tgz#1a75edd02f9e564f800052eac2b5aefa8230f8d4"
   integrity sha512-JES5P8ll3Vpf6a4C0FlsaO1opOaH53Rbvphj2IAON29v33cHNUiwXBSaC+bThUiLp6m3UEZ4vv579CHSElWSdw==
   dependencies:
     highlight.js "^10.2.0"
@@ -9573,7 +9573,7 @@ markdown-it-highlightjs@3.4.0:
 
 markdown-it@12.0.3:
   version "12.0.3"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.3.tgz#8d1e47daf1d716d63610495eb93f6665573e4abe"
+  resolved "https://registry.npmjs.org/markdown-it/-/markdown-it-12.0.3.tgz#8d1e47daf1d716d63610495eb93f6665573e4abe"
   integrity sha512-M57RsMv+QQmJHz1yCu0gTJRMx/LlxRPtrrw+2kb/CpDVK/graCmWO0qfNnz/SE1FCNdyq3pkMMZ+itTnyT/YGA==
   dependencies:
     argparse "^2.0.1"
@@ -10012,7 +10012,7 @@ multer@1.4.2:
 
 multimatch@5.0.0:
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/multimatch/-/multimatch-5.0.0.tgz#932b800963cea7a31a033328fa1e0c3a1874dbe6"
+  resolved "https://registry.npmjs.org/multimatch/-/multimatch-5.0.0.tgz#932b800963cea7a31a033328fa1e0c3a1874dbe6"
   integrity sha512-ypMKuglUrZUD99Tk2bUQ+xNQj43lPEfAeX2o9cTteAmShXy2VHDJpuwu1o0xqoKCt9jLVAvwyFKdLTPXKAfJyA==
   dependencies:
     "@types/minimatch" "^3.0.3"
@@ -10109,7 +10109,7 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
 
 netlify-cli@2.69.9:
   version "2.69.9"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.69.9.tgz#de24fa8b7da38ca0cd5884cd292cf04c82fa604a"
+  resolved "https://registry.npmjs.org/netlify-cli/-/netlify-cli-2.69.9.tgz#de24fa8b7da38ca0cd5884cd292cf04c82fa604a"
   integrity sha512-r6EtcRN3pRC9Tp3D/xAX7Em/vUZuKGp1IQ8ZL8J6VrQzgyfpBu/iJUSmA9yprTh8ltAt2TzkLkn2DDh3+X4OAg==
   dependencies:
     "@netlify/build" "^8.0.0"
@@ -10227,7 +10227,7 @@ netlify-redirector@^0.2.0:
 
 netlify@6.0.4:
   version "6.0.4"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-6.0.4.tgz#47b1520ab46e69d9e089450bc23f9ca671a79677"
+  resolved "https://registry.npmjs.org/netlify/-/netlify-6.0.4.tgz#47b1520ab46e69d9e089450bc23f9ca671a79677"
   integrity sha512-Goylx3roCtDngqsIRVPddAWvFieH9p6eaYUqK86fS5UJWAuFipnEJnF61SCI1HMbP+MKkkJU0dlmy5mBJcywTg==
   dependencies:
     "@netlify/open-api" "^1.0.0"
@@ -10283,9 +10283,9 @@ netlify@^4.1.7, netlify@^4.5.1:
     through2-map "^3.0.0"
 
 netlify@^6.0.0:
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-6.0.11.tgz#b427a2e029886fef0d49bab74e9e3201e491bec0"
-  integrity sha512-PatzLn+8CokVHofuyXdFs1lDvNcMONwkK/VqvadOtQhL9/T2T+v/Mf+q5L5bQvRydV1PlofFK2+RT02owVCWWA==
+  version "6.0.12"
+  resolved "https://registry.npmjs.org/netlify/-/netlify-6.0.12.tgz#e1feb3eb677349098261f22e2ca763804f12ef15"
+  integrity sha512-WAOvHMmd4E/SF8wagbbg0/HV2CXNsmKHvqxJ1carJ6eX1xhqtvLs5xjNL6fFqajj8Qmyl02YmHIq3eb6yyFRWA==
   dependencies:
     "@netlify/open-api" "^1.0.0"
     "@netlify/zip-it-and-ship-it" "^2.0.0"
@@ -10396,7 +10396,7 @@ node-releases@^1.1.66:
 
 node-releases@^1.1.69:
   version "1.1.69"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.69.tgz#3149dbde53b781610cd8b486d62d86e26c3725f6"
+  resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.69.tgz#3149dbde53b781610cd8b486d62d86e26c3725f6"
   integrity sha512-DGIjo79VDEyAnRlfSqYTsy+yoHd2IOjJiKUozD2MV2D85Vso6Bug56mb9tT/fY5Urt0iqk01H7x+llAruDR2zA==
 
 node-source-walk@^4.0.0, node-source-walk@^4.2.0:
@@ -10502,7 +10502,7 @@ normalize.css@^8.0.1:
 
 norska-assets@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-assets/-/norska-assets-1.9.0.tgz#b2176becf3530eda794ef68d300e6fe5907a0a4b"
+  resolved "https://registry.npmjs.org/norska-assets/-/norska-assets-1.9.0.tgz#b2176becf3530eda794ef68d300e6fe5907a0a4b"
   integrity sha512-1r5/6L6r4kaUbyBVRu63VfrfoU52rklFgoFVcMyiP+rJwnFkjFKmytLmxLsV2b5LU/+CtMM1JTcqY6DYOh3toQ==
   dependencies:
     firost "2.6.1"
@@ -10511,7 +10511,7 @@ norska-assets@^1.9.0:
 
 norska-cms@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-1.9.0.tgz#b440e3a8fcd628f1da49cba426ac904ad59d7590"
+  resolved "https://registry.npmjs.org/norska-cms/-/norska-cms-1.9.0.tgz#b440e3a8fcd628f1da49cba426ac904ad59d7590"
   integrity sha512-yddpe/cfIP45tNUwjNf8WA8hSKIdvx1FhqoVcM19bhVwfs6db9hrph2yBD30TW9U1j4X5PfaaGjHaaOCnCoH/w==
   dependencies:
     connect-livereload "0.6.1"
@@ -10528,7 +10528,7 @@ norska-cms@^1.9.0:
 
 norska-config@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-config/-/norska-config-1.9.0.tgz#51d325f1730c1eaa4f8a4aa4fb1cea4433c26a6a"
+  resolved "https://registry.npmjs.org/norska-config/-/norska-config-1.9.0.tgz#51d325f1730c1eaa4f8a4aa4fb1cea4433c26a6a"
   integrity sha512-+Iw6O+xqUic0qiSaafnuOFA9OKa22GouQB7ebVpbCGeF7X1d5QGsIzflaRcesFebpKEgwWbt4NOOReMtudnGpw==
   dependencies:
     firost "2.6.1"
@@ -10538,7 +10538,7 @@ norska-config@^1.9.0:
 
 norska-css@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-css/-/norska-css-1.9.0.tgz#825d5f50760e23ac3c776bb5729c0aaf4d4dcb9e"
+  resolved "https://registry.npmjs.org/norska-css/-/norska-css-1.9.0.tgz#825d5f50760e23ac3c776bb5729c0aaf4d4dcb9e"
   integrity sha512-RLulUTzLN1P1JD8syVDeLWAOpZZ+9g/Iwhki4NBckMkKD4M+NUJYefH1ggpiiasOxWePTc7/9IR46DTrKnrEVg==
   dependencies:
     "@tailwindcss/typography" "0.2.0"
@@ -10556,7 +10556,7 @@ norska-css@^1.9.0:
 
 norska-data@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-data/-/norska-data-1.9.0.tgz#1e07f0e2c936f0a223798dd0a8c0ca9aa369054f"
+  resolved "https://registry.npmjs.org/norska-data/-/norska-data-1.9.0.tgz#1e07f0e2c936f0a223798dd0a8c0ca9aa369054f"
   integrity sha512-vskwv7SY0lOGvBRmqntoLc66KpzTwuOaGUl11DnFqZtIl+OjZFBmPJJRIAT8orxBVGJh62YUHi+Is1a+vuQr5A==
   dependencies:
     firost "2.6.1"
@@ -10565,7 +10565,7 @@ norska-data@^1.9.0:
 
 norska-frontend@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-frontend/-/norska-frontend-1.9.0.tgz#ce09a48050f19a26fb733d0e6413f5b6136409d8"
+  resolved "https://registry.npmjs.org/norska-frontend/-/norska-frontend-1.9.0.tgz#ce09a48050f19a26fb733d0e6413f5b6136409d8"
   integrity sha512-MOIfqbCvmVLCc6PgO0uFFDaEfTB8I/DW79pcJFNp0h0Cd6NiyMHFDZbYnsGwhWS6MTJZuYcDSzbnx85+8np/Ow==
   dependencies:
     algoliasearch "4.8.3"
@@ -10576,7 +10576,7 @@ norska-frontend@^1.9.0:
 
 norska-helper@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-helper/-/norska-helper-1.9.0.tgz#d87660228f4b828cb931542baf188ebd06e291c3"
+  resolved "https://registry.npmjs.org/norska-helper/-/norska-helper-1.9.0.tgz#d87660228f4b828cb931542baf188ebd06e291c3"
   integrity sha512-BN9+U7O+azbC+r4ztYnh+n4zXpUc/pE2EBk2smEWK5Gcw4izKl9hD4gkUvMwU+LtYVVyRssj49RM7514I3fpQQ==
   dependencies:
     firost "2.6.1"
@@ -10584,7 +10584,7 @@ norska-helper@^1.9.0:
 
 norska-html@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-1.9.0.tgz#554c4bf610323bc90f7c2baf7bd13035728d273c"
+  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.9.0.tgz#554c4bf610323bc90f7c2baf7bd13035728d273c"
   integrity sha512-MSmzDRkdIUr2+/oUnK+d23I4rjdtiZQt0JajQCkdTRl+sSVZlxDVSGglmwPuX6F3ZTI/hyGnbaJwWuZojC26OA==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
@@ -10612,7 +10612,7 @@ norska-image-proxy@^1.5.2:
 
 norska-init@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-init/-/norska-init-1.9.0.tgz#820b3653e9f3177765bd5d0949068ebe76e1c227"
+  resolved "https://registry.npmjs.org/norska-init/-/norska-init-1.9.0.tgz#820b3653e9f3177765bd5d0949068ebe76e1c227"
   integrity sha512-akmmJcjuDgPwIjOAgeg5OdEHssB9e9hMFEa009zr47dx1mPzngCFnqecokz+5EiIaGKvd1G2H6MnNI3K57dg7g==
   dependencies:
     firost "2.6.1"
@@ -10622,7 +10622,7 @@ norska-init@^1.9.0:
 
 norska-js@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-js/-/norska-js-1.9.0.tgz#3a14d0002a38c4744bd4ab462f9337472685e474"
+  resolved "https://registry.npmjs.org/norska-js/-/norska-js-1.9.0.tgz#3a14d0002a38c4744bd4ab462f9337472685e474"
   integrity sha512-1I7YR3SoqRovRjos0sC26l2cTS43hTePRdbJa5KKrOTgvwgUwUJRvv66uYqkYqmsw4FjCOc3tENrpLfEQNmQhg==
   dependencies:
     firost "2.6.1"
@@ -10634,7 +10634,7 @@ norska-js@^1.9.0:
 
 norska-netlify@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-netlify/-/norska-netlify-1.9.0.tgz#153a95177c4d1e14d0040e20bfef2586660bd8e9"
+  resolved "https://registry.npmjs.org/norska-netlify/-/norska-netlify-1.9.0.tgz#153a95177c4d1e14d0040e20bfef2586660bd8e9"
   integrity sha512-Ennkiki4dKJOG5icOgTyW1zfRLiYx1m+WljeJGYVtCJZvHz9szCxWxw8sZP1EaI7peMo1aEJM9ooe1Tx+lWtnw==
   dependencies:
     firost "2.6.1"
@@ -10647,7 +10647,7 @@ norska-netlify@^1.9.0:
 
 norska-revv@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-revv/-/norska-revv-1.9.0.tgz#f7aa25b1d7f3f7dddca08e64a63ff333bb2e323e"
+  resolved "https://registry.npmjs.org/norska-revv/-/norska-revv-1.9.0.tgz#f7aa25b1d7f3f7dddca08e64a63ff333bb2e323e"
   integrity sha512-okz6SCWVV5cv6t52xjHqcXHQRP+9//ff+CfY5Fjt9n7zB67zlK625TrYAhUa7EptDCx9HSGDYRpdwrH4MKp43Q==
   dependencies:
     firost "2.6.1"
@@ -10661,14 +10661,14 @@ norska-theme-default@^1.7.0:
   resolved "https://registry.yarnpkg.com/norska-theme-default/-/norska-theme-default-1.7.0.tgz#7092da95a13646c891fa16ffd72d5a1d16dee4e4"
   integrity sha512-pSVikq2ZSBfiOCOBtAmZzrrPbv5gF9XZOHEyCuW6NLT2RH4w340qeLr1TxhjMKrKvfKb4aVPR7LplKd/78s/+g==
 
-norska-theme-search@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/norska-theme-search/-/norska-theme-search-0.0.3.tgz#7f9d9d4fc3b07ce2a85a88c779acceedafc48a2e"
-  integrity sha512-RM5k0+XSIKNlrkIXEW+ObfNqybsAYqOnK7WLol/d7wLgjudH5qaWRbWgXV4cHpo7TuEWxUnVofEUwReV4AxsGA==
+norska-theme-search@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/norska-theme-search/-/norska-theme-search-0.0.4.tgz#34a9ac7bfaec14c54643d7fcae6c21a2dc966aac"
+  integrity sha512-FDQvzjhzN+yNvvpoCCduuZ1sapLX9a8NblwqFN2YfmBNLLPy95LvBVoitw60lKSnM4fwlPcUj5HCSkuRcyb0BA==
 
 norska@1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-1.9.0.tgz#9efae05b993ecdbd1fb3ea44e3458f578f52eec2"
+  resolved "https://registry.npmjs.org/norska/-/norska-1.9.0.tgz#9efae05b993ecdbd1fb3ea44e3458f578f52eec2"
   integrity sha512-dOnjra1+mwh5LQUyiuBYJJOKLvADaQVKhh+NujsH6mgjgMHbU0HC9/qRz/yB6tPOzAPAfuZpjS0nTnrJOky4hQ==
   dependencies:
     firost "2.6.1"
@@ -13022,7 +13022,7 @@ slice-ansi@^4.0.0:
 
 slug@4.0.2:
   version "4.0.2"
-  resolved "https://registry.yarnpkg.com/slug/-/slug-4.0.2.tgz#35a62b4e71582778ac08bb30a1bf439fd0a43ea7"
+  resolved "https://registry.npmjs.org/slug/-/slug-4.0.2.tgz#35a62b4e71582778ac08bb30a1bf439fd0a43ea7"
   integrity sha512-c5XbWkwxHU13gAdSvBHQgnGy2sxv/REMz0ugcM0SOSBCO/N4wfU0TDBC3pgdOwVGjZwGnLBTRljXzdVYE+KYNw==
 
 snapdragon-node@^2.0.1:

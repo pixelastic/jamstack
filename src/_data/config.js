@@ -1,7 +1,7 @@
 module.exports = {
   algolia: {
-    appId: 'O3F8QXYK6R',
-    indexName: 'jamstackconf-search',
-    apiKey: '641a9335403e12d59b52ef6191677676',
+    appId: 'VGOL4P01VV',
+    indexName: 'jamstack',
+    apiKey: '73774db564eba36dec5d27b17e981c56',
   },
 };
