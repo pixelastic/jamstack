@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "norska": "1.9.0",
+    "norska": "1.10.0",
     "norska-theme-search": "0.0.4",
     "numeral": "2.0.6",
     "pretty-ms": "7.0.1"
