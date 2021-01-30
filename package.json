@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "norska": "1.10.0",
-    "norska-theme-search": "0.0.4",
+    "norska-theme-search": "0.0.5",
     "numeral": "2.0.6",
     "pretty-ms": "7.0.1"
   },
