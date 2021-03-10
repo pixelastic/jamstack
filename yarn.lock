@@ -9302,6 +9302,11 @@ lodash-es@4.17.15:
   resolved "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
   integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
 
+lodash-es@4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -10720,10 +10725,12 @@ norska-theme-default@^1.11.0:
   resolved "https://registry.yarnpkg.com/norska-theme-default/-/norska-theme-default-1.11.0.tgz#effc8529a9163f4e6d2a627b30d915baea2bf4fa"
   integrity sha512-cIhg+7uG5syVbnNJnrnNWunTQJ76fJb9PTfB2Iy4RXu46M+basLVy5nBnNX0LkT1ouVLv8c+8DHUniVfVthyjA==
 
-norska-theme-search@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/norska-theme-search/-/norska-theme-search-0.1.0.tgz#c0fd0408dc5a5d51bb518eff6b9beb98d4820109"
-  integrity sha512-XuluJJ/FDQoEpahua3l81ULg26wCehPEmgywzHIvPI0M9zF7/7niy8ZxefyT08D3O1FLbhd9I0CxWagR1dmrPw==
+norska-theme-search@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/norska-theme-search/-/norska-theme-search-0.4.0.tgz#c1e52b33672aeaa2507edf51046b635a7ea82bc3"
+  integrity sha512-S3I+rTxTnwWrdqC5CuWUDE0vLbvyM1zrt3mwZdS0mw3I1XVh16Z5VXhop8dASQQJ6nCg9nsGJjxtgITaqaOHKA==
+  dependencies:
+    lodash-es "4.17.21"
 
 norska@1.13.0:
   version "1.13.0"
